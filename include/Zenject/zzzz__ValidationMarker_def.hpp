@@ -48,22 +48,22 @@ public:
 
   constexpr void __cordl_internal_set__MarkedType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4ac08cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad4fe4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType);
 
-  /// @brief Method .ctor, addr 0x4adb8a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aeffbc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType, bool instantiateFailed);
 
-  /// @brief Method get_InstantiateFailed, addr 0x4adb8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateFailed, addr 0x4aefff0, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateFailed();
 
-  /// @brief Method get_MarkedType, addr 0x4adb8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkedType, addr 0x4af0004, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MarkedType();
 
-  /// @brief Method set_InstantiateFailed, addr 0x4adb8e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_InstantiateFailed, addr 0x4aefff8, size 0xc, virtual false, abstract: false, final false
   inline void set_InstantiateFailed(bool value);
 
-  /// @brief Method set_MarkedType, addr 0x4adb8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MarkedType, addr 0x4af000c, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkedType(::System::Type* value);
 
 protected:
@@ -87,7 +87,7 @@ public:
   ::System::Type* ____MarkedType_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12670 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,22 +31,22 @@ namespace System::ComponentModel {
 class CORDL_TYPE GuidConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x43dccf4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x43f140c, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x43dcdbc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x43f14d4, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x43dce84, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x43f159c, size 0xe0, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x43dcf64, size 0x320, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x43f167c, size 0x320, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::ComponentModel::GuidConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43dd284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43f199c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   GuidConverter(GuidConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

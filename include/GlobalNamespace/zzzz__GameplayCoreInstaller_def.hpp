@@ -117,13 +117,13 @@ public:
   /// @brief Field _songTimeTweeningManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
 
-  /// @brief Method GetEnvironmentInfoSource, addr 0x3b7a01c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentInfoSource, addr 0x3b8fb94, size 0x90, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetEnvironmentInfoSource(::GlobalNamespace::BeatmapKey beatmapKey);
 
-  /// @brief Method InstallBindings, addr 0x3b788c4, size 0x1660, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b8e3c4, size 0x16d8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallRecordingTool, addr 0x3b79f24, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InstallRecordingTool, addr 0x3b8fa9c, size 0xf8, virtual false, abstract: false, final false
   inline void InstallRecordingTool();
 
   static inline ::GlobalNamespace::GameplayCoreInstaller* New_ctor();
@@ -212,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set__songTimeTweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b7a0ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8fc24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -272,7 +272,7 @@ public:
   ::GlobalNamespace::EnvironmentsListModel* ____environmentsListModel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4703 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

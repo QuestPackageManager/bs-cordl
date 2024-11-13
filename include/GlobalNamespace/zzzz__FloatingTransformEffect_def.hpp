@@ -101,18 +101,18 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method GetPoint, addr 0x3b07900, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x3b1cc90, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(float_t time);
 
   static inline ::GlobalNamespace::FloatingTransformEffect* New_ctor();
 
-  /// @brief Method Refresh, addr 0x3b076d8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3b1ca68, size 0xd8, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Start, addr 0x3b076a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b1ca30, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Tick, addr 0x3b077b0, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x3b1cb40, size 0x150, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr float_t const& __cordl_internal_get__amplitudeX() const;
@@ -247,7 +247,7 @@ public:
 
   constexpr void __cordl_internal_set__zFrequency(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3b0798c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1cd1c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::ITickable"
@@ -334,7 +334,7 @@ public:
   ::UnityEngine::Quaternion ____targetRotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4197 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

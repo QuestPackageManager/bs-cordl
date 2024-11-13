@@ -156,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set_WhiteSpace(::System::Xml::Schema::XmlSchemaWhiteSpace value);
 
-  /// @brief Method .ctor, addr 0x432a898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x433efb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -216,7 +216,7 @@ public:
   ::System::Xml::Schema::RestrictionFlags ___FixedFlags;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7491 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

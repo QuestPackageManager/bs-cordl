@@ -93,7 +93,7 @@ template <typename TParam1, typename TParam2, typename TContract>
 constexpr void
 Zenject::__FactoryFromBinder_3____c__DisplayClass1_0<TParam1, TParam2, TContract>::__cordl_internal_set_method(::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TContract>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___method, value);
 }
 template <typename TParam1, typename TParam2, typename TContract>
 inline ::Zenject::__FactoryFromBinder_3____c__DisplayClass1_0<TParam1, TParam2, TContract>* Zenject::__FactoryFromBinder_3____c__DisplayClass1_0<TParam1, TParam2, TContract>::New_ctor() {

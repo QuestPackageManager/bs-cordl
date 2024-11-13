@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_creatorType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x442a544, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443ec5c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
 
-  /// @brief Method get_Creator, addr 0x442a344, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method get_Creator, addr 0x443ea5c, size 0x1f8, virtual false, abstract: false, final false
   inline ::System::Net::IWebRequestCreate* get_Creator();
 
-  /// @brief Method set_Creator, addr 0x442a53c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Creator, addr 0x443ec54, size 0x8, virtual false, abstract: false, final false
   inline void set_Creator(::System::Net::IWebRequestCreate* value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   ::System::Type* ___creatorType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9568 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

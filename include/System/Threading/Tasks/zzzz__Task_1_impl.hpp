@@ -70,7 +70,7 @@ template <typename TResult> constexpr TResult const& System::Threading::Tasks::T
 }
 template <typename TResult> constexpr void System::Threading::Tasks::Task_1<TResult>::__cordl_internal_set_m_result(TResult value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_result)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_result, value);
 }
 template <typename TResult> inline void System::Threading::Tasks::Task_1<TResult>::setStaticF_s_defaultFactory(::System::Threading::Tasks::TaskFactory_1<TResult>* value) {
   ::cordl_internals::setStaticField<::System::Threading::Tasks::TaskFactory_1<TResult>*, "s_defaultFactory",

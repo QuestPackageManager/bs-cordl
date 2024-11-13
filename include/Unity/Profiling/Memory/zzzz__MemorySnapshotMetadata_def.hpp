@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__Description_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x47e88b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fcfc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Data, addr 0x47e88a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x47fcfc0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Data();
 
-  /// @brief Method get_Description, addr 0x47e8898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x47fcfb0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
-  /// @brief Method set_Description, addr 0x47e88a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Description, addr 0x47fcfb8, size 0x8, virtual false, abstract: false, final false
   inline void set_Description(::StringW value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____Data_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10536 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10541 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

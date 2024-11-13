@@ -45,37 +45,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*();
 
-  /// @brief Method Equals, addr 0x484c698, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4860db0, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x484c600, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4860d18, size 0x98, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderTargetIdentifier rhs);
 
-  /// @brief Method GetHashCode, addr 0x484c5b4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4860ccc, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x484c30c, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4860a24, size 0x2a8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x484c144, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486085c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t nameID);
 
-  /// @brief Method .ctor, addr 0x484c164, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486087c, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture* tex);
 
-  /// @brief Method .ctor, addr 0x484c124, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486083c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::BuiltinRenderTextureType type);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>* i___System__IEquatable_1___UnityEngine__Rendering__RenderTargetIdentifier_();
 
-  /// @brief Method op_Implicit, addr 0x484c2a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48609c0, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(int32_t nameID);
 
-  /// @brief Method op_Implicit, addr 0x484c2c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48609dc, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Texture* tex);
 
-  /// @brief Method op_Implicit, addr 0x484c284, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x486099c, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderTargetIdentifier op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Rendering::BuiltinRenderTextureType type);
 
   // Ctor Parameters []
@@ -111,7 +111,7 @@ public:
   int32_t m_DepthSlice;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11163 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

@@ -52,16 +52,16 @@ public:
 
   static inline ::GlobalNamespace::OVRCubemapCapture* New_ctor();
 
-  /// @brief Method RenderIntoCubemap, addr 0x3fb8ad4, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method RenderIntoCubemap, addr 0x3fcd164, size 0x560, virtual false, abstract: false, final false
   static inline void RenderIntoCubemap(::UnityEngine::Camera* ownerCamera, ::UnityEngine::Cubemap* outCubemap);
 
-  /// @brief Method SaveCubemapCapture, addr 0x3fb9034, size 0x798, virtual false, abstract: false, final false
+  /// @brief Method SaveCubemapCapture, addr 0x3fcd6c4, size 0x798, virtual false, abstract: false, final false
   static inline bool SaveCubemapCapture(::UnityEngine::Cubemap* cubemap, ::StringW pathName);
 
-  /// @brief Method TriggerCubemapCapture, addr 0x3fb8828, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method TriggerCubemapCapture, addr 0x3fcceb8, size 0x2ac, virtual false, abstract: false, final false
   static inline void TriggerCubemapCapture(::UnityEngine::Vector3 capturePos, int32_t cubemapSize, ::StringW pathName);
 
-  /// @brief Method Update, addr 0x3fb8780, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fcce10, size 0xa8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_autoTriggerAfterLaunch() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_triggeredByKey(::UnityEngine::KeyCode value);
 
-  /// @brief Method .ctor, addr 0x3fb97cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fcde5c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,7 +136,7 @@ public:
   int32_t ___cubemapSize;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

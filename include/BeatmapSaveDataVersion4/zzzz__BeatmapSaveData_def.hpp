@@ -14,9 +14,6 @@ namespace BeatmapSaveDataVersion4 {
 struct Arc;
 }
 namespace BeatmapSaveDataVersion4 {
-class BeatIndex;
-}
-namespace BeatmapSaveDataVersion4 {
 class BeatmapBeatIndex;
 }
 namespace BeatmapSaveDataVersion4 {
@@ -34,9 +31,6 @@ struct ColorNote;
 namespace BeatmapSaveDataVersion4 {
 struct Obstacle;
 }
-namespace BeatmapSaveDataVersion4 {
-struct SpawnRotation;
-}
 // Forward declare root types
 namespace BeatmapSaveDataVersion4 {
 class BeatmapSaveData;
@@ -44,7 +38,7 @@ class BeatmapSaveData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion4::BeatmapSaveData);
 // Type: BeatmapSaveDataVersion4::BeatmapSaveData
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion4::BeatmapSaveData*
@@ -92,16 +86,6 @@ public:
   __declspec(property(get = __cordl_internal_get_obstaclesData, put = __cordl_internal_set_obstaclesData)) ::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*>
       obstaclesData;
 
-  /// @brief Field spawnRotations, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_spawnRotations,
-                      put = __cordl_internal_set_spawnRotations)) ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>
-      spawnRotations;
-
-  /// @brief Field spawnRotationsData, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_spawnRotationsData,
-                      put = __cordl_internal_set_spawnRotationsData)) ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*>
-      spawnRotationsData;
-
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
 
@@ -147,14 +131,6 @@ public:
 
   constexpr ::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*>& __cordl_internal_get_obstaclesData();
 
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> const& __cordl_internal_get_spawnRotations() const;
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>& __cordl_internal_get_spawnRotations();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> const& __cordl_internal_get_spawnRotationsData() const;
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*>& __cordl_internal_get_spawnRotationsData();
-
   constexpr ::StringW const& __cordl_internal_get_version() const;
 
   constexpr ::StringW& __cordl_internal_get_version();
@@ -179,13 +155,9 @@ public:
 
   constexpr void __cordl_internal_set_obstaclesData(::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> value);
 
-  constexpr void __cordl_internal_set_spawnRotations(::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> value);
-
-  constexpr void __cordl_internal_set_spawnRotationsData(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> value);
-
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26c6e44, size 0x510, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d2c04, size 0x440, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -235,14 +207,8 @@ public:
   /// @brief Field arcsData, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*> ___arcsData;
 
-  /// @brief Field spawnRotations, offset: 0x68, size: 0x8, def value: None
-  ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> ___spawnRotations;
-
-  /// @brief Field spawnRotationsData, offset: 0x70, size: 0x8, def value: None
-  ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> ___spawnRotationsData;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13335 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };
@@ -250,7 +216,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::BeatmapSaveData, 0x78>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::BeatmapSaveData, 0x68>, "Size mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___version) == 0x10, "Offset mismatch!");
 
@@ -273,10 +239,6 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___obstaclesD
 static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___chainsData) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___arcsData) == 0x60, "Offset mismatch!");
-
-static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___spawnRotations) == 0x68, "Offset mismatch!");
-
-static_assert(offsetof(::BeatmapSaveDataVersion4::BeatmapSaveData, ___spawnRotationsData) == 0x70, "Offset mismatch!");
 
 } // namespace BeatmapSaveDataVersion4
 NEED_NO_BOX(::BeatmapSaveDataVersion4::BeatmapSaveData);

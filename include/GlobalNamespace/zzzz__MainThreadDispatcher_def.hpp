@@ -117,7 +117,7 @@ public:
   A ___firstParameter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18756 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -192,7 +192,7 @@ public:
   B ___secondParameter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18757 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -279,7 +279,7 @@ public:
   C ___thirdParameter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18758 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -378,7 +378,7 @@ public:
   D ___fourthParameter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18759 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -406,7 +406,7 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method DispatchOnMainThread, addr 0x3955840, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DispatchOnMainThread, addr 0x3969608, size 0x58, virtual false, abstract: false, final false
   inline void DispatchOnMainThread(::System::Action* action);
 
   /// @brief Method DispatchOnMainThread, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -424,7 +424,7 @@ public:
 
   static inline ::GlobalNamespace::MainThreadDispatcher* New_ctor();
 
-  /// @brief Method Tick, addr 0x3955898, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x3969660, size 0x104, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>*& __cordl_internal_get__dispatchQueue();
@@ -433,7 +433,7 @@ public:
 
   constexpr void __cordl_internal_set__dispatchQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* value);
 
-  /// @brief Method .ctor, addr 0x395599c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3969764, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::ITickable"
@@ -457,7 +457,7 @@ public:
   ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* ____dispatchQueue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18760 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

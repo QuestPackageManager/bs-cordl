@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x3b52b80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6866c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method get_isFailed, addr 0x3b52c4c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_isFailed, addr 0x3b68738, size 0xc, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
-  /// @brief Method get_offsetSyncTime, addr 0x3b52ba8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x3b68694, size 0xa4, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"
@@ -74,7 +74,7 @@ public:
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4544 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

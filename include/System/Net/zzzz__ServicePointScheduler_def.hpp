@@ -136,30 +136,30 @@ public:
   /// @brief Field queue, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_queue, put = __cordl_internal_set_queue)) ::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>* queue;
 
-  /// @brief Method Cleanup, addr 0x4360808, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x4374f20, size 0xec, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Close, addr 0x4360f44, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x437565c, size 0x2f0, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method CreateOrReuseConnection, addr 0x43608f4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method CreateOrReuseConnection, addr 0x437500c, size 0x198, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<::System::Net::WebConnection*, bool> CreateOrReuseConnection(::System::Net::WebOperation* operation, bool force);
 
-  /// @brief Method EnqueueOperation, addr 0x4360eec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method EnqueueOperation, addr 0x4375604, size 0x58, virtual false, abstract: false, final false
   inline void EnqueueOperation(::System::Net::WebOperation* operation);
 
-  /// @brief Method FindIdleConnection, addr 0x4361380, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method FindIdleConnection, addr 0x4375a98, size 0x31c, virtual false, abstract: false, final false
   inline ::System::Net::WebConnection* FindIdleConnection(::System::Net::WebOperation* operation);
 
-  /// @brief Method GetNextOperation, addr 0x4360ac4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetNextOperation, addr 0x43751dc, size 0xec, virtual false, abstract: false, final false
   inline ::System::Net::WebOperation* GetNextOperation();
 
-  /// @brief Method IsEmpty, addr 0x435ff8c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x43746a4, size 0x74, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
   static inline ::System::Net::__ServicePointScheduler__ConnectionGroup* New_ctor(::System::Net::ServicePointScheduler* scheduler, ::StringW name);
 
-  /// @brief Method RemoveConnection, addr 0x43606b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RemoveConnection, addr 0x4374dcc, size 0x88, virtual false, abstract: false, final false
   inline void RemoveConnection(::System::Net::WebConnection* connection);
 
   constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
@@ -192,12 +192,12 @@ public:
 
   constexpr void __cordl_internal_set_queue(::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>* value);
 
-  /// @brief Method .ctor, addr 0x435f90c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4374024, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::ServicePointScheduler* scheduler, ::StringW name);
 
   static inline int32_t getStaticF_nextId();
 
-  /// @brief Method get_Scheduler, addr 0x4361360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scheduler, addr 0x4375a78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePointScheduler* get_Scheduler();
 
   static inline void setStaticF_nextId(int32_t value);
@@ -232,7 +232,7 @@ public:
   ::System::Collections::Generic::LinkedList_1<::System::Net::WebOperation*>* ___queue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9694 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -266,10 +266,10 @@ public:
 
   static inline ::GlobalNamespace::__ServicePointScheduler__AsyncManualResetEvent____c* New_ctor();
 
-  /// @brief Method <Set>b__4_0, addr 0x4361da4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <Set>b__4_0, addr 0x43764bc, size 0x9c, virtual false, abstract: false, final false
   inline bool _Set_b__4_0(::System::Object* s);
 
-  /// @brief Method .ctor, addr 0x4361d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43764b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__ServicePointScheduler__AsyncManualResetEvent____c* getStaticF___9();
@@ -295,7 +295,7 @@ public:
   __ServicePointScheduler__AsyncManualResetEvent____c(__ServicePointScheduler__AsyncManualResetEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9695 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -318,13 +318,13 @@ public:
 
   static inline ::System::Net::__ServicePointScheduler__AsyncManualResetEvent* New_ctor(bool state);
 
-  /// @brief Method Reset, addr 0x436018c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x43748a4, size 0xc0, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Set, addr 0x435fad8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x43741f0, size 0x22c, virtual false, abstract: false, final false
   inline void Set();
 
-  /// @brief Method WaitAsync, addr 0x4361cec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method WaitAsync, addr 0x4376404, size 0x54, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitAsync(int32_t millisecondTimeout);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_m_tcs();
@@ -333,7 +333,7 @@ public:
 
   constexpr void __cordl_internal_set_m_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x435f86c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4373f84, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(bool state);
 
 protected:
@@ -354,7 +354,7 @@ public:
   ::System::Threading::Tasks::TaskCompletionSource_1<bool>* ___m_tcs;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9696 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -375,10 +375,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x4361e40, size 0xb48, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4376558, size 0xb48, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4362988, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x43770a0, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -440,7 +440,7 @@ public:
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9697 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -480,10 +480,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x43629f0, size 0x4a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4377108, size 0x4a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4362e90, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x43775a8, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -525,7 +525,7 @@ public:
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9698 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -612,57 +612,57 @@ public:
   /// @brief Field schedulerEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_schedulerEvent, put = __cordl_internal_set_schedulerEvent)) ::System::Net::__ServicePointScheduler__AsyncManualResetEvent* schedulerEvent;
 
-  /// @brief Method Cleanup, addr 0x435fdcc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x43744e4, size 0x1c0, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method CloseConnectionGroup, addr 0x435eb38, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CloseConnectionGroup, addr 0x4373250, size 0x110, virtual false, abstract: false, final false
   inline bool CloseConnectionGroup(::StringW groupName);
 
-  /// @brief Method CloseIdleConnection, addr 0x4360a8c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CloseIdleConnection, addr 0x43751a4, size 0x38, virtual false, abstract: false, final false
   inline void CloseIdleConnection(::System::Net::__ServicePointScheduler__ConnectionGroup* group, ::System::Net::WebConnection* connection);
 
-  /// @brief Method FinalCleanup, addr 0x4360c7c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method FinalCleanup, addr 0x4375394, size 0x80, virtual false, abstract: false, final false
   inline void FinalCleanup();
 
-  /// @brief Method GetConnectionGroup, addr 0x4360cfc, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method GetConnectionGroup, addr 0x4375414, size 0x1f0, virtual false, abstract: false, final false
   inline ::System::Net::__ServicePointScheduler__ConnectionGroup* GetConnectionGroup(::StringW name);
 
   static inline ::System::Net::ServicePointScheduler* New_ctor(::System::Net::ServicePoint* servicePoint, int32_t connectionLimit, int32_t maxIdleTime);
 
-  /// @brief Method OnConnectionClosed, addr 0x4361240, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnConnectionClosed, addr 0x4375958, size 0x1c, virtual false, abstract: false, final false
   inline void OnConnectionClosed(::System::Net::WebConnection* connection);
 
-  /// @brief Method OnConnectionCreated, addr 0x4361234, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnConnectionCreated, addr 0x437594c, size 0xc, virtual false, abstract: false, final false
   inline void OnConnectionCreated(::System::Net::WebConnection* connection);
 
-  /// @brief Method OperationCompleted, addr 0x436032c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method OperationCompleted, addr 0x4374a44, size 0x220, virtual false, abstract: false, final false
   inline bool OperationCompleted(::System::Net::__ServicePointScheduler__ConnectionGroup* group, ::System::Net::WebOperation* operation);
 
-  /// @brief Method RemoveIdleConnection, addr 0x436073c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RemoveIdleConnection, addr 0x4374e54, size 0xcc, virtual false, abstract: false, final false
   inline void RemoveIdleConnection(::System::Net::WebConnection* connection);
 
-  /// @brief Method RemoveOperation, addr 0x4360bb0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RemoveOperation, addr 0x43752c8, size 0xcc, virtual false, abstract: false, final false
   inline void RemoveOperation(::System::Net::WebOperation* operation);
 
-  /// @brief Method Run, addr 0x435fa14, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x437412c, size 0xc4, virtual false, abstract: false, final false
   inline void Run();
 
-  /// @brief Method RunScheduler, addr 0x435fd04, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RunScheduler, addr 0x437441c, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RunScheduler();
 
-  /// @brief Method RunSchedulerIteration, addr 0x4360000, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method RunSchedulerIteration, addr 0x4374718, size 0x18c, virtual false, abstract: false, final false
   inline void RunSchedulerIteration();
 
-  /// @brief Method SchedulerIteration, addr 0x436024c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SchedulerIteration, addr 0x4374964, size 0xe0, virtual false, abstract: false, final false
   inline bool SchedulerIteration(::System::Net::__ServicePointScheduler__ConnectionGroup* group);
 
-  /// @brief Method SendRequest, addr 0x435e964, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SendRequest, addr 0x437307c, size 0xe8, virtual false, abstract: false, final false
   inline void SendRequest(::System::Net::WebOperation* operation, ::StringW groupName);
 
-  /// @brief Method WaitAsync, addr 0x436125c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method WaitAsync, addr 0x4375974, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* WaitAsync(::System::Threading::Tasks::Task* workerTask, int32_t millisecondTimeout);
 
-  /// @brief Method <Run>b__31_0, addr 0x436135c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <Run>b__31_0, addr 0x4375a74, size 0x4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _Run_b__31_0();
 
   constexpr ::System::Net::ServicePoint*& __cordl_internal_get__ServicePoint_k__BackingField();
@@ -748,20 +748,20 @@ public:
 
   constexpr void __cordl_internal_set_schedulerEvent(::System::Net::__ServicePointScheduler__AsyncManualResetEvent* value);
 
-  /// @brief Method .ctor, addr 0x435e070, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4372788, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::ServicePoint* servicePoint, int32_t connectionLimit, int32_t maxIdleTime);
 
   static inline int32_t getStaticF_nextId();
 
-  /// @brief Method get_MaxIdleTime, addr 0x435f864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxIdleTime, addr 0x4373f7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxIdleTime();
 
-  /// @brief Method get_ServicePoint, addr 0x435f854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServicePoint, addr 0x4373f6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* get_ServicePoint();
 
   static inline void setStaticF_nextId(int32_t value);
 
-  /// @brief Method set_ServicePoint, addr 0x435f85c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ServicePoint, addr 0x4373f74, size 0x8, virtual false, abstract: false, final false
   inline void set_ServicePoint(::System::Net::ServicePoint* value);
 
 protected:
@@ -816,7 +816,7 @@ public:
   int32_t ____cordl_ID;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9699 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

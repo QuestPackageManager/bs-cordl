@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3a75504;
+  constexpr static std::size_t addrs = 0x3a88ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,10 +32,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::*)(
-    ::GlobalNamespace::NoteData*, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData>, float_t, bool)>(
-    &::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::Invoke)> {
+    ::GlobalNamespace::NoteData*, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData>, bool)>(&::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3a75608;
+  constexpr static std::size_t addrs = 0x3a88fc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,11 +48,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::*)(::GlobalNamespace::NoteData*, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData>, float_t, bool,
+    ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::*)(::GlobalNamespace::NoteData*, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData>, bool,
                                                                          ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::BeginInvoke)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3a75620;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x3a88fe0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::*)(
     ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData>, ::System::IAsyncResult*)>(&::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a7571c;
+  constexpr static std::size_t addrs = 0x3a890ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,21 +89,19 @@ inline void GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::_cto
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 inline void GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::Invoke(::GlobalNamespace::NoteData* noteData,
-                                                                                   ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation,
-                                                                                   bool forceIsFirstNote) {
+                                                                                   ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, bool forceIsFirstNote) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteData, noteSpawnData, rotation, forceIsFirstNote);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteData, noteSpawnData, forceIsFirstNote);
 }
 inline ::System::IAsyncResult* GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::BeginInvoke(::GlobalNamespace::NoteData* noteData,
                                                                                                            ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData,
-                                                                                                           float_t rotation, bool forceIsFirstNote, ::System::AsyncCallback* callback,
-                                                                                                           ::System::Object* object) {
+                                                                                                           bool forceIsFirstNote, ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate*>::get(), 14)));
-  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, noteData, noteSpawnData, rotation, forceIsFirstNote, callback, object);
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, noteData, noteSpawnData, forceIsFirstNote, callback, object);
 }
 inline void GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate::EndInvoke(ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData,
                                                                                       ::System::IAsyncResult* result) {
@@ -122,7 +119,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, ByRef<::UnityEngine::Vector2>, ByRef<::UnityEngine::Vector2>)>(
         &::GlobalNamespace::BurstSliderSpawner::BezierCurve)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a75070;
+  constexpr static std::size_t addrs = 0x3a88a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,17 +136,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::SliderData*, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData>,
-                                                                                           float_t, bool, ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate*)>(
+                                                                                           bool, ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate*)>(
     &::GlobalNamespace::BurstSliderSpawner::ProcessSliderData)> {
-  constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x3a750e8;
+  constexpr static std::size_t size = 0x3ec;
+  constexpr static std::size_t addrs = 0x3a88ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderSpawner*>::get(), "ProcessSliderData", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderData*>::get(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderData*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate*>::get() })));
     return ___internal_method;
   }
@@ -165,15 +162,15 @@ inline void GlobalNamespace::BurstSliderSpawner::BezierCurve(::UnityEngine::Vect
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, p0, p1, p2, t, pos, tangent);
 }
 inline void GlobalNamespace::BurstSliderSpawner::ProcessSliderData(::GlobalNamespace::SliderData* sliderData,
-                                                                   ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation, bool forceIsFirstNote,
+                                                                   ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, bool forceIsFirstNote,
                                                                    ::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate* processNoteData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstSliderSpawner*>::get(), "ProcessSliderData", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderData*>::get(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderData*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BurstSliderSpawner__ProcessNoteDataDelegate*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sliderData, sliderSpawnData, rotation, forceIsFirstNote, processNoteData);
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sliderData, sliderSpawnData, forceIsFirstNote, processNoteData);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BurstSliderSpawner::BurstSliderSpawner() {}

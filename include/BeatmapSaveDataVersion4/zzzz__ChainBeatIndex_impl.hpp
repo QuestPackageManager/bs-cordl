@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion4::ChainBeatIndex::*)()>(&::BeatmapSaveDataVersion4::ChainBeatIndex::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c6e24;
+  constexpr static std::size_t addrs = 0x26d2be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::ChainBeatIndex*>::get(), "get_beat",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion4::ChainBeatIndex::*)()>(&::BeatmapSaveDataVersion4::ChainBeatIndex::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c6e2c;
+  constexpr static std::size_t addrs = 0x26d2bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::ChainBeatIndex*>::get(), ".ctor",
@@ -58,15 +58,15 @@ constexpr void BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_set_hb(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hb = value;
 }
-constexpr float_t& BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_get_hr() {
+constexpr int32_t& BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_get_hr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hr;
 }
-constexpr float_t const& BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_get_hr() const {
+constexpr int32_t const& BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_get_hr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hr;
 }
-constexpr void BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_set_hr(float_t value) {
+constexpr void BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_set_hr(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hr = value;
 }
@@ -82,15 +82,15 @@ constexpr void BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_set_tb(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tb = value;
 }
-constexpr float_t& BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_get_tr() {
+constexpr int32_t& BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_get_tr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tr;
 }
-constexpr float_t const& BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_get_tr() const {
+constexpr int32_t const& BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_get_tr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tr;
 }
-constexpr void BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_set_tr(float_t value) {
+constexpr void BeatmapSaveDataVersion4::ChainBeatIndex::__cordl_internal_set_tr(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tr = value;
 }

@@ -42,16 +42,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x492d974, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x494208c, size 0x6c, virtual false, abstract: false, final false
   inline void Add(::Unity::Jobs::JobHandle job);
 
-  /// @brief Method Dispose, addr 0x492e018, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4942730, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x492e28c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49429a4, size 0x64, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method MergeAndReset, addr 0x492d9e0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MergeAndReset, addr 0x49420f8, size 0x88, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle MergeAndReset();
 
   static inline ::UnityEngine::UIElements::UIR::JobMerger* New_ctor(int32_t capacity);
@@ -74,16 +74,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Jobs(::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> value);
 
-  /// @brief Method .ctor, addr 0x492e1c0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49428d8, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method get_disposed, addr 0x492e278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x4942990, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x492e280, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x4942998, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -110,7 +110,7 @@ public:
   bool ____disposed_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6338 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,7 +12,7 @@ template <typename T> constexpr T const& GlobalNamespace::BaseStateTransition_1<
 }
 template <typename T> constexpr void GlobalNamespace::BaseStateTransition_1<T>::__cordl_internal_set__component(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____component)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____component, value);
 }
 template <typename T> inline ::GlobalNamespace::BaseStateTransition_1<T>* GlobalNamespace::BaseStateTransition_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BaseStateTransition_1<T>*>());

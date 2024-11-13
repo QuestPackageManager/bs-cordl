@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::CrashInfoViewController* New_ctor();
 
-  /// @brief Method Start, addr 0x3b990b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3baef1c, size 0x78, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::CrashManagerSO> const& __cordl_internal_get__crashManager() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b99130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3baef94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4855 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

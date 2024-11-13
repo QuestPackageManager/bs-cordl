@@ -28,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::OVRChromaticAberration* New_ctor();
 
-  /// @brief Method Start, addr 0x3fb3e04, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fc8494, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fb3ea0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fc8530, size 0xf0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_chromatic() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value);
 
-  /// @brief Method .ctor, addr 0x3fb3f90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc8620, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   bool ___chromatic;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8364 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

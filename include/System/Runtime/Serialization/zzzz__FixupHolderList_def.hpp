@@ -32,10 +32,10 @@ public:
                       put = __cordl_internal_set_m_values)) ::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*>
       m_values;
 
-  /// @brief Method Add, addr 0x3c85ae8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x3c9a178, size 0xa8, virtual true, abstract: false, final false
   inline void Add(::System::Runtime::Serialization::FixupHolder* fixup);
 
-  /// @brief Method EnlargeArray, addr 0x3c85b90, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EnlargeArray, addr 0x3c9a220, size 0x88, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
   static inline ::System::Runtime::Serialization::FixupHolderList* New_ctor();
@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set_m_values(::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*> value);
 
-  /// @brief Method .ctor, addr 0x3c85970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9a000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c85a7c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9a10c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
 protected:

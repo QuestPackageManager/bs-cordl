@@ -28,7 +28,7 @@ GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__cordl_internal_get__i
 template <typename TKey, typename TValue>
 constexpr void GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__cordl_internal_set__items(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____items, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::Dictionary_2<TKey, int32_t>*& GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__cordl_internal_get__referencesCount() {
@@ -44,7 +44,7 @@ GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__cordl_internal_get__r
 template <typename TKey, typename TValue>
 constexpr void GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__cordl_internal_set__referencesCount(::System::Collections::Generic::Dictionary_2<TKey, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____referencesCount)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____referencesCount, value);
 }
 template <typename TKey, typename TValue> inline ::System::Collections::Generic::IEnumerable_1<TValue>* GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::get_values() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>*>::get(),

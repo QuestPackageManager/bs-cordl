@@ -163,7 +163,7 @@ public:
   int32_t _index;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9486 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -431,7 +431,7 @@ public:
   static constexpr ::ConstString VersionName{ u"Version" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9487 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

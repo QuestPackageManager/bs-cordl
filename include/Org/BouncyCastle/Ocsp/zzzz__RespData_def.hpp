@@ -45,13 +45,13 @@ public:
   /// @brief Field data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data;
 
-  /// @brief Method GetResponderId, addr 0x24e424c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetResponderId, addr 0x24ef2f4, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::RespID* GetResponderId();
 
-  /// @brief Method GetResponses, addr 0x24e42dc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetResponses, addr 0x24ef384, size 0x134, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Ocsp::SingleResp*, ::Array<::Org::BouncyCastle::Ocsp::SingleResp*>*> GetResponses();
 
-  /// @brief Method GetX509Extensions, addr 0x24e442c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x24ef4d4, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   static inline ::Org::BouncyCastle::Ocsp::RespData* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data);
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* value);
 
-  /// @brief Method .ctor, addr 0x24dbc44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e6cec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* data);
 
-  /// @brief Method get_ProducedAt, addr 0x24e42b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_ProducedAt, addr 0x24ef360, size 0x24, virtual false, abstract: false, final false
   inline ::System::DateTime get_ProducedAt();
 
-  /// @brief Method get_ResponseExtensions, addr 0x24e4410, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseExtensions, addr 0x24ef4b8, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_ResponseExtensions();
 
-  /// @brief Method get_Version, addr 0x24e4220, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x24ef2c8, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

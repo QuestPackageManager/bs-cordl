@@ -48,48 +48,48 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateBerOctetOutputStream, addr 0x2626eb0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateBerOctetOutputStream, addr 0x2631f58, size 0x90, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* CreateBerOctetOutputStream(::System::IO::Stream* s, int32_t tagNo, bool isExplicit, int32_t bufferSize);
 
-  /// @brief Method CreateBerSetFromList, addr 0x261d0e4, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method CreateBerSetFromList, addr 0x262818c, size 0x394, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Set* CreateBerSetFromList(::System::Collections::IList* berObjects);
 
-  /// @brief Method CreateDerSetFromList, addr 0x2621ea0, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method CreateDerSetFromList, addr 0x262cf48, size 0x394, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Set* CreateDerSetFromList(::System::Collections::IList* derObjects);
 
-  /// @brief Method GetCertificatesFromStore, addr 0x261cb48, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method GetCertificatesFromStore, addr 0x2627bf0, size 0x59c, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* GetCertificatesFromStore(::Org::BouncyCastle::X509::Store::IX509Store* certStore);
 
-  /// @brief Method GetCrlsFromStore, addr 0x261d478, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method GetCrlsFromStore, addr 0x2628520, size 0x59c, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* GetCrlsFromStore(::Org::BouncyCastle::X509::Store::IX509Store* crlStore);
 
-  /// @brief Method GetIssuerAndSerialNumber, addr 0x261e910, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerAndSerialNumber, addr 0x26299b8, size 0x90, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* GetIssuerAndSerialNumber(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method GetTbsCertificateStructure, addr 0x26351e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetTbsCertificateStructure, addr 0x2640290, size 0x30, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* GetTbsCertificateStructure(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   static inline ::Org::BouncyCastle::Cms::CmsUtilities* New_ctor();
 
-  /// @brief Method ReadContentInfo, addr 0x2635088, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ReadContentInfo, addr 0x2640130, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* ReadContentInfo(::Org::BouncyCastle::Asn1::Asn1InputStream* aIn);
 
-  /// @brief Method ReadContentInfo, addr 0x261ab4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadContentInfo, addr 0x2625bf4, size 0x5c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* ReadContentInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadContentInfo, addr 0x261a898, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadContentInfo, addr 0x2625940, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* ReadContentInfo(::System::IO::Stream* input);
 
-  /// @brief Method StreamToByteArray, addr 0x26351d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method StreamToByteArray, addr 0x2640280, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> StreamToByteArray(::System::IO::Stream* inStream);
 
-  /// @brief Method StreamToByteArray, addr 0x26351e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method StreamToByteArray, addr 0x2640288, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> StreamToByteArray(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method .ctor, addr 0x2635218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26402c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MaximumMemory, addr 0x2635080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumMemory, addr 0x2640128, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_MaximumMemory();
 
 protected:

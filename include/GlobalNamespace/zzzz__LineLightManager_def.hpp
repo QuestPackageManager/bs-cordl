@@ -54,7 +54,7 @@ public:
 
   static inline ::GlobalNamespace::LineLightManager* New_ctor();
 
-  /// @brief Method Update, addr 0x397bb38, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x398f3bc, size 0x37c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__colors() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__points(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  /// @brief Method .ctor, addr 0x397beb4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398f738, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__activeLineLightsCountID();
@@ -131,7 +131,7 @@ public:
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____colors;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16307 };
 
   /// @brief Field kMaxNumberOfLights offset 0xffffffff size 0x4
   static constexpr int32_t kMaxNumberOfLights{ static_cast<int32_t>(0x4) };

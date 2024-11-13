@@ -50,22 +50,22 @@ public:
   /// @brief Field _screenSystem, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__screenSystem, put = __cordl_internal_set__screenSystem)) ::UnityW<::HMUI::ScreenSystem> _screenSystem;
 
-  /// @brief Method HandleBeforeDismissingScenes, addr 0x224a7f8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleBeforeDismissingScenes, addr 0x2255738, size 0xac, virtual false, abstract: false, final false
   inline void HandleBeforeDismissingScenes(::System::Collections::Generic::List_1<::StringW>* _);
 
-  /// @brief Method HandleSceneTransitionDidFinish, addr 0x224a620, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneTransitionDidFinish, addr 0x2255560, size 0xac, virtual false, abstract: false, final false
   inline void HandleSceneTransitionDidFinish(::GlobalNamespace::__GameScenesManager__SceneTransitionType sceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData,
                                              ::Zenject::DiContainer* container);
 
   static inline ::HMUI::HierarchyManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x224a6cc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x225560c, size 0x12c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x224a508, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2255448, size 0x118, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartWithFlowCoordinator, addr 0x224a8a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method StartWithFlowCoordinator, addr 0x22557e4, size 0x24, virtual false, abstract: false, final false
   inline void StartWithFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__screenSystem(::UnityW<::HMUI::ScreenSystem> value);
 
-  /// @brief Method .ctor, addr 0x224a8c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2255808, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   ::UnityW<::HMUI::FlowCoordinator> ____rootFlowCoordinator;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16759 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

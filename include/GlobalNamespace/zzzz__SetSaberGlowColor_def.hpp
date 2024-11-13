@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3b70f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b86a00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   ::StringW ___property;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4655 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -137,10 +137,10 @@ public:
 
   static inline ::GlobalNamespace::SetSaberGlowColor* New_ctor();
 
-  /// @brief Method SetColors, addr 0x3b70d70, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x3b86864, size 0x114, virtual false, abstract: false, final false
   inline void SetColors();
 
-  /// @brief Method Start, addr 0x3b70e84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b86978, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
@@ -182,10 +182,10 @@ public:
 
   constexpr void __cordl_internal_set__saberTypeObject(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x3b70f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b869f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_saberType, addr 0x3b7085c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_saberType, addr 0x3b86350, size 0xc, virtual false, abstract: false, final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
 protected:
@@ -221,7 +221,7 @@ public:
   ::GlobalNamespace::SaberType ____saberType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4656 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

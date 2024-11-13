@@ -40,7 +40,7 @@ template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::Syste
 }
 template <typename TValue> constexpr void Zenject::StaticMemoryPool_1<TValue>::__cordl_internal_set__onSpawnMethod(::System::Action_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onSpawnMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____onSpawnMethod, value);
 }
 /// @param onSpawnMethod: ::System::Action_1<TValue>* (default: nullptr)
 /// @param onDespawnedMethod: ::System::Action_1<TValue>* (default: nullptr)

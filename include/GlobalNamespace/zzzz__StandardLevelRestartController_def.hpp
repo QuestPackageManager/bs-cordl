@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelRestartController* New_ctor();
 
-  /// @brief Method RestartLevel, addr 0x3b3763c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method RestartLevel, addr 0x3b4d0f4, size 0x40, virtual true, abstract: false, final true
   inline void RestartLevel();
 
   constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3b3767c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4d134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ILevelRestartController"
@@ -84,7 +84,7 @@ public:
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

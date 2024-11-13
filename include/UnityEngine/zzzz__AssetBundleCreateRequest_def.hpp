@@ -26,10 +26,10 @@ public:
 
   static inline ::UnityEngine::AssetBundleCreateRequest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47e1008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47f5720, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetBundle, addr 0x47e0fcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_assetBundle, addr 0x47f56e4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AssetBundle> get_assetBundle();
 
 protected:
@@ -47,7 +47,7 @@ public:
   AssetBundleCreateRequest(AssetBundleCreateRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18736 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

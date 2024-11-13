@@ -86,7 +86,7 @@ public:
   ::System::Delegate* ____handler;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9320 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -118,7 +118,7 @@ public:
   /// @brief Field _parent, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent)) ::System::ComponentModel::Component* _parent;
 
-  /// @brief Method Find, addr 0x43d09dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x43e50f4, size 0x18, virtual false, abstract: false, final false
   inline ::System::ComponentModel::__EventHandlerList__ListEntry* Find(::System::Object* key);
 
   constexpr ::System::ComponentModel::__EventHandlerList__ListEntry*& __cordl_internal_get__head();
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__parent(::System::ComponentModel::Component* value);
 
-  /// @brief Method get_Item, addr 0x43d0974, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x43e508c, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Delegate* get_Item(::System::Object* key);
 
 protected:
@@ -157,7 +157,7 @@ public:
   ::System::ComponentModel::Component* ____parent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

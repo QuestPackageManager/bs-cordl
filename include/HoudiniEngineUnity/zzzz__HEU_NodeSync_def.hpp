@@ -27,30 +27,30 @@ public:
   /// @brief Field _nodeSaveFilePath, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__nodeSaveFilePath, put = __cordl_internal_set__nodeSaveFilePath)) ::StringW _nodeSaveFilePath;
 
-  /// @brief Method CreateNodeSync, addr 0x39f6b3c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method CreateNodeSync, addr 0x3a0a494, size 0x304, virtual false, abstract: false, final false
   static inline void CreateNodeSync(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW opName, ::StringW nodeNabel);
 
-  /// @brief Method InitializeFromHoudini, addr 0x39f6944, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InitializeFromHoudini, addr 0x3a0a29c, size 0xac, virtual false, abstract: false, final false
   inline void InitializeFromHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ::StringW nodeName, ::StringW filePath);
 
   static inline ::HoudiniEngineUnity::HEU_NodeSync* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39f6938, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a0a290, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x39f6934, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3a0a28c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Resync, addr 0x39f6e40, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Resync, addr 0x3a0a798, size 0x38, virtual true, abstract: false, final false
   inline void Resync();
 
-  /// @brief Method SaveNodeToFile, addr 0x39f6a9c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SaveNodeToFile, addr 0x3a0a3f4, size 0xa0, virtual false, abstract: false, final false
   inline bool SaveNodeToFile(::StringW filePath);
 
-  /// @brief Method SetupLoadTask, addr 0x39f69f0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetupLoadTask, addr 0x3a0a348, size 0x98, virtual true, abstract: false, final false
   inline void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method SyncUpdate, addr 0x39f6e78, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method SyncUpdate, addr 0x3a0a7d0, size 0x10c, virtual true, abstract: false, final false
   inline void SyncUpdate();
 
   constexpr ::StringW const& __cordl_internal_get__nodeSaveFilePath() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__nodeSaveFilePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39f6f84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0a8dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   ::StringW ____nodeSaveFilePath;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11745 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

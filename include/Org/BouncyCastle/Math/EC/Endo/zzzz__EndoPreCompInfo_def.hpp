@@ -55,22 +55,22 @@ public:
 
   constexpr void __cordl_internal_set_m_mappedPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method .ctor, addr 0x24766e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2481788, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Endomorphism, addr 0x24766c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Endomorphism, addr 0x2481768, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* get_Endomorphism();
 
-  /// @brief Method get_MappedPoint, addr 0x24766d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MappedPoint, addr 0x2481778, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_MappedPoint();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
-  /// @brief Method set_Endomorphism, addr 0x24766c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Endomorphism, addr 0x2481770, size 0x8, virtual true, abstract: false, final false
   inline void set_Endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
 
-  /// @brief Method set_MappedPoint, addr 0x24766d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_MappedPoint, addr 0x2481780, size 0x8, virtual true, abstract: false, final false
   inline void set_MappedPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
 protected:

@@ -60,78 +60,78 @@ public:
 
   __declspec(property(get = get_radius, put = set_radius)) float_t radius;
 
-  /// @brief Method ScheduleBatch, addr 0x489674c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatch, addr 0x48aae64, size 0x24, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleBatch(::Unity::Collections::NativeArray_1<::UnityEngine::CapsulecastCommand> commands,
                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit> results, int32_t minCommandsPerJob, ::Unity::Jobs::JobHandle dependsOn);
 
-  /// @brief Method ScheduleBatch, addr 0x48964cc, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatch, addr 0x48aabe4, size 0x1e4, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleBatch(::Unity::Collections::NativeArray_1<::UnityEngine::CapsulecastCommand> commands,
                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit> results, int32_t minCommandsPerJob, int32_t maxHits,
                                                        ::Unity::Jobs::JobHandle dependsOn);
 
-  /// @brief Method ScheduleCapsulecastBatch, addr 0x48966b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleCapsulecastBatch, addr 0x48aadc8, size 0x9c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleCapsulecastBatch(ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters> parameters, ::cordl_internals::Ptr<void> commands,
                                                                   int32_t commandLen, ::cordl_internals::Ptr<void> result, int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits);
 
-  /// @brief Method ScheduleCapsulecastBatch_Injected, addr 0x4896770, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleCapsulecastBatch_Injected, addr 0x48aae88, size 0x8c, virtual false, abstract: false, final false
   static inline void ScheduleCapsulecastBatch_Injected(ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters> parameters, ::cordl_internals::Ptr<void> commands,
                                                        int32_t commandLen, ::cordl_internals::Ptr<void> result, int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits,
                                                        ByRef<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method .ctor, addr 0x48967fc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48aaf14, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, float_t radius, ::UnityEngine::Vector3 direction, float_t distance, int32_t layerMask);
 
-  /// @brief Method .ctor, addr 0x4896340, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48aaa58, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, float_t radius, ::UnityEngine::Vector3 direction, ::UnityEngine::QueryParameters queryParameters, float_t distance);
 
-  /// @brief Method .ctor, addr 0x48968f8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ab010, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, float_t radius, ::UnityEngine::Vector3 direction, float_t distance,
                     int32_t layerMask);
 
-  /// @brief Method .ctor, addr 0x4896424, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48aab3c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, float_t radius, ::UnityEngine::Vector3 direction,
                     ::UnityEngine::QueryParameters queryParameters, float_t distance);
 
-  /// @brief Method get_direction, addr 0x4896494, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x48aabac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_direction();
 
-  /// @brief Method get_distance, addr 0x48964ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x48aabc4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_layerMask, addr 0x4896930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layerMask, addr 0x48ab048, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layerMask();
 
-  /// @brief Method get_physicsScene, addr 0x48964bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicsScene, addr 0x48aabd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::PhysicsScene get_physicsScene();
 
-  /// @brief Method get_point1, addr 0x4896454, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point1, addr 0x48aab6c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point1();
 
-  /// @brief Method get_point2, addr 0x489646c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point2, addr 0x48aab84, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point2();
 
-  /// @brief Method get_radius, addr 0x4896484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x48aab9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_direction, addr 0x48964a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x48aabb8, size 0xc, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_distance, addr 0x48964b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_distance, addr 0x48aabcc, size 0x8, virtual false, abstract: false, final false
   inline void set_distance(float_t value);
 
-  /// @brief Method set_layerMask, addr 0x48968f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layerMask, addr 0x48ab008, size 0x8, virtual false, abstract: false, final false
   inline void set_layerMask(int32_t value);
 
-  /// @brief Method set_physicsScene, addr 0x48964c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_physicsScene, addr 0x48aabdc, size 0x8, virtual false, abstract: false, final false
   inline void set_physicsScene(::UnityEngine::PhysicsScene value);
 
-  /// @brief Method set_point1, addr 0x4896460, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_point1, addr 0x48aab78, size 0xc, virtual false, abstract: false, final false
   inline void set_point1(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_point2, addr 0x4896478, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_point2, addr 0x48aab90, size 0xc, virtual false, abstract: false, final false
   inline void set_point2(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_radius, addr 0x489648c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x48aaba4, size 0x8, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
   // Ctor Parameters []
@@ -169,7 +169,7 @@ public:
   ::UnityEngine::QueryParameters queryParameters;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15739 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

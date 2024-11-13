@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::ColorPickerButtonController* New_ctor();
 
-  /// @brief Method SetColor, addr 0x3bb1350, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x3bc59e0, size 0x28, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__colorImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x3bb1378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc5a08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x3bb1348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x3bc59d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
 protected:
@@ -80,7 +80,7 @@ public:
   ::UnityW<::UnityEngine::UI::Image> ____colorImage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

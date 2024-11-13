@@ -36,16 +36,16 @@ public:
   /// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject As(::System::Object* obj);
 
-  /// @brief Method GetGenericTypeArgumentFromHierarchy, addr 0x44fb37c, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method GetGenericTypeArgumentFromHierarchy, addr 0x450fa94, size 0x3c8, virtual false, abstract: false, final false
   static inline ::System::Type* GetGenericTypeArgumentFromHierarchy(::System::Type* type, ::System::Type* genericTypeDefinition, int32_t argumentIndex);
 
-  /// @brief Method GetNiceTypeName, addr 0x44faeec, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method GetNiceTypeName, addr 0x450f604, size 0x490, virtual false, abstract: false, final false
   static inline ::StringW GetNiceTypeName(::System::Type* type);
 
-  /// @brief Method GetValueType, addr 0x44fad20, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x450f438, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueType(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method IsInt, addr 0x44fad10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInt, addr 0x450f428, size 0x10, virtual false, abstract: false, final false
   static inline bool IsInt(::System::TypeCode type);
 
 protected:
@@ -63,7 +63,7 @@ public:
   TypeHelpers(TypeHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7091 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

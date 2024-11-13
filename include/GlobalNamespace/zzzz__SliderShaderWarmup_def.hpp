@@ -35,7 +35,7 @@ public:
 
   static inline ::GlobalNamespace::SliderShaderWarmup* New_ctor();
 
-  /// @brief Method Start, addr 0x3b027e4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b17ba8, size 0x1dc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__sliderMeshController(::UnityW<::GlobalNamespace::SliderMeshController> value);
 
-  /// @brief Method .ctor, addr 0x3b029b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b17d84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4167 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -97,13 +97,13 @@ public:
 
   constexpr void __cordl_internal_set__overrideText(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2234054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x223cb0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_language, addr 0x2234044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_language, addr 0x223cafc, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::Language get_language();
 
-  /// @brief Method get_overrideText, addr 0x223404c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideText, addr 0x223cb04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_overrideText();
 
 protected:
@@ -127,7 +127,7 @@ public:
   ::StringW ____overrideText;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18968 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -152,7 +152,7 @@ public:
 
   static inline ::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <Start>b__0, addr 0x2234064, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__0, addr 0x223cb1c, size 0x24, virtual false, abstract: false, final false
   inline bool _Start_b__0(::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride* data);
 
   constexpr ::BGLib::Polyglot::Language const& __cordl_internal_get_selectedLanguage() const;
@@ -161,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set_selectedLanguage(::BGLib::Polyglot::Language value);
 
-  /// @brief Method .ctor, addr 0x223405c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x223cb14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -182,7 +182,7 @@ public:
   ::BGLib::Polyglot::Language ___selectedLanguage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18969 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -203,10 +203,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2234088, size 0xbc8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x223cb40, size 0xbc8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2234c50, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x223d708, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -252,7 +252,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*>> __u__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18970 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -317,7 +317,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedTextOverride* New_ctor();
 
-  /// @brief Method Start, addr 0x2233fac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x223ca64, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
@@ -365,7 +365,7 @@ public:
   constexpr void __cordl_internal_set__perLanguageOverrides(
       ::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*, ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*> value);
 
-  /// @brief Method .ctor, addr 0x223403c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x223caf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -402,7 +402,7 @@ public:
   ::GlobalNamespace::BeatmapKey ____beatmapKey;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18971 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

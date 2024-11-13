@@ -76,7 +76,7 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassBloomTextureEffectSO* New_ctor();
 
-  /// @brief Method Render, addr 0x400f93c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x4024054, size 0x6c, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
@@ -157,10 +157,10 @@ public:
 
   constexpr void __cordl_internal_set__upsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
 
-  /// @brief Method .ctor, addr 0x400f9a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40240c0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_toneMapping, addr 0x400f91c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_toneMapping, addr 0x4024034, size 0x20, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
 protected:
@@ -217,7 +217,7 @@ public:
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

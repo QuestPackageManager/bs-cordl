@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::Zenject::DefaultGameObjectKernel* New_ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4acf03c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ae3754, size 0x16c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4acf02c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae3744, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   DefaultGameObjectKernel(DefaultGameObjectKernel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12625 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

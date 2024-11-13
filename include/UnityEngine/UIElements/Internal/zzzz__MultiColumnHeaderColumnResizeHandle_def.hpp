@@ -42,14 +42,14 @@ public:
 
   constexpr void __cordl_internal_set__dragArea_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x496d52c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4981c44, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_dragAreaUssClassName();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_dragArea, addr 0x4972448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragArea, addr 0x4986b60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragArea();
 
   static inline void setStaticF_dragAreaUssClassName(::StringW value);
@@ -74,7 +74,7 @@ public:
   ::UnityEngine::UIElements::VisualElement* ____dragArea_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6484 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

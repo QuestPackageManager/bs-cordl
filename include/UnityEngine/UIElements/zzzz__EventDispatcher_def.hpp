@@ -91,7 +91,7 @@ public:
   ::UnityEngine::UIElements::IPanel* m_Panel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5749 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -129,7 +129,7 @@ public:
   ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* m_Queue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5750 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -157,10 +157,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__EventDispatcher____c* New_ctor();
 
-  /// @brief Method <.cctor>b__31_0, addr 0x49a86a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__31_0, addr 0x49bcdb8, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* __cctor_b__31_0();
 
-  /// @brief Method .ctor, addr 0x49a8698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bcdb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__EventDispatcher____c* getStaticF___9();
@@ -182,7 +182,7 @@ public:
   __EventDispatcher____c(__EventDispatcher____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5751 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -249,27 +249,27 @@ public:
                              put = setStaticF_s_EditorStrategies)) ::ArrayW<::UnityEngine::UIElements::IEventDispatchingStrategy*, ::Array<::UnityEngine::UIElements::IEventDispatchingStrategy*>*>
       s_EditorStrategies;
 
-  /// @brief Method ApplyDispatchingStrategies, addr 0x49a7a8c, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method ApplyDispatchingStrategies, addr 0x49bc1a4, size 0x2f8, virtual false, abstract: false, final false
   inline void ApplyDispatchingStrategies(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel, bool imguiEventIsInitiallyUsed);
 
-  /// @brief Method CloseGate, addr 0x49a6c14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CloseGate, addr 0x49bb32c, size 0x10, virtual false, abstract: false, final false
   inline void CloseGate();
 
-  /// @brief Method CreateForRuntime, addr 0x49a6d6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateForRuntime, addr 0x49bb484, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventDispatcher* CreateForRuntime(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies);
 
-  /// @brief Method Dispatch, addr 0x49a6fa0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x49bb6b8, size 0x160, virtual false, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
   static inline ::UnityEngine::UIElements::EventDispatcher* New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies);
 
-  /// @brief Method OpenGate, addr 0x49a6c3c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OpenGate, addr 0x49bb354, size 0x88, virtual false, abstract: false, final false
   inline void OpenGate();
 
-  /// @brief Method ProcessEvent, addr 0x49a71a0, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x49bb8b8, size 0x520, virtual false, abstract: false, final false
   inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method ProcessEventQueue, addr 0x49a76c0, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method ProcessEventQueue, addr 0x49bbdd8, size 0x3b4, virtual false, abstract: false, final false
   inline void ProcessEventQueue();
 
   constexpr ::UnityEngine::UIElements::PointerDispatchState*& __cordl_internal_get__pointerState_k__BackingField();
@@ -322,24 +322,24 @@ public:
 
   constexpr void __cordl_internal_set_m_Queue(::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* value);
 
-  /// @brief Method .ctor, addr 0x49a6dc4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bb4dc, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies);
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>* getStaticF_k_EventQueuePool();
 
   static inline ::ArrayW<::UnityEngine::UIElements::IEventDispatchingStrategy*, ::Array<::UnityEngine::UIElements::IEventDispatchingStrategy*>*> getStaticF_s_EditorStrategies();
 
-  /// @brief Method get_dispatchImmediately, addr 0x49a6f74, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_dispatchImmediately, addr 0x49bb68c, size 0x20, virtual false, abstract: false, final false
   inline bool get_dispatchImmediately();
 
-  /// @brief Method get_pointerState, addr 0x49a6d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerState, addr 0x49bb47c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerDispatchState* get_pointerState();
 
   static inline void setStaticF_k_EventQueuePool(::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>* value);
 
   static inline void setStaticF_s_EditorStrategies(::ArrayW<::UnityEngine::UIElements::IEventDispatchingStrategy*, ::Array<::UnityEngine::UIElements::IEventDispatchingStrategy*>*> value);
 
-  /// @brief Method set_processingEvents, addr 0x49a6f94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_processingEvents, addr 0x49bb6ac, size 0xc, virtual false, abstract: false, final false
   inline void set_processingEvents(bool value);
 
 protected:
@@ -381,7 +381,7 @@ public:
   bool ____processingEvents_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

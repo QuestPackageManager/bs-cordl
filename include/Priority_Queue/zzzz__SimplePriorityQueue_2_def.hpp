@@ -104,7 +104,7 @@ public:
   TItem ____Data_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -305,7 +305,7 @@ public:
   static constexpr int32_t INITIAL_QUEUE_SIZE{ static_cast<int32_t>(0xa) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16900 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

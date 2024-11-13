@@ -70,7 +70,7 @@ System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__
 template <typename T>
 constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_set__collection(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____collection, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__boundedCapacity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -95,7 +95,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim
 }
 template <typename T> constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_set__freeNodes(::System::Threading::SemaphoreSlim* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____freeNodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____freeNodes, value);
 }
 template <typename T> constexpr ::System::Threading::SemaphoreSlim*& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__occupiedNodes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -108,7 +108,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim
 }
 template <typename T> constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_set__occupiedNodes(::System::Threading::SemaphoreSlim* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____occupiedNodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____occupiedNodes, value);
 }
 template <typename T> constexpr bool& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__isDisposed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -135,7 +135,7 @@ System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__
 template <typename T>
 constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_set__consumersCancellationTokenSource(::System::Threading::CancellationTokenSource* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____consumersCancellationTokenSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____consumersCancellationTokenSource, value);
 }
 template <typename T> constexpr ::System::Threading::CancellationTokenSource*& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__producersCancellationTokenSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -150,7 +150,7 @@ System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__
 template <typename T>
 constexpr void System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_set__producersCancellationTokenSource(::System::Threading::CancellationTokenSource* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____producersCancellationTokenSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____producersCancellationTokenSource, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Concurrent::BlockingCollection_1<T>::__cordl_internal_get__currentAdders() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

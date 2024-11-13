@@ -26,16 +26,16 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Method Clear, addr 0x431c814, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4330f2c, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ConcatNoDelimiter, addr 0x431c91c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ConcatNoDelimiter, addr 0x4331034, size 0x2ac, virtual false, abstract: false, final false
   inline void ConcatNoDelimiter(::StringW s);
 
-  /// @brief Method GetResult, addr 0x431c828, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x4330f40, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW GetResult();
 
-  /// @brief Method get_Count, addr 0x431c820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4330f38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
   // Ctor Parameters []
@@ -70,7 +70,7 @@ public:
   int32_t idxStr;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7444 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

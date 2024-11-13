@@ -23,7 +23,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Co
 }
 template <typename T> constexpr void GlobalNamespace::LazyCopyHashSet_1<T>::__cordl_internal_set__itemsCopy(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____itemsCopy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____itemsCopy, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::HashSet_1<T>*& GlobalNamespace::LazyCopyHashSet_1<T>::__cordl_internal_get__items() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -35,7 +35,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Co
 }
 template <typename T> constexpr void GlobalNamespace::LazyCopyHashSet_1<T>::__cordl_internal_set__items(::System::Collections::Generic::HashSet_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____items, value);
 }
 template <typename T> constexpr bool& GlobalNamespace::LazyCopyHashSet_1<T>::__cordl_internal_get__dirty() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

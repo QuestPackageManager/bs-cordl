@@ -57,19 +57,19 @@ public:
 
   constexpr void __cordl_internal_set__Optional_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x489dda8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b24c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x489ddb0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b24c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method set_GenerateProxy, addr 0x489ddec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateProxy, addr 0x48b2504, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateProxy(bool value);
 
-  /// @brief Method set_Name, addr 0x489ddd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x48b24f0, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Optional, addr 0x489dde0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Optional, addr 0x48b24f8, size 0xc, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
 protected:
@@ -96,7 +96,7 @@ public:
   bool ____GenerateProxy_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18635 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

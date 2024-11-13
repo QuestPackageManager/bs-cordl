@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::__ECPoint__ValidityCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* outer, bool decompressed, bool checkOrder);
 
-  /// @brief Method Precompute, addr 0x2414954, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method Precompute, addr 0x241f9fc, size 0x11c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
   constexpr bool const& __cordl_internal_get_m_checkOrder() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_m_outer(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method .ctor, addr 0x2413f8c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241f034, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* outer, bool decompressed, bool checkOrder);
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
@@ -196,52 +196,52 @@ public:
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Add(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method CheckNormalized, addr 0x2413b88, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CheckNormalized, addr 0x241ec30, size 0x68, virtual true, abstract: false, final false
   inline void CheckNormalized();
 
-  /// @brief Method CreateScaledPoint, addr 0x2413edc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method CreateScaledPoint, addr 0x241ef84, size 0x9c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateScaledPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* sx, ::Org::BouncyCastle::Math::EC::ECFieldElement* sy);
 
   /// @brief Method Detach, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Detach();
 
-  /// @brief Method Equals, addr 0x241426c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x241f314, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x24142f8, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x241f3a0, size 0x2ac, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::ECPoint* other);
 
-  /// @brief Method GetDetachedPoint, addr 0x24139f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetDetachedPoint, addr 0x241ea98, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* GetDetachedPoint();
 
-  /// @brief Method GetEncoded, addr 0x24147b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x241f858, size 0x14, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   /// @brief Method GetEncoded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(bool compressed);
 
-  /// @brief Method GetHashCode, addr 0x24145a4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x241f64c, size 0xc4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInitialZCoords, addr 0x2413538, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetInitialZCoords, addr 0x241e5e0, size 0x2c8, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> GetInitialZCoords(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
-  /// @brief Method GetZCoord, addr 0x2413aa8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetZCoord, addr 0x241eb50, size 0x40, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* GetZCoord(int32_t index);
 
-  /// @brief Method GetZCoords, addr 0x2413ae8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetZCoords, addr 0x241eb90, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> GetZCoords();
 
-  /// @brief Method ImplIsValid, addr 0x240f6c8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ImplIsValid, addr 0x241a770, size 0x13c, virtual false, abstract: false, final false
   inline bool ImplIsValid(bool decompressed, bool checkOrder);
 
-  /// @brief Method IsNormalized, addr 0x2413bf0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method IsNormalized, addr 0x241ec98, size 0x70, virtual true, abstract: false, final false
   inline bool IsNormalized();
 
-  /// @brief Method IsValid, addr 0x240df4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2418ff4, size 0xc, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method IsValidPartial, addr 0x2413f80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValidPartial, addr 0x241f028, size 0xc, virtual false, abstract: false, final false
   inline bool IsValidPartial();
 
   /// @brief Method Multiply, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -258,46 +258,46 @@ public:
                                                                  ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                  bool withCompression);
 
-  /// @brief Method Normalize, addr 0x2413c60, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method Normalize, addr 0x241ed08, size 0x18c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Normalize();
 
-  /// @brief Method Normalize, addr 0x2413dec, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Normalize, addr 0x241ee94, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Normalize(::Org::BouncyCastle::Math::EC::ECFieldElement* zInv);
 
   /// @brief Method SatisfiesCurveEquation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool SatisfiesCurveEquation();
 
-  /// @brief Method SatisfiesOrder, addr 0x24138f0, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method SatisfiesOrder, addr 0x241e998, size 0x100, virtual true, abstract: false, final false
   inline bool SatisfiesOrder();
 
-  /// @brief Method ScaleX, addr 0x2413fcc, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ScaleX, addr 0x241f074, size 0x90, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleX(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleXNegateY, addr 0x241405c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ScaleXNegateY, addr 0x241f104, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleXNegateY(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleY, addr 0x241410c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ScaleY, addr 0x241f1b4, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleY(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method ScaleYNegateX, addr 0x24141b0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ScaleYNegateX, addr 0x241f258, size 0xbc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ScaleYNegateX(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
   /// @brief Method Subtract, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Subtract(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method ThreeTimes, addr 0x241489c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ThreeTimes, addr 0x241f944, size 0x14, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ThreeTimes();
 
-  /// @brief Method TimesPow2, addr 0x24147c4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method TimesPow2, addr 0x241f86c, size 0x9c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* TimesPow2(int32_t e);
 
-  /// @brief Method ToString, addr 0x2414668, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x241f710, size 0x148, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method Twice, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Twice();
 
-  /// @brief Method TwicePlus, addr 0x2414860, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method TwicePlus, addr 0x241f908, size 0x3c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
   constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __cordl_internal_get_m_curve();
@@ -336,10 +336,10 @@ public:
 
   constexpr void __cordl_internal_set_m_zs(::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> value);
 
-  /// @brief Method .ctor, addr 0x2413800, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241e8a8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x241389c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241e944, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
@@ -347,40 +347,40 @@ public:
 
   static inline ::Org::BouncyCastle::Security::SecureRandom* getStaticF_Random();
 
-  /// @brief Method get_AffineXCoord, addr 0x2413a40, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_AffineXCoord, addr 0x241eae8, size 0x2c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_AffineXCoord();
 
-  /// @brief Method get_AffineYCoord, addr 0x2413a6c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_AffineYCoord, addr 0x241eb14, size 0x2c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_AffineYCoord();
 
   /// @brief Method get_CompressionYTilde, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_CompressionYTilde();
 
-  /// @brief Method get_Curve, addr 0x2413a1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Curve, addr 0x241eac4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
 
-  /// @brief Method get_CurveCoordinateSystem, addr 0x2413a24, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_CurveCoordinateSystem, addr 0x241eacc, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_CurveCoordinateSystem();
 
-  /// @brief Method get_IsCompressed, addr 0x2413f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompressed, addr 0x241f020, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompressed();
 
-  /// @brief Method get_IsInfinity, addr 0x240e794, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsInfinity, addr 0x241983c, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsInfinity();
 
-  /// @brief Method get_RawXCoord, addr 0x2413b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RawXCoord, addr 0x241ec18, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_RawXCoord();
 
-  /// @brief Method get_RawYCoord, addr 0x2413b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RawYCoord, addr 0x241ec20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_RawYCoord();
 
-  /// @brief Method get_RawZCoords, addr 0x2413b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RawZCoords, addr 0x241ec28, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> get_RawZCoords();
 
-  /// @brief Method get_XCoord, addr 0x2413a98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XCoord, addr 0x241eb40, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_XCoord();
 
-  /// @brief Method get_YCoord, addr 0x2413aa0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_YCoord, addr 0x241eb48, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_YCoord();
 
   static inline void setStaticF_EMPTY_ZS(::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> value);

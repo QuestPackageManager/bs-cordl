@@ -34,16 +34,16 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x45a1448, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x45b5b60, size 0x1f0, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x45a1638, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x45b5d50, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x45a1680, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45b5d98, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cachingPolicy, addr 0x45a1678, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_cachingPolicy, addr 0x45b5d90, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputProcessor__CachingPolicy get_cachingPolicy();
 
 protected:
@@ -61,7 +61,7 @@ public:
   CompensateDirectionProcessor(CompensateDirectionProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6962 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

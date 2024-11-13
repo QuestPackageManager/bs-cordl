@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__input(::MS::Internal::Xml::XPath::AstNode* value);
 
-  /// @brief Method .ctor, addr 0x428f60c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42a3d24, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::AstNode* input, ::MS::Internal::Xml::XPath::AstNode* condition);
 
-  /// @brief Method get_ReturnType, addr 0x428f640, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x42a3d58, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x428f638, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x42a3d50, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::__AstNode__AstType get_Type();
 
 protected:
@@ -82,7 +82,7 @@ public:
   ::MS::Internal::Xml::XPath::AstNode* ____condition;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7746 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

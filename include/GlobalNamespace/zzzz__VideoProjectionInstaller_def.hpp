@@ -25,7 +25,7 @@ public:
   /// @brief Field _sceneSetupData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::EnvironmentSceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x3b21014, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b364dc, size 0xc0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::VideoProjectionInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::EnvironmentSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x3b210d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3659c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::GlobalNamespace::EnvironmentSceneSetupData* ____sceneSetupData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

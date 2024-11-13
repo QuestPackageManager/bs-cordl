@@ -115,39 +115,39 @@ public:
   /// @brief Field _tweeningManager, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method DetailsToggleValueChanged, addr 0x3b32a94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method DetailsToggleValueChanged, addr 0x3b4854c, size 0x20, virtual false, abstract: false, final false
   inline void DetailsToggleValueChanged(bool isOn);
 
-  /// @brief Method DisconnectButtonPressed, addr 0x3b32a60, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisconnectButtonPressed, addr 0x3b48518, size 0x34, virtual false, abstract: false, final false
   inline void DisconnectButtonPressed();
 
-  /// @brief Method HandleDisconnectPromptViewDidViewFinish, addr 0x3b32ab4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleDisconnectPromptViewDidViewFinish, addr 0x3b4856c, size 0xc0, virtual false, abstract: false, final false
   inline void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
 
-  /// @brief Method HandleStateChanged, addr 0x3b32b74, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3b4862c, size 0x1b0, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b32938, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b483f0, size 0x128, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b32718, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b481d0, size 0xb0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b325cc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b48084, size 0x14c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x3b327c8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b48280, size 0x170, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__22_0, addr 0x3b32db8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__22_0, addr 0x3b48870, size 0x20, virtual false, abstract: false, final false
   inline void _HandleDisconnectPromptViewDidViewFinish_b__22_0();
 
-  /// @brief Method <HandleStateChanged>b__23_0, addr 0x3b32dd8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <HandleStateChanged>b__23_0, addr 0x3b48890, size 0x1c, virtual false, abstract: false, final false
   inline void _HandleStateChanged_b__23_0(float_t val);
 
-  /// @brief Method <HandleStateChanged>b__23_1, addr 0x3b32df4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <HandleStateChanged>b__23_1, addr 0x3b488ac, size 0x24, virtual false, abstract: false, final false
   inline void _HandleStateChanged_b__23_1();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -246,7 +246,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b32d24, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b487dc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -312,7 +312,7 @@ public:
   ::Tweening::Tween* ____fadeOutTween;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4420 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

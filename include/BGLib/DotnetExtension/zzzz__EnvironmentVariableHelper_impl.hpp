@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::BGLib::DotnetExtension::EnvironmentVariableHelper::GetDirectoryPath)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2261cbc;
+  constexpr static std::size_t addrs = 0x226cc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&::BGLib::DotnetExtension::EnvironmentVariableHelper::SetDirectoryPath)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2261d64;
+  constexpr static std::size_t addrs = 0x226cd18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

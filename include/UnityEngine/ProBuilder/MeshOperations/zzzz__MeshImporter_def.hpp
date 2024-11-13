@@ -59,10 +59,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c* New_ctor();
 
-  /// @brief Method <Import>b__9_0, addr 0x4707694, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Import>b__9_0, addr 0x471bdac, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 _Import_b__9_0(::UnityEngine::ProBuilder::Vertex* x);
 
-  /// @brief Method .ctor, addr 0x470768c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x471bda4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c* getStaticF___9();
@@ -88,7 +88,7 @@ public:
   __MeshImporter____c(__MeshImporter____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14350 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -125,10 +125,10 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Vertices, put = __cordl_internal_set_m_Vertices)) ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*>
       m_Vertices;
 
-  /// @brief Method Import, addr 0x47060e0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x471a7f8, size 0x184, virtual false, abstract: false, final false
   inline bool Import(::UnityEngine::GameObject* go, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
-  /// @brief Method Import, addr 0x4706264, size 0xa8c, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x471a97c, size 0xa8c, virtual false, abstract: false, final false
   inline void Import(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* New_ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination);
@@ -162,13 +162,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Vertices(::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> value);
 
-  /// @brief Method .ctor, addr 0x47060b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x471a7d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
-  /// @brief Method .ctor, addr 0x4705e30, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x471a548, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method .ctor, addr 0x4705f98, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x471a6b0, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* sourceMesh, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> sourceMaterials, ::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* getStaticF_k_DefaultImportSettings();
@@ -202,7 +202,7 @@ public:
   ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> ___m_Vertices;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14351 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

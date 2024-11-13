@@ -43,14 +43,14 @@ public:
   /// @brief Field hashAlgorithm, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_hashAlgorithm, put = __cordl_internal_set_hashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm;
 
-  /// @brief Method GetInstance, addr 0x23bb4c8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23c6570, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateHash);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23bb900, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23c69a8, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_certificateHash() const;
@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x23bb758, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c6800, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateHash);
 
-  /// @brief Method .ctor, addr 0x23bb644, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c66ec, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertificateHash, addr 0x23bb888, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateHash, addr 0x23c6930, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_CertificateHash();
 
-  /// @brief Method get_HashAlgorithm, addr 0x23bb880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x23c6928, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
 protected:

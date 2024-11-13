@@ -35,13 +35,13 @@ namespace System::Net::Security {
 class CORDL_TYPE RemoteCertificateValidationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x438f264, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x43a397c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Object* sender, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                      ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
   static inline ::System::Net::Security::RemoteCertificateValidationCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x438f160, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a3878, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -59,7 +59,7 @@ public:
   RemoteCertificateValidationCallback(RemoteCertificateValidationCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9863 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9868 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

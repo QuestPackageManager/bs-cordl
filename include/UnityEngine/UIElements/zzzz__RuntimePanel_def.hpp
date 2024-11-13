@@ -51,10 +51,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__RuntimePanel____c* New_ctor();
 
-  /// @brief Method <.ctor>b__5_0, addr 0x49bfab4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__5_0, addr 0x49d41cc, size 0x14, virtual false, abstract: false, final false
   inline void __ctor_b__5_0(::UnityEngine::UIElements::FocusEvent* e, ::UnityEngine::UIElements::RuntimePanel* p);
 
-  /// @brief Method .ctor, addr 0x49bfaac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49d41c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__RuntimePanel____c* getStaticF___9();
@@ -80,7 +80,7 @@ public:
   __RuntimePanel____c(__RuntimePanel____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5936 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -106,15 +106,15 @@ public:
   /// @brief Field s_EventDispatcher, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_EventDispatcher, put = setStaticF_s_EventDispatcher)) ::UnityEngine::UIElements::EventDispatcher* s_EventDispatcher;
 
-  /// @brief Method Create, addr 0x49bf3b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x49d3acc, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::RuntimePanel* Create(::UnityEngine::ScriptableObject* ownerObject);
 
   static inline ::UnityEngine::UIElements::RuntimePanel* New_ctor(::UnityEngine::ScriptableObject* ownerObject);
 
-  /// @brief Method OnElementFocus, addr 0x49bf98c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnElementFocus, addr 0x49d40a4, size 0x78, virtual false, abstract: false, final false
   inline void OnElementFocus(::UnityEngine::UIElements::FocusEvent* evt);
 
-  /// @brief Method Update, addr 0x49bf804, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x49d3f1c, size 0x80, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings> const& __cordl_internal_get_m_PanelSettings() const;
@@ -123,12 +123,12 @@ public:
 
   constexpr void __cordl_internal_set_m_PanelSettings(::UnityW<::UnityEngine::UIElements::PanelSettings> value);
 
-  /// @brief Method .ctor, addr 0x49bf40c, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49d3b24, size 0x2e0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ScriptableObject* ownerObject);
 
   static inline ::UnityEngine::UIElements::EventDispatcher* getStaticF_s_EventDispatcher();
 
-  /// @brief Method get_panelSettings, addr 0x49bf3ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_panelSettings, addr 0x49d3ac4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::UIElements::PanelSettings> get_panelSettings();
 
   static inline void setStaticF_s_EventDispatcher(::UnityEngine::UIElements::EventDispatcher* value);
@@ -151,7 +151,7 @@ public:
   ::UnityW<::UnityEngine::UIElements::PanelSettings> ___m_PanelSettings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5937 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

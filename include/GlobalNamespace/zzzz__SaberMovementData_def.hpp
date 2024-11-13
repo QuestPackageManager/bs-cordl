@@ -70,36 +70,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISaberMovementData"
   constexpr operator ::GlobalNamespace::ISaberMovementData*() noexcept;
 
-  /// @brief Method AddDataProcessor, addr 0x266f49c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method AddDataProcessor, addr 0x267a75c, size 0x58, virtual true, abstract: false, final true
   inline void AddDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method AddNewData, addr 0x266f6cc, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method AddNewData, addr 0x267a98c, size 0x4c8, virtual false, abstract: false, final false
   inline void AddNewData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, float_t time);
 
-  /// @brief Method ComputeAdditionalData, addr 0x266fb94, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method ComputeAdditionalData, addr 0x267ae54, size 0x22c, virtual false, abstract: false, final false
   inline void ComputeAdditionalData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, int32_t idxOffset, ByRef<::UnityEngine::Vector3> segmentNormal, ByRef<float_t> segmentAngle);
 
-  /// @brief Method ComputeCutPlaneNormal, addr 0x266fefc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ComputeCutPlaneNormal, addr 0x267b1bc, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ComputeCutPlaneNormal();
 
-  /// @brief Method ComputePlaneNormal, addr 0x266fdc0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ComputePlaneNormal, addr 0x267b080, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ComputePlaneNormal(::UnityEngine::Vector3 tp0, ::UnityEngine::Vector3 bp0, ::UnityEngine::Vector3 tp1, ::UnityEngine::Vector3 bp1);
 
-  /// @brief Method ComputeSwingRating, addr 0x2670240, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method ComputeSwingRating, addr 0x267b500, size 0xc, virtual true, abstract: false, final true
   inline float_t ComputeSwingRating();
 
-  /// @brief Method ComputeSwingRating, addr 0x266ff9c, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method ComputeSwingRating, addr 0x267b25c, size 0x2a4, virtual false, abstract: false, final false
   inline float_t ComputeSwingRating(bool overrideSegmenAngle, float_t overrideValue);
 
-  /// @brief Method ComputeSwingRating, addr 0x266ff94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method ComputeSwingRating, addr 0x267b254, size 0x8, virtual true, abstract: false, final true
   inline float_t ComputeSwingRating(float_t overrideSegmentAngle);
 
   static inline ::GlobalNamespace::SaberMovementData* New_ctor();
 
-  /// @brief Method RemoveDataProcessor, addr 0x266f4f4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RemoveDataProcessor, addr 0x267a7b4, size 0x58, virtual true, abstract: false, final true
   inline void RemoveDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method RequestLastDataProcessing, addr 0x266f54c, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method RequestLastDataProcessing, addr 0x267a80c, size 0x180, virtual true, abstract: false, final true
   inline void RequestLastDataProcessing(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
   constexpr float_t const& __cordl_internal_get__bladeSpeed() const;
@@ -132,16 +132,16 @@ public:
 
   constexpr void __cordl_internal_set__validCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x266f3f4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267a6b4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bladeSpeed, addr 0x266f334, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_bladeSpeed, addr 0x267a5f4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_bladeSpeed();
 
-  /// @brief Method get_lastAddedData, addr 0x266f33c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_lastAddedData, addr 0x267a5fc, size 0x5c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BladeMovementDataElement get_lastAddedData();
 
-  /// @brief Method get_prevAddedData, addr 0x266f398, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_prevAddedData, addr 0x267a658, size 0x5c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BladeMovementDataElement get_prevAddedData();
 
   /// @brief Convert to "::GlobalNamespace::IBladeMovementData"
@@ -180,7 +180,7 @@ public:
   float_t ____bladeSpeed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12818 };
 
   /// @brief Field kOutOfRangeBladeSpeed offset 0xffffffff size 0x4
   static constexpr float_t kOutOfRangeBladeSpeed{ 100.0 };

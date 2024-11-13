@@ -16,7 +16,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_2<T, int32_t>*> con
 }
 template <typename T> constexpr void GlobalNamespace::__SortExtensions____c__DisplayClass1_0_1<T>::__cordl_internal_set_getSortIndex(::System::Func_2<T, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___getSortIndex)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___getSortIndex, value);
 }
 template <typename T> inline ::GlobalNamespace::__SortExtensions____c__DisplayClass1_0_1<T>* GlobalNamespace::__SortExtensions____c__DisplayClass1_0_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SortExtensions____c__DisplayClass1_0_1<T>*>());

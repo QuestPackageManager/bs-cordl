@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_key(::GlobalNamespace::BeatmapKey value);
 
-  /// @brief Method .ctor, addr 0x3ab348c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac702c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   ::BeatSaber::RecPlay::PlayerPoseFrames ___frames;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5111 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

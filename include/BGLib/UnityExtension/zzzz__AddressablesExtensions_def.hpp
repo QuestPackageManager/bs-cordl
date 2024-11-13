@@ -98,7 +98,7 @@ public:
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ___taskSource;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17211 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17217 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -143,7 +143,7 @@ public:
   AddressablesExtensions(AddressablesExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17218 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

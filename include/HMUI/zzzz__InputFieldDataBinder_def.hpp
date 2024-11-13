@@ -97,7 +97,7 @@ public:
   __InputFieldDataBinder____c__3_1(__InputFieldDataBinder____c__3_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15979 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -187,7 +187,7 @@ public:
   ::System::Func_2<T1, ::StringW>* ___toStringConvertor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -217,7 +217,7 @@ public:
   /// @brief Method AddStringBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::InputField>, T>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x398024c, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x3993ad0, size 0x2c4, virtual false, abstract: false, final false
   inline void ClearBindings();
 
   static inline ::HMUI::InputFieldDataBinder* New_ctor();
@@ -233,7 +233,7 @@ public:
   constexpr void __cordl_internal_set__bindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*,
                                                                                                          ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* value);
 
-  /// @brief Method .ctor, addr 0x39801cc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3993a50, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -255,7 +255,7 @@ public:
       ::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* ____bindings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15981 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

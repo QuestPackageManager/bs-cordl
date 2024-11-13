@@ -22,21 +22,21 @@ namespace UnityEngine {
 class CORDL_TYPE ScriptableObject : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method CreateInstance, addr 0x4836e68, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x484b580, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> CreateInstance(::System::Type* type);
 
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CreateInstance();
 
-  /// @brief Method CreateScriptableObject, addr 0x4836e2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptableObject, addr 0x484b544, size 0x3c, virtual false, abstract: false, final false
   static inline void CreateScriptableObject(::UnityEngine::ScriptableObject* self);
 
-  /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x4836ea8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptableObjectInstanceFromType, addr 0x484b5c0, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset);
 
   static inline ::UnityEngine::ScriptableObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4836dac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484b4c4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   ScriptableObject(ScriptableObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

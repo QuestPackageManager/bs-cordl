@@ -63,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b9648c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bac2f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedText, addr 0x3b9645c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_localizedText, addr 0x3bac2c0, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
 
 protected:
@@ -90,7 +90,7 @@ public:
   int32_t ___value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -115,7 +115,7 @@ public:
 
   static inline ::GlobalNamespace::__NamedIntListSettingsController____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <SetValue>b__0, addr 0x3b96494, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <SetValue>b__0, addr 0x3bac2f8, size 0x24, virtual false, abstract: false, final false
   inline bool _SetValue_b__0(::GlobalNamespace::__NamedIntListSettingsController__TextValuePair* entry);
 
   constexpr int32_t const& __cordl_internal_get_value() const;
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b9639c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bac200, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,7 +145,7 @@ public:
   int32_t ___value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -178,18 +178,18 @@ public:
   /// @brief Field valueDidChangeEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_1<int32_t>* valueDidChangeEvent;
 
-  /// @brief Method ApplyValue, addr 0x3b963d0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3bac234, size 0x58, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x3b963a4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x3bac208, size 0x2c, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::NamedIntListSettingsController* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3b96290, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3bac0f4, size 0x10c, virtual false, abstract: false, final false
   inline void SetValue(int32_t value, bool applyValue);
 
-  /// @brief Method TextForValue, addr 0x3b96428, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x3bac28c, size 0x34, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr int32_t const& __cordl_internal_get__selectedIndex() const;
@@ -213,13 +213,13 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b96484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bac2e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x3b96130, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x3babf94, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x3b961e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x3bac044, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -246,7 +246,7 @@ public:
   int32_t ____selectedIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

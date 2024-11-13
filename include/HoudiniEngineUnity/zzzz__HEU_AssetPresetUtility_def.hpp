@@ -31,10 +31,10 @@ public:
   /// @brief Field PRESET_VERSION, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_PRESET_VERSION, put = setStaticF_PRESET_VERSION)) int32_t PRESET_VERSION;
 
-  /// @brief Method LoadPresetFileIntoAssetAndCook, addr 0x399d604, size 0x66c, virtual false, abstract: false, final false
+  /// @brief Method LoadPresetFileIntoAssetAndCook, addr 0x39b0f5c, size 0x66c, virtual false, abstract: false, final false
   static inline void LoadPresetFileIntoAssetAndCook(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW filePath);
 
-  /// @brief Method SaveAssetPresetToFile, addr 0x399c814, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method SaveAssetPresetToFile, addr 0x39b016c, size 0x640, virtual false, abstract: false, final false
   static inline void SaveAssetPresetToFile(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW filePath);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_PRESET_IDENTIFIER();
@@ -60,7 +60,7 @@ public:
   HEU_AssetPresetUtility(HEU_AssetPresetUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11563 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

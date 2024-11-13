@@ -46,12 +46,12 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerLevelEndActions,
                       put = __cordl_internal_set__multiplayerLevelEndActions)) ::GlobalNamespace::IMultiplayerLevelEndActionsListener* _multiplayerLevelEndActions;
 
-  /// @brief Method Disconnect, addr 0x3b49658, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x3b5f144, size 0x20c, virtual false, abstract: false, final false
   inline void Disconnect(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* New_ctor();
 
-  /// @brief Method ResolveDisconnectButtonString, addr 0x3b4b8c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ResolveDisconnectButtonString, addr 0x3b613b0, size 0x70, virtual false, abstract: false, final false
   inline ::StringW ResolveDisconnectButtonString();
 
   constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerLevelEndActions(::GlobalNamespace::IMultiplayerLevelEndActionsListener* value);
 
-  /// @brief Method .ctor, addr 0x3b4b934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b61420, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   ::GlobalNamespace::LobbyPlayerPermissionsModel* ____lobbyPlayerPermissionsModel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4515 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4518 };
 
   /// @brief Field kDisconnectLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kDisconnectLabel{ u"BUTTON_DISCONNECT" };

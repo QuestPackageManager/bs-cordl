@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__PanelAnimation___AnimationCoroutine_d__1::*)(int32_t)>(
     &::HMUI::__PanelAnimation___AnimationCoroutine_d__1::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x397f7e4;
+  constexpr static std::size_t addrs = 0x3993068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__PanelAnimation___AnimationCoroutine_d__1::*)()>(
     &::HMUI::__PanelAnimation___AnimationCoroutine_d__1::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x397f814;
+  constexpr static std::size_t addrs = 0x3993098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__PanelAnimation___AnimationCoroutine_d__1*>::get(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::__PanelAnimation___AnimationCoroutine_d__1::*)()>(
     &::HMUI::__PanelAnimation___AnimationCoroutine_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x397f818;
+  constexpr static std::size_t addrs = 0x399309c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__PanelAnimation___AnimationCoroutine_d__1*>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::__PanelAnimation___AnimationCoroutine_d__1::*)()>(
     &::HMUI::__PanelAnimation___AnimationCoroutine_d__1::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397faac;
+  constexpr static std::size_t addrs = 0x3993330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__PanelAnimation___AnimationCoroutine_d__1::*)()>(
     &::HMUI::__PanelAnimation___AnimationCoroutine_d__1::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x397fab4;
+  constexpr static std::size_t addrs = 0x3993338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::__PanelAnimation___AnimationCoroutine_d__1::*)()>(
     &::HMUI::__PanelAnimation___AnimationCoroutine_d__1::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397faec;
+  constexpr static std::size_t addrs = 0x3993370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HMUI::PanelAnimation::*)(::UnityEngine::CanvasGroup*, ::UnityEngine::CanvasGroup*, float_t, ::UnityEngine::AnimationCurve*, ::UnityEngine::AnimationCurve*,
                                                  ::UnityEngine::AnimationCurve*, ::UnityEngine::AnimationCurve*, ::System::Action*)>(&::HMUI::PanelAnimation::StartAnimation)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x397f5d4;
+  constexpr static std::size_t addrs = 0x3992e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -347,7 +347,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::HMUI::PanelAnimation::*)(float_t, ::UnityEngine::CanvasGroup*, ::UnityEngine::CanvasGroup*, ::UnityEngine::AnimationCurve*, ::UnityEngine::AnimationCurve*, ::UnityEngine::AnimationCurve*,
                                ::UnityEngine::AnimationCurve*, ::System::Action*)>(&::HMUI::PanelAnimation::AnimationCoroutine)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x397f728;
+  constexpr static std::size_t addrs = 0x3992fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::PanelAnimation::*)()>(&::HMUI::PanelAnimation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397f80c;
+  constexpr static std::size_t addrs = 0x3993090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::PanelAnimation*>::get(), ".ctor",

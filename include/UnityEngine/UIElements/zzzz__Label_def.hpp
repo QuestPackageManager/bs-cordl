@@ -37,7 +37,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Label__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49772f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498ba10, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   __Label__UxmlFactory(__Label__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5593 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -73,7 +73,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Label__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4977340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498ba58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   __Label__UxmlTraits(__Label__UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -118,10 +118,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Label* New_ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x4977190, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498b8a8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49771e0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498b8f8, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::StringW getStaticF_ussClassName();
@@ -143,7 +143,7 @@ public:
   Label(Label const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

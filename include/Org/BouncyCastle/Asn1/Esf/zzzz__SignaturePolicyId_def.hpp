@@ -54,10 +54,10 @@ public:
   /// @brief Field sigPolicyQualifiers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_sigPolicyQualifiers, put = __cordl_internal_set_sigPolicyQualifiers)) ::Org::BouncyCastle::Asn1::Asn1Sequence* sigPolicyQualifiers;
 
-  /// @brief Method GetInstance, addr 0x22e499c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22efa44, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetSigPolicyQualifiers, addr 0x22e50c8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetSigPolicyQualifiers, addr 0x22f0170, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, ::Array<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>*> GetSigPolicyQualifiers();
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -73,7 +73,7 @@ public:
                                                                             ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
                                                                             ::System::Collections::IEnumerable* sigPolicyQualifiers);
 
-  /// @brief Method ToAsn1Object, addr 0x22e5358, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22f0400, size 0x154, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*& __cordl_internal_get_sigPolicyHash();
@@ -94,24 +94,24 @@ public:
 
   constexpr void __cordl_internal_set_sigPolicyQualifiers(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x22e4b18, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22efbc0, size 0x2d4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x22e4dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22efe94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash);
 
-  /// @brief Method .ctor, addr 0x22e4df4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22efe9c, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, ::Array<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>*> sigPolicyQualifiers);
 
-  /// @brief Method .ctor, addr 0x22e4ee8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22eff90, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
                     ::System::Collections::IEnumerable* sigPolicyQualifiers);
 
-  /// @brief Method get_SigPolicyHash, addr 0x22e50c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SigPolicyHash, addr 0x22f0168, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* get_SigPolicyHash();
 
-  /// @brief Method get_SigPolicyIdentifier, addr 0x22e50b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SigPolicyIdentifier, addr 0x22f0160, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_SigPolicyIdentifier();
 
 protected:

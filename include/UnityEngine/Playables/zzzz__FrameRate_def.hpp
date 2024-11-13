@@ -62,28 +62,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::FrameRate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::FrameRate>*();
 
-  /// @brief Method DoubleToFrameRate, addr 0x485379c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method DoubleToFrameRate, addr 0x4867eb4, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::FrameRate DoubleToFrameRate(double_t framerate);
 
-  /// @brief Method Equals, addr 0x485347c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4867b94, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x485346c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4867b84, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Playables::FrameRate other);
 
-  /// @brief Method GetHashCode, addr 0x4853588, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4867ca0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsValid, addr 0x485345c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x4867b74, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method ToString, addr 0x4853590, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4867ca8, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x48535ec, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4867d04, size 0x1b0, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x485344c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4867b64, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t frameRate, bool drop);
 
   static inline ::UnityEngine::Playables::FrameRate getStaticF_k_23_976Fps();
@@ -102,16 +102,16 @@ public:
 
   static inline ::UnityEngine::Playables::FrameRate getStaticF_k_60Fps();
 
-  /// @brief Method get_dropFrame, addr 0x48533cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dropFrame, addr 0x4867ae4, size 0xc, virtual false, abstract: false, final false
   inline bool get_dropFrame();
 
-  /// @brief Method get_rate, addr 0x48533d8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_rate, addr 0x4867af0, size 0x74, virtual false, abstract: false, final false
   inline double_t get_rate();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::FrameRate>"
   constexpr ::System::IEquatable_1<::UnityEngine::Playables::FrameRate>* i___System__IEquatable_1___UnityEngine__Playables__FrameRate_();
 
-  /// @brief Method op_Equality, addr 0x4853524, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4867c3c, size 0x64, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Playables::FrameRate a, ::UnityEngine::Playables::FrameRate b);
 
   static inline void setStaticF_k_23_976Fps(::UnityEngine::Playables::FrameRate value);
@@ -141,7 +141,7 @@ public:
   int32_t m_Rate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11230 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

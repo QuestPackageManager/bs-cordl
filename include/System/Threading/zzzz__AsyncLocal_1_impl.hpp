@@ -26,7 +26,7 @@ System::Threading::AsyncLocal_1<T>::__cordl_internal_get_m_valueChangedHandler()
 }
 template <typename T> constexpr void System::Threading::AsyncLocal_1<T>::__cordl_internal_set_m_valueChangedHandler(::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_valueChangedHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_valueChangedHandler, value);
 }
 template <typename T>
 inline ::System::Threading::AsyncLocal_1<T>* System::Threading::AsyncLocal_1<T>::New_ctor(::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* valueChangedHandler) {

@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x267b514, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2687118, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, int32_t value);
 
 protected:
@@ -53,7 +53,7 @@ public:
   int32_t ___value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12870 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

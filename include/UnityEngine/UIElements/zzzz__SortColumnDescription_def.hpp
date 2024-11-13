@@ -85,7 +85,7 @@ public:
   __SortColumnDescription__UxmlObjectFactory_1(__SortColumnDescription__UxmlObjectFactory_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -162,7 +162,7 @@ public:
   ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SortDirection>* ___m_SortDescription;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5631 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -239,43 +239,43 @@ public:
 
   constexpr void __cordl_internal_set_m_SortDirection(::UnityEngine::UIElements::SortDirection value);
 
-  /// @brief Method .ctor, addr 0x49858d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4999fec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49858e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4999ffc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t columnIndex, ::UnityEngine::UIElements::SortDirection direction);
 
-  /// @brief Method .ctor, addr 0x4985974, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499a08c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW columnName, ::UnityEngine::UIElements::SortDirection direction);
 
-  /// @brief Method add_changed, addr 0x4985774, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_changed, addr 0x4999e8c, size 0xb0, virtual false, abstract: false, final false
   inline void add_changed(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>* value);
 
-  /// @brief Method get_column, addr 0x4985728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_column, addr 0x4999e40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Column* get_column();
 
-  /// @brief Method get_columnIndex, addr 0x49856ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnIndex, addr 0x4999e04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnIndex();
 
-  /// @brief Method get_columnName, addr 0x4985690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnName, addr 0x4999da8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_columnName();
 
-  /// @brief Method get_direction, addr 0x4985738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x4999e50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::SortDirection get_direction();
 
-  /// @brief Method remove_changed, addr 0x4985824, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_changed, addr 0x4999f3c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_changed(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>* value);
 
-  /// @brief Method set_column, addr 0x4985730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_column, addr 0x4999e48, size 0x8, virtual false, abstract: false, final false
   inline void set_column(::UnityEngine::UIElements::Column* value);
 
-  /// @brief Method set_columnIndex, addr 0x49856f4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_columnIndex, addr 0x4999e0c, size 0x34, virtual false, abstract: false, final false
   inline void set_columnIndex(int32_t value);
 
-  /// @brief Method set_columnName, addr 0x4985698, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_columnName, addr 0x4999db0, size 0x54, virtual false, abstract: false, final false
   inline void set_columnName(::StringW value);
 
-  /// @brief Method set_direction, addr 0x4985740, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x4999e58, size 0x34, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::SortDirection value);
 
 protected:
@@ -308,7 +308,7 @@ public:
   ::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>* ___changed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5632 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

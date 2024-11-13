@@ -24,7 +24,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename TKey, typename TValue> constexpr void BGLib::UnityExtension::SerializableDictionary_2<TKey, TValue>::__cordl_internal_set_keys(::System::Collections::Generic::List_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___keys, value);
 }
 template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::List_1<TValue>*& BGLib::UnityExtension::SerializableDictionary_2<TKey, TValue>::__cordl_internal_get_values() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -39,7 +39,7 @@ BGLib::UnityExtension::SerializableDictionary_2<TKey, TValue>::__cordl_internal_
 template <typename TKey, typename TValue>
 constexpr void BGLib::UnityExtension::SerializableDictionary_2<TKey, TValue>::__cordl_internal_set_values(::System::Collections::Generic::List_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___values, value);
 }
 template <typename TKey, typename TValue> inline void BGLib::UnityExtension::SerializableDictionary_2<TKey, TValue>::OnBeforeSerialize() {
   static auto* ___internal_method =

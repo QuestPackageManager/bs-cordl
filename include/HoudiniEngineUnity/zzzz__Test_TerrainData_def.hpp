@@ -37,10 +37,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TerrainData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TerrainData*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a3255c, size 0x568, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a45eb4, size 0x568, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_TerrainData* other);
 
-  /// @brief Method IsNull, addr 0x3a324fc, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a45e54, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_TerrainData* New_ctor(::UnityEngine::TerrainData* self);
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::TerrainData> value);
 
-  /// @brief Method .ctor, addr 0x3a324d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a45e2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TerrainData* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_TerrainData*>"
@@ -79,7 +79,7 @@ public:
   ::UnityW<::UnityEngine::TerrainData> ___self;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11891 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

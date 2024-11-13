@@ -73,59 +73,59 @@ public:
 
   __declspec(property(get = get_OtherColliderInstanceID)) int32_t OtherColliderInstanceID;
 
-  /// @brief Method CopyToNativeArray, addr 0x4895634, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CopyToNativeArray, addr 0x48a9d4c, size 0x6c, virtual false, abstract: false, final false
   inline void CopyToNativeArray(::Unity::Collections::NativeArray_1<::UnityEngine::ContactPairPoint> buffer);
 
-  /// @brief Method ExtractContacts, addr 0x487acc8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExtractContacts, addr 0x488f3e0, size 0x54, virtual false, abstract: false, final false
   inline int32_t ExtractContacts(::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>* managedContainer, bool flipped);
 
-  /// @brief Method ExtractContactsArray, addr 0x487a668, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExtractContactsArray, addr 0x488ed80, size 0x54, virtual false, abstract: false, final false
   inline int32_t ExtractContactsArray(::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> managedContainer, bool flipped);
 
-  /// @brief Method ExtractContactsArray_Injected, addr 0x48955e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExtractContactsArray_Injected, addr 0x48a9cf8, size 0x54, virtual false, abstract: false, final false
   static inline int32_t ExtractContactsArray_Injected(ByRef<::UnityEngine::ContactPair> _unity_self, ::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> managedContainer,
                                                       bool flipped);
 
-  /// @brief Method ExtractContacts_Injected, addr 0x489558c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExtractContacts_Injected, addr 0x48a9ca4, size 0x54, virtual false, abstract: false, final false
   static inline int32_t ExtractContacts_Injected(ByRef<::UnityEngine::ContactPair> _unity_self, ::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>* managedContainer, bool flipped);
 
-  /// @brief Method GetContactPoint, addr 0x48956a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetContactPoint, addr 0x48a9db8, size 0x4, virtual false, abstract: false, final false
   inline ByRef<::UnityEngine::ContactPairPoint> GetContactPoint(int32_t index);
 
-  /// @brief Method GetContactPointFaceIndex, addr 0x48956a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetContactPointFaceIndex, addr 0x48a9dbc, size 0xd8, virtual false, abstract: false, final false
   inline uint32_t GetContactPointFaceIndex(int32_t contactIndex);
 
-  /// @brief Method GetContactPoint_Internal, addr 0x487a9c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetContactPoint_Internal, addr 0x488f0d8, size 0x80, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::ContactPairPoint> GetContactPoint_Internal(int32_t index);
 
-  /// @brief Method get_Collider, addr 0x487a3f4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_Collider, addr 0x488eb0c, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_Collider();
 
-  /// @brief Method get_ColliderInstanceID, addr 0x4895568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ColliderInstanceID, addr 0x48a9c80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ColliderInstanceID();
 
-  /// @brief Method get_ContactCount, addr 0x4895578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContactCount, addr 0x48a9c90, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ContactCount();
 
-  /// @brief Method get_HasRemovedCollider, addr 0x4889d38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasRemovedCollider, addr 0x489e450, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasRemovedCollider();
 
-  /// @brief Method get_ImpulseSum, addr 0x4895580, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ImpulseSum, addr 0x48a9c98, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_ImpulseSum();
 
-  /// @brief Method get_IsCollisionEnter, addr 0x4889d48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsCollisionEnter, addr 0x489e460, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsCollisionEnter();
 
-  /// @brief Method get_IsCollisionExit, addr 0x4889e84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsCollisionExit, addr 0x489e59c, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsCollisionExit();
 
-  /// @brief Method get_IsCollisionStay, addr 0x4889e78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsCollisionStay, addr 0x489e590, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsCollisionStay();
 
-  /// @brief Method get_OtherCollider, addr 0x487a368, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_OtherCollider, addr 0x488ea80, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_OtherCollider();
 
-  /// @brief Method get_OtherColliderInstanceID, addr 0x4895570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherColliderInstanceID, addr 0x48a9c88, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OtherColliderInstanceID();
 
   // Ctor Parameters []
@@ -161,7 +161,7 @@ public:
   ::UnityEngine::Vector3 m_ImpulseSum;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15730 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

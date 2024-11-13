@@ -29,7 +29,7 @@ public:
   /// @brief Method TriggerValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method .ctor, addr 0x3b13978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2800c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   FloatFxGroupEffectTarget(FloatFxGroupEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -77,13 +77,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMacDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IMacDerivationFunction*() noexcept;
 
-  /// @brief Method GenerateBytes, addr 0x234774c, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method GenerateBytes, addr 0x23527f4, size 0x200, virtual true, abstract: false, final true
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
-  /// @brief Method GetMac, addr 0x23476bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMac, addr 0x2352764, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IMac* GetMac();
 
-  /// @brief Method Init, addr 0x2347420, size 0x29c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x23524c8, size 0x29c, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IMac* prf);
@@ -136,17 +136,17 @@ public:
 
   constexpr void __cordl_internal_set_prf(::Org::BouncyCastle::Crypto::IMac* value);
 
-  /// @brief Method .ctor, addr 0x2347340, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23523e8, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* prf);
 
-  /// @brief Method generateNext, addr 0x234794c, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method generateNext, addr 0x23529f4, size 0x324, virtual false, abstract: false, final false
   inline void generateNext();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_IntegerMax();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Two();
 
-  /// @brief Method get_Digest, addr 0x23476c4, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_Digest, addr 0x235276c, size 0x88, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"

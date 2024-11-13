@@ -77,7 +77,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Vector4Field__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49159f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492a108, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   __Vector4Field__UxmlFactory(__Vector4Field__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5524 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -123,7 +123,7 @@ public:
   /// @brief Field m_ZValue, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ZValue, put = __cordl_internal_set_m_ZValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_ZValue;
 
-  /// @brief Method Init, addr 0x4915a38, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x492a150, size 0x1dc, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__Vector4Field__UxmlTraits* New_ctor();
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ZValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4915c14, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492a32c, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -182,7 +182,7 @@ public:
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_WValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5525 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -243,31 +243,31 @@ public:
 
   static inline ::UnityEngine::UIElements::__Vector4Field____c* New_ctor();
 
-  /// @brief Method <DescribeFields>b__0_0, addr 0x4915db8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_0, addr 0x492a4d0, size 0x4, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_0(::UnityEngine::Vector4 r);
 
-  /// @brief Method <DescribeFields>b__0_1, addr 0x4915dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_1, addr 0x492a4d4, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_1(ByRef<::UnityEngine::Vector4> r, float_t v);
 
-  /// @brief Method <DescribeFields>b__0_2, addr 0x4915dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_2, addr 0x492a4dc, size 0x8, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_2(::UnityEngine::Vector4 r);
 
-  /// @brief Method <DescribeFields>b__0_3, addr 0x4915dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_3, addr 0x492a4e4, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_3(ByRef<::UnityEngine::Vector4> r, float_t v);
 
-  /// @brief Method <DescribeFields>b__0_4, addr 0x4915dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_4, addr 0x492a4ec, size 0x8, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_4(::UnityEngine::Vector4 r);
 
-  /// @brief Method <DescribeFields>b__0_5, addr 0x4915ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_5, addr 0x492a4f4, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_5(ByRef<::UnityEngine::Vector4> r, float_t v);
 
-  /// @brief Method <DescribeFields>b__0_6, addr 0x4915de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_6, addr 0x492a4fc, size 0x8, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_6(::UnityEngine::Vector4 r);
 
-  /// @brief Method <DescribeFields>b__0_7, addr 0x4915dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_7, addr 0x492a504, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_7(ByRef<::UnityEngine::Vector4> r, float_t v);
 
-  /// @brief Method .ctor, addr 0x4915db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492a4c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__Vector4Field____c* getStaticF___9();
@@ -321,7 +321,7 @@ public:
   __Vector4Field____c(__Vector4Field____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5526 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -352,7 +352,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DescribeFields, addr 0x49151a0, size 0x658, virtual true, abstract: false, final false
+  /// @brief Method DescribeFields, addr 0x49298b8, size 0x658, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::__BaseCompositeField_3__FieldDescription<::UnityEngine::Vector4, ::UnityEngine::UIElements::FloatField*, float_t>,
                   ::Array<::UnityEngine::UIElements::__BaseCompositeField_3__FieldDescription<::UnityEngine::Vector4, ::UnityEngine::UIElements::FloatField*, float_t>>*>
   DescribeFields();
@@ -361,10 +361,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Vector4Field* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x49157f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4929f10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4915800, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4929f18, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -394,7 +394,7 @@ public:
   Vector4Field(Vector4Field const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5527 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

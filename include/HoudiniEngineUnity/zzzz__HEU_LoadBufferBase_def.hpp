@@ -39,7 +39,7 @@ public:
   /// @brief Field _name, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
-  /// @brief Method InitializeBuffer, addr 0x39f8440, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InitializeBuffer, addr 0x3a0bd98, size 0x1c, virtual false, abstract: false, final false
   inline void InitializeBuffer(int32_t id, ::StringW name, bool bInstanced, bool bInstancer);
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferBase* New_ctor();
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39f845c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0bdb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   ::HoudiniEngineUnity::HEU_GeneratedOutput* ____generatedOutput;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11753 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

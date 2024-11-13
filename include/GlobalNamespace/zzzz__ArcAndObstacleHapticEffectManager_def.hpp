@@ -99,13 +99,13 @@ public:
 
   constexpr void __cordl_internal_set_sliderInteractionManager(::UnityW<::GlobalNamespace::SliderInteractionManager> value);
 
-  /// @brief Method .ctor, addr 0x3b0581c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1abac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canBeActive, addr 0x3b05644, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_canBeActive, addr 0x3b1a9d4, size 0x20, virtual false, abstract: false, final false
   inline bool get_canBeActive();
 
-  /// @brief Method get_isActive, addr 0x3b05574, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x3b1a904, size 0x44, virtual false, abstract: false, final false
   inline bool get_isActive();
 
 protected:
@@ -135,7 +135,7 @@ public:
   bool ___isSliderActive;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4180 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -187,39 +187,39 @@ public:
   __declspec(property(get = __cordl_internal_get__sliderInteractionManagers,
                       put = __cordl_internal_set__sliderInteractionManagers)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* _sliderInteractionManagers;
 
-  /// @brief Method GetState, addr 0x3b05718, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetState, addr 0x3b1aaa8, size 0x30, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState* GetState(::GlobalNamespace::ColorType colorType);
 
-  /// @brief Method GetState, addr 0x3b055f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetState, addr 0x3b1a988, size 0x4c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState* GetState(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method HandleSliderInteractionManagerAllSliderWereRemovedFromActiveSliders, addr 0x3b056d8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderInteractionManagerAllSliderWereRemovedFromActiveSliders, addr 0x3b1aa68, size 0x40, virtual false, abstract: false, final false
   inline void HandleSliderInteractionManagerAllSliderWereRemovedFromActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager);
 
-  /// @brief Method HandleSliderInteractionManagerSliderWasAddedToActiveSliders, addr 0x3b05748, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderInteractionManagerSliderWasAddedToActiveSliders, addr 0x3b1aad8, size 0x5c, virtual false, abstract: false, final false
   inline void HandleSliderInteractionManagerSliderWasAddedToActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager, float_t sliderInteractionParam);
 
-  /// @brief Method HandleSparkleEffectDidEnd, addr 0x3b05664, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSparkleEffectDidEnd, addr 0x3b1a9f4, size 0x24, virtual false, abstract: false, final false
   inline void HandleSparkleEffectDidEnd(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method HandleSparkleEffectDidStart, addr 0x3b055b8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleSparkleEffectDidStart, addr 0x3b1a948, size 0x40, virtual false, abstract: false, final false
   inline void HandleSparkleEffectDidStart(::GlobalNamespace::SaberType saberType);
 
   static inline ::GlobalNamespace::ArcAndObstacleHapticEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b05074, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b1a40c, size 0x30c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b04bc4, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b19f64, size 0x348, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TryDisableThis, addr 0x3b05688, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method TryDisableThis, addr 0x3b1aa18, size 0x50, virtual false, abstract: false, final false
   inline void TryDisableThis();
 
-  /// @brief Method Update, addr 0x3b054e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b1a878, size 0x28, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateHaptic, addr 0x3b05510, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateHaptic, addr 0x3b1a8a0, size 0x64, virtual false, abstract: false, final false
   inline void UpdateHaptic(::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState* state, ::UnityEngine::XR::XRNode node);
 
   constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
@@ -265,7 +265,7 @@ public:
 
   constexpr void __cordl_internal_set__sliderInteractionManagers(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* value);
 
-  /// @brief Method .ctor, addr 0x3b057a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1ab34, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -304,7 +304,7 @@ public:
   ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState* ____rightHandEffectState;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4179 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4181 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

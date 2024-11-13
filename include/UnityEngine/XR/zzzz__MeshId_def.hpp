@@ -33,16 +33,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::MeshId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::MeshId>*();
 
-  /// @brief Method Equals, addr 0x4a708e0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a84ff8, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a70998, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a850b0, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::MeshId other);
 
-  /// @brief Method GetHashCode, addr 0x4a708ac, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a84fc4, size 0x34, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x4a70818, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a84f30, size 0x94, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::XR::MeshId getStaticF_s_InvalidId();
@@ -66,7 +66,7 @@ public:
   uint64_t m_SubId2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18202 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

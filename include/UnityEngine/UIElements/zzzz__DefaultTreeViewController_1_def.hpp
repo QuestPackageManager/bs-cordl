@@ -109,7 +109,7 @@ public:
   ::UnityEngine::UIElements::TreeDataController_1<T>* ___m_TreeDataController;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5444 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

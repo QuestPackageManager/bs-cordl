@@ -36,7 +36,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Co
 }
 template <typename T> constexpr void UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_set_m_Pool(::System::Collections::Generic::Queue_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Pool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Pool, value);
 }
 template <typename T> constexpr int32_t& UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_get_desiredSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -60,7 +60,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Fu
 }
 template <typename T> constexpr void UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_set_constructor(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___constructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___constructor, value);
 }
 template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_get_destructor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -72,7 +72,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ac
 }
 template <typename T> constexpr void UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_set_destructor(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___destructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___destructor, value);
 }
 /// @param lazyInitialization: bool (default: false)
 template <typename T>

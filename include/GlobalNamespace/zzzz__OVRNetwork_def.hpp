@@ -75,10 +75,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRNetwork__FrameHeader {
 public:
   // Declarations
-  /// @brief Method FromBytes, addr 0x3fc5438, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method FromBytes, addr 0x3fd9ac8, size 0x130, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRNetwork__FrameHeader FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> arr);
 
-  /// @brief Method ToBytes, addr 0x3fc5318, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ToBytes, addr 0x3fd99a8, size 0x120, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToBytes();
 
   // Ctor Parameters []
@@ -102,7 +102,7 @@ public:
   static constexpr int32_t StructSize{ static_cast<int32_t>(0xc) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8426 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -137,24 +137,24 @@ public:
   /// @brief Field tcpListener, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tcpListener, put = __cordl_internal_set_tcpListener)) ::System::Net::Sockets::TcpListener* tcpListener;
 
-  /// @brief Method Broadcast, addr 0x3fc63ec, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method Broadcast, addr 0x3fdaa7c, size 0x598, virtual false, abstract: false, final false
   inline void Broadcast(int32_t payloadType, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload);
 
-  /// @brief Method DoAcceptTcpClientCallback, addr 0x3fc5c44, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method DoAcceptTcpClientCallback, addr 0x3fda2d4, size 0x540, virtual false, abstract: false, final false
   inline void DoAcceptTcpClientCallback(::System::IAsyncResult* ar);
 
-  /// @brief Method DoWriteDataCallback, addr 0x3fc6984, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DoWriteDataCallback, addr 0x3fdb014, size 0xf4, virtual false, abstract: false, final false
   inline void DoWriteDataCallback(::System::IAsyncResult* ar);
 
-  /// @brief Method HasConnectedClient, addr 0x3fc6184, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method HasConnectedClient, addr 0x3fda814, size 0x268, virtual false, abstract: false, final false
   inline bool HasConnectedClient();
 
   static inline ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* New_ctor();
 
-  /// @brief Method StartListening, addr 0x3fc5568, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method StartListening, addr 0x3fd9bf8, size 0x520, virtual false, abstract: false, final false
   inline void StartListening(int32_t listeningPort);
 
-  /// @brief Method StopListening, addr 0x3fc5a88, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method StopListening, addr 0x3fda118, size 0x1bc, virtual false, abstract: false, final false
   inline void StopListening();
 
   constexpr ::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>*& __cordl_internal_get_clients();
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_tcpListener(::System::Net::Sockets::TcpListener* value);
 
-  /// @brief Method .ctor, addr 0x3fc6a78, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fdb108, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -202,7 +202,7 @@ public:
   ::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>* ___clients;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8427 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -263,7 +263,7 @@ public:
   static ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient__ConnectionState const Disconnected;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8428 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -314,21 +314,21 @@ public:
   /// @brief Field tcpClient, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_tcpClient, put = __cordl_internal_set_tcpClient)) ::System::Net::Sockets::TcpClient* tcpClient;
 
-  /// @brief Method Connect, addr 0x3fc6b5c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x3fdb1ec, size 0x178, virtual false, abstract: false, final false
   inline void Connect(int32_t listeningPort);
 
-  /// @brief Method ConnectCallback, addr 0x3fc6cd4, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method ConnectCallback, addr 0x3fdb364, size 0x300, virtual false, abstract: false, final false
   inline void ConnectCallback(::System::IAsyncResult* ar);
 
-  /// @brief Method Disconnect, addr 0x3fc6fd4, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x3fdb664, size 0x238, virtual false, abstract: false, final false
   inline void Disconnect();
 
   static inline ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient* New_ctor();
 
-  /// @brief Method OnReadDataCallback, addr 0x3fc7420, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method OnReadDataCallback, addr 0x3fdbab0, size 0x4d4, virtual false, abstract: false, final false
   inline void OnReadDataCallback(::System::IAsyncResult* ar);
 
-  /// @brief Method Tick, addr 0x3fc720c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x3fdb89c, size 0x214, virtual false, abstract: false, final false
   inline void Tick();
 
   constexpr ::System::Action*& __cordl_internal_get_connectionStateChangedCallback();
@@ -373,13 +373,13 @@ public:
 
   constexpr void __cordl_internal_set_tcpClient(::System::Net::Sockets::TcpClient* value);
 
-  /// @brief Method .ctor, addr 0x3fc78f4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fdbf84, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Connected, addr 0x3fc6b48, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Connected, addr 0x3fdb1d8, size 0x14, virtual false, abstract: false, final false
   inline bool get_Connected();
 
-  /// @brief Method get_connectionState, addr 0x3fc6b20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_connectionState, addr 0x3fdb1b0, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient__ConnectionState get_connectionState();
 
 protected:
@@ -418,7 +418,7 @@ public:
   ::System::Threading::ManualResetEvent* ___readyReceiveDataEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -456,7 +456,7 @@ public:
 
   static inline ::GlobalNamespace::OVRNetwork* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fc5310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd99a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -483,7 +483,7 @@ public:
   static constexpr int32_t MaxPayloadLength{ static_cast<int32_t>(0xfff4) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8430 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

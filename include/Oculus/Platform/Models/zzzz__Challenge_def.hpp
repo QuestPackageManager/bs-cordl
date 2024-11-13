@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f1a518, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2eba8, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -197,7 +197,7 @@ public:
   ::Oculus::Platform::ChallengeVisibility ___Visibility;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15473 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -39,15 +39,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3bb4dec, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3bc947c, size 0xbc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleScoreSyncStateUpdate, addr 0x3bba72c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreSyncStateUpdate, addr 0x3bcedbc, size 0x4, virtual false, abstract: false, final false
   inline void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
   static inline ::GlobalNamespace::MockScoreSyncStateSender* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
-  /// @brief Method SendScore, addr 0x3bb81d8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method SendScore, addr 0x3bcc868, size 0x224, virtual false, abstract: false, final false
   inline void SendScore(int32_t modifiedScore, int32_t multipliedScore, int32_t immediateMaxPossibleMultipliedScore, int32_t combo, int32_t multiplier);
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x3bb4c50, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc92e0, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
   /// @brief Convert to "::System::IDisposable"
@@ -80,7 +80,7 @@ public:
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18030 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

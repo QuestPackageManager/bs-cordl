@@ -74,19 +74,19 @@ public:
 
   static inline ::GlobalNamespace::LightManager* New_ctor();
 
-  /// @brief Method OnCameraPreRender, addr 0x3974114, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method OnCameraPreRender, addr 0x3987998, size 0x544, virtual false, abstract: false, final false
   inline void OnCameraPreRender(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnDestroy, addr 0x3974658, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3987edc, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3974030, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39878b4, size 0xe4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3973f4c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39877d0, size 0xe4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetColors, addr 0x397465c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ResetColors, addr 0x3987ee0, size 0xe4, virtual false, abstract: false, final false
   inline void ResetColors();
 
   constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__directionalLightColors() const;
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_lastRefreshFrameNum(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3974740, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3987fc4, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__directionalLightColorsID();
@@ -194,7 +194,7 @@ public:
   int32_t ___lastRefreshFrameNum;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16241 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

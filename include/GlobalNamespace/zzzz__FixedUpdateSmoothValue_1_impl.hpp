@@ -12,7 +12,7 @@ template <typename T> constexpr T const& GlobalNamespace::FixedUpdateSmoothValue
 }
 template <typename T> constexpr void GlobalNamespace::FixedUpdateSmoothValue_1<T>::__cordl_internal_set__currentSmoothedValue(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentSmoothedValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____currentSmoothedValue, value);
 }
 template <typename T> constexpr T& GlobalNamespace::FixedUpdateSmoothValue_1<T>::__cordl_internal_get__prevSmoothedValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -24,7 +24,7 @@ template <typename T> constexpr T const& GlobalNamespace::FixedUpdateSmoothValue
 }
 template <typename T> constexpr void GlobalNamespace::FixedUpdateSmoothValue_1<T>::__cordl_internal_set__prevSmoothedValue(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prevSmoothedValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____prevSmoothedValue, value);
 }
 template <typename T> constexpr float_t& GlobalNamespace::FixedUpdateSmoothValue_1<T>::__cordl_internal_get__smooth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

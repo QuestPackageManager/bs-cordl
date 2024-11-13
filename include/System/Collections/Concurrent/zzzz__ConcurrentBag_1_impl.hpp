@@ -48,7 +48,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& System::Collecti
 }
 template <typename T> constexpr void System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>::__cordl_internal_set__array(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____array)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____array, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>::__cordl_internal_get__mask() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -125,7 +125,7 @@ template <typename T>
 constexpr void
 System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>::__cordl_internal_set__nextQueue(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nextQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____nextQueue, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>::__cordl_internal_get__ownerThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -226,7 +226,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& System::Collecti
 }
 template <typename T> constexpr void System::Collections::Concurrent::__ConcurrentBag_1__Enumerator<T>::__cordl_internal_set__array(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____array)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____array, value);
 }
 template <typename T> constexpr T& System::Collections::Concurrent::__ConcurrentBag_1__Enumerator<T>::__cordl_internal_get__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -238,7 +238,7 @@ template <typename T> constexpr T const& System::Collections::Concurrent::__Conc
 }
 template <typename T> constexpr void System::Collections::Concurrent::__ConcurrentBag_1__Enumerator<T>::__cordl_internal_set__current(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____current, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Concurrent::__ConcurrentBag_1__Enumerator<T>::__cordl_internal_get__index() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -353,7 +353,7 @@ template <typename T>
 constexpr void System::Collections::Concurrent::ConcurrentBag_1<T>::__cordl_internal_set__locals(
     ::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____locals)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____locals, value);
 }
 template <typename T>
 constexpr ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*& System::Collections::Concurrent::ConcurrentBag_1<T>::__cordl_internal_get__workStealingQueues() {
@@ -369,7 +369,7 @@ System::Collections::Concurrent::ConcurrentBag_1<T>::__cordl_internal_get__workS
 template <typename T>
 constexpr void System::Collections::Concurrent::ConcurrentBag_1<T>::__cordl_internal_set__workStealingQueues(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____workStealingQueues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____workStealingQueues, value);
 }
 template <typename T> constexpr int64_t& System::Collections::Concurrent::ConcurrentBag_1<T>::__cordl_internal_get__emptyToNonEmptyListTransitionCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

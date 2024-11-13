@@ -23,7 +23,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::Zenject::D
 }
 template <typename T> constexpr void Zenject::LazyInject_1<T>::__cordl_internal_set__container(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____container, value);
 }
 template <typename T> constexpr ::Zenject::InjectContext*& Zenject::LazyInject_1<T>::__cordl_internal_get__context() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -35,7 +35,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::Zenject::I
 }
 template <typename T> constexpr void Zenject::LazyInject_1<T>::__cordl_internal_set__context(::Zenject::InjectContext* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____context, value);
 }
 template <typename T> constexpr bool& Zenject::LazyInject_1<T>::__cordl_internal_get__hasValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -59,7 +59,7 @@ template <typename T> constexpr T const& Zenject::LazyInject_1<T>::__cordl_inter
 }
 template <typename T> constexpr void Zenject::LazyInject_1<T>::__cordl_internal_set__value(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____value, value);
 }
 template <typename T> inline ::Zenject::LazyInject_1<T>* Zenject::LazyInject_1<T>::New_ctor(::Zenject::DiContainer* container, ::Zenject::InjectContext* context) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::LazyInject_1<T>*>(container, context));

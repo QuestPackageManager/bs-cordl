@@ -64,7 +64,7 @@ public:
   ::System::Object* ___content;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17926 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

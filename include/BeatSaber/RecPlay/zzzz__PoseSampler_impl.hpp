@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*>, float_t,
                                                                                                           ByRef<int32_t>)>(&::BeatSaber::RecPlay::PoseSampler::SamplePose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x223cf94;
+  constexpr static std::size_t addrs = 0x2247eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::RecPlay::FrameSample (*)(
     ::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*>, float_t, int32_t)>(&::BeatSaber::RecPlay::PoseSampler::FindPoseSample)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x223d1f8;
+  constexpr static std::size_t addrs = 0x224811c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(
     ::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*>, ByRef<::BeatSaber::RecPlay::FrameSample>)>(&::BeatSaber::RecPlay::PoseSampler::InterpolatePoseSample)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x223d354;
+  constexpr static std::size_t addrs = 0x2248278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

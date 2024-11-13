@@ -24,12 +24,12 @@ public:
   /// @brief Field m_RenderFrameInterval, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_m_RenderFrameInterval, put = setStaticF_m_RenderFrameInterval)) int32_t m_RenderFrameInterval;
 
-  /// @brief Method GetRenderFrameInterval, addr 0x484c9d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRenderFrameInterval, addr 0x48610e8, size 0x58, virtual false, abstract: false, final false
   static inline void GetRenderFrameInterval(ByRef<int32_t> frameInterval);
 
   static inline int32_t getStaticF_m_RenderFrameInterval();
 
-  /// @brief Method get_renderFrameInterval, addr 0x484c978, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_renderFrameInterval, addr 0x4861090, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_renderFrameInterval();
 
   static inline void setStaticF_m_RenderFrameInterval(int32_t value);
@@ -49,7 +49,7 @@ public:
   OnDemandRendering(OnDemandRendering const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

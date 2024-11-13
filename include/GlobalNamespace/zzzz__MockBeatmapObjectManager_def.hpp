@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include <cmath>
 CORDL_MODULE_EXPORT(MockBeatmapObjectManager)
 namespace GlobalNamespace {
 class NoteController;
@@ -53,31 +52,30 @@ public:
   // Declarations
   __declspec(property(get = get_activeObstacleControllers)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* activeObstacleControllers;
 
-  /// @brief Method DespawnInternal, addr 0x3a7712c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x3a8aabc, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method DespawnInternal, addr 0x3a77130, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x3a8aac0, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method DespawnInternal, addr 0x3a77134, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x3a8aac4, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
   static inline ::GlobalNamespace::MockBeatmapObjectManager* New_ctor();
 
-  /// @brief Method ProcessNoteData, addr 0x3a77124, size 0x4, virtual true, abstract: false, final false
-  inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation,
-                              bool forceIsFirstNoteBehaviour);
+  /// @brief Method ProcessNoteData, addr 0x3a8aab4, size 0x4, virtual true, abstract: false, final false
+  inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, bool forceIsFirstNoteBehaviour);
 
-  /// @brief Method ProcessObstacleData, addr 0x3a77120, size 0x4, virtual true, abstract: false, final false
-  inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation);
+  /// @brief Method ProcessObstacleData, addr 0x3a8aab0, size 0x4, virtual true, abstract: false, final false
+  inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData);
 
-  /// @brief Method ProcessSliderData, addr 0x3a77128, size 0x4, virtual true, abstract: false, final false
-  inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation);
+  /// @brief Method ProcessSliderData, addr 0x3a8aab8, size 0x4, virtual true, abstract: false, final false
+  inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData);
 
-  /// @brief Method .ctor, addr 0x3a77138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a8aac8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeObstacleControllers, addr 0x3a77118, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_activeObstacleControllers, addr 0x3a8aaa8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
 
 protected:
@@ -95,7 +93,7 @@ public:
   MockBeatmapObjectManager(MockBeatmapObjectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -49,7 +49,7 @@ Unity::Properties::Property_2<TContainer, TValue>::__cordl_internal_get_m_Attrib
 template <typename TContainer, typename TValue>
 constexpr void Unity::Properties::Property_2<TContainer, TValue>::__cordl_internal_set_m_Attributes(::System::Collections::Generic::List_1<::System::Attribute*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Attributes, value);
 }
 template <typename TContainer, typename TValue> inline ::StringW Unity::Properties::Property_2<TContainer, TValue>::get_Name() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

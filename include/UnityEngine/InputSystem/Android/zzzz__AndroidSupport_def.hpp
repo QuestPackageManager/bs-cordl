@@ -27,16 +27,16 @@ namespace UnityEngine::InputSystem::Android {
 class CORDL_TYPE AndroidSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x458ea0c, size 0x910, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x45a3124, size 0x910, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::UnityEngine::InputSystem::Android::AndroidSupport* New_ctor();
 
-  /// @brief Method OnFindLayoutForDevice, addr 0x458f31c, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method OnFindLayoutForDevice, addr 0x45a3a34, size 0x24c, virtual false, abstract: false, final false
   static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                                 ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
 
-  /// @brief Method .ctor, addr 0x458f624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45a3d3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   AndroidSupport(AndroidSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6824 };
 
   /// @brief Field kAndroidInterface offset 0xffffffff size 0x8
   static constexpr ::ConstString kAndroidInterface{ u"Android" };

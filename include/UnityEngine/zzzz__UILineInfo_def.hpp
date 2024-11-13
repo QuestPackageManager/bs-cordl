@@ -42,7 +42,7 @@ public:
   float_t leading;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18323 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

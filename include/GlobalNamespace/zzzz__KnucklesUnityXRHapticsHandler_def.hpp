@@ -85,21 +85,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x395e3ec, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3971c70, size 0x10c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x395e4f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3971d7c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x395e500, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3971d84, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x395e538, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3971dbc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x395e3e8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3971c6c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set__waiter_5__3(::UnityEngine::WaitForSecondsRealtime* value);
 
-  /// @brief Method .ctor, addr 0x395e33c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3971bc0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -174,7 +174,7 @@ public:
   ::UnityEngine::WaitForSecondsRealtime* ____waiter_5__3;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16422 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -223,18 +223,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x395e364, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3971be8, size 0x84, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HapticsCoroutine, addr 0x395e2a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HapticsCoroutine, addr 0x3971b28, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HapticsCoroutine();
 
   static inline ::GlobalNamespace::KnucklesUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
-  /// @brief Method StopHaptics, addr 0x395e324, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method StopHaptics, addr 0x3971ba8, size 0x18, virtual true, abstract: false, final true
   inline void StopHaptics();
 
-  /// @brief Method TriggerHapticPulse, addr 0x395e304, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method TriggerHapticPulse, addr 0x3971b88, size 0x20, virtual true, abstract: false, final true
   inline void TriggerHapticPulse(float_t strength, float_t duration);
 
   constexpr float_t const& __cordl_internal_get__amplitude() const;
@@ -267,7 +267,7 @@ public:
 
   constexpr void __cordl_internal_set__remainingTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x395e24c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3971ad0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
   /// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"
@@ -306,7 +306,7 @@ public:
   float_t ____amplitude;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16423 };
 
   /// @brief Field kRate offset 0xffffffff size 0x4
   static constexpr float_t kRate{ 0.0125 };

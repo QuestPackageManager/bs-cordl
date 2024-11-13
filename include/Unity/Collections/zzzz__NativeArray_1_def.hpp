@@ -225,7 +225,7 @@ public:
   ::Unity::Collections::Allocator m_AllocatorLabel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10566 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -302,7 +302,7 @@ public:
   T value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10563 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -374,7 +374,7 @@ public:
   int32_t m_Length;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10565 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -451,7 +451,7 @@ public:
   T value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10564 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

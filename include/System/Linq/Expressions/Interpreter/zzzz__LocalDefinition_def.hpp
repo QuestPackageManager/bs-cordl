@@ -30,19 +30,19 @@ public:
 
   __declspec(property(get = get_Parameter)) ::System::Linq::Expressions::ParameterExpression* Parameter;
 
-  /// @brief Method Equals, addr 0x4073dfc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4088514, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x4073e84, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x408859c, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x4073de0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40884f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t localIndex, ::System::Linq::Expressions::ParameterExpression* parameter);
 
-  /// @brief Method get_Index, addr 0x4073dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x4088504, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method get_Parameter, addr 0x4073df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameter, addr 0x408850c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::ParameterExpression* get_Parameter();
 
   // Ctor Parameters []
@@ -60,7 +60,7 @@ public:
   ::System::Linq::Expressions::ParameterExpression* _Parameter_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13945 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

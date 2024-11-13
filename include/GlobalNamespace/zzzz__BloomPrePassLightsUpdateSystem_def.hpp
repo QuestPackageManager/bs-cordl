@@ -22,12 +22,12 @@ public:
   /// @brief Field disableUpdateAlways, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_disableUpdateAlways, put = setStaticF_disableUpdateAlways)) bool disableUpdateAlways;
 
-  /// @brief Method LateUpdate, addr 0x396f7b0, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3983034, size 0x2d4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BloomPrePassLightsUpdateSystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x396fa84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3983308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF_disableUpdateAlways();
@@ -49,7 +49,7 @@ public:
   BloomPrePassLightsUpdateSystem(BloomPrePassLightsUpdateSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16218 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

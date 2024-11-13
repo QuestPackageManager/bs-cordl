@@ -38,15 +38,15 @@ public:
   __declspec(property(get = __cordl_internal_get__windowResolutions,
                       put = __cordl_internal_set__windowResolutions)) ::System::Collections::Generic::List_1<::Unity::Mathematics::int2>* _windowResolutions;
 
-  /// @brief Method ApplyValue, addr 0x3b97b84, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3bad9e8, size 0x68, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x3b97848, size 0x33c, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x3bad6ac, size 0x33c, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::WindowResolutionSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x3b97bec, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x3bada50, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__windowResolutions(::System::Collections::Generic::List_1<::Unity::Mathematics::int2>* value);
 
-  /// @brief Method .ctor, addr 0x3b97cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3badb1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::System::Collections::Generic::List_1<::Unity::Mathematics::int2>* ____windowResolutions;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4849 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

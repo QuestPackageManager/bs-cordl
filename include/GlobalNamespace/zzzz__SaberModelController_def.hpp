@@ -66,10 +66,10 @@ public:
                       put = __cordl_internal_set__setSaberGlowColors)) ::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberGlowColor>>*>
       _setSaberGlowColors;
 
-  /// @brief Method Init, addr 0x3b70494, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b85f88, size 0x18c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* parent, ::GlobalNamespace::Saber* saber, ::UnityEngine::Color trailTintColor);
 
-  /// @brief Method InitColor, addr 0x3b706e8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method InitColor, addr 0x3b861dc, size 0x174, virtual false, abstract: false, final false
   inline void InitColor(::GlobalNamespace::SaberType saberType);
 
   static inline ::GlobalNamespace::SaberModelController* New_ctor();
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set__setSaberGlowColors(::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberGlowColor>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b70874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b86368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -137,7 +137,7 @@ public:
   ::GlobalNamespace::ColorManager* ____colorManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4644 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4647 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

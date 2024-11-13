@@ -38,19 +38,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>*();
 
-  /// @brief Method Equals, addr 0x4a6f770, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a83e88, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a6f7f8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a83f10, size 0x40, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::InputFeatureUsage other);
 
-  /// @brief Method GetHashCode, addr 0x4a6f838, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a83f50, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_internalType, addr 0x4a6f768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_internalType, addr 0x4a83e80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::InputFeatureType get_internalType();
 
-  /// @brief Method get_name, addr 0x4a6f760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4a83e78, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>"
@@ -71,7 +71,7 @@ public:
   ::UnityEngine::XR::InputFeatureType m_InternalType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18187 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

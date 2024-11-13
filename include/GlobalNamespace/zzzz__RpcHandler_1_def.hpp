@@ -166,7 +166,7 @@ public:
   ::System::Action_1<::StringW>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14913 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -217,7 +217,7 @@ public:
   ::System::Action_2<::StringW, T0>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14914 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -268,7 +268,7 @@ public:
   ::System::Action_3<::StringW, T0, T1>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14915 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -319,7 +319,7 @@ public:
   ::System::Action_4<::StringW, T0, T1, T2>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -370,7 +370,7 @@ public:
   ::System::Action_5<::StringW, T0, T1, T2, T3>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14917 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -421,7 +421,7 @@ public:
   ::System::Action_2<::StringW, int64_t>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14918 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -472,7 +472,7 @@ public:
   ::System::Action_3<::StringW, int64_t, T0>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14919 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -523,7 +523,7 @@ public:
   ::System::Action_4<::StringW, int64_t, T0, T1>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14920 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -574,7 +574,7 @@ public:
   ::System::Action_5<::StringW, int64_t, T0, T1, T2>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14921 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -625,7 +625,7 @@ public:
   ::System::Action_6<::StringW, int64_t, T0, T1, T2, T3>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14922 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -676,7 +676,7 @@ public:
   ::System::Action_2<::GlobalNamespace::IConnectedPlayer*, T>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14915 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14923 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -824,7 +824,7 @@ public:
   ::GlobalNamespace::NetworkPacketSerializer_2<TType, ::GlobalNamespace::IConnectedPlayer*>* ____rpcSerializer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14924 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -67,7 +67,7 @@ public:
   static ::System::Collections::Specialized::NotifyCollectionChangedAction const Reset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9468 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -119,7 +119,7 @@ public:
   __TypeUtility__ITypeConstructor(__TypeUtility__ITypeConstructor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -156,7 +156,7 @@ public:
   __TypeUtility__ITypeConstructor_1(__TypeUtility__ITypeConstructor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17432 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -266,7 +266,7 @@ public:
   ::Unity::Properties::IConstructor_1<T>* ___m_OverrideConstructor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -285,15 +285,15 @@ public:
   /// @brief Convert operator to "::Unity::Properties::__TypeUtility__ITypeConstructor"
   constexpr operator ::Unity::Properties::__TypeUtility__ITypeConstructor*() noexcept;
 
-  /// @brief Method Instantiate, addr 0x4899bf8, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Instantiate, addr 0x48ae310, size 0x4c, virtual true, abstract: false, final true
   inline ::System::Object* Instantiate();
 
   static inline ::Unity::Properties::__TypeUtility__NonConstructable* New_ctor();
 
-  /// @brief Method Unity.Properties.TypeUtility.ITypeConstructor.get_CanBeInstantiated, addr 0x4899bf0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Unity.Properties.TypeUtility.ITypeConstructor.get_CanBeInstantiated, addr 0x48ae308, size 0x8, virtual true, abstract: false, final true
   inline bool Unity_Properties_TypeUtility_ITypeConstructor_get_CanBeInstantiated();
 
-  /// @brief Method .ctor, addr 0x48997cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48adee4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Unity::Properties::__TypeUtility__ITypeConstructor"
@@ -314,7 +314,7 @@ public:
   __TypeUtility__NonConstructable(__TypeUtility__NonConstructable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -345,7 +345,7 @@ public:
   constexpr __TypeUtility__Cache_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17435 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -380,7 +380,7 @@ public:
 
   constexpr void __cordl_internal_set_TypeConstructor(::Unity::Properties::__TypeUtility__ITypeConstructor* value);
 
-  /// @brief Method .ctor, addr 0x48997c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48adedc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Unity::Properties::ITypeVisitor"
@@ -404,7 +404,7 @@ public:
   ::Unity::Properties::__TypeUtility__ITypeConstructor* ___TypeConstructor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17436 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -427,16 +427,16 @@ public:
 
   static inline ::Unity::Properties::__TypeUtility____c* New_ctor();
 
-  /// @brief Method <.cctor>b__11_0, addr 0x4899ca8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__11_0, addr 0x48ae3c0, size 0x54, virtual false, abstract: false, final false
   inline ::System::Text::StringBuilder* __cctor_b__11_0();
 
-  /// @brief Method <.cctor>b__11_1, addr 0x4899cfc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__11_1, addr 0x48ae414, size 0x18, virtual false, abstract: false, final false
   inline void __cctor_b__11_1(::System::Text::StringBuilder* sb);
 
-  /// @brief Method <.cctor>b__11_2, addr 0x4899d14, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__11_2, addr 0x48ae42c, size 0x48, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__11_2();
 
-  /// @brief Method .ctor, addr 0x4899ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ae3b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Properties::__TypeUtility____c* getStaticF___9();
@@ -458,7 +458,7 @@ public:
   __TypeUtility____c(__TypeUtility____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17437 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -509,37 +509,37 @@ public:
   /// @brief Method CanBeInstantiated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool CanBeInstantiated();
 
-  /// @brief Method CanBeInstantiated, addr 0x489988c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CanBeInstantiated, addr 0x48adfa4, size 0xcc, virtual false, abstract: false, final false
   static inline bool CanBeInstantiated(::System::Type* type);
 
-  /// @brief Method CheckCanBeInstantiated, addr 0x4899ac0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CheckCanBeInstantiated, addr 0x48ae1d8, size 0x130, virtual false, abstract: false, final false
   static inline void CheckCanBeInstantiated(::Unity::Properties::__TypeUtility__ITypeConstructor* constructor, ::System::Type* type);
 
   /// @brief Method CheckCanBeInstantiated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void CheckCanBeInstantiated(::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>* constructor);
 
-  /// @brief Method CheckIsAssignableFrom, addr 0x4899958, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CheckIsAssignableFrom, addr 0x48ae070, size 0x168, virtual false, abstract: false, final false
   static inline void CheckIsAssignableFrom(::System::Type* type, ::System::Type* derivedType);
 
-  /// @brief Method CreateTypeConstructor, addr 0x48992c8, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method CreateTypeConstructor, addr 0x48ad9e0, size 0x278, virtual false, abstract: false, final false
   static inline ::Unity::Properties::__TypeUtility__ITypeConstructor* CreateTypeConstructor(::System::Type* type);
 
   /// @brief Method CreateTypeConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>* CreateTypeConstructor();
 
-  /// @brief Method GetRootType, addr 0x4899194, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetRootType, addr 0x48ad8ac, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Type* GetRootType(::System::Type* type);
 
-  /// @brief Method GetTypeConstructor, addr 0x48997d4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeConstructor, addr 0x48adeec, size 0xb8, virtual false, abstract: false, final false
   static inline ::Unity::Properties::__TypeUtility__ITypeConstructor* GetTypeConstructor(::System::Type* type);
 
   /// @brief Method GetTypeConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Properties::__TypeUtility__ITypeConstructor_1<T>* GetTypeConstructor();
 
-  /// @brief Method GetTypeDisplayName, addr 0x48986d8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetTypeDisplayName, addr 0x48acdf0, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW GetTypeDisplayName(::System::Type* type);
 
-  /// @brief Method GetTypeDisplayName, addr 0x48987f0, size 0x9a4, virtual false, abstract: false, final false
+  /// @brief Method GetTypeDisplayName, addr 0x48acf08, size 0x9a4, virtual false, abstract: false, final false
   static inline ::StringW GetTypeDisplayName(::System::Type* type, ::System::Collections::Generic::IReadOnlyList_1<::System::Type*>* args, ByRef<int32_t> argIndex);
 
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -601,7 +601,7 @@ public:
   TypeUtility(TypeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17438 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_SphereInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x39dea98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f23f0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(bool initialize_fields);
 
   // Ctor Parameters []
@@ -39,7 +39,7 @@ public:
   float_t radius;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11700 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

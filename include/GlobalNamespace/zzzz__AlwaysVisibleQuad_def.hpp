@@ -27,10 +27,10 @@ public:
 
   static inline ::GlobalNamespace::AlwaysVisibleQuad* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x4009b40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x401e258, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4009934, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x401e04c, size 0x20c, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  /// @brief Method .ctor, addr 0x4009b4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401e264, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +60,7 @@ public:
   ::UnityW<::UnityEngine::Mesh> ____mesh;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17797 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

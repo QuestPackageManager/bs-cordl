@@ -41,7 +41,7 @@ public:
                       put = __cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab)) ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>
       _multiplayerResultsPyramidViewAvatarPrefab;
 
-  /// @brief Method InstallBindings, addr 0x3b5f8f8, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b75fc0, size 0x144, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerObjectInstaller* New_ctor();
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab(::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> value);
 
-  /// @brief Method .ctor, addr 0x3b5fa3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b76104, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> ____multiplayerResultsPyramidViewAvatarPrefab;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4578 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

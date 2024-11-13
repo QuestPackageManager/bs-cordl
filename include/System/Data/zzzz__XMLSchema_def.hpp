@@ -41,24 +41,24 @@ namespace System::Data {
 class CORDL_TYPE XMLSchema : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FEqualIdentity, addr 0x411516c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FEqualIdentity, addr 0x4129884, size 0x74, virtual false, abstract: false, final false
   static inline bool FEqualIdentity(::System::Xml::XmlNode* node, ::StringW name, ::StringW ns);
 
-  /// @brief Method GenUniqueColumnName, addr 0x4116f10, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GenUniqueColumnName, addr 0x412b628, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW GenUniqueColumnName(::StringW proposedName, ::System::Data::DataTable* table);
 
-  /// @brief Method GetBooleanAttribute, addr 0x411af00, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetBooleanAttribute, addr 0x412f618, size 0x150, virtual false, abstract: false, final false
   static inline bool GetBooleanAttribute(::System::Xml::XmlElement* element, ::StringW attrName, ::StringW attrNS, bool defVal);
 
-  /// @brief Method GetConverter, addr 0x411aea8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetConverter, addr 0x412f5c0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* type);
 
   static inline ::System::Data::XMLSchema* New_ctor();
 
-  /// @brief Method SetProperties, addr 0x411736c, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method SetProperties, addr 0x412ba84, size 0x44c, virtual false, abstract: false, final false
   static inline void SetProperties(::System::Object* instance, ::System::Xml::XmlAttributeCollection* attrs);
 
-  /// @brief Method .ctor, addr 0x4114f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4129670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   XMLSchema(XMLSchema const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11439 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -40,7 +40,7 @@ UnityEngine::UIElements::UIR::NativePagedList_1<T>::__cordl_internal_get_m_Pages
 template <typename T>
 constexpr void UnityEngine::UIElements::UIR::NativePagedList_1<T>::__cordl_internal_set_m_Pages(::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<T>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Pages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Pages, value);
 }
 template <typename T> constexpr ::Unity::Collections::NativeArray_1<T>& UnityEngine::UIElements::UIR::NativePagedList_1<T>::__cordl_internal_get_m_CurrentPage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -80,7 +80,7 @@ UnityEngine::UIElements::UIR::NativePagedList_1<T>::__cordl_internal_get_m_Enume
 template <typename T>
 constexpr void UnityEngine::UIElements::UIR::NativePagedList_1<T>::__cordl_internal_set_m_Enumerator(::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Enumerator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Enumerator, value);
 }
 template <typename T> constexpr bool& UnityEngine::UIElements::UIR::NativePagedList_1<T>::__cordl_internal_get__disposed_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x45a11f0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x45b5908, size 0x68, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x45a1258, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x45b5970, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_max() const;
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x45a1300, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45b5a18, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxOrDefault, addr 0x45a1180, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_maxOrDefault, addr 0x45b5898, size 0x70, virtual false, abstract: false, final false
   inline float_t get_maxOrDefault();
 
-  /// @brief Method get_minOrDefault, addr 0x45a1110, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_minOrDefault, addr 0x45b5828, size 0x70, virtual false, abstract: false, final false
   inline float_t get_minOrDefault();
 
 protected:
@@ -84,7 +84,7 @@ public:
   float_t ___max;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6960 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

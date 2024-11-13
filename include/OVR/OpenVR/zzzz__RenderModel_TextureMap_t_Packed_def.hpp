@@ -29,10 +29,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE RenderModel_TextureMap_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x400111c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x40157ac, size 0x1c, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::RenderModel_TextureMap_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x4001108, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4015798, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_TextureMap_t unpacked);
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
   ::System::IntPtr rubTextureMapData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8997 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9002 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

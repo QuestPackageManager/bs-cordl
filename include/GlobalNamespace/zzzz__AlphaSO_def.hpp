@@ -31,10 +31,10 @@ public:
 
   constexpr void __cordl_internal_set_alphaValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x26608bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266b964, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Implicit, addr 0x26608a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x266b94c, size 0x18, virtual false, abstract: false, final false
   static inline float_t op_Implicit_float_t(::GlobalNamespace::AlphaSO* obj);
 
 protected:
@@ -55,7 +55,7 @@ public:
   float_t ___alphaValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18895 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

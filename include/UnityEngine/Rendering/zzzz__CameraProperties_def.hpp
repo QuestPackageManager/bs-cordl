@@ -83,7 +83,7 @@ public:
   uint8_t _cordl_size_padding[0x7c];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11183 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -120,7 +120,7 @@ public:
   uint8_t _cordl_size_padding[0x5f];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11179 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11184 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -157,7 +157,7 @@ public:
   uint8_t _cordl_size_padding[0x5f];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11185 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -188,19 +188,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>*();
 
-  /// @brief Method Equals, addr 0x484f298, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48639b0, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x484ec30, size 0x668, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4863348, size 0x668, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::CameraProperties other);
 
-  /// @brief Method GetCameraCullingPlane, addr 0x484eb4c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetCameraCullingPlane, addr 0x4863264, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetCameraCullingPlane(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x484f350, size 0x458, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4863a68, size 0x458, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetShadowCullingPlane, addr 0x484ea68, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetShadowCullingPlane, addr 0x4863180, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetShadowCullingPlane(int32_t index);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>"
@@ -335,7 +335,7 @@ public:
   int32_t isImplicitProjectionMatrix;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11186 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3e0 };

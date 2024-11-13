@@ -28,7 +28,7 @@ public:
 
   static inline ::GlobalNamespace::RandomValueToShader* New_ctor();
 
-  /// @brief Method SetRandomValueToShaders, addr 0x3973bfc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetRandomValueToShaders, addr 0x3987480, size 0x8c, virtual false, abstract: false, final false
   inline void SetRandomValueToShaders();
 
   constexpr int32_t const& __cordl_internal_get__lastFrameNum() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__lastFrameNum(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3973c90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3987514, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__randomValueID();
@@ -62,7 +62,7 @@ public:
   int32_t ____lastFrameNum;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16239 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

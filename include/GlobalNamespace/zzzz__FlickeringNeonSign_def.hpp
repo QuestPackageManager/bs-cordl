@@ -83,21 +83,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b218c0, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b36d8c, size 0x104, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__FlickeringNeonSign___FlickeringCoroutine_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b219c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b36e90, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b219cc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b36e98, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b21a04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b36ed0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b218bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b36d88, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FlickeringNeonSign> value);
 
-  /// @brief Method .ctor, addr 0x3b21778, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b36c44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -154,7 +154,7 @@ public:
   ::UnityW<::GlobalNamespace::FlickeringNeonSign> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4344 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -222,21 +222,21 @@ public:
   /// @brief Field _spriteOnColor, offset 0x48, size 0x10
   __declspec(property(get = __cordl_internal_get__spriteOnColor, put = __cordl_internal_set__spriteOnColor)) ::UnityEngine::Color _spriteOnColor;
 
-  /// @brief Method Awake, addr 0x3b21638, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b36b04, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FlickeringCoroutine, addr 0x3b21718, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method FlickeringCoroutine, addr 0x3b36be4, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FlickeringCoroutine();
 
   static inline ::GlobalNamespace::FlickeringNeonSign* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3b216f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b36bc4, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetOn, addr 0x3b217a0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetOn, addr 0x3b36c6c, size 0x108, virtual false, abstract: false, final false
   inline void SetOn(bool on);
 
-  /// @brief Method Start, addr 0x3b216bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b36b88, size 0x3c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__flickeringSprite() const;
@@ -317,7 +317,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteOnColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3b218a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b36d74, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -374,7 +374,7 @@ public:
   ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* ____sparksAudioClipPicker;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4345 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ template <typename T> constexpr ::UnityW<::GlobalNamespace::ColorTransitionSO> c
 }
 template <typename T> constexpr void GlobalNamespace::ColorStateTransition_1<T>::__cordl_internal_set__transition(::UnityW<::GlobalNamespace::ColorTransitionSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____transition, value);
 }
 template <typename T> inline ::UnityW<::GlobalNamespace::BaseTransitionSO> GlobalNamespace::ColorStateTransition_1<T>::get_transition() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

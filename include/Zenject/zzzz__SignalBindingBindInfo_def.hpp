@@ -49,19 +49,19 @@ public:
 
   constexpr void __cordl_internal_set__SignalType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4a7fb18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a94230, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* signalType);
 
-  /// @brief Method get_Identifier, addr 0x4a7fb40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x4a94258, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Identifier();
 
-  /// @brief Method get_SignalType, addr 0x4a7fb50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignalType, addr 0x4a94268, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_SignalType();
 
-  /// @brief Method set_Identifier, addr 0x4a7fb48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Identifier, addr 0x4a94260, size 0x8, virtual false, abstract: false, final false
   inline void set_Identifier(::System::Object* value);
 
-  /// @brief Method set_SignalType, addr 0x4a7fb58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SignalType, addr 0x4a94270, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalType(::System::Type* value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::System::Type* ____SignalType_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11957 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -51,27 +51,27 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method Asn1Equals, addr 0x25ee538, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x25f95e0, size 0xe0, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x25ee4c8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x25f9570, size 0x70, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method GetInstance, addr 0x25ee1cc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25f9274, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x25e7588, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25f2630, size 0x2b0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOctetStream, addr 0x25ee458, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetOctetStream, addr 0x25f9500, size 0x64, virtual true, abstract: false, final true
   inline ::System::IO::Stream* GetOctetStream();
 
-  /// @brief Method GetOctets, addr 0x25ee4c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetOctets, addr 0x25f9568, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method ToString, addr 0x25ee618, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25f96c0, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_str() const;
@@ -80,10 +80,10 @@ public:
 
   constexpr void __cordl_internal_set_str(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x25ee3e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f948c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method get_Parser, addr 0x25ee4bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Parser, addr 0x25f9564, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* get_Parser();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1OctetStringParser"

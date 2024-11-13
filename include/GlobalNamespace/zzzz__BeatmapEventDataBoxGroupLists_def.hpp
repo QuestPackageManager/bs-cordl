@@ -58,19 +58,19 @@ public:
   /// @brief Field _updateBeatmapDataOnInsert, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__updateBeatmapDataOnInsert, put = __cordl_internal_set__updateBeatmapDataOnInsert)) bool _updateBeatmapDataOnInsert;
 
-  /// @brief Method Insert, addr 0x267a300, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x2685f04, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* Insert(int32_t groupId, ::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup);
 
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroupLists* New_ctor(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter,
                                                                            bool updateBeatmapDataOnInsert, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter);
 
-  /// @brief Method Remove, addr 0x267a40c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2686010, size 0xb8, virtual false, abstract: false, final false
   inline void Remove(int32_t groupId, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
 
-  /// @brief Method SyncWithBeatmapData, addr 0x267a65c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method SyncWithBeatmapData, addr 0x2686260, size 0x18c, virtual false, abstract: false, final false
   inline void SyncWithBeatmapData();
 
-  /// @brief Method ToggleUpdateBeatmapDataOnInsert, addr 0x267a4c4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ToggleUpdateBeatmapDataOnInsert, addr 0x26860c8, size 0x198, virtual false, abstract: false, final false
   inline void ToggleUpdateBeatmapDataOnInsert(bool enableUpdateOnInsert);
 
   constexpr ::GlobalNamespace::IBeatToTimeConverter*& __cordl_internal_get__beatToTimeConverter();
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set__updateBeatmapDataOnInsert(bool value);
 
-  /// @brief Method .ctor, addr 0x267a250, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2685e54, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, bool updateBeatmapDataOnInsert,
                     ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter);
 
@@ -138,7 +138,7 @@ public:
   ::GlobalNamespace::IBeatmapLightEventConverter* ____lightEventConverter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12855 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12864 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

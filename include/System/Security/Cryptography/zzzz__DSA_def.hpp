@@ -25,13 +25,13 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE DSA : public ::System::Security::Cryptography::AsymmetricAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x3c29fb4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3c3e644, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::DSA* Create();
 
   /// @brief Method ExportParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method FromXmlString, addr 0x3c2a008, size 0x68c, virtual true, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x3c3e698, size 0x68c, virtual true, abstract: false, final false
   inline void FromXmlString(::StringW xmlString);
 
   /// @brief Method ImportParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -39,13 +39,13 @@ public:
 
   static inline ::System::Security::Cryptography::DSA* New_ctor();
 
-  /// @brief Method ToXmlString, addr 0x3c2a694, size 0x468, virtual true, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x3c3ed24, size 0x468, virtual true, abstract: false, final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
   /// @brief Method VerifySignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
-  /// @brief Method .ctor, addr 0x3c29fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3e63c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

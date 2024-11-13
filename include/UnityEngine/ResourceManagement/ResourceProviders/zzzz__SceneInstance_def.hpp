@@ -32,22 +32,22 @@ public:
   // Declarations
   __declspec(property(get = get_Scene, put = set_Scene)) ::UnityEngine::SceneManagement::Scene Scene;
 
-  /// @brief Method Activate, addr 0x4727618, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x473bd30, size 0x20, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method ActivateAsync, addr 0x4727638, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ActivateAsync, addr 0x473bd50, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* ActivateAsync();
 
-  /// @brief Method Equals, addr 0x4727684, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x473bd9c, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x4727664, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x473bd7c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_Scene, addr 0x4727608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scene, addr 0x473bd20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SceneManagement::Scene get_Scene();
 
-  /// @brief Method set_Scene, addr 0x4727610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Scene, addr 0x473bd28, size 0x8, virtual false, abstract: false, final false
   inline void set_Scene(::UnityEngine::SceneManagement::Scene value);
 
   // Ctor Parameters []
@@ -65,7 +65,7 @@ public:
   ::UnityEngine::AsyncOperation* m_Operation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15629 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

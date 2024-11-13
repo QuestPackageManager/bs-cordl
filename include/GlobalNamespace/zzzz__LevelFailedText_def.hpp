@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedText* New_ctor();
 
-  /// @brief Method OverrideText, addr 0x3b099e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OverrideText, addr 0x3b1ed70, size 0x4c, virtual false, abstract: false, final false
   inline void OverrideText(::StringW text);
 
   constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshPro> const& __cordl_internal_get__localizedText() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x3b09a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1edbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   ::UnityW<::BGLib::Polyglot::LocalizedTextMeshPro> ____localizedText;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4211 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

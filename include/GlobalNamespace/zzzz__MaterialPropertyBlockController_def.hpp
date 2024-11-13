@@ -37,12 +37,12 @@ public:
 
   __declspec(property(get = get_renderers)) ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> renderers;
 
-  /// @brief Method ApplyChanges, addr 0x397c218, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ApplyChanges, addr 0x398fa9c, size 0x64, virtual false, abstract: false, final false
   inline void ApplyChanges();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockController* New_ctor();
 
-  /// @brief Method SetRendererState, addr 0x397c404, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetRendererState, addr 0x398fc88, size 0x68, virtual false, abstract: false, final false
   inline void SetRendererState(bool newState);
 
   constexpr ::UnityEngine::MaterialPropertyBlock*& __cordl_internal_get__materialPropertyBlock();
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> value);
 
-  /// @brief Method .ctor, addr 0x397c5f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398fe74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_materialPropertyBlock, addr 0x397c2f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlock, addr 0x398fb74, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
 
-  /// @brief Method get_renderers, addr 0x397c5e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderers, addr 0x398fe6c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> get_renderers();
 
 protected:
@@ -87,7 +87,7 @@ public:
   ::UnityEngine::MaterialPropertyBlock* ____materialPropertyBlock;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

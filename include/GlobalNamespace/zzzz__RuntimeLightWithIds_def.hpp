@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x397b234, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398eab8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method get_intensity, addr 0x397b224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x398eaa8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x397b22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x398eab0, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -82,7 +82,7 @@ public:
   float_t ____intensity;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -125,15 +125,15 @@ public:
   /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method GetLightWithIds, addr 0x397b21c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x398eaa0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::RuntimeLightWithIds* New_ctor();
 
-  /// @brief Method ProcessColor, addr 0x397b1d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ProcessColor, addr 0x398ea5c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float_t intensity);
 
-  /// @brief Method ProcessNewColorData, addr 0x397b058, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x398e8dc, size 0x180, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
   constexpr float_t const& __cordl_internal_get__intensity() const;
@@ -169,10 +169,10 @@ public:
 
   constexpr void __cordl_internal_set__multiplyColorByAlpha(bool value);
 
-  /// @brief Method .ctor, addr 0x397aac0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398e344, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mixType, addr 0x397b054, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_mixType, addr 0x398e8d8, size 0x4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_mixType();
 
 protected:
@@ -205,7 +205,7 @@ public:
   ::GlobalNamespace::ColorMixAndWeightingApproach ____mixType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16298 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

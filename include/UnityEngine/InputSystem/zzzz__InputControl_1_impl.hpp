@@ -34,7 +34,7 @@ template <typename TValue> constexpr TValue const& UnityEngine::InputSystem::Inp
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::InputControl_1<TValue>::__cordl_internal_set_m_CachedValue(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CachedValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_CachedValue, value);
 }
 template <typename TValue> constexpr TValue& UnityEngine::InputSystem::InputControl_1<TValue>::__cordl_internal_get_m_UnprocessedCachedValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -46,7 +46,7 @@ template <typename TValue> constexpr TValue const& UnityEngine::InputSystem::Inp
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::InputControl_1<TValue>::__cordl_internal_set_m_UnprocessedCachedValue(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_UnprocessedCachedValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_UnprocessedCachedValue, value);
 }
 template <typename TValue> constexpr bool& UnityEngine::InputSystem::InputControl_1<TValue>::__cordl_internal_get_evaluateProcessorsEveryRead() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

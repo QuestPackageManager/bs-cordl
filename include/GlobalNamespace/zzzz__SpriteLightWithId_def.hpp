@@ -75,7 +75,7 @@ public:
   static ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16302 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -131,7 +131,7 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x397b5f8, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x398ee7c, size 0x144, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::SpriteLightWithId* New_ctor();
@@ -196,10 +196,10 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method .ctor, addr 0x397b73c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398efc0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x397b5dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x398ee60, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -247,7 +247,7 @@ public:
   bool ____setOnlyOnce;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16303 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

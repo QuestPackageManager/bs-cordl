@@ -55,7 +55,7 @@ public:
   bool IsEditorOnly;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15746 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -86,12 +86,12 @@ public:
   // Declarations
   using MonoScriptData = ::GlobalNamespace::__UnitySourceGeneratedAssemblyMonoScriptTypes_v1__MonoScriptData;
 
-  /// @brief Method Get, addr 0x22432c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x47a940c, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__UnitySourceGeneratedAssemblyMonoScriptTypes_v1__MonoScriptData Get();
 
   static inline ::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2243388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a94d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,7 +109,7 @@ public:
   UnitySourceGeneratedAssemblyMonoScriptTypes_v1(UnitySourceGeneratedAssemblyMonoScriptTypes_v1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15747 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

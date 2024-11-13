@@ -55,23 +55,23 @@ public:
   /// @brief Field s_Id, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_Id, put = setStaticF_s_Id)) int32_t s_Id;
 
-  /// @brief Method Invoke, addr 0x471f710, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4733e28, size 0x17c, virtual false, abstract: false, final false
   inline void Invoke();
 
-  /// @brief Method ToString, addr 0x471fb0c, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4734224, size 0x338, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x471f0f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4733808, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* d, float_t invocationTime, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> p);
 
   static inline int32_t getStaticF_s_Id();
 
-  /// @brief Method get_InvocationTime, addr 0x471fafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InvocationTime, addr 0x4734214, size 0x8, virtual false, abstract: false, final false
   inline float_t get_InvocationTime();
 
   static inline void setStaticF_s_Id(int32_t value);
 
-  /// @brief Method set_InvocationTime, addr 0x471fb04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InvocationTime, addr 0x473421c, size 0x8, virtual false, abstract: false, final false
   inline void set_InvocationTime(float_t value);
 
   // Ctor Parameters []
@@ -97,7 +97,7 @@ public:
   float_t _InvocationTime_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15586 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -147,34 +147,34 @@ public:
   __declspec(property(get = __cordl_internal_get_m_NodeCache, put = __cordl_internal_set_m_NodeCache)) ::System::Collections::Generic::Stack_1<
       ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>* m_NodeCache;
 
-  /// @brief Method AddAction, addr 0x471ee0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AddAction, addr 0x4733524, size 0x74, virtual false, abstract: false, final false
   static inline void AddAction(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-  /// @brief Method AddActionInternal, addr 0x471ee80, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method AddActionInternal, addr 0x4733598, size 0x270, virtual false, abstract: false, final false
   inline void AddActionInternal(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-  /// @brief Method Clear, addr 0x471ed8c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x47334a4, size 0x74, virtual false, abstract: false, final false
   static inline void Clear();
 
-  /// @brief Method DestroyWhenComplete, addr 0x471ee00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DestroyWhenComplete, addr 0x4733518, size 0xc, virtual false, abstract: false, final false
   inline void DestroyWhenComplete();
 
-  /// @brief Method GetNode, addr 0x471ec98, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetNode, addr 0x47333b0, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*
   GetNode(ByRef<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo> del);
 
-  /// @brief Method InternalLateUpdate, addr 0x471f3ec, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method InternalLateUpdate, addr 0x4733b04, size 0x308, virtual false, abstract: false, final false
   inline void InternalLateUpdate(float_t t);
 
-  /// @brief Method LateUpdate, addr 0x471f6f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x4733e0c, size 0x1c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::UnityEngine::ResourceManagement::Util::DelayedActionManager* New_ctor();
 
-  /// @brief Method OnApplicationQuit, addr 0x471f88c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x4733fa4, size 0xb4, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method Wait, addr 0x471f28c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x47339a4, size 0x160, virtual false, abstract: false, final false
   static inline bool Wait(float_t timeout, float_t timeAdvanceAmount);
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*,
@@ -218,10 +218,10 @@ public:
   constexpr void __cordl_internal_set_m_NodeCache(
       ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*>* value);
 
-  /// @brief Method .ctor, addr 0x471f940, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4734058, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsActive, addr 0x471f170, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method get_IsActive, addr 0x4733888, size 0x11c, virtual false, abstract: false, final false
   static inline bool get_IsActive();
 
 protected:
@@ -256,7 +256,7 @@ public:
   bool ___m_DestroyOnCompletion;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15587 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

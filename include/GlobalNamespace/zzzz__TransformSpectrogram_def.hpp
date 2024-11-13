@@ -60,12 +60,12 @@ public:
   __declspec(property(get = __cordl_internal_get__transforms, put = __cordl_internal_set__transforms)) ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
       _transforms;
 
-  /// @brief Method Awake, addr 0x3b24940, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b39d80, size 0x188, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::TransformSpectrogram* New_ctor();
 
-  /// @brief Method Update, addr 0x3b24ac8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b39f08, size 0x268, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b24d30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3a170, size 0x194, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -167,7 +167,7 @@ public:
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____defaultPositions;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4362 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

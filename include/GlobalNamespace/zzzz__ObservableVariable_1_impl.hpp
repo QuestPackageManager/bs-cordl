@@ -31,7 +31,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ac
 }
 template <typename T> constexpr void GlobalNamespace::ObservableVariable_1<T>::__cordl_internal_set_didChangeEvent(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___didChangeEvent, value);
 }
 template <typename T> constexpr T& GlobalNamespace::ObservableVariable_1<T>::__cordl_internal_get__value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -43,7 +43,7 @@ template <typename T> constexpr T const& GlobalNamespace::ObservableVariable_1<T
 }
 template <typename T> constexpr void GlobalNamespace::ObservableVariable_1<T>::__cordl_internal_set__value(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____value, value);
 }
 template <typename T> inline void GlobalNamespace::ObservableVariable_1<T>::add_didChangeEvent(::System::Action* value) {
   static auto* ___internal_method = THROW_UNLESS(

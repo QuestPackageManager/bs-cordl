@@ -82,7 +82,7 @@ public:
   static ::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel const SustainedLow;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17966 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -150,7 +150,7 @@ public:
   static ::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17967 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -207,7 +207,7 @@ public:
   bool dynamicFoveatedRendering;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17968 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

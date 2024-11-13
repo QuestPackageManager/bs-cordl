@@ -33,21 +33,21 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method AddServiceProvider, addr 0x3f17270, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddServiceProvider, addr 0x3f2b900, size 0x68, virtual false, abstract: false, final false
   inline void AddServiceProvider(::Oculus::Platform::ServiceProvider value);
 
-  /// @brief Method ClearServiceProviders, addr 0x3f17a88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearServiceProviders, addr 0x3f2c118, size 0x58, virtual false, abstract: false, final false
   inline void ClearServiceProviders();
 
-  /// @brief Method Finalize, addr 0x3f17b48, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3f2c1d8, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::UserOptions* New_ctor();
 
-  /// @brief Method SetMaxUsers, addr 0x3f17a20, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetMaxUsers, addr 0x3f2c0b0, size 0x68, virtual false, abstract: false, final false
   inline void SetMaxUsers(uint32_t value);
 
-  /// @brief Method SetTimeWindow, addr 0x3f17ae0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetTimeWindow, addr 0x3f2c170, size 0x68, virtual false, abstract: false, final false
   inline void SetTimeWindow(::Oculus::Platform::TimeWindow value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -56,10 +56,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3f1720c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2b89c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x3f172d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x3f2b968, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::UserOptions* options);
 
 protected:
@@ -80,7 +80,7 @@ public:
   ::System::IntPtr ___Handle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15440 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

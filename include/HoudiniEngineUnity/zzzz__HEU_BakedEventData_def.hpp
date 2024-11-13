@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_IsNewBake(bool value);
 
-  /// @brief Method .ctor, addr 0x399c184, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39afadc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects, bool isNewBake);
 
 protected:
@@ -61,7 +61,7 @@ public:
   bool ___IsNewBake;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11547 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -79,7 +79,7 @@ public:
   float_t RightFov;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7825 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -124,7 +124,7 @@ public:
   ::GlobalNamespace::__OVRDisplay__EyeFov fullFov;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7826 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -174,7 +174,7 @@ public:
   float_t timeWarpError;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7827 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -247,21 +247,21 @@ public:
 
   __declspec(property(get = get_velocity)) ::UnityEngine::Vector3 velocity;
 
-  /// @brief Method ConfigureEyeDesc, addr 0x3f32f9c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method ConfigureEyeDesc, addr 0x3f4762c, size 0x254, virtual false, abstract: false, final false
   inline void ConfigureEyeDesc(::UnityEngine::XR::XRNode eye);
 
-  /// @brief Method GetEyeRenderDesc, addr 0x3f32bf8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetEyeRenderDesc, addr 0x3f47288, size 0x38, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRDisplay__EyeRenderDesc GetEyeRenderDesc(::UnityEngine::XR::XRNode eye);
 
   static inline ::GlobalNamespace::OVRDisplay* New_ctor();
 
-  /// @brief Method RecenterPose, addr 0x3f326f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RecenterPose, addr 0x3f46d80, size 0x78, virtual false, abstract: false, final false
   inline void RecenterPose();
 
-  /// @brief Method Update, addr 0x3f3242c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f46abc, size 0x18c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateTextures, addr 0x3f3240c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateTextures, addr 0x3f46a9c, size 0x20, virtual false, abstract: false, final false
   inline void UpdateTextures();
 
   constexpr ::System::Action*& __cordl_internal_get_RecenteredPose();
@@ -300,43 +300,43 @@ public:
 
   constexpr void __cordl_internal_set_recenterRequestedFrameCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3f32394, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f46a24, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_RecenteredPose, addr 0x3f325b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_RecenteredPose, addr 0x3f46c48, size 0x9c, virtual false, abstract: false, final false
   inline void add_RecenteredPose(::System::Action* value);
 
-  /// @brief Method get_acceleration, addr 0x3f32768, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_acceleration, addr 0x3f46df8, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_acceleration();
 
-  /// @brief Method get_angularAcceleration, addr 0x3f3288c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_angularAcceleration, addr 0x3f46f1c, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_angularAcceleration();
 
-  /// @brief Method get_angularVelocity, addr 0x3f32ad4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_angularVelocity, addr 0x3f47164, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_angularVelocity();
 
-  /// @brief Method get_appFramerate, addr 0x3f32e00, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_appFramerate, addr 0x3f47490, size 0x90, virtual false, abstract: false, final false
   inline float_t get_appFramerate();
 
-  /// @brief Method get_displayFrequenciesAvailable, addr 0x3f32eec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_displayFrequenciesAvailable, addr 0x3f4757c, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_displayFrequenciesAvailable();
 
-  /// @brief Method get_displayFrequency, addr 0x3f230c8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_displayFrequency, addr 0x3f37758, size 0x50, virtual false, abstract: false, final false
   inline float_t get_displayFrequency();
 
-  /// @brief Method get_latency, addr 0x3f32c30, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method get_latency, addr 0x3f472c0, size 0x1d0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRDisplay__LatencyData get_latency();
 
-  /// @brief Method get_recommendedMSAALevel, addr 0x3f32e90, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_recommendedMSAALevel, addr 0x3f47520, size 0x5c, virtual false, abstract: false, final false
   inline int32_t get_recommendedMSAALevel();
 
-  /// @brief Method get_velocity, addr 0x3f329b0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_velocity, addr 0x3f47040, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_velocity();
 
-  /// @brief Method remove_RecenteredPose, addr 0x3f32654, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_RecenteredPose, addr 0x3f46ce4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_RecenteredPose(::System::Action* value);
 
-  /// @brief Method set_displayFrequency, addr 0x3f32f3c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_displayFrequency, addr 0x3f475cc, size 0x60, virtual false, abstract: false, final false
   inline void set_displayFrequency(float_t value);
 
 protected:
@@ -372,7 +372,7 @@ public:
   ::System::Action* ___RecenteredPose;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7828 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

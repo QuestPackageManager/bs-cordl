@@ -49,19 +49,19 @@ public:
 
   constexpr void __cordl_internal_set__difficulties_k__BackingField(::GlobalNamespace::BeatmapDifficultyMask value);
 
-  /// @brief Method .ctor, addr 0x229c9e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a7a8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_characteristic, addr 0x229c9c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characteristic, addr 0x22a7a6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characteristic();
 
-  /// @brief Method get_difficulties, addr 0x229c9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficulties, addr 0x22a7a7c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficultyMask get_difficulties();
 
-  /// @brief Method set_characteristic, addr 0x229c9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_characteristic, addr 0x22a7a74, size 0x8, virtual false, abstract: false, final false
   inline void set_characteristic(::StringW value);
 
-  /// @brief Method set_difficulties, addr 0x229c9dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_difficulties, addr 0x22a7a84, size 0x8, virtual false, abstract: false, final false
   inline void set_difficulties(::GlobalNamespace::BeatmapDifficultyMask value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::GlobalNamespace::BeatmapDifficultyMask ____difficulties_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14857 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

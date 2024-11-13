@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::BGLib::JsonExtension::Vector2Converter::*)(
     ::Newtonsoft::Json::JsonReader*, ::System::Type*, ::UnityEngine::Vector2, bool, ::Newtonsoft::Json::JsonSerializer*)>(&::BGLib::JsonExtension::Vector2Converter::ReadJson)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2266a58;
+  constexpr static std::size_t addrs = 0x2271a0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::JsonExtension::Vector2Converter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::UnityEngine::Vector2, ::Newtonsoft::Json::JsonSerializer*)>(&::BGLib::JsonExtension::Vector2Converter::WriteJson)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2266af8;
+  constexpr static std::size_t addrs = 0x2271aac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::JsonExtension::Vector2Converter::*)()>(&::BGLib::JsonExtension::Vector2Converter::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2266be8;
+  constexpr static std::size_t addrs = 0x2271b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::JsonExtension::Vector2Converter*>::get(), ".ctor",

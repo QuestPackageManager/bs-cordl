@@ -61,18 +61,18 @@ public:
   /// @brief Field valueDidChangeEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_1<float_t>* valueDidChangeEvent;
 
-  /// @brief Method AutoSetHeight, addr 0x3b973e8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AutoSetHeight, addr 0x3bad24c, size 0x114, virtual false, abstract: false, final false
   inline void AutoSetHeight();
 
-  /// @brief Method Awake, addr 0x3b97278, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bad0dc, size 0xc0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x3b97338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3bad19c, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t playerHeight);
 
   static inline ::GlobalNamespace::PlayerHeightSettingsController* New_ctor();
 
-  /// @brief Method RefreshUI, addr 0x3b97340, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x3bad1a4, size 0xa8, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -117,16 +117,16 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b974fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bad360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x3b97110, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x3bacf74, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_value, addr 0x3b97270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x3bad0d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x3b971c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x3bad024, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
 protected:
@@ -165,7 +165,7 @@ public:
   float_t ____value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

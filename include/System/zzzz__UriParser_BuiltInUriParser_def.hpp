@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::System::__UriParser__BuiltInUriParser* New_ctor(::StringW lwrCaseScheme, int32_t defaultPort, ::System::UriSyntaxFlags syntaxFlags);
 
-  /// @brief Method .ctor, addr 0x4397018, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ab730, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW lwrCaseScheme, int32_t defaultPort, ::System::UriSyntaxFlags syntaxFlags);
 
 protected:
@@ -44,7 +44,7 @@ public:
   __UriParser__BuiltInUriParser(__UriParser__BuiltInUriParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -70,19 +70,19 @@ public:
 
   constexpr void __cordl_internal_set__obstaclesCountText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3a93310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa6dec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_bombsCount, addr 0x3a932c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_bombsCount, addr 0x3aa6da4, size 0x48, virtual false, abstract: false, final false
   inline void set_bombsCount(int32_t value);
 
-  /// @brief Method set_notesCount, addr 0x3a93238, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_notesCount, addr 0x3aa6d14, size 0x48, virtual false, abstract: false, final false
   inline void set_notesCount(int32_t value);
 
-  /// @brief Method set_notesPerSecond, addr 0x3a931b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_notesPerSecond, addr 0x3aa6c94, size 0x80, virtual false, abstract: false, final false
   inline void set_notesPerSecond(float_t value);
 
-  /// @brief Method set_obstaclesCount, addr 0x3a93280, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_obstaclesCount, addr 0x3aa6d5c, size 0x48, virtual false, abstract: false, final false
   inline void set_obstaclesCount(int32_t value);
 
 protected:
@@ -112,7 +112,7 @@ public:
   ::UnityW<::TMPro::TextMeshProUGUI> ____bombsCountText;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4967 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

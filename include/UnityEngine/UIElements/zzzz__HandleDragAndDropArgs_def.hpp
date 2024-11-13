@@ -27,7 +27,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE HandleDragAndDropArgs {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x499eccc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b33e4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 position, ::UnityEngine::UIElements::DragAndDropArgs dragAndDropArgs);
 
   // Ctor Parameters []
@@ -45,7 +45,7 @@ public:
   ::UnityEngine::Vector2 _position_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5729 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

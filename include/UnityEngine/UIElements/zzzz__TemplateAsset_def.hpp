@@ -52,7 +52,7 @@ public:
   ::StringW m_Value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6212 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -113,10 +113,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TemplateAlias(::StringW value);
 
-  /// @brief Method get_attributeOverrides, addr 0x4a15500, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_attributeOverrides, addr 0x4a29c18, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TemplateAsset__AttributeOverride>* get_attributeOverrides();
 
-  /// @brief Method get_slotUsages, addr 0x4a2675c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slotUsages, addr 0x4a3ae74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotUsageEntry>* get_slotUsages();
 
 protected:
@@ -143,7 +143,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotUsageEntry>* ___m_SlotUsages;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

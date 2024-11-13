@@ -26,10 +26,10 @@ public:
   // Declarations
   __declspec(property(get = get_valueType, put = set_valueType)) ::UnityEngine::UIElements::StyleValueType valueType;
 
-  /// @brief Method get_valueType, addr 0x4a05d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_valueType, addr 0x4a1a434, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueType get_valueType();
 
-  /// @brief Method set_valueType, addr 0x4a1357c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_valueType, addr 0x4a27c94, size 0x8, virtual false, abstract: false, final false
   inline void set_valueType(::UnityEngine::UIElements::StyleValueType value);
 
   // Ctor Parameters []
@@ -47,7 +47,7 @@ public:
   int32_t valueIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6154 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -67,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set__platformLeaderboardId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x268b900, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2697504, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW difficultyBeatmapId, ::StringW platformLeaderboardId);
 
-  /// @brief Method get_difficultyBeatmapId, addr 0x268b9b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_difficultyBeatmapId, addr 0x26975b4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_difficultyBeatmapId();
 
-  /// @brief Method get_platformLeaderboardId, addr 0x268b9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_platformLeaderboardId, addr 0x26975ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_platformLeaderboardId();
 
   /// @brief Convert to "::GlobalNamespace::ILeaderboardIdData"
@@ -100,7 +100,7 @@ public:
   ::StringW ____platformLeaderboardId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12944 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -133,10 +133,10 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILeaderboardIdContainer"
   constexpr operator ::GlobalNamespace::ILeaderboardIdContainer*() noexcept;
 
-  /// @brief Method Add, addr 0x268b81c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2697420, size 0xe4, virtual false, abstract: false, final false
   inline void Add(::StringW difficultyBeatmapId, ::StringW platformLeaderboardId);
 
-  /// @brief Method ILeaderboardIdContainer.get_leaderboardIds, addr 0x268b7b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method ILeaderboardIdContainer.get_leaderboardIds, addr 0x26973b4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILeaderboardIdData*>* ILeaderboardIdContainer_get_leaderboardIds();
 
   static inline ::GlobalNamespace::LeaderboardIdsSO* New_ctor();
@@ -147,16 +147,16 @@ public:
 
   constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardIdsSO__LeaderboardIdData*>* value);
 
-  /// @brief Method .ctor, addr 0x268b92c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2697530, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_leaderboardIds, addr 0x268b7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leaderboardIds, addr 0x26973bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LeaderboardIdsSO__LeaderboardIdData*>* get_leaderboardIds();
 
   /// @brief Convert to "::GlobalNamespace::ILeaderboardIdContainer"
   constexpr ::GlobalNamespace::ILeaderboardIdContainer* i___GlobalNamespace__ILeaderboardIdContainer() noexcept;
 
-  /// @brief Method set_leaderboardIds, addr 0x268b7c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_leaderboardIds, addr 0x26973c4, size 0x5c, virtual false, abstract: false, final false
   inline void set_leaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LeaderboardIdsSO__LeaderboardIdData*>* value);
 
 protected:
@@ -177,7 +177,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardIdsSO__LeaderboardIdData*>* ____leaderboardIds;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

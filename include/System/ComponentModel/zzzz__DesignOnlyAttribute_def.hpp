@@ -37,13 +37,13 @@ public:
   /// @brief Field <IsDesignOnly>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__IsDesignOnly_k__BackingField, put = __cordl_internal_set__IsDesignOnly_k__BackingField)) bool _IsDesignOnly_k__BackingField;
 
-  /// @brief Method Equals, addr 0x43cffb0, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x43e46c8, size 0xe4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x43d0094, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x43e47ac, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x43d0100, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x43e4818, size 0x80, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::DesignOnlyAttribute* New_ctor(bool isDesignOnly);
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__IsDesignOnly_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x43cff80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e4698, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool isDesignOnly);
 
   static inline ::System::ComponentModel::DesignOnlyAttribute* getStaticF_Default();
@@ -63,7 +63,7 @@ public:
 
   static inline ::System::ComponentModel::DesignOnlyAttribute* getStaticF_Yes();
 
-  /// @brief Method get_IsDesignOnly, addr 0x43cffa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDesignOnly, addr 0x43e46c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDesignOnly();
 
   static inline void setStaticF_Default(::System::ComponentModel::DesignOnlyAttribute* value);
@@ -90,7 +90,7 @@ public:
   bool ____IsDesignOnly_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9315 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

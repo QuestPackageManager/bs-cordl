@@ -36,16 +36,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDataAddTestSlidersTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedData, addr 0x266a3ec, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x2675494, size 0x328, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method FindNextSameColorTypeNote, addr 0x266aad0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method FindNextSameColorTypeNote, addr 0x2675b88, size 0x1ec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteData* FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>* beatmapDataItems, int32_t startIndex,
                                                                        ::GlobalNamespace::ColorType colorType);
 
   static inline ::GlobalNamespace::BeatmapDataAddTestSlidersTransform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x266acbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2675d74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   BeatmapDataAddTestSlidersTransform(BeatmapDataAddTestSlidersTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12751 };
 
   /// @brief Field kMaxTimeDiff offset 0xffffffff size 0x4
   static constexpr float_t kMaxTimeDiff{ 2.0 };

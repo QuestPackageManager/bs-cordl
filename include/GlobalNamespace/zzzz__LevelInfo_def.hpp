@@ -50,19 +50,19 @@ public:
 
   constexpr void __cordl_internal_set__levelID_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x229c9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a7a64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmaps, addr 0x229c9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmaps, addr 0x22a7a54, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> get_beatmaps();
 
-  /// @brief Method get_levelID, addr 0x229c99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelID, addr 0x22a7a44, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();
 
-  /// @brief Method set_beatmaps, addr 0x229c9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmaps, addr 0x22a7a5c, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmaps(::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> value);
 
-  /// @brief Method set_levelID, addr 0x229c9a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelID, addr 0x22a7a4c, size 0x8, virtual false, abstract: false, final false
   inline void set_levelID(::StringW value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   ::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> ____beatmaps_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14856 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Data::Nodes value);
 
-  /// @brief Method .ctor, addr 0x410315c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4117874, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::Nodes type, int32_t op, int32_t pri);
 
 protected:
@@ -80,7 +80,7 @@ public:
   int32_t ____priority;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11393 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

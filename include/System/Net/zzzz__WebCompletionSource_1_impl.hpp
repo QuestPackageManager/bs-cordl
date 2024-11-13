@@ -49,7 +49,7 @@ System::Net::__WebCompletionSource_1__Result<T>::__cordl_internal_get__Error_k__
 }
 template <typename T> constexpr void System::Net::__WebCompletionSource_1__Result<T>::__cordl_internal_set__Error_k__BackingField(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Error_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____Error_k__BackingField, value);
 }
 template <typename T> constexpr T& System::Net::__WebCompletionSource_1__Result<T>::__cordl_internal_get__Argument_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -61,7 +61,7 @@ template <typename T> constexpr T const& System::Net::__WebCompletionSource_1__R
 }
 template <typename T> constexpr void System::Net::__WebCompletionSource_1__Result<T>::__cordl_internal_set__Argument_k__BackingField(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Argument_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____Argument_k__BackingField, value);
 }
 template <typename T> inline ::System::Net::__WebCompletionSource_1__Status<T> System::Net::__WebCompletionSource_1__Result<T>::get_Status() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebCompletionSource_1__Result<T>*>::get(),
@@ -157,7 +157,7 @@ System::Net::WebCompletionSource_1<T>::__cordl_internal_get_completion() const {
 template <typename T>
 constexpr void System::Net::WebCompletionSource_1<T>::__cordl_internal_set_completion(::System::Threading::Tasks::TaskCompletionSource_1<::System::Net::__WebCompletionSource_1__Result<T>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___completion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___completion, value);
 }
 template <typename T> constexpr ::System::Net::__WebCompletionSource_1__Result<T>*& System::Net::WebCompletionSource_1<T>::__cordl_internal_get_currentResult() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -170,7 +170,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Net::__WebCompletionSour
 }
 template <typename T> constexpr void System::Net::WebCompletionSource_1<T>::__cordl_internal_set_currentResult(::System::Net::__WebCompletionSource_1__Result<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentResult)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___currentResult, value);
 }
 /// @param runAsync: bool (default: true)
 template <typename T> inline ::System::Net::WebCompletionSource_1<T>* System::Net::WebCompletionSource_1<T>::New_ctor(bool runAsync) {

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__BindingRestrictions__InstanceRestriction::*)(
     ::System::Linq::Expressions::Expression*, ::System::Object*)>(&::System::Dynamic::__BindingRestrictions__InstanceRestriction::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x40846a4;
+  constexpr static std::size_t addrs = 0x4098dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::__BindingRestrictions__InstanceRestriction::*)(::System::Object*)>(
     &::System::Dynamic::__BindingRestrictions__InstanceRestriction::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4084ef8;
+  constexpr static std::size_t addrs = 0x4099610;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::__BindingRestrictions__InstanceRestriction::*)()>(
     &::System::Dynamic::__BindingRestrictions__InstanceRestriction::GetHashCode)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4084f8c;
+  constexpr static std::size_t addrs = 0x40996a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::__BindingRestrictions__InstanceRestriction::*)()>(
     &::System::Dynamic::__BindingRestrictions__InstanceRestriction::GetExpression)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x4084fd8;
+  constexpr static std::size_t addrs = 0x40996f0;
 
   inline static ::MethodInfo const* methodInfo() {
 

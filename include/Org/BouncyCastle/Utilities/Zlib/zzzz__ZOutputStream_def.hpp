@@ -67,22 +67,22 @@ public:
   /// @brief Field z, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z)) ::Org::BouncyCastle::Utilities::Zlib::ZStream* z;
 
-  /// @brief Method Close, addr 0x23e80bc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x23f3164, size 0x2c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method DoClose, addr 0x23e80e8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method DoClose, addr 0x23f3190, size 0x1a4, virtual false, abstract: false, final false
   inline void DoClose();
 
-  /// @brief Method End, addr 0x23e828c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method End, addr 0x23f3334, size 0x4c, virtual true, abstract: false, final false
   inline void End();
 
-  /// @brief Method Finish, addr 0x23e82d8, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method Finish, addr 0x23f3380, size 0x164, virtual true, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Flush, addr 0x23e843c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x23f34e4, size 0x24, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method GetDefaultZStream, addr 0x23e7ec4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultZStream, addr 0x23f2f6c, size 0x70, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZStream* GetDefaultZStream(bool nowrap);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* New_ctor(::System::IO::Stream* output);
@@ -95,19 +95,19 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* New_ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method Read, addr 0x23e8518, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x23f35c0, size 0x38, virtual true, abstract: false, final true
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Seek, addr 0x23e8550, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Seek, addr 0x23f35f8, size 0x38, virtual true, abstract: false, final true
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x23e8588, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method SetLength, addr 0x23f3630, size 0x38, virtual true, abstract: false, final true
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x23e85f8, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x23f36a0, size 0x160, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x23e8758, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x23f3800, size 0x40, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buf() const;
@@ -152,49 +152,49 @@ public:
 
   constexpr void __cordl_internal_set_z(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
 
-  /// @brief Method .ctor, addr 0x23e7f34, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f2fdc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output);
 
-  /// @brief Method .ctor, addr 0x23e7f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f303c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, int32_t level);
 
-  /// @brief Method .ctor, addr 0x23e7f9c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f3044, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, int32_t level, bool nowrap);
 
-  /// @brief Method .ctor, addr 0x23e7f64, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f300c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, bool nowrap);
 
-  /// @brief Method .ctor, addr 0x23e7dac, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f2e54, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method get_CanRead, addr 0x23e809c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanRead, addr 0x23f3144, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x23e80a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanSeek, addr 0x23f314c, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x23e80ac, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_CanWrite, addr 0x23f3154, size 0x10, virtual true, abstract: false, final true
   inline bool get_CanWrite();
 
-  /// @brief Method get_FlushMode, addr 0x23e8460, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FlushMode, addr 0x23f3508, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_FlushMode();
 
-  /// @brief Method get_Length, addr 0x23e8470, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_Length, addr 0x23f3518, size 0x38, virtual true, abstract: false, final true
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x23e84a8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_Position, addr 0x23f3550, size 0x38, virtual true, abstract: false, final true
   inline int64_t get_Position();
 
-  /// @brief Method get_TotalIn, addr 0x23e85c0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_TotalIn, addr 0x23f3668, size 0x1c, virtual true, abstract: false, final false
   inline int64_t get_TotalIn();
 
-  /// @brief Method get_TotalOut, addr 0x23e85dc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_TotalOut, addr 0x23f3684, size 0x1c, virtual true, abstract: false, final false
   inline int64_t get_TotalOut();
 
-  /// @brief Method set_FlushMode, addr 0x23e8468, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_FlushMode, addr 0x23f3510, size 0x8, virtual true, abstract: false, final false
   inline void set_FlushMode(int32_t value);
 
-  /// @brief Method set_Position, addr 0x23e84e0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method set_Position, addr 0x23f3588, size 0x38, virtual true, abstract: false, final true
   inline void set_Position(int64_t value);
 
 protected:

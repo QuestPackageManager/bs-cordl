@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventTranslationValue(bool value);
 
-  /// @brief Method .ctor, addr 0x267db10, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2689714, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType, float_t translation);
 
 protected:
@@ -92,7 +92,7 @@ public:
   float_t ___translation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12882 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

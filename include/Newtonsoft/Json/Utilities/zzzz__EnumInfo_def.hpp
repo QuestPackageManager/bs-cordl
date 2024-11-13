@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3e53e10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e684a0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(bool isFlags, ::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names, ::ArrayW<::StringW, ::Array<::StringW>*> resolvedNames);
 
 protected:
@@ -91,7 +91,7 @@ public:
   ::ArrayW<::StringW, ::Array<::StringW>*> ___ResolvedNames;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10200 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

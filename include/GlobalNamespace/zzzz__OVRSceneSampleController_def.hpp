@@ -58,24 +58,24 @@ public:
   /// @brief Field visionMode, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_visionMode, put = __cordl_internal_set_visionMode)) bool visionMode;
 
-  /// @brief Method Awake, addr 0x3fcc430, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fe0ac0, size 0x1b4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRSceneSampleController* New_ctor();
 
-  /// @brief Method Start, addr 0x3fcc5e4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fe0c74, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fcc6d4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fe0d64, size 0xd4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateRecenterPose, addr 0x3fcc7a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method UpdateRecenterPose, addr 0x3fe0e38, size 0xb0, virtual false, abstract: false, final false
   inline void UpdateRecenterPose();
 
-  /// @brief Method UpdateSpeedAndRotationScaleMultiplier, addr 0x3fcc914, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateSpeedAndRotationScaleMultiplier, addr 0x3fe0fa4, size 0xac, virtual false, abstract: false, final false
   inline void UpdateSpeedAndRotationScaleMultiplier();
 
-  /// @brief Method UpdateVisionMode, addr 0x3fcc858, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisionMode, addr 0x3fe0ee8, size 0xbc, virtual false, abstract: false, final false
   inline void UpdateVisionMode();
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_cameraController() const;
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_visionMode(bool value);
 
-  /// @brief Method .ctor, addr 0x3fcc9c0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe1050, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -168,7 +168,7 @@ public:
   ::UnityW<::GlobalNamespace::OVRGridCube> ___gridCube;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

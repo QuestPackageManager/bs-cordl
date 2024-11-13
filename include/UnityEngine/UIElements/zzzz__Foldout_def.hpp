@@ -74,7 +74,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Foldout__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x491aed8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492f5f0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   __Foldout__UxmlFactory(__Foldout__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5547 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5552 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -114,7 +114,7 @@ public:
   /// @brief Field m_Value, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Value;
 
-  /// @brief Method Init, addr 0x491af20, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x492f638, size 0x12c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__Foldout__UxmlTraits* New_ctor();
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x491b04c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492f764, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -155,7 +155,7 @@ public:
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5553 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -228,21 +228,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::INotifyValueChanged_1<bool>"
   constexpr operator ::UnityEngine::UIElements::INotifyValueChanged_1<bool>*() noexcept;
 
-  /// @brief Method Apply, addr 0x491a64c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x492ed64, size 0xd4, virtual false, abstract: false, final false
   inline bool Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op);
 
-  /// @brief Method Apply, addr 0x491a61c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x492ed34, size 0x30, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op, ::UnityEngine::UIElements::EventBase* sourceEvent);
 
   static inline ::UnityEngine::UIElements::Foldout* New_ctor();
 
-  /// @brief Method OnAttachToPanel, addr 0x491aac8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method OnAttachToPanel, addr 0x492f1e0, size 0x1e0, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x491a5dc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x492ecf4, size 0x40, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x491a498, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method SetValueWithoutNotify, addr 0x492ebb0, size 0x144, virtual true, abstract: false, final true
   inline void SetValueWithoutNotify(bool newValue);
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Container();
@@ -269,10 +269,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(bool value);
 
-  /// @brief Method <.ctor>b__29_0, addr 0x491ae88, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__29_0, addr 0x492f5a0, size 0x50, virtual false, abstract: false, final false
   inline void __ctor_b__29_0(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
-  /// @brief Method .ctor, addr 0x491a720, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492ee38, size 0x3a8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_checkmarkUssClassName();
@@ -293,10 +293,10 @@ public:
 
   static inline int32_t getStaticF_ussFoldoutMaxDepth();
 
-  /// @brief Method get_contentContainer, addr 0x491a154, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x492e86c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_value, addr 0x491a284, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x492e99c, size 0x8, virtual true, abstract: false, final true
   inline bool get_value();
 
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<bool>"
@@ -320,10 +320,10 @@ public:
 
   static inline void setStaticF_ussFoldoutMaxDepth(int32_t value);
 
-  /// @brief Method set_text, addr 0x491a15c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x492e874, size 0x128, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_value, addr 0x491a28c, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x492e9a4, size 0x20c, virtual true, abstract: false, final true
   inline void set_value(bool value);
 
 protected:
@@ -353,7 +353,7 @@ public:
   ::UnityEngine::UIElements::KeyboardNavigationManipulator* ___m_NavigationManipulator;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5554 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

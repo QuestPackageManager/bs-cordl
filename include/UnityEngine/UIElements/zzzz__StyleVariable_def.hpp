@@ -28,10 +28,10 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE StyleVariable {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x4a136ac, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a27dc4, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x4a136a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a27db8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::UIElements::StyleSheet* sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> handles);
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
   ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> handles;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6158 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -212,33 +212,33 @@ public:
 
   constexpr void __cordl_internal_set_write(int32_t value);
 
-  /// @brief Method .ctor, addr 0x259e1dc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a9284, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::System::Object* checkfn, int32_t w);
 
-  /// @brief Method free, addr 0x25a0370, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method free, addr 0x25ab418, size 0x1c, virtual false, abstract: false, final false
   inline void free(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_border();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_inflate_mask();
 
-  /// @brief Method inflate_flush, addr 0x259f348, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method inflate_flush, addr 0x25aa3f0, size 0x180, virtual false, abstract: false, final false
   inline int32_t inflate_flush(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
-  /// @brief Method proc, addr 0x259e3d4, size 0xf74, virtual false, abstract: false, final false
+  /// @brief Method proc, addr 0x25a947c, size 0xf74, virtual false, abstract: false, final false
   inline int32_t proc(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
-  /// @brief Method reset, addr 0x259e340, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method reset, addr 0x25a93e8, size 0x90, virtual false, abstract: false, final false
   inline void reset(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::ArrayW<int64_t, ::Array<int64_t>*> c);
 
   static inline void setStaticF_border(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   static inline void setStaticF_inflate_mask(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method set_dictionary, addr 0x25a038c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_dictionary, addr 0x25ab434, size 0x40, virtual false, abstract: false, final false
   inline void set_dictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> d, int32_t start, int32_t n);
 
-  /// @brief Method sync_point, addr 0x25a03cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method sync_point, addr 0x25ab474, size 0x10, virtual false, abstract: false, final false
   inline int32_t sync_point();
 
 protected:

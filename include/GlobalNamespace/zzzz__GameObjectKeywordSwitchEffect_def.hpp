@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_keyword(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b12198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b275e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   ::StringW ___keyword;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4244 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -110,7 +110,7 @@ public:
                                                                                     ::Array<::GlobalNamespace::__GameObjectKeywordSwitchEffect__GameObjectKeywordItem*>*>
       _gameObjectKeywordItems;
 
-  /// @brief Method Initialize, addr 0x3b1204c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b2749c, size 0x144, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
   static inline ::GlobalNamespace::GameObjectKeywordSwitchEffect* New_ctor();
@@ -130,7 +130,7 @@ public:
   constexpr void __cordl_internal_set__gameObjectKeywordItems(
       ::ArrayW<::GlobalNamespace::__GameObjectKeywordSwitchEffect__GameObjectKeywordItem*, ::Array<::GlobalNamespace::__GameObjectKeywordSwitchEffect__GameObjectKeywordItem*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b12190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b275e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,7 +154,7 @@ public:
   ::ArrayW<::GlobalNamespace::__GameObjectKeywordSwitchEffect__GameObjectKeywordItem*, ::Array<::GlobalNamespace::__GameObjectKeywordSwitchEffect__GameObjectKeywordItem*>*> ____gameObjectKeywordItems;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4245 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

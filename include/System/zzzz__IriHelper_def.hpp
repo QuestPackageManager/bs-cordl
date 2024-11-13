@@ -25,16 +25,16 @@ namespace System {
 class CORDL_TYPE IriHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckIriUnicodeRange, addr 0x43936cc, size 0x630, virtual false, abstract: false, final false
+  /// @brief Method CheckIriUnicodeRange, addr 0x43a7de4, size 0x630, virtual false, abstract: false, final false
   static inline bool CheckIriUnicodeRange(char16_t highSurr, char16_t lowSurr, ByRef<bool> surrogatePair, bool isQuery);
 
-  /// @brief Method CheckIriUnicodeRange, addr 0x4393674, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckIriUnicodeRange, addr 0x43a7d8c, size 0x58, virtual false, abstract: false, final false
   static inline bool CheckIriUnicodeRange(char16_t unicode, bool isQuery);
 
-  /// @brief Method CheckIsReserved, addr 0x4393cfc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CheckIsReserved, addr 0x43a8414, size 0x144, virtual false, abstract: false, final false
   static inline bool CheckIsReserved(char16_t ch, ::System::UriComponents component);
 
-  /// @brief Method EscapeUnescapeIri, addr 0x4393e40, size 0x85c, virtual false, abstract: false, final false
+  /// @brief Method EscapeUnescapeIri, addr 0x43a8558, size 0x85c, virtual false, abstract: false, final false
   static inline ::StringW EscapeUnescapeIri(::cordl_internals::Ptr<char16_t> pInput, int32_t start, int32_t end, ::System::UriComponents component);
 
 protected:
@@ -52,7 +52,7 @@ public:
   IriHelper(IriHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9159 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

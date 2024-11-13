@@ -31,24 +31,24 @@ public:
   /// @brief Method ApplyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyValue(bool value);
 
-  /// @brief Method Awake, addr 0x3bb2a38, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bc70c8, size 0xa4, virtual false, abstract: false, final false
   inline void Awake();
 
   /// @brief Method GetInitValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValue();
 
-  /// @brief Method HandleToggleValueDidChange, addr 0x3bb2be0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleValueDidChange, addr 0x3bc7270, size 0x10, virtual false, abstract: false, final false
   inline void HandleToggleValueDidChange(bool value);
 
   static inline ::GlobalNamespace::SwitchSettingsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb2adc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bc716c, size 0xa4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x3bb2b80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3bc7210, size 0x3c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshUI, addr 0x3bb2bbc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x3bc724c, size 0x24, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   constexpr bool const& __cordl_internal_get__on() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x3bb2bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc7280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   bool ____on;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18848 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

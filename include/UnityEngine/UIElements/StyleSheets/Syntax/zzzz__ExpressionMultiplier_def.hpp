@@ -26,16 +26,16 @@ public:
   // Declarations
   __declspec(property(get = get_type, put = set_type)) ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type;
 
-  /// @brief Method SetType, addr 0x49628e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetType, addr 0x4977000, size 0x54, virtual false, abstract: false, final false
   inline void SetType(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value);
 
-  /// @brief Method .ctor, addr 0x49628d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4976fec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type);
 
-  /// @brief Method get_type, addr 0x4961424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x4975b3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType get_type();
 
-  /// @brief Method set_type, addr 0x49628e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x4976ffc, size 0x4, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value);
 
   // Ctor Parameters []
@@ -59,7 +59,7 @@ public:
   static constexpr int32_t Infinity{ static_cast<int32_t>(0x64) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6447 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

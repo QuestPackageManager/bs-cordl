@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__SendMouseEvents__HitInfo::*)(::StringW)>(
     &::UnityEngine::__SendMouseEvents__HitInfo::SendMessage)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4871134;
+  constexpr static std::size_t addrs = 0x488584c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::__SendMouseEvents__HitInfo)>(&::UnityEngine::__SendMouseEvents__HitInfo::op_Implicit_bool)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4871094;
+  constexpr static std::size_t addrs = 0x48857ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::__SendMouseEvents__HitInfo, ::UnityEngine::__SendMouseEvents__HitInfo)>(
     &::UnityEngine::__SendMouseEvents__HitInfo::Compare)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4871158;
+  constexpr static std::size_t addrs = 0x4885870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::SendMouseEvents::UpdateMouse)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x48700e4;
+  constexpr static std::size_t addrs = 0x48847fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get(), "UpdateMouse",
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::SendMouseEvents::SetMouseMoved)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48702a8;
+  constexpr static std::size_t addrs = 0x48849c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get(), "SetMouseMoved",
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::SendMouseEvents::DoSendMouseEvents)> {
   constexpr static std::size_t size = 0x968;
-  constexpr static std::size_t addrs = 0x4870304;
+  constexpr static std::size_t addrs = 0x4884a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::UnityEngine::__SendMouseEvents__HitInfo)>(&::UnityEngine::SendMouseEvents::SendEvents)> {
   constexpr static std::size_t size = 0x428;
-  constexpr static std::size_t addrs = 0x4870c6c;
+  constexpr static std::size_t addrs = 0x4885384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

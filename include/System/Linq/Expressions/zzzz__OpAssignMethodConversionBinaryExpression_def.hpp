@@ -37,7 +37,7 @@ public:
   /// @brief Field _conversion, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__conversion, put = __cordl_internal_set__conversion)) ::System::Linq::Expressions::LambdaExpression* _conversion;
 
-  /// @brief Method GetConversion, addr 0x401fdc0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetConversion, addr 0x40344d8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::LambdaExpression* GetConversion();
 
   static inline ::System::Linq::Expressions::OpAssignMethodConversionBinaryExpression* New_ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left,
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__conversion(::System::Linq::Expressions::LambdaExpression* value);
 
-  /// @brief Method .ctor, addr 0x401fd38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4034450, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, ::System::Type* type,
                     ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
@@ -72,7 +72,7 @@ public:
   ::System::Linq::Expressions::LambdaExpression* ____conversion;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13577 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -69,21 +69,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3f98838, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3facec8, size 0x98, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3f988d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3facf60, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3f988d8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3facf68, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3f98910, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3facfa0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3f98834, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3facec4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set__timeSinceReminder_5__2(float_t value);
 
-  /// @brief Method .ctor, addr 0x3f983b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3faca44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -149,7 +149,7 @@ public:
   float_t ____timeSinceReminder_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8251 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8256 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -184,33 +184,33 @@ public:
   /// @brief Field _sceneCaptureRequested, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__sceneCaptureRequested, put = __cordl_internal_set__sceneCaptureRequested)) bool _sceneCaptureRequested;
 
-  /// @brief Method AttemptToLoadSceneModel, addr 0x3f98354, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AttemptToLoadSceneModel, addr 0x3fac9e4, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AttemptToLoadSceneModel();
 
-  /// @brief Method LoadSceneModel, addr 0x3f983e0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneModel, addr 0x3faca70, size 0xf4, virtual false, abstract: false, final false
   inline void LoadSceneModel();
 
   static inline ::GlobalNamespace::OVRSceneModelLoader* New_ctor();
 
-  /// @brief Method OnNewSceneModelAvailable, addr 0x3f98658, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnNewSceneModelAvailable, addr 0x3facce8, size 0x9c, virtual true, abstract: false, final false
   inline void OnNewSceneModelAvailable();
 
-  /// @brief Method OnNoSceneModelToLoad, addr 0x3f98570, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method OnNoSceneModelToLoad, addr 0x3facc00, size 0xe8, virtual true, abstract: false, final false
   inline void OnNoSceneModelToLoad();
 
-  /// @brief Method OnSceneCaptureReturnedWithoutError, addr 0x3f986f4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnSceneCaptureReturnedWithoutError, addr 0x3facd84, size 0x9c, virtual true, abstract: false, final false
   inline void OnSceneCaptureReturnedWithoutError();
 
-  /// @brief Method OnSceneModelLoadedSuccessfully, addr 0x3f984d4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnSceneModelLoadedSuccessfully, addr 0x3facb64, size 0x9c, virtual true, abstract: false, final false
   inline void OnSceneModelLoadedSuccessfully();
 
-  /// @brief Method OnStart, addr 0x3f983dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnStart, addr 0x3faca6c, size 0x4, virtual true, abstract: false, final false
   inline void OnStart();
 
-  /// @brief Method OnUnexpectedErrorWithSceneCapture, addr 0x3f98790, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnUnexpectedErrorWithSceneCapture, addr 0x3face20, size 0x9c, virtual true, abstract: false, final false
   inline void OnUnexpectedErrorWithSceneCapture();
 
-  /// @brief Method Start, addr 0x3f980d0, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fac760, size 0x284, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::OVRSceneManager> const& __cordl_internal_get__SceneManager_k__BackingField() const;
@@ -225,13 +225,13 @@ public:
 
   constexpr void __cordl_internal_set__sceneCaptureRequested(bool value);
 
-  /// @brief Method .ctor, addr 0x3f9882c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3facebc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SceneManager, addr 0x3f980c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SceneManager, addr 0x3fac750, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRSceneManager> get_SceneManager();
 
-  /// @brief Method set_SceneManager, addr 0x3f980c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SceneManager, addr 0x3fac758, size 0x8, virtual false, abstract: false, final false
   inline void set_SceneManager(::GlobalNamespace::OVRSceneManager* value);
 
 protected:
@@ -258,7 +258,7 @@ public:
   static constexpr float_t RetryingReminderDelay{ 10.0 };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8252 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8257 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

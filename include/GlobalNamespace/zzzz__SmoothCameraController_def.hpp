@@ -31,21 +31,21 @@ public:
   /// @brief Field _smoothCamera, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__smoothCamera, put = __cordl_internal_set__smoothCamera)) ::UnityW<::GlobalNamespace::SmoothCamera> _smoothCamera;
 
-  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x3b74684, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x3b8a178, size 0xe8, virtual false, abstract: false, final false
   inline void ActivateSmoothCameraIfNeeded();
 
-  /// @brief Method HandleDidActivate, addr 0x3b74770, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleDidActivate, addr 0x3b8a264, size 0x40, virtual false, abstract: false, final false
   inline void HandleDidActivate();
 
-  /// @brief Method HandleDidDeactivate, addr 0x3b747b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidDeactivate, addr 0x3b8a2a4, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidDeactivate();
 
   static inline ::GlobalNamespace::SmoothCameraController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b7476c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b8a260, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b74680, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b8a174, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__smoothCamera(::UnityW<::GlobalNamespace::SmoothCamera> value);
 
-  /// @brief Method .ctor, addr 0x3b747b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8a2a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4677 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

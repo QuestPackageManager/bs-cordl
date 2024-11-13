@@ -91,7 +91,7 @@ constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Pool::ObjectPool_1<
 }
 template <typename T> constexpr void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_set_m_Pool(::UnityEngine::Pool::ObjectPool_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Pool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Pool, value);
 }
 template <typename T> constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView*& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_CollectionView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -106,7 +106,7 @@ UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal
 template <typename T>
 constexpr void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_set_m_CollectionView(::UnityEngine::UIElements::BaseVerticalCollectionView* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CollectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_CollectionView, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_ActiveItems() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -120,7 +120,7 @@ UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal
 }
 template <typename T> constexpr void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_set_m_ActiveItems(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActiveItems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ActiveItems, value);
 }
 template <typename T> constexpr T& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_DraggedItem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -132,7 +132,7 @@ template <typename T> constexpr T const& UnityEngine::UIElements::VerticalVirtua
 }
 template <typename T> constexpr void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_set_m_DraggedItem(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DraggedItem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_DraggedItem, value);
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_LastFocusedElementIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -160,8 +160,7 @@ UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal
 template <typename T>
 constexpr void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_set_m_LastFocusedElementTreeChildIndexes(::System::Collections::Generic::List_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LastFocusedElementTreeChildIndexes)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_LastFocusedElementTreeChildIndexes, value);
 }
 template <typename T> constexpr ::System::Func_2<T, bool>*& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_VisibleItemPredicateDelegate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -175,7 +174,7 @@ UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal
 }
 template <typename T> constexpr void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_set_m_VisibleItemPredicateDelegate(::System::Func_2<T, bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VisibleItemPredicateDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_VisibleItemPredicateDelegate, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_ScrollInsertionList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -189,7 +188,7 @@ UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal
 }
 template <typename T> constexpr void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_set_m_ScrollInsertionList(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ScrollInsertionList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ScrollInsertionList, value);
 }
 template <typename T> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_get_m_EmptyRows() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -203,7 +202,7 @@ UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal
 }
 template <typename T> constexpr void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::__cordl_internal_set_m_EmptyRows(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_EmptyRows)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_EmptyRows, value);
 }
 template <typename T>
 inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>* UnityEngine::UIElements::VerticalVirtualizationController_1<T>::get_activeItems() {

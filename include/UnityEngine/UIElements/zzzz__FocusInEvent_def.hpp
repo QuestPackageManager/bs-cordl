@@ -32,10 +32,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__FocusInEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49ada1c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49c2134, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusInEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49ada14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c212c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__FocusInEvent____c* getStaticF___9();
@@ -57,7 +57,7 @@ public:
   __FocusInEvent____c(__FocusInEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5802 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,15 +75,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::__FocusInEvent____c;
 
-  /// @brief Method Init, addr 0x49ad904, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49c201c, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49ad958, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x49c2070, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::FocusInEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49ad964, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c207c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   FocusInEvent(FocusInEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

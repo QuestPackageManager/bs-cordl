@@ -48,7 +48,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__BombNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a78790, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a8c118, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   __BombNoteController__Pool(__BombNoteController__Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4075 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,34 +90,34 @@ public:
   /// @brief Field _wrapperGO, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__wrapperGO, put = __cordl_internal_set__wrapperGO)) ::UnityW<::UnityEngine::GameObject> _wrapperGO;
 
-  /// @brief Method Awake, addr 0x3a77898, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a8b220, size 0xf0, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleDidPassHalfJump, addr 0x3a78024, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPassHalfJump, addr 0x3a8b9ac, size 0x24, virtual false, abstract: false, final false
   inline void HandleDidPassHalfJump();
 
-  /// @brief Method HandleWasCutBySaber, addr 0x3a78048, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method HandleWasCutBySaber, addr 0x3a8b9d0, size 0x26c, virtual false, abstract: false, final false
   inline void HandleWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HiddenStateDidChange, addr 0x3a78504, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x3a8be8c, size 0x24, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Init, addr 0x3a77474, size 0xd0, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
-                   float_t moveDuration, float_t jumpDuration, float_t jumpGravity);
+  /// @brief Method Init, addr 0x3a8ae04, size 0xc8, virtual false, abstract: false, final false
+  inline void Init(::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float_t moveDuration,
+                   float_t jumpDuration, float_t jumpGravity);
 
   static inline ::GlobalNamespace::BombNoteController* New_ctor();
 
-  /// @brief Method NoteDidPassMissedMarker, addr 0x3a77e28, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x3a8b7b0, size 0x30, virtual true, abstract: false, final false
   inline void NoteDidPassMissedMarker();
 
-  /// @brief Method NoteDidStartDissolving, addr 0x3a784e0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method NoteDidStartDissolving, addr 0x3a8be68, size 0x24, virtual true, abstract: false, final false
   inline void NoteDidStartDissolving();
 
-  /// @brief Method OnDestroy, addr 0x3a77b98, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a8b520, size 0xd8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x3a78528, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x3a8beb0, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
   constexpr ::UnityW<::GlobalNamespace::CuttableBySaber> const& __cordl_internal_get__cuttableBySaber() const;
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3a78538, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a8bec0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,7 +156,7 @@ public:
   ::UnityW<::UnityEngine::GameObject> ____wrapperGO;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4076 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

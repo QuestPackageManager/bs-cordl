@@ -45,15 +45,15 @@ public:
   /// @brief Field _hasCachedData, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__hasCachedData, put = __cordl_internal_set__hasCachedData)) bool _hasCachedData;
 
-  /// @brief Method GetCurvedCanvasSettings, addr 0x3982d84, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetCurvedCanvasSettings, addr 0x3996608, size 0x1ec, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::CurvedCanvasSettings> GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
 
-  /// @brief Method GetCurvedCanvasSettingsForCanvas, addr 0x3982f70, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetCurvedCanvasSettingsForCanvas, addr 0x39967f4, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityW<::HMUI::CurvedCanvasSettings> GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
 
   static inline ::HMUI::CurvedCanvasSettingsHelper* New_ctor();
 
-  /// @brief Method Reset, addr 0x3982d70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x39965f4, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get__cachedCanvas() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__hasCachedData(bool value);
 
-  /// @brief Method .ctor, addr 0x39830ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3996930, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityW<::HMUI::CurvedCanvasSettings>>* getStaticF__curvedCanvasCache();
@@ -114,7 +114,7 @@ public:
   bool ____hasCachedData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

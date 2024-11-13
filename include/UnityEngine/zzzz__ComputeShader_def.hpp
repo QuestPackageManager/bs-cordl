@@ -21,7 +21,7 @@ namespace UnityEngine {
 class CORDL_TYPE ComputeShader : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method FindKernel, addr 0x483b2ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FindKernel, addr 0x484fa04, size 0x44, virtual false, abstract: false, final false
   inline int32_t FindKernel(::StringW name);
 
 protected:
@@ -39,7 +39,7 @@ public:
   ComputeShader(ComputeShader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10896 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

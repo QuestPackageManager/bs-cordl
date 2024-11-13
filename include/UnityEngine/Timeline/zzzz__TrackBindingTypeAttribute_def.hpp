@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x47b3818, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c7f30, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x47b3848, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c7f60, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::UnityEngine::Timeline::TrackBindingFlags flags);
 
 protected:
@@ -75,7 +75,7 @@ public:
   ::UnityEngine::Timeline::TrackBindingFlags ___flags;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15841 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

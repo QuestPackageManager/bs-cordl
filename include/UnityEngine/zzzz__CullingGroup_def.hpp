@@ -38,12 +38,12 @@ namespace UnityEngine {
 class CORDL_TYPE __CullingGroup__StateChanged : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x47f20fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4806814, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::CullingGroupEvent sphere);
 
   static inline ::UnityEngine::__CullingGroup__StateChanged* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x47f2070, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4806788, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -61,7 +61,7 @@ public:
   __CullingGroup__StateChanged(__CullingGroup__StateChanged const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -85,7 +85,7 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method SendEvents, addr 0x47f2014, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendEvents, addr 0x480672c, size 0x5c, virtual false, abstract: false, final false
   static inline void SendEvents(::UnityEngine::CullingGroup* cullingGroup, ::System::IntPtr eventsPtr, int32_t count);
 
   constexpr ::UnityEngine::__CullingGroup__StateChanged*& __cordl_internal_get_m_OnStateChanged();
@@ -121,7 +121,7 @@ public:
   ::UnityEngine::__CullingGroup__StateChanged* ___m_OnStateChanged;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10641 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10646 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

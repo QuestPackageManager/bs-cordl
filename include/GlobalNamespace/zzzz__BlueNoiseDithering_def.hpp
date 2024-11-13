@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::BlueNoiseDithering* New_ctor();
 
-  /// @brief Method SetBlueNoiseShaderParams, addr 0x39737d0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetBlueNoiseShaderParams, addr 0x3987054, size 0xec, virtual false, abstract: false, final false
   inline void SetBlueNoiseShaderParams(int32_t cameraPixelWidth, int32_t cameraPixelHeight);
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__noiseTexture() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__noiseTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x39738bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3987140, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__globalNoiseTextureID();
@@ -72,7 +72,7 @@ public:
   ::UnityW<::UnityEngine::Texture2D> ____noiseTexture;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16237 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

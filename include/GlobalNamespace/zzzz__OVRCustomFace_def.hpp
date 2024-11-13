@@ -72,7 +72,7 @@ public:
   static ::GlobalNamespace::__OVRCustomFace__RetargetingType const OculusFace;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8373 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,17 +113,17 @@ public:
   /// @brief Field retargetingType, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_retargetingType, put = __cordl_internal_set_retargetingType)) ::GlobalNamespace::__OVRCustomFace__RetargetingType retargetingType;
 
-  /// @brief Method GetCustomBlendShapeNameAndExpressionPairs, addr 0x3fb98b4, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method GetCustomBlendShapeNameAndExpressionPairs, addr 0x3fcdf44, size 0x138, virtual true, abstract: false, final false
   inline ::System::ValueTuple_2<::ArrayW<::StringW, ::Array<::StringW>*>,
                                 ::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*>>
   GetCustomBlendShapeNameAndExpressionPairs();
 
-  /// @brief Method GetFaceExpression, addr 0x3fb9884, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetFaceExpression, addr 0x3fcdf14, size 0x30, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__OVRFaceExpressions__FaceExpression GetFaceExpression(int32_t blendShapeIndex);
 
   static inline ::GlobalNamespace::OVRCustomFace* New_ctor();
 
-  /// @brief Method Start, addr 0x3fb9830, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3fcdec0, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__allowDuplicateMapping() const;
@@ -144,25 +144,25 @@ public:
 
   constexpr void __cordl_internal_set_retargetingType(::GlobalNamespace::__OVRCustomFace__RetargetingType value);
 
-  /// @brief Method .ctor, addr 0x3fb99ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fce07c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowDuplicateMapping, addr 0x3fb981c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowDuplicateMapping, addr 0x3fcdeac, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowDuplicateMapping();
 
-  /// @brief Method get_Mappings, addr 0x3fb97fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mappings, addr 0x3fcde8c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*> get_Mappings();
 
-  /// @brief Method get_RetargetingValue, addr 0x3fb980c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RetargetingValue, addr 0x3fcde9c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRCustomFace__RetargetingType get_RetargetingValue();
 
-  /// @brief Method set_AllowDuplicateMapping, addr 0x3fb9824, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowDuplicateMapping, addr 0x3fcdeb4, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowDuplicateMapping(bool value);
 
-  /// @brief Method set_Mappings, addr 0x3fb9804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Mappings, addr 0x3fcde94, size 0x8, virtual false, abstract: false, final false
   inline void set_Mappings(::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*> value);
 
-  /// @brief Method set_RetargetingValue, addr 0x3fb9814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RetargetingValue, addr 0x3fcdea4, size 0x8, virtual false, abstract: false, final false
   inline void set_RetargetingValue(::GlobalNamespace::__OVRCustomFace__RetargetingType value);
 
 protected:
@@ -189,7 +189,7 @@ public:
   bool ____allowDuplicateMapping;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8374 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

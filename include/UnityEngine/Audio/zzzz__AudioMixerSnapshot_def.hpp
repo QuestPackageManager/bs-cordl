@@ -33,13 +33,13 @@ public:
 
   static inline ::UnityEngine::Audio::AudioMixerSnapshot* New_ctor();
 
-  /// @brief Method TransitionTo, addr 0x47e70cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TransitionTo, addr 0x47fb7e4, size 0x5c, virtual false, abstract: false, final false
   inline void TransitionTo(float_t timeToReach);
 
-  /// @brief Method .ctor, addr 0x47e7074, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fb78c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioMixer, addr 0x47e69a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioMixer, addr 0x47fb0b8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
 
   /// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
@@ -60,7 +60,7 @@ public:
   AudioMixerSnapshot(AudioMixerSnapshot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17792 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

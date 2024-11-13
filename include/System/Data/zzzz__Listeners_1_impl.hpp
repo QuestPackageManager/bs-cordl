@@ -57,7 +57,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename TElem> constexpr void System::Data::Listeners_1<TElem>::__cordl_internal_set__listeners(::System::Collections::Generic::List_1<TElem>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____listeners)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____listeners, value);
 }
 template <typename TElem> constexpr ::System::Data::__Listeners_1__Func_2<TElem, TElem, bool>*& System::Data::Listeners_1<TElem>::__cordl_internal_get__filter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -70,7 +70,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Data::__Listeners_1__Fun
 }
 template <typename TElem> constexpr void System::Data::Listeners_1<TElem>::__cordl_internal_set__filter(::System::Data::__Listeners_1__Func_2<TElem, TElem, bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____filter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____filter, value);
 }
 template <typename TElem> constexpr int32_t& System::Data::Listeners_1<TElem>::__cordl_internal_get__objectID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

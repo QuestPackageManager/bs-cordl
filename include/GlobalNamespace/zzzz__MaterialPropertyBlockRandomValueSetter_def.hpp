@@ -50,18 +50,18 @@ public:
   __declspec(property(get = __cordl_internal_get__renderers, put = __cordl_internal_set__renderers)) ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*>
       _renderers;
 
-  /// @brief Method ApplyParams, addr 0x397c92c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x39901b0, size 0x184, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockRandomValueSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x397cab0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x3990334, size 0x24, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyId, addr 0x397cad4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x3990358, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
-  /// @brief Method Start, addr 0x397c928, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39901ac, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityEngine::MaterialPropertyBlock*, ::Array<::UnityEngine::MaterialPropertyBlock*>*> const& __cordl_internal_get__materialPropertyBlocks() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> value);
 
-  /// @brief Method .ctor, addr 0x397caf4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3990378, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,7 +136,7 @@ public:
   int32_t ____propertyId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16318 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

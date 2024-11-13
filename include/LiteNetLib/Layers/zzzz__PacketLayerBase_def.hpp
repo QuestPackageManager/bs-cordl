@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_ExtraPacketSizeForLayer(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a5606c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a699c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t extraPacketSizeForLayer);
 
 protected:
@@ -63,7 +63,7 @@ public:
   int32_t ___ExtraPacketSizeForLayer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16581 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

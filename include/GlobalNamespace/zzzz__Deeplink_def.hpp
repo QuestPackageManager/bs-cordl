@@ -41,7 +41,7 @@ public:
   /// @brief Field PackID, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_PackID, put = __cordl_internal_set_PackID)) ::StringW PackID;
 
-  /// @brief Method FromJson, addr 0x266d000, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x26782c0, size 0x48, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Deeplink* FromJson(::StringW jsonDeeplink);
 
   static inline ::GlobalNamespace::Deeplink* New_ctor();
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_PackID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x266d048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2678308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   ::StringW ___MultiplayerSecret;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12777 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

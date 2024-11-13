@@ -24,13 +24,13 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE SafeHandleAccess {
 public:
   // Declarations
-  /// @brief Method IsNull, addr 0x49cc35c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x49e0a74, size 0x10, virtual false, abstract: false, final false
   inline bool IsNull();
 
-  /// @brief Method .ctor, addr 0x49cc354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e0a6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method op_Implicit, addr 0x49cc36c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x49e0a84, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Implicit___System__IntPtr(::UnityEngine::UIElements::SafeHandleAccess a);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   ::System::IntPtr m_Handle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5989 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5994 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

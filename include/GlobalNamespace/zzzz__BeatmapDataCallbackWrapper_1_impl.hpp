@@ -15,7 +15,7 @@ constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCall
 }
 template <typename T> constexpr void GlobalNamespace::BeatmapDataCallbackWrapper_1<T>::__cordl_internal_set__callback(::GlobalNamespace::BeatmapDataCallback_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____callback, value);
 }
 template <typename T>
 inline ::GlobalNamespace::BeatmapDataCallbackWrapper_1<T>* GlobalNamespace::BeatmapDataCallbackWrapper_1<T>::New_ctor(::GlobalNamespace::BeatmapDataCallback_1<T>* callback, float_t aheadTime,

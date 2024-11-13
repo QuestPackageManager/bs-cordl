@@ -42,7 +42,7 @@ public:
   IInitializePotentialDragHandler(IInitializePotentialDragHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

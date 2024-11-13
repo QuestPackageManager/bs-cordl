@@ -44,15 +44,15 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method HighlightDidChange, addr 0x3b844d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3b9a09c, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::TextOnlyTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x3b84408, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3b99fd0, size 0xcc, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3b84404, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3b99fcc, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__bgImage() const;
@@ -79,13 +79,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b844d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9a0a0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x3b843bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3b99f84, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x3b843e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3b99fa8, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -115,7 +115,7 @@ public:
   ::UnityW<::HMUI::ImageView> ____highlightImage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4751 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

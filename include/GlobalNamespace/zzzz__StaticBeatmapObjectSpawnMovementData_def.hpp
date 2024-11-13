@@ -27,13 +27,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE StaticBeatmapObjectSpawnMovementData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get2DNoteOffset, addr 0x2213ba0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Get2DNoteOffset, addr 0x221c654, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, int32_t noteLinesCount, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method LineYPosForLineLayer, addr 0x2213e90, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LineYPosForLineLayer, addr 0x221c944, size 0x24, virtual false, abstract: false, final false
   static inline float_t LineYPosForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
 
-  /// @brief Method get_layerHeight, addr 0x2213eb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_layerHeight, addr 0x221c968, size 0xc, virtual false, abstract: false, final false
   static inline float_t get_layerHeight();
 
 protected:
@@ -51,7 +51,7 @@ public:
   StaticBeatmapObjectSpawnMovementData(StaticBeatmapObjectSpawnMovementData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17052 };
 
   /// @brief Field kBaseLinesYPos offset 0xffffffff size 0x4
   static constexpr float_t kBaseLinesYPos{ 0.25 };

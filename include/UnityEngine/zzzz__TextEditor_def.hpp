@@ -74,7 +74,7 @@ public:
   static ::UnityEngine::__TextEditor__DblClickSnapping const WORDS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16622 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -243,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set_style(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x486d198, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48818b0, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -309,7 +309,7 @@ public:
   int32_t ___m_iAltCursorPos;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16623 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

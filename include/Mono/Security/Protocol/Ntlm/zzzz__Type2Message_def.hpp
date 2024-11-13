@@ -37,13 +37,13 @@ public:
   /// @brief Field _targetName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__targetName, put = __cordl_internal_set__targetName)) ::StringW _targetName;
 
-  /// @brief Method Decode, addr 0x3bcf180, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x3be3810, size 0x180, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method Finalize, addr 0x3bcf0d0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3be3760, size 0xa8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetBytes, addr 0x3bcf300, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3be3990, size 0xb8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   static inline ::Mono::Security::Protocol::Ntlm::Type2Message* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set__targetName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3bcf02c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be36bc, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method get_Nonce, addr 0x3bce108, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x3be2798, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Nonce();
 
-  /// @brief Method get_TargetInfo, addr 0x3bce090, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_TargetInfo, addr 0x3be2720, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_TargetInfo();
 
-  /// @brief Method get_TargetName, addr 0x3bcf178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetName, addr 0x3be3808, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetName();
 
 protected:
@@ -102,7 +102,7 @@ public:
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____targetInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15906 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

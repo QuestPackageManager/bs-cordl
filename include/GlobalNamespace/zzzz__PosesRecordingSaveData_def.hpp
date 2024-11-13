@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_rotZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x3aa9708, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abd2a4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW);
 
 protected:
@@ -147,7 +147,7 @@ public:
   float_t ___rotW;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -200,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x3aa976c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abd308, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*, ::Array<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*>*> poses, float_t time);
 
 protected:
@@ -224,7 +224,7 @@ public:
   float_t ___time;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5081 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -292,7 +292,7 @@ public:
 
   constexpr void __cordl_internal_set_nearOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3aa97a4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abd340, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
 protected:
@@ -325,7 +325,7 @@ public:
   float_t ___nearOffset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -395,7 +395,7 @@ public:
 
   constexpr void __cordl_internal_set_objectIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x3aa96cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abd268, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds,
                     ::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*, ::Array<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*>*> keyframes,
                     ::GlobalNamespace::__PosesRecordingSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration);
@@ -424,7 +424,7 @@ public:
   ::GlobalNamespace::__PosesRecordingSaveData__ExternalCameraCalibrationSaveData* ___externalCameraCalibration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5083 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

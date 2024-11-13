@@ -42,19 +42,19 @@ public:
 
   static inline ::HMUI::CurvedCanvasSettings* New_ctor();
 
-  /// @brief Method OnPopulateMesh, addr 0x3982b3c, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x39963c0, size 0x194, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
-  /// @brief Method RebuildAndSetup, addr 0x39829a8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method RebuildAndSetup, addr 0x399622c, size 0xf0, virtual false, abstract: false, final false
   static inline void RebuildAndSetup(::UnityEngine::Transform* t);
 
-  /// @brief Method SetRadius, addr 0x3982990, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetRadius, addr 0x3996214, size 0x18, virtual false, abstract: false, final false
   inline void SetRadius(float_t value);
 
-  /// @brief Method Start, addr 0x3982a98, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x399631c, size 0xa4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TransformPointFromCanvasTo3D, addr 0x3982cd0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method TransformPointFromCanvasTo3D, addr 0x3996554, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 TransformPointFromCanvasTo3D(::UnityEngine::Vector2 point);
 
   constexpr float_t const& __cordl_internal_get__radius() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__useFlatInEditMode(bool value);
 
-  /// @brief Method .ctor, addr 0x3982d10, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3996594, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_radius, addr 0x3982988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x399620c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_radius();
 
 protected:
@@ -96,7 +96,7 @@ public:
   bool ____useFlatInEditMode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15992 };
 
   /// @brief Field kMaxElementWidth offset 0xffffffff size 0x4
   static constexpr float_t kMaxElementWidth{ 10.0 };

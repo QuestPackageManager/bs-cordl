@@ -106,7 +106,7 @@ public:
   __BasePopupField_2__PopupTextElement(__BasePopupField_2__PopupTextElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5470 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -159,7 +159,7 @@ public:
   __BasePopupField_2____c(__BasePopupField_2____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5476 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -350,7 +350,7 @@ public:
   ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* ___createMenuCallback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5477 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

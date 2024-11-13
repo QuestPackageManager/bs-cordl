@@ -41,16 +41,16 @@ public:
 
   constexpr void __cordl_internal_set__Document_k__BackingField(::System::Linq::Expressions::SymbolDocumentInfo* value);
 
-  /// @brief Method get_Document, addr 0x40380a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x404c7bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::SymbolDocumentInfo* get_Document();
 
-  /// @brief Method get_EndLine, addr 0x403807c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_EndLine, addr 0x404c794, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_EndLine();
 
-  /// @brief Method get_IsClear, addr 0x40380ac, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_IsClear, addr 0x404c7c4, size 0x28, virtual true, abstract: false, final false
   inline bool get_IsClear();
 
-  /// @brief Method get_StartLine, addr 0x4038054, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_StartLine, addr 0x404c76c, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_StartLine();
 
 protected:
@@ -71,7 +71,7 @@ public:
   ::System::Linq::Expressions::SymbolDocumentInfo* ____Document_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13629 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

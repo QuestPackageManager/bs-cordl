@@ -101,7 +101,7 @@ public:
   TValue ___secondValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7036 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -149,7 +149,7 @@ public:
   ::System::Collections::Generic::IEqualityComparer_1<TValue>* ___comparer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7037 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -213,7 +213,7 @@ public:
   ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>* ___CS$__8__locals1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7038 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -399,7 +399,7 @@ public:
   ArrayHelpers(ArrayHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7034 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7039 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

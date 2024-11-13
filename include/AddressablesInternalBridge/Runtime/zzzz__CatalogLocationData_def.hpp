@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set__LocatorId_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4465af8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447a210, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW locatorId, ::StringW localHash, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* resourceLocation);
 
-  /// @brief Method get_CatalogLocation, addr 0x4466154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CatalogLocation, addr 0x447a86c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_CatalogLocation();
 
-  /// @brief Method get_LocalHash, addr 0x446614c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalHash, addr 0x447a864, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalHash();
 
-  /// @brief Method get_LocatorId, addr 0x4466144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocatorId, addr 0x447a85c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocatorId();
 
 protected:
@@ -96,7 +96,7 @@ public:
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ____CatalogLocation_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

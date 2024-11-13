@@ -57,12 +57,12 @@ public:
 
   __declspec(property(get = get_materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* materialPropertyBlock;
 
-  /// @brief Method Awake, addr 0x3b24234, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b39674, size 0xe8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::Spectrogram* New_ctor();
 
-  /// @brief Method Update, addr 0x3b2431c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b3975c, size 0x1a8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -89,14 +89,14 @@ public:
 
   constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value);
 
-  /// @brief Method .ctor, addr 0x3b244c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b39904, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
   static inline int32_t getStaticF__spectrogramDataID();
 
-  /// @brief Method get_materialPropertyBlock, addr 0x3b24180, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlock, addr 0x3b395c0, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
@@ -130,7 +130,7 @@ public:
   ::UnityW<::GlobalNamespace::BasicSpectrogramData> ____spectrogramData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4359 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

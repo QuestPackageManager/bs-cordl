@@ -61,7 +61,7 @@ template <typename T1, typename T2> constexpr T1 const& System::Tuple_2<T1, T2>:
 }
 template <typename T1, typename T2> constexpr void System::Tuple_2<T1, T2>::__cordl_internal_set_m_Item1(T1 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Item1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Item1, value);
 }
 template <typename T1, typename T2> constexpr T2& System::Tuple_2<T1, T2>::__cordl_internal_get_m_Item2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -73,7 +73,7 @@ template <typename T1, typename T2> constexpr T2 const& System::Tuple_2<T1, T2>:
 }
 template <typename T1, typename T2> constexpr void System::Tuple_2<T1, T2>::__cordl_internal_set_m_Item2(T2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Item2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Item2, value);
 }
 template <typename T1, typename T2> inline T1 System::Tuple_2<T1, T2>::get_Item1() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Tuple_2<T1, T2>*>::get(), "get_Item1",

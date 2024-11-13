@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_reason(::GlobalNamespace::ConnectionFailedReason value);
 
-  /// @brief Method .ctor, addr 0x2281dd8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228ce28, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method .ctor, addr 0x2281e44, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228ce94, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message);
 
 protected:
@@ -61,7 +61,7 @@ public:
   ::GlobalNamespace::ConnectionFailedReason ___reason;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14669 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14676 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

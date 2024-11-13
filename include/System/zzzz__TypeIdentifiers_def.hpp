@@ -56,7 +56,7 @@ public:
   /// @brief Convert operator to "::System::TypeName"
   constexpr operator ::System::TypeName*() noexcept;
 
-  /// @brief Method GetInternalName, addr 0x3dcd064, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetInternalName, addr 0x3de16f4, size 0xc, virtual false, abstract: false, final false
   inline ::StringW GetInternalName();
 
   static inline ::System::__TypeIdentifiers__Display* New_ctor(::StringW displayName);
@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set_internal_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3dcd02c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de16bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName);
 
-  /// @brief Method get_DisplayName, addr 0x3dcd034, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x3de16c4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_InternalName, addr 0x3dcd03c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_InternalName, addr 0x3de16cc, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_InternalName();
 
   /// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
@@ -134,7 +134,7 @@ public:
   // Declarations
   using Display = ::System::__TypeIdentifiers__Display;
 
-  /// @brief Method FromDisplay, addr 0x3dccfe0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method FromDisplay, addr 0x3de1670, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::TypeIdentifier* FromDisplay(::StringW displayName);
 
 protected:

@@ -27,7 +27,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::_
 }
 template <typename TContract> constexpr void Zenject::__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract>::__cordl_internal_set_concreteType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___concreteType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___concreteType, value);
 }
 template <typename TContract> inline ::Zenject::__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract>* Zenject::__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract>*>());

@@ -30,13 +30,13 @@ public:
   // Declarations
   static inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method RunAsync, addr 0x4a7fa1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RunAsync, addr 0x4a94134, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::SignalTickPriorityCopyBinder* RunAsync();
 
-  /// @brief Method RunSync, addr 0x4a7fa3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RunSync, addr 0x4a94154, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* RunSync();
 
-  /// @brief Method .ctor, addr 0x4a7f9d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a940ec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
 protected:
@@ -54,7 +54,7 @@ public:
   DeclareSignalAsyncTickPriorityCopyBinder(DeclareSignalAsyncTickPriorityCopyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11954 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

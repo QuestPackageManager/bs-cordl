@@ -28,25 +28,25 @@ namespace System::Threading {
 class CORDL_TYPE NativeEventCalls : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloseEvent_internal, addr 0x3de6840, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloseEvent_internal, addr 0x3dfaed0, size 0x4, virtual false, abstract: false, final false
   static inline void CloseEvent_internal(::System::IntPtr handle);
 
-  /// @brief Method CreateEvent_icall, addr 0x3de664c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent_icall, addr 0x3dfacdc, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateEvent_icall(bool manual, bool initial, ::cordl_internals::Ptr<char16_t> name, int32_t name_length, ByRef<int32_t> errorCode);
 
-  /// @brief Method CreateEvent_internal, addr 0x3de65f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent_internal, addr 0x3dfac88, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateEvent_internal(bool manual, bool initial, ::StringW name, ByRef<int32_t> errorCode);
 
-  /// @brief Method ResetEvent, addr 0x3de674c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ResetEvent, addr 0x3dfaddc, size 0xf0, virtual false, abstract: false, final false
   static inline bool ResetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
 
-  /// @brief Method ResetEvent_internal, addr 0x3de683c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ResetEvent_internal, addr 0x3dfaecc, size 0x4, virtual false, abstract: false, final false
   static inline bool ResetEvent_internal(::System::IntPtr handle);
 
-  /// @brief Method SetEvent, addr 0x3de6658, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetEvent, addr 0x3dface8, size 0xf0, virtual false, abstract: false, final false
   static inline bool SetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
 
-  /// @brief Method SetEvent_internal, addr 0x3de6748, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetEvent_internal, addr 0x3dfadd8, size 0x4, virtual false, abstract: false, final false
   static inline bool SetEvent_internal(::System::IntPtr handle);
 
 protected:

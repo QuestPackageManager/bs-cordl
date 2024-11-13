@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__positiveBadges(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* value);
 
-  /// @brief Method .ctor, addr 0x2697864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a3484, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_negativeBadges, addr 0x269785c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_negativeBadges, addr 0x26a347c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* get_negativeBadges();
 
-  /// @brief Method get_positiveBadges, addr 0x2697854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positiveBadges, addr 0x26a3474, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* get_positiveBadges();
 
 protected:
@@ -84,7 +84,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* ____negativeBadges;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13034 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13043 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

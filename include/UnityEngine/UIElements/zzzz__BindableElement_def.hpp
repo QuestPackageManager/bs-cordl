@@ -56,7 +56,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__BindableElement__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48f5b40, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x490a258, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   __BindableElement__UxmlFactory(__BindableElement__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -93,7 +93,7 @@ public:
   /// @brief Field m_PropertyPath, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PropertyPath, put = __cordl_internal_set_m_PropertyPath)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_PropertyPath;
 
-  /// @brief Method Init, addr 0x48f5c10, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x490a328, size 0x158, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__BindableElement__UxmlTraits* New_ctor();
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PropertyPath(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x48f5b88, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x490a2a0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,7 +125,7 @@ public:
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_PropertyPath;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5430 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -174,16 +174,16 @@ public:
 
   constexpr void __cordl_internal_set__binding_k__BackingField(::UnityEngine::UIElements::IBinding* value);
 
-  /// @brief Method .ctor, addr 0x48f5ae8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x490a200, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_binding, addr 0x48f5ad8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_binding, addr 0x490a1f0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IBinding* get_binding();
 
   /// @brief Convert to "::UnityEngine::UIElements::IBindable"
   constexpr ::UnityEngine::UIElements::IBindable* i___UnityEngine__UIElements__IBindable() noexcept;
 
-  /// @brief Method set_bindingPath, addr 0x48f5ae0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_bindingPath, addr 0x490a1f8, size 0x8, virtual true, abstract: false, final true
   inline void set_bindingPath(::StringW value);
 
 protected:
@@ -207,7 +207,7 @@ public:
   ::StringW ____bindingPath_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

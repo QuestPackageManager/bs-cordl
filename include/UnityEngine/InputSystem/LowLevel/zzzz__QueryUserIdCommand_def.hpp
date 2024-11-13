@@ -54,7 +54,7 @@ public:
   uint8_t _cordl_size_padding[0x1ff];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6864 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
@@ -90,10 +90,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x4591214, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45a592c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand Create();
 
-  /// @brief Method ReadId, addr 0x45911d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReadId, addr 0x45a58ec, size 0x10, virtual false, abstract: false, final false
   inline ::StringW ReadId();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -108,10 +108,10 @@ public:
 
   constexpr void __cordl_internal_set_idBuffer(::UnityEngine::InputSystem::LowLevel::__QueryUserIdCommand___idBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x45911a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x45a58bc, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x45911e4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x45a58fc, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -161,7 +161,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6865 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x208 };

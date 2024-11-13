@@ -39,7 +39,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2229f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2232a4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t songTime, float_t yOffset);
 
   // Ctor Parameters []
@@ -56,7 +56,7 @@ public:
   float_t yOffset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17616 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -100,10 +100,10 @@ public:
                                                                                ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*>
       _yJumpOffsetBuffer;
 
-  /// @brief Method GetJumpOffsetYAtJumpStartSongTime, addr 0x222a118, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method GetJumpOffsetYAtJumpStartSongTime, addr 0x2232bcc, size 0x314, virtual false, abstract: false, final false
   inline float_t GetJumpOffsetYAtJumpStartSongTime(float_t lastDeltaTime);
 
-  /// @brief Method ManualUpdate, addr 0x2229fa0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x2232a54, size 0x178, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource,
@@ -143,7 +143,7 @@ public:
   constexpr void __cordl_internal_set__yJumpOffsetBuffer(
       ::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*> value);
 
-  /// @brief Method .ctor, addr 0x2229e44, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22328f8, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float_t moveToPlayerHeadTParam,
                     ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData);
 
@@ -177,7 +177,7 @@ public:
   ::GlobalNamespace::IBeatmapObjectSpawnController* ____beatmapObjectSpawnController;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17617 };
 
   /// @brief Field kYJumpOffsetBufferLength offset 0xffffffff size 0x4
   static constexpr int32_t kYJumpOffsetBufferLength{ static_cast<int32_t>(0x7d0) };

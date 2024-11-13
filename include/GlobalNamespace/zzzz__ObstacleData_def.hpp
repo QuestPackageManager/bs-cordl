@@ -21,29 +21,29 @@ class ObstacleData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ObstacleData);
 // Type: ::ObstacleData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ObstacleData*
 class CORDL_TYPE ObstacleData : public ::GlobalNamespace::BeatmapObjectData {
 public:
   // Declarations
-  /// @brief Field <duration>k__BackingField, offset 0x30, size 0x4
+  /// @brief Field <duration>k__BackingField, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__duration_k__BackingField, put = __cordl_internal_set__duration_k__BackingField)) float_t _duration_k__BackingField;
 
-  /// @brief Field <endBeat>k__BackingField, offset 0x24, size 0x4
+  /// @brief Field <endBeat>k__BackingField, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__endBeat_k__BackingField, put = __cordl_internal_set__endBeat_k__BackingField)) float_t _endBeat_k__BackingField;
 
-  /// @brief Field <height>k__BackingField, offset 0x38, size 0x4
+  /// @brief Field <height>k__BackingField, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__height_k__BackingField, put = __cordl_internal_set__height_k__BackingField)) int32_t _height_k__BackingField;
 
-  /// @brief Field <lineIndex>k__BackingField, offset 0x28, size 0x4
+  /// @brief Field <lineIndex>k__BackingField, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__lineIndex_k__BackingField, put = __cordl_internal_set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
 
-  /// @brief Field <lineLayer>k__BackingField, offset 0x2c, size 0x4
+  /// @brief Field <lineLayer>k__BackingField, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__lineLayer_k__BackingField, put = __cordl_internal_set__lineLayer_k__BackingField)) ::GlobalNamespace::NoteLineLayer _lineLayer_k__BackingField;
 
-  /// @brief Field <width>k__BackingField, offset 0x34, size 0x4
+  /// @brief Field <width>k__BackingField, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__width_k__BackingField, put = __cordl_internal_set__width_k__BackingField)) int32_t _width_k__BackingField;
 
   __declspec(property(get = get_duration, put = set_duration)) float_t duration;
@@ -58,16 +58,16 @@ public:
 
   __declspec(property(get = get_width, put = set_width)) int32_t width;
 
-  /// @brief Method GetCopy, addr 0x2210298, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x2218c9c, size 0xb8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method Mirror, addr 0x2210338, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Mirror, addr 0x2218d54, size 0x24, virtual true, abstract: false, final false
   inline void Mirror(int32_t lineCount);
 
-  static inline ::GlobalNamespace::ObstacleData* New_ctor(float_t time, float_t startBeat, float_t endBeat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration,
-                                                          int32_t width, int32_t height);
+  static inline ::GlobalNamespace::ObstacleData* New_ctor(float_t time, float_t startBeat, float_t endBeat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer,
+                                                          float_t duration, int32_t width, int32_t height);
 
-  /// @brief Method UpdateDuration, addr 0x2210290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateDuration, addr 0x2218c94, size 0x8, virtual false, abstract: false, final false
   inline void UpdateDuration(float_t duration);
 
   constexpr float_t const& __cordl_internal_get__duration_k__BackingField() const;
@@ -106,43 +106,43 @@ public:
 
   constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2210214, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(float_t time, float_t startBeat, float_t endBeat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height);
+  /// @brief Method .ctor, addr 0x2218c04, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(float_t time, float_t startBeat, float_t endBeat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height);
 
-  /// @brief Method get_duration, addr 0x22101e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x2218bd4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_endBeat, addr 0x22101b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_endBeat, addr 0x2218ba4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_endBeat();
 
-  /// @brief Method get_height, addr 0x2210204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x2218bf4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_lineIndex, addr 0x22101c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x2218bb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer, addr 0x22101d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0x2218bc4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_width, addr 0x22101f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x2218be4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method set_duration, addr 0x22101ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x2218bdc, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_endBeat, addr 0x22101bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_endBeat, addr 0x2218bac, size 0x8, virtual false, abstract: false, final false
   inline void set_endBeat(float_t value);
 
-  /// @brief Method set_height, addr 0x221020c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x2218bfc, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method set_lineIndex, addr 0x22101cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineIndex, addr 0x2218bbc, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method set_lineLayer, addr 0x22101dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineLayer, addr 0x2218bcc, size 0x8, virtual false, abstract: false, final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method set_width, addr 0x22101fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x2218bec, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
 protected:
@@ -159,43 +159,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObstacleData(ObstacleData const&) = delete;
 
-  /// @brief Field <endBeat>k__BackingField, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field <endBeat>k__BackingField, offset: 0x28, size: 0x4, def value: None
   float_t ____endBeat_k__BackingField;
 
-  /// @brief Field <lineIndex>k__BackingField, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field <lineIndex>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____lineIndex_k__BackingField;
 
-  /// @brief Field <lineLayer>k__BackingField, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field <lineLayer>k__BackingField, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::NoteLineLayer ____lineLayer_k__BackingField;
 
-  /// @brief Field <duration>k__BackingField, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field <duration>k__BackingField, offset: 0x34, size: 0x4, def value: None
   float_t ____duration_k__BackingField;
 
-  /// @brief Field <width>k__BackingField, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field <width>k__BackingField, offset: 0x38, size: 0x4, def value: None
   int32_t ____width_k__BackingField;
 
-  /// @brief Field <height>k__BackingField, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field <height>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   int32_t ____height_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17034 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleData, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleData, ____endBeat_k__BackingField) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleData, ____endBeat_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleData, ____lineIndex_k__BackingField) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleData, ____lineIndex_k__BackingField) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleData, ____lineLayer_k__BackingField) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleData, ____lineLayer_k__BackingField) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleData, ____duration_k__BackingField) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleData, ____duration_k__BackingField) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleData, ____width_k__BackingField) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleData, ____width_k__BackingField) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleData, ____height_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleData, ____height_k__BackingField) == 0x3c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObstacleData);

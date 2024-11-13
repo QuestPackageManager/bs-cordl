@@ -80,7 +80,7 @@ public:
   int32_t ___indentation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18941 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -135,7 +135,7 @@ public:
   JsonFileHandler(JsonFileHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18942 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

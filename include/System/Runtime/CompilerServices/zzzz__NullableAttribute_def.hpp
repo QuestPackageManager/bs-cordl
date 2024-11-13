@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_NullableFlags(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x225edbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266c8d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method .ctor, addr 0x225ed3c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266c850, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
 protected:
@@ -58,7 +58,7 @@ public:
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___NullableFlags;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16855 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12708 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

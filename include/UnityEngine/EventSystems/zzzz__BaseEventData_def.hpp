@@ -43,16 +43,16 @@ public:
 
   constexpr void __cordl_internal_set_m_EventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
 
-  /// @brief Method .ctor, addr 0x4a5b7c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a6fedc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_currentInputModule, addr 0x4a5b810, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_currentInputModule, addr 0x4a6ff28, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseInputModule> get_currentInputModule();
 
-  /// @brief Method get_selectedObject, addr 0x4a5b82c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedObject, addr 0x4a6ff44, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_selectedObject();
 
-  /// @brief Method set_selectedObject, addr 0x4a5b848, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_selectedObject, addr 0x4a6ff60, size 0x1c, virtual false, abstract: false, final false
   inline void set_selectedObject(::UnityEngine::GameObject* value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   ::UnityW<::UnityEngine::EventSystems::EventSystem> ___m_EventSystem;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15140 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

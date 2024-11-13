@@ -26,7 +26,7 @@ GlobalNamespace::SyncBackgroundCommand_1<T>::__cordl_internal_get__taskCompletio
 }
 template <typename T> constexpr void GlobalNamespace::SyncBackgroundCommand_1<T>::__cordl_internal_set__taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____taskCompletionSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____taskCompletionSource, value);
 }
 template <typename T> inline ::System::Threading::Tasks::Task_1<T>* GlobalNamespace::SyncBackgroundCommand_1<T>::get_resultTask() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SyncBackgroundCommand_1<T>*>::get(),

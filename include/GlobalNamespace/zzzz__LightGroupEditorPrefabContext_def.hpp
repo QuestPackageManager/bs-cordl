@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_lightGroups(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3976fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398a840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* ___lightGroups;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16254 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

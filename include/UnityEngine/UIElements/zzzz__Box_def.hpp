@@ -30,7 +30,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Box__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4912028, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4926740, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   __Box__UxmlFactory(__Box__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5500 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -71,7 +71,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Box* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4911f34, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492664c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
@@ -93,7 +93,7 @@ public:
   Box(Box const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5501 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

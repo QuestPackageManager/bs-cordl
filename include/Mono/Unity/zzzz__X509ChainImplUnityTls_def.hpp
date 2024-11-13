@@ -70,18 +70,18 @@ public:
   /// @brief Field reverseOrder, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_reverseOrder, put = __cordl_internal_set_reverseOrder)) bool reverseOrder;
 
-  /// @brief Method AddStatus, addr 0x4099044, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method AddStatus, addr 0x40ad75c, size 0x104, virtual true, abstract: false, final false
   inline void AddStatus(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags error);
 
-  /// @brief Method Build, addr 0x40991cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0x40ad8e4, size 0x8, virtual true, abstract: false, final false
   inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Dispose, addr 0x4099214, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x40ad92c, size 0x38, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::Mono::Unity::X509ChainImplUnityTls* New_ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
-  /// @brief Method Reset, addr 0x40991d4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x40ad8ec, size 0x40, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*& __cordl_internal_get_chainStatusList();
@@ -115,22 +115,22 @@ public:
 
   constexpr void __cordl_internal_set_reverseOrder(bool value);
 
-  /// @brief Method .ctor, addr 0x4097768, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40abe80, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Unity::__UnityTls__unitytls_x509list_ref nativeCertificateChain, bool reverseOrder);
 
-  /// @brief Method get_ChainElements, addr 0x4098d74, size 0x2d0, virtual true, abstract: false, final false
+  /// @brief Method get_ChainElements, addr 0x40ad48c, size 0x2d0, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
 
-  /// @brief Method get_ChainPolicy, addr 0x4099148, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ChainPolicy, addr 0x40ad860, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
 
-  /// @brief Method get_ChainStatus, addr 0x4099150, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_ChainStatus, addr 0x40ad868, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> get_ChainStatus();
 
-  /// @brief Method get_IsValid, addr 0x4098d44, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x40ad45c, size 0x28, virtual true, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method get_NativeCertificateChain, addr 0x4098d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeCertificateChain, addr 0x40ad484, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509list_ref get_NativeCertificateChain();
 
 protected:
@@ -163,7 +163,7 @@ public:
   bool ___reverseOrder;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9104 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

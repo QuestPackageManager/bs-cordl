@@ -73,7 +73,7 @@ public:
   static ::HMUI::__SwitchView__AnimationType const SelectedState;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16068 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -127,24 +127,24 @@ public:
   /// @brief Field _toggle, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle)) ::UnityW<::HMUI::ToggleWithCallbacks> _toggle;
 
-  /// @brief Method Awake, addr 0x3993dc8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39a7720, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleOnValueChanged, addr 0x39942b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleOnValueChanged, addr 0x39a7c0c, size 0x4, virtual false, abstract: false, final false
   inline void HandleOnValueChanged(bool value);
 
-  /// @brief Method HandleStateDidChange, addr 0x39942b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleStateDidChange, addr 0x39a7c10, size 0x4, virtual false, abstract: false, final false
   inline void HandleStateDidChange(::HMUI::__ToggleWithCallbacks__SelectionState value);
 
   static inline ::HMUI::SwitchView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39940fc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39a7a54, size 0x104, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x3993fd8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x39a7930, size 0x124, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method Start, addr 0x3993e18, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39a7770, size 0x10c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::HMUI::__SwitchView__AnimationType const& __cordl_internal_get__animationType() const;
@@ -207,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::HMUI::ToggleWithCallbacks> value);
 
-  /// @brief Method .ctor, addr 0x3994310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39a7c68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -255,7 +255,7 @@ public:
   ::UnityW<::HMUI::ToggleWithCallbacks> ____toggle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16069 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

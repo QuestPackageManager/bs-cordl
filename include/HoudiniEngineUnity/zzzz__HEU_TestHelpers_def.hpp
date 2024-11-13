@@ -70,7 +70,7 @@ public:
   __HEU_TestHelpers__RequireStruct_1(__HEU_TestHelpers__RequireStruct_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11834 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -106,7 +106,7 @@ public:
   __HEU_TestHelpers__RequireClass_1(__HEU_TestHelpers__RequireClass_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11835 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -136,7 +136,7 @@ public:
                                              ::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*, ::Array<::HoudiniEngineUnity::IEquivable_1<T>*>*> b, ByRef<bool> result, ::StringW header,
                                              ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
-  /// @brief Method AssertTrueLogEquivalent, addr 0x3a2c048, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AssertTrueLogEquivalent, addr 0x3a3f9a0, size 0x140, virtual false, abstract: false, final false
   static inline bool AssertTrueLogEquivalent(::ArrayW<::StringW, ::Array<::StringW>*> a, ::ArrayW<::StringW, ::Array<::StringW>*> b, ByRef<bool> result, ::StringW header, ::StringW subject,
                                              ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
@@ -155,7 +155,7 @@ public:
   static inline bool AssertTrueLogEquivalent(::HoudiniEngineUnity::IEquivable_1<T>* a, ::HoudiniEngineUnity::IEquivable_1<T>* b, ByRef<bool> result, ::StringW header, ::StringW subject,
                                              ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
-  /// @brief Method AssertTrueLogEquivalent, addr 0x3a2bf58, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AssertTrueLogEquivalent, addr 0x3a3f8b0, size 0x9c, virtual false, abstract: false, final false
   static inline bool AssertTrueLogEquivalent(::StringW a, ::StringW b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
   /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -180,7 +180,7 @@ public:
   static inline bool AssertTrueLogEquivalent(::System::Collections::Generic::List_1<T>* a, ::System::Collections::Generic::List_1<T>* b, ByRef<bool> result, ::StringW header, ::StringW subject,
                                              ::StringW optional1, ::StringW optional2, ::StringW optional3, ::HoudiniEngineUnity::__HEU_TestHelpers__RequireStruct_1<T>* _);
 
-  /// @brief Method AssertTrueLogEquivalent, addr 0x3a2b374, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AssertTrueLogEquivalent, addr 0x3a3eccc, size 0x114, virtual false, abstract: false, final false
   static inline bool AssertTrueLogEquivalent(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1,
                                              ::StringW optional2, ::StringW optional3);
 
@@ -191,7 +191,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_TestHelpers* New_ctor();
 
-  /// @brief Method PrintTestLogAndSetResult, addr 0x3a2bde8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method PrintTestLogAndSetResult, addr 0x3a3f740, size 0x170, virtual false, abstract: false, final false
   static inline void PrintTestLogAndSetResult(bool expression, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
   /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -205,23 +205,23 @@ public:
   /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ShouldBeTested(::HoudiniEngineUnity::IEquivable_1<T>* a, ::HoudiniEngineUnity::IEquivable_1<T>* b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
-  /// @brief Method ShouldBeTested, addr 0x3a2bff4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ShouldBeTested, addr 0x3a3f94c, size 0x54, virtual false, abstract: false, final false
   static inline bool ShouldBeTested(::StringW a, ::StringW b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
   /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline bool ShouldBeTested(::System::Collections::Generic::List_1<T>* a, ::System::Collections::Generic::List_1<T>* b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
-  /// @brief Method ShouldBeTested, addr 0x3a2b488, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method ShouldBeTested, addr 0x3a3ede0, size 0x2bc, virtual false, abstract: false, final false
   static inline bool ShouldBeTested(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
   /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ShouldBeTested(T a, T b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
-  /// @brief Method TestOutputObjectEquivalence, addr 0x3a2b744, size 0x6a4, virtual false, abstract: false, final false
+  /// @brief Method TestOutputObjectEquivalence, addr 0x3a3f09c, size 0x6a4, virtual false, abstract: false, final false
   static inline bool TestOutputObjectEquivalence(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b);
 
-  /// @brief Method .ctor, addr 0x3a2c3b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a3fd08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -239,7 +239,7 @@ public:
   HEU_TestHelpers(HEU_TestHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

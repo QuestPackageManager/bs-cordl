@@ -22,6 +22,9 @@ CORDL_MODULE_EXPORT(DlcPromoPanelModel)
 namespace BGLib::MetaRemoteAssets {
 class MetaRemoteAssetsManager;
 }
+namespace BeatSaber::Init {
+class IPlatformInit;
+}
 namespace GlobalNamespace {
 class BeatmapLevelPack;
 }
@@ -42,9 +45,6 @@ class IAdditionalContentModel;
 }
 namespace GlobalNamespace {
 class IAnalyticsModel;
-}
-namespace GlobalNamespace {
-class IPlatformInit;
 }
 namespace GlobalNamespace {
 class PackDefinitionSO;
@@ -269,7 +269,7 @@ public:
   static ::GlobalNamespace::__DlcPromoPanelModel__PromoInfo__PromoType const Pack;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13204 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -352,10 +352,10 @@ public:
 
   constexpr void __cordl_internal_set_promoType(::GlobalNamespace::__DlcPromoPanelModel__PromoInfo__PromoType value);
 
-  /// @brief Method .ctor, addr 0x26b6194, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c1f50, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PackPromoInfoSO__LevelPromoInfo* levelPromoInfo, ::GlobalNamespace::PlayerSensitivityFlag contentRating);
 
-  /// @brief Method .ctor, addr 0x26b6134, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c1ef0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW packId, ::GlobalNamespace::PromoBannerInfoSO* promoBannerInfo, ::GlobalNamespace::PlayerSensitivityFlag contentRating);
 
 protected:
@@ -391,7 +391,7 @@ public:
   float_t ___bannerPromoTextPosition;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13205 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -433,16 +433,16 @@ public:
 
   static inline ::GlobalNamespace::__DlcPromoPanelModel____c* New_ctor();
 
-  /// @brief Method <UpdatePromoInfosAsync>b__31_0, addr 0x26b6264, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <UpdatePromoInfosAsync>b__31_0, addr 0x26c2020, size 0x28, virtual false, abstract: false, final false
   inline bool _UpdatePromoInfosAsync_b__31_0(::GlobalNamespace::PackDefinitionSO* packDefinition);
 
-  /// @brief Method <.ctor>b__24_0, addr 0x26b625c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__24_0, addr 0x26c2018, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__24_0();
 
-  /// @brief Method <.ctor>b__24_1, addr 0x26b6260, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__24_1, addr 0x26c201c, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__24_1();
 
-  /// @brief Method .ctor, addr 0x26b6254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c2010, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__DlcPromoPanelModel____c* getStaticF___9();
@@ -476,7 +476,7 @@ public:
   __DlcPromoPanelModel____c(__DlcPromoPanelModel____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13206 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -497,10 +497,10 @@ public:
 
   static inline ::GlobalNamespace::__DlcPromoPanelModel____c__DisplayClass34_0* New_ctor();
 
-  /// @brief Method <GetPackDataForMainMenuPromoBannerInternal>b__0, addr 0x26b6294, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetPackDataForMainMenuPromoBannerInternal>b__0, addr 0x26c2050, size 0x24, virtual false, abstract: false, final false
   inline bool _GetPackDataForMainMenuPromoBannerInternal_b__0(::GlobalNamespace::__DlcPromoPanelModel__PromoInfo* x);
 
-  /// @brief Method <GetPackDataForMainMenuPromoBannerInternal>b__1, addr 0x26b62b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetPackDataForMainMenuPromoBannerInternal>b__1, addr 0x26c2074, size 0x24, virtual false, abstract: false, final false
   inline bool _GetPackDataForMainMenuPromoBannerInternal_b__1(::GlobalNamespace::__DlcPromoPanelModel__PromoInfo* x);
 
   constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __cordl_internal_get_sensitivityFlag() const;
@@ -509,7 +509,7 @@ public:
 
   constexpr void __cordl_internal_set_sensitivityFlag(::GlobalNamespace::PlayerSensitivityFlag value);
 
-  /// @brief Method .ctor, addr 0x26b628c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c2048, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -530,7 +530,7 @@ public:
   ::GlobalNamespace::PlayerSensitivityFlag ___sensitivityFlag;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13207 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -551,10 +551,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b62dc, size 0x270, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c2098, size 0x270, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b654c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c2308, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -586,7 +586,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*, bool>> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13208 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -616,10 +616,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b65c8, size 0x66c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c2384, size 0x66c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b6c34, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c29f0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -654,7 +654,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13209 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -686,10 +686,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b6cb0, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c2a6c, size 0x228, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b6ed8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c2c94, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -719,7 +719,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13201 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13210 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -749,10 +749,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b6ee4, size 0x298, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c2ca0, size 0x298, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b717c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c2f38, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -781,7 +781,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13211 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -811,10 +811,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b7188, size 0x238, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c2f44, size 0x238, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b73c0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c317c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -843,7 +843,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13212 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -873,10 +873,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b73cc, size 0x668, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c3188, size 0x668, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b7a34, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c37f0, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -910,7 +910,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13213 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -942,10 +942,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b7a9c, size 0x3e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c3858, size 0x3e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b7e80, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c3c3c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -980,7 +980,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13214 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1012,10 +1012,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b7efc, size 0x384, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c3cb8, size 0x384, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b8280, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c403c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1051,7 +1051,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::DlcPromoPanelDataSO>> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13215 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1083,10 +1083,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b82e8, size 0x34c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c40a4, size 0x34c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b8634, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c43f0, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1115,7 +1115,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13216 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -1145,10 +1145,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b869c, size 0x870, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c4458, size 0x870, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b8f0c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c4cc8, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1194,7 +1194,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::EntitlementStatus, ::Array<::GlobalNamespace::EntitlementStatus>*>> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13217 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -1230,10 +1230,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b8f74, size 0x960, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c4d30, size 0x960, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b98d4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c5690, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1269,7 +1269,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::PackPromoInfoSO>, ::Array<::UnityW<::GlobalNamespace::PackPromoInfoSO>>*>> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13218 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1373,7 +1373,7 @@ public:
       _ownedMusicPackPromoInfos;
 
   /// @brief Field _platformInit, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__platformInit, put = __cordl_internal_set__platformInit)) ::GlobalNamespace::IPlatformInit* _platformInit;
+  __declspec(property(get = __cordl_internal_get__platformInit, put = __cordl_internal_set__platformInit)) ::BeatSaber::Init::IPlatformInit* _platformInit;
 
   /// @brief Field _playerDataModel, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
@@ -1397,66 +1397,66 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method BuyLevelButtonWasPressed, addr 0x26b5c20, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method BuyLevelButtonWasPressed, addr 0x26c19dc, size 0xf0, virtual false, abstract: false, final false
   inline void BuyLevelButtonWasPressed(::GlobalNamespace::BeatmapLevel* level, ::StringW page, ::StringW customText);
 
-  /// @brief Method BuyLevelButtonWasShown, addr 0x26b5d10, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method BuyLevelButtonWasShown, addr 0x26c1acc, size 0xf0, virtual false, abstract: false, final false
   inline void BuyLevelButtonWasShown(::GlobalNamespace::BeatmapLevel* level, ::StringW page, ::StringW customText);
 
-  /// @brief Method BuyPackButtonWasPressed, addr 0x26b5e00, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method BuyPackButtonWasPressed, addr 0x26c1bbc, size 0xf0, virtual false, abstract: false, final false
   inline void BuyPackButtonWasPressed(::GlobalNamespace::BeatmapLevelPack* pack, ::StringW page, ::StringW customText);
 
-  /// @brief Method BuyPackButtonWasShown, addr 0x26b5ef0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method BuyPackButtonWasShown, addr 0x26c1cac, size 0xf0, virtual false, abstract: false, final false
   inline void BuyPackButtonWasShown(::GlobalNamespace::BeatmapLevelPack* pack, ::StringW page, ::StringW customText);
 
-  /// @brief Method GetExperimentEventData, addr 0x26b5a0c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetExperimentEventData, addr 0x26c17c8, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetExperimentEventData(::StringW itemId, ::StringW page, ::StringW customText);
 
-  /// @brief Method GetPackDataForMainMenuPromoBanner, addr 0x26b5724, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetPackDataForMainMenuPromoBanner, addr 0x26c14e0, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*, bool>>* GetPackDataForMainMenuPromoBanner();
 
-  /// @brief Method GetPackDataForMainMenuPromoBannerInternal, addr 0x26b5808, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetPackDataForMainMenuPromoBannerInternal, addr 0x26c15c4, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*, bool>>* GetPackDataForMainMenuPromoBannerInternal();
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x26b60a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x26c1e60, size 0x90, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
-  /// @brief Method HandleDidCatalogLoadOrUpdate, addr 0x26b5420, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleDidCatalogLoadOrUpdate, addr 0x26c11dc, size 0x90, virtual false, abstract: false, final false
   inline void HandleDidCatalogLoadOrUpdate();
 
-  /// @brief Method Initialize, addr 0x26b51e8, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x26c0fa4, size 0x90, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeAsync, addr 0x26b5278, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x26c1034, size 0x24, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
-  /// @brief Method InitializeInternalAsync, addr 0x26b529c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternalAsync, addr 0x26c1058, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeInternalAsync();
 
-  /// @brief Method LoadPackPromoInfoAsync, addr 0x26b5638, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method LoadPackPromoInfoAsync, addr 0x26c13f4, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>* LoadPackPromoInfoAsync(::GlobalNamespace::PackDefinitionSO* pack);
 
-  /// @brief Method MainMenuDlcPromoBannerWasPressed, addr 0x26b5b24, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method MainMenuDlcPromoBannerWasPressed, addr 0x26c18e0, size 0xfc, virtual false, abstract: false, final false
   inline void MainMenuDlcPromoBannerWasPressed(::StringW packId, ::StringW customText);
 
-  /// @brief Method MainMenuDlcPromoBannerWasShown, addr 0x26b58f0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method MainMenuDlcPromoBannerWasShown, addr 0x26c16ac, size 0x11c, virtual false, abstract: false, final false
   inline void MainMenuDlcPromoBannerWasShown(::StringW packId, ::StringW customText);
 
   static inline ::GlobalNamespace::DlcPromoPanelModel* New_ctor(::GlobalNamespace::IAdditionalContentModel* additionalContentModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
                                                                 ::GlobalNamespace::IAnalyticsModel* analyticsModel, ::GlobalNamespace::DlcPromoPanelDataSO* defaultDlcPromoPanelData,
-                                                                ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IPlatformInit* platformInit,
+                                                                ::GlobalNamespace::PlayerDataModel* playerDataModel, ::BeatSaber::Init::IPlatformInit* platformInit,
                                                                 ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* metaRemoteAssetsManager);
 
-  /// @brief Method UpdateDlcPromoPanelDataAsync, addr 0x26b54b0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method UpdateDlcPromoPanelDataAsync, addr 0x26c126c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateDlcPromoPanelDataAsync();
 
-  /// @brief Method UpdateModelDataAsync, addr 0x26b5360, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method UpdateModelDataAsync, addr 0x26c111c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateModelDataAsync();
 
-  /// @brief Method UpdateOwnedPacksAsync, addr 0x26b5fe0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method UpdateOwnedPacksAsync, addr 0x26c1d9c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateOwnedPacksAsync();
 
-  /// @brief Method UpdatePromoInfosAsync, addr 0x26b5574, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method UpdatePromoInfosAsync, addr 0x26c1330, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdatePromoInfosAsync();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
@@ -1512,9 +1512,9 @@ public:
 
   constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>*>& __cordl_internal_get__ownedMusicPackPromoInfos();
 
-  constexpr ::GlobalNamespace::IPlatformInit*& __cordl_internal_get__platformInit();
+  constexpr ::BeatSaber::Init::IPlatformInit*& __cordl_internal_get__platformInit();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformInit*> const& __cordl_internal_get__platformInit() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Init::IPlatformInit*> const& __cordl_internal_get__platformInit() const;
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
@@ -1565,7 +1565,7 @@ public:
 
   constexpr void __cordl_internal_set__ownedMusicPackPromoInfos(::ArrayW<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>*> value);
 
-  constexpr void __cordl_internal_set__platformInit(::GlobalNamespace::IPlatformInit* value);
+  constexpr void __cordl_internal_set__platformInit(::BeatSaber::Init::IPlatformInit* value);
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
@@ -1579,24 +1579,24 @@ public:
 
   constexpr void __cordl_internal_set_hotReloadDidStart(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x26b4f58, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c0d14, size 0x290, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAdditionalContentModel* additionalContentModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::IAnalyticsModel* analyticsModel,
-                    ::GlobalNamespace::DlcPromoPanelDataSO* defaultDlcPromoPanelData, ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IPlatformInit* platformInit,
+                    ::GlobalNamespace::DlcPromoPanelDataSO* defaultDlcPromoPanelData, ::GlobalNamespace::PlayerDataModel* playerDataModel, ::BeatSaber::Init::IPlatformInit* platformInit,
                     ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* metaRemoteAssetsManager);
 
-  /// @brief Method add_hotReloadDidFinish, addr 0x26b4e20, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_hotReloadDidFinish, addr 0x26c0bdc, size 0x9c, virtual false, abstract: false, final false
   inline void add_hotReloadDidFinish(::System::Action* value);
 
-  /// @brief Method add_hotReloadDidStart, addr 0x26b4ce8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_hotReloadDidStart, addr 0x26c0aa4, size 0x9c, virtual false, abstract: false, final false
   inline void add_hotReloadDidStart(::System::Action* value);
 
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  /// @brief Method remove_hotReloadDidFinish, addr 0x26b4ebc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_hotReloadDidFinish, addr 0x26c0c78, size 0x9c, virtual false, abstract: false, final false
   inline void remove_hotReloadDidFinish(::System::Action* value);
 
-  /// @brief Method remove_hotReloadDidStart, addr 0x26b4d84, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_hotReloadDidStart, addr 0x26c0b40, size 0x9c, virtual false, abstract: false, final false
   inline void remove_hotReloadDidStart(::System::Action* value);
 
 protected:
@@ -1629,7 +1629,7 @@ public:
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _platformInit, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::IPlatformInit* ____platformInit;
+  ::BeatSaber::Init::IPlatformInit* ____platformInit;
 
   /// @brief Field _metaRemoteAssetsManager, offset: 0x40, size: 0x8, def value: None
   ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* ____metaRemoteAssetsManager;
@@ -1671,7 +1671,7 @@ public:
   ::System::Action* ___hotReloadDidFinish;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13219 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

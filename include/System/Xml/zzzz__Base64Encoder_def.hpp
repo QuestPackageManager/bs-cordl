@@ -30,10 +30,10 @@ public:
   /// @brief Field leftOverBytesCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_leftOverBytesCount, put = __cordl_internal_set_leftOverBytesCount)) int32_t leftOverBytesCount;
 
-  /// @brief Method Encode, addr 0x41be948, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x41d3060, size 0x348, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Flush, addr 0x41bec90, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x41d33a8, size 0xa8, virtual false, abstract: false, final false
   inline void Flush();
 
   static inline ::System::Xml::Base64Encoder* New_ctor();
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_leftOverBytesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x41be8ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41d3004, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   ::ArrayW<char16_t, ::Array<char16_t>*> ___charsLine;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7124 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

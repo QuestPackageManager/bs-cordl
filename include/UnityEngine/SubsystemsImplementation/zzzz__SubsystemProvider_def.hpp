@@ -46,7 +46,7 @@ public:
   bool ___m_Running;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

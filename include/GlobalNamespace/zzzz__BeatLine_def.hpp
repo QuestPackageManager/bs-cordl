@@ -54,7 +54,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__BeatLine__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a6be64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7f810, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   __BeatLine__Pool(__BeatLine__Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4038 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -106,7 +106,7 @@ public:
   float_t halfJumpDuration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4039 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -164,16 +164,16 @@ public:
 
   __declspec(property(get = get_rotation)) float_t rotation;
 
-  /// @brief Method AddHighlight, addr 0x3a6bb80, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddHighlight, addr 0x3a7f52c, size 0xd8, virtual false, abstract: false, final false
   inline void AddHighlight(float_t startTime, float_t arriveDuration, float_t jumpDuration);
 
-  /// @brief Method ColorWasSet, addr 0x3a6bb74, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x3a7f520, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method Init, addr 0x3a6baa8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a7f454, size 0xcc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 position, float_t rotation);
 
-  /// @brief Method ManualUpdate, addr 0x3a6bc58, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3a7f604, size 0x14c, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t songTime);
 
   static inline ::GlobalNamespace::BeatLine* New_ctor();
@@ -226,13 +226,13 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x3a6bda4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7f750, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isFinished, addr 0x3a6ba50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x3a7f3fc, size 0x50, virtual false, abstract: false, final false
   inline bool get_isFinished();
 
-  /// @brief Method get_rotation, addr 0x3a6baa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x3a7f44c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:
@@ -274,7 +274,7 @@ public:
   float_t ____rotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4040 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

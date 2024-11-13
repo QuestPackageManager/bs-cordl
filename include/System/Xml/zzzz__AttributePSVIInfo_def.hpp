@@ -40,7 +40,7 @@ public:
 
   static inline ::System::Xml::AttributePSVIInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x42b7cfc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x42cc414, size 0x64, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Xml::Schema::XmlSchemaInfo*& __cordl_internal_get_attributeSchemaInfo();
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_typedAttributeValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x42b7c98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42cc3b0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   ::System::Xml::Schema::XmlSchemaInfo* ___attributeSchemaInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7253 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

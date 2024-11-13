@@ -45,7 +45,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x266b320, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x2676390, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType const& __cordl_internal_get_enabledObstaclesType() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_noBombs(bool value);
 
-  /// @brief Method .ctor, addr 0x266b21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267628c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   bool ___noBombs;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12755 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -106,11 +106,11 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0;
 
-  /// @brief Method CreateTransformedData, addr 0x266b0ec, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x267615c, size 0x130, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
                                                                                ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstaclesType, bool noBombs);
 
-  /// @brief Method ShouldUseBeatmapDataItem, addr 0x266b224, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ShouldUseBeatmapDataItem, addr 0x2676294, size 0xfc, virtual false, abstract: false, final false
   static inline bool ShouldUseBeatmapDataItem(::GlobalNamespace::BeatmapDataItem* beatmapDataItem, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstaclesType, bool noBombs);
 
 protected:
@@ -128,7 +128,7 @@ public:
   BeatmapDataObstaclesAndBombsTransform(BeatmapDataObstaclesAndBombsTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12756 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

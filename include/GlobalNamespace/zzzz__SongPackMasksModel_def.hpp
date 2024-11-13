@@ -54,12 +54,12 @@ public:
 
   __declspec(property(get = get_text)) ::StringW text;
 
-  /// @brief Method .ctor, addr 0x26a12c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26acee0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW textKey, bool isPlural);
 
   static inline ::GlobalNamespace::__SongPackMasksModel__LocalizedText getStaticF_empty();
 
-  /// @brief Method get_text, addr 0x26a1560, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x26ad180, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   static inline void setStaticF_empty(::GlobalNamespace::__SongPackMasksModel__LocalizedText value);
@@ -78,7 +78,7 @@ public:
   bool isPlural;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13078 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -101,7 +101,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __SongPackMasksModel__MaskInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x26a12d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26acef0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__SongPackMasksModel__LocalizedText localizedText, ::GlobalNamespace::SongPackMask mask);
 
   // Ctor Parameters []
@@ -119,7 +119,7 @@ public:
   ::GlobalNamespace::SongPackMask mask;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13079 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -168,21 +168,21 @@ public:
   /// @brief Field kEmptyMaskInfo, offset 0xffffffff, size 0x30
   static __declspec(property(get = getStaticF_kEmptyMaskInfo, put = setStaticF_kEmptyMaskInfo)) ::GlobalNamespace::__SongPackMasksModel__MaskInfo kEmptyMaskInfo;
 
-  /// @brief Method GetSongPackMaskText, addr 0x26a1398, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetSongPackMaskText, addr 0x26acfb8, size 0x9c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SongPackMasksModel__LocalizedText GetSongPackMaskText(::GlobalNamespace::SongPackMask songPackMask);
 
-  /// @brief Method Init, addr 0x26a0af8, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26ac718, size 0x544, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::SongPackMasksModel* New_ctor(::GlobalNamespace::SongPackMasksModelSO* songPackMasks, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method ToLocalizedName, addr 0x26a12e0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToLocalizedName, addr 0x26acf00, size 0xb8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SongPackMasksModel__LocalizedText ToLocalizedName(::StringW serializedName);
 
-  /// @brief Method ToSerializedName, addr 0x26a1434, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ToSerializedName, addr 0x26ad054, size 0x90, virtual false, abstract: false, final false
   inline ::StringW ToSerializedName(::GlobalNamespace::SongPackMask songPackMask);
 
-  /// @brief Method ToSongPackMask, addr 0x26a103c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ToSongPackMask, addr 0x26acc5c, size 0xcc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SongPackMask ToSongPackMask(::StringW serializedName);
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
@@ -217,7 +217,7 @@ public:
 
   constexpr void __cordl_internal_set_content(::UnityW<::GlobalNamespace::SongPackMasksModelSO> value);
 
-  /// @brief Method .ctor, addr 0x26a0a54, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ac674, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SongPackMasksModelSO* songPackMasks, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
   static inline ::GlobalNamespace::__SongPackMasksModel__MaskInfo getStaticF_kEmptyMaskInfo();
@@ -254,7 +254,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SongPackMask, ::StringW>* ____songPackMaskToSerializedNameDict;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

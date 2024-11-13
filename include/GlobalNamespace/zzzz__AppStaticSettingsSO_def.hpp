@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_requirePrivacyPolicy(bool value);
 
-  /// @brief Method .ctor, addr 0x266a3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267548c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   bool ___enableCustomLevels;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12750 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

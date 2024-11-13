@@ -35,10 +35,10 @@ public:
 
   static inline ::System::Xml::ByteStack* New_ctor(int32_t growthRate);
 
-  /// @brief Method Pop, addr 0x41caeec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x41df604, size 0x48, virtual false, abstract: false, final false
   inline uint8_t Pop();
 
-  /// @brief Method Push, addr 0x41cae1c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x41df534, size 0xd0, virtual false, abstract: false, final false
   inline void Push(uint8_t data);
 
   constexpr int32_t const& __cordl_internal_get_growthRate() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_top(int32_t value);
 
-  /// @brief Method .ctor, addr 0x41cadac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41df4c4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t growthRate);
 
 protected:
@@ -95,7 +95,7 @@ public:
   int32_t ___size;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7138 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7143 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

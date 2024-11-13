@@ -40,19 +40,19 @@ public:
 
   __declspec(property(get = get_isValid)) bool isValid;
 
-  /// @brief Method Clear, addr 0x4a678e4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4a7bffc, size 0xa8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ToString, addr 0x4a5c76c, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a70e84, size 0x430, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_gameObject, addr 0x4a6783c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x4a7bf54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_isValid, addr 0x4a6784c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x4a7bf64, size 0x98, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method set_gameObject, addr 0x4a67844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameObject, addr 0x4a7bf5c, size 0x8, virtual false, abstract: false, final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
   // Ctor Parameters []
@@ -110,7 +110,7 @@ public:
   int32_t displayIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15188 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

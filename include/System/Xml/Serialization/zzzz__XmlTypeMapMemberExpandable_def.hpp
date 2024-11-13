@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__flatArrayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4318fdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432d6f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FlatArrayIndex, addr 0x4318fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FlatArrayIndex, addr 0x432d6e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FlatArrayIndex();
 
-  /// @brief Method set_FlatArrayIndex, addr 0x4318fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FlatArrayIndex, addr 0x432d6ec, size 0x8, virtual false, abstract: false, final false
   inline void set_FlatArrayIndex(int32_t value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   int32_t ____flatArrayIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7432 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

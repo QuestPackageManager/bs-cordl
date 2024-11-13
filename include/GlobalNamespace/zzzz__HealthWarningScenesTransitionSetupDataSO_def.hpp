@@ -22,12 +22,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE HealthWarningScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3ac4610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3ad8200, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::HealthWarningSceneSetupData* healthWarningSceneSetupData);
 
   static inline ::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ac6f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3adab2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   HealthWarningScenesTransitionSetupDataSO(HealthWarningScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5232 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

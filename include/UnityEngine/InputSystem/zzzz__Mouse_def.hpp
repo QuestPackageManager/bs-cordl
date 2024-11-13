@@ -88,33 +88,33 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver*() noexcept;
 
-  /// @brief Method FinishSetup, addr 0x45109b4, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x45250cc, size 0x1cc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x45106ec, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x4524e04, size 0x80, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::Mouse* New_ctor();
 
-  /// @brief Method OnAdded, addr 0x45107b8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method OnAdded, addr 0x4524ed0, size 0x5c, virtual true, abstract: false, final false
   inline void OnAdded();
 
-  /// @brief Method OnNextUpdate, addr 0x4510d20, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnNextUpdate, addr 0x4525438, size 0x90, virtual false, abstract: false, final false
   inline void OnNextUpdate();
 
-  /// @brief Method OnRemoved, addr 0x4510814, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x4524f2c, size 0x80, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method OnStateEvent, addr 0x4510e38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnStateEvent, addr 0x4525550, size 0x44, virtual false, abstract: false, final false
   inline void OnStateEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnNextUpdate, addr 0x4510ec8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnNextUpdate, addr 0x45255e0, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_OnNextUpdate();
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnStateEvent, addr 0x4510ecc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnStateEvent, addr 0x45255e4, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_OnStateEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method WarpCursorPosition, addr 0x4510910, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method WarpCursorPosition, addr 0x4525028, size 0xa4, virtual false, abstract: false, final false
   inline void WarpCursorPosition(::UnityEngine::Vector2 position);
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__backButton_k__BackingField();
@@ -159,35 +159,35 @@ public:
 
   constexpr void __cordl_internal_set__scroll_k__BackingField(::UnityEngine::InputSystem::Controls::DeltaControl* value);
 
-  /// @brief Method .ctor, addr 0x4510ed0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45255e8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Mouse* getStaticF__current_k__BackingField();
 
   static inline ::UnityEngine::InputSystem::Mouse* getStaticF_s_PlatformMouseDevice();
 
-  /// @brief Method get_backButton, addr 0x4510628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_backButton, addr 0x4524d40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_backButton();
 
-  /// @brief Method get_clickCount, addr 0x4510648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickCount, addr 0x4524d60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_clickCount();
 
-  /// @brief Method get_current, addr 0x4510658, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x4524d70, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Mouse* get_current();
 
-  /// @brief Method get_forwardButton, addr 0x4510638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_forwardButton, addr 0x4524d50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_forwardButton();
 
-  /// @brief Method get_leftButton, addr 0x45105f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftButton, addr 0x4524d10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_leftButton();
 
-  /// @brief Method get_middleButton, addr 0x4510608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_middleButton, addr 0x4524d20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_middleButton();
 
-  /// @brief Method get_rightButton, addr 0x4510618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightButton, addr 0x4524d30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_rightButton();
 
-  /// @brief Method get_scroll, addr 0x45105e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scroll, addr 0x4524d00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::DeltaControl* get_scroll();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
@@ -197,28 +197,28 @@ public:
 
   static inline void setStaticF_s_PlatformMouseDevice(::UnityEngine::InputSystem::Mouse* value);
 
-  /// @brief Method set_backButton, addr 0x4510630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_backButton, addr 0x4524d48, size 0x8, virtual false, abstract: false, final false
   inline void set_backButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_clickCount, addr 0x4510650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clickCount, addr 0x4524d68, size 0x8, virtual false, abstract: false, final false
   inline void set_clickCount(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method set_current, addr 0x45106a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x4524db8, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Mouse* value);
 
-  /// @brief Method set_forwardButton, addr 0x4510640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_forwardButton, addr 0x4524d58, size 0x8, virtual false, abstract: false, final false
   inline void set_forwardButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_leftButton, addr 0x4510600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftButton, addr 0x4524d18, size 0x8, virtual false, abstract: false, final false
   inline void set_leftButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_middleButton, addr 0x4510610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_middleButton, addr 0x4524d28, size 0x8, virtual false, abstract: false, final false
   inline void set_middleButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_rightButton, addr 0x4510620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightButton, addr 0x4524d38, size 0x8, virtual false, abstract: false, final false
   inline void set_rightButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_scroll, addr 0x45105f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scroll, addr 0x4524d08, size 0x8, virtual false, abstract: false, final false
   inline void set_scroll(::UnityEngine::InputSystem::Controls::DeltaControl* value);
 
 protected:
@@ -257,7 +257,7 @@ public:
   ::UnityEngine::InputSystem::Controls::IntegerControl* ____clickCount_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6622 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

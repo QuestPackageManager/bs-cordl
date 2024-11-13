@@ -36,7 +36,7 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3c71278, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3c85908, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
   static inline ::System::Runtime::Remoting::Messaging::CallContextSecurityData* New_ctor();
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set__principal(::System::Security::Principal::IPrincipal* value);
 
-  /// @brief Method .ctor, addr 0x3c713d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c85a64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasInfo, addr 0x3c712f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasInfo, addr 0x3c85980, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasInfo();
 
   /// @brief Convert to "::System::ICloneable"

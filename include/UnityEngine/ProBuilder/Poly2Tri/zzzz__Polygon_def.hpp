@@ -76,34 +76,34 @@ public:
   /// @brief Convert operator to "::UnityEngine::ProBuilder::Poly2Tri::Triangulatable"
   constexpr operator ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*() noexcept;
 
-  /// @brief Method AddHole, addr 0x468023c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddHole, addr 0x4694954, size 0xec, virtual false, abstract: false, final false
   inline void AddHole(::UnityEngine::ProBuilder::Poly2Tri::Polygon* poly);
 
-  /// @brief Method AddPoint, addr 0x4680854, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AddPoint, addr 0x4694f6c, size 0xc0, virtual false, abstract: false, final false
   inline void AddPoint(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* p);
 
-  /// @brief Method AddPoints, addr 0x4680440, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method AddPoints, addr 0x4694b58, size 0x414, virtual false, abstract: false, final false
   inline void AddPoints(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* list);
 
-  /// @brief Method AddSteinerPoint, addr 0x4680044, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddSteinerPoint, addr 0x469475c, size 0xec, virtual false, abstract: false, final false
   inline void AddSteinerPoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method AddSteinerPoints, addr 0x4680130, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AddSteinerPoints, addr 0x4694848, size 0xa0, virtual false, abstract: false, final false
   inline void AddSteinerPoints(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points);
 
-  /// @brief Method AddTriangle, addr 0x46809a0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method AddTriangle, addr 0x46950b8, size 0xa4, virtual true, abstract: false, final true
   inline void AddTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
 
-  /// @brief Method AddTriangles, addr 0x4680a44, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method AddTriangles, addr 0x469515c, size 0x58, virtual true, abstract: false, final true
   inline void AddTriangles(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* list);
 
-  /// @brief Method ClearSteinerPoints, addr 0x46801d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ClearSteinerPoints, addr 0x46948e8, size 0x6c, virtual false, abstract: false, final false
   inline void ClearSteinerPoints();
 
-  /// @brief Method ClearTriangles, addr 0x4680a9c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method ClearTriangles, addr 0x46951b4, size 0x6c, virtual true, abstract: false, final true
   inline void ClearTriangles();
 
-  /// @brief Method InsertPointAfter, addr 0x4680328, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method InsertPointAfter, addr 0x4694a40, size 0x118, virtual false, abstract: false, final false
   inline void InsertPointAfter(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* point, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* newPoint);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon*
@@ -113,10 +113,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points);
 
-  /// @brief Method Prepare, addr 0x4680b08, size 0x3e8, virtual true, abstract: false, final true
+  /// @brief Method Prepare, addr 0x4695220, size 0x3e8, virtual true, abstract: false, final true
   inline void Prepare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
 
-  /// @brief Method RemovePoint, addr 0x4680914, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RemovePoint, addr 0x469502c, size 0x74, virtual false, abstract: false, final false
   inline void RemovePoint(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* p);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*& __cordl_internal_get__holes();
@@ -149,25 +149,25 @@ public:
 
   constexpr void __cordl_internal_set__triangles(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* value);
 
-  /// @brief Method .ctor, addr 0x4680038, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4694750, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*, ::Array<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*> points);
 
-  /// @brief Method .ctor, addr 0x467ffb0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46946c8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points);
 
-  /// @brief Method .ctor, addr 0x467fc00, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4694318, size 0x3b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* points);
 
-  /// @brief Method get_Holes, addr 0x4680998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Holes, addr 0x46950b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* get_Holes();
 
-  /// @brief Method get_Points, addr 0x4680988, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Points, addr 0x46950a0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* get_Points();
 
-  /// @brief Method get_Triangles, addr 0x4680990, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Triangles, addr 0x46950a8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles();
 
-  /// @brief Method get_TriangulationMode, addr 0x468003c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TriangulationMode, addr 0x4694754, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
 
   /// @brief Convert to "::UnityEngine::ProBuilder::Poly2Tri::Triangulatable"
@@ -203,7 +203,7 @@ public:
   ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* ____last;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

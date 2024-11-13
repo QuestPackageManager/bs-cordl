@@ -23,10 +23,10 @@ namespace LufsMetering {
 class CORDL_TYPE AudioJobHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHighPassDeManCoefficients, addr 0x3afda70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetHighPassDeManCoefficients, addr 0x3b12490, size 0x7c, virtual false, abstract: false, final false
   static inline ::LufsMetering::FilterCoefficients GetHighPassDeManCoefficients(float_t quality, float_t frequency, float_t rate);
 
-  /// @brief Method GetHighShelfDeManCoefficients, addr 0x3afd9a8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetHighShelfDeManCoefficients, addr 0x3b123c8, size 0xc8, virtual false, abstract: false, final false
   static inline ::LufsMetering::FilterCoefficients GetHighShelfDeManCoefficients(float_t gain, float_t quality, float_t frequency, float_t rate);
 
 protected:
@@ -44,7 +44,7 @@ public:
   AudioJobHelpers(AudioJobHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

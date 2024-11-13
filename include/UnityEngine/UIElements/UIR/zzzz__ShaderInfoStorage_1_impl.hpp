@@ -58,7 +58,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::Co
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__cordl_internal_set_m_Convert(::System::Func_2<::UnityEngine::Color, T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Convert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Convert, value);
 }
 template <typename T> constexpr ::UnityEngine::UIElements::UIRAtlasAllocator*& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__cordl_internal_get_m_Allocator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -71,7 +71,7 @@ constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIRAtla
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__cordl_internal_set_m_Allocator(::UnityEngine::UIElements::UIRAtlasAllocator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Allocator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Allocator, value);
 }
 template <typename T> constexpr ::UnityW<::UnityEngine::Texture2D>& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__cordl_internal_get_m_Texture() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -83,7 +83,7 @@ template <typename T> constexpr ::UnityW<::UnityEngine::Texture2D> const& UnityE
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__cordl_internal_set_m_Texture(::UnityW<::UnityEngine::Texture2D> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Texture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Texture, value);
 }
 template <typename T> constexpr ::Unity::Collections::NativeArray_1<T>& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__cordl_internal_get_m_Texels() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

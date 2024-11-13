@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_missionHelp(::UnityW<::GlobalNamespace::MissionHelpSO> value);
 
-  /// @brief Method .ctor, addr 0x3b9fa04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb5878, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   ::UnityW<::UnityEngine::GameObject> ___gameObject;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4890 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -121,18 +121,18 @@ public:
   /// @brief Field didFinishEvent, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3b9f934, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3bb57a8, size 0xa8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::MissionHelpViewController* New_ctor();
 
-  /// @brief Method OkButtonPressed, addr 0x3b9f9dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x3bb5850, size 0x20, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
-  /// @brief Method RefreshContent, addr 0x3b9f864, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x3bb56d8, size 0xd0, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method Setup, addr 0x3b9f838, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3bb56ac, size 0x2c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MissionHelpSO* missionHelp);
 
   constexpr ::UnityW<::GlobalNamespace::MissionHelpSO> const& __cordl_internal_get__missionHelp() const;
@@ -162,13 +162,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x3b9f9fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb5870, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b9f6d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3bb554c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b9f788, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3bb55fc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
 protected:
@@ -199,7 +199,7 @@ public:
   ::UnityW<::GlobalNamespace::MissionHelpSO> ____missionHelp;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4891 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

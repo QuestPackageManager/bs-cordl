@@ -158,23 +158,23 @@ public:
 
   constexpr void __cordl_internal_set_tree_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x259e320, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a93c8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method free, addr 0x259e3d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method free, addr 0x25a9478, size 0x4, virtual false, abstract: false, final false
   inline void free(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_inflate_mask();
 
-  /// @brief Method inflate_fast, addr 0x25a04ac, size 0x860, virtual false, abstract: false, final false
+  /// @brief Method inflate_fast, addr 0x25ab554, size 0x860, virtual false, abstract: false, final false
   inline int32_t inflate_fast(int32_t bl, int32_t bd, ::ArrayW<int32_t, ::Array<int32_t>*> tl, int32_t tl_index, ::ArrayW<int32_t, ::Array<int32_t>*> td, int32_t td_index,
                               ::Org::BouncyCastle::Utilities::Zlib::InfBlocks* s, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method init, addr 0x259f598, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method init, addr 0x25aa640, size 0x24, virtual false, abstract: false, final false
   inline void init(int32_t bl, int32_t bd, ::ArrayW<int32_t, ::Array<int32_t>*> tl, int32_t tl_index, ::ArrayW<int32_t, ::Array<int32_t>*> td, int32_t td_index,
                    ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method proc, addr 0x259f91c, size 0xa54, virtual false, abstract: false, final false
+  /// @brief Method proc, addr 0x25aa9c4, size 0xa54, virtual false, abstract: false, final false
   inline int32_t proc(::Org::BouncyCastle::Utilities::Zlib::InfBlocks* s, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
   static inline void setStaticF_inflate_mask(::ArrayW<int32_t, ::Array<int32_t>*> value);

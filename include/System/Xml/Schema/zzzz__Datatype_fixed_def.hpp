@@ -35,13 +35,13 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_fixed* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x433a104, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x434e81c, size 0x2a8, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method TryParseValue, addr 0x433a61c, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x434ed34, size 0x158, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x432e4b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4342bc8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,7 +59,7 @@ public:
   Datatype_fixed(Datatype_fixed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7554 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

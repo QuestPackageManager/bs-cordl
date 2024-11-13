@@ -51,13 +51,13 @@ public:
 
   static inline ::System::Net::Sockets::SafeSocketHandle* New_ctor(::System::IntPtr preexistingHandle, bool ownsHandle);
 
-  /// @brief Method RegisterForBlockingSyscall, addr 0x438af9c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method RegisterForBlockingSyscall, addr 0x439f6b4, size 0x13c, virtual false, abstract: false, final false
   inline void RegisterForBlockingSyscall();
 
-  /// @brief Method ReleaseHandle, addr 0x438a9e8, size 0x5b4, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x439f100, size 0x5b4, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method UnRegisterForBlockingSyscall, addr 0x438b0d8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterForBlockingSyscall, addr 0x439f7f0, size 0x1f0, virtual false, abstract: false, final false
   inline void UnRegisterForBlockingSyscall();
 
   constexpr ::System::Collections::Generic::List_1<::System::Threading::Thread*>*& __cordl_internal_get_blocking_threads();
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_threads_stacktraces(::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* value);
 
-  /// @brief Method .ctor, addr 0x438a924, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439f03c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr preexistingHandle, bool ownsHandle);
 
   static inline bool getStaticF_THROW_ON_ABORT_RETRIES();
@@ -116,7 +116,7 @@ public:
   static constexpr int32_t SOCKET_CLOSED{ static_cast<int32_t>(0x2714) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

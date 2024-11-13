@@ -83,7 +83,7 @@ public:
   __UIItemsList_1__DataCallback(__UIItemsList_1__DataCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -189,7 +189,7 @@ public:
   ::Zenject::DiContainer* ____container;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16086 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

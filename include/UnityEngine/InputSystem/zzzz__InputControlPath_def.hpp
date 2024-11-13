@@ -160,7 +160,7 @@ public:
   static ::UnityEngine::InputSystem::__InputControlPath__HumanReadableStringOptions const UseShortNames;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6603 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -224,7 +224,7 @@ public:
   static ::UnityEngine::InputSystem::__InputControlPath__PathComponentType const Usage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6604 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -253,10 +253,10 @@ public:
 
   static inline ::GlobalNamespace::__InputControlPath__ParsedPathComponent____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x450ba24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452013c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_usages>b__7_0, addr 0x450ba2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <get_usages>b__7_0, addr 0x4520144, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _get_usages_b__7_0(::UnityEngine::InputSystem::Utilities::Substring x);
 
   static inline ::GlobalNamespace::__InputControlPath__ParsedPathComponent____c* getStaticF___9();
@@ -282,7 +282,7 @@ public:
   __InputControlPath__ParsedPathComponent____c(__InputControlPath__ParsedPathComponent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6605 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -312,35 +312,35 @@ public:
 
   __declspec(property(get = get_usages)) ::System::Collections::Generic::IEnumerable_1<::StringW>* usages;
 
-  /// @brief Method ComparePathElementToString, addr 0x450b868, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ComparePathElementToString, addr 0x451ff80, size 0x160, virtual false, abstract: false, final false
   static inline bool ComparePathElementToString(::UnityEngine::InputSystem::Utilities::Substring pathElement, ::StringW element);
 
-  /// @brief Method Matches, addr 0x450afb0, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x451f6c8, size 0x2b0, virtual false, abstract: false, final false
   inline bool Matches(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToHumanReadableString, addr 0x4509458, size 0x7a4, virtual false, abstract: false, final false
+  /// @brief Method ToHumanReadableString, addr 0x451db70, size 0x7a4, virtual false, abstract: false, final false
   inline ::StringW ToHumanReadableString(::StringW parentLayoutName, ::StringW parentControlPath, ByRef<::StringW> referencedLayoutName, ByRef<::StringW> controlPath,
                                          ::UnityEngine::InputSystem::__InputControlPath__HumanReadableStringOptions options);
 
-  /// @brief Method ToHumanReadableString, addr 0x450b804, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToHumanReadableString, addr 0x451ff1c, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW ToHumanReadableString(::UnityEngine::InputSystem::Utilities::Substring substring);
 
-  /// @brief Method get_displayName, addr 0x450b794, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x451feac, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_isDoubleWildcard, addr 0x450b7a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_isDoubleWildcard, addr 0x451feb8, size 0x64, virtual false, abstract: false, final false
   inline bool get_isDoubleWildcard();
 
-  /// @brief Method get_isWildcard, addr 0x4509ecc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_isWildcard, addr 0x451e5e4, size 0x64, virtual false, abstract: false, final false
   inline bool get_isWildcard();
 
-  /// @brief Method get_layout, addr 0x450b650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x451fd68, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_layout();
 
-  /// @brief Method get_name, addr 0x450b788, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x451fea0, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_usages, addr 0x450b658, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_usages, addr 0x451fd70, size 0x130, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_usages();
 
   // Ctor Parameters []
@@ -368,7 +368,7 @@ public:
   ::UnityEngine::InputSystem::Utilities::Substring m_DisplayName;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6606 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -397,16 +397,16 @@ public:
   // Declarations
   __declspec(property(get = get_isAtEnd)) bool isAtEnd;
 
-  /// @brief Method MoveToNextComponent, addr 0x45091ec, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextComponent, addr 0x451d904, size 0x26c, virtual false, abstract: false, final false
   inline bool MoveToNextComponent();
 
-  /// @brief Method ParseComponentPart, addr 0x450ba50, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ParseComponentPart, addr 0x4520168, size 0x108, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::Substring ParseComponentPart(char16_t terminator);
 
-  /// @brief Method .ctor, addr 0x45091b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x451d8c8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
-  /// @brief Method get_isAtEnd, addr 0x450a5f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isAtEnd, addr 0x451ed0c, size 0x14, virtual false, abstract: false, final false
   inline bool get_isAtEnd();
 
   // Ctor Parameters []
@@ -435,7 +435,7 @@ public:
   ::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent current;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6607 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -472,10 +472,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::__InputControlPath____c* New_ctor();
 
-  /// @brief Method <TryGetDeviceUsages>b__9_0, addr 0x450bbbc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <TryGetDeviceUsages>b__9_0, addr 0x45202d4, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _TryGetDeviceUsages_b__9_0(::UnityEngine::InputSystem::Utilities::Substring x);
 
-  /// @brief Method .ctor, addr 0x450bbb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45202cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::__InputControlPath____c* getStaticF___9();
@@ -501,7 +501,7 @@ public:
   __InputControlPath____c(__InputControlPath____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6608 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -556,30 +556,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x450bbe4, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x45202fc, size 0x130, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::__InputControlPath___Parse_d__34* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputControlPath.ParsedPathComponent>.GetEnumerator, addr 0x450bdc0, size 0x9c, virtual true, abstract: false, final
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputControlPath.ParsedPathComponent>.GetEnumerator, addr 0x45204d8, size 0x9c, virtual true, abstract: false, final
   /// true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent>*
   System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputControlPath_ParsedPathComponent__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputControlPath.ParsedPathComponent>.get_Current, addr 0x450bd14, size 0x10, virtual true, abstract: false, final
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputControlPath.ParsedPathComponent>.get_Current, addr 0x452042c, size 0x10, virtual true, abstract: false, final
   /// true
   inline ::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputControlPath_ParsedPathComponent__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x450be5c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4520574, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x450bd24, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x452043c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x450bd5c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4520474, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x450bbe0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x45202f8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -618,7 +618,7 @@ public:
 
   constexpr void __cordl_internal_set_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x450b61c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x451fd34, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent>"
@@ -671,7 +671,7 @@ public:
   ::UnityEngine::InputSystem::__InputControlPath__PathParser ____parser_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6609 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -711,20 +711,20 @@ public:
 
   using __c = ::UnityEngine::InputSystem::__InputControlPath____c;
 
-  /// @brief Method CleanSlashes, addr 0x4508c2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CleanSlashes, addr 0x451d344, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW CleanSlashes(::StringW pathComponent);
 
-  /// @brief Method Combine, addr 0x4503f64, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x451867c, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW Combine(::UnityEngine::InputSystem::InputControl* parent, ::StringW path);
 
-  /// @brief Method ControlLayoutMatchesPathComponent, addr 0x450a450, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ControlLayoutMatchesPathComponent, addr 0x451eb68, size 0x1a4, virtual false, abstract: false, final false
   static inline bool ControlLayoutMatchesPathComponent(ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> controlItem,
                                                        ByRef<::UnityEngine::InputSystem::__InputControlPath__PathParser> parser);
 
-  /// @brief Method FindControlLayoutRecursive, addr 0x450a2b8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method FindControlLayoutRecursive, addr 0x451e9d0, size 0x198, virtual false, abstract: false, final false
   static inline ::StringW FindControlLayoutRecursive(ByRef<::UnityEngine::InputSystem::__InputControlPath__PathParser> parser, ::UnityEngine::InputSystem::Layouts::InputControlLayout* layout);
 
-  /// @brief Method FindControlLayoutRecursive, addr 0x450a14c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method FindControlLayoutRecursive, addr 0x451e864, size 0x16c, virtual false, abstract: false, final false
   static inline ::StringW FindControlLayoutRecursive(ByRef<::UnityEngine::InputSystem::__InputControlPath__PathParser> parser, ::StringW layoutName);
 
   /// @brief Method MatchByUsageAtDeviceRootRecursive, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -737,7 +737,7 @@ public:
   static inline TControl MatchChildrenRecursive(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath,
                                                 ByRef<::UnityEngine::InputSystem::InputControlList_1<TControl>> matches, bool matchMultiple);
 
-  /// @brief Method MatchControlComponent, addr 0x450aaa4, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method MatchControlComponent, addr 0x451f1bc, size 0x410, virtual false, abstract: false, final false
   static inline bool MatchControlComponent(ByRef<::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent> expectedControlComponent,
                                            ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> controlItem, bool matchAlias);
 
@@ -746,48 +746,48 @@ public:
   static inline TControl MatchControlsRecursive(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath,
                                                 ByRef<::UnityEngine::InputSystem::InputControlList_1<TControl>> matches, bool matchMultiple);
 
-  /// @brief Method MatchPathComponent, addr 0x450b260, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method MatchPathComponent, addr 0x451f978, size 0x290, virtual false, abstract: false, final false
   static inline bool MatchPathComponent(::StringW component, ::StringW path, ByRef<int32_t> indexInPath, ::UnityEngine::InputSystem::__InputControlPath__PathComponentType componentType,
                                         int32_t startIndexInComponent);
 
-  /// @brief Method Matches, addr 0x45090d0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x451d7e8, size 0xe0, virtual false, abstract: false, final false
   static inline bool Matches(::StringW expected, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method MatchesPrefix, addr 0x450aeb4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method MatchesPrefix, addr 0x451f5cc, size 0xfc, virtual false, abstract: false, final false
   static inline bool MatchesPrefix(::StringW expected, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method MatchesRecursive, addr 0x450aa3c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MatchesRecursive, addr 0x451f154, size 0x68, virtual false, abstract: false, final false
   static inline bool MatchesRecursive(ByRef<::UnityEngine::InputSystem::__InputControlPath__PathParser> parser, ::UnityEngine::InputSystem::InputControl* currentControl, bool prefixOnly);
 
-  /// @brief Method Parse, addr 0x450b5ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x451fcc4, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent>* Parse(::StringW path);
 
-  /// @brief Method PathComponentCanYieldMultipleMatches, addr 0x450b4f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method PathComponentCanYieldMultipleMatches, addr 0x451fc08, size 0xbc, virtual false, abstract: false, final false
   static inline bool PathComponentCanYieldMultipleMatches(::StringW path, int32_t indexInPath);
 
-  /// @brief Method StringMatches, addr 0x450a608, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method StringMatches, addr 0x451ed20, size 0x268, virtual false, abstract: false, final false
   static inline bool StringMatches(::UnityEngine::InputSystem::Utilities::Substring str, ::UnityEngine::InputSystem::Utilities::InternedString matchTo);
 
-  /// @brief Method ToHumanReadableString, addr 0x4508c74, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method ToHumanReadableString, addr 0x451d38c, size 0x45c, virtual false, abstract: false, final false
   static inline ::StringW ToHumanReadableString(::StringW path, ByRef<::StringW> deviceLayoutName, ByRef<::StringW> controlPath,
                                                 ::UnityEngine::InputSystem::__InputControlPath__HumanReadableStringOptions options, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToHumanReadableString, addr 0x4508c48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToHumanReadableString, addr 0x451d360, size 0x2c, virtual false, abstract: false, final false
   static inline ::StringW ToHumanReadableString(::StringW path, ::UnityEngine::InputSystem::__InputControlPath__HumanReadableStringOptions options, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method TryFindChild, addr 0x4504368, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TryFindChild, addr 0x4518a80, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControl* TryFindChild(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath);
 
   /// @brief Method TryFindChild, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TControl> static inline TControl TryFindChild(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath);
 
-  /// @brief Method TryFindControl, addr 0x44fd4a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TryFindControl, addr 0x4511bbc, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControl* TryFindControl(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath);
 
   /// @brief Method TryFindControl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TControl> static inline TControl TryFindControl(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath);
 
-  /// @brief Method TryFindControls, addr 0x450a870, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method TryFindControls, addr 0x451ef88, size 0x15c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*> TryFindControls(::UnityEngine::InputSystem::InputControl* control,
                                                                                                                                          ::StringW path, int32_t indexInPath);
 
@@ -796,17 +796,17 @@ public:
   static inline int32_t TryFindControls(::UnityEngine::InputSystem::InputControl* control, ::StringW path, int32_t indexInPath,
                                         ByRef<::UnityEngine::InputSystem::InputControlList_1<TControl>> matches);
 
-  /// @brief Method TryFindControls, addr 0x450a9cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryFindControls, addr 0x451f0e4, size 0x70, virtual false, abstract: false, final false
   static inline int32_t TryFindControls(::UnityEngine::InputSystem::InputControl* control, ::StringW path,
                                         ByRef<::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>> matches, int32_t indexInPath);
 
-  /// @brief Method TryGetControlLayout, addr 0x4509f30, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method TryGetControlLayout, addr 0x451e648, size 0x21c, virtual false, abstract: false, final false
   static inline ::StringW TryGetControlLayout(::StringW path);
 
-  /// @brief Method TryGetDeviceLayout, addr 0x4509d94, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method TryGetDeviceLayout, addr 0x451e4ac, size 0x138, virtual false, abstract: false, final false
   static inline ::StringW TryGetDeviceLayout(::StringW path);
 
-  /// @brief Method TryGetDeviceUsages, addr 0x4509bfc, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method TryGetDeviceUsages, addr 0x451e314, size 0x198, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> TryGetDeviceUsages(::StringW path);
 
 protected:
@@ -836,7 +836,7 @@ public:
   static constexpr ::ConstString Wildcard{ u"*" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6610 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

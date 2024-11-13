@@ -44,18 +44,18 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x42be6c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x42d2dd8, size 0x64, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Xml::XmlChildEnumerator* New_ctor(::System::Xml::XmlNode* container);
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x42be6bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x42d2dd4, size 0x4, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x42be724, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x42d2e3c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x42be75c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x42d2e74, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::System::Xml::XmlNode*& __cordl_internal_get_child();
@@ -76,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set_isFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x42be66c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42d2d84, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* container);
 
-  /// @brief Method get_Current, addr 0x42be760, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x42d2e78, size 0x74, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -109,7 +109,7 @@ public:
   bool ___isFirst;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7261 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

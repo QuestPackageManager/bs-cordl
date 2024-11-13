@@ -87,10 +87,10 @@ public:
   /// @brief Method get_UpdateValueFromText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Action* get_UpdateValueFromText();
 
-  /// @brief Method get_autoCorrection, addr 0x4a1f5e0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_autoCorrection, addr 0x4a33cf8, size 0xc8, virtual true, abstract: false, final false
   inline bool get_autoCorrection();
 
-  /// @brief Method get_hideMobileInput, addr 0x4a1f768, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_hideMobileInput, addr 0x4a33e80, size 0xc8, virtual true, abstract: false, final false
   inline bool get_hideMobileInput();
 
   /// @brief Method get_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -102,7 +102,7 @@ public:
   /// @brief Method get_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isReadOnly();
 
-  /// @brief Method get_keyboardType, addr 0x4a1f8f0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_keyboardType, addr 0x4a34008, size 0xc8, virtual true, abstract: false, final false
   inline ::UnityEngine::TouchScreenKeyboardType get_keyboardType();
 
   /// @brief Method get_maxLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -126,10 +126,10 @@ public:
   /// @brief Method set_UpdateValueFromText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_UpdateValueFromText(::System::Action* value);
 
-  /// @brief Method set_autoCorrection, addr 0x4a1f6a8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method set_autoCorrection, addr 0x4a33dc0, size 0xc0, virtual true, abstract: false, final false
   inline void set_autoCorrection(bool value);
 
-  /// @brief Method set_hideMobileInput, addr 0x4a1f830, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method set_hideMobileInput, addr 0x4a33f48, size 0xc0, virtual true, abstract: false, final false
   inline void set_hideMobileInput(bool value);
 
   /// @brief Method set_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -141,7 +141,7 @@ public:
   /// @brief Method set_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_isReadOnly(bool value);
 
-  /// @brief Method set_keyboardType, addr 0x4a1f9b8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method set_keyboardType, addr 0x4a340d0, size 0xc0, virtual true, abstract: false, final false
   inline void set_keyboardType(::UnityEngine::TouchScreenKeyboardType value);
 
   /// @brief Method set_maskChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -162,7 +162,7 @@ public:
   ITextEdition(ITextEdition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -53,33 +53,33 @@ public:
   /// @brief Field _writer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer)) ::System::IO::BinaryWriter* _writer;
 
-  /// @brief Method CalculateSize, addr 0x3edb1d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CalculateSize, addr 0x3eef860, size 0x8, virtual false, abstract: false, final false
   inline int32_t CalculateSize(int32_t stringByteCount);
 
-  /// @brief Method CalculateSize, addr 0x3ed9738, size 0x8a8, virtual false, abstract: false, final false
+  /// @brief Method CalculateSize, addr 0x3eeddc8, size 0x8a8, virtual false, abstract: false, final false
   inline int32_t CalculateSize(::Newtonsoft::Json::Bson::BsonToken* t);
 
-  /// @brief Method CalculateSizeWithLength, addr 0x3edb1d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CalculateSizeWithLength, addr 0x3eef868, size 0x14, virtual false, abstract: false, final false
   inline int32_t CalculateSizeWithLength(int32_t stringByteCount, bool includeSize);
 
-  /// @brief Method Close, addr 0x3ed96f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x3eedd80, size 0x20, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Flush, addr 0x3ed96d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x3eedd60, size 0x20, virtual false, abstract: false, final false
   inline void Flush();
 
   static inline ::Newtonsoft::Json::Bson::BsonBinaryWriter* New_ctor(::System::IO::BinaryWriter* writer);
 
-  /// @brief Method WriteString, addr 0x3edaf34, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method WriteString, addr 0x3eef5c4, size 0xa4, virtual false, abstract: false, final false
   inline void WriteString(::StringW s, int32_t byteCount, ::System::Nullable_1<int32_t> calculatedlengthPrefix);
 
-  /// @brief Method WriteToken, addr 0x3ed9710, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method WriteToken, addr 0x3eedda0, size 0x28, virtual false, abstract: false, final false
   inline void WriteToken(::Newtonsoft::Json::Bson::BsonToken* t);
 
-  /// @brief Method WriteTokenInternal, addr 0x3ed9fe0, size 0xec4, virtual false, abstract: false, final false
+  /// @brief Method WriteTokenInternal, addr 0x3eee670, size 0xec4, virtual false, abstract: false, final false
   inline void WriteTokenInternal(::Newtonsoft::Json::Bson::BsonToken* t);
 
-  /// @brief Method WriteUtf8Bytes, addr 0x3edb068, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method WriteUtf8Bytes, addr 0x3eef6f8, size 0x168, virtual false, abstract: false, final false
   inline void WriteUtf8Bytes(::StringW s, int32_t byteCount);
 
   constexpr ::System::DateTimeKind const& __cordl_internal_get__DateTimeKindHandling_k__BackingField() const;
@@ -100,17 +100,17 @@ public:
 
   constexpr void __cordl_internal_set__writer(::System::IO::BinaryWriter* value);
 
-  /// @brief Method .ctor, addr 0x3ed96a0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eedd30, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::BinaryWriter* writer);
 
   static inline ::System::Text::Encoding* getStaticF_Encoding();
 
-  /// @brief Method get_DateTimeKindHandling, addr 0x3ed9690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeKindHandling, addr 0x3eedd20, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTimeKind get_DateTimeKindHandling();
 
   static inline void setStaticF_Encoding(::System::Text::Encoding* value);
 
-  /// @brief Method set_DateTimeKindHandling, addr 0x3ed9698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DateTimeKindHandling, addr 0x3eedd28, size 0x8, virtual false, abstract: false, final false
   inline void set_DateTimeKindHandling(::System::DateTimeKind value);
 
 protected:
@@ -137,7 +137,7 @@ public:
   ::System::DateTimeKind ____DateTimeKindHandling_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10476 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

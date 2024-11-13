@@ -59,8 +59,6 @@ public:
 
   __declspec(property(get = get_obstaclesCount)) int32_t obstaclesCount;
 
-  __declspec(property(get = get_spawnRotationEventsCount)) int32_t spawnRotationEventsCount;
-
   __declspec(property(get = get_specialBasicBeatmapEventKeywords)) ::System::Collections::Generic::IEnumerable_1<::StringW>* specialBasicBeatmapEventKeywords;
 
   /// @brief Method GetBeatmapDataItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -104,9 +102,6 @@ public:
   /// @brief Method get_obstaclesCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_obstaclesCount();
 
-  /// @brief Method get_spawnRotationEventsCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_spawnRotationEventsCount();
-
   /// @brief Method get_specialBasicBeatmapEventKeywords, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_specialBasicBeatmapEventKeywords();
 
@@ -130,7 +125,7 @@ public:
   IReadonlyBeatmapData(IReadonlyBeatmapData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12840 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

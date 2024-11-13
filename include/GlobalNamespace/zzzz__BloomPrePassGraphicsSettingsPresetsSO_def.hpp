@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x2693254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269ee74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> ___bloomPrePassEffect;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12991 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -108,13 +108,13 @@ public:
   constexpr void
   __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> value);
 
-  /// @brief Method .ctor, addr 0x2693244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269ee64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_namedPresets, addr 0x269323c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_namedPresets, addr 0x269ee5c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
-  /// @brief Method get_presets, addr 0x2693234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presets, addr 0x269ee54, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> get_presets();
 
 protected:
@@ -135,7 +135,7 @@ public:
   ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> ____presets;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12983 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12992 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

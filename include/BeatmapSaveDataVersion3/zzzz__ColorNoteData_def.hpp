@@ -87,22 +87,22 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26c8e54, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d4b44, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::NoteColorType color, ::BeatmapSaveDataCommon::NoteCutDirection cutDirection, int32_t angleOffset);
 
-  /// @brief Method get_angleOffset, addr 0x26c8e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angleOffset, addr 0x26d4b2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_angleOffset();
 
-  /// @brief Method get_color, addr 0x26c8e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x26d4b34, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteColorType get_color();
 
-  /// @brief Method get_cutDirection, addr 0x26c8e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x26d4b3c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
 
-  /// @brief Method get_layer, addr 0x26c8e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x26d4b24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x26c8e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x26d4b1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
 protected:
@@ -135,7 +135,7 @@ public:
   ::BeatmapSaveDataCommon::NoteCutDirection ___d;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13385 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

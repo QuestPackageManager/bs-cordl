@@ -44,10 +44,10 @@ public:
 
   static inline ::GlobalNamespace::ShockwaveEffect* New_ctor();
 
-  /// @brief Method SpawnShockwave, addr 0x3b0d97c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SpawnShockwave, addr 0x3b22dcc, size 0xd4, virtual false, abstract: false, final false
   inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
-  /// @brief Method Start, addr 0x3b0d83c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b22c8c, size 0x140, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__prevShockwaveParticleSpawnTime() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__shockwavePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
-  /// @brief Method .ctor, addr 0x3b0da50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b22ea0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,7 +104,7 @@ public:
   float_t ____prevShockwaveParticleSpawnTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4224 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

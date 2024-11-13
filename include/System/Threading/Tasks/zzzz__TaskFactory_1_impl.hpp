@@ -31,7 +31,7 @@ constexpr TInstance const& System::Threading::Tasks::__TaskFactory_1__FromAsyncT
 }
 template <typename TResult, typename TInstance> constexpr void System::Threading::Tasks::__TaskFactory_1__FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_set_m_thisRef(TInstance value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_thisRef)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_thisRef, value);
 }
 template <typename TResult, typename TInstance>
 constexpr ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>*& System::Threading::Tasks::__TaskFactory_1__FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_get_m_endMethod() {
@@ -48,7 +48,7 @@ template <typename TResult, typename TInstance>
 constexpr void
 System::Threading::Tasks::__TaskFactory_1__FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_set_m_endMethod(::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_endMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_endMethod, value);
 }
 template <typename TResult, typename TInstance>
 inline void System::Threading::Tasks::__TaskFactory_1__FromAsyncTrimPromise_1<TResult, TInstance>::setStaticF_s_completeFromAsyncResult(::System::AsyncCallback* value) {
@@ -110,7 +110,7 @@ System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>::__cor
 template <typename TResult>
 constexpr void System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>::__cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*, TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___endFunction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___endFunction, value);
 }
 template <typename TResult> constexpr ::System::Action_1<::System::IAsyncResult*>*& System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>::__cordl_internal_get_endAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -125,7 +125,7 @@ System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>::__cor
 template <typename TResult>
 constexpr void System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>::__cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___endAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___endAction, value);
 }
 template <typename TResult> constexpr ::System::Threading::Tasks::Task_1<TResult>*& System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>::__cordl_internal_get_promise() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -139,7 +139,7 @@ System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>::__cor
 }
 template <typename TResult> constexpr void System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>::__cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___promise)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___promise, value);
 }
 template <typename TResult> inline ::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>* System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>*>());
@@ -172,7 +172,7 @@ System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1<TResult, TArg
 template <typename TResult, typename TArg1>
 constexpr void System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1<TResult, TArg1>::__cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*, TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___endFunction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___endFunction, value);
 }
 template <typename TResult, typename TArg1>
 constexpr ::System::Action_1<::System::IAsyncResult*>*& System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1<TResult, TArg1>::__cordl_internal_get_endAction() {
@@ -188,7 +188,7 @@ System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1<TResult, TArg
 template <typename TResult, typename TArg1>
 constexpr void System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1<TResult, TArg1>::__cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___endAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___endAction, value);
 }
 template <typename TResult, typename TArg1>
 constexpr ::System::Threading::Tasks::Task_1<TResult>*& System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1<TResult, TArg1>::__cordl_internal_get_promise() {
@@ -204,7 +204,7 @@ System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1<TResult, TArg
 template <typename TResult, typename TArg1>
 constexpr void System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1<TResult, TArg1>::__cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___promise)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___promise, value);
 }
 template <typename TResult, typename TArg1>
 inline ::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1<TResult, TArg1>* System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1<TResult, TArg1>::New_ctor() {
@@ -238,7 +238,7 @@ System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2<TResult, TArg
 template <typename TResult, typename TArg1, typename TArg2>
 constexpr void System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2<TResult, TArg1, TArg2>::__cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*, TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___endFunction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___endFunction, value);
 }
 template <typename TResult, typename TArg1, typename TArg2>
 constexpr ::System::Action_1<::System::IAsyncResult*>*& System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2<TResult, TArg1, TArg2>::__cordl_internal_get_endAction() {
@@ -254,7 +254,7 @@ System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2<TResult, TArg
 template <typename TResult, typename TArg1, typename TArg2>
 constexpr void System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2<TResult, TArg1, TArg2>::__cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___endAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___endAction, value);
 }
 template <typename TResult, typename TArg1, typename TArg2>
 constexpr ::System::Threading::Tasks::Task_1<TResult>*& System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2<TResult, TArg1, TArg2>::__cordl_internal_get_promise() {
@@ -270,7 +270,7 @@ System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2<TResult, TArg
 template <typename TResult, typename TArg1, typename TArg2>
 constexpr void System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2<TResult, TArg1, TArg2>::__cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___promise)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___promise, value);
 }
 template <typename TResult, typename TArg1, typename TArg2>
 inline ::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2<TResult, TArg1, TArg2>*
@@ -316,7 +316,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskSc
 }
 template <typename TResult> constexpr void System::Threading::Tasks::TaskFactory_1<TResult>::__cordl_internal_set_m_defaultScheduler(::System::Threading::Tasks::TaskScheduler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_defaultScheduler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_defaultScheduler, value);
 }
 template <typename TResult> constexpr ::System::Threading::Tasks::TaskCreationOptions& System::Threading::Tasks::TaskFactory_1<TResult>::__cordl_internal_get_m_defaultCreationOptions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

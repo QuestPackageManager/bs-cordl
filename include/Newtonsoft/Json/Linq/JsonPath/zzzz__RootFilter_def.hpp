@@ -31,14 +31,14 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Newtonsoft::Json::Linq::JsonPath::RootFilter* Instance;
 
-  /// @brief Method ExecuteFilter, addr 0x3ec38c8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ExecuteFilter, addr 0x3ed7f58, size 0x90, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::RootFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ec38c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed7f50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::RootFilter* getStaticF_Instance();
@@ -60,7 +60,7 @@ public:
   RootFilter(RootFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

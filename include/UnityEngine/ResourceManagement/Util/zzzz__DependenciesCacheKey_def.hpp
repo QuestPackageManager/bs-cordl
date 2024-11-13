@@ -48,16 +48,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
 
-  /// @brief Method Equals, addr 0x47204b0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4734bc8, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4720540, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x4734c58, size 0x28, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::DependenciesCacheKey* other);
 
-  /// @brief Method Equals, addr 0x4720568, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4734c80, size 0x90, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method GetHashCode, addr 0x47204a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4734bc0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_m_DependenciesHash(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4718608, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x472cd20, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies, int32_t dependenciesHash);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
@@ -106,7 +106,7 @@ public:
   int32_t ___m_DependenciesHash;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15591 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

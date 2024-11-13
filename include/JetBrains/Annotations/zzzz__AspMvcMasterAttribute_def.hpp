@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::AspMvcMasterAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a77e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c588, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   AspMvcMasterAttribute(AspMvcMasterAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18393 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

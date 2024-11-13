@@ -39,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::SetPSSaberGlowColor* New_ctor();
 
-  /// @brief Method Start, addr 0x3b70ae0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b865d4, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x3b70b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b86654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

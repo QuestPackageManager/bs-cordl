@@ -65,30 +65,30 @@ public:
   /// @brief Field _sustainDuration, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get__sustainDuration, put = __cordl_internal_set__sustainDuration)) float_t _sustainDuration;
 
-  /// @brief Method EndEffect, addr 0x2235b30, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EndEffect, addr 0x223e5e8, size 0x24, virtual false, abstract: false, final false
   inline void EndEffect();
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x22359f4, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x223e4ac, size 0x13c, virtual true, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
 
   static inline ::GlobalNamespace::ContinuousFireEffect* New_ctor();
 
-  /// @brief Method SetInitialValues, addr 0x22357a0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetInitialValues, addr 0x223e258, size 0xa8, virtual false, abstract: false, final false
   inline void SetInitialValues();
 
-  /// @brief Method Start, addr 0x2235778, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x223e230, size 0x28, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x2235b54, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x223e60c, size 0xe0, virtual false, abstract: false, final false
   inline void StartEffect(float_t startTime, float_t endTime);
 
-  /// @brief Method Update, addr 0x2235848, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x223e300, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateEffect, addr 0x223584c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateEffect, addr 0x223e304, size 0x1a8, virtual false, abstract: false, final false
   inline void UpdateEffect();
 
-  /// @brief Method UpdateRenderers, addr 0x2235c34, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method UpdateRenderers, addr 0x223e6ec, size 0x15c, virtual false, abstract: false, final false
   inline void UpdateRenderers(float_t flipBookAlpha, float_t bloomAlpha);
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -163,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set__sustainDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x2235d90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x223e848, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -217,7 +217,7 @@ public:
   float_t ____lastFadeOutProgress;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18886 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

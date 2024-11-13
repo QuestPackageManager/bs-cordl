@@ -39,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::__ConnectionErrorDialogViewController____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <Init>b__0, addr 0x3b9909c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__0, addr 0x3baef00, size 0x1c, virtual false, abstract: false, final false
   inline void _Init_b__0(int32_t btnIdx);
 
   constexpr ::System::Action*& __cordl_internal_get_buttonAction();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonAction(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b9908c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3baeef0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   ::System::Action* ___buttonAction;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4853 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,12 +89,12 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__ConnectionErrorDialogViewController____c__DisplayClass0_0;
 
-  /// @brief Method Init, addr 0x3b98ef0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3baed54, size 0x19c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DisconnectedReason reason, ::System::Action* buttonAction);
 
   static inline ::GlobalNamespace::ConnectionErrorDialogViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b99094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3baeef8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,7 +112,7 @@ public:
   ConnectionErrorDialogViewController(ConnectionErrorDialogViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4854 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

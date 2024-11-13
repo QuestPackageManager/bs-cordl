@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__UserResult_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4099630, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40add48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
-  /// @brief Method .ctor, addr 0x4099608, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40add20, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t result);
 
-  /// @brief Method get_Error, addr 0x4099600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x40add18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
 
-  /// @brief Method get_UserResult, addr 0x40995f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserResult, addr 0x40add10, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserResult();
 
 protected:
@@ -83,7 +83,7 @@ public:
   ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* ____Error_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9108 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

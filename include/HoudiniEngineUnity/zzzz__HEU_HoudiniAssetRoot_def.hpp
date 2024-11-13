@@ -34,21 +34,21 @@ public:
   /// @brief Field _houdiniAsset, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__houdiniAsset, put = __cordl_internal_set__houdiniAsset)) ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _houdiniAsset;
 
-  /// @brief Method ClearHoudiniEngineReferences, addr 0x39ba44c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ClearHoudiniEngineReferences, addr 0x39cdda4, size 0x74, virtual false, abstract: false, final false
   inline void ClearHoudiniEngineReferences();
 
-  /// @brief Method DestroyRootComponent, addr 0x39ba4c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DestroyRootComponent, addr 0x39cde18, size 0x10, virtual false, abstract: false, final false
   static inline void DestroyRootComponent(::HoudiniEngineUnity::HEU_HoudiniAssetRoot* assetRoot);
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniAssetRoot* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39ba1a0, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39cdaf8, size 0x1d0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x39ba370, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x39cdcc8, size 0xdc, virtual false, abstract: false, final false
   inline void RemoveHoudiniEngineAssetData();
 
-  /// @brief Method Reset, addr 0x39ba4d0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x39cde28, size 0xe8, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__bakeTargets();
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__houdiniAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  /// @brief Method .ctor, addr 0x39ba5b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39cdf10, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* ____bakeTargets;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11589 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,13 +26,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE Vector2Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clamp, addr 0x227609c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x22810e0, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2 value, ::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
 
-  /// @brief Method Clamp, addr 0x22760c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x2281104, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2 value, ::UnityEngine::Rect within);
 
-  /// @brief Method SignedAngleToLine, addr 0x2275ee8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method SignedAngleToLine, addr 0x2280f2c, size 0x1b4, virtual false, abstract: false, final false
   static inline float_t SignedAngleToLine(::UnityEngine::Vector2 vec, ::UnityEngine::Vector2 line);
 
 protected:
@@ -50,7 +50,7 @@ public:
   Vector2Extensions(Vector2Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17212 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

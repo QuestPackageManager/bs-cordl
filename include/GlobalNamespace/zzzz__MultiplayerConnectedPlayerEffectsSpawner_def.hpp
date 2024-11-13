@@ -41,15 +41,15 @@ public:
   /// @brief Field _noteDebrisSpawner, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__noteDebrisSpawner, put = __cordl_internal_set__noteDebrisSpawner)) ::UnityW<::GlobalNamespace::NoteDebrisSpawner> _noteDebrisSpawner;
 
-  /// @brief Method HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut, addr 0x3b3cffc, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut, addr 0x3b52cac, size 0x1cc, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b3cefc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b52bac, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b3ce08, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b52ab8, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& __cordl_internal_get__beatmapObjectEventManager();
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__noteDebrisSpawner(::UnityW<::GlobalNamespace::NoteDebrisSpawner> value);
 
-  /// @brief Method .ctor, addr 0x3b3d1c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b52e78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* ____beatmapObjectEventManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4466 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

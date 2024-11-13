@@ -93,7 +93,7 @@ public:
   __SortColumnDescriptions__UxmlObjectFactory_1(__SortColumnDescriptions__UxmlObjectFactory_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -148,7 +148,7 @@ public:
   ::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::SortColumnDescription*>* ___m_SortColumnDescriptions;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5634 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -186,33 +186,33 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x4985bc0, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x499a2d8, size 0xb4, virtual true, abstract: false, final true
   inline void Add(::UnityEngine::UIElements::SortColumnDescription* item);
 
-  /// @brief Method Clear, addr 0x4984428, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x4998b40, size 0x140, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x4985fa8, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x499a6c0, size 0xac, virtual true, abstract: false, final true
   inline bool Contains(::UnityEngine::UIElements::SortColumnDescription* item);
 
-  /// @brief Method CopyTo, addr 0x4986054, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x499a76c, size 0xbc, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::UnityEngine::UIElements::SortColumnDescription*, ::Array<::UnityEngine::UIElements::SortColumnDescription*>*> array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator, addr 0x4985b1c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x499a234, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::SortColumnDescription*>* GetEnumerator();
 
-  /// @brief Method Insert, addr 0x4985c74, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x499a38c, size 0x1bc, virtual false, abstract: false, final false
   inline void Insert(int32_t index, ::UnityEngine::UIElements::SortColumnDescription* desc);
 
   static inline ::UnityEngine::UIElements::SortColumnDescriptions* New_ctor();
 
-  /// @brief Method OnDescriptionChanged, addr 0x4986110, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDescriptionChanged, addr 0x499a828, size 0x1c, virtual false, abstract: false, final false
   inline void OnDescriptionChanged(::UnityEngine::UIElements::SortColumnDescription* desc);
 
-  /// @brief Method Remove, addr 0x4985e30, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x499a548, size 0x178, virtual true, abstract: false, final true
   inline bool Remove(::UnityEngine::UIElements::SortColumnDescription* desc);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4985bbc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x499a2d4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Action*& __cordl_internal_get_changed();
@@ -227,16 +227,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Descriptions(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::SortColumnDescription*>* value);
 
-  /// @brief Method .ctor, addr 0x4984770, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4998e88, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_changed, addr 0x49859e4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_changed, addr 0x499a0fc, size 0x9c, virtual false, abstract: false, final false
   inline void add_changed(::System::Action* value);
 
-  /// @brief Method get_Count, addr 0x498612c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x499a844, size 0xa0, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x49861cc, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x499a8e4, size 0xa4, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::UnityEngine::UIElements::SortColumnDescription*>"
@@ -250,7 +250,7 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method remove_changed, addr 0x4985a80, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_changed, addr 0x499a198, size 0x9c, virtual false, abstract: false, final false
   inline void remove_changed(::System::Action* value);
 
 protected:
@@ -274,7 +274,7 @@ public:
   ::System::Action* ___changed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5635 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

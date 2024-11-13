@@ -45,46 +45,46 @@ namespace Oculus::Platform {
 class CORDL_TYPE AssetFile : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Delete, addr 0x3f12244, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x3f268d4, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* Delete(uint64_t assetFileID);
 
-  /// @brief Method DeleteById, addr 0x3f1239c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method DeleteById, addr 0x3f26a2c, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* DeleteById(uint64_t assetFileID);
 
-  /// @brief Method DeleteByName, addr 0x3f124f4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method DeleteByName, addr 0x3f26b84, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* DeleteByName(::StringW assetFileName);
 
-  /// @brief Method Download, addr 0x3f1264c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Download, addr 0x3f26cdc, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* Download(uint64_t assetFileID);
 
-  /// @brief Method DownloadById, addr 0x3f127a4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method DownloadById, addr 0x3f26e34, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* DownloadById(uint64_t assetFileID);
 
-  /// @brief Method DownloadByName, addr 0x3f128fc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method DownloadByName, addr 0x3f26f8c, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* DownloadByName(::StringW assetFileName);
 
-  /// @brief Method DownloadCancel, addr 0x3f12a54, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method DownloadCancel, addr 0x3f270e4, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult*>* DownloadCancel(uint64_t assetFileID);
 
-  /// @brief Method DownloadCancelById, addr 0x3f12bac, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method DownloadCancelById, addr 0x3f2723c, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult*>* DownloadCancelById(uint64_t assetFileID);
 
-  /// @brief Method DownloadCancelByName, addr 0x3f12d04, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method DownloadCancelByName, addr 0x3f27394, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult*>* DownloadCancelByName(::StringW assetFileName);
 
-  /// @brief Method GetList, addr 0x3f12e5c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetList, addr 0x3f274ec, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetailsList*>* GetList();
 
-  /// @brief Method SetDownloadUpdateNotificationCallback, addr 0x3f133b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetDownloadUpdateNotificationCallback, addr 0x3f27a44, size 0x74, virtual false, abstract: false, final false
   static inline void SetDownloadUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::AssetFileDownloadUpdate*>* callback);
 
-  /// @brief Method Status, addr 0x3f12fac, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Status, addr 0x3f2763c, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* Status(uint64_t assetFileID);
 
-  /// @brief Method StatusById, addr 0x3f13104, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method StatusById, addr 0x3f27794, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* StatusById(uint64_t assetFileID);
 
-  /// @brief Method StatusByName, addr 0x3f1325c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method StatusByName, addr 0x3f278ec, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* StatusByName(::StringW assetFileName);
 
 protected:
@@ -102,7 +102,7 @@ public:
   AssetFile(AssetFile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15404 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

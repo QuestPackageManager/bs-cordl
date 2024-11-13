@@ -79,7 +79,7 @@ public:
   static ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult const Supported;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17348 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -114,43 +114,43 @@ public:
   static __declspec(property(get = getStaticF_s_InputSubsystemDescriptors,
                              put = setStaticF_s_InputSubsystemDescriptors)) ::System::Collections::Generic::List_1<Il2CppObject*>* s_InputSubsystemDescriptors;
 
-  /// @brief Method CheckUnityVersionCompatibility, addr 0x47bcadc, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method CheckUnityVersionCompatibility, addr 0x47d11f4, size 0x318, virtual false, abstract: false, final false
   inline bool CheckUnityVersionCompatibility();
 
-  /// @brief Method Deinitialize, addr 0x47bcfc0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x47d16d8, size 0x7c, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
-  /// @brief Method GetSettings, addr 0x47bd284, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetSettings, addr 0x47d199c, size 0x48, virtual false, abstract: false, final false
   inline ::UnityW<::Unity::XR::Oculus::OculusSettings> GetSettings();
 
-  /// @brief Method Initialize, addr 0x47bc75c, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x47d0e74, size 0x380, virtual true, abstract: false, final false
   inline bool Initialize();
 
-  /// @brief Method IsDeviceSupported, addr 0x47bc600, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsDeviceSupported, addr 0x47d0d18, size 0x90, virtual false, abstract: false, final false
   static inline ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult IsDeviceSupported();
 
   static inline ::Unity::XR::Oculus::OculusLoader* New_ctor();
 
-  /// @brief Method RuntimeLoadOVRPlugin, addr 0x47bd0dc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method RuntimeLoadOVRPlugin, addr 0x47d17f4, size 0x1a4, virtual false, abstract: false, final false
   static inline void RuntimeLoadOVRPlugin();
 
-  /// @brief Method Start, addr 0x47bcec8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x47d15e0, size 0x7c, virtual true, abstract: false, final false
   inline bool Start();
 
-  /// @brief Method Stop, addr 0x47bcf44, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Stop, addr 0x47d165c, size 0x7c, virtual true, abstract: false, final false
   inline bool Stop();
 
-  /// @brief Method .ctor, addr 0x47bd2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d19e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* getStaticF_s_DisplaySubsystemDescriptors();
 
   static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_s_InputSubsystemDescriptors();
 
-  /// @brief Method get_displaySubsystem, addr 0x47bc694, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_displaySubsystem, addr 0x47d0dac, size 0x64, virtual false, abstract: false, final false
   inline Il2CppObject* get_displaySubsystem();
 
-  /// @brief Method get_inputSubsystem, addr 0x47bc6f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_inputSubsystem, addr 0x47d0e10, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRInputSubsystem* get_inputSubsystem();
 
   static inline void setStaticF_s_DisplaySubsystemDescriptors(::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* value);
@@ -172,7 +172,7 @@ public:
   OculusLoader(OculusLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17349 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

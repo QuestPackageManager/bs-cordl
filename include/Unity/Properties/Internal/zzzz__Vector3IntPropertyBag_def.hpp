@@ -48,10 +48,10 @@ public:
 
   static inline ::Unity::Properties::Internal::__Vector3IntPropertyBag__XProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x489b57c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48afc94, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x489b654, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x48afd6c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -69,7 +69,7 @@ public:
   __Vector3IntPropertyBag__XProperty(__Vector3IntPropertyBag__XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,10 +89,10 @@ public:
 
   static inline ::Unity::Properties::Internal::__Vector3IntPropertyBag__YProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x489b5c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48afcdc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x489b694, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x48afdac, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -110,7 +110,7 @@ public:
   __Vector3IntPropertyBag__YProperty(__Vector3IntPropertyBag__YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17462 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -130,10 +130,10 @@ public:
 
   static inline ::Unity::Properties::Internal::__Vector3IntPropertyBag__ZProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x489b60c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48afd24, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x489b6d4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x48afdec, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -151,7 +151,7 @@ public:
   __Vector3IntPropertyBag__ZProperty(__Vector3IntPropertyBag__ZProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17463 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -175,7 +175,7 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector3IntPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x489a658, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48aed70, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -193,7 +193,7 @@ public:
   Vector3IntPropertyBag(Vector3IntPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17464 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

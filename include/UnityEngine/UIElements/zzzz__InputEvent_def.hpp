@@ -33,10 +33,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__InputEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49ae874, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49c2f8c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::InputEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49ae86c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c2f84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__InputEvent____c* getStaticF___9();
@@ -58,7 +58,7 @@ public:
   __InputEvent____c(__InputEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -86,13 +86,13 @@ public:
 
   __declspec(property(put = set_previousData)) ::StringW previousData;
 
-  /// @brief Method GetPooled, addr 0x49ae710, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x49c2e28, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::InputEvent* GetPooled(::StringW previousData, ::StringW newData);
 
-  /// @brief Method Init, addr 0x49ae6a8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49c2dc0, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49ae700, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x49c2e18, size 0x10, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::InputEvent* New_ctor();
@@ -109,13 +109,13 @@ public:
 
   constexpr void __cordl_internal_set__previousData_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x49ae794, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c2eac, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_newData, addr 0x49ae6a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_newData, addr 0x49c2db8, size 0x8, virtual false, abstract: false, final false
   inline void set_newData(::StringW value);
 
-  /// @brief Method set_previousData, addr 0x49ae698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousData, addr 0x49c2db0, size 0x8, virtual false, abstract: false, final false
   inline void set_previousData(::StringW value);
 
 protected:
@@ -139,7 +139,7 @@ public:
   ::StringW ____newData_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
 
-  /// @brief Method .ctor, addr 0x49028e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916ffc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
   /// @brief Method get_activeItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -122,7 +122,7 @@ public:
   ::UnityEngine::UIElements::ScrollView* ___m_ScrollView;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -42,16 +42,16 @@ public:
   /// @brief Convert operator to "::System::Security::ISecurityEncodable"
   constexpr operator ::System::Security::ISecurityEncodable*() noexcept;
 
-  /// @brief Method CheckPermissionState, addr 0x3c1e5bc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CheckPermissionState, addr 0x3c32c4c, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Security::Permissions::PermissionState CheckPermissionState(::System::Security::Permissions::PermissionState state, bool allowUnrestricted);
 
-  /// @brief Method Demand, addr 0x3c1e370, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Demand, addr 0x3c32a00, size 0x2c, virtual true, abstract: false, final true
   inline void Demand();
 
-  /// @brief Method Equals, addr 0x3c1e468, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c32af8, size 0x124, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3c1e58c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3c32c1c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method IsSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -59,16 +59,16 @@ public:
 
   static inline ::System::Security::CodeAccessPermission* New_ctor();
 
-  /// @brief Method System.Security.IPermission.Demand, addr 0x3c1e668, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Security.IPermission.Demand, addr 0x3c32cf8, size 0x4, virtual true, abstract: false, final true
   inline void System_Security_IPermission_Demand();
 
-  /// @brief Method ToString, addr 0x3c1e594, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c32c24, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method ToXml, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method .ctor, addr 0x3c1e368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c329f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Security::IPermission"

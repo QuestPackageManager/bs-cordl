@@ -46,7 +46,7 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x4ac7c6c, size 0x17c, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x4adc384, size 0x17c, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorCached* New_ctor(::Zenject::ISubContainerCreator* subCreator);
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__subCreator(::Zenject::ISubContainerCreator* value);
 
-  /// @brief Method .ctor, addr 0x4ac7c44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4adc35c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ISubContainerCreator* subCreator);
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"
@@ -99,7 +99,7 @@ public:
   ::Zenject::DiContainer* ____subContainer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12598 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

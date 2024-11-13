@@ -38,13 +38,13 @@ public:
 
   static inline ::GlobalNamespace::FlyingCar* New_ctor();
 
-  /// @brief Method Start, addr 0x3b21a0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b36ed8, size 0x44, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b21a94, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b36f60, size 0x60, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePos, addr 0x3b21a50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdatePos, addr 0x3b36f1c, size 0x44, virtual false, abstract: false, final false
   inline void UpdatePos();
 
   constexpr float_t const& __cordl_internal_get__endZ() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__startZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b21af4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b36fc0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   ::UnityEngine::Vector3 ____pos;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

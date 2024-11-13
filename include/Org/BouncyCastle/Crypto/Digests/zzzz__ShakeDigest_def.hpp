@@ -39,25 +39,25 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IXof"
   constexpr operator ::Org::BouncyCastle::Crypto::IXof*() noexcept;
 
-  /// @brief Method CheckBitLength, addr 0x22f2180, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CheckBitLength, addr 0x22fd228, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t CheckBitLength(int32_t bitLength);
 
-  /// @brief Method Copy, addr 0x22f2604, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x22fd6ac, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal, addr 0x22f2388, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x22fd430, size 0x50, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal, addr 0x22f23d8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x22fd480, size 0x44, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t outLen);
 
-  /// @brief Method DoFinal, addr 0x22f24e8, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x22fd590, size 0x11c, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t outLen, uint8_t partialByte, int32_t partialBits);
 
-  /// @brief Method DoFinal, addr 0x22f2480, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x22fd528, size 0x68, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, uint8_t partialByte, int32_t partialBits);
 
-  /// @brief Method DoOutput, addr 0x22f241c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method DoOutput, addr 0x22fd4c4, size 0x64, virtual true, abstract: false, final false
   inline int32_t DoOutput(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t outLen);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::ShakeDigest* New_ctor();
@@ -66,16 +66,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::ShakeDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::ShakeDigest* source);
 
-  /// @brief Method .ctor, addr 0x22f2224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fd2cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x22f222c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fd2d4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitLength);
 
-  /// @brief Method .ctor, addr 0x22f229c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fd344, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::ShakeDigest* source);
 
-  /// @brief Method get_AlgorithmName, addr 0x22f2304, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x22fd3ac, size 0x84, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"

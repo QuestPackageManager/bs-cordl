@@ -67,7 +67,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaExternal* New_ctor();
 
-  /// @brief Method SetUnhandledAttributes, addr 0x42479b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetUnhandledAttributes, addr 0x425c0d0, size 0x8, virtual true, abstract: false, final false
   inline void SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> moreAttributes);
 
   constexpr ::System::Uri*& __cordl_internal_get_baseUri();
@@ -106,43 +106,43 @@ public:
 
   constexpr void __cordl_internal_set_schema(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method .ctor, addr 0x42479d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x425c0e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseUri, addr 0x4247998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseUri, addr 0x425c0b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_BaseUri();
 
-  /// @brief Method get_Compositor, addr 0x42479c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Compositor, addr 0x425c0d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::Compositor get_Compositor();
 
-  /// @brief Method get_Id, addr 0x4247988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x425c0a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_IdAttribute, addr 0x42479a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IdAttribute, addr 0x425c0c0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_IdAttribute();
 
-  /// @brief Method get_Schema, addr 0x4247978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schema, addr 0x425c090, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* get_Schema();
 
-  /// @brief Method get_SchemaLocation, addr 0x4247968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaLocation, addr 0x425c080, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SchemaLocation();
 
-  /// @brief Method set_BaseUri, addr 0x42479a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseUri, addr 0x425c0b8, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseUri(::System::Uri* value);
 
-  /// @brief Method set_Compositor, addr 0x42479c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Compositor, addr 0x425c0e0, size 0x8, virtual false, abstract: false, final false
   inline void set_Compositor(::System::Xml::Schema::Compositor value);
 
-  /// @brief Method set_Id, addr 0x4247990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x425c0a8, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_IdAttribute, addr 0x42479b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IdAttribute, addr 0x425c0c8, size 0x8, virtual true, abstract: false, final false
   inline void set_IdAttribute(::StringW value);
 
-  /// @brief Method set_Schema, addr 0x4247980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Schema, addr 0x425c098, size 0x8, virtual false, abstract: false, final false
   inline void set_Schema(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method set_SchemaLocation, addr 0x4247970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaLocation, addr 0x425c088, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaLocation(::StringW value);
 
 protected:
@@ -178,7 +178,7 @@ public:
   ::System::Xml::Schema::Compositor ___compositor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7647 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

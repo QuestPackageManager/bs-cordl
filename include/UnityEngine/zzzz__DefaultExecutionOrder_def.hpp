@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x48310ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4845804, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t order);
 
-  /// @brief Method get_order, addr 0x4830e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x4845530, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
 protected:
@@ -57,7 +57,7 @@ public:
   int32_t ___m_Order;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10831 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

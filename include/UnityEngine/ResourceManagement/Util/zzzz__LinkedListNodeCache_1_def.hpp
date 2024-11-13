@@ -91,7 +91,7 @@ public:
   ::System::Collections::Generic::LinkedList_1<T>* ___m_NodeCache;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15601 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -40,10 +40,10 @@ public:
                       put = __cordl_internal_set_timeStampAndCrls)) ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>
       timeStampAndCrls;
 
-  /// @brief Method GetInstance, addr 0x22d0bb0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22dbc58, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0x22d0b98, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22dbc40, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -53,10 +53,10 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> timeStampAndCrls);
 
-  /// @brief Method ToAsn1Object, addr 0x22d0ccc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22dbd74, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToTimeStampAndCrlArray, addr 0x22d0c54, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToTimeStampAndCrlArray, addr 0x22dbcfc, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> ToTimeStampAndCrlArray();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> const& __cordl_internal_get_timeStampAndCrls() const;
@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set_timeStampAndCrls(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> value);
 
-  /// @brief Method .ctor, addr 0x22d080c, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22db8b4, size 0x38c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x22d0764, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22db80c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* timeStampAndCrl);
 
-  /// @brief Method .ctor, addr 0x22d073c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22db7e4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> timeStampAndCrls);
 
 protected:

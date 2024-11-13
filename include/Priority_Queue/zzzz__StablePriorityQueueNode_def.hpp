@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__InsertionIndex_k__BackingField(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2261cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226cc68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InsertionIndex, addr 0x2261ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InsertionIndex, addr 0x226cc58, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_InsertionIndex();
 
-  /// @brief Method set_InsertionIndex, addr 0x2261cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InsertionIndex, addr 0x226cc60, size 0x8, virtual false, abstract: false, final false
   inline void set_InsertionIndex(int64_t value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   int64_t ____InsertionIndex_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16904 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

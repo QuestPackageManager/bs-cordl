@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__displayName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x47b9aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47ce1c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x47b9ab4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47ce1cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW buildSettingsKey);
 
-  /// @brief Method get_buildSettingsKey, addr 0x47b9a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildSettingsKey, addr 0x47ce1b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildSettingsKey();
 
-  /// @brief Method get_displayName, addr 0x47b9a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x47ce1a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method set_buildSettingsKey, addr 0x47b9aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buildSettingsKey, addr 0x47ce1bc, size 0x8, virtual false, abstract: false, final false
   inline void set_buildSettingsKey(::StringW value);
 
-  /// @brief Method set_displayName, addr 0x47b9a94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x47ce1ac, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::StringW ____buildSettingsKey_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

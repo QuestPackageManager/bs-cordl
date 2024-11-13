@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_writeMask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4a5164c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a65d64, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -189,7 +189,7 @@ public:
   ::UnityEngine::Rendering::ColorWriteMask ___colorMask;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15102 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -230,25 +230,25 @@ public:
   /// @brief Field m_List, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_List, put = setStaticF_m_List)) ::System::Collections::Generic::List_1<::UnityEngine::UI::__StencilMaterial__MatEntry*>* m_List;
 
-  /// @brief Method Add, addr 0x4a50ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4a652c0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID);
 
-  /// @brief Method Add, addr 0x4a50bb0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4a652c8, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID, ::UnityEngine::Rendering::StencilOp operation,
                                                       ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
 
-  /// @brief Method Add, addr 0x4a50c3c, size 0x968, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4a65354, size 0x968, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID, ::UnityEngine::Rendering::StencilOp operation,
                                                       ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask, int32_t readMask,
                                                       int32_t writeMask);
 
-  /// @brief Method ClearAll, addr 0x4a5181c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ClearAll, addr 0x4a65f34, size 0x120, virtual false, abstract: false, final false
   static inline void ClearAll();
 
-  /// @brief Method LogWarningWhenNotInBatchmode, addr 0x4a515a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LogWarningWhenNotInBatchmode, addr 0x4a65cbc, size 0xa8, virtual false, abstract: false, final false
   static inline void LogWarningWhenNotInBatchmode(::StringW warning, ::UnityEngine::Object* context);
 
-  /// @brief Method Remove, addr 0x4a5165c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4a65d74, size 0x1c0, virtual false, abstract: false, final false
   static inline void Remove(::UnityEngine::Material* customMat);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::__StencilMaterial__MatEntry*>* getStaticF_m_List();
@@ -270,7 +270,7 @@ public:
   StencilMaterial(StencilMaterial const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15103 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

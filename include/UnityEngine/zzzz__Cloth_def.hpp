@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set__useContinuousCollision_k__BackingField(float_t value);
 
-  /// @brief Method set_externalAcceleration, addr 0x47e77bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration, addr 0x47fbed4, size 0x54, virtual false, abstract: false, final false
   inline void set_externalAcceleration(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_externalAcceleration_Injected, addr 0x47e7810, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration_Injected, addr 0x47fbf28, size 0x44, virtual false, abstract: false, final false
   inline void set_externalAcceleration_Injected(ByRef<::UnityEngine::Vector3> value);
 
 protected:
@@ -72,7 +72,7 @@ public:
   bool ____selfCollision_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18956 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

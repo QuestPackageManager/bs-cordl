@@ -29,7 +29,7 @@ template <typename T>
 constexpr void
 System::Threading::Tasks::__Task__WhenAllPromise_1<T>::__cordl_internal_set_m_tasks(::ArrayW<::System::Threading::Tasks::Task_1<T>*, ::Array<::System::Threading::Tasks::Task_1<T>*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_tasks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_tasks, value);
 }
 template <typename T> constexpr int32_t& System::Threading::Tasks::__Task__WhenAllPromise_1<T>::__cordl_internal_get_m_count() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

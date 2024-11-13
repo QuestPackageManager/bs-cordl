@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShadowMask(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x47fe78c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4812ea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   ::UnityW<::UnityEngine::Texture2D> ___m_ShadowMask;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10687 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

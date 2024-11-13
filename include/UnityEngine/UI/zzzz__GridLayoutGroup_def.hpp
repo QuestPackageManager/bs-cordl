@@ -90,7 +90,7 @@ public:
   static ::UnityEngine::UI::__GridLayoutGroup__Corner const UpperRight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15054 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -146,7 +146,7 @@ public:
   static ::UnityEngine::UI::__GridLayoutGroup__Axis const Vertical;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15055 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -206,7 +206,7 @@ public:
   static ::UnityEngine::UI::__GridLayoutGroup__Constraint const Flexible;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15056 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -263,21 +263,21 @@ public:
 
   __declspec(property(get = get_startCorner, put = set_startCorner)) ::UnityEngine::UI::__GridLayoutGroup__Corner startCorner;
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4a3d874, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4a51f8c, size 0x1cc, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x4a3de78, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x4a52590, size 0x208, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
   static inline ::UnityEngine::UI::GridLayoutGroup* New_ctor();
 
-  /// @brief Method SetCellsAlongAxis, addr 0x4a3e11c, size 0x78c, virtual false, abstract: false, final false
+  /// @brief Method SetCellsAlongAxis, addr 0x4a52834, size 0x78c, virtual false, abstract: false, final false
   inline void SetCellsAlongAxis(int32_t axis);
 
-  /// @brief Method SetLayoutHorizontal, addr 0x4a3e114, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x4a5282c, size 0x8, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x4a3e8a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x4a52fc0, size 0x8, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_CellSize() const;
@@ -316,43 +316,43 @@ public:
 
   constexpr void __cordl_internal_set_m_StartCorner(::UnityEngine::UI::__GridLayoutGroup__Corner value);
 
-  /// @brief Method .ctor, addr 0x4a3d6f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a51e08, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cellSize, addr 0x4a3d54c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cellSize, addr 0x4a51c64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_cellSize();
 
-  /// @brief Method get_constraint, addr 0x4a3d624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_constraint, addr 0x4a51d3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__GridLayoutGroup__Constraint get_constraint();
 
-  /// @brief Method get_constraintCount, addr 0x4a3d688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_constraintCount, addr 0x4a51da0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_constraintCount();
 
-  /// @brief Method get_spacing, addr 0x4a3d5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spacing, addr 0x4a51cd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_spacing();
 
-  /// @brief Method get_startAxis, addr 0x4a3d4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startAxis, addr 0x4a51c00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__GridLayoutGroup__Axis get_startAxis();
 
-  /// @brief Method get_startCorner, addr 0x4a3d484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startCorner, addr 0x4a51b9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__GridLayoutGroup__Corner get_startCorner();
 
-  /// @brief Method set_cellSize, addr 0x4a3d554, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_cellSize, addr 0x4a51c6c, size 0x64, virtual false, abstract: false, final false
   inline void set_cellSize(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_constraint, addr 0x4a3d62c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_constraint, addr 0x4a51d44, size 0x5c, virtual false, abstract: false, final false
   inline void set_constraint(::UnityEngine::UI::__GridLayoutGroup__Constraint value);
 
-  /// @brief Method set_constraintCount, addr 0x4a3d690, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_constraintCount, addr 0x4a51da8, size 0x60, virtual false, abstract: false, final false
   inline void set_constraintCount(int32_t value);
 
-  /// @brief Method set_spacing, addr 0x4a3d5c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_spacing, addr 0x4a51cd8, size 0x64, virtual false, abstract: false, final false
   inline void set_spacing(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_startAxis, addr 0x4a3d4f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_startAxis, addr 0x4a51c08, size 0x5c, virtual false, abstract: false, final false
   inline void set_startAxis(::UnityEngine::UI::__GridLayoutGroup__Axis value);
 
-  /// @brief Method set_startCorner, addr 0x4a3d48c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_startCorner, addr 0x4a51ba4, size 0x5c, virtual false, abstract: false, final false
   inline void set_startCorner(::UnityEngine::UI::__GridLayoutGroup__Corner value);
 
 protected:
@@ -388,7 +388,7 @@ public:
   int32_t ___m_ConstraintCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15057 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

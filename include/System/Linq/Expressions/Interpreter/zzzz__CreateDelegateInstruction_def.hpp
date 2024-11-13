@@ -38,7 +38,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::CreateDelegateInstruction* New_ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator);
 
-  /// @brief Method Run, addr 0x4080ee4, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40955fc, size 0x16c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Linq::Expressions::Interpreter::LightDelegateCreator*& __cordl_internal_get__creator();
@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set__creator(::System::Linq::Expressions::Interpreter::LightDelegateCreator* value);
 
-  /// @brief Method .ctor, addr 0x4080e50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4095568, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator);
 
-  /// @brief Method get_ConsumedStack, addr 0x4080e78, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x4095590, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x4080ea4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40955bc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4080e9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40955b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -77,7 +77,7 @@ public:
   ::System::Linq::Expressions::Interpreter::LightDelegateCreator* ____creator;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14065 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

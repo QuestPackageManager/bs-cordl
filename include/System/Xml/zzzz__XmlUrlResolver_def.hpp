@@ -70,10 +70,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x42eca08, size 0x3cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4301120, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x42ecdd4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x43014ec, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -111,7 +111,7 @@ public:
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7343 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -156,15 +156,15 @@ public:
   /// @brief Field s_DownloadManager, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_DownloadManager, put = setStaticF_s_DownloadManager)) ::System::Object* s_DownloadManager;
 
-  /// @brief Method GetEntity, addr 0x42ec788, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method GetEntity, addr 0x4300ea0, size 0x178, virtual true, abstract: false, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
-  /// @brief Method GetEntityAsync, addr 0x42ec904, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GetEntityAsync, addr 0x430101c, size 0x104, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   static inline ::System::Xml::XmlUrlResolver* New_ctor();
 
-  /// @brief Method ResolveUri, addr 0x42ec900, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResolveUri, addr 0x4301018, size 0x4, virtual true, abstract: false, final false
   inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
 
   constexpr ::System::Net::Cache::RequestCachePolicy*& __cordl_internal_get__cachePolicy();
@@ -185,12 +185,12 @@ public:
 
   constexpr void __cordl_internal_set__proxy(::System::Net::IWebProxy* value);
 
-  /// @brief Method .ctor, addr 0x42ec780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4300e98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_s_DownloadManager();
 
-  /// @brief Method get_DownloadManager, addr 0x42ec6b4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_DownloadManager, addr 0x4300dcc, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDownloadManager* get_DownloadManager();
 
   static inline void setStaticF_s_DownloadManager(::System::Object* value);
@@ -219,7 +219,7 @@ public:
   ::System::Net::Cache::RequestCachePolicy* ____cachePolicy;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7344 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

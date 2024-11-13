@@ -20,7 +20,7 @@ constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& UnityE
 template <typename T0, typename T1, typename T2>
 constexpr void UnityEngine::Events::UnityEvent_3<T0, T1, T2>::__cordl_internal_set_m_InvokeArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_InvokeArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_InvokeArray, value);
 }
 template <typename T0, typename T1, typename T2> inline ::UnityEngine::Events::UnityEvent_3<T0, T1, T2>* UnityEngine::Events::UnityEvent_3<T0, T1, T2>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::UnityEvent_3<T0, T1, T2>*>());

@@ -33,16 +33,16 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::StoreFieldInstruction* New_ctor(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method Run, addr 0x40535b0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4067cc8, size 0x58, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4053540, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4067c58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method get_ConsumedStack, addr 0x40535a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x4067cc0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x4053568, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x4067c80, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -60,7 +60,7 @@ public:
   StoreFieldInstruction(StoreFieldInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

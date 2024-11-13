@@ -68,7 +68,7 @@ public:
   static ::GlobalNamespace::__DrawIfAttribute__DisablingType const ReadOnly;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19065 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -132,10 +132,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x225e938, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269878, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
-  /// @brief Method .ctor, addr 0x225e974, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22698b4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
 protected:
@@ -165,7 +165,7 @@ public:
   ::GlobalNamespace::__DrawIfAttribute__DisablingType ___disablingType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

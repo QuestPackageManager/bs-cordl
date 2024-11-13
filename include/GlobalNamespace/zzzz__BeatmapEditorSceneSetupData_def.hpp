@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__levelDirPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3ac4e78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad8a68, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelDirPath, ::StringW levelAssetPath);
 
-  /// @brief Method get_levelAssetPath, addr 0x3ac4e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelAssetPath, addr 0x3ad8a60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelAssetPath();
 
-  /// @brief Method get_levelDirPath, addr 0x3ac4e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelDirPath, addr 0x3ad8a58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelDirPath();
 
 protected:
@@ -74,7 +74,7 @@ public:
   ::StringW ____levelAssetPath;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5211 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

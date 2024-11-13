@@ -31,10 +31,10 @@ public:
   /// @brief Field textureUnloaded, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_textureUnloaded, put = setStaticF_textureUnloaded)) ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* textureUnloaded;
 
-  /// @brief Method InvokeOnTextureLoaded_Internal, addr 0x47fb8e4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnTextureLoaded_Internal, addr 0x480fffc, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeOnTextureLoaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
-  /// @brief Method InvokeOnTextureUnloaded_Internal, addr 0x47fb950, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnTextureUnloaded_Internal, addr 0x4810068, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeOnTextureUnloaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* getStaticF_textureLoaded();
@@ -60,7 +60,7 @@ public:
   CustomRenderTextureManager(CustomRenderTextureManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10676 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

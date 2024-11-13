@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set__trophyId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26a74d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b329c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_achievement, addr 0x26a74d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_achievement, addr 0x26b3294, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::AchievementSO> get_achievement();
 
-  /// @brief Method get_achievementId, addr 0x26a7264, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_achievementId, addr 0x26b3028, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_achievementId();
 
-  /// @brief Method get_ps4TrophyId, addr 0x26a74c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps4TrophyId, addr 0x26b328c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ps4TrophyId();
 
 protected:
@@ -99,7 +99,7 @@ public:
   ::UnityW<::GlobalNamespace::AchievementSO> ____achievement;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13143 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -135,18 +135,18 @@ public:
 
   __declspec(property(get = get_achievementsIds)) ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>* achievementsIds;
 
-  /// @brief Method GetAchievementId, addr 0x26a7354, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetAchievementId, addr 0x26b3118, size 0x68, virtual false, abstract: false, final false
   inline bool GetAchievementId(int32_t trophyId, ByRef<::StringW> achievementId);
 
-  /// @brief Method GetTrophyId, addr 0x26a7280, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetTrophyId, addr 0x26b3044, size 0x68, virtual false, abstract: false, final false
   inline bool GetTrophyId(::StringW achievementId, ByRef<int32_t> trophyId);
 
-  /// @brief Method GetTrophyIds, addr 0x26a72e8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetTrophyIds, addr 0x26b30ac, size 0x6c, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetTrophyIds();
 
   static inline ::GlobalNamespace::SonyAchievementIdsModelSO* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x26a7034, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x26b2df8, size 0x230, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get__achievementIdToTrophyId();
@@ -168,10 +168,10 @@ public:
 
   constexpr void __cordl_internal_set__trophyIdToAchievementId(::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x26a73bc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b3180, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_achievementsIds, addr 0x26a702c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_achievementsIds, addr 0x26b2df0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>* get_achievementsIds();
 
 protected:
@@ -198,7 +198,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* ____trophyIdToAchievementId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13144 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_password(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4451d50, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4466468, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW username, ::StringW password);
 
 protected:
@@ -52,7 +52,7 @@ public:
   ::StringW ___password;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9663 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

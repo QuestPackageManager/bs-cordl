@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_trailTintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3b70688, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8617c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3b706a8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8619c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color trailTintColor);
 
 protected:
@@ -77,7 +77,7 @@ public:
   ::UnityEngine::Color ___trailTintColor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -112,7 +112,7 @@ public:
 
   static inline ::GlobalNamespace::SaberModelContainer* New_ctor();
 
-  /// @brief Method Start, addr 0x3b70400, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b85ef4, size 0x94, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
@@ -139,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set__saberModelControllerPrefab(::UnityW<::GlobalNamespace::SaberModelController> value);
 
-  /// @brief Method .ctor, addr 0x3b70620, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b86114, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -169,7 +169,7 @@ public:
   ::GlobalNamespace::__SaberModelContainer__InitData* ____initData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4646 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

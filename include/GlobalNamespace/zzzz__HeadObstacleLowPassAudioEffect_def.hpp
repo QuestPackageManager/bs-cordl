@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::HeadObstacleLowPassAudioEffect* New_ctor();
 
-  /// @brief Method Update, addr 0x3b1234c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b2779c, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__headWasInObstacle() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
 
-  /// @brief Method .ctor, addr 0x3b123a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b277f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   bool ____headWasInObstacle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4247 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

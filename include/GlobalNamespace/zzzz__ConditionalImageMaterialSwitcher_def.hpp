@@ -40,7 +40,7 @@ public:
   /// @brief Field _value, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::UnityW<::GlobalNamespace::BoolSO> _value;
 
-  /// @brief Method Awake, addr 0x3ab9b4c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3acd6ec, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalImageMaterialSwitcher* New_ctor();
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x3ab9bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acd76c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   ::UnityW<::UnityEngine::UI::Image> ____image;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5141 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

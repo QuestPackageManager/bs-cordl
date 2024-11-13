@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 struct __PSVR2Helper__HeadsetHapticFrequencyLimit;
 }
 namespace GlobalNamespace {
-class __PSVR2Helper___CheckControllerConnectionOnStartup_d__72;
+class __PSVR2Helper___CheckControllerConnectionOnStartup_d__71;
 }
 namespace GlobalNamespace {
 class __PSVR2Helper____c;
@@ -88,7 +88,7 @@ namespace GlobalNamespace {
 class PSVR2Helper;
 }
 namespace GlobalNamespace {
-class __PSVR2Helper___CheckControllerConnectionOnStartup_d__72;
+class __PSVR2Helper___CheckControllerConnectionOnStartup_d__71;
 }
 namespace GlobalNamespace {
 class __PSVR2Helper____c;
@@ -98,7 +98,7 @@ struct __PSVR2Helper__HeadsetHapticFrequencyLimit;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PSVR2Helper);
-MARK_REF_PTR_T(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72);
+MARK_REF_PTR_T(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71);
 MARK_REF_PTR_T(::GlobalNamespace::__PSVR2Helper____c);
 MARK_VAL_T(::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit);
 // Type: ::HeadsetHapticFrequencyLimit
@@ -109,7 +109,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __PSVR2Helper__HeadsetHapticFrequencyLimit {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x396492c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39781b0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t maxTimePlayed, int32_t maximumFrequency);
 
   // Ctor Parameters []
@@ -126,7 +126,7 @@ public:
   int32_t maximumFrequency;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16440 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -152,24 +152,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__PSVR2Helper____c* __9;
 
-  /// @brief Field <>9__52_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__52_0, put = setStaticF___9__52_0)) ::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>* __9__52_0;
+  /// @brief Field <>9__51_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__51_0, put = setStaticF___9__51_0)) ::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>* __9__51_0;
 
   static inline ::GlobalNamespace::__PSVR2Helper____c* New_ctor();
 
-  /// @brief Method <HasAnyVRControllerConnected>b__52_0, addr 0x396499c, size 0x9c, virtual false, abstract: false, final false
-  inline bool _HasAnyVRControllerConnected_b__52_0(::UnityEngine::InputSystem::InputDevice* device);
+  /// @brief Method <HasAnyVRControllerConnected>b__51_0, addr 0x3978220, size 0x9c, virtual false, abstract: false, final false
+  inline bool _HasAnyVRControllerConnected_b__51_0(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method .ctor, addr 0x3964994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3978218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__PSVR2Helper____c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>* getStaticF___9__52_0();
+  static inline ::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>* getStaticF___9__51_0();
 
   static inline void setStaticF___9(::GlobalNamespace::__PSVR2Helper____c* value);
 
-  static inline void setStaticF___9__52_0(::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>* value);
+  static inline void setStaticF___9__51_0(::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>* value);
 
 protected:
   // Ctor Parameters []
@@ -186,7 +186,7 @@ public:
   __PSVR2Helper____c(__PSVR2Helper____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -194,12 +194,12 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PSVR2Helper____c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<CheckControllerConnectionOnStartup>d__72
+// Type: ::<CheckControllerConnectionOnStartup>d__71
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PSVR2Helper::<CheckControllerConnectionOnStartup>d__72*
-class CORDL_TYPE __PSVR2Helper___CheckControllerConnectionOnStartup_d__72 : public ::System::Object {
+// CS Name: ::PSVR2Helper::<CheckControllerConnectionOnStartup>d__71*
+class CORDL_TYPE __PSVR2Helper___CheckControllerConnectionOnStartup_d__71 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -227,21 +227,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3964a3c, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39782c0, size 0xc4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3964b00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3978384, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3964b08, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x397838c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3964b40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39783c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3964a38, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39782bc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -268,7 +268,7 @@ public:
 
   constexpr void __cordl_internal_set_delayInSeconds(float_t value);
 
-  /// @brief Method .ctor, addr 0x39646f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3977f74, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -283,16 +283,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PSVR2Helper___CheckControllerConnectionOnStartup_d__72();
+  constexpr __PSVR2Helper___CheckControllerConnectionOnStartup_d__71();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PSVR2Helper___CheckControllerConnectionOnStartup_d__72", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__PSVR2Helper___CheckControllerConnectionOnStartup_d__71", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PSVR2Helper___CheckControllerConnectionOnStartup_d__72(__PSVR2Helper___CheckControllerConnectionOnStartup_d__72&&) = delete;
+  __PSVR2Helper___CheckControllerConnectionOnStartup_d__71(__PSVR2Helper___CheckControllerConnectionOnStartup_d__71&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PSVR2Helper___CheckControllerConnectionOnStartup_d__72", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__PSVR2Helper___CheckControllerConnectionOnStartup_d__71", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PSVR2Helper___CheckControllerConnectionOnStartup_d__72(__PSVR2Helper___CheckControllerConnectionOnStartup_d__72 const&) = delete;
+  __PSVR2Helper___CheckControllerConnectionOnStartup_d__71(__PSVR2Helper___CheckControllerConnectionOnStartup_d__71 const&) = delete;
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -307,20 +307,20 @@ public:
   ::UnityW<::GlobalNamespace::PSVR2Helper> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16442 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72, ___delayInSeconds) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71, ___delayInSeconds) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72, _____4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71, _____4__this) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::PSVR2Helper
@@ -333,7 +333,7 @@ public:
   // Declarations
   using HeadsetHapticFrequencyLimit = ::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit;
 
-  using _CheckControllerConnectionOnStartup_d__72 = ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72;
+  using _CheckControllerConnectionOnStartup_d__71 = ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71;
 
   using __c = ::GlobalNamespace::__PSVR2Helper____c;
 
@@ -368,9 +368,6 @@ public:
 
   /// @brief Field _menuButtonDown, offset 0x69, size 0x1
   __declspec(property(get = __cordl_internal_get__menuButtonDown, put = __cordl_internal_set__menuButtonDown)) bool _menuButtonDown;
-
-  /// @brief Field _menuButtonDownLastFrame, offset 0x6a, size 0x1
-  __declspec(property(get = __cordl_internal_get__menuButtonDownLastFrame, put = __cordl_internal_set__menuButtonDownLastFrame)) bool _menuButtonDownLastFrame;
 
   /// @brief Field _rightController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__rightController, put = __cordl_internal_set__rightController)) ::GlobalNamespace::__UnityXRController__Configuration* _rightController;
@@ -418,75 +415,75 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVRPlatformHelper"
   constexpr operator ::GlobalNamespace::IVRPlatformHelper*() noexcept;
 
-  /// @brief Method AddControllerToMap, addr 0x3964414, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method AddControllerToMap, addr 0x3977c98, size 0x26c, virtual false, abstract: false, final false
   inline void AddControllerToMap(::UnityEngine::XR::XRNode forNode, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method AdjustControllerTransform, addr 0x3963d80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AdjustControllerTransform, addr 0x3977604, size 0x4, virtual false, abstract: false, final false
   inline void AdjustControllerTransform(::UnityEngine::XR::XRNode node, ::UnityEngine::Transform* transform, ::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation);
 
-  /// @brief Method Awake, addr 0x39637c8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x397704c, size 0x25c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CheckControllerConnectionOnStartup, addr 0x3964680, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CheckControllerConnectionOnStartup, addr 0x3977f04, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CheckControllerConnectionOnStartup(float_t delayInSeconds);
 
-  /// @brief Method GetAnyJoystickMaxAxis, addr 0x3963c74, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetAnyJoystickMaxAxis, addr 0x39774f8, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 GetAnyJoystickMaxAxis();
 
-  /// @brief Method GetMenuButton, addr 0x3963d54, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetMenuButton, addr 0x39775d8, size 0x4, virtual true, abstract: false, final true
   inline bool GetMenuButton();
 
-  /// @brief Method GetMenuButtonDown, addr 0x3963d58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMenuButtonDown, addr 0x39775dc, size 0x8, virtual true, abstract: false, final true
   inline bool GetMenuButtonDown();
 
-  /// @brief Method GetNodePose, addr 0x3963b00, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method GetNodePose, addr 0x3977384, size 0x16c, virtual true, abstract: false, final true
   inline bool GetNodePose(::UnityEngine::XR::XRNode nodeType, int32_t idx, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);
 
-  /// @brief Method GetTRCCompliantHeadsetHapticFrequency, addr 0x3963e24, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetTRCCompliantHeadsetHapticFrequency, addr 0x39776a8, size 0x200, virtual false, abstract: false, final false
   inline int32_t GetTRCCompliantHeadsetHapticFrequency(float_t initialFrequency);
 
-  /// @brief Method GetThumbstickValue, addr 0x3963c78, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method GetThumbstickValue, addr 0x39774fc, size 0xd4, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 GetThumbstickValue(::UnityEngine::XR::XRNode nodeType);
 
-  /// @brief Method GetTriggerValue, addr 0x3963c6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetTriggerValue, addr 0x39774f0, size 0x8, virtual true, abstract: false, final true
   inline float_t GetTriggerValue(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method HandleApplicationInputFocusLost, addr 0x3964068, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationInputFocusLost, addr 0x39778ec, size 0x20, virtual false, abstract: false, final false
   inline void HandleApplicationInputFocusLost();
 
-  /// @brief Method HandleApplicationInputFocusResumed, addr 0x3964088, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationInputFocusResumed, addr 0x397790c, size 0x24, virtual false, abstract: false, final false
   inline void HandleApplicationInputFocusResumed();
 
-  /// @brief Method HandleApplicationVRFocusLost, addr 0x3964024, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationVRFocusLost, addr 0x39778a8, size 0x20, virtual false, abstract: false, final false
   inline void HandleApplicationVRFocusLost();
 
-  /// @brief Method HandleApplicationVRFocusResumed, addr 0x3964044, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationVRFocusResumed, addr 0x39778c8, size 0x24, virtual false, abstract: false, final false
   inline void HandleApplicationVRFocusResumed();
 
-  /// @brief Method HasAnyVRControllerConnected, addr 0x396366c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HasAnyVRControllerConnected, addr 0x3976ef0, size 0x15c, virtual false, abstract: false, final false
   inline bool HasAnyVRControllerConnected();
 
-  /// @brief Method InputDeviceChangeTriggered, addr 0x39640ac, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method InputDeviceChangeTriggered, addr 0x3977930, size 0x368, virtual false, abstract: false, final false
   inline void InputDeviceChangeTriggered(::UnityEngine::InputSystem::InputDevice* inputDevice, ::UnityEngine::InputSystem::InputDeviceChange inputDeviceChange);
 
-  /// @brief Method IsAdvancedHapticsSupported, addr 0x3963d4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsAdvancedHapticsSupported, addr 0x39775d0, size 0x8, virtual true, abstract: false, final true
   inline bool IsAdvancedHapticsSupported(::UnityEngine::XR::XRNode node);
 
   static inline ::GlobalNamespace::PSVR2Helper* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3964718, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3977f9c, size 0xa4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshControllersReference, addr 0x3963d60, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method RefreshControllersReference, addr 0x39775e4, size 0x1c, virtual true, abstract: false, final true
   inline void RefreshControllersReference();
 
-  /// @brief Method StopHaptics, addr 0x3963d7c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method StopHaptics, addr 0x3977600, size 0x4, virtual true, abstract: false, final true
   inline void StopHaptics(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method TriggerHapticPulse, addr 0x3963d84, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method TriggerHapticPulse, addr 0x3977608, size 0xa0, virtual true, abstract: false, final true
   inline void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float_t duration, float_t strength, float_t frequency);
 
-  /// @brief Method TryGetPoseOffsetForNode, addr 0x3963ae0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method TryGetPoseOffsetForNode, addr 0x3977364, size 0x20, virtual true, abstract: false, final true
   inline bool TryGetPoseOffsetForNode(::UnityEngine::XR::XRNode node, ByRef<::UnityEngine::Pose> poseOffset);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::GlobalNamespace::UnityXRController*>*& __cordl_internal_get__controllers();
@@ -527,10 +524,6 @@ public:
   constexpr bool const& __cordl_internal_get__menuButtonDown() const;
 
   constexpr bool& __cordl_internal_get__menuButtonDown();
-
-  constexpr bool const& __cordl_internal_get__menuButtonDownLastFrame() const;
-
-  constexpr bool& __cordl_internal_get__menuButtonDownLastFrame();
 
   constexpr ::GlobalNamespace::__UnityXRController__Configuration*& __cordl_internal_get__rightController();
 
@@ -594,8 +587,6 @@ public:
 
   constexpr void __cordl_internal_set__menuButtonDown(bool value);
 
-  constexpr void __cordl_internal_set__menuButtonDownLastFrame(bool value);
-
   constexpr void __cordl_internal_set__rightController(::GlobalNamespace::__UnityXRController__Configuration* value);
 
   constexpr void __cordl_internal_set__timeWhenStartedPlayingHaptic(float_t value);
@@ -618,76 +609,76 @@ public:
 
   constexpr void __cordl_internal_set_vrFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x39647bc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3978040, size 0x170, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_controllersDidChangeReferenceEvent, addr 0x3962b54, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_controllersDidChangeReferenceEvent, addr 0x39763d8, size 0x9c, virtual true, abstract: false, final true
   inline void add_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  /// @brief Method add_controllersDidDisconnectEvent, addr 0x3963534, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_controllersDidDisconnectEvent, addr 0x3976db8, size 0x9c, virtual true, abstract: false, final true
   inline void add_controllersDidDisconnectEvent(::System::Action* value);
 
-  /// @brief Method add_hmdMountedEvent, addr 0x39633fc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_hmdMountedEvent, addr 0x3976c80, size 0x9c, virtual true, abstract: false, final true
   inline void add_hmdMountedEvent(::System::Action* value);
 
-  /// @brief Method add_hmdUnmountedEvent, addr 0x39632c4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_hmdUnmountedEvent, addr 0x3976b48, size 0x9c, virtual true, abstract: false, final true
   inline void add_hmdUnmountedEvent(::System::Action* value);
 
-  /// @brief Method add_inputFocusWasCapturedEvent, addr 0x3962de4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_inputFocusWasCapturedEvent, addr 0x3976668, size 0x9c, virtual true, abstract: false, final true
   inline void add_inputFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method add_inputFocusWasReleasedEvent, addr 0x3962f1c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_inputFocusWasReleasedEvent, addr 0x39767a0, size 0x9c, virtual true, abstract: false, final true
   inline void add_inputFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method add_vrControllersDisconnectedOnStartupEvent, addr 0x3962c8c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_vrControllersDisconnectedOnStartupEvent, addr 0x3976510, size 0x9c, virtual false, abstract: false, final false
   inline void add_vrControllersDisconnectedOnStartupEvent(::System::Action* value);
 
-  /// @brief Method add_vrFocusWasCapturedEvent, addr 0x3963054, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_vrFocusWasCapturedEvent, addr 0x39768d8, size 0x9c, virtual true, abstract: false, final true
   inline void add_vrFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method add_vrFocusWasReleasedEvent, addr 0x396318c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_vrFocusWasReleasedEvent, addr 0x3976a10, size 0x9c, virtual true, abstract: false, final true
   inline void add_vrFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method get_hasInputFocus, addr 0x3962dc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasInputFocus, addr 0x3976648, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasInputFocus();
 
-  /// @brief Method get_hasVrFocus, addr 0x3962dcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasVrFocus, addr 0x3976650, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasVrFocus();
 
-  /// @brief Method get_isAlwaysWireless, addr 0x3962dd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isAlwaysWireless, addr 0x3976658, size 0x8, virtual true, abstract: false, final true
   inline bool get_isAlwaysWireless();
 
-  /// @brief Method get_vrPlatformSDK, addr 0x3962ddc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_vrPlatformSDK, addr 0x3976660, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::VRPlatformSDK get_vrPlatformSDK();
 
   /// @brief Convert to "::GlobalNamespace::IVRPlatformHelper"
   constexpr ::GlobalNamespace::IVRPlatformHelper* i___GlobalNamespace__IVRPlatformHelper() noexcept;
 
-  /// @brief Method remove_controllersDidChangeReferenceEvent, addr 0x3962bf0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_controllersDidChangeReferenceEvent, addr 0x3976474, size 0x9c, virtual true, abstract: false, final true
   inline void remove_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  /// @brief Method remove_controllersDidDisconnectEvent, addr 0x39635d0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_controllersDidDisconnectEvent, addr 0x3976e54, size 0x9c, virtual true, abstract: false, final true
   inline void remove_controllersDidDisconnectEvent(::System::Action* value);
 
-  /// @brief Method remove_hmdMountedEvent, addr 0x3963498, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_hmdMountedEvent, addr 0x3976d1c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_hmdMountedEvent(::System::Action* value);
 
-  /// @brief Method remove_hmdUnmountedEvent, addr 0x3963360, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_hmdUnmountedEvent, addr 0x3976be4, size 0x9c, virtual true, abstract: false, final true
   inline void remove_hmdUnmountedEvent(::System::Action* value);
 
-  /// @brief Method remove_inputFocusWasCapturedEvent, addr 0x3962e80, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_inputFocusWasCapturedEvent, addr 0x3976704, size 0x9c, virtual true, abstract: false, final true
   inline void remove_inputFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method remove_inputFocusWasReleasedEvent, addr 0x3962fb8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_inputFocusWasReleasedEvent, addr 0x397683c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_inputFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method remove_vrControllersDisconnectedOnStartupEvent, addr 0x3962d28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_vrControllersDisconnectedOnStartupEvent, addr 0x39765ac, size 0x9c, virtual false, abstract: false, final false
   inline void remove_vrControllersDisconnectedOnStartupEvent(::System::Action* value);
 
-  /// @brief Method remove_vrFocusWasCapturedEvent, addr 0x39630f0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_vrFocusWasCapturedEvent, addr 0x3976974, size 0x9c, virtual true, abstract: false, final true
   inline void remove_vrFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method remove_vrFocusWasReleasedEvent, addr 0x3963228, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_vrFocusWasReleasedEvent, addr 0x3976aac, size 0x9c, virtual true, abstract: false, final true
   inline void remove_vrFocusWasReleasedEvent(::System::Action* value);
 
 protected:
@@ -731,9 +722,6 @@ public:
   /// @brief Field _menuButtonDown, offset: 0x69, size: 0x1, def value: None
   bool ____menuButtonDown;
 
-  /// @brief Field _menuButtonDownLastFrame, offset: 0x6a, size: 0x1, def value: None
-  bool ____menuButtonDownLastFrame;
-
   /// @brief Field _maximumHapticFrequencyLimits, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit>* ____maximumHapticFrequencyLimits;
 
@@ -768,7 +756,7 @@ public:
   ::System::Action* ___controllersDidDisconnectEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16443 };
 
   /// @brief Field kLeftControllerName offset 0xffffffff size 0x8
   static constexpr ::ConstString kLeftControllerName{ u"PSVR2ControllerLeft" };
@@ -805,8 +793,6 @@ static_assert(offsetof(::GlobalNamespace::PSVR2Helper, ____hasInputFocus) == 0x6
 
 static_assert(offsetof(::GlobalNamespace::PSVR2Helper, ____menuButtonDown) == 0x69, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PSVR2Helper, ____menuButtonDownLastFrame) == 0x6a, "Offset mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PSVR2Helper, ____maximumHapticFrequencyLimits) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PSVR2Helper, ___controllersDidChangeReferenceEvent) == 0x78, "Offset mismatch!");
@@ -832,8 +818,8 @@ static_assert(offsetof(::GlobalNamespace::PSVR2Helper, ___controllersDidDisconne
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PSVR2Helper);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PSVR2Helper*, "", "PSVR2Helper");
-NEED_NO_BOX(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*, "", "PSVR2Helper/<CheckControllerConnectionOnStartup>d__72");
+NEED_NO_BOX(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*, "", "PSVR2Helper/<CheckControllerConnectionOnStartup>d__71");
 NEED_NO_BOX(::GlobalNamespace::__PSVR2Helper____c);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PSVR2Helper____c*, "", "PSVR2Helper/<>c");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit, "", "PSVR2Helper/HeadsetHapticFrequencyLimit");

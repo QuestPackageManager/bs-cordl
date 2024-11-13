@@ -43,10 +43,10 @@ public:
 
   static inline ::System::__LocalAppContext____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x40befe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d36fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_DisableCaching>b__6_0, addr 0x40befec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <get_DisableCaching>b__6_0, addr 0x40d3704, size 0x78, virtual false, abstract: false, final false
   inline bool _get_DisableCaching_b__6_0();
 
   static inline ::System::__LocalAppContext____c* getStaticF___9();
@@ -72,7 +72,7 @@ public:
   __LocalAppContext____c(__LocalAppContext____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11298 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -99,10 +99,10 @@ public:
   /// @brief Field s_syncObject, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_syncObject, put = setStaticF_s_syncObject)) ::System::Object* s_syncObject;
 
-  /// @brief Method GetCachedSwitchValue, addr 0x40bedc4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetCachedSwitchValue, addr 0x40d34dc, size 0x20, virtual false, abstract: false, final false
   static inline bool GetCachedSwitchValue(::StringW switchName, ByRef<int32_t> switchValue);
 
-  /// @brief Method GetCachedSwitchValueInternal, addr 0x40bede4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetCachedSwitchValueInternal, addr 0x40d34fc, size 0x94, virtual false, abstract: false, final false
   static inline bool GetCachedSwitchValueInternal(::StringW switchName, ByRef<int32_t> switchValue);
 
   static inline bool getStaticF_s_disableCaching();
@@ -111,7 +111,7 @@ public:
 
   static inline ::System::Object* getStaticF_s_syncObject();
 
-  /// @brief Method get_DisableCaching, addr 0x40bee78, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_DisableCaching, addr 0x40d3590, size 0x110, virtual false, abstract: false, final false
   static inline bool get_DisableCaching();
 
   static inline void setStaticF_s_disableCaching(bool value);
@@ -135,7 +135,7 @@ public:
   LocalAppContext(LocalAppContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11299 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

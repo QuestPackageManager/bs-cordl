@@ -25,13 +25,13 @@ namespace System {
 struct CORDL_TYPE DateTimeRawInfo {
 public:
   // Declarations
-  /// @brief Method AddNumber, addr 0x3d6e3b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AddNumber, addr 0x3d82a44, size 0x18, virtual false, abstract: false, final false
   inline void AddNumber(int32_t value);
 
-  /// @brief Method GetNumber, addr 0x3d6e3cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetNumber, addr 0x3d82a5c, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetNumber(int32_t index);
 
-  /// @brief Method Init, addr 0x3d6e394, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3d82a24, size 0x20, virtual false, abstract: false, final false
   inline void Init(::cordl_internals::Ptr<int32_t> numberBuffer);
 
   // Ctor Parameters []

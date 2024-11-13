@@ -82,7 +82,7 @@ UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get
 }
 template <typename T> constexpr void UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_set__easingCurve_k__BackingField(::System::Func_2<float_t, float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____easingCurve_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____easingCurve_k__BackingField, value);
 }
 template <typename T> constexpr bool& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__isRunning_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -107,8 +107,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEng
 }
 template <typename T> constexpr void UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_set__onAnimationCompleted_k__BackingField(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onAnimationCompleted_k__BackingField)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____onAnimationCompleted_k__BackingField, value);
 }
 template <typename T> constexpr bool& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__autoRecycle_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -146,7 +145,7 @@ UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get
 }
 template <typename T> constexpr void UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_set__owner_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____owner_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____owner_k__BackingField, value);
 }
 template <typename T>
 constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>*& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__valueUpdated_k__BackingField() {
@@ -162,7 +161,7 @@ UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get
 template <typename T>
 constexpr void UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_set__valueUpdated_k__BackingField(::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____valueUpdated_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____valueUpdated_k__BackingField, value);
 }
 template <typename T>
 constexpr ::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>*& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__initialValue_k__BackingField() {
@@ -178,7 +177,7 @@ UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get
 template <typename T>
 constexpr void UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_set__initialValue_k__BackingField(::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initialValue_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____initialValue_k__BackingField, value);
 }
 template <typename T> constexpr ::System::Func_4<T, T, float_t, T>*& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__interpolator_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -192,7 +191,7 @@ UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get
 }
 template <typename T> constexpr void UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_set__interpolator_k__BackingField(::System::Func_4<T, T, float_t, T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____interpolator_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____interpolator_k__BackingField, value);
 }
 template <typename T> constexpr T& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get__from() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -204,7 +203,7 @@ template <typename T> constexpr T const& UnityEngine::UIElements::Experimental::
 }
 template <typename T> constexpr void UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_set__from(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____from)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____from, value);
 }
 template <typename T> constexpr bool& UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_get_fromValueSet() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -228,7 +227,7 @@ template <typename T> constexpr T const& UnityEngine::UIElements::Experimental::
 }
 template <typename T> constexpr void UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::__cordl_internal_set__to_k__BackingField(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____to_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____to_k__BackingField, value);
 }
 template <typename T>
 inline void

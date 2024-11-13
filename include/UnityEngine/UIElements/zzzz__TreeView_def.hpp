@@ -52,7 +52,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__TreeView__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4993214, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a792c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   __TreeView__UxmlFactory(__TreeView__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5680 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -88,7 +88,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__TreeView__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x499325c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a7974, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,7 +106,7 @@ public:
   __TreeView__UxmlTraits(__TreeView__UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5676 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5681 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -148,10 +148,10 @@ public:
 
   __declspec(property(get = get_unbindItem)) ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* unbindItem;
 
-  /// @brief Method CreateViewController, addr 0x499311c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CreateViewController, addr 0x49a7834, size 0x68, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionViewController* CreateViewController();
 
-  /// @brief Method HasValidDataAndBindings, addr 0x49930dc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HasValidDataAndBindings, addr 0x49a77f4, size 0x40, virtual true, abstract: false, final false
   inline bool HasValidDataAndBindings();
 
   static inline ::UnityEngine::UIElements::TreeView* New_ctor();
@@ -183,28 +183,28 @@ public:
 
   constexpr void __cordl_internal_set_m_MakeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x4993184, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a789c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4993190, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a78a8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* makeItem, ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* bindItem);
 
-  /// @brief Method get_bindItem, addr 0x4993078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindItem, addr 0x49a7790, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_bindItem();
 
-  /// @brief Method get_destroyItem, addr 0x49930d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destroyItem, addr 0x49a77ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* get_destroyItem();
 
-  /// @brief Method get_makeItem, addr 0x4993024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeItem, addr 0x49a773c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeItem();
 
-  /// @brief Method get_unbindItem, addr 0x49930cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unbindItem, addr 0x49a77e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_unbindItem();
 
-  /// @brief Method set_bindItem, addr 0x4993080, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_bindItem, addr 0x49a7798, size 0x4c, virtual false, abstract: false, final false
   inline void set_bindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
-  /// @brief Method set_makeItem, addr 0x499302c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_makeItem, addr 0x49a7744, size 0x4c, virtual false, abstract: false, final false
   inline void set_makeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
 protected:
@@ -234,7 +234,7 @@ public:
   ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* ____destroyItem_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5682 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

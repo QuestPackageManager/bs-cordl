@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_xmlNode(::System::Xml::XmlNode* value);
 
-  /// @brief Method .ctor, addr 0x42f09e4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43050fc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* xmlNode, int32_t lineNumber, int32_t linePosition, ::System::Object* o);
 
 protected:
@@ -94,7 +94,7 @@ public:
   int32_t ___linePosition;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7362 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

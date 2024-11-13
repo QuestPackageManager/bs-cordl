@@ -87,7 +87,7 @@ public:
   static ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const ValueDuration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18546 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -155,7 +155,7 @@ public:
   static ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType const TooltipMarker;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18547 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -227,19 +227,19 @@ public:
 
   constexpr void __cordl_internal_set__visible(bool value);
 
-  /// @brief Method .ctor, addr 0x2243b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224eacc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_dataTransformation, addr 0x2243b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataTransformation, addr 0x224eab4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType get_dataTransformation();
 
-  /// @brief Method get_markerType, addr 0x2243b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markerType, addr 0x224eabc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType get_markerType();
 
-  /// @brief Method get_needsFiltering, addr 0x2243b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_needsFiltering, addr 0x224eac4, size 0x8, virtual false, abstract: false, final false
   inline bool get_needsFiltering();
 
-  /// @brief Method get_visible, addr 0x2243b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visible, addr 0x224eaac, size 0x8, virtual false, abstract: false, final false
   inline bool get_visible();
 
 protected:
@@ -269,7 +269,7 @@ public:
   bool ____needsFiltering;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18548 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

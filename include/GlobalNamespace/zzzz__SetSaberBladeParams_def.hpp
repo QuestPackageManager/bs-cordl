@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3b70c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b86768, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,7 +83,7 @@ public:
   ::StringW ___property;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4652 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -122,7 +122,7 @@ public:
 
   static inline ::GlobalNamespace::SetSaberBladeParams* New_ctor();
 
-  /// @brief Method Start, addr 0x3b70b68, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b8665c, size 0x104, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x3b70c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b86760, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -182,7 +182,7 @@ public:
   ::GlobalNamespace::ColorManager* ____colorManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4653 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

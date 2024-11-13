@@ -34,7 +34,7 @@ public:
 
   __declspec(property(get = get_displayMenuHandledOSX, put = set_displayMenuHandledOSX)) bool displayMenuHandledOSX;
 
-  /// @brief Method DisplayMenu, addr 0x49043ac, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method DisplayMenu, addr 0x4918ac4, size 0x3f4, virtual false, abstract: false, final false
   inline void DisplayMenu(::UnityEngine::UIElements::EventBase* triggerEvent, ::UnityEngine::UIElements::IEventHandler* target);
 
   /// @brief Method DisplayMenuIfEventMatches, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__displayMenuHandledOSX_k__BackingField(bool value);
 
-  /// @brief Method get_displayMenuHandledOSX, addr 0x4904398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayMenuHandledOSX, addr 0x4918ab0, size 0x8, virtual false, abstract: false, final false
   inline bool get_displayMenuHandledOSX();
 
-  /// @brief Method set_displayMenuHandledOSX, addr 0x49043a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_displayMenuHandledOSX, addr 0x4918ab8, size 0xc, virtual false, abstract: false, final false
   inline void set_displayMenuHandledOSX(bool value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   bool ____displayMenuHandledOSX_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5465 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

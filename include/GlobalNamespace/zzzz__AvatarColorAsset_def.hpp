@@ -45,7 +45,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x3abf48c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x3ad302c, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::AvatarColorAsset* New_ctor();
@@ -56,10 +56,10 @@ public:
 
   constexpr void __cordl_internal_set__template(::GlobalNamespace::AvatarColorBehaviour* value);
 
-  /// @brief Method .ctor, addr 0x3abf534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad30d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x3abf484, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x3ad3024, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -83,7 +83,7 @@ public:
   ::GlobalNamespace::AvatarColorBehaviour* ____template;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5169 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

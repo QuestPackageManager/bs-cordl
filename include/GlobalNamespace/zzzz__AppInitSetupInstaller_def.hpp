@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE AppInitSetupInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x26d5e28, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26e19a4, size 0x5c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::AppInitSetupInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26d5e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e1a00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   AppInitSetupInstaller(AppInitSetupInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17859 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

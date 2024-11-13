@@ -106,7 +106,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<TKey, int32_t>* ____referencesCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18511 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

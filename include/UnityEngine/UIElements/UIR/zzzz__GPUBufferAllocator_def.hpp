@@ -34,13 +34,13 @@ public:
   /// @brief Field m_Low, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Low, put = __cordl_internal_set_m_Low)) ::UnityEngine::UIElements::UIR::BestFitAllocator* m_Low;
 
-  /// @brief Method Allocate, addr 0x493c438, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x4950b50, size 0x12c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size, bool shortLived);
 
-  /// @brief Method Free, addr 0x493c564, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x4950c7c, size 0x84, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::Alloc alloc);
 
-  /// @brief Method HighLowCollide, addr 0x49405c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HighLowCollide, addr 0x4954ce0, size 0x38, virtual false, abstract: false, final false
   inline bool HighLowCollide();
 
   static inline ::UnityEngine::UIElements::UIR::GPUBufferAllocator* New_ctor(uint32_t maxSize);
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Low(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
 
-  /// @brief Method .ctor, addr 0x4940540, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4954c58, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(uint32_t maxSize);
 
-  /// @brief Method get_isEmpty, addr 0x4940600, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x4954d18, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
 protected:
@@ -84,7 +84,7 @@ public:
   ::UnityEngine::UIElements::UIR::BestFitAllocator* ___m_High;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6398 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

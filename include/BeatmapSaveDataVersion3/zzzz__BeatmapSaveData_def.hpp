@@ -262,7 +262,7 @@ public:
 
   constexpr void __cordl_internal_set_waypoints(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::WaypointData*>* value);
 
-  /// @brief Method .ctor, addr 0x26c7bac, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d389c, size 0xfc, virtual false, abstract: false, final false
   inline void
   _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEvents,
         ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::RotationEventData*>* rotationEvents,
@@ -346,7 +346,7 @@ public:
   bool ___useNormalEventsAsCompatibleEvents;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13359 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"3.3.0" };

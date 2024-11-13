@@ -104,7 +104,7 @@ public:
   static ::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType const Vector;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16205 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyType(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType value);
 
-  /// @brief Method .ctor, addr 0x396e38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3981c10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -182,7 +182,7 @@ public:
   int32_t ___propertyId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16204 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -251,27 +251,27 @@ public:
   /// @brief Field _worldSpaceCameraPosID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__worldSpaceCameraPosID, put = setStaticF__worldSpaceCameraPosID)) int32_t _worldSpaceCameraPosID;
 
-  /// @brief Method AutoFillRenderers, addr 0x396e1a4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AutoFillRenderers, addr 0x3981a28, size 0x50, virtual false, abstract: false, final false
   inline void AutoFillRenderers();
 
-  /// @brief Method Awake, addr 0x396d60c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3980e90, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetCachedFloatArray, addr 0x396e0cc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedFloatArray, addr 0x3981950, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetCachedFloatArray(::StringW propertyName);
 
-  /// @brief Method GetCachedMatrixArray, addr 0x396df1c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedMatrixArray, addr 0x39817a0, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> GetCachedMatrixArray(::StringW propertyName);
 
-  /// @brief Method GetCachedVectorArray, addr 0x396dff4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedVectorArray, addr 0x3981878, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> GetCachedVectorArray(::StringW propertyName);
 
-  /// @brief Method InitIfNeeded, addr 0x396d610, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x3980e94, size 0x250, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer* New_ctor();
 
-  /// @brief Method Render, addr 0x396d894, size 0x688, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x3981118, size 0x688, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
   constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get__commandBuffer();
@@ -340,7 +340,7 @@ public:
                                                                     ::Array<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*>*>
                                                                value);
 
-  /// @brief Method .ctor, addr 0x396e1f4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3981a78, size 0x130, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__worldSpaceCameraPosID();
@@ -391,7 +391,7 @@ public:
   ::UnityEngine::MaterialPropertyBlock* ____reusableGetMaterialPropertyBlock;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16206 };
 
   /// @brief Field kInternalMatricesCachingId offset 0xffffffff size 0x8
   static constexpr ::ConstString kInternalMatricesCachingId{ u"INTERNAL_MATRICES" };

@@ -8,13 +8,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(VisualMetronome)
 namespace UnityEngine::UI {
-class Image;
+class Graphic;
 }
 namespace UnityEngine {
 class AudioSource;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace UnityEngine {
 class RectTransform;
@@ -52,7 +49,7 @@ public:
   __declspec(property(get = __cordl_internal_get__movingTicker, put = __cordl_internal_set__movingTicker)) ::UnityW<::UnityEngine::RectTransform> _movingTicker;
 
   /// @brief Field _movingTickerImage, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__movingTickerImage, put = __cordl_internal_set__movingTickerImage)) ::UnityW<::UnityEngine::UI::Image> _movingTickerImage;
+  __declspec(property(get = __cordl_internal_get__movingTickerImage, put = __cordl_internal_set__movingTickerImage)) ::UnityW<::UnityEngine::UI::Graphic> _movingTickerImage;
 
   /// @brief Field _normalTickerSize, offset 0x54, size 0x8
   __declspec(property(get = __cordl_internal_get__normalTickerSize, put = __cordl_internal_set__normalTickerSize)) ::UnityEngine::Vector2 _normalTickerSize;
@@ -76,32 +73,28 @@ public:
   __declspec(property(get = __cordl_internal_get__ticker, put = __cordl_internal_set__ticker)) ::UnityW<::UnityEngine::RectTransform> _ticker;
 
   /// @brief Field _tickerImage, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__tickerImage, put = __cordl_internal_set__tickerImage)) ::UnityW<::UnityEngine::UI::Image> _tickerImage;
+  __declspec(property(get = __cordl_internal_get__tickerImage, put = __cordl_internal_set__tickerImage)) ::UnityW<::UnityEngine::UI::Graphic> _tickerImage;
 
   /// @brief Field _zeroOffset, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get__zeroOffset, put = __cordl_internal_set__zeroOffset)) float_t _zeroOffset;
 
-  __declspec(property(put = set_movingTickerColor)) ::UnityEngine::Color movingTickerColor;
-
-  __declspec(property(put = set_tickerColor)) ::UnityEngine::Color tickerColor;
-
   __declspec(property(get = get_zeroOffset, put = set_zeroOffset)) float_t zeroOffset;
 
-  /// @brief Method Awake, addr 0x3b7cd24, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b928a8, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::VisualMetronome* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b7ce04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b92988, size 0x48, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b7cdbc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b92940, size 0x48, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetMovingTickerNormalizedPosition, addr 0x3b7cf98, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetMovingTickerNormalizedPosition, addr 0x3b92b1c, size 0xa4, virtual false, abstract: false, final false
   inline void SetMovingTickerNormalizedPosition(float_t t);
 
-  /// @brief Method Update, addr 0x3b7ce4c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b929d0, size 0x14c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -128,9 +121,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__movingTicker();
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__movingTickerImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get__movingTickerImage() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__movingTickerImage();
+  constexpr ::UnityW<::UnityEngine::UI::Graphic>& __cordl_internal_get__movingTickerImage();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__normalTickerSize() const;
 
@@ -160,9 +153,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__ticker();
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__tickerImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get__tickerImage() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__tickerImage();
+  constexpr ::UnityW<::UnityEngine::UI::Graphic>& __cordl_internal_get__tickerImage();
 
   constexpr float_t const& __cordl_internal_get__zeroOffset() const;
 
@@ -180,7 +173,7 @@ public:
 
   constexpr void __cordl_internal_set__movingTicker(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr void __cordl_internal_set__movingTickerImage(::UnityW<::UnityEngine::UI::Image> value);
+  constexpr void __cordl_internal_set__movingTickerImage(::UnityW<::UnityEngine::UI::Graphic> value);
 
   constexpr void __cordl_internal_set__normalTickerSize(::UnityEngine::Vector2 value);
 
@@ -196,23 +189,17 @@ public:
 
   constexpr void __cordl_internal_set__ticker(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr void __cordl_internal_set__tickerImage(::UnityW<::UnityEngine::UI::Image> value);
+  constexpr void __cordl_internal_set__tickerImage(::UnityW<::UnityEngine::UI::Graphic> value);
 
   constexpr void __cordl_internal_set__zeroOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b7d03c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b92bc0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_zeroOffset, addr 0x3b7cd1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zeroOffset, addr 0x3b928a0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_zeroOffset();
 
-  /// @brief Method set_movingTickerColor, addr 0x3b7cce8, size 0x24, virtual false, abstract: false, final false
-  inline void set_movingTickerColor(::UnityEngine::Color value);
-
-  /// @brief Method set_tickerColor, addr 0x3b7ccc4, size 0x24, virtual false, abstract: false, final false
-  inline void set_tickerColor(::UnityEngine::Color value);
-
-  /// @brief Method set_zeroOffset, addr 0x3b7cd0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_zeroOffset, addr 0x3b92890, size 0x10, virtual false, abstract: false, final false
   inline void set_zeroOffset(float_t value);
 
 protected:
@@ -245,10 +232,10 @@ public:
   ::UnityW<::UnityEngine::RectTransform> ____movingTicker;
 
   /// @brief Field _tickerImage, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Image> ____tickerImage;
+  ::UnityW<::UnityEngine::UI::Graphic> ____tickerImage;
 
   /// @brief Field _movingTickerImage, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Image> ____movingTickerImage;
+  ::UnityW<::UnityEngine::UI::Graphic> ____movingTickerImage;
 
   /// @brief Field _metronomeInterval, offset: 0x50, size: 0x4, def value: None
   float_t ____metronomeInterval;
@@ -278,7 +265,7 @@ public:
   bool ____dontTickThisFrame;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

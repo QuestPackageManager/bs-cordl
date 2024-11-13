@@ -41,7 +41,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NewArrayInitInstruction* New_ctor(::System::Type* elementType, int32_t elementCount);
 
-  /// @brief Method Run, addr 0x404a4b8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x405ebd0, size 0x88, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr int32_t const& __cordl_internal_get__elementCount() const;
@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set__elementType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x404a438, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405eb50, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType, int32_t elementCount);
 
-  /// @brief Method get_ConsumedStack, addr 0x404a468, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x405eb80, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x404a478, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x405eb90, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x404a470, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x405eb88, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -89,7 +89,7 @@ public:
   int32_t ____elementCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13730 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

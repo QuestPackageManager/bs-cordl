@@ -107,7 +107,7 @@ public:
   bool runAutopilot;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5118 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5120 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
@@ -138,10 +138,10 @@ public:
 
   static inline ::GlobalNamespace::__RecordingToolManager____c* New_ctor();
 
-  /// @brief Method <.ctor>b__25_0, addr 0x3ab70d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__25_0, addr 0x3acac74, size 0x18, virtual false, abstract: false, final false
   inline bool __ctor_b__25_0(::GlobalNamespace::RecordingSettings* recordingSettings);
 
-  /// @brief Method .ctor, addr 0x3ab70cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acac6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__RecordingToolManager____c* getStaticF___9();
@@ -167,7 +167,7 @@ public:
   __RecordingToolManager____c(__RecordingToolManager____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5121 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -186,10 +186,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ab70ec, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3acac8c, size 0x2c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ab73b0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3acaf50, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -220,7 +220,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5122 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -306,22 +306,22 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method BindNextRecording, addr 0x3ab6d2c, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method BindNextRecording, addr 0x3aca8cc, size 0x344, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MenuDestination* BindNextRecording(::Zenject::DiContainer* container, ::GlobalNamespace::RecordingSettings* recordingSettings, bool quitAppAfterRun);
 
-  /// @brief Method Dispose, addr 0x3ab6b74, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3aca714, size 0x8c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish, addr 0x3ab6c9c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish, addr 0x3aca83c, size 0x90, virtual false, abstract: false, final false
   inline void HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish();
 
-  /// @brief Method Initialize, addr 0x3ab6894, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3aca434, size 0xa0, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::RecordingToolManager* New_ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor,
                                                                   ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method StartNextRecording, addr 0x3ab69d0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method StartNextRecording, addr 0x3aca570, size 0x1a4, virtual false, abstract: false, final false
   inline void StartNextRecording();
 
   constexpr ::StringW const& __cordl_internal_get__configJsonData() const;
@@ -390,26 +390,26 @@ public:
 
   constexpr void __cordl_internal_set__recordingToolSettings(::GlobalNamespace::RecordingToolSettings* value);
 
-  /// @brief Method .ctor, addr 0x3ab66f0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aca290, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor, ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
                     ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method get_configJsonData, addr 0x3ab66d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_configJsonData, addr 0x3aca278, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_configJsonData();
 
-  /// @brief Method get_performanceRecordingEnabled, addr 0x3ab66d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_performanceRecordingEnabled, addr 0x3aca270, size 0x8, virtual false, abstract: false, final false
   inline bool get_performanceRecordingEnabled();
 
-  /// @brief Method get_posesSerializer, addr 0x3ab66e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_posesSerializer, addr 0x3aca288, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IPosesSerializer* get_posesSerializer();
 
-  /// @brief Method get_recordingToolEnabled, addr 0x3ab66c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recordingToolEnabled, addr 0x3aca260, size 0x8, virtual false, abstract: false, final false
   inline bool get_recordingToolEnabled();
 
-  /// @brief Method get_recordingToolSettings, addr 0x3ab66e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recordingToolSettings, addr 0x3aca280, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecordingToolSettings* get_recordingToolSettings();
 
-  /// @brief Method get_showRecordingToolScene, addr 0x3ab66c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showRecordingToolScene, addr 0x3aca268, size 0x8, virtual false, abstract: false, final false
   inline bool get_showRecordingToolScene();
 
   /// @brief Convert to "::System::IDisposable"
@@ -466,7 +466,7 @@ public:
   int32_t ____currentRecordingIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5123 };
 
   /// @brief Field kRecordingToolId offset 0xffffffff size 0x8
   static constexpr ::ConstString kRecordingToolId{ u"RecordingTool" };

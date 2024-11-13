@@ -79,22 +79,22 @@ public:
 
   constexpr void __cordl_internal_set__topNode(::System::Xml::Schema::DoubleLinkAxis* value);
 
-  /// @brief Method .ctor, addr 0x431db38, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4332250, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::DoubleLinkAxis* axis, bool isdesorself);
 
-  /// @brief Method get_IsAttribute, addr 0x431db20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAttribute, addr 0x4332238, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAttribute();
 
-  /// @brief Method get_IsDss, addr 0x431db28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDss, addr 0x4332240, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDss();
 
-  /// @brief Method get_IsSelfAxis, addr 0x431db30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSelfAxis, addr 0x4332248, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSelfAxis();
 
-  /// @brief Method get_RootNode, addr 0x431db10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootNode, addr 0x4332228, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::DoubleLinkAxis* get_RootNode();
 
-  /// @brief Method get_TopNode, addr 0x431db18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TopNode, addr 0x4332230, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::DoubleLinkAxis* get_TopNode();
 
 protected:
@@ -127,7 +127,7 @@ public:
   bool ____isSelfAxis;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

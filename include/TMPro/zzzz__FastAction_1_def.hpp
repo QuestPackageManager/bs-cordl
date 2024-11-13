@@ -89,7 +89,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>* ___lookup;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

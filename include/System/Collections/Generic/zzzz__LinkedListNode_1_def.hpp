@@ -123,7 +123,7 @@ public:
   T ___item;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

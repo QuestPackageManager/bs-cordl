@@ -16,7 +16,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCo
 }
 template <typename T> constexpr void GlobalNamespace::AsyncComputeOperation_1<T>::__cordl_internal_set__tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____tcs, value);
 }
 template <typename T> inline ::System::Threading::Tasks::Task_1<T>* GlobalNamespace::AsyncComputeOperation_1<T>::get_task() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeOperation_1<T>*>::get(), "get_task",

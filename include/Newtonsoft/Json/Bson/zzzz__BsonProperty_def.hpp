@@ -49,19 +49,19 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  /// @brief Method .ctor, addr 0x3edd060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ef16f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x3edd584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3ef1c14, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Name();
 
-  /// @brief Method get_Value, addr 0x3edd594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3ef1c24, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonToken* get_Value();
 
-  /// @brief Method set_Name, addr 0x3edd58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x3ef1c1c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::Newtonsoft::Json::Bson::BsonString* value);
 
-  /// @brief Method set_Value, addr 0x3edd59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3ef1c2c, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::Newtonsoft::Json::Bson::BsonToken* value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::Newtonsoft::Json::Bson::BsonToken* ____Value_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10490 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

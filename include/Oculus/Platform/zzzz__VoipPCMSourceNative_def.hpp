@@ -31,18 +31,18 @@ public:
   /// @brief Convert operator to "::Oculus::Platform::IVoipPCMSource"
   constexpr operator ::Oculus::Platform::IVoipPCMSource*() noexcept;
 
-  /// @brief Method GetPCM, addr 0x3f18afc, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method GetPCM, addr 0x3f2d18c, size 0x8c, virtual true, abstract: false, final true
   inline int32_t GetPCM(::ArrayW<float_t, ::Array<float_t>*> dest, int32_t length);
 
   static inline ::Oculus::Platform::VoipPCMSourceNative* New_ctor();
 
-  /// @brief Method PeekSizeElements, addr 0x3f18b90, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method PeekSizeElements, addr 0x3f2d220, size 0x60, virtual true, abstract: false, final true
   inline int32_t PeekSizeElements();
 
-  /// @brief Method SetSenderID, addr 0x3f18b88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetSenderID, addr 0x3f2d218, size 0x8, virtual true, abstract: false, final true
   inline void SetSenderID(uint64_t senderID);
 
-  /// @brief Method Update, addr 0x3f18bf0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x3f2d280, size 0x4, virtual true, abstract: false, final true
   inline void Update();
 
   constexpr uint64_t const& __cordl_internal_get_senderID() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_senderID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f18028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2c6b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Oculus::Platform::IVoipPCMSource"
@@ -75,7 +75,7 @@ public:
   uint64_t ___senderID;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

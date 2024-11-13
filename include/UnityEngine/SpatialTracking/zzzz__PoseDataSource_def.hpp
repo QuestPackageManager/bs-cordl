@@ -41,13 +41,13 @@ public:
   /// @brief Field nodeStates, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_nodeStates, put = setStaticF_nodeStates)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates;
 
-  /// @brief Method GetDataFromSource, addr 0x489eab0, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method GetDataFromSource, addr 0x48b31c8, size 0x29c, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetDataFromSource(::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose poseSource, ByRef<::UnityEngine::Pose> resultPose);
 
-  /// @brief Method GetNodePoseData, addr 0x489e7c0, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method GetNodePoseData, addr 0x48b2ed8, size 0x280, virtual false, abstract: false, final false
   static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetNodePoseData(::UnityEngine::XR::XRNode node, ByRef<::UnityEngine::Pose> resultPose);
 
-  /// @brief Method TryGetDataFromSource, addr 0x489ea40, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryGetDataFromSource, addr 0x48b3158, size 0x70, virtual false, abstract: false, final false
   static inline bool TryGetDataFromSource(::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose poseSource, ByRef<::UnityEngine::Pose> resultPose);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeStates();
@@ -69,7 +69,7 @@ public:
   PoseDataSource(PoseDataSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18921 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

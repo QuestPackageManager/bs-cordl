@@ -22,7 +22,6 @@ module;
 #include "BeatmapDataLoaderVersion4/LightTranslationBaseDataConverter.hpp"
 #include "BeatmapDataLoaderVersion4/LightTranslationEventBoxGroupConverter.hpp"
 #include "BeatmapDataLoaderVersion4/ObstacleItemConverter.hpp"
-#include "BeatmapDataLoaderVersion4/SpawnRotationItemConverter.hpp"
 #include "BeatmapDataLoaderVersion4/SpecialEventsFilter.hpp"
 #include "BeatmapDataLoaderVersion4/WaypointItemConverter.hpp"
 #ifdef __cpp_modules

@@ -33,10 +33,10 @@ public:
 
   static inline ::GlobalNamespace::SignalOnUIButtonClick* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x395cb38, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39703bc, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x395cab0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3970334, size 0x88, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__buttonClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x395cc04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3970488, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   ::UnityW<::UnityEngine::UI::Button> ____button;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16407 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

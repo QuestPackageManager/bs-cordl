@@ -160,7 +160,7 @@ public:
   int32_t ____i_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16902 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -318,7 +318,7 @@ public:
   int64_t ____numNodesEverEnqueued;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16903 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

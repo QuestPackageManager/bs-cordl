@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonConstructorAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e01d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e16424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   JsonConstructorAttribute(JsonConstructorAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10031 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

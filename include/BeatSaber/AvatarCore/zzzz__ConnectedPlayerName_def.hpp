@@ -33,7 +33,7 @@ public:
 
   static inline ::BeatSaber::AvatarCore::ConnectedPlayerName* New_ctor();
 
-  /// @brief Method Start, addr 0x22197dc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2222290, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x22198a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2222354, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17526 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -45,7 +45,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaAnnotation* New_ctor();
 
-  /// @brief Method SetUnhandledAttributes, addr 0x42423a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetUnhandledAttributes, addr 0x4256abc, size 0x8, virtual true, abstract: false, final false
   inline void SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> moreAttributes);
 
   constexpr ::StringW const& __cordl_internal_get_id() const;
@@ -66,22 +66,22 @@ public:
 
   constexpr void __cordl_internal_set_moreAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> value);
 
-  /// @brief Method .ctor, addr 0x42423ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4256ac4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Id, addr 0x424237c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x4256a94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_IdAttribute, addr 0x4242394, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IdAttribute, addr 0x4256aac, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_IdAttribute();
 
-  /// @brief Method get_Items, addr 0x424238c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Items, addr 0x4256aa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
-  /// @brief Method set_Id, addr 0x4242384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x4256a9c, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_IdAttribute, addr 0x424239c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IdAttribute, addr 0x4256ab4, size 0x8, virtual true, abstract: false, final false
   inline void set_IdAttribute(::StringW value);
 
 protected:
@@ -108,7 +108,7 @@ public:
   ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> ___moreAttributes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7622 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

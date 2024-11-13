@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Net::Cache::RequestCachePolicy* New_ctor(::System::Net::Cache::RequestCacheLevel level);
 
-  /// @brief Method ToString, addr 0x4378308, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x438ca20, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Net::Cache::RequestCacheLevel const& __cordl_internal_get_m_Level() const;
@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Level(::System::Net::Cache::RequestCacheLevel value);
 
-  /// @brief Method .ctor, addr 0x43781fc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438c914, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Cache::RequestCacheLevel level);
 
-  /// @brief Method get_Level, addr 0x4378300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x438ca18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCacheLevel get_Level();
 
 protected:
@@ -64,7 +64,7 @@ public:
   ::System::Net::Cache::RequestCacheLevel ___m_Level;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

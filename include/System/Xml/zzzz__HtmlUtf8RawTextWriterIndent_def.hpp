@@ -39,30 +39,30 @@ public:
   /// @brief Field newLineOnAttributes, offset 0xd0, size 0x1
   __declspec(property(get = __cordl_internal_get_newLineOnAttributes, put = __cordl_internal_set_newLineOnAttributes)) bool newLineOnAttributes;
 
-  /// @brief Method FlushBuffer, addr 0x42945a8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method FlushBuffer, addr 0x42a8cc0, size 0x2c, virtual true, abstract: false, final false
   inline void FlushBuffer();
 
-  /// @brief Method Init, addr 0x42940b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x42a87c8, size 0x28, virtual false, abstract: false, final false
   inline void Init(::System::Xml::XmlWriterSettings* settings);
 
   static inline ::System::Xml::HtmlUtf8RawTextWriterIndent* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method StartElementContent, addr 0x429441c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method StartElementContent, addr 0x42a8b34, size 0x78, virtual true, abstract: false, final false
   inline void StartElementContent();
 
-  /// @brief Method WriteDocType, addr 0x42940d8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteDocType, addr 0x42a87f0, size 0x20, virtual true, abstract: false, final false
   inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
 
-  /// @brief Method WriteEndElement, addr 0x4294494, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x42a8bac, size 0x9c, virtual true, abstract: false, final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteIndent, addr 0x42943cc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteIndent, addr 0x42a8ae4, size 0x50, virtual false, abstract: false, final false
   inline void WriteIndent();
 
-  /// @brief Method WriteStartAttribute, addr 0x4294530, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method WriteStartAttribute, addr 0x42a8c48, size 0x78, virtual true, abstract: false, final false
   inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteStartElement, addr 0x42940f8, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x42a8810, size 0x1a8, virtual true, abstract: false, final false
   inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
   constexpr int32_t const& __cordl_internal_get_endBlockPos() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_newLineOnAttributes(bool value);
 
-  /// @brief Method .ctor, addr 0x4294070, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42a8788, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
 protected:
@@ -119,7 +119,7 @@ public:
   bool ___newLineOnAttributes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

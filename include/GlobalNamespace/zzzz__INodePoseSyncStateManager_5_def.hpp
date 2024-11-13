@@ -63,7 +63,7 @@ public:
   INodePoseSyncStateManager_5(INodePoseSyncStateManager_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

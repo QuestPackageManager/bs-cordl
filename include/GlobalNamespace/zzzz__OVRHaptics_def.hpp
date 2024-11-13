@@ -80,7 +80,7 @@ public:
   /// @brief Field <SampleSizeInBytes>k__BackingField, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__SampleSizeInBytes_k__BackingField, put = setStaticF__SampleSizeInBytes_k__BackingField)) int32_t _SampleSizeInBytes_k__BackingField;
 
-  /// @brief Method Load, addr 0x3f3d760, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x3f51df0, size 0x200, virtual false, abstract: false, final false
   static inline void Load();
 
   static inline int32_t getStaticF__MaximumBufferSamplesCount_k__BackingField();
@@ -95,22 +95,22 @@ public:
 
   static inline int32_t getStaticF__SampleSizeInBytes_k__BackingField();
 
-  /// @brief Method get_MaximumBufferSamplesCount, addr 0x3f3e880, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumBufferSamplesCount, addr 0x3f52f10, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_MaximumBufferSamplesCount();
 
-  /// @brief Method get_MinimumBufferSamplesCount, addr 0x3f3e718, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_MinimumBufferSamplesCount, addr 0x3f52da8, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_MinimumBufferSamplesCount();
 
-  /// @brief Method get_MinimumSafeSamplesQueued, addr 0x3f3e664, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_MinimumSafeSamplesQueued, addr 0x3f52cf4, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_MinimumSafeSamplesQueued();
 
-  /// @brief Method get_OptimalBufferSamplesCount, addr 0x3f3e7cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_OptimalBufferSamplesCount, addr 0x3f52e5c, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_OptimalBufferSamplesCount();
 
-  /// @brief Method get_SampleRateHz, addr 0x3f3e4fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SampleRateHz, addr 0x3f52b8c, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_SampleRateHz();
 
-  /// @brief Method get_SampleSizeInBytes, addr 0x3f3e5b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SampleSizeInBytes, addr 0x3f52c40, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_SampleSizeInBytes();
 
   static inline void setStaticF__MaximumBufferSamplesCount_k__BackingField(int32_t value);
@@ -125,22 +125,22 @@ public:
 
   static inline void setStaticF__SampleSizeInBytes_k__BackingField(int32_t value);
 
-  /// @brief Method set_MaximumBufferSamplesCount, addr 0x3f3e8d8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumBufferSamplesCount, addr 0x3f52f68, size 0x5c, virtual false, abstract: false, final false
   static inline void set_MaximumBufferSamplesCount(int32_t value);
 
-  /// @brief Method set_MinimumBufferSamplesCount, addr 0x3f3e770, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_MinimumBufferSamplesCount, addr 0x3f52e00, size 0x5c, virtual false, abstract: false, final false
   static inline void set_MinimumBufferSamplesCount(int32_t value);
 
-  /// @brief Method set_MinimumSafeSamplesQueued, addr 0x3f3e6bc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_MinimumSafeSamplesQueued, addr 0x3f52d4c, size 0x5c, virtual false, abstract: false, final false
   static inline void set_MinimumSafeSamplesQueued(int32_t value);
 
-  /// @brief Method set_OptimalBufferSamplesCount, addr 0x3f3e824, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_OptimalBufferSamplesCount, addr 0x3f52eb4, size 0x5c, virtual false, abstract: false, final false
   static inline void set_OptimalBufferSamplesCount(int32_t value);
 
-  /// @brief Method set_SampleRateHz, addr 0x3f3e554, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_SampleRateHz, addr 0x3f52be4, size 0x5c, virtual false, abstract: false, final false
   static inline void set_SampleRateHz(int32_t value);
 
-  /// @brief Method set_SampleSizeInBytes, addr 0x3f3e608, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_SampleSizeInBytes, addr 0x3f52c98, size 0x5c, virtual false, abstract: false, final false
   static inline void set_SampleSizeInBytes(int32_t value);
 
 protected:
@@ -158,7 +158,7 @@ public:
   __OVRHaptics__Config(__OVRHaptics__Config const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7853 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7858 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -177,18 +177,18 @@ public:
   /// @brief Field m_output, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_output, put = __cordl_internal_set_m_output)) ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* m_output;
 
-  /// @brief Method Clear, addr 0x3f3f01c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3f536ac, size 0x18, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Mix, addr 0x3f3eb60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Mix, addr 0x3f531f0, size 0x18, virtual false, abstract: false, final false
   inline void Mix(::GlobalNamespace::OVRHapticsClip* clip);
 
   static inline ::GlobalNamespace::__OVRHaptics__OVRHapticsChannel* New_ctor(uint32_t outputIndex);
 
-  /// @brief Method Preempt, addr 0x3f3e938, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Preempt, addr 0x3f52fc8, size 0x18, virtual false, abstract: false, final false
   inline void Preempt(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method Queue, addr 0x3f3ea68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Queue, addr 0x3f530f8, size 0x18, virtual false, abstract: false, final false
   inline void Queue(::GlobalNamespace::OVRHapticsClip* clip);
 
   constexpr ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*& __cordl_internal_get_m_output();
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_m_output(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* value);
 
-  /// @brief Method .ctor, addr 0x3f3dac8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f52158, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(uint32_t outputIndex);
 
 protected:
@@ -218,7 +218,7 @@ public:
   ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* ___m_output;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7859 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -260,19 +260,19 @@ public:
 
   constexpr void __cordl_internal_set__ReadCount_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3f3f0a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f53734, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method get_Clip, addr 0x3f3f2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Clip, addr 0x3f53974, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRHapticsClip* get_Clip();
 
-  /// @brief Method get_ReadCount, addr 0x3f3f2d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadCount, addr 0x3f53964, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ReadCount();
 
-  /// @brief Method set_Clip, addr 0x3f3f2ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Clip, addr 0x3f5397c, size 0x8, virtual false, abstract: false, final false
   inline void set_Clip(::GlobalNamespace::OVRHapticsClip* value);
 
-  /// @brief Method set_ReadCount, addr 0x3f3f2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReadCount, addr 0x3f5396c, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadCount(int32_t value);
 
 protected:
@@ -296,7 +296,7 @@ public:
   ::GlobalNamespace::OVRHapticsClip* ____Clip_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7855 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7860 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -349,21 +349,21 @@ public:
   /// @brief Field m_prevSamplesQueuedTime, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_prevSamplesQueuedTime, put = __cordl_internal_set_m_prevSamplesQueuedTime)) float_t m_prevSamplesQueuedTime;
 
-  /// @brief Method Clear, addr 0x3f3f034, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3f536c4, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Mix, addr 0x3f3eb78, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method Mix, addr 0x3f53208, size 0x4a4, virtual false, abstract: false, final false
   inline void Mix(::GlobalNamespace::OVRHapticsClip* clip);
 
   static inline ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* New_ctor(uint32_t controller);
 
-  /// @brief Method Preempt, addr 0x3f3e950, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Preempt, addr 0x3f52fe0, size 0x118, virtual false, abstract: false, final false
   inline void Preempt(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method Process, addr 0x3f3dc3c, size 0x8c0, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x3f522cc, size 0x8c0, virtual false, abstract: false, final false
   inline void Process();
 
-  /// @brief Method Queue, addr 0x3f3ea80, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Queue, addr 0x3f53110, size 0xe0, virtual false, abstract: false, final false
   inline void Queue(::GlobalNamespace::OVRHapticsClip* clip);
 
   constexpr int32_t const& __cordl_internal_get_PrevSampleRateHz() const;
@@ -427,7 +427,7 @@ public:
 
   constexpr void __cordl_internal_set_m_prevSamplesQueuedTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x3f3d960, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f51ff0, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(uint32_t controller);
 
 protected:
@@ -475,7 +475,7 @@ public:
   int32_t ___PrevSampleRateHz;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7856 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -533,7 +533,7 @@ public:
                              put = setStaticF_m_outputs)) ::ArrayW<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*, ::Array<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*>*>
       m_outputs;
 
-  /// @brief Method Process, addr 0x3f3db60, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x3f521f0, size 0xdc, virtual false, abstract: false, final false
   static inline void Process();
 
   static inline ::ArrayW<::GlobalNamespace::__OVRHaptics__OVRHapticsChannel*, ::Array<::GlobalNamespace::__OVRHaptics__OVRHapticsChannel*>*> getStaticF_Channels();
@@ -567,7 +567,7 @@ public:
   OVRHaptics(OVRHaptics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

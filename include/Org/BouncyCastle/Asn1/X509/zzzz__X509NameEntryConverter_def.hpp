@@ -27,10 +27,10 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class CORDL_TYPE X509NameEntryConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CanBePrintable, addr 0x25d5a9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanBePrintable, addr 0x25e0b44, size 0xc, virtual false, abstract: false, final false
   inline bool CanBePrintable(::StringW str);
 
-  /// @brief Method ConvertHexEncoded, addr 0x25d5a24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ConvertHexEncoded, addr 0x25e0acc, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ConvertHexEncoded(::StringW hexString, int32_t offset);
 
   /// @brief Method GetConvertedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -38,7 +38,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25d5aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e0b50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -83,7 +83,7 @@ public:
   static ::GlobalNamespace::__OVRControllerHelper__ControllerType const TouchPro;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8365 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -186,21 +186,21 @@ public:
   __declspec(property(get = __cordl_internal_get_showWhenHandsArePoweredByNaturalControllerPoses,
                       put = __cordl_internal_set_showWhenHandsArePoweredByNaturalControllerPoses)) bool showWhenHandsArePoweredByNaturalControllerPoses;
 
-  /// @brief Method InitializeControllerModels, addr 0x3fb4010, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method InitializeControllerModels, addr 0x3fc86a0, size 0x494, virtual false, abstract: false, final false
   inline void InitializeControllerModels();
 
-  /// @brief Method InputFocusAquired, addr 0x3fb4d0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InputFocusAquired, addr 0x3fc939c, size 0xc, virtual false, abstract: false, final false
   inline void InputFocusAquired();
 
-  /// @brief Method InputFocusLost, addr 0x3fb4d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InputFocusLost, addr 0x3fc93a8, size 0x8, virtual false, abstract: false, final false
   inline void InputFocusLost();
 
   static inline ::GlobalNamespace::OVRControllerHelper* New_ctor();
 
-  /// @brief Method Start, addr 0x3fb3fa0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fc8630, size 0x70, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fb44a4, size 0x868, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fc8b34, size 0x868, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType const& __cordl_internal_get_activeControllerType() const;
@@ -335,7 +335,7 @@ public:
 
   constexpr void __cordl_internal_set_showWhenHandsArePoweredByNaturalControllerPoses(bool value);
 
-  /// @brief Method .ctor, addr 0x3fb4d20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc93b0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -419,7 +419,7 @@ public:
   ::GlobalNamespace::__OVRInput__ControllerInHandState ___m_prevControllerInHandState;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8366 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

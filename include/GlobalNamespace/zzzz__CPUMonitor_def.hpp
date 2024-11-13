@@ -58,7 +58,7 @@ public:
 
   static inline ::GlobalNamespace::CPUMonitor* New_ctor();
 
-  /// @brief Method PollUpdate, addr 0x2281eb8, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x228cf08, size 0x11c, virtual true, abstract: false, final true
   inline void PollUpdate();
 
   constexpr ::System::Diagnostics::Process*& __cordl_internal_get__currentProcess();
@@ -91,10 +91,10 @@ public:
 
   constexpr void __cordl_internal_set__utilization(::GlobalNamespace::RollingAverage* value);
 
-  /// @brief Method .ctor, addr 0x2281ffc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228d04c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_utilization, addr 0x2281fd4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_utilization, addr 0x228d024, size 0x28, virtual true, abstract: false, final true
   inline float_t get_utilization();
 
   /// @brief Convert to "::GlobalNamespace::ICPUMonitor"
@@ -133,7 +133,7 @@ public:
   int64_t ____lastSampleValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14678 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

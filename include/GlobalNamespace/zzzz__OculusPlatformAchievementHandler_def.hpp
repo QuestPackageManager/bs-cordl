@@ -77,7 +77,7 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <UnlockAchievement>b__0, addr 0x26a5674, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <UnlockAchievement>b__0, addr 0x26b1294, size 0x40, virtual false, abstract: false, final false
   inline void _UnlockAchievement_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementUpdate*>* message);
 
   constexpr ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler*& __cordl_internal_get_completionHandler();
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_completionHandler(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* value);
 
-  /// @brief Method .ctor, addr 0x26a5570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b1190, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* ___completionHandler;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13108 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -134,7 +134,7 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <GetUnlockedAchievements>b__0, addr 0x26a56b4, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method <GetUnlockedAchievements>b__0, addr 0x26b12d4, size 0x518, virtual false, abstract: false, final false
   inline void _GetUnlockedAchievements_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>* message);
 
   constexpr ::GlobalNamespace::OculusPlatformAchievementHandler*& __cordl_internal_get___4__this();
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set_completionHandler(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* value);
 
-  /// @brief Method .ctor, addr 0x26a5664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b1284, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -173,7 +173,7 @@ public:
   ::GlobalNamespace::OculusPlatformAchievementHandler* _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13109 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -198,7 +198,7 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformAchievementHandler____c__DisplayClass3_1* New_ctor();
 
-  /// @brief Method <GetUnlockedAchievements>b__1, addr 0x26a5bd4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <GetUnlockedAchievements>b__1, addr 0x26b17f4, size 0x28, virtual false, abstract: false, final false
   inline bool _GetUnlockedAchievements_b__1(::GlobalNamespace::AchievementSO* x);
 
   constexpr ::Oculus::Platform::Models::AchievementProgress*& __cordl_internal_get_achievement();
@@ -207,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set_achievement(::Oculus::Platform::Models::AchievementProgress* value);
 
-  /// @brief Method .ctor, addr 0x26a5bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b17ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -228,7 +228,7 @@ public:
   ::Oculus::Platform::Models::AchievementProgress* ___achievement;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13110 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -258,15 +258,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlatformAchievementsHandler"
   constexpr operator ::GlobalNamespace::IPlatformAchievementsHandler*() noexcept;
 
-  /// @brief Method GetUnlockedAchievements, addr 0x26a5578, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method GetUnlockedAchievements, addr 0x26b1198, size 0xec, virtual true, abstract: false, final true
   inline ::GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* completionHandler);
 
-  /// @brief Method Initialize, addr 0x26a547c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x26b109c, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::OculusPlatformAchievementHandler* New_ctor();
 
-  /// @brief Method UnlockAchievement, addr 0x26a5480, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method UnlockAchievement, addr 0x26b10a0, size 0xf0, virtual true, abstract: false, final true
   inline ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW achievementId, ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* completionHandler);
 
   constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO> const& __cordl_internal_get__achievementIdsModel() const;
@@ -275,7 +275,7 @@ public:
 
   constexpr void __cordl_internal_set__achievementIdsModel(::UnityW<::GlobalNamespace::AchievementIdsModelSO> value);
 
-  /// @brief Method .ctor, addr 0x26a566c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b128c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IPlatformAchievementsHandler"
@@ -299,7 +299,7 @@ public:
   ::UnityW<::GlobalNamespace::AchievementIdsModelSO> ____achievementIdsModel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13111 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

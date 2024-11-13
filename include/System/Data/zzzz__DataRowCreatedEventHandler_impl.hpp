@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRowCreatedEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Data::DataRowCreatedEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x40f0054;
+  constexpr static std::size_t addrs = 0x410476c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRowCreatedEventHandler::*)(::System::Object*, ::System::Data::DataRow*)>(
     &::System::Data::DataRowCreatedEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40f0158;
+  constexpr static std::size_t addrs = 0x4104870;
 
   inline static ::MethodInfo const* methodInfo() {
 

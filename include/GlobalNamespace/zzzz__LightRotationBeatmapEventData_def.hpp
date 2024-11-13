@@ -88,20 +88,20 @@ public:
 
   __declspec(property(get = get_usePreviousEventValue, put = set_usePreviousEventValue)) bool usePreviousEventValue;
 
-  /// @brief Method ChangeRotation, addr 0x220d8e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ChangeRotation, addr 0x22168ec, size 0x8, virtual false, abstract: false, final false
   inline void ChangeRotation(float_t rotation);
 
-  /// @brief Method GetCopy, addr 0x220d8ec, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x22168f4, size 0xb8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x220d9a4, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x22169ac, size 0x160, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   static inline ::GlobalNamespace::LightRotationBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType,
                                                                            ::GlobalNamespace::LightAxis axis, float_t rotation, int32_t loopCount,
                                                                            ::GlobalNamespace::LightRotationDirection rotationDirection);
 
-  /// @brief Method SubtypeIdentifier, addr 0x220d8cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SubtypeIdentifier, addr 0x22168d4, size 0x18, virtual false, abstract: false, final false
   static inline int32_t SubtypeIdentifier(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightAxis axis);
 
   constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis_k__BackingField() const;
@@ -152,60 +152,60 @@ public:
 
   constexpr void __cordl_internal_set__usePreviousEventValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x220d7e4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22167ec, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::LightAxis axis, float_t rotation,
                     int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationDirection);
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightRotationBeatmapEventData*>* getStaticF__defaults();
 
-  /// @brief Method get_axis, addr 0x220d7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x22167ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightAxis get_axis();
 
-  /// @brief Method get_easeType, addr 0x220d794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x221679c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method get_elementId, addr 0x220d770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elementId, addr 0x2216778, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_elementId();
 
-  /// @brief Method get_groupId, addr 0x220d760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x2216768, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_loopCount, addr 0x220d7b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loopCount, addr 0x22167bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_loopCount();
 
-  /// @brief Method get_rotation, addr 0x220d7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x22167dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
-  /// @brief Method get_rotationDirection, addr 0x220d7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDirection, addr 0x22167cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightRotationDirection get_rotationDirection();
 
-  /// @brief Method get_usePreviousEventValue, addr 0x220d780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventValue, addr 0x2216788, size 0x8, virtual false, abstract: false, final false
   inline bool get_usePreviousEventValue();
 
   static inline void setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightRotationBeatmapEventData*>* value);
 
-  /// @brief Method set_axis, addr 0x220d7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_axis, addr 0x22167b4, size 0x8, virtual false, abstract: false, final false
   inline void set_axis(::GlobalNamespace::LightAxis value);
 
-  /// @brief Method set_easeType, addr 0x220d79c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_easeType, addr 0x22167a4, size 0x8, virtual false, abstract: false, final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method set_elementId, addr 0x220d778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_elementId, addr 0x2216780, size 0x8, virtual false, abstract: false, final false
   inline void set_elementId(int32_t value);
 
-  /// @brief Method set_groupId, addr 0x220d768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_groupId, addr 0x2216770, size 0x8, virtual false, abstract: false, final false
   inline void set_groupId(int32_t value);
 
-  /// @brief Method set_loopCount, addr 0x220d7bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_loopCount, addr 0x22167c4, size 0x8, virtual false, abstract: false, final false
   inline void set_loopCount(int32_t value);
 
-  /// @brief Method set_rotation, addr 0x220d7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x22167e4, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(float_t value);
 
-  /// @brief Method set_rotationDirection, addr 0x220d7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rotationDirection, addr 0x22167d4, size 0x8, virtual false, abstract: false, final false
   inline void set_rotationDirection(::GlobalNamespace::LightRotationDirection value);
 
-  /// @brief Method set_usePreviousEventValue, addr 0x220d788, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_usePreviousEventValue, addr 0x2216790, size 0xc, virtual false, abstract: false, final false
   inline void set_usePreviousEventValue(bool value);
 
 protected:
@@ -247,7 +247,7 @@ public:
   float_t ____rotation_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17011 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -39,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::SetBlocksBladeSaberGlowColor* New_ctor();
 
-  /// @brief Method Start, addr 0x3b70a98, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b8658c, size 0x40, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BlocksBlade> const& __cordl_internal_get__blocksBlade() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x3b70ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b865cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   ::UnityW<::GlobalNamespace::BlocksBlade> ____blocksBlade;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4650 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

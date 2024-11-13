@@ -68,7 +68,7 @@ public:
   static ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const Positive;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13271 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -106,10 +106,10 @@ public:
 
   static inline ::GlobalNamespace::ScoreMultiplierCounter* New_ctor();
 
-  /// @brief Method ProcessMultiplierEvent, addr 0x26bb890, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ProcessMultiplierEvent, addr 0x26c764c, size 0x90, virtual false, abstract: false, final false
   inline bool ProcessMultiplierEvent(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType multiplierEventType);
 
-  /// @brief Method Reset, addr 0x26bb878, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x26c7634, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__multiplier() const;
@@ -130,13 +130,13 @@ public:
 
   constexpr void __cordl_internal_set__multiplierIncreaseProgress(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26bbd20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c7adc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_multiplier, addr 0x26bbde8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x26c7ba4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multiplier();
 
-  /// @brief Method get_normalizedProgress, addr 0x26bbdf0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedProgress, addr 0x26c7bac, size 0x14, virtual false, abstract: false, final false
   inline float_t get_normalizedProgress();
 
 protected:
@@ -163,7 +163,7 @@ public:
   int32_t ____multiplierIncreaseMaxProgress;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13272 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

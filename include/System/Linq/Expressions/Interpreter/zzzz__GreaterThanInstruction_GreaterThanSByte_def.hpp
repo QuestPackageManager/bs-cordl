@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanSByte* New_ctor(::System::Object* nullValue);
 
-  /// @brief Method Run, addr 0x4054248, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4068960, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4054090, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40687a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
 protected:
@@ -49,7 +49,7 @@ public:
   __GreaterThanInstruction__GreaterThanSByte(__GreaterThanInstruction__GreaterThanSByte const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13822 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

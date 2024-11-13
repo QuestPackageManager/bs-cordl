@@ -66,7 +66,7 @@ public:
   ::Oculus::Platform::__Message_1__Callback<T>* ___callback_;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15427 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

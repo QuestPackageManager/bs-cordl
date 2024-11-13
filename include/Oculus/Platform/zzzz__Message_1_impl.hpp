@@ -46,7 +46,7 @@ template <typename T> constexpr T const& Oculus::Platform::Message_1<T>::__cordl
 }
 template <typename T> constexpr void Oculus::Platform::Message_1<T>::__cordl_internal_set_data(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___data, value);
 }
 template <typename T> inline ::Oculus::Platform::Message_1<T>* Oculus::Platform::Message_1<T>::New_ctor(::System::IntPtr c_message) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Message_1<T>*>(c_message));

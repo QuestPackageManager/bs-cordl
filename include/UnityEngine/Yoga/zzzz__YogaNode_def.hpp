@@ -230,55 +230,55 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method BaselineInternal, addr 0x48f1390, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BaselineInternal, addr 0x4905aa8, size 0x70, virtual false, abstract: false, final false
   static inline float_t BaselineInternal(::UnityEngine::Yoga::YogaNode* node, float_t width, float_t height);
 
-  /// @brief Method CalculateLayout, addr 0x48f3848, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CalculateLayout, addr 0x4907f60, size 0x84, virtual false, abstract: false, final false
   inline void CalculateLayout(float_t width, float_t height);
 
-  /// @brief Method Clear, addr 0x48f370c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4907e24, size 0x64, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CopyStyle, addr 0x48f2b78, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CopyStyle, addr 0x4907290, size 0x4c, virtual false, abstract: false, final false
   inline void CopyStyle(::UnityEngine::Yoga::YogaNode* srcNode);
 
-  /// @brief Method Finalize, addr 0x48f295c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x4907074, size 0x98, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetEnumerator, addr 0x48f38cc, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x4907fe4, size 0x13c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Yoga::YogaNode*>* GetEnumerator();
 
-  /// @brief Method Insert, addr 0x48f3524, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x4907c3c, size 0x120, virtual false, abstract: false, final false
   inline void Insert(int32_t index, ::UnityEngine::Yoga::YogaNode* node);
 
-  /// @brief Method MarkDirty, addr 0x48f2ae0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method MarkDirty, addr 0x49071f8, size 0x3c, virtual true, abstract: false, final false
   inline void MarkDirty();
 
-  /// @brief Method MarkLayoutSeen, addr 0x48f34e4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method MarkLayoutSeen, addr 0x4907bfc, size 0x40, virtual false, abstract: false, final false
   inline void MarkLayoutSeen();
 
-  /// @brief Method MeasureInternal, addr 0x48f12cc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method MeasureInternal, addr 0x49059e4, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaSize MeasureInternal(::UnityEngine::Yoga::YogaNode* node, float_t width, ::UnityEngine::Yoga::YogaMeasureMode widthMode, float_t height,
                                                               ::UnityEngine::Yoga::YogaMeasureMode heightMode);
 
   static inline ::UnityEngine::Yoga::YogaNode* New_ctor(::UnityEngine::Yoga::YogaConfig* config);
 
-  /// @brief Method RemoveAt, addr 0x48f3644, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x4907d5c, size 0xc8, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method SetMeasureFunction, addr 0x48f3770, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetMeasureFunction, addr 0x4907e88, size 0xd8, virtual false, abstract: false, final false
   inline void SetMeasureFunction(::UnityEngine::Yoga::MeasureFunction* measureFunction);
 
-  /// @brief Method SetStyleMargin, addr 0x48f2274, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetStyleMargin, addr 0x490698c, size 0xc8, virtual false, abstract: false, final false
   inline void SetStyleMargin(::UnityEngine::Yoga::YogaEdge edge, ::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method SetStylePadding, addr 0x48f236c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetStylePadding, addr 0x4906a84, size 0x84, virtual false, abstract: false, final false
   inline void SetStylePadding(::UnityEngine::Yoga::YogaEdge edge, ::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method SetStylePosition, addr 0x48f21b0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetStylePosition, addr 0x49068c8, size 0x84, virtual false, abstract: false, final false
   inline void SetStylePosition(::UnityEngine::Yoga::YogaEdge edge, ::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x48f3a08, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4908120, size 0x13c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::UnityEngine::Yoga::BaselineFunction*& __cordl_internal_get__baselineFunction();
@@ -323,76 +323,76 @@ public:
 
   constexpr void __cordl_internal_set__ygNode(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x48f2854, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4906f6c, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Yoga::YogaConfig* config);
 
-  /// @brief Method get_Count, addr 0x48f3498, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4907bb0, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_HasNewLayout, addr 0x48f2b1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_HasNewLayout, addr 0x4907234, size 0x3c, virtual false, abstract: false, final false
   inline bool get_HasNewLayout();
 
-  /// @brief Method get_IsBaselineDefined, addr 0x48f2b68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsBaselineDefined, addr 0x4907280, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsBaselineDefined();
 
-  /// @brief Method get_IsDirty, addr 0x48f2aa4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_IsDirty, addr 0x49071bc, size 0x3c, virtual false, abstract: false, final false
   inline bool get_IsDirty();
 
-  /// @brief Method get_IsMeasureDefined, addr 0x48f2b58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsMeasureDefined, addr 0x4907270, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsMeasureDefined();
 
-  /// @brief Method get_LayoutBorderBottom, addr 0x48f2814, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutBorderBottom, addr 0x4906f2c, size 0x40, virtual false, abstract: false, final false
   inline float_t get_LayoutBorderBottom();
 
-  /// @brief Method get_LayoutBorderLeft, addr 0x48f2754, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutBorderLeft, addr 0x4906e6c, size 0x40, virtual false, abstract: false, final false
   inline float_t get_LayoutBorderLeft();
 
-  /// @brief Method get_LayoutBorderRight, addr 0x48f27d4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutBorderRight, addr 0x4906eec, size 0x40, virtual false, abstract: false, final false
   inline float_t get_LayoutBorderRight();
 
-  /// @brief Method get_LayoutBorderTop, addr 0x48f2794, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutBorderTop, addr 0x4906eac, size 0x40, virtual false, abstract: false, final false
   inline float_t get_LayoutBorderTop();
 
-  /// @brief Method get_LayoutBottom, addr 0x48f33a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutBottom, addr 0x4907ab8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_LayoutBottom();
 
-  /// @brief Method get_LayoutHeight, addr 0x48f3418, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutHeight, addr 0x4907b30, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_LayoutHeight();
 
-  /// @brief Method get_LayoutMarginBottom, addr 0x48f2614, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutMarginBottom, addr 0x4906d2c, size 0x40, virtual false, abstract: false, final false
   inline float_t get_LayoutMarginBottom();
 
-  /// @brief Method get_LayoutMarginLeft, addr 0x48f2554, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutMarginLeft, addr 0x4906c6c, size 0x40, virtual false, abstract: false, final false
   inline float_t get_LayoutMarginLeft();
 
-  /// @brief Method get_LayoutMarginRight, addr 0x48f25d4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutMarginRight, addr 0x4906cec, size 0x40, virtual false, abstract: false, final false
   inline float_t get_LayoutMarginRight();
 
-  /// @brief Method get_LayoutMarginTop, addr 0x48f2594, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutMarginTop, addr 0x4906cac, size 0x40, virtual false, abstract: false, final false
   inline float_t get_LayoutMarginTop();
 
-  /// @brief Method get_LayoutPaddingBottom, addr 0x48f2714, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutPaddingBottom, addr 0x4906e2c, size 0x40, virtual false, abstract: false, final false
   inline float_t get_LayoutPaddingBottom();
 
-  /// @brief Method get_LayoutPaddingLeft, addr 0x48f2654, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutPaddingLeft, addr 0x4906d6c, size 0x40, virtual false, abstract: false, final false
   inline float_t get_LayoutPaddingLeft();
 
-  /// @brief Method get_LayoutPaddingRight, addr 0x48f26d4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutPaddingRight, addr 0x4906dec, size 0x40, virtual false, abstract: false, final false
   inline float_t get_LayoutPaddingRight();
 
-  /// @brief Method get_LayoutPaddingTop, addr 0x48f2694, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutPaddingTop, addr 0x4906dac, size 0x40, virtual false, abstract: false, final false
   inline float_t get_LayoutPaddingTop();
 
-  /// @brief Method get_LayoutRight, addr 0x48f3364, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutRight, addr 0x4907a7c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_LayoutRight();
 
-  /// @brief Method get_LayoutWidth, addr 0x48f33dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutWidth, addr 0x4907af4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_LayoutWidth();
 
-  /// @brief Method get_LayoutX, addr 0x48f32ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutX, addr 0x4907a04, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_LayoutX();
 
-  /// @brief Method get_LayoutY, addr 0x48f3328, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_LayoutY, addr 0x4907a40, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_LayoutY();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Yoga::YogaNode*>"
@@ -401,112 +401,112 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_AlignContent, addr 0x48f2d18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_AlignContent, addr 0x4907430, size 0x44, virtual false, abstract: false, final false
   inline void set_AlignContent(::UnityEngine::Yoga::YogaAlign value);
 
-  /// @brief Method set_AlignItems, addr 0x48f2c90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_AlignItems, addr 0x49073a8, size 0x44, virtual false, abstract: false, final false
   inline void set_AlignItems(::UnityEngine::Yoga::YogaAlign value);
 
-  /// @brief Method set_AlignSelf, addr 0x48f2cd4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_AlignSelf, addr 0x49073ec, size 0x44, virtual false, abstract: false, final false
   inline void set_AlignSelf(::UnityEngine::Yoga::YogaAlign value);
 
-  /// @brief Method set_BorderBottomWidth, addr 0x48f2504, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_BorderBottomWidth, addr 0x4906c1c, size 0x50, virtual false, abstract: false, final false
   inline void set_BorderBottomWidth(float_t value);
 
-  /// @brief Method set_BorderLeftWidth, addr 0x48f2414, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_BorderLeftWidth, addr 0x4906b2c, size 0x50, virtual false, abstract: false, final false
   inline void set_BorderLeftWidth(float_t value);
 
-  /// @brief Method set_BorderRightWidth, addr 0x48f24b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_BorderRightWidth, addr 0x4906bcc, size 0x50, virtual false, abstract: false, final false
   inline void set_BorderRightWidth(float_t value);
 
-  /// @brief Method set_BorderTopWidth, addr 0x48f2464, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_BorderTopWidth, addr 0x4906b7c, size 0x50, virtual false, abstract: false, final false
   inline void set_BorderTopWidth(float_t value);
 
-  /// @brief Method set_Bottom, addr 0x48f224c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Bottom, addr 0x4906964, size 0xc, virtual false, abstract: false, final false
   inline void set_Bottom(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_Config, addr 0x48f29f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_Config, addr 0x490710c, size 0xb0, virtual false, abstract: false, final false
   inline void set_Config(::UnityEngine::Yoga::YogaConfig* value);
 
-  /// @brief Method set_Display, addr 0x48f2c4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_Display, addr 0x4907364, size 0x44, virtual false, abstract: false, final false
   inline void set_Display(::UnityEngine::Yoga::YogaDisplay value);
 
-  /// @brief Method set_Flex, addr 0x48f2de4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_Flex, addr 0x49074fc, size 0x4c, virtual false, abstract: false, final false
   inline void set_Flex(float_t value);
 
-  /// @brief Method set_FlexBasis, addr 0x48f2ec8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_FlexBasis, addr 0x49075e0, size 0xbc, virtual false, abstract: false, final false
   inline void set_FlexBasis(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_FlexDirection, addr 0x48f2bc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_FlexDirection, addr 0x49072dc, size 0x44, virtual false, abstract: false, final false
   inline void set_FlexDirection(::UnityEngine::Yoga::YogaFlexDirection value);
 
-  /// @brief Method set_FlexGrow, addr 0x48f2e30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_FlexGrow, addr 0x4907548, size 0x4c, virtual false, abstract: false, final false
   inline void set_FlexGrow(float_t value);
 
-  /// @brief Method set_FlexShrink, addr 0x48f2e7c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_FlexShrink, addr 0x4907594, size 0x4c, virtual false, abstract: false, final false
   inline void set_FlexShrink(float_t value);
 
-  /// @brief Method set_Height, addr 0x48f3040, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_Height, addr 0x4907758, size 0xbc, virtual false, abstract: false, final false
   inline void set_Height(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_JustifyContent, addr 0x48f2c08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_JustifyContent, addr 0x4907320, size 0x44, virtual false, abstract: false, final false
   inline void set_JustifyContent(::UnityEngine::Yoga::YogaJustify value);
 
-  /// @brief Method set_Left, addr 0x48f21a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Left, addr 0x49068bc, size 0xc, virtual false, abstract: false, final false
   inline void set_Left(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_MarginBottom, addr 0x48f2354, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_MarginBottom, addr 0x4906a6c, size 0xc, virtual false, abstract: false, final false
   inline void set_MarginBottom(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_MarginLeft, addr 0x48f2268, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_MarginLeft, addr 0x4906980, size 0xc, virtual false, abstract: false, final false
   inline void set_MarginLeft(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_MarginRight, addr 0x48f2348, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_MarginRight, addr 0x4906a60, size 0xc, virtual false, abstract: false, final false
   inline void set_MarginRight(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_MarginTop, addr 0x48f233c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_MarginTop, addr 0x4906a54, size 0xc, virtual false, abstract: false, final false
   inline void set_MarginTop(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_MaxHeight, addr 0x48f3178, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_MaxHeight, addr 0x4907890, size 0x7c, virtual false, abstract: false, final false
   inline void set_MaxHeight(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_MaxWidth, addr 0x48f30fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_MaxWidth, addr 0x4907814, size 0x7c, virtual false, abstract: false, final false
   inline void set_MaxWidth(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_MinHeight, addr 0x48f3270, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_MinHeight, addr 0x4907988, size 0x7c, virtual false, abstract: false, final false
   inline void set_MinHeight(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_MinWidth, addr 0x48f31f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_MinWidth, addr 0x490790c, size 0x7c, virtual false, abstract: false, final false
   inline void set_MinWidth(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_Overflow, addr 0x48f3454, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_Overflow, addr 0x4907b6c, size 0x44, virtual false, abstract: false, final false
   inline void set_Overflow(::UnityEngine::Yoga::YogaOverflow value);
 
-  /// @brief Method set_PaddingBottom, addr 0x48f2408, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PaddingBottom, addr 0x4906b20, size 0xc, virtual false, abstract: false, final false
   inline void set_PaddingBottom(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_PaddingLeft, addr 0x48f2360, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PaddingLeft, addr 0x4906a78, size 0xc, virtual false, abstract: false, final false
   inline void set_PaddingLeft(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_PaddingRight, addr 0x48f23fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PaddingRight, addr 0x4906b14, size 0xc, virtual false, abstract: false, final false
   inline void set_PaddingRight(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_PaddingTop, addr 0x48f23f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PaddingTop, addr 0x4906b08, size 0xc, virtual false, abstract: false, final false
   inline void set_PaddingTop(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_PositionType, addr 0x48f2d5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_PositionType, addr 0x4907474, size 0x44, virtual false, abstract: false, final false
   inline void set_PositionType(::UnityEngine::Yoga::YogaPositionType value);
 
-  /// @brief Method set_Right, addr 0x48f2240, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Right, addr 0x4906958, size 0xc, virtual false, abstract: false, final false
   inline void set_Right(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_Top, addr 0x48f2234, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Top, addr 0x490694c, size 0xc, virtual false, abstract: false, final false
   inline void set_Top(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_Width, addr 0x48f2f84, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_Width, addr 0x490769c, size 0xbc, virtual false, abstract: false, final false
   inline void set_Width(::UnityEngine::Yoga::YogaValue value);
 
-  /// @brief Method set_Wrap, addr 0x48f2da0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_Wrap, addr 0x49074b8, size 0x44, virtual false, abstract: false, final false
   inline void set_Wrap(::UnityEngine::Yoga::YogaWrap value);
 
 protected:
@@ -545,7 +545,7 @@ public:
   ::System::Object* ____data;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5412 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

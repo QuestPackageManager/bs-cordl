@@ -62,7 +62,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a34564, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a47ebc, size 0xec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailPrototype* other);
 
   static inline ::HoudiniEngineUnity::HEU_DetailPrototype* New_ctor();
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__renderMode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a34468, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a47dc0, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>"
@@ -187,7 +187,7 @@ public:
   int32_t ____renderMode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11905 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

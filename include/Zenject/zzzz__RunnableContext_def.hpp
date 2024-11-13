@@ -39,12 +39,12 @@ public:
   /// @brief Method CreateComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CreateComponent(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method Initialize, addr 0x4aaa2d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4abe9e8, size 0x9c, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::Zenject::RunnableContext* New_ctor();
 
-  /// @brief Method Run, addr 0x4aad0b0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4ac17c8, size 0x70, virtual true, abstract: false, final false
   inline void Run();
 
   /// @brief Method RunInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -62,20 +62,20 @@ public:
 
   constexpr void __cordl_internal_set__autoRun(bool value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4aad16c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ac1884, size 0x16c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4aaac30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4abf348, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__staticAutoRun();
 
-  /// @brief Method get_Initialized, addr 0x4aad09c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Initialized, addr 0x4ac17b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_Initialized();
 
   static inline void setStaticF__staticAutoRun(bool value);
 
-  /// @brief Method set_Initialized, addr 0x4aad0a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Initialized, addr 0x4ac17bc, size 0xc, virtual false, abstract: false, final false
   inline void set_Initialized(bool value);
 
 protected:
@@ -99,7 +99,7 @@ public:
   bool ____Initialized_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12426 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

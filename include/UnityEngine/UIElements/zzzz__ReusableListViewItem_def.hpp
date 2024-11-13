@@ -33,24 +33,24 @@ public:
 
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method DetachElement, addr 0x490344c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method DetachElement, addr 0x4917b64, size 0x8c, virtual true, abstract: false, final false
   inline void DetachElement();
 
-  /// @brief Method Init, addr 0x48fae30, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x490f548, size 0xc4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
   static inline ::UnityEngine::UIElements::ReusableListViewItem* New_ctor();
 
-  /// @brief Method PreAttachElement, addr 0x49033c0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method PreAttachElement, addr 0x4917ad8, size 0x8c, virtual true, abstract: false, final false
   inline void PreAttachElement();
 
-  /// @brief Method SetDragGhost, addr 0x49034d8, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method SetDragGhost, addr 0x4917bf0, size 0xfc, virtual true, abstract: false, final false
   inline void SetDragGhost(bool dragGhost);
 
-  /// @brief Method UpdateDragHandle, addr 0x48fb428, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method UpdateDragHandle, addr 0x490fb40, size 0x144, virtual false, abstract: false, final false
   inline void UpdateDragHandle(bool needsDragHandle);
 
-  /// @brief Method UpdateHierarchy, addr 0x4903170, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method UpdateHierarchy, addr 0x4917888, size 0x250, virtual false, abstract: false, final false
   inline void UpdateHierarchy(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Container();
@@ -71,10 +71,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ItemContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x49035d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4917cec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootElement, addr 0x4903158, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x4917870, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
 protected:
@@ -101,7 +101,7 @@ public:
   ::UnityEngine::UIElements::VisualElement* ___m_ItemContainer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5459 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

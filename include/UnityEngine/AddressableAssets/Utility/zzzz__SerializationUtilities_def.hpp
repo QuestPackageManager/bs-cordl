@@ -94,7 +94,7 @@ public:
   static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const UnicodeString;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16160 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -117,16 +117,16 @@ public:
   // Declarations
   using ObjectType = ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType;
 
-  /// @brief Method ReadInt32FromByteArray, addr 0x4480a98, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadInt32FromByteArray, addr 0x44951b0, size 0x74, virtual false, abstract: false, final false
   static inline int32_t ReadInt32FromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset);
 
-  /// @brief Method ReadObjectFromByteArray, addr 0x4480b90, size 0x514, virtual false, abstract: false, final false
+  /// @brief Method ReadObjectFromByteArray, addr 0x44952a8, size 0x514, virtual false, abstract: false, final false
   static inline ::System::Object* ReadObjectFromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData, int32_t dataIndex);
 
-  /// @brief Method WriteInt32ToByteArray, addr 0x4480b0c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method WriteInt32ToByteArray, addr 0x4495224, size 0x84, virtual false, abstract: false, final false
   static inline int32_t WriteInt32ToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t val, int32_t offset);
 
-  /// @brief Method WriteObjectToByteList, addr 0x44810a4, size 0xad0, virtual false, abstract: false, final false
+  /// @brief Method WriteObjectToByteList, addr 0x44957bc, size 0xad0, virtual false, abstract: false, final false
   static inline int32_t WriteObjectToByteList(::System::Object* obj, ::System::Collections::Generic::List_1<uint8_t>* buffer);
 
 protected:
@@ -144,7 +144,7 @@ public:
   SerializationUtilities(SerializationUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16161 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -83,7 +83,7 @@ template <typename T> constexpr T const& ModestTree::__LinqExtensions____c__Disp
 }
 template <typename T> constexpr void ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::__cordl_internal_set_value(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___value, value);
 }
 template <typename T> inline ::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>* ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>*>());
@@ -163,7 +163,7 @@ template <typename T> constexpr T const& ModestTree::__LinqExtensions___Yield_d_
 }
 template <typename T> constexpr void ModestTree::__LinqExtensions___Yield_d__0_1<T>::__cordl_internal_set___2__current(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename T> constexpr int32_t& ModestTree::__LinqExtensions___Yield_d__0_1<T>::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -187,7 +187,7 @@ template <typename T> constexpr T const& ModestTree::__LinqExtensions___Yield_d_
 }
 template <typename T> constexpr void ModestTree::__LinqExtensions___Yield_d__0_1<T>::__cordl_internal_set_item(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___item)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___item, value);
 }
 template <typename T> constexpr T& ModestTree::__LinqExtensions___Yield_d__0_1<T>::__cordl_internal_get___3__item() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -199,7 +199,7 @@ template <typename T> constexpr T const& ModestTree::__LinqExtensions___Yield_d_
 }
 template <typename T> constexpr void ModestTree::__LinqExtensions___Yield_d__0_1<T>::__cordl_internal_set___3__item(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__item)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____3__item, value);
 }
 template <typename T> inline ::ModestTree::__LinqExtensions___Yield_d__0_1<T>* ModestTree::__LinqExtensions___Yield_d__0_1<T>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::__LinqExtensions___Yield_d__0_1<T>*>(__1__state));

@@ -39,10 +39,10 @@ public:
   /// @brief Field tag, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_tag, put = __cordl_internal_set_tag)) ::Org::BouncyCastle::Bcpg::PacketTag tag;
 
-  /// @brief Method Encode, addr 0x260834c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x26133f4, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetContents, addr 0x26082d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetContents, addr 0x261337c, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContents();
 
   static inline ::Org::BouncyCastle::Bcpg::ExperimentalPacket* New_ctor(::Org::BouncyCastle::Bcpg::PacketTag tag, ::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_tag(::Org::BouncyCastle::Bcpg::PacketTag value);
 
-  /// @brief Method .ctor, addr 0x2605a38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2610ae0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PacketTag tag, ::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_Tag, addr 0x26082cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x2613374, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PacketTag get_Tag();
 
 protected:

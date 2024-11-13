@@ -56,51 +56,51 @@ public:
   /// @brief Field _zStepValuePicker, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__zStepValuePicker, put = __cordl_internal_set__zStepValuePicker)) ::UnityW<::GlobalNamespace::StepValuePicker> _zStepValuePicker;
 
-  /// @brief Method DidActivate, addr 0x3a88508, size 0x2e8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3a9bfe4, size 0x2e8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Move, addr 0x3a88960, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x3a9c43c, size 0x64, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 move);
 
   static inline ::GlobalNamespace::RoomAdjustSettingsViewController* New_ctor();
 
-  /// @brief Method RefreshRoomOffsetValuePicker, addr 0x3a88a54, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RefreshRoomOffsetValuePicker, addr 0x3a9c530, size 0xc4, virtual false, abstract: false, final false
   inline void RefreshRoomOffsetValuePicker(::GlobalNamespace::StepValuePicker* stepValuePicker, float_t value);
 
-  /// @brief Method RefreshTexts, addr 0x3a887f0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method RefreshTexts, addr 0x3a9c2cc, size 0x170, virtual false, abstract: false, final false
   inline void RefreshTexts();
 
-  /// @brief Method ResetRoom, addr 0x3a88a14, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ResetRoom, addr 0x3a9c4f0, size 0x40, virtual false, abstract: false, final false
   inline void ResetRoom();
 
-  /// @brief Method Rotate, addr 0x3a889c4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x3a9c4a0, size 0x50, virtual false, abstract: false, final false
   inline void Rotate(float_t rotation);
 
-  /// @brief Method <DidActivate>b__10_0, addr 0x3a88b20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_0, addr 0x3a9c5fc, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
-  /// @brief Method <DidActivate>b__10_1, addr 0x3a88b34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_1, addr 0x3a9c610, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
-  /// @brief Method <DidActivate>b__10_2, addr 0x3a88b48, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_2, addr 0x3a9c624, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_2();
 
-  /// @brief Method <DidActivate>b__10_3, addr 0x3a88b5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_3, addr 0x3a9c638, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_3();
 
-  /// @brief Method <DidActivate>b__10_4, addr 0x3a88b70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_4, addr 0x3a9c64c, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_4();
 
-  /// @brief Method <DidActivate>b__10_5, addr 0x3a88b84, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_5, addr 0x3a9c660, size 0x14, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_5();
 
-  /// @brief Method <DidActivate>b__10_6, addr 0x3a88b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_6, addr 0x3a9c674, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_6();
 
-  /// @brief Method <DidActivate>b__10_7, addr 0x3a88ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_7, addr 0x3a9c67c, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_7();
 
-  /// @brief Method <DidActivate>b__10_8, addr 0x3a88ba8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_8, addr 0x3a9c684, size 0x4, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_8();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__resetButton() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set__zStepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x3a88b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9c5f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -184,7 +184,7 @@ public:
   ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____settingsApplicator;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4931 };
 
   /// @brief Field kHorizontalMoveStep offset 0xffffffff size 0x4
   static constexpr float_t kHorizontalMoveStep{ 0.1 };

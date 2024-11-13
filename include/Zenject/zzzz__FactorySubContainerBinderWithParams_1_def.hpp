@@ -145,7 +145,7 @@ public:
   ::Zenject::GameObjectCreationParameters* ___gameObjectInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12132 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -238,7 +238,7 @@ public:
   ::Zenject::GameObjectCreationParameters* ___gameObjectInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -303,7 +303,7 @@ public:
   FactorySubContainerBinderWithParams_1(FactorySubContainerBinderWithParams_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12134 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

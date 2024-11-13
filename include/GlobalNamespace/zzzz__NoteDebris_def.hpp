@@ -68,7 +68,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__NoteDebris__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a7dc90, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9160c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   __NoteDebris__Pool(__NoteDebris__Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4112 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -154,17 +154,17 @@ public:
 
   __declspec(property(get = get_didFinishEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* didFinishEvent;
 
-  /// @brief Method Awake, addr 0x3a7d268, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a90be4, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x3a7d58c, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a90f08, size 0x564, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ColorType colorType, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRot, ::UnityEngine::Vector3 noteMoveVec, ::UnityEngine::Vector3 noteScale,
                    ::UnityEngine::Vector3 positionOffset, ::UnityEngine::Quaternion rotationOffset, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 force,
                    ::UnityEngine::Vector3 torque, float_t lifeTime);
 
   static inline ::GlobalNamespace::NoteDebris* New_ctor();
 
-  /// @brief Method Update, addr 0x3a7d300, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a90c7c, size 0x28c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__centroidComputationMesh() const;
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set__physics(::UnityW<::GlobalNamespace::NoteDebrisPhysics> value);
 
-  /// @brief Method .ctor, addr 0x3a7daf0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9146c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorID();
@@ -240,7 +240,7 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> getStaticF__meshVertices();
 
-  /// @brief Method get_didFinishEvent, addr 0x3a7d260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x3a90bdc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* get_didFinishEvent();
 
   static inline void setStaticF__colorID(int32_t value);
@@ -298,7 +298,7 @@ public:
   ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* ____didFinishEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4113 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

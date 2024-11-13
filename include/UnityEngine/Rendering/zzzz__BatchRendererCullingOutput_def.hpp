@@ -114,7 +114,7 @@ public:
   ::cordl_internals::Ptr<::UnityEngine::Rendering::BatchCullingOutputDrawCommands> drawCommands;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11213 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11218 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };

@@ -21,15 +21,15 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE AlertLevel : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x23a2e54, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x23adefc, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW GetName(uint8_t alertDescription);
 
-  /// @brief Method GetText, addr 0x23a2efc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x23adfa4, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW GetText(uint8_t alertDescription);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AlertLevel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a3078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ae120, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

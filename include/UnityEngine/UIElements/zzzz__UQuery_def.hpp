@@ -93,7 +93,7 @@ public:
   __UQuery__IVisualPredicateWrapper(__UQuery__IVisualPredicateWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6190 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -145,7 +145,7 @@ public:
   __UQuery__IsOfType_1(__UQuery__IsOfType_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6186 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -168,10 +168,10 @@ public:
 
   static inline ::GlobalNamespace::__UQuery__UQueryMatcher____c* New_ctor();
 
-  /// @brief Method <TraverseRecursive>b__5_0, addr 0x4a255e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <TraverseRecursive>b__5_0, addr 0x4a39d00, size 0x4, virtual false, abstract: false, final false
   inline void _TraverseRecursive_b__5_0(::UnityEngine::UIElements::VisualElement* e, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo i);
 
-  /// @brief Method .ctor, addr 0x4a255e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39cf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__UQuery__UQueryMatcher____c* getStaticF___9();
@@ -197,7 +197,7 @@ public:
   __UQuery__UQueryMatcher____c(__UQuery__UQueryMatcher____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6192 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -220,19 +220,19 @@ public:
 
   static inline ::UnityEngine::UIElements::__UQuery__UQueryMatcher* New_ctor();
 
-  /// @brief Method NoProcessResult, addr 0x4a25378, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NoProcessResult, addr 0x4a39a90, size 0x4, virtual false, abstract: false, final false
   static inline void NoProcessResult(::UnityEngine::UIElements::VisualElement* e, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo i);
 
-  /// @brief Method OnRuleMatchedElement, addr 0x4a25370, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnRuleMatchedElement, addr 0x4a39a88, size 0x8, virtual true, abstract: false, final false
   inline bool OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Run, addr 0x4a25574, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4a39c8c, size 0x10, virtual true, abstract: false, final false
   inline void Run(::UnityEngine::UIElements::VisualElement* root, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* matchers);
 
-  /// @brief Method Traverse, addr 0x4a25368, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Traverse, addr 0x4a39a80, size 0x8, virtual true, abstract: false, final false
   inline void Traverse(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method TraverseRecursive, addr 0x4a2537c, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method TraverseRecursive, addr 0x4a39a94, size 0x1f8, virtual true, abstract: false, final false
   inline void TraverseRecursive(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*& __cordl_internal_get_m_Matchers();
@@ -241,7 +241,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Matchers(::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* value);
 
-  /// @brief Method .ctor, addr 0x4a25360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39a78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -262,7 +262,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* ___m_Matchers;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6193 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -288,12 +288,12 @@ public:
   /// @brief Method CreateNew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::__UQuery__SingleQueryMatcher* CreateNew();
 
-  /// @brief Method IsInUse, addr 0x4a25620, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInUse, addr 0x4a39d38, size 0x10, virtual false, abstract: false, final false
   inline bool IsInUse();
 
   static inline ::UnityEngine::UIElements::__UQuery__SingleQueryMatcher* New_ctor();
 
-  /// @brief Method Run, addr 0x4a255fc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4a39d14, size 0x24, virtual true, abstract: false, final false
   inline void Run(::UnityEngine::UIElements::VisualElement* root, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* matchers);
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__match_k__BackingField();
@@ -302,13 +302,13 @@ public:
 
   constexpr void __cordl_internal_set__match_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x4a25630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39d48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_match, addr 0x4a255ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_match, addr 0x4a39d04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_match();
 
-  /// @brief Method set_match, addr 0x4a255f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_match, addr 0x4a39d0c, size 0x8, virtual false, abstract: false, final false
   inline void set_match(::UnityEngine::UIElements::VisualElement* value);
 
 protected:
@@ -329,7 +329,7 @@ public:
   ::UnityEngine::UIElements::VisualElement* ____match_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6194 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -350,15 +350,15 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::UnityEngine::UIElements::__UQuery__FirstQueryMatcher* Instance;
 
-  /// @brief Method CreateNew, addr 0x4a2564c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method CreateNew, addr 0x4a39d64, size 0x54, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::__UQuery__SingleQueryMatcher* CreateNew();
 
   static inline ::UnityEngine::UIElements::__UQuery__FirstQueryMatcher* New_ctor();
 
-  /// @brief Method OnRuleMatchedElement, addr 0x4a25638, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnRuleMatchedElement, addr 0x4a39d50, size 0x14, virtual true, abstract: false, final false
   inline bool OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method .ctor, addr 0x4a256a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a39db8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__UQuery__FirstQueryMatcher* getStaticF_Instance();
@@ -380,7 +380,7 @@ public:
   __UQuery__FirstQueryMatcher(__UQuery__FirstQueryMatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6195 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -421,7 +421,7 @@ public:
   UQuery(UQuery const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6196 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

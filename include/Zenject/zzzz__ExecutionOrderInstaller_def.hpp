@@ -35,7 +35,7 @@ public:
   /// @brief Field _typeOrder, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__typeOrder, put = __cordl_internal_set__typeOrder)) ::System::Collections::Generic::List_1<::System::Type*>* _typeOrder;
 
-  /// @brief Method InstallBindings, addr 0x4ad84fc, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x4aecc14, size 0x164, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ExecutionOrderInstaller* New_ctor(::System::Collections::Generic::List_1<::System::Type*>* typeOrder);
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__typeOrder(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-  /// @brief Method __zenCreate, addr 0x4ad8660, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4aecd78, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ad8720, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4aece38, size 0x268, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4ad84a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aecbb8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Type*>* typeOrder);
 
 protected:
@@ -73,7 +73,7 @@ public:
   ::System::Collections::Generic::List_1<::System::Type*>* ____typeOrder;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12655 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

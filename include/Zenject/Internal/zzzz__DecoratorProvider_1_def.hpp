@@ -141,7 +141,7 @@ public:
   ::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>* ____decoratorFactories;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12669 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12674 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -42,13 +42,13 @@ public:
   /// @brief Field _LocalDomainName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__LocalDomainName, put = setStaticF__LocalDomainName)) ::StringW _LocalDomainName;
 
-  /// @brief Method GetLocalHost, addr 0x442a094, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLocalHost, addr 0x443e7ac, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* GetLocalHost();
 
-  /// @brief Method IsAddressLocal, addr 0x4429b40, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsAddressLocal, addr 0x443e258, size 0x90, virtual false, abstract: false, final false
   static inline bool IsAddressLocal(::System::Net::IPAddress* ipAddress);
 
-  /// @brief Method IsFatal, addr 0x4429a80, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsFatal, addr 0x443e198, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsFatal(::System::Exception* exception);
 
   static inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> getStaticF__LocalAddresses();
@@ -57,10 +57,10 @@ public:
 
   static inline ::StringW getStaticF__LocalDomainName();
 
-  /// @brief Method get_LocalAddresses, addr 0x4429bd0, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAddresses, addr 0x443e2e8, size 0x4c4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> get_LocalAddresses();
 
-  /// @brief Method get_LocalAddressesLock, addr 0x442a0ac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAddressesLock, addr 0x443e7c4, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Object* get_LocalAddressesLock();
 
   static inline void setStaticF__LocalAddresses(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
@@ -84,7 +84,7 @@ public:
   NclUtilities(NclUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9565 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,7 +35,7 @@ public:
   /// @brief Field _minIntensity, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__minIntensity, put = __cordl_internal_set__minIntensity)) float_t _minIntensity;
 
-  /// @brief Method ColorWasSet, addr 0x3977ce4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x398b568, size 0x34, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::DirectionalLightWithId* New_ctor();
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__minIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x3977d18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398b59c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   float_t ____minIntensity;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16259 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

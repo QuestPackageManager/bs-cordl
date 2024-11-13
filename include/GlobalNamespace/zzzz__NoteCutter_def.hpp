@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_pos(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3b6eff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b84aec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   ::UnityEngine::Vector3 ___pos;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4637 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -133,12 +133,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x3b6f000, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x3b84af4, size 0x120, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* p0, ::System::Object* p1);
 
   static inline ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b6eff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b84ae4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -159,7 +159,7 @@ public:
   __NoteCutter__CuttableBySaberSortParamsComparer(__NoteCutter__CuttableBySaberSortParamsComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4638 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -193,7 +193,7 @@ public:
           __cordl_internal_set__cuttableBySaberSortParams)) ::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*>
       _cuttableBySaberSortParams;
 
-  /// @brief Method Cut, addr 0x3b6e878, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method Cut, addr 0x3b8436c, size 0x540, virtual false, abstract: false, final false
   inline void Cut(::GlobalNamespace::Saber* saber);
 
   static inline ::GlobalNamespace::NoteCutter* New_ctor();
@@ -219,7 +219,7 @@ public:
   constexpr void
   __cordl_internal_set__cuttableBySaberSortParams(::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b6eebc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b849b0, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -246,7 +246,7 @@ public:
   ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer* ____comparer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4639 };
 
   /// @brief Field kMaxNumberOfColliders offset 0xffffffff size 0x4
   static constexpr int32_t kMaxNumberOfColliders{ static_cast<int32_t>(0x10) };

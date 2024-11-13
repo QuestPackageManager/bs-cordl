@@ -48,7 +48,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename T> constexpr void System::Net::Http::Headers::HttpHeaderValueCollection_1<T>::__cordl_internal_set_list(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___list, value);
 }
 template <typename T> constexpr ::System::Net::Http::Headers::HttpHeaders*& System::Net::Http::Headers::HttpHeaderValueCollection_1<T>::__cordl_internal_get_headers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -61,7 +61,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::Http
 }
 template <typename T> constexpr void System::Net::Http::Headers::HttpHeaderValueCollection_1<T>::__cordl_internal_set_headers(::System::Net::Http::Headers::HttpHeaders* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___headers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___headers, value);
 }
 template <typename T> constexpr ::System::Net::Http::Headers::HeaderInfo*& System::Net::Http::Headers::HttpHeaderValueCollection_1<T>::__cordl_internal_get_headerInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -74,7 +74,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::Head
 }
 template <typename T> constexpr void System::Net::Http::Headers::HttpHeaderValueCollection_1<T>::__cordl_internal_set_headerInfo(::System::Net::Http::Headers::HeaderInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___headerInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___headerInfo, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<::StringW>*& System::Net::Http::Headers::HttpHeaderValueCollection_1<T>::__cordl_internal_get_invalidValues() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -88,7 +88,7 @@ System::Net::Http::Headers::HttpHeaderValueCollection_1<T>::__cordl_internal_get
 }
 template <typename T> constexpr void System::Net::Http::Headers::HttpHeaderValueCollection_1<T>::__cordl_internal_set_invalidValues(::System::Collections::Generic::List_1<::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___invalidValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___invalidValues, value);
 }
 template <typename T>
 inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<T>* System::Net::Http::Headers::HttpHeaderValueCollection_1<T>::New_ctor(::System::Net::Http::Headers::HttpHeaders* headers,

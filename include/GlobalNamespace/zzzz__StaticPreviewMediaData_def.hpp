@@ -40,18 +40,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
   constexpr operator ::GlobalNamespace::IPreviewMediaData*() noexcept;
 
-  /// @brief Method GetCoverSpriteAsync, addr 0x268b478, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetCoverSpriteAsync, addr 0x269707c, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync();
 
-  /// @brief Method GetPreviewAudioClip, addr 0x268b4e8, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetPreviewAudioClip, addr 0x26970ec, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip();
 
   static inline ::GlobalNamespace::StaticPreviewMediaData* New_ctor(::UnityEngine::Sprite* coverSprite, ::UnityEngine::AudioClip* previewAudioClip);
 
-  /// @brief Method UnloadCoverSprite, addr 0x268b55c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnloadCoverSprite, addr 0x2697160, size 0x4, virtual true, abstract: false, final true
   inline void UnloadCoverSprite();
 
-  /// @brief Method UnloadPreviewAudioClip, addr 0x268b558, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnloadPreviewAudioClip, addr 0x269715c, size 0x4, virtual true, abstract: false, final true
   inline void UnloadPreviewAudioClip();
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__coverSprite() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__previewAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  /// @brief Method .ctor, addr 0x2686a60, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2692664, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* coverSprite, ::UnityEngine::AudioClip* previewAudioClip);
 
   /// @brief Convert to "::GlobalNamespace::IPreviewMediaData"
@@ -93,7 +93,7 @@ public:
   ::UnityW<::UnityEngine::AudioClip> ____previewAudioClip;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12940 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

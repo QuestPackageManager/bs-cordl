@@ -35,21 +35,21 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x4072ecc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40875e4, size 0x44, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4072f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4087628, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* getStaticF_Instruction();
 
-  /// @brief Method get_ConsumedStack, addr 0x4072e7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x4087594, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x4072e8c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40875a4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4072e84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x408759c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Instruction(::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* value);
@@ -69,7 +69,7 @@ public:
   ValueTypeCopyInstruction(ValueTypeCopyInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -128,7 +128,7 @@ template <typename T> constexpr ::StringW const& UnityEngine::UIElements::Pointe
 }
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__pointerType_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pointerType_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____pointerType_k__BackingField, value);
 }
 template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__isPrimary_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -71,18 +71,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE __OVRHandTest__BoolMonitor__BoolGenerator : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fc10c4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3fd5754, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fc10e4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3fd5774, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fc10b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3fd5740, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fc00a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd4730, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -100,7 +100,7 @@ public:
   __OVRHandTest__BoolMonitor__BoolGenerator(__OVRHandTest__BoolMonitor__BoolGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8403 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -139,12 +139,12 @@ public:
   /// @brief Field m_prevValue, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_m_prevValue, put = __cordl_internal_set_m_prevValue)) bool m_prevValue;
 
-  /// @brief Method AppendToStringBuilder, addr 0x3fc0e34, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AppendToStringBuilder, addr 0x3fd54c4, size 0xd4, virtual false, abstract: false, final false
   inline void AppendToStringBuilder(ByRef<::System::Text::StringBuilder*> sb);
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
-  /// @brief Method Update, addr 0x3fc0da4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fd5434, size 0x90, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_m_currentValue() const;
@@ -189,7 +189,7 @@ public:
 
   constexpr void __cordl_internal_set_m_prevValue(bool value);
 
-  /// @brief Method .ctor, addr 0x3fc0128, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd47b8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::GlobalNamespace::__OVRHandTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
 protected:
@@ -228,7 +228,7 @@ public:
   float_t ___m_displayTimer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8404 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -266,13 +266,13 @@ public:
 
   static inline ::GlobalNamespace::__OVRHandTest____c* New_ctor();
 
-  /// @brief Method <Start>b__14_0, addr 0x3fc1170, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__14_0, addr 0x3fd5800, size 0x58, virtual false, abstract: false, final false
   inline bool _Start_b__14_0();
 
-  /// @brief Method <.cctor>b__19_0, addr 0x3fc11c8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__19_0, addr 0x3fd5858, size 0x108, virtual false, abstract: false, final false
   inline bool __cctor_b__19_0();
 
-  /// @brief Method .ctor, addr 0x3fc1168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd57f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__OVRHandTest____c* getStaticF___9();
@@ -298,7 +298,7 @@ public:
   __OVRHandTest____c(__OVRHandTest____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8405 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -365,10 +365,10 @@ public:
 
   static inline ::GlobalNamespace::OVRHandTest* New_ctor();
 
-  /// @brief Method Start, addr 0x3fbfdd0, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fd4460, size 0x2d0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fc01a0, size 0xc04, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fd4830, size 0xc04, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Text::StringBuilder*& __cordl_internal_get_data();
@@ -449,7 +449,7 @@ public:
 
   constexpr void __cordl_internal_set_uiText(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x3fc0f08, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd5598, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__OVRHandTest__BoolMonitor* getStaticF_controllers();
@@ -514,7 +514,7 @@ public:
   bool ___result_mesh_RH;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8406 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

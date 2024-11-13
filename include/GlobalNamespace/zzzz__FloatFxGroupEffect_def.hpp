@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value);
 
-  /// @brief Method .ctor, addr 0x3b1393c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b287c8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
 protected:
@@ -102,7 +102,7 @@ public:
   ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> ___target;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4257 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -143,16 +143,16 @@ public:
   /// @brief Field _tweeningManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Cleanup, addr 0x3b13768, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x3b2894c, size 0x9c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x3b13804, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x3b28cbc, size 0x10c, virtual false, abstract: false, final false
   inline void HandleFloatFxBeatmapEventCallback(::GlobalNamespace::FloatFxBeatmapEventData* currentEvent);
 
   static inline ::GlobalNamespace::FloatFxGroupEffect* New_ctor(::GlobalNamespace::__FloatFxGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                 ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method SetValue, addr 0x3b13910, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b28dc8, size 0x2c, virtual false, abstract: false, final false
   inline void SetValue(float_t value);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -185,7 +185,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b13594, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b28ae8, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__FloatFxGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -219,7 +219,7 @@ public:
   ::GlobalNamespace::__FloatFxGroupEffect__InitData* ____initData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4258 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

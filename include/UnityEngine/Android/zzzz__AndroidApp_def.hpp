@@ -32,20 +32,20 @@ public:
   /// @brief Field m_Context, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_Context, put = setStaticF_m_Context)) ::UnityEngine::AndroidJavaObject* m_Context;
 
-  /// @brief Method AcquireContextAndActivity, addr 0x47d3aec, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method AcquireContextAndActivity, addr 0x47e8204, size 0x244, virtual false, abstract: false, final false
   static inline void AcquireContextAndActivity();
 
   static inline ::UnityEngine::AndroidJavaObject* getStaticF_m_Activity();
 
   static inline ::UnityEngine::AndroidJavaObject* getStaticF_m_Context();
 
-  /// @brief Method get_Activity, addr 0x47d3d30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Activity, addr 0x47e8448, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* get_Activity();
 
-  /// @brief Method get_Context, addr 0x47d3aa0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Context, addr 0x47e81b8, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* get_Context();
 
-  /// @brief Method get_UnityPlayerRaw, addr 0x47c29fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_UnityPlayerRaw, addr 0x47d7114, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_UnityPlayerRaw();
 
   static inline void setStaticF_m_Activity(::UnityEngine::AndroidJavaObject* value);
@@ -67,7 +67,7 @@ public:
   AndroidApp(AndroidApp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16726 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

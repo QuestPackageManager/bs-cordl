@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::JumpReceiver* New_ctor();
 
-  /// @brief Method OnNotify, addr 0x395ccf8, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method OnNotify, addr 0x397057c, size 0x140, virtual true, abstract: false, final true
   inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
   constexpr bool const& __cordl_internal_get__jumpToDestinationValid_k__BackingField() const;
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set__jumpToDestinationValid_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x395ce38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39706bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_jumpToDestinationValid, addr 0x395cce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jumpToDestinationValid, addr 0x3970568, size 0x8, virtual false, abstract: false, final false
   inline bool get_jumpToDestinationValid();
 
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
   constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
-  /// @brief Method set_jumpToDestinationValid, addr 0x395ccec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_jumpToDestinationValid, addr 0x3970570, size 0xc, virtual false, abstract: false, final false
   inline void set_jumpToDestinationValid(bool value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   bool ____jumpToDestinationValid_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16414 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -45,7 +45,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x3abf89c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x3ad343c, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::BloomFogParamsAsset* New_ctor();
@@ -56,10 +56,10 @@ public:
 
   constexpr void __cordl_internal_set__template(::GlobalNamespace::BloomFogParamsBehaviour* value);
 
-  /// @brief Method .ctor, addr 0x3abf944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad34e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x3abf894, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x3ad3434, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -83,7 +83,7 @@ public:
   ::GlobalNamespace::BloomFogParamsBehaviour* ____template;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

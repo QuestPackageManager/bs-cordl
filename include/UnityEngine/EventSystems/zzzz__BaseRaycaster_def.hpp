@@ -48,22 +48,22 @@ public:
 
   static inline ::UnityEngine::EventSystems::BaseRaycaster* New_ctor();
 
-  /// @brief Method OnCanvasHierarchyChanged, addr 0x4a666d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasHierarchyChanged, addr 0x4a7ade8, size 0x8, virtual true, abstract: false, final false
   inline void OnCanvasHierarchyChanged();
 
-  /// @brief Method OnDisable, addr 0x4a6667c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4a7ad94, size 0x54, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4a66628, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4a7ad40, size 0x54, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTransformParentChanged, addr 0x4a666dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x4a7adf4, size 0x8, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
   /// @brief Method Raycast, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method ToString, addr 0x4a66460, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a7ab78, size 0x1c8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> const& __cordl_internal_get_m_RootRaycaster() const;
@@ -72,22 +72,22 @@ public:
 
   constexpr void __cordl_internal_set_m_RootRaycaster(::UnityW<::UnityEngine::EventSystems::BaseRaycaster> value);
 
-  /// @brief Method .ctor, addr 0x4a5b734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a6fe4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_eventCamera, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_priority, addr 0x4a66448, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_priority, addr 0x4a7ab60, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_priority();
 
-  /// @brief Method get_renderOrderPriority, addr 0x4a66458, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderOrderPriority, addr 0x4a7ab70, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_renderOrderPriority();
 
-  /// @brief Method get_rootRaycaster, addr 0x4a5d440, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_rootRaycaster, addr 0x4a71b58, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> get_rootRaycaster();
 
-  /// @brief Method get_sortOrderPriority, addr 0x4a66450, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x4a7ab68, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
 protected:
@@ -108,7 +108,7 @@ public:
   ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> ___m_RootRaycaster;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15184 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

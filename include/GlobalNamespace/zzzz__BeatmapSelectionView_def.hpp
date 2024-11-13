@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapSelectionView* New_ctor();
 
-  /// @brief Method SetBeatmap, addr 0x3a8ce34, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method SetBeatmap, addr 0x3aa0910, size 0xb4, virtual true, abstract: false, final false
   inline void SetBeatmap(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__noLevelText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3a8cfc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa0a9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   ::UnityW<::TMPro::TextMeshProUGUI> ____noLevelText;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4946 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

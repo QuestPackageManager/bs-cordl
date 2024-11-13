@@ -52,18 +52,18 @@ public:
   /// @brief Field _nextHapticSamplePlayTimeEnd, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__nextHapticSamplePlayTimeEnd, put = __cordl_internal_set__nextHapticSamplePlayTimeEnd)) float_t _nextHapticSamplePlayTimeEnd;
 
-  /// @brief Method HandleHapticSettingValueDidChange, addr 0x3b96b30, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleHapticSettingValueDidChange, addr 0x3bac994, size 0x50, virtual false, abstract: false, final false
   inline void HandleHapticSettingValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* controller, float_t newValue);
 
   static inline ::GlobalNamespace::HeadsetHapticSettingsSampleController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b969fc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bac860, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b96960, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bac7c4, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b96ac8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bac92c, size 0x68, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__formattedFloatListSettingsController() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__nextHapticSamplePlayTimeEnd(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b96b80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bac9e4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,7 +147,7 @@ public:
   float_t ____nextHapticSamplePlayTimeEnd;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -45,18 +45,18 @@ public:
   /// @brief Field _tweeningManager, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Move, addr 0x3b90c78, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x3ba6840, size 0x138, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float_t duration);
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterScreenLayoutAnimator* New_ctor();
 
-  /// @brief Method StartCountdown, addr 0x3b90bf4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x3ba67bc, size 0x84, virtual false, abstract: false, final false
   inline void StartCountdown();
 
-  /// @brief Method StopCountdown, addr 0x3b90db0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StopCountdown, addr 0x3ba6978, size 0xa0, virtual false, abstract: false, final false
   inline void StopCountdown(bool instant);
 
-  /// @brief Method <Move>b__7_0, addr 0x3b90e58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Move>b__7_0, addr 0x3ba6a20, size 0x1c, virtual false, abstract: false, final false
   inline void _Move_b__7_0(::UnityEngine::Vector3 pos);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__nextLevelBasePosition() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b90e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba6a18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,7 +122,7 @@ public:
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

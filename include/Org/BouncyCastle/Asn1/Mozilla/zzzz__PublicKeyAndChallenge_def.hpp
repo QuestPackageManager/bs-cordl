@@ -47,12 +47,12 @@ public:
   /// @brief Field spki, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_spki, put = __cordl_internal_set_spki)) ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki;
 
-  /// @brief Method GetInstance, addr 0x23c2c30, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23cdcd8, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23c2e1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23cdec4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerIA5String*& __cordl_internal_get_challenge();
@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set_spki(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
 
-  /// @brief Method .ctor, addr 0x23c2db0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cde58, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Challenge, addr 0x23c2e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Challenge, addr 0x23cded4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_Challenge();
 
-  /// @brief Method get_SubjectPublicKeyInfo, addr 0x23c2e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectPublicKeyInfo, addr 0x23cdecc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKeyInfo();
 
 protected:

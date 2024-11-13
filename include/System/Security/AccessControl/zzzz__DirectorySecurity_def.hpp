@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::System::Security::AccessControl::DirectorySecurity* New_ctor(::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method .ctor, addr 0x3c4f79c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c63e2c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
 protected:

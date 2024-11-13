@@ -127,7 +127,7 @@ public:
   __LinqExtensions____c__8_1(__LinqExtensions____c__8_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11914 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -178,7 +178,7 @@ public:
   T ___value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11915 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -329,7 +329,7 @@ public:
   T _____3__item;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -397,7 +397,7 @@ public:
   LinqExtensions(LinqExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11917 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__playerCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a73acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a875a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_distance, addr 0x3a73ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x3a8759c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_playerCount, addr 0x3a73abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerCount, addr 0x3a87594, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_playerCount();
 
 protected:
@@ -87,7 +87,7 @@ public:
   float_t ____distance;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4057 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -131,12 +131,12 @@ public:
   __declspec(property(get = __cordl_internal_get_spawnCenterDistanceWasFoundEvent,
                       put = __cordl_internal_set_spawnCenterDistanceWasFoundEvent)) ::System::Action_1<float_t>* spawnCenterDistanceWasFoundEvent;
 
-  /// @brief Method CalculateSpawnCenterPosition, addr 0x3a73920, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method CalculateSpawnCenterPosition, addr 0x3a873f8, size 0x164, virtual false, abstract: false, final false
   inline float_t CalculateSpawnCenterPosition(int32_t numberOfPlayers);
 
   static inline ::GlobalNamespace::BeatmapObjectSpawnCenter* New_ctor();
 
-  /// @brief Method ReportAndSaveSpawnCenterDistance, addr 0x3a73a84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReportAndSaveSpawnCenterDistance, addr 0x3a8755c, size 0x28, virtual false, abstract: false, final false
   inline void ReportAndSaveSpawnCenterDistance(float_t distance);
 
   constexpr float_t const& __cordl_internal_get__defaultDistnace() const;
@@ -172,19 +172,19 @@ public:
 
   constexpr void __cordl_internal_set_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3a73aac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a87584, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_spawnCenterDistanceWasFoundEvent, addr 0x3a6b998, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_spawnCenterDistanceWasFoundEvent, addr 0x3a87298, size 0xb0, virtual false, abstract: false, final false
   inline void add_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_spawnCenterDistance, addr 0x3a73860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spawnCenterDistance, addr 0x3a87288, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spawnCenterDistance();
 
-  /// @brief Method get_spawnCenterDistanceWasFound, addr 0x3a73868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spawnCenterDistanceWasFound, addr 0x3a87290, size 0x8, virtual false, abstract: false, final false
   inline bool get_spawnCenterDistanceWasFound();
 
-  /// @brief Method remove_spawnCenterDistanceWasFoundEvent, addr 0x3a73870, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_spawnCenterDistanceWasFoundEvent, addr 0x3a87348, size 0xb0, virtual false, abstract: false, final false
   inline void remove_spawnCenterDistanceWasFoundEvent(::System::Action_1<float_t>* value);
 
 protected:
@@ -217,7 +217,7 @@ public:
   float_t ____spawnCenterDistance;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4058 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

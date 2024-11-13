@@ -33,15 +33,15 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x3f18a28, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3f2d0b8, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::VoipOptions* New_ctor();
 
-  /// @brief Method SetBitrateForNewConnections, addr 0x3f18958, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetBitrateForNewConnections, addr 0x3f2cfe8, size 0x68, virtual false, abstract: false, final false
   inline void SetBitrateForNewConnections(::Oculus::Platform::VoipBitrate value);
 
-  /// @brief Method SetCreateNewConnectionUseDtx, addr 0x3f189c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetCreateNewConnectionUseDtx, addr 0x3f2d050, size 0x68, virtual false, abstract: false, final false
   inline void SetCreateNewConnectionUseDtx(::Oculus::Platform::VoipDtxState value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3f188f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2cf84, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x3f0f6ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x3f23d7c, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::VoipOptions* options);
 
 protected:
@@ -74,7 +74,7 @@ public:
   ::System::IntPtr ___Handle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

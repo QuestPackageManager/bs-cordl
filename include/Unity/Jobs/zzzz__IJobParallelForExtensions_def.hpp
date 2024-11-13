@@ -76,7 +76,7 @@ public:
   __IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction(__IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10518 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -114,7 +114,7 @@ public:
   constexpr __IJobParallelForExtensions__ParallelForJobStruct_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10519 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -155,7 +155,7 @@ public:
   IJobParallelForExtensions(IJobParallelForExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10515 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10520 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__defaultSongPackMaskItems(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x26a1670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ad290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customSongPackMaskItems, addr 0x26a1668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customSongPackMaskItems, addr 0x26ad288, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> get_customSongPackMaskItems();
 
-  /// @brief Method get_defaultSongPackMaskItems, addr 0x26a1660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSongPackMaskItems, addr 0x26ad280, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_defaultSongPackMaskItems();
 
 protected:
@@ -87,7 +87,7 @@ public:
   ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> ____customSongPackMaskItems;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13083 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

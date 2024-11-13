@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b1a388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2f80c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -150,7 +150,7 @@ public:
   float_t ___side;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4304 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -233,21 +233,21 @@ public:
   /// @brief Field _transformR, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__transformR, put = __cordl_internal_set__transformR)) ::UnityW<::UnityEngine::Transform> _transformR;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b1a588, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b2fa0c, size 0x15c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::LightPairSinMoveEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b1a56c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b2f9f0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b1a078, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b2f4fc, size 0x310, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b1a390, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b2f814, size 0x1dc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateMovementData, addr 0x3b1a6e4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method UpdateMovementData, addr 0x3b2fb68, size 0x138, virtual false, abstract: false, final false
   inline void UpdateMovementData(int32_t beatmapEventDataValue, ::GlobalNamespace::__LightPairSinMoveEventEffect__MovementData* movementData, float_t movementValueOffset);
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -346,7 +346,7 @@ public:
 
   constexpr void __cordl_internal_set__transformR(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b1a81c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2fca0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -412,7 +412,7 @@ public:
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4305 };
 
   /// @brief Field kSpeedMultiplier offset 0xffffffff size 0x4
   static constexpr float_t kSpeedMultiplier{ 1.0 };

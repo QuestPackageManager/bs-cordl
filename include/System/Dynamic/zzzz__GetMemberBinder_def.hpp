@@ -41,11 +41,11 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method Bind, addr 0x408b130, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x409f848, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackGetMember, addr 0x4089ce8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackGetMember, addr 0x409e400, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target);
 
   /// @brief Method FallbackGetMember, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x408b040, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x409f758, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool ignoreCase);
 
-  /// @brief Method get_IgnoreCase, addr 0x408b128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreCase, addr 0x409f840, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreCase();
 
-  /// @brief Method get_IsStandardBinder, addr 0x408b20c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsStandardBinder, addr 0x409f924, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsStandardBinder();
 
-  /// @brief Method get_Name, addr 0x408b120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x409f838, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ReturnType, addr 0x408b0b4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_ReturnType, addr 0x409f7cc, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Type* get_ReturnType();
 
 protected:
@@ -101,7 +101,7 @@ public:
   bool ____IgnoreCase_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14135 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

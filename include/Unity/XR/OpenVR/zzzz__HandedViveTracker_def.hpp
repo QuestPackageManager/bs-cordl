@@ -54,7 +54,7 @@ public:
 
   __declspec(property(get = get_triggerPressed, put = set_triggerPressed)) ::UnityEngine::InputSystem::Controls::ButtonControl* triggerPressed;
 
-  /// @brief Method FinishSetup, addr 0x44c5030, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x44d9748, size 0x138, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::OpenVR::HandedViveTracker* New_ctor();
@@ -89,37 +89,37 @@ public:
 
   constexpr void __cordl_internal_set__triggerPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x44c5168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9880, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_grip, addr 0x44c4fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_grip, addr 0x44d96f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip();
 
-  /// @brief Method get_gripPressed, addr 0x44c4ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gripPressed, addr 0x44d9708, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_gripPressed();
 
-  /// @brief Method get_primary, addr 0x44c5000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_primary, addr 0x44d9718, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_primary();
 
-  /// @brief Method get_trackpadPressed, addr 0x44c5010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackpadPressed, addr 0x44d9728, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadPressed();
 
-  /// @brief Method get_triggerPressed, addr 0x44c5020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggerPressed, addr 0x44d9738, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed();
 
-  /// @brief Method set_grip, addr 0x44c4fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_grip, addr 0x44d9700, size 0x8, virtual false, abstract: false, final false
   inline void set_grip(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_gripPressed, addr 0x44c4ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gripPressed, addr 0x44d9710, size 0x8, virtual false, abstract: false, final false
   inline void set_gripPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_primary, addr 0x44c5008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_primary, addr 0x44d9720, size 0x8, virtual false, abstract: false, final false
   inline void set_primary(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_trackpadPressed, addr 0x44c5018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackpadPressed, addr 0x44d9730, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_triggerPressed, addr 0x44c5028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_triggerPressed, addr 0x44d9740, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -152,7 +152,7 @@ public:
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____triggerPressed_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6496 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

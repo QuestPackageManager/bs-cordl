@@ -66,10 +66,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NumericConvertInstruction* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method Run, addr 0x407afb4, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x408f6cc, size 0xd4, virtual true, abstract: false, final true
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x407b0d8, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x408f7f0, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::TypeCode const& __cordl_internal_get__from() const;
@@ -90,16 +90,16 @@ public:
 
   constexpr void __cordl_internal_set__to(::System::TypeCode value);
 
-  /// @brief Method .ctor, addr 0x407af78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408f690, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method get_ConsumedStack, addr 0x407b0c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x408f7e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x407b088, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x408f7a0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x407b0d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x408f7e8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -126,7 +126,7 @@ public:
   bool ____isLiftedToNull;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14024 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

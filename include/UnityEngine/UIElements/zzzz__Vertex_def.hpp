@@ -86,7 +86,7 @@ public:
   float_t textureId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5997 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6002 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

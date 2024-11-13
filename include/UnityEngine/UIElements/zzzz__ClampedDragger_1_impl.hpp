@@ -29,7 +29,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ac
 }
 template <typename T> constexpr void UnityEngine::UIElements::ClampedDragger_1<T>::__cordl_internal_set_dragging(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dragging)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___dragging, value);
 }
 template <typename T> constexpr ::System::Action*& UnityEngine::UIElements::ClampedDragger_1<T>::__cordl_internal_get_draggingEnded() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -41,7 +41,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ac
 }
 template <typename T> constexpr void UnityEngine::UIElements::ClampedDragger_1<T>::__cordl_internal_set_draggingEnded(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___draggingEnded)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___draggingEnded, value);
 }
 template <typename T> constexpr ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T>& UnityEngine::UIElements::ClampedDragger_1<T>::__cordl_internal_get__dragDirection_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -68,7 +68,7 @@ constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseSli
 }
 template <typename T> constexpr void UnityEngine::UIElements::ClampedDragger_1<T>::__cordl_internal_set__slider_k__BackingField(::UnityEngine::UIElements::BaseSlider_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____slider_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____slider_k__BackingField, value);
 }
 template <typename T> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::ClampedDragger_1<T>::__cordl_internal_get__startMousePosition_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

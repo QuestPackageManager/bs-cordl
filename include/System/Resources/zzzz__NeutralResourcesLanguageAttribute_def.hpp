@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__Location_k__BackingField(::System::Resources::UltimateResourceFallbackLocation value);
 
-  /// @brief Method .ctor, addr 0x3ca52f4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb9984, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW cultureName);
 
-  /// @brief Method get_CultureName, addr 0x3ca536c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CultureName, addr 0x3cb99fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CultureName();
 
-  /// @brief Method get_Location, addr 0x3ca5374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x3cb9a04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Resources::UltimateResourceFallbackLocation get_Location();
 
 protected:

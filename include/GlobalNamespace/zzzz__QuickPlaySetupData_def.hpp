@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_packName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26949ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a05cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   ::StringW ___packName;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13024 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -164,7 +164,7 @@ public:
 
   constexpr void __cordl_internal_set_serializedName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26949b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a05d4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -196,7 +196,7 @@ public:
   ::System::Collections::Generic::List_1<::StringW>* ___packIds;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13025 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -240,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set_packId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2694a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -264,7 +264,7 @@ public:
   ::StringW ___packId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13026 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -315,7 +315,7 @@ public:
 
   constexpr void __cordl_internal_set_predefinedPackIds(::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack*>* value);
 
-  /// @brief Method .ctor, addr 0x26948e8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0508, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -339,7 +339,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__LocalizedCustomPack*>* ___localizedCustomPacks;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13027 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -375,10 +375,10 @@ public:
 
   constexpr void __cordl_internal_set_quickPlayAvailablePacksOverride(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride* value);
 
-  /// @brief Method .ctor, addr 0x26948e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasOverride, addr 0x2694858, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_hasOverride, addr 0x26a0478, size 0x88, virtual false, abstract: false, final false
   inline bool get_hasOverride();
 
 protected:
@@ -399,7 +399,7 @@ public:
   ::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride* ___quickPlayAvailablePacksOverride;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13028 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

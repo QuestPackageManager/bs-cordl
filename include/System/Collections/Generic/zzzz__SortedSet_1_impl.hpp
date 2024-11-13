@@ -34,7 +34,7 @@ template <typename T> constexpr T const& System::Collections::Generic::__SortedS
 }
 template <typename T> constexpr void System::Collections::Generic::__SortedSet_1__Node<T>::__cordl_internal_set__Item_k__BackingField(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Item_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____Item_k__BackingField, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::__SortedSet_1__Node<T>*& System::Collections::Generic::__SortedSet_1__Node<T>::__cordl_internal_get__Left_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -48,7 +48,7 @@ System::Collections::Generic::__SortedSet_1__Node<T>::__cordl_internal_get__Left
 }
 template <typename T> constexpr void System::Collections::Generic::__SortedSet_1__Node<T>::__cordl_internal_set__Left_k__BackingField(::System::Collections::Generic::__SortedSet_1__Node<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Left_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____Left_k__BackingField, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::__SortedSet_1__Node<T>*& System::Collections::Generic::__SortedSet_1__Node<T>::__cordl_internal_get__Right_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -62,7 +62,7 @@ System::Collections::Generic::__SortedSet_1__Node<T>::__cordl_internal_get__Righ
 }
 template <typename T> constexpr void System::Collections::Generic::__SortedSet_1__Node<T>::__cordl_internal_set__Right_k__BackingField(::System::Collections::Generic::__SortedSet_1__Node<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Right_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____Right_k__BackingField, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::NodeColor& System::Collections::Generic::__SortedSet_1__Node<T>::__cordl_internal_get__Color_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -416,7 +416,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& System::Collecti
 }
 template <typename T> constexpr void System::Collections::Generic::__SortedSet_1____c__DisplayClass52_0<T>::__cordl_internal_set_array(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___array)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___array, value);
 }
 template <typename T> inline ::System::Collections::Generic::__SortedSet_1____c__DisplayClass52_0<T>* System::Collections::Generic::__SortedSet_1____c__DisplayClass52_0<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::__SortedSet_1____c__DisplayClass52_0<T>*>());
@@ -459,7 +459,7 @@ constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& System
 template <typename T>
 constexpr void System::Collections::Generic::__SortedSet_1____c__DisplayClass53_0<T>::__cordl_internal_set_objects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___objects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___objects, value);
 }
 template <typename T> inline ::System::Collections::Generic::__SortedSet_1____c__DisplayClass53_0<T>* System::Collections::Generic::__SortedSet_1____c__DisplayClass53_0<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::__SortedSet_1____c__DisplayClass53_0<T>*>());
@@ -557,7 +557,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__
 }
 template <typename T> constexpr void System::Collections::Generic::SortedSet_1<T>::__cordl_internal_set_root(::System::Collections::Generic::__SortedSet_1__Node<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___root)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___root, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::IComparer_1<T>*& System::Collections::Generic::SortedSet_1<T>::__cordl_internal_get_comparer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -570,7 +570,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IC
 }
 template <typename T> constexpr void System::Collections::Generic::SortedSet_1<T>::__cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___comparer, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Generic::SortedSet_1<T>::__cordl_internal_get_count() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -606,7 +606,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ob
 }
 template <typename T> constexpr void System::Collections::Generic::SortedSet_1<T>::__cordl_internal_set__syncRoot(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____syncRoot, value);
 }
 template <typename T> constexpr ::System::Runtime::Serialization::SerializationInfo*& System::Collections::Generic::SortedSet_1<T>::__cordl_internal_get_siInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -619,7 +619,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::
 }
 template <typename T> constexpr void System::Collections::Generic::SortedSet_1<T>::__cordl_internal_set_siInfo(::System::Runtime::Serialization::SerializationInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___siInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___siInfo, value);
 }
 template <typename T> inline ::System::Collections::Generic::SortedSet_1<T>* System::Collections::Generic::SortedSet_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::SortedSet_1<T>*>());

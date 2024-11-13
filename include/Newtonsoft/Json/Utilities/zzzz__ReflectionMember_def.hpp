@@ -68,25 +68,25 @@ public:
 
   constexpr void __cordl_internal_set__Setter_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3e5bea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e70538, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Getter, addr 0x3e5be88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Getter, addr 0x3e70518, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::System::Object*>* get_Getter();
 
-  /// @brief Method get_MemberType, addr 0x3e5be78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x3e70508, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
-  /// @brief Method get_Setter, addr 0x3e5be98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Setter, addr 0x3e70528, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::System::Object*, ::System::Object*>* get_Setter();
 
-  /// @brief Method set_Getter, addr 0x3e5be90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Getter, addr 0x3e70520, size 0x8, virtual false, abstract: false, final false
   inline void set_Getter(::System::Func_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_MemberType, addr 0x3e5be80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberType, addr 0x3e70510, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberType(::System::Type* value);
 
-  /// @brief Method set_Setter, addr 0x3e5bea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Setter, addr 0x3e70530, size 0x8, virtual false, abstract: false, final false
   inline void set_Setter(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
 protected:
@@ -113,7 +113,7 @@ public:
   ::System::Action_2<::System::Object*, ::System::Object*>* ____Setter_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10233 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

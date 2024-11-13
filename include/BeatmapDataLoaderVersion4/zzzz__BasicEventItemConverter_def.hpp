@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__BeatToTimeConverterProvider_def.hpp"
+#include "GlobalNamespace/zzzz__BeatToTimeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BasicEventItemConverter)
 namespace BeatmapDataLoaderVersion4 {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::BasicEventItemConverter);
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::BasicEventItemConverter*
-class CORDL_TYPE BasicEventItemConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
+class CORDL_TYPE BasicEventItemConverter : public ::GlobalNamespace::BeatToTimeConverter {
 public:
   // Declarations
   /// @brief Field _basicEvents, offset 0x18, size 0x8
@@ -52,7 +52,7 @@ public:
   /// @brief Field _specialEventsFilter, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__specialEventsFilter, put = __cordl_internal_set__specialEventsFilter)) ::BeatmapDataLoaderVersion4::SpecialEventsFilter* _specialEventsFilter;
 
-  /// @brief Method Convert, addr 0x26cc688, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x26d8218, size 0x14c, virtual false, abstract: false, final false
   inline void Convert(::BeatmapSaveDataVersion4::BeatIndex* index, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
   static inline ::BeatmapDataLoaderVersion4::BasicEventItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> basicEvents,
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__specialEventsFilter(::BeatmapDataLoaderVersion4::SpecialEventsFilter* value);
 
-  /// @brief Method .ctor, addr 0x26cc61c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d81ac, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> basicEvents, ::BeatmapDataLoaderVersion4::SpecialEventsFilter* specialEventsFilter,
                     ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter);
 
@@ -106,7 +106,7 @@ public:
   ::GlobalNamespace::IBeatmapLightEventConverter* ____lightEventConverter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

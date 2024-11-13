@@ -46,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set__Previous_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
 
-  /// @brief Method .ctor, addr 0x4680ef0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4695608, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(double_t x, double_t y, int32_t index);
 
-  /// @brief Method get_Next, addr 0x4680f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Next, addr 0x4695680, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* get_Next();
 
-  /// @brief Method get_Previous, addr 0x4680f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Previous, addr 0x4695690, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* get_Previous();
 
-  /// @brief Method set_Next, addr 0x4680f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Next, addr 0x4695688, size 0x8, virtual false, abstract: false, final false
   inline void set_Next(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
 
-  /// @brief Method set_Previous, addr 0x4680f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Previous, addr 0x4695698, size 0x8, virtual false, abstract: false, final false
   inline void set_Previous(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
 
 protected:
@@ -82,7 +82,7 @@ public:
   ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* ____Previous_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -57,25 +57,25 @@ public:
 
   constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x478b900, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a0018, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x478bb74, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a028c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method .ctor, addr 0x478bc28, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a0340, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x478bbc8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a02e0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method get_hashCode, addr 0x478bb64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x47a027c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_name, addr 0x478baf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x47a0208, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x478b920, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x47a0038, size 0x78, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
 protected:
@@ -99,7 +99,7 @@ public:
   int32_t ___m_HashCode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14505 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

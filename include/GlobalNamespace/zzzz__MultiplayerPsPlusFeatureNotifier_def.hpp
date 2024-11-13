@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__isSpectator(bool value);
 
-  /// @brief Method .ctor, addr 0x3b64d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7a9d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   bool ____isSpectator;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

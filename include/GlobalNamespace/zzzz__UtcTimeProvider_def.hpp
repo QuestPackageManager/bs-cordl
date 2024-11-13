@@ -33,15 +33,15 @@ public:
   /// @brief Convert operator to "::BGNet::Core::ITimeProvider"
   constexpr operator ::BGNet::Core::ITimeProvider*() noexcept;
 
-  /// @brief Method GetTicks, addr 0x22994ac, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method GetTicks, addr 0x22a4554, size 0xb0, virtual true, abstract: false, final true
   inline int64_t GetTicks();
 
-  /// @brief Method GetTimeMs, addr 0x22aaa50, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetTimeMs, addr 0x22b5af8, size 0x2c, virtual true, abstract: false, final true
   inline int64_t GetTimeMs();
 
   static inline ::GlobalNamespace::UtcTimeProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22aaa7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b5b24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::DateTime getStaticF__epoch();
@@ -70,7 +70,7 @@ public:
   UtcTimeProvider(UtcTimeProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14962 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

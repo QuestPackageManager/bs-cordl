@@ -62,19 +62,19 @@ public:
   /// @brief Field _setMemberCall, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__setMemberCall, put = setStaticF__setMemberCall)) ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _setMemberCall;
 
-  /// @brief Method CreateMemberCalls, addr 0x3e53130, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method CreateMemberCalls, addr 0x3e677c0, size 0x4d4, virtual false, abstract: false, final false
   static inline void CreateMemberCalls();
 
-  /// @brief Method CreateSharpArgumentInfoArray, addr 0x3e52e58, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method CreateSharpArgumentInfoArray, addr 0x3e674e8, size 0x2d8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateSharpArgumentInfoArray(::ArrayW<int32_t, ::Array<int32_t>*> values);
 
-  /// @brief Method GetMember, addr 0x3e53604, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetMember, addr 0x3e67c94, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSiteBinder* GetMember(::StringW name, ::System::Type* context);
 
-  /// @brief Method Init, addr 0x3e52c80, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3e67310, size 0x1d8, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method SetMember, addr 0x3e537d8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SetMember, addr 0x3e67e68, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSiteBinder* SetMember(::StringW name, ::System::Type* context);
 
   static inline ::System::Object* getStaticF__getCSharpArgumentInfoArray();
@@ -131,7 +131,7 @@ public:
   static constexpr ::ConstString CSharpBinderFlagsTypeName{ u"Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10195 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -149,7 +149,7 @@ public:
   // Declarations
   using BinderWrapper = ::Newtonsoft::Json::Utilities::__DynamicUtils__BinderWrapper;
 
-  /// @brief Method GetDynamicMemberNames, addr 0x3e52b98, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetDynamicMemberNames, addr 0x3e67228, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider);
 
 protected:
@@ -167,7 +167,7 @@ public:
   DynamicUtils(DynamicUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10196 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

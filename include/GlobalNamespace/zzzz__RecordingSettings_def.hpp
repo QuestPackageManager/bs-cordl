@@ -137,7 +137,7 @@ public:
            bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType,
            ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, bool saveToOldFormat);
 
-  /// @brief Method ToString, addr 0x3ab73bc, size 0xa6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3acaf5c, size 0xa6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_addDateTimeSuffixToRecordingName() const;
@@ -280,7 +280,7 @@ public:
 
   constexpr void __cordl_internal_set_startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ab5e84, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac9a24, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::StringW gameMode, ::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* characteristic, bool runLevel, bool recordPerformance, ::GlobalNamespace::__ObjectsMovementRecorder__Mode recordingMode,
                     ::StringW recordingPath, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording,
@@ -373,7 +373,7 @@ public:
   bool ___saveToOldFormat;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5125 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

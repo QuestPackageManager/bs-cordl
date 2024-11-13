@@ -106,15 +106,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4a9aa70, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4aaf188, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Zenject::BindInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x4a9a974, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4aaf08c, size 0xfc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetContextInfo, addr 0x4a9aac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContextInfo, addr 0x4aaf1e0, size 0x8, virtual false, abstract: false, final false
   inline void SetContextInfo(::StringW contextInfo);
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get_Arguments();
@@ -225,7 +225,7 @@ public:
 
   constexpr void __cordl_internal_set_ToTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-  /// @brief Method .ctor, addr 0x4a9a890, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aaefa8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -300,7 +300,7 @@ public:
   ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* ___InstantiatedCallback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12250 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

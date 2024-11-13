@@ -25,7 +25,7 @@ template <typename T> constexpr T const& BGLib::Polyglot::LocalizedTextComponent
 }
 template <typename T> constexpr void BGLib::Polyglot::LocalizedTextComponent_1<T>::__cordl_internal_set_localizedComponent(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localizedComponent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___localizedComponent, value);
 }
 template <typename T> constexpr bool& BGLib::Polyglot::LocalizedTextComponent_1<T>::__cordl_internal_get_maintainTextAlignment() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -49,7 +49,7 @@ template <typename T> constexpr ::StringW const& BGLib::Polyglot::LocalizedTextC
 }
 template <typename T> constexpr void BGLib::Polyglot::LocalizedTextComponent_1<T>::__cordl_internal_set_key(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___key, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<::System::Object*>*& BGLib::Polyglot::LocalizedTextComponent_1<T>::__cordl_internal_get_parameters() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -62,7 +62,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename T> constexpr void BGLib::Polyglot::LocalizedTextComponent_1<T>::__cordl_internal_set_parameters(::System::Collections::Generic::List_1<::System::Object*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___parameters, value);
 }
 template <typename T> inline bool BGLib::Polyglot::LocalizedTextComponent_1<T>::get_MaintainTextAlignment() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizedTextComponent_1<T>*>::get(),

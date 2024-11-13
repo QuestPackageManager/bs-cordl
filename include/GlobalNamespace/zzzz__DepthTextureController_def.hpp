@@ -22,12 +22,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE DepthTextureController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3ab9ecc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3acda6c, size 0xb8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SettingsManager* settingsManager);
 
   static inline ::GlobalNamespace::DepthTextureController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ab9f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acdb24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   DepthTextureController(DepthTextureController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5147 };
 
   /// @brief Field kDepthTextureEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kDepthTextureEnabledKeyword{ u"DEPTH_TEXTURE_ENABLED" };

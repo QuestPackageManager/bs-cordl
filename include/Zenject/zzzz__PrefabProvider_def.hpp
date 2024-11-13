@@ -31,7 +31,7 @@ public:
   /// @brief Convert operator to "::Zenject::IPrefabProvider"
   constexpr operator ::Zenject::IPrefabProvider*() noexcept;
 
-  /// @brief Method GetPrefab, addr 0x4ac45a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetPrefab, addr 0x4ad8cc0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
   static inline ::Zenject::PrefabProvider* New_ctor(::UnityEngine::Object* prefab);
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__prefab(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method .ctor, addr 0x4ac4574, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad8c8c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Object* prefab);
 
   /// @brief Convert to "::Zenject::IPrefabProvider"
@@ -66,7 +66,7 @@ public:
   ::UnityW<::UnityEngine::Object> ____prefab;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

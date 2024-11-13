@@ -52,7 +52,7 @@ public:
 
   static inline ::System::NotSupportedException* getStaticF_s_notSupported();
 
-  /// @brief Method get_DataViewSettings, addr 0x40f7568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataViewSettings, addr 0x410bc80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataViewSettingCollection* get_DataViewSettings();
 
   static inline void setStaticF_s_notSupported(::System::NotSupportedException* value);
@@ -78,7 +78,7 @@ public:
   int32_t ____nViews;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11374 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

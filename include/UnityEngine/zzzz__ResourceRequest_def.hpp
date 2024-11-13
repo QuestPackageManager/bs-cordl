@@ -34,7 +34,7 @@ public:
   /// @brief Field m_Type, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type)) ::System::Type* m_Type;
 
-  /// @brief Method GetResult, addr 0x482f8fc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetResult, addr 0x4844014, size 0xc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetResult();
 
   static inline ::UnityEngine::ResourceRequest* New_ctor();
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x482f98c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48440a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_asset, addr 0x482f980, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x4844098, size 0xc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_asset();
 
 protected:
@@ -78,7 +78,7 @@ public:
   ::System::Type* ___m_Type;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

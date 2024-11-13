@@ -6,6 +6,8 @@
 #include "GlobalNamespace/zzzz__PS5SharedPackageSKUsSO_def.hpp"
 #include "GlobalNamespace/zzzz__PS5PublisherSKUSettingsSO_def.hpp"
 #include "GlobalNamespace/zzzz__PS5SharedPackageSKUsSO_def.hpp"
+#include "GlobalNamespace/zzzz__SonyContentVersion_def.hpp"
+#include "GlobalNamespace/zzzz__SonyVersion_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType::__PS5SharedPackageSKUsSO__BuildType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -17,10 +19,10 @@ constexpr ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType GlobalNamespace
 //  Writing Method size for method: ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion.get_masterVersion
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SonyVersion* (::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::*)()>(
     &::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::get_masterVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6a7c;
+  constexpr static std::size_t addrs = 0x26b2758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,14 +34,44 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion.get_contentVersion
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SonyContentVersion* (::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::*)()>(
     &::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::get_contentVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6a84;
+  constexpr static std::size_t addrs = 0x26b2760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*>::get(), "get_contentVersion",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion.CopyValueFrom
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::*)(
+    ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*)>(&::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::CopyValueFrom)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x26b2768;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*>::get(), "CopyValueFrom", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion.IncreaseContentVersion
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::*)()>(
+    &::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::IncreaseContentVersion)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x26b27d8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*>::get(), "IncreaseContentVersion",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -50,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::*)()>(
     &::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6a8c;
+  constexpr static std::size_t addrs = 0x26b2834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,41 +91,53 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__cordl_internal_get__masterVersion() {
+constexpr ::GlobalNamespace::SonyVersion*& GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__cordl_internal_get__masterVersion() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterVersion;
 }
-constexpr ::StringW const& GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__cordl_internal_get__masterVersion() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyVersion*> const& GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__cordl_internal_get__masterVersion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterVersion;
 }
-constexpr void GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__cordl_internal_set__masterVersion(::StringW value) {
+constexpr void GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__cordl_internal_set__masterVersion(::GlobalNamespace::SonyVersion* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____masterVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__cordl_internal_get__contentVersion() {
+constexpr ::GlobalNamespace::SonyContentVersion*& GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__cordl_internal_get__contentVersion() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentVersion;
 }
-constexpr ::StringW const& GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__cordl_internal_get__contentVersion() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyContentVersion*> const& GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__cordl_internal_get__contentVersion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____contentVersion;
 }
-constexpr void GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__cordl_internal_set__contentVersion(::StringW value) {
+constexpr void GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::__cordl_internal_set__contentVersion(::GlobalNamespace::SonyContentVersion* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____contentVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::StringW GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::get_masterVersion() {
+inline ::GlobalNamespace::SonyVersion* GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::get_masterVersion() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*>::get(), "get_masterVersion",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::SonyVersion*, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::get_contentVersion() {
+inline ::GlobalNamespace::SonyContentVersion* GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::get_contentVersion() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*>::get(), "get_contentVersion",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::SonyContentVersion*, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::CopyValueFrom(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* newVersion) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*>::get(), "CopyValueFrom", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newVersion);
+}
+inline void GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::IncreaseContentVersion() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*>::get(), "IncreaseContentVersion",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion*>());
@@ -113,7 +157,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>, ::Array<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>>*> (::GlobalNamespace::PS5SharedPackageSKUsSO::*)()>(
         &::GlobalNamespace::PS5SharedPackageSKUsSO::get_availableSKUs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6a28;
+  constexpr static std::size_t addrs = 0x26b2704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5SharedPackageSKUsSO*>::get(),
@@ -127,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PS5SharedPackageSKUsSO::*)()>(
     &::GlobalNamespace::PS5SharedPackageSKUsSO::get_conceptId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6a30;
+  constexpr static std::size_t addrs = 0x26b270c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5SharedPackageSKUsSO*>::get(),
@@ -141,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType (::GlobalNamespace::PS5SharedPackageSKUsSO::*)()>(
     &::GlobalNamespace::PS5SharedPackageSKUsSO::get_buildType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6a38;
+  constexpr static std::size_t addrs = 0x26b2714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5SharedPackageSKUsSO*>::get(),
@@ -155,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* (::GlobalNamespace::PS5SharedPackageSKUsSO::*)()>(
     &::GlobalNamespace::PS5SharedPackageSKUsSO::get_buildVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6a40;
+  constexpr static std::size_t addrs = 0x26b271c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5SharedPackageSKUsSO*>::get(),
@@ -169,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* (::GlobalNamespace::PS5SharedPackageSKUsSO::*)()>(
     &::GlobalNamespace::PS5SharedPackageSKUsSO::get_latestBuildVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6a48;
+  constexpr static std::size_t addrs = 0x26b2724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5SharedPackageSKUsSO*>::get(),
@@ -183,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO> (::GlobalNamespace::PS5SharedPackageSKUsSO::*)()>(
     &::GlobalNamespace::PS5SharedPackageSKUsSO::GetPrimarySKU)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26a6a50;
+  constexpr static std::size_t addrs = 0x26b272c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5SharedPackageSKUsSO*>::get(),
@@ -196,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5SharedPackageSKUsSO::*)()>(&::GlobalNamespace::PS5SharedPackageSKUsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6a74;
+  constexpr static std::size_t addrs = 0x26b2750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5SharedPackageSKUsSO*>::get(), ".ctor",

@@ -18,7 +18,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1
 }
 template <typename TResult> constexpr void System::Threading::Tasks::TaskCompletionSource_1<TResult>::__cordl_internal_set__task(::System::Threading::Tasks::Task_1<TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____task)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____task, value);
 }
 template <typename TResult> inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>* System::Threading::Tasks::TaskCompletionSource_1<TResult>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>());

@@ -31,22 +31,22 @@ namespace System::ComponentModel {
 class CORDL_TYPE DateTimeConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x43d9600, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x43edd18, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x43d96c8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x43edde0, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x43d9790, size 0x328, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x43edea8, size 0x328, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x43d9ab8, size 0x398, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x43ee1d0, size 0x398, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::ComponentModel::DateTimeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43d9e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ee568, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   DateTimeConverter(DateTimeConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

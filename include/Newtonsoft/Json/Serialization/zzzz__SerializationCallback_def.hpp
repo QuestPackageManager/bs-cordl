@@ -35,18 +35,18 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE SerializationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3e6fcd4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3e84364, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3e6fd68, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3e843f8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3e6fcc0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3e84350, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::Newtonsoft::Json::Serialization::SerializationCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3e661b4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7a844, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -64,7 +64,7 @@ public:
   SerializationCallback(SerializationCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10284 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

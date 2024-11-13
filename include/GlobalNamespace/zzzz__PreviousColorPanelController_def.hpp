@@ -56,21 +56,21 @@ public:
   /// @brief Field colorWasSelectedEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_colorWasSelectedEvent, put = __cordl_internal_set_colorWasSelectedEvent)) ::System::Action_1<::UnityEngine::Color>* colorWasSelectedEvent;
 
-  /// @brief Method AddColor, addr 0x3bb0b6c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddColor, addr 0x3bc51fc, size 0xa4, virtual false, abstract: false, final false
   inline void AddColor(::UnityEngine::Color color);
 
-  /// @brief Method Awake, addr 0x3bb0a90, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bc5120, size 0xc0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DiscardUpcomingColor, addr 0x3bb0c10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DiscardUpcomingColor, addr 0x3bc52a0, size 0xc, virtual false, abstract: false, final false
   inline void DiscardUpcomingColor();
 
   static inline ::GlobalNamespace::PreviousColorPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb0b50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bc51e0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method <Awake>b__9_0, addr 0x3bb0c30, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__9_0, addr 0x3bc52c0, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__9_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -109,13 +109,13 @@ public:
 
   constexpr void __cordl_internal_set_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method .ctor, addr 0x3bb0c1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc52ac, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorWasSelectedEvent, addr 0x3bb0930, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_colorWasSelectedEvent, addr 0x3bc4fc0, size 0xb0, virtual false, abstract: false, final false
   inline void add_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method remove_colorWasSelectedEvent, addr 0x3bb09e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_colorWasSelectedEvent, addr 0x3bc5070, size 0xb0, virtual false, abstract: false, final false
   inline void remove_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
 protected:
@@ -151,7 +151,7 @@ public:
   ::UnityEngine::Color ____graphicsColor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18856 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18871 };
 
   /// @brief Field kMaxColors offset 0xffffffff size 0x4
   static constexpr int32_t kMaxColors{ static_cast<int32_t>(0x2) };

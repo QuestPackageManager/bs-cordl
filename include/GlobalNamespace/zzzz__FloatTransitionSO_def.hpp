@@ -88,25 +88,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(float_t value);
 
-  /// @brief Method .ctor, addr 0x44627c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4476edc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x44627ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x4476ec4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x446279c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x4476eb4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x4462794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x4476eac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x44627a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x4476ebc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x44627bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x4476ed4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x44627b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x4476ecc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedState();
 
 protected:
@@ -142,7 +142,7 @@ public:
   float_t ____selectedAndHighlightedState;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18134 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

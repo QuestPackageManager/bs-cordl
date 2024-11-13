@@ -80,18 +80,18 @@ public:
   /// @brief Method AnimateNewLeaderSelected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x3b5762c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x3b6e200, size 0xe8, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
-  /// @brief Method HandleStateChanged, addr 0x3b57420, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3b6dff4, size 0x15c, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b571e8, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b6ddbc, size 0x188, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b57154, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3b6dd28, size 0x94, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__activeLightsColor() const;
@@ -154,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set_tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b57714, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6e2e8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -202,7 +202,7 @@ public:
   ::GlobalNamespace::IConnectedPlayer* ___connectedPlayer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4554 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

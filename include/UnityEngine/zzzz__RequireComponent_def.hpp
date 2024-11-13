@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type2(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4830ef0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4845608, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent);
 
-  /// @brief Method .ctor, addr 0x4830f18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4845630, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent, ::System::Type* requiredComponent2);
 
 protected:
@@ -83,7 +83,7 @@ public:
   ::System::Type* ___m_Type2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10823 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

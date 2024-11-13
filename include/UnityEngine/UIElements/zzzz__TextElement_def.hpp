@@ -122,7 +122,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__TextElement__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a1f1d8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a338f0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   __TextElement__UxmlFactory(__TextElement__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6168 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6173 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -170,7 +170,7 @@ public:
   /// @brief Field m_Text, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x4a1f220, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a33938, size 0x1e0, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__TextElement__UxmlTraits* New_ctor();
@@ -199,7 +199,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4a1f400, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a33b18, size 0x148, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,7 +229,7 @@ public:
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_DisplayTooltipWhenElided;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6174 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -496,236 +496,236 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::ITextSelection"
   constexpr operator ::UnityEngine::UIElements::ITextSelection*() noexcept;
 
-  /// @brief Method BuildContextualMenu, addr 0x4a1d6a8, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method BuildContextualMenu, addr 0x4a31dc0, size 0x380, virtual false, abstract: false, final false
   inline void BuildContextualMenu(::UnityEngine::UIElements::ContextualMenuPopulateEvent* evt);
 
-  /// @brief Method Copy, addr 0x4a1d618, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x4a31d30, size 0x48, virtual false, abstract: false, final false
   inline void Copy(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method CopyActionStatus, addr 0x4a1db64, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CopyActionStatus, addr 0x4a3227c, size 0x140, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__DropdownMenuAction__Status CopyActionStatus(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method Cut, addr 0x4a1d5d0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Cut, addr 0x4a31ce8, size 0x48, virtual false, abstract: false, final false
   inline void Cut(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method CutActionStatus, addr 0x4a1da28, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CutActionStatus, addr 0x4a32140, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__DropdownMenuAction__Status CutActionStatus(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method DoMeasure, addr 0x4a1cc30, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x4a31348, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
-  /// @brief Method DrawCaret, addr 0x4a1c380, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method DrawCaret, addr 0x4a30a98, size 0x44c, virtual false, abstract: false, final false
   inline void DrawCaret(::UnityEngine::UIElements::MeshGenerationContext* mgc);
 
-  /// @brief Method DrawHighlighting, addr 0x4a1b810, size 0xb70, virtual false, abstract: false, final false
+  /// @brief Method DrawHighlighting, addr 0x4a2ff28, size 0xb70, virtual false, abstract: false, final false
   inline void DrawHighlighting(::UnityEngine::UIElements::MeshGenerationContext* mgc);
 
-  /// @brief Method ElideText, addr 0x4a1c7cc, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method ElideText, addr 0x4a30ee4, size 0x460, virtual false, abstract: false, final false
   inline ::StringW ElideText(::StringW drawText, ::StringW ellipsisText, float_t width, ::UnityEngine::UIElements::TextOverflowPosition textOverflowPosition);
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x4a1dd00, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x4a32418, size 0x360, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method GetLastCharacterAt, addr 0x4a1eff0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetLastCharacterAt, addr 0x4a33708, size 0x15c, virtual false, abstract: false, final false
   inline int32_t GetLastCharacterAt(int32_t lineIndex);
 
-  /// @brief Method MeasureTextSize, addr 0x4a1cc2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MeasureTextSize, addr 0x4a31344, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 MeasureTextSize(::StringW textToMeasure, float_t width, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t height,
                                                 ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
   static inline ::UnityEngine::UIElements::TextElement* New_ctor();
 
-  /// @brief Method OnGenerateVisualContent, addr 0x4a1b51c, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method OnGenerateVisualContent, addr 0x4a2fc34, size 0x23c, virtual false, abstract: false, final false
   inline void OnGenerateVisualContent(::UnityEngine::UIElements::MeshGenerationContext* mgc);
 
-  /// @brief Method OnGeometryChanged, addr 0x4a1b220, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnGeometryChanged, addr 0x4a2f938, size 0x4, virtual false, abstract: false, final false
   inline void OnGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* e);
 
-  /// @brief Method Paste, addr 0x4a1d660, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Paste, addr 0x4a31d78, size 0x48, virtual false, abstract: false, final false
   inline void Paste(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method PasteActionStatus, addr 0x4a1dca4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PasteActionStatus, addr 0x4a323bc, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__DropdownMenuAction__Status PasteActionStatus(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method ProcessMenuCommand, addr 0x4a1d424, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ProcessMenuCommand, addr 0x4a31b3c, size 0x1ac, virtual false, abstract: false, final false
   inline void ProcessMenuCommand(::StringW command);
 
-  /// @brief Method ShouldElide, addr 0x4a1b758, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ShouldElide, addr 0x4a2fe70, size 0x4c, virtual false, abstract: false, final false
   inline bool ShouldElide();
 
-  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.SetValueWithoutNotify, addr 0x4a1cfcc, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.SetValueWithoutNotify, addr 0x4a316e4, size 0x130, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_INotifyValueChanged_System_String__SetValueWithoutNotify(::StringW newValue);
 
-  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.get_value, addr 0x4a1cc7c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.get_value, addr 0x4a31394, size 0x54, virtual true, abstract: false, final true
   inline ::StringW UnityEngine_UIElements_INotifyValueChanged_System_String__get_value();
 
-  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.set_value, addr 0x4a1ccd0, size 0x2fc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.INotifyValueChanged<System.String>.set_value, addr 0x4a313e8, size 0x2fc, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_INotifyValueChanged_System_String__set_value(::StringW value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.CullString, addr 0x4a1e4ac, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.CullString, addr 0x4a32bc4, size 0xdc, virtual true, abstract: false, final true
   inline ::StringW UnityEngine_UIElements_ITextEdition_CullString(::StringW s);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.RestoreValueAndText, addr 0x4a1e17c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.RestoreValueAndText, addr 0x4a32894, size 0x14, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_RestoreValueAndText();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.SaveValueAndText, addr 0x4a1e158, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.SaveValueAndText, addr 0x4a32870, size 0x24, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_SaveValueAndText();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.UpdateText, addr 0x4a1e1e0, size 0x2cc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.UpdateText, addr 0x4a328f8, size 0x2cc, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_UpdateText(::StringW value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_AcceptCharacter, addr 0x4a1e190, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_AcceptCharacter, addr 0x4a328a8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Func_2<char16_t, bool>* UnityEngine_UIElements_ITextEdition_get_AcceptCharacter();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_MoveFocusToCompositeRoot, addr 0x4a1e1d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_MoveFocusToCompositeRoot, addr 0x4a328e8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action* UnityEngine_UIElements_ITextEdition_get_MoveFocusToCompositeRoot();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateScrollOffset, addr 0x4a1e1a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateScrollOffset, addr 0x4a328b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action_1<bool>* UnityEngine_UIElements_ITextEdition_get_UpdateScrollOffset();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateTextFromValue, addr 0x4a1e1c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateTextFromValue, addr 0x4a328d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action* UnityEngine_UIElements_ITextEdition_get_UpdateTextFromValue();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateValueFromText, addr 0x4a1e1b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_UpdateValueFromText, addr 0x4a328c8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Action* UnityEngine_UIElements_ITextEdition_get_UpdateValueFromText();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_autoCorrection, addr 0x4a1e734, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_autoCorrection, addr 0x4a32e4c, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextEdition_get_autoCorrection();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_hideMobileInput, addr 0x4a1d240, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_hideMobileInput, addr 0x4a31958, size 0x98, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextEdition_get_hideMobileInput();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_isDelayed, addr 0x4a1e144, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_isDelayed, addr 0x4a3285c, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextEdition_get_isDelayed();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_isPassword, addr 0x4a1e708, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_isPassword, addr 0x4a32e20, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextEdition_get_isPassword();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_isReadOnly, addr 0x4a1d374, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_isReadOnly, addr 0x4a31a8c, size 0x2c, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextEdition_get_isReadOnly();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_keyboardType, addr 0x4a1d230, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_keyboardType, addr 0x4a31948, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::TouchScreenKeyboardType UnityEngine_UIElements_ITextEdition_get_keyboardType();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_maxLength, addr 0x4a1e060, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_maxLength, addr 0x4a32778, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_UIElements_ITextEdition_get_maxLength();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.get_multiline, addr 0x4a1d15c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.get_multiline, addr 0x4a31874, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextEdition_get_multiline();
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_AcceptCharacter, addr 0x4a1e198, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_AcceptCharacter, addr 0x4a328b0, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_AcceptCharacter(::System::Func_2<char16_t, bool>* value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_MoveFocusToCompositeRoot, addr 0x4a1e1d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_MoveFocusToCompositeRoot, addr 0x4a328f0, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_MoveFocusToCompositeRoot(::System::Action* value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateScrollOffset, addr 0x4a1e1a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateScrollOffset, addr 0x4a328c0, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_UpdateScrollOffset(::System::Action_1<bool>* value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateTextFromValue, addr 0x4a1e1c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateTextFromValue, addr 0x4a328e0, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_UpdateTextFromValue(::System::Action* value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateValueFromText, addr 0x4a1e1b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_UpdateValueFromText, addr 0x4a328d0, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_UpdateValueFromText(::System::Action* value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_autoCorrection, addr 0x4a1e73c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_autoCorrection, addr 0x4a32e54, size 0xc, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_autoCorrection(bool value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_hideMobileInput, addr 0x4a1d2d8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_hideMobileInput, addr 0x4a319f0, size 0x9c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_hideMobileInput(bool value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_isDelayed, addr 0x4a1e14c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_isDelayed, addr 0x4a32864, size 0xc, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_isDelayed(bool value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_isPassword, addr 0x4a1e710, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_isPassword, addr 0x4a32e28, size 0x24, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_isPassword(bool value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_isReadOnly, addr 0x4a1d3a0, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_isReadOnly, addr 0x4a31ab8, size 0x84, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_isReadOnly(bool value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_keyboardType, addr 0x4a1d238, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_keyboardType, addr 0x4a31950, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_keyboardType(::UnityEngine::TouchScreenKeyboardType value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_maskChar, addr 0x4a1e588, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_maskChar, addr 0x4a32ca0, size 0xcc, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_maskChar(char16_t value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_maxLength, addr 0x4a1e068, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_maxLength, addr 0x4a32780, size 0xdc, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_maxLength(int32_t value);
 
-  /// @brief Method UnityEngine.UIElements.ITextEdition.set_multiline, addr 0x4a1d164, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextEdition.set_multiline, addr 0x4a3187c, size 0xcc, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextEdition_set_multiline(bool value);
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.HasSelection, addr 0x4a1ec54, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.HasSelection, addr 0x4a3336c, size 0xcc, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextSelection_HasSelection();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.SelectAll, addr 0x4a1eac4, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.SelectAll, addr 0x4a331dc, size 0xc8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextSelection_SelectAll();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.SelectNone, addr 0x4a1eb8c, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.SelectNone, addr 0x4a332a4, size 0xc8, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextSelection_SelectNone();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorColor, addr 0x4a1ef6c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorColor, addr 0x4a33684, size 0x14, virtual true, abstract: false, final true
   inline ::UnityEngine::Color UnityEngine_UIElements_ITextSelection_get_cursorColor();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorIndex, addr 0x4a1e78c, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorIndex, addr 0x4a32ea4, size 0xcc, virtual true, abstract: false, final true
   inline int32_t UnityEngine_UIElements_ITextSelection_get_cursorIndex();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorPosition, addr 0x4a1ed58, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorPosition, addr 0x4a33470, size 0xe4, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 UnityEngine_UIElements_ITextSelection_get_cursorPosition();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorWidth, addr 0x4a1efe8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.get_cursorWidth, addr 0x4a33700, size 0x8, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_ITextSelection_get_cursorWidth();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_doubleClickSelectsWord, addr 0x4a1ed20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.get_doubleClickSelectsWord, addr 0x4a33438, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextSelection_get_doubleClickSelectsWord();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_isSelectable, addr 0x4a1e750, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.get_isSelectable, addr 0x4a32e68, size 0x20, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextSelection_get_isSelectable();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_lineHeightAtCursorPosition, addr 0x4a1ee3c, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.get_lineHeightAtCursorPosition, addr 0x4a33554, size 0xb4, virtual true, abstract: false, final true
   inline float_t UnityEngine_UIElements_ITextSelection_get_lineHeightAtCursorPosition();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_selectAllOnFocus, addr 0x4a1ed30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.get_selectAllOnFocus, addr 0x4a33448, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextSelection_get_selectAllOnFocus();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_selectAllOnMouseUp, addr 0x4a1ed44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.get_selectAllOnMouseUp, addr 0x4a3345c, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextSelection_get_selectAllOnMouseUp();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_selectIndex, addr 0x4a1e928, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.get_selectIndex, addr 0x4a33040, size 0xcc, virtual true, abstract: false, final true
   inline int32_t UnityEngine_UIElements_ITextSelection_get_selectIndex();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_selectionColor, addr 0x4a1eef0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.get_selectionColor, addr 0x4a33608, size 0x14, virtual true, abstract: false, final true
   inline ::UnityEngine::Color UnityEngine_UIElements_ITextSelection_get_selectionColor();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.get_tripleClickSelectsLine, addr 0x4a1ed28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.get_tripleClickSelectsLine, addr 0x4a33440, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextSelection_get_tripleClickSelectsLine();
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_cursorColor, addr 0x4a1ef80, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.set_cursorColor, addr 0x4a33698, size 0x68, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextSelection_set_cursorColor(::UnityEngine::Color value);
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_cursorIndex, addr 0x4a1e858, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.set_cursorIndex, addr 0x4a32f70, size 0xd0, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextSelection_set_cursorIndex(int32_t value);
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_isSelectable, addr 0x4a1e770, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.set_isSelectable, addr 0x4a32e88, size 0x1c, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextSelection_set_isSelectable(bool value);
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_selectAllOnFocus, addr 0x4a1ed38, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.set_selectAllOnFocus, addr 0x4a33450, size 0xc, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextSelection_set_selectAllOnFocus(bool value);
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_selectAllOnMouseUp, addr 0x4a1ed4c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.set_selectAllOnMouseUp, addr 0x4a33464, size 0xc, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextSelection_set_selectAllOnMouseUp(bool value);
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_selectIndex, addr 0x4a1e9f4, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.set_selectIndex, addr 0x4a3310c, size 0xd0, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextSelection_set_selectIndex(int32_t value);
 
-  /// @brief Method UnityEngine.UIElements.ITextSelection.set_selectionColor, addr 0x4a1ef04, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.ITextSelection.set_selectionColor, addr 0x4a3361c, size 0x68, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextSelection_set_selectionColor(::UnityEngine::Color value);
 
-  /// @brief Method UpdateTooltip, addr 0x4a1b7a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTooltip, addr 0x4a2febc, size 0x6c, virtual false, abstract: false, final false
   inline void UpdateTooltip();
 
-  /// @brief Method UpdateVisibleText, addr 0x4a1b224, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibleText, addr 0x4a2f93c, size 0x118, virtual false, abstract: false, final false
   inline void UpdateVisibleText();
 
   constexpr ::System::Func_2<char16_t, bool>*& __cordl_internal_get__UnityEngine_UIElements_ITextEdition_AcceptCharacter_k__BackingField();
@@ -938,50 +938,50 @@ public:
 
   constexpr void __cordl_internal_set_m_WasElided(bool value);
 
-  /// @brief Method .ctor, addr 0x4a1aff8, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2f710, size 0x218, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_k_EllipsisText();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_displayTooltipWhenElided, addr 0x4a1b4c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayTooltipWhenElided, addr 0x4a2fbe0, size 0x8, virtual false, abstract: false, final false
   inline bool get_displayTooltipWhenElided();
 
-  /// @brief Method get_edition, addr 0x4a16880, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_edition, addr 0x4a2af98, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ITextEdition* get_edition();
 
-  /// @brief Method get_effectiveMaskChar, addr 0x4a1e654, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_effectiveMaskChar, addr 0x4a32d6c, size 0xb4, virtual false, abstract: false, final false
   inline char16_t get_effectiveMaskChar();
 
-  /// @brief Method get_enableRichText, addr 0x4a1b478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableRichText, addr 0x4a2fb90, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableRichText();
 
-  /// @brief Method get_hasFocus, addr 0x4a171d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasFocus, addr 0x4a2b8f0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasFocus();
 
-  /// @brief Method get_isElided, addr 0x4a1b508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isElided, addr 0x4a2fc20, size 0x8, virtual false, abstract: false, final false
   inline bool get_isElided();
 
-  /// @brief Method get_originalText, addr 0x4a1e748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_originalText, addr 0x4a32e60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_originalText();
 
-  /// @brief Method get_parseEscapeSequences, addr 0x4a1b4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parseEscapeSequences, addr 0x4a2fbb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_parseEscapeSequences();
 
-  /// @brief Method get_renderedText, addr 0x4a1a7f4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_renderedText, addr 0x4a2ef0c, size 0xe4, virtual false, abstract: false, final false
   inline ::StringW get_renderedText();
 
-  /// @brief Method get_selectingManipulator, addr 0x4a165f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_selectingManipulator, addr 0x4a2ad08, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextSelectingManipulator* get_selectingManipulator();
 
-  /// @brief Method get_selection, addr 0x4a180f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_selection, addr 0x4a2c808, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ITextSelection* get_selection();
 
-  /// @brief Method get_text, addr 0x4a1b33c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_text, addr 0x4a2fa54, size 0x94, virtual true, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_uitkTextHandle, addr 0x4a1b210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_uitkTextHandle, addr 0x4a2f928, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UITKTextHandle* get_uitkTextHandle();
 
   /// @brief Convert to "::UnityEngine::UIElements::IExperimentalFeatures"
@@ -1000,25 +1000,25 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_displayTooltipWhenElided, addr 0x4a1b4d0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_displayTooltipWhenElided, addr 0x4a2fbe8, size 0x38, virtual false, abstract: false, final false
   inline void set_displayTooltipWhenElided(bool value);
 
-  /// @brief Method set_enableRichText, addr 0x4a1b480, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_enableRichText, addr 0x4a2fb98, size 0x20, virtual false, abstract: false, final false
   inline void set_enableRichText(bool value);
 
-  /// @brief Method set_isElided, addr 0x4a1b510, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isElided, addr 0x4a2fc28, size 0xc, virtual false, abstract: false, final false
   inline void set_isElided(bool value);
 
-  /// @brief Method set_parseEscapeSequences, addr 0x4a1b4a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_parseEscapeSequences, addr 0x4a2fbc0, size 0x20, virtual false, abstract: false, final false
   inline void set_parseEscapeSequences(bool value);
 
-  /// @brief Method set_renderedText, addr 0x4a1d0fc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_renderedText, addr 0x4a31814, size 0x60, virtual false, abstract: false, final false
   inline void set_renderedText(::StringW value);
 
-  /// @brief Method set_text, addr 0x4a1b3d0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method set_text, addr 0x4a2fae8, size 0xa8, virtual true, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_uitkTextHandle, addr 0x4a1b218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_uitkTextHandle, addr 0x4a2f930, size 0x8, virtual false, abstract: false, final false
   inline void set_uitkTextHandle(::UnityEngine::UIElements::UITKTextHandle* value);
 
 protected:
@@ -1141,7 +1141,7 @@ public:
   float_t ___m_CursorWidth;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6175 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

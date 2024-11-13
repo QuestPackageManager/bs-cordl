@@ -31,15 +31,15 @@ public:
   /// @brief Field _unityEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__unityEvent, put = __cordl_internal_set__unityEvent)) ::UnityEngine::Events::UnityEvent* _unityEvent;
 
-  /// @brief Method HandleEvent, addr 0x395c8b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleEvent, addr 0x3970134, size 0x1c, virtual false, abstract: false, final false
   inline void HandleEvent();
 
   static inline ::GlobalNamespace::SignalListener* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x395c824, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39700a8, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x395c78c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3970010, size 0x98, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__signal() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__unityEvent(::UnityEngine::Events::UnityEvent* value);
 
-  /// @brief Method .ctor, addr 0x395c8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3970150, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   ::UnityEngine::Events::UnityEvent* ____unityEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16404 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

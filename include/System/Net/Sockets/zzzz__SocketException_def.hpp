@@ -53,7 +53,7 @@ public:
 
   static inline ::System::Net::Sockets::SocketException* New_ctor(::System::Net::Sockets::SocketError socketError);
 
-  /// @brief Method WSAGetLastError_icall, addr 0x4389148, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WSAGetLastError_icall, addr 0x439d860, size 0x4, virtual false, abstract: false, final false
   static inline int32_t WSAGetLastError_icall();
 
   constexpr ::System::Net::EndPoint*& __cordl_internal_get_m_EndPoint();
@@ -62,28 +62,28 @@ public:
 
   constexpr void __cordl_internal_set_m_EndPoint(::System::Net::EndPoint* value);
 
-  /// @brief Method .ctor, addr 0x438914c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439d864, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x438916c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439d884, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t error, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x4385914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439a02c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t errorCode);
 
-  /// @brief Method .ctor, addr 0x4389174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439d88c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x43888e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439d000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::SocketError socketError);
 
-  /// @brief Method get_ErrorCode, addr 0x438917c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x439d894, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
-  /// @brief Method get_Message, addr 0x4389184, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x439d89c, size 0x90, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_SocketErrorCode, addr 0x438705c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SocketErrorCode, addr 0x439b774, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_SocketErrorCode();
 
 protected:
@@ -104,7 +104,7 @@ public:
   ::System::Net::EndPoint* ___m_EndPoint;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

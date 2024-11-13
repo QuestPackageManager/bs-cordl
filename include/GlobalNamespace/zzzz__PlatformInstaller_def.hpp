@@ -34,28 +34,28 @@ public:
                       put = __cordl_internal_set__mockPlatformAdditionalContentModelInitialData)) ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>
       _mockPlatformAdditionalContentModelInitialData;
 
-  /// @brief Method BindAchievementsHandler, addr 0x26d9cd0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BindAchievementsHandler, addr 0x26e584c, size 0x7c, virtual false, abstract: false, final false
   inline void BindAchievementsHandler();
 
-  /// @brief Method BindAdditionalContentModel, addr 0x26d9d4c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BindAdditionalContentModel, addr 0x26e58c8, size 0x74, virtual false, abstract: false, final false
   inline void BindAdditionalContentModel();
 
-  /// @brief Method BindAnalyticsModel, addr 0x26d9c34, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BindAnalyticsModel, addr 0x26e57b0, size 0x9c, virtual false, abstract: false, final false
   inline void BindAnalyticsModel();
 
-  /// @brief Method BindBeatmapDataAssetFileModel, addr 0x26d9dc0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method BindBeatmapDataAssetFileModel, addr 0x26e593c, size 0x7c, virtual false, abstract: false, final false
   inline void BindBeatmapDataAssetFileModel();
 
-  /// @brief Method BindMockPlatformAdditionalContentModel, addr 0x26d9e40, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BindMockPlatformAdditionalContentModel, addr 0x26e59bc, size 0x9c, virtual false, abstract: false, final false
   inline void BindMockPlatformAdditionalContentModel();
 
-  /// @brief Method BindPSPlusHandler, addr 0x26d9e3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BindPSPlusHandler, addr 0x26e59b8, size 0x4, virtual false, abstract: false, final false
   inline void BindPSPlusHandler();
 
-  /// @brief Method BindPlatformUserModel, addr 0x26d9b58, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BindPlatformUserModel, addr 0x26e56d4, size 0xdc, virtual false, abstract: false, final false
   inline void BindPlatformUserModel();
 
-  /// @brief Method InstallBindings, addr 0x26d9b28, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26e56a4, size 0x30, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PlatformInstaller* New_ctor(::GlobalNamespace::AppInitSetupData* appInitSetupData,
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__mockPlatformAdditionalContentModelInitialData(::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> value);
 
-  /// @brief Method .ctor, addr 0x26d9ab0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e562c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::AppInitSetupData* appInitSetupData, ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData);
 
 protected:
@@ -97,7 +97,7 @@ public:
   ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> ____mockPlatformAdditionalContentModelInitialData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17877 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

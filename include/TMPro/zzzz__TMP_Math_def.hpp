@@ -28,10 +28,10 @@ public:
   /// @brief Field MIN_16BIT, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_MIN_16BIT, put = setStaticF_MIN_16BIT)) ::UnityEngine::Vector2 MIN_16BIT;
 
-  /// @brief Method Approximately, addr 0x474e30c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x4762a24, size 0x30, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b);
 
-  /// @brief Method Mod, addr 0x474e33c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Mod, addr 0x4762a54, size 0x14, virtual false, abstract: false, final false
   static inline int32_t Mod(int32_t a, int32_t b);
 
   static inline ::UnityEngine::Vector2 getStaticF_MAX_16BIT();
@@ -69,7 +69,7 @@ public:
   static constexpr int32_t INT_UNSET{ static_cast<int32_t>(0xffff8001) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14398 };
 
   /// @brief Field INT_MAX offset 0xffffffff size 0x4
   static constexpr int32_t _cordl_INT_MAX{ static_cast<int32_t>(0x7fffffff) };

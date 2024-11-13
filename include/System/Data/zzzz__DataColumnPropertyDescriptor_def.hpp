@@ -45,27 +45,27 @@ public:
   /// @brief Field <Column>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__Column_k__BackingField, put = __cordl_internal_set__Column_k__BackingField)) ::System::Data::DataColumn* _Column_k__BackingField;
 
-  /// @brief Method CanResetValue, addr 0x40e4ec0, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x40f95d8, size 0x114, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method Equals, addr 0x40e4e30, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x40f9548, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x40e4ea0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x40f95b8, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetValue, addr 0x40e5008, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x40f9720, size 0x88, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
   static inline ::System::Data::DataColumnPropertyDescriptor* New_ctor(::System::Data::DataColumn* dataColumn);
 
-  /// @brief Method ResetValue, addr 0x40e5090, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x40f97a8, size 0xc4, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x40e51e0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x40f98f8, size 0xe0, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x40e52c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x40f99d8, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   constexpr ::System::Data::DataColumn*& __cordl_internal_get__Column_k__BackingField();
@@ -74,22 +74,22 @@ public:
 
   constexpr void __cordl_internal_set__Column_k__BackingField(::System::Data::DataColumn* value);
 
-  /// @brief Method .ctor, addr 0x40e4b90, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f92a8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* dataColumn);
 
-  /// @brief Method get_Attributes, addr 0x40e4bc8, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x40f92e0, size 0x1bc, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* get_Attributes();
 
-  /// @brief Method get_Column, addr 0x40e4d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Column, addr 0x40f949c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataColumn* get_Column();
 
-  /// @brief Method get_ComponentType, addr 0x40e4d8c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x40f94a4, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x40e4df8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x40f9510, size 0x1c, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x40e4e14, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x40f952c, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
 protected:
@@ -110,7 +110,7 @@ public:
   ::System::Data::DataColumn* ____Column_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

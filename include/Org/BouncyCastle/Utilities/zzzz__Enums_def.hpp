@@ -27,21 +27,21 @@ namespace Org::BouncyCastle::Utilities {
 class CORDL_TYPE Enums : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetArbitraryValue, addr 0x25a7530, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetArbitraryValue, addr 0x25b25d8, size 0xe0, virtual false, abstract: false, final false
   static inline ::bs_hook::EnumPtr GetArbitraryValue(::System::Type* enumType);
 
-  /// @brief Method GetEnumValue, addr 0x25a7264, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetEnumValue, addr 0x25b230c, size 0x1d8, virtual false, abstract: false, final false
   static inline ::bs_hook::EnumPtr GetEnumValue(::System::Type* enumType, ::StringW s);
 
-  /// @brief Method GetEnumValues, addr 0x25a745c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetEnumValues, addr 0x25b2504, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Array* GetEnumValues(::System::Type* enumType);
 
-  /// @brief Method IsEnumType, addr 0x25a743c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsEnumType, addr 0x25b24e4, size 0x20, virtual false, abstract: false, final false
   static inline bool IsEnumType(::System::Type* t);
 
   static inline ::Org::BouncyCastle::Utilities::Enums* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25a7610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b26b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -21,7 +21,7 @@ template <typename T> constexpr ::StringW const& BeatSaber::BeatAvatarSDK::Avata
 }
 template <typename T> constexpr void BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__cordl_internal_set__id(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____id)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____id, value);
 }
 template <typename T> constexpr ::StringW& BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__cordl_internal_get__localizationKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -33,7 +33,7 @@ template <typename T> constexpr ::StringW const& BeatSaber::BeatAvatarSDK::Avata
 }
 template <typename T> constexpr void BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__cordl_internal_set__localizationKey(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localizationKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____localizationKey, value);
 }
 template <typename T> constexpr T& BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__cordl_internal_get__partAsset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -45,7 +45,7 @@ template <typename T> constexpr T const& BeatSaber::BeatAvatarSDK::AvatarPartSO_
 }
 template <typename T> constexpr void BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__cordl_internal_set__partAsset(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____partAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____partAsset, value);
 }
 template <typename T> inline T BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::get_partAsset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>*>::get(),

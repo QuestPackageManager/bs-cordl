@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_recordingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x3b2e3cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b43864, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool recordingEnabled);
 
 protected:
@@ -63,7 +63,7 @@ public:
   bool ___recordingEnabled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4400 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -95,12 +95,12 @@ public:
   /// @brief Field _updateTimeSpan, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__updateTimeSpan, put = __cordl_internal_set__updateTimeSpan)) float_t _updateTimeSpan;
 
-  /// @brief Method Init, addr 0x3b2e2d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b43768, size 0x80, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::RecordingUIController* New_ctor();
 
-  /// @brief Method Update, addr 0x3b2e350, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b437e8, size 0x6c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__circle() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__updateTimeSpan(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b2e3bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b43854, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -157,7 +157,7 @@ public:
   float_t ____lastUpdateTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4401 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -61,7 +61,7 @@ public:
   ::UnityEngine::AsyncInstantiateOperation* ___m_op;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10818 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

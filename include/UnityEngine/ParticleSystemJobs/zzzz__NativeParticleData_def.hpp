@@ -54,7 +54,7 @@ public:
   ::cordl_internals::Ptr<float_t> z;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17161 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -101,7 +101,7 @@ public:
   ::cordl_internals::Ptr<float_t> w;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17162 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -197,7 +197,7 @@ public:
   ::cordl_internals::Ptr<void> meshIndices;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17163 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };

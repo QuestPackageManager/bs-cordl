@@ -48,7 +48,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::St
 }
 template <typename TContract> constexpr void Zenject::MemoryPoolBase_1<TContract>::__cordl_internal_set__inactiveItems(::System::Collections::Generic::Stack_1<TContract>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inactiveItems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____inactiveItems, value);
 }
 template <typename TContract> constexpr ::Zenject::IFactory_1<TContract>*& Zenject::MemoryPoolBase_1<TContract>::__cordl_internal_get__factory() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -60,7 +60,7 @@ template <typename TContract> constexpr ::cordl_internals::to_const_pointer<::Ze
 }
 template <typename TContract> constexpr void Zenject::MemoryPoolBase_1<TContract>::__cordl_internal_set__factory(::Zenject::IFactory_1<TContract>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____factory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____factory, value);
 }
 template <typename TContract> constexpr ::Zenject::MemoryPoolSettings*& Zenject::MemoryPoolBase_1<TContract>::__cordl_internal_get__settings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -72,7 +72,7 @@ template <typename TContract> constexpr ::cordl_internals::to_const_pointer<::Ze
 }
 template <typename TContract> constexpr void Zenject::MemoryPoolBase_1<TContract>::__cordl_internal_set__settings(::Zenject::MemoryPoolSettings* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____settings, value);
 }
 template <typename TContract> constexpr ::Zenject::DiContainer*& Zenject::MemoryPoolBase_1<TContract>::__cordl_internal_get__container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -84,7 +84,7 @@ template <typename TContract> constexpr ::cordl_internals::to_const_pointer<::Ze
 }
 template <typename TContract> constexpr void Zenject::MemoryPoolBase_1<TContract>::__cordl_internal_set__container(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____container, value);
 }
 template <typename TContract> constexpr int32_t& Zenject::MemoryPoolBase_1<TContract>::__cordl_internal_get__activeCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

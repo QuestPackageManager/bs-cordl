@@ -54,15 +54,15 @@ public:
   /// @brief Field _culture, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture)) ::System::Globalization::CultureInfo* _culture;
 
-  /// @brief Method IsMatch, addr 0x439f3f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x43b3b10, size 0x6c, virtual false, abstract: false, final false
   inline bool IsMatch(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
-  /// @brief Method MatchPattern, addr 0x439f2d4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method MatchPattern, addr 0x43b39ec, size 0x124, virtual false, abstract: false, final false
   inline bool MatchPattern(::StringW text, int32_t index);
 
   static inline ::System::Text::RegularExpressions::RegexBoyerMoore* New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Scan, addr 0x439f464, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x43b3b7c, size 0x2e4, virtual false, abstract: false, final false
   inline int32_t Scan(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
   constexpr bool const& __cordl_internal_get_CaseInsensitive() const;
@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method .ctor, addr 0x439ee40, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43b3558, size 0x494, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
 protected:
@@ -164,7 +164,7 @@ public:
   ::System::Globalization::CultureInfo* ____culture;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9204 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

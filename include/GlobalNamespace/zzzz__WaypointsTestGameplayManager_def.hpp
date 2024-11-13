@@ -97,21 +97,21 @@ public:
   /// @brief Field _target, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__target, put = __cordl_internal_set__target)) ::UnityW<::UnityEngine::Transform> _target;
 
-  /// @brief Method GetBar, addr 0x222f854, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetBar, addr 0x223830c, size 0x1a8, virtual false, abstract: false, final false
   inline ::StringW GetBar(float_t songTime);
 
-  /// @brief Method LateUpdate, addr 0x222ec88, size 0xbcc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2237740, size 0xbcc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::WaypointsTestGameplayManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x222f9fc, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22384b4, size 0x320, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDrawGizmos, addr 0x222fd1c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmos, addr 0x22387d4, size 0x1d8, virtual false, abstract: false, final false
   inline void OnDrawGizmos();
 
-  /// @brief Method Start, addr 0x222ec54, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x223770c, size 0x34, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -228,7 +228,7 @@ public:
 
   constexpr void __cordl_internal_set__target(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x222fef4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22389ac, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -303,7 +303,7 @@ public:
   float_t ____biggestAccelerationSongTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17635 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

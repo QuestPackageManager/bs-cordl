@@ -45,15 +45,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ApplyTo, addr 0x49baff0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x49cf708, size 0x28, virtual true, abstract: false, final false
   inline void ApplyTo(::UnityEngine::UIElements::FocusController* focusController, ::UnityEngine::UIElements::Focusable* f);
 
-  /// @brief Method Dispose, addr 0x49bafec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49cf704, size 0x4, virtual true, abstract: false, final false
   inline void Dispose();
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* New_ctor(int32_t value);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x49bafe0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x49cf6f8, size 0xc, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get_m_Value() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x49bafac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49cf6c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* getStaticF__lastValue_k__BackingField();
@@ -71,19 +71,19 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* getStaticF__unspecified_k__BackingField();
 
-  /// @brief Method get_lastValue, addr 0x49baf54, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lastValue, addr 0x49cf66c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_lastValue();
 
-  /// @brief Method get_none, addr 0x49baefc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_none, addr 0x49cf614, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_none();
 
-  /// @brief Method get_unspecified, addr 0x49baea4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_unspecified, addr 0x49cf5bc, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_unspecified();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method op_Implicit, addr 0x49bafd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x49cf6ec, size 0xc, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::UIElements::FocusChangeDirection* fcd);
 
   static inline void setStaticF__lastValue_k__BackingField(::UnityEngine::UIElements::FocusChangeDirection* value);
@@ -110,7 +110,7 @@ public:
   int32_t ___m_Value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5923 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

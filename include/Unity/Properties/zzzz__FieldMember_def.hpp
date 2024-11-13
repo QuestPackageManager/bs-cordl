@@ -44,19 +44,19 @@ public:
   /// @brief Convert operator to "::Unity::Properties::IMemberInfo"
   constexpr operator ::Unity::Properties::IMemberInfo*();
 
-  /// @brief Method GetCustomAttributes, addr 0x48980ec, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetCustomAttributes, addr 0x48ac804, size 0xc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes();
 
-  /// @brief Method .ctor, addr 0x4897f7c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ac694, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* fieldInfo);
 
-  /// @brief Method get_IsReadOnly, addr 0x48980ac, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x48ac7c4, size 0x1c, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Name, addr 0x48980a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x48ac7bc, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_ValueType, addr 0x48980c8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_ValueType, addr 0x48ac7e0, size 0x24, virtual true, abstract: false, final true
   inline ::System::Type* get_ValueType();
 
   /// @brief Convert to "::Unity::Properties::IMemberInfo"
@@ -77,7 +77,7 @@ public:
   ::StringW _Name_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17400 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

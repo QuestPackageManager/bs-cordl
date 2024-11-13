@@ -78,22 +78,22 @@ public:
 
   constexpr void __cordl_internal_set__obstaclesCount_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26756f4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2680968, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t cuttableScoringObjectsCount, int32_t obstaclesCount, int32_t bombsCount);
 
-  /// @brief Method get_bombsCount, addr 0x26756ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bombsCount, addr 0x2680960, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bombsCount();
 
-  /// @brief Method get_cuttableNotesCount, addr 0x26756d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableNotesCount, addr 0x2680948, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableNotesCount();
 
-  /// @brief Method get_cuttableScoringObjectsCount, addr 0x26756dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableScoringObjectsCount, addr 0x2680950, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableScoringObjectsCount();
 
-  /// @brief Method get_numberOfLines, addr 0x26756cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfLines, addr 0x2680940, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
-  /// @brief Method get_obstaclesCount, addr 0x26756e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesCount, addr 0x2680958, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_obstaclesCount();
 
 protected:
@@ -126,7 +126,7 @@ public:
   int32_t ____bombsCount_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x266ae48, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x2675f00, size 0x88, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   constexpr int32_t const& __cordl_internal_get_numberOfLines() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_numberOfLines(int32_t value);
 
-  /// @brief Method .ctor, addr 0x266ae40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2675ef8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   int32_t ___numberOfLines;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -88,7 +88,7 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0;
 
-  /// @brief Method CreateTransformedData, addr 0x266acc4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x2675d7c, size 0x17c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
 protected:
@@ -106,7 +106,7 @@ public:
   BeatmapDataMirrorTransform(BeatmapDataMirrorTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12753 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

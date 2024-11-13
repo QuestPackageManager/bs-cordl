@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualDouble* New_ctor();
 
-  /// @brief Method Run, addr 0x40798dc, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x408dff4, size 0xec, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4078ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408d610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   __NotEqualInstruction__NotEqualDouble(__NotEqualInstruction__NotEqualDouble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13989 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

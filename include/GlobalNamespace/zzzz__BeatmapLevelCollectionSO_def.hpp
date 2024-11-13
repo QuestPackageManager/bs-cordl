@@ -34,10 +34,10 @@ public:
 
   __declspec(property(get = get_beatmapLevels)) ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* beatmapLevels;
 
-  /// @brief Method AddBeatmapLevel, addr 0x26834b4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapLevel, addr 0x268f0b8, size 0xa4, virtual false, abstract: false, final false
   inline void AddBeatmapLevel(::GlobalNamespace::BeatmapLevelSO* beatmapLevel);
 
-  /// @brief Method Create, addr 0x2683414, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x268f018, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> Create();
 
   static inline ::GlobalNamespace::BeatmapLevelCollectionSO* New_ctor();
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set__beatmapLevels(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* value);
 
-  /// @brief Method .ctor, addr 0x2683558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268f15c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapLevels, addr 0x268340c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevels, addr 0x268f010, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* get_beatmapLevels();
 
 protected:
@@ -72,7 +72,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* ____beatmapLevels;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12909 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

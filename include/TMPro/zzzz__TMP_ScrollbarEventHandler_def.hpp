@@ -54,13 +54,13 @@ public:
 
   static inline ::TMPro::TMP_ScrollbarEventHandler* New_ctor();
 
-  /// @brief Method OnDeselect, addr 0x4786da4, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method OnDeselect, addr 0x479b4bc, size 0x74, virtual true, abstract: false, final true
   inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnPointerClick, addr 0x4786cc4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method OnPointerClick, addr 0x479b3dc, size 0x68, virtual true, abstract: false, final true
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSelect, addr 0x4786d2c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method OnSelect, addr 0x479b444, size 0x78, virtual true, abstract: false, final true
   inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
   constexpr bool const& __cordl_internal_get_isSelected() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_isSelected(bool value);
 
-  /// @brief Method .ctor, addr 0x4786e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479b530, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
@@ -102,7 +102,7 @@ public:
   bool ___isSelected;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14495 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

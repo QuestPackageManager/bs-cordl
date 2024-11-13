@@ -87,7 +87,7 @@ public:
   TValue ____value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14142 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,7 +167,7 @@ public:
   ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> ____entries;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14143 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

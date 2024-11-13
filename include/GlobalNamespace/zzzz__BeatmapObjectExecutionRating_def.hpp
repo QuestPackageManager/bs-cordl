@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__time_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x266c910, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2677bd0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t time);
 
-  /// @brief Method get_time, addr 0x266c908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x2677bc8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
 protected:
@@ -57,7 +57,7 @@ public:
   float_t ____time_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12763 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

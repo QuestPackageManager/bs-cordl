@@ -50,64 +50,64 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Background>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Background>*();
 
-  /// @brief Method Equals, addr 0x49ee238, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a02950, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x49ee204, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a0291c, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Background other);
 
-  /// @brief Method FromObject, addr 0x49ede74, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method FromObject, addr 0x4a0258c, size 0x250, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromObject(::System::Object* obj);
 
-  /// @brief Method FromRenderTexture, addr 0x49eddd8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FromRenderTexture, addr 0x4a024f0, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromRenderTexture(::UnityEngine::RenderTexture* rt);
 
-  /// @brief Method FromSprite, addr 0x49ede0c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FromSprite, addr 0x4a02524, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromSprite(::UnityEngine::Sprite* s);
 
-  /// @brief Method FromTexture2D, addr 0x49edda4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FromTexture2D, addr 0x4a024bc, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromTexture2D(::UnityEngine::Texture2D* t);
 
-  /// @brief Method FromVectorImage, addr 0x49ede40, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FromVectorImage, addr 0x4a02558, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromVectorImage(::UnityEngine::UIElements::VectorImage* vi);
 
-  /// @brief Method GetHashCode, addr 0x49ee2c8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a029e0, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x49ee360, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a02a78, size 0x138, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_renderTexture, addr 0x49edca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderTexture, addr 0x4a023bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_renderTexture();
 
-  /// @brief Method get_sprite, addr 0x49edc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x4a02338, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method get_texture, addr 0x49edb9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x4a022b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
-  /// @brief Method get_vectorImage, addr 0x49ec8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vectorImage, addr 0x4a00fd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VectorImage> get_vectorImage();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Background>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Background>* i___System__IEquatable_1___UnityEngine__UIElements__Background_();
 
-  /// @brief Method op_Equality, addr 0x49ee0c4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a027dc, size 0x108, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Background lhs, ::UnityEngine::UIElements::Background rhs);
 
-  /// @brief Method op_Inequality, addr 0x49ee1cc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4a028e4, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Background lhs, ::UnityEngine::UIElements::Background rhs);
 
-  /// @brief Method set_renderTexture, addr 0x49edcac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_renderTexture, addr 0x4a023c4, size 0x7c, virtual false, abstract: false, final false
   inline void set_renderTexture(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method set_sprite, addr 0x49edc28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x4a02340, size 0x7c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_texture, addr 0x49edba4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_texture, addr 0x4a022bc, size 0x7c, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_vectorImage, addr 0x49edd28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_vectorImage, addr 0x4a02440, size 0x7c, virtual false, abstract: false, final false
   inline void set_vectorImage(::UnityEngine::UIElements::VectorImage* value);
 
   // Ctor Parameters []
@@ -133,7 +133,7 @@ public:
   ::UnityW<::UnityEngine::UIElements::VectorImage> m_VectorImage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6025 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

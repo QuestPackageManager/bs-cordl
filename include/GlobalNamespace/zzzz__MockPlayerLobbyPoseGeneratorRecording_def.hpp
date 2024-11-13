@@ -22,15 +22,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorRecording : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3b51034, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3b66b20, size 0x68, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Tick, addr 0x3b5109c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x3b66b88, size 0x68, virtual true, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method .ctor, addr 0x3b4eec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b649b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
 protected:
@@ -48,7 +48,7 @@ public:
   MockPlayerLobbyPoseGeneratorRecording(MockPlayerLobbyPoseGeneratorRecording const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4530 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

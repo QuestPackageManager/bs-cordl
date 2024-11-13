@@ -57,36 +57,36 @@ public:
   /// @brief Field s_refXmlns, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_refXmlns, put = setStaticF_s_refXmlns)) ::System::WeakReference* s_refXmlns;
 
-  /// @brief Method EnsureNamespace, addr 0x41d64a0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method EnsureNamespace, addr 0x41eabb8, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* EnsureNamespace(ByRef<::System::WeakReference*> refNmsp, ::StringW namespaceName);
 
-  /// @brief Method Equals, addr 0x41d6654, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x41ead6c, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method ExtractLocalName, addr 0x41d6674, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ExtractLocalName, addr 0x41ead8c, size 0x18, virtual false, abstract: false, final false
   static inline ::StringW ExtractLocalName(::System::Xml::Linq::XName* n);
 
-  /// @brief Method ExtractNamespace, addr 0x41d668c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ExtractNamespace, addr 0x41eada4, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW ExtractNamespace(::System::WeakReference* r);
 
-  /// @brief Method Get, addr 0x41d4f70, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x41e9688, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* Get(::StringW namespaceName);
 
-  /// @brief Method Get, addr 0x41d5e90, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x41ea5a8, size 0x2d8, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* Get(::StringW namespaceName, int32_t index, int32_t count);
 
-  /// @brief Method GetHashCode, addr 0x41d6660, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x41ead78, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetName, addr 0x41d2d90, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x41e74a8, size 0x60, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XName* GetName(::StringW localName);
 
-  /// @brief Method GetName, addr 0x41d6168, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x41ea880, size 0x108, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XName* GetName(::StringW localName, int32_t index, int32_t count);
 
   static inline ::System::Xml::Linq::XNamespace* New_ctor(::StringW namespaceName);
 
-  /// @brief Method ToString, addr 0x41d6498, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41eabb0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__hashCode() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set__namespaceName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x41d6398, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41eaab0, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::StringW namespaceName);
 
   static inline ::System::Xml::Linq::XHashtable_1<::System::WeakReference*>* getStaticF_s_namespaces();
@@ -118,25 +118,25 @@ public:
 
   static inline ::System::WeakReference* getStaticF_s_refXmlns();
 
-  /// @brief Method get_NamespaceName, addr 0x41d6490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceName, addr 0x41eaba8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceName();
 
-  /// @brief Method get_None, addr 0x41d6270, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_None, addr 0x41ea988, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* get_None();
 
-  /// @brief Method get_Xml, addr 0x41d6580, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Xml, addr 0x41eac98, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* get_Xml();
 
-  /// @brief Method get_Xmlns, addr 0x41d65e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Xmlns, addr 0x41eacf8, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* get_Xmlns();
 
-  /// @brief Method op_Equality, addr 0x41d4184, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x41e889c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::Linq::XNamespace* left, ::System::Xml::Linq::XNamespace* right);
 
-  /// @brief Method op_Implicit, addr 0x41d6640, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x41ead58, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Xml::Linq::XNamespace* op_Implicit___System__Xml__Linq__XNamespace_(::StringW namespaceName);
 
-  /// @brief Method op_Inequality, addr 0x41d6668, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x41ead80, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Xml::Linq::XNamespace* left, ::System::Xml::Linq::XNamespace* right);
 
   static inline void setStaticF_s_namespaces(::System::Xml::Linq::XHashtable_1<::System::WeakReference*>* value);
@@ -171,7 +171,7 @@ public:
   ::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>* ____names;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17920 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

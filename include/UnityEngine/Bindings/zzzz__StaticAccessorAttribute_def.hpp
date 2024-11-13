@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::UnityEngine::Bindings::StaticAccessorType value);
 
-  /// @brief Method .ctor, addr 0x489dca0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b23b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x489dcc8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b23e0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Bindings::StaticAccessorType type);
 
-  /// @brief Method set_Name, addr 0x489dc90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x48b23a8, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Type, addr 0x489dc98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x48b23b0, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::UnityEngine::Bindings::StaticAccessorType value);
 
 protected:
@@ -83,7 +83,7 @@ public:
   ::UnityEngine::Bindings::StaticAccessorType ____Type_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18629 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::LeaderboardIdsModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps);
 
-  /// @brief Method TryGetPlatformLeaderboardId, addr 0x26bfdc0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryGetPlatformLeaderboardId, addr 0x26cbb80, size 0x78, virtual false, abstract: false, final false
   inline bool TryGetPlatformLeaderboardId(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ByRef<::StringW> platformLeaderboardId);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get__leaderboardIds();
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x26bf7cc, size 0x5f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cb58c, size 0x5f4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps);
 
 protected:
@@ -68,7 +68,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ____leaderboardIds;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13288 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,25 +31,25 @@ public:
   /// @brief Field s_colorTable, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_colorTable, put = setStaticF_s_colorTable)) ::ArrayW<int32_t, ::Array<int32_t>*> s_colorTable;
 
-  /// @brief Method EnsureColorNameTable, addr 0x4198c8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method EnsureColorNameTable, addr 0x41ad3a4, size 0x58, virtual false, abstract: false, final false
   static inline void EnsureColorNameTable();
 
-  /// @brief Method EnsureColorTable, addr 0x4198050, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method EnsureColorTable, addr 0x41ac768, size 0x58, virtual false, abstract: false, final false
   static inline void EnsureColorTable();
 
-  /// @brief Method InitColorNameTable, addr 0x4198ce4, size 0x13d8, virtual false, abstract: false, final false
+  /// @brief Method InitColorNameTable, addr 0x41ad3fc, size 0x13d8, virtual false, abstract: false, final false
   static inline void InitColorNameTable();
 
-  /// @brief Method InitColorTable, addr 0x41980a8, size 0xab0, virtual false, abstract: false, final false
+  /// @brief Method InitColorTable, addr 0x41ac7c0, size 0xab0, virtual false, abstract: false, final false
   static inline void InitColorTable();
 
-  /// @brief Method KnownColorToArgb, addr 0x419a0bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method KnownColorToArgb, addr 0x41ae7d4, size 0x70, virtual false, abstract: false, final false
   static inline int32_t KnownColorToArgb(::System::Drawing::KnownColor color);
 
-  /// @brief Method KnownColorToName, addr 0x419a12c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method KnownColorToName, addr 0x41ae844, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW KnownColorToName(::System::Drawing::KnownColor color);
 
-  /// @brief Method UpdateSystemColors, addr 0x4198b58, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method UpdateSystemColors, addr 0x41ad270, size 0x134, virtual false, abstract: false, final false
   static inline void UpdateSystemColors(::ArrayW<int32_t, ::Array<int32_t>*> colorTable);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_colorNameTable();
@@ -75,7 +75,7 @@ public:
   KnownColorTable(KnownColorTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

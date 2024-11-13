@@ -16,7 +16,7 @@ constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet
 }
 template <typename T0, typename T1> constexpr void GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__cordl_internal_set__activeItems(::GlobalNamespace::LazyCopyHashSet_1<T1>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activeItems)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____activeItems, value);
 }
 template <typename T0, typename T1> constexpr ::Zenject::IMemoryPool_1<T0>*& GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__cordl_internal_get__memoryPool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -29,7 +29,7 @@ constexpr ::cordl_internals::to_const_pointer<::Zenject::IMemoryPool_1<T0>*> con
 }
 template <typename T0, typename T1> constexpr void GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__cordl_internal_set__memoryPool(::Zenject::IMemoryPool_1<T0>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____memoryPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____memoryPool, value);
 }
 template <typename T0, typename T1> inline ::System::Collections::Generic::List_1<T1>* GlobalNamespace::MemoryPoolContainer_2<T0, T1>::get_activeItems() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MemoryPoolContainer_2<T0, T1>*>::get(),

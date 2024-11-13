@@ -33,10 +33,10 @@ public:
 
   static inline ::GlobalNamespace::OVRMRAudioFilter* New_ctor();
 
-  /// @brief Method OnAudioFilterRead, addr 0x3f25a34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnAudioFilterRead, addr 0x3f3a0c4, size 0x18, virtual false, abstract: false, final false
   inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
-  /// @brief Method Start, addr 0x3f25a28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3f3a0b8, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::OVRExternalComposition*& __cordl_internal_get_composition();
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_running(bool value);
 
-  /// @brief Method .ctor, addr 0x3f25a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3a0dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   ::GlobalNamespace::OVRExternalComposition* ___composition;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7794 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

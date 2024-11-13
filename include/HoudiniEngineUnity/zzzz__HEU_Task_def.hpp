@@ -115,7 +115,7 @@ public:
   static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const UNUSED;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11746 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -179,7 +179,7 @@ public:
   static ::HoudiniEngineUnity::__HEU_Task__TaskResult const SUCCESS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11747 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -200,18 +200,18 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE __HEU_Task__TaskCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x39f70d0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3a0aa28, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_Task* task, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x39f70f0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3a0aa48, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x39f70bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3a0aa14, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::HoudiniEngineUnity::HEU_Task* task);
 
   static inline ::HoudiniEngineUnity::__HEU_Task__TaskCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x39f6fbc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0a914, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -229,7 +229,7 @@ public:
   __HEU_Task__TaskCallback(__HEU_Task__TaskCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11748 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -276,7 +276,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_Task* New_ctor();
 
-  /// @brief Method UpdateTask, addr 0x39f6fb8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateTask, addr 0x3a0a910, size 0x4, virtual true, abstract: false, final false
   inline void UpdateTask();
 
   constexpr ::System::Guid const& __cordl_internal_get__guid() const;
@@ -303,10 +303,10 @@ public:
 
   constexpr void __cordl_internal_set__taskCompletedDelegate(::HoudiniEngineUnity::__HEU_Task__TaskCallback* value);
 
-  /// @brief Method .ctor, addr 0x39f6f94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0a8ec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TaskGuid, addr 0x39f6f88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TaskGuid, addr 0x3a0a8e0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_TaskGuid();
 
 protected:
@@ -336,7 +336,7 @@ public:
   ::HoudiniEngineUnity::__HEU_Task__TaskCallback* ____taskCompletedDelegate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

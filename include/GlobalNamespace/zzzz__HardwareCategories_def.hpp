@@ -22,10 +22,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE HardwareCategories : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHardwareCategory, addr 0x26bbe08, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetHardwareCategory, addr 0x26c7bc4, size 0x74, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::HardwareCategory GetHardwareCategory();
 
-  /// @brief Method GetHardwareCategoryWithEditorOverride, addr 0x26bbe04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetHardwareCategoryWithEditorOverride, addr 0x26c7bc0, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::HardwareCategory GetHardwareCategoryWithEditorOverride();
 
 protected:
@@ -43,7 +43,7 @@ public:
   HardwareCategories(HardwareCategories const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13274 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

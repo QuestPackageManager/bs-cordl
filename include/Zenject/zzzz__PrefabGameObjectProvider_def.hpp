@@ -54,11 +54,11 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ac21c4, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ad68dc, size 0x14c, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x4ac2158, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x4ad6870, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::PrefabGameObjectProvider* New_ctor(::Zenject::IPrefabInstantiator* prefabCreator);
@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabCreator(::Zenject::IPrefabInstantiator* value);
 
-  /// @brief Method .ctor, addr 0x4ac2120, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad6838, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IPrefabInstantiator* prefabCreator);
 
-  /// @brief Method get_IsCached, addr 0x4ac2148, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x4ad6860, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ac2150, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ad6868, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -99,7 +99,7 @@ public:
   ::Zenject::IPrefabInstantiator* ____prefabCreator;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12496 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

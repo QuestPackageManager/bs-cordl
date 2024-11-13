@@ -30,10 +30,10 @@ public:
   /// @brief Field SwitchFormatJapaneseFirstYearAsANumber, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SwitchFormatJapaneseFirstYearAsANumber, put = setStaticF_SwitchFormatJapaneseFirstYearAsANumber)) ::StringW SwitchFormatJapaneseFirstYearAsANumber;
 
-  /// @brief Method PopulateDefaultValues, addr 0x3dba43c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PopulateDefaultValues, addr 0x3dceacc, size 0x4, virtual false, abstract: false, final false
   static inline void PopulateDefaultValues();
 
-  /// @brief Method TryGetSwitchOverride, addr 0x3dba440, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method TryGetSwitchOverride, addr 0x3dcead0, size 0xc, virtual false, abstract: false, final false
   static inline bool TryGetSwitchOverride(::StringW switchName, ByRef<bool> overrideValue);
 
   static inline ::StringW getStaticF_SwitchEnforceJapaneseEraYearRanges();

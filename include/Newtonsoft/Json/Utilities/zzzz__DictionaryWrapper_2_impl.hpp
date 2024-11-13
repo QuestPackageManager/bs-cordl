@@ -228,7 +228,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary
 }
 template <typename TKey, typename TValue> constexpr void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal_set__dictionary(::System::Collections::IDictionary* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____dictionary, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>*& Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal_get__genericDictionary() {
@@ -244,7 +244,7 @@ Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal
 template <typename TKey, typename TValue>
 constexpr void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal_set__genericDictionary(::System::Collections::Generic::IDictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____genericDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____genericDictionary, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>*& Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal_get__readOnlyDictionary() {
@@ -260,7 +260,7 @@ Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal
 template <typename TKey, typename TValue>
 constexpr void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal_set__readOnlyDictionary(::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____readOnlyDictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____readOnlyDictionary, value);
 }
 template <typename TKey, typename TValue> constexpr ::System::Object*& Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal_get__syncRoot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -273,7 +273,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Newtonso
 }
 template <typename TKey, typename TValue> constexpr void Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::__cordl_internal_set__syncRoot(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____syncRoot, value);
 }
 template <typename TKey, typename TValue>
 inline ::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>* Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::New_ctor(::System::Collections::IDictionary* dictionary) {

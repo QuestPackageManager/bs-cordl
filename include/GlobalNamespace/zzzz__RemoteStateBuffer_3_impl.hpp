@@ -23,7 +23,7 @@ constexpr void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>:
     ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
         value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____receivedStates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____receivedStates, value);
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
@@ -44,7 +44,7 @@ constexpr void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>:
     ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
         value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____receivedDeltas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____receivedDeltas, value);
 }
 template <typename TStateTable, typename TType, typename TState> constexpr int32_t& GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__cordl_internal_get__receivedStateIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

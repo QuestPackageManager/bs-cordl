@@ -37,10 +37,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Mesh*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Mesh*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a2f57c, size 0x42c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a42ed4, size 0x42c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Mesh* other);
 
-  /// @brief Method IsNull, addr 0x3a2f51c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a42e74, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_Mesh* New_ctor(::UnityEngine::Mesh* self);
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::Mesh> value);
 
-  /// @brief Method .ctor, addr 0x3a2f4f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a42e4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Mesh*>"
@@ -78,7 +78,7 @@ public:
   ::UnityW<::UnityEngine::Mesh> ___self;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11860 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

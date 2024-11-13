@@ -45,7 +45,7 @@ public:
 
   static inline ::GlobalNamespace::NoteControllerBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a7ce1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a90798, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_didInitEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -75,7 +75,7 @@ public:
   NoteControllerBase(NoteControllerBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4110 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

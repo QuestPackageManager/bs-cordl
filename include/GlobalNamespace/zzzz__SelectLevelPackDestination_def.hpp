@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_beatmapLevelPack(::GlobalNamespace::BeatmapLevelPack* value);
 
-  /// @brief Method .ctor, addr 0x266d080, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2678340, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack);
 
 protected:
@@ -54,7 +54,7 @@ public:
   ::GlobalNamespace::BeatmapLevelPack* ___beatmapLevelPack;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12782 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -32,7 +32,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a2d5d0, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a40f28, size 0x254, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_TransformEuler* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_TransformEuler* New_ctor(::HoudiniEngineUnity::HAPI_TransformEuler self);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_TransformEuler value);
 
-  /// @brief Method .ctor, addr 0x3a2d59c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a40ef4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_TransformEuler self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>"
@@ -67,7 +67,7 @@ public:
   ::HoudiniEngineUnity::HAPI_TransformEuler ___self;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11849 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

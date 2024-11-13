@@ -37,10 +37,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__TooltipEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49b9918, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49ce030, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TooltipEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49b9910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ce028, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__TooltipEvent____c* getStaticF___9();
@@ -62,7 +62,7 @@ public:
   __TooltipEvent____c(__TooltipEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5905 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,10 +90,10 @@ public:
 
   __declspec(property(put = set_tooltip)) ::StringW tooltip;
 
-  /// @brief Method Init, addr 0x49b9714, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49cde2c, size 0x90, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49b97a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x49cdebc, size 0x5c, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::TooltipEvent* New_ctor();
@@ -110,13 +110,13 @@ public:
 
   constexpr void __cordl_internal_set__tooltip_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x49b9800, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49cdf18, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_rect, addr 0x49b9708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rect, addr 0x49cde20, size 0xc, virtual false, abstract: false, final false
   inline void set_rect(::UnityEngine::Rect value);
 
-  /// @brief Method set_tooltip, addr 0x49b9700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tooltip, addr 0x49cde18, size 0x8, virtual false, abstract: false, final false
   inline void set_tooltip(::StringW value);
 
 protected:
@@ -140,7 +140,7 @@ public:
   ::UnityEngine::Rect ____rect_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5906 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

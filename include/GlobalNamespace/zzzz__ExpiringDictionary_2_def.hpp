@@ -132,7 +132,7 @@ public:
   int64_t ___expireTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14697 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -258,7 +258,7 @@ public:
   ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _____7__wrap1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14698 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -445,7 +445,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* ____reusableEntries;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14699 };
 
   /// @brief Field kMaxReusableEntries offset 0xffffffff size 0x4
   static constexpr int32_t kMaxReusableEntries{ static_cast<int32_t>(0x400) };

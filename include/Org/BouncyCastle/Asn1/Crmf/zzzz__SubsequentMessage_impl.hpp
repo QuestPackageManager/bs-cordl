@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22d6a74;
+  constexpr static std::size_t addrs = 0x22e1b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* (*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::ValueOf)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x22d5198;
+  constexpr static std::size_t addrs = 0x22e0240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

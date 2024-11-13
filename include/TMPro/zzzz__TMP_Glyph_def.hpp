@@ -19,12 +19,12 @@ namespace TMPro {
 class CORDL_TYPE TMP_Glyph : public ::TMPro::TMP_TextElement_Legacy {
 public:
   // Declarations
-  /// @brief Method Clone, addr 0x475d24c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x4771964, size 0x7c, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Glyph* Clone(::TMPro::TMP_Glyph* source);
 
   static inline ::TMPro::TMP_Glyph* New_ctor();
 
-  /// @brief Method .ctor, addr 0x475d2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47719e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   TMP_Glyph(TMP_Glyph const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

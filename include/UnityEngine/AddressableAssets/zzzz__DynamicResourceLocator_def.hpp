@@ -59,11 +59,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
 
-  /// @brief Method CreateDynamicLocations, addr 0x447f194, size 0x690, virtual false, abstract: false, final false
+  /// @brief Method CreateDynamicLocations, addr 0x44938ac, size 0x690, virtual false, abstract: false, final false
   inline void CreateDynamicLocations(::System::Type* type, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations,
                                      ::StringW locName, ::StringW subKey, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* mainLoc);
 
-  /// @brief Method Locate, addr 0x447ec48, size 0x54c, virtual true, abstract: false, final true
+  /// @brief Method Locate, addr 0x4493360, size 0x54c, virtual true, abstract: false, final true
   inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
   static inline ::UnityEngine::AddressableAssets::DynamicResourceLocator* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* addr);
@@ -80,19 +80,19 @@ public:
 
   constexpr void __cordl_internal_set_m_AtlasSpriteProviderId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x447ec20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4493338, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* addr);
 
-  /// @brief Method get_AllLocations, addr 0x447ebdc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_AllLocations, addr 0x44932f4, size 0x44, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_AllLocations();
 
-  /// @brief Method get_AtlasSpriteProviderId, addr 0x447e78c, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method get_AtlasSpriteProviderId, addr 0x4492ea4, size 0x450, virtual false, abstract: false, final false
   inline ::StringW get_AtlasSpriteProviderId();
 
-  /// @brief Method get_Keys, addr 0x447e748, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x4492e60, size 0x44, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_LocatorId, addr 0x447e708, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_LocatorId, addr 0x4492e20, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_LocatorId();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
@@ -119,7 +119,7 @@ public:
   ::StringW ___m_AtlasSpriteProviderId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16155 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

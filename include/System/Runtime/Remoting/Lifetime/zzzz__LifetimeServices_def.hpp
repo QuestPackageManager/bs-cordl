@@ -44,7 +44,7 @@ public:
   /// @brief Field _sponsorshipTimeout, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__sponsorshipTimeout, put = setStaticF__sponsorshipTimeout)) ::System::TimeSpan _sponsorshipTimeout;
 
-  /// @brief Method TrackLifetime, addr 0x3c5ef00, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TrackLifetime, addr 0x3c73590, size 0x68, virtual false, abstract: false, final false
   static inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
 
   static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* getStaticF__leaseManager();
@@ -57,16 +57,16 @@ public:
 
   static inline ::System::TimeSpan getStaticF__sponsorshipTimeout();
 
-  /// @brief Method get_LeaseManagerPollTime, addr 0x3c671a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_LeaseManagerPollTime, addr 0x3c7b834, size 0x58, virtual false, abstract: false, final false
   static inline ::System::TimeSpan get_LeaseManagerPollTime();
 
-  /// @brief Method get_LeaseTime, addr 0x3c67270, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_LeaseTime, addr 0x3c7b900, size 0x58, virtual false, abstract: false, final false
   static inline ::System::TimeSpan get_LeaseTime();
 
-  /// @brief Method get_RenewOnCallTime, addr 0x3c67324, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_RenewOnCallTime, addr 0x3c7b9b4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::TimeSpan get_RenewOnCallTime();
 
-  /// @brief Method get_SponsorshipTimeout, addr 0x3c673d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SponsorshipTimeout, addr 0x3c7ba68, size 0x58, virtual false, abstract: false, final false
   static inline ::System::TimeSpan get_SponsorshipTimeout();
 
   static inline void setStaticF__leaseManager(::System::Runtime::Remoting::Lifetime::LeaseManager* value);
@@ -79,16 +79,16 @@ public:
 
   static inline void setStaticF__sponsorshipTimeout(::System::TimeSpan value);
 
-  /// @brief Method set_LeaseManagerPollTime, addr 0x3c671fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_LeaseManagerPollTime, addr 0x3c7b88c, size 0x74, virtual false, abstract: false, final false
   static inline void set_LeaseManagerPollTime(::System::TimeSpan value);
 
-  /// @brief Method set_LeaseTime, addr 0x3c672c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_LeaseTime, addr 0x3c7b958, size 0x5c, virtual false, abstract: false, final false
   static inline void set_LeaseTime(::System::TimeSpan value);
 
-  /// @brief Method set_RenewOnCallTime, addr 0x3c6737c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_RenewOnCallTime, addr 0x3c7ba0c, size 0x5c, virtual false, abstract: false, final false
   static inline void set_RenewOnCallTime(::System::TimeSpan value);
 
-  /// @brief Method set_SponsorshipTimeout, addr 0x3c67430, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_SponsorshipTimeout, addr 0x3c7bac0, size 0x5c, virtual false, abstract: false, final false
   static inline void set_SponsorshipTimeout(::System::TimeSpan value);
 
 protected:

@@ -16,7 +16,7 @@ template <typename TSet, typename TElement> constexpr TElement const& Unity::Pro
 }
 template <typename TSet, typename TElement> constexpr void Unity::Properties::__SetPropertyBagBase_2__SetElementProperty<TSet, TElement>::__cordl_internal_set_m_Value(TElement value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Value, value);
 }
 template <typename TSet, typename TElement> inline ::StringW Unity::Properties::__SetPropertyBagBase_2__SetElementProperty<TSet, TElement>::get_Name() {
   auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ Unity::Properties::SetPropertyBagBase_2<TSet, TElement>::__cordl_internal_get_m_
 template <typename TSet, typename TElement>
 constexpr void Unity::Properties::SetPropertyBagBase_2<TSet, TElement>::__cordl_internal_set_m_Property(::Unity::Properties::__SetPropertyBagBase_2__SetElementProperty<TSet, TElement>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Property)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Property, value);
 }
 template <typename TSet, typename TElement> inline ::Unity::Properties::SetPropertyBagBase_2<TSet, TElement>* Unity::Properties::SetPropertyBagBase_2<TSet, TElement>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::SetPropertyBagBase_2<TSet, TElement>*>());

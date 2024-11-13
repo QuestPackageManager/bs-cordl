@@ -46,10 +46,10 @@ public:
 
   static inline ::GlobalNamespace::__BookmarksFoldersModel____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x266cfdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267829c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x266cfe4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x26782a4, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _get_bookmarksFolders_b__3_0(::System::__Environment__SpecialFolder specialFolder);
 
   static inline ::GlobalNamespace::__BookmarksFoldersModel____c* getStaticF___9();
@@ -75,7 +75,7 @@ public:
   __BookmarksFoldersModel____c(__BookmarksFoldersModel____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12766 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -117,10 +117,10 @@ public:
 
   constexpr void __cordl_internal_set_myFolders(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x266cf78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2678238, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bookmarksFolders, addr 0x266c978, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method get_bookmarksFolders, addr 0x2677c38, size 0x5c0, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> get_bookmarksFolders();
 
 protected:
@@ -144,7 +144,7 @@ public:
   ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> ____bookmarksFolders;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12767 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

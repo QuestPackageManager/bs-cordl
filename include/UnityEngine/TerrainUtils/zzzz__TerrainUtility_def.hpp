@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_onlyAutoConnectedTerrains(bool value);
 
-  /// @brief Method .ctor, addr 0x48a5280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b9998, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,7 +75,7 @@ public:
   bool ___onlyAutoConnectedTerrains;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18052 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,7 +101,7 @@ public:
 
   static inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1* New_ctor();
 
-  /// @brief Method <CollectTerrains>b__0, addr 0x48a5618, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method <CollectTerrains>b__0, addr 0x48b9d30, size 0xdc, virtual false, abstract: false, final false
   inline bool _CollectTerrains_b__0(::UnityEngine::Terrain* x);
 
   constexpr ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0*& __cordl_internal_get_CS$__8__locals1();
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_t(::UnityW<::UnityEngine::Terrain> value);
 
-  /// @brief Method .ctor, addr 0x48a5288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b99a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* ___CS$__8__locals1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18053 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -164,16 +164,16 @@ public:
 
   using __c__DisplayClass2_1 = ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1;
 
-  /// @brief Method AutoConnect, addr 0x48a5290, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method AutoConnect, addr 0x48b99a8, size 0x388, virtual false, abstract: false, final false
   static inline void AutoConnect();
 
-  /// @brief Method ClearConnectivity, addr 0x48a4eac, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ClearConnectivity, addr 0x48b95c4, size 0xf8, virtual false, abstract: false, final false
   static inline void ClearConnectivity();
 
-  /// @brief Method CollectTerrains, addr 0x48a4fa4, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method CollectTerrains, addr 0x48b96bc, size 0x2dc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>* CollectTerrains(bool onlyAutoConnectedTerrains);
 
-  /// @brief Method ValidTerrainsExist, addr 0x48a4e44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ValidTerrainsExist, addr 0x48b955c, size 0x68, virtual false, abstract: false, final false
   static inline bool ValidTerrainsExist();
 
 protected:
@@ -191,7 +191,7 @@ public:
   TerrainUtility(TerrainUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18054 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

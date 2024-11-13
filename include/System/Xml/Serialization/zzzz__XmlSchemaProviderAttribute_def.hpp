@@ -44,16 +44,16 @@ public:
 
   constexpr void __cordl_internal_set__methodName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4302ba8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43172c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW methodName);
 
-  /// @brief Method get_IsAny, addr 0x4302bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAny, addr 0x43172f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAny();
 
-  /// @brief Method get_MethodName, addr 0x4302bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MethodName, addr 0x43172e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MethodName();
 
-  /// @brief Method set_IsAny, addr 0x4302be0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsAny, addr 0x43172f8, size 0xc, virtual false, abstract: false, final false
   inline void set_IsAny(bool value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   bool ____isAny;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7402 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

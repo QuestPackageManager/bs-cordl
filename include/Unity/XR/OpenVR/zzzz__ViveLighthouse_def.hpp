@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Unity::XR::OpenVR::ViveLighthouse* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44c4f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9624, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   ViveLighthouse(ViveLighthouse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6494 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

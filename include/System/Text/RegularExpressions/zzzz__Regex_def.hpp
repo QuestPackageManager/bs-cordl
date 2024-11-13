@@ -92,22 +92,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>"
   constexpr operator ::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>*();
 
-  /// @brief Method Equals, addr 0x439ecf0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x43b3408, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x439ed80, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x43b3498, size 0x68, virtual true, abstract: false, final true
   inline bool Equals(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey other);
 
-  /// @brief Method GetHashCode, addr 0x439ede8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x43b3500, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x439ebcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43b32e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::RegexOptions options, ::StringW cultureKey, ::StringW pattern);
 
   /// @brief Convert to "::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>"
   constexpr ::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>* i___System__IEquatable_1___System__Text__RegularExpressions____Regex__CachedCodeEntryKey_();
 
-  /// @brief Method op_Equality, addr 0x439c9d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x43b10e8, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey left, ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey right);
 
   // Ctor Parameters []
@@ -128,7 +128,7 @@ public:
   ::StringW _pattern;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9201 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -249,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set_Runnerref(::System::Text::RegularExpressions::ExclusiveReference* value);
 
-  /// @brief Method .ctor, addr 0x439d068, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43b1780, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, ::System::Collections::Hashtable* capnames, ::ArrayW<::StringW, ::Array<::StringW>*> capslist,
                     ::System::Text::RegularExpressions::RegexCode* code, ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::ExclusiveReference* runner,
                     ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* replref);
@@ -299,7 +299,7 @@ public:
   ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* ___ReplRef;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9202 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -407,55 +407,55 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method FillCacheDictionary, addr 0x439d0e0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method FillCacheDictionary, addr 0x43b17f8, size 0x104, virtual false, abstract: false, final false
   inline void FillCacheDictionary();
 
-  /// @brief Method GetCachedCode, addr 0x439c8d8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedCode, addr 0x43b0ff0, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* GetCachedCode(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, bool isToAdd);
 
-  /// @brief Method GetCachedCodeEntryInternal, addr 0x439ca00, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method GetCachedCodeEntryInternal, addr 0x43b1118, size 0x4a4, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* GetCachedCodeEntryInternal(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, bool isToAdd);
 
-  /// @brief Method GroupNameFromNumber, addr 0x439a030, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GroupNameFromNumber, addr 0x43ae748, size 0x140, virtual false, abstract: false, final false
   inline ::StringW GroupNameFromNumber(int32_t i);
 
-  /// @brief Method GroupNumberFromName, addr 0x4399c3c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GroupNumberFromName, addr 0x43ae354, size 0x140, virtual false, abstract: false, final false
   inline int32_t GroupNumberFromName(::StringW name);
 
-  /// @brief Method InitDefaultMatchTimeout, addr 0x439e718, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method InitDefaultMatchTimeout, addr 0x43b2e30, size 0x230, virtual false, abstract: false, final false
   static inline ::System::TimeSpan InitDefaultMatchTimeout();
 
-  /// @brief Method InitializeReferences, addr 0x439ebd8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method InitializeReferences, addr 0x43b32f0, size 0xfc, virtual false, abstract: false, final false
   inline void InitializeReferences();
 
-  /// @brief Method IsMatch, addr 0x439d860, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x43b1f78, size 0x6c, virtual false, abstract: false, final false
   inline bool IsMatch(::StringW input);
 
-  /// @brief Method IsMatch, addr 0x439d3e0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x43b1af8, size 0x74, virtual false, abstract: false, final false
   static inline bool IsMatch(::StringW input, ::StringW pattern);
 
-  /// @brief Method IsMatch, addr 0x439d454, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x43b1b6c, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsMatch(::StringW input, ::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout);
 
-  /// @brief Method IsMatch, addr 0x439d8d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x43b1ff0, size 0x7c, virtual false, abstract: false, final false
   inline bool IsMatch(::StringW input, int32_t startat);
 
-  /// @brief Method LookupCachedAndPromote, addr 0x439cea4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method LookupCachedAndPromote, addr 0x43b15bc, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* LookupCachedAndPromote(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key);
 
-  /// @brief Method Match, addr 0x439da54, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x43b216c, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* Match(::StringW input);
 
-  /// @brief Method Match, addr 0x439d954, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x43b206c, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::Match* Match(::StringW input, ::StringW pattern);
 
-  /// @brief Method Match, addr 0x439d9c8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x43b20e0, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::Match* Match(::StringW input, ::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout);
 
-  /// @brief Method Match, addr 0x439dac0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x43b21d8, size 0x70, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* Match(::StringW input, int32_t startat);
 
-  /// @brief Method Matches, addr 0x439db30, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x43b2248, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::MatchCollection* Matches(::StringW input, int32_t startat);
 
   static inline ::System::Text::RegularExpressions::Regex* New_ctor(::StringW pattern);
@@ -464,52 +464,52 @@ public:
 
   static inline ::System::Text::RegularExpressions::Regex* New_ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout, bool addToCache);
 
-  /// @brief Method Replace, addr 0x439dbf8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x43b2310, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW Replace(::StringW input, ::StringW pattern, ::StringW replacement);
 
-  /// @brief Method Replace, addr 0x439dd08, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x43b2420, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW Replace(::StringW input, ::StringW pattern, ::StringW replacement, ::System::Text::RegularExpressions::RegexOptions options);
 
-  /// @brief Method Replace, addr 0x439dc74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x43b238c, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW Replace(::StringW input, ::StringW pattern, ::StringW replacement, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout);
 
-  /// @brief Method Replace, addr 0x439dd90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x43b24a8, size 0x70, virtual false, abstract: false, final false
   inline ::StringW Replace(::StringW input, ::StringW replacement);
 
-  /// @brief Method Replace, addr 0x439de00, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x43b2518, size 0xd8, virtual false, abstract: false, final false
   inline ::StringW Replace(::StringW input, ::StringW replacement, int32_t count, int32_t startat);
 
-  /// @brief Method Run, addr 0x439ae60, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x43af578, size 0x284, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* Run(bool quick, int32_t prevlen, ::StringW input, int32_t beginning, int32_t length, int32_t startat);
 
-  /// @brief Method Split, addr 0x439ded8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Split, addr 0x43b25f0, size 0x70, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(::StringW input);
 
-  /// @brief Method Split, addr 0x439df48, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Split, addr 0x43b2660, size 0xc0, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(::StringW input, int32_t count, int32_t startat);
 
-  /// @brief Method Split, addr 0x439e008, size 0x5d4, virtual false, abstract: false, final false
+  /// @brief Method Split, addr 0x43b2720, size 0x5d4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(::System::Text::RegularExpressions::Regex* regex, ::StringW input, int32_t count, int32_t startat);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x439eb94, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x43b32ac, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x439ecdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x43b33f4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetCacheValue, addr 0x439d1e4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TryGetCacheValue, addr 0x43b18fc, size 0x11c, virtual false, abstract: false, final false
   static inline bool TryGetCacheValue(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> entry);
 
-  /// @brief Method TryGetCacheValueSmall, addr 0x439d300, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method TryGetCacheValueSmall, addr 0x43b1a18, size 0xe0, virtual false, abstract: false, final false
   static inline bool TryGetCacheValueSmall(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> entry);
 
-  /// @brief Method UseOptionInvariant, addr 0x439ece4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UseOptionInvariant, addr 0x43b33fc, size 0xc, virtual false, abstract: false, final false
   inline bool UseOptionInvariant();
 
-  /// @brief Method UseOptionR, addr 0x439d8cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UseOptionR, addr 0x43b1fe4, size 0xc, virtual false, abstract: false, final false
   inline bool UseOptionR();
 
-  /// @brief Method ValidateMatchTimeout, addr 0x439e948, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ValidateMatchTimeout, addr 0x43b3060, size 0x158, virtual false, abstract: false, final false
   static inline void ValidateMatchTimeout(::System::TimeSpan matchTimeout);
 
   constexpr ::System::Text::RegularExpressions::RegexCode*& __cordl_internal_get__code();
@@ -584,13 +584,13 @@ public:
 
   constexpr void __cordl_internal_set_roptions(::System::Text::RegularExpressions::RegexOptions value);
 
-  /// @brief Method .ctor, addr 0x439eaa0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43b31b8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern);
 
-  /// @brief Method .ctor, addr 0x439eb18, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43b3230, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options);
 
-  /// @brief Method .ctor, addr 0x439d4e0, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43b1bf8, size 0x380, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout, bool addToCache);
 
   static inline ::System::TimeSpan getStaticF_InfiniteMatchTimeout();
@@ -610,10 +610,10 @@ public:
 
   static inline ::System::TimeSpan getStaticF_s_maximumMatchTimeout();
 
-  /// @brief Method get_Options, addr 0x439ecd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Options, addr 0x43b33ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexOptions get_Options();
 
-  /// @brief Method get_RightToLeft, addr 0x439e5dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_RightToLeft, addr 0x43b2cf4, size 0xc, virtual false, abstract: false, final false
   inline bool get_RightToLeft();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -696,7 +696,7 @@ public:
   static constexpr int32_t MaxOptionShift{ static_cast<int32_t>(0xa) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9203 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

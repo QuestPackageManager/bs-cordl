@@ -61,7 +61,7 @@ public:
 
   static inline ::Zenject::__ProjectKernel____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <ForceUnloadAllScenes>b__0, addr 0x4ad1024, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <ForceUnloadAllScenes>b__0, addr 0x4ae573c, size 0x78, virtual false, abstract: false, final false
   inline int32_t _ForceUnloadAllScenes_b__0(::Zenject::SceneContext* x);
 
   constexpr ::System::Func_2<::UnityW<::Zenject::SceneContext>, int32_t>*& __cordl_internal_get___9__0();
@@ -76,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set_sceneOrder(::System::Collections::Generic::List_1<::UnityEngine::SceneManagement::Scene>* value);
 
-  /// @brief Method __zenCreate, addr 0x4ad109c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ae57b4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ad10f0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ae5808, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4ad09d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae50e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,7 +106,7 @@ public:
   ::System::Func_2<::UnityW<::Zenject::SceneContext>, int32_t>* _____9__0;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12623 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12628 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -134,15 +134,15 @@ public:
   /// @brief Field _settings, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings)) ::Zenject::ZenjectSettings* _settings;
 
-  /// @brief Method DestroyEverythingInOrder, addr 0x4ad055c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DestroyEverythingInOrder, addr 0x4ae4c74, size 0x98, virtual false, abstract: false, final false
   inline void DestroyEverythingInOrder();
 
-  /// @brief Method ForceUnloadAllScenes, addr 0x4ad05f4, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method ForceUnloadAllScenes, addr 0x4ae4d0c, size 0x3dc, virtual false, abstract: false, final false
   inline void ForceUnloadAllScenes(bool immediate);
 
   static inline ::Zenject::ProjectKernel* New_ctor();
 
-  /// @brief Method OnApplicationQuit, addr 0x4ad0534, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x4ae4c4c, size 0x28, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
   constexpr ::Zenject::SceneContextRegistry*& __cordl_internal_get__contextRegistry();
@@ -157,16 +157,16 @@ public:
 
   constexpr void __cordl_internal_set__settings(::Zenject::ZenjectSettings* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ad0c98, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ae53b0, size 0x38c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenFieldSetter0, addr 0x4ad0a30, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x4ae5148, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter1, addr 0x4ad0b64, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter1, addr 0x4ae527c, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method .ctor, addr 0x4ad0a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae5140, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -190,7 +190,7 @@ public:
   ::Zenject::SceneContextRegistry* ____contextRegistry;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12624 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12629 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

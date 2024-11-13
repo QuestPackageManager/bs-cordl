@@ -73,21 +73,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3fd2178, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3fe6808, size 0xb0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fd2228, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fe68b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fd2230, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fe68c0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fd2268, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fe68f8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3fd2174, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3fe6804, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSpectatorModeDomeTest> value);
 
-  /// @brief Method .ctor, addr 0x3fd1fa8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe6638, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -144,7 +144,7 @@ public:
   ::UnityW<::GlobalNamespace::OVRSpectatorModeDomeTest> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8466 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -201,36 +201,36 @@ public:
   /// @brief Field readyToSwitch, offset 0x54, size 0x1
   __declspec(property(get = __cordl_internal_get_readyToSwitch, put = __cordl_internal_set_readyToSwitch)) bool readyToSwitch;
 
-  /// @brief Method Awake, addr 0x3fd1428, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fe5ab8, size 0x3c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Initialize, addr 0x3fd1514, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3fe5ba4, size 0x228, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::OVRSpectatorModeDomeTest* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x3fd2110, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x3fe67a0, size 0x20, virtual false, abstract: false, final false
   inline void OnApplicationPause();
 
-  /// @brief Method OnApplicationQuit, addr 0x3fd2130, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x3fe67c0, size 0x20, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method SpectatorCameraDomePosition, addr 0x3fd1f14, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SpectatorCameraDomePosition, addr 0x3fe65a4, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SpectatorCameraDomePosition(::UnityEngine::Vector3 spectatorAnchorPosition, float_t d, float_t e, float_t p);
 
-  /// @brief Method Start, addr 0x3fd1464, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fe5af4, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TimerCoroutine, addr 0x3fd1eb4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TimerCoroutine, addr 0x3fe6544, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* TimerCoroutine();
 
-  /// @brief Method Update, addr 0x3fd1fd0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fe6660, size 0x140, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateDefaultExternalCamera, addr 0x3fd173c, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method UpdateDefaultExternalCamera, addr 0x3fe5dcc, size 0x410, virtual false, abstract: false, final false
   inline void UpdateDefaultExternalCamera();
 
-  /// @brief Method UpdateSpectatorCameraStatus, addr 0x3fd1b4c, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method UpdateSpectatorCameraStatus, addr 0x3fe61dc, size 0x368, virtual false, abstract: false, final false
   inline void UpdateSpectatorCameraStatus();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_Head() const;
@@ -299,7 +299,7 @@ public:
 
   constexpr void __cordl_internal_set_readyToSwitch(bool value);
 
-  /// @brief Method .ctor, addr 0x3fd2150, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe67e0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -350,7 +350,7 @@ public:
   float_t ___polar;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8467 };
 
   /// @brief Field distance_far offset 0xffffffff size 0x4
   static constexpr float_t distance_far{ 1.2 };

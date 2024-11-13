@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::TableCellWithSeparator* New_ctor();
 
-  /// @brief Method TableViewSetup, addr 0x397da98, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method TableViewSetup, addr 0x399131c, size 0xe4, virtual true, abstract: false, final false
   inline void TableViewSetup(::HMUI::ITableCellOwner* tableCellOwner, int32_t idx);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__separator() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__separator(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x397db7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3991400, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   ::UnityW<::UnityEngine::GameObject> ____separator;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15967 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

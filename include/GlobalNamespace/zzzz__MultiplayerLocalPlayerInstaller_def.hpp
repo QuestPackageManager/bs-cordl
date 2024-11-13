@@ -36,7 +36,7 @@ public:
   /// @brief Field _startState, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__startState, put = __cordl_internal_set__startState)) ::GlobalNamespace::MultiplayerPlayerStartState _startState;
 
-  /// @brief Method InstallBindings, addr 0x3b7b2dc, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b90e54, size 0x218, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerInstaller* New_ctor();
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__startState(::GlobalNamespace::MultiplayerPlayerStartState value);
 
-  /// @brief Method .ctor, addr 0x3b7b4f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9106c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   ::GlobalNamespace::MultiplayerPlayerStartState ____startState;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4711 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -42,18 +42,18 @@ public:
   /// @brief Field _stepSize, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__stepSize, put = __cordl_internal_set__stepSize)) float_t _stepSize;
 
-  /// @brief Method Awake, addr 0x3b13e08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b2927c, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::StepFloatMaterialPropertyEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x3b13e2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x3b292a0, size 0x5c, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x3b13e28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b2929c, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b13e88, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b292fc, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__stepSize(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b13e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b29300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,7 +119,7 @@ public:
   int32_t ____propertyId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4264 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

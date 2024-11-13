@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__IPAddress__ReadOnlyIPAddress::*)(int64_t)>(
     &::System::Net::__IPAddress__ReadOnlyIPAddress::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x44172f8;
+  constexpr static std::size_t addrs = 0x442ba10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

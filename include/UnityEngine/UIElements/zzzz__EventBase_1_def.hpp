@@ -70,7 +70,7 @@ public:
   __EventBase_1____c(__EventBase_1____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5778 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -170,7 +170,7 @@ public:
   int32_t ___m_RefCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5779 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -52,7 +52,7 @@ public:
   int32_t next;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13563 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -168,7 +168,7 @@ public:
   ::System::Collections::Generic::IEqualityComparer_1<TElement>* ___comparer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13557 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13564 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

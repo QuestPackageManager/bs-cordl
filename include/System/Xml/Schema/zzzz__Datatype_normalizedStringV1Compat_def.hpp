@@ -28,13 +28,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_normalizedStringV1Compat* New_ctor();
 
-  /// @brief Method .ctor, addr 0x432ed2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4343444, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasValueFacets, addr 0x433634c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasValueFacets, addr 0x434aa64, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasValueFacets();
 
-  /// @brief Method get_TypeCode, addr 0x4336344, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x434aa5c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -52,7 +52,7 @@ public:
   Datatype_normalizedStringV1Compat(Datatype_normalizedStringV1Compat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7525 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

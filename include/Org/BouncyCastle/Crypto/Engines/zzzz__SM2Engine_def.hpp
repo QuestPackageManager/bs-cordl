@@ -66,38 +66,38 @@ public:
   /// @brief Field mRandom, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_mRandom, put = __cordl_internal_set_mRandom)) ::Org::BouncyCastle::Security::SecureRandom* mRandom;
 
-  /// @brief Method AddFieldElement, addr 0x23337ac, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddFieldElement, addr 0x233e854, size 0xd4, virtual false, abstract: false, final false
   inline void AddFieldElement(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECFieldElement* v);
 
-  /// @brief Method CreateBasePointMultiplier, addr 0x2333234, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method CreateBasePointMultiplier, addr 0x233e2dc, size 0x54, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
 
-  /// @brief Method Decrypt, addr 0x2332dc4, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method Decrypt, addr 0x233de6c, size 0x470, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decrypt(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method Encrypt, addr 0x2332a24, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method Encrypt, addr 0x233dacc, size 0x3a0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encrypt(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method Init, addr 0x23327a8, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x233d850, size 0x26c, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
-  /// @brief Method Kdf, addr 0x233334c, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method Kdf, addr 0x233e3f4, size 0x3f4, virtual false, abstract: false, final false
   inline void Kdf(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* c1, ::ArrayW<uint8_t, ::Array<uint8_t>*> encData);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SM2Engine* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SM2Engine* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method NextK, addr 0x2333288, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method NextK, addr 0x233e330, size 0xc4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
-  /// @brief Method NotEncrypted, addr 0x2333740, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method NotEncrypted, addr 0x233e7e8, size 0x6c, virtual false, abstract: false, final false
   inline bool NotEncrypted(::ArrayW<uint8_t, ::Array<uint8_t>*> encData, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method ProcessBlock, addr 0x2332a14, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x233dabc, size 0x10, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method Xor, addr 0x2333880, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x233e928, size 0x64, virtual false, abstract: false, final false
   inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ArrayW<uint8_t, ::Array<uint8_t>*> kdfOut, int32_t dOff, int32_t dRemaining);
 
   constexpr int32_t const& __cordl_internal_get_mCurveLength() const;
@@ -136,10 +136,10 @@ public:
 
   constexpr void __cordl_internal_set_mRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x233271c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x233d7c4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2332780, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x233d828, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
 protected:

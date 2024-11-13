@@ -49,10 +49,10 @@ public:
 
   static inline ::GlobalNamespace::BloomFogParamsBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x3abfaa0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x3ad3640, size 0x90, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x3abf94c, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3ad34ec, size 0x154, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr float_t const& __cordl_internal_get__blend() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method .ctor, addr 0x3abfb30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad36d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,7 +109,7 @@ public:
   bool ____initialized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5173 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

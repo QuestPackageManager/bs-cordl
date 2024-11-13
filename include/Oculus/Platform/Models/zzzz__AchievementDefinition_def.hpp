@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_Type(::Oculus::Platform::AchievementType value);
 
-  /// @brief Method .ctor, addr 0x3f18e94, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2d524, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -93,7 +93,7 @@ public:
   uint64_t ___Target;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15454 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

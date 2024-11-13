@@ -28,7 +28,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::FieldInstruction* New_ctor(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method ToString, addr 0x4053308, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4067a20, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Reflection::FieldInfo*& __cordl_internal_get__field();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__field(::System::Reflection::FieldInfo* value);
 
-  /// @brief Method .ctor, addr 0x40532d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40679f0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* field);
 
 protected:
@@ -58,7 +58,7 @@ public:
   ::System::Reflection::FieldInfo* ____field;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13817 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

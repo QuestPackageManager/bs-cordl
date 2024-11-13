@@ -72,7 +72,7 @@ public:
   static ::GlobalNamespace::__SonyVersion__VersionFormat const Short;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13174 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -105,16 +105,25 @@ public:
 
   __declspec(property(get = get_minorVersion)) uint32_t minorVersion;
 
-  /// @brief Method Get, addr 0x26ac65c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method CopyValueFrom, addr 0x26b262c, size 0x1c, virtual false, abstract: false, final false
+  inline void CopyValueFrom(::GlobalNamespace::SonyVersion* other);
+
+  /// @brief Method Get, addr 0x26b8420, size 0x228, virtual false, abstract: false, final false
   inline ::StringW Get(::GlobalNamespace::__SonyVersion__VersionFormat format);
 
-  /// @brief Method GetFromString, addr 0x26ac07c, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method GetFromString, addr 0x26b7e40, size 0x550, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SonyVersion* GetFromString(::StringW versionString);
 
-  /// @brief Method IsVersionFormatValid, addr 0x26ac5cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IncreaseVersion, addr 0x26b2680, size 0x24, virtual false, abstract: false, final false
+  inline void IncreaseVersion();
+
+  /// @brief Method IsVersionFormatValid, addr 0x26b8390, size 0x90, virtual false, abstract: false, final false
   static inline bool IsVersionFormatValid(::StringW versionString);
 
   static inline ::GlobalNamespace::SonyVersion* New_ctor(uint32_t majorVersion, uint32_t minorVersion);
+
+  /// @brief Method ToString, addr 0x26b8648, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr uint32_t const& __cordl_internal_get__majorVersion() const;
 
@@ -128,14 +137,17 @@ public:
 
   constexpr void __cordl_internal_set__minorVersion(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x26ac050, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b7e14, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t majorVersion, uint32_t minorVersion);
 
-  /// @brief Method get_majorVersion, addr 0x26ac040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_majorVersion, addr 0x26b7e04, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_majorVersion();
 
-  /// @brief Method get_minorVersion, addr 0x26ac048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minorVersion, addr 0x26b7e0c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_minorVersion();
+
+  /// @brief Method op_Implicit, addr 0x26b8650, size 0x14, virtual false, abstract: false, final false
+  static inline ::StringW op_Implicit___StringW(::GlobalNamespace::SonyVersion* version);
 
 protected:
   // Ctor Parameters []
@@ -158,7 +170,7 @@ public:
   uint32_t ____minorVersion;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13175 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

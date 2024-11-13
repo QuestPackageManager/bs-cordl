@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__menuName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4830fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48456c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_fileName, addr 0x4830fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fileName, addr 0x48456c0, size 0x8, virtual false, abstract: false, final false
   inline void set_fileName(::StringW value);
 
-  /// @brief Method set_menuName, addr 0x4830fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menuName, addr 0x48456b8, size 0x8, virtual false, abstract: false, final false
   inline void set_menuName(::StringW value);
 
 protected:
@@ -74,7 +74,7 @@ public:
   ::StringW ____fileName_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10825 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

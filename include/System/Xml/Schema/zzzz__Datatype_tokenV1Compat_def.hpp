@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_tokenV1Compat* New_ctor();
 
-  /// @brief Method .ctor, addr 0x432ed30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4343448, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x4336364, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x434aa7c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -47,7 +47,7 @@ public:
   Datatype_tokenV1Compat(Datatype_tokenV1Compat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7527 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

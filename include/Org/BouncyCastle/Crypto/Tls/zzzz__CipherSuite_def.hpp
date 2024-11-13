@@ -20,12 +20,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE CipherSuite : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsScsv, addr 0x23a7ba8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsScsv, addr 0x23b2c50, size 0x20, virtual false, abstract: false, final false
   static inline bool IsScsv(int32_t cipherSuite);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CipherSuite* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a7bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b2c70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -45,22 +45,22 @@ public:
   /// @brief Field SpecialCharacters, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SpecialCharacters, put = setStaticF_SpecialCharacters)) ::ArrayW<char16_t, ::Array<char16_t>*> SpecialCharacters;
 
-  /// @brief Method BuildPath, addr 0x3e068a4, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method BuildPath, addr 0x3e1af34, size 0x304, virtual false, abstract: false, final false
   static inline ::StringW BuildPath(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* positions, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition> currentPosition);
 
-  /// @brief Method CalculateLength, addr 0x3e06604, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CalculateLength, addr 0x3e1ac94, size 0x94, virtual false, abstract: false, final false
   inline int32_t CalculateLength();
 
-  /// @brief Method FormatMessage, addr 0x3e05fa8, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method FormatMessage, addr 0x3e1a638, size 0x32c, virtual false, abstract: false, final false
   static inline ::StringW FormatMessage(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
-  /// @brief Method TypeHasIndex, addr 0x3e065f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TypeHasIndex, addr 0x3e1ac84, size 0x10, virtual false, abstract: false, final false
   static inline bool TypeHasIndex(::Newtonsoft::Json::JsonContainerType type);
 
-  /// @brief Method WriteTo, addr 0x3e06698, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x3e1ad28, size 0x20c, virtual false, abstract: false, final false
   inline void WriteTo(::System::Text::StringBuilder* sb, ByRef<::System::IO::StringWriter*> writer, ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> buffer);
 
-  /// @brief Method .ctor, addr 0x3e06578, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e1ac08, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonContainerType type);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_SpecialCharacters();
@@ -88,7 +88,7 @@ public:
   bool HasIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10045 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

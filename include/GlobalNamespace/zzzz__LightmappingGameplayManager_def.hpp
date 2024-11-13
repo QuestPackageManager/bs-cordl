@@ -28,7 +28,7 @@ public:
 
   static inline ::GlobalNamespace::LightmappingGameplayManager* New_ctor();
 
-  /// @brief Method Start, addr 0x3b29050, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b3e49c, size 0x174, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  /// @brief Method .ctor, addr 0x3b291c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3e610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4378 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

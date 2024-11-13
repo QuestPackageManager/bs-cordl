@@ -118,7 +118,7 @@ public:
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Label;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5576 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -575,7 +575,7 @@ public:
   ::System::Action* ____UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5577 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

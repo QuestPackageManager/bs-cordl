@@ -25,10 +25,10 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_Transform {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x39de550, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39f1ea8, size 0xe0, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method .ctor, addr 0x39d5468, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e8dc0, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(bool initializeFields);
 
   // Ctor Parameters []
@@ -57,7 +57,7 @@ public:
   ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11675 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

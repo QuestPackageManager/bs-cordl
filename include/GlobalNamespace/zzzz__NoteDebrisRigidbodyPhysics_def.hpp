@@ -37,13 +37,13 @@ public:
   /// @brief Field _simplePhysics, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__simplePhysics, put = __cordl_internal_set__simplePhysics)) ::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> _simplePhysics;
 
-  /// @brief Method Awake, addr 0x3a7dce0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a9165c, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FixedUpdate, addr 0x3a7dd00, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3a9167c, size 0x118, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method Init, addr 0x3a7df90, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3a9190c, size 0x13c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity);
 
   static inline ::GlobalNamespace::NoteDebrisRigidbodyPhysics* New_ctor();
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__simplePhysics(::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> value);
 
-  /// @brief Method .ctor, addr 0x3a7e0cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a91a48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   bool ____firstUpdate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4115 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

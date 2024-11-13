@@ -237,7 +237,7 @@ public:
   static constexpr int32_t StartIndex{ static_cast<int32_t>(0x0) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9480 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -346,7 +346,7 @@ public:
   int32_t ____index;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -532,7 +532,7 @@ public:
   int64_t ____emptyToNonEmptyListTransitionCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9482 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

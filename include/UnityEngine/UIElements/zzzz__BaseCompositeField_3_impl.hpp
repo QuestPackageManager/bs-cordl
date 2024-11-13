@@ -95,7 +95,7 @@ constexpr TField const& UnityEngine::UIElements::__BaseCompositeField_3____c__Di
 template <typename TValueType, typename TField, typename TFieldValue>
 constexpr void UnityEngine::UIElements::__BaseCompositeField_3____c__DisplayClass24_0<TValueType, TField, TFieldValue>::__cordl_internal_set_field(TField value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___field)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___field, value);
 }
 template <typename TValueType, typename TField, typename TFieldValue>
 constexpr ::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>*&
@@ -113,7 +113,7 @@ template <typename TValueType, typename TField, typename TFieldValue>
 constexpr void UnityEngine::UIElements::__BaseCompositeField_3____c__DisplayClass24_0<TValueType, TField, TFieldValue>::__cordl_internal_set___4__this(
     ::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TValueType, typename TField, typename TFieldValue>
 inline ::UnityEngine::UIElements::__BaseCompositeField_3____c__DisplayClass24_0<TValueType, TField, TFieldValue>*
@@ -158,7 +158,7 @@ UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::
 template <typename TValueType, typename TField, typename TFieldValue>
 constexpr void UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::__cordl_internal_set_m_Fields(::System::Collections::Generic::List_1<TField>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Fields)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Fields, value);
 }
 template <typename TValueType, typename TField, typename TFieldValue>
 constexpr bool& UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>::__cordl_internal_get_m_ShouldUpdateDisplay() {

@@ -111,16 +111,16 @@ public:
 
   __declspec(property(get = get_timeSinceHeadNoteJump)) float_t timeSinceHeadNoteJump;
 
-  /// @brief Method Init, addr 0x3b016f8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b16abc, size 0xf0, virtual false, abstract: false, final false
   inline void Init(float_t headNoteTime, float_t tailNoteTime, float_t worldRotation, ::UnityEngine::Vector3 headNoteJumpStartPos, ::UnityEngine::Vector3 headNoteJumpEndPos, float_t jumpDuration,
                    float_t headNoteGravity, float_t tailNoteGravity);
 
-  /// @brief Method ManualUpdate, addr 0x3b01810, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3b16bd4, size 0x210, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::SliderMovement* New_ctor();
 
-  /// @brief Method StartMovement, addr 0x3b017e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StartMovement, addr 0x3b16bac, size 0x28, virtual false, abstract: false, final false
   inline void StartMovement();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSyncController();
@@ -249,43 +249,43 @@ public:
 
   constexpr void __cordl_internal_set_tailDidMovePastCutMarkEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b01a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b16de4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_headDidMovePastCutMarkEvent, addr 0x3b01468, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_headDidMovePastCutMarkEvent, addr 0x3b1682c, size 0x9c, virtual false, abstract: false, final false
   inline void add_headDidMovePastCutMarkEvent(::System::Action* value);
 
-  /// @brief Method add_movementDidFinishEvent, addr 0x3b011d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_movementDidFinishEvent, addr 0x3b16594, size 0x9c, virtual false, abstract: false, final false
   inline void add_movementDidFinishEvent(::System::Action* value);
 
-  /// @brief Method add_movementDidMoveEvent, addr 0x3b01308, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_movementDidMoveEvent, addr 0x3b166cc, size 0xb0, virtual false, abstract: false, final false
   inline void add_movementDidMoveEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method add_tailDidMovePastCutMarkEvent, addr 0x3b015a0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_tailDidMovePastCutMarkEvent, addr 0x3b16964, size 0x9c, virtual false, abstract: false, final false
   inline void add_tailDidMovePastCutMarkEvent(::System::Action* value);
 
-  /// @brief Method get_headNoteGravity, addr 0x3b016e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headNoteGravity, addr 0x3b16aa4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_headNoteGravity();
 
-  /// @brief Method get_jumpDuration, addr 0x3b016d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jumpDuration, addr 0x3b16a9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_jumpDuration();
 
-  /// @brief Method get_tailNoteGravity, addr 0x3b016e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailNoteGravity, addr 0x3b16aac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailNoteGravity();
 
-  /// @brief Method get_timeSinceHeadNoteJump, addr 0x3b016f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timeSinceHeadNoteJump, addr 0x3b16ab4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timeSinceHeadNoteJump();
 
-  /// @brief Method remove_headDidMovePastCutMarkEvent, addr 0x3b01504, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_headDidMovePastCutMarkEvent, addr 0x3b168c8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_headDidMovePastCutMarkEvent(::System::Action* value);
 
-  /// @brief Method remove_movementDidFinishEvent, addr 0x3b0126c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_movementDidFinishEvent, addr 0x3b16630, size 0x9c, virtual false, abstract: false, final false
   inline void remove_movementDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_movementDidMoveEvent, addr 0x3b013b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_movementDidMoveEvent, addr 0x3b1677c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_movementDidMoveEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_tailDidMovePastCutMarkEvent, addr 0x3b0163c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_tailDidMovePastCutMarkEvent, addr 0x3b16a00, size 0x9c, virtual false, abstract: false, final false
   inline void remove_tailDidMovePastCutMarkEvent(::System::Action* value);
 
 protected:
@@ -366,7 +366,7 @@ public:
   float_t ____timeSinceHeadNoteJump;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4164 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -42,19 +42,19 @@ public:
 
   static inline ::System::MissingFieldException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d9781c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dabeac, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d978c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dabf50, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW fieldName);
 
-  /// @brief Method .ctor, addr 0x3d97944, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dabfd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d9789c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dabf2c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x3d97acc, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3dac15c, size 0x114, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

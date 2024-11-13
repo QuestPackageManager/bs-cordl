@@ -12,7 +12,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& System::Threadin
 }
 template <typename T> constexpr void System::Threading::SparselyPopulatedArrayFragment_1<T>::__cordl_internal_set__elements(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____elements, value);
 }
 template <typename T> constexpr int32_t& System::Threading::SparselyPopulatedArrayFragment_1<T>::__cordl_internal_get__freeCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -38,7 +38,7 @@ System::Threading::SparselyPopulatedArrayFragment_1<T>::__cordl_internal_get__ne
 }
 template <typename T> constexpr void System::Threading::SparselyPopulatedArrayFragment_1<T>::__cordl_internal_set__next(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____next, value);
 }
 template <typename T> constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& System::Threading::SparselyPopulatedArrayFragment_1<T>::__cordl_internal_get__prev() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -52,7 +52,7 @@ System::Threading::SparselyPopulatedArrayFragment_1<T>::__cordl_internal_get__pr
 }
 template <typename T> constexpr void System::Threading::SparselyPopulatedArrayFragment_1<T>::__cordl_internal_set__prev(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prev)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____prev, value);
 }
 template <typename T> inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* System::Threading::SparselyPopulatedArrayFragment_1<T>::New_ctor(int32_t size) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::SparselyPopulatedArrayFragment_1<T>*>(size));

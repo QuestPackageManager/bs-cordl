@@ -23,7 +23,7 @@ public:
   // Declarations
   __declspec(property(get = get_rchRenderModelComponentName)) ::StringW rchRenderModelComponentName;
 
-  /// @brief Method get_rchRenderModelComponentName, addr 0x4001188, size 0x86c, virtual false, abstract: false, final false
+  /// @brief Method get_rchRenderModelComponentName, addr 0x4015818, size 0x86c, virtual false, abstract: false, final false
   inline ::StringW get_rchRenderModelComponentName();
 
   // Ctor Parameters []
@@ -519,7 +519,7 @@ public:
   uint8_t rchRenderModelComponentName127;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9012 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };

@@ -42,6 +42,8 @@ public:
     __E_ZenMode = static_cast<uint16_t>(0x4000u),
     __E_SmallCubes = static_cast<uint16_t>(0x8000u),
     __E_All = static_cast<uint16_t>(0xffffu),
+    __E_MakingGameEasier = static_cast<uint16_t>(0x4618u),
+    __E_MakingGameHarder = static_cast<uint16_t>(0xb9e0u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -85,6 +87,12 @@ public:
   /// @brief Field InstaFail value: static_cast<uint16_t>(0x4u)
   static ::GlobalNamespace::GameplayModifierMask const InstaFail;
 
+  /// @brief Field MakingGameEasier value: static_cast<uint16_t>(0x4618u)
+  static ::GlobalNamespace::GameplayModifierMask const MakingGameEasier;
+
+  /// @brief Field MakingGameHarder value: static_cast<uint16_t>(0xb9e0u)
+  static ::GlobalNamespace::GameplayModifierMask const MakingGameHarder;
+
   /// @brief Field NoArrows value: static_cast<uint16_t>(0x400u)
   static ::GlobalNamespace::GameplayModifierMask const NoArrows;
 
@@ -119,7 +127,7 @@ public:
   static ::GlobalNamespace::GameplayModifierMask const ZenMode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16923 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16932 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

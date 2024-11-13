@@ -42,14 +42,14 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction* New_ctor(uint32_t index);
 
-  /// @brief Method Run, addr 0x407ecfc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4093414, size 0x98, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToDebugString, addr 0x407ed94, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x40934ac, size 0x144, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
-  /// @brief Method ToString, addr 0x407eed8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40935f0, size 0x7c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr uint32_t const& __cordl_internal_get__index() const;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__index(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x407ec8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40933a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x407ecbc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40933d4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x407ecb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40933cc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -85,7 +85,7 @@ public:
   uint32_t ____index;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14046 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

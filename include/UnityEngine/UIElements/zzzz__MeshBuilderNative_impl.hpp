@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(
     ::UnityEngine::UIElements::__MeshBuilderNative__NativeBorderParams, float_t)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeBorder)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49c6b50;
+  constexpr static std::size_t addrs = 0x49db268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(
     ::UnityEngine::UIElements::__MeshBuilderNative__NativeRectParams, float_t)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49c6c1c;
+  constexpr static std::size_t addrs = 0x49db334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(
     ::UnityEngine::UIElements::__MeshBuilderNative__NativeRectParams, float_t)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49c6ce8;
+  constexpr static std::size_t addrs = 0x49db400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ScaleMode, ::UnityEngine::Color, ::UnityEngine::UIElements::__MeshBuilderNative__NativeColorPage, int32_t, ByRef<int32_t>, ByRef<int32_t>)>(
     &::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x49c6db4;
+  constexpr static std::size_t addrs = 0x49db4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,7 +182,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>, ::ArrayW<uint16_t, ::Array<uint16_t>*>, float_t, float_t, ::UnityEngine::Rect, ::UnityEngine::Vector4,
     ::UnityEngine::Color, ::UnityEngine::UIElements::__MeshBuilderNative__NativeColorPage, int32_t)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x49c6f58;
+  constexpr static std::size_t addrs = 0x49db670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,7 +204,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(ByRef<::UnityEngine::UIElements::__MeshBuilderNative__NativeBorderParams>, float_t, ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
         &::UnityEngine::UIElements::MeshBuilderNative::MakeBorder_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49c6bc8;
+  constexpr static std::size_t addrs = 0x49db2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,7 +222,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(ByRef<::UnityEngine::UIElements::__MeshBuilderNative__NativeRectParams>, float_t, ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
         &::UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49c6c94;
+  constexpr static std::size_t addrs = 0x49db3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,7 +240,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(ByRef<::UnityEngine::UIElements::__MeshBuilderNative__NativeRectParams>, float_t, ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
         &::UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49c6d60;
+  constexpr static std::size_t addrs = 0x49db478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +259,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::UnityEngine::Rect>, ::UnityEngine::ScaleMode, ByRef<::UnityEngine::Color>, ByRef<::UnityEngine::UIElements::__MeshBuilderNative__NativeColorPage>, int32_t, ByRef<int32_t>, ByRef<int32_t>,
     ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground_Injected)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x49c6e94;
+  constexpr static std::size_t addrs = 0x49db5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +286,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ByRef<::UnityEngine::Vector4>, ByRef<::UnityEngine::Color>, ByRef<::UnityEngine::UIElements::__MeshBuilderNative__NativeColorPage>, int32_t,
                          ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground_Injected)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x49c7010;
+  constexpr static std::size_t addrs = 0x49db728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

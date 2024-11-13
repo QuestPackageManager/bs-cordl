@@ -30,7 +30,7 @@ public:
 
   static inline ::GlobalNamespace::SimpleColorSO* New_ctor();
 
-  /// @brief Method SetColor, addr 0x266134c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x266c3f4, size 0xc, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color c);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x2661358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266c400, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x2661340, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x266c3e8, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -63,7 +63,7 @@ public:
   ::UnityEngine::Color ____color;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18907 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -37,10 +37,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Contexts::IContextAttribute"
   constexpr operator ::System::Runtime::Remoting::Contexts::IContextAttribute*() noexcept;
 
-  /// @brief Method GetPropertiesForNewContext, addr 0x3c6f3f8, size 0x3e8, virtual true, abstract: false, final true
+  /// @brief Method GetPropertiesForNewContext, addr 0x3c83a88, size 0x3e8, virtual true, abstract: false, final true
   inline void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctor);
 
-  /// @brief Method IsContextOK, addr 0x3c6f3f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsContextOK, addr 0x3c83a80, size 0x8, virtual true, abstract: false, final true
   inline bool IsContextOK(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctor);
 
   static inline ::System::Runtime::Remoting::Activation::RemoteActivationAttribute* New_ctor(::System::Collections::IList* contextProperties);
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__contextProperties(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x3c6f3c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c83a58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* contextProperties);
 
   /// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"

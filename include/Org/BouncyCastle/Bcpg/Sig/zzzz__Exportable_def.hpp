@@ -21,20 +21,20 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 class CORDL_TYPE Exportable : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method BooleanToByteArray, addr 0x25fdd18, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method BooleanToByteArray, addr 0x2608dc0, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BooleanToByteArray(bool val);
 
-  /// @brief Method IsExportable, addr 0x25fde18, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsExportable, addr 0x2608ec0, size 0x30, virtual false, abstract: false, final false
   inline bool IsExportable();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Exportable* New_ctor(bool critical, bool isExportable);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Exportable* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x25fddcc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2608e74, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isExportable);
 
-  /// @brief Method .ctor, addr 0x25fdd84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2608e2c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
 protected:

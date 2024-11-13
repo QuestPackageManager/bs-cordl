@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XText* (::Newtonsoft::Json::Converters::XTextWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XTextWrapper::get_Text)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3ecfd74;
+  constexpr static std::size_t addrs = 0x3ee4404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XTextWrapper*>::get(), "get_Text",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XTextWrapper::*)(::System::Xml::Linq::XText*)>(
     &::Newtonsoft::Json::Converters::XTextWrapper::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ecfdec;
+  constexpr static std::size_t addrs = 0x3ee447c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XTextWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XTextWrapper::get_Value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ecfe14;
+  constexpr static std::size_t addrs = 0x3ee44a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XTextWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XTextWrapper::set_Value)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3ecfe30;
+  constexpr static std::size_t addrs = 0x3ee44c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XTextWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XTextWrapper::get_ParentNode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3ecfe9c;
+  constexpr static std::size_t addrs = 0x3ee452c;
 
   inline static ::MethodInfo const* methodInfo() {
 

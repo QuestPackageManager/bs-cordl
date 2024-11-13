@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileStorageInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x26d62f8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26e1e74, size 0x5c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::FileStorageInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26d6354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e1ed0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   FileStorageInstaller(FileStorageInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17856 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17863 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

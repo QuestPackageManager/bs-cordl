@@ -26,18 +26,18 @@ public:
   /// @brief Field _energyCounter, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__energyCounter, put = __cordl_internal_set__energyCounter)) ::UnityW<::GlobalNamespace::GameEnergyCounter> _energyCounter;
 
-  /// @brief Method CheckAndUpdateStatus, addr 0x3b37eac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckAndUpdateStatus, addr 0x3b4d964, size 0xc4, virtual false, abstract: false, final false
   inline void CheckAndUpdateStatus();
 
-  /// @brief Method HandleEnergyDidChange, addr 0x3b37e40, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleEnergyDidChange, addr 0x3b4d8f8, size 0x6c, virtual false, abstract: false, final false
   inline void HandleEnergyDidChange(float_t energy);
 
-  /// @brief Method Init, addr 0x3b37f70, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3b4da28, size 0x130, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::EnergyMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b37d74, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b4d82c, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__energyCounter() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__energyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value);
 
-  /// @brief Method .ctor, addr 0x3b380a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4db58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   ::UnityW<::GlobalNamespace::GameEnergyCounter> ____energyCounter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

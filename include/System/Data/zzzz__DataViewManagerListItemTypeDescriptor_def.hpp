@@ -31,7 +31,7 @@ public:
   /// @brief Field _dataViewManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__dataViewManager, put = __cordl_internal_set__dataViewManager)) ::System::Data::DataViewManager* _dataViewManager;
 
-  /// @brief Method GetDataView, addr 0x40f2fe8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetDataView, addr 0x4107700, size 0x78, virtual false, abstract: false, final false
   inline ::System::Data::DataView* GetDataView(::System::Data::DataTable* table);
 
   constexpr ::System::Data::DataViewManager*& __cordl_internal_get__dataViewManager();
@@ -58,7 +58,7 @@ public:
   ::System::Data::DataViewManager* ____dataViewManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11375 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

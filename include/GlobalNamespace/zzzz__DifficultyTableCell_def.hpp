@@ -49,12 +49,12 @@ public:
 
   __declspec(property(put = set_difficultyValue)) int32_t difficultyValue;
 
-  /// @brief Method HighlightDidChange, addr 0x3b80670, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3b96238, size 0x40, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::DifficultyTableCell* New_ctor();
 
-  /// @brief Method SelectionDidChange, addr 0x3b805d8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3b961a0, size 0x98, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -81,16 +81,16 @@ public:
 
   constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x3b806b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b96278, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_difficultyText, addr 0x3b80538, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_difficultyText, addr 0x3b96100, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_difficultyText();
 
-  /// @brief Method set_difficultyText, addr 0x3b80514, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_difficultyText, addr 0x3b960dc, size 0x24, virtual false, abstract: false, final false
   inline void set_difficultyText(::StringW value);
 
-  /// @brief Method set_difficultyValue, addr 0x3b8055c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_difficultyValue, addr 0x3b96124, size 0x38, virtual false, abstract: false, final false
   inline void set_difficultyValue(int32_t value);
 
 protected:
@@ -120,7 +120,7 @@ public:
   ::UnityW<::GlobalNamespace::FillIndicator> ____fillIndicator;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

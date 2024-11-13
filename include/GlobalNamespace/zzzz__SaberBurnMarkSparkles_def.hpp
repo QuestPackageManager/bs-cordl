@@ -88,24 +88,24 @@ public:
   /// @brief Field kRenderOffset, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_kRenderOffset, put = __cordl_internal_set_kRenderOffset)) ::UnityEngine::Vector3 kRenderOffset;
 
-  /// @brief Method GetBurnMarkPos, addr 0x3b0cf70, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x3b22398, size 0x454, virtual false, abstract: false, final false
   inline bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method LateUpdate, addr 0x3b0d3c4, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b227ec, size 0x434, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkSparkles* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b0cb94, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b21fbc, size 0xf4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b0ce90, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b222b8, size 0xe0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b0cc88, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b220b0, size 0x208, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x3b0c788, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b21bb0, size 0x40c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> const& __cordl_internal_get__burnMarksEmissionModules() const;
@@ -186,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set_kRenderOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3b0d7d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b22c20, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -243,7 +243,7 @@ public:
   ::UnityEngine::__ParticleSystem__EmitParams ____sparklesEmitParams;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

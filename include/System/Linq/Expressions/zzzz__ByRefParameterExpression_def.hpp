@@ -23,12 +23,12 @@ namespace System::Linq::Expressions {
 class CORDL_TYPE ByRefParameterExpression : public ::System::Linq::Expressions::TypedParameterExpression {
 public:
   // Declarations
-  /// @brief Method GetIsByRef, addr 0x4045c34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIsByRef, addr 0x405a34c, size 0x8, virtual true, abstract: false, final false
   inline bool GetIsByRef();
 
   static inline ::System::Linq::Expressions::ByRefParameterExpression* New_ctor(::System::Type* type, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x4045b34, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405a24c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW name);
 
 protected:
@@ -46,7 +46,7 @@ public:
   ByRefParameterExpression(ByRefParameterExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13690 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

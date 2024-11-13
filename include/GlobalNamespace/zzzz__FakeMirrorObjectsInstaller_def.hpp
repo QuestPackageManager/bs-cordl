@@ -59,10 +59,10 @@ public:
 
   static inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* New_ctor();
 
-  /// @brief Method <InstallBindings>b__10_0, addr 0x3b78830, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__10_0, addr 0x3b8e330, size 0x94, virtual false, abstract: false, final false
   inline bool _InstallBindings_b__10_0(::Zenject::BindingId t);
 
-  /// @brief Method .ctor, addr 0x3b78828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8e328, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* getStaticF___9();
@@ -88,7 +88,7 @@ public:
   __FakeMirrorObjectsInstaller____c(__FakeMirrorObjectsInstaller____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4701 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -145,7 +145,7 @@ public:
 
   __declspec(property(get = get_mirroredGameNoteControllerPrefab)) ::UnityW<::GlobalNamespace::MirroredGameNoteController> mirroredGameNoteControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x3b78308, size 0x4bc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b8de08, size 0x4bc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::FakeMirrorObjectsInstaller* New_ctor();
@@ -198,10 +198,10 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3b787c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8e2c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x3b78300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x3b8de00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> get_mirroredGameNoteControllerPrefab();
 
 protected:
@@ -243,7 +243,7 @@ public:
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4702 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

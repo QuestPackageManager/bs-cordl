@@ -84,7 +84,7 @@ public:
   static ::GlobalNamespace::__TubeLightBehaviour__ParameterType const Values;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5186 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5188 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -143,10 +143,10 @@ public:
 
   static inline ::GlobalNamespace::TubeLightBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x3ac1860, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x3ad5400, size 0xcc, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x3ac1454, size 0x40c, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3ad4ff4, size 0x40c, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> const& __cordl_internal_get__directionalLights() const;
@@ -209,7 +209,7 @@ public:
 
   constexpr void __cordl_internal_set_started(bool value);
 
-  /// @brief Method .ctor, addr 0x3ac192c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad54cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -257,7 +257,7 @@ public:
   ::UnityEngine::Color ____firstFrameColor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5189 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

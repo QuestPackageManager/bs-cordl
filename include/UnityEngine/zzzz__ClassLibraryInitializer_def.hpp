@@ -50,10 +50,10 @@ public:
 
   static inline ::UnityEngine::__ClassLibraryInitializer____c* New_ctor();
 
-  /// @brief Method <InitAssemblyRedirections>b__2_0, addr 0x48314bc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <InitAssemblyRedirections>b__2_0, addr 0x4845bd4, size 0x108, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* _InitAssemblyRedirections_b__2_0(::System::Object* _, ::System::ResolveEventArgs* args);
 
-  /// @brief Method .ctor, addr 0x48314b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4845bcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::__ClassLibraryInitializer____c* getStaticF___9();
@@ -79,7 +79,7 @@ public:
   __ClassLibraryInitializer____c(__ClassLibraryInitializer____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -97,13 +97,13 @@ public:
   // Declarations
   using __c = ::UnityEngine::__ClassLibraryInitializer____c;
 
-  /// @brief Method Init, addr 0x4831234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x484594c, size 0x8, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method InitAssemblyRedirections, addr 0x4831364, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InitAssemblyRedirections, addr 0x4845a7c, size 0xf4, virtual false, abstract: false, final false
   static inline void InitAssemblyRedirections();
 
-  /// @brief Method InitStdErrWithHandle, addr 0x483123c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method InitStdErrWithHandle, addr 0x4845954, size 0x128, virtual false, abstract: false, final false
   static inline void InitStdErrWithHandle(::System::IntPtr fileHandle);
 
 protected:
@@ -121,7 +121,7 @@ public:
   ClassLibraryInitializer(ClassLibraryInitializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

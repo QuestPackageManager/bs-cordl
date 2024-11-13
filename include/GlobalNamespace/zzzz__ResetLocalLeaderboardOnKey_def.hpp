@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::ResetLocalLeaderboardOnKey* New_ctor();
 
-  /// @brief Method Update, addr 0x26c659c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26d235c, size 0xb0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__localLeaderboardsModel(::GlobalNamespace::LocalLeaderboardsModel* value);
 
-  /// @brief Method .ctor, addr 0x26c664c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d240c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::GlobalNamespace::LocalLeaderboardsModel* ____localLeaderboardsModel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13327 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

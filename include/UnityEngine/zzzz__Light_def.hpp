@@ -72,58 +72,58 @@ public:
 
   constexpr void __cordl_internal_set_m_BakedIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x480e52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4822c44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakingOutput, addr 0x480e3cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_bakingOutput, addr 0x4822ae4, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::LightBakingOutput get_bakingOutput();
 
-  /// @brief Method get_bakingOutput_Injected, addr 0x480e434, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_bakingOutput_Injected, addr 0x4822b4c, size 0x44, virtual false, abstract: false, final false
   inline void get_bakingOutput_Injected(ByRef<::UnityEngine::LightBakingOutput> ret);
 
-  /// @brief Method get_bounceIntensity, addr 0x480e354, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bounceIntensity, addr 0x4822a6c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_bounceIntensity();
 
-  /// @brief Method get_color, addr 0x480e120, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x4822838, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_colorTemperature, addr 0x480e254, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_colorTemperature, addr 0x482296c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_colorTemperature();
 
-  /// @brief Method get_color_Injected, addr 0x480e178, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_color_Injected, addr 0x4822890, size 0x44, virtual false, abstract: false, final false
   inline void get_color_Injected(ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method get_cookie, addr 0x480e4f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_cookie, addr 0x4822c08, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_cookie();
 
-  /// @brief Method get_cookieSize, addr 0x480e4b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_cookieSize, addr 0x4822bcc, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_cookieSize();
 
-  /// @brief Method get_intensity, addr 0x480e2cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x48229e4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_range, addr 0x480e390, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_range, addr 0x4822aa8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_range();
 
-  /// @brief Method get_shadows, addr 0x480e478, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_shadows, addr 0x4822b90, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::LightShadows get_shadows();
 
-  /// @brief Method get_spotAngle, addr 0x480e0e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spotAngle, addr 0x48227fc, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_spotAngle();
 
-  /// @brief Method get_type, addr 0x480e0a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x48227c0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::LightType get_type();
 
-  /// @brief Method get_useColorTemperature, addr 0x480e290, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useColorTemperature, addr 0x48229a8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_useColorTemperature();
 
-  /// @brief Method set_color, addr 0x480e1bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x48228d4, size 0x54, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_color_Injected, addr 0x480e210, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_color_Injected, addr 0x4822928, size 0x44, virtual false, abstract: false, final false
   inline void set_color_Injected(ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method set_intensity, addr 0x480e308, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x4822a20, size 0x4c, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -144,7 +144,7 @@ public:
   int32_t ___m_BakedIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10706 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

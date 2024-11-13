@@ -83,7 +83,7 @@ template <typename TStateTable, typename TType, typename TState, typename TSeria
 constexpr void GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__cordl_internal_set__multiplayerSessionManager(
     ::GlobalNamespace::IMultiplayerSessionManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSessionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____multiplayerSessionManager, value);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 constexpr ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*&
@@ -101,7 +101,7 @@ template <typename TStateTable, typename TType, typename TState, typename TSeria
 constexpr void GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__cordl_internal_set__localState(
     ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____localState, value);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*&
@@ -119,7 +119,7 @@ template <typename TStateTable, typename TType, typename TState, typename TSeria
 constexpr void GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__cordl_internal_set__connectedPlayerStates(
     ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectedPlayerStates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____connectedPlayerStates, value);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*&
@@ -137,7 +137,7 @@ template <typename TStateTable, typename TType, typename TState, typename TSeria
 constexpr void GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__cordl_internal_set__disconnectedPlayerStates(
     ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disconnectedPlayerStates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____disconnectedPlayerStates, value);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 inline ::GlobalNamespace::IMultiplayerSessionManager* GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::get_multiplayerSessionManager() {

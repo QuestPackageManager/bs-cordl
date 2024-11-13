@@ -52,7 +52,7 @@ public:
   /// @brief Field otherRev, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_otherRev, put = __cordl_internal_set_otherRev)) ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* otherRev;
 
-  /// @brief Method GetInstance, addr 0x22de1bc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22e9264, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlOcspRef* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlOcspRef* New_ctor(::Org::BouncyCastle::Asn1::Esf::CrlListID* crlids, ::Org::BouncyCastle::Asn1::Esf::OcspListID* ocspids,
@@ -60,7 +60,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlOcspRef* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22dff64, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22eb00c, size 0x194, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Esf::CrlListID*& __cordl_internal_get_crlids();
@@ -81,19 +81,19 @@ public:
 
   constexpr void __cordl_internal_set_otherRev(::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* value);
 
-  /// @brief Method .ctor, addr 0x22dff10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22eafb8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::CrlListID* crlids, ::Org::BouncyCastle::Asn1::Esf::OcspListID* ocspids, ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* otherRev);
 
-  /// @brief Method .ctor, addr 0x22df840, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ea8e8, size 0x3d8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CrlIDs, addr 0x22dff4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlIDs, addr 0x22eaff4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* get_CrlIDs();
 
-  /// @brief Method get_OcspIDs, addr 0x22dff54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OcspIDs, addr 0x22eaffc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* get_OcspIDs();
 
-  /// @brief Method get_OtherRev, addr 0x22dff5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherRev, addr 0x22eb004, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* get_OtherRev();
 
 protected:

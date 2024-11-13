@@ -20,7 +20,7 @@ System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__cordl_intern
 template <typename TKey, typename TItem>
 constexpr void System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___comparer, value);
 }
 template <typename TKey, typename TItem>
 constexpr ::System::Collections::Generic::Dictionary_2<TKey, TItem>*& System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__cordl_internal_get_dict() {
@@ -36,7 +36,7 @@ System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__cordl_intern
 template <typename TKey, typename TItem>
 constexpr void System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__cordl_internal_set_dict(::System::Collections::Generic::Dictionary_2<TKey, TItem>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dict)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___dict, value);
 }
 template <typename TKey, typename TItem> constexpr int32_t& System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__cordl_internal_get_keyCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -32,10 +32,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__MouseOverEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49b3288, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49c79a0, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseOverEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49b3280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c7998, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__MouseOverEvent____c* getStaticF___9();
@@ -57,7 +57,7 @@ public:
   __MouseOverEvent____c(__MouseOverEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5846 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -77,7 +77,7 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseOverEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49b31dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c78f4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   MouseOverEvent(MouseOverEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

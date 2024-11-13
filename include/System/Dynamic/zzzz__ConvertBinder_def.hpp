@@ -31,11 +31,11 @@ public:
   /// @brief Field <Type>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::System::Type* _Type_k__BackingField;
 
-  /// @brief Method Bind, addr 0x4085368, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x4099a80, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackConvert, addr 0x4085358, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackConvert, addr 0x4099a70, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackConvert(::System::Dynamic::DynamicMetaObject* target);
 
   /// @brief Method FallbackConvert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method get_Type, addr 0x4085350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4099a68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -68,7 +68,7 @@ public:
   ::System::Type* ____Type_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14115 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

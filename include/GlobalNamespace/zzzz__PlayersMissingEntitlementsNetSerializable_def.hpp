@@ -38,18 +38,18 @@ public:
 
   __declspec(property(get = get_playersWithoutEntitlements)) ::System::Collections::Generic::List_1<::StringW>* playersWithoutEntitlements;
 
-  /// @brief Method Deserialize, addr 0x26e1f30, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x26edb34, size 0x114, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x26e1d38, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26ed93c, size 0x98, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* Init(::System::Collections::Generic::IEnumerable_1<::StringW>* playersWithoutEntitlements);
 
   static inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x26e1c34, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x26ed838, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x26e1dd0, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x26ed9d4, size 0x160, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__playersWithoutEntitlements();
@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set__playersWithoutEntitlements(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x26e1c98, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed89c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_playersWithoutEntitlements, addr 0x26e1c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playersWithoutEntitlements, addr 0x26ed830, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_playersWithoutEntitlements();
 
 protected:
@@ -82,7 +82,7 @@ public:
   ::System::Collections::Generic::List_1<::StringW>* ____playersWithoutEntitlements;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16967 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

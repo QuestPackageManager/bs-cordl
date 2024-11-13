@@ -23,10 +23,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE ConnectionFailedReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ErrorCode, addr 0x26990a8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x26a4cc8, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
-  /// @brief Method LocalizedKey, addr 0x2698ff4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x26a4c14, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
 protected:
@@ -44,7 +44,7 @@ public:
   ConnectionFailedReasonMethods(ConnectionFailedReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13048 };
 
   /// @brief Field kConnectionFailedConnectionCanceled offset 0xffffffff size 0x8
   static constexpr ::ConstString kConnectionFailedConnectionCanceled{ u"SERVER_CONNECTION_FAILED_TRY_AGAIN" };

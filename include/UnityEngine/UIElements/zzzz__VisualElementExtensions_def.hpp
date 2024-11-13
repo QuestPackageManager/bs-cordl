@@ -31,25 +31,25 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE VisualElementExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddManipulator, addr 0x4922604, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddManipulator, addr 0x4936d1c, size 0xac, virtual false, abstract: false, final false
   static inline void AddManipulator(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::IManipulator* manipulator);
 
-  /// @brief Method ChangeCoordinatesTo, addr 0x4922a10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ChangeCoordinatesTo, addr 0x4937128, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ChangeCoordinatesTo(::UnityEngine::UIElements::VisualElement* src, ::UnityEngine::UIElements::VisualElement* dest, ::UnityEngine::Vector2 point);
 
-  /// @brief Method LocalToWorld, addr 0x4922840, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method LocalToWorld, addr 0x4936f58, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 LocalToWorld(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Vector2 p);
 
-  /// @brief Method RemoveManipulator, addr 0x49226b0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RemoveManipulator, addr 0x4936dc8, size 0xa8, virtual false, abstract: false, final false
   static inline void RemoveManipulator(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::IManipulator* manipulator);
 
-  /// @brief Method StretchToParentSize, addr 0x49222e8, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method StretchToParentSize, addr 0x4936a00, size 0x31c, virtual false, abstract: false, final false
   static inline void StretchToParentSize(::UnityEngine::UIElements::VisualElement* elem);
 
-  /// @brief Method WorldToLocal, addr 0x4922928, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method WorldToLocal, addr 0x4937040, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect WorldToLocal(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Rect r);
 
-  /// @brief Method WorldToLocal, addr 0x4922758, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method WorldToLocal, addr 0x4936e70, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 WorldToLocal(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Vector2 p);
 
 protected:
@@ -67,7 +67,7 @@ public:
   VisualElementExtensions(VisualElementExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6283 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

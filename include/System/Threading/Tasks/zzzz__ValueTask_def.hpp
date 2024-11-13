@@ -63,10 +63,10 @@ public:
 
   static inline ::GlobalNamespace::__ValueTask__ValueTaskSourceAsTask____c* New_ctor();
 
-  /// @brief Method <.cctor>b__4_0, addr 0x3dea200, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_0, addr 0x3dfe890, size 0x2a4, virtual false, abstract: false, final false
   inline void __cctor_b__4_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x3dea1f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfe888, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__ValueTask__ValueTaskSourceAsTask____c* getStaticF___9();
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__token(int16_t value);
 
-  /// @brief Method .ctor, addr 0x3de9ca8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfe338, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Sources::IValueTaskSource* source, int16_t token);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_completionAction();
@@ -187,45 +187,45 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask>"
   constexpr operator ::System::IEquatable_1<::System::Threading::Tasks::ValueTask>*();
 
-  /// @brief Method AsTask, addr 0x3de9844, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AsTask, addr 0x3dfded4, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* AsTask();
 
-  /// @brief Method ConfigureAwait, addr 0x3de9fdc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ConfigureAwait, addr 0x3dfe66c, size 0x20, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable ConfigureAwait(bool continueOnCapturedContext);
 
-  /// @brief Method Equals, addr 0x3de9768, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3dfddf8, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3de9820, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3dfdeb0, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::System::Threading::Tasks::ValueTask other);
 
-  /// @brief Method GetAwaiter, addr 0x3de9fd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x3dfe660, size 0xc, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::ValueTaskAwaiter GetAwaiter();
 
-  /// @brief Method GetHashCode, addr 0x3de9750, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3dfdde0, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTaskForValueTaskSource, addr 0x3de9910, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method GetTaskForValueTaskSource, addr 0x3dfdfa0, size 0x2d4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GetTaskForValueTaskSource(::System::Threading::Tasks::Sources::IValueTaskSource* t);
 
-  /// @brief Method ThrowIfCompletedUnsuccessfully, addr 0x3de9ecc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfCompletedUnsuccessfully, addr 0x3dfe55c, size 0x104, virtual false, abstract: false, final false
   inline void ThrowIfCompletedUnsuccessfully();
 
-  /// @brief Method .ctor, addr 0x3de973c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfddcc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj, int16_t token, bool continueOnCapturedContext);
 
-  /// @brief Method .ctor, addr 0x3de9700, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfdd90, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Sources::IValueTaskSource* source, int16_t token);
 
-  /// @brief Method .ctor, addr 0x3de96c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfdd58, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task);
 
   static inline ::System::Threading::Tasks::Task* getStaticF_s_canceledTask();
 
-  /// @brief Method get_CompletedTask, addr 0x3de9640, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_CompletedTask, addr 0x3dfdcd0, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* get_CompletedTask();
 
-  /// @brief Method get_IsCompleted, addr 0x3de9dc8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x3dfe458, size 0x104, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask>"

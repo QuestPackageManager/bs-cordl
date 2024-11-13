@@ -46,7 +46,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Co
 }
 template <typename T> constexpr void UnityEngine::UIElements::ObjectPool_1<T>::__cordl_internal_set_m_Stack(::System::Collections::Generic::Stack_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Stack, value);
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::ObjectPool_1<T>::__cordl_internal_get_m_MaxSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -70,7 +70,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Fu
 }
 template <typename T> constexpr void UnityEngine::UIElements::ObjectPool_1<T>::__cordl_internal_set_CreateFunc(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CreateFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___CreateFunc, value);
 }
 template <typename T> inline int32_t UnityEngine::UIElements::ObjectPool_1<T>::get_maxSize() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ObjectPool_1<T>*>::get(), "get_maxSize",

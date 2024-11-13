@@ -28,7 +28,7 @@ UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_get_m_Entries() const
 template <typename T>
 constexpr void UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Entries, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>*& UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_get_m_Nodes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -42,7 +42,7 @@ UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_get_m_Nodes() const {
 }
 template <typename T> constexpr void UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_set_m_Nodes(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Nodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Nodes, value);
 }
 template <typename T> constexpr bool& UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_get__dirty_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

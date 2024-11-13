@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__BeatToTimeConverterProvider_def.hpp"
+#include "GlobalNamespace/zzzz__BeatToTimeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BombNoteItemConverter)
 namespace BeatmapSaveDataVersion4 {
@@ -29,14 +29,14 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::BombNoteItemConverter);
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::BombNoteItemConverter*
-class CORDL_TYPE BombNoteItemConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
+class CORDL_TYPE BombNoteItemConverter : public ::GlobalNamespace::BeatToTimeConverter {
 public:
   // Declarations
   /// @brief Field _bombNotes, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__bombNotes, put = __cordl_internal_set__bombNotes)) ::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*>
       _bombNotes;
 
-  /// @brief Method Convert, addr 0x26cbc38, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x26d788c, size 0x90, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::BombNoteItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> bombNotes,
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__bombNotes(::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> value);
 
-  /// @brief Method .ctor, addr 0x26cba74, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d76c0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> bombNotes, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
@@ -69,7 +69,7 @@ public:
   ::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> ____bombNotes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

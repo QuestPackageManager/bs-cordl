@@ -29,13 +29,13 @@ namespace Oculus::Platform {
 class CORDL_TYPE ApplicationLifecycle : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLaunchDetails, addr 0x3f0c9a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetLaunchDetails, addr 0x3f21030, size 0x88, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Models::LaunchDetails* GetLaunchDetails();
 
-  /// @brief Method LogDeeplinkResult, addr 0x3f0ca28, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method LogDeeplinkResult, addr 0x3f210b8, size 0x64, virtual false, abstract: false, final false
   static inline void LogDeeplinkResult(::StringW trackingID, ::Oculus::Platform::LaunchResult result);
 
-  /// @brief Method SetLaunchIntentChangedNotificationCallback, addr 0x3f0ca8c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetLaunchIntentChangedNotificationCallback, addr 0x3f2111c, size 0x74, virtual false, abstract: false, final false
   static inline void SetLaunchIntentChangedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
 
 protected:
@@ -53,7 +53,7 @@ public:
   ApplicationLifecycle(ApplicationLifecycle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15396 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

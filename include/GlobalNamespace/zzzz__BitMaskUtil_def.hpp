@@ -21,16 +21,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE BitMaskUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfSetBits, addr 0x220c6b4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0x22156bc, size 0x34, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint32_t i);
 
-  /// @brief Method NumberOfSetBits, addr 0x2213d8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0x221c840, size 0x64, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint64_t i);
 
-  /// @brief Method ShiftLeft, addr 0x2213df0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShiftLeft, addr 0x221c8a4, size 0x44, virtual false, abstract: false, final false
   static inline uint64_t ShiftLeft(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
-  /// @brief Method ShiftRight, addr 0x2213e34, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ShiftRight, addr 0x221c8e8, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t ShiftRight(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
 protected:
@@ -48,7 +48,7 @@ public:
   BitMaskUtil(BitMaskUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17047 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

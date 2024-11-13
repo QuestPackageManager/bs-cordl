@@ -25,7 +25,7 @@ public:
   /// @brief Field nodeBuffer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_nodeBuffer, put = __cordl_internal_set_nodeBuffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer;
 
-  /// @brief Method FindCaseInsensitiveString, addr 0x42942a0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FindCaseInsensitiveString, addr 0x42a89b8, size 0x12c, virtual false, abstract: false, final false
   inline uint8_t FindCaseInsensitiveString(::StringW stringToFind);
 
   static inline ::System::Xml::TernaryTreeReadOnly* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer);
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_nodeBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x42954cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42a9be4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer);
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___nodeBuffer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7174 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

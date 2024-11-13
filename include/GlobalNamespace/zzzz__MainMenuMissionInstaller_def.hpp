@@ -25,7 +25,7 @@ public:
   /// @brief Field _missionNodesManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__missionNodesManager, put = __cordl_internal_set__missionNodesManager)) ::UnityW<::GlobalNamespace::MissionNodesManager> _missionNodesManager;
 
-  /// @brief Method InstallBindings, addr 0x3b7a49c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b90014, size 0x80, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MainMenuMissionInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__missionNodesManager(::UnityW<::GlobalNamespace::MissionNodesManager> value);
 
-  /// @brief Method .ctor, addr 0x3b7a51c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b90094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::UnityW<::GlobalNamespace::MissionNodesManager> ____missionNodesManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4706 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

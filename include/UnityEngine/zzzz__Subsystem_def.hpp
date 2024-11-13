@@ -25,7 +25,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x489fa84, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x48b419c, size 0x74, virtual true, abstract: false, final true
   inline void Destroy();
 
   static inline ::UnityEngine::Subsystem* New_ctor();
@@ -39,7 +39,7 @@ public:
   /// @brief Method Stop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Stop();
 
-  /// @brief Method .ctor, addr 0x489fb78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b4290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"
@@ -60,7 +60,7 @@ public:
   Subsystem(Subsystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

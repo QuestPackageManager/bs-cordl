@@ -35,7 +35,7 @@ public:
   __declspec(property(get = __cordl_internal_get__scenesTransitionSetupData, put = __cordl_internal_set__scenesTransitionSetupData)) ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>
       _scenesTransitionSetupData;
 
-  /// @brief Method InstallBindings, addr 0x3ac4d14, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3ad8904, size 0x44, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::TutorialNoTransitionInstaller* New_ctor();
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3ac4d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad8948, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   ::GlobalNamespace::PlayerSpecificSettings* ____playerSpecificSettings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5210 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

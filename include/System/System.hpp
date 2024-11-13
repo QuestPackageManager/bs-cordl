@@ -204,7 +204,6 @@ module;
 #include "System/ModifierSpec.hpp"
 #include "System/MonoAsyncCall.hpp"
 #include "System/MonoCustomAttrs.hpp"
-#include "System/MonoLimitationAttribute.hpp"
 #include "System/MonoListItem.hpp"
 #include "System/MonoTODOAttribute.hpp"
 #include "System/MonoType.hpp"

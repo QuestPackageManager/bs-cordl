@@ -58,7 +58,7 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* New_ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x43aa7f4, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x43bef0c, size 0xfc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::StringW const& __cordl_internal_get__Input_k__BackingField() const;
@@ -79,22 +79,22 @@ public:
 
   constexpr void __cordl_internal_set__Pattern_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43aa628, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43bed40, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43aa6bc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43bedd4, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x43aa55c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43bec74, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
-  /// @brief Method get_Input, addr 0x43aa8f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Input, addr 0x43bf008, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Input();
 
-  /// @brief Method get_MatchTimeout, addr 0x43aa900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MatchTimeout, addr 0x43bf018, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_MatchTimeout();
 
-  /// @brief Method get_Pattern, addr 0x43aa8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pattern, addr 0x43bf010, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pattern();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -124,7 +124,7 @@ public:
   ::System::TimeSpan ____MatchTimeout_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

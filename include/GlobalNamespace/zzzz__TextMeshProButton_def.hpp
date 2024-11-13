@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b843b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b99f7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x3b843ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x3b99f74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
-  /// @brief Method get_text, addr 0x3b843a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3b99f6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TextMeshProUGUI> get_text();
 
 protected:
@@ -79,7 +79,7 @@ public:
   ::UnityW<::UnityEngine::UI::Button> ____button;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4750 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

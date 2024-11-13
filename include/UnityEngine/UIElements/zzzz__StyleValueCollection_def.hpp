@@ -41,21 +41,21 @@ public:
   /// @brief Field m_Values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Values, put = __cordl_internal_set_m_Values)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>* m_Values;
 
-  /// @brief Method GetStyleFloat, addr 0x4a08a30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetStyleFloat, addr 0x4a1d148, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetStyleFloat(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleInt, addr 0x4a08a9c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetStyleInt, addr 0x4a1d1b4, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleInt GetStyleInt(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleLength, addr 0x4a087d8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetStyleLength, addr 0x4a1cef0, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetStyleLength(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
   static inline ::UnityEngine::UIElements::StyleValueCollection* New_ctor();
 
-  /// @brief Method SetStyleValue, addr 0x4a08b20, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x4a1d238, size 0x1ec, virtual false, abstract: false, final false
   inline void SetStyleValue(::UnityEngine::UIElements::StyleSheets::StyleValue value);
 
-  /// @brief Method TryGetStyleValue, addr 0x4a0884c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method TryGetStyleValue, addr 0x4a1cf64, size 0x1b8, virtual false, abstract: false, final false
   inline bool TryGetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ByRef<::UnityEngine::UIElements::StyleSheets::StyleValue> value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>*& __cordl_internal_get_m_Values();
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>* value);
 
-  /// @brief Method .ctor, addr 0x4a08d0c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a1d424, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>* ___m_Values;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6059 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

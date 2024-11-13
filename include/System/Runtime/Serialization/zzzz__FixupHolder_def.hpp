@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_m_id(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3c8532c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c999bc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType);
 
 protected:

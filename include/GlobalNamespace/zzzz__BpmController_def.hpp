@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_startBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b030c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b18468, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t startBpm);
 
 protected:
@@ -74,7 +74,7 @@ public:
   float_t ___startBpm;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -114,10 +114,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3b03090, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3b18430, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleBpmChangeBeatmapEvent, addr 0x3b030ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleBpmChangeBeatmapEvent, addr 0x3b1844c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleBpmChangeBeatmapEvent(::GlobalNamespace::BPMChangeBeatmapEventData* bpmChangeBeatmapEventData);
 
   static inline ::GlobalNamespace::BpmController* New_ctor(::GlobalNamespace::__BpmController__InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
@@ -140,13 +140,13 @@ public:
 
   constexpr void __cordl_internal_set__currentBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b02fbc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1835c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__BpmController__InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method get_currentBpm, addr 0x3b02f94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_currentBpm, addr 0x3b18334, size 0x8, virtual true, abstract: false, final true
   inline float_t get_currentBpm();
 
-  /// @brief Method get_oneBeatDuration, addr 0x3b02f9c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_oneBeatDuration, addr 0x3b1833c, size 0x20, virtual true, abstract: false, final true
   inline float_t get_oneBeatDuration();
 
   /// @brief Convert to "::GlobalNamespace::IBpmController"
@@ -179,7 +179,7 @@ public:
   float_t ____currentBpm;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4173 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

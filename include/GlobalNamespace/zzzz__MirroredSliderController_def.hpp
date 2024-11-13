@@ -45,7 +45,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MirroredSliderController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a7ba24, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a8f3a0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   __MirroredSliderController__Pool(__MirroredSliderController__Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4097 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -102,30 +102,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::ISliderDidStartDissolvingEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x3a7b6bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a8f038, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Dissolve, addr 0x3a7b9c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Dissolve, addr 0x3a8f340, size 0x24, virtual false, abstract: false, final false
   inline void Dissolve(float_t duration);
 
-  /// @brief Method HandleSliderDidStartDissolving, addr 0x3a7b9a0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method HandleSliderDidStartDissolving, addr 0x3a8f31c, size 0x24, virtual true, abstract: false, final true
   inline void HandleSliderDidStartDissolving(::GlobalNamespace::SliderController* sliderController, float_t duration);
 
-  /// @brief Method Mirror, addr 0x3a765a8, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Mirror, addr 0x3a89f38, size 0x20c, virtual false, abstract: false, final false
   inline void Mirror(::GlobalNamespace::SliderController* sliderController);
 
   static inline ::GlobalNamespace::MirroredSliderController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a7b8a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a8f224, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveListeners, addr 0x3a7b8ac, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RemoveListeners, addr 0x3a8f228, size 0xf4, virtual false, abstract: false, final false
   inline void RemoveListeners();
 
-  /// @brief Method Update, addr 0x3a7b6d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a8f054, size 0xb0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateMaterialPropertyBlock, addr 0x3a7b788, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method UpdateMaterialPropertyBlock, addr 0x3a8f104, size 0x120, virtual false, abstract: false, final false
   inline void UpdateMaterialPropertyBlock(float_t timeSinceHeadNoteJump);
 
   constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& __cordl_internal_get__beatmapObjectSpawnController();
@@ -158,13 +158,13 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3a7ba14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a8f390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
   constexpr ::GlobalNamespace::ISliderDidStartDissolvingEvent* i___GlobalNamespace__ISliderDidStartDissolvingEvent() noexcept;
 
-  /// @brief Method set_hide, addr 0x3a76f98, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x3a8a928, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -197,7 +197,7 @@ public:
   ::UnityW<::UnityEngine::Transform> ____followedTransform;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

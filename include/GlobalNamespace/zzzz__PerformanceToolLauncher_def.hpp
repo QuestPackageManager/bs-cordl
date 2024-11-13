@@ -88,7 +88,7 @@ public:
   ::UnityW<::GlobalNamespace::PerformanceRecorder> recorder;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5105 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -132,7 +132,7 @@ public:
   bool enableRecording;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5106 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
@@ -163,10 +163,10 @@ public:
 
   static inline ::GlobalNamespace::__PerformanceToolLauncher____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <Run>g__HandleSongControllerSongDidFinish|1, addr 0x3ab1f64, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <Run>g__HandleSongControllerSongDidFinish|1, addr 0x3ac5b00, size 0xa4, virtual false, abstract: false, final false
   inline void _Run_g__HandleSongControllerSongDidFinish_1();
 
-  /// @brief Method <Run>g__HandleSongControllerSongDidStart|0, addr 0x3ab1ec0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <Run>g__HandleSongControllerSongDidStart|0, addr 0x3ac5a5c, size 0xa4, virtual false, abstract: false, final false
   inline void _Run_g__HandleSongControllerSongDidStart_0();
 
   constexpr ::UnityW<::GlobalNamespace::PerformanceRecorder> const& __cordl_internal_get_recorder() const;
@@ -181,7 +181,7 @@ public:
 
   constexpr void __cordl_internal_set_songController(::UnityW<::GlobalNamespace::SongController> value);
 
-  /// @brief Method .ctor, addr 0x3ab1e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac5a00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -205,7 +205,7 @@ public:
   ::UnityW<::GlobalNamespace::PerformanceRecorder> ___recorder;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5107 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -234,14 +234,14 @@ public:
   /// @brief Field _assets, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get__assets, put = __cordl_internal_set__assets)) ::GlobalNamespace::__PerformanceToolLauncher__Assets _assets;
 
-  /// @brief Method Initialize, addr 0x3ab1ab8, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3ac5654, size 0x2a4, virtual false, abstract: false, final false
   inline void Initialize(::Zenject::SceneContext* sceneContext, ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::PlayerDataModel* playerDataModel,
                          ::GlobalNamespace::MainCamera* mainCamera, ::GlobalNamespace::SongController* songController, ::GlobalNamespace::IGamePause* gamePause,
                          ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData, ::System::Nullable_1<::GlobalNamespace::__PerformanceToolLauncher__OverrideConfig> overrideConfig);
 
   static inline ::GlobalNamespace::PerformanceToolLauncher* New_ctor();
 
-  /// @brief Method Run, addr 0x3ab1d5c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3ac58f8, size 0x108, virtual false, abstract: false, final false
   static inline void Run(::GlobalNamespace::PerformanceRecorder* recorder, ::GlobalNamespace::SongController* songController);
 
   constexpr ::GlobalNamespace::__PerformanceToolLauncher__Assets const& __cordl_internal_get__assets() const;
@@ -250,7 +250,7 @@ public:
 
   constexpr void __cordl_internal_set__assets(::GlobalNamespace::__PerformanceToolLauncher__Assets value);
 
-  /// @brief Method .ctor, addr 0x3ab1e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac5a08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -271,7 +271,7 @@ public:
   ::GlobalNamespace::__PerformanceToolLauncher__Assets ____assets;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5108 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

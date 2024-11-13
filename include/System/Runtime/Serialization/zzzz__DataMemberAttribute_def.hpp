@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method get_EmitDefaultValue, addr 0x41be764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EmitDefaultValue, addr 0x41d2e7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_EmitDefaultValue();
 
-  /// @brief Method get_IsRequired, addr 0x41be75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsRequired, addr 0x41d2e74, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsRequired();
 
-  /// @brief Method get_Name, addr 0x41be74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x41d2e64, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Order, addr 0x41be754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x41d2e6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:
@@ -104,7 +104,7 @@ public:
   bool ___emitDefaultValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19148 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

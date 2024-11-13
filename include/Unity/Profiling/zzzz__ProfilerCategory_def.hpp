@@ -27,7 +27,7 @@ public:
   /// @brief Field m_CategoryId, offset 0x0, size 0x2
   __declspec(property(get = __cordl_internal_get_m_CategoryId, put = __cordl_internal_set_m_CategoryId)) uint16_t m_CategoryId;
 
-  /// @brief Method ToString, addr 0x47e83b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47fcacc, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr uint16_t const& __cordl_internal_get_m_CategoryId() const;
@@ -36,16 +36,16 @@ public:
 
   constexpr void __cordl_internal_set_m_CategoryId(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x47e81b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fc8c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint16_t category);
 
-  /// @brief Method get_Name, addr 0x47e81b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x47fc8d0, size 0x80, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Scripts, addr 0x47e83b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scripts, addr 0x47fcad0, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerCategory get_Scripts();
 
-  /// @brief Method op_Implicit, addr 0x47e83c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x47fcad8, size 0x4, virtual false, abstract: false, final false
   static inline uint16_t op_Implicit_uint16_t(::Unity::Profiling::ProfilerCategory category);
 
   // Ctor Parameters []
@@ -76,7 +76,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10532 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

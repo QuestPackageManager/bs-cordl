@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_filter(::BGLib::UnityExtension::ShaderPropertyAttributeFilter* value);
 
-  /// @brief Method .ctor, addr 0x2276e10, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2281e60, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType filterPropType);
 
 protected:
@@ -61,7 +61,7 @@ public:
   ::BGLib::UnityExtension::ShaderPropertyAttributeFilter* ___filter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17224 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17231 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

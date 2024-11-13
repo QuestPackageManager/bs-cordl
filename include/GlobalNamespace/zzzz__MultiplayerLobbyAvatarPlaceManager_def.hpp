@@ -48,21 +48,21 @@ public:
   /// @brief Field _minOuterCircleRadius, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__minOuterCircleRadius, put = __cordl_internal_set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
 
-  /// @brief Method Activate, addr 0x3b5d208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x3b73900, size 0x8, virtual false, abstract: false, final false
   inline void Activate(float_t innerCircleRadius, float_t minOuterCircleRadius);
 
-  /// @brief Method Deactivate, addr 0x3b5d6a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x3b73d98, size 0x4, virtual false, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method DespawnAllPlaces, addr 0x3b5d6a4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method DespawnAllPlaces, addr 0x3b73d9c, size 0x14c, virtual false, abstract: false, final false
   inline void DespawnAllPlaces();
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b5d7f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b73ee8, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SpawnAllPlaces, addr 0x3b5d210, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method SpawnAllPlaces, addr 0x3b73908, size 0x490, virtual false, abstract: false, final false
   inline void SpawnAllPlaces();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>>*& __cordl_internal_get__allPlaces();
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__minOuterCircleRadius(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b5d7f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b73eec, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -128,7 +128,7 @@ public:
   float_t ____minOuterCircleRadius;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4573 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

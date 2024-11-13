@@ -80,7 +80,7 @@ public:
   ::ArrayW<::GlobalNamespace::BeatmapDataItem*, ::Array<::GlobalNamespace::BeatmapDataItem*>*> items;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5109 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -113,28 +113,28 @@ public:
   /// @brief Field kCutStartOffset, offset 0xffffffff, size 0x1c
   static __declspec(property(get = getStaticF_kCutStartOffset, put = setStaticF_kCutStartOffset)) ::UnityEngine::Pose kCutStartOffset;
 
-  /// @brief Method AddNoteHandFrames, addr 0x3ab285c, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method AddNoteHandFrames, addr 0x3ac63fc, size 0x474, virtual false, abstract: false, final false
   static inline void AddNoteHandFrames(::GlobalNamespace::NoteData* note, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
                                        ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* leftHandFrames,
                                        ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* rightHandFrames);
 
-  /// @brief Method AddSliderHandFrames, addr 0x3ab2cd0, size 0x5f0, virtual false, abstract: false, final false
+  /// @brief Method AddSliderHandFrames, addr 0x3ac6870, size 0x5f0, virtual false, abstract: false, final false
   static inline void AddSliderHandFrames(::GlobalNamespace::SliderData* slider, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
                                          ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* leftHandFrames,
                                          ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* rightHandFrames);
 
-  /// @brief Method CreatePlayerPoseFrames, addr 0x3ab2008, size 0x814, virtual false, abstract: false, final false
+  /// @brief Method CreatePlayerPoseFrames, addr 0x3ac5ba4, size 0x818, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreatePlayerPoseFrames(ByRef<::GlobalNamespace::__AutoRecord__Beatmap> beatmap);
 
-  /// @brief Method LocateCutPosition, addr 0x3ab281c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method LocateCutPosition, addr 0x3ac63bc, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 LocateCutPosition(int32_t lineCount, int32_t line, ::GlobalNamespace::NoteLineLayer layer);
 
-  /// @brief Method SelectHand, addr 0x3ab3348, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SelectHand, addr 0x3ac6ee8, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* SelectHand(::GlobalNamespace::ColorType type,
                                                                                                     ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* left,
                                                                                                     ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* right);
 
-  /// @brief Method <CreatePlayerPoseFrames>g__FixFrames|1_0, addr 0x3ab32c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <CreatePlayerPoseFrames>g__FixFrames|1_0, addr 0x3ac6e60, size 0x88, virtual false, abstract: false, final false
   static inline int32_t _CreatePlayerPoseFrames_g__FixFrames_1_0(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames);
 
   static inline ::UnityEngine::Pose getStaticF_kCutEndOffset();
@@ -160,7 +160,7 @@ public:
   AutoRecord(AutoRecord const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5110 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

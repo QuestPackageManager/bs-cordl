@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Unity::XR::Oculus::Input::OculusGoController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47c15c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d5cd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   OculusGoController(OculusGoController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17373 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

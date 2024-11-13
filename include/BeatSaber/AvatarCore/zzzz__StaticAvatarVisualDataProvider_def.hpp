@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__avatarsData(::GlobalNamespace::MultiplayerAvatarsData value);
 
-  /// @brief Method .ctor, addr 0x221bee4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2224998, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerAvatarsData avatarsData);
 
-  /// @brief Method get_avatarsData, addr 0x221bed0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_avatarsData, addr 0x2224984, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
@@ -69,7 +69,7 @@ public:
   ::GlobalNamespace::MultiplayerAvatarsData ____avatarsData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17546 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

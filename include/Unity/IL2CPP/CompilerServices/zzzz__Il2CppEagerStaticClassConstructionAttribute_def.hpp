@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45de8f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fc8b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   Il2CppEagerStaticClassConstructionAttribute(Il2CppEagerStaticClassConstructionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10530 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

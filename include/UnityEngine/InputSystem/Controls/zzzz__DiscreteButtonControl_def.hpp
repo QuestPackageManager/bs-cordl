@@ -65,7 +65,7 @@ public:
   static ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode const WriteNullAndMaxValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7011 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -103,15 +103,15 @@ public:
   /// @brief Field writeMode, offset 0x140, size 0x4
   __declspec(property(get = __cordl_internal_get_writeMode, put = __cordl_internal_set_writeMode)) ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode writeMode;
 
-  /// @brief Method FinishSetup, addr 0x44eaf98, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x44ff6b0, size 0xfc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x44eb094, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x44ff7ac, size 0x1a0, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x44eb238, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x44ff950, size 0x130, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
   constexpr int32_t const& __cordl_internal_get_maxValue() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_writeMode(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode value);
 
-  /// @brief Method .ctor, addr 0x44eb36c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44ffa84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -177,7 +177,7 @@ public:
   ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode ___writeMode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7012 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

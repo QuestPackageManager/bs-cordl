@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_validate(bool value);
 
-  /// @brief Method .ctor, addr 0x4830fb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48456d0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName);
 
-  /// @brief Method .ctor, addr 0x4830ff0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4845708, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction);
 
-  /// @brief Method .ctor, addr 0x483102c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4845744, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
 protected:
@@ -87,7 +87,7 @@ public:
   int32_t ___priority;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10826 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

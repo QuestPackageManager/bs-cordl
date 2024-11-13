@@ -98,20 +98,20 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapLevel____c* New_ctor();
 
-  /// @brief Method <GetCharacteristics>b__24_0, addr 0x2682c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetCharacteristics>b__24_0, addr 0x268e820, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>
   _GetCharacteristics_b__24_0(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty> entry);
 
-  /// @brief Method <GetCharacteristics>b__24_1, addr 0x2682c24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetCharacteristics>b__24_1, addr 0x268e828, size 0x18, virtual false, abstract: false, final false
   inline int32_t _GetCharacteristics_b__24_1(::GlobalNamespace::BeatmapCharacteristicSO* entry);
 
-  /// @brief Method <GetDifficulties>b__23_1, addr 0x2682c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetDifficulties>b__23_1, addr 0x268e810, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty _GetDifficulties_b__23_1(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty> entry);
 
-  /// @brief Method <GetDifficulties>b__23_2, addr 0x2682c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetDifficulties>b__23_2, addr 0x268e818, size 0x8, virtual false, abstract: false, final false
   inline int32_t _GetDifficulties_b__23_2(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method .ctor, addr 0x2682c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268e808, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BeatmapLevel____c* getStaticF___9();
@@ -154,7 +154,7 @@ public:
   __BeatmapLevel____c(__BeatmapLevel____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12901 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -175,7 +175,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapLevel____c__DisplayClass23_0* New_ctor();
 
-  /// @brief Method <GetDifficulties>b__0, addr 0x2682c3c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <GetDifficulties>b__0, addr 0x268e840, size 0x6c, virtual false, abstract: false, final false
   inline bool _GetDifficulties_b__0(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty> entry);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get_characteristic() const;
@@ -184,7 +184,7 @@ public:
 
   constexpr void __cordl_internal_set_characteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  /// @brief Method .ctor, addr 0x2682534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268e138, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -205,7 +205,7 @@ public:
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ___characteristic;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12902 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -291,25 +291,25 @@ public:
   /// @brief Field version, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  /// @brief Method AddBeatmapBasicData, addr 0x2682a3c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapBasicData, addr 0x268e640, size 0xb4, virtual false, abstract: false, final false
   inline void AddBeatmapBasicData(::GlobalNamespace::BeatmapCharacteristicSO* characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapBasicData* beatmapBasicData);
 
-  /// @brief Method GetBeatmapKeys, addr 0x26827b8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapKeys, addr 0x268e3bc, size 0x140, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapKey>* GetBeatmapKeys();
 
-  /// @brief Method GetCharacteristics, addr 0x268253c, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method GetCharacteristics, addr 0x268e140, size 0x27c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* GetCharacteristics();
 
-  /// @brief Method GetColorScheme, addr 0x2682a20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetColorScheme, addr 0x268e624, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetColorScheme(::GlobalNamespace::BeatmapCharacteristicSO* characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method GetDifficulties, addr 0x2682258, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method GetDifficulties, addr 0x268de5c, size 0x2dc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapDifficulty>* GetDifficulties(::GlobalNamespace::BeatmapCharacteristicSO* characteristic);
 
-  /// @brief Method GetDifficultyBeatmapData, addr 0x26828f8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetDifficultyBeatmapData, addr 0x268e4fc, size 0x10c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapBasicData* GetDifficultyBeatmapData(::GlobalNamespace::BeatmapCharacteristicSO* characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method GetEnvironmentName, addr 0x2682a04, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentName, addr 0x268e608, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentName GetEnvironmentName(::GlobalNamespace::BeatmapCharacteristicSO* characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty);
 
   static inline ::GlobalNamespace::BeatmapLevel*
@@ -319,10 +319,10 @@ public:
            ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
                                                         ::GlobalNamespace::BeatmapBasicData*>* beatmapBasicData);
 
-  /// @brief Method RemoveBeatmapBasicData, addr 0x2682af0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RemoveBeatmapBasicData, addr 0x268e6f4, size 0xa4, virtual false, abstract: false, final false
   inline void RemoveBeatmapBasicData(::GlobalNamespace::BeatmapCharacteristicSO* characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method <GetBeatmapKeys>b__25_0, addr 0x2682b94, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetBeatmapKeys>b__25_0, addr 0x268e798, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey _GetBeatmapKeys_b__25_0(::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty> entry);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
@@ -445,7 +445,7 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2682188, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268dd8c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(int32_t version, bool hasPrecalculatedData, ::StringW levelID, ::StringW songName, ::StringW songSubName, ::StringW songAuthorName,
                     ::ArrayW<::StringW, ::Array<::StringW>*> allMappers, ::ArrayW<::StringW, ::Array<::StringW>*> allLighters, float_t beatsPerMinute, float_t integratedLufs, float_t songTimeOffset,
                     float_t previewStartTime, float_t previewDuration, float_t songDuration, ::GlobalNamespace::PlayerSensitivityFlag contentRating,
@@ -453,7 +453,7 @@ public:
                     ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
                                                                  ::GlobalNamespace::BeatmapBasicData*>* beatmapBasicData);
 
-  /// @brief Method get_beatmapBasicData, addr 0x2682180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapBasicData, addr 0x268dd84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
                                                                ::GlobalNamespace::BeatmapBasicData*>*
   get_beatmapBasicData();
@@ -531,7 +531,7 @@ public:
   ::ArrayW<::GlobalNamespace::BeatmapKey, ::Array<::GlobalNamespace::BeatmapKey>*> ____beatmapKeysCache;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12903 };
 
   /// @brief Field kInvalidVersion offset 0xffffffff size 0x4
   static constexpr int32_t kInvalidVersion{ static_cast<int32_t>(0xffffffff) };

@@ -37,16 +37,16 @@ public:
 
   static inline ::GlobalNamespace::ReportingCallbackSample* New_ctor();
 
-  /// @brief Method OnReportButtonIntentNotif, addr 0x3ee457c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnReportButtonIntentNotif, addr 0x3ef8c0c, size 0xa0, virtual false, abstract: false, final false
   inline void OnReportButtonIntentNotif(::Oculus::Platform::Message_1<::StringW>* message);
 
-  /// @brief Method Start, addr 0x3ee43dc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ef8a6c, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateConsole, addr 0x3ee44d0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateConsole, addr 0x3ef8b60, size 0xac, virtual false, abstract: false, final false
   inline void UpdateConsole(::StringW value);
 
-  /// @brief Method <Start>b__2_0, addr 0x3ee4768, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__2_0, addr 0x3ef8df8, size 0xe4, virtual false, abstract: false, final false
   inline void _Start_b__2_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* message);
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_DestinationsConsole() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_InVRConsole(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x3ee4760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ef8df0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::UnityW<::UnityEngine::UI::Text> ___DestinationsConsole;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15264 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

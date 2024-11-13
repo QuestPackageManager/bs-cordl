@@ -55,7 +55,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <TryParseColor>b__0, addr 0x4697e94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <TryParseColor>b__0, addr 0x46ac5ac, size 0x1c, virtual false, abstract: false, final false
   inline bool _TryParseColor_b__0(char16_t c);
 
   constexpr ::StringW const& __cordl_internal_get_valid() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_valid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4697e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ac5a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::StringW ___valid;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14209 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,7 +105,7 @@ public:
   // Declarations
   using __c__DisplayClass6_0 = ::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass6_0;
 
-  /// @brief Method ControlKeyString, addr 0x4697b20, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ControlKeyString, addr 0x46ac238, size 0x110, virtual false, abstract: false, final false
   static inline ::StringW ControlKeyString(char16_t character);
 
   /// @brief Method DemandComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -114,7 +114,7 @@ public:
   /// @brief Method DemandComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T DemandComponent(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method EmptyGameObjectWithTransform, addr 0x469791c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method EmptyGameObjectWithTransform, addr 0x46ac034, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> EmptyGameObjectWithTransform(::UnityEngine::Transform* t);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -123,14 +123,14 @@ public:
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* transforms);
 
-  /// @brief Method MeshGameObjectWithTransform, addr 0x4697a04, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method MeshGameObjectWithTransform, addr 0x46ac11c, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> MeshGameObjectWithTransform(::StringW name, ::UnityEngine::Transform* t, ::UnityEngine::Mesh* mesh, ::UnityEngine::Material* mat,
                                                                                 bool inheritParent);
 
   /// @brief Method NextEnumValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T NextEnumValue(T current);
 
-  /// @brief Method TryParseColor, addr 0x4697c30, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method TryParseColor, addr 0x46ac348, size 0x25c, virtual false, abstract: false, final false
   static inline bool TryParseColor(::StringW value, ByRef<::UnityEngine::Color> col);
 
 protected:
@@ -148,7 +148,7 @@ public:
   InternalUtility(InternalUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14210 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

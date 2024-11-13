@@ -118,7 +118,7 @@ public:
   __VerticalVirtualizationController_1____c(__VerticalVirtualizationController_1____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5463 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -352,7 +352,7 @@ public:
   ::UnityEngine::UIElements::VisualElement* ___m_EmptyRows;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5464 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

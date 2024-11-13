@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__paths(::System::Runtime::InteropServices::DllImportSearchPath value);
 
-  /// @brief Method .ctor, addr 0x3c9ed18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb33a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::DllImportSearchPath paths);
 
 protected:

@@ -47,18 +47,18 @@ namespace Oculus::Platform {
 class CORDL_TYPE __WindowsPlatform__UnityLogDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3f18d74, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3f2d404, size 0x9c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr tag, ::System::IntPtr msg, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3f18e10, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3f2d4a0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3f18d60, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3f2d3f0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IntPtr tag, ::System::IntPtr msg);
 
   static inline ::Oculus::Platform::__WindowsPlatform__UnityLogDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3f18cd4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2d364, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -76,7 +76,7 @@ public:
   __WindowsPlatform__UnityLogDelegate(__WindowsPlatform__UnityLogDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -94,21 +94,21 @@ public:
   // Declarations
   using UnityLogDelegate = ::Oculus::Platform::__WindowsPlatform__UnityLogDelegate;
 
-  /// @brief Method AsyncInitialize, addr 0x3f0c020, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x3f206b0, size 0x100, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
 
-  /// @brief Method CPPLogCallback, addr 0x3f18bf4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CPPLogCallback, addr 0x3f2d284, size 0xd8, virtual false, abstract: false, final false
   inline void CPPLogCallback(::System::IntPtr tag, ::System::IntPtr message);
 
-  /// @brief Method Initialize, addr 0x3f0c844, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3f20ed4, size 0xb8, virtual false, abstract: false, final false
   inline bool Initialize(::StringW appId);
 
   static inline ::Oculus::Platform::WindowsPlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3f0c018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f206a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method getCallbackPointer, addr 0x3f18ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method getCallbackPointer, addr 0x3f2d35c, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr getCallbackPointer();
 
 protected:
@@ -126,7 +126,7 @@ public:
   WindowsPlatform(WindowsPlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

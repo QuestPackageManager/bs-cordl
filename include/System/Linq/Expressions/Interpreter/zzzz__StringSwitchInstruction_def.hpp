@@ -43,7 +43,7 @@ public:
   static inline ::System::Linq::Expressions::Interpreter::StringSwitchInstruction* New_ctor(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* cases,
                                                                                             ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* nullCase);
 
-  /// @brief Method Run, addr 0x404e9f8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4063110, size 0xcc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get__cases();
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__nullCase(::System::Runtime::CompilerServices::StrongBox_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x404e984, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406309c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* cases, ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* nullCase);
 
-  /// @brief Method get_ConsumedStack, addr 0x404e9f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x4063108, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x404e9b0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40630c8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -88,7 +88,7 @@ public:
   ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* ____nullCase;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13761 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -105,7 +105,7 @@ public:
   int32_t generatedCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17623 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17630 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -165,7 +165,7 @@ public:
   float_t sizeMultiplier;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17624 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17631 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -212,7 +212,7 @@ public:
   float_t radius;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17632 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -258,7 +258,7 @@ public:
   float_t absoluteEnd;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17633 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -608,7 +608,7 @@ public:
 
   constexpr void __cordl_internal_set__vertexCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x222eb9c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2237654, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -725,7 +725,7 @@ public:
   ::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius, ::Array<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius>*> ____sortedProhibitedRadii;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17634 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

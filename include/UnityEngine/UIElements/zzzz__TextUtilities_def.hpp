@@ -42,22 +42,22 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertPixelUnitsToTextCoreRelativeUnits, addr 0x4a1a8d8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ConvertPixelUnitsToTextCoreRelativeUnits, addr 0x4a2eff0, size 0xb8, virtual false, abstract: false, final false
   static inline float_t ConvertPixelUnitsToTextCoreRelativeUnits(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method GetFontAsset, addr 0x4a1a488, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GetFontAsset, addr 0x4a2eba0, size 0x1bc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetFontAsset(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetTextCoreSettingsForElement, addr 0x4a1ac1c, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method GetTextCoreSettingsForElement, addr 0x4a2f334, size 0x3dc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::TextCoreSettings GetTextCoreSettingsForElement(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetTextSettingsFrom, addr 0x4a1a3c4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetTextSettingsFrom, addr 0x4a2eadc, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> GetTextSettingsFrom(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsFontAssigned, addr 0x4a1ab58, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsFontAssigned, addr 0x4a2f270, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsFontAssigned(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method MeasureVisualElementTextSize, addr 0x4a1a9dc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method MeasureVisualElementTextSize, addr 0x4a2f0f4, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MeasureVisualElementTextSize(::UnityEngine::UIElements::TextElement* te, ::StringW textToMeasure, float_t width,
                                                                     ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t height,
                                                                     ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
@@ -77,7 +77,7 @@ public:
   TextUtilities(TextUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

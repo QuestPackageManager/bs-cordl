@@ -34,13 +34,13 @@ public:
 
   static inline ::System::Linq::Expressions::AssignBinaryExpression* New_ctor(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method .ctor, addr 0x401fcb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40343d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method get_NodeType, addr 0x401fcdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40343f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x401fcbc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40343d4, size 0x20, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -58,7 +58,7 @@ public:
   AssignBinaryExpression(AssignBinaryExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13575 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

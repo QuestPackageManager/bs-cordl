@@ -29,10 +29,10 @@ namespace UnityEngine::XR::Provider {
 class CORDL_TYPE XRStats : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryGetStat, addr 0x4a7110c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryGetStat, addr 0x4a85824, size 0x5c, virtual false, abstract: false, final false
   static inline bool TryGetStat(::UnityEngine::IntegratedSubsystem* xrSubsystem, ::StringW tag, ByRef<float_t> value);
 
-  /// @brief Method TryGetStat_Internal, addr 0x4a71168, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TryGetStat_Internal, addr 0x4a85880, size 0x54, virtual false, abstract: false, final false
   static inline bool TryGetStat_Internal(::System::IntPtr ptr, ::StringW tag, ByRef<float_t> value);
 
 protected:
@@ -50,7 +50,7 @@ public:
   XRStats(XRStats const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18210 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

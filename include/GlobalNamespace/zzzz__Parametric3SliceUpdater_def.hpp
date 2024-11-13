@@ -29,7 +29,7 @@ public:
 
   static inline ::GlobalNamespace::Parametric3SliceUpdater* New_ctor();
 
-  /// @brief Method Update, addr 0x3971848, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39850cc, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__parametric3SliceSpriteController() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__parametric3SliceSpriteController(::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> value);
 
-  /// @brief Method .ctor, addr 0x3971860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39850e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,7 +59,7 @@ public:
   ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> ____parametric3SliceSpriteController;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16229 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

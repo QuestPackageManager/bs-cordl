@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::ContextBoundObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3da2d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db741c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

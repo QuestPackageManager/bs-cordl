@@ -40,7 +40,7 @@ public:
 
   static inline ::GlobalNamespace::__TimelineExtensions____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <JumpToTimelineMarker>b__0, addr 0x3abef4c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <JumpToTimelineMarker>b__0, addr 0x3ad2aec, size 0x38, virtual false, abstract: false, final false
   inline bool _JumpToTimelineMarker_b__0(::UnityEngine::Timeline::IMarker* marker);
 
   constexpr ::System::Type*& __cordl_internal_get_markerType();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_markerType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3abef44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad2ae4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   ::System::Type* ___markerType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5165 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,7 +90,7 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__TimelineExtensions____c__DisplayClass0_0;
 
-  /// @brief Method JumpToTimelineMarker, addr 0x3abed7c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method JumpToTimelineMarker, addr 0x3ad291c, size 0x1c8, virtual false, abstract: false, final false
   static inline void JumpToTimelineMarker(::UnityEngine::Playables::PlayableDirector* playableDirector, ::System::Type* markerType);
 
 protected:
@@ -108,7 +108,7 @@ public:
   TimelineExtensions(TimelineExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5166 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

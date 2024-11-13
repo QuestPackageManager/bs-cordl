@@ -104,25 +104,25 @@ public:
 
   constexpr void __cordl_internal_set__startLightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3976ff4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398a878, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupId, addr 0x3976fcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupId, addr 0x398a850, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_groupId();
 
-  /// @brief Method get_groupName, addr 0x3976fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x398a848, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x3976fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x398a870, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method get_numberOfElements, addr 0x3976fdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfElements, addr 0x398a860, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x3976fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sameIdElements, addr 0x398a868, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_startLightId, addr 0x3976fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startLightId, addr 0x398a858, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
   /// @brief Convert to "::GlobalNamespace::ILightGroup"
@@ -164,7 +164,7 @@ public:
   bool ____ignoreLightGroupEffectManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

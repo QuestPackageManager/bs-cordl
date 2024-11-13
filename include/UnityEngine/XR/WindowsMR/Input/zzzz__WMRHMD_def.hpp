@@ -28,7 +28,7 @@ public:
 
   __declspec(property(get = get_userPresence, put = set_userPresence)) ::UnityEngine::InputSystem::Controls::ButtonControl* userPresence;
 
-  /// @brief Method FinishSetup, addr 0x44c57a4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x44d9ebc, size 0x7c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::WindowsMR::Input::WMRHMD* New_ctor();
@@ -39,13 +39,13 @@ public:
 
   constexpr void __cordl_internal_set__userPresence_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x44c5820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9f38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_userPresence, addr 0x44c5794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userPresence, addr 0x44d9eac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_userPresence();
 
-  /// @brief Method set_userPresence, addr 0x44c579c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userPresence, addr 0x44d9eb4, size 0x8, virtual false, abstract: false, final false
   inline void set_userPresence(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -66,7 +66,7 @@ public:
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____userPresence_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6500 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

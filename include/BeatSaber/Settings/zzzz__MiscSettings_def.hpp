@@ -64,7 +64,7 @@ public:
   static ::BeatSaber::Settings::__MiscSettings__ResponseLevel const Long;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17959 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -102,7 +102,7 @@ public:
   ::BeatSaber::Settings::__MiscSettings__ResponseLevel pauseButtonResponse;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17960 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

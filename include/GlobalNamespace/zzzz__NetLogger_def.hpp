@@ -35,10 +35,10 @@ public:
 
   static inline ::GlobalNamespace::NetLogger* New_ctor();
 
-  /// @brief Method WriteNet, addr 0x229ca3c, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method WriteNet, addr 0x22a7ae4, size 0x194, virtual true, abstract: false, final true
   inline void WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method .ctor, addr 0x229cbd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a7c78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::LiteNetLib::INetLogger"
@@ -59,7 +59,7 @@ public:
   NetLogger(NetLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14859 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

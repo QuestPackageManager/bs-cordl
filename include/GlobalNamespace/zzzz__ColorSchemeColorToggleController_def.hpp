@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x3b7d948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b934cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x3b7d1ec, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3b92d70, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_toggle, addr 0x3b7d940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x3b934c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
-  /// @brief Method set_color, addr 0x3b7d23c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3b92dc0, size 0x98, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -88,7 +88,7 @@ public:
   ::UnityW<::UnityEngine::UI::Toggle> ____toggle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4720 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

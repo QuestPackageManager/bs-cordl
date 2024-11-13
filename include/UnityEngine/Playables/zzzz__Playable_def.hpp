@@ -45,27 +45,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x4853930, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4868048, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
-  /// @brief Method Equals, addr 0x4853b3c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4868254, size 0x98, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Playables::Playable other);
 
-  /// @brief Method GetHandle, addr 0x4853a30, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x4868148, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method GetPlayableType, addr 0x4853a3c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPlayableType, addr 0x4868154, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Type* GetPlayableType();
 
   /// @brief Method IsPlayableOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool IsPlayableOfType();
 
-  /// @brief Method .ctor, addr 0x4853a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4868140, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Playables::Playable getStaticF_m_NullPlayable();
 
-  /// @brief Method get_Null, addr 0x48538d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x4867ff0, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable get_Null();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::Playable>"
@@ -87,7 +87,7 @@ public:
   ::UnityEngine::Playables::PlayableHandle m_Handle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11237 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

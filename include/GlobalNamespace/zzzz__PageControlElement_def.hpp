@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::PageControlElement* New_ctor();
 
-  /// @brief Method SetSelected, addr 0x3a93a30, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetSelected, addr 0x3aa750c, size 0x60, virtual false, abstract: false, final false
   inline void SetSelected(bool isSelected);
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__imageView() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__unselectedColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3a93b9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa7678, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rectTransform, addr 0x3a93b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x3aa7670, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
 protected:
@@ -102,7 +102,7 @@ public:
   ::UnityEngine::Color ____unselectedColor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4975 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,9 +24,6 @@ namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
-class SpawnRotationBeatmapEventData;
-}
-namespace GlobalNamespace {
 class SpawnRotationChevron;
 }
 namespace GlobalNamespace {
@@ -103,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_fullyLid(bool value);
 
-  /// @brief Method .ctor, addr 0x3b23d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b39180, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +130,7 @@ public:
   float_t ___fadeInEndTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4356 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -219,27 +216,24 @@ public:
   __declspec(property(get = __cordl_internal_get__spawnRotationDataCallbackWrapper,
                       put = __cordl_internal_set__spawnRotationDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _spawnRotationDataCallbackWrapper;
 
-  /// @brief Method ComputeAheadTime, addr 0x3b23d48, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ComputeAheadTime, addr 0x3b39188, size 0x5c, virtual false, abstract: false, final false
   inline float_t ComputeAheadTime();
 
-  /// @brief Method HandleBeatmapObjectCallback, addr 0x3b239d4, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectCallback, addr 0x3b38e2c, size 0x354, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
-  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x3b22d40, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x3b38210, size 0xc4, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectSpawnControllerDidInit();
-
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x3b23d2c, size 0x1c, virtual false, abstract: false, final false
-  inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
 
   static inline ::GlobalNamespace::SpawnRotationChevronManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b238dc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b38d34, size 0xf8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b22bbc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b3808c, size 0x184, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b22e7c, size 0xa60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b382d4, size 0xa60, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__activeDirections();
@@ -351,7 +345,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnRotationDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method .ctor, addr 0x3b23da4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b391e4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -423,7 +417,7 @@ public:
   float_t ____currentSpawnRotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4357 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

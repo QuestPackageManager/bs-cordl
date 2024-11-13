@@ -22,7 +22,7 @@ UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>::__cordl_internal_set_subscription(::System::IDisposable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subscription)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___subscription, value);
 }
 template <typename TValue>
 inline ::UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>* UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>::New_ctor() {
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* (*)(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*,
                                                                                       ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::Utilities::Observable::ForDevice)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x44f710c;
+  constexpr static std::size_t addrs = 0x450b824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

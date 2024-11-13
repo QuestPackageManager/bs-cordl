@@ -38,10 +38,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__MouseLeaveWindowEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49b30a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49c77c0, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49b30a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c77b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__MouseLeaveWindowEvent____c* getStaticF___9();
@@ -63,7 +63,7 @@ public:
   __MouseLeaveWindowEvent____c(__MouseLeaveWindowEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5844 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -81,21 +81,21 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::__MouseLeaveWindowEvent____c;
 
-  /// @brief Method GetPooled, addr 0x49b2db8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x49c74d0, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x49b2c74, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49c738c, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49b2cc4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x49c73dc, size 0xa4, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x49b2ee8, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x49c7600, size 0x15c, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x49b2d68, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c7480, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   MouseLeaveWindowEvent(MouseLeaveWindowEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5845 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

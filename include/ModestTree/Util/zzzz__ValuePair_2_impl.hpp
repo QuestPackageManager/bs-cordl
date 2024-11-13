@@ -13,7 +13,7 @@ template <typename T1, typename T2> constexpr T1 const& ModestTree::Util::ValueP
 }
 template <typename T1, typename T2> constexpr void ModestTree::Util::ValuePair_2<T1, T2>::__cordl_internal_set_First(T1 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___First)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___First, value);
 }
 template <typename T1, typename T2> constexpr T2& ModestTree::Util::ValuePair_2<T1, T2>::__cordl_internal_get_Second() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -25,7 +25,7 @@ template <typename T1, typename T2> constexpr T2 const& ModestTree::Util::ValueP
 }
 template <typename T1, typename T2> constexpr void ModestTree::Util::ValuePair_2<T1, T2>::__cordl_internal_set_Second(T2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Second)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___Second, value);
 }
 template <typename T1, typename T2> inline ::ModestTree::Util::ValuePair_2<T1, T2>* ModestTree::Util::ValuePair_2<T1, T2>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::Util::ValuePair_2<T1, T2>*>());

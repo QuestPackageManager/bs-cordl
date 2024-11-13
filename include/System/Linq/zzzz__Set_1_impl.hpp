@@ -23,7 +23,7 @@ template <typename TElement> constexpr ::ArrayW<int32_t, ::Array<int32_t>*> cons
 }
 template <typename TElement> constexpr void System::Linq::Set_1<TElement>::__cordl_internal_set_buckets(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buckets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___buckets, value);
 }
 template <typename TElement>
 constexpr ::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Linq::__Set_1__Slot<TElement>>*>& System::Linq::Set_1<TElement>::__cordl_internal_get_slots() {
@@ -38,7 +38,7 @@ constexpr ::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Li
 template <typename TElement>
 constexpr void System::Linq::Set_1<TElement>::__cordl_internal_set_slots(::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Linq::__Set_1__Slot<TElement>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___slots)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___slots, value);
 }
 template <typename TElement> constexpr int32_t& System::Linq::Set_1<TElement>::__cordl_internal_get_count() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -75,7 +75,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IE
 }
 template <typename TElement> constexpr void System::Linq::Set_1<TElement>::__cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TElement>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___comparer, value);
 }
 template <typename TElement> inline ::System::Linq::Set_1<TElement>* System::Linq::Set_1<TElement>::New_ctor(::System::Collections::Generic::IEqualityComparer_1<TElement>* comparer) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Set_1<TElement>*>(comparer));

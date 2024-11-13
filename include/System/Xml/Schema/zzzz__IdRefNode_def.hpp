@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_Next(::System::Xml::Schema::IdRefNode* value);
 
-  /// @brief Method .ctor, addr 0x42538f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4268008, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::IdRefNode* next, ::StringW id, int32_t lineNo, int32_t linePos);
 
 protected:
@@ -89,7 +89,7 @@ public:
   ::System::Xml::Schema::IdRefNode* ___Next;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7707 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

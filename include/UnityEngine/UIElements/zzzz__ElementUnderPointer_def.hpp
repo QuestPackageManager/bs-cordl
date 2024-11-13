@@ -70,30 +70,30 @@ public:
                       put = __cordl_internal_set_m_TriggerPointerEvent)) ::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*>
       m_TriggerPointerEvent;
 
-  /// @brief Method CommitElementUnderPointers, addr 0x49aa510, size 0xcb0, virtual false, abstract: false, final false
+  /// @brief Method CommitElementUnderPointers, addr 0x49bec28, size 0xcb0, virtual false, abstract: false, final false
   inline void CommitElementUnderPointers(::UnityEngine::UIElements::EventDispatcher* dispatcher, ::UnityEngine::UIElements::ContextType contextType);
 
-  /// @brief Method GetEventPointerPosition, addr 0x49aa0fc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetEventPointerPosition, addr 0x49be814, size 0x1b8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetEventPointerPosition(::UnityEngine::UIElements::EventBase* triggerEvent);
 
-  /// @brief Method GetTopElementUnderPointer, addr 0x49a9f6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetTopElementUnderPointer, addr 0x49be684, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetTopElementUnderPointer(int32_t pointerId);
 
-  /// @brief Method GetTopElementUnderPointer, addr 0x49a9ef8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetTopElementUnderPointer, addr 0x49be610, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetTopElementUnderPointer(int32_t pointerId, ByRef<::UnityEngine::Vector2> pickPosition, ByRef<bool> isTemporary);
 
   static inline ::UnityEngine::UIElements::ElementUnderPointer* New_ctor();
 
-  /// @brief Method SetElementUnderPointer, addr 0x49a9f9c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetElementUnderPointer, addr 0x49be6b4, size 0x160, virtual false, abstract: false, final false
   inline void SetElementUnderPointer(::UnityEngine::UIElements::VisualElement* newElementUnderPointer, int32_t pointerId, ::UnityEngine::Vector2 pointerPos);
 
-  /// @brief Method SetElementUnderPointer, addr 0x49aa508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetElementUnderPointer, addr 0x49bec20, size 0x8, virtual false, abstract: false, final false
   inline void SetElementUnderPointer(::UnityEngine::UIElements::VisualElement* newElementUnderPointer, int32_t pointerId, ::UnityEngine::UIElements::EventBase* triggerEvent);
 
-  /// @brief Method SetElementUnderPointer, addr 0x49aa2bc, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method SetElementUnderPointer, addr 0x49be9d4, size 0x24c, virtual false, abstract: false, final false
   inline void SetElementUnderPointer(::UnityEngine::UIElements::VisualElement* newElementUnderPointer, int32_t pointerId, ::UnityEngine::UIElements::EventBase* triggerEvent, bool temporary);
 
-  /// @brief Method SetTemporaryElementUnderPointer, addr 0x49aa2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTemporaryElementUnderPointer, addr 0x49be9cc, size 0x8, virtual false, abstract: false, final false
   inline void SetTemporaryElementUnderPointer(::UnityEngine::UIElements::VisualElement* newElementUnderPointer, int32_t pointerId, ::UnityEngine::UIElements::EventBase* triggerEvent);
 
   constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_m_IsPickingPointerTemporaries() const;
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TriggerPointerEvent(::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*> value);
 
-  /// @brief Method .ctor, addr 0x49ab924, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c003c, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -168,7 +168,7 @@ public:
   ::ArrayW<bool, ::Array<bool>*> ___m_IsPickingPointerTemporaries;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5774 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

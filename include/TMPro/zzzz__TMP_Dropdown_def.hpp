@@ -167,10 +167,10 @@ public:
 
   static inline ::TMPro::__TMP_Dropdown__DropdownItem* New_ctor();
 
-  /// @brief Method OnCancel, addr 0x4754aa4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method OnCancel, addr 0x47691bc, size 0xac, virtual true, abstract: false, final false
   inline void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x4754a28, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method OnPointerEnter, addr 0x4769140, size 0x7c, virtual true, abstract: false, final false
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_m_Image() const;
@@ -197,19 +197,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x4754b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4769268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_image, addr 0x47549f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_image, addr 0x4769110, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Image> get_image();
 
-  /// @brief Method get_rectTransform, addr 0x4754a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x4769120, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_text, addr 0x47549e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x4769100, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_Text> get_text();
 
-  /// @brief Method get_toggle, addr 0x4754a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x4769130, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
   /// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
@@ -221,16 +221,16 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
 
-  /// @brief Method set_image, addr 0x4754a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_image, addr 0x4769118, size 0x8, virtual false, abstract: false, final false
   inline void set_image(::UnityEngine::UI::Image* value);
 
-  /// @brief Method set_rectTransform, addr 0x4754a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rectTransform, addr 0x4769128, size 0x8, virtual false, abstract: false, final false
   inline void set_rectTransform(::UnityEngine::RectTransform* value);
 
-  /// @brief Method set_text, addr 0x47549f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x4769108, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::TMPro::TMP_Text* value);
 
-  /// @brief Method set_toggle, addr 0x4754a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_toggle, addr 0x4769138, size 0x8, virtual false, abstract: false, final false
   inline void set_toggle(::UnityEngine::UI::Toggle* value);
 
 protected:
@@ -260,7 +260,7 @@ public:
   ::UnityW<::UnityEngine::UI::Toggle> ___m_Toggle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14430 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -314,28 +314,28 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x47519f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4766108, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x47527e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4766efc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* image);
 
-  /// @brief Method .ctor, addr 0x475266c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4766d84, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x4754b78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4769290, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::UnityEngine::Sprite* image);
 
-  /// @brief Method get_image, addr 0x4754b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_image, addr 0x4769280, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_image();
 
-  /// @brief Method get_text, addr 0x4754b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x4769270, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_image, addr 0x4754b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_image, addr 0x4769288, size 0x8, virtual false, abstract: false, final false
   inline void set_image(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_text, addr 0x4754b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x4769278, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -359,7 +359,7 @@ public:
   ::UnityW<::UnityEngine::Sprite> ___m_Image;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -392,13 +392,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Options(::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* value);
 
-  /// @brief Method .ctor, addr 0x4752028, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4766740, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_options, addr 0x4754ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_options, addr 0x47692bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* get_options();
 
-  /// @brief Method set_options, addr 0x4754bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_options, addr 0x47692c4, size 0x8, virtual false, abstract: false, final false
   inline void set_options(::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* value);
 
 protected:
@@ -419,7 +419,7 @@ public:
   ::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* ___m_Options;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14432 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -439,7 +439,7 @@ public:
   // Declarations
   static inline ::TMPro::__TMP_Dropdown__DropdownEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47520a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47667c0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -457,7 +457,7 @@ public:
   __TMP_Dropdown__DropdownEvent(__TMP_Dropdown__DropdownEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -481,7 +481,7 @@ public:
 
   static inline ::TMPro::__TMP_Dropdown____c__DisplayClass69_0* New_ctor();
 
-  /// @brief Method <Show>b__0, addr 0x4754bb4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Show>b__0, addr 0x47692cc, size 0x24, virtual false, abstract: false, final false
   inline void _Show_b__0(bool x);
 
   constexpr ::UnityW<::TMPro::TMP_Dropdown> const& __cordl_internal_get___4__this() const;
@@ -496,7 +496,7 @@ public:
 
   constexpr void __cordl_internal_set_item(::UnityW<::TMPro::__TMP_Dropdown__DropdownItem> value);
 
-  /// @brief Method .ctor, addr 0x4753c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x476832c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -520,7 +520,7 @@ public:
   ::UnityW<::TMPro::TMP_Dropdown> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -565,21 +565,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4754bdc, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x47692f4, size 0xa8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::TMPro::__TMP_Dropdown___DelayedDestroyDropdownList_d__81* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4754c84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x476939c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4754c8c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x47693a4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4754cc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x47693dc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4754bd8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x47692f0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -606,7 +606,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x475481c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4768f34, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -645,7 +645,7 @@ public:
   ::UnityW<::TMPro::TMP_Dropdown> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14435 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -766,97 +766,97 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
-  /// @brief Method AddItem, addr 0x4753c1c, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method AddItem, addr 0x4768334, size 0x2e8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::__TMP_Dropdown__DropdownItem> AddItem(::TMPro::__TMP_Dropdown__OptionData* data, bool selected, ::TMPro::__TMP_Dropdown__DropdownItem* itemTemplate,
                                                                  ::System::Collections::Generic::List_1<::UnityW<::TMPro::__TMP_Dropdown__DropdownItem>>* items);
 
-  /// @brief Method AddOptions, addr 0x475251c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method AddOptions, addr 0x4766c34, size 0x150, virtual false, abstract: false, final false
   inline void AddOptions(::System::Collections::Generic::List_1<::StringW>* options);
 
-  /// @brief Method AddOptions, addr 0x47524b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddOptions, addr 0x4766bcc, size 0x68, virtual false, abstract: false, final false
   inline void AddOptions(::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* options);
 
-  /// @brief Method AddOptions, addr 0x4752694, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method AddOptions, addr 0x4766dac, size 0x150, virtual false, abstract: false, final false
   inline void AddOptions(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Sprite>>* options);
 
-  /// @brief Method AlphaFadeList, addr 0x4754678, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AlphaFadeList, addr 0x4768d90, size 0x80, virtual false, abstract: false, final false
   inline void AlphaFadeList(float_t duration, float_t alpha);
 
-  /// @brief Method AlphaFadeList, addr 0x4753f04, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AlphaFadeList, addr 0x476861c, size 0x114, virtual false, abstract: false, final false
   inline void AlphaFadeList(float_t duration, float_t start, float_t end);
 
-  /// @brief Method Awake, addr 0x47520f0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x4766808, size 0xfc, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ClearOptions, addr 0x475280c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ClearOptions, addr 0x4766f24, size 0xb0, virtual false, abstract: false, final false
   inline void ClearOptions();
 
-  /// @brief Method CreateBlocker, addr 0x4754018, size 0x4d4, virtual true, abstract: false, final false
+  /// @brief Method CreateBlocker, addr 0x4768730, size 0x4d4, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateBlocker(::UnityEngine::Canvas* rootCanvas);
 
-  /// @brief Method CreateDropdownList, addr 0x4754544, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CreateDropdownList, addr 0x4768c5c, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateDropdownList(::UnityEngine::GameObject* _cordl_template);
 
-  /// @brief Method CreateItem, addr 0x4754608, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CreateItem, addr 0x4768d20, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityW<::TMPro::__TMP_Dropdown__DropdownItem> CreateItem(::TMPro::__TMP_Dropdown__DropdownItem* itemTemplate);
 
-  /// @brief Method DelayedDestroyDropdownList, addr 0x47547ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method DelayedDestroyDropdownList, addr 0x4768ec4, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayedDestroyDropdownList(float_t delay);
 
-  /// @brief Method DestroyBlocker, addr 0x47544ec, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method DestroyBlocker, addr 0x4768c04, size 0x58, virtual true, abstract: false, final false
   inline void DestroyBlocker(::UnityEngine::GameObject* blocker);
 
-  /// @brief Method DestroyDropdownList, addr 0x47545b0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method DestroyDropdownList, addr 0x4768cc8, size 0x58, virtual true, abstract: false, final false
   inline void DestroyDropdownList(::UnityEngine::GameObject* dropdownList);
 
-  /// @brief Method DestroyItem, addr 0x4754674, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DestroyItem, addr 0x4768d8c, size 0x4, virtual true, abstract: false, final false
   inline void DestroyItem(::TMPro::__TMP_Dropdown__DropdownItem* item);
 
   /// @brief Method GetOrAddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetOrAddComponent(::UnityEngine::GameObject* go);
 
-  /// @brief Method Hide, addr 0x4753b00, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x4768218, size 0x114, virtual false, abstract: false, final false
   inline void Hide();
 
-  /// @brief Method ImmediateDestroyDropdownList, addr 0x475231c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ImmediateDestroyDropdownList, addr 0x4766a34, size 0x198, virtual false, abstract: false, final false
   inline void ImmediateDestroyDropdownList();
 
   static inline ::TMPro::TMP_Dropdown* New_ctor();
 
-  /// @brief Method OnCancel, addr 0x4753afc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCancel, addr 0x4768214, size 0x4, virtual true, abstract: false, final false
   inline void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnDisable, addr 0x4752288, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x47669a0, size 0x94, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPointerClick, addr 0x4752f2c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x4767644, size 0x4, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSelectItem, addr 0x4754844, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method OnSelectItem, addr 0x4768f5c, size 0x134, virtual false, abstract: false, final false
   inline void OnSelectItem(::UnityEngine::UI::Toggle* toggle);
 
-  /// @brief Method OnSubmit, addr 0x4753af8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x4768210, size 0x4, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method RefreshShownValue, addr 0x47519f8, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method RefreshShownValue, addr 0x4766110, size 0x238, virtual false, abstract: false, final false
   inline void RefreshShownValue();
 
-  /// @brief Method SetAlpha, addr 0x47546f8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetAlpha, addr 0x4768e10, size 0xb4, virtual false, abstract: false, final false
   inline void SetAlpha(float_t alpha);
 
-  /// @brief Method SetValue, addr 0x4751d54, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x476646c, size 0x168, virtual false, abstract: false, final false
   inline void SetValue(int32_t value, bool sendCallback);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x4751ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x47665d4, size 0x8, virtual false, abstract: false, final false
   inline void SetValueWithoutNotify(int32_t input);
 
-  /// @brief Method SetupTemplate, addr 0x47528bc, size 0x670, virtual false, abstract: false, final false
+  /// @brief Method SetupTemplate, addr 0x4766fd4, size 0x670, virtual false, abstract: false, final false
   inline void SetupTemplate();
 
-  /// @brief Method Show, addr 0x4752f30, size 0xbc8, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x4767648, size 0xbc8, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method Start, addr 0x47521ec, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x4766904, size 0x9c, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get_m_AlphaFadeSpeed() const;
@@ -955,42 +955,42 @@ public:
 
   constexpr void __cordl_internal_set_validTemplate(bool value);
 
-  /// @brief Method .ctor, addr 0x4751f24, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x476663c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::__TMP_Dropdown__OptionData* getStaticF_s_NoOptionData();
 
-  /// @brief Method get_IsExpanded, addr 0x4751ec4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IsExpanded, addr 0x47665dc, size 0x60, virtual false, abstract: false, final false
   inline bool get_IsExpanded();
 
-  /// @brief Method get_alphaFadeSpeed, addr 0x4751d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alphaFadeSpeed, addr 0x476644c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_alphaFadeSpeed();
 
-  /// @brief Method get_captionImage, addr 0x4751cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_captionImage, addr 0x47663e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Image> get_captionImage();
 
-  /// @brief Method get_captionText, addr 0x4751cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_captionText, addr 0x47663e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_Text> get_captionText();
 
-  /// @brief Method get_itemImage, addr 0x4751cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_itemImage, addr 0x4766410, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Image> get_itemImage();
 
-  /// @brief Method get_itemText, addr 0x4751cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_itemText, addr 0x4766408, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_Text> get_itemText();
 
-  /// @brief Method get_onValueChanged, addr 0x4751d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onValueChanged, addr 0x476643c, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_Dropdown__DropdownEvent* get_onValueChanged();
 
-  /// @brief Method get_options, addr 0x47519d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_options, addr 0x47660ec, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* get_options();
 
-  /// @brief Method get_placeholder, addr 0x4751ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_placeholder, addr 0x47663f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_placeholder();
 
-  /// @brief Method get_template, addr 0x4751cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_template, addr 0x47663d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_template();
 
-  /// @brief Method get_value, addr 0x4751d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x476645c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
   /// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
@@ -1007,34 +1007,34 @@ public:
 
   static inline void setStaticF_s_NoOptionData(::TMPro::__TMP_Dropdown__OptionData* value);
 
-  /// @brief Method set_alphaFadeSpeed, addr 0x4751d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_alphaFadeSpeed, addr 0x4766454, size 0x8, virtual false, abstract: false, final false
   inline void set_alphaFadeSpeed(float_t value);
 
-  /// @brief Method set_captionImage, addr 0x4751cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_captionImage, addr 0x47663f0, size 0x8, virtual false, abstract: false, final false
   inline void set_captionImage(::UnityEngine::UI::Image* value);
 
-  /// @brief Method set_captionText, addr 0x47519c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_captionText, addr 0x47660dc, size 0x8, virtual false, abstract: false, final false
   inline void set_captionText(::TMPro::TMP_Text* value);
 
-  /// @brief Method set_itemImage, addr 0x4751d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_itemImage, addr 0x4766418, size 0x8, virtual false, abstract: false, final false
   inline void set_itemImage(::UnityEngine::UI::Image* value);
 
-  /// @brief Method set_itemText, addr 0x47519cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_itemText, addr 0x47660e4, size 0x8, virtual false, abstract: false, final false
   inline void set_itemText(::TMPro::TMP_Text* value);
 
-  /// @brief Method set_onValueChanged, addr 0x4751d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_onValueChanged, addr 0x4766444, size 0x8, virtual false, abstract: false, final false
   inline void set_onValueChanged(::TMPro::__TMP_Dropdown__DropdownEvent* value);
 
-  /// @brief Method set_options, addr 0x4751d08, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_options, addr 0x4766420, size 0x1c, virtual false, abstract: false, final false
   inline void set_options(::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* value);
 
-  /// @brief Method set_placeholder, addr 0x4751ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_placeholder, addr 0x4766400, size 0x8, virtual false, abstract: false, final false
   inline void set_placeholder(::UnityEngine::UI::Graphic* value);
 
-  /// @brief Method set_template, addr 0x47519bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_template, addr 0x47660d4, size 0x8, virtual false, abstract: false, final false
   inline void set_template(::UnityEngine::RectTransform* value);
 
-  /// @brief Method set_value, addr 0x4751d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x4766464, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
 protected:
@@ -1100,7 +1100,7 @@ public:
   ::UnityEngine::Coroutine* ___m_Coroutine;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14436 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

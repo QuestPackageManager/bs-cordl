@@ -36,7 +36,7 @@ public:
 
   __declspec(property(get = get_meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> meshRenderer;
 
-  /// @brief Method GetStartupLevel, addr 0x3b0367c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStartupLevel, addr 0x3b18a1c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetStartupLevel();
 
   static inline ::GlobalNamespace::NoteLODGroup* New_ctor();
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__postProcessEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x3b03684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b18a24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_meshFilter, addr 0x3b0358c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_meshFilter, addr 0x3b1892c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
 
-  /// @brief Method get_meshRenderer, addr 0x3b03604, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_meshRenderer, addr 0x3b189a4, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshRenderer> get_meshRenderer();
 
 protected:
@@ -74,7 +74,7 @@ public:
   ::UnityW<::GlobalNamespace::BoolSO> ____postProcessEnabled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

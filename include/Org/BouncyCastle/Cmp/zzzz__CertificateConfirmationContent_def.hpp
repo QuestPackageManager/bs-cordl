@@ -35,7 +35,7 @@ public:
   /// @brief Field digestAlgFinder, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_digestAlgFinder, put = __cordl_internal_set_digestAlgFinder)) ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder;
 
-  /// @brief Method GetStatusMessages, addr 0x260b9f8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetStatusMessages, addr 0x2616aa0, size 0x128, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Cmp::CertificateStatus*, ::Array<::Org::BouncyCastle::Cmp::CertificateStatus*>*> GetStatusMessages();
 
   static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* New_ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content);
@@ -43,7 +43,7 @@ public:
   static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* New_ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content,
                                                                                    ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder);
 
-  /// @brief Method ToAsn1Structure, addr 0x260b9f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Structure, addr 0x2616a98, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* ToAsn1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*& __cordl_internal_get_content();
@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* value);
 
-  /// @brief Method .ctor, addr 0x260b99c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2616a44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content);
 
-  /// @brief Method .ctor, addr 0x260b9c4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2616a6c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content, ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder);
 
 protected:

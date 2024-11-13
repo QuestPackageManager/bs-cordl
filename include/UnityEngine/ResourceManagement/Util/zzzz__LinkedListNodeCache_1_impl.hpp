@@ -28,7 +28,7 @@ UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::__cordl_interna
 }
 template <typename T> constexpr void UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::__cordl_internal_set_m_NodeCache(::System::Collections::Generic::LinkedList_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_NodeCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_NodeCache, value);
 }
 template <typename T> inline ::System::Collections::Generic::LinkedListNode_1<T>* UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::Acquire(T val) {
   static auto* ___internal_method =

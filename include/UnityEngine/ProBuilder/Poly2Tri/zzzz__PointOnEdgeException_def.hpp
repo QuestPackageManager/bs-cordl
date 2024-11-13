@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_C(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-  /// @brief Method .ctor, addr 0x46850b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46997c8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b,
                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
 
@@ -82,7 +82,7 @@ public:
   ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ___C;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17742 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

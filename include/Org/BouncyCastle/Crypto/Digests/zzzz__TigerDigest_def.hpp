@@ -72,59 +72,59 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x22f69e8, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x2301a90, size 0x104, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Copy, addr 0x22f7210, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x23022b8, size 0x58, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal, addr 0x22f71b0, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x2302258, size 0x60, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Finish, addr 0x22f7168, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x2302210, size 0x48, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method GetByteLength, addr 0x22f6470, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0x2301518, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x22f6468, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetDigestSize, addr 0x2301510, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
-  /// @brief Method KeySchedule, addr 0x22f6f70, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method KeySchedule, addr 0x2302018, size 0xdc, virtual false, abstract: false, final false
   inline void KeySchedule();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::TigerDigest* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::TigerDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::TigerDigest* t);
 
-  /// @brief Method ProcessBlock, addr 0x22f6594, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x230163c, size 0x3e4, virtual false, abstract: false, final false
   inline void ProcessBlock();
 
-  /// @brief Method ProcessLength, addr 0x22f713c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ProcessLength, addr 0x23021e4, size 0x2c, virtual false, abstract: false, final false
   inline void ProcessLength(int64_t bitLength);
 
-  /// @brief Method ProcessWord, addr 0x22f6478, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ProcessWord, addr 0x2301520, size 0x11c, virtual false, abstract: false, final false
   inline void ProcessWord(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t off);
 
-  /// @brief Method Reset, addr 0x22f6208, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x23012b0, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x22f6340, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x23013e8, size 0xe8, virtual true, abstract: false, final true
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method RoundABC, addr 0x22f6aec, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RoundABC, addr 0x2301b94, size 0x184, virtual false, abstract: false, final false
   inline void RoundABC(int64_t x, int64_t mul);
 
-  /// @brief Method RoundBCA, addr 0x22f6c70, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RoundBCA, addr 0x2301d18, size 0x180, virtual false, abstract: false, final false
   inline void RoundBCA(int64_t x, int64_t mul);
 
-  /// @brief Method RoundCAB, addr 0x22f6df0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RoundCAB, addr 0x2301e98, size 0x180, virtual false, abstract: false, final false
   inline void RoundCAB(int64_t x, int64_t mul);
 
-  /// @brief Method UnpackWord, addr 0x22f704c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UnpackWord, addr 0x23020f4, size 0xf0, virtual false, abstract: false, final false
   inline void UnpackWord(int64_t r, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Update, addr 0x22f6978, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x2301a20, size 0x70, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
@@ -175,10 +175,10 @@ public:
 
   constexpr void __cordl_internal_set_xOff(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22f617c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2301224, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x22f62ac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2301354, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::TigerDigest* t);
 
   static inline ::ArrayW<int64_t, ::Array<int64_t>*> getStaticF_t1();
@@ -189,7 +189,7 @@ public:
 
   static inline ::ArrayW<int64_t, ::Array<int64_t>*> getStaticF_t4();
 
-  /// @brief Method get_AlgorithmName, addr 0x22f6428, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x23014d0, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"

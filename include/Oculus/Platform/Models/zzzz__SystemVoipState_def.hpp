@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_Status(::Oculus::Platform::SystemVoipStatus value);
 
-  /// @brief Method .ctor, addr 0x3f1df10, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f325a0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -69,7 +69,7 @@ public:
   ::Oculus::Platform::SystemVoipStatus ___Status;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15530 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

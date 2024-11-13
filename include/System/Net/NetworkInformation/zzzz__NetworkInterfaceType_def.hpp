@@ -159,7 +159,7 @@ public:
   static ::System::Net::NetworkInformation::NetworkInterfaceType const Wwanpp2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9749 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

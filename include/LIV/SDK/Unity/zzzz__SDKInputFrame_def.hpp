@@ -41,16 +41,16 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKInputFrame {
 public:
   // Declarations
-  /// @brief Method ObtainControl, addr 0x3a5c2d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ObtainControl, addr 0x3a6fc30, size 0x14, virtual false, abstract: false, final false
   inline void ObtainControl();
 
-  /// @brief Method ReleaseControl, addr 0x3a5c2c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReleaseControl, addr 0x3a6fc20, size 0x10, virtual false, abstract: false, final false
   inline void ReleaseControl();
 
-  /// @brief Method ToString, addr 0x3a5dcac, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3a71604, size 0x334, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3a57fc8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3a6b920, size 0x13c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKInputFrame get_empty();
 
   // Ctor Parameters []
@@ -90,7 +90,7 @@ public:
   ::LIV::SDK::Unity::SDKPriority priority;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17279 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x158 };

@@ -31,18 +31,18 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::UI::ClipperRegistry* s_Instance;
 
-  /// @brief Method Cull, addr 0x48dce08, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Cull, addr 0x48f1520, size 0x10c, virtual false, abstract: false, final false
   inline void Cull();
 
-  /// @brief Method Disable, addr 0x48de26c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x48f2984, size 0x5c, virtual false, abstract: false, final false
   static inline void Disable(::UnityEngine::UI::IClipper* c);
 
   static inline ::UnityEngine::UI::ClipperRegistry* New_ctor();
 
-  /// @brief Method Register, addr 0x48de1a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x48f28b8, size 0x70, virtual false, abstract: false, final false
   static inline void Register(::UnityEngine::UI::IClipper* c);
 
-  /// @brief Method Unregister, addr 0x48de210, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x48f2928, size 0x5c, virtual false, abstract: false, final false
   static inline void Unregister(::UnityEngine::UI::IClipper* c);
 
   constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*& __cordl_internal_get_m_Clippers();
@@ -51,12 +51,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Clippers(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* value);
 
-  /// @brief Method .ctor, addr 0x48de124, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f283c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UI::ClipperRegistry* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x48dcd94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x48f14ac, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::ClipperRegistry* get_instance();
 
   static inline void setStaticF_s_Instance(::UnityEngine::UI::ClipperRegistry* value);
@@ -79,7 +79,7 @@ public:
   ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* ___m_Clippers;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15000 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

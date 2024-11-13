@@ -28,15 +28,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCompression*() noexcept;
 
-  /// @brief Method Compress, addr 0x23f3cec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Compress, addr 0x23fed94, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
 
-  /// @brief Method Decompress, addr 0x23f3cf4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Decompress, addr 0x23fed9c, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCompression* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23f3cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23feda4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"

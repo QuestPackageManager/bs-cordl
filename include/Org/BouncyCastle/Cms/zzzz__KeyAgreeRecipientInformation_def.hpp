@@ -62,34 +62,34 @@ public:
   /// @brief Field info, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info)) ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info;
 
-  /// @brief Method CalculateAgreedWrapKey, addr 0x26390b0, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method CalculateAgreedWrapKey, addr 0x2644158, size 0x3cc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* CalculateAgreedWrapKey(::StringW wrapAlg, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* senderPublicKey,
                                                                                        ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* receiverPrivateKey);
 
-  /// @brief Method GetContentStream, addr 0x2639888, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method GetContentStream, addr 0x2644930, size 0x10c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
-  /// @brief Method GetPublicKeyFromOriginatorID, addr 0x2639064, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKeyFromOriginatorID, addr 0x264410c, size 0x4c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetPublicKeyFromOriginatorID(::Org::BouncyCastle::Cms::OriginatorID* origID);
 
-  /// @brief Method GetPublicKeyFromOriginatorPublicKey, addr 0x2638fa8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKeyFromOriginatorPublicKey, addr 0x2644050, size 0xac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetPublicKeyFromOriginatorPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* receiverPrivateKey,
                                                                                                   ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* originatorPublicKey);
 
-  /// @brief Method GetSenderPublicKey, addr 0x2638ed0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetSenderPublicKey, addr 0x2643f78, size 0xd8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetSenderPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* receiverPrivateKey,
                                                                                  ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator);
 
-  /// @brief Method GetSessionKey, addr 0x263963c, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method GetSessionKey, addr 0x26446e4, size 0x24c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* GetSessionKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* receiverPrivateKey);
 
   static inline ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info, ::Org::BouncyCastle::Cms::RecipientID* rid,
                                                                                  ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method ReadRecipientInfo, addr 0x2618d88, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method ReadRecipientInfo, addr 0x2623e30, size 0x568, virtual false, abstract: false, final false
   static inline void ReadRecipientInfo(::System::Collections::IList* infos, ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method UnwrapSessionKey, addr 0x263947c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method UnwrapSessionKey, addr 0x2644524, size 0x1c0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* UnwrapSessionKey(::StringW wrapAlg, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* agreedKey);
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_encryptedKey();
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* value);
 
-  /// @brief Method .ctor, addr 0x2638e88, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2643f30, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info, ::Org::BouncyCastle::Cms::RecipientID* rid, ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey,
                     ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 

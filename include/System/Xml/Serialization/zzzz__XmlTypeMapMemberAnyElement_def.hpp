@@ -22,15 +22,15 @@ public:
   // Declarations
   __declspec(property(get = get_IsDefaultAny)) bool IsDefaultAny;
 
-  /// @brief Method IsElementDefined, addr 0x431621c, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method IsElementDefined, addr 0x432a934, size 0x334, virtual false, abstract: false, final false
   inline bool IsElementDefined(::StringW name, ::StringW ns);
 
   static inline ::System::Xml::Serialization::XmlTypeMapMemberAnyElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43192d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432d9f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsDefaultAny, addr 0x4318ff4, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method get_IsDefaultAny, addr 0x432d70c, size 0x2e4, virtual false, abstract: false, final false
   inline bool get_IsDefaultAny();
 
 protected:
@@ -48,7 +48,7 @@ public:
   XmlTypeMapMemberAnyElement(XmlTypeMapMemberAnyElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

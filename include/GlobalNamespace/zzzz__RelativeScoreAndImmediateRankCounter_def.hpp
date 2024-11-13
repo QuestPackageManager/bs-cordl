@@ -62,18 +62,18 @@ public:
   __declspec(property(get = __cordl_internal_get_relativeScoreOrImmediateRankDidChangeEvent,
                       put = __cordl_internal_set_relativeScoreOrImmediateRankDidChangeEvent)) ::System::Action* relativeScoreOrImmediateRankDidChangeEvent;
 
-  /// @brief Method HandleScoreDidChange, addr 0x3b2e6ec, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChange, addr 0x3b43b84, size 0x13c, virtual false, abstract: false, final false
   inline void HandleScoreDidChange(int32_t scoreWithoutModifiers, int32_t scoreWithModifiers);
 
   static inline ::GlobalNamespace::RelativeScoreAndImmediateRankCounter* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b2e5ec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b43a84, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b2e4b0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b43948, size 0x13c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateRelativeScoreAndImmediateRank, addr 0x3b2e828, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UpdateRelativeScoreAndImmediateRank, addr 0x3b43cc0, size 0x88, virtual false, abstract: false, final false
   inline void UpdateRelativeScoreAndImmediateRank(int32_t score, int32_t modifiedScore, int32_t maxPossibleScore, int32_t maxPossibleModifiedScore);
 
   constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
@@ -112,25 +112,25 @@ public:
 
   constexpr void __cordl_internal_set_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b2e8b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b43d48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent, addr 0x3b2cdb8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent, addr 0x3b42250, size 0x9c, virtual false, abstract: false, final false
   inline void add_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  /// @brief Method get_immediateRank, addr 0x3b2e4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_immediateRank, addr 0x3b43938, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__RankModel__Rank get_immediateRank();
 
-  /// @brief Method get_relativeScore, addr 0x3b2e490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeScore, addr 0x3b43928, size 0x8, virtual false, abstract: false, final false
   inline float_t get_relativeScore();
 
-  /// @brief Method remove_relativeScoreOrImmediateRankDidChangeEvent, addr 0x3b2e3f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_relativeScoreOrImmediateRankDidChangeEvent, addr 0x3b4388c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  /// @brief Method set_immediateRank, addr 0x3b2e4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_immediateRank, addr 0x3b43940, size 0x8, virtual false, abstract: false, final false
   inline void set_immediateRank(::GlobalNamespace::__RankModel__Rank value);
 
-  /// @brief Method set_relativeScore, addr 0x3b2e498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_relativeScore, addr 0x3b43930, size 0x8, virtual false, abstract: false, final false
   inline void set_relativeScore(float_t value);
 
 protected:
@@ -166,7 +166,7 @@ public:
   ::GlobalNamespace::__RankModel__Rank ____immediateRank_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4402 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

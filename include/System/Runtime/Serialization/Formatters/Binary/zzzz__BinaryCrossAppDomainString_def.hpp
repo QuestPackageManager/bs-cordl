@@ -29,12 +29,12 @@ public:
   /// @brief Field value, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int32_t value;
 
-  /// @brief Method Dump, addr 0x3c8b3fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3c9fa8c, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString* New_ctor();
 
-  /// @brief Method Read, addr 0x3c8b3b8, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3c9fa48, size 0x44, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
   constexpr int32_t const& __cordl_internal_get_objectId() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c8b3b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9fa40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

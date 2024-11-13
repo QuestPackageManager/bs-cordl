@@ -33,21 +33,21 @@ public:
   /// @brief Field maxSecurityStrengths, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_maxSecurityStrengths, put = setStaticF_maxSecurityStrengths)) ::System::Collections::IDictionary* maxSecurityStrengths;
 
-  /// @brief Method GetMaxSecurityStrength, addr 0x2386078, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSecurityStrength, addr 0x2391120, size 0x184, virtual false, abstract: false, final false
   static inline int32_t GetMaxSecurityStrength(::Org::BouncyCastle::Crypto::IDigest* d);
 
-  /// @brief Method GetMaxSecurityStrength, addr 0x23861fc, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSecurityStrength, addr 0x23912a4, size 0x1cc, virtual false, abstract: false, final false
   static inline int32_t GetMaxSecurityStrength(::Org::BouncyCastle::Crypto::IMac* m);
 
-  /// @brief Method HashDF, addr 0x23863c8, size 0x510, virtual false, abstract: false, final false
+  /// @brief Method HashDF, addr 0x2391470, size 0x510, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashDF(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> seedMaterial, int32_t seedLength);
 
-  /// @brief Method IsTooLarge, addr 0x23857f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsTooLarge, addr 0x2390898, size 0x14, virtual false, abstract: false, final false
   static inline bool IsTooLarge(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t maxBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23868d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2391980, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_maxSecurityStrengths();

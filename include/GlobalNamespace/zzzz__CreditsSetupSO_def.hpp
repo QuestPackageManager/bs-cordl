@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_titleTextPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x2229828, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22322dc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   float_t ___spaceHeight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

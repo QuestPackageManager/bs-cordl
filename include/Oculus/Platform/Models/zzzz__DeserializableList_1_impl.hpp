@@ -52,7 +52,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename T> constexpr void Oculus::Platform::Models::DeserializableList_1<T>::__cordl_internal_set__Data(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____Data, value);
 }
 template <typename T> constexpr ::StringW& Oculus::Platform::Models::DeserializableList_1<T>::__cordl_internal_get__NextUrl() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -64,7 +64,7 @@ template <typename T> constexpr ::StringW const& Oculus::Platform::Models::Deser
 }
 template <typename T> constexpr void Oculus::Platform::Models::DeserializableList_1<T>::__cordl_internal_set__NextUrl(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____NextUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____NextUrl, value);
 }
 template <typename T> constexpr ::StringW& Oculus::Platform::Models::DeserializableList_1<T>::__cordl_internal_get__PreviousUrl() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -76,7 +76,7 @@ template <typename T> constexpr ::StringW const& Oculus::Platform::Models::Deser
 }
 template <typename T> constexpr void Oculus::Platform::Models::DeserializableList_1<T>::__cordl_internal_set__PreviousUrl(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____PreviousUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____PreviousUrl, value);
 }
 template <typename T> inline int32_t Oculus::Platform::Models::DeserializableList_1<T>::get_Count() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::DeserializableList_1<T>*>::get(),

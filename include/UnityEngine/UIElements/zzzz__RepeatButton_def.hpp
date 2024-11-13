@@ -56,7 +56,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__RepeatButton__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4989074, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499d78c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   __RepeatButton__UxmlFactory(__RepeatButton__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5646 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -96,7 +96,7 @@ public:
   /// @brief Field m_Interval, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Interval, put = __cordl_internal_set_m_Interval)) ::UnityEngine::UIElements::UxmlLongAttributeDescription* m_Interval;
 
-  /// @brief Method Init, addr 0x49890bc, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x499d7d4, size 0x134, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__RepeatButton__UxmlTraits* New_ctor();
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Interval(::UnityEngine::UIElements::UxmlLongAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x49891f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499d908, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -137,7 +137,7 @@ public:
   ::UnityEngine::UIElements::UxmlLongAttributeDescription* ___m_Interval;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5652 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,14 +167,14 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method AddAction, addr 0x4988ff8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddAction, addr 0x499d710, size 0x1c, virtual false, abstract: false, final false
   inline void AddAction(::System::Action* clickEvent);
 
   static inline ::UnityEngine::UIElements::RepeatButton* New_ctor();
 
   static inline ::UnityEngine::UIElements::RepeatButton* New_ctor(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
-  /// @brief Method SetAction, addr 0x4988f5c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetAction, addr 0x499d674, size 0x9c, virtual false, abstract: false, final false
   inline void SetAction(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
   constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get_m_Clickable();
@@ -183,10 +183,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method .ctor, addr 0x4988e88, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499d5a0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4988f1c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499d634, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
   static inline ::StringW getStaticF_ussClassName();
@@ -211,7 +211,7 @@ public:
   ::UnityEngine::UIElements::Clickable* ___m_Clickable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5653 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x226f148, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227a0fc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextAsset* textAsset, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
 
-  /// @brief Method get_Format, addr 0x226f140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x227a0f4, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
 
-  /// @brief Method get_TextAsset, addr 0x226f138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextAsset, addr 0x227a0ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
 protected:
@@ -80,7 +80,7 @@ public:
   ::BGLib::Polyglot::GoogleDriveDownloadFormat ___format;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17995 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

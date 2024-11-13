@@ -58,22 +58,22 @@ public:
 
   constexpr void __cordl_internal_set_systemLiteral(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4221b34, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423624c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method get_Name, addr 0x4221b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4236274, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Name();
 
-  /// @brief Method get_Pubid, addr 0x4221b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pubid, addr 0x423628c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pubid();
 
-  /// @brief Method get_SystemLiteral, addr 0x4221b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemLiteral, addr 0x423627c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemLiteral();
 
-  /// @brief Method set_Pubid, addr 0x4221b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pubid, addr 0x4236294, size 0x8, virtual false, abstract: false, final false
   inline void set_Pubid(::StringW value);
 
-  /// @brief Method set_SystemLiteral, addr 0x4221b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SystemLiteral, addr 0x4236284, size 0x8, virtual false, abstract: false, final false
   inline void set_SystemLiteral(::StringW value);
 
 protected:
@@ -100,7 +100,7 @@ public:
   ::StringW ___pubid;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7597 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

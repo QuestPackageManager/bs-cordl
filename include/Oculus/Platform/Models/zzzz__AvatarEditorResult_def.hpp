@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_RequestSent(bool value);
 
-  /// @brief Method .ctor, addr 0x3f1a214, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2e8a4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -55,7 +55,7 @@ public:
   bool ___RequestSent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

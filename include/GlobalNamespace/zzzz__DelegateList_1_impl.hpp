@@ -22,7 +22,7 @@ template <typename T>
 constexpr void
 GlobalNamespace::DelegateList_1<T>::__cordl_internal_set_m_acquireFunc(::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_acquireFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_acquireFunc, value);
 }
 template <typename T>
 constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>*& GlobalNamespace::DelegateList_1<T>::__cordl_internal_get_m_releaseFunc() {
@@ -38,7 +38,7 @@ GlobalNamespace::DelegateList_1<T>::__cordl_internal_get_m_releaseFunc() const {
 template <typename T>
 constexpr void GlobalNamespace::DelegateList_1<T>::__cordl_internal_set_m_releaseFunc(::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_releaseFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_releaseFunc, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<T>*>*& GlobalNamespace::DelegateList_1<T>::__cordl_internal_get_m_callbacks() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -52,7 +52,7 @@ GlobalNamespace::DelegateList_1<T>::__cordl_internal_get_m_callbacks() const {
 }
 template <typename T> constexpr void GlobalNamespace::DelegateList_1<T>::__cordl_internal_set_m_callbacks(::System::Collections::Generic::LinkedList_1<::System::Action_1<T>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_callbacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_callbacks, value);
 }
 template <typename T> constexpr bool& GlobalNamespace::DelegateList_1<T>::__cordl_internal_get_m_invoking() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

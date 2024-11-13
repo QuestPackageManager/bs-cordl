@@ -17,7 +17,7 @@ constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedu
 }
 template <typename T0> constexpr void GlobalNamespace::RemoteProcedureCall_1<T0>::__cordl_internal_set__value0(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____value0, value);
 }
 template <typename T0> inline T0 GlobalNamespace::RemoteProcedureCall_1<T0>::get_value0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteProcedureCall_1<T0>*>::get(), "get_value0",

@@ -122,7 +122,7 @@ public:
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* ___value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15655 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -173,7 +173,7 @@ public:
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* ___value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15656 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -723,7 +723,7 @@ public:
   ::System::Action_1<float_t>* ___m_UpdateCallback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15657 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

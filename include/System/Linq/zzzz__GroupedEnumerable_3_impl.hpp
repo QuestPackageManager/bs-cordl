@@ -43,7 +43,7 @@ System::Linq::GroupedEnumerable_3<TSource, TKey, TElement>::__cordl_internal_get
 template <typename TSource, typename TKey, typename TElement>
 constexpr void System::Linq::GroupedEnumerable_3<TSource, TKey, TElement>::__cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<TSource>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___source, value);
 }
 template <typename TSource, typename TKey, typename TElement>
 constexpr ::System::Func_2<TSource, TKey>*& System::Linq::GroupedEnumerable_3<TSource, TKey, TElement>::__cordl_internal_get_keySelector() {
@@ -58,7 +58,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TKey>*> 
 template <typename TSource, typename TKey, typename TElement>
 constexpr void System::Linq::GroupedEnumerable_3<TSource, TKey, TElement>::__cordl_internal_set_keySelector(::System::Func_2<TSource, TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keySelector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___keySelector, value);
 }
 template <typename TSource, typename TKey, typename TElement>
 constexpr ::System::Func_2<TSource, TElement>*& System::Linq::GroupedEnumerable_3<TSource, TKey, TElement>::__cordl_internal_get_elementSelector() {
@@ -73,7 +73,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TElement
 template <typename TSource, typename TKey, typename TElement>
 constexpr void System::Linq::GroupedEnumerable_3<TSource, TKey, TElement>::__cordl_internal_set_elementSelector(::System::Func_2<TSource, TElement>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___elementSelector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___elementSelector, value);
 }
 template <typename TSource, typename TKey, typename TElement>
 constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& System::Linq::GroupedEnumerable_3<TSource, TKey, TElement>::__cordl_internal_get_comparer() {
@@ -89,7 +89,7 @@ System::Linq::GroupedEnumerable_3<TSource, TKey, TElement>::__cordl_internal_get
 template <typename TSource, typename TKey, typename TElement>
 constexpr void System::Linq::GroupedEnumerable_3<TSource, TKey, TElement>::__cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___comparer, value);
 }
 template <typename TSource, typename TKey, typename TElement>
 inline ::System::Linq::GroupedEnumerable_3<TSource, TKey, TElement>*

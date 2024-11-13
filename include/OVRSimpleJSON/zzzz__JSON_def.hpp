@@ -23,7 +23,7 @@ namespace OVRSimpleJSON {
 class CORDL_TYPE JSON : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse, addr 0x3fdec2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3ff32bc, size 0x4, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* Parse(::StringW aJSON);
 
 protected:
@@ -41,7 +41,7 @@ public:
   JSON(JSON const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8503 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

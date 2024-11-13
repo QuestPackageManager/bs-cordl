@@ -29,13 +29,13 @@ public:
 
   static inline ::GlobalNamespace::NoInvitePlatformHandler* New_ctor();
 
-  /// @brief Method OpenInvitePanel, addr 0x26992e0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method OpenInvitePanel, addr 0x26a4f00, size 0x38, virtual true, abstract: false, final true
   inline void OpenInvitePanel();
 
-  /// @brief Method .ctor, addr 0x2699318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a4f38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isSupported, addr 0x26992d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isSupported, addr 0x26a4ef8, size 0x8, virtual true, abstract: false, final true
   inline bool get_isSupported();
 
   /// @brief Convert to "::GlobalNamespace::IInvitePlatformHandler"
@@ -56,7 +56,7 @@ public:
   NoInvitePlatformHandler(NoInvitePlatformHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13059 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

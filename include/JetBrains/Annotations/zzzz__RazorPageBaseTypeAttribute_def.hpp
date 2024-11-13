@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a78190, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c8a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType);
 
-  /// @brief Method .ctor, addr 0x4a781b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c8d0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType, ::StringW pageName);
 
-  /// @brief Method get_BaseType, addr 0x4a781e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x4a8c8fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
-  /// @brief Method get_PageName, addr 0x4a781f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageName, addr 0x4a8c90c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PageName();
 
-  /// @brief Method set_BaseType, addr 0x4a781ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x4a8c904, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::StringW value);
 
-  /// @brief Method set_PageName, addr 0x4a781fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PageName, addr 0x4a8c914, size 0x8, virtual false, abstract: false, final false
   inline void set_PageName(::StringW value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::StringW ____PageName_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18428 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

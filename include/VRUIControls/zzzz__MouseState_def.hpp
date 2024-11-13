@@ -37,18 +37,18 @@ public:
   /// @brief Field _trackedButtons, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__trackedButtons, put = __cordl_internal_set__trackedButtons)) ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* _trackedButtons;
 
-  /// @brief Method AnyPressesThisFrame, addr 0x4a715b4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AnyPressesThisFrame, addr 0x4a85ccc, size 0xa8, virtual false, abstract: false, final false
   inline bool AnyPressesThisFrame();
 
-  /// @brief Method AnyReleasesThisFrame, addr 0x4a7165c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AnyReleasesThisFrame, addr 0x4a85d74, size 0xac, virtual false, abstract: false, final false
   inline bool AnyReleasesThisFrame();
 
-  /// @brief Method GetButtonState, addr 0x4a71708, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetButtonState, addr 0x4a85e20, size 0x194, virtual false, abstract: false, final false
   inline ::VRUIControls::ButtonState* GetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button);
 
   static inline ::VRUIControls::MouseState* New_ctor();
 
-  /// @brief Method SetButtonState, addr 0x4a7189c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetButtonState, addr 0x4a85fb4, size 0x38, virtual false, abstract: false, final false
   inline void SetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button, ::UnityEngine::EventSystems::__PointerEventData__FramePressState stateForMouseButton,
                              ::UnityEngine::EventSystems::PointerEventData* data);
 
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__trackedButtons(::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* value);
 
-  /// @brief Method .ctor, addr 0x4a718d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a85fec, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* ____trackedButtons;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18165 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

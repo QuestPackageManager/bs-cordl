@@ -39,7 +39,7 @@ public:
   /// @brief Field propertyName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName)) ::StringW propertyName;
 
-  /// @brief Method IsNullAllowedFor, addr 0x225ea88, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method IsNullAllowedFor, addr 0x22699c8, size 0xfc, virtual false, abstract: false, final false
   inline bool IsNullAllowedFor(::System::Object* value, ::GlobalNamespace::__NullAllowed__Context context);
 
   static inline ::GlobalNamespace::NullAllowedIf* New_ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare,
@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set_propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x225ea44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269984, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare, ::GlobalNamespace::__NullAllowed__Context context);
 
-  /// @brief Method .ctor, addr 0x225ea04, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269944, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::__NullAllowed__Context context);
 
 protected:
@@ -95,7 +95,7 @@ public:
   ::GlobalNamespace::ComparisonOperation ____comparisonOperation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19070 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

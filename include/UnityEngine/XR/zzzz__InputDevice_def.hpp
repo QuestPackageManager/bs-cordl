@@ -37,34 +37,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::InputDevice>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::InputDevice>*();
 
-  /// @brief Method Equals, addr 0x4a6fbe4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a842fc, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a6fc74, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a8438c, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::InputDevice other);
 
-  /// @brief Method GetHashCode, addr 0x4a6fc9c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a843b4, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsValidId, addr 0x4a6f908, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValidId, addr 0x4a84020, size 0x20, virtual false, abstract: false, final false
   inline bool IsValidId();
 
-  /// @brief Method SendHapticImpulse, addr 0x4a6f9fc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x4a84114, size 0xf8, virtual false, abstract: false, final false
   inline bool SendHapticImpulse(uint32_t channel, float_t amplitude, float_t duration);
 
-  /// @brief Method StopHaptics, addr 0x4a6fb50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method StopHaptics, addr 0x4a84268, size 0x58, virtual false, abstract: false, final false
   inline void StopHaptics();
 
-  /// @brief Method .ctor, addr 0x4a6f884, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a83f9c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint64_t deviceId);
 
-  /// @brief Method get_deviceId, addr 0x4a6f894, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x4a83fac, size 0x18, virtual false, abstract: false, final false
   inline uint64_t get_deviceId();
 
-  /// @brief Method get_isValid, addr 0x4a6f8ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x4a83fc4, size 0x5c, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method get_manufacturer, addr 0x4a6f964, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_manufacturer, addr 0x4a8407c, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW get_manufacturer();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::InputDevice>"
@@ -84,7 +84,7 @@ public:
   bool m_Initialized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18189 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -46,7 +46,7 @@ public:
   /// @brief Field p, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) ::Org::BouncyCastle::Math::EC::ECPoint* p;
 
-  /// @brief Method GetPointEncoding, addr 0x25e8ce8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetPointEncoding, addr 0x25f3d90, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPointEncoding();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* c, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
@@ -57,7 +57,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* p, bool compressed);
 
-  /// @brief Method ToAsn1Object, addr 0x25e8dac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25f3e54, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __cordl_internal_get_c();
@@ -78,22 +78,22 @@ public:
 
   constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method .ctor, addr 0x25e2084, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ed12c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* c, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor, addr 0x25e8378, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3420, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method .ctor, addr 0x25e8468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3510, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method .ctor, addr 0x25e8c30, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3cd8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* p, bool compressed);
 
-  /// @brief Method get_IsPointCompressed, addr 0x25e8d60, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsPointCompressed, addr 0x25f3e08, size 0x4c, virtual false, abstract: false, final false
   inline bool get_IsPointCompressed();
 
-  /// @brief Method get_Point, addr 0x25e2134, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Point, addr 0x25ed1dc, size 0x70, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Point();
 
 protected:

@@ -25,13 +25,13 @@ namespace TMPro {
 struct CORDL_TYPE TMP_LinkInfo {
 public:
   // Declarations
-  /// @brief Method GetLinkID, addr 0x474e5d8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLinkID, addr 0x4762cf0, size 0xa8, virtual false, abstract: false, final false
   inline ::StringW GetLinkID();
 
-  /// @brief Method GetLinkText, addr 0x474e4d0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetLinkText, addr 0x4762be8, size 0x108, virtual false, abstract: false, final false
   inline ::StringW GetLinkText();
 
-  /// @brief Method SetLinkID, addr 0x474e3fc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetLinkID, addr 0x4762b14, size 0xd4, virtual false, abstract: false, final false
   inline void SetLinkID(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
   // Ctor Parameters []
@@ -67,7 +67,7 @@ public:
   ::ArrayW<char16_t, ::Array<char16_t>*> linkID;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14402 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

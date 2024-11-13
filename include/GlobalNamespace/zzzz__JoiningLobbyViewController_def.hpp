@@ -41,18 +41,18 @@ public:
   /// @brief Field didCancelEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didCancelEvent, put = __cordl_internal_set_didCancelEvent)) ::System::Action* didCancelEvent;
 
-  /// @brief Method DidActivate, addr 0x3ba2ce4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3bb7e54, size 0xc4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HideLoading, addr 0x3ba2ca4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HideLoading, addr 0x3bb7e14, size 0x40, virtual false, abstract: false, final false
   inline void HideLoading();
 
-  /// @brief Method Init, addr 0x3ba2c70, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3bb7de0, size 0x34, virtual false, abstract: false, final false
   inline void Init(::StringW text);
 
   static inline ::GlobalNamespace::JoiningLobbyViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x3ba2db0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x3bb7f20, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelJoiningButton() const;
@@ -79,13 +79,13 @@ public:
 
   constexpr void __cordl_internal_set_didCancelEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3ba2da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb7f18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didCancelEvent, addr 0x3ba2b38, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didCancelEvent, addr 0x3bb7ca8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didCancelEvent(::System::Action* value);
 
-  /// @brief Method remove_didCancelEvent, addr 0x3ba2bd4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didCancelEvent, addr 0x3bb7d44, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didCancelEvent(::System::Action* value);
 
 protected:
@@ -115,7 +115,7 @@ public:
   ::System::Action* ___didCancelEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4904 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

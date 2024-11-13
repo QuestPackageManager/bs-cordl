@@ -58,19 +58,19 @@ public:
 
   static inline ::UnityEngine::UIElements::TimerEventScheduler* New_ctor();
 
-  /// @brief Method PrivateUnSchedule, addr 0x49ed31c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PrivateUnSchedule, addr 0x4a01a34, size 0xa0, virtual false, abstract: false, final false
   inline bool PrivateUnSchedule(::UnityEngine::UIElements::ScheduledItem* sItem);
 
-  /// @brief Method RemovedScheduledItemAt, addr 0x49ed110, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RemovedScheduledItemAt, addr 0x4a01828, size 0x7c, virtual false, abstract: false, final false
   inline bool RemovedScheduledItemAt(int32_t index);
 
-  /// @brief Method Schedule, addr 0x49ecf58, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method Schedule, addr 0x4a01670, size 0x1b8, virtual true, abstract: false, final true
   inline void Schedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method Unschedule, addr 0x49ed18c, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method Unschedule, addr 0x4a018a4, size 0x190, virtual true, abstract: false, final true
   inline void Unschedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method UpdateScheduledEvents, addr 0x49ed3bc, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method UpdateScheduledEvents, addr 0x4a01ad4, size 0x314, virtual true, abstract: false, final true
   inline void UpdateScheduledEvents();
 
   constexpr bool const& __cordl_internal_get_disableThrottling() const;
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UnscheduleTransactions(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>* value);
 
-  /// @brief Method .ctor, addr 0x49ed6d0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a01de8, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IScheduler"
@@ -148,7 +148,7 @@ public:
   int32_t ___m_LastUpdatedIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6020 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__inputMeshes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh*>* value);
 
-  /// @brief Method .ctor, addr 0x3a13fa4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a278fc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   bool ____hasLOD;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11789 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -226,7 +226,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3a14020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a27978, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -274,7 +274,7 @@ public:
   ::UnityW<::UnityEngine::Transform> ____transform;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11790 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -314,31 +314,31 @@ public:
 
   using HEU_InputDataMeshes = ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMeshes;
 
-  /// @brief Method CreateInputNodeWithDataUpload, addr 0x3a11338, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method CreateInputNodeWithDataUpload, addr 0x3a24c90, size 0x184, virtual true, abstract: false, final false
   inline bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t connectNodeID, ::UnityEngine::GameObject* inputObject, ByRef<int32_t> inputNodeID);
 
-  /// @brief Method CreateSingleMeshData, addr 0x3a13bc8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method CreateSingleMeshData, addr 0x3a27520, size 0x1d4, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh* CreateSingleMeshData(::UnityEngine::GameObject* meshGameObject);
 
-  /// @brief Method GenerateMeshDatasFromGameObject, addr 0x3a114bc, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method GenerateMeshDatasFromGameObject, addr 0x3a24e14, size 0x374, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMeshes* GenerateMeshDatasFromGameObject(::UnityEngine::GameObject* inputObject);
 
-  /// @brief Method GetMeshFromObject, addr 0x3a13d9c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetMeshFromObject, addr 0x3a276f4, size 0x208, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> GetMeshFromObject(::UnityEngine::GameObject* meshGameObject);
 
-  /// @brief Method GetUVsFromMesh, addr 0x3a13b38, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetUVsFromMesh, addr 0x3a27490, size 0x90, virtual false, abstract: false, final false
   static inline void GetUVsFromMesh(::UnityEngine::Mesh* mesh, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> srcUVs,
                                     ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* destUVs, int32_t index);
 
-  /// @brief Method IsThisInputObjectSupported, addr 0x3a139d4, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method IsThisInputObjectSupported, addr 0x3a2732c, size 0x164, virtual true, abstract: false, final false
   inline bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);
 
   static inline ::HoudiniEngineUnity::HEU_InputInterfaceMesh* New_ctor();
 
-  /// @brief Method UploadData, addr 0x3a11830, size 0x21a4, virtual false, abstract: false, final false
+  /// @brief Method UploadData, addr 0x3a25188, size 0x21a4, virtual false, abstract: false, final false
   inline bool UploadData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t inputNodeID, ::HoudiniEngineUnity::HEU_InputData* inputData);
 
-  /// @brief Method .ctor, addr 0x3a11318, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a24c70, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -356,7 +356,7 @@ public:
   HEU_InputInterfaceMesh(HEU_InputInterfaceMesh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11791 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

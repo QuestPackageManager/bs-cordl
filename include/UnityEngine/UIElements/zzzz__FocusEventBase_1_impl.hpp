@@ -17,7 +17,7 @@ constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusab
 }
 template <typename T> constexpr void UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_set__relatedTarget_k__BackingField(::UnityEngine::UIElements::Focusable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____relatedTarget_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____relatedTarget_k__BackingField, value);
 }
 template <typename T> constexpr ::UnityEngine::UIElements::FocusChangeDirection*& UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_get__direction_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -31,7 +31,7 @@ UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_get__direction_k_
 }
 template <typename T> constexpr void UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_set__direction_k__BackingField(::UnityEngine::UIElements::FocusChangeDirection* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____direction_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____direction_k__BackingField, value);
 }
 template <typename T> constexpr ::UnityEngine::UIElements::FocusController*& UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_get__focusController_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -45,7 +45,7 @@ UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_get__focusControl
 }
 template <typename T> constexpr void UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_set__focusController_k__BackingField(::UnityEngine::UIElements::FocusController* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____focusController_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____focusController_k__BackingField, value);
 }
 template <typename T> constexpr bool& UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_get__IsFocusDelegated_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

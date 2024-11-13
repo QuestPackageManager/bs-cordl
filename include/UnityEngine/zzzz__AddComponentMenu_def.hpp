@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Ordering(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4830f44, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484565c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW menuName);
 
-  /// @brief Method .ctor, addr 0x4830f70, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4845688, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW menuName, int32_t order);
 
 protected:
@@ -70,7 +70,7 @@ public:
   int32_t ___m_Ordering;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10824 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

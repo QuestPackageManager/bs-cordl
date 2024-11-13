@@ -58,25 +58,25 @@ public:
 
   constexpr void __cordl_internal_set__KernelType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4ac5928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ada040, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CreateKernel, addr 0x4ac5904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateKernel, addr 0x4ada01c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateKernel();
 
-  /// @brief Method get_DefaultParentName, addr 0x4ac58f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultParentName, addr 0x4ada00c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultParentName();
 
-  /// @brief Method get_KernelType, addr 0x4ac5918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KernelType, addr 0x4ada030, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_KernelType();
 
-  /// @brief Method set_CreateKernel, addr 0x4ac590c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CreateKernel, addr 0x4ada024, size 0xc, virtual false, abstract: false, final false
   inline void set_CreateKernel(bool value);
 
-  /// @brief Method set_DefaultParentName, addr 0x4ac58fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultParentName, addr 0x4ada014, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultParentName(::StringW value);
 
-  /// @brief Method set_KernelType, addr 0x4ac5920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KernelType, addr 0x4ada038, size 0x8, virtual false, abstract: false, final false
   inline void set_KernelType(::System::Type* value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   ::System::Type* ____KernelType_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12546 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

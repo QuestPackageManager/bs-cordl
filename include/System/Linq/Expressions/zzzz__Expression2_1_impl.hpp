@@ -16,7 +16,7 @@ template <typename TDelegate> constexpr ::cordl_internals::to_const_pointer<::Sy
 }
 template <typename TDelegate> constexpr void System::Linq::Expressions::Expression2_1<TDelegate>::__cordl_internal_set__par0(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____par0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____par0, value);
 }
 template <typename TDelegate> constexpr ::System::Linq::Expressions::ParameterExpression*& System::Linq::Expressions::Expression2_1<TDelegate>::__cordl_internal_get__par1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -29,7 +29,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Param
 }
 template <typename TDelegate> constexpr void System::Linq::Expressions::Expression2_1<TDelegate>::__cordl_internal_set__par1(::System::Linq::Expressions::ParameterExpression* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____par1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____par1, value);
 }
 template <typename TDelegate>
 inline ::System::Linq::Expressions::Expression2_1<TDelegate>* System::Linq::Expressions::Expression2_1<TDelegate>::New_ctor(::System::Linq::Expressions::Expression* body,

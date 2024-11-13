@@ -25,13 +25,13 @@ namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct CORDL_TYPE StyleSyntaxToken {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x49650e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49797fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType t);
 
-  /// @brief Method .ctor, addr 0x4965104, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497981c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, int32_t number);
 
-  /// @brief Method .ctor, addr 0x49650f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497980c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text);
 
   // Ctor Parameters []
@@ -52,7 +52,7 @@ public:
   int32_t number;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6450 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

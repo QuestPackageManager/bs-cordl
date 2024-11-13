@@ -34,17 +34,17 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x410d4c4, size 0x2fc, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x4121bdc, size 0x2fc, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
   static inline ::System::Data::PropertyCollection* New_ctor();
 
   static inline ::System::Data::PropertyCollection* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x410d4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4121bcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x410d4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4121bd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::ICloneable"
@@ -65,7 +65,7 @@ public:
   PropertyCollection(PropertyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

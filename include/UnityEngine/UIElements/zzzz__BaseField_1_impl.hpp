@@ -34,7 +34,7 @@ UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType>::__cordl_internal
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_Label(::UnityEngine::UIElements::UxmlStringAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Label)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Label, value);
 }
 template <typename TValueType> inline ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType>* UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType>*>());
@@ -137,7 +137,7 @@ constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualE
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_m_VisualInput(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_VisualInput)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_VisualInput, value);
 }
 template <typename TValueType> constexpr TValueType& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_Value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -149,7 +149,7 @@ template <typename TValueType> constexpr TValueType const& UnityEngine::UIElemen
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_m_Value(TValueType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Value, value);
 }
 template <typename TValueType> constexpr ::System::Func_2<TValueType, TValueType>*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_onValidateValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -162,7 +162,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TValueType, TValu
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_onValidateValue(::System::Func_2<TValueType, TValueType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onValidateValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___onValidateValue, value);
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::Label*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get__labelElement_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -175,7 +175,7 @@ constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*>
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set__labelElement_k__BackingField(::UnityEngine::UIElements::Label* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____labelElement_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____labelElement_k__BackingField, value);
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_ShowMixedValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -200,7 +200,7 @@ constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*>
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_m_MixedValueLabel(::UnityEngine::UIElements::Label* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MixedValueLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_MixedValueLabel, value);
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_SkipValidation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -226,7 +226,7 @@ UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_CachedC
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_m_CachedContextWidthElement(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CachedContextWidthElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_CachedContextWidthElement, value);
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_CachedInspectorElement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -240,7 +240,7 @@ UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_CachedI
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_m_CachedInspectorElement(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CachedInspectorElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_CachedInspectorElement, value);
 }
 template <typename TValueType>
 constexpr ::System::Action*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get__UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField() {
@@ -256,8 +256,7 @@ UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get__UnityEng
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set__UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField, value);
 }
 template <typename TValueType>
 constexpr ::System::Action*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get__UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField() {
@@ -273,8 +272,7 @@ UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get__UnityEng
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set__UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField, value);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::setStaticF_ussClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get>(

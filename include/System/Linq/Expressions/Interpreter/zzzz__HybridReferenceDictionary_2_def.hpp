@@ -158,7 +158,7 @@ public:
   int32_t ____i_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14090 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -248,7 +248,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____dict;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14091 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

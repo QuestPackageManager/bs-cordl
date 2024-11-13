@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set__progressActivities(::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> value);
 
-  /// @brief Method .ctor, addr 0x26a6a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b26ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_competetiveActivities, addr 0x26a6a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_competetiveActivities, addr 0x26b26e4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> get_competetiveActivities();
 
-  /// @brief Method get_progressActivities, addr 0x26a6a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progressActivities, addr 0x26b26dc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> get_progressActivities();
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> ____competetiveActivities;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13128 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

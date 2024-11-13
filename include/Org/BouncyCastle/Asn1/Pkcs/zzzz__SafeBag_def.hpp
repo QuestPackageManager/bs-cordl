@@ -49,7 +49,7 @@ public:
   /// @brief Field bagValue, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_bagValue, put = __cordl_internal_set_bagValue)) ::Org::BouncyCastle::Asn1::Asn1Object* bagValue;
 
-  /// @brief Method GetInstance, addr 0x23d44a8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23df550, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj);
@@ -59,7 +59,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23d479c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23df844, size 0x1a0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_bagAttributes();
@@ -80,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_bagValue(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x23d4718, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23df7c0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method .ctor, addr 0x23d4748, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23df7f0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj, ::Org::BouncyCastle::Asn1::Asn1Set* bagAttributes);
 
-  /// @brief Method .ctor, addr 0x23d454c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23df5f4, size 0x1cc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_BagAttributes, addr 0x23d4794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BagAttributes, addr 0x23df83c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_BagAttributes();
 
-  /// @brief Method get_BagID, addr 0x23d4784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BagID, addr 0x23df82c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_BagID();
 
-  /// @brief Method get_BagValue, addr 0x23d478c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BagValue, addr 0x23df834, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_BagValue();
 
 protected:

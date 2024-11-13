@@ -85,19 +85,19 @@ public:
   /// @brief Field _transform, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Inject, addr 0x3a9c08c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x3aafbb8, size 0xe4, virtual false, abstract: false, final false
   inline void Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0, ::GlobalNamespace::VRController* controller1,
                      ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver);
 
   static inline ::GlobalNamespace::FirstPersonFlyingController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3a9b754, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3aaf230, size 0x24c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3a9b444, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3aaef20, size 0x270, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x3a9b9a0, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3aaf47c, size 0x394, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3a9c170, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aafc9c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -235,7 +235,7 @@ public:
   float_t ____originalCameraFov;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5011 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

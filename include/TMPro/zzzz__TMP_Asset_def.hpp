@@ -63,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_materialHashCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x474eb9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47632b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_instanceID, addr 0x474eb74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x476328c, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
 protected:
@@ -96,7 +96,7 @@ public:
   int32_t ___materialHashCode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14410 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

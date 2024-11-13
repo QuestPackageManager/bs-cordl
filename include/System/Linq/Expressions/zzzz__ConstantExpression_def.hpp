@@ -43,7 +43,7 @@ public:
   /// @brief Field <Value>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField)) ::System::Object* _Value_k__BackingField;
 
-  /// @brief Method Accept, addr 0x4038000, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x404c718, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
   static inline ::System::Linq::Expressions::ConstantExpression* New_ctor(::System::Object* value);
@@ -54,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x4037efc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404c614, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value);
 
-  /// @brief Method get_NodeType, addr 0x4037ff0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x404c708, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x4037f68, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x404c680, size 0x88, virtual true, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_Value, addr 0x4037ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x404c710, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -84,7 +84,7 @@ public:
   ::System::Object* ____Value_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13627 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -37,11 +37,11 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer* New_ctor();
 
-  /// @brief Method System.Collections.Generic.IComparer<System.Linq.Expressions.Interpreter.DebugInfo>.Compare, addr 0x40610e0, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IComparer<System.Linq.Expressions.Interpreter.DebugInfo>.Compare, addr 0x40757f8, size 0x34, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare(::System::Linq::Expressions::Interpreter::DebugInfo* d1,
                                                                                                              ::System::Linq::Expressions::Interpreter::DebugInfo* d2);
 
-  /// @brief Method .ctor, addr 0x40610d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40757f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::System::Linq::Expressions::Interpreter::DebugInfo*>"
@@ -63,7 +63,7 @@ public:
   __DebugInfo__DebugInfoComparer(__DebugInfo__DebugInfoComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13906 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -99,13 +99,13 @@ public:
   /// @brief Field s_debugComparer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_debugComparer, put = setStaticF_s_debugComparer)) ::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer* s_debugComparer;
 
-  /// @brief Method GetMatchingDebugInfo, addr 0x405cc98, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetMatchingDebugInfo, addr 0x40713b0, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::DebugInfo*
   GetMatchingDebugInfo(::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*, ::Array<::System::Linq::Expressions::Interpreter::DebugInfo*>*> debugInfos, int32_t index);
 
   static inline ::System::Linq::Expressions::Interpreter::DebugInfo* New_ctor();
 
-  /// @brief Method ToString, addr 0x4060e54, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x407556c, size 0x214, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_EndLine() const;
@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set_StartLine(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4060e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4075564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::__DebugInfo__DebugInfoComparer* getStaticF_s_debugComparer();
@@ -175,7 +175,7 @@ public:
   bool ___IsClear;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13907 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

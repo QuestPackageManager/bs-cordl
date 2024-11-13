@@ -40,18 +40,18 @@ public:
                       put = __cordl_internal_set__standardLevelSceneSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>
       _standardLevelSceneSetupData;
 
-  /// @brief Method HandleLevelFinished, addr 0x3b375f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x3b4d0a8, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
   static inline ::GlobalNamespace::StandardLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b374f0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b4cfa8, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b37400, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b4ceb8, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x3b375f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x3b4d0ac, size 0x40, virtual false, abstract: false, final false
   inline void StartLevelFinished();
 
   constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3b37634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4d0ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   ::GlobalNamespace::ILevelEndActions* ____gameplayManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4442 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

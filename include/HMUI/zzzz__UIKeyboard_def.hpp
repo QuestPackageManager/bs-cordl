@@ -13,7 +13,7 @@ namespace HMUI {
 class UIKeyboardKey;
 }
 namespace HMUI {
-class __UIKeyboard____c__DisplayClass13_0;
+class __UIKeyboard____c__DisplayClass14_0;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -41,17 +41,17 @@ namespace HMUI {
 class UIKeyboard;
 }
 namespace HMUI {
-class __UIKeyboard____c__DisplayClass13_0;
+class __UIKeyboard____c__DisplayClass14_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::UIKeyboard);
-MARK_REF_PTR_T(::HMUI::__UIKeyboard____c__DisplayClass13_0);
-// Type: ::<>c__DisplayClass13_0
+MARK_REF_PTR_T(::HMUI::__UIKeyboard____c__DisplayClass14_0);
+// Type: ::<>c__DisplayClass14_0
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// CS Name: ::UIKeyboard::<>c__DisplayClass13_0*
-class CORDL_TYPE __UIKeyboard____c__DisplayClass13_0 : public ::System::Object {
+// CS Name: ::UIKeyboard::<>c__DisplayClass14_0*
+class CORDL_TYPE __UIKeyboard____c__DisplayClass14_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -60,10 +60,10 @@ public:
   /// @brief Field key, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::UnityW<::HMUI::UIKeyboardKey> key;
 
-  static inline ::HMUI::__UIKeyboard____c__DisplayClass13_0* New_ctor();
+  static inline ::HMUI::__UIKeyboard____c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method <Awake>b__2, addr 0x3984fec, size 0x24, virtual false, abstract: false, final false
-  inline void _Awake_b__2();
+  /// @brief Method <Awake>b__3, addr 0x3998934, size 0x24, virtual false, abstract: false, final false
+  inline void _Awake_b__3();
 
   constexpr ::UnityW<::HMUI::UIKeyboard> const& __cordl_internal_get___4__this() const;
 
@@ -77,22 +77,22 @@ public:
 
   constexpr void __cordl_internal_set_key(::UnityW<::HMUI::UIKeyboardKey> value);
 
-  /// @brief Method .ctor, addr 0x3984d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3998654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __UIKeyboard____c__DisplayClass13_0();
+  constexpr __UIKeyboard____c__DisplayClass14_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__UIKeyboard____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__UIKeyboard____c__DisplayClass14_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __UIKeyboard____c__DisplayClass13_0(__UIKeyboard____c__DisplayClass13_0&&) = delete;
+  __UIKeyboard____c__DisplayClass14_0(__UIKeyboard____c__DisplayClass14_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__UIKeyboard____c__DisplayClass13_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__UIKeyboard____c__DisplayClass14_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __UIKeyboard____c__DisplayClass13_0(__UIKeyboard____c__DisplayClass13_0 const&) = delete;
+  __UIKeyboard____c__DisplayClass14_0(__UIKeyboard____c__DisplayClass14_0 const&) = delete;
 
   /// @brief Field key, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HMUI::UIKeyboardKey> ___key;
@@ -101,75 +101,81 @@ public:
   ::UnityW<::HMUI::UIKeyboard> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16002 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::__UIKeyboard____c__DisplayClass13_0, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::__UIKeyboard____c__DisplayClass14_0, 0x20>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::__UIKeyboard____c__DisplayClass13_0, ___key) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::HMUI::__UIKeyboard____c__DisplayClass14_0, ___key) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__UIKeyboard____c__DisplayClass13_0, _____4__this) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::__UIKeyboard____c__DisplayClass14_0, _____4__this) == 0x18, "Offset mismatch!");
 
 } // namespace HMUI
 // Type: HMUI::UIKeyboard
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::UIKeyboard*
 class CORDL_TYPE UIKeyboard : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using __c__DisplayClass13_0 = ::HMUI::__UIKeyboard____c__DisplayClass13_0;
+  using __c__DisplayClass14_0 = ::HMUI::__UIKeyboard____c__DisplayClass14_0;
 
-  /// @brief Field _buttonBinder, offset 0x40, size 0x8
+  /// @brief Field _buttonBinder, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _letterBtnTexts, offset 0x50, size 0x8
+  /// @brief Field _letterBtnTexts, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__letterBtnTexts,
                       put = __cordl_internal_set__letterBtnTexts)) ::System::Collections::Generic::List_1<::UnityW<::TMPro::TextMeshProUGUI>>* _letterBtnTexts;
 
   /// @brief Field _okButton, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton)) ::UnityW<::UnityEngine::UI::Button> _okButton;
 
-  /// @brief Field _shouldCapitalize, offset 0x48, size 0x1
+  /// @brief Field _shouldCapitalize, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__shouldCapitalize, put = __cordl_internal_set__shouldCapitalize)) bool _shouldCapitalize;
 
-  /// @brief Field deleteButtonWasPressedEvent, offset 0x38, size 0x8
+  /// @brief Field _startsUpperCase, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__startsUpperCase, put = __cordl_internal_set__startsUpperCase)) bool _startsUpperCase;
+
+  /// @brief Field deleteButtonWasPressedEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_deleteButtonWasPressedEvent, put = __cordl_internal_set_deleteButtonWasPressedEvent)) ::System::Action* deleteButtonWasPressedEvent;
 
-  /// @brief Field keyWasPressedEvent, offset 0x30, size 0x8
+  /// @brief Field keyWasPressedEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_keyWasPressedEvent, put = __cordl_internal_set_keyWasPressedEvent)) ::System::Action_1<char16_t>* keyWasPressedEvent;
 
-  /// @brief Field okButtonWasPressedEvent, offset 0x28, size 0x8
+  /// @brief Field okButtonWasPressedEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_okButtonWasPressedEvent, put = __cordl_internal_set_okButtonWasPressedEvent)) ::System::Action* okButtonWasPressedEvent;
 
-  /// @brief Method Awake, addr 0x3984a10, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3998294, size 0x3c0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleCapsLockPressed, addr 0x3984e1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleCapsLockPressed, addr 0x3998748, size 0x18, virtual false, abstract: false, final false
   inline void HandleCapsLockPressed();
 
-  /// @brief Method HandleKeyPress, addr 0x3984d34, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleKeyPress, addr 0x399865c, size 0xec, virtual false, abstract: false, final false
   inline void HandleKeyPress(::UnityEngine::KeyCode keyCode);
 
-  /// @brief Method HasFontStyle, addr 0x3984f20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HasFontStyle, addr 0x399884c, size 0x20, virtual false, abstract: false, final false
   inline bool HasFontStyle(::TMPro::TextMeshProUGUI* text, ::TMPro::FontStyles style);
 
   static inline ::HMUI::UIKeyboard* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3984f40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x399886c, size 0xc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetKeyboardCapitalization, addr 0x3984e34, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetKeyboardCapitalization, addr 0x3998760, size 0xec, virtual false, abstract: false, final false
   inline void SetKeyboardCapitalization(bool capitalize);
 
-  /// @brief Method <Awake>b__13_0, addr 0x3984fb4, size 0x1c, virtual false, abstract: false, final false
-  inline void _Awake_b__13_0();
+  /// @brief Method <Awake>b__14_0, addr 0x39988e0, size 0x1c, virtual false, abstract: false, final false
+  inline void _Awake_b__14_0();
 
-  /// @brief Method <Awake>b__13_1, addr 0x3984fd0, size 0x1c, virtual false, abstract: false, final false
-  inline void _Awake_b__13_1();
+  /// @brief Method <Awake>b__14_1, addr 0x39988fc, size 0x1c, virtual false, abstract: false, final false
+  inline void _Awake_b__14_1();
+
+  /// @brief Method <Awake>b__14_2, addr 0x3998918, size 0x1c, virtual false, abstract: false, final false
+  inline void _Awake_b__14_2();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
@@ -186,6 +192,10 @@ public:
   constexpr bool const& __cordl_internal_get__shouldCapitalize() const;
 
   constexpr bool& __cordl_internal_get__shouldCapitalize();
+
+  constexpr bool const& __cordl_internal_get__startsUpperCase() const;
+
+  constexpr bool& __cordl_internal_get__startsUpperCase();
 
   constexpr ::System::Action*& __cordl_internal_get_deleteButtonWasPressedEvent();
 
@@ -207,31 +217,33 @@ public:
 
   constexpr void __cordl_internal_set__shouldCapitalize(bool value);
 
+  constexpr void __cordl_internal_set__startsUpperCase(bool value);
+
   constexpr void __cordl_internal_set_deleteButtonWasPressedEvent(::System::Action* value);
 
   constexpr void __cordl_internal_set_keyWasPressedEvent(::System::Action_1<char16_t>* value);
 
   constexpr void __cordl_internal_set_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3984f4c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3998878, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_deleteButtonWasPressedEvent, addr 0x39848d8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_deleteButtonWasPressedEvent, addr 0x399815c, size 0x9c, virtual false, abstract: false, final false
   inline void add_deleteButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_keyWasPressedEvent, addr 0x3984778, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_keyWasPressedEvent, addr 0x3997ffc, size 0xb0, virtual false, abstract: false, final false
   inline void add_keyWasPressedEvent(::System::Action_1<char16_t>* value);
 
-  /// @brief Method add_okButtonWasPressedEvent, addr 0x3984640, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_okButtonWasPressedEvent, addr 0x3997ec4, size 0x9c, virtual false, abstract: false, final false
   inline void add_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_deleteButtonWasPressedEvent, addr 0x3984974, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_deleteButtonWasPressedEvent, addr 0x39981f8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_deleteButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_keyWasPressedEvent, addr 0x3984828, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_keyWasPressedEvent, addr 0x39980ac, size 0xb0, virtual false, abstract: false, final false
   inline void remove_keyWasPressedEvent(::System::Action_1<char16_t>* value);
 
-  /// @brief Method remove_okButtonWasPressedEvent, addr 0x39846dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_okButtonWasPressedEvent, addr 0x3997f60, size 0x9c, virtual false, abstract: false, final false
   inline void remove_okButtonWasPressedEvent(::System::Action* value);
 
 protected:
@@ -251,48 +263,53 @@ public:
   /// @brief Field _okButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
-  /// @brief Field okButtonWasPressedEvent, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _startsUpperCase, offset: 0x28, size: 0x1, def value: None
+  bool ____startsUpperCase;
+
+  /// @brief Field okButtonWasPressedEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___okButtonWasPressedEvent;
 
-  /// @brief Field keyWasPressedEvent, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field keyWasPressedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<char16_t>* ___keyWasPressedEvent;
 
-  /// @brief Field deleteButtonWasPressedEvent, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field deleteButtonWasPressedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___deleteButtonWasPressedEvent;
 
-  /// @brief Field _buttonBinder, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _buttonBinder, offset: 0x48, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief Field _shouldCapitalize, offset: 0x48, size: 0x1, def value: None
+  /// @brief Field _shouldCapitalize, offset: 0x50, size: 0x1, def value: None
   bool ____shouldCapitalize;
 
-  /// @brief Field _letterBtnTexts, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _letterBtnTexts, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::TMPro::TextMeshProUGUI>>* ____letterBtnTexts;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16003 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::UIKeyboard, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::UIKeyboard, 0x60>, "Size mismatch!");
 
 static_assert(offsetof(::HMUI::UIKeyboard, ____okButton) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::UIKeyboard, ___okButtonWasPressedEvent) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::HMUI::UIKeyboard, ____startsUpperCase) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::UIKeyboard, ___keyWasPressedEvent) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::HMUI::UIKeyboard, ___okButtonWasPressedEvent) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::UIKeyboard, ___deleteButtonWasPressedEvent) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::HMUI::UIKeyboard, ___keyWasPressedEvent) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::UIKeyboard, ____buttonBinder) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::HMUI::UIKeyboard, ___deleteButtonWasPressedEvent) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::UIKeyboard, ____shouldCapitalize) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::HMUI::UIKeyboard, ____buttonBinder) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::UIKeyboard, ____letterBtnTexts) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::HMUI::UIKeyboard, ____shouldCapitalize) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::UIKeyboard, ____letterBtnTexts) == 0x58, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::UIKeyboard);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::UIKeyboard*, "HMUI", "UIKeyboard");
-NEED_NO_BOX(::HMUI::__UIKeyboard____c__DisplayClass13_0);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::__UIKeyboard____c__DisplayClass13_0*, "HMUI", "UIKeyboard/<>c__DisplayClass13_0");
+NEED_NO_BOX(::HMUI::__UIKeyboard____c__DisplayClass14_0);
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::__UIKeyboard____c__DisplayClass14_0*, "HMUI", "UIKeyboard/<>c__DisplayClass14_0");

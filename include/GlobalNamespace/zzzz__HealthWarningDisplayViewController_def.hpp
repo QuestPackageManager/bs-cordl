@@ -35,7 +35,7 @@ public:
   /// @brief Field _showShortHealthAndSafety, offset 0x90, size 0x1
   __declspec(property(get = __cordl_internal_get__showShortHealthAndSafety, put = __cordl_internal_set__showShortHealthAndSafety)) bool _showShortHealthAndSafety;
 
-  /// @brief Method DidActivate, addr 0x3b9e46c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3bb42e0, size 0x3c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::HealthWarningDisplayViewController* New_ctor();
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__showShortHealthAndSafety(bool value);
 
-  /// @brief Method .ctor, addr 0x3b9e4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb431c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   bool ____showShortHealthAndSafety;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4878 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

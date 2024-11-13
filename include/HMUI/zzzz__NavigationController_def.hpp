@@ -103,7 +103,7 @@ public:
   static ::HMUI::__NavigationController__Orientation const Vertical;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16752 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16760 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -163,7 +163,7 @@ public:
   static ::HMUI::__NavigationController__Alignment const Middle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16761 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -198,7 +198,7 @@ public:
 
   static inline ::HMUI::__NavigationController____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x224af6c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x2255eac, size 0x278, virtual false, abstract: false, final false
   inline void _PopViewControllers_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers,
                                                          ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* removingViewControllers);
 
@@ -226,7 +226,7 @@ public:
 
   constexpr void __cordl_internal_set_startPositions(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x224aec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2255e04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -256,7 +256,7 @@ public:
   float_t ___moveOffset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16762 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -294,7 +294,7 @@ public:
 
   static inline ::HMUI::__NavigationController____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <PushViewController>g__AnimationLayouter|0, addr 0x224b1e4, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method <PushViewController>g__AnimationLayouter|0, addr 0x2256124, size 0x290, virtual false, abstract: false, final false
   inline void _PushViewController_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
 
   constexpr ::UnityW<::HMUI::NavigationController> const& __cordl_internal_get___4__this() const;
@@ -321,7 +321,7 @@ public:
 
   constexpr void __cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x224aebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2255dfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -351,7 +351,7 @@ public:
   ::ArrayW<float_t, ::Array<float_t>*> ___endPositions;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16763 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -398,28 +398,28 @@ public:
   /// @brief Field _viewControllersSeparator, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get__viewControllersSeparator, put = __cordl_internal_set__viewControllersSeparator)) float_t _viewControllersSeparator;
 
-  /// @brief Method GetNewPositionsForViewControllers, addr 0x224a9e8, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method GetNewPositionsForViewControllers, addr 0x2255928, size 0x488, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetNewPositionsForViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers,
                                                                                 ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* fixedViewControllers, float_t fixedEndPos);
 
-  /// @brief Method LayoutViewControllers, addr 0x224a8d0, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method LayoutViewControllers, addr 0x2255810, size 0x118, virtual true, abstract: false, final false
   inline void LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers);
 
   static inline ::HMUI::NavigationController* New_ctor();
 
-  /// @brief Method PopViewController, addr 0x2248f30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method PopViewController, addr 0x2253e70, size 0x14, virtual false, abstract: false, final false
   inline void PopViewController(::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PopViewControllers, addr 0x2249074, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method PopViewControllers, addr 0x2253fb4, size 0x1e0, virtual false, abstract: false, final false
   inline void PopViewControllers(int32_t numberOfViewControllersToPop, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PositionVector, addr 0x224ae9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PositionVector, addr 0x2255ddc, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 PositionVector(float_t pos);
 
-  /// @brief Method PushViewController, addr 0x2248cfc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method PushViewController, addr 0x2253c3c, size 0xd8, virtual false, abstract: false, final false
   inline void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method SetupViewControllerRect, addr 0x224ae70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetupViewControllerRect, addr 0x2255db0, size 0x2c, virtual false, abstract: false, final false
   inline void SetupViewControllerRect(::HMUI::ViewController* viewController);
 
   constexpr ::HMUI::__NavigationController__Alignment const& __cordl_internal_get__alignment() const;
@@ -452,7 +452,7 @@ public:
 
   constexpr void __cordl_internal_set__viewControllersSeparator(float_t value);
 
-  /// @brief Method .ctor, addr 0x224af60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2255ea0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -485,7 +485,7 @@ public:
   float_t ____viewControllersSeparator;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16764 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

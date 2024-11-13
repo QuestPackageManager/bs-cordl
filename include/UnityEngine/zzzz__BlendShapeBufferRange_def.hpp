@@ -24,10 +24,10 @@ public:
 
   __declspec(property(put = set_startIndex)) uint32_t startIndex;
 
-  /// @brief Method set_endIndex, addr 0x481531c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_endIndex, addr 0x4829a34, size 0x8, virtual false, abstract: false, final false
   inline void set_endIndex(uint32_t value);
 
-  /// @brief Method set_startIndex, addr 0x481530c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startIndex, addr 0x4829a24, size 0x8, virtual false, abstract: false, final false
   inline void set_startIndex(uint32_t value);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   uint32_t m_EndIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10749 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

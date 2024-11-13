@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_height(float_t value);
 
-  /// @brief Method .ctor, addr 0x482f094, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48437ac, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x482f0b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48437cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t height);
 
 protected:
@@ -57,7 +57,7 @@ public:
   float_t ___height;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

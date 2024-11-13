@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_m_MediaType(::UnityEngine::Timeline::__TimelineAsset__MediaType value);
 
-  /// @brief Method .ctor, addr 0x47b3790, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c7ea8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::__TimelineAsset__MediaType mt);
 
 protected:
@@ -55,7 +55,7 @@ public:
   ::UnityEngine::Timeline::__TimelineAsset__MediaType ___m_MediaType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

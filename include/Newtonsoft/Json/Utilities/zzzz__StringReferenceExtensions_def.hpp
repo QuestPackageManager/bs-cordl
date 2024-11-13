@@ -24,13 +24,13 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE StringReferenceExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EndsWith, addr 0x3e61824, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x3e75eb4, size 0xc4, virtual false, abstract: false, final false
   static inline bool EndsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
-  /// @brief Method IndexOf, addr 0x3e616e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3e75d70, size 0x84, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::Newtonsoft::Json::Utilities::StringReference s, char16_t c, int32_t startIndex, int32_t length);
 
-  /// @brief Method StartsWith, addr 0x3e61764, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x3e75df4, size 0xc0, virtual false, abstract: false, final false
   static inline bool StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
 protected:
@@ -48,7 +48,7 @@ public:
   StringReferenceExtensions(StringReferenceExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10246 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

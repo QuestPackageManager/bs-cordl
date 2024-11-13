@@ -50,7 +50,7 @@ public:
 
   static inline ::GlobalNamespace::MissionLevelReturnToMenuController* New_ctor();
 
-  /// @brief Method ReturnToMenu, addr 0x3b3604c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method ReturnToMenu, addr 0x3b4bb04, size 0xac, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
   constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelSceneSetupData() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x3b360f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4bbb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
@@ -101,7 +101,7 @@ public:
   ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4436 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

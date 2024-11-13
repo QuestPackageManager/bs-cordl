@@ -35,7 +35,7 @@ public:
 
   static inline ::GlobalNamespace::CustomTimelineTween* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x3abfba0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x3ad3740, size 0xd4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_startPositions() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x3abfc74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad3814, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ___startPositions;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE StyleValueKeywordExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUssString, addr 0x4a13584, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ToUssString, addr 0x4a27c9c, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueKeyword svk);
 
 protected:
@@ -41,7 +41,7 @@ public:
   StyleValueKeywordExtension(StyleValueKeywordExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6151 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6156 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

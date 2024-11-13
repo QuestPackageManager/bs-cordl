@@ -33,15 +33,15 @@ public:
 
   __declspec(property(get = get_stackTrace)) ::StringW stackTrace;
 
-  /// @brief Method HandleLog, addr 0x3a96a1c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HandleLog, addr 0x3aaa4f8, size 0xc4, virtual false, abstract: false, final false
   inline void HandleLog(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
 
   static inline ::GlobalNamespace::CrashManagerSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3a96978, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3aaa454, size 0xa4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method StartCatchingExceptions, addr 0x3a968d4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method StartCatchingExceptions, addr 0x3aaa3b0, size 0xa4, virtual false, abstract: false, final false
   inline void StartCatchingExceptions();
 
   constexpr ::StringW const& __cordl_internal_get__logString() const;
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__stackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a96ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaa5bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_logString, addr 0x3a968c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_logString, addr 0x3aaa3a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_logString();
 
-  /// @brief Method get_stackTrace, addr 0x3a968cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stackTrace, addr 0x3aaa3a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_stackTrace();
 
 protected:
@@ -86,7 +86,7 @@ public:
   ::StringW ____stackTrace;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4994 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

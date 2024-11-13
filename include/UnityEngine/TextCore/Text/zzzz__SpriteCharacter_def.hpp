@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x48b5ecc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ca5e4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x48b4fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x48c9704, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::StringW ___m_Name;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15216 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

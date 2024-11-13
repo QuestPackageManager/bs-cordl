@@ -118,7 +118,7 @@ public:
   float_t ToRefreshRate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8379 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -152,7 +152,7 @@ public:
   uint64_t RequestId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8380 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -187,7 +187,7 @@ public:
   int32_t Result;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8381 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -224,7 +224,7 @@ public:
   int32_t Result;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8382 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -268,7 +268,7 @@ public:
   ::System::Guid Uuid;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8383 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -324,7 +324,7 @@ public:
   int32_t Enabled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8384 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -376,7 +376,7 @@ public:
   ::System::Guid Uuid;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8385 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -424,7 +424,7 @@ public:
   ::GlobalNamespace::__OVRPlugin__SpaceStorageLocation Location;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8386 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -465,7 +465,7 @@ public:
   int32_t Result;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -502,7 +502,7 @@ public:
   int32_t Result;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8388 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -563,7 +563,7 @@ public:
   OVRDeserialize(OVRDeserialize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8389 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

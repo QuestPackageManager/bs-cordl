@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_v(float_t value);
 
-  /// @brief Method .ctor, addr 0x26c8624, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d4314, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, float_t value, ::BeatmapSaveDataCommon::EaseType easeType);
 
-  /// @brief Method get_beat, addr 0x26c85fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x26d42ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x26c861c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x26d430c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_usePreviousEventValue, addr 0x26c8604, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventValue, addr 0x26d42f4, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventValue();
 
-  /// @brief Method get_value, addr 0x26c8614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x26d4304, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
 protected:
@@ -113,7 +113,7 @@ public:
   ::BeatmapSaveDataCommon::EaseType ___i;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13373 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

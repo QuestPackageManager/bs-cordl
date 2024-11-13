@@ -37,16 +37,16 @@ public:
 
   static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x3cad9e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc2078, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cada94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc2124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cada48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc20d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cada70, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc2100, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:

@@ -57,10 +57,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::__LabelInfo____c* New_ctor();
 
-  /// @brief Method <ValidateJump>b__9_0, addr 0x405e7b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ValidateJump>b__9_0, addr 0x4072ecc, size 0x18, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LabelScopeInfo* _ValidateJump_b__9_0(::System::Linq::Expressions::Interpreter::LabelScopeInfo* b);
 
-  /// @brief Method .ctor, addr 0x405e7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4072ec4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::__LabelInfo____c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   __LabelInfo____c(__LabelInfo____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13864 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -124,36 +124,36 @@ public:
   __declspec(property(get = __cordl_internal_get__references,
                       put = __cordl_internal_set__references)) ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LabelScopeInfo*>* _references;
 
-  /// @brief Method AddDefinition, addr 0x405e1d0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method AddDefinition, addr 0x40728e8, size 0x128, virtual false, abstract: false, final false
   inline void AddDefinition(::System::Linq::Expressions::Interpreter::LabelScopeInfo* scope);
 
   /// @brief Method CommonNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CommonNode(T first, T second, ::System::Func_2<T, T>* parent);
 
-  /// @brief Method Define, addr 0x405df6c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Define, addr 0x4072684, size 0x204, virtual false, abstract: false, final false
   inline void Define(::System::Linq::Expressions::Interpreter::LabelScopeInfo* block);
 
-  /// @brief Method DefinedIn, addr 0x405e424, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method DefinedIn, addr 0x4072b3c, size 0xc0, virtual false, abstract: false, final false
   inline bool DefinedIn(::System::Linq::Expressions::Interpreter::LabelScopeInfo* scope);
 
-  /// @brief Method EnsureLabel, addr 0x405dbd4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EnsureLabel, addr 0x40722ec, size 0x30, virtual false, abstract: false, final false
   inline void EnsureLabel(::System::Linq::Expressions::Interpreter::LightCompiler* compiler);
 
-  /// @brief Method FirstDefinition, addr 0x405e4e4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method FirstDefinition, addr 0x4072bfc, size 0x1d0, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LabelScopeInfo* FirstDefinition();
 
-  /// @brief Method GetLabel, addr 0x405dbbc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLabel, addr 0x40722d4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::BranchLabel* GetLabel(::System::Linq::Expressions::Interpreter::LightCompiler* compiler);
 
   static inline ::System::Linq::Expressions::Interpreter::LabelInfo* New_ctor(::System::Linq::Expressions::LabelTarget* node);
 
-  /// @brief Method Reference, addr 0x405dc04, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Reference, addr 0x407231c, size 0xbc, virtual false, abstract: false, final false
   inline void Reference(::System::Linq::Expressions::Interpreter::LabelScopeInfo* block);
 
-  /// @brief Method ValidateFinish, addr 0x405e6c4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ValidateFinish, addr 0x4072ddc, size 0x8c, virtual false, abstract: false, final false
   inline void ValidateFinish();
 
-  /// @brief Method ValidateJump, addr 0x405dcd0, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method ValidateJump, addr 0x40723e8, size 0x29c, virtual false, abstract: false, final false
   inline void ValidateJump(::System::Linq::Expressions::Interpreter::LabelScopeInfo* reference);
 
   constexpr bool const& __cordl_internal_get__acrossBlockJump() const;
@@ -186,13 +186,13 @@ public:
 
   constexpr void __cordl_internal_set__references(::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::LabelScopeInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x405db34, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407224c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::LabelTarget* node);
 
-  /// @brief Method get_HasDefinitions, addr 0x405dcc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasDefinitions, addr 0x40723d8, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasDefinitions();
 
-  /// @brief Method get_HasMultipleDefinitions, addr 0x405e3a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_HasMultipleDefinitions, addr 0x4072ac0, size 0x7c, virtual false, abstract: false, final false
   inline bool get_HasMultipleDefinitions();
 
 protected:
@@ -225,7 +225,7 @@ public:
   bool ____acrossBlockJump;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

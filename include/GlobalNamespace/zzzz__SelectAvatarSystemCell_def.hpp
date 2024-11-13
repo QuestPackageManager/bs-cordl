@@ -61,10 +61,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a94ba8, size 0x590, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3aa8684, size 0x590, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3a95138, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3aa8c14, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -98,7 +98,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4980 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -130,10 +130,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a95144, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3aa8c20, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3a953f4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3aa8ed0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -167,7 +167,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4981 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -229,36 +229,36 @@ public:
   __declspec(property(get = __cordl_internal_get_didSetAvatarSystemPreferredEvent,
                       put = __cordl_internal_set_didSetAvatarSystemPreferredEvent)) ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* didSetAvatarSystemPreferredEvent;
 
-  /// @brief Method Activate, addr 0x3a94a0c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x3aa84e8, size 0xac, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x3a94ab8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x3aa8594, size 0x88, virtual false, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method HandleLoadedSelectionViewDidPressCreateButton, addr 0x3a94b80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLoadedSelectionViewDidPressCreateButton, addr 0x3aa865c, size 0x20, virtual false, abstract: false, final false
   inline void HandleLoadedSelectionViewDidPressCreateButton();
 
-  /// @brief Method HandleLoadedSelectionViewDidPressEditButton, addr 0x3a94b60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLoadedSelectionViewDidPressEditButton, addr 0x3aa863c, size 0x20, virtual false, abstract: false, final false
   inline void HandleLoadedSelectionViewDidPressEditButton();
 
-  /// @brief Method HandleLoadedSelectionViewDidPressPreferredButton, addr 0x3a94b40, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLoadedSelectionViewDidPressPreferredButton, addr 0x3aa861c, size 0x20, virtual false, abstract: false, final false
   inline void HandleLoadedSelectionViewDidPressPreferredButton();
 
-  /// @brief Method Load, addr 0x3a947a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x3aa8284, size 0x98, virtual false, abstract: false, final false
   inline void Load(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata);
 
   static inline ::GlobalNamespace::SelectAvatarSystemCell* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3a94840, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3aa831c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ReloadIsCreated, addr 0x3a94980, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ReloadIsCreated, addr 0x3aa845c, size 0x8c, virtual false, abstract: false, final false
   inline void ReloadIsCreated();
 
-  /// @brief Method SetSelectedAvatarSystem, addr 0x3a948d8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedAvatarSystem, addr 0x3aa83b4, size 0xa8, virtual false, abstract: false, final false
   inline void SetSelectedAvatarSystem(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-  /// @brief Method TryActivateOnEnable, addr 0x3a94844, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryActivateOnEnable, addr 0x3aa8320, size 0x94, virtual false, abstract: false, final false
   inline void TryActivateOnEnable();
 
   constexpr bool const& __cordl_internal_get__activateViewOnEnable() const;
@@ -309,25 +309,25 @@ public:
 
   constexpr void __cordl_internal_set_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method .ctor, addr 0x3a94ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa867c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didRequestCreationOfAvatarEvent, addr 0x3a94648, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didRequestCreationOfAvatarEvent, addr 0x3aa8124, size 0xb0, virtual false, abstract: false, final false
   inline void add_didRequestCreationOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method add_didRequestEditOfAvatarEvent, addr 0x3a944e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didRequestEditOfAvatarEvent, addr 0x3aa7fc4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didRequestEditOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method add_didSetAvatarSystemPreferredEvent, addr 0x3a94388, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSetAvatarSystemPreferredEvent, addr 0x3aa7e64, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method remove_didRequestCreationOfAvatarEvent, addr 0x3a946f8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didRequestCreationOfAvatarEvent, addr 0x3aa81d4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didRequestCreationOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method remove_didRequestEditOfAvatarEvent, addr 0x3a94598, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didRequestEditOfAvatarEvent, addr 0x3aa8074, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didRequestEditOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method remove_didSetAvatarSystemPreferredEvent, addr 0x3a94438, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSetAvatarSystemPreferredEvent, addr 0x3aa7f14, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
 protected:
@@ -369,7 +369,7 @@ public:
   bool ____activateViewOnEnable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4982 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

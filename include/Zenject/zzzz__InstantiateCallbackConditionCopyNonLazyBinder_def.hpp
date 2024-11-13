@@ -89,7 +89,7 @@ public:
   ::System::Action_2<::Zenject::InjectContext*, T>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12227 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -107,13 +107,13 @@ public:
 
   static inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method OnInstantiated, addr 0x4a97280, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnInstantiated, addr 0x4aab998, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* OnInstantiated(::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* callback);
 
   /// @brief Method OnInstantiated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::ConditionCopyNonLazyBinder* OnInstantiated(::System::Action_2<::Zenject::InjectContext*, T>* callback);
 
-  /// @brief Method .ctor, addr 0x4a97278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aab990, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -131,7 +131,7 @@ public:
   InstantiateCallbackConditionCopyNonLazyBinder(InstantiateCallbackConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12223 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12228 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

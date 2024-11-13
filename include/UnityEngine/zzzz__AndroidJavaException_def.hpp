@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_mJavaStackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x47cae88, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47df5a0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW javaStackTrace);
 
-  /// @brief Method get_StackTrace, addr 0x47ce420, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_StackTrace, addr 0x47e2b38, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_StackTrace();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::StringW ___mJavaStackTrace;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

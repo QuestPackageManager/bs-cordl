@@ -54,15 +54,15 @@ public:
 
   __declspec(property(get = get_spawnColor, put = set_spawnColor)) ::UnityEngine::Color spawnColor;
 
-  /// @brief Method HandleNoteWasCut, addr 0x2233f14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x223c9cc, size 0x64, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2233e84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x223c93c, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2233df4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x223c8ac, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -89,13 +89,13 @@ public:
 
   constexpr void __cordl_internal_set__spawnColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x2233f78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x223ca30, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_spawnColor, addr 0x2233de8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_spawnColor, addr 0x223c8a0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_spawnColor();
 
-  /// @brief Method set_spawnColor, addr 0x2233ddc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_spawnColor, addr 0x223c894, size 0xc, virtual false, abstract: false, final false
   inline void set_spawnColor(::UnityEngine::Color value);
 
 protected:
@@ -125,7 +125,7 @@ public:
   ::UnityEngine::Color ____spawnColor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

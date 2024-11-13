@@ -32,7 +32,7 @@ constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Ze
 }
 template <typename TObj, typename TResult> constexpr void Zenject::GetterProvider_2<TObj, TResult>::__cordl_internal_set__container(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____container, value);
 }
 template <typename TObj, typename TResult> constexpr ::System::Object*& Zenject::GetterProvider_2<TObj, TResult>::__cordl_internal_get__identifier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -44,7 +44,7 @@ template <typename TObj, typename TResult> constexpr ::cordl_internals::to_const
 }
 template <typename TObj, typename TResult> constexpr void Zenject::GetterProvider_2<TObj, TResult>::__cordl_internal_set__identifier(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____identifier)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____identifier, value);
 }
 template <typename TObj, typename TResult> constexpr ::System::Func_2<TObj, TResult>*& Zenject::GetterProvider_2<TObj, TResult>::__cordl_internal_get__method() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -57,7 +57,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TObj, TResult>*> 
 }
 template <typename TObj, typename TResult> constexpr void Zenject::GetterProvider_2<TObj, TResult>::__cordl_internal_set__method(::System::Func_2<TObj, TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____method, value);
 }
 template <typename TObj, typename TResult> constexpr bool& Zenject::GetterProvider_2<TObj, TResult>::__cordl_internal_get__matchAll() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

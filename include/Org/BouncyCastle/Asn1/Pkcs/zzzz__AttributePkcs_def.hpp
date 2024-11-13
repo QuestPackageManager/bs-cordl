@@ -44,14 +44,14 @@ public:
   /// @brief Field attrValues, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_attrValues, put = __cordl_internal_set_attrValues)) ::Org::BouncyCastle::Asn1::Asn1Set* attrValues;
 
-  /// @brief Method GetInstance, addr 0x23caa58, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23d5b00, size 0x14c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType, ::Org::BouncyCastle::Asn1::Asn1Set* attrValues);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23cad0c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23d5db4, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_attrType();
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_attrValues(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x23cacd0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d5d78, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType, ::Org::BouncyCastle::Asn1::Asn1Set* attrValues);
 
-  /// @brief Method .ctor, addr 0x23caba4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d5c4c, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AttrType, addr 0x23cacfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttrType, addr 0x23d5da4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AttrType();
 
-  /// @brief Method get_AttrValues, addr 0x23cad04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttrValues, addr 0x23d5dac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_AttrValues();
 
 protected:

@@ -218,7 +218,7 @@ public:
   static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const Valid;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8314 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -274,7 +274,7 @@ public:
   static ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation const PreferOpaque;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8315 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -295,7 +295,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3fa73c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fbba54, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW keyboardModel, ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState state, bool timeout);
 
   // Ctor Parameters []
@@ -317,7 +317,7 @@ public:
   bool TrackingTimeout;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8316 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -342,7 +342,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3fa75d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fbbc64, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool isEnabled);
 
   // Ctor Parameters []
@@ -356,7 +356,7 @@ public:
   bool IsEnabled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8312 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8317 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -388,13 +388,13 @@ public:
 
   static inline ::GlobalNamespace::__OVRTrackedKeyboard____c* New_ctor();
 
-  /// @brief Method <.ctor>b__113_0, addr 0x3fa7644, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__113_0, addr 0x3fbbcd4, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__113_0(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent _p0_);
 
-  /// @brief Method <.ctor>b__113_1, addr 0x3fa7648, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__113_1, addr 0x3fbbcd8, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__113_1(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent _p0_);
 
-  /// @brief Method .ctor, addr 0x3fa763c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fbbccc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__OVRTrackedKeyboard____c* getStaticF___9();
@@ -424,7 +424,7 @@ public:
   __OVRTrackedKeyboard____c(__OVRTrackedKeyboard____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8318 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -462,21 +462,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3fa7650, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3fbbce0, size 0x170, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRTrackedKeyboard___InitializeHandPresenceData_d__89* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fa77c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fbbe50, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fa77c8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fbbe58, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fa7800, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fbbe90, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3fa764c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3fbbcdc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -497,7 +497,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
 
-  /// @brief Method .ctor, addr 0x3fa5b7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fba20c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -533,7 +533,7 @@ public:
   ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8319 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -577,21 +577,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3fa780c, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3fbbe9c, size 0x104, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRTrackedKeyboard___Start_d__88* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fa7910, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fbbfa0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fa7918, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fbbfa8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fa7950, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fbbfe0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3fa7808, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3fbbe98, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -612,7 +612,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
 
-  /// @brief Method .ctor, addr 0x3fa5af4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fba184, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -648,7 +648,7 @@ public:
   ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8320 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -692,21 +692,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3fa795c, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3fbbfec, size 0x2c4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fa7c20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fbc2b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fa7c28, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fbc2b8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fa7c60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fbc2f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3fa7958, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3fbbfe8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -727,7 +727,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
 
-  /// @brief Method .ctor, addr 0x3fa6374, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fbaa04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -763,7 +763,7 @@ public:
   ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -807,21 +807,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3fa7c6c, size 0x9e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3fbc2fc, size 0x9e4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRTrackedKeyboard___UpdateKeyboardPose_d__98* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fa8650, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fbcce0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fa8658, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fbcce8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fa8690, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fbcd20, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3fa7c68, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3fbc2f8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -842,7 +842,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
 
-  /// @brief Method .ctor, addr 0x3fa6720, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fbadb0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -878,7 +878,7 @@ public:
   ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8322 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -925,21 +925,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3fa869c, size 0x490, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3fbcd2c, size 0x490, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fa8b2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fbd1bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fa8b34, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fbd1c4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fa8b6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fbd1fc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3fa8698, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3fbcd28, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -966,7 +966,7 @@ public:
 
   constexpr void __cordl_internal_set__keyboardInfo_5__2(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo value);
 
-  /// @brief Method .ctor, addr 0x3fa62ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fba97c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -1005,7 +1005,7 @@ public:
   ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo ____keyboardInfo_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8323 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1242,75 +1242,75 @@ public:
   /// @brief Field updateKeyboardRoutine_, offset 0x148, size 0x8
   __declspec(property(get = __cordl_internal_get_updateKeyboardRoutine_, put = __cordl_internal_set_updateKeyboardRoutine_)) ::UnityEngine::Coroutine* updateKeyboardRoutine_;
 
-  /// @brief Method DispatchVisibilityEvent, addr 0x3fa727c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DispatchVisibilityEvent, addr 0x3fbb90c, size 0x34, virtual false, abstract: false, final false
   inline void DispatchVisibilityEvent(bool timeOut);
 
-  /// @brief Method Dispose, addr 0x3fa72b0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3fbb940, size 0x114, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetDistanceToKeyboard, addr 0x3fa5c3c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetDistanceToKeyboard, addr 0x3fba2cc, size 0x22c, virtual false, abstract: false, final false
   inline float_t GetDistanceToKeyboard(::UnityEngine::Vector3 point);
 
-  /// @brief Method GetKeyboardVisibility, addr 0x3fa57dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetKeyboardVisibility, addr 0x3fb9e6c, size 0x44, virtual false, abstract: false, final false
   inline bool GetKeyboardVisibility();
 
-  /// @brief Method InitializeHandPresenceData, addr 0x3fa5b1c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method InitializeHandPresenceData, addr 0x3fba1ac, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* InitializeHandPresenceData();
 
-  /// @brief Method InitializeKeyboardInfo, addr 0x3fa666c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InitializeKeyboardInfo, addr 0x3fbacfc, size 0x54, virtual false, abstract: false, final false
   inline void InitializeKeyboardInfo();
 
-  /// @brief Method KeyboardTrackerIsRunning, addr 0x3fa6278, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method KeyboardTrackerIsRunning, addr 0x3fba908, size 0x14, virtual false, abstract: false, final false
   inline bool KeyboardTrackerIsRunning();
 
-  /// @brief Method LaunchLocalKeyboardSelectionDialog, addr 0x3fa5e68, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method LaunchLocalKeyboardSelectionDialog, addr 0x3fba4f8, size 0x40, virtual false, abstract: false, final false
   inline void LaunchLocalKeyboardSelectionDialog();
 
-  /// @brief Method LaunchOverlayIntent, addr 0x3fa5ea8, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method LaunchOverlayIntent, addr 0x3fba538, size 0x390, virtual false, abstract: false, final false
   inline void LaunchOverlayIntent(::StringW dataUri);
 
-  /// @brief Method LaunchRemoteKeyboardSelectionDialog, addr 0x3fa6238, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method LaunchRemoteKeyboardSelectionDialog, addr 0x3fba8c8, size 0x40, virtual false, abstract: false, final false
   inline void LaunchRemoteKeyboardSelectionDialog();
 
-  /// @brief Method LoadKeyboardMesh, addr 0x3fa6790, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method LoadKeyboardMesh, addr 0x3fbae20, size 0x5fc, virtual false, abstract: false, final false
   inline void LoadKeyboardMesh();
 
-  /// @brief Method LoadRuntimeKeyboardMesh, addr 0x3fa6d8c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method LoadRuntimeKeyboardMesh, addr 0x3fbb41c, size 0x2ac, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> LoadRuntimeKeyboardMesh();
 
   static inline ::GlobalNamespace::OVRTrackedKeyboard* New_ctor();
 
-  /// @brief Method RegisterPassthroughMeshToSDK, addr 0x3fa5ba4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RegisterPassthroughMeshToSDK, addr 0x3fba234, size 0x98, virtual false, abstract: false, final false
   inline void RegisterPassthroughMeshToSDK();
 
-  /// @brief Method SetKeyboardState, addr 0x3fa658c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetKeyboardState, addr 0x3fbac1c, size 0xe0, virtual false, abstract: false, final false
   inline void SetKeyboardState(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState state);
 
-  /// @brief Method Start, addr 0x3fa5a94, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fba124, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method StartKeyboardTrackingCoroutine, addr 0x3fa6314, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method StartKeyboardTrackingCoroutine, addr 0x3fba9a4, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartKeyboardTrackingCoroutine();
 
-  /// @brief Method StopKeyboardTrackingInternal, addr 0x3fa639c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method StopKeyboardTrackingInternal, addr 0x3fbaa2c, size 0x1f0, virtual false, abstract: false, final false
   inline void StopKeyboardTrackingInternal();
 
-  /// @brief Method UpdateKeyboardPose, addr 0x3fa66c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method UpdateKeyboardPose, addr 0x3fbad50, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateKeyboardPose();
 
-  /// @brief Method UpdateKeyboardVisibility, addr 0x3fa7168, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method UpdateKeyboardVisibility, addr 0x3fbb7f8, size 0x114, virtual false, abstract: false, final false
   inline void UpdateKeyboardVisibility();
 
-  /// @brief Method UpdatePresentation, addr 0x3fa5820, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method UpdatePresentation, addr 0x3fb9eb0, size 0x1f4, virtual false, abstract: false, final false
   inline void UpdatePresentation(bool isVisible);
 
-  /// @brief Method UpdateSkippedPoseTimer, addr 0x3fa6748, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method UpdateSkippedPoseTimer, addr 0x3fbadd8, size 0x48, virtual false, abstract: false, final false
   inline void UpdateSkippedPoseTimer();
 
-  /// @brief Method UpdateTextureQuality, addr 0x3fa7038, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method UpdateTextureQuality, addr 0x3fbb6c8, size 0x130, virtual false, abstract: false, final false
   inline void UpdateTextureQuality();
 
-  /// @brief Method UpdateTrackingStateCoroutine, addr 0x3fa628c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method UpdateTrackingStateCoroutine, addr 0x3fba91c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateTrackingStateCoroutine();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_ActiveKeyboardTransform() const;
@@ -1579,7 +1579,7 @@ public:
 
   constexpr void __cordl_internal_set_updateKeyboardRoutine_(::UnityEngine::Coroutine* value);
 
-  /// @brief Method .ctor, addr 0x3fa73d8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fbba68, size 0x184, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline float_t getStaticF_boundingBoxAboveKeyboardY_();
@@ -1596,37 +1596,37 @@ public:
 
   static inline float_t getStaticF_underlayScaleMultZ_();
 
-  /// @brief Method get_ActiveKeyboardInfo, addr 0x3fa572c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveKeyboardInfo, addr 0x3fb9dbc, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo get_ActiveKeyboardInfo();
 
-  /// @brief Method get_ConnectionRequired, addr 0x3fa5a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectionRequired, addr 0x3fba0b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ConnectionRequired();
 
-  /// @brief Method get_CurrentKeyboardAngleFromUp, addr 0x3fa570c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentKeyboardAngleFromUp, addr 0x3fb9d9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_CurrentKeyboardAngleFromUp();
 
-  /// @brief Method get_KeyboardQueryFlags, addr 0x3fa5a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyboardQueryFlags, addr 0x3fba108, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags get_KeyboardQueryFlags();
 
-  /// @brief Method get_PassthroughOverlay, addr 0x3fa5a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PassthroughOverlay, addr 0x3fba118, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVROverlay> get_PassthroughOverlay();
 
-  /// @brief Method get_Presentation, addr 0x3fa5784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Presentation, addr 0x3fb9e14, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation get_Presentation();
 
-  /// @brief Method get_RemoteKeyboard, addr 0x3fa5a50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_RemoteKeyboard, addr 0x3fba0e0, size 0x10, virtual false, abstract: false, final false
   inline bool get_RemoteKeyboard();
 
-  /// @brief Method get_ShowUntracked, addr 0x3fa5a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShowUntracked, addr 0x3fba0cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShowUntracked();
 
-  /// @brief Method get_SystemKeyboardInfo, addr 0x3fa575c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_SystemKeyboardInfo, addr 0x3fb9dec, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo get_SystemKeyboardInfo();
 
-  /// @brief Method get_TrackingEnabled, addr 0x3fa5a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TrackingEnabled, addr 0x3fba0a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_TrackingEnabled();
 
-  /// @brief Method get_TrackingState, addr 0x3fa571c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TrackingState, addr 0x3fb9dac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState get_TrackingState();
 
   static inline void setStaticF_boundingBoxAboveKeyboardY_(float_t value);
@@ -1643,37 +1643,37 @@ public:
 
   static inline void setStaticF_underlayScaleMultZ_(float_t value);
 
-  /// @brief Method set_ActiveKeyboardInfo, addr 0x3fa5744, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_ActiveKeyboardInfo, addr 0x3fb9dd4, size 0x18, virtual false, abstract: false, final false
   inline void set_ActiveKeyboardInfo(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo value);
 
-  /// @brief Method set_ConnectionRequired, addr 0x3fa5a30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ConnectionRequired, addr 0x3fba0c0, size 0xc, virtual false, abstract: false, final false
   inline void set_ConnectionRequired(bool value);
 
-  /// @brief Method set_CurrentKeyboardAngleFromUp, addr 0x3fa5714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentKeyboardAngleFromUp, addr 0x3fb9da4, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentKeyboardAngleFromUp(float_t value);
 
-  /// @brief Method set_KeyboardQueryFlags, addr 0x3fa5a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyboardQueryFlags, addr 0x3fba110, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyboardQueryFlags(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags value);
 
-  /// @brief Method set_PassthroughOverlay, addr 0x3fa5a90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_PassthroughOverlay, addr 0x3fba120, size 0x4, virtual false, abstract: false, final false
   inline void set_PassthroughOverlay(::GlobalNamespace::OVROverlay* value);
 
-  /// @brief Method set_Presentation, addr 0x3fa578c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_Presentation, addr 0x3fb9e1c, size 0x50, virtual false, abstract: false, final false
   inline void set_Presentation(::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation value);
 
-  /// @brief Method set_RemoteKeyboard, addr 0x3fa5a60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_RemoteKeyboard, addr 0x3fba0f0, size 0x18, virtual false, abstract: false, final false
   inline void set_RemoteKeyboard(bool value);
 
-  /// @brief Method set_ShowUntracked, addr 0x3fa5a44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShowUntracked, addr 0x3fba0d4, size 0xc, virtual false, abstract: false, final false
   inline void set_ShowUntracked(bool value);
 
-  /// @brief Method set_SystemKeyboardInfo, addr 0x3fa5770, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_SystemKeyboardInfo, addr 0x3fb9e00, size 0x14, virtual false, abstract: false, final false
   inline void set_SystemKeyboardInfo(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo value);
 
-  /// @brief Method set_TrackingEnabled, addr 0x3fa5a1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_TrackingEnabled, addr 0x3fba0ac, size 0xc, virtual false, abstract: false, final false
   inline void set_TrackingEnabled(bool value);
 
-  /// @brief Method set_TrackingState, addr 0x3fa5724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TrackingState, addr 0x3fb9db4, size 0x8, virtual false, abstract: false, final false
   inline void set_TrackingState(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState value);
 
 protected:
@@ -1829,7 +1829,7 @@ public:
   static constexpr float_t STALE_TIMEOUT{ 10.0 };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8324 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

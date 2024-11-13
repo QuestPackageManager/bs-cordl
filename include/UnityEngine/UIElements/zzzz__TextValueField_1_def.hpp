@@ -113,7 +113,7 @@ public:
   ::StringW ____formatString_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5669 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5674 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -254,7 +254,7 @@ public:
   bool ___m_ForceUpdateDisplay;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5675 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

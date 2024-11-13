@@ -21,7 +21,7 @@ template <typename TContainer>
 constexpr void
 Unity::Properties::ContainerPropertyBag_1<TContainer>::__cordl_internal_set_m_PropertiesList(::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<TContainer>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PropertiesList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_PropertiesList, value);
 }
 template <typename TContainer>
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Unity::Properties::IProperty_1<TContainer>*>*&
@@ -39,7 +39,7 @@ template <typename TContainer>
 constexpr void Unity::Properties::ContainerPropertyBag_1<TContainer>::__cordl_internal_set_m_PropertiesHash(
     ::System::Collections::Generic::Dictionary_2<::StringW, ::Unity::Properties::IProperty_1<TContainer>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PropertiesHash)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_PropertiesHash, value);
 }
 template <typename TContainer>
 template <typename TValue>

@@ -92,7 +92,7 @@ public:
   static ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult const OK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12768 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -148,7 +148,7 @@ public:
   static ::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult const OK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12769 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -204,7 +204,7 @@ public:
   static ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult const OK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12770 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -241,7 +241,7 @@ public:
   ::ArrayW<::StringW, ::Array<::StringW>*> entitlementsLabels;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12771 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -293,7 +293,7 @@ public:
   ISonyCommerceHelper(ISonyCommerceHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12772 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -66,12 +66,12 @@ public:
   /// @brief Field strobeStartTime, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_strobeStartTime, put = __cordl_internal_set_strobeStartTime)) float_t strobeStartTime;
 
-  /// @brief Method AddStrobeData, addr 0x266c47c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method AddStrobeData, addr 0x2677490, size 0x78, virtual false, abstract: false, final false
   inline void AddStrobeData(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData* New_ctor();
 
-  /// @brief Method StartPotentialStrobe, addr 0x266c538, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StartPotentialStrobe, addr 0x267754c, size 0x80, virtual false, abstract: false, final false
   inline void StartPotentialStrobe(::GlobalNamespace::BasicBeatmapEventData* startBasicBeatmapEventData);
 
   constexpr bool const& __cordl_internal_get__foundFirstColoredEventData() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_strobeStartTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x266c3f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2677404, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -164,7 +164,7 @@ public:
   bool ____foundFirstColoredEventData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12759 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -198,14 +198,14 @@ public:
   // Declarations
   using StrobeStreakData = ::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData;
 
-  /// @brief Method CreateTransformedData, addr 0x266b7ac, size 0xc44, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x26767c0, size 0xc44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
                                                                                ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions);
 
-  /// @brief Method GetFlashAndFadeToBlackEventDataValue, addr 0x266c518, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetFlashAndFadeToBlackEventDataValue, addr 0x267752c, size 0x20, virtual false, abstract: false, final false
   static inline int32_t GetFlashAndFadeToBlackEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType);
 
-  /// @brief Method GetOnEventDataValue, addr 0x266c4f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOnEventDataValue, addr 0x2677508, size 0x24, virtual false, abstract: false, final false
   static inline int32_t GetOnEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType);
 
 protected:
@@ -223,7 +223,7 @@ public:
   BeatmapDataStrobeFilterTransform(BeatmapDataStrobeFilterTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12760 };
 
   /// @brief Field kMaxSecondsToConsiderStrobe offset 0xffffffff size 0x4
   static constexpr float_t kMaxSecondsToConsiderStrobe{ 0.1 };

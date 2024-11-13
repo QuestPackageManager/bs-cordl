@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext, ByRef<::System::Type*>, ByRef<::bs_hook::EnumPtr>, ByRef<bool>)>(
         &::UnityEngine::UIElements::EnumFieldHelpers::ExtractValue)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x4917c60;
+  constexpr static std::size_t addrs = 0x492c378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

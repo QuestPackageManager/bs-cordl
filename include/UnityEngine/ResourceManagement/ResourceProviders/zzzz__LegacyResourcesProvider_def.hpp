@@ -50,18 +50,18 @@ public:
   /// @brief Field m_RequestOperation, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation)) ::UnityEngine::ResourceRequest* m_RequestOperation;
 
-  /// @brief Method AsyncOperationCompleted, addr 0x4728160, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method AsyncOperationCompleted, addr 0x473c878, size 0x180, virtual false, abstract: false, final false
   inline void AsyncOperationCompleted(::UnityEngine::AsyncOperation* op);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp* New_ctor();
 
-  /// @brief Method PercentComplete, addr 0x47282e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method PercentComplete, addr 0x473c9f8, size 0x18, virtual false, abstract: false, final false
   inline float_t PercentComplete();
 
-  /// @brief Method Start, addr 0x4727d54, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x473c46c, size 0x18c, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x472800c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x473c724, size 0x154, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __cordl_internal_get_m_ProvideHandle() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RequestOperation(::UnityEngine::ResourceRequest* value);
 
-  /// @brief Method .ctor, addr 0x4727d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x473c464, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,7 +100,7 @@ public:
   ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle ___m_ProvideHandle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15634 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -124,13 +124,13 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x4727944, size 0x408, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x473c05c, size 0x408, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle pi);
 
-  /// @brief Method Release, addr 0x4727ee0, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x473c5f8, size 0x124, virtual true, abstract: false, final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* asset);
 
-  /// @brief Method .ctor, addr 0x4728004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x473c71c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -148,7 +148,7 @@ public:
   LegacyResourcesProvider(LegacyResourcesProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15635 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

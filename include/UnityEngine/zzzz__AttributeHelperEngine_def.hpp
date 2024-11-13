@@ -47,22 +47,22 @@ public:
   static __declspec(property(get = getStaticF__requireComponentArray, put = setStaticF__requireComponentArray)) ::ArrayW<::UnityEngine::RequireComponent*, ::Array<::UnityEngine::RequireComponent*>*>
       _requireComponentArray;
 
-  /// @brief Method CheckIsEditorScript, addr 0x4830c90, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CheckIsEditorScript, addr 0x48453a8, size 0x110, virtual false, abstract: false, final false
   static inline int32_t CheckIsEditorScript(::System::Type* klass);
 
   /// @brief Method GetCustomAttributeOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetCustomAttributeOfType(::System::Type* klass);
 
-  /// @brief Method GetDefaultExecutionOrderFor, addr 0x4830da0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultExecutionOrderFor, addr 0x48454b8, size 0x78, virtual false, abstract: false, final false
   static inline int32_t GetDefaultExecutionOrderFor(::System::Type* klass);
 
-  /// @brief Method GetExecuteMode, addr 0x4830b7c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetExecuteMode, addr 0x4845294, size 0x114, virtual false, abstract: false, final false
   static inline int32_t GetExecuteMode(::System::Type* klass);
 
-  /// @brief Method GetParentTypeDisallowingMultipleInclusion, addr 0x4830574, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetParentTypeDisallowingMultipleInclusion, addr 0x4844c8c, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Type* GetParentTypeDisallowingMultipleInclusion(::System::Type* type);
 
-  /// @brief Method GetRequiredComponents, addr 0x48306a8, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method GetRequiredComponents, addr 0x4844dc0, size 0x4d4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetRequiredComponents(::System::Type* klass);
 
   static inline ::ArrayW<::UnityEngine::DisallowMultipleComponent*, ::Array<::UnityEngine::DisallowMultipleComponent*>*> getStaticF__disallowMultipleComponentArray();
@@ -92,7 +92,7 @@ public:
   AttributeHelperEngine(AttributeHelperEngine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10821 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

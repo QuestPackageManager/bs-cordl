@@ -44,13 +44,13 @@ namespace UnityEngine::InputSystem::OnScreen {
 struct CORDL_TYPE __OnScreenControl__OnScreenDeviceInfo {
 public:
   // Declarations
-  /// @brief Method AddControl, addr 0x4580d38, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddControl, addr 0x4595450, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo AddControl(::UnityEngine::InputSystem::OnScreen::OnScreenControl* control);
 
-  /// @brief Method Destroy, addr 0x4580c94, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x45953ac, size 0xa4, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method RemoveControl, addr 0x4581098, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RemoveControl, addr 0x45957b0, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo RemoveControl(::UnityEngine::InputSystem::OnScreen::OnScreenControl* control);
 
   // Ctor Parameters []
@@ -76,7 +76,7 @@ public:
   ::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> firstControl;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6766 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -128,19 +128,19 @@ public:
 
   static inline ::UnityEngine::InputSystem::OnScreen::OnScreenControl* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x4580e9c, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x45955b4, size 0x1fc, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4580e98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x45955b0, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
   /// @brief Method SendValueToControl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline void SendValueToControl(TValue value);
 
-  /// @brief Method SentDefaultValueToControl, addr 0x4580d64, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SentDefaultValueToControl, addr 0x459547c, size 0x134, virtual false, abstract: false, final false
   inline void SentDefaultValueToControl();
 
-  /// @brief Method SetupInputControl, addr 0x4580574, size 0x718, virtual false, abstract: false, final false
+  /// @brief Method SetupInputControl, addr 0x4594c8c, size 0x718, virtual false, abstract: false, final false
   inline void SetupInputControl();
 
   constexpr ::UnityEngine::InputSystem::InputControl*& __cordl_internal_get_m_Control();
@@ -161,15 +161,15 @@ public:
 
   constexpr void __cordl_internal_set_m_NextControlOnDevice(::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> value);
 
-  /// @brief Method .ctor, addr 0x4580528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4594c40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo> getStaticF_s_OnScreenDevices();
 
-  /// @brief Method get_control, addr 0x4580c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x45953a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
-  /// @brief Method get_controlPath, addr 0x4580530, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_controlPath, addr 0x4594c48, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_controlPath();
 
   /// @brief Method get_controlPathInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -177,7 +177,7 @@ public:
 
   static inline void setStaticF_s_OnScreenDevices(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo> value);
 
-  /// @brief Method set_controlPath, addr 0x458053c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_controlPath, addr 0x4594c54, size 0x38, virtual false, abstract: false, final false
   inline void set_controlPath(::StringW value);
 
   /// @brief Method set_controlPathInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -207,7 +207,7 @@ public:
   ::UnityEngine::InputSystem::LowLevel::InputEventPtr ___m_InputEventPtr;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6767 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

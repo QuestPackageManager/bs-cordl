@@ -35,18 +35,18 @@ namespace Zenject {
 class CORDL_TYPE BindingCondition : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4ab2248, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4ac6960, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::Zenject::InjectContext* c, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4ab2268, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4ac6980, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4ab2234, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4ac694c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::Zenject::InjectContext* c);
 
   static inline ::Zenject::BindingCondition* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4ab2134, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac684c, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -64,7 +64,7 @@ public:
   BindingCondition(BindingCondition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12463 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

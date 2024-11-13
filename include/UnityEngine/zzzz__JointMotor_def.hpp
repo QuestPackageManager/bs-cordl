@@ -27,22 +27,22 @@ public:
 
   __declspec(property(get = get_targetVelocity, put = set_targetVelocity)) float_t targetVelocity;
 
-  /// @brief Method get_force, addr 0x4879f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_force, addr 0x488e68c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_force();
 
-  /// @brief Method get_freeSpin, addr 0x4879f84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_freeSpin, addr 0x488e69c, size 0x10, virtual false, abstract: false, final false
   inline bool get_freeSpin();
 
-  /// @brief Method get_targetVelocity, addr 0x4879f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetVelocity, addr 0x488e67c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetVelocity();
 
-  /// @brief Method set_force, addr 0x4879f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_force, addr 0x488e694, size 0x8, virtual false, abstract: false, final false
   inline void set_force(float_t value);
 
-  /// @brief Method set_freeSpin, addr 0x4879f94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_freeSpin, addr 0x488e6ac, size 0xc, virtual false, abstract: false, final false
   inline void set_freeSpin(bool value);
 
-  /// @brief Method set_targetVelocity, addr 0x4879f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetVelocity, addr 0x488e684, size 0x8, virtual false, abstract: false, final false
   inline void set_targetVelocity(float_t value);
 
   // Ctor Parameters []
@@ -63,7 +63,7 @@ public:
   int32_t m_FreeSpin;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15681 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

@@ -150,10 +150,10 @@ public:
   /// @brief Field tailTime, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_tailTime, put = __cordl_internal_set_tailTime)) float_t tailTime;
 
-  /// @brief Method Deserialize, addr 0x26e5468, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x26f106c, size 0x274, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x26e4ef4, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26f0af8, size 0x224, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SliderSpawnInfoNetSerializable*
   Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::__SliderData__Type sliderType, bool hasHeadNote, float_t headTime, float_t headBeat, int32_t headLineIndex,
        ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier,
@@ -165,10 +165,10 @@ public:
 
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x26e4e90, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x26f0a94, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x26e5170, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x26f0d74, size 0x2f8, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get_colorType() const;
@@ -369,7 +369,7 @@ public:
 
   constexpr void __cordl_internal_set_tailTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x26e5118, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f0d1c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -486,7 +486,7 @@ public:
   float_t ___rotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16972 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16981 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

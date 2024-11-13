@@ -22,10 +22,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRMixedRealityCaptureConfigurationExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyTo, addr 0x3fc2b44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x3fd71d4, size 0x4, virtual false, abstract: false, final false
   static inline void ApplyTo(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
 
-  /// @brief Method ReadFrom, addr 0x3fc2b48, size 0x1428, virtual false, abstract: false, final false
+  /// @brief Method ReadFrom, addr 0x3fd71d8, size 0x1428, virtual false, abstract: false, final false
   static inline void ReadFrom(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
 
 protected:
@@ -43,7 +43,7 @@ public:
   OVRMixedRealityCaptureConfigurationExtensions(OVRMixedRealityCaptureConfigurationExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8420 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

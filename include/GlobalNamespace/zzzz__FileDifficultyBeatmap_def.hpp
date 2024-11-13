@@ -29,16 +29,16 @@ public:
   /// @brief Field _lightshowPath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__lightshowPath, put = __cordl_internal_set__lightshowPath)) ::StringW _lightshowPath;
 
-  /// @brief Method GetBeatmapString, addr 0x268afb4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapString, addr 0x2696bb8, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetBeatmapString();
 
-  /// @brief Method GetBeatmapStringAsync, addr 0x268ae44, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapStringAsync, addr 0x2696a48, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetBeatmapStringAsync();
 
-  /// @brief Method GetLightshowString, addr 0x268b02c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowString, addr 0x2696c30, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetLightshowString();
 
-  /// @brief Method GetLightshowStringAsync, addr 0x268aefc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowStringAsync, addr 0x2696b00, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetLightshowStringAsync();
 
   static inline ::GlobalNamespace::FileDifficultyBeatmap* New_ctor(::StringW beatmapPath, ::StringW lightshowPath);
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__lightshowPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x268ae18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2696a1c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW beatmapPath, ::StringW lightshowPath);
 
 protected:
@@ -79,7 +79,7 @@ public:
   ::StringW ____lightshowPath;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12936 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -38,13 +38,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBasicAgreement"
   constexpr operator ::Org::BouncyCastle::Crypto::IBasicAgreement*() noexcept;
 
-  /// @brief Method CalculateAgreement, addr 0x264e04c, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x26590f4, size 0x260, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
 
-  /// @brief Method GetFieldSize, addr 0x264e004, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetFieldSize, addr 0x26590ac, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetFieldSize();
 
-  /// @brief Method Init, addr 0x264df18, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2658fc0, size 0xec, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* New_ctor();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_privKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x264e2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2659354, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBasicAgreement"

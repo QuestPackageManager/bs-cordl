@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x267b554, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2687158, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
 protected:
@@ -68,7 +68,7 @@ public:
   ::GlobalNamespace::EaseType ___easeType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12871 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

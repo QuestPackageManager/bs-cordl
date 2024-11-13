@@ -58,7 +58,7 @@ template <typename TKey, typename TValue> constexpr TValue const& IntervalTree::
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::__IntervalTree_2____c__DisplayClass19_0<TKey, TValue>::__cordl_internal_set_value(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___value, value);
 }
 template <typename TKey, typename TValue>
 inline ::IntervalTree::__IntervalTree_2____c__DisplayClass19_0<TKey, TValue>* IntervalTree::__IntervalTree_2____c__DisplayClass19_0<TKey, TValue>::New_ctor() {
@@ -92,7 +92,7 @@ IntervalTree::__IntervalTree_2____c__DisplayClass20_0<TKey, TValue>::__cordl_int
 template <typename TKey, typename TValue>
 constexpr void IntervalTree::__IntervalTree_2____c__DisplayClass20_0<TKey, TValue>::__cordl_internal_set_items(::System::Collections::Generic::IEnumerable_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___items, value);
 }
 template <typename TKey, typename TValue>
 inline ::IntervalTree::__IntervalTree_2____c__DisplayClass20_0<TKey, TValue>* IntervalTree::__IntervalTree_2____c__DisplayClass20_0<TKey, TValue>::New_ctor() {
@@ -126,7 +126,7 @@ IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>::__cordl_int
 template <typename TKey, typename TValue>
 constexpr void IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>::__cordl_internal_set___4__this(::IntervalTree::IntervalTree_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TKey, typename TValue> constexpr TKey& IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>::__cordl_internal_get_key() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -138,7 +138,7 @@ template <typename TKey, typename TValue> constexpr TKey const& IntervalTree::__
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>::__cordl_internal_set_key(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___key, value);
 }
 template <typename TKey, typename TValue>
 inline ::IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>* IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>::New_ctor() {
@@ -173,7 +173,7 @@ IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>::__cordl_int
 template <typename TKey, typename TValue>
 constexpr void IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>::__cordl_internal_set___4__this(::IntervalTree::IntervalTree_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TKey, typename TValue> constexpr TKey& IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>::__cordl_internal_get_key() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -185,7 +185,7 @@ template <typename TKey, typename TValue> constexpr TKey const& IntervalTree::__
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>::__cordl_internal_set_key(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___key, value);
 }
 template <typename TKey, typename TValue>
 inline ::IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>* IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>::New_ctor() {
@@ -245,7 +245,7 @@ constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTree_2<TKey, TValue>::__cordl_internal_set_root(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___root)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___root, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*& IntervalTree::IntervalTree_2<TKey, TValue>::__cordl_internal_get_items() {
@@ -261,7 +261,7 @@ IntervalTree::IntervalTree_2<TKey, TValue>::__cordl_internal_get_items() const {
 template <typename TKey, typename TValue>
 constexpr void IntervalTree::IntervalTree_2<TKey, TValue>::__cordl_internal_set_items(::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___items, value);
 }
 template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::IComparer_1<TKey>*& IntervalTree::IntervalTree_2<TKey, TValue>::__cordl_internal_get_comparer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -274,7 +274,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IC
 }
 template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTree_2<TKey, TValue>::__cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___comparer, value);
 }
 template <typename TKey, typename TValue> constexpr bool& IntervalTree::IntervalTree_2<TKey, TValue>::__cordl_internal_get_isInSync() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -65,7 +65,7 @@ public:
 
   static inline ::UnityEngine::__GUILayoutUtility__LayoutCache* New_ctor(int32_t instanceID);
 
-  /// @brief Method ResetCursor, addr 0x4862ce0, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method ResetCursor, addr 0x48773f8, size 0x2dc, virtual false, abstract: false, final false
   inline void ResetCursor();
 
   constexpr int32_t const& __cordl_internal_get__id_k__BackingField() const;
@@ -92,10 +92,10 @@ public:
 
   constexpr void __cordl_internal_set_windows(::UnityEngine::GUILayoutGroup* value);
 
-  /// @brief Method .ctor, addr 0x4861f0c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4876624, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(int32_t instanceID);
 
-  /// @brief Method set_id, addr 0x4862cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x48773f0, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
 protected:
@@ -125,7 +125,7 @@ public:
   ::UnityEngine::GUILayoutGroup* ___windows;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16603 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -165,49 +165,49 @@ public:
   static __declspec(property(get = getStaticF_s_StoredWindows,
                              put = setStaticF_s_StoredWindows)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::__GUILayoutUtility__LayoutCache*>* s_StoredWindows;
 
-  /// @brief Method Begin, addr 0x48620ac, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x48767c4, size 0x1cc, virtual false, abstract: false, final false
   static inline void Begin(int32_t instanceID);
 
-  /// @brief Method BeginContainer, addr 0x4862384, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method BeginContainer, addr 0x4876a9c, size 0x15c, virtual false, abstract: false, final false
   static inline void BeginContainer(::UnityEngine::__GUILayoutUtility__LayoutCache* cache);
 
-  /// @brief Method BeginWindow, addr 0x48610ec, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method BeginWindow, addr 0x4875804, size 0x278, virtual false, abstract: false, final false
   static inline void BeginWindow(int32_t windowID, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method GetLayoutCache, addr 0x4861e64, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLayoutCache, addr 0x487657c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::__GUILayoutUtility__LayoutCache* GetLayoutCache(int32_t instanceID, bool isWindow);
 
-  /// @brief Method Internal_GetWindowRect, addr 0x4861cc0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetWindowRect, addr 0x48763d8, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect Internal_GetWindowRect(int32_t windowID);
 
-  /// @brief Method Internal_GetWindowRect_Injected, addr 0x4861d50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetWindowRect_Injected, addr 0x4876468, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_GetWindowRect_Injected(int32_t windowID, ByRef<::UnityEngine::Rect> ret);
 
-  /// @brief Method Internal_MoveWindow, addr 0x4861d94, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_MoveWindow, addr 0x48764ac, size 0x8c, virtual false, abstract: false, final false
   static inline void Internal_MoveWindow(int32_t windowID, ::UnityEngine::Rect r);
 
-  /// @brief Method Internal_MoveWindow_Injected, addr 0x4861e20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_MoveWindow_Injected, addr 0x4876538, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_MoveWindow_Injected(int32_t windowID, ByRef<::UnityEngine::Rect> r);
 
-  /// @brief Method Layout, addr 0x48613ec, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Layout, addr 0x4875b04, size 0x21c, virtual false, abstract: false, final false
   static inline void Layout();
 
-  /// @brief Method LayoutFreeGroup, addr 0x4862518, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method LayoutFreeGroup, addr 0x4876c30, size 0x1bc, virtual false, abstract: false, final false
   static inline void LayoutFreeGroup(::UnityEngine::GUILayoutGroup* toplevel);
 
-  /// @brief Method LayoutFromContainer, addr 0x4862a5c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method LayoutFromContainer, addr 0x4877174, size 0x188, virtual false, abstract: false, final false
   static inline void LayoutFromContainer(float_t w, float_t h);
 
-  /// @brief Method LayoutFromEditorWindow, addr 0x486284c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method LayoutFromEditorWindow, addr 0x4876f64, size 0x210, virtual false, abstract: false, final false
   static inline void LayoutFromEditorWindow();
 
-  /// @brief Method LayoutSingleGroup, addr 0x48626d4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method LayoutSingleGroup, addr 0x4876dec, size 0x178, virtual false, abstract: false, final false
   static inline void LayoutSingleGroup(::UnityEngine::GUILayoutGroup* i);
 
-  /// @brief Method RemoveSelectedIdList, addr 0x4861fd8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RemoveSelectedIdList, addr 0x48766f0, size 0xd4, virtual false, abstract: false, final false
   static inline void RemoveSelectedIdList(int32_t instanceID, bool isWindow);
 
-  /// @brief Method SelectIDList, addr 0x4860e7c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SelectIDList, addr 0x4875594, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::__GUILayoutUtility__LayoutCache* SelectIDList(int32_t instanceID, bool isWindow);
 
   static inline ::UnityEngine::__GUILayoutUtility__LayoutCache* getStaticF_current();
@@ -241,7 +241,7 @@ public:
   GUILayoutUtility(GUILayoutUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16604 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

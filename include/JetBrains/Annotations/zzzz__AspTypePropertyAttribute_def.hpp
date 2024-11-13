@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__CreateConstructorReferences_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4a780a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c7c0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool createConstructorReferences);
 
-  /// @brief Method get_CreateConstructorReferences, addr 0x4a78094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateConstructorReferences, addr 0x4a8c7ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateConstructorReferences();
 
-  /// @brief Method set_CreateConstructorReferences, addr 0x4a7809c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CreateConstructorReferences, addr 0x4a8c7b4, size 0xc, virtual false, abstract: false, final false
   inline void set_CreateConstructorReferences(bool value);
 
 protected:
@@ -60,7 +60,7 @@ public:
   bool ____CreateConstructorReferences_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

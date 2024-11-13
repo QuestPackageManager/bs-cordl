@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
 
-  /// @brief Method .ctor, addr 0x3ac6370, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad9f60, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, bool autoRestart, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
                     ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText);
 
@@ -132,7 +132,7 @@ public:
   ::StringW ___backButtonText;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5220 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

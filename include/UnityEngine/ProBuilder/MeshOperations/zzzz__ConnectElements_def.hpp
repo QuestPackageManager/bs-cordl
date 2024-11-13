@@ -142,49 +142,49 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c* New_ctor();
 
-  /// @brief Method <ConnectEdgesInFace>b__5_0, addr 0x46f6960, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <ConnectEdgesInFace>b__5_0, addr 0x470b078, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* _ConnectEdgesInFace_b__5_0(int32_t x);
 
-  /// @brief Method <ConnectEdgesInFace>b__5_1, addr 0x46f69c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <ConnectEdgesInFace>b__5_1, addr 0x470b0e0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* _ConnectEdgesInFace_b__5_1(int32_t x);
 
-  /// @brief Method <ConnectEdgesInFace>b__5_2, addr 0x46f6a30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ConnectEdgesInFace>b__5_2, addr 0x470b148, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _ConnectEdgesInFace_b__5_2(::UnityEngine::ProBuilder::WingedEdge* x);
 
-  /// @brief Method <ConnectIndexesPerFace>b__8_0, addr 0x46f6a60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <ConnectIndexesPerFace>b__8_0, addr 0x470b178, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* _ConnectIndexesPerFace_b__8_0(int32_t x);
 
-  /// @brief Method <ConnectIndexesPerFace>b__8_1, addr 0x46f6ac8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <ConnectIndexesPerFace>b__8_1, addr 0x470b1e0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* _ConnectIndexesPerFace_b__8_1(int32_t x);
 
-  /// @brief Method <ConnectIndexesPerFace>b__8_2, addr 0x46f6b30, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <ConnectIndexesPerFace>b__8_2, addr 0x470b248, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* _ConnectIndexesPerFace_b__8_2(int32_t x);
 
-  /// @brief Method <Connect>b__0_0, addr 0x46f68b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__0_0, addr 0x470afd0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* _Connect_b__0_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <Connect>b__2_1, addr 0x46f68d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__2_1, addr 0x470afe8, size 0x18, virtual false, abstract: false, final false
   inline int32_t _Connect_b__2_1(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <Connect>b__2_2, addr 0x46f68e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__2_2, addr 0x470b000, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::FaceRebuildData* _Connect_b__2_2(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
 
-  /// @brief Method <Connect>b__3_0, addr 0x46f6900, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__3_0, addr 0x470b018, size 0x18, virtual false, abstract: false, final false
   inline int32_t _Connect_b__3_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <Connect>b__3_1, addr 0x46f6918, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__3_1, addr 0x470b030, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::FaceRebuildData* _Connect_b__3_1(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
 
-  /// @brief Method <Connect>b__3_2, addr 0x46f6930, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__3_2, addr 0x470b048, size 0x28, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* _Connect_b__3_2(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x);
 
-  /// @brief Method <Connect>b__3_4, addr 0x46f6958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__3_4, addr 0x470b070, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _Connect_b__3_4(::UnityEngine::ProBuilder::EdgeLookup x);
 
-  /// @brief Method <InsertVertices>b__6_0, addr 0x46f6a48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <InsertVertices>b__6_0, addr 0x470b160, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge _InsertVertices_b__6_0(::UnityEngine::ProBuilder::WingedEdge* x);
 
-  /// @brief Method .ctor, addr 0x46f68b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x470afc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c* getStaticF___9();
@@ -264,7 +264,7 @@ public:
   __ConnectElements____c(__ConnectElements____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14330 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -288,10 +288,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <Connect>b__0, addr 0x46f6b98, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__0, addr 0x470b2b0, size 0x58, virtual false, abstract: false, final false
   inline int32_t _Connect_b__0(int32_t x);
 
-  /// @brief Method <Connect>b__3, addr 0x46f6bf0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__3, addr 0x470b308, size 0x44, virtual false, abstract: false, final false
   inline int32_t _Connect_b__3(int32_t x);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get_lookup();
@@ -306,7 +306,7 @@ public:
 
   constexpr void __cordl_internal_set_mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
-  /// @brief Method .ctor, addr 0x46f3ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47085dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -330,7 +330,7 @@ public:
   ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___mesh;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14331 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -355,7 +355,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <Connect>b__3, addr 0x46f6c34, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__3, addr 0x470b34c, size 0x80, virtual false, abstract: false, final false
   inline bool _Connect_b__3(::UnityEngine::ProBuilder::Edge x);
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_appended();
@@ -364,7 +364,7 @@ public:
 
   constexpr void __cordl_internal_set_appended(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x46f684c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x470af64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -385,7 +385,7 @@ public:
   ::System::Collections::Generic::HashSet_1<int32_t>* ___appended;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14332 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -409,46 +409,46 @@ public:
 
   using __c__DisplayClass3_0 = ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0;
 
-  /// @brief Method Connect, addr 0x46f174c, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x4705e64, size 0x2bc, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                                ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Connect, addr 0x46f3044, size 0xe80, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x470775c, size 0xe80, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method Connect, addr 0x46f1a08, size 0x15a4, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x4706120, size 0x15a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
                                                                  ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>> addedFaces,
                                                                  ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> connections, bool returnFaces,
                                                                  bool returnEdges, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* faceMask);
 
-  /// @brief Method Connect, addr 0x46f2fac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x47076c4, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::SimpleTuple_2<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>,
                                                          ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>
   Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method ConnectEdgesInFace, addr 0x46f6058, size 0x7f4, virtual false, abstract: false, final false
+  /// @brief Method ConnectEdgesInFace, addr 0x470a770, size 0x7f4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*
   ConnectEdgesInFace(::UnityEngine::ProBuilder::Face* face, ::UnityEngine::ProBuilder::WingedEdge* a, ::UnityEngine::ProBuilder::WingedEdge* b,
                      ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
 
-  /// @brief Method ConnectEdgesInFace, addr 0x46f56f4, size 0x964, virtual false, abstract: false, final false
+  /// @brief Method ConnectEdgesInFace, addr 0x4709e0c, size 0x964, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*
   ConnectEdgesInFace(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* edges,
                      ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
 
-  /// @brief Method ConnectIndexesPerFace, addr 0x46f48f4, size 0x8d4, virtual false, abstract: false, final false
+  /// @brief Method ConnectIndexesPerFace, addr 0x470900c, size 0x8d4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*
   ConnectIndexesPerFace(::UnityEngine::ProBuilder::Face* face, int32_t a, int32_t b, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                         ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup);
 
-  /// @brief Method ConnectIndexesPerFace, addr 0x46f3ecc, size 0xa28, virtual false, abstract: false, final false
+  /// @brief Method ConnectIndexesPerFace, addr 0x47085e4, size 0xa28, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*
   ConnectIndexesPerFace(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<int32_t>* indexes,
                         ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup,
                         int32_t sharedIndexOffset);
 
-  /// @brief Method InsertVertices, addr 0x46f51c8, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method InsertVertices, addr 0x47098e0, size 0x52c, virtual false, abstract: false, final false
   static inline bool InsertVertices(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* edges,
                                     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                                     ByRef<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*> data);
@@ -468,7 +468,7 @@ public:
   ConnectElements(ConnectElements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14333 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& System::Runtime:
 }
 template <typename T> constexpr void System::Runtime::CompilerServices::RuleCache_1<T>::__cordl_internal_set__rules(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rules)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____rules, value);
 }
 template <typename T> constexpr ::System::Object*& System::Runtime::CompilerServices::RuleCache_1<T>::__cordl_internal_get__cacheLock() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -25,7 +25,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ob
 }
 template <typename T> constexpr void System::Runtime::CompilerServices::RuleCache_1<T>::__cordl_internal_set__cacheLock(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cacheLock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____cacheLock, value);
 }
 template <typename T> inline ::System::Runtime::CompilerServices::RuleCache_1<T>* System::Runtime::CompilerServices::RuleCache_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::RuleCache_1<T>*>());

@@ -30,22 +30,22 @@ public:
 
   __declspec(property(get = get_StartIndex)) int32_t StartIndex;
 
-  /// @brief Method ToString, addr 0x3e616cc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3e75d5c, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3e616c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e75d50, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startIndex, int32_t length);
 
-  /// @brief Method get_Chars, addr 0x3e616a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Chars, addr 0x3e75d38, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> get_Chars();
 
-  /// @brief Method get_Item, addr 0x3e61678, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3e75d08, size 0x30, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x3e616b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3e75d48, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_StartIndex, addr 0x3e616b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartIndex, addr 0x3e75d40, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StartIndex();
 
   // Ctor Parameters []
@@ -66,7 +66,7 @@ public:
   int32_t _length;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10245 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

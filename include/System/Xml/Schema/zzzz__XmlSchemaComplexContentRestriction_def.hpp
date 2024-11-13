@@ -53,7 +53,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaComplexContentRestriction* New_ctor();
 
-  /// @brief Method SetAttributes, addr 0x42446f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAttributes, addr 0x4258e08, size 0x8, virtual false, abstract: false, final false
   inline void SetAttributes(::System::Xml::Schema::XmlSchemaObjectCollection* newAttributes);
 
   constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute*& __cordl_internal_get_anyAttribute();
@@ -80,28 +80,28 @@ public:
 
   constexpr void __cordl_internal_set_particle(::System::Xml::Schema::XmlSchemaParticle* value);
 
-  /// @brief Method .ctor, addr 0x42446f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4258e10, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AnyAttribute, addr 0x42446e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnyAttribute, addr 0x4258df8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AnyAttribute();
 
-  /// @brief Method get_Attributes, addr 0x42446d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x4258df0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Attributes();
 
-  /// @brief Method get_BaseTypeName, addr 0x4244628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseTypeName, addr 0x4258d40, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_BaseTypeName();
 
-  /// @brief Method get_Particle, addr 0x42446c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle, addr 0x4258de0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* get_Particle();
 
-  /// @brief Method set_AnyAttribute, addr 0x42446e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnyAttribute, addr 0x4258e00, size 0x8, virtual false, abstract: false, final false
   inline void set_AnyAttribute(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  /// @brief Method set_BaseTypeName, addr 0x4244630, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_BaseTypeName, addr 0x4258d48, size 0x98, virtual false, abstract: false, final false
   inline void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_Particle, addr 0x42446d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Particle, addr 0x4258de8, size 0x8, virtual false, abstract: false, final false
   inline void set_Particle(::System::Xml::Schema::XmlSchemaParticle* value);
 
 protected:
@@ -131,7 +131,7 @@ public:
   ::System::Xml::XmlQualifiedName* ___baseTypeName;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7636 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

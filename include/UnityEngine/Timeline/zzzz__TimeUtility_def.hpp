@@ -56,16 +56,16 @@ public:
 
   static inline ::UnityEngine::Timeline::__TimeUtility____c* New_ctor();
 
-  /// @brief Method <ParseTimeCode>b__19_0, addr 0x47b9760, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <ParseTimeCode>b__19_0, addr 0x47cde78, size 0x58, virtual false, abstract: false, final false
   inline bool _ParseTimeCode_b__19_0(char16_t c);
 
-  /// @brief Method <ParseTimeCode>b__19_1, addr 0x47b97b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ParseTimeCode>b__19_1, addr 0x47cded0, size 0x1c, virtual false, abstract: false, final false
   inline bool _ParseTimeCode_b__19_1(char16_t c);
 
-  /// @brief Method <ParseTimeSeconds>b__20_0, addr 0x47b97d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <ParseTimeSeconds>b__20_0, addr 0x47cdeec, size 0x58, virtual false, abstract: false, final false
   inline bool _ParseTimeSeconds_b__20_0(char16_t c);
 
-  /// @brief Method .ctor, addr 0x47b9758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47cde70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Timeline::__TimeUtility____c* getStaticF___9();
@@ -99,7 +99,7 @@ public:
   __TimeUtility____c(__TimeUtility____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -129,70 +129,70 @@ public:
   /// @brief Field k_MaxTimelineDurationInSeconds, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_MaxTimelineDurationInSeconds, put = setStaticF_k_MaxTimelineDurationInSeconds)) double_t k_MaxTimelineDurationInSeconds;
 
-  /// @brief Method FromFrames, addr 0x47b7d18, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FromFrames, addr 0x47cc430, size 0x68, virtual false, abstract: false, final false
   static inline double_t FromFrames(double_t frames, double_t frameRate);
 
-  /// @brief Method FromFrames, addr 0x47b7cac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FromFrames, addr 0x47cc3c4, size 0x6c, virtual false, abstract: false, final false
   static inline double_t FromFrames(int32_t frames, double_t frameRate);
 
-  /// @brief Method GetAnimationClipLength, addr 0x47b900c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetAnimationClipLength, addr 0x47cd724, size 0x164, virtual false, abstract: false, final false
   static inline double_t GetAnimationClipLength(::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method GetClosestFrameRate, addr 0x47b9170, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetClosestFrameRate, addr 0x47cd888, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::FrameRate GetClosestFrameRate(double_t frameRate);
 
-  /// @brief Method GetEpsilon, addr 0x47b7b9c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetEpsilon, addr 0x47cc2b4, size 0xa8, virtual false, abstract: false, final false
   static inline double_t GetEpsilon(double_t time, double_t frameRate);
 
-  /// @brief Method NextFrame, addr 0x47b7fb4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method NextFrame, addr 0x47cc6cc, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t NextFrame(double_t time, double_t frameRate);
 
-  /// @brief Method NextFrameTime, addr 0x47b808c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method NextFrameTime, addr 0x47cc7a4, size 0x6c, virtual false, abstract: false, final false
   static inline double_t NextFrameTime(double_t time, double_t frameRate);
 
-  /// @brief Method OnFrameBoundary, addr 0x47b7d80, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnFrameBoundary, addr 0x47cc498, size 0x74, virtual false, abstract: false, final false
   static inline bool OnFrameBoundary(double_t time, double_t frameRate);
 
-  /// @brief Method OnFrameBoundary, addr 0x47b7df4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method OnFrameBoundary, addr 0x47cc50c, size 0x120, virtual false, abstract: false, final false
   static inline bool OnFrameBoundary(double_t time, double_t frameRate, double_t epsilon);
 
-  /// @brief Method ParseTimeCode, addr 0x47b86bc, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method ParseTimeCode, addr 0x47ccdd4, size 0x508, virtual false, abstract: false, final false
   static inline double_t ParseTimeCode(::StringW timeCode, double_t frameRate, double_t defaultValue);
 
-  /// @brief Method ParseTimeSeconds, addr 0x47b8c94, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method ParseTimeSeconds, addr 0x47cd3ac, size 0x378, virtual false, abstract: false, final false
   static inline double_t ParseTimeSeconds(::StringW timeCode, double_t frameRate, double_t defaultValue);
 
-  /// @brief Method PreviousFrame, addr 0x47b7f14, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PreviousFrame, addr 0x47cc62c, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t PreviousFrame(double_t time, double_t frameRate);
 
-  /// @brief Method PreviousFrameTime, addr 0x47b8020, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PreviousFrameTime, addr 0x47cc738, size 0x6c, virtual false, abstract: false, final false
   static inline double_t PreviousFrameTime(double_t time, double_t frameRate);
 
-  /// @brief Method RemoveChar, addr 0x47b8bc4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RemoveChar, addr 0x47cd2dc, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW RemoveChar(::StringW str, ::System::Func_2<char16_t, bool>* charToRemoveFunc);
 
-  /// @brief Method RoundToFrame, addr 0x47b80f8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RoundToFrame, addr 0x47cc810, size 0xdc, virtual false, abstract: false, final false
   static inline double_t RoundToFrame(double_t time, double_t frameRate);
 
-  /// @brief Method TimeAsFrames, addr 0x47b81d4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method TimeAsFrames, addr 0x47cc8ec, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW TimeAsFrames(double_t timeValue, double_t frameRate, ::StringW format);
 
-  /// @brief Method TimeAsTimeCode, addr 0x47b82a4, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method TimeAsTimeCode, addr 0x47cc9bc, size 0x418, virtual false, abstract: false, final false
   static inline ::StringW TimeAsTimeCode(double_t timeValue, double_t frameRate, ::StringW format);
 
-  /// @brief Method ToExactFrames, addr 0x47b7c44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToExactFrames, addr 0x47cc35c, size 0x68, virtual false, abstract: false, final false
   static inline double_t ToExactFrames(double_t time, double_t frameRate);
 
-  /// @brief Method ToFrameRate, addr 0x47b925c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ToFrameRate, addr 0x47cd974, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::FrameRate ToFrameRate(::UnityEngine::Timeline::StandardFrameRates enumValue);
 
-  /// @brief Method ToFrames, addr 0x47b7a88, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ToFrames, addr 0x47cc1a0, size 0x114, virtual false, abstract: false, final false
   static inline int32_t ToFrames(double_t time, double_t frameRate);
 
-  /// @brief Method ToStandardFrameRate, addr 0x47b93fc, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method ToStandardFrameRate, addr 0x47cdb14, size 0x2a8, virtual false, abstract: false, final false
   static inline bool ToStandardFrameRate(::UnityEngine::Playables::FrameRate rate, ByRef<::UnityEngine::Timeline::StandardFrameRates> standard);
 
-  /// @brief Method ValidateFrameRate, addr 0x47b79d4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ValidateFrameRate, addr 0x47cc0ec, size 0xb4, virtual false, abstract: false, final false
   static inline void ValidateFrameRate(double_t frameRate);
 
   static inline double_t getStaticF_kFrameRateEpsilon();
@@ -226,7 +226,7 @@ public:
   TimeUtility(TimeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15866 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__m_sortDirection_k__BackingField(::UnityEngine::InspectorSortDirection value);
 
-  /// @brief Method get_m_inspectorSort, addr 0x4835c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_inspectorSort, addr 0x484a358, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InspectorSort get_m_inspectorSort();
 
-  /// @brief Method get_m_sortDirection, addr 0x4835c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_sortDirection, addr 0x484a360, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InspectorSortDirection get_m_sortDirection();
 
 protected:
@@ -78,7 +78,7 @@ public:
   ::UnityEngine::InspectorSortDirection ____m_sortDirection_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10854 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

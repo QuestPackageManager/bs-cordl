@@ -90,19 +90,19 @@ public:
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Method Complete, addr 0x43598ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x436e004, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method Complete, addr 0x43598f4, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x436e00c, size 0x51c, virtual false, abstract: false, final false
   inline void Complete(::System::Net::HttpListenerContext* context, bool synch);
 
-  /// @brief Method Complete, addr 0x43595c8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x436dce0, size 0x1e8, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* exc);
 
-  /// @brief Method GetContext, addr 0x4359e10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetContext, addr 0x436e528, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerContext* GetContext();
 
-  /// @brief Method InvokeCallback, addr 0x43597b0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallback, addr 0x436dec8, size 0x13c, virtual false, abstract: false, final false
   static inline void InvokeCallback(::System::Object* o);
 
   static inline ::System::Net::ListenerAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
@@ -173,21 +173,21 @@ public:
 
   constexpr void __cordl_internal_set_synch(bool value);
 
-  /// @brief Method .ctor, addr 0x4359550, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x436dc68, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
   static inline ::System::Threading::WaitCallback* getStaticF_InvokeCB();
 
-  /// @brief Method get_AsyncState, addr 0x4359e4c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x436e564, size 0x14, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x4359e60, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x436e578, size 0x128, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x4359f88, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x436e6a0, size 0x14, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x4359f9c, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x436e6b4, size 0xdc, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -243,7 +243,7 @@ public:
   bool ___InGet;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9680 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

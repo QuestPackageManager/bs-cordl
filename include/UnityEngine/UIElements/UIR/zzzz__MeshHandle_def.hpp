@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_updateAllocID(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x4939c38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494e350, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   uint32_t ___updateAllocID;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6386 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -55,13 +55,13 @@ public:
   __declspec(property(get = __cordl_internal_get__ContinueLabel_k__BackingField,
                       put = __cordl_internal_set__ContinueLabel_k__BackingField)) ::System::Linq::Expressions::LabelTarget* _ContinueLabel_k__BackingField;
 
-  /// @brief Method Accept, addr 0x40432e8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x4057a00, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
   static inline ::System::Linq::Expressions::LoopExpression* New_ctor(::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::LabelTarget* _cordl_break,
                                                                       ::System::Linq::Expressions::LabelTarget* _cordl_continue);
 
-  /// @brief Method Update, addr 0x4041494, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4055bac, size 0xac, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LoopExpression* Update(::System::Linq::Expressions::LabelTarget* breakLabel, ::System::Linq::Expressions::LabelTarget* continueLabel,
                                                              ::System::Linq::Expressions::Expression* body);
 
@@ -83,22 +83,22 @@ public:
 
   constexpr void __cordl_internal_set__ContinueLabel_k__BackingField(::System::Linq::Expressions::LabelTarget* value);
 
-  /// @brief Method .ctor, addr 0x40431c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40578d8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::LabelTarget* _cordl_break, ::System::Linq::Expressions::LabelTarget* _cordl_continue);
 
-  /// @brief Method get_Body, addr 0x40432d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x40579e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
-  /// @brief Method get_BreakLabel, addr 0x40432d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BreakLabel, addr 0x40579f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LabelTarget* get_BreakLabel();
 
-  /// @brief Method get_ContinueLabel, addr 0x40432e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContinueLabel, addr 0x40579f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LabelTarget* get_ContinueLabel();
 
-  /// @brief Method get_NodeType, addr 0x40432c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40579e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x4043240, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x4057958, size 0x88, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -125,7 +125,7 @@ public:
   ::System::Linq::Expressions::LabelTarget* ____ContinueLabel_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13661 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

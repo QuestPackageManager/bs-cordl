@@ -25,3 +25,5 @@ constexpr ::GlobalNamespace::GameplayModifierMask GlobalNamespace::GameplayModif
 constexpr ::GlobalNamespace::GameplayModifierMask GlobalNamespace::GameplayModifierMask::ZenMode{ static_cast<uint16_t>(0x4000u) };
 constexpr ::GlobalNamespace::GameplayModifierMask GlobalNamespace::GameplayModifierMask::SmallCubes{ static_cast<uint16_t>(0x8000u) };
 constexpr ::GlobalNamespace::GameplayModifierMask GlobalNamespace::GameplayModifierMask::All{ static_cast<uint16_t>(0xffffu) };
+constexpr ::GlobalNamespace::GameplayModifierMask GlobalNamespace::GameplayModifierMask::MakingGameEasier{ static_cast<uint16_t>(0x4618u) };
+constexpr ::GlobalNamespace::GameplayModifierMask GlobalNamespace::GameplayModifierMask::MakingGameHarder{ static_cast<uint16_t>(0xb9e0u) };

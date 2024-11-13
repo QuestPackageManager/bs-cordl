@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ImageEffectAllowedInSceneView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47ffc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4814338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   ImageEffectAllowedInSceneView(ImageEffectAllowedInSceneView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10694 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -93,7 +93,7 @@ template <typename TKey, typename TValue>
 constexpr void System::Linq::Expressions::Interpreter::__HybridReferenceDictionary_2___GetEnumeratorWorker_d__7<TKey, TValue>::__cordl_internal_set___4__this(
     ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TKey, typename TValue>
 constexpr int32_t& System::Linq::Expressions::Interpreter::__HybridReferenceDictionary_2___GetEnumeratorWorker_d__7<TKey, TValue>::__cordl_internal_get__i_5__2() {
@@ -175,7 +175,7 @@ template <typename TKey, typename TValue>
 constexpr void System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<TKey, TValue>::__cordl_internal_set__keysAndValues(
     ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keysAndValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____keysAndValues, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<TKey, TValue>::__cordl_internal_get__dict() {
@@ -191,7 +191,7 @@ System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<TKey, TValue
 template <typename TKey, typename TValue>
 constexpr void System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<TKey, TValue>::__cordl_internal_set__dict(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dict)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____dict, value);
 }
 template <typename TKey, typename TValue> inline bool System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<TKey, TValue>::TryGetValue(TKey key, ByRef<TValue> value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

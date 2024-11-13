@@ -117,7 +117,7 @@ public:
   ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T2>* ____value2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14910 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

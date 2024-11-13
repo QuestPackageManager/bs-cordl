@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_Variable(::System::Linq::Expressions::Interpreter::LocalVariable* value);
 
-  /// @brief Method .ctor, addr 0x4074124, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408883c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LocalVariable* variable, int32_t start, ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope* parent);
 
 protected:
@@ -132,7 +132,7 @@ public:
   ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>* ___ChildScopes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13946 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -180,21 +180,21 @@ public:
   __declspec(property(get = __cordl_internal_get__variables, put = __cordl_internal_set__variables)) ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<
       ::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>* _variables;
 
-  /// @brief Method AddClosureVariable, addr 0x4074394, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddClosureVariable, addr 0x4088aac, size 0x110, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LocalVariable* AddClosureVariable(::System::Linq::Expressions::ParameterExpression* variable);
 
-  /// @brief Method Box, addr 0x4074168, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x4088880, size 0x154, virtual false, abstract: false, final false
   inline void Box(::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Interpreter::InstructionList* instructions);
 
-  /// @brief Method DefineLocal, addr 0x4073ecc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method DefineLocal, addr 0x40885e4, size 0x258, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LocalDefinition DefineLocal(::System::Linq::Expressions::ParameterExpression* variable, int32_t start);
 
   static inline ::System::Linq::Expressions::Interpreter::LocalVariables* New_ctor();
 
-  /// @brief Method TryGetLocalOrClosure, addr 0x40742c4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method TryGetLocalOrClosure, addr 0x40889dc, size 0xc8, virtual false, abstract: false, final false
   inline bool TryGetLocalOrClosure(::System::Linq::Expressions::ParameterExpression* var, ByRef<::System::Linq::Expressions::Interpreter::LocalVariable*> local);
 
-  /// @brief Method UndefineLocal, addr 0x406eb68, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UndefineLocal, addr 0x4083280, size 0xd4, virtual false, abstract: false, final false
   inline void UndefineLocal(::System::Linq::Expressions::Interpreter::LocalDefinition definition, int32_t end);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*&
@@ -231,13 +231,13 @@ public:
   __cordl_internal_set__variables(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::ParameterExpression*,
                                                                                                         ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>* value);
 
-  /// @brief Method .ctor, addr 0x40744a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4088bbc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ClosureVariables, addr 0x407438c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClosureVariables, addr 0x4088aa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* get_ClosureVariables();
 
-  /// @brief Method get_LocalCount, addr 0x40742bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalCount, addr 0x40889d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LocalCount();
 
 protected:
@@ -268,7 +268,7 @@ public:
   int32_t ____maxLocalCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13947 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

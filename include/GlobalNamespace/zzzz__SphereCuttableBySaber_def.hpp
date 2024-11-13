@@ -42,10 +42,10 @@ public:
 
   __declspec(property(get = get_radius)) float_t radius;
 
-  /// @brief Method Awake, addr 0x3b70fe8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b86adc, size 0x2c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Cut, addr 0x3b71014, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Cut, addr 0x3b86b08, size 0x34, virtual true, abstract: false, final false
   inline void Cut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
   static inline ::GlobalNamespace::SphereCuttableBySaber* New_ctor();
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set__collider(::UnityW<::UnityEngine::SphereCollider> value);
 
-  /// @brief Method .ctor, addr 0x3b71048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b86b3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canBeCut, addr 0x3b70fe0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_canBeCut, addr 0x3b86ad4, size 0x8, virtual true, abstract: false, final false
   inline bool get_canBeCut();
 
-  /// @brief Method get_radius, addr 0x3b70f8c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_radius, addr 0x3b86a80, size 0x1c, virtual true, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_canBeCut, addr 0x3b70fa8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_canBeCut, addr 0x3b86a9c, size 0x38, virtual true, abstract: false, final false
   inline void set_canBeCut(bool value);
 
 protected:
@@ -95,7 +95,7 @@ public:
   bool ____canBeCut;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4658 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

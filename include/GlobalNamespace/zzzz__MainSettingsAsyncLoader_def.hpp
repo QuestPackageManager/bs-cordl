@@ -71,10 +71,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26d7684, size 0x2e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26e3200, size 0x2e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26d7964, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26e34e0, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -113,7 +113,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17871 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -168,16 +168,16 @@ public:
 
   __declspec(property(get = get_isRunningFromTests)) bool isRunningFromTests;
 
-  /// @brief Method InstallBindings, addr 0x26d6edc, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26e2a58, size 0x108, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallBindingsThatRelyOnSettings, addr 0x26d6fe4, size 0x67c, virtual false, abstract: false, final false
+  /// @brief Method InstallBindingsThatRelyOnSettings, addr 0x26e2b60, size 0x67c, virtual false, abstract: false, final false
   inline void InstallBindingsThatRelyOnSettings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x26d6d30, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x26e28ac, size 0xdc, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x26d6e0c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x26e2988, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::MainSettingsAsyncLoader* New_ctor();
@@ -218,10 +218,10 @@ public:
 
   constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value);
 
-  /// @brief Method .ctor, addr 0x26d7660, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e31dc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isRunningFromTests, addr 0x26d6d10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_isRunningFromTests, addr 0x26e288c, size 0x20, virtual false, abstract: false, final false
   inline bool get_isRunningFromTests();
 
 protected:
@@ -257,7 +257,7 @@ public:
   ::GlobalNamespace::SettingsManager* ____settingManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17872 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

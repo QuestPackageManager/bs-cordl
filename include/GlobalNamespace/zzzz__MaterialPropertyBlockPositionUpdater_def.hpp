@@ -27,7 +27,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockPositionUpdater* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x397c86c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x39900f0, size 0xb4, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x397c920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39901a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::UnityW<::UnityEngine::Transform> ____targetTransform;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16317 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

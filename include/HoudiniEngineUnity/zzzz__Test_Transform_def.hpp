@@ -37,10 +37,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Transform*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Transform*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a2e784, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a420dc, size 0x1cc, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Transform* other);
 
-  /// @brief Method IsNull, addr 0x3a2e724, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a4207c, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_Transform* New_ctor(::UnityEngine::Transform* self);
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3a2e6fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a42054, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Transform*>"
@@ -78,7 +78,7 @@ public:
   ::UnityW<::UnityEngine::Transform> ___self;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11856 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

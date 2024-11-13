@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Reflection::MissingMetadataException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cb4614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc8ca4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

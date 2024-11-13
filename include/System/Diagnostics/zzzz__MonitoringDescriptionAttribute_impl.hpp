@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::MonitoringDescriptionAttribute::*)(::StringW)>(
     &::System::Diagnostics::MonitoringDescriptionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x43bb9b4;
+  constexpr static std::size_t addrs = 0x43d00cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Diagnostics::MonitoringDescriptionAttribute::*)()>(
     &::System::Diagnostics::MonitoringDescriptionAttribute::get_Description)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43bba1c;
+  constexpr static std::size_t addrs = 0x43d0134;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -73,24 +73,24 @@ public:
   /// @brief Field m_shaderGraphHighestValues, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_shaderGraphHighestValues, put = __cordl_internal_set_m_shaderGraphHighestValues)) ::Tayx::Graphy::G_GraphShader* m_shaderGraphHighestValues;
 
-  /// @brief Method CreatePoints, addr 0x445dcf4, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x447240c, size 0x214, virtual true, abstract: false, final false
   inline void CreatePoints();
 
-  /// @brief Method Init, addr 0x445d6ac, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4471dc4, size 0x134, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioGraph* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x445d41c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4471b34, size 0x50, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x445d46c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4471b84, size 0x38, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateGraph, addr 0x445d7e0, size 0x4d0, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x4471ef8, size 0x4d0, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method UpdateParameters, addr 0x445d504, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x4471c1c, size 0x1a8, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderFull() const;
@@ -165,7 +165,7 @@ public:
 
   constexpr void __cordl_internal_set_m_shaderGraphHighestValues(::Tayx::Graphy::G_GraphShader* value);
 
-  /// @brief Method .ctor, addr 0x445df08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4472620, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -219,7 +219,7 @@ public:
   ::ArrayW<float_t, ::Array<float_t>*> ___m_graphArrayHighestValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

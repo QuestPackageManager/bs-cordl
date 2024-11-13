@@ -52,7 +52,7 @@ public:
 
   static inline ::GlobalNamespace::__AchievementsModelSO____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <UnlockAchievement>b__0, addr 0x2662d34, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <UnlockAchievement>b__0, addr 0x266dddc, size 0x70, virtual false, abstract: false, final false
   inline void _UnlockAchievement_b__0(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementResult result);
 
   constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO> const& __cordl_internal_get___4__this() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_achievementId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2662b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266dbbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   ::StringW ___achievementId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12712 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -124,18 +124,18 @@ public:
   __declspec(property(get = __cordl_internal_get__unlockedAchievementIds,
                       put = __cordl_internal_set__unlockedAchievementIds)) ::System::Collections::Generic::HashSet_1<::StringW>* _unlockedAchievementIds;
 
-  /// @brief Method Initialize, addr 0x2661a6c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x266cb14, size 0x170, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method IsAchievementUnlocked, addr 0x2662ba8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsAchievementUnlocked, addr 0x266dc50, size 0x6c, virtual false, abstract: false, final false
   inline bool IsAchievementUnlocked(::GlobalNamespace::AchievementSO* achievement);
 
   static inline ::GlobalNamespace::AchievementsModelSO* New_ctor();
 
-  /// @brief Method UnlockAchievement, addr 0x2662900, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method UnlockAchievement, addr 0x266d9a8, size 0x180, virtual false, abstract: false, final false
   inline void UnlockAchievement(::GlobalNamespace::AchievementSO* achievement);
 
-  /// @brief Method <Initialize>b__3_0, addr 0x2662c90, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__3_0, addr 0x266dd38, size 0xa4, virtual false, abstract: false, final false
   inline void _Initialize_b__3_0(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsResult result, ::ArrayW<::StringW, ::Array<::StringW>*> achievementIds);
 
   constexpr bool const& __cordl_internal_get__initialized() const;
@@ -156,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set__unlockedAchievementIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x2662c14, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266dcbc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -183,7 +183,7 @@ public:
   bool ____initialized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12713 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -32,13 +32,13 @@ public:
   /// @brief Field deviceLoaded, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_deviceLoaded, put = setStaticF_deviceLoaded)) ::System::Action_1<::StringW>* deviceLoaded;
 
-  /// @brief Method DisableAutoXRCameraTracking, addr 0x4a6ef20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DisableAutoXRCameraTracking, addr 0x4a83638, size 0x44, virtual false, abstract: false, final false
   static inline void DisableAutoXRCameraTracking(::UnityEngine::Camera* camera, bool disabled);
 
-  /// @brief Method InvokeDeviceLoaded, addr 0x4a6ef64, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeDeviceLoaded, addr 0x4a8367c, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeDeviceLoaded(::StringW loadedDeviceName);
 
-  /// @brief Method SetTrackingSpaceType, addr 0x4a6eee4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetTrackingSpaceType, addr 0x4a835fc, size 0x3c, virtual false, abstract: false, final false
   static inline bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType);
 
   static inline ::System::Action_1<::StringW>* getStaticF_deviceLoaded();
@@ -60,7 +60,7 @@ public:
   XRDevice(XRDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

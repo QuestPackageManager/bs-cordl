@@ -70,7 +70,7 @@ public:
   static ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group const Test2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4987 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -120,18 +120,18 @@ public:
 
   __declspec(property(get = get_test2GroupSize)) float_t test2GroupSize;
 
-  /// @brief Method AbSplit, addr 0x3a95a3c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method AbSplit, addr 0x3aa9518, size 0x258, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group AbSplit(::StringW userId);
 
-  /// @brief Method ComputeCurrentUserTreatment, addr 0x3a95a24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ComputeCurrentUserTreatment, addr 0x3aa9500, size 0x18, virtual false, abstract: false, final false
   inline void ComputeCurrentUserTreatment(::StringW userId);
 
-  /// @brief Method ForceSetTreatmentGroup, addr 0x3a95c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ForceSetTreatmentGroup, addr 0x3aa9770, size 0x8, virtual false, abstract: false, final false
   inline void ForceSetTreatmentGroup(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group group);
 
   static inline ::GlobalNamespace::AbTestExperimentDefinitionSO* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x3a959f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x3aa94d4, size 0x2c, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr float_t const& __cordl_internal_get__controlGroupSize() const;
@@ -170,19 +170,19 @@ public:
 
   constexpr void __cordl_internal_set__test2GroupSize(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a95c9c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa9778, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentUserTreatmentGroup, addr 0x3a959f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentUserTreatmentGroup, addr 0x3aa94cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group get_currentUserTreatmentGroup();
 
-  /// @brief Method get_experimentName, addr 0x3a959e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_experimentName, addr 0x3aa94c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_experimentName();
 
-  /// @brief Method get_test1GroupSize, addr 0x3a959d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_test1GroupSize, addr 0x3aa94b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_test1GroupSize();
 
-  /// @brief Method get_test2GroupSize, addr 0x3a959e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_test2GroupSize, addr 0x3aa94bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_test2GroupSize();
 
 protected:
@@ -218,7 +218,7 @@ public:
   ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group ____currentUserTreatmentGroup;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4988 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

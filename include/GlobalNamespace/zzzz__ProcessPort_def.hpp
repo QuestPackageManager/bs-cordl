@@ -44,15 +44,15 @@ public:
 
   __declspec(property(get = get_protocol, put = set_protocol)) ::StringW protocol;
 
-  /// @brief Method GetProcessesByPort, addr 0x3fb2f04, size 0xae4, virtual false, abstract: false, final false
+  /// @brief Method GetProcessesByPort, addr 0x3fc7594, size 0xae4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::ProcessPort*>* GetProcessesByPort(::StringW targetPort);
 
-  /// @brief Method LookupProcess, addr 0x3fb2e38, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method LookupProcess, addr 0x3fc74c8, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW LookupProcess(int32_t pid);
 
   static inline ::GlobalNamespace::ProcessPort* New_ctor();
 
-  /// @brief Method ToString, addr 0x3fb2c90, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3fc7320, size 0x168, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__portNumber_k__BackingField() const;
@@ -79,31 +79,31 @@ public:
 
   constexpr void __cordl_internal_set__protocol_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3fb39e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc8078, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_portNumber, addr 0x3fb2e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_portNumber, addr 0x3fc74a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_portNumber();
 
-  /// @brief Method get_processId, addr 0x3fb2e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_processId, addr 0x3fc7498, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_processId();
 
-  /// @brief Method get_processName, addr 0x3fb2df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_processName, addr 0x3fc7488, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_processName();
 
-  /// @brief Method get_protocol, addr 0x3fb2e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_protocol, addr 0x3fc74b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_protocol();
 
-  /// @brief Method set_portNumber, addr 0x3fb2e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_portNumber, addr 0x3fc74b0, size 0x8, virtual false, abstract: false, final false
   inline void set_portNumber(::StringW value);
 
-  /// @brief Method set_processId, addr 0x3fb2e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_processId, addr 0x3fc74a0, size 0x8, virtual false, abstract: false, final false
   inline void set_processId(int32_t value);
 
-  /// @brief Method set_processName, addr 0x3fb2e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_processName, addr 0x3fc7490, size 0x8, virtual false, abstract: false, final false
   inline void set_processName(::StringW value);
 
-  /// @brief Method set_protocol, addr 0x3fb2e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_protocol, addr 0x3fc74c0, size 0x8, virtual false, abstract: false, final false
   inline void set_protocol(::StringW value);
 
 protected:
@@ -133,7 +133,7 @@ public:
   ::StringW ____protocol_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8351 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,37 +31,37 @@ public:
 
   __declspec(property(get = get_Value)) ::System::Object* Value;
 
-  /// @brief Method CanonicalizeValue, addr 0x3cb437c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CanonicalizeValue, addr 0x3cc8a0c, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Object* CanonicalizeValue(::System::Object* value);
 
-  /// @brief Method Equals, addr 0x3cb4444, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3cc8ad4, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3cb44b4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3cc8b44, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x3cb460c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3cc8c9c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x3cb39b0, size 0x948, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3cc8040, size 0x948, virtual false, abstract: false, final false
   inline ::StringW ToString(bool typed);
 
-  /// @brief Method .ctor, addr 0x3cad4e0, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc1b70, size 0x2a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* argumentType, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3cb42f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc8988, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value);
 
-  /// @brief Method get_ArgumentType, addr 0x3cb4434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ArgumentType, addr 0x3cc8ac4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ArgumentType();
 
-  /// @brief Method get_Value, addr 0x3cb443c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3cc8acc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method op_Equality, addr 0x3cb4518, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3cc8ba8, size 0x78, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::CustomAttributeTypedArgument left, ::System::Reflection::CustomAttributeTypedArgument right);
 
-  /// @brief Method op_Inequality, addr 0x3cb4590, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3cc8c20, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::CustomAttributeTypedArgument left, ::System::Reflection::CustomAttributeTypedArgument right);
 
   // Ctor Parameters []

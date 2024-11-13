@@ -174,7 +174,7 @@ public:
   ::Unity::Collections::NativeArray_1<T> ___m_Texels;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

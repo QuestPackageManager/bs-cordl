@@ -55,22 +55,22 @@ public:
   /// @brief Field k_DefaultTangent, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_k_DefaultTangent, put = setStaticF_k_DefaultTangent)) ::UnityEngine::Vector4 k_DefaultTangent;
 
-  /// @brief Method Clear, addr 0x48b4390, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x48c8aa8, size 0x2c, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x48b43bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x48c8ad4, size 0x3c, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ResizeMeshInfo, addr 0x48b4198, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x48c88b0, size 0x1f8, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method SortGeometry, addr 0x48b43f8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x48c8b10, size 0xb4, virtual false, abstract: false, final false
   inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order);
 
-  /// @brief Method SwapVertexData, addr 0x48b44ac, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x48c8bc4, size 0x58c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
-  /// @brief Method .ctor, addr 0x48b3d7c, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c8494, size 0x41c, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
   static inline ::UnityEngine::Color32 getStaticF_k_DefaultColor();
@@ -134,7 +134,7 @@ public:
   ::UnityEngine::TextCore::LowLevel::GlyphRenderMode glyphRenderMode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15213 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

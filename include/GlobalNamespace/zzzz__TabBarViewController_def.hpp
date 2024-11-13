@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a8a064, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9db40, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::System::Action* action);
 
 protected:
@@ -86,7 +86,7 @@ public:
   ::System::Action* ___action;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4941 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -129,24 +129,24 @@ public:
 
   __declspec(property(get = get_sizeToFit, put = set_sizeToFit)) bool sizeToFit;
 
-  /// @brief Method Clear, addr 0x3a89e1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3a9d8f8, size 0x54, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method DidActivate, addr 0x3a89e70, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3a9d94c, size 0xc4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleDidSelectCell, addr 0x3a8a00c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectCell, addr 0x3a9dae8, size 0x50, virtual false, abstract: false, final false
   inline void HandleDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
   static inline ::GlobalNamespace::TabBarViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a89f34, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a9da10, size 0xd8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SelectItem, addr 0x3a89e00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SelectItem, addr 0x3a9d8dc, size 0x1c, virtual false, abstract: false, final false
   inline void SelectItem(int32_t index);
 
-  /// @brief Method Setup, addr 0x3a89c70, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3a9d74c, size 0x190, virtual false, abstract: false, final false
   inline void Setup(::ArrayW<::GlobalNamespace::__TabBarViewController__TabBarItem*, ::Array<::GlobalNamespace::__TabBarViewController__TabBarItem*>*> items);
 
   constexpr ::UnityW<::UnityEngine::UI::ContentSizeFitter> const& __cordl_internal_get__contentSizeFilter() const;
@@ -179,16 +179,16 @@ public:
 
   constexpr void __cordl_internal_set__shouldReloadData(bool value);
 
-  /// @brief Method .ctor, addr 0x3a8a05c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9db38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_selectedCellNumber, addr 0x3a89c54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedCellNumber, addr 0x3a9d730, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_selectedCellNumber();
 
-  /// @brief Method get_sizeToFit, addr 0x3a89c38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sizeToFit, addr 0x3a9d714, size 0x1c, virtual false, abstract: false, final false
   inline bool get_sizeToFit();
 
-  /// @brief Method set_sizeToFit, addr 0x3a89c18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_sizeToFit, addr 0x3a9d6f4, size 0x20, virtual false, abstract: false, final false
   inline void set_sizeToFit(bool value);
 
 protected:
@@ -221,7 +221,7 @@ public:
   bool ____shouldReloadData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4942 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

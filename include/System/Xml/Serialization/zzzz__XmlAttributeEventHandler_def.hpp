@@ -29,12 +29,12 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlAttributeEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x42f0678, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4304d90, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Xml::Serialization::XmlAttributeEventArgs* e);
 
   static inline ::System::Xml::Serialization::XmlAttributeEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x42f0574, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4304c8c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -52,7 +52,7 @@ public:
   XmlAttributeEventHandler(XmlAttributeEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7357 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

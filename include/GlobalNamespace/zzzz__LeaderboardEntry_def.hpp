@@ -39,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::LeaderboardEntry* New_ctor();
 
-  /// @brief Method SetScore, addr 0x3b8d87c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method SetScore, addr 0x3ba3444, size 0x190, virtual false, abstract: false, final false
   inline void SetScore(int32_t score, ::StringW playerName, int32_t rank, bool highlighted, bool showSeparator);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b8da0c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba35d4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   ::UnityEngine::Color ____color;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4790 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

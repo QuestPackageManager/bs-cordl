@@ -74,13 +74,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroup(::UnityW<::GlobalNamespace::LightGroupSO> value);
 
-  /// @brief Method .ctor, addr 0x3977db8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398b63c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroupSO* lightGroup);
 
-  /// @brief Method get_groupIntensity, addr 0x3977db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupIntensity, addr 0x398b634, size 0x8, virtual false, abstract: false, final false
   inline float_t get_groupIntensity();
 
-  /// @brief Method get_lightGroup, addr 0x3977da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x398b62c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroup();
 
 protected:
@@ -104,7 +104,7 @@ public:
   float_t ____groupIntensity;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16269 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -148,13 +148,13 @@ public:
 
   constexpr void __cordl_internal_set__lightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3977df8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398b67c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method get_intensity, addr 0x3977df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x398b674, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_lightId, addr 0x3977de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightId, addr 0x398b66c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lightId();
 
 protected:
@@ -178,7 +178,7 @@ public:
   float_t ____intensity;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16270 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -261,16 +261,16 @@ public:
 
   constexpr void __cordl_internal_set__individualLightData(::System::Collections::Generic::List_1<::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId*>* value);
 
-  /// @brief Method .ctor, addr 0x3977da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398b624, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupLightData, addr 0x3977d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightData, addr 0x398b60c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__GroupLightData*>* get_groupLightData();
 
-  /// @brief Method get_groupLightsWeighting, addr 0x3977d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightsWeighting, addr 0x398b61c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_groupLightsWeighting();
 
-  /// @brief Method get_individualLightData, addr 0x3977d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_individualLightData, addr 0x398b614, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__DirectionalLightWithIdsGroupEntry__LightIntensitiesWithId*>* get_individualLightData();
 
 protected:
@@ -303,7 +303,7 @@ public:
   ::GlobalNamespace::ColorMixAndWeightingApproach ____groupLightsWeighting;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16271 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

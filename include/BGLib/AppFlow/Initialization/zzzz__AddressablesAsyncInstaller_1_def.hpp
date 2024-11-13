@@ -116,7 +116,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<T>*> __u__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17591 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -194,7 +194,7 @@ public:
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> ____handle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17592 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

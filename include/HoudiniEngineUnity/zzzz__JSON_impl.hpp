@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (*)(::StringW)>(&::HoudiniEngineUnity::JSON::Parse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a1d478;
+  constexpr static std::size_t addrs = 0x3a30dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

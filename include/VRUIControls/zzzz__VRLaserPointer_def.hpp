@@ -41,13 +41,13 @@ public:
 
   static inline ::VRUIControls::VRLaserPointer* New_ctor();
 
-  /// @brief Method SetFadeDistance, addr 0x4a75ef0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetFadeDistance, addr 0x4a8a608, size 0xf8, virtual false, abstract: false, final false
   inline void SetFadeDistance(float_t distance);
 
-  /// @brief Method SetLocalPosition, addr 0x4a75e60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPosition, addr 0x4a8a578, size 0x48, virtual false, abstract: false, final false
   inline void SetLocalPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method SetLocalScale, addr 0x4a75ea8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetLocalScale, addr 0x4a8a5c0, size 0x48, virtual false, abstract: false, final false
   inline void SetLocalScale(::UnityEngine::Vector3 scale);
 
   constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__renderer() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x4a75fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8a700, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__fadeStartNormalizedDistanceId();
@@ -85,7 +85,7 @@ public:
   ::UnityW<::UnityEngine::MeshRenderer> ____renderer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

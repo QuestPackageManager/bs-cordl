@@ -34,7 +34,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE OculusPlatformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAwaiter, addr 0x2238f38, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x22439b0, size 0x104, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> GetAwaiter(::Oculus::Platform::Request* oculusRequest);
 
   /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -55,7 +55,7 @@ public:
   OculusPlatformExtensions(OculusPlatformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18215 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18224 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

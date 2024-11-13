@@ -76,7 +76,7 @@ public:
   static ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp const ToConstantBeforeNormalize;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7007 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -132,33 +132,33 @@ public:
   /// @brief Field scaleFactor, offset 0x128, size 0x4
   __declspec(property(get = __cordl_internal_get_scaleFactor, put = __cordl_internal_set_scaleFactor)) float_t scaleFactor;
 
-  /// @brief Method CalculateOptimizedControlDataType, addr 0x44ea7e0, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method CalculateOptimizedControlDataType, addr 0x44feef8, size 0x170, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType();
 
-  /// @brief Method CompareValue, addr 0x44ea5e0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method CompareValue, addr 0x44fecf8, size 0xec, virtual true, abstract: false, final false
   inline bool CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr);
 
-  /// @brief Method EvaluateMagnitude, addr 0x44ea6cc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x44fede4, size 0x60, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method EvaluateMagnitude, addr 0x44ea72c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x44fee44, size 0x90, virtual false, abstract: false, final false
   inline float_t EvaluateMagnitude(float_t value);
 
-  /// @brief Method FinishSetup, addr 0x44ea29c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x44fe9b4, size 0xe8, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::AxisControl* New_ctor();
 
-  /// @brief Method Preprocess, addr 0x44ea0f4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Preprocess, addr 0x44fe80c, size 0xd4, virtual false, abstract: false, final false
   inline float_t Preprocess(float_t value);
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x44ea384, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x44fea9c, size 0x180, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method Unpreprocess, addr 0x44ea1c8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Unpreprocess, addr 0x44fe8e0, size 0x4c, virtual false, abstract: false, final false
   inline float_t Unpreprocess(float_t value);
 
-  /// @brief Method WriteValueIntoState, addr 0x44ea504, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x44fec1c, size 0xdc, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp const& __cordl_internal_get_clamp() const;
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set_scaleFactor(float_t value);
 
-  /// @brief Method .ctor, addr 0x44ea214, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44fe92c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -278,7 +278,7 @@ public:
   float_t ___scaleFactor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7008 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

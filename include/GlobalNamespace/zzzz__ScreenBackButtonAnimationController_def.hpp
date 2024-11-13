@@ -85,7 +85,7 @@ public:
   static ::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType const MoveOut2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16740 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -116,12 +116,12 @@ public:
   /// @brief Field _animator, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator)) ::UnityW<::UnityEngine::Animator> _animator;
 
-  /// @brief Method Awake, addr 0x22454c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2250408, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ScreenBackButtonAnimationController* New_ctor();
 
-  /// @brief Method StartAnimation, addr 0x22454e8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StartAnimation, addr 0x2250428, size 0x70, virtual false, abstract: false, final false
   inline void StartAnimation(::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType animationType);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>*& __cordl_internal_get__animationHashes();
@@ -137,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method .ctor, addr 0x2245558, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2250498, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -161,7 +161,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>* ____animationHashes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

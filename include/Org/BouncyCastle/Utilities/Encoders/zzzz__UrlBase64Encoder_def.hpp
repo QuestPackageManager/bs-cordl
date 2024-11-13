@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2599500, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a45a8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

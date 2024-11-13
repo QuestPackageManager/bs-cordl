@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion4::BeatmapBeatIndex::*)()>(&::BeatmapSaveDataVersion4::BeatmapBeatIndex::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c6e14;
+  constexpr static std::size_t addrs = 0x26d2bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>::get(), "get_beat",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion4::BeatmapBeatIndex::*)()>(&::BeatmapSaveDataVersion4::BeatmapBeatIndex::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c6e1c;
+  constexpr static std::size_t addrs = 0x26d2bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>::get(), ".ctor",
@@ -58,15 +58,15 @@ constexpr void BeatmapSaveDataVersion4::BeatmapBeatIndex::__cordl_internal_set_b
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
-constexpr float_t& BeatmapSaveDataVersion4::BeatmapBeatIndex::__cordl_internal_get_r() {
+constexpr int32_t& BeatmapSaveDataVersion4::BeatmapBeatIndex::__cordl_internal_get_r() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
-constexpr float_t const& BeatmapSaveDataVersion4::BeatmapBeatIndex::__cordl_internal_get_r() const {
+constexpr int32_t const& BeatmapSaveDataVersion4::BeatmapBeatIndex::__cordl_internal_get_r() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
-constexpr void BeatmapSaveDataVersion4::BeatmapBeatIndex::__cordl_internal_set_r(float_t value) {
+constexpr void BeatmapSaveDataVersion4::BeatmapBeatIndex::__cordl_internal_set_r(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r = value;
 }

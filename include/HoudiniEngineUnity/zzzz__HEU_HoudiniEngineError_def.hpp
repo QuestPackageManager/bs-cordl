@@ -27,7 +27,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniEngineError* New_ctor(::StringW errorMsg);
 
-  /// @brief Method ToString, addr 0x39d5f74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x39e98cc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__errorMsg() const;
@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__errorMsg(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39d5e70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e97c8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x39d5eec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e9844, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW errorMsg);
 
 protected:
@@ -60,7 +60,7 @@ public:
   ::StringW ____errorMsg;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11622 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

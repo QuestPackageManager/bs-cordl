@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43e5a0c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fa124, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName);
 
 protected:
@@ -52,7 +52,7 @@ public:
   ::StringW ____propertyName;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9405 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

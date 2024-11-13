@@ -74,7 +74,7 @@ public:
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase* New_ctor();
 
-  /// @brief Method RefreshPropertyId, addr 0x397cf3c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x39907c0, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
   constexpr int32_t const& __cordl_internal_get__propertyId_k__BackingField() const;
@@ -89,13 +89,13 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x397cf74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39907f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_propertyId, addr 0x397cf64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_propertyId, addr 0x39907e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_propertyId();
 
-  /// @brief Method set_propertyId, addr 0x397cf6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_propertyId, addr 0x39907f0, size 0x8, virtual false, abstract: false, final false
   inline void set_propertyId(int32_t value);
 
 protected:
@@ -119,7 +119,7 @@ public:
   int32_t ____propertyId_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16312 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16320 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x397cf9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3990820, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,7 +171,7 @@ public:
   float_t ___value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -200,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x397cfc4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3990848, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,7 +221,7 @@ public:
   int32_t ___value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16322 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -250,7 +250,7 @@ public:
 
   constexpr void __cordl_internal_set_vector(::UnityEngine::Vector4 value);
 
-  /// @brief Method .ctor, addr 0x397cfec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3990870, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -271,7 +271,7 @@ public:
   ::UnityEngine::Vector4 ___vector;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16323 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -300,7 +300,7 @@ public:
 
   constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x397d014, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3990898, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -321,7 +321,7 @@ public:
   ::UnityEngine::Color ___color;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16324 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -374,18 +374,18 @@ public:
                                                                                                           ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*>
       _vectors;
 
-  /// @brief Method ApplyParams, addr 0x397cd00, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x3990584, size 0x1a4, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyValuesSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x397cea4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x3990728, size 0x98, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyIds, addr 0x397cba8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyIds, addr 0x399042c, size 0x158, virtual false, abstract: false, final false
   inline void RefreshPropertyIds();
 
-  /// @brief Method Start, addr 0x397cb90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3990414, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*>*> const&
@@ -430,7 +430,7 @@ public:
   constexpr void __cordl_internal_set__vectors(
       ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*> value);
 
-  /// @brief Method .ctor, addr 0x397cf5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39907e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -463,7 +463,7 @@ public:
   ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*>*> ____ints;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

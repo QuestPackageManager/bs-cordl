@@ -110,21 +110,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3af92ac, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b0dccc, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3af9364, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b0dd84, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3af936c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b0dd8c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3af93a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b0ddc4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3af92a8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b0dcc8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -151,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x3af91e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0dc08, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -190,7 +190,7 @@ public:
   ::UnityW<::GlobalNamespace::ResultsViewController> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5358 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -293,31 +293,31 @@ public:
   __declspec(property(get = __cordl_internal_get_restartButtonPressedEvent,
                       put = __cordl_internal_set_restartButtonPressedEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* restartButtonPressedEvent;
 
-  /// @brief Method ContinueButtonPressed, addr 0x3af9210, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ContinueButtonPressed, addr 0x3b0dc30, size 0x48, virtual false, abstract: false, final false
   inline void ContinueButtonPressed();
 
-  /// @brief Method DidActivate, addr 0x3af8b60, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b0d580, size 0x1a4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3af9148, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b0db68, size 0xa0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x3af8b38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b0d558, size 0x28, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
                    ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool practice, bool newHighScore);
 
   static inline ::GlobalNamespace::ResultsViewController* New_ctor();
 
-  /// @brief Method ProcessMenuDestinationRequest, addr 0x3af9074, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ProcessMenuDestinationRequest, addr 0x3b0da94, size 0xd4, virtual false, abstract: false, final false
   inline void ProcessMenuDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
-  /// @brief Method RestartButtonPressed, addr 0x3af9258, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method RestartButtonPressed, addr 0x3b0dc78, size 0x48, virtual false, abstract: false, final false
   inline void RestartButtonPressed();
 
-  /// @brief Method SetDataToUI, addr 0x3af8d04, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method SetDataToUI, addr 0x3b0d724, size 0x300, virtual false, abstract: false, final false
   inline void SetDataToUI();
 
-  /// @brief Method StartFireworksAfterDelay, addr 0x3af9004, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StartFireworksAfterDelay, addr 0x3b0da24, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartFireworksAfterDelay(float_t delay);
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
@@ -464,22 +464,22 @@ public:
 
   constexpr void __cordl_internal_set_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x3af92a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0dcc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_continueButtonPressedEvent, addr 0x3af8870, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_continueButtonPressedEvent, addr 0x3b0d290, size 0xb0, virtual false, abstract: false, final false
   inline void add_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
-  /// @brief Method add_restartButtonPressedEvent, addr 0x3af89d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_restartButtonPressedEvent, addr 0x3b0d3f0, size 0xb0, virtual false, abstract: false, final false
   inline void add_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
-  /// @brief Method get_practice, addr 0x3af8b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practice, addr 0x3b0d550, size 0x8, virtual false, abstract: false, final false
   inline bool get_practice();
 
-  /// @brief Method remove_continueButtonPressedEvent, addr 0x3af8920, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_continueButtonPressedEvent, addr 0x3b0d340, size 0xb0, virtual false, abstract: false, final false
   inline void remove_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
-  /// @brief Method remove_restartButtonPressedEvent, addr 0x3af8a80, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_restartButtonPressedEvent, addr 0x3b0d4a0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
 protected:
@@ -569,7 +569,7 @@ public:
   bool ____practice;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5359 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

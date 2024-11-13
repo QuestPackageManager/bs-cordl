@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_Name* New_ctor();
 
-  /// @brief Method .ctor, addr 0x432e768, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4342e80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x4336384, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x434aa9c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -47,7 +47,7 @@ public:
   Datatype_Name(Datatype_Name const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7530 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

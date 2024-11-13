@@ -35,10 +35,10 @@ public:
   /// @brief Field Rotation, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_Rotation, put = setStaticF_Rotation)) ::UnityEngine::Timeline::MatchTargetFields Rotation;
 
-  /// @brief Method HasAny, addr 0x4797194, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HasAny, addr 0x47ab8ac, size 0x74, virtual false, abstract: false, final false
   static inline bool HasAny(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields fields);
 
-  /// @brief Method Toggle, addr 0x4797208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Toggle, addr 0x47ab920, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::MatchTargetFields Toggle(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields flag);
 
   static inline ::UnityEngine::Timeline::MatchTargetFields getStaticF_All();
@@ -72,7 +72,7 @@ public:
   MatchTargetFieldConstants(MatchTargetFieldConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15763 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

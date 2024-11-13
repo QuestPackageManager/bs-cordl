@@ -68,22 +68,22 @@ public:
 
   constexpr void __cordl_internal_set_isTrustedHost(bool value);
 
-  /// @brief Method .ctor, addr 0x4429a70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443e188, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AddressList, addr 0x4429a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddressList, addr 0x443e178, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> get_AddressList();
 
-  /// @brief Method get_HostName, addr 0x4429a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HostName, addr 0x443e160, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HostName();
 
-  /// @brief Method set_AddressList, addr 0x4429a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AddressList, addr 0x443e180, size 0x8, virtual false, abstract: false, final false
   inline void set_AddressList(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
 
-  /// @brief Method set_Aliases, addr 0x4429a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Aliases, addr 0x443e170, size 0x8, virtual false, abstract: false, final false
   inline void set_Aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_HostName, addr 0x4429a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HostName, addr 0x443e168, size 0x8, virtual false, abstract: false, final false
   inline void set_HostName(::StringW value);
 
 protected:
@@ -113,7 +113,7 @@ public:
   bool ___isTrustedHost;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9557 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,7 +33,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::Zenject::I
 }
 template <typename T> constexpr void Zenject::PoolWrapperFactory_1<T>::__cordl_internal_set__pool(::Zenject::IMemoryPool_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____pool, value);
 }
 template <typename T> inline ::Zenject::PoolWrapperFactory_1<T>* Zenject::PoolWrapperFactory_1<T>::New_ctor(::Zenject::IMemoryPool_1<T>* pool) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PoolWrapperFactory_1<T>*>(pool));

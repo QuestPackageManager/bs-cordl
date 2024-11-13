@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set_user_denied(bool value);
 
-  /// @brief Method .ctor, addr 0x3bd01d8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be4868, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool trusted, bool user_denied, int32_t error_code, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors);
 
-  /// @brief Method get_Trusted, addr 0x3bd0220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Trusted, addr 0x3be48b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_Trusted();
 
-  /// @brief Method get_UserDenied, addr 0x3bd0228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserDenied, addr 0x3be48b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_UserDenied();
 
 protected:
@@ -107,7 +107,7 @@ public:
   ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> ___policy_errors;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15911 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

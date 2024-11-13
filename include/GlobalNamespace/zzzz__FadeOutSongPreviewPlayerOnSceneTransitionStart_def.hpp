@@ -35,15 +35,15 @@ public:
   /// @brief Field _songPreviewPlayer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer)) ::UnityW<::GlobalNamespace::AudioPlayerBase> _songPreviewPlayer;
 
-  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x3a66714, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x3a7a0dc, size 0x38, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerTransitionDidStart(::GlobalNamespace::__GameScenesManager__SceneTransitionType sceneTransitionType, float_t duration);
 
   static inline ::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a66644, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a7a00c, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3a665b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a79f7c, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::AudioPlayerBase> value);
 
-  /// @brief Method .ctor, addr 0x3a6674c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7a114, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

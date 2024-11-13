@@ -7,6 +7,7 @@ module;
 #include "BGLib/UnityExtension/AssetBundleExtensions.hpp"
 #include "BGLib/UnityExtension/ButtonAttribute.hpp"
 #include "BGLib/UnityExtension/Debouncer_1.hpp"
+#include "BGLib/UnityExtension/ExternalFileReader.hpp"
 #include "BGLib/UnityExtension/InfoBoxAttribute.hpp"
 #include "BGLib/UnityExtension/SerializableDictionary_2.hpp"
 #include "BGLib/UnityExtension/ShaderPropertyAttributeFilter.hpp"

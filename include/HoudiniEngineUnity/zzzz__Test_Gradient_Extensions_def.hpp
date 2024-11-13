@@ -50,13 +50,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Gradient_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x3a30c4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3a445a4, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Gradient* _ToTestObject_b__1_0(::UnityEngine::Gradient* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x3a30ca8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3a44600, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Gradient* _ToTestObject_b__2_0(::UnityEngine::Gradient* lod);
 
-  /// @brief Method .ctor, addr 0x3a30c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a4459c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_Gradient_Extensions____c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   __Test_Gradient_Extensions____c(__Test_Gradient_Extensions____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11877 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -104,14 +104,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Gradient_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x3a30a00, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a44358, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Gradient*, ::Array<::HoudiniEngineUnity::Test_Gradient*>*>
   ToTestObject(::ArrayW<::UnityEngine::Gradient*, ::Array<::UnityEngine::Gradient*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x3a309a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a442fc, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Gradient* ToTestObject(::UnityEngine::Gradient* self);
 
-  /// @brief Method ToTestObject, addr 0x3a30af0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a44448, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Gradient*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Gradient*>* self);
 
 protected:
@@ -129,7 +129,7 @@ public:
   Test_Gradient_Extensions(Test_Gradient_Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11878 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

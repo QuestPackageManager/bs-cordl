@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set_knobColor1(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x224edfc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2259d3c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -176,7 +176,7 @@ public:
   ::UnityEngine::Color ___backgroundColor1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16788 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -259,7 +259,7 @@ public:
   static ::HMUI::__AnimatedSwitchView__AnimationState const SwitchingOn;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16789 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -280,18 +280,18 @@ namespace HMUI {
 class CORDL_TYPE __AnimatedSwitchView__GetColorDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x224ee28, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2259d68, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x224ee48, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2259d88, size 0x2c, virtual true, abstract: false, final false
   inline ::UnityEngine::Color EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x224ee14, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2259d54, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Color Invoke(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
   static inline ::HMUI::__AnimatedSwitchView__GetColorDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x224eabc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22599fc, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -309,7 +309,7 @@ public:
   __AnimatedSwitchView__GetColorDelegate(__AnimatedSwitchView__GetColorDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16790 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -348,25 +348,25 @@ public:
 
   static inline ::HMUI::__AnimatedSwitchView____c* New_ctor();
 
-  /// @brief Method <LerpColors>b__31_0, addr 0x224eed8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LerpColors>b__31_0, addr 0x2259e18, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _LerpColors_b__31_0(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_1, addr 0x224eef4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LerpColors>b__31_1, addr 0x2259e34, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _LerpColors_b__31_1(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_2, addr 0x224ef10, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LerpColors>b__31_2, addr 0x2259e50, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _LerpColors_b__31_2(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_3, addr 0x224ef2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LerpColors>b__31_3, addr 0x2259e6c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _LerpColors_b__31_3(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_4, addr 0x224ef48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LerpColors>b__31_4, addr 0x2259e88, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _LerpColors_b__31_4(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method <LerpColors>b__31_5, addr 0x224ef64, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LerpColors>b__31_5, addr 0x2259ea4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _LerpColors_b__31_5(::HMUI::__AnimatedSwitchView__ColorBlock* colorBlock);
 
-  /// @brief Method .ctor, addr 0x224eed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2259e10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HMUI::__AnimatedSwitchView____c* getStaticF___9();
@@ -412,7 +412,7 @@ public:
   __AnimatedSwitchView____c(__AnimatedSwitchView____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16791 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -502,36 +502,36 @@ public:
   /// @brief Field _verticalStretchAmount, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__verticalStretchAmount, put = __cordl_internal_set__verticalStretchAmount)) float_t _verticalStretchAmount;
 
-  /// @brief Method Awake, addr 0x224df1c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2258e5c, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleOnValueChanged, addr 0x224ed64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleOnValueChanged, addr 0x2259ca4, size 0x28, virtual false, abstract: false, final false
   inline void HandleOnValueChanged(bool value);
 
-  /// @brief Method HandleStateDidChange, addr 0x224ed8c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleStateDidChange, addr 0x2259ccc, size 0x50, virtual false, abstract: false, final false
   inline void HandleStateDidChange(::HMUI::__ToggleWithCallbacks__SelectionState selectionState);
 
-  /// @brief Method LerpColor, addr 0x224ebbc, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method LerpColor, addr 0x2259afc, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityEngine::Color LerpColor(float_t switchAmount, float_t highlightAmount, float_t disabledAmount, ::HMUI::__AnimatedSwitchView__GetColorDelegate* getColorDelegate);
 
-  /// @brief Method LerpColors, addr 0x224e10c, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method LerpColors, addr 0x225904c, size 0x4e4, virtual false, abstract: false, final false
   inline void LerpColors(float_t switchAmount, float_t highlightAmount, float_t disabledAmount);
 
-  /// @brief Method LerpPosition, addr 0x224e5f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method LerpPosition, addr 0x2259530, size 0x64, virtual false, abstract: false, final false
   inline void LerpPosition(float_t switchAmount);
 
-  /// @brief Method LerpStretch, addr 0x224ea3c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method LerpStretch, addr 0x225997c, size 0x80, virtual false, abstract: false, final false
   inline void LerpStretch(float_t switchAmount);
 
   static inline ::HMUI::AnimatedSwitchView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x224e654, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2259594, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x224df6c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2258eac, size 0x1a0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x224e79c, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22596dc, size 0x2a0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::HMUI::__AnimatedSwitchView__AnimationState const& __cordl_internal_get__animationState() const;
@@ -666,7 +666,7 @@ public:
 
   constexpr void __cordl_internal_set__verticalStretchAmount(float_t value);
 
-  /// @brief Method .ctor, addr 0x224eddc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2259d1c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -750,7 +750,7 @@ public:
   ::UnityW<::HMUI::ToggleWithCallbacks> ____toggle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16792 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

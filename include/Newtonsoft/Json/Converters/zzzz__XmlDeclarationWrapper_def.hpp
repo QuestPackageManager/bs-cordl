@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set__declaration(::System::Xml::XmlDeclaration* value);
 
-  /// @brief Method .ctor, addr 0x3ecd740, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee1dd0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDeclaration* declaration);
 
-  /// @brief Method get_Encoding, addr 0x3ecdd68, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Encoding, addr 0x3ee23f8, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Encoding();
 
-  /// @brief Method get_Standalone, addr 0x3ecdda0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Standalone, addr 0x3ee2430, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Standalone();
 
-  /// @brief Method get_Version, addr 0x3ecdd4c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Version, addr 0x3ee23dc, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Version();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDeclaration"
@@ -70,10 +70,10 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  /// @brief Method set_Encoding, addr 0x3ecdd84, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Encoding, addr 0x3ee2414, size 0x1c, virtual true, abstract: false, final true
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method set_Standalone, addr 0x3ecddbc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Standalone, addr 0x3ee244c, size 0x1c, virtual true, abstract: false, final true
   inline void set_Standalone(::StringW value);
 
 protected:
@@ -94,7 +94,7 @@ public:
   ::System::Xml::XmlDeclaration* ____declaration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10456 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

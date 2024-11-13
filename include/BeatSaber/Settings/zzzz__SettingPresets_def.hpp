@@ -66,22 +66,22 @@ public:
   /// @brief Field kStandalone, offset 0xffffffff, size 0xe8
   static __declspec(property(get = getStaticF_kStandalone, put = setStaticF_kStandalone)) ::BeatSaber::Settings::Settings kStandalone;
 
-  /// @brief Method DefaultAudioSettingsWithLatency, addr 0x223e388, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method DefaultAudioSettingsWithLatency, addr 0x22492ac, size 0x14, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::AudioSettings DefaultAudioSettingsWithLatency(float_t latency);
 
-  /// @brief Method DefaultControllerSettings, addr 0x223e400, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DefaultControllerSettings, addr 0x2249324, size 0x90, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::ControllerSettings DefaultControllerSettings();
 
-  /// @brief Method DefaultMiscSettings, addr 0x223e39c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DefaultMiscSettings, addr 0x22492c0, size 0x44, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::MiscSettings DefaultMiscSettings();
 
-  /// @brief Method DefaultQuestSettings, addr 0x223e3e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method DefaultQuestSettings, addr 0x2249304, size 0x14, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::QuestSettings DefaultQuestSettings();
 
-  /// @brief Method DefaultSmoothCameraSettings, addr 0x223e2f8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DefaultSmoothCameraSettings, addr 0x224921c, size 0x90, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::SmoothCameraSettings DefaultSmoothCameraSettings();
 
-  /// @brief Method DefaultWindowSettings, addr 0x223e3f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DefaultWindowSettings, addr 0x2249318, size 0xc, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::WindowSettings DefaultWindowSettings();
 
   static inline ::BeatSaber::Settings::Settings getStaticF_kLightBaking();
@@ -135,7 +135,7 @@ public:
   SettingPresets(SettingPresets const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17953 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

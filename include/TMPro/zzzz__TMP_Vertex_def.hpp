@@ -36,7 +36,7 @@ public:
 
   static inline ::TMPro::TMP_Vertex getStaticF_k_Zero();
 
-  /// @brief Method get_zero, addr 0x474ecc0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x47633d8, size 0x68, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Vertex get_zero();
 
   static inline void setStaticF_k_Zero(::TMPro::TMP_Vertex value);
@@ -66,7 +66,7 @@ public:
   ::UnityEngine::Color32 color;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14412 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

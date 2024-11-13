@@ -94,7 +94,7 @@ public:
   ::System::Action_3<TParam1, TParam2, TValue>* ____onSpawnMethod;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12392 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,16 +24,16 @@ namespace System::Xml {
 struct CORDL_TYPE BinXmlSqlMoney {
 public:
   // Declarations
-  /// @brief Method ToDecimal, addr 0x41c0204, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x41d491c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Decimal ToDecimal();
 
-  /// @brief Method ToString, addr 0x41c0268, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41d4980, size 0xec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x41c01f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41d4908, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t v);
 
-  /// @brief Method .ctor, addr 0x41c01fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41d4914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t v);
 
   // Ctor Parameters []
@@ -47,7 +47,7 @@ public:
   int64_t data;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7131 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -104,7 +104,7 @@ public:
   static ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType const XFORM;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11630 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -184,54 +184,54 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*() noexcept;
 
-  /// @brief Method CleanUp, addr 0x39dda0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x39f1364, size 0xc, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method GenerateTransform, addr 0x39dd520, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method GenerateTransform, addr 0x39f0e78, size 0x4ec, virtual false, abstract: false, final false
   inline void GenerateTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_Parameters* parameters);
 
-  /// @brief Method GetRotateBinding, addr 0x39dcae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRotateBinding, addr 0x39f043c, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetRotateBinding();
 
-  /// @brief Method GetScaleBinding, addr 0x39dcaec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetScaleBinding, addr 0x39f0444, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetScaleBinding();
 
-  /// @brief Method GetTranslateBinding, addr 0x39dcadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTranslateBinding, addr 0x39f0434, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetTranslateBinding();
 
-  /// @brief Method GetUpdatedPosition, addr 0x39dda3c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetUpdatedPosition, addr 0x39f1394, size 0x15c, virtual false, abstract: false, final false
   inline bool GetUpdatedPosition(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Vector3> inPosition);
 
-  /// @brief Method GetUpdatedRotation, addr 0x39ddb98, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetUpdatedRotation, addr 0x39f14f0, size 0x1fc, virtual false, abstract: false, final false
   inline bool GetUpdatedRotation(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Quaternion> inRotation);
 
-  /// @brief Method HasRotateHandle, addr 0x39dca5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasRotateHandle, addr 0x39f03b4, size 0x10, virtual false, abstract: false, final false
   inline bool HasRotateHandle();
 
-  /// @brief Method HasScaleHandle, addr 0x39dca6c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasScaleHandle, addr 0x39f03c4, size 0x10, virtual false, abstract: false, final false
   inline bool HasScaleHandle();
 
-  /// @brief Method HasTranslateHandle, addr 0x39dca4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasTranslateHandle, addr 0x39f03a4, size 0x10, virtual false, abstract: false, final false
   inline bool HasTranslateHandle();
 
-  /// @brief Method IsEquivalentTo, addr 0x39ddd94, size 0x4e4, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x39f16ec, size 0x4e4, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Handle* other);
 
-  /// @brief Method IsRotateHandleDisabled, addr 0x39dca9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsRotateHandleDisabled, addr 0x39f03f4, size 0x20, virtual false, abstract: false, final false
   inline bool IsRotateHandleDisabled();
 
-  /// @brief Method IsScaleHandleDisabled, addr 0x39dcabc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsScaleHandleDisabled, addr 0x39f0414, size 0x20, virtual false, abstract: false, final false
   inline bool IsScaleHandleDisabled();
 
-  /// @brief Method IsSpecialRSTOrder, addr 0x39dda18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsSpecialRSTOrder, addr 0x39f1370, size 0x24, virtual false, abstract: false, final false
   static inline bool IsSpecialRSTOrder(::HoudiniEngineUnity::HAPI_RSTOrder rstOrder);
 
-  /// @brief Method IsTranslateHandleDisabled, addr 0x39dca7c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsTranslateHandleDisabled, addr 0x39f03d4, size 0x20, virtual false, abstract: false, final false
   inline bool IsTranslateHandleDisabled();
 
   static inline ::HoudiniEngineUnity::HEU_Handle* New_ctor();
 
-  /// @brief Method SetupHandle, addr 0x39dcb18, size 0x7cc, virtual false, abstract: false, final false
+  /// @brief Method SetupHandle, addr 0x39f0470, size 0x7cc, virtual false, abstract: false, final false
   inline bool SetupHandle(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, int32_t handleIndex, ::StringW handleName, ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType handleType,
                           ByRef<::HoudiniEngineUnity::HAPI_HandleInfo> handleInfo, ::HoudiniEngineUnity::HEU_Parameters* parameters);
 
@@ -307,31 +307,31 @@ public:
 
   constexpr void __cordl_internal_set__xyzOrder(::HoudiniEngineUnity::HAPI_XYZOrder value);
 
-  /// @brief Method .ctor, addr 0x39de278, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f1bd0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConvertedTransformEuler, addr 0x39dca38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_ConvertedTransformEuler, addr 0x39f0390, size 0x14, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_TransformEuler get_ConvertedTransformEuler();
 
-  /// @brief Method get_HandleName, addr 0x39dca18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HandleName, addr 0x39f0370, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HandleName();
 
-  /// @brief Method get_HandlePosition, addr 0x39dcaf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HandlePosition, addr 0x39f044c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_HandlePosition();
 
-  /// @brief Method get_HandleRotation, addr 0x39dcb00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HandleRotation, addr 0x39f0458, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_HandleRotation();
 
-  /// @brief Method get_HandleScale, addr 0x39dcb0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HandleScale, addr 0x39f0464, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_HandleScale();
 
-  /// @brief Method get_HandleType, addr 0x39dca20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HandleType, addr 0x39f0378, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType get_HandleType();
 
-  /// @brief Method get_RSTOrder, addr 0x39dca28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RSTOrder, addr 0x39f0380, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_RSTOrder get_RSTOrder();
 
-  /// @brief Method get_XYZOrder, addr 0x39dca30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XYZOrder, addr 0x39f0388, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_XYZOrder get_XYZOrder();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
@@ -388,7 +388,7 @@ public:
   ::HoudiniEngineUnity::HAPI_TransformEuler ____convertedTransformEuler;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11631 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

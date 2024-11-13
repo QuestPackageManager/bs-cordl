@@ -47,21 +47,21 @@ public:
   /// @brief Field s_instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_instance, put = setStaticF_s_instance)) ::TMPro::TMP_ResourceManager* s_instance;
 
-  /// @brief Method AddFontAsset, addr 0x47869c8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method AddFontAsset, addr 0x479b0e0, size 0x150, virtual false, abstract: false, final false
   static inline void AddFontAsset(::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method GetTextSettings, addr 0x47868b8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetTextSettings, addr 0x479afd0, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_Settings> GetTextSettings();
 
   static inline ::TMPro::TMP_ResourceManager* New_ctor();
 
-  /// @brief Method RebuildFontAssetCache, addr 0x4786bac, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method RebuildFontAssetCache, addr 0x479b2c4, size 0x118, virtual false, abstract: false, final false
   static inline void RebuildFontAssetCache(int32_t instanceID);
 
-  /// @brief Method TryGetFontAsset, addr 0x4786b18, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryGetFontAsset, addr 0x479b230, size 0x94, virtual false, abstract: false, final false
   static inline bool TryGetFontAsset(int32_t hashcode, ByRef<::TMPro::TMP_FontAsset*> fontAsset);
 
-  /// @brief Method .ctor, addr 0x47868b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479afc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* getStaticF_s_FontAssetReferenceLookup();
@@ -95,7 +95,7 @@ public:
   TMP_ResourceManager(TMP_ResourceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14490 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__BeatToTimeConverterProvider_def.hpp"
+#include "GlobalNamespace/zzzz__BeatToTimeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ColorNoteItemConverter)
 namespace BeatmapSaveDataVersion4 {
@@ -29,14 +29,14 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::ColorNoteItemConverter);
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::ColorNoteItemConverter*
-class CORDL_TYPE ColorNoteItemConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
+class CORDL_TYPE ColorNoteItemConverter : public ::GlobalNamespace::BeatToTimeConverter {
 public:
   // Declarations
   /// @brief Field _colorNotes, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__colorNotes, put = __cordl_internal_set__colorNotes)) ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>
       _colorNotes;
 
-  /// @brief Method Convert, addr 0x26cbb58, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x26d77a4, size 0xe8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::ColorNoteItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__colorNotes(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> value);
 
-  /// @brief Method .ctor, addr 0x26cba48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d7694, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
@@ -69,7 +69,7 @@ public:
   ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> ____colorNotes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13440 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

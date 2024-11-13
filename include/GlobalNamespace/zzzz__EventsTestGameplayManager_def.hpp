@@ -88,7 +88,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatToTimeConverter"
   constexpr operator ::GlobalNamespace::IBeatToTimeConverter*() noexcept;
 
-  /// @brief Method ConvertBeatToTime, addr 0x3b28fa8, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method ConvertBeatToTime, addr 0x3b3e3f4, size 0x18, virtual true, abstract: false, final true
   inline float_t ConvertBeatToTime(float_t beat);
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager__MockBeatToTimeConverter* New_ctor(float_t bpm);
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__bpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b26318, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3b764, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t bpm);
 
   /// @brief Convert to "::GlobalNamespace::IBeatToTimeConverter"
@@ -123,7 +123,7 @@ public:
   float_t ____bpm;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -146,7 +146,7 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <AddEventsForLightGroup>b__0, addr 0x3b28fc0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AddEventsForLightGroup>b__0, addr 0x3b3e40c, size 0x30, virtual false, abstract: false, final false
   inline bool _AddEventsForLightGroup_b__0(::GlobalNamespace::LightGroup* x);
 
   constexpr int32_t const& __cordl_internal_get_lightGroupId() const;
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_lightGroupId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b2892c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3dd78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -176,7 +176,7 @@ public:
   int32_t ___lightGroupId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -199,7 +199,7 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method <AddInstantToggleEventsForLightGroup>b__0, addr 0x3b28ff0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AddInstantToggleEventsForLightGroup>b__0, addr 0x3b3e43c, size 0x30, virtual false, abstract: false, final false
   inline bool _AddInstantToggleEventsForLightGroup_b__0(::GlobalNamespace::LightGroup* x);
 
   constexpr int32_t const& __cordl_internal_get_lightGroupId() const;
@@ -208,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set_lightGroupId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b28934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3dd80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,7 +229,7 @@ public:
   int32_t ___lightGroupId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4373 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -252,7 +252,7 @@ public:
 
   static inline ::GlobalNamespace::__EventsTestGameplayManager____c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method <AddToggleEventsForLightGroup>b__0, addr 0x3b29020, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AddToggleEventsForLightGroup>b__0, addr 0x3b3e46c, size 0x30, virtual false, abstract: false, final false
   inline bool _AddToggleEventsForLightGroup_b__0(::GlobalNamespace::LightGroup* x);
 
   constexpr int32_t const& __cordl_internal_get_lightGroupId() const;
@@ -261,7 +261,7 @@ public:
 
   constexpr void __cordl_internal_set_lightGroupId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b2893c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3dd88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -282,7 +282,7 @@ public:
   int32_t ___lightGroupId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4374 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -357,24 +357,24 @@ public:
   /// @brief Field groupState, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_groupState, put = __cordl_internal_set_groupState)) ::ArrayW<bool, ::Array<bool>*> groupState;
 
-  /// @brief Method AddEventsForLightGroup, addr 0x3b26c20, size 0x948, virtual false, abstract: false, final false
+  /// @brief Method AddEventsForLightGroup, addr 0x3b3c06c, size 0x948, virtual false, abstract: false, final false
   inline void AddEventsForLightGroup(int32_t lightGroupId);
 
-  /// @brief Method AddInstantToggleEventsForLightGroup, addr 0x3b27af8, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method AddInstantToggleEventsForLightGroup, addr 0x3b3cf44, size 0x460, virtual false, abstract: false, final false
   inline void AddInstantToggleEventsForLightGroup(int32_t lightGroupId);
 
-  /// @brief Method AddTestBox, addr 0x3b27f58, size 0x9d4, virtual false, abstract: false, final false
+  /// @brief Method AddTestBox, addr 0x3b3d3a4, size 0x9d4, virtual false, abstract: false, final false
   inline void AddTestBox();
 
-  /// @brief Method AddToggleEventsForLightGroup, addr 0x3b27568, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method AddToggleEventsForLightGroup, addr 0x3b3c9b4, size 0x590, virtual false, abstract: false, final false
   inline void AddToggleEventsForLightGroup(int32_t lightGroupId, ::GlobalNamespace::EnvironmentColorType color);
 
   static inline ::GlobalNamespace::EventsTestGameplayManager* New_ctor();
 
-  /// @brief Method Start, addr 0x3b261d8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b3b624, size 0x140, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b26340, size 0x8e0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b3b78c, size 0x8e0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -462,7 +462,7 @@ public:
 
   constexpr void __cordl_internal_set_groupState(::ArrayW<bool, ::Array<bool>*> value);
 
-  /// @brief Method .ctor, addr 0x3b28944, size 0x664, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3dd90, size 0x664, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -522,7 +522,7 @@ public:
   bool ____rotatingLasers;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4373 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4375 };
 
   /// @brief Field kNumberOfLightGroups offset 0xffffffff size 0x4
   static constexpr int32_t kNumberOfLightGroups{ static_cast<int32_t>(0x14) };

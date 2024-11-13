@@ -44,7 +44,7 @@ public:
   uint8_t _cordl_size_padding[0x8];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15696 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -70,19 +70,19 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) float_t Item[];
 
-  /// @brief Method .ctor, addr 0x487aef0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x488f608, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t a);
 
-  /// @brief Method .ctor, addr 0x487af00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x488f618, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t a, float_t b);
 
-  /// @brief Method .ctor, addr 0x487af10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x488f628, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t a, float_t b, float_t c);
 
-  /// @brief Method get_Item, addr 0x487ae48, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x488f560, size 0x54, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t i);
 
-  /// @brief Method set_Item, addr 0x487ae9c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x488f5b4, size 0x54, virtual false, abstract: false, final false
   inline void set_Item(int32_t i, float_t value);
 
   // Ctor Parameters []
@@ -100,7 +100,7 @@ public:
   int32_t dofCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15697 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

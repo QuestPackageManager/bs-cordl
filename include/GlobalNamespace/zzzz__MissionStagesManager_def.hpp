@@ -47,10 +47,10 @@ public:
 
   static inline ::GlobalNamespace::__MissionStagesManager____c* New_ctor();
 
-  /// @brief Method <InitStages>b__6_0, addr 0x3b90700, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <InitStages>b__6_0, addr 0x3ba62c8, size 0x18, virtual false, abstract: false, final false
   inline int32_t _InitStages_b__6_0(::GlobalNamespace::MissionStage* stage);
 
-  /// @brief Method .ctor, addr 0x3b906f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba62c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__MissionStagesManager____c* getStaticF___9();
@@ -76,7 +76,7 @@ public:
   __MissionStagesManager____c(__MissionStagesManager____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4807 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -107,21 +107,21 @@ public:
 
   __declspec(property(get = get_firstLockedMissionStage)) ::UnityW<::GlobalNamespace::MissionStage> firstLockedMissionStage;
 
-  /// @brief Method InitStages, addr 0x3b9048c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method InitStages, addr 0x3ba6054, size 0x144, virtual false, abstract: false, final false
   inline void InitStages();
 
   static inline ::GlobalNamespace::MissionStagesManager* New_ctor();
 
-  /// @brief Method UpdateFirtsLockedMissionStage, addr 0x3b903fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method UpdateFirtsLockedMissionStage, addr 0x3ba5fc4, size 0x90, virtual false, abstract: false, final false
   inline void UpdateFirtsLockedMissionStage(int32_t numberOfClearedMissions);
 
-  /// @brief Method UpdateStageLockPosition, addr 0x3b905d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockPosition, addr 0x3ba6198, size 0xc, virtual false, abstract: false, final false
   inline void UpdateStageLockPosition();
 
-  /// @brief Method UpdateStageLockPositionAnimated, addr 0x3b8f01c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockPositionAnimated, addr 0x3ba4be4, size 0xf0, virtual false, abstract: false, final false
   inline void UpdateStageLockPositionAnimated(bool animated, float_t animationDuration);
 
-  /// @brief Method UpdateStageLockText, addr 0x3b905dc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockText, addr 0x3ba61a4, size 0xb8, virtual false, abstract: false, final false
   inline void UpdateStageLockText(int32_t numberOfClearedMissions);
 
   constexpr ::UnityW<::GlobalNamespace::MissionStage> const& __cordl_internal_get__firstLockedMissionStage() const;
@@ -142,10 +142,10 @@ public:
 
   constexpr void __cordl_internal_set__missionStages(::ArrayW<::UnityW<::GlobalNamespace::MissionStage>, ::Array<::UnityW<::GlobalNamespace::MissionStage>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b90694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba625c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_firstLockedMissionStage, addr 0x3b903f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstLockedMissionStage, addr 0x3ba5fbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionStage> get_firstLockedMissionStage();
 
 protected:
@@ -172,7 +172,7 @@ public:
   ::UnityW<::GlobalNamespace::MissionStage> ____firstLockedMissionStage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4808 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

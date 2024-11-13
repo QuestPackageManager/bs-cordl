@@ -38,10 +38,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::TypeIsInstruction* New_ctor(::System::Type* type);
 
-  /// @brief Method Run, addr 0x40810c8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40957e0, size 0x60, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x4081128, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4095840, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Type*& __cordl_internal_get__type();
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4081050, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4095768, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_ConsumedStack, addr 0x4081078, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x4095790, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x4081088, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40957a0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4081080, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x4095798, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -80,7 +80,7 @@ public:
   ::System::Type* ____type;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

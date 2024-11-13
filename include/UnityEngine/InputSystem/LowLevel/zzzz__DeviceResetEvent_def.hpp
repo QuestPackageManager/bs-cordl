@@ -43,7 +43,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method Create, addr 0x4592c1c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45a7334, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::DeviceResetEvent Create(int32_t deviceId, bool hardReset, double_t time);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_hardReset(bool value);
 
-  /// @brief Method get_typeStatic, addr 0x4592c10, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x45a7328, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
@@ -110,7 +110,7 @@ public:
   static constexpr int32_t Type{ static_cast<int32_t>(0x44525354) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6904 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

@@ -35,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__AnonymousProperty_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a77df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c508, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a77df8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c510, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW anonymousProperty);
 
-  /// @brief Method get_AnonymousProperty, addr 0x4a77e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnonymousProperty, addr 0x4a8c538, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AnonymousProperty();
 
-  /// @brief Method set_AnonymousProperty, addr 0x4a77e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnonymousProperty, addr 0x4a8c540, size 0x8, virtual false, abstract: false, final false
   inline void set_AnonymousProperty(::StringW value);
 
 protected:
@@ -65,7 +65,7 @@ public:
   ::StringW ____AnonymousProperty_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18391 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

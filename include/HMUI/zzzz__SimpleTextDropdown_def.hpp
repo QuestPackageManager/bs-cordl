@@ -61,30 +61,30 @@ public:
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x39939c4, size 0x1bc, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x39a731c, size 0x1bc, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x3993910, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x39a7268, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method HandleDidSelectCellWithIdx, addr 0x3993c6c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectCellWithIdx, addr 0x39a75c4, size 0x14c, virtual false, abstract: false, final false
   inline void HandleDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
-  /// @brief Method LazyInit, addr 0x3993450, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x39a6da8, size 0xa8, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::HMUI::SimpleTextDropdown* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x3993918, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x39a7270, size 0xac, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method OnDestroy, addr 0x39934f8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39a6e50, size 0x90, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SelectCellWithIdx, addr 0x3993724, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method SelectCellWithIdx, addr 0x39a707c, size 0x1ec, virtual true, abstract: false, final false
   inline void SelectCellWithIdx(int32_t idx);
 
-  /// @brief Method SetTexts, addr 0x3993588, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method SetTexts, addr 0x39a6ee0, size 0x19c, virtual false, abstract: false, final false
   inline void SetTexts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* texts);
 
   constexpr ::UnityW<::GlobalNamespace::SimpleTextTableCell> const& __cordl_internal_get__cellPrefab() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set__texts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3993db8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39a7710, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
@@ -153,7 +153,7 @@ public:
   bool ____initialized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16067 };
 
   /// @brief Field kCellReuseIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellReuseIdentifier{ u"Cell" };

@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::VRRenderingParamsSetup* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3aba760, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3ace300, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::GlobalNamespace::IRenderingParamsApplicator*& __cordl_internal_get__applicator();
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneType(::GlobalNamespace::SceneType value);
 
-  /// @brief Method .ctor, addr 0x3aba834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ace3d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5154 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

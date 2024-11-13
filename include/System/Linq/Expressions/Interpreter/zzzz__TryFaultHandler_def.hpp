@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_TryStartIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4060db4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40754cc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t tryStart, int32_t tryEnd, int32_t finallyStart, int32_t finallyEnd);
 
 protected:
@@ -88,7 +88,7 @@ public:
   int32_t ___FinallyEndIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13904 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

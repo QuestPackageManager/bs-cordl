@@ -12,7 +12,7 @@ template <typename TPriority> constexpr TPriority const& Priority_Queue::Generic
 }
 template <typename TPriority> constexpr void Priority_Queue::GenericPriorityQueueNode_1<TPriority>::__cordl_internal_set__Priority_k__BackingField(TPriority value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Priority_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____Priority_k__BackingField, value);
 }
 template <typename TPriority> constexpr int32_t& Priority_Queue::GenericPriorityQueueNode_1<TPriority>::__cordl_internal_get__QueueIndex_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

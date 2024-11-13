@@ -36,7 +36,7 @@ public:
   /// @brief Field _field, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__field, put = __cordl_internal_set__field)) ::System::Reflection::FieldInfo* _field;
 
-  /// @brief Method GetMember, addr 0x4043514, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMember, addr 0x4057c2c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberInfo* GetMember();
 
   static inline ::System::Linq::Expressions::FieldExpression* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Reflection::FieldInfo* member);
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set__field(::System::Reflection::FieldInfo* value);
 
-  /// @brief Method .ctor, addr 0x4043494, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4057bac, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Reflection::FieldInfo* member);
 
-  /// @brief Method get_Type, addr 0x404351c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x4057c34, size 0x24, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -71,7 +71,7 @@ public:
   ::System::Reflection::FieldInfo* ____field;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13666 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

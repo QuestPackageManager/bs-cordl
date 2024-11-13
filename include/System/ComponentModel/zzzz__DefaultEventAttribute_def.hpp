@@ -32,10 +32,10 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method Equals, addr 0x43da568, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x43eec80, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x43da5e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x43eed00, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::DefaultEventAttribute* New_ctor(::StringW name);
@@ -46,12 +46,12 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43da538, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43eec50, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline ::System::ComponentModel::DefaultEventAttribute* getStaticF_Default();
 
-  /// @brief Method get_Name, addr 0x43da560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x43eec78, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
   static inline void setStaticF_Default(::System::ComponentModel::DefaultEventAttribute* value);
@@ -74,7 +74,7 @@ public:
   ::StringW ____Name_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

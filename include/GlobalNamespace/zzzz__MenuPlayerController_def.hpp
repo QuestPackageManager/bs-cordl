@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set__rightController(::UnityW<::GlobalNamespace::VRController> value);
 
-  /// @brief Method .ctor, addr 0x3b8dacc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba3694, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_headPos, addr 0x3b8da94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_headPos, addr 0x3ba365c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headPos();
 
-  /// @brief Method get_headRot, addr 0x3b8dab0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_headRot, addr 0x3ba3678, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_headRot();
 
-  /// @brief Method get_leftController, addr 0x3b8da84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftController, addr 0x3ba364c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_leftController();
 
-  /// @brief Method get_rightController, addr 0x3b8da8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightController, addr 0x3ba3654, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_rightController();
 
 protected:
@@ -107,7 +107,7 @@ public:
   ::UnityW<::UnityEngine::Transform> ____headTransform;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4792 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -38,10 +38,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x39bd904, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x39d125c, size 0x24, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InputHDAInfo* destInfo);
 
-  /// @brief Method IsEquivalentTo, addr 0x39befcc, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x39d2924, size 0x130, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputHDAInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_InputHDAInfo* New_ctor();
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__pendingGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x39bce3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d0794, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>"
@@ -94,7 +94,7 @@ public:
   int32_t ____connectedInputNodeID;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11596 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

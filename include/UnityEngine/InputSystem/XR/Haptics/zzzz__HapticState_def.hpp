@@ -24,19 +24,19 @@ public:
 
   __declspec(property(get = get_samplesQueued, put = set_samplesQueued)) uint32_t samplesQueued;
 
-  /// @brief Method .ctor, addr 0x4571b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4586244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t samplesQueued, uint32_t samplesAvailable);
 
-  /// @brief Method get_samplesAvailable, addr 0x4571b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplesAvailable, addr 0x458625c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_samplesAvailable();
 
-  /// @brief Method get_samplesQueued, addr 0x4571b34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplesQueued, addr 0x458624c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_samplesQueued();
 
-  /// @brief Method set_samplesAvailable, addr 0x4571b4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_samplesAvailable, addr 0x4586264, size 0x8, virtual false, abstract: false, final false
   inline void set_samplesAvailable(uint32_t value);
 
-  /// @brief Method set_samplesQueued, addr 0x4571b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_samplesQueued, addr 0x4586254, size 0x8, virtual false, abstract: false, final false
   inline void set_samplesQueued(uint32_t value);
 
   // Ctor Parameters []
@@ -54,7 +54,7 @@ public:
   uint32_t _samplesAvailable_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6722 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -81,10 +81,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2224798, size 0x290, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x222d24c, size 0x290, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2224a28, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x222d4dc, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -113,7 +113,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18059 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -143,10 +143,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2224aa4, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x222d558, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2224cf4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x222d7a8, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -177,7 +177,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::BeatAvatarSDK::AvatarSaveData*> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18060 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -207,10 +207,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2224d70, size 0x360, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x222d824, size 0x360, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22250d8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x222db8c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -239,7 +239,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18061 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -290,48 +290,48 @@ public:
   __declspec(property(get = __cordl_internal_get_didChangeAvatarDataEvent,
                       put = __cordl_internal_set_didChangeAvatarDataEvent)) ::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* didChangeAvatarDataEvent;
 
-  /// @brief Method CreateDefaultAvatarData, addr 0x22244b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultAvatarData, addr 0x222cf6c, size 0x4, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarData* CreateDefaultAvatarData();
 
-  /// @brief Method CreateRandomAvatarData, addr 0x22245c4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CreateRandomAvatarData, addr 0x222d078, size 0xac, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarData* CreateRandomAvatarData();
 
-  /// @brief Method DeleteAsync, addr 0x22244bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DeleteAsync, addr 0x222cf70, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DeleteAsync();
 
-  /// @brief Method DeleteAsyncInternal, addr 0x22244d4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method DeleteAsyncInternal, addr 0x222cf88, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* DeleteAsyncInternal();
 
-  /// @brief Method Init, addr 0x2223f6c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x222ca20, size 0xc8, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Load, addr 0x22242b8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x222cd6c, size 0x50, virtual false, abstract: false, final false
   inline bool Load(::BeatSaber::BeatAvatarSDK::AvatarSaveData* avatarSaveData);
 
-  /// @brief Method LoadAsync, addr 0x2224144, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x222cbf8, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadAsync();
 
-  /// @brief Method LoadFromCurrentVersion, addr 0x2224308, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method LoadFromCurrentVersion, addr 0x222cdbc, size 0x1b0, virtual false, abstract: false, final false
   static inline ::BeatSaber::BeatAvatarSDK::AvatarData* LoadFromCurrentVersion(::BeatSaber::BeatAvatarSDK::AvatarSaveData* avatarSaveData);
 
-  /// @brief Method LoadFromSaveDataAsync, addr 0x222424c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LoadFromSaveDataAsync, addr 0x222cd00, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::BeatSaber::BeatAvatarSDK::AvatarSaveData*>* LoadFromSaveDataAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
-  /// @brief Method LoadInternalAsync, addr 0x222415c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LoadInternalAsync, addr 0x222cc10, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* LoadInternalAsync();
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarDataModel* New_ctor();
 
-  /// @brief Method ReportAvatarChanged, addr 0x2223dec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReportAvatarChanged, addr 0x222c8a0, size 0x20, virtual false, abstract: false, final false
   inline void ReportAvatarChanged();
 
-  /// @brief Method RequestIsAvatarCreatedAsync, addr 0x2224034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RequestIsAvatarCreatedAsync, addr 0x222cae8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* RequestIsAvatarCreatedAsync();
 
-  /// @brief Method SaveAsync, addr 0x222403c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x222caf0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
-  /// @brief Method SaveInternalAsync, addr 0x2224054, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SaveInternalAsync, addr 0x222cb08, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* SaveInternalAsync();
 
   constexpr ::System::Threading::Tasks::Task_1<bool>*& __cordl_internal_get__avatarCreatedTask();
@@ -364,19 +364,19 @@ public:
 
   constexpr void __cordl_internal_set_didChangeAvatarDataEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* value);
 
-  /// @brief Method .ctor, addr 0x222471c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x222d1d0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeAvatarDataEvent, addr 0x2223e0c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeAvatarDataEvent, addr 0x222c8c0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeAvatarDataEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* value);
 
-  /// @brief Method get_avatarData, addr 0x2223d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarData, addr 0x222c820, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarData* get_avatarData();
 
-  /// @brief Method remove_didChangeAvatarDataEvent, addr 0x2223ebc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeAvatarDataEvent, addr 0x222c970, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeAvatarDataEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* value);
 
-  /// @brief Method set_avatarData, addr 0x2223d74, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_avatarData, addr 0x222c828, size 0x78, virtual false, abstract: false, final false
   inline void set_avatarData(::BeatSaber::BeatAvatarSDK::AvatarData* value);
 
 protected:
@@ -409,7 +409,7 @@ public:
   ::System::Threading::Tasks::Task_1<bool>* ____avatarCreatedTask;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18062 };
 
   /// @brief Field kAvatarDataFileName offset 0xffffffff size 0x8
   static constexpr ::ConstString kAvatarDataFileName{ u"AvatarData.dat" };

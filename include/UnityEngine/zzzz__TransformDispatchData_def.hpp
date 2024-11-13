@@ -42,7 +42,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x482dc04, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x484231c, size 0xd0, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Convert to "::System::IDisposable"
@@ -80,7 +80,7 @@ public:
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> scales;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10791 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

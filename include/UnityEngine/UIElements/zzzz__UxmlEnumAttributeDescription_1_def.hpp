@@ -90,7 +90,7 @@ public:
   __UxmlEnumAttributeDescription_1____c(__UxmlEnumAttributeDescription_1____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6234 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -143,7 +143,7 @@ public:
   UxmlEnumAttributeDescription_1(UxmlEnumAttributeDescription_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6235 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

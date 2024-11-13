@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_ProgressPercentage(float_t value);
 
-  /// @brief Method .ctor, addr 0x474da94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47621ac, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
-  /// @brief Method .ctor, addr 0x474da5c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4762174, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, float_t progress);
 
 protected:
@@ -89,7 +89,7 @@ public:
   ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> ___Colors;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14396 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -81,7 +81,7 @@ template <typename TKey, typename TValue>
 constexpr void
 System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::__cordl_internal_set__table(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____table, value);
 }
 template <typename TKey, typename TValue> constexpr int32_t& System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>::__cordl_internal_get__currentIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -201,7 +201,7 @@ template <typename TKey, typename TValue>
 constexpr void System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__cordl_internal_set_data(
     ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___data, value);
 }
 template <typename TKey, typename TValue> constexpr ::System::Object*& System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__cordl_internal_get__lock() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -214,7 +214,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::
 }
 template <typename TKey, typename TValue> constexpr void System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__cordl_internal_set__lock(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____lock, value);
 }
 template <typename TKey, typename TValue> constexpr int32_t& System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>::__cordl_internal_get_size() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

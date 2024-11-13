@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction::*)(::System::Type*)>(
     &::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4082600;
+  constexpr static std::size_t addrs = 0x4096d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction::Run)> {
   constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x4082628;
+  constexpr static std::size_t addrs = 0x4096d40;
 
   inline static ::MethodInfo const* methodInfo() {
 

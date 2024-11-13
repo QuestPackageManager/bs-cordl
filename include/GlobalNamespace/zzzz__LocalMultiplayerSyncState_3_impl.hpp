@@ -20,7 +20,7 @@ GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>::__cord
 template <typename TStateTable, typename TType, typename TState>
 constexpr void GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>::__cordl_internal_set__player(::GlobalNamespace::IConnectedPlayer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____player)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____player, value);
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>*& GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>::__cordl_internal_get__stateBuffer() {
@@ -36,7 +36,7 @@ GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>::__cord
 template <typename TStateTable, typename TType, typename TState>
 constexpr void GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>::__cordl_internal_set__stateBuffer(::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stateBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____stateBuffer, value);
 }
 template <typename TStateTable, typename TType, typename TState>
 inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>::get_stateBuffer() {

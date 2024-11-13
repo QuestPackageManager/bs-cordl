@@ -25,7 +25,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename T, typename TBase> constexpr void GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_set__items(::System::Collections::Generic::LinkedList_1<TBase>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____items, value);
 }
 template <typename T, typename TBase> constexpr ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__sortedListDataProcessor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -40,7 +40,7 @@ GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__sortedListDataPro
 template <typename T, typename TBase>
 constexpr void GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_set__sortedListDataProcessor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sortedListDataProcessor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____sortedListDataProcessor, value);
 }
 template <typename T, typename TBase> constexpr ::System::Collections::Generic::LinkedListNode_1<TBase>*& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__lastUsedNode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -53,7 +53,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename T, typename TBase> constexpr void GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_set__lastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lastUsedNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____lastUsedNode, value);
 }
 template <typename T, typename TBase> inline int32_t GlobalNamespace::SortedList_2<T, TBase>::get_count() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortedList_2<T, TBase>*>::get(), "get_count",

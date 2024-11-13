@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TimelineExtensions____c__DisplayClass0_0::*)()>(
     &::GlobalNamespace::__TimelineExtensions____c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3abef44;
+  constexpr static std::size_t addrs = 0x3ad2ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__TimelineExtensions____c__DisplayClass0_0::*)(::UnityEngine::Timeline::IMarker*)>(
     &::GlobalNamespace::__TimelineExtensions____c__DisplayClass0_0::_JumpToTimelineMarker_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3abef4c;
+  constexpr static std::size_t addrs = 0x3ad2aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Playables::PlayableDirector*, ::System::Type*)>(
     &::GlobalNamespace::TimelineExtensions::JumpToTimelineMarker)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3abed7c;
+  constexpr static std::size_t addrs = 0x3ad291c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

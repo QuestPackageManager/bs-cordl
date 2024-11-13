@@ -38,19 +38,19 @@ public:
 
   __declspec(property(get = get_point)) ::UnityEngine::Vector2 point;
 
-  /// @brief Method get_collider, addr 0x4879d98, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x488e4b0, size 0xac, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider2D> get_collider();
 
-  /// @brief Method get_distance, addr 0x4879d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x488e4a0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_fraction, addr 0x4879d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fraction, addr 0x488e4a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fraction();
 
-  /// @brief Method get_normal, addr 0x4879d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x488e498, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_normal();
 
-  /// @brief Method get_point, addr 0x4879d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x488e490, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_point();
 
   // Ctor Parameters []
@@ -81,7 +81,7 @@ public:
   int32_t m_Collider;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18567 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

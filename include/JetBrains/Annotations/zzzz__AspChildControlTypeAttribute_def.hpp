@@ -47,19 +47,19 @@ public:
 
   constexpr void __cordl_internal_set__TagName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a77ff8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c710, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW tagName, ::System::Type* controlType);
 
-  /// @brief Method get_ControlType, addr 0x4a78034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ControlType, addr 0x4a8c74c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ControlType();
 
-  /// @brief Method get_TagName, addr 0x4a78024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TagName, addr 0x4a8c73c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TagName();
 
-  /// @brief Method set_ControlType, addr 0x4a7803c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ControlType, addr 0x4a8c754, size 0x8, virtual false, abstract: false, final false
   inline void set_ControlType(::System::Type* value);
 
-  /// @brief Method set_TagName, addr 0x4a7802c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TagName, addr 0x4a8c744, size 0x8, virtual false, abstract: false, final false
   inline void set_TagName(::StringW value);
 
 protected:
@@ -83,7 +83,7 @@ public:
   ::System::Type* ____ControlType_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18419 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

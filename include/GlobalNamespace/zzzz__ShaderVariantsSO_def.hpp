@@ -67,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set__passType(::UnityEngine::Rendering::PassType value);
 
-  /// @brief Method .ctor, addr 0x400f41c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4023b34, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::PassType passType, ::StringW keywords);
 
-  /// @brief Method get_keywords, addr 0x400f414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keywords, addr 0x4023b2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keywords();
 
-  /// @brief Method get_passType, addr 0x400f40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passType, addr 0x4023b24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::PassType get_passType();
 
 protected:
@@ -97,7 +97,7 @@ public:
   ::StringW ____keywords;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17832 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -149,14 +149,14 @@ public:
   constexpr void
   __cordl_internal_set__variants(::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> value);
 
-  /// @brief Method .ctor, addr 0x400f3e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4023af8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Shader* shader,
                     ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> variants);
 
-  /// @brief Method get_shader, addr 0x400f3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shader, addr 0x4023af0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_shader();
 
-  /// @brief Method get_variants, addr 0x400f3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x4023ae8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> get_variants();
 
 protected:
@@ -180,7 +180,7 @@ public:
   ::UnityW<::UnityEngine::Shader> ____shader;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17833 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -209,7 +209,7 @@ public:
 
   __declspec(property(get = get_shaderVariants)) ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> shaderVariants;
 
-  /// @brief Method Init, addr 0x400f3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4023ad8, size 0x8, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> shaderVariants);
 
   static inline ::GlobalNamespace::ShaderVariantsSO* New_ctor();
@@ -220,10 +220,10 @@ public:
 
   constexpr void __cordl_internal_set__shaderVariants(::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> value);
 
-  /// @brief Method .ctor, addr 0x400f3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4023ae0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_shaderVariants, addr 0x400f3b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shaderVariants, addr 0x4023ad0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> get_shaderVariants();
 
 protected:
@@ -244,7 +244,7 @@ public:
   ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> ____shaderVariants;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17834 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

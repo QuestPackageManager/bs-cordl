@@ -55,10 +55,10 @@ public:
 
   static inline ::Unity::Properties::Internal::__RectPropertyBag__XProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x489b714, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48afe2c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x489b834, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x48aff4c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -76,7 +76,7 @@ public:
   __RectPropertyBag__XProperty(__RectPropertyBag__XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17465 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -96,10 +96,10 @@ public:
 
   static inline ::Unity::Properties::Internal::__RectPropertyBag__YProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x489b75c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48afe74, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x489b874, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x48aff8c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -117,7 +117,7 @@ public:
   __RectPropertyBag__YProperty(__RectPropertyBag__YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17466 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -137,10 +137,10 @@ public:
 
   static inline ::Unity::Properties::Internal::__RectPropertyBag__WidthProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x489b7a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48afebc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x489b8b4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x48affcc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -158,7 +158,7 @@ public:
   __RectPropertyBag__WidthProperty(__RectPropertyBag__WidthProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17467 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -178,10 +178,10 @@ public:
 
   static inline ::Unity::Properties::Internal::__RectPropertyBag__HeightProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x489b7ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48aff04, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x489b8f4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x48b000c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -199,7 +199,7 @@ public:
   __RectPropertyBag__HeightProperty(__RectPropertyBag__HeightProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17468 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -225,7 +225,7 @@ public:
 
   static inline ::Unity::Properties::Internal::RectPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x489a784, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48aee9c, size 0x160, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -243,7 +243,7 @@ public:
   RectPropertyBag(RectPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17469 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

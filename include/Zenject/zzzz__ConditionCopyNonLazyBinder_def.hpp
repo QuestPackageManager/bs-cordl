@@ -122,7 +122,7 @@ public:
   __ConditionCopyNonLazyBinder____c__4_1(__ConditionCopyNonLazyBinder____c__4_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -181,7 +181,7 @@ public:
   __ConditionCopyNonLazyBinder____c__5_1(__ConditionCopyNonLazyBinder____c__5_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11981 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -200,7 +200,7 @@ public:
 
   static inline ::Zenject::__ConditionCopyNonLazyBinder____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <WhenInjectedIntoInstance>b__0, addr 0x4a84c48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <WhenInjectedIntoInstance>b__0, addr 0x4a99360, size 0x24, virtual false, abstract: false, final false
   inline bool _WhenInjectedIntoInstance_b__0(::Zenject::InjectContext* r);
 
   constexpr ::System::Object*& __cordl_internal_get_instance();
@@ -209,13 +209,13 @@ public:
 
   constexpr void __cordl_internal_set_instance(::System::Object* value);
 
-  /// @brief Method __zenCreate, addr 0x4a84c6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4a99384, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a84cc0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a993d8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4a84b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a99290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -236,7 +236,7 @@ public:
   ::System::Object* ___instance;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11982 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -259,7 +259,7 @@ public:
 
   static inline ::Zenject::__ConditionCopyNonLazyBinder____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <WhenInjectedInto>b__0, addr 0x4a84e78, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <WhenInjectedInto>b__0, addr 0x4a99590, size 0xf0, virtual false, abstract: false, final false
   inline bool _WhenInjectedInto_b__0(::Zenject::InjectContext* r);
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_targets() const;
@@ -268,13 +268,13 @@ public:
 
   constexpr void __cordl_internal_set_targets(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method __zenCreate, addr 0x4a84f70, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4a99688, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a84fc4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a996dc, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4a84c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a99358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -295,7 +295,7 @@ public:
   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ___targets;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11983 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -318,7 +318,7 @@ public:
 
   static inline ::Zenject::__ConditionCopyNonLazyBinder____c__DisplayClass3_1* New_ctor();
 
-  /// @brief Method <WhenInjectedInto>b__1, addr 0x4a8517c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <WhenInjectedInto>b__1, addr 0x4a99894, size 0xc0, virtual false, abstract: false, final false
   inline bool _WhenInjectedInto_b__1(::System::Type* x);
 
   constexpr ::Zenject::InjectContext*& __cordl_internal_get_r();
@@ -327,13 +327,13 @@ public:
 
   constexpr void __cordl_internal_set_r(::Zenject::InjectContext* value);
 
-  /// @brief Method __zenCreate, addr 0x4a8523c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4a99954, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a85290, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a999a8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4a84f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a99680, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -354,7 +354,7 @@ public:
   ::Zenject::InjectContext* ___r;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11984 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -384,22 +384,22 @@ public:
 
   static inline ::Zenject::ConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method When, addr 0x4a84a9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method When, addr 0x4a991b4, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* When(::Zenject::BindingCondition* condition);
 
   /// @brief Method WhenInjectedInto, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* WhenInjectedInto();
 
-  /// @brief Method WhenInjectedInto, addr 0x4a84b80, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WhenInjectedInto, addr 0x4a99298, size 0xc0, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* WhenInjectedInto(::ArrayW<::System::Type*, ::Array<::System::Type*>*> targets);
 
-  /// @brief Method WhenInjectedIntoInstance, addr 0x4a84ab8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WhenInjectedIntoInstance, addr 0x4a991d0, size 0xc0, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* WhenInjectedIntoInstance(::System::Object* instance);
 
   /// @brief Method WhenNotInjectedInto, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* WhenNotInjectedInto();
 
-  /// @brief Method .ctor, addr 0x4a84a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a991a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -417,7 +417,7 @@ public:
   ConditionCopyNonLazyBinder(ConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11985 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

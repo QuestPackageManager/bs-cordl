@@ -105,7 +105,7 @@ public:
   __GridView__IDataSource(__GridView__IDataSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4956 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -151,21 +151,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3a9039c, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3aa3e78, size 0x2b0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current, addr 0x3a906ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current, addr 0x3aa41c8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::MonoBehaviour> System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3a906f4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3aa41d0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3a9072c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3aa4208, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3a902ec, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3aa3dc8, size 0xb0, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -201,13 +201,13 @@ public:
 
   constexpr void __cordl_internal_set___7__wrap2(::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::MonoBehaviour>> value);
 
-  /// @brief Method <>m__Finally1, addr 0x3a9069c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x3aa4178, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x3a9064c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x3aa4128, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x3a902c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa3d9c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
@@ -249,7 +249,7 @@ public:
   ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::MonoBehaviour>> _____7__wrap2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4957 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -286,12 +286,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x3a8b430, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x3a9ef0c, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>* GetEnumerator();
 
   static inline ::GlobalNamespace::__GridView__GridViewCellsEnumerator* New_ctor(::GlobalNamespace::GridView* gridView);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3a902e8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3aa3dc4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::UnityW<::GlobalNamespace::GridView> const& __cordl_internal_get__gridView() const;
@@ -300,7 +300,7 @@ public:
 
   constexpr void __cordl_internal_set__gridView(::UnityW<::GlobalNamespace::GridView> value);
 
-  /// @brief Method .ctor, addr 0x3a9018c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa3c68, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GridView* gridView);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
@@ -327,7 +327,7 @@ public:
   ::UnityW<::GlobalNamespace::GridView> ____gridView;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4958 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -388,24 +388,24 @@ public:
 
   __declspec(property(get = get_visibleColumnCount)) int32_t visibleColumnCount;
 
-  /// @brief Method GetActiveCellsForIdentifier, addr 0x3a8b088, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetActiveCellsForIdentifier, addr 0x3a9eb64, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* GetActiveCellsForIdentifier(::UnityEngine::MonoBehaviour* prefab);
 
   /// @brief Method GetReusableCellView, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetReusableCellView(::UnityEngine::MonoBehaviour* prefab);
 
-  /// @brief Method Hide, addr 0x3a901b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3aa3c90, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::GlobalNamespace::GridView* New_ctor();
 
-  /// @brief Method ReloadData, addr 0x3a8b8a8, size 0x6ec, virtual false, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x3a9f384, size 0x6ec, virtual false, abstract: false, final false
   inline void ReloadData();
 
-  /// @brief Method SetDataSource, addr 0x3a8a5e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetDataSource, addr 0x3a9e0c0, size 0x90, virtual false, abstract: false, final false
   inline void SetDataSource(::GlobalNamespace::__GridView__IDataSource* newDataSource, bool reloadData);
 
-  /// @brief Method Show, addr 0x3a901d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x3aa3cb4, size 0x24, virtual false, abstract: false, final false
   inline void Show();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::MonoBehaviour>, ::System::Collections::Generic::Queue_1<::UnityW<::UnityEngine::MonoBehaviour>>*>*&
@@ -464,28 +464,28 @@ public:
 
   constexpr void __cordl_internal_set__visibleColumnCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a901fc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa3cd8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cellsEnumerator, addr 0x3a9016c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cellsEnumerator, addr 0x3aa3c48, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GridView__GridViewCellsEnumerator* get_cellsEnumerator();
 
-  /// @brief Method get_columnCount, addr 0x3a90184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnCount, addr 0x3aa3c60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnCount();
 
-  /// @brief Method get_contentTransform, addr 0x3a90164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentTransform, addr 0x3aa3c40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_contentTransform();
 
-  /// @brief Method get_dataSource, addr 0x3a9015c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x3aa3c38, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GridView__IDataSource* get_dataSource();
 
-  /// @brief Method get_rowCount, addr 0x3a9017c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rowCount, addr 0x3aa3c58, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rowCount();
 
-  /// @brief Method get_visibleColumnCount, addr 0x3a90154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visibleColumnCount, addr 0x3aa3c30, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_visibleColumnCount();
 
-  /// @brief Method set_cellsEnumerator, addr 0x3a90174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cellsEnumerator, addr 0x3aa3c50, size 0x8, virtual false, abstract: false, final false
   inline void set_cellsEnumerator(::GlobalNamespace::__GridView__GridViewCellsEnumerator* value);
 
 protected:
@@ -529,7 +529,7 @@ public:
   ::GlobalNamespace::__GridView__GridViewCellsEnumerator* ____cellsEnumerator_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4959 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

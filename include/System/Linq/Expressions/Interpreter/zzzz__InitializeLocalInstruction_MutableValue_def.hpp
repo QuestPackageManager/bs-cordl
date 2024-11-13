@@ -41,12 +41,12 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
   constexpr operator ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
 
-  /// @brief Method BoxIfIndexMatches, addr 0x40737f0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method BoxIfIndexMatches, addr 0x4087f08, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
 
   static inline ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__MutableValue* New_ctor(int32_t index, ::System::Type* type);
 
-  /// @brief Method Run, addr 0x40736d4, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4087dec, size 0x11c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type*& __cordl_internal_get__type();
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40736a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4087dbc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::System::Type* type);
 
-  /// @brief Method get_InstructionName, addr 0x407389c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x4087fb4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   /// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
@@ -82,7 +82,7 @@ public:
   ::System::Type* ____type;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13940 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

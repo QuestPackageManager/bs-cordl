@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::AnimationStartParams* New_ctor();
 
-  /// @brief Method Start, addr 0x395876c, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x396bfcc, size 0x2d8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__timeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3958a44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396c2a4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,7 +82,7 @@ public:
   ::UnityW<::UnityEngine::Animation> ____animation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16364 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

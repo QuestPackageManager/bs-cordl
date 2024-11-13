@@ -99,28 +99,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x405d790, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4071ea8, size 0x88, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.GetEnumerator, addr 0x405d8c0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.GetEnumerator, addr 0x4071fd8, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>*
   System_Collections_Generic_IEnumerable_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current, addr 0x405d820, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current, addr 0x4071f38, size 0xc, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo System_Collections_Generic_IEnumerator_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x405d95c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4072074, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x405d82c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4071f44, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x405d864, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4071f7c, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x405d78c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4071ea4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set__frame_5__2(::System::Linq::Expressions::Interpreter::InterpretedFrame* value);
 
-  /// @brief Method .ctor, addr 0x405cfb4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40716cc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>"
@@ -203,7 +203,7 @@ public:
   ::System::Linq::Expressions::Interpreter::InterpretedFrame* ____frame_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -270,80 +270,80 @@ public:
   /// @brief Field s_currentFrame, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_currentFrame, put = setStaticF_s_currentFrame)) ::System::Linq::Expressions::Interpreter::InterpretedFrame* s_currentFrame;
 
-  /// @brief Method Dup, addr 0x405ceb0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Dup, addr 0x40715c8, size 0x8c, virtual false, abstract: false, final false
   inline void Dup();
 
-  /// @brief Method Enter, addr 0x405d238, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Enter, addr 0x4071950, size 0x68, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::InterpretedFrame* Enter();
 
-  /// @brief Method GetDebugInfo, addr 0x405cc2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetDebugInfo, addr 0x4071344, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::DebugInfo* GetDebugInfo(int32_t instructionIndex);
 
-  /// @brief Method GetStackTraceDebugInfo, addr 0x405cf44, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetStackTraceDebugInfo, addr 0x407165c, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>* GetStackTraceDebugInfo();
 
-  /// @brief Method Goto, addr 0x405d658, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Goto, addr 0x4071d70, size 0x134, virtual false, abstract: false, final false
   inline int32_t Goto(int32_t labelIndex, ::System::Object* value, bool gotoExceptionHandler);
 
-  /// @brief Method IsJumpHappened, addr 0x405d2f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsJumpHappened, addr 0x4071a08, size 0x10, virtual false, abstract: false, final false
   inline bool IsJumpHappened();
 
-  /// @brief Method Leave, addr 0x405d2a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Leave, addr 0x40719b8, size 0x50, virtual false, abstract: false, final false
   inline void Leave(::System::Linq::Expressions::Interpreter::InterpretedFrame* prevFrame);
 
   static inline ::System::Linq::Expressions::Interpreter::InterpretedFrame*
   New_ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter,
            ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> closure);
 
-  /// @brief Method Peek, addr 0x405ce78, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x4071590, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method Pop, addr 0x4052c14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x406732c, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Object* Pop();
 
-  /// @brief Method PopPendingContinuation, addr 0x405d5d4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method PopPendingContinuation, addr 0x4071cec, size 0x84, virtual false, abstract: false, final false
   inline void PopPendingContinuation();
 
-  /// @brief Method Push, addr 0x4052c50, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x4067368, size 0x6c, virtual false, abstract: false, final false
   inline void Push(::System::Object* value);
 
-  /// @brief Method Push, addr 0x4053208, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x4067920, size 0xc8, virtual false, abstract: false, final false
   inline void Push(bool value);
 
-  /// @brief Method Push, addr 0x4056578, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x406ac90, size 0xbc, virtual false, abstract: false, final false
   inline void Push(int16_t value);
 
-  /// @brief Method Push, addr 0x40566cc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x406ade4, size 0x78, virtual false, abstract: false, final false
   inline void Push(int32_t value);
 
-  /// @brief Method Push, addr 0x405cd98, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x40714b0, size 0xbc, virtual false, abstract: false, final false
   inline void Push(int8_t value);
 
-  /// @brief Method Push, addr 0x4052e64, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x406757c, size 0xbc, virtual false, abstract: false, final false
   inline void Push(uint16_t value);
 
-  /// @brief Method Push, addr 0x4052cbc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x40673d4, size 0xbc, virtual false, abstract: false, final false
   inline void Push(uint8_t value);
 
-  /// @brief Method PushContinuation, addr 0x405d310, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method PushContinuation, addr 0x4071a28, size 0x3c, virtual false, abstract: false, final false
   inline void PushContinuation(int32_t continuation);
 
-  /// @brief Method PushPendingContinuation, addr 0x405d554, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method PushPendingContinuation, addr 0x4071c6c, size 0x80, virtual false, abstract: false, final false
   inline void PushPendingContinuation();
 
-  /// @brief Method RemoveContinuation, addr 0x405d300, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method RemoveContinuation, addr 0x4071a18, size 0x10, virtual false, abstract: false, final false
   inline void RemoveContinuation();
 
-  /// @brief Method SaveTraceToException, addr 0x405cfe8, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method SaveTraceToException, addr 0x4071700, size 0x250, virtual false, abstract: false, final false
   inline void SaveTraceToException(::System::Exception* exception);
 
-  /// @brief Method SetStackDepth, addr 0x405ce54, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetStackDepth, addr 0x407156c, size 0x24, virtual false, abstract: false, final false
   inline void SetStackDepth(int32_t depth);
 
-  /// @brief Method YieldToCurrentContinuation, addr 0x405d34c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method YieldToCurrentContinuation, addr 0x4071a64, size 0x78, virtual false, abstract: false, final false
   inline int32_t YieldToCurrentContinuation();
 
-  /// @brief Method YieldToPendingContinuation, addr 0x405d3c4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method YieldToPendingContinuation, addr 0x4071adc, size 0x190, virtual false, abstract: false, final false
   inline int32_t YieldToPendingContinuation();
 
   constexpr ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> const& __cordl_internal_get_Closure() const;
@@ -406,16 +406,16 @@ public:
 
   constexpr void __cordl_internal_set__pendingValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x405cb3c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4071254, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter,
                     ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> closure);
 
   static inline ::System::Linq::Expressions::Interpreter::InterpretedFrame* getStaticF_s_currentFrame();
 
-  /// @brief Method get_Name, addr 0x405cd7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4071494, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Parent, addr 0x405cf3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x4071654, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::InterpretedFrame* get_Parent();
 
   static inline void setStaticF_s_currentFrame(::System::Linq::Expressions::Interpreter::InterpretedFrame* value);
@@ -465,7 +465,7 @@ public:
   int32_t ___InstructionIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13855 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

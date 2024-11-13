@@ -22,7 +22,7 @@ Zenject::SubContainerCreatorByMethod_3<TParam1, TParam2, TParam3>::__cordl_inter
 template <typename TParam1, typename TParam2, typename TParam3>
 constexpr void Zenject::SubContainerCreatorByMethod_3<TParam1, TParam2, TParam3>::__cordl_internal_set__installMethod(::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____installMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____installMethod, value);
 }
 template <typename TParam1, typename TParam2, typename TParam3>
 inline ::Zenject::SubContainerCreatorByMethod_3<TParam1, TParam2, TParam3>*

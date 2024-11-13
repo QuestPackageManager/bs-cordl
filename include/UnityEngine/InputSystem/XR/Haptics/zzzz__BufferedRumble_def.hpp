@@ -32,22 +32,22 @@ public:
 
   __declspec(property(get = get_device, put = set_device)) ::UnityEngine::InputSystem::InputDevice* device;
 
-  /// @brief Method EnqueueRumble, addr 0x4571920, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method EnqueueRumble, addr 0x4586038, size 0xa8, virtual false, abstract: false, final false
   inline void EnqueueRumble(::ArrayW<uint8_t, ::Array<uint8_t>*> samples);
 
-  /// @brief Method .ctor, addr 0x45717c4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4585edc, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method get_capabilities, addr 0x4571798, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_capabilities, addr 0x4585eb0, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
-  /// @brief Method get_device, addr 0x45717b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x4585ecc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
-  /// @brief Method set_capabilities, addr 0x45717a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_capabilities, addr 0x4585ec0, size 0xc, virtual false, abstract: false, final false
   inline void set_capabilities(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities value);
 
-  /// @brief Method set_device, addr 0x45717bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x4585ed4, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
   // Ctor Parameters []
@@ -65,7 +65,7 @@ public:
   ::UnityEngine::InputSystem::InputDevice* _device_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6721 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

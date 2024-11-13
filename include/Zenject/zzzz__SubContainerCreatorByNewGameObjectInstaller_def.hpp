@@ -60,7 +60,7 @@ public:
 
   static inline ::Zenject::__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <AddInstallers>b__0, addr 0x4ac6474, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method <AddInstallers>b__0, addr 0x4adab8c, size 0x150, virtual false, abstract: false, final false
   inline void _AddInstallers_b__0(::Zenject::DiContainer* subContainer);
 
   constexpr ::Zenject::SubContainerCreatorByNewGameObjectInstaller*& __cordl_internal_get___4__this();
@@ -75,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
-  /// @brief Method __zenCreate, addr 0x4ac65c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4adacdc, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ac6618, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4adad30, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4ac6410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4adab28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,7 +105,7 @@ public:
   ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* ___args;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12560 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -133,7 +133,7 @@ public:
   /// @brief Field _installerType, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installerType, put = __cordl_internal_set__installerType)) ::System::Type* _installerType;
 
-  /// @brief Method AddInstallers, addr 0x4ac6324, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method AddInstallers, addr 0x4adaa3c, size 0xec, virtual true, abstract: false, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
@@ -151,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set__installerType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4ac6254, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ada96c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* installerType,
                     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
@@ -176,7 +176,7 @@ public:
   ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* ____extraArgs;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

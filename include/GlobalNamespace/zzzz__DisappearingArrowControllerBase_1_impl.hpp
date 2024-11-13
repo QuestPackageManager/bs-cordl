@@ -21,8 +21,7 @@ template <typename T>
 constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__transparentObjectMaterialPropertyBlocks(
     ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transparentObjectMaterialPropertyBlocks)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____transparentObjectMaterialPropertyBlocks, value);
 }
 template <typename T> constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__cubeMeshRenderer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -34,7 +33,7 @@ template <typename T> constexpr ::UnityW<::UnityEngine::MeshRenderer> const& Glo
 }
 template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__cubeMeshRenderer(::UnityW<::UnityEngine::MeshRenderer> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cubeMeshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____cubeMeshRenderer, value);
 }
 template <typename T> constexpr ::UnityW<::GlobalNamespace::CutoutEffect>& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__arrowCutoutEffect() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -46,7 +45,7 @@ template <typename T> constexpr ::UnityW<::GlobalNamespace::CutoutEffect> const&
 }
 template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__arrowCutoutEffect(::UnityW<::GlobalNamespace::CutoutEffect> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arrowCutoutEffect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____arrowCutoutEffect, value);
 }
 template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__disappearingNormalStart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -35,7 +35,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x4938fd0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x494d6e8, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& __cordl_internal_get_firstGradientRemap();
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_useCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4938f68, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494d680, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,7 +83,7 @@ public:
   ::UnityEngine::UIElements::UIR::Alloc ___gradientSettingsAlloc;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6380 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

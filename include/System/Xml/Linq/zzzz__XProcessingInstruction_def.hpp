@@ -41,17 +41,17 @@ public:
   /// @brief Field target, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target)) ::StringW target;
 
-  /// @brief Method CloneNode, addr 0x41d7388, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x41ebaa0, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   static inline ::System::Xml::Linq::XProcessingInstruction* New_ctor(::System::Xml::Linq::XProcessingInstruction* other);
 
   static inline ::System::Xml::Linq::XProcessingInstruction* New_ctor(::StringW target, ::StringW data);
 
-  /// @brief Method ValidateName, addr 0x41d70c0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ValidateName, addr 0x41eb7d8, size 0xd8, virtual false, abstract: false, final false
   static inline void ValidateName(::StringW name);
 
-  /// @brief Method WriteTo, addr 0x41d7318, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x41eba30, size 0x70, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
   constexpr ::StringW const& __cordl_internal_get_data() const;
@@ -66,22 +66,22 @@ public:
 
   constexpr void __cordl_internal_set_target(::StringW value);
 
-  /// @brief Method .ctor, addr 0x41d7198, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41eb8b0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XProcessingInstruction* other);
 
-  /// @brief Method .ctor, addr 0x41d2e9c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41e75b4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW target, ::StringW data);
 
-  /// @brief Method get_Data, addr 0x41d7210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x41eb928, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Data();
 
-  /// @brief Method get_NodeType, addr 0x41d7308, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x41eba20, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Target, addr 0x41d7310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x41eba28, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Target();
 
-  /// @brief Method set_Data, addr 0x41d7218, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x41eb930, size 0xf0, virtual false, abstract: false, final false
   inline void set_Data(::StringW value);
 
 protected:
@@ -105,7 +105,7 @@ public:
   ::StringW ___data;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17925 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

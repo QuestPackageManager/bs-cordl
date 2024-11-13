@@ -88,7 +88,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<::StringW, ::Unity::Properties::IProperty_1<TContainer>*>* ___m_PropertiesHash;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17408 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Ocsp::UnknownStatus* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e4824, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ef8cc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

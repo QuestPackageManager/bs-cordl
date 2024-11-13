@@ -25,12 +25,12 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x4a29524, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a3dc3c, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other);
 
   static inline ::UnityEngine::UIElements::UxmlTypeRestriction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a29530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3dc48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"
@@ -51,7 +51,7 @@ public:
   UxmlTypeRestriction(UxmlTypeRestriction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6249 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6254 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

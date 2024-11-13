@@ -49,10 +49,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__UxmlHash128AttributeDescription____c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4a2875c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4a3ce74, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Hash128 _GetValueFromBag_b__3_0(::StringW s, ::UnityEngine::Hash128 i);
 
-  /// @brief Method .ctor, addr 0x4a28754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3ce6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__UxmlHash128AttributeDescription____c* getStaticF___9();
@@ -78,7 +78,7 @@ public:
   __UxmlHash128AttributeDescription____c(__UxmlHash128AttributeDescription____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6236 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -96,12 +96,12 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::__UxmlHash128AttributeDescription____c;
 
-  /// @brief Method GetValueFromBag, addr 0x4a285ac, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x4a3ccc4, size 0x14c, virtual true, abstract: false, final false
   inline ::UnityEngine::Hash128 GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlHash128AttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a28514, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3cc2c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,7 +119,7 @@ public:
   UxmlHash128AttributeDescription(UxmlHash128AttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6237 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

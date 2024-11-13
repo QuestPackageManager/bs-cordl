@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_nativeCallbacks(::ENet::ENetCallbacks value);
 
-  /// @brief Method .ctor, addr 0x3a39998, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a4d2f0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ENet::AllocCallback* allocCallback, ::ENet::FreeCallback* freeCallback, ::ENet::NoMemoryCallback* noMemoryCallback);
 
-  /// @brief Method get_NativeData, addr 0x3a39970, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x3a4d2c8, size 0x14, virtual false, abstract: false, final false
   inline ::ENet::ENetCallbacks get_NativeData();
 
-  /// @brief Method set_NativeData, addr 0x3a39984, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x3a4d2dc, size 0x14, virtual false, abstract: false, final false
   inline void set_NativeData(::ENet::ENetCallbacks value);
 
 protected:
@@ -72,7 +72,7 @@ public:
   ::ENet::ENetCallbacks ___nativeCallbacks;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17699 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

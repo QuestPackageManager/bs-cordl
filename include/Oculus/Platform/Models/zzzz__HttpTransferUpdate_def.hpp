@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f1b300, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2f990, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -80,7 +80,7 @@ public:
   bool ___IsCompleted;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15483 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

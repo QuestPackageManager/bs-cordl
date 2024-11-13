@@ -71,7 +71,7 @@ public:
   static ::System::Xml::__ReadContentAsBinaryHelper__State const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7170 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -106,13 +106,13 @@ public:
   /// @brief Field valueOffset, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_valueOffset, put = __cordl_internal_set_valueOffset)) int32_t valueOffset;
 
-  /// @brief Method Finish, addr 0x42952ac, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x42a99c4, size 0x13c, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method MoveToNextContentNode, addr 0x42953e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextContentNode, addr 0x42a9b00, size 0xd8, virtual false, abstract: false, final false
   inline bool MoveToNextContentNode(bool moveIfOnContentNode);
 
-  /// @brief Method Reset, addr 0x42954c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x42a9bd8, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get_isEnd() const;
@@ -166,7 +166,7 @@ public:
   bool ___isEnd;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7171 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

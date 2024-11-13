@@ -35,7 +35,7 @@ public:
   /// @brief Field _ifru_mtu, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__ifru_mtu, put = __cordl_internal_set__ifru_mtu)) int32_t _ifru_mtu;
 
-  /// @brief Method GetIPProperties, addr 0x4374810, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x4388f28, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
   static inline ::System::Net::NetworkInformation::AixNetworkInterface* New_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu);
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__ifru_mtu(int32_t value);
 
-  /// @brief Method .ctor, addr 0x43746a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4388db8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu);
 
-  /// @brief Method get_OperationalStatus, addr 0x437488c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x4388fa4, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
 protected:
@@ -79,7 +79,7 @@ public:
   int32_t ____ifru_mtu;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_platformToken(::StringW value);
 
-  /// @brief Method .ctor, addr 0x40097e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401defc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW platformToken, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 
 protected:
@@ -68,7 +68,7 @@ public:
   ::GlobalNamespace::PlatformEnvironment ___platformEnvironment;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18672 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

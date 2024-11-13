@@ -114,7 +114,7 @@ public:
   T ___value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6068 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -182,7 +182,7 @@ public:
   ::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>* m_Ref;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6069 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

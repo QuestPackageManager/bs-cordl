@@ -40,10 +40,10 @@ public:
   /// @brief Field m_Playable, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_m_Playable, put = __cordl_internal_set_m_Playable)) ::UnityEngine::Playables::Playable m_Playable;
 
-  /// @brief Method DisableAt, addr 0x47ad960, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method DisableAt, addr 0x47c2078, size 0x6c, virtual true, abstract: false, final false
   inline void DisableAt(double_t localTime, double_t rootDuration, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method EvaluateAt, addr 0x47ad908, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method EvaluateAt, addr 0x47c2020, size 0x58, virtual true, abstract: false, final false
   inline void EvaluateAt(double_t localTime, ::UnityEngine::Playables::FrameData frameData);
 
   static inline ::UnityEngine::Timeline::InfiniteRuntimeClip* New_ctor(::UnityEngine::Playables::Playable playable);
@@ -54,20 +54,20 @@ public:
 
   constexpr void __cordl_internal_set_m_Playable(::UnityEngine::Playables::Playable value);
 
-  /// @brief Method .ctor, addr 0x479a460, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47aeb78, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::Playable playable);
 
   static inline int64_t getStaticF_kIntervalEnd();
 
-  /// @brief Method get_intervalEnd, addr 0x47ad83c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_intervalEnd, addr 0x47c1f54, size 0x58, virtual true, abstract: false, final false
   inline int64_t get_intervalEnd();
 
-  /// @brief Method get_intervalStart, addr 0x47ad834, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_intervalStart, addr 0x47c1f4c, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_intervalStart();
 
   static inline void setStaticF_kIntervalEnd(int64_t value);
 
-  /// @brief Method set_enable, addr 0x47ad894, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method set_enable, addr 0x47c1fac, size 0x74, virtual true, abstract: false, final false
   inline void set_enable(bool value);
 
 protected:
@@ -88,7 +88,7 @@ public:
   ::UnityEngine::Playables::Playable ___m_Playable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15800 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

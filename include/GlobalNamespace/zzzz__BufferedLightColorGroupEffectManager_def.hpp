@@ -54,10 +54,10 @@ public:
 
   static inline ::GlobalNamespace::BufferedLightColorGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b1542c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b2a8a0, size 0x5c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b15278, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b2a6ec, size 0x1b4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*> const&
@@ -88,7 +88,7 @@ public:
   constexpr void __cordl_internal_set__materialPropertyBlockControllers(
       ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b15488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2a8fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,7 +118,7 @@ public:
   ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*> ____bufferedLightColorGroupEffects;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4272 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

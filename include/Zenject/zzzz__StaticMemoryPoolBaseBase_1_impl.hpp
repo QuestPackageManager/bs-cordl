@@ -44,7 +44,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::St
 }
 template <typename TValue> constexpr void Zenject::StaticMemoryPoolBaseBase_1<TValue>::__cordl_internal_set__stack(::System::Collections::Generic::Stack_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____stack, value);
 }
 template <typename TValue> constexpr ::System::Action_1<TValue>*& Zenject::StaticMemoryPoolBaseBase_1<TValue>::__cordl_internal_get__onDespawnedMethod() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -57,7 +57,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const
 }
 template <typename TValue> constexpr void Zenject::StaticMemoryPoolBaseBase_1<TValue>::__cordl_internal_set__onDespawnedMethod(::System::Action_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onDespawnedMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____onDespawnedMethod, value);
 }
 template <typename TValue> constexpr int32_t& Zenject::StaticMemoryPoolBaseBase_1<TValue>::__cordl_internal_get__activeCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

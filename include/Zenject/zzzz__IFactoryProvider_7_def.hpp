@@ -67,7 +67,7 @@ public:
   IFactoryProvider_7(IFactoryProvider_7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12505 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

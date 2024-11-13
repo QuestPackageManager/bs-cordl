@@ -131,7 +131,7 @@ public:
   __FactoryFromBinder0Extensions____c__1_1(__FactoryFromBinder0Extensions____c__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12021 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -190,7 +190,7 @@ public:
   __FactoryFromBinder0Extensions____c__3_1(__FactoryFromBinder0Extensions____c__3_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12022 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -249,7 +249,7 @@ public:
   __FactoryFromBinder0Extensions____c__5_2(__FactoryFromBinder0Extensions____c__5_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12023 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -306,7 +306,7 @@ public:
   ::System::Guid ___poolId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12024 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -363,7 +363,7 @@ public:
   ::System::Guid ___factoryId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12025 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -431,7 +431,7 @@ public:
   FactoryFromBinder0Extensions(FactoryFromBinder0Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12026 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

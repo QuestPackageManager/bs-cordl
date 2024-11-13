@@ -40,12 +40,12 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method HighlightDidChange, addr 0x3b87900, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3b9d4c8, size 0x40, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::FileBrowserTableCell* New_ctor();
 
-  /// @brief Method SelectionDidChange, addr 0x3b87868, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3b9d430, size 0x98, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -66,13 +66,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b87940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9d508, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x3b87844, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3b9d40c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x3b87820, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3b9d3e8, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -99,7 +99,7 @@ public:
   ::UnityW<::UnityEngine::UI::Image> ____highlightImage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4761 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

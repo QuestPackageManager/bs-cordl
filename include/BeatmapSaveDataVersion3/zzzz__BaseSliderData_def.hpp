@@ -109,29 +109,29 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26c8f9c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d4c8c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection,
                     float_t tailBeat, int32_t tailLine, int32_t tailLayer);
 
-  /// @brief Method get_colorType, addr 0x26c8f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x26d4c54, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteColorType get_colorType();
 
-  /// @brief Method get_headCutDirection, addr 0x26c8f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headCutDirection, addr 0x26d4c6c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_headCutDirection();
 
-  /// @brief Method get_headLayer, addr 0x26c8f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headLayer, addr 0x26d4c64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_headLayer();
 
-  /// @brief Method get_headLine, addr 0x26c8f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headLine, addr 0x26d4c5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_headLine();
 
-  /// @brief Method get_tailBeat, addr 0x26c8f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailBeat, addr 0x26d4c74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailBeat();
 
-  /// @brief Method get_tailLayer, addr 0x26c8f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailLayer, addr 0x26d4c84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_tailLayer();
 
-  /// @brief Method get_tailLine, addr 0x26c8f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailLine, addr 0x26d4c7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_tailLine();
 
 protected:
@@ -170,7 +170,7 @@ public:
   int32_t ___ty;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13389 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

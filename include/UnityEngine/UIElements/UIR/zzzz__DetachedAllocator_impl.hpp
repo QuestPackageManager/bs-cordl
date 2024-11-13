@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x492cb0c;
+  constexpr static std::size_t addrs = 0x4941224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::DetachedAllocator*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)(bool)>(
     &::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x492cb70;
+  constexpr static std::size_t addrs = 0x4941288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -51,15 +51,15 @@ public:
   static __declspec(property(get = getStaticF_s_DefaultPanelTextSettings, put = setStaticF_s_DefaultPanelTextSettings)) ::UnityW<::UnityEngine::UIElements::PanelTextSettings>
       s_DefaultPanelTextSettings;
 
-  /// @brief Method GetCachedFontAsset, addr 0x4a16410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedFontAsset, addr 0x4a2ab28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetCachedFontAsset(::UnityEngine::Font* font);
 
   static inline ::UnityEngine::UIElements::PanelTextSettings* New_ctor();
 
-  /// @brief Method UpdateLocalizationFontAsset, addr 0x4a15e54, size 0x5bc, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalizationFontAsset, addr 0x4a2a56c, size 0x5bc, virtual false, abstract: false, final false
   static inline void UpdateLocalizationFontAsset();
 
-  /// @brief Method .ctor, addr 0x4a16418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2ab30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Func_2<::StringW, ::UnityW<::UnityEngine::Object>>* getStaticF_EditorGUIUtilityLoad();
@@ -70,7 +70,7 @@ public:
 
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> getStaticF_s_DefaultPanelTextSettings();
 
-  /// @brief Method get_defaultPanelTextSettings, addr 0x4a15d20, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPanelTextSettings, addr 0x4a2a438, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> get_defaultPanelTextSettings();
 
   static inline void setStaticF_EditorGUIUtilityLoad(::System::Func_2<::StringW, ::UnityW<::UnityEngine::Object>>* value);
@@ -96,7 +96,7 @@ public:
   PanelTextSettings(PanelTextSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6168 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,25 +33,25 @@ public:
 
   static inline ::GlobalNamespace::VRCenterAdjust* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3abf32c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ad2ecc, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3abf260, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3ad2e00, size 0xcc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3abf194, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3ad2d34, size 0xcc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetRoom, addr 0x3abefe8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ResetRoom, addr 0x3ad2b88, size 0xc4, virtual false, abstract: false, final false
   inline void ResetRoom();
 
-  /// @brief Method SetRoomTransformOffset, addr 0x3abf0ac, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetRoomTransformOffset, addr 0x3ad2c4c, size 0xbc, virtual false, abstract: false, final false
   inline void SetRoomTransformOffset();
 
-  /// @brief Method Start, addr 0x3abef84, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad2b24, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3abf168, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ad2d08, size 0x2c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO> const& __cordl_internal_get__settingsApplicator() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3abf330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad2ed0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____settingsApplicator;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5167 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

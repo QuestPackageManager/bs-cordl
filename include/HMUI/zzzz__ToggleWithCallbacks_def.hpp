@@ -81,7 +81,7 @@ public:
   static ::HMUI::__ToggleWithCallbacks__SelectionState const Selected;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16083 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -110,7 +110,7 @@ public:
   __declspec(property(get = __cordl_internal_get_stateDidChangeEvent,
                       put = __cordl_internal_set_stateDidChangeEvent)) ::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* stateDidChangeEvent;
 
-  /// @brief Method DoStateTransition, addr 0x3998838, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x39ac190, size 0x4c, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
   static inline ::HMUI::ToggleWithCallbacks* New_ctor();
@@ -121,16 +121,16 @@ public:
 
   constexpr void __cordl_internal_set_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
-  /// @brief Method .ctor, addr 0x3998884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ac1dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_stateDidChangeEvent, addr 0x3993f24, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_stateDidChangeEvent, addr 0x39a787c, size 0xb4, virtual false, abstract: false, final false
   inline void add_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
-  /// @brief Method get_selectionState, addr 0x39942bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_selectionState, addr 0x39a7c14, size 0x54, virtual false, abstract: false, final false
   inline ::HMUI::__ToggleWithCallbacks__SelectionState get_selectionState();
 
-  /// @brief Method remove_stateDidChangeEvent, addr 0x3994200, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_stateDidChangeEvent, addr 0x39a7b58, size 0xb4, virtual false, abstract: false, final false
   inline void remove_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
 protected:
@@ -151,7 +151,7 @@ public:
   ::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* ___stateDidChangeEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16084 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

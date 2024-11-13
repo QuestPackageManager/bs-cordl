@@ -61,81 +61,81 @@ public:
   /// @brief Field oids, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_oids, put = setStaticF_oids)) ::System::Collections::IDictionary* oids;
 
-  /// @brief Method CreateEngine, addr 0x257807c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CreateEngine, addr 0x2583124, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Object* CreateEngine(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID);
 
-  /// @brief Method CreateEngine, addr 0x2577b68, size 0x514, virtual false, abstract: false, final false
+  /// @brief Method CreateEngine, addr 0x2582c10, size 0x514, virtual false, abstract: false, final false
   static inline ::System::Object* CreateEngine(::StringW algorithm);
 
-  /// @brief Method CreateEngine, addr 0x2577b08, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateEngine, addr 0x2582bb0, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Object* CreateEngine(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-  /// @brief Method FixDesParity, addr 0x25778f4, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method FixDesParity, addr 0x258299c, size 0x214, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* FixDesParity(::StringW mechanism, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GenerateAlgorithmParameters, addr 0x2576058, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GenerateAlgorithmParameters, addr 0x2581100, size 0x124, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GenerateAlgorithmParameters(::StringW algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method GenerateAlgorithmParameters, addr 0x2575fe0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GenerateAlgorithmParameters, addr 0x2581088, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GenerateAlgorithmParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                                       int32_t iterationCount);
 
-  /// @brief Method GenerateAlgorithmParameters, addr 0x257617c, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method GenerateAlgorithmParameters, addr 0x2581224, size 0x3ac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GenerateAlgorithmParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* cipherAlgorithm,
                                                                                       ::Org::BouncyCastle::Asn1::DerObjectIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                                       int32_t iterationCount, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method GenerateCipherParameters, addr 0x2577738, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GenerateCipherParameters, addr 0x25827e0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateCipherParameters(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method GenerateCipherParameters, addr 0x25777dc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GenerateCipherParameters, addr 0x2582884, size 0xa8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateCipherParameters(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<char16_t, ::Array<char16_t>*> password,
                                                                                          bool wrongPkcs12Zero);
 
-  /// @brief Method GenerateCipherParameters, addr 0x2577884, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GenerateCipherParameters, addr 0x258292c, size 0x70, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateCipherParameters(::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> password,
                                                                                          ::Org::BouncyCastle::Asn1::Asn1Encodable* pbeParameters);
 
-  /// @brief Method GenerateCipherParameters, addr 0x25765a4, size 0x1114, virtual false, abstract: false, final false
+  /// @brief Method GenerateCipherParameters, addr 0x258164c, size 0x1114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateCipherParameters(::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> password, bool wrongPkcs12Zero,
                                                                                          ::Org::BouncyCastle::Asn1::Asn1Encodable* pbeParameters);
 
-  /// @brief Method GenerateCipherParameters, addr 0x2576528, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GenerateCipherParameters, addr 0x25815d0, size 0x7c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateCipherParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid, ::ArrayW<char16_t, ::Array<char16_t>*> password,
                                                                                          ::Org::BouncyCastle::Asn1::Asn1Encodable* pbeParameters);
 
-  /// @brief Method GenerateCipherParameters, addr 0x25776b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GenerateCipherParameters, addr 0x2582760, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateCipherParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid, ::ArrayW<char16_t, ::Array<char16_t>*> password,
                                                                                          bool wrongPkcs12Zero, ::Org::BouncyCastle::Asn1::Asn1Encodable* pbeParameters);
 
-  /// @brief Method GetEncodingName, addr 0x257818c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingName, addr 0x2583234, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetEncodingName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetObjectIdentifier, addr 0x2575350, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetObjectIdentifier, addr 0x25803f8, size 0x208, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetObjectIdentifier(::StringW mechanism);
 
-  /// @brief Method IsOpenSsl, addr 0x2575c18, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method IsOpenSsl, addr 0x2580cc0, size 0x1fc, virtual false, abstract: false, final false
   static inline bool IsOpenSsl(::StringW algorithm);
 
-  /// @brief Method IsPbeAlgorithm, addr 0x2575e14, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method IsPbeAlgorithm, addr 0x2580ebc, size 0x1cc, virtual false, abstract: false, final false
   static inline bool IsPbeAlgorithm(::StringW algorithm);
 
-  /// @brief Method IsPkcs12, addr 0x2575624, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method IsPkcs12, addr 0x25806cc, size 0x1fc, virtual false, abstract: false, final false
   static inline bool IsPkcs12(::StringW algorithm);
 
-  /// @brief Method IsPkcs5Scheme1, addr 0x2575820, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method IsPkcs5Scheme1, addr 0x25808c8, size 0x1fc, virtual false, abstract: false, final false
   static inline bool IsPkcs5Scheme1(::StringW algorithm);
 
-  /// @brief Method IsPkcs5Scheme2, addr 0x2575a1c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method IsPkcs5Scheme2, addr 0x2580ac4, size 0x1fc, virtual false, abstract: false, final false
   static inline bool IsPkcs5Scheme2(::StringW algorithm);
 
-  /// @brief Method MakePbeGenerator, addr 0x2575118, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method MakePbeGenerator, addr 0x25801c0, size 0x238, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::PbeParametersGenerator* MakePbeGenerator(::StringW type, ::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
   static inline ::Org::BouncyCastle::Security::PbeUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x256fb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x257abb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithmType();
@@ -144,7 +144,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_oids();
 
-  /// @brief Method get_Algorithms, addr 0x2575558, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithms, addr 0x2580600, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* get_Algorithms();
 
   static inline void setStaticF_algorithmType(::System::Collections::IDictionary* value);

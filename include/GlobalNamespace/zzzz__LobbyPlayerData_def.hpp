@@ -77,19 +77,19 @@ public:
 
   constexpr void __cordl_internal_set__isReady_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x2699f90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a5bb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isActive, addr 0x2699f54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isActive, addr 0x26a5b74, size 0x8, virtual true, abstract: false, final true
   inline bool get_isActive();
 
-  /// @brief Method get_isInLobby, addr 0x2699f7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isInLobby, addr 0x26a5b9c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isInLobby();
 
-  /// @brief Method get_isPartyOwner, addr 0x2699f40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isPartyOwner, addr 0x26a5b60, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPartyOwner();
 
-  /// @brief Method get_isReady, addr 0x2699f68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isReady, addr 0x26a5b88, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
   /// @brief Convert to "::GlobalNamespace::ILevelGameplaySetupData"
@@ -98,16 +98,16 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILobbyPlayerData"
   constexpr ::GlobalNamespace::ILobbyPlayerData* i___GlobalNamespace__ILobbyPlayerData() noexcept;
 
-  /// @brief Method set_isActive, addr 0x2699f5c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isActive, addr 0x26a5b7c, size 0xc, virtual true, abstract: false, final true
   inline void set_isActive(bool value);
 
-  /// @brief Method set_isInLobby, addr 0x2699f84, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isInLobby, addr 0x26a5ba4, size 0xc, virtual true, abstract: false, final true
   inline void set_isInLobby(bool value);
 
-  /// @brief Method set_isPartyOwner, addr 0x2699f48, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isPartyOwner, addr 0x26a5b68, size 0xc, virtual true, abstract: false, final true
   inline void set_isPartyOwner(bool value);
 
-  /// @brief Method set_isReady, addr 0x2699f70, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isReady, addr 0x26a5b90, size 0xc, virtual true, abstract: false, final true
   inline void set_isReady(bool value);
 
 protected:
@@ -137,7 +137,7 @@ public:
   bool ____isInLobby_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13065 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

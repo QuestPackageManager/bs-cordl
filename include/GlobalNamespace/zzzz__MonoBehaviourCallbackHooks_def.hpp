@@ -30,15 +30,15 @@ public:
   /// @brief Field m_OnUpdateDelegate, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OnUpdateDelegate, put = __cordl_internal_set_m_OnUpdateDelegate)) ::System::Action_1<float_t>* m_OnUpdateDelegate;
 
-  /// @brief Method GetGameObjectName, addr 0x4714b5c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetGameObjectName, addr 0x4729274, size 0x40, virtual true, abstract: false, final false
   inline ::StringW GetGameObjectName();
 
-  /// @brief Method LateUpdate, addr 0x4714bcc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x47292e4, size 0x30, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MonoBehaviourCallbackHooks* New_ctor();
 
-  /// @brief Method Update, addr 0x4714b9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x47292b4, size 0x30, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Action_1<float_t>*& __cordl_internal_get_m_OnLateUpdateDelegate();
@@ -53,19 +53,19 @@ public:
 
   constexpr void __cordl_internal_set_m_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x4714bfc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4729314, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnLateUpdateDelegate, addr 0x4714a0c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method add_OnLateUpdateDelegate, addr 0x4729124, size 0xa8, virtual false, abstract: false, final false
   inline void add_OnLateUpdateDelegate(::System::Action_1<float_t>* value);
 
-  /// @brief Method add_OnUpdateDelegate, addr 0x47148bc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method add_OnUpdateDelegate, addr 0x4728fd4, size 0xa8, virtual false, abstract: false, final false
   inline void add_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_OnLateUpdateDelegate, addr 0x4714ab4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method remove_OnLateUpdateDelegate, addr 0x47291cc, size 0xa8, virtual false, abstract: false, final false
   inline void remove_OnLateUpdateDelegate(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_OnUpdateDelegate, addr 0x4714964, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method remove_OnUpdateDelegate, addr 0x472907c, size 0xa8, virtual false, abstract: false, final false
   inline void remove_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
 protected:
@@ -89,7 +89,7 @@ public:
   ::System::Action_1<float_t>* ___m_OnLateUpdateDelegate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15549 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

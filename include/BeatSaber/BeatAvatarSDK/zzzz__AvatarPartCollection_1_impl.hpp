@@ -15,7 +15,7 @@ BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::__cordl_internal_get__partB
 }
 template <typename T> constexpr void BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::__cordl_internal_set__partById(::System::Collections::Generic::Dictionary_2<::StringW, T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____partById)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____partById, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::__cordl_internal_get__partIndexById() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -29,7 +29,7 @@ BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::__cordl_internal_get__partI
 }
 template <typename T> constexpr void BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::__cordl_internal_set__partIndexById(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____partIndexById)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____partIndexById, value);
 }
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::__cordl_internal_get__parts() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -41,7 +41,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& BeatSaber::BeatA
 }
 template <typename T> constexpr void BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::__cordl_internal_set__parts(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____parts, value);
 }
 template <typename T> inline int32_t BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>::get_count() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>*>::get(),

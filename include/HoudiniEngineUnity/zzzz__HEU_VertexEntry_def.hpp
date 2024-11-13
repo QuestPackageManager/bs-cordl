@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__vertexIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a0e624, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a21f7c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex);
 
 protected:
@@ -76,7 +76,7 @@ public:
   int32_t ____normalIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11785 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

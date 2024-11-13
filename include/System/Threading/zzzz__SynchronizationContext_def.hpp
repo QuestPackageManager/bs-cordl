@@ -52,36 +52,36 @@ public:
   /// @brief Field s_cachedPreparedType5, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_cachedPreparedType5, put = setStaticF_s_cachedPreparedType5)) ::System::Type* s_cachedPreparedType5;
 
-  /// @brief Method CreateCopy, addr 0x3de08dc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x3df4f6c, size 0x54, virtual true, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* CreateCopy();
 
-  /// @brief Method GetThreadLocalContext, addr 0x3de0708, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetThreadLocalContext, addr 0x3df4d98, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* GetThreadLocalContext();
 
-  /// @brief Method IsWaitNotificationRequired, addr 0x3de0530, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsWaitNotificationRequired, addr 0x3df4bc0, size 0xc, virtual false, abstract: false, final false
   inline bool IsWaitNotificationRequired();
 
   static inline ::System::Threading::SynchronizationContext* New_ctor();
 
-  /// @brief Method OperationCompleted, addr 0x3de05f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OperationCompleted, addr 0x3df4c80, size 0x4, virtual true, abstract: false, final false
   inline void OperationCompleted();
 
-  /// @brief Method OperationStarted, addr 0x3de05ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OperationStarted, addr 0x3df4c7c, size 0x4, virtual true, abstract: false, final false
   inline void OperationStarted();
 
-  /// @brief Method Post, addr 0x3de0564, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Post, addr 0x3df4bf4, size 0x88, virtual true, abstract: false, final false
   inline void Post(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method Send, addr 0x3de053c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x3df4bcc, size 0x28, virtual true, abstract: false, final false
   inline void Send(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method SetSynchronizationContext, addr 0x3de06e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetSynchronizationContext, addr 0x3df4d70, size 0x28, virtual false, abstract: false, final false
   static inline void SetSynchronizationContext(::System::Threading::SynchronizationContext* syncContext);
 
-  /// @brief Method Wait, addr 0x3de05f4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Wait, addr 0x3df4c84, size 0x64, virtual true, abstract: false, final false
   inline int32_t Wait(::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> waitHandles, bool waitAll, int32_t millisecondsTimeout);
 
-  /// @brief Method WaitHelper, addr 0x3de0658, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WaitHelper, addr 0x3df4ce8, size 0x88, virtual false, abstract: false, final false
   static inline int32_t WaitHelper(::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> waitHandles, bool waitAll, int32_t millisecondsTimeout);
 
   constexpr ::System::Threading::SynchronizationContextProperties const& __cordl_internal_get__props() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__props(::System::Threading::SynchronizationContextProperties value);
 
-  /// @brief Method .ctor, addr 0x3de0528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df4bb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Type* getStaticF_s_cachedPreparedType1();
@@ -103,13 +103,13 @@ public:
 
   static inline ::System::Type* getStaticF_s_cachedPreparedType5();
 
-  /// @brief Method get_Current, addr 0x3dd7ea0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3dec530, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* get_Current();
 
-  /// @brief Method get_CurrentExplicit, addr 0x3de0930, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentExplicit, addr 0x3df4fc0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* get_CurrentExplicit();
 
-  /// @brief Method get_CurrentNoFlow, addr 0x3de0754, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentNoFlow, addr 0x3df4de4, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Threading::SynchronizationContext* get_CurrentNoFlow();
 
   static inline void setStaticF_s_cachedPreparedType1(::System::Type* value);

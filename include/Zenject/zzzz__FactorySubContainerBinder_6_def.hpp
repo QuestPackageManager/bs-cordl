@@ -155,7 +155,7 @@ public:
   ::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* ___installerMethod;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12117 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -238,7 +238,7 @@ public:
   ::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* ___installerMethod;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12118 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -333,7 +333,7 @@ public:
   ::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* ___installerMethod;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12119 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -428,7 +428,7 @@ public:
   ::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* ___installerMethod;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12120 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -488,7 +488,7 @@ public:
   FactorySubContainerBinder_6(FactorySubContainerBinder_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12121 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,27 +33,27 @@ public:
   /// @brief Method Asn1GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method CallAsn1Equals, addr 0x22b24f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CallAsn1Equals, addr 0x22bd5a0, size 0xc, virtual false, abstract: false, final false
   inline bool CallAsn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method CallAsn1GetHashCode, addr 0x22b23e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CallAsn1GetHashCode, addr 0x22bd48c, size 0xc, virtual false, abstract: false, final false
   inline int32_t CallAsn1GetHashCode();
 
   /// @brief Method Encode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method FromByteArray, addr 0x22b8fb8, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method FromByteArray, addr 0x22c4060, size 0x204, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* FromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method FromStream, addr 0x22b91bc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FromStream, addr 0x22c4264, size 0x124, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* FromStream(::System::IO::Stream* inStr);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* New_ctor();
 
-  /// @brief Method ToAsn1Object, addr 0x22b92e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x22c4388, size 0x4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method .ctor, addr 0x22b92e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c438c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

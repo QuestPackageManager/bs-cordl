@@ -33,28 +33,28 @@ namespace System::Xml::Linq {
 struct CORDL_TYPE ElementWriter {
 public:
   // Declarations
-  /// @brief Method GetPrefixOfNamespace, addr 0x41d5798, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixOfNamespace, addr 0x41e9eb0, size 0xfc, virtual false, abstract: false, final false
   inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, bool allowDefaultNamespace);
 
-  /// @brief Method PushAncestors, addr 0x41d54b8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method PushAncestors, addr 0x41e9bd0, size 0x128, virtual false, abstract: false, final false
   inline void PushAncestors(::System::Xml::Linq::XElement* e);
 
-  /// @brief Method PushElement, addr 0x41d5a08, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PushElement, addr 0x41ea120, size 0xd4, virtual false, abstract: false, final false
   inline void PushElement(::System::Xml::Linq::XElement* e);
 
-  /// @brief Method WriteElement, addr 0x41d4308, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method WriteElement, addr 0x41e8a20, size 0x1a0, virtual false, abstract: false, final false
   inline void WriteElement(::System::Xml::Linq::XElement* e);
 
-  /// @brief Method WriteEndElement, addr 0x41d5740, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x41e9e58, size 0x2c, virtual false, abstract: false, final false
   inline void WriteEndElement();
 
-  /// @brief Method WriteFullEndElement, addr 0x41d576c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WriteFullEndElement, addr 0x41e9e84, size 0x2c, virtual false, abstract: false, final false
   inline void WriteFullEndElement();
 
-  /// @brief Method WriteStartElement, addr 0x41d55e0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x41e9cf8, size 0x160, virtual false, abstract: false, final false
   inline void WriteStartElement(::System::Xml::Linq::XElement* e);
 
-  /// @brief Method .ctor, addr 0x41d42fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41e8a14, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlWriter* writer);
 
   // Ctor Parameters []
@@ -72,7 +72,7 @@ public:
   ::System::Xml::Linq::NamespaceResolver _resolver;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17913 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

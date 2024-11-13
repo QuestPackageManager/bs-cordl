@@ -27,13 +27,13 @@ public:
 
   static inline ::UnityEngine::Grid* New_ctor();
 
-  /// @brief Method .ctor, addr 0x485b858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486ff70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cellSize, addr 0x485b7b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_cellSize, addr 0x486fed0, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_cellSize();
 
-  /// @brief Method get_cellSize_Injected, addr 0x485b814, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_cellSize_Injected, addr 0x486ff2c, size 0x44, virtual false, abstract: false, final false
   inline void get_cellSize_Injected(ByRef<::UnityEngine::Vector3> ret);
 
 protected:
@@ -51,7 +51,7 @@ public:
   Grid(Grid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18958 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -56,7 +56,7 @@ public:
   ::UnityEngine::Vector3 normal;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5159 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
@@ -106,25 +106,25 @@ public:
   /// @brief Field vertexCount, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_vertexCount, put = __cordl_internal_set_vertexCount)) int32_t vertexCount;
 
-  /// @brief Method AddVertex, addr 0x3abd72c, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method AddVertex, addr 0x3ad12cc, size 0x40c, virtual false, abstract: false, final false
   inline void AddVertex(ByRef<::UnityEngine::Vector3> p0, ByRef<::UnityEngine::Vector3> p1, ByRef<::UnityEngine::Vector3> p2, ByRef<::UnityEngine::Vector3> p3, float_t t,
                         ByRef<::UnityEngine::Vector3> lastRotationAxis, ByRef<float_t> currentPathLength, ByRef<::GlobalNamespace::__VertexPath__Vertex> lastVertex, ByRef<int32_t> vertCount);
 
-  /// @brief Method GetPoint, addr 0x3abd6f4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x3ad1294, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(int32_t index);
 
-  /// @brief Method GetVertex, addr 0x3abd694, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetVertex, addr 0x3ad1234, size 0x60, virtual false, abstract: false, final false
   inline void GetVertex(int32_t index, ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> tangent, ByRef<::UnityEngine::Vector3> normal);
 
   static inline ::GlobalNamespace::VertexPath* New_ctor(int32_t numberOfPathSegments);
 
-  /// @brief Method SplitBezierPathIntoFixNumberOfSegments, addr 0x3abd120, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method SplitBezierPathIntoFixNumberOfSegments, addr 0x3ad0cc0, size 0x53c, virtual false, abstract: false, final false
   inline void SplitBezierPathIntoFixNumberOfSegments(::GlobalNamespace::BezierPath* bezierPath, int32_t numberOfVertexSegments);
 
-  /// @brief Method TimeAtPoint, addr 0x3abd65c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method TimeAtPoint, addr 0x3ad11fc, size 0x38, virtual false, abstract: false, final false
   inline float_t TimeAtPoint(int32_t pointIndex);
 
-  /// @brief Method UpdateByBezierPath, addr 0x3abcca0, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method UpdateByBezierPath, addr 0x3ad0840, size 0x458, virtual false, abstract: false, final false
   inline void UpdateByBezierPath(::GlobalNamespace::BezierPath* bezierPath);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__anchorVertexMap() const;
@@ -157,12 +157,12 @@ public:
 
   constexpr void __cordl_internal_set_vertexCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3abcbbc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad075c, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfPathSegments);
 
   static inline ::UnityEngine::Vector3 getStaticF__back();
 
-  /// @brief Method get_length, addr 0x3abd118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x3ad0cb8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
   static inline void setStaticF__back(::UnityEngine::Vector3 value);
@@ -197,7 +197,7 @@ public:
   ::ArrayW<int32_t, ::Array<int32_t>*> ____anchorVertexMap;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5160 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

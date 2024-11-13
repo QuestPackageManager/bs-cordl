@@ -26,13 +26,13 @@ public:
 
   static inline ::GlobalNamespace::ColorSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2660900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266b9a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_color, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method op_Implicit, addr 0x2660fa4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x266c04c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::GlobalNamespace::ColorSO* c);
 
 protected:
@@ -50,7 +50,7 @@ public:
   ColorSO(ColorSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

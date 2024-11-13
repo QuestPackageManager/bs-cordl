@@ -40,13 +40,13 @@ public:
   /// @brief Field _isDefault, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__isDefault, put = __cordl_internal_set__isDefault)) bool _isDefault;
 
-  /// @brief Method Equals, addr 0x43dd940, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x43f2058, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x43dd9d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x43f20f0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x43dd9e0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x43f20f8, size 0x84, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::ListBindableAttribute* New_ctor(bool listBindable);
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__isDefault(bool value);
 
-  /// @brief Method .ctor, addr 0x43dd910, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43f2028, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool listBindable);
 
   static inline ::System::ComponentModel::ListBindableAttribute* getStaticF_Default();
@@ -72,7 +72,7 @@ public:
 
   static inline ::System::ComponentModel::ListBindableAttribute* getStaticF_Yes();
 
-  /// @brief Method get_ListBindable, addr 0x43dd938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ListBindable, addr 0x43f2050, size 0x8, virtual false, abstract: false, final false
   inline bool get_ListBindable();
 
   static inline void setStaticF_Default(::System::ComponentModel::ListBindableAttribute* value);
@@ -102,7 +102,7 @@ public:
   bool ____ListBindable_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

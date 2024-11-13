@@ -32,13 +32,13 @@ namespace System::Net::Http {
 class CORDL_TYPE PlatformHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateStreamContent, addr 0x419d58c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateStreamContent, addr 0x41b1ca4, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Net::Http::StreamContent* CreateStreamContent(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetSingleHeaderString, addr 0x419d338, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetSingleHeaderString, addr 0x41b1a50, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW GetSingleHeaderString(::StringW name, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
 
-  /// @brief Method IsContentHeader, addr 0x419d5f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsContentHeader, addr 0x41b1d10, size 0x60, virtual false, abstract: false, final false
   static inline bool IsContentHeader(::StringW name);
 
 protected:
@@ -56,7 +56,7 @@ public:
   PlatformHelper(PlatformHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16636 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

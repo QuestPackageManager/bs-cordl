@@ -26,10 +26,10 @@ public:
 
   static inline ::UnityEngine::EventSystems::AbstractEventData* New_ctor();
 
-  /// @brief Method Reset, addr 0x4a5b7ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x4a6ff04, size 0x8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Use, addr 0x4a5b7f4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Use, addr 0x4a6ff0c, size 0xc, virtual true, abstract: false, final false
   inline void Use();
 
   constexpr bool const& __cordl_internal_get_m_Used() const;
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Used(bool value);
 
-  /// @brief Method .ctor, addr 0x4a5b808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a6ff20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_used, addr 0x4a5b800, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_used, addr 0x4a6ff18, size 0x8, virtual true, abstract: false, final false
   inline bool get_used();
 
 protected:
@@ -62,7 +62,7 @@ public:
   bool ___m_Used;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15139 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

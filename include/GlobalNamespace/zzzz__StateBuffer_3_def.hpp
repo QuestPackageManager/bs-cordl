@@ -108,7 +108,7 @@ public:
   TStateTable state;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14954 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -156,7 +156,7 @@ public:
   __StateBuffer_3__InterpolationDelegate(__StateBuffer_3__InterpolationDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14955 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -201,7 +201,7 @@ public:
   __StateBuffer_3__SmoothingDelegate(__StateBuffer_3__SmoothingDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14956 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -322,7 +322,7 @@ public:
   ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* ____smoother;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14957 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

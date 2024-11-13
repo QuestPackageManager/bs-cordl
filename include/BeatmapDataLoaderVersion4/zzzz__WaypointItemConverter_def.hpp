@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__BeatToTimeConverterProvider_def.hpp"
+#include "GlobalNamespace/zzzz__BeatToTimeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(WaypointItemConverter)
 namespace BeatmapSaveDataVersion4 {
@@ -29,14 +29,14 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::WaypointItemConverter);
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::WaypointItemConverter*
-class CORDL_TYPE WaypointItemConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
+class CORDL_TYPE WaypointItemConverter : public ::GlobalNamespace::BeatToTimeConverter {
 public:
   // Declarations
   /// @brief Field _waypoints, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__waypoints, put = __cordl_internal_set__waypoints)) ::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*>
       _waypoints;
 
-  /// @brief Method Convert, addr 0x26cc138, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x26d7db4, size 0x100, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::WaypointItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> waypoints,
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__waypoints(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> value);
 
-  /// @brief Method .ctor, addr 0x26cbb2c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d7778, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> waypoints, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
@@ -69,7 +69,7 @@ public:
   ::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> ____waypoints;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13445 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

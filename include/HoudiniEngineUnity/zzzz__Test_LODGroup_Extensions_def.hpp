@@ -50,13 +50,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x3a2e644, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3a41f9c, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_LODGroup* _ToTestObject_b__1_0(::UnityEngine::LODGroup* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x3a2e6a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3a41ff8, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_LODGroup* _ToTestObject_b__2_0(::UnityEngine::LODGroup* lod);
 
-  /// @brief Method .ctor, addr 0x3a2e63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a41f94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   __Test_LODGroup_Extensions____c(__Test_LODGroup_Extensions____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11854 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -104,14 +104,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x3a2e3f8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a41d50, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_LODGroup*, ::Array<::HoudiniEngineUnity::Test_LODGroup*>*>
   ToTestObject(::ArrayW<::UnityEngine::LODGroup*, ::Array<::UnityEngine::LODGroup*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x3a2c188, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a3fae0, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_LODGroup* ToTestObject(::UnityEngine::LODGroup* self);
 
-  /// @brief Method ToTestObject, addr 0x3a2e4e8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a41e40, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::LODGroup>>* self);
 
 protected:
@@ -129,7 +129,7 @@ public:
   Test_LODGroup_Extensions(Test_LODGroup_Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11855 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

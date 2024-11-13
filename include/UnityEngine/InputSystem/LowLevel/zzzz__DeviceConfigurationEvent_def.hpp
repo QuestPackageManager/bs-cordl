@@ -43,10 +43,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method Create, addr 0x4592b20, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45a7238, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent Create(int32_t deviceId, double_t time);
 
-  /// @brief Method ToEventPtr, addr 0x4592b1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToEventPtr, addr 0x45a7234, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
 
-  /// @brief Method get_typeStatic, addr 0x4592b10, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x45a7228, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
@@ -92,7 +92,7 @@ public:
   static constexpr int32_t Type{ static_cast<int32_t>(0x44434647) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6902 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

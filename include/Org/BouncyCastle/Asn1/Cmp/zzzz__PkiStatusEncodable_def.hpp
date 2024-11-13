@@ -60,14 +60,14 @@ public:
   /// @brief Field waiting, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_waiting, put = setStaticF_waiting)) ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* waiting;
 
-  /// @brief Method GetInstance, addr 0x22bbedc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22c6f84, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatus status);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* status);
 
-  /// @brief Method ToAsn1Object, addr 0x22bc078, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22c7120, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_status();
@@ -76,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x22bbe40, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c6ee8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatus status);
 
-  /// @brief Method .ctor, addr 0x22bbeb4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c6f5c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* status);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_granted();
@@ -96,7 +96,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_waiting();
 
-  /// @brief Method get_Value, addr 0x22bc05c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x22c7104, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
 
   static inline void setStaticF_granted(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);

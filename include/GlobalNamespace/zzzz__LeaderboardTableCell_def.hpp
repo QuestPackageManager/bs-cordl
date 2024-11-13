@@ -105,25 +105,25 @@ public:
 
   constexpr void __cordl_internal_set__specialScoreColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3b826c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b98290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_playerName, addr 0x3b824cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x3b98094, size 0x24, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method set_rank, addr 0x3b82484, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_rank, addr 0x3b9804c, size 0x48, virtual false, abstract: false, final false
   inline void set_rank(int32_t value);
 
-  /// @brief Method set_score, addr 0x3b824f0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_score, addr 0x3b980b8, size 0xa0, virtual false, abstract: false, final false
   inline void set_score(int32_t value);
 
-  /// @brief Method set_showFullCombo, addr 0x3b825b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showFullCombo, addr 0x3b98178, size 0x20, virtual false, abstract: false, final false
   inline void set_showFullCombo(bool value);
 
-  /// @brief Method set_showSeparator, addr 0x3b82590, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showSeparator, addr 0x3b98158, size 0x20, virtual false, abstract: false, final false
   inline void set_showSeparator(bool value);
 
-  /// @brief Method set_specialScore, addr 0x3b825d0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_specialScore, addr 0x3b98198, size 0xf8, virtual false, abstract: false, final false
   inline void set_specialScore(bool value);
 
 protected:
@@ -162,7 +162,7 @@ public:
   ::UnityW<::UnityEngine::UI::Image> ____separatorImage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4737 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

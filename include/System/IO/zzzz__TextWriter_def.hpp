@@ -77,19 +77,19 @@ public:
 
   static inline ::System::IO::__TextWriter____c* New_ctor();
 
-  /// @brief Method <FlushAsync>b__67_0, addr 0x3ccfe00, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <FlushAsync>b__67_0, addr 0x3ce4490, size 0x84, virtual false, abstract: false, final false
   inline void _FlushAsync_b__67_0(::System::Object* state);
 
-  /// @brief Method <WriteAsync>b__56_0, addr 0x3ccfbe0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <WriteAsync>b__56_0, addr 0x3ce4270, size 0xac, virtual false, abstract: false, final false
   inline void _WriteAsync_b__56_0(::System::Object* state);
 
-  /// @brief Method <WriteAsync>b__57_0, addr 0x3ccfc8c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <WriteAsync>b__57_0, addr 0x3ce431c, size 0xac, virtual false, abstract: false, final false
   inline void _WriteAsync_b__57_0(::System::Object* state);
 
-  /// @brief Method <WriteAsync>b__59_0, addr 0x3ccfd38, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <WriteAsync>b__59_0, addr 0x3ce43c8, size 0xc8, virtual false, abstract: false, final false
   inline void _WriteAsync_b__59_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x3ccfbd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce4268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::__TextWriter____c* getStaticF___9();
@@ -176,65 +176,65 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x3ccef08, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3ce3598, size 0x6c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x3ccef78, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3ce3608, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3ccef74, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3ce3604, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DisposeAsync, addr 0x3cca4bc, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method DisposeAsync, addr 0x3cdeb4c, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
-  /// @brief Method Flush, addr 0x3ccefe4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x3ce3674, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x3ccbf48, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x3ce05d8, size 0x1f0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync();
 
   static inline ::System::IO::TextWriter* New_ctor();
 
   static inline ::System::IO::TextWriter* New_ctor(::System::IFormatProvider* formatProvider);
 
-  /// @brief Method Synchronized, addr 0x3ccf38c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Synchronized, addr 0x3ce3a1c, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::IO::TextWriter* Synchronized(::System::IO::TextWriter* writer);
 
-  /// @brief Method Write, addr 0x3ccf038, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ce36c8, size 0x20, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method Write, addr 0x3ccf058, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ce36e8, size 0x1a4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x3ccf234, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ce38c4, size 0x6c, virtual true, abstract: false, final false
   inline void Write(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method Write, addr 0x3ccf1fc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ce388c, size 0x38, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
-  /// @brief Method Write, addr 0x3ccf034, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ce36c4, size 0x4, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method WriteAsync, addr 0x3ccba8c, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x3ce011c, size 0x250, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteAsync, addr 0x3ccb444, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x3cdfad4, size 0x238, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::StringW value);
 
-  /// @brief Method WriteAsync, addr 0x3ccaeec, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x3cdf57c, size 0x238, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(char16_t value);
 
-  /// @brief Method WriteLine, addr 0x3ccf2a0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3ce3930, size 0x14, virtual true, abstract: false, final false
   inline void WriteLine();
 
-  /// @brief Method WriteLine, addr 0x3ccf2b4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3ce3944, size 0x30, virtual true, abstract: false, final false
   inline void WriteLine(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteLine, addr 0x3ccf320, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3ce39b0, size 0x6c, virtual true, abstract: false, final false
   inline void WriteLine(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method WriteLine, addr 0x3ccf2e4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3ce3974, size 0x3c, virtual true, abstract: false, final false
   inline void WriteLine(::StringW value);
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_CoreNewLine() const;
@@ -255,10 +255,10 @@ public:
 
   constexpr void __cordl_internal_set__internalFormatProvider(::System::IFormatProvider* value);
 
-  /// @brief Method .ctor, addr 0x3cca028, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cde6b8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cc98a8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cddf38, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::IFormatProvider* formatProvider);
 
   static inline ::System::IO::TextWriter* getStaticF_Null();
@@ -268,10 +268,10 @@ public:
   /// @brief Method get_Encoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method get_FormatProvider, addr 0x3cceea0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_FormatProvider, addr 0x3ce3530, size 0x68, virtual true, abstract: false, final false
   inline ::System::IFormatProvider* get_FormatProvider();
 
-  /// @brief Method get_NewLine, addr 0x3ccefe8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NewLine, addr 0x3ce3678, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NewLine();
 
   /// @brief Convert to "::System::IAsyncDisposable"
@@ -284,7 +284,7 @@ public:
 
   static inline void setStaticF_s_coreNewLine(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method set_NewLine, addr 0x3cceff0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method set_NewLine, addr 0x3ce3680, size 0x44, virtual true, abstract: false, final false
   inline void set_NewLine(::StringW value);
 
 protected:

@@ -136,19 +136,19 @@ public:
   /// @brief Field m_valueFixup, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_valueFixup, put = __cordl_internal_set_m_valueFixup)) ::System::Runtime::Serialization::ValueTypeFixupInfo* m_valueFixup;
 
-  /// @brief Method AddDependency, addr 0x3c85034, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AddDependency, addr 0x3c996c4, size 0x74, virtual false, abstract: false, final false
   inline void AddDependency(int64_t dependentObject);
 
-  /// @brief Method AddFixup, addr 0x3c84f78, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AddFixup, addr 0x3c99608, size 0xbc, virtual false, abstract: false, final false
   inline void AddFixup(::System::Runtime::Serialization::FixupHolder* fixup, ::System::Runtime::Serialization::ObjectManager* manager);
 
-  /// @brief Method DecrementFixupsRemaining, addr 0x3c83c44, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DecrementFixupsRemaining, addr 0x3c982d4, size 0x24, virtual false, abstract: false, final false
   inline void DecrementFixupsRemaining(::System::Runtime::Serialization::ObjectManager* manager);
 
-  /// @brief Method IncrementDescendentFixups, addr 0x3c85874, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IncrementDescendentFixups, addr 0x3c99f04, size 0x10, virtual false, abstract: false, final false
   inline void IncrementDescendentFixups(int32_t amount);
 
-  /// @brief Method MarkForCompletionWhenAvailable, addr 0x3c83ce4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkForCompletionWhenAvailable, addr 0x3c98374, size 0xc, virtual false, abstract: false, final false
   inline void MarkForCompletionWhenAvailable();
 
   static inline ::System::Runtime::Serialization::ObjectHolder* New_ctor(::StringW obj, int64_t objID, ::System::Runtime::Serialization::SerializationInfo* info,
@@ -161,20 +161,20 @@ public:
 
   static inline ::System::Runtime::Serialization::ObjectHolder* New_ctor(int64_t objID);
 
-  /// @brief Method RemoveDependency, addr 0x3c83c68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RemoveDependency, addr 0x3c982f8, size 0x18, virtual false, abstract: false, final false
   inline void RemoveDependency(int64_t id);
 
-  /// @brief Method SetFlags, addr 0x3c828fc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SetFlags, addr 0x3c96f8c, size 0xb8, virtual false, abstract: false, final false
   inline void SetFlags();
 
-  /// @brief Method SetObjectValue, addr 0x3c82804, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetObjectValue, addr 0x3c96e94, size 0xf8, virtual false, abstract: false, final false
   inline void SetObjectValue(::System::Object* obj, ::System::Runtime::Serialization::ObjectManager* manager);
 
-  /// @brief Method UpdateData, addr 0x3c8477c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method UpdateData, addr 0x3c98e0c, size 0x184, virtual false, abstract: false, final false
   inline void UpdateData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainer,
                          ::System::Reflection::FieldInfo* field, ::ArrayW<int32_t, ::Array<int32_t>*> arrayIndex, ::System::Runtime::Serialization::ObjectManager* manager);
 
-  /// @brief Method UpdateDescendentDependencyChain, addr 0x3c85884, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method UpdateDescendentDependencyChain, addr 0x3c99f14, size 0x60, virtual false, abstract: false, final false
   inline void UpdateDescendentDependencyChain(int32_t amount, ::System::Runtime::Serialization::ObjectManager* manager);
 
   constexpr ::System::Runtime::Serialization::LongList*& __cordl_internal_get_m_dependentObjects();
@@ -261,99 +261,99 @@ public:
 
   constexpr void __cordl_internal_set_m_valueFixup(::System::Runtime::Serialization::ValueTypeFixupInfo* value);
 
-  /// @brief Method .ctor, addr 0x3c83f18, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c985a8, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::StringW obj, int64_t objID, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::ISerializationSurrogate* surrogate,
                     int64_t idOfContainingObj, ::System::Reflection::FieldInfo* field, ::ArrayW<int32_t, ::Array<int32_t>*> arrayIndex);
 
-  /// @brief Method .ctor, addr 0x3c8459c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c98c2c, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj, int64_t objID, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::ISerializationSurrogate* surrogate,
                     int64_t idOfContainingObj, ::System::Reflection::FieldInfo* field, ::ArrayW<int32_t, ::Array<int32_t>*> arrayIndex);
 
-  /// @brief Method .ctor, addr 0x3c820f4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c96784, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int64_t objID);
 
-  /// @brief Method get_CanObjectValueChange, addr 0x3c824f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_CanObjectValueChange, addr 0x3c96b84, size 0x20, virtual false, abstract: false, final false
   inline bool get_CanObjectValueChange();
 
-  /// @brief Method get_CanSurrogatedObjectValueChange, addr 0x3c8275c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_CanSurrogatedObjectValueChange, addr 0x3c96dec, size 0xa8, virtual false, abstract: false, final false
   inline bool get_CanSurrogatedObjectValueChange();
 
-  /// @brief Method get_CompletelyFixed, addr 0x3c824d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_CompletelyFixed, addr 0x3c96b60, size 0x24, virtual false, abstract: false, final false
   inline bool get_CompletelyFixed();
 
-  /// @brief Method get_ContainerID, addr 0x3c85978, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ContainerID, addr 0x3c9a008, size 0x18, virtual false, abstract: false, final false
   inline int64_t get_ContainerID();
 
-  /// @brief Method get_DependentObjects, addr 0x3c85a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DependentObjects, addr 0x3c9a0f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::LongList* get_DependentObjects();
 
-  /// @brief Method get_DirectlyDependentObjects, addr 0x3c85a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DirectlyDependentObjects, addr 0x3c9a0a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DirectlyDependentObjects();
 
-  /// @brief Method get_HasISerializable, addr 0x3c83b54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HasISerializable, addr 0x3c981e4, size 0xc, virtual false, abstract: false, final false
   inline bool get_HasISerializable();
 
-  /// @brief Method get_HasSurrogate, addr 0x3c82750, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HasSurrogate, addr 0x3c96de0, size 0xc, virtual false, abstract: false, final false
   inline bool get_HasSurrogate();
 
-  /// @brief Method get_IsIncompleteObjectReference, addr 0x3c82514, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsIncompleteObjectReference, addr 0x3c96ba4, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsIncompleteObjectReference();
 
-  /// @brief Method get_ObjectValue, addr 0x3c85a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectValue, addr 0x3c9a0d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ObjectValue();
 
-  /// @brief Method get_Reachable, addr 0x3c85a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reachable, addr 0x3c9a0b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_Reachable();
 
-  /// @brief Method get_RequiresDelayedFixup, addr 0x3c8476c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_RequiresDelayedFixup, addr 0x3c98dfc, size 0x10, virtual false, abstract: false, final false
   inline bool get_RequiresDelayedFixup();
 
-  /// @brief Method get_RequiresSerInfoFixup, addr 0x3c84dc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_RequiresSerInfoFixup, addr 0x3c99458, size 0x1c, virtual false, abstract: false, final false
   inline bool get_RequiresSerInfoFixup();
 
-  /// @brief Method get_RequiresValueTypeFixup, addr 0x3c82c50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_RequiresValueTypeFixup, addr 0x3c972e0, size 0xc, virtual false, abstract: false, final false
   inline bool get_RequiresValueTypeFixup();
 
-  /// @brief Method get_SerializationInfo, addr 0x3c85a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializationInfo, addr 0x3c9a0dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationInfo* get_SerializationInfo();
 
-  /// @brief Method get_Surrogate, addr 0x3c85a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Surrogate, addr 0x3c9a0ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ISerializationSurrogate* get_Surrogate();
 
-  /// @brief Method get_TotalDependentObjects, addr 0x3c84900, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TotalDependentObjects, addr 0x3c98f90, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_TotalDependentObjects();
 
-  /// @brief Method get_TypeLoadException, addr 0x3c85a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeLoadException, addr 0x3c9a0c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::TypeLoadExceptionHolder* get_TypeLoadException();
 
-  /// @brief Method get_TypeLoadExceptionReachable, addr 0x3c83c80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_TypeLoadExceptionReachable, addr 0x3c98310, size 0x10, virtual false, abstract: false, final false
   inline bool get_TypeLoadExceptionReachable();
 
-  /// @brief Method get_ValueFixup, addr 0x3c85a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueFixup, addr 0x3c9a104, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ValueTypeFixupInfo* get_ValueFixup();
 
-  /// @brief Method get_ValueTypeFixupPerformed, addr 0x3c82c5c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_ValueTypeFixupPerformed, addr 0x3c972ec, size 0x38, virtual false, abstract: false, final false
   inline bool get_ValueTypeFixupPerformed();
 
-  /// @brief Method set_DependentObjects, addr 0x3c85a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DependentObjects, addr 0x3c9a0fc, size 0x8, virtual false, abstract: false, final false
   inline void set_DependentObjects(::System::Runtime::Serialization::LongList* value);
 
-  /// @brief Method set_IsIncompleteObjectReference, addr 0x3c83530, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_IsIncompleteObjectReference, addr 0x3c97bc0, size 0x10, virtual false, abstract: false, final false
   inline void set_IsIncompleteObjectReference(bool value);
 
-  /// @brief Method set_Reachable, addr 0x3c85a28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Reachable, addr 0x3c9a0b8, size 0xc, virtual false, abstract: false, final false
   inline void set_Reachable(bool value);
 
-  /// @brief Method set_RequiresSerInfoFixup, addr 0x3c82c30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_RequiresSerInfoFixup, addr 0x3c972c0, size 0x20, virtual false, abstract: false, final false
   inline void set_RequiresSerInfoFixup(bool value);
 
-  /// @brief Method set_SerializationInfo, addr 0x3c85a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SerializationInfo, addr 0x3c9a0e4, size 0x8, virtual false, abstract: false, final false
   inline void set_SerializationInfo(::System::Runtime::Serialization::SerializationInfo* value);
 
-  /// @brief Method set_TypeLoadException, addr 0x3c85a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TypeLoadException, addr 0x3c9a0cc, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeLoadException(::System::Runtime::Serialization::TypeLoadExceptionHolder* value);
 
-  /// @brief Method set_ValueTypeFixupPerformed, addr 0x3c83c90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_ValueTypeFixupPerformed, addr 0x3c98320, size 0x14, virtual false, abstract: false, final false
   inline void set_ValueTypeFixupPerformed(bool value);
 
 protected:

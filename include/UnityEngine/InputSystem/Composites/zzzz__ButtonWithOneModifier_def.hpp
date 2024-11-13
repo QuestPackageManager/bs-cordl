@@ -34,18 +34,18 @@ public:
   /// @brief Field overrideModifiersNeedToBePressedFirst, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideModifiersNeedToBePressedFirst, put = __cordl_internal_set_overrideModifiersNeedToBePressedFirst)) bool overrideModifiersNeedToBePressedFirst;
 
-  /// @brief Method EvaluateMagnitude, addr 0x44fc0e8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x4510800, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup, addr 0x44fc0f4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x451080c, size 0x74, virtual true, abstract: false, final false
   inline void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ModifierIsPressed, addr 0x44fc068, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ModifierIsPressed, addr 0x4510780, size 0x80, virtual false, abstract: false, final false
   inline bool ModifierIsPressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x44fbff8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x4510710, size 0x70, virtual true, abstract: false, final false
   inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_button() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x44fc168, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4510880, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   bool ___overrideModifiersNeedToBePressedFirst;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

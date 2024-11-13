@@ -81,7 +81,7 @@ public:
   static ::System::Xml::Schema::__CompiledIdentityConstraint__ConstraintRole const Unique;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7456 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -162,21 +162,21 @@ public:
 
   constexpr void __cordl_internal_set_selector(::System::Xml::Schema::Asttree* value);
 
-  /// @brief Method .ctor, addr 0x43215f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4335d10, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4321664, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4335d7c, size 0x494, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaIdentityConstraint* constraint, ::System::Xml::XmlNamespaceManager* nsmgr);
 
   static inline ::System::Xml::Schema::CompiledIdentityConstraint* getStaticF_Empty();
 
-  /// @brief Method get_Fields, addr 0x43215f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Fields, addr 0x4335d08, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::Schema::Asttree*, ::Array<::System::Xml::Schema::Asttree*>*> get_Fields();
 
-  /// @brief Method get_Role, addr 0x43215e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Role, addr 0x4335cf8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::__CompiledIdentityConstraint__ConstraintRole get_Role();
 
-  /// @brief Method get_Selector, addr 0x43215e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Selector, addr 0x4335d00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::Asttree* get_Selector();
 
   static inline void setStaticF_Empty(::System::Xml::Schema::CompiledIdentityConstraint* value);
@@ -211,7 +211,7 @@ public:
   ::System::Xml::XmlQualifiedName* ___refer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7457 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

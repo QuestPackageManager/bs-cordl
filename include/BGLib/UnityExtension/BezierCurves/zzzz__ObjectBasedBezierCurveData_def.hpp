@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set__startPointTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x2278bec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2283c3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_endPoint, addr 0x2278bd0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_endPoint, addr 0x2283c20, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPoint();
 
-  /// @brief Method get_hasReferences, addr 0x2278950, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_hasReferences, addr 0x22839a0, size 0x98, virtual false, abstract: false, final false
   inline bool get_hasReferences();
 
-  /// @brief Method get_startPoint, addr 0x2278bb4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_startPoint, addr 0x2283c04, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startPoint();
 
 protected:
@@ -84,7 +84,7 @@ public:
   ::UnityW<::UnityEngine::Transform> ____endPointTransform;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17249 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

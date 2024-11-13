@@ -35,7 +35,7 @@ public:
 
   static inline ::System::Reflection::LocalVariableInfo* New_ctor();
 
-  /// @brief Method ToString, addr 0x3cb8348, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ccc9d8, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_is_pinned() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3cb8340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ccc9d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

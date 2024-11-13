@@ -24,10 +24,10 @@ public:
 
   static inline ::Unity::Burst::CompilerServices::AssumeRangeAttribute* New_ctor(uint64_t min, uint64_t max);
 
-  /// @brief Method .ctor, addr 0x44c4564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d8c7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t min, int64_t max);
 
-  /// @brief Method .ctor, addr 0x44c456c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d8c84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t min, uint64_t max);
 
 protected:
@@ -45,7 +45,7 @@ public:
   AssumeRangeAttribute(AssumeRangeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

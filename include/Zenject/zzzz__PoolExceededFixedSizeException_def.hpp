@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Zenject::PoolExceededFixedSizeException* New_ctor(::StringW errorMessage);
 
-  /// @brief Method .ctor, addr 0x4aa43c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ab8adc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW errorMessage);
 
 protected:
@@ -40,7 +40,7 @@ public:
   PoolExceededFixedSizeException(PoolExceededFixedSizeException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12351 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

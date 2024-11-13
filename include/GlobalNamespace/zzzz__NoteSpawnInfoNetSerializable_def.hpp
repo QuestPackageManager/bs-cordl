@@ -116,10 +116,10 @@ public:
   /// @brief Field timeToPrevColorNote, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_timeToPrevColorNote, put = __cordl_internal_set_timeToPrevColorNote)) float_t timeToPrevColorNote;
 
-  /// @brief Method Deserialize, addr 0x26e0e2c, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x26eca30, size 0x1b4, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x26e0a70, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26ec674, size 0x130, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Init(float_t time, float_t beat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
                                                                ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::__NoteData__GameplayType gameplayType,
                                                                ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::ColorType colorType,
@@ -130,10 +130,10 @@ public:
 
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x26e0a0c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x26ec610, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x26e0bf8, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x26ec7fc, size 0x234, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr float_t const& __cordl_internal_get_beat() const;
@@ -268,7 +268,7 @@ public:
 
   constexpr void __cordl_internal_set_timeToPrevColorNote(float_t value);
 
-  /// @brief Method .ctor, addr 0x26e0ba0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ec7a4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -352,7 +352,7 @@ public:
   float_t ___cutSfxVolumeMultiplier;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16963 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

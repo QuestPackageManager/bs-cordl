@@ -47,7 +47,7 @@ public:
   /// @brief Method GetExisting, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> GetExisting(uint64_t id);
 
-  /// @brief Method GetId, addr 0x3fb39f0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x3fc8080, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Guid GetId(uint64_t value);
 
   /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -71,7 +71,7 @@ public:
   OVRTask(OVRTask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8352 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

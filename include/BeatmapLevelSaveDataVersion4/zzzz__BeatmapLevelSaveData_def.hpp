@@ -78,7 +78,7 @@ public:
   ::StringW author;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13426 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -136,7 +136,7 @@ public:
   float_t previewDuration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13427 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -243,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set_saberBColor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26c9b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d588c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -285,7 +285,7 @@ public:
   ::StringW ___environmentColor1Boost;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13428 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -332,7 +332,7 @@ public:
   ::ArrayW<::StringW, ::Array<::StringW>*> lighters;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13429 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -438,7 +438,7 @@ public:
 
   constexpr void __cordl_internal_set_noteJumpStartBeatOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x26c9ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d5894, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -483,7 +483,7 @@ public:
   ::StringW ___beatmapDataFilename;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13430 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -612,7 +612,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26c9b4c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d583c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -654,7 +654,7 @@ public:
   ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>*> ___difficultyBeatmaps;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13431 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };

@@ -14,7 +14,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename T> constexpr void System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_set_list(::System::Collections::Generic::LinkedList_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___list, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_get_next() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -27,7 +27,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename T> constexpr void System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_set_next(::System::Collections::Generic::LinkedListNode_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___next, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_get_prev() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -40,7 +40,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename T> constexpr void System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_set_prev(::System::Collections::Generic::LinkedListNode_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prev)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___prev, value);
 }
 template <typename T> constexpr T& System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_get_item() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -52,7 +52,7 @@ template <typename T> constexpr T const& System::Collections::Generic::LinkedLis
 }
 template <typename T> constexpr void System::Collections::Generic::LinkedListNode_1<T>::__cordl_internal_set_item(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___item)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___item, value);
 }
 template <typename T> inline ::System::Collections::Generic::LinkedListNode_1<T>* System::Collections::Generic::LinkedListNode_1<T>::New_ctor(T value) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LinkedListNode_1<T>*>(value));

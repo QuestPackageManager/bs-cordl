@@ -37,13 +37,13 @@ public:
   /// @brief Field notifyParent, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_notifyParent, put = __cordl_internal_set_notifyParent)) bool notifyParent;
 
-  /// @brief Method Equals, addr 0x4406c5c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x441b374, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x4406cdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x441b3f4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x4406ce4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x441b3fc, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::NotifyParentPropertyAttribute* New_ctor(bool notifyParent);
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_notifyParent(bool value);
 
-  /// @brief Method .ctor, addr 0x4406c2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441b344, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool notifyParent);
 
   static inline ::System::ComponentModel::NotifyParentPropertyAttribute* getStaticF_Default();
@@ -63,7 +63,7 @@ public:
 
   static inline ::System::ComponentModel::NotifyParentPropertyAttribute* getStaticF_Yes();
 
-  /// @brief Method get_NotifyParent, addr 0x4406c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotifyParent, addr 0x441b36c, size 0x8, virtual false, abstract: false, final false
   inline bool get_NotifyParent();
 
   static inline void setStaticF_Default(::System::ComponentModel::NotifyParentPropertyAttribute* value);
@@ -90,7 +90,7 @@ public:
   bool ___notifyParent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

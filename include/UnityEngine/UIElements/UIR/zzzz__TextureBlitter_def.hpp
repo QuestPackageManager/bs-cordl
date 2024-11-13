@@ -88,7 +88,7 @@ public:
   ::UnityEngine::Color tint;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6370 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -155,30 +155,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BeginBlit, addr 0x49344cc, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method BeginBlit, addr 0x4948be4, size 0x1f8, virtual false, abstract: false, final false
   inline void BeginBlit(::UnityEngine::RenderTexture* dst);
 
-  /// @brief Method BlitOneNow, addr 0x4934454, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BlitOneNow, addr 0x4948b6c, size 0x78, virtual false, abstract: false, final false
   inline void BlitOneNow(::UnityEngine::RenderTexture* dst, ::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
 
-  /// @brief Method Commit, addr 0x4934ce0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x49493f8, size 0xec, virtual false, abstract: false, final false
   inline void Commit(::UnityEngine::RenderTexture* dst);
 
-  /// @brief Method Dispose, addr 0x4934040, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4948758, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49340ac, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49487c4, size 0x7c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DoBlit, addr 0x49346c4, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method DoBlit, addr 0x4948ddc, size 0x5a0, virtual false, abstract: false, final false
   inline void DoBlit(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>* blitInfos, int32_t startIndex);
 
-  /// @brief Method EndBlit, addr 0x4934c64, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method EndBlit, addr 0x494937c, size 0x7c, virtual false, abstract: false, final false
   inline void EndBlit();
 
   static inline ::UnityEngine::UIElements::UIR::TextureBlitter* New_ctor(int32_t capacity);
 
-  /// @brief Method QueueBlit, addr 0x4934308, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method QueueBlit, addr 0x4948a20, size 0x14c, virtual false, abstract: false, final false
   inline void QueueBlit(::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -223,14 +223,14 @@ public:
 
   constexpr void __cordl_internal_set_m_Viewport(::UnityEngine::RectInt value);
 
-  /// @brief Method .ctor, addr 0x4934254, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494896c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_TextureIds();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_CommitSampler();
 
-  /// @brief Method get_disposed, addr 0x493402c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x4948744, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
@@ -240,7 +240,7 @@ public:
 
   static inline void setStaticF_s_CommitSampler(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_disposed, addr 0x4934034, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x494874c, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -279,7 +279,7 @@ public:
   bool ____disposed_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

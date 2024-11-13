@@ -73,75 +73,75 @@ public:
   static __declspec(property(get = getStaticF_s_TransitionTimingFunctionList,
                              put = setStaticF_s_TransitionTimingFunctionList)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* s_TransitionTimingFunctionList;
 
-  /// @brief Method ApplyBackgroundPosition, addr 0x4953188, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ApplyBackgroundPosition, addr 0x49678a0, size 0xd4, virtual false, abstract: false, final false
   static inline void ApplyBackgroundPosition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyBorderColor, addr 0x49538fc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ApplyBorderColor, addr 0x4968014, size 0xf4, virtual false, abstract: false, final false
   static inline void ApplyBorderColor(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyBorderRadius, addr 0x4953b58, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ApplyBorderRadius, addr 0x4968270, size 0xf0, virtual false, abstract: false, final false
   static inline void ApplyBorderRadius(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyBorderWidth, addr 0x4953d90, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ApplyBorderWidth, addr 0x49684a8, size 0xec, virtual false, abstract: false, final false
   static inline void ApplyBorderWidth(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyFlex, addr 0x4953f34, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ApplyFlex, addr 0x496864c, size 0xd0, virtual false, abstract: false, final false
   static inline void ApplyFlex(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyMargin, addr 0x49541ec, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ApplyMargin, addr 0x4968904, size 0xf0, virtual false, abstract: false, final false
   static inline void ApplyMargin(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyPadding, addr 0x4954438, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ApplyPadding, addr 0x4968b50, size 0xf0, virtual false, abstract: false, final false
   static inline void ApplyPadding(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyTransition, addr 0x4954528, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ApplyTransition, addr 0x4968c40, size 0x150, virtual false, abstract: false, final false
   static inline void ApplyTransition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyUnityBackgroundScaleMode, addr 0x4954cf4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ApplyUnityBackgroundScaleMode, addr 0x496940c, size 0x118, virtual false, abstract: false, final false
   static inline void ApplyUnityBackgroundScaleMode(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyUnityTextOutline, addr 0x4954eb4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ApplyUnityTextOutline, addr 0x49695cc, size 0xb8, virtual false, abstract: false, final false
   static inline void ApplyUnityTextOutline(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method CompileBackgroundPosition, addr 0x495325c, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method CompileBackgroundPosition, addr 0x4967974, size 0x6a0, virtual false, abstract: false, final false
   static inline void CompileBackgroundPosition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::BackgroundPosition> backgroundPositionX,
                                                ByRef<::UnityEngine::UIElements::BackgroundPosition> backgroundPositionY);
 
-  /// @brief Method CompileBorderRadius, addr 0x4953c48, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method CompileBorderRadius, addr 0x4968360, size 0x148, virtual false, abstract: false, final false
   static inline void CompileBorderRadius(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::Length> top,
                                          ByRef<::UnityEngine::UIElements::Length> right, ByRef<::UnityEngine::UIElements::Length> bottom, ByRef<::UnityEngine::UIElements::Length> left);
 
-  /// @brief Method CompileBoxArea, addr 0x49539f0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CompileBoxArea, addr 0x4968108, size 0x168, virtual false, abstract: false, final false
   static inline void CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::Color> top, ByRef<::UnityEngine::Color> right,
                                     ByRef<::UnityEngine::Color> bottom, ByRef<::UnityEngine::Color> left);
 
-  /// @brief Method CompileBoxArea, addr 0x49542dc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method CompileBoxArea, addr 0x49689f4, size 0x15c, virtual false, abstract: false, final false
   static inline void CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::Length> top, ByRef<::UnityEngine::UIElements::Length> right,
                                     ByRef<::UnityEngine::UIElements::Length> bottom, ByRef<::UnityEngine::UIElements::Length> left);
 
-  /// @brief Method CompileBoxArea, addr 0x4953e7c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CompileBoxArea, addr 0x4968594, size 0xb8, virtual false, abstract: false, final false
   static inline void CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<float_t> top, ByRef<float_t> right, ByRef<float_t> bottom, ByRef<float_t> left);
 
-  /// @brief Method CompileFlexShorthand, addr 0x4954004, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CompileFlexShorthand, addr 0x496871c, size 0x1e8, virtual false, abstract: false, final false
   static inline bool CompileFlexShorthand(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<float_t> grow, ByRef<float_t> shrink,
                                           ByRef<::UnityEngine::UIElements::Length> basis);
 
-  /// @brief Method CompileTextOutline, addr 0x4954f6c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CompileTextOutline, addr 0x4969684, size 0xa0, virtual false, abstract: false, final false
   static inline void CompileTextOutline(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::Color> outlineColor, ByRef<float_t> outlineWidth);
 
-  /// @brief Method CompileTransition, addr 0x4954678, size 0x67c, virtual false, abstract: false, final false
+  /// @brief Method CompileTransition, addr 0x4968d90, size 0x67c, virtual false, abstract: false, final false
   static inline void CompileTransition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
                                        ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*> outDelay,
                                        ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*> outDuration,
                                        ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*> outProperty,
                                        ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*> outTimingFunction);
 
-  /// @brief Method CompileUnityBackgroundScaleMode, addr 0x4954e0c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CompileUnityBackgroundScaleMode, addr 0x4969524, size 0xa8, virtual false, abstract: false, final false
   static inline void CompileUnityBackgroundScaleMode(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::BackgroundPosition> backgroundPositionX,
                                                      ByRef<::UnityEngine::UIElements::BackgroundPosition> backgroundPositionY, ByRef<::UnityEngine::UIElements::BackgroundRepeat> backgroundRepeat,
                                                      ByRef<::UnityEngine::UIElements::BackgroundSize> backgroundSize);
 
-  /// @brief Method <CompileBackgroundPosition>g__SwapKeyword|16_0, addr 0x49554a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <CompileBackgroundPosition>g__SwapKeyword|16_0, addr 0x4969bb8, size 0x14, virtual false, abstract: false, final false
   static inline void _CompileBackgroundPosition_g__SwapKeyword_16_0(ByRef<::UnityEngine::UIElements::BackgroundPositionKeyword> a, ByRef<::UnityEngine::UIElements::BackgroundPositionKeyword> b);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* getStaticF_s_TransitionDelayList();
@@ -175,7 +175,7 @@ public:
   ShorthandApplicator(ShorthandApplicator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6415 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

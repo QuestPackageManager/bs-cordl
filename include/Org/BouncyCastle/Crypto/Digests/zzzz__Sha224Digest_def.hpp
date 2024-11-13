@@ -60,53 +60,53 @@ public:
   /// @brief Field xOff, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_xOff, put = __cordl_internal_set_xOff)) int32_t xOff;
 
-  /// @brief Method Ch, addr 0x22f0398, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Ch, addr 0x22fb440, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t Ch(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method Copy, addr 0x22f03cc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x22fb474, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method CopyIn, addr 0x22efb68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CopyIn, addr 0x22fac10, size 0x64, virtual false, abstract: false, final false
   inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::Sha224Digest* t);
 
-  /// @brief Method DoFinal, addr 0x22efd00, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x22fada8, size 0xcc, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetDigestSize, addr 0x22efc0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x22facb4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method Maj, addr 0x22f03b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Maj, addr 0x22fb460, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t Maj(uint32_t x, uint32_t y, uint32_t z);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha224Digest* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha224Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha224Digest* t);
 
-  /// @brief Method ProcessBlock, addr 0x22efe18, size 0x550, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x22faec0, size 0x550, virtual true, abstract: false, final false
   inline void ProcessBlock();
 
-  /// @brief Method ProcessLength, addr 0x22efc94, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ProcessLength, addr 0x22fad3c, size 0x6c, virtual true, abstract: false, final false
   inline void ProcessLength(int64_t bitLength);
 
-  /// @brief Method ProcessWord, addr 0x22efc14, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ProcessWord, addr 0x22facbc, size 0x80, virtual true, abstract: false, final false
   inline void ProcessWord(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method Reset, addr 0x22efdcc, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x22fae74, size 0x4c, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x22f0424, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x22fb4cc, size 0x84, virtual true, abstract: false, final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method Sum0, addr 0x22f03a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Sum0, addr 0x22fb450, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t Sum0(uint32_t x);
 
-  /// @brief Method Sum1, addr 0x22f0388, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Sum1, addr 0x22fb430, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t Sum1(uint32_t x);
 
-  /// @brief Method Theta0, addr 0x22f0378, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Theta0, addr 0x22fb420, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t Theta0(uint32_t x);
 
-  /// @brief Method Theta1, addr 0x22f0368, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Theta1, addr 0x22fb410, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t Theta1(uint32_t x);
 
   constexpr uint32_t const& __cordl_internal_get_H1() const;
@@ -169,15 +169,15 @@ public:
 
   constexpr void __cordl_internal_set_xOff(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22efa88, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fab30, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x22efaf4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fab9c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha224Digest* t);
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_K();
 
-  /// @brief Method get_AlgorithmName, addr 0x22efbcc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x22fac74, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   static inline void setStaticF_K(::ArrayW<uint32_t, ::Array<uint32_t>*> value);

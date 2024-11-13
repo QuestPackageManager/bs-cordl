@@ -14,7 +14,7 @@ template <typename T> constexpr T const& Tweening::Tween_1<T>::__cordl_internal_
 }
 template <typename T> constexpr void Tweening::Tween_1<T>::__cordl_internal_set_fromValue(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fromValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___fromValue, value);
 }
 template <typename T> constexpr T& Tweening::Tween_1<T>::__cordl_internal_get_toValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -26,7 +26,7 @@ template <typename T> constexpr T const& Tweening::Tween_1<T>::__cordl_internal_
 }
 template <typename T> constexpr void Tweening::Tween_1<T>::__cordl_internal_set_toValue(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___toValue, value);
 }
 template <typename T> constexpr ::System::Action_1<T>*& Tweening::Tween_1<T>::__cordl_internal_get_onUpdate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -38,7 +38,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ac
 }
 template <typename T> constexpr void Tweening::Tween_1<T>::__cordl_internal_set_onUpdate(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onUpdate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___onUpdate, value);
 }
 template <typename T>
 inline void Tweening::Tween_1<T>::OnSpawned(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay, ::Tweening::Tween_1<T>* t) {

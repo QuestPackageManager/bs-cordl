@@ -33,14 +33,14 @@ public:
   // Declarations
   static inline ::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue* New_ctor();
 
-  /// @brief Method TryParse, addr 0x41b193c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41c6054, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x41b19ec, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x41c6104, size 0x144, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*> parsedValue,
                                      ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method .ctor, addr 0x41b1934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41c604c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   TransferCodingWithQualityHeaderValue(TransferCodingWithQualityHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16706 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -68,16 +68,16 @@ public:
 
   constexpr void __cordl_internal_set__xmlName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x431c75c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4330e74, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW xmlName, ::StringW enumName, int64_t value);
 
-  /// @brief Method get_EnumName, addr 0x431c7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnumName, addr 0x4330eb8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EnumName();
 
-  /// @brief Method get_Value, addr 0x431c7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4330ec0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Value();
 
-  /// @brief Method get_XmlName, addr 0x431c798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlName, addr 0x4330eb0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlName();
 
 protected:
@@ -104,7 +104,7 @@ public:
   int64_t ____value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -153,10 +153,10 @@ public:
   /// @brief Field _xmlNames, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__xmlNames, put = __cordl_internal_set__xmlNames)) ::ArrayW<::StringW, ::Array<::StringW>*> _xmlNames;
 
-  /// @brief Method GetEnumName, addr 0x431c480, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method GetEnumName, addr 0x4330b98, size 0x2dc, virtual false, abstract: false, final false
   inline ::StringW GetEnumName(::StringW typeName, ::StringW xmlName);
 
-  /// @brief Method GetXmlName, addr 0x4316680, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method GetXmlName, addr 0x432ad98, size 0x374, virtual false, abstract: false, final false
   inline ::StringW GetXmlName(::StringW typeName, ::System::Object* enumValue);
 
   static inline ::System::Xml::Serialization::EnumMap*
@@ -192,19 +192,19 @@ public:
 
   constexpr void __cordl_internal_set__xmlNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x431c310, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4330a28, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Xml::Serialization::__EnumMap__EnumMapMember*, ::Array<::System::Xml::Serialization::__EnumMap__EnumMapMember*>*> members, bool isFlags);
 
-  /// @brief Method get_EnumNames, addr 0x431c468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnumNames, addr 0x4330b80, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_EnumNames();
 
-  /// @brief Method get_IsFlags, addr 0x431c460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsFlags, addr 0x4330b78, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsFlags();
 
-  /// @brief Method get_Values, addr 0x431c478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x4330b90, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int64_t, ::Array<int64_t>*> get_Values();
 
-  /// @brief Method get_XmlNames, addr 0x431c470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlNames, addr 0x4330b88, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_XmlNames();
 
 protected:
@@ -237,7 +237,7 @@ public:
   ::ArrayW<int64_t, ::Array<int64_t>*> ____values;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7442 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

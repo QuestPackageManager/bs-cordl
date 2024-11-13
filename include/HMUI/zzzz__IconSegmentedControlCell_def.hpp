@@ -70,22 +70,22 @@ public:
 
   constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x4013354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4027a6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0x4013338, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x4027a50, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hideBackgroundImage, addr 0x40131dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_hideBackgroundImage, addr 0x40278f4, size 0x9c, virtual false, abstract: false, final false
   inline void set_hideBackgroundImage(bool value);
 
-  /// @brief Method set_hintText, addr 0x40131c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x40278d8, size 0x1c, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_iconSize, addr 0x4013278, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_iconSize, addr 0x4027990, size 0x3c, virtual false, abstract: false, final false
   inline void set_iconSize(float_t value);
 
-  /// @brief Method set_sprite, addr 0x40131a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x40278bc, size 0x1c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
 protected:
@@ -112,7 +112,7 @@ public:
   ::UnityW<::UnityEngine::GameObject> ____backgroundGameObject;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

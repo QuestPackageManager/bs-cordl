@@ -32,10 +32,10 @@ public:
   /// @brief Field _host, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__host, put = __cordl_internal_set__host)) ::StringW _host;
 
-  /// @brief Method Decode, addr 0x3bcecf0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x3be3380, size 0xf0, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method GetBytes, addr 0x3bcede0, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3be3470, size 0x24c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   static inline ::Mono::Security::Protocol::Ntlm::Type1Message* New_ctor();
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__host(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3bceb64, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be31f4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Domain, addr 0x3bcebe8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_Domain, addr 0x3be3278, size 0x84, virtual false, abstract: false, final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method set_Host, addr 0x3bcec6c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_Host, addr 0x3be32fc, size 0x84, virtual false, abstract: false, final false
   inline void set_Host(::StringW value);
 
 protected:
@@ -82,7 +82,7 @@ public:
   ::StringW ____domain;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15905 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -58,34 +58,34 @@ public:
   /// @brief Field _vrRenderingScale, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__vrRenderingScale, put = __cordl_internal_set__vrRenderingScale)) ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _vrRenderingScale;
 
-  /// @brief Method DidActivate, addr 0x3bab04c, size 0x3e4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3a9b13c, size 0x3e4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3bab430, size 0x2e4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3a9b520, size 0x2e4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAntiAliasingLevelChanged, addr 0x3bab714, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAntiAliasingLevelChanged, addr 0x3a9b804, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAntiAliasingLevelChanged(int32_t newValue);
 
-  /// @brief Method HandleFullscreenToggled, addr 0x3bab74c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleFullscreenToggled, addr 0x3a9b83c, size 0x20, virtual false, abstract: false, final false
   inline void HandleFullscreenToggled(bool newValue);
 
-  /// @brief Method HandleMainEffectChanged, addr 0x3bab7cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMainEffectChanged, addr 0x3a9b8bc, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMainEffectChanged(int32_t newValue);
 
-  /// @brief Method HandleMirrorChanged, addr 0x3bab7e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorChanged, addr 0x3a9b8d8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMirrorChanged(int32_t newValue);
 
-  /// @brief Method HandleScreenDisplacementToggled, addr 0x3bab7ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleScreenDisplacementToggled, addr 0x3a9b89c, size 0x20, virtual false, abstract: false, final false
   inline void HandleScreenDisplacementToggled(bool newValue);
 
-  /// @brief Method HandleShockwaveMaxParticlesChanged, addr 0x3bab76c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleShockwaveMaxParticlesChanged, addr 0x3a9b85c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleShockwaveMaxParticlesChanged(int32_t newValue);
 
-  /// @brief Method HandleSmokeToggled, addr 0x3bab788, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSmokeToggled, addr 0x3a9b878, size 0x24, virtual false, abstract: false, final false
   inline void HandleSmokeToggled(bool newValue);
 
-  /// @brief Method HandleVrRenderingScaleChanged, addr 0x3bab730, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleVrRenderingScaleChanged, addr 0x3a9b820, size 0x1c, virtual false, abstract: false, final false
   inline void HandleVrRenderingScaleChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
   static inline ::GlobalNamespace::StandaloneGraphicSettingsViewController* New_ctor();
@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set__vrRenderingScale(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  /// @brief Method .ctor, addr 0x3bab804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9b8f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -180,7 +180,7 @@ public:
   ::UnityW<::GlobalNamespace::PresetsSettingsController> ____mirror;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4926 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

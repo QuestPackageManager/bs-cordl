@@ -28,19 +28,19 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE RuntimeOps : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExpandoCheckVersion, addr 0x4083de4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ExpandoCheckVersion, addr 0x40984fc, size 0x28, virtual false, abstract: false, final false
   static inline bool ExpandoCheckVersion(::System::Dynamic::ExpandoObject* expando, ::System::Object* version);
 
-  /// @brief Method ExpandoPromoteClass, addr 0x4083e28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExpandoPromoteClass, addr 0x4098540, size 0x10, virtual false, abstract: false, final false
   static inline void ExpandoPromoteClass(::System::Dynamic::ExpandoObject* expando, ::System::Object* oldClass, ::System::Object* newClass);
 
-  /// @brief Method ExpandoTryDeleteValue, addr 0x4083a3c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ExpandoTryDeleteValue, addr 0x4098154, size 0x98, virtual false, abstract: false, final false
   static inline bool ExpandoTryDeleteValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase);
 
-  /// @brief Method ExpandoTryGetValue, addr 0x4083540, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ExpandoTryGetValue, addr 0x4097c58, size 0x14, virtual false, abstract: false, final false
   static inline bool ExpandoTryGetValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase, ByRef<::System::Object*> value);
 
-  /// @brief Method ExpandoTrySetValue, addr 0x408367c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ExpandoTrySetValue, addr 0x4097d94, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Object* ExpandoTrySetValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::System::Object* value, ::StringW name, bool ignoreCase);
 
 protected:
@@ -58,7 +58,7 @@ public:
   RuntimeOps(RuntimeOps const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14092 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Text::__ASCIIEncoding__ASCIIEncodingSealed* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3df8128, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0c7b8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

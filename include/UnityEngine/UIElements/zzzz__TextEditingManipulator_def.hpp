@@ -58,21 +58,21 @@ public:
 
   __declspec(property(get = get_touchScreenTextFieldChanged)) bool touchScreenTextFieldChanged;
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x4a16720, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x4a2ae38, size 0x160, virtual false, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method InitTextEditorEventHandler, addr 0x4a16654, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method InitTextEditorEventHandler, addr 0x4a2ad6c, size 0xcc, virtual false, abstract: false, final false
   inline void InitTextEditorEventHandler();
 
   static inline ::UnityEngine::UIElements::TextEditingManipulator* New_ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method OnFocusInEvent, addr 0x4a16884, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method OnFocusInEvent, addr 0x4a2af9c, size 0x2ac, virtual false, abstract: false, final false
   inline void OnFocusInEvent(::UnityEngine::UIElements::FocusInEvent* _);
 
-  /// @brief Method OnFocusOutEvent, addr 0x4a16b30, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnFocusOutEvent, addr 0x4a2b248, size 0xb4, virtual false, abstract: false, final false
   inline void OnFocusOutEvent(::UnityEngine::UIElements::FocusOutEvent* _);
 
-  /// @brief Method <OnFocusInEvent>b__10_0, addr 0x4a16be4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <OnFocusInEvent>b__10_0, addr 0x4a2b2fc, size 0x40, virtual false, abstract: false, final false
   inline void _OnFocusInEvent_b__10_0();
 
   constexpr ::UnityEngine::UIElements::TextEditorEventHandler*& __cordl_internal_get_editingEventHandler();
@@ -105,10 +105,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TouchScreenTextFieldInitialized(bool value);
 
-  /// @brief Method .ctor, addr 0x4a16530, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2ac48, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method get_touchScreenTextFieldChanged, addr 0x4a16480, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_touchScreenTextFieldChanged, addr 0x4a2ab98, size 0xb0, virtual false, abstract: false, final false
   inline bool get_touchScreenTextFieldChanged();
 
 protected:
@@ -141,7 +141,7 @@ public:
   ::UnityEngine::UIElements::IVisualElementScheduledItem* ___m_HardwareKeyboardPoller;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6169 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

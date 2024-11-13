@@ -53,12 +53,12 @@ namespace UnityEngine {
 class CORDL_TYPE __AudioSettings__AudioConfigurationChangeHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x47e159c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x47f5cb4, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(bool deviceWasChanged);
 
   static inline ::UnityEngine::__AudioSettings__AudioConfigurationChangeHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x47e1510, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47f5c28, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -76,7 +76,7 @@ public:
   __AudioSettings__AudioConfigurationChangeHandler(__AudioSettings__AudioConfigurationChangeHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17773 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,16 +101,16 @@ public:
   /// @brief Field _stopAudioOutputOnMute, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF__stopAudioOutputOnMute, put = setStaticF__stopAudioOutputOnMute)) bool _stopAudioOutputOnMute;
 
-  /// @brief Method InvokeIsStopAudioOutputOnMuteEnabled, addr 0x47e1864, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InvokeIsStopAudioOutputOnMuteEnabled, addr 0x47f5f7c, size 0x48, virtual false, abstract: false, final false
   static inline bool InvokeIsStopAudioOutputOnMuteEnabled();
 
-  /// @brief Method InvokeOnMuteStateChanged, addr 0x47e1694, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnMuteStateChanged, addr 0x47f5dac, size 0x180, virtual false, abstract: false, final false
   static inline void InvokeOnMuteStateChanged(bool mute);
 
-  /// @brief Method StartAudioOutput, addr 0x47e183c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StartAudioOutput, addr 0x47f5f54, size 0x28, virtual false, abstract: false, final false
   static inline void StartAudioOutput();
 
-  /// @brief Method StopAudioOutput, addr 0x47e1814, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StopAudioOutput, addr 0x47f5f2c, size 0x28, virtual false, abstract: false, final false
   static inline void StopAudioOutput();
 
   static inline ::System::Action_1<bool>* getStaticF_OnMuteStateChanged();
@@ -119,10 +119,10 @@ public:
 
   static inline bool getStaticF__stopAudioOutputOnMute();
 
-  /// @brief Method get_muteState, addr 0x47e15b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_muteState, addr 0x47f5ccc, size 0x48, virtual false, abstract: false, final false
   static inline bool get_muteState();
 
-  /// @brief Method get_stopAudioOutputOnMute, addr 0x47e164c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_stopAudioOutputOnMute, addr 0x47f5d64, size 0x48, virtual false, abstract: false, final false
   static inline bool get_stopAudioOutputOnMute();
 
   static inline void setStaticF_OnMuteStateChanged(::System::Action_1<bool>* value);
@@ -131,7 +131,7 @@ public:
 
   static inline void setStaticF__stopAudioOutputOnMute(bool value);
 
-  /// @brief Method set_muteState, addr 0x47e15fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_muteState, addr 0x47f5d14, size 0x50, virtual false, abstract: false, final false
   static inline void set_muteState(bool value);
 
 protected:
@@ -149,7 +149,7 @@ public:
   __AudioSettings__Mobile(__AudioSettings__Mobile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17774 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -179,34 +179,34 @@ public:
   /// @brief Field OnAudioSystemStartedUp, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_OnAudioSystemStartedUp, put = setStaticF_OnAudioSystemStartedUp)) ::System::Action* OnAudioSystemStartedUp;
 
-  /// @brief Method GetConfiguration, addr 0x47e1180, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetConfiguration, addr 0x47f5898, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::AudioConfiguration GetConfiguration();
 
-  /// @brief Method GetConfiguration_Injected, addr 0x47e11e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetConfiguration_Injected, addr 0x47f58f8, size 0x3c, virtual false, abstract: false, final false
   static inline void GetConfiguration_Injected(ByRef<::UnityEngine::AudioConfiguration> ret);
 
-  /// @brief Method GetSampleRate, addr 0x47e10e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetSampleRate, addr 0x47f57f8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetSampleRate();
 
-  /// @brief Method GetSpatializerPluginName, addr 0x47e1158, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetSpatializerPluginName, addr 0x47f5870, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW GetSpatializerPluginName();
 
-  /// @brief Method InvokeOnAudioConfigurationChanged, addr 0x47e138c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnAudioConfigurationChanged, addr 0x47f5aa4, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeOnAudioConfigurationChanged(bool deviceWasChanged);
 
-  /// @brief Method InvokeOnAudioSystemShuttingDown, addr 0x47e13f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnAudioSystemShuttingDown, addr 0x47f5b10, size 0x64, virtual false, abstract: false, final false
   static inline void InvokeOnAudioSystemShuttingDown();
 
-  /// @brief Method InvokeOnAudioSystemStartedUp, addr 0x47e145c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnAudioSystemStartedUp, addr 0x47f5b74, size 0x64, virtual false, abstract: false, final false
   static inline void InvokeOnAudioSystemStartedUp();
 
-  /// @brief Method StartAudioOutput, addr 0x47e14c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StartAudioOutput, addr 0x47f5bd8, size 0x28, virtual false, abstract: false, final false
   static inline bool StartAudioOutput();
 
-  /// @brief Method StopAudioOutput, addr 0x47e14e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StopAudioOutput, addr 0x47f5c00, size 0x28, virtual false, abstract: false, final false
   static inline bool StopAudioOutput();
 
-  /// @brief Method add_OnAudioConfigurationChanged, addr 0x47e121c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method add_OnAudioConfigurationChanged, addr 0x47f5934, size 0xb8, virtual false, abstract: false, final false
   static inline void add_OnAudioConfigurationChanged(::UnityEngine::__AudioSettings__AudioConfigurationChangeHandler* value);
 
   static inline ::UnityEngine::__AudioSettings__AudioConfigurationChangeHandler* getStaticF_OnAudioConfigurationChanged();
@@ -215,13 +215,13 @@ public:
 
   static inline ::System::Action* getStaticF_OnAudioSystemStartedUp();
 
-  /// @brief Method get_dspTime, addr 0x47e1108, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_dspTime, addr 0x47f5820, size 0x28, virtual false, abstract: false, final false
   static inline double_t get_dspTime();
 
-  /// @brief Method get_outputSampleRate, addr 0x47e1130, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_outputSampleRate, addr 0x47f5848, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_outputSampleRate();
 
-  /// @brief Method remove_OnAudioConfigurationChanged, addr 0x47e12d4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method remove_OnAudioConfigurationChanged, addr 0x47f59ec, size 0xb8, virtual false, abstract: false, final false
   static inline void remove_OnAudioConfigurationChanged(::UnityEngine::__AudioSettings__AudioConfigurationChangeHandler* value);
 
   static inline void setStaticF_OnAudioConfigurationChanged(::UnityEngine::__AudioSettings__AudioConfigurationChangeHandler* value);
@@ -245,7 +245,7 @@ public:
   AudioSettings(AudioSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17775 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

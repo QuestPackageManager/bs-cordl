@@ -77,49 +77,49 @@ public:
   /// @brief Field s_funcs, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_funcs, put = setStaticF_s_funcs)) ::ArrayW<::System::Data::Function*, ::Array<::System::Data::Function*>*> s_funcs;
 
-  /// @brief Method AddArgument, addr 0x40d7e1c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method AddArgument, addr 0x40ec534, size 0x1e8, virtual false, abstract: false, final false
   inline void AddArgument(::System::Data::ExpressionNode* argument);
 
-  /// @brief Method Bind, addr 0x40d8004, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x40ec71c, size 0x2dc, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method Check, addr 0x40d82e0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x40ec9f8, size 0x1ac, virtual false, abstract: false, final false
   inline void Check();
 
-  /// @brief Method DependsOn, addr 0x40daa68, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x40ef180, size 0x88, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x40d848c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x40ecba4, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x40da830, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x40eef48, size 0x34, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
-  /// @brief Method Eval, addr 0x40d84a0, size 0x94c, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x40ecbb8, size 0x94c, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method EvalFunction, addr 0x40d908c, size 0x17a4, virtual false, abstract: false, final false
+  /// @brief Method EvalFunction, addr 0x40ed7a4, size 0x17a4, virtual false, abstract: false, final false
   inline ::System::Object* EvalFunction(::System::Data::FunctionId id, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> argumentValues, ::System::Data::DataRow* row,
                                         ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetDataType, addr 0x40d8dec, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method GetDataType, addr 0x40ed504, size 0x2a0, virtual false, abstract: false, final false
   inline ::System::Type* GetDataType(::System::Data::ExpressionNode* node);
 
-  /// @brief Method HasLocalAggregate, addr 0x40da970, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x40ef088, size 0x7c, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x40da9ec, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x40ef104, size 0x7c, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x40da864, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x40eef7c, size 0x90, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x40da8f4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x40ef00c, size 0x7c, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::FunctionNode* New_ctor(::System::Data::DataTable* table, ::StringW name);
 
-  /// @brief Method Optimize, addr 0x40daaf0, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x40ef208, size 0x1b4, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
   constexpr int32_t const& __cordl_internal_get__argumentCount() const;
@@ -152,15 +152,15 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x40d7ce0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ec3f8, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW name);
 
   static inline ::ArrayW<::System::Data::Function*, ::Array<::System::Data::Function*>*> getStaticF_s_funcs();
 
-  /// @brief Method get_Aggregate, addr 0x40daca4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Aggregate, addr 0x40ef3bc, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Data::FunctionId get_Aggregate();
 
-  /// @brief Method get_IsAggregate, addr 0x40dad40, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method get_IsAggregate, addr 0x40ef458, size 0x234, virtual false, abstract: false, final false
   inline bool get_IsAggregate();
 
   static inline void setStaticF_s_funcs(::ArrayW<::System::Data::Function*, ::Array<::System::Data::Function*>*> value);
@@ -195,7 +195,7 @@ public:
   ::System::Data::TypeLimiter* ____capturedLimiter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11319 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

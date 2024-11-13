@@ -49,21 +49,21 @@ public:
   /// @brief Field _selectedClip, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedClip, put = __cordl_internal_set__selectedClip)) ::UnityW<::UnityEngine::AnimationClip> _selectedClip;
 
-  /// @brief Method Awake, addr 0x398fa9c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39a33f4, size 0x8c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleInputFieldViewSelectionStateDidChange, addr 0x398fb4c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFieldViewSelectionStateDidChange, addr 0x39a34a4, size 0x104, virtual false, abstract: false, final false
   inline void HandleInputFieldViewSelectionStateDidChange(::HMUI::__InputFieldView__SelectionState state);
 
   static inline ::HMUI::InputFieldViewStaticAnimations* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x398fc6c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39a35c4, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x398fc50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39a35a8, size 0x1c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x398fb28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39a3480, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__didStart() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  /// @brief Method .ctor, addr 0x398fd38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39a3690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,7 +147,7 @@ public:
   bool ____didStart;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16044 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

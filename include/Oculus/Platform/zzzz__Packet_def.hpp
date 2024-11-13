@@ -41,15 +41,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3f0bb78, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3f20208, size 0x88, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x3f0bae4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3f20174, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::Packet* New_ctor(::System::IntPtr packetHandle);
 
-  /// @brief Method ReadBytes, addr 0x3f0b948, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x3f1ffd8, size 0x13c, virtual false, abstract: false, final false
   inline uint64_t ReadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> destination);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_packetHandle() const;
@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set_size(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f0b8c8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1ff58, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr packetHandle);
 
-  /// @brief Method get_SenderID, addr 0x3f0ba84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SenderID, addr 0x3f20114, size 0x58, virtual false, abstract: false, final false
   inline uint64_t get_SenderID();
 
-  /// @brief Method get_Size, addr 0x3f0badc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x3f2016c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Size();
 
   /// @brief Convert to "::System::IDisposable"
@@ -97,7 +97,7 @@ public:
   ::System::IntPtr ___packetHandle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

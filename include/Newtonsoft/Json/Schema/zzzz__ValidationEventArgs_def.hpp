@@ -40,16 +40,16 @@ public:
 
   constexpr void __cordl_internal_set__ex(::Newtonsoft::Json::Schema::JsonSchemaException* value);
 
-  /// @brief Method .ctor, addr 0x3e96c5c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eab2ec, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Schema::JsonSchemaException* ex);
 
-  /// @brief Method get_Exception, addr 0x3e96cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x3eab37c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaException* get_Exception();
 
-  /// @brief Method get_Message, addr 0x3e8ba1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3ea00ac, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_Path, addr 0x3e96cf4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3eab384, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:
@@ -70,7 +70,7 @@ public:
   ::Newtonsoft::Json::Schema::JsonSchemaException* ____ex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

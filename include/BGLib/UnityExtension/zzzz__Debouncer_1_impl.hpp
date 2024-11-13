@@ -23,7 +23,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ac
 }
 template <typename T> constexpr void BGLib::UnityExtension::Debouncer_1<T>::__cordl_internal_set__callback(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____callback, value);
 }
 template <typename T> constexpr float_t& BGLib::UnityExtension::Debouncer_1<T>::__cordl_internal_get__debounceDelaySeconds() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -48,7 +48,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Qu
 }
 template <typename T> constexpr void BGLib::UnityExtension::Debouncer_1<T>::__cordl_internal_set__debounceQueue(::System::Collections::Generic::Queue_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____debounceQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____debounceQueue, value);
 }
 template <typename T> constexpr float_t& BGLib::UnityExtension::Debouncer_1<T>::__cordl_internal_get__nextCallbackTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

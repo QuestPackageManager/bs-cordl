@@ -65,10 +65,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a8d110, size 0x748, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3aa0bec, size 0x748, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3a8d858, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3aa1334, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -107,7 +107,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4947 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -160,10 +160,10 @@ public:
 
   static inline ::GlobalNamespace::BlurredCoverImageView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a8cfc8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3aa0aa4, size 0xa4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetTextureAsync, addr 0x3a8d06c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetTextureAsync, addr 0x3aa0b48, size 0x9c, virtual false, abstract: false, final false
   inline void SetTextureAsync(::GlobalNamespace::BeatmapLevel* level);
 
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel();
@@ -202,7 +202,7 @@ public:
 
   constexpr void __cordl_internal_set__settingTextureForLevelId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a8d108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa0be4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -238,7 +238,7 @@ public:
   ::UnityW<::UnityEngine::Texture2D> ____blurredCoverTexture;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4948 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

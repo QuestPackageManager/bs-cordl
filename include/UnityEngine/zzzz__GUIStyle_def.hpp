@@ -108,57 +108,57 @@ public:
 
   __declspec(property(get = get_stretchWidth)) bool stretchWidth;
 
-  /// @brief Method Draw, addr 0x4860958, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Draw, addr 0x4875070, size 0xd0, virtual false, abstract: false, final false
   inline void Draw(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on, bool hover);
 
-  /// @brief Method Draw, addr 0x4865308, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Draw, addr 0x4879a20, size 0x24, virtual false, abstract: false, final false
   inline void Draw(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, int32_t controlId, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
 
-  /// @brief Method Draw, addr 0x4860a28, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Draw, addr 0x4875140, size 0x14, virtual false, abstract: false, final false
   inline void Draw(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
 
-  /// @brief Method Finalize, addr 0x48650b8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x48797d0, size 0x110, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetRectOffsetPtr, addr 0x4864e40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetRectOffsetPtr, addr 0x4879558, size 0x44, virtual false, abstract: false, final false
   inline ::System::IntPtr GetRectOffsetPtr(int32_t idx);
 
-  /// @brief Method GetStyleStatePtr, addr 0x4864dfc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetStyleStatePtr, addr 0x4879514, size 0x44, virtual false, abstract: false, final false
   inline ::System::IntPtr GetStyleStatePtr(int32_t idx);
 
-  /// @brief Method Internal_Create, addr 0x4864d84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x487949c, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create(::UnityEngine::GUIStyle* self);
 
-  /// @brief Method Internal_Destroy, addr 0x4864dc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x48794d8, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr self);
 
-  /// @brief Method Internal_Draw, addr 0x4864e84, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Draw, addr 0x487959c, size 0x8c, virtual false, abstract: false, final false
   inline void Internal_Draw(::UnityEngine::Rect screenRect, ::UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
 
-  /// @brief Method Internal_Draw2, addr 0x4864f94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Internal_Draw2, addr 0x48796ac, size 0x74, virtual false, abstract: false, final false
   inline void Internal_Draw2(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on);
 
-  /// @brief Method Internal_Draw2_Injected, addr 0x4865008, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Draw2_Injected, addr 0x4879720, size 0x6c, virtual false, abstract: false, final false
   inline void Internal_Draw2_Injected(ByRef<::UnityEngine::Rect> position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on);
 
-  /// @brief Method Internal_Draw_Injected, addr 0x4864f10, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_Draw_Injected, addr 0x4879628, size 0x84, virtual false, abstract: false, final false
   inline void Internal_Draw_Injected(ByRef<::UnityEngine::Rect> screenRect, ::UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus);
 
-  /// @brief Method IsTooltipActive, addr 0x4860a8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsTooltipActive, addr 0x48751a4, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsTooltipActive(::StringW tooltip);
 
   static inline ::UnityEngine::GUIStyle* New_ctor();
 
-  /// @brief Method SetDefaultFont, addr 0x4863258, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultFont, addr 0x4877970, size 0x3c, virtual false, abstract: false, final false
   static inline void SetDefaultFont(::UnityEngine::Font* font);
 
-  /// @brief Method SetMouseTooltip, addr 0x4860ac8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetMouseTooltip, addr 0x48751e0, size 0x8c, virtual false, abstract: false, final false
   static inline void SetMouseTooltip(::StringW tooltip, ::UnityEngine::Rect screenRect);
 
-  /// @brief Method SetMouseTooltip_Injected, addr 0x4865074, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetMouseTooltip_Injected, addr 0x487978c, size 0x44, virtual false, abstract: false, final false
   static inline void SetMouseTooltip_Injected(::StringW tooltip, ByRef<::UnityEngine::Rect> screenRect);
 
-  /// @brief Method ToString, addr 0x4865454, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4879b6c, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Active();
@@ -245,54 +245,54 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x48634f8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4877c10, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::GUIStyle* getStaticF_s_None();
 
   static inline bool getStaticF_showKeyboardFocus();
 
-  /// @brief Method get_fixedHeight, addr 0x4864cd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_fixedHeight, addr 0x48793e8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_fixedHeight();
 
-  /// @brief Method get_fixedWidth, addr 0x4864c94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_fixedWidth, addr 0x48793ac, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_fixedWidth();
 
-  /// @brief Method get_margin, addr 0x48651c8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_margin, addr 0x48798e0, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::RectOffset* get_margin();
 
-  /// @brief Method get_name, addr 0x4864498, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4878bb0, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_none, addr 0x4861364, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_none, addr 0x4875a7c, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUIStyle* get_none();
 
-  /// @brief Method get_normal, addr 0x4864528, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x4878c40, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyleState* get_normal();
 
-  /// @brief Method get_padding, addr 0x4865268, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_padding, addr 0x4879980, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::RectOffset* get_padding();
 
-  /// @brief Method get_rawName, addr 0x4864c14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rawName, addr 0x487932c, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_rawName();
 
-  /// @brief Method get_stretchHeight, addr 0x4864d48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_stretchHeight, addr 0x4879460, size 0x3c, virtual false, abstract: false, final false
   inline bool get_stretchHeight();
 
-  /// @brief Method get_stretchWidth, addr 0x4864d0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_stretchWidth, addr 0x4879424, size 0x3c, virtual false, abstract: false, final false
   inline bool get_stretchWidth();
 
   static inline void setStaticF_s_None(::UnityEngine::GUIStyle* value);
 
   static inline void setStaticF_showKeyboardFocus(bool value);
 
-  /// @brief Method set_name, addr 0x4863580, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x4877c98, size 0x48, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_rawName, addr 0x4864c50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rawName, addr 0x4879368, size 0x44, virtual false, abstract: false, final false
   inline void set_rawName(::StringW value);
 
-  /// @brief Method set_stretchHeight, addr 0x48644e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_stretchHeight, addr 0x4878bfc, size 0x44, virtual false, abstract: false, final false
   inline void set_stretchHeight(bool value);
 
 protected:
@@ -352,7 +352,7 @@ public:
   ::StringW ___m_Name;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16609 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

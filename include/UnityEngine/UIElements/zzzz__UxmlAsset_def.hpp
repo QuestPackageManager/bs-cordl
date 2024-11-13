@@ -54,13 +54,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IUxmlAttributes"
   constexpr operator ::UnityEngine::UIElements::IUxmlAttributes*() noexcept;
 
-  /// @brief Method SetAttribute, addr 0x4a28888, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetAttribute, addr 0x4a3cfa0, size 0x4, virtual false, abstract: false, final false
   inline void SetAttribute(::StringW name, ::StringW value);
 
-  /// @brief Method SetOrAddProperty, addr 0x4a2888c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method SetOrAddProperty, addr 0x4a3cfa4, size 0x1f8, virtual false, abstract: false, final false
   inline void SetOrAddProperty(::StringW propertyName, ::StringW propertyValue);
 
-  /// @brief Method TryGetAttributeValue, addr 0x4a287b8, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method TryGetAttributeValue, addr 0x4a3ced0, size 0xd0, virtual true, abstract: false, final true
   inline bool TryGetAttributeValue(::StringW propertyName, ByRef<::StringW> value);
 
   constexpr ::StringW const& __cordl_internal_get_m_FullTypeName() const;
@@ -93,16 +93,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Properties(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method get_fullTypeName, addr 0x4a28798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullTypeName, addr 0x4a3ceb0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_fullTypeName();
 
-  /// @brief Method get_id, addr 0x4a287a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x4a3ceb8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_orderInDocument, addr 0x4a287a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orderInDocument, addr 0x4a3cec0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_orderInDocument();
 
-  /// @brief Method get_parentId, addr 0x4a287b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentId, addr 0x4a3cec8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_parentId();
 
   /// @brief Convert to "::UnityEngine::UIElements::IUxmlAttributes"
@@ -138,7 +138,7 @@ public:
   ::System::Collections::Generic::List_1<::StringW>* ___m_Properties;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6251 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -58,10 +58,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRVirtualKeyboardSampleControls__OVRVirtualKeyboardBackup {
 public:
   // Declarations
-  /// @brief Method RestoreTo, addr 0x3fb1198, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RestoreTo, addr 0x3fc5828, size 0xc8, virtual false, abstract: false, final false
   inline void RestoreTo(::GlobalNamespace::OVRVirtualKeyboard* keyboard);
 
-  /// @brief Method .ctor, addr 0x3fb16b4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc5d44, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRVirtualKeyboard* keyboard);
 
   // Ctor Parameters []
@@ -134,7 +134,7 @@ public:
   ::UnityW<::UnityEngine::EventSystems::OVRPhysicsRaycaster> _handRaycaster;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8346 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -227,39 +227,39 @@ public:
   /// @brief Field keyboardScale_, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_keyboardScale_, put = __cordl_internal_set_keyboardScale_)) float_t keyboardScale_;
 
-  /// @brief Method DestroyKeyboard, addr 0x3fb15d0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method DestroyKeyboard, addr 0x3fc5c60, size 0xe4, virtual false, abstract: false, final false
   inline void DestroyKeyboard();
 
-  /// @brief Method HideKeyboard, addr 0x3fb1594, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HideKeyboard, addr 0x3fc5c24, size 0x3c, virtual false, abstract: false, final false
   inline void HideKeyboard();
 
-  /// @brief Method MoveKeyboard, addr 0x3fb13b4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method MoveKeyboard, addr 0x3fc5a44, size 0x12c, virtual false, abstract: false, final false
   inline void MoveKeyboard();
 
-  /// @brief Method MoveKeyboardFar, addr 0x3fb154c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MoveKeyboardFar, addr 0x3fc5bdc, size 0x48, virtual false, abstract: false, final false
   inline void MoveKeyboardFar();
 
-  /// @brief Method MoveKeyboardNear, addr 0x3fb1504, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MoveKeyboardNear, addr 0x3fc5b94, size 0x48, virtual false, abstract: false, final false
   inline void MoveKeyboardNear();
 
   static inline ::GlobalNamespace::OVRVirtualKeyboardSampleControls* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3fb0fbc, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3fc564c, size 0x1dc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnHideKeyboard, addr 0x3fb1790, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnHideKeyboard, addr 0x3fc5e20, size 0x4, virtual false, abstract: false, final false
   inline void OnHideKeyboard();
 
-  /// @brief Method ShowKeyboard, addr 0x3fb0ebc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ShowKeyboard, addr 0x3fc554c, size 0x100, virtual false, abstract: false, final false
   inline void ShowKeyboard();
 
-  /// @brief Method Start, addr 0x3fb0d00, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fc5390, size 0x1bc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fb1794, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fc5e24, size 0x274, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateButtonInteractable, addr 0x3fb1260, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtonInteractable, addr 0x3fc58f0, size 0x154, virtual false, abstract: false, final false
   inline void UpdateButtonInteractable();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_DestroyKeyboardButton() const;
@@ -340,7 +340,7 @@ public:
 
   constexpr void __cordl_internal_set_keyboardScale_(float_t value);
 
-  /// @brief Method .ctor, addr 0x3fb1d28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc63b8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -400,7 +400,7 @@ public:
   static constexpr float_t THUMBSTICK_DEADZONE{ 0.2 };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8347 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

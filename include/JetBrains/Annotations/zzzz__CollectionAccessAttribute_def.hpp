@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set__CollectionAccessType_k__BackingField(::JetBrains::Annotations::CollectionAccessType value);
 
-  /// @brief Method .ctor, addr 0x4a77f48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c660, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
 
-  /// @brief Method get_CollectionAccessType, addr 0x4a77f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionAccessType, addr 0x4a8c688, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::CollectionAccessType get_CollectionAccessType();
 
-  /// @brief Method set_CollectionAccessType, addr 0x4a77f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CollectionAccessType, addr 0x4a8c690, size 0x8, virtual false, abstract: false, final false
   inline void set_CollectionAccessType(::JetBrains::Annotations::CollectionAccessType value);
 
 protected:
@@ -64,7 +64,7 @@ public:
   ::JetBrains::Annotations::CollectionAccessType ____CollectionAccessType_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18407 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

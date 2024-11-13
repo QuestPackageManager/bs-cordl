@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::__RankModel__Rank)>(&::GlobalNamespace::RankModel::GetRankName)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x26e23f0;
+  constexpr static std::size_t addrs = 0x26edff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__RankModel__Rank (*)(int32_t, int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::RankModel::GetRankForScore)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x26e24ac;
+  constexpr static std::size_t addrs = 0x26ee0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

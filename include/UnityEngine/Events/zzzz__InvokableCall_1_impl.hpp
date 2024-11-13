@@ -15,7 +15,7 @@ template <typename T1> constexpr ::cordl_internals::to_const_pointer<::UnityEngi
 }
 template <typename T1> constexpr void UnityEngine::Events::InvokableCall_1<T1>::__cordl_internal_set_Delegate(::UnityEngine::Events::UnityAction_1<T1>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Delegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___Delegate, value);
 }
 template <typename T1> inline void UnityEngine::Events::InvokableCall_1<T1>::add_Delegate(::UnityEngine::Events::UnityAction_1<T1>* value) {
   static auto* ___internal_method = THROW_UNLESS(

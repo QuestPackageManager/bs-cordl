@@ -354,7 +354,7 @@ public:
   static ::Oculus::Platform::__PlatformInternal__MessageTypeInternal const Voip_ReportAppVoipSessions;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15421 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -375,7 +375,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE __PlatformInternal__HTTP : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetHttpTransferUpdateCallback, addr 0x3f17000, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetHttpTransferUpdateCallback, addr 0x3f2b690, size 0x74, virtual false, abstract: false, final false
   static inline void SetHttpTransferUpdateCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::HttpTransferUpdate*>* callback);
 
 protected:
@@ -393,7 +393,7 @@ public:
   __PlatformInternal__HTTP(__PlatformInternal__HTTP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15422 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -409,7 +409,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE __PlatformInternal__Users : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLinkedAccounts, addr 0x3f17074, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetLinkedAccounts, addr 0x3f2b704, size 0x198, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList*>*
   GetLinkedAccounts(::ArrayW<::Oculus::Platform::ServiceProvider, ::Array<::Oculus::Platform::ServiceProvider>*> providers);
 
@@ -428,7 +428,7 @@ public:
   __PlatformInternal__Users(__PlatformInternal__Users const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15423 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -450,13 +450,13 @@ public:
 
   using Users = ::Oculus::Platform::__PlatformInternal__Users;
 
-  /// @brief Method CrashApplication, addr 0x3f16da0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CrashApplication, addr 0x3f2b430, size 0x4c, virtual false, abstract: false, final false
   static inline void CrashApplication();
 
-  /// @brief Method InitializeStandaloneAsync, addr 0x3f16dec, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method InitializeStandaloneAsync, addr 0x3f2b47c, size 0x154, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* InitializeStandaloneAsync(uint64_t appID, ::StringW accessToken);
 
-  /// @brief Method ParseMessageHandle, addr 0x3f06e60, size 0x868, virtual false, abstract: false, final false
+  /// @brief Method ParseMessageHandle, addr 0x3f1b4f0, size 0x868, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Message* ParseMessageHandle(::System::IntPtr messageHandle, ::Oculus::Platform::__Message__MessageType messageType);
 
 protected:
@@ -474,7 +474,7 @@ public:
   PlatformInternal(PlatformInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

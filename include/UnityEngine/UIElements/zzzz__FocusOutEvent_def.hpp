@@ -32,10 +32,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__FocusOutEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49ad548, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49c1c60, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49ad540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c1c58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__FocusOutEvent____c* getStaticF___9();
@@ -57,7 +57,7 @@ public:
   __FocusOutEvent____c(__FocusOutEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5798 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,15 +75,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::__FocusOutEvent____c;
 
-  /// @brief Method Init, addr 0x49ad430, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49c1b48, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49ad484, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x49c1b9c, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::FocusOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49ad490, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c1ba8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   FocusOutEvent(FocusOutEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5799 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

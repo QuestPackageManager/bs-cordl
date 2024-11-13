@@ -81,76 +81,76 @@ public:
 
   __declspec(property(get = get_transform)) ::UnityW<::UnityEngine::Transform> transform;
 
-  /// @brief Method AddComponent, addr 0x4834c78, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddComponent, addr 0x4849390, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> AddComponent(::System::Type* componentType);
 
   /// @brief Method AddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T AddComponent();
 
-  /// @brief Method AddComponentInternal, addr 0x4834bf0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddComponentInternal, addr 0x4849308, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> AddComponentInternal(::StringW className);
 
-  /// @brief Method BroadcastMessage, addr 0x4835328, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method BroadcastMessage, addr 0x4849a40, size 0x4c, virtual false, abstract: false, final false
   inline void BroadcastMessage(::StringW methodName);
 
-  /// @brief Method BroadcastMessage, addr 0x4834b3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method BroadcastMessage, addr 0x4849254, size 0x58, virtual false, abstract: false, final false
   inline void BroadcastMessage(::StringW methodName, ::UnityEngine::SendMessageOptions options);
 
-  /// @brief Method BroadcastMessage, addr 0x48352d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method BroadcastMessage, addr 0x48499e8, size 0x58, virtual false, abstract: false, final false
   inline void BroadcastMessage(::StringW methodName, ::System::Object* parameter);
 
-  /// @brief Method BroadcastMessage, addr 0x4834b94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BroadcastMessage, addr 0x48492ac, size 0x5c, virtual false, abstract: false, final false
   inline void BroadcastMessage(::StringW methodName, ::System::Object* parameter, ::UnityEngine::SendMessageOptions options);
 
-  /// @brief Method CompareTag, addr 0x4832600, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CompareTag, addr 0x4846d18, size 0x44, virtual false, abstract: false, final false
   inline bool CompareTag(::StringW tag);
 
-  /// @brief Method CreatePrimitive, addr 0x4834560, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CreatePrimitive, addr 0x4848c78, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreatePrimitive(::UnityEngine::PrimitiveType type);
 
-  /// @brief Method Find, addr 0x48355dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x4849cf4, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> Find(::StringW name);
 
-  /// @brief Method FindGameObjectWithTag, addr 0x4834998, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindGameObjectWithTag, addr 0x48490b0, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> FindGameObjectWithTag(::StringW tag);
 
-  /// @brief Method FindGameObjectsWithTag, addr 0x483514c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindGameObjectsWithTag, addr 0x4849864, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> FindGameObjectsWithTag(::StringW tag);
 
-  /// @brief Method FindWithTag, addr 0x483495c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindWithTag, addr 0x4849074, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> FindWithTag(::StringW tag);
 
-  /// @brief Method GetComponent, addr 0x4834688, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetComponent, addr 0x4848da0, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponent(::StringW type);
 
-  /// @brief Method GetComponent, addr 0x4831cc8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetComponent, addr 0x48463e0, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponent(::System::Type* type);
 
   /// @brief Method GetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponent();
 
-  /// @brief Method GetComponentAtIndex, addr 0x4834d3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetComponentAtIndex, addr 0x4849454, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponentAtIndex(int32_t index);
 
   /// @brief Method GetComponentAtIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponentAtIndex(int32_t index);
 
-  /// @brief Method GetComponentByName, addr 0x48345f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetComponentByName, addr 0x4848d08, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponentByName(::StringW type);
 
-  /// @brief Method GetComponentByNameWithCase, addr 0x4834634, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetComponentByNameWithCase, addr 0x4848d4c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponentByNameWithCase(::StringW type, bool caseSensitive);
 
-  /// @brief Method GetComponentCount, addr 0x4834cbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetComponentCount, addr 0x48493d4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetComponentCount();
 
-  /// @brief Method GetComponentFastPath, addr 0x483459c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetComponentFastPath, addr 0x4848cb4, size 0x54, virtual false, abstract: false, final false
   inline void GetComponentFastPath(::System::Type* type, ::System::IntPtr oneFurtherThanResultValue);
 
-  /// @brief Method GetComponentInChildren, addr 0x48346cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetComponentInChildren, addr 0x4848de4, size 0x48, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponentInChildren(::System::Type* type);
 
-  /// @brief Method GetComponentInChildren, addr 0x4831f28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetComponentInChildren, addr 0x4846640, size 0x54, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponentInChildren(::System::Type* type, bool includeInactive);
 
   /// @brief Method GetComponentInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -159,10 +159,10 @@ public:
   /// @brief Method GetComponentInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponentInChildren(bool includeInactive);
 
-  /// @brief Method GetComponentInParent, addr 0x4834714, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetComponentInParent, addr 0x4848e2c, size 0x48, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponentInParent(::System::Type* type);
 
-  /// @brief Method GetComponentInParent, addr 0x4832118, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetComponentInParent, addr 0x4846830, size 0x54, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponentInParent(::System::Type* type, bool includeInactive);
 
   /// @brief Method GetComponentInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -171,10 +171,10 @@ public:
   /// @brief Method GetComponentInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponentInParent(bool includeInactive);
 
-  /// @brief Method GetComponentIndex, addr 0x4834e10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetComponentIndex, addr 0x4849528, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetComponentIndex(::UnityEngine::Component* component);
 
-  /// @brief Method GetComponents, addr 0x48322d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetComponents, addr 0x48469e8, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponents(::System::Type* type);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -183,13 +183,13 @@ public:
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void GetComponents(::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method GetComponents, addr 0x48347e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetComponents, addr 0x4848ef8, size 0x64, virtual false, abstract: false, final false
   inline void GetComponents(::System::Type* type, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* results);
 
-  /// @brief Method GetComponentsInChildren, addr 0x4834844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsInChildren, addr 0x4848f5c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponentsInChildren(::System::Type* type);
 
-  /// @brief Method GetComponentsInChildren, addr 0x4831fdc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsInChildren, addr 0x48466f4, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponentsInChildren(::System::Type* type, bool includeInactive);
 
   /// @brief Method GetComponentsInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -204,10 +204,10 @@ public:
   /// @brief Method GetComponentsInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void GetComponentsInChildren(::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method GetComponentsInParent, addr 0x483484c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsInParent, addr 0x4848f64, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponentsInParent(::System::Type* type);
 
-  /// @brief Method GetComponentsInParent, addr 0x48321cc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsInParent, addr 0x48468e4, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponentsInParent(::System::Type* type, bool includeInactive);
 
   /// @brief Method GetComponentsInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -219,31 +219,31 @@ public:
   /// @brief Method GetComponentsInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void GetComponentsInParent(bool includeInactive, ::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method GetComponentsInternal, addr 0x483475c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsInternal, addr 0x4848e74, size 0x84, virtual false, abstract: false, final false
   inline ::System::Array* GetComponentsInternal(::System::Type* type, bool useSearchTypeAsArrayReturnType, bool recursive, bool includeInactive, bool reverse, ::System::Object* resultList);
 
-  /// @brief Method GetScene, addr 0x4835ae0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetScene, addr 0x484a1f8, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::Scene GetScene(int32_t instanceID);
 
-  /// @brief Method GetScene_Injected, addr 0x4835b2c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetScene_Injected, addr 0x484a244, size 0x44, virtual false, abstract: false, final false
   static inline void GetScene_Injected(int32_t instanceID, ByRef<::UnityEngine::SceneManagement::Scene> ret);
 
-  /// @brief Method InstantiateGameObjects, addr 0x4835914, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method InstantiateGameObjects, addr 0x484a02c, size 0x1cc, virtual false, abstract: false, final false
   static inline void InstantiateGameObjects(int32_t sourceInstanceID, int32_t count, ::Unity::Collections::NativeArray_1<int32_t> newInstanceIDs,
                                             ::Unity::Collections::NativeArray_1<int32_t> newTransformInstanceIDs, ::UnityEngine::SceneManagement::Scene destinationScene);
 
-  /// @brief Method InstantiateGameObjects, addr 0x4835838, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InstantiateGameObjects, addr 0x4849f50, size 0x70, virtual false, abstract: false, final false
   static inline void InstantiateGameObjects(int32_t sourceInstanceID, ::System::IntPtr newInstanceIDs, ::System::IntPtr newTransformInstanceIDs, int32_t count,
                                             ::UnityEngine::SceneManagement::Scene destinationScene);
 
-  /// @brief Method InstantiateGameObjects_Injected, addr 0x48358a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InstantiateGameObjects_Injected, addr 0x4849fc0, size 0x6c, virtual false, abstract: false, final false
   static inline void InstantiateGameObjects_Injected(int32_t sourceInstanceID, ::System::IntPtr newInstanceIDs, ::System::IntPtr newTransformInstanceIDs, int32_t count,
                                                      ByRef<::UnityEngine::SceneManagement::Scene> destinationScene);
 
-  /// @brief Method Internal_AddComponentWithType, addr 0x4834c34, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_AddComponentWithType, addr 0x484934c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> Internal_AddComponentWithType(::System::Type* componentType);
 
-  /// @brief Method Internal_CreateGameObject, addr 0x4835404, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateGameObject, addr 0x4849b1c, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_CreateGameObject(::UnityEngine::GameObject* self, ::StringW name);
 
   static inline ::UnityEngine::GameObject* New_ctor();
@@ -252,115 +252,115 @@ public:
 
   static inline ::UnityEngine::GameObject* New_ctor(::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components);
 
-  /// @brief Method QueryComponentAtIndex, addr 0x4834cf8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method QueryComponentAtIndex, addr 0x4849410, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> QueryComponentAtIndex(int32_t index);
 
-  /// @brief Method SendMessage, addr 0x4835284, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SendMessage, addr 0x484999c, size 0x4c, virtual false, abstract: false, final false
   inline void SendMessage(::StringW methodName);
 
-  /// @brief Method SendMessage, addr 0x4834a88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SendMessage, addr 0x48491a0, size 0x58, virtual false, abstract: false, final false
   inline void SendMessage(::StringW methodName, ::UnityEngine::SendMessageOptions options);
 
-  /// @brief Method SendMessage, addr 0x483522c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SendMessage, addr 0x4849944, size 0x58, virtual false, abstract: false, final false
   inline void SendMessage(::StringW methodName, ::System::Object* value);
 
-  /// @brief Method SendMessage, addr 0x4834ae0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendMessage, addr 0x48491f8, size 0x5c, virtual false, abstract: false, final false
   inline void SendMessage(::StringW methodName, ::System::Object* value, ::UnityEngine::SendMessageOptions options);
 
-  /// @brief Method SendMessageUpwards, addr 0x48351e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SendMessageUpwards, addr 0x48498f8, size 0x4c, virtual false, abstract: false, final false
   inline void SendMessageUpwards(::StringW methodName);
 
-  /// @brief Method SendMessageUpwards, addr 0x48349d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SendMessageUpwards, addr 0x48490ec, size 0x58, virtual false, abstract: false, final false
   inline void SendMessageUpwards(::StringW methodName, ::UnityEngine::SendMessageOptions options);
 
-  /// @brief Method SendMessageUpwards, addr 0x4835188, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SendMessageUpwards, addr 0x48498a0, size 0x58, virtual false, abstract: false, final false
   inline void SendMessageUpwards(::StringW methodName, ::System::Object* value);
 
-  /// @brief Method SendMessageUpwards, addr 0x4834a2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendMessageUpwards, addr 0x4849144, size 0x5c, virtual false, abstract: false, final false
   inline void SendMessageUpwards(::StringW methodName, ::System::Object* value, ::UnityEngine::SendMessageOptions options);
 
-  /// @brief Method SetActive, addr 0x4834f90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x48496a8, size 0x44, virtual false, abstract: false, final false
   inline void SetActive(bool value);
 
-  /// @brief Method SetActiveRecursively, addr 0x483504c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetActiveRecursively, addr 0x4849764, size 0x44, virtual false, abstract: false, final false
   inline void SetActiveRecursively(bool state);
 
-  /// @brief Method SetGameObjectsActive, addr 0x4835784, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetGameObjectsActive, addr 0x4849e9c, size 0xb4, virtual false, abstract: false, final false
   static inline void SetGameObjectsActive(::System::ReadOnlySpan_1<int32_t> instanceIDs, bool active);
 
-  /// @brief Method SetGameObjectsActive, addr 0x483566c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetGameObjectsActive, addr 0x4849d84, size 0x118, virtual false, abstract: false, final false
   static inline void SetGameObjectsActive(::Unity::Collections::NativeArray_1<int32_t> instanceIDs, bool active);
 
-  /// @brief Method SetGameObjectsActive, addr 0x4835618, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetGameObjectsActive, addr 0x4849d30, size 0x54, virtual false, abstract: false, final false
   static inline void SetGameObjectsActive(::System::IntPtr instanceIds, int32_t instanceCount, bool active);
 
   /// @brief Method TryGetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool TryGetComponent(ByRef<T> component);
 
-  /// @brief Method TryGetComponent, addr 0x4831dc0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryGetComponent, addr 0x48464d8, size 0x9c, virtual false, abstract: false, final false
   inline bool TryGetComponent(::System::Type* type, ByRef<::UnityEngine::Component*> component);
 
-  /// @brief Method TryGetComponentFastPath, addr 0x4834908, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TryGetComponentFastPath, addr 0x4849020, size 0x54, virtual false, abstract: false, final false
   inline void TryGetComponentFastPath(::System::Type* type, ::System::IntPtr oneFurtherThanResultValue);
 
-  /// @brief Method TryGetComponentInternal, addr 0x4834854, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TryGetComponentInternal, addr 0x4848f6c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> TryGetComponentInternal(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x4835448, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4849b60, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4835374, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4849a8c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x48354cc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4849be4, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components);
 
-  /// @brief Method get_active, addr 0x4834f10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x4849628, size 0x3c, virtual false, abstract: false, final false
   inline bool get_active();
 
-  /// @brief Method get_activeInHierarchy, addr 0x4835010, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_activeInHierarchy, addr 0x4849728, size 0x3c, virtual false, abstract: false, final false
   inline bool get_activeInHierarchy();
 
-  /// @brief Method get_activeSelf, addr 0x4834fd4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_activeSelf, addr 0x48496ec, size 0x3c, virtual false, abstract: false, final false
   inline bool get_activeSelf();
 
-  /// @brief Method get_gameObject, addr 0x4835c3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x484a354, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_isStatic, addr 0x4835090, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isStatic, addr 0x48497a8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isStatic();
 
-  /// @brief Method get_isStaticBatchable, addr 0x4835110, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isStaticBatchable, addr 0x4849828, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isStaticBatchable();
 
-  /// @brief Method get_layer, addr 0x4834e90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x48495a8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_scene, addr 0x4835b70, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_scene, addr 0x484a288, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::SceneManagement::Scene get_scene();
 
-  /// @brief Method get_sceneCullingMask, addr 0x4835c00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sceneCullingMask, addr 0x484a318, size 0x3c, virtual false, abstract: false, final false
   inline uint64_t get_sceneCullingMask();
 
-  /// @brief Method get_scene_Injected, addr 0x4835bbc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_scene_Injected, addr 0x484a2d4, size 0x44, virtual false, abstract: false, final false
   inline void get_scene_Injected(ByRef<::UnityEngine::SceneManagement::Scene> ret);
 
-  /// @brief Method get_tag, addr 0x4832490, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_tag, addr 0x4846ba8, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_tag();
 
-  /// @brief Method get_transform, addr 0x4834e54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x484956c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
-  /// @brief Method set_active, addr 0x4834f4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_active, addr 0x4849664, size 0x44, virtual false, abstract: false, final false
   inline void set_active(bool value);
 
-  /// @brief Method set_isStatic, addr 0x48350cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_isStatic, addr 0x48497e4, size 0x44, virtual false, abstract: false, final false
   inline void set_isStatic(bool value);
 
-  /// @brief Method set_layer, addr 0x4834ecc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_layer, addr 0x48495e4, size 0x44, virtual false, abstract: false, final false
   inline void set_layer(int32_t value);
 
-  /// @brief Method set_tag, addr 0x4832544, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_tag, addr 0x4846c5c, size 0x44, virtual false, abstract: false, final false
   inline void set_tag(::StringW value);
 
 protected:
@@ -378,7 +378,7 @@ public:
   GameObject(GameObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10853 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

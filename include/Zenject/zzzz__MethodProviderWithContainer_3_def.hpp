@@ -104,7 +104,7 @@ public:
   ::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>* ____method;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12517 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

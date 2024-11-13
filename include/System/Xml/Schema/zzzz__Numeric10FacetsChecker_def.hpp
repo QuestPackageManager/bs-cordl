@@ -49,28 +49,28 @@ public:
   /// @brief Field signs, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_signs, put = setStaticF_signs)) ::ArrayW<char16_t, ::Array<char16_t>*> signs;
 
-  /// @brief Method CheckTotalAndFractionDigits, addr 0x433a3ac, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method CheckTotalAndFractionDigits, addr 0x434eac4, size 0x270, virtual false, abstract: false, final false
   inline ::System::Exception* CheckTotalAndFractionDigits(::System::Decimal value, int32_t totalDigits, int32_t fractionDigits, bool checkTotal, bool checkFraction);
 
-  /// @brief Method CheckValueFacets, addr 0x4340fac, size 0x5b0, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x43556c4, size 0x5b0, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Decimal value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x4340f3c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x4355654, size 0x70, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x4341798, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x4355eb0, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int16_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x434170c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x4355e24, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int32_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x4341680, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x4355d98, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int64_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x434155c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x4355c74, size 0x124, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::Decimal value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlValueConverter* valueConverter);
 
-  /// @brief Method MatchEnumeration, addr 0x4341824, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x4355f3c, size 0x84, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::Numeric10FacetsChecker* New_ctor(::System::Decimal minVal, ::System::Decimal maxVal);
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_minValue(::System::Decimal value);
 
-  /// @brief Method .ctor, addr 0x433412c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4348844, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Decimal minVal, ::System::Decimal maxVal);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_signs();
@@ -115,7 +115,7 @@ public:
   ::System::Decimal ___minValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

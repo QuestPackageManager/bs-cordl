@@ -16,7 +16,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TElement, TKey>*>
 }
 template <typename TElement, typename TKey> constexpr void System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_set_keySelector(::System::Func_2<TElement, TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keySelector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___keySelector, value);
 }
 template <typename TElement, typename TKey> constexpr ::System::Collections::Generic::IComparer_1<TKey>*& System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_get_comparer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -29,7 +29,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IC
 }
 template <typename TElement, typename TKey> constexpr void System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___comparer, value);
 }
 template <typename TElement, typename TKey> constexpr bool& System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_get_descending() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -54,7 +54,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Linq::EnumerableSorter_1
 }
 template <typename TElement, typename TKey> constexpr void System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_set_next(::System::Linq::EnumerableSorter_1<TElement>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___next, value);
 }
 template <typename TElement, typename TKey> constexpr ::ArrayW<TKey, ::Array<TKey>*>& System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_get_keys() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -66,7 +66,7 @@ template <typename TElement, typename TKey> constexpr ::ArrayW<TKey, ::Array<TKe
 }
 template <typename TElement, typename TKey> constexpr void System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_set_keys(::ArrayW<TKey, ::Array<TKey>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___keys, value);
 }
 template <typename TElement, typename TKey>
 inline ::System::Linq::EnumerableSorter_2<TElement, TKey>* System::Linq::EnumerableSorter_2<TElement, TKey>::New_ctor(::System::Func_2<TElement, TKey>* keySelector,

@@ -47,13 +47,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method AllocateHandle, addr 0x3dcf7f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AllocateHandle, addr 0x3de3e80, size 0x28, virtual false, abstract: false, final false
   inline void AllocateHandle(::System::Object* target);
 
-  /// @brief Method Finalize, addr 0x3dcfa20, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3de40b0, size 0x9c, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetObjectData, addr 0x3dcfabc, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3de414c, size 0x180, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::WeakReference* New_ctor();
@@ -76,31 +76,31 @@ public:
 
   constexpr void __cordl_internal_set_isLongReference(bool value);
 
-  /// @brief Method .ctor, addr 0x3dcf818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de3ea8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dcf884, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de3f14, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3dcf820, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de3eb0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target);
 
-  /// @brief Method .ctor, addr 0x3dcf850, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de3ee0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, bool trackResurrection);
 
-  /// @brief Method get_IsAlive, addr 0x3dcf9b8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_IsAlive, addr 0x3de4048, size 0x20, virtual true, abstract: false, final false
   inline bool get_IsAlive();
 
-  /// @brief Method get_Target, addr 0x3dcf9d8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_Target, addr 0x3de4068, size 0x34, virtual true, abstract: false, final false
   inline ::System::Object* get_Target();
 
-  /// @brief Method get_TrackResurrection, addr 0x3dcfa18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TrackResurrection, addr 0x3de40a8, size 0x8, virtual true, abstract: false, final false
   inline bool get_TrackResurrection();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method set_Target, addr 0x3dcfa0c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_Target, addr 0x3de409c, size 0xc, virtual true, abstract: false, final false
   inline void set_Target(::System::Object* value);
 
 protected:

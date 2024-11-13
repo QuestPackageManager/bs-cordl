@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_alert(::Mono::Security::Interface::Alert* value);
 
-  /// @brief Method .ctor, addr 0x3bd08b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be4f44, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::Alert* alert, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x3bd0928, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be4fb8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description, ::StringW message);
 
 protected:
@@ -63,7 +63,7 @@ public:
   ::Mono::Security::Interface::Alert* ___alert;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15921 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

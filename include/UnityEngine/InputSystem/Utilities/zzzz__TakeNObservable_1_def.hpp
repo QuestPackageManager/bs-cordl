@@ -101,7 +101,7 @@ public:
   int32_t ___m_Remaining;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7072 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -172,7 +172,7 @@ public:
   int32_t ___m_Count;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

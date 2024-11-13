@@ -7,10 +7,11 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BasePlatformInit)
-namespace GlobalNamespace {
+namespace BeatSaber::Init {
 class IPlatformInit;
 }
 namespace GlobalNamespace {
@@ -62,10 +63,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x40079f4, size 0x280, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x401c084, size 0x280, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4007c74, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x401c304, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -94,7 +95,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18655 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -124,10 +125,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x4007c80, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x401c310, size 0x274, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4007ef4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x401c584, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -156,7 +157,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18656 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -195,16 +196,19 @@ public:
   /// @brief Field _initializationTask, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__initializationTask, put = __cordl_internal_set__initializationTask)) ::System::Threading::Tasks::Task_1<bool>* _initializationTask;
 
-  /// @brief Convert operator to "::GlobalNamespace::IPlatformInit"
-  constexpr operator ::GlobalNamespace::IPlatformInit*() noexcept;
+  /// @brief Convert operator to "::BeatSaber::Init::IPlatformInit"
+  constexpr operator ::BeatSaber::Init::IPlatformInit*() noexcept;
 
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Initialize, addr 0x400786c, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method GetAppVersionAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* GetAppVersionAsync();
+
+  /// @brief Method Initialize, addr 0x401befc, size 0x90, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeAsync, addr 0x40078fc, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x401bf8c, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeAsync();
 
   /// @brief Method InitializeInternalAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -224,19 +228,19 @@ public:
 
   constexpr void __cordl_internal_set__initializationTask(::System::Threading::Tasks::Task_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x40079ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401c07c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInitialized, addr 0x4007858, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsInitialized, addr 0x401bee8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsInitialized();
 
-  /// @brief Convert to "::GlobalNamespace::IPlatformInit"
-  constexpr ::GlobalNamespace::IPlatformInit* i___GlobalNamespace__IPlatformInit() noexcept;
+  /// @brief Convert to "::BeatSaber::Init::IPlatformInit"
+  constexpr ::BeatSaber::Init::IPlatformInit* i___BeatSaber__Init__IPlatformInit() noexcept;
 
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  /// @brief Method set_IsInitialized, addr 0x4007860, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x401bef0, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
 protected:
@@ -260,7 +264,7 @@ public:
   ::System::Threading::Tasks::Task_1<bool>* ____initializationTask;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18657 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

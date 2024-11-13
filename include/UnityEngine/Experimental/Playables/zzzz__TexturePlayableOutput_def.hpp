@@ -29,7 +29,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method GetHandle, addr 0x4858a90, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x486d1a8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
@@ -46,7 +46,7 @@ public:
   ::UnityEngine::Playables::PlayableOutputHandle m_Handle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11276 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

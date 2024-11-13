@@ -80,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_m_flags(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c291a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3d834, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c29214, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3d8a4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwTypeIn);
 
-  /// @brief Method .ctor, addr 0x3c291d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3d860, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn);
 
-  /// @brief Method .ctor, addr 0x3c29248, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3d8d8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, ::System::Security::Cryptography::CspProviderFlags flags);
 
-  /// @brief Method get_Flags, addr 0x3c290b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x3c3d748, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::CspProviderFlags get_Flags();
 
-  /// @brief Method set_Flags, addr 0x3c290c0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x3c3d750, size 0xe4, virtual false, abstract: false, final false
   inline void set_Flags(::System::Security::Cryptography::CspProviderFlags value);
 
 protected:

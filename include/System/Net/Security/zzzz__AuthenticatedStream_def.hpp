@@ -32,7 +32,7 @@ public:
   /// @brief Field _LeaveStreamOpen, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__LeaveStreamOpen, put = __cordl_internal_set__LeaveStreamOpen)) bool _LeaveStreamOpen;
 
-  /// @brief Method Dispose, addr 0x438ef60, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x43a3678, size 0xe8, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Net::Security::AuthenticatedStream* New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen);
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__LeaveStreamOpen(bool value);
 
-  /// @brief Method .ctor, addr 0x438edc8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a34e0, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen);
 
-  /// @brief Method get_InnerStream, addr 0x438ef58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InnerStream, addr 0x43a3670, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_InnerStream();
 
   /// @brief Method get_IsAuthenticated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -79,7 +79,7 @@ public:
   bool ____LeaveStreamOpen;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9864 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

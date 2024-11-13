@@ -36,22 +36,22 @@ namespace MidiParser {
 class CORDL_TYPE __MidiFile__Reader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Read16, addr 0x3bb3980, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Read16, addr 0x3bc8010, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Read16(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
-  /// @brief Method Read32, addr 0x3bb38f0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Read32, addr 0x3bc7f80, size 0x90, virtual false, abstract: false, final false
   static inline int32_t Read32(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
-  /// @brief Method Read8, addr 0x3bb3f04, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Read8, addr 0x3bc8594, size 0x38, virtual false, abstract: false, final false
   static inline uint8_t Read8(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
-  /// @brief Method ReadAllBytesFromStream, addr 0x3bb3f3c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method ReadAllBytesFromStream, addr 0x3bc85cc, size 0x244, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAllBytesFromStream(::System::IO::Stream* input);
 
-  /// @brief Method ReadString, addr 0x3bb3898, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x3bc7f28, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW ReadString(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i, int32_t length);
 
-  /// @brief Method ReadVarInt, addr 0x3bb3e04, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadVarInt, addr 0x3bc8494, size 0x84, virtual false, abstract: false, final false
   static inline int32_t ReadVarInt(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
 protected:
@@ -69,7 +69,7 @@ public:
   __MidiFile__Reader(__MidiFile__Reader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19018 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -103,10 +103,10 @@ public:
 
   static inline ::MidiParser::MidiFile* New_ctor(::StringW path);
 
-  /// @brief Method ParseMetaEvent, addr 0x3bb3d14, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ParseMetaEvent, addr 0x3bc83a4, size 0xf0, virtual false, abstract: false, final false
   static inline bool ParseMetaEvent(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> position, uint8_t metaEventType, ByRef<int32_t> data1, ByRef<int32_t> data2);
 
-  /// @brief Method ParseTrack, addr 0x3bb39d4, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method ParseTrack, addr 0x3bc8064, size 0x340, virtual false, abstract: false, final false
   static inline ::MidiParser::MidiTrack* ParseTrack(int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> position);
 
   constexpr int32_t const& __cordl_internal_get_format() const;
@@ -133,10 +133,10 @@ public:
 
   constexpr void __cordl_internal_set_tracksCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3bb3580, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc7c10, size 0x318, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x3bb355c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc7bec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
 protected:
@@ -166,7 +166,7 @@ public:
   int32_t ___tracksCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19019 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

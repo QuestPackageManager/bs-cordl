@@ -132,7 +132,7 @@ public:
   int32_t ____idx;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12853 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -255,7 +255,7 @@ public:
   ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>* ____node_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12854 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -327,7 +327,7 @@ public:
   ::Priority_Queue::StablePriorityQueue_1<::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*>* ____priorityQueue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12855 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

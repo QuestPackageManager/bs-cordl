@@ -27,7 +27,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedTextEffect* New_ctor();
 
-  /// @brief Method ShowEffect, addr 0x3b09a34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ShowEffect, addr 0x3b1edc4, size 0x3c, virtual false, abstract: false, final false
   inline void ShowEffect();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method .ctor, addr 0x3b09a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1ee00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::UnityW<::UnityEngine::Animator> ____animator;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4212 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

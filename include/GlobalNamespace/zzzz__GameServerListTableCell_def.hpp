@@ -51,7 +51,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerListTableCell* New_ctor();
 
-  /// @brief Method SetData, addr 0x3b8097c, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b96544, size 0x410, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::INetworkPlayer* player);
 
   constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__difficultiesText() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
-  /// @brief Method .ctor, addr 0x3b80d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b96954, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +126,7 @@ public:
   ::GlobalNamespace::SongPackMasksModel* ____songPackMasksModel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -46,23 +46,23 @@ public:
   /// @brief Field _type, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Type* _type;
 
-  /// @brief Method CreateInstance, addr 0x43da7f4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x43eef0c, size 0x50, virtual true, abstract: false, final false
   inline ::System::Object* CreateInstance(::System::IServiceProvider* provider, ::System::Type* objectType, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes,
                                           ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetCache, addr 0x43da844, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetCache, addr 0x43eef5c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetCache(::System::Object* instance);
 
-  /// @brief Method GetExtendedTypeDescriptor, addr 0x43da86c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetExtendedTypeDescriptor, addr 0x43eef84, size 0x28, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::System::Object* instance);
 
-  /// @brief Method GetExtenderProviders, addr 0x43da894, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetExtenderProviders, addr 0x43eefac, size 0x28, virtual true, abstract: false, final false
   inline ::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*> GetExtenderProviders(::System::Object* instance);
 
-  /// @brief Method GetReflectionType, addr 0x43da8bc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetReflectionType, addr 0x43eefd4, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* GetReflectionType(::System::Type* objectType, ::System::Object* instance);
 
-  /// @brief Method GetTypeDescriptor, addr 0x43da8f4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetTypeDescriptor, addr 0x43ef00c, size 0x38, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::System::Object* instance);
 
   static inline ::System::ComponentModel::DelegatingTypeDescriptionProvider* New_ctor(::System::Type* type);
@@ -73,10 +73,10 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x43da768, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43eee80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_Provider, addr 0x43da798, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x43eeeb0, size 0x5c, virtual false, abstract: false, final false
   inline ::System::ComponentModel::TypeDescriptionProvider* get_Provider();
 
 protected:
@@ -97,7 +97,7 @@ public:
   ::System::Type* ____type;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9350 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

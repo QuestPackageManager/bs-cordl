@@ -48,18 +48,18 @@ public:
   __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults, put = __cordl_internal_set__prepareLevelCompletionResults)) ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>
       _prepareLevelCompletionResults;
 
-  /// @brief Method HandleLevelFinished, addr 0x3b35ee0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x3b4b998, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
   static inline ::GlobalNamespace::MissionLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b35de0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b4b898, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b35cf0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b4b7a8, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x3b35ee4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x3b4b99c, size 0xac, virtual false, abstract: false, final false
   inline void StartLevelFinished();
 
   constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x3b35f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4ba48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   ::GlobalNamespace::ILevelEndActions* ____gameplayManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

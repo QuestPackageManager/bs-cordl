@@ -38,39 +38,39 @@ public:
 
   __declspec(property(get = get_PropertyType)) ::System::Type* PropertyType;
 
-  /// @brief Method CanResetValue, addr 0x3ea7b28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x3ebc1b8, size 0x8, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method CastInstance, addr 0x3ea7aac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CastInstance, addr 0x3ebc13c, size 0x7c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JObject* CastInstance(::System::Object* instance);
 
-  /// @brief Method GetValue, addr 0x3ea7b30, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3ebc1c0, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
   static inline ::Newtonsoft::Json::Linq::JPropertyDescriptor* New_ctor(::StringW name);
 
-  /// @brief Method ResetValue, addr 0x3ea7bcc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x3ebc25c, size 0x4, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x3ea7bd0, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3ebc260, size 0x12c, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x3ea7cfc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x3ebc38c, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
-  /// @brief Method .ctor, addr 0x3ea4aec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eb917c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_ComponentType, addr 0x3ea7d04, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x3ebc394, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x3ea7d70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x3ebc400, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_NameHashCode, addr 0x3ea7de4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameHashCode, addr 0x3ebc474, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NameHashCode();
 
-  /// @brief Method get_PropertyType, addr 0x3ea7d78, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x3ebc408, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
 protected:
@@ -88,7 +88,7 @@ public:
   JPropertyDescriptor(JPropertyDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -42,7 +42,7 @@ public:
 
   static inline ::Mono::Security::Interface::MonoTlsProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3bd0484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be4b14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -81,7 +81,7 @@ public:
   MonoTlsProvider(MonoTlsProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15918 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

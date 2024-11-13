@@ -54,22 +54,22 @@ public:
   __declspec(property(get = __cordl_internal_get__transforms, put = __cordl_internal_set__transforms)) ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
       _transforms;
 
-  /// @brief Method Init, addr 0x3aa6fb8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3abab54, size 0x268, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> poseObjects, ::GlobalNamespace::PosesRecordingData* data,
                    ::GlobalNamespace::IBeatSaberLogger* logger);
 
   static inline ::GlobalNamespace::PosesPlayback* New_ctor();
 
-  /// @brief Method PlaybackTick, addr 0x3aa8e44, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method PlaybackTick, addr 0x3abc9e0, size 0x3a0, virtual false, abstract: false, final false
   inline void PlaybackTick(float_t time);
 
-  /// @brief Method StartPlayback, addr 0x3aa7654, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method StartPlayback, addr 0x3abb1f0, size 0xe8, virtual false, abstract: false, final false
   inline void StartPlayback();
 
-  /// @brief Method StopPlayback, addr 0x3aa75cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StopPlayback, addr 0x3abb168, size 0xc, virtual false, abstract: false, final false
   inline void StopPlayback();
 
-  /// @brief Method Update, addr 0x3aa8e28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3abc9c4, size 0x1c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x3aa91e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abcd80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,7 +135,7 @@ public:
   int32_t ____keyframeIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5074 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

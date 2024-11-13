@@ -28,12 +28,12 @@ public:
   /// @brief Field m_EntityType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_EntityType, put = __cordl_internal_set_m_EntityType)) ::UnityEngine::ProBuilder::EntityType m_EntityType;
 
-  /// @brief Method Awake, addr 0x46918f4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x46a600c, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::UnityEngine::ProBuilder::Entity* New_ctor();
 
-  /// @brief Method SetEntity, addr 0x46919bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEntity, addr 0x46a60d4, size 0x8, virtual false, abstract: false, final false
   inline void SetEntity(::UnityEngine::ProBuilder::EntityType t);
 
   constexpr ::UnityEngine::ProBuilder::EntityType const& __cordl_internal_get_m_EntityType() const;
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_m_EntityType(::UnityEngine::ProBuilder::EntityType value);
 
-  /// @brief Method .ctor, addr 0x46919c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46a60dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_entityType, addr 0x46918ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entityType, addr 0x46a6004, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::EntityType get_entityType();
 
 protected:
@@ -66,7 +66,7 @@ public:
   ::UnityEngine::ProBuilder::EntityType ___m_EntityType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14201 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

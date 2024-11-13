@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValueOrDefault* New_ctor(::System::Reflection::MethodInfo* mi);
 
-  /// @brief Method Run, addr 0x4081930, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4096048, size 0x60, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type*& __cordl_internal_get__defaultValueType();
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultValueType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40817ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4095ec4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* mi);
 
 protected:
@@ -64,7 +64,7 @@ public:
   ::System::Type* ____defaultValueType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

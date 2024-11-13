@@ -56,15 +56,15 @@ public:
   /// @brief Field _transform, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method FollowPosition, addr 0x22168d4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FollowPosition, addr 0x221f388, size 0xe8, virtual false, abstract: false, final false
   inline void FollowPosition(::UnityEngine::Vector3 followPosition);
 
   static inline ::BeatSaber::AvatarCore::AvatarShadowController* New_ctor();
 
-  /// @brief Method Start, addr 0x2216810, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x221f2c4, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x221682c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x221f2e0, size 0xa8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__alpha() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x22169bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x221f470, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -157,7 +157,7 @@ public:
   ::UnityW<::UnityEngine::Transform> ____transform;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17514 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

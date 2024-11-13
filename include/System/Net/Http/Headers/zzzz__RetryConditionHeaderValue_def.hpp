@@ -53,23 +53,23 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x41b0724, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x41c4e3c, size 0x1a4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x41b08c8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x41c4fe0, size 0xa0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::RetryConditionHeaderValue* New_ctor(::System::DateTimeOffset date);
 
   static inline ::System::Net::Http::Headers::RetryConditionHeaderValue* New_ctor(::System::TimeSpan delta);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x41b071c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x41c4e34, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x41b0b24, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41c523c, size 0x1a8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x41b0968, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41c5080, size 0x1bc, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::RetryConditionHeaderValue*> parsedValue);
 
   constexpr ::System::Nullable_1<::System::DateTimeOffset> const& __cordl_internal_get__Date_k__BackingField() const;
@@ -84,25 +84,25 @@ public:
 
   constexpr void __cordl_internal_set__Delta_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method .ctor, addr 0x41b0554, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41c4c6c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTimeOffset date);
 
-  /// @brief Method .ctor, addr 0x41b05e4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41c4cfc, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan delta);
 
-  /// @brief Method get_Date, addr 0x41b06e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0x41c4df8, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
-  /// @brief Method get_Delta, addr 0x41b0708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Delta, addr 0x41c4e20, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_Delta();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Date, addr 0x41b06f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_Date, addr 0x41c4e0c, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
-  /// @brief Method set_Delta, addr 0x41b0714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Delta, addr 0x41c4e2c, size 0x8, virtual false, abstract: false, final false
   inline void set_Delta(::System::Nullable_1<::System::TimeSpan> value);
 
 protected:
@@ -126,7 +126,7 @@ public:
   ::System::Nullable_1<::System::TimeSpan> ____Delta_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16703 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

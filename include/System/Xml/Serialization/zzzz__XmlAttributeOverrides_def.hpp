@@ -42,10 +42,10 @@ public:
   /// @brief Field overrides, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_overrides, put = __cordl_internal_set_overrides)) ::System::Collections::Hashtable* overrides;
 
-  /// @brief Method AddKeyHash, addr 0x42f7fa4, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x430c6bc, size 0x50c, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
-  /// @brief Method GetKey, addr 0x42f7f38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x430c650, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::TypeMember* GetKey(::System::Type* type, ::StringW member);
 
   static inline ::System::Xml::Serialization::XmlAttributeOverrides* New_ctor();
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_overrides(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x42f7dc0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430c4d8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x42f7e24, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x430c53c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAttributes* get_Item(::System::Type* type);
 
-  /// @brief Method get_Item, addr 0x42f7e84, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x430c59c, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAttributes* get_Item(::System::Type* type, ::StringW member);
 
 protected:
@@ -83,7 +83,7 @@ public:
   ::System::Collections::Hashtable* ___overrides;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

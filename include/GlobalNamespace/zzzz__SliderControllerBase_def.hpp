@@ -37,7 +37,7 @@ public:
                       put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
       _materialPropertyBlockController;
 
-  /// @brief Method AnimateCutout, addr 0x3a7b9e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AnimateCutout, addr 0x3a8f364, size 0x2c, virtual false, abstract: false, final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
   static inline ::GlobalNamespace::SliderControllerBase* New_ctor();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x3a7ba1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a8f398, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   bool ____dissolving;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4152 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BasePlatformInit_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SteamInit)
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -22,12 +23,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE SteamInit : public ::GlobalNamespace::BasePlatformInit {
 public:
   // Declarations
-  /// @brief Method InitializeInternalAsync, addr 0x26db820, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetAppVersionAsync, addr 0x26e7404, size 0x88, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* GetAppVersionAsync();
+
+  /// @brief Method InitializeInternalAsync, addr 0x26e739c, size 0x68, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync();
 
   static inline ::GlobalNamespace::SteamInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26db888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e748c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +49,7 @@ public:
   SteamInit(SteamInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17885 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

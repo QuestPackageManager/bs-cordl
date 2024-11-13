@@ -32,16 +32,16 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE BackgroundPropertyHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertScaleModeToBackgroundPosition, addr 0x48f4e28, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ConvertScaleModeToBackgroundPosition, addr 0x4909540, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundPosition ConvertScaleModeToBackgroundPosition(::UnityEngine::ScaleMode scaleMode);
 
-  /// @brief Method ConvertScaleModeToBackgroundRepeat, addr 0x48f50d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConvertScaleModeToBackgroundRepeat, addr 0x49097ec, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundRepeat ConvertScaleModeToBackgroundRepeat(::UnityEngine::ScaleMode scaleMode);
 
-  /// @brief Method ConvertScaleModeToBackgroundSize, addr 0x48f50e4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ConvertScaleModeToBackgroundSize, addr 0x49097fc, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundSize ConvertScaleModeToBackgroundSize(::UnityEngine::ScaleMode scaleMode);
 
-  /// @brief Method ResolveUnityBackgroundScaleMode, addr 0x48f51ec, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method ResolveUnityBackgroundScaleMode, addr 0x4909904, size 0x3a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ScaleMode ResolveUnityBackgroundScaleMode(::UnityEngine::UIElements::BackgroundPosition backgroundPositionX,
                                                                          ::UnityEngine::UIElements::BackgroundPosition backgroundPositionY,
                                                                          ::UnityEngine::UIElements::BackgroundRepeat backgroundRepeat, ::UnityEngine::UIElements::BackgroundSize backgroundSize,
@@ -62,7 +62,7 @@ public:
   BackgroundPropertyHelper(BackgroundPropertyHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5426 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

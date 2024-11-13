@@ -33,7 +33,7 @@ public:
   INoteControllerNoteDidFinishJumpEvent(INoteControllerNoteDidFinishJumpEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4104 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

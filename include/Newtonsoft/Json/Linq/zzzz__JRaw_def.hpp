@@ -67,10 +67,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea8d80, size 0x5ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ebd410, size 0x5ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea936c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ebd9fc, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -111,7 +111,7 @@ public:
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10385 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -146,13 +146,13 @@ public:
   // Declarations
   using _CreateAsync_d__0 = ::Newtonsoft::Json::Linq::__JRaw___CreateAsync_d__0;
 
-  /// @brief Method CloneToken, addr 0x3ea8d14, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CloneToken, addr 0x3ebd3a4, size 0x6c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* CloneToken(::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method Create, addr 0x3ea8994, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3ebd024, size 0x380, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JRaw* Create(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method CreateAsync, addr 0x3ea8888, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CreateAsync, addr 0x3ebcf18, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JRaw*>* CreateAsync(::Newtonsoft::Json::JsonReader* reader, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::Newtonsoft::Json::Linq::JRaw* New_ctor(::Newtonsoft::Json::Linq::JRaw* other);
@@ -161,13 +161,13 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JRaw* New_ctor(::System::Object* rawJson);
 
-  /// @brief Method .ctor, addr 0x3ea8974, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebd004, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JRaw* other);
 
-  /// @brief Method .ctor, addr 0x3ea8980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebd010, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JRaw* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method .ctor, addr 0x3ea8988, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebd018, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* rawJson);
 
 protected:
@@ -185,7 +185,7 @@ public:
   JRaw(JRaw const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10386 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

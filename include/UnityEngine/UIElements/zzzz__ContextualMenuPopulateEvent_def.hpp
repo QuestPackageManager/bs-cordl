@@ -47,10 +47,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__ContextualMenuPopulateEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49b3f30, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49c8648, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ContextualMenuPopulateEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49b3f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c8640, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__ContextualMenuPopulateEvent____c* getStaticF___9();
@@ -72,7 +72,7 @@ public:
   __ContextualMenuPopulateEvent____c(__ContextualMenuPopulateEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5850 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,19 +105,19 @@ public:
 
   __declspec(property(get = get_triggerEvent, put = set_triggerEvent)) ::UnityEngine::UIElements::EventBase* triggerEvent;
 
-  /// @brief Method GetPooled, addr 0x49b35bc, size 0x770, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x49c7cd4, size 0x770, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ContextualMenuPopulateEvent* GetPooled(::UnityEngine::UIElements::EventBase* triggerEvent, ::UnityEngine::UIElements::DropdownMenu* menu,
                                                                                   ::UnityEngine::UIElements::IEventHandler* target, ::UnityEngine::UIElements::ContextualMenuManager* menuManager);
 
-  /// @brief Method Init, addr 0x49b3d2c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49c8444, size 0x70, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49b3d9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x49c84b4, size 0x34, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::ContextualMenuPopulateEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x49b3e40, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x49c8558, size 0x8c, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   constexpr ::UnityEngine::UIElements::DropdownMenu*& __cordl_internal_get__menu_k__BackingField();
@@ -138,19 +138,19 @@ public:
 
   constexpr void __cordl_internal_set_m_ContextualMenuManager(::UnityEngine::UIElements::ContextualMenuManager* value);
 
-  /// @brief Method .ctor, addr 0x49b3dd0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c84e8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_menu, addr 0x49b359c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menu, addr 0x49c7cb4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DropdownMenu* get_menu();
 
-  /// @brief Method get_triggerEvent, addr 0x49b35ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggerEvent, addr 0x49c7cc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase* get_triggerEvent();
 
-  /// @brief Method set_menu, addr 0x49b35a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menu, addr 0x49c7cbc, size 0x8, virtual false, abstract: false, final false
   inline void set_menu(::UnityEngine::UIElements::DropdownMenu* value);
 
-  /// @brief Method set_triggerEvent, addr 0x49b35b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_triggerEvent, addr 0x49c7ccc, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerEvent(::UnityEngine::UIElements::EventBase* value);
 
 protected:
@@ -177,7 +177,7 @@ public:
   ::UnityEngine::UIElements::ContextualMenuManager* ___m_ContextualMenuManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5851 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

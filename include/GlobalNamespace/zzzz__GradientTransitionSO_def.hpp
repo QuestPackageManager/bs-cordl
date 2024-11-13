@@ -161,43 +161,43 @@ public:
 
   constexpr void __cordl_internal_set__selectedColor2(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method .ctor, addr 0x44627cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4476ee4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledColor1, addr 0x4460700, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor1, addr 0x4474e18, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor1();
 
-  /// @brief Method get_disabledColor2, addr 0x446070c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor2, addr 0x4474e24, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor2();
 
-  /// @brief Method get_highlightColor1, addr 0x44605b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor1, addr 0x4474cc8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor1();
 
-  /// @brief Method get_highlightColor2, addr 0x44605bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor2, addr 0x4474cd4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor2();
 
-  /// @brief Method get_normalColor1, addr 0x44602e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor1, addr 0x44749f8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor1();
 
-  /// @brief Method get_normalColor2, addr 0x44602ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor2, addr 0x4474a04, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor2();
 
-  /// @brief Method get_pressedColor1, addr 0x4460658, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor1, addr 0x4474d70, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor1();
 
-  /// @brief Method get_pressedColor2, addr 0x4460664, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor2, addr 0x4474d7c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor2();
 
-  /// @brief Method get_selectedAndHighlightedColor1, addr 0x4460850, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor1, addr 0x4474f68, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor1();
 
-  /// @brief Method get_selectedAndHighlightedColor2, addr 0x446085c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor2, addr 0x4474f74, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor2();
 
-  /// @brief Method get_selectedColor1, addr 0x44607a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor1, addr 0x4474ec0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor1();
 
-  /// @brief Method get_selectedColor2, addr 0x44607b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor2, addr 0x4474ecc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor2();
 
 protected:
@@ -251,7 +251,7 @@ public:
   ::UnityW<::GlobalNamespace::ColorSO> ____selectedAndHighlightedColor2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18135 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

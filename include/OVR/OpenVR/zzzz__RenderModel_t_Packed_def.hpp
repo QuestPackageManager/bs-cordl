@@ -29,10 +29,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE RenderModel_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x4001164, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x40157f4, size 0x24, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::RenderModel_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x4001138, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40157c8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_t unpacked);
 
   // Ctor Parameters []
@@ -60,7 +60,7 @@ public:
   int32_t diffuseTextureId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9004 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

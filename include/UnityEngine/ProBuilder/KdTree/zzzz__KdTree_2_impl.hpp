@@ -36,7 +36,7 @@ template <typename TKey, typename TValue>
 constexpr void UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>::__cordl_internal_set_left(
     ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___left)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___left, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*&
@@ -54,7 +54,7 @@ template <typename TKey, typename TValue>
 constexpr void UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>::__cordl_internal_set_right(
     ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___right)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___right, value);
 }
 template <typename TKey, typename TValue>
 inline ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>::New_ctor() {
@@ -141,7 +141,7 @@ template <typename TKey, typename TValue>
 constexpr void
 UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>::__cordl_internal_set___2__current(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>*& UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>::__cordl_internal_get___4__this() {
@@ -157,7 +157,7 @@ UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>:
 template <typename TKey, typename TValue>
 constexpr void UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>::__cordl_internal_set___4__this(::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>*&
@@ -175,7 +175,7 @@ template <typename TKey, typename TValue>
 constexpr void UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>::__cordl_internal_set___8__1(
     ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____8__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____8__1, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*&
@@ -193,7 +193,7 @@ template <typename TKey, typename TValue>
 constexpr void UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>::__cordl_internal_set__addLeft_5__2(
     ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____addLeft_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____addLeft_5__2, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*&
@@ -211,7 +211,7 @@ template <typename TKey, typename TValue>
 constexpr void UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>::__cordl_internal_set__addRight_5__3(
     ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____addRight_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____addRight_5__3, value);
 }
 template <typename TKey, typename TValue>
 inline ::UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>*
@@ -312,7 +312,7 @@ UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::__cordl_internal_get_ty
 template <typename TKey, typename TValue>
 constexpr void UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::__cordl_internal_set_typeMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___typeMath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___typeMath, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::__cordl_internal_get_root() {
@@ -328,7 +328,7 @@ UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::__cordl_internal_get_ro
 template <typename TKey, typename TValue>
 constexpr void UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::__cordl_internal_set_root(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___root)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___root, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior& UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::__cordl_internal_get__AddDuplicateBehavior_k__BackingField() {

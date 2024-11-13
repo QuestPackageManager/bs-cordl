@@ -59,7 +59,7 @@ public:
   static ::System::Xml::Schema::XmlSchemaDatatypeVariety const Union;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7487 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

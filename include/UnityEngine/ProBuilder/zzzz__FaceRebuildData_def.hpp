@@ -54,21 +54,21 @@ public:
   /// @brief Field vertices, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_vertices, put = __cordl_internal_set_vertices)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices;
 
-  /// @brief Method Apply, addr 0x46936bc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x46a7dd4, size 0x17c, virtual false, abstract: false, final false
   static inline void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                            ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Apply, addr 0x4693838, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x46a7f50, size 0x59c, virtual false, abstract: false, final false
   static inline void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces,
                            ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces,
                            ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedTextureLookup);
 
   static inline ::UnityEngine::ProBuilder::FaceRebuildData* New_ctor();
 
-  /// @brief Method Offset, addr 0x46935ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Offset, addr 0x46a7d04, size 0x8, virtual false, abstract: false, final false
   inline int32_t Offset();
 
-  /// @brief Method ToString, addr 0x46935f4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x46a7d0c, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__appliedOffset() const;
@@ -101,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* value);
 
-  /// @brief Method .ctor, addr 0x4693dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46a84ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,7 +134,7 @@ public:
   int32_t ____appliedOffset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14204 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

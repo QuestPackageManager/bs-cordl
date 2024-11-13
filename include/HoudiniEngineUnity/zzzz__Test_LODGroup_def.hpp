@@ -37,10 +37,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a2e16c, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a41ac4, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_LODGroup* other);
 
-  /// @brief Method IsNull, addr 0x3a2e10c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a41a64, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_LODGroup* New_ctor(::UnityEngine::LODGroup* self);
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::LODGroup> value);
 
-  /// @brief Method .ctor, addr 0x3a2e0e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a41a3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LODGroup* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>"
@@ -78,7 +78,7 @@ public:
   ::UnityW<::UnityEngine::LODGroup> ___self;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11853 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

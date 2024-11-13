@@ -83,7 +83,7 @@ public:
   static ::GlobalNamespace::__LightConstants__BakeId const F;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16278 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -109,13 +109,13 @@ public:
   /// @brief Field allBakeIds, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_allBakeIds, put = setStaticF_allBakeIds)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>* allBakeIds;
 
-  /// @brief Method GetComputeFieldPropertyId, addr 0x39783fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetComputeFieldPropertyId, addr 0x398bc80, size 0x50, virtual false, abstract: false, final false
   static inline int32_t GetComputeFieldPropertyId(::StringW fieldName);
 
-  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x3978354, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x398bbd8, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t GetLightProbeLightBakeIdPropertyId(::GlobalNamespace::__LightConstants__BakeId bakeId);
 
-  /// @brief Method GetLightmapLightBakeIdPropertyId, addr 0x39782ac, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLightmapLightBakeIdPropertyId, addr 0x398bb30, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t GetLightmapLightBakeIdPropertyId(::GlobalNamespace::__LightConstants__BakeId bakeId);
 
   static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>* getStaticF_allBakeIds();
@@ -137,7 +137,7 @@ public:
   LightConstants(LightConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16279 };
 
   /// @brief Field kBaseLightId offset 0xffffffff size 0x4
   static constexpr int32_t kBaseLightId{ static_cast<int32_t>(0x19) };

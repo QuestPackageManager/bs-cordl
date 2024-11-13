@@ -77,7 +77,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__RectIntField__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4913bd4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49282ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   __RectIntField__UxmlFactory(__RectIntField__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5512 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -123,7 +123,7 @@ public:
   /// @brief Field m_YValue, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_YValue, put = __cordl_internal_set_m_YValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_YValue;
 
-  /// @brief Method Init, addr 0x4913c1c, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4928334, size 0x1d4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__RectIntField__UxmlTraits* New_ctor();
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_m_YValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4913df0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4928508, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -182,7 +182,7 @@ public:
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_HValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5508 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5513 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -243,31 +243,31 @@ public:
 
   static inline ::UnityEngine::UIElements::__RectIntField____c* New_ctor();
 
-  /// @brief Method <DescribeFields>b__0_0, addr 0x4913f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_0, addr 0x49286ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_0(::UnityEngine::RectInt r);
 
-  /// @brief Method <DescribeFields>b__0_1, addr 0x4913f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_1, addr 0x49286b4, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_1(ByRef<::UnityEngine::RectInt> r, int32_t v);
 
-  /// @brief Method <DescribeFields>b__0_2, addr 0x4913fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_2, addr 0x49286bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_2(::UnityEngine::RectInt r);
 
-  /// @brief Method <DescribeFields>b__0_3, addr 0x4913fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_3, addr 0x49286c4, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_3(ByRef<::UnityEngine::RectInt> r, int32_t v);
 
-  /// @brief Method <DescribeFields>b__0_4, addr 0x4913fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_4, addr 0x49286cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_4(::UnityEngine::RectInt r);
 
-  /// @brief Method <DescribeFields>b__0_5, addr 0x4913fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_5, addr 0x49286d4, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_5(ByRef<::UnityEngine::RectInt> r, int32_t v);
 
-  /// @brief Method <DescribeFields>b__0_6, addr 0x4913fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_6, addr 0x49286dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_6(::UnityEngine::RectInt r);
 
-  /// @brief Method <DescribeFields>b__0_7, addr 0x4913fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_7, addr 0x49286e4, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_7(ByRef<::UnityEngine::RectInt> r, int32_t v);
 
-  /// @brief Method .ctor, addr 0x4913f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49286a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__RectIntField____c* getStaticF___9();
@@ -321,7 +321,7 @@ public:
   __RectIntField____c(__RectIntField____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5514 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -352,7 +352,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DescribeFields, addr 0x491336c, size 0x658, virtual true, abstract: false, final false
+  /// @brief Method DescribeFields, addr 0x4927a84, size 0x658, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::__BaseCompositeField_3__FieldDescription<::UnityEngine::RectInt, ::UnityEngine::UIElements::IntegerField*, int32_t>,
                   ::Array<::UnityEngine::UIElements::__BaseCompositeField_3__FieldDescription<::UnityEngine::RectInt, ::UnityEngine::UIElements::IntegerField*, int32_t>>*>
   DescribeFields();
@@ -361,10 +361,10 @@ public:
 
   static inline ::UnityEngine::UIElements::RectIntField* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x49139c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49280dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49139cc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49280e4, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -394,7 +394,7 @@ public:
   RectIntField(RectIntField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5515 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

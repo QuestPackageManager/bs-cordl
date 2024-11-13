@@ -97,25 +97,25 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c* New_ctor();
 
-  /// @brief Method <GetUVs>b__2_0, addr 0x471270c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <GetUVs>b__2_0, addr 0x4726e24, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 _GetUVs_b__2_0(::UnityEngine::Vector4 x);
 
-  /// @brief Method <ProjectFacesAuto>b__8_0, addr 0x471274c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ProjectFacesAuto>b__8_0, addr 0x4726e64, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _ProjectFacesAuto_b__8_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <ProjectFacesAuto>b__8_1, addr 0x4712764, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ProjectFacesAuto>b__8_1, addr 0x4726e7c, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _ProjectFacesAuto_b__8_1(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <ProjectFacesBox>b__11_0, addr 0x4712794, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ProjectFacesBox>b__11_0, addr 0x4726eac, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _ProjectFacesBox_b__11_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <ProjectFacesBox>b__9_0, addr 0x471277c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ProjectFacesBox>b__9_0, addr 0x4726e94, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _ProjectFacesBox_b__9_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <SewUVs>b__4_1, addr 0x4712710, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <SewUVs>b__4_1, addr 0x4726e28, size 0x3c, virtual false, abstract: false, final false
   inline int32_t _SewUVs_b__4_1(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> y);
 
-  /// @brief Method .ctor, addr 0x4712704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4726e1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c* getStaticF___9();
@@ -161,7 +161,7 @@ public:
   __UVEditing____c(__UVEditing____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14365 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -185,7 +185,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <AutoStitch>b__0, addr 0x47127ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <AutoStitch>b__0, addr 0x4726ec4, size 0x44, virtual false, abstract: false, final false
   inline bool _AutoStitch_b__0(::UnityEngine::ProBuilder::WingedEdge* x);
 
   constexpr ::UnityEngine::ProBuilder::Face*& __cordl_internal_get_f1();
@@ -200,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set_f2(::UnityEngine::ProBuilder::Face* value);
 
-  /// @brief Method .ctor, addr 0x470f62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4723d44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -224,7 +224,7 @@ public:
   ::UnityEngine::ProBuilder::Face* ___f2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14366 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -249,7 +249,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <SewUVs>b__0, addr 0x47127f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <SewUVs>b__0, addr 0x4726f08, size 0x4c, virtual false, abstract: false, final false
   inline bool _SewUVs_b__0(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> x);
 
   constexpr int32_t const& __cordl_internal_get_b() const;
@@ -258,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set_b(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4710f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4725644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -279,7 +279,7 @@ public:
   int32_t ___b;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14367 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -303,48 +303,48 @@ public:
 
   using __c__DisplayClass4_0 = ::UnityEngine::ProBuilder::MeshOperations::__UVEditing____c__DisplayClass4_0;
 
-  /// @brief Method AlignEdges, addr 0x470f634, size 0xa58, virtual false, abstract: false, final false
+  /// @brief Method AlignEdges, addr 0x4723d4c, size 0xa58, virtual false, abstract: false, final false
   static inline bool AlignEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* faceToMove, ::UnityEngine::ProBuilder::Edge edgeToAlignTo,
                                 ::UnityEngine::ProBuilder::Edge edgeToBeAligned, int32_t channel);
 
-  /// @brief Method ApplyUVs, addr 0x471065c, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method ApplyUVs, addr 0x4724d74, size 0x350, virtual false, abstract: false, final false
   static inline void ApplyUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs, int32_t channel, bool applyToMesh);
 
-  /// @brief Method AutoStitch, addr 0x470f3bc, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method AutoStitch, addr 0x4723ad4, size 0x270, virtual false, abstract: false, final false
   static inline bool AutoStitch(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* f1, ::UnityEngine::ProBuilder::Face* f2, int32_t channel);
 
-  /// @brief Method CollapseUVs, addr 0x4710f34, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CollapseUVs, addr 0x472564c, size 0xc8, virtual false, abstract: false, final false
   static inline void CollapseUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes);
 
-  /// @brief Method FindMinimalUV, addr 0x4711d80, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FindMinimalUV, addr 0x4726498, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 FindMinimalUV(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs, ::ArrayW<int32_t, ::Array<int32_t>*> indices, float_t xMin, float_t yMin);
 
-  /// @brief Method FitUVs, addr 0x47125dc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method FitUVs, addr 0x4726cf4, size 0xcc, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> FitUVs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs);
 
-  /// @brief Method GetUVs, addr 0x471008c, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method GetUVs, addr 0x47247a4, size 0x240, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> GetUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t channel);
 
-  /// @brief Method ProjectFacesAuto, addr 0x471140c, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method ProjectFacesAuto, addr 0x4725b24, size 0x39c, virtual false, abstract: false, final false
   static inline void ProjectFacesAuto(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces, int32_t channel);
 
-  /// @brief Method ProjectFacesBox, addr 0x47117a8, size 0x5d8, virtual false, abstract: false, final false
+  /// @brief Method ProjectFacesBox, addr 0x4725ec0, size 0x5d8, virtual false, abstract: false, final false
   static inline void ProjectFacesBox(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces, int32_t channel);
 
-  /// @brief Method ProjectFacesBox, addr 0x4711e68, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method ProjectFacesBox, addr 0x4726580, size 0x5fc, virtual false, abstract: false, final false
   static inline void ProjectFacesBox(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces,
                                      ::UnityEngine::Vector2 lowerLeftAnchor, int32_t channel);
 
-  /// @brief Method ProjectFacesSphere, addr 0x4712464, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ProjectFacesSphere, addr 0x4726b7c, size 0x178, virtual false, abstract: false, final false
   static inline void ProjectFacesSphere(::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::ArrayW<int32_t, ::Array<int32_t>*> indexes, int32_t channel);
 
-  /// @brief Method SewUVs, addr 0x47109ac, size 0x580, virtual false, abstract: false, final false
+  /// @brief Method SewUVs, addr 0x47250c4, size 0x580, virtual false, abstract: false, final false
   static inline void SewUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes, float_t delta);
 
-  /// @brief Method SplitUVs, addr 0x4710ffc, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method SplitUVs, addr 0x4725714, size 0x410, virtual false, abstract: false, final false
   static inline void SplitUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method SplitUVs, addr 0x47102cc, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method SplitUVs, addr 0x47249e4, size 0x390, virtual false, abstract: false, final false
   static inline void SplitUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
 protected:
@@ -362,7 +362,7 @@ public:
   UVEditing(UVEditing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

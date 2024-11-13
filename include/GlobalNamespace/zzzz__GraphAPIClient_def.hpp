@@ -105,7 +105,7 @@ public:
   bool WithExponentialBackoff;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14735 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -202,7 +202,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14736 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -281,7 +281,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14737 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -310,7 +310,7 @@ public:
   /// @brief Field _networkConfig, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig)) ::GlobalNamespace::INetworkConfig* _networkConfig;
 
-  /// @brief Method CalculateDelayMsBeforeRetry, addr 0x228b5d0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CalculateDelayMsBeforeRetry, addr 0x2296594, size 0x98, virtual false, abstract: false, final false
   static inline int32_t CalculateDelayMsBeforeRetry(int32_t numAttempts, ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions);
 
   static inline ::GlobalNamespace::GraphAPIClient* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig);
@@ -342,7 +342,7 @@ public:
 
   constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
 
-  /// @brief Method .ctor, addr 0x228b55c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2296520, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig);
 
 protected:
@@ -366,7 +366,7 @@ public:
   ::System::Net::Http::HttpClient* ____client;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14738 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

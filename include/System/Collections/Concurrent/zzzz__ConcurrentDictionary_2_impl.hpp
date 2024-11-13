@@ -40,7 +40,7 @@ template <typename TKey, typename TValue>
 constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_set__buckets(
     ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buckets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____buckets, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_get__locks() {
@@ -55,7 +55,7 @@ constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& System
 template <typename TKey, typename TValue>
 constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_set__locks(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____locks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____locks, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_get__countPerLock() {
@@ -70,7 +70,7 @@ constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& System::Collections::Concu
 template <typename TKey, typename TValue>
 constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::__cordl_internal_set__countPerLock(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____countPerLock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____countPerLock, value);
 }
 template <typename TKey, typename TValue>
 inline ::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>* System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>::New_ctor(
@@ -104,7 +104,7 @@ template <typename TKey, typename TValue> constexpr TKey const& System::Collecti
 }
 template <typename TKey, typename TValue> constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_set__key(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____key, value);
 }
 template <typename TKey, typename TValue> constexpr TValue& System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_get__value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -116,7 +116,7 @@ template <typename TKey, typename TValue> constexpr TValue const& System::Collec
 }
 template <typename TKey, typename TValue> constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_set__value(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____value, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*&
@@ -134,7 +134,7 @@ template <typename TKey, typename TValue>
 constexpr void
 System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_set__next(::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____next, value);
 }
 template <typename TKey, typename TValue> constexpr int32_t& System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>::__cordl_internal_get__hashcode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -204,7 +204,7 @@ template <typename TKey, typename TValue>
 constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>::__cordl_internal_set__enumerator(
     ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____enumerator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____enumerator, value);
 }
 template <typename TKey, typename TValue>
 inline ::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>*
@@ -335,7 +335,7 @@ template <typename TKey, typename TValue>
 constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set___4__this(
     ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*>&
@@ -353,7 +353,7 @@ template <typename TKey, typename TValue>
 constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set__buckets_5__2(
     ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buckets_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____buckets_5__2, value);
 }
 template <typename TKey, typename TValue> constexpr int32_t& System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_get__i_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -383,7 +383,7 @@ template <typename TKey, typename TValue>
 constexpr void System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>::__cordl_internal_set__current_5__4(
     ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____current_5__4)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____current_5__4, value);
 }
 template <typename TKey, typename TValue>
 inline ::System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>*
@@ -533,7 +533,7 @@ template <typename TKey, typename TValue>
 constexpr void
 System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_set__tables(::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____tables, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_get__comparer() {
@@ -549,7 +549,7 @@ System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_i
 template <typename TKey, typename TValue>
 constexpr void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_set__comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____comparer, value);
 }
 template <typename TKey, typename TValue> constexpr bool& System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_get__growLockArray() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -591,7 +591,7 @@ template <typename TKey, typename TValue>
 constexpr void System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_set__serializationArray(
     ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____serializationArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____serializationArray, value);
 }
 template <typename TKey, typename TValue> constexpr int32_t& System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>::__cordl_internal_get__serializationConcurrencyLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

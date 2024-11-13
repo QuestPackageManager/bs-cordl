@@ -32,18 +32,18 @@ public:
   /// @brief Field _obstacleController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__obstacleController, put = __cordl_internal_set__obstacleController)) ::UnityW<::GlobalNamespace::ObstacleControllerBase> _obstacleController;
 
-  /// @brief Method Awake, addr 0x3a8327c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a96c04, size 0xe4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleObcstacleDidStartDissolvingEvent, addr 0x3a8349c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleObcstacleDidStartDissolvingEvent, addr 0x3a96e24, size 0x28, virtual false, abstract: false, final false
   inline void HandleObcstacleDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController, float_t duration);
 
-  /// @brief Method HandleObstacleDidInitEvent, addr 0x3a83480, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleDidInitEvent, addr 0x3a96e08, size 0x1c, virtual false, abstract: false, final false
   inline void HandleObstacleDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
   static inline ::GlobalNamespace::ObstacleDissolve* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a83360, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a96ce8, size 0x120, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get__cutoutAnimateEffect() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__obstacleController(::UnityW<::GlobalNamespace::ObstacleControllerBase> value);
 
-  /// @brief Method .ctor, addr 0x3a834c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a96e4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,7 +82,7 @@ public:
   ::UnityW<::GlobalNamespace::CutoutAnimateEffect> ____cutoutAnimateEffect;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4134 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

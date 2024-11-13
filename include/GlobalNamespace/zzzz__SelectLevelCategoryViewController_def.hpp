@@ -121,7 +121,7 @@ public:
   static ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5328 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set_localizedKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3af1c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b05974, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -198,7 +198,7 @@ public:
   ::UnityW<::UnityEngine::Sprite> ___categoryIcon;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5329 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -234,13 +234,13 @@ public:
 
   static inline ::GlobalNamespace::__SelectLevelCategoryViewController____c* New_ctor();
 
-  /// @brief Method <Setup>b__12_1, addr 0x3af1cd4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__12_1, addr 0x3b059e0, size 0x80, virtual false, abstract: false, final false
   inline ::HMUI::__IconSegmentedControl__DataItem* _Setup_b__12_1(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* x);
 
-  /// @brief Method <Setup>b__12_2, addr 0x3af1d54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__12_2, addr 0x3b05a60, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory _Setup_b__12_2(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* x);
 
-  /// @brief Method .ctor, addr 0x3af1ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b059d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__SelectLevelCategoryViewController____c* getStaticF___9();
@@ -272,7 +272,7 @@ public:
   __SelectLevelCategoryViewController____c(__SelectLevelCategoryViewController____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5328 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5330 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -296,7 +296,7 @@ public:
 
   static inline ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <Setup>b__0, addr 0x3af1d6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__0, addr 0x3b05a78, size 0x58, virtual false, abstract: false, final false
   inline bool _Setup_b__0(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* data);
 
   constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> const&
@@ -308,7 +308,7 @@ public:
   constexpr void __cordl_internal_set_enabledLevelCategories(
       ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> value);
 
-  /// @brief Method .ctor, addr 0x3af1904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b05610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -329,7 +329,7 @@ public:
   ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> ___enabledLevelCategories;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5331 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -385,18 +385,18 @@ public:
 
   __declspec(property(get = get_selectedLevelCategory)) ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory selectedLevelCategory;
 
-  /// @brief Method DidActivate, addr 0x3af190c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b05618, size 0x9c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3af19a8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b056b4, size 0x9c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method LevelFilterCategoryIconSegmentedControlDidSelectCell, addr 0x3af1a44, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method LevelFilterCategoryIconSegmentedControlDidSelectCell, addr 0x3b05750, size 0x21c, virtual false, abstract: false, final false
   inline void LevelFilterCategoryIconSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t index);
 
   static inline ::GlobalNamespace::SelectLevelCategoryViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x3aec828, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b00534, size 0x30c, virtual false, abstract: false, final false
   inline void
   Setup(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory selectedCategory,
         ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> enabledLevelCategories);
@@ -447,17 +447,17 @@ public:
   constexpr void __cordl_internal_set_didSelectLevelCategoryEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
 
-  /// @brief Method .ctor, addr 0x3af1c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0596c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectLevelCategoryEvent, addr 0x3aecef0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectLevelCategoryEvent, addr 0x3b00bfc, size 0xb0, virtual false, abstract: false, final false
   inline void
   add_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
 
-  /// @brief Method get_selectedLevelCategory, addr 0x3aec374, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_selectedLevelCategory, addr 0x3b00080, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory get_selectedLevelCategory();
 
-  /// @brief Method remove_didSelectLevelCategoryEvent, addr 0x3aed5b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectLevelCategoryEvent, addr 0x3b012c4, size 0xb0, virtual false, abstract: false, final false
   inline void
   remove_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
 
@@ -494,7 +494,7 @@ public:
   ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>*> ____levelCategoryInfos;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5332 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

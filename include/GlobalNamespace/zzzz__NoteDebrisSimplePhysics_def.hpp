@@ -52,13 +52,13 @@ public:
 
   __declspec(property(get = get_currentLinearVelocity)) ::UnityEngine::Vector3 currentLinearVelocity;
 
-  /// @brief Method Awake, addr 0x3a7e0ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a91a68, size 0x70, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x3a7e15c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3a91ad8, size 0xa4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity);
 
-  /// @brief Method LateUpdate, addr 0x3a7de18, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3a91794, size 0x178, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::NoteDebrisSimplePhysics* New_ctor();
@@ -105,13 +105,13 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3a7e200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a91b7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentAngularVelocityDegrees, addr 0x3a7e0e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentAngularVelocityDegrees, addr 0x3a91a5c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_currentAngularVelocityDegrees();
 
-  /// @brief Method get_currentLinearVelocity, addr 0x3a7e0d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentLinearVelocity, addr 0x3a91a50, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_currentLinearVelocity();
 
 protected:
@@ -150,7 +150,7 @@ public:
   ::UnityEngine::Quaternion ____rotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4116 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

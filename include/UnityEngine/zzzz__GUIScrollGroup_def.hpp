@@ -59,18 +59,18 @@ public:
   /// @brief Field verticalScrollbar, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_verticalScrollbar, put = __cordl_internal_set_verticalScrollbar)) ::UnityEngine::GUIStyle* verticalScrollbar;
 
-  /// @brief Method CalcHeight, addr 0x4869d48, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method CalcHeight, addr 0x487e460, size 0xfc, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method CalcWidth, addr 0x4869bd0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method CalcWidth, addr 0x487e2e8, size 0x7c, virtual true, abstract: false, final false
   inline void CalcWidth();
 
   static inline ::UnityEngine::GUIScrollGroup* New_ctor();
 
-  /// @brief Method SetHorizontal, addr 0x4869c4c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method SetHorizontal, addr 0x487e364, size 0xfc, virtual true, abstract: false, final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method SetVertical, addr 0x4869e44, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method SetVertical, addr 0x487e55c, size 0x1a4, virtual true, abstract: false, final false
   inline void SetVertical(float_t y, float_t height);
 
   constexpr bool const& __cordl_internal_get_allowHorizontalScroll() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_verticalScrollbar(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x4869b74, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x487e28c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -199,7 +199,7 @@ public:
   ::UnityEngine::GUIStyle* ___verticalScrollbar;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16615 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -99,7 +99,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__IMGUIContainer__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49c5478, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49d9b90, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,7 +117,7 @@ public:
   __IMGUIContainer__UxmlFactory(__IMGUIContainer__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5947 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -135,7 +135,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__IMGUIContainer__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49c54c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49d9bd8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -153,7 +153,7 @@ public:
   __IMGUIContainer__UxmlTraits(__IMGUIContainer__UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5948 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -202,7 +202,7 @@ public:
   int32_t displayIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5949 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -345,86 +345,86 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x49c53e4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49d9afc, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49c5454, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49d9b6c, size 0x18, virtual true, abstract: false, final false
   inline void Dispose(bool disposeManaged);
 
-  /// @brief Method DoIMGUIRepaint, addr 0x49c3cd0, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method DoIMGUIRepaint, addr 0x49d83e8, size 0x2e0, virtual false, abstract: false, final false
   inline void DoIMGUIRepaint();
 
-  /// @brief Method DoMeasure, addr 0x49c51a8, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x49d98c0, size 0x23c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
-  /// @brief Method DoOnGUI, addr 0x49c2acc, size 0xdb4, virtual false, abstract: false, final false
+  /// @brief Method DoOnGUI, addr 0x49d71e4, size 0xdb4, virtual false, abstract: false, final false
   inline void DoOnGUI(::UnityEngine::Event* evt, ::UnityEngine::Matrix4x4 parentTransform, ::UnityEngine::Rect clippingRect, bool isComputingLayout, ::UnityEngine::Rect layoutSize,
                       ::System::Action* onGUIHandler, bool canAffectFocus);
 
-  /// @brief Method ExecuteDefaultAction, addr 0x49c4d54, size 0x2e8, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x49d946c, size 0x2e8, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method GetCurrentClipRect, addr 0x49c4a98, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentClipRect, addr 0x49d91b0, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetCurrentClipRect();
 
-  /// @brief Method GetCurrentTransformAndClip, addr 0x49c4b98, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTransformAndClip, addr 0x49d92b0, size 0x110, virtual false, abstract: false, final false
   static inline void GetCurrentTransformAndClip(::UnityEngine::UIElements::IMGUIContainer* container, ::UnityEngine::Event* evt, ByRef<::UnityEngine::Matrix4x4> transform,
                                                 ByRef<::UnityEngine::Rect> clipRect);
 
-  /// @brief Method HandleIMGUIEvent, addr 0x49c446c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleIMGUIEvent, addr 0x49d8b84, size 0x10, virtual false, abstract: false, final false
   inline bool HandleIMGUIEvent(::UnityEngine::Event* e, bool canAffectFocus);
 
-  /// @brief Method HandleIMGUIEvent, addr 0x49c4ad0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleIMGUIEvent, addr 0x49d91e8, size 0xc8, virtual false, abstract: false, final false
   inline bool HandleIMGUIEvent(::UnityEngine::Event* e, ::System::Action* onGUIHandler, bool canAffectFocus);
 
-  /// @brief Method HandleIMGUIEvent, addr 0x49c3fb0, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method HandleIMGUIEvent, addr 0x49d86c8, size 0x32c, virtual false, abstract: false, final false
   inline bool HandleIMGUIEvent(::UnityEngine::Event* e, ::UnityEngine::Matrix4x4 worldTransform, ::UnityEngine::Rect clippingRect, ::System::Action* onGUIHandler, bool canAffectFocus);
 
-  /// @brief Method IsContainerCapturingTheMouse, addr 0x49c447c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method IsContainerCapturingTheMouse, addr 0x49d8b94, size 0x110, virtual false, abstract: false, final false
   inline bool IsContainerCapturingTheMouse();
 
-  /// @brief Method IsDockAreaMouseUp, addr 0x49c4944, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method IsDockAreaMouseUp, addr 0x49d905c, size 0x124, virtual false, abstract: false, final false
   static inline bool IsDockAreaMouseUp(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method IsEventInsideLocalWindow, addr 0x49c4790, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method IsEventInsideLocalWindow, addr 0x49d8ea8, size 0x1b4, virtual false, abstract: false, final false
   inline bool IsEventInsideLocalWindow(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method IsLocalEvent, addr 0x49c458c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method IsLocalEvent, addr 0x49d8ca4, size 0x204, virtual false, abstract: false, final false
   inline bool IsLocalEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method MarkDirtyLayout, addr 0x49c3880, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MarkDirtyLayout, addr 0x49d7f98, size 0x14, virtual false, abstract: false, final false
   inline void MarkDirtyLayout();
 
   static inline ::UnityEngine::UIElements::IMGUIContainer* New_ctor();
 
   static inline ::UnityEngine::UIElements::IMGUIContainer* New_ctor(::System::Action* onGUIHandler);
 
-  /// @brief Method OnGenerateVisualContent, addr 0x49c2784, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method OnGenerateVisualContent, addr 0x49d6e9c, size 0x128, virtual false, abstract: false, final false
   inline void OnGenerateVisualContent(::UnityEngine::UIElements::MeshGenerationContext* mgc);
 
-  /// @brief Method ProcessEvent, addr 0x49c3894, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x49d7fac, size 0x1a0, virtual false, abstract: false, final false
   inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method RestoreGlobals, addr 0x49c29bc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RestoreGlobals, addr 0x49d70d4, size 0x110, virtual false, abstract: false, final false
   inline void RestoreGlobals();
 
-  /// @brief Method SaveGlobals, addr 0x49c28ac, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SaveGlobals, addr 0x49d6fc4, size 0x110, virtual false, abstract: false, final false
   inline void SaveGlobals();
 
-  /// @brief Method SendEventToIMGUI, addr 0x49c3a34, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method SendEventToIMGUI, addr 0x49d814c, size 0x29c, virtual false, abstract: false, final false
   inline bool SendEventToIMGUI(::UnityEngine::UIElements::EventBase* evt, bool canAffectFocus, bool verifyBounds);
 
-  /// @brief Method SendEventToIMGUIRaw, addr 0x49c42dc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SendEventToIMGUIRaw, addr 0x49d89f4, size 0x100, virtual false, abstract: false, final false
   inline bool SendEventToIMGUIRaw(::UnityEngine::UIElements::EventBase* evt, bool canAffectFocus, bool verifyBounds);
 
-  /// @brief Method SetFoldoutDepthClass, addr 0x49c503c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SetFoldoutDepthClass, addr 0x49d9754, size 0x16c, virtual false, abstract: false, final false
   inline void SetFoldoutDepthClass();
 
-  /// @brief Method VerifyBounds, addr 0x49c43dc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method VerifyBounds, addr 0x49d8af4, size 0x90, virtual false, abstract: false, final false
   inline bool VerifyBounds(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method <DoOnGUI>b__56_0, addr 0x49c546c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <DoOnGUI>b__56_0, addr 0x49d9b84, size 0xc, virtual false, abstract: false, final false
   inline void _DoOnGUI_b__56_0();
 
   constexpr ::UnityEngine::UIElements::ContextType const& __cordl_internal_get__contextType_k__BackingField() const;
@@ -535,10 +535,10 @@ public:
 
   constexpr void __cordl_internal_set_useOwnerObjectGUIState(bool value);
 
-  /// @brief Method .ctor, addr 0x49c2528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49d6c40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49c2530, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49d6c48, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* onGUIHandler);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_ImmediateCallbackMarker();
@@ -557,34 +557,34 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_ussFoldoutChildDepthClassNames();
 
-  /// @brief Method get_cache, addr 0x49c2078, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_cache, addr 0x49d6790, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::__GUILayoutUtility__LayoutCache* get_cache();
 
-  /// @brief Method get_canGrabFocus, addr 0x49c2148, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_canGrabFocus, addr 0x49d6860, size 0x20, virtual true, abstract: false, final false
   inline bool get_canGrabFocus();
 
-  /// @brief Method get_contextType, addr 0x49c2130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contextType, addr 0x49d6848, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ContextType get_contextType();
 
-  /// @brief Method get_cullingEnabled, addr 0x49c2070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cullingEnabled, addr 0x49d6788, size 0x8, virtual false, abstract: false, final false
   inline bool get_cullingEnabled();
 
-  /// @brief Method get_focusOnlyIfHasFocusableControls, addr 0x49c2140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_focusOnlyIfHasFocusableControls, addr 0x49d6858, size 0x8, virtual false, abstract: false, final false
   inline bool get_focusOnlyIfHasFocusableControls();
 
-  /// @brief Method get_guiState, addr 0x49c1fac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_guiState, addr 0x49d66c4, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::ObjectGUIState* get_guiState();
 
-  /// @brief Method get_lastWorldClip, addr 0x49c2048, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_lastWorldClip, addr 0x49d6760, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_lastWorldClip();
 
-  /// @brief Method get_layoutMeasuredHeight, addr 0x49c2108, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_layoutMeasuredHeight, addr 0x49d6820, size 0x28, virtual false, abstract: false, final false
   inline float_t get_layoutMeasuredHeight();
 
-  /// @brief Method get_layoutMeasuredWidth, addr 0x49c20e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_layoutMeasuredWidth, addr 0x49d67f8, size 0x28, virtual false, abstract: false, final false
   inline float_t get_layoutMeasuredWidth();
 
-  /// @brief Method get_onGUIHandler, addr 0x49c1f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onGUIHandler, addr 0x49d6664, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_onGUIHandler();
 
   /// @brief Convert to "::System::IDisposable"
@@ -606,13 +606,13 @@ public:
 
   static inline void setStaticF_ussFoldoutChildDepthClassNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method set_contextType, addr 0x49c2138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contextType, addr 0x49d6850, size 0x8, virtual false, abstract: false, final false
   inline void set_contextType(::UnityEngine::UIElements::ContextType value);
 
-  /// @brief Method set_lastWorldClip, addr 0x49c205c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_lastWorldClip, addr 0x49d6774, size 0x14, virtual false, abstract: false, final false
   inline void set_lastWorldClip(::UnityEngine::Rect value);
 
-  /// @brief Method set_onGUIHandler, addr 0x49c1f54, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onGUIHandler, addr 0x49d666c, size 0x58, virtual false, abstract: false, final false
   inline void set_onGUIHandler(::System::Action* value);
 
 protected:
@@ -684,7 +684,7 @@ public:
   ::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals ___m_GUIGlobals;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5950 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

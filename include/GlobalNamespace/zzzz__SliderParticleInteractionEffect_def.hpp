@@ -54,21 +54,21 @@ public:
   /// @brief Field _startColor, offset 0x40, size 0x10
   __declspec(property(get = __cordl_internal_get__startColor, put = __cordl_internal_set__startColor)) ::UnityEngine::Color _startColor;
 
-  /// @brief Method EndEffect, addr 0x3b01cdc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method EndEffect, addr 0x3b170a0, size 0x94, virtual true, abstract: false, final false
   inline void EndEffect();
 
   static inline ::GlobalNamespace::SliderParticleInteractionEffect* New_ctor();
 
-  /// @brief Method SetPSStartColor, addr 0x3b01acc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetPSStartColor, addr 0x3b16e90, size 0xd4, virtual false, abstract: false, final false
   inline void SetPSStartColor(::UnityEngine::Color color);
 
-  /// @brief Method Start, addr 0x3b01a28, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3b16dec, size 0xa4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x3b01c24, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x3b16fe8, size 0xb8, virtual true, abstract: false, final false
   inline void StartEffect(float_t saberInteractionParam);
 
-  /// @brief Method Update, addr 0x3b01ba0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b16f64, size 0x84, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
@@ -101,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set__startColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3b01d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b17134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,7 +134,7 @@ public:
   ::UnityW<::GlobalNamespace::Saber> ____saber;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4165 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__SpookyHash__U::*)(::cordl_internals::Ptr<uint16_t>)>(&::UnityEngine::__SpookyHash__U::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4822c84;
+  constexpr static std::size_t addrs = 0x483739c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::SpookyHash::AttemptDetectAllowUnalignedRead)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x482286c;
+  constexpr static std::size_t addrs = 0x4836f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint64_t, ::cordl_internals::Ptr<uint64_t>, ::cordl_internals::Ptr<uint64_t>)>(
     &::UnityEngine::SpookyHash::Hash)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x4822524;
+  constexpr static std::size_t addrs = 0x4836c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::cordl_internals::Ptr<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>,
                          ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>)>(&::UnityEngine::SpookyHash::End)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x48231b0;
+  constexpr static std::size_t addrs = 0x48378c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>)>(
     &::UnityEngine::SpookyHash::EndPartial)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x482341c;
+  constexpr static std::size_t addrs = 0x4837b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<uint64_t>, int32_t)>(&::UnityEngine::SpookyHash::Rot64)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x48236b4;
+  constexpr static std::size_t addrs = 0x4837dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint64_t, ::cordl_internals::Ptr<uint64_t>, ::cordl_internals::Ptr<uint64_t>)>(
     &::UnityEngine::SpookyHash::Short)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x48228f4;
+  constexpr static std::size_t addrs = 0x483700c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>)>(&::UnityEngine::SpookyHash::ShortMix)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x48236c8;
+  constexpr static std::size_t addrs = 0x4837de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>)>(&::UnityEngine::SpookyHash::ShortEnd)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x48238e4;
+  constexpr static std::size_t addrs = 0x4837ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::cordl_internals::Ptr<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>,
                          ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>, ByRef<uint64_t>)>(&::UnityEngine::SpookyHash::Mix)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x4822c8c;
+  constexpr static std::size_t addrs = 0x48373a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, int32_t, uint64_t)>(&::UnityEngine::SpookyHash::memset)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x48230d8;
+  constexpr static std::size_t addrs = 0x48377f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

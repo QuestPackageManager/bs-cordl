@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set_xmlType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method .ctor, addr 0x432a85c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x433ef74, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaSimpleType* st, ::System::Object* value);
 
-  /// @brief Method get_TypedValue, addr 0x432a890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x433efa8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_XmlType, addr 0x432a888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x433efa0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
 
 protected:
@@ -79,7 +79,7 @@ public:
   ::System::Object* ___typedValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

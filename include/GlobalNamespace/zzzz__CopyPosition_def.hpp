@@ -39,10 +39,10 @@ public:
   /// @brief Field _instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::UnityW<::GlobalNamespace::__CopyPosition__CopyPositionUpdater> _instance;
 
-  /// @brief Method Add, addr 0x3959730, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x396cf90, size 0x1dc, virtual false, abstract: false, final false
   static inline void Add(::GlobalNamespace::CopyPosition* copyPosition);
 
-  /// @brief Method LateUpdate, addr 0x3959914, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x396d174, size 0x1ac, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::__CopyPosition__CopyPositionUpdater* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__copyPositions(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::CopyPosition>>* value);
 
-  /// @brief Method .ctor, addr 0x3959ac0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396d320, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::__CopyPosition__CopyPositionUpdater> getStaticF__instance();
@@ -78,7 +78,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::CopyPosition>>* ____copyPositions;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,12 +101,12 @@ public:
   /// @brief Field source, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::UnityW<::UnityEngine::Transform> source;
 
-  /// @brief Method Awake, addr 0x395972c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x396cf8c, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CopyPosition* New_ctor();
 
-  /// @brief Method Refresh, addr 0x39596ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x396cf4c, size 0x40, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_source() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_source(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x395990c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396d16c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,7 +136,7 @@ public:
   ::UnityW<::UnityEngine::Transform> ___source;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

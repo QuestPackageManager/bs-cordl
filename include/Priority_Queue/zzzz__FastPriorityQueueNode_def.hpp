@@ -45,19 +45,19 @@ public:
 
   constexpr void __cordl_internal_set__QueueIndex_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2261c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226cc50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Priority, addr 0x2261c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x226cc30, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Priority();
 
-  /// @brief Method get_QueueIndex, addr 0x2261c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QueueIndex, addr 0x226cc40, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_QueueIndex();
 
-  /// @brief Method set_Priority, addr 0x2261c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Priority, addr 0x226cc38, size 0x8, virtual false, abstract: false, final false
   inline void set_Priority(float_t value);
 
-  /// @brief Method set_QueueIndex, addr 0x2261c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QueueIndex, addr 0x226cc48, size 0x8, virtual false, abstract: false, final false
   inline void set_QueueIndex(int32_t value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   int32_t ____QueueIndex_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16893 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

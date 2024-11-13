@@ -33,10 +33,10 @@ public:
 
   static inline ::GlobalNamespace::StandaloneThreadContext* New_ctor();
 
-  /// @brief Method Run, addr 0x22a9068, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x22b4110, size 0x4, virtual true, abstract: false, final true
   inline void Run(::GlobalNamespace::IStandaloneThreadRunnable* runnable);
 
-  /// @brief Method .ctor, addr 0x22a906c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4114, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::StandaloneThreadContext* getStaticF_instance();
@@ -61,7 +61,7 @@ public:
   StandaloneThreadContext(StandaloneThreadContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14939 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

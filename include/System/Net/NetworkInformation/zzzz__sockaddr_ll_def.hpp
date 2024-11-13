@@ -54,7 +54,7 @@ public:
   ::ArrayW<uint8_t, ::Array<uint8_t>*> sll_addr;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9766 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

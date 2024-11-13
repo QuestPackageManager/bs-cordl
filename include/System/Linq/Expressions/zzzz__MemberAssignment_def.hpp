@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__expression(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method get_Expression, addr 0x4043314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x4057a2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
 protected:
@@ -54,7 +54,7 @@ public:
   ::System::Linq::Expressions::Expression* ____expression;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13662 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

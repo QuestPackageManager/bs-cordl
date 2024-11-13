@@ -27,21 +27,21 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsSRTPUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddUseSrtpExtension, addr 0x23fd294, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddUseSrtpExtension, addr 0x240833c, size 0xf0, virtual false, abstract: false, final false
   static inline void AddUseSrtpExtension(::System::Collections::IDictionary* extensions, ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* useSRTPData);
 
-  /// @brief Method CreateUseSrtpExtension, addr 0x23fd384, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CreateUseSrtpExtension, addr 0x240842c, size 0x118, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateUseSrtpExtension(::Org::BouncyCastle::Crypto::Tls::UseSrtpData* useSrtpData);
 
-  /// @brief Method GetUseSrtpExtension, addr 0x23fd49c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetUseSrtpExtension, addr 0x2408544, size 0x6c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* GetUseSrtpExtension(::System::Collections::IDictionary* extensions);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils* New_ctor();
 
-  /// @brief Method ReadUseSrtpExtension, addr 0x23fd508, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ReadUseSrtpExtension, addr 0x24085b0, size 0x174, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* ReadUseSrtpExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
 
-  /// @brief Method .ctor, addr 0x23fd82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24088d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

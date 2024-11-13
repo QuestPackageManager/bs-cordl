@@ -17,7 +17,7 @@ constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Ze
 }
 template <typename TContract> constexpr void Zenject::DecoratorToChoiceFromBinder_1<TContract>::__cordl_internal_set__bindContainer(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____bindContainer, value);
 }
 template <typename TContract> constexpr ::Zenject::BindInfo*& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__cordl_internal_get__bindInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -29,7 +29,7 @@ template <typename TContract> constexpr ::cordl_internals::to_const_pointer<::Ze
 }
 template <typename TContract> constexpr void Zenject::DecoratorToChoiceFromBinder_1<TContract>::__cordl_internal_set__bindInfo(::Zenject::BindInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____bindInfo, value);
 }
 template <typename TContract> constexpr ::Zenject::FactoryBindInfo*& Zenject::DecoratorToChoiceFromBinder_1<TContract>::__cordl_internal_get__factoryBindInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -42,7 +42,7 @@ constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryBindInfo*> const
 }
 template <typename TContract> constexpr void Zenject::DecoratorToChoiceFromBinder_1<TContract>::__cordl_internal_set__factoryBindInfo(::Zenject::FactoryBindInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____factoryBindInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____factoryBindInfo, value);
 }
 template <typename TContract>
 inline ::Zenject::DecoratorToChoiceFromBinder_1<TContract>* Zenject::DecoratorToChoiceFromBinder_1<TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,

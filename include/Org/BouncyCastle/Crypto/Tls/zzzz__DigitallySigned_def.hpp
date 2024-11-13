@@ -40,12 +40,12 @@ public:
   /// @brief Field mSignature, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mSignature, put = __cordl_internal_set_mSignature)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mSignature;
 
-  /// @brief Method Encode, addr 0x23ae504, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x23b95ac, size 0x7c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* New_ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Parse, addr 0x23a1560, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x23ac608, size 0xd4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*& __cordl_internal_get_mAlgorithm();
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set_mSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23ae47c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b9524, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method get_Algorithm, addr 0x23ae4f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x23b959c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_Algorithm();
 
-  /// @brief Method get_Signature, addr 0x23ae4fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x23b95a4, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Signature();
 
 protected:

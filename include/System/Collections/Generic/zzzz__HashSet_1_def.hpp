@@ -104,7 +104,7 @@ public:
   int32_t unfoundCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14154 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -141,7 +141,7 @@ public:
   T value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14155 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -221,7 +221,7 @@ public:
   T _current;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14156 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -568,7 +568,7 @@ public:
   static constexpr ::ConstString VersionName{ u"Version" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14157 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

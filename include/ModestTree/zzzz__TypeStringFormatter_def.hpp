@@ -44,10 +44,10 @@ public:
 
   static inline ::ModestTree::__TypeStringFormatter____c* New_ctor();
 
-  /// @brief Method <PrettyNameInternal>b__2_0, addr 0x4a7be6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <PrettyNameInternal>b__2_0, addr 0x4a90584, size 0x54, virtual false, abstract: false, final false
   inline ::StringW _PrettyNameInternal_b__2_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x4a7be64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a9057c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ModestTree::__TypeStringFormatter____c* getStaticF___9();
@@ -73,7 +73,7 @@ public:
   __TypeStringFormatter____c(__TypeStringFormatter____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11926 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -94,13 +94,13 @@ public:
   /// @brief Field _prettyNameCache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__prettyNameCache, put = setStaticF__prettyNameCache)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* _prettyNameCache;
 
-  /// @brief Method GetCSharpTypeName, addr 0x4a7ba64, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method GetCSharpTypeName, addr 0x4a9017c, size 0x318, virtual false, abstract: false, final false
   static inline ::StringW GetCSharpTypeName(::StringW typeName);
 
-  /// @brief Method PrettyName, addr 0x4a79d30, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method PrettyName, addr 0x4a8e448, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW PrettyName(::System::Type* type);
 
-  /// @brief Method PrettyNameInternal, addr 0x4a7b610, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method PrettyNameInternal, addr 0x4a8fd28, size 0x454, virtual false, abstract: false, final false
   static inline ::StringW PrettyNameInternal(::System::Type* type);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* getStaticF__prettyNameCache();
@@ -122,7 +122,7 @@ public:
   TypeStringFormatter(TypeStringFormatter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11927 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

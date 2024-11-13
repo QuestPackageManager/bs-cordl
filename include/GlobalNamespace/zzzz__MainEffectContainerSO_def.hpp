@@ -33,12 +33,12 @@ public:
 
   __declspec(property(get = get_mainEffect)) ::UnityW<::GlobalNamespace::MainEffectSO> mainEffect;
 
-  /// @brief Method Init, addr 0x400ba38, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4020150, size 0x74, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::MainEffectSO* mainEffect);
 
   static inline ::GlobalNamespace::MainEffectContainerSO* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x400b9c0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x40200d8, size 0x78, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::MainEffectSO> const& __cordl_internal_get__mainEffect() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__postProcessEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x400baac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40201c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mainEffect, addr 0x400b9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainEffect, addr 0x40200d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MainEffectSO> get_mainEffect();
 
 protected:
@@ -80,7 +80,7 @@ public:
   ::UnityW<::GlobalNamespace::BoolSO> ____postProcessEnabled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

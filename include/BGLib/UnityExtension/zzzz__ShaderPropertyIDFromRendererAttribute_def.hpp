@@ -26,7 +26,7 @@ public:
   /// @brief Field propertyName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName)) ::StringW propertyName;
 
-  /// @brief Method GetTargetName, addr 0x2276efc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTargetName, addr 0x2281f4c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetTargetName();
 
   static inline ::BGLib::UnityExtension::ShaderPropertyIDFromRendererAttribute* New_ctor(::StringW propertyName, ::StringW nameFilter,
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2276ed0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2281f20, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType filterPropType);
 
 protected:
@@ -59,7 +59,7 @@ public:
   ::StringW ___propertyName;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17233 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

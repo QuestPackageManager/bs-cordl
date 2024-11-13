@@ -20,7 +20,7 @@ HMUI::ValueChangedBinder_1<T>::__cordl_internal_get__bindings() const {
 template <typename T>
 constexpr void HMUI::ValueChangedBinder_1<T>::__cordl_internal_set__bindings(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____bindings, value);
 }
 template <typename T> inline ::HMUI::ValueChangedBinder_1<T>* HMUI::ValueChangedBinder_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ValueChangedBinder_1<T>*>());

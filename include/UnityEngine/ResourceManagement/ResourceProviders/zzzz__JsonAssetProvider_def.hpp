@@ -26,12 +26,12 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class CORDL_TYPE JsonAssetProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x4727928, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x473c040, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Type* type, ::StringW text);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4727934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x473c04c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   JsonAssetProvider(JsonAssetProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

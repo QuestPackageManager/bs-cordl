@@ -40,18 +40,18 @@ public:
   /// @brief Field _rotationOffset, offset 0x34, size 0x10
   __declspec(property(get = __cordl_internal_get__rotationOffset, put = __cordl_internal_set__rotationOffset)) ::UnityEngine::Quaternion _rotationOffset;
 
-  /// @brief Method Awake, addr 0x3b5fa44, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b7610c, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* New_ctor();
 
-  /// @brief Method SetEnabled, addr 0x3b5a844, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetEnabled, addr 0x3b70f3c, size 0xc, virtual false, abstract: false, final false
   inline void SetEnabled(bool isEnabled);
 
-  /// @brief Method Update, addr 0x3b5fa94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b7615c, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePositionAndRotationIfNeeded, addr 0x3b5fa98, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UpdatePositionAndRotationIfNeeded, addr 0x3b76160, size 0x208, virtual false, abstract: false, final false
   inline void UpdatePositionAndRotationIfNeeded();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__lastParentPosition() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__rotationOffset(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x3b5fd20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b763e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,7 +117,7 @@ public:
   ::UnityEngine::Quaternion ____lastParentRotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4579 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

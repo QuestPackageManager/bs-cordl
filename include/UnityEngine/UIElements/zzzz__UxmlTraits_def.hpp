@@ -28,12 +28,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UxmlTraits : public ::UnityEngine::UIElements::BaseUxmlTraits {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x4a28794, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a3ceac, size 0x4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a261ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3a8c4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   UxmlTraits(UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6241 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

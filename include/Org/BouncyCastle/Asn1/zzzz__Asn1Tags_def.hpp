@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Asn1Tags* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25f1f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fd018, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

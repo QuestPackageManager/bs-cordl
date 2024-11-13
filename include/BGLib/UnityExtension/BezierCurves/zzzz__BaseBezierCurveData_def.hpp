@@ -51,25 +51,25 @@ public:
 
   constexpr void __cordl_internal_set__startControlPointDelta(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x2277ca4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2282cf4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_endControlPoint, addr 0x2277c28, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_endControlPoint, addr 0x2282c78, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endControlPoint();
 
   /// @brief Method get_endPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_endPoint();
 
-  /// @brief Method get_startControlPoint, addr 0x2277bac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_startControlPoint, addr 0x2282bfc, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startControlPoint();
 
   /// @brief Method get_startPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_startPoint();
 
-  /// @brief Method set_endControlPoint, addr 0x2277c58, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_endControlPoint, addr 0x2282ca8, size 0x4c, virtual false, abstract: false, final false
   inline void set_endControlPoint(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_startControlPoint, addr 0x2277bdc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startControlPoint, addr 0x2282c2c, size 0x4c, virtual false, abstract: false, final false
   inline void set_startControlPoint(::UnityEngine::Vector3 value);
 
 protected:
@@ -93,7 +93,7 @@ public:
   ::UnityEngine::Vector3 ____endControlPointDelta;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17240 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,13 +33,13 @@ public:
   /// @brief Field _reasons, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__reasons, put = __cordl_internal_set__reasons)) int32_t _reasons;
 
-  /// @brief Method AddReasons, addr 0x255097c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AddReasons, addr 0x255ba24, size 0x48, virtual false, abstract: false, final false
   inline void AddReasons(::Org::BouncyCastle::Pkix::ReasonsMask* mask);
 
-  /// @brief Method HasNewReasons, addr 0x2550b58, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HasNewReasons, addr 0x255bc00, size 0x54, virtual false, abstract: false, final false
   inline bool HasNewReasons(::Org::BouncyCastle::Pkix::ReasonsMask* mask);
 
-  /// @brief Method Intersect, addr 0x2550a98, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Intersect, addr 0x255bb40, size 0xc0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::ReasonsMask* Intersect(::Org::BouncyCastle::Pkix::ReasonsMask* mask);
 
   static inline ::Org::BouncyCastle::Pkix::ReasonsMask* New_ctor();
@@ -52,18 +52,18 @@ public:
 
   constexpr void __cordl_internal_set__reasons(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2550960, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255ba08, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2550938, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255b9e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t reasons);
 
   static inline ::Org::BouncyCastle::Pkix::ReasonsMask* getStaticF_AllReasons();
 
-  /// @brief Method get_IsAllReasons, addr 0x2550a24, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_IsAllReasons, addr 0x255bacc, size 0x74, virtual false, abstract: false, final false
   inline bool get_IsAllReasons();
 
-  /// @brief Method get_Reasons, addr 0x25509c4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Reasons, addr 0x255ba6c, size 0x60, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* get_Reasons();
 
   static inline void setStaticF_AllReasons(::Org::BouncyCastle::Pkix::ReasonsMask* value);

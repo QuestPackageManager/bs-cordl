@@ -91,7 +91,7 @@ public:
   __BaseCompositeField_3__FieldDescription__WriteDelegate(__BaseCompositeField_3__FieldDescription__WriteDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5468 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -136,7 +136,7 @@ public:
   ::GlobalNamespace::__BaseCompositeField_3__FieldDescription__WriteDelegate<TValueType, TField, TFieldValue>* write;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5469 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -217,7 +217,7 @@ public:
   ::UnityEngine::UIElements::BaseCompositeField_3<TValueType, TField, TFieldValue>* _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -388,7 +388,7 @@ public:
   int32_t ___m_PropertyIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5471 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

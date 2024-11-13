@@ -23,7 +23,7 @@ template <typename TEventType, typename TCallbackArgs>
 constexpr void
 UnityEngine::UIElements::EventCallbackFunctor_2<TEventType, TCallbackArgs>::__cordl_internal_set_m_Callback(::UnityEngine::UIElements::EventCallback_2<TEventType, TCallbackArgs>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Callback, value);
 }
 template <typename TEventType, typename TCallbackArgs> constexpr int64_t& UnityEngine::UIElements::EventCallbackFunctor_2<TEventType, TCallbackArgs>::__cordl_internal_get_m_EventTypeId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -50,7 +50,7 @@ constexpr TCallbackArgs const& UnityEngine::UIElements::EventCallbackFunctor_2<T
 template <typename TEventType, typename TCallbackArgs>
 constexpr void UnityEngine::UIElements::EventCallbackFunctor_2<TEventType, TCallbackArgs>::__cordl_internal_set__userArgs_k__BackingField(TCallbackArgs value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userArgs_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____userArgs_k__BackingField, value);
 }
 template <typename TEventType, typename TCallbackArgs> inline TCallbackArgs UnityEngine::UIElements::EventCallbackFunctor_2<TEventType, TCallbackArgs>::get_userArgs() {
   static auto* ___internal_method =

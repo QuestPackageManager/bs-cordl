@@ -45,7 +45,7 @@ public:
   /// @brief Method CreateSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDescriptor, typename TSubsystem> inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
-  /// @brief Method Deinitialize, addr 0x47ba9d8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x47cf0f0, size 0x58, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
   /// @brief Method DestroySubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SubsystemInstanceMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* value);
 
-  /// @brief Method .ctor, addr 0x47baa30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47cf148, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* ___m_SubsystemInstanceMap;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18598 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

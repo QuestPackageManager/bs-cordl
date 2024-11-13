@@ -47,13 +47,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x4938f18, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x494d630, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* __ctor_b__0_0();
 
-  /// @brief Method <.ctor>b__0_1, addr 0x4938fb0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x494d6c8, size 0x20, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::VectorImageRenderInfo* vectorImageInfo);
 
-  /// @brief Method .ctor, addr 0x4938f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494d628, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* getStaticF___9();
@@ -83,7 +83,7 @@ public:
   __VectorImageRenderInfoPool____c(__VectorImageRenderInfoPool____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6373 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6378 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -103,7 +103,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4938d30, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494d448, size 0x184, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,7 +121,7 @@ public:
   VectorImageRenderInfoPool(VectorImageRenderInfoPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -78,7 +78,7 @@ public:
   ::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* ____installMethod;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12556 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

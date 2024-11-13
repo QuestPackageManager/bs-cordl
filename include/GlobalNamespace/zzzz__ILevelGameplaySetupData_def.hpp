@@ -43,7 +43,7 @@ public:
   ILevelGameplaySetupData(ILevelGameplaySetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13053 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

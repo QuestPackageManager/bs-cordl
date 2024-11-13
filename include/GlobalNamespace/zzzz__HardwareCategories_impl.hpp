@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::HardwareCategory (*)()>(
     &::GlobalNamespace::HardwareCategories::GetHardwareCategoryWithEditorOverride)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26bbe04;
+  constexpr static std::size_t addrs = 0x26c7bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::HardwareCategory (*)()>(&::GlobalNamespace::HardwareCategories::GetHardwareCategory)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26bbe08;
+  constexpr static std::size_t addrs = 0x26c7bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HardwareCategories*>::get(),

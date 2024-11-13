@@ -102,16 +102,16 @@ public:
   __declspec(property(get = __cordl_internal_get_wordInfo, put = __cordl_internal_set_wordInfo)) ::ArrayW<::UnityEngine::TextCore::Text::WordInfo, ::Array<::UnityEngine::TextCore::Text::WordInfo>*>
       wordInfo;
 
-  /// @brief Method Clear, addr 0x48d49b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x48e90cc, size 0x60, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearLineInfo, addr 0x48d4ad0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ClearLineInfo, addr 0x48e91e8, size 0x170, virtual false, abstract: false, final false
   inline void ClearLineInfo();
 
-  /// @brief Method ClearMeshInfo, addr 0x48d4a14, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ClearMeshInfo, addr 0x48e912c, size 0xbc, virtual false, abstract: false, final false
   inline void ClearMeshInfo(bool updateMesh);
 
-  /// @brief Method ClearPageInfo, addr 0x48d4c40, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ClearPageInfo, addr 0x48e9358, size 0x98, virtual false, abstract: false, final false
   inline void ClearPageInfo();
 
   static inline ::UnityEngine::TextCore::Text::TextInfo* New_ctor();
@@ -218,7 +218,7 @@ public:
 
   constexpr void __cordl_internal_set_wordInfo(::ArrayW<::UnityEngine::TextCore::Text::WordInfo, ::Array<::UnityEngine::TextCore::Text::WordInfo>*> value);
 
-  /// @brief Method .ctor, addr 0x48d3108, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48e7820, size 0x138, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector2 getStaticF_s_InfinityVectorNegative();
@@ -292,7 +292,7 @@ public:
   bool ___hasMultipleColors;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15246 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

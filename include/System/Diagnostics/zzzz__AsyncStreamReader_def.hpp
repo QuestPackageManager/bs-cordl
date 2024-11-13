@@ -66,13 +66,13 @@ public:
   /// @brief Field syncObject, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_syncObject, put = __cordl_internal_set_syncObject)) ::System::Object* syncObject;
 
-  /// @brief Method CancelOperation, addr 0x43b6d2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CancelOperation, addr 0x43cb444, size 0xc, virtual false, abstract: false, final false
   inline void CancelOperation();
 
-  /// @brief Method Close, addr 0x43b69ac, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x43cb0c4, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x43b69bc, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x43cb0d4, size 0x370, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   constexpr ::System::IAsyncResult*& __cordl_internal_get_asyncReadResult();
@@ -171,7 +171,7 @@ public:
   ::System::IAsyncResult* ___asyncReadResult;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9238 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

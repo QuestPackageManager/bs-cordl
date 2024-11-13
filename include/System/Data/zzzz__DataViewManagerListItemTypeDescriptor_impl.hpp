@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataView* (::System::Data::DataViewManagerListItemTypeDescriptor::*)(::System::Data::DataTable*)>(
     &::System::Data::DataViewManagerListItemTypeDescriptor::GetDataView)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x40f2fe8;
+  constexpr static std::size_t addrs = 0x4107700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

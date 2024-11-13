@@ -60,21 +60,21 @@ public:
   /// @brief Field propertyId, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_propertyId, put = __cordl_internal_set_propertyId)) int32_t propertyId;
 
-  /// @brief Method Awake, addr 0x3b24798, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b39bd8, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LazyInit, addr 0x3b24828, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x3b39c68, size 0x30, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::GlobalNamespace::SpectrogramRowPropertyAnimator* New_ctor();
 
-  /// @brief Method SetMultiplier, addr 0x3b248fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMultiplier, addr 0x3b39d3c, size 0x8, virtual false, abstract: false, final false
   inline void SetMultiplier(float_t value);
 
-  /// @brief Method SetProperty, addr 0x3b24764, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x3b39ba4, size 0x34, virtual true, abstract: false, final false
   inline void SetProperty();
 
-  /// @brief Method Update, addr 0x3b24858, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b39c98, size 0xa4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__animationCurve();
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b24904, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b39d44, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -176,7 +176,7 @@ public:
   ::UnityW<::GlobalNamespace::BasicSpectrogramData> ____spectrogramData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

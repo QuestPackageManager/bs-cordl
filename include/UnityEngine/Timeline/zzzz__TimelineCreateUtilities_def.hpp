@@ -57,7 +57,7 @@ public:
 
   static inline ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <GenerateUniqueActorName>b__0, addr 0x47b788c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <GenerateUniqueActorName>b__0, addr 0x47cbfa4, size 0x30, virtual false, abstract: false, final false
   inline bool _GenerateUniqueActorName_b__0(::UnityEngine::ScriptableObject* x);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x47b73a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47cbac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   ::StringW ___name;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15860 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -110,7 +110,7 @@ public:
 
   static inline ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1* New_ctor();
 
-  /// @brief Method <GenerateUniqueActorName>b__1, addr 0x47b78bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <GenerateUniqueActorName>b__1, addr 0x47cbfd4, size 0x30, virtual false, abstract: false, final false
   inline bool _GenerateUniqueActorName_b__1(::UnityEngine::ScriptableObject* x);
 
   constexpr ::StringW const& __cordl_internal_get_result() const;
@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set_result(::StringW value);
 
-  /// @brief Method .ctor, addr 0x47b73b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47cbac8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   ::StringW ___result;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15853 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -162,19 +162,19 @@ public:
 
   using __c__DisplayClass0_1 = ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1;
 
-  /// @brief Method CreateAnimationClipForTrack, addr 0x47b73b8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CreateAnimationClipForTrack, addr 0x47cbad0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::AnimationClip> CreateAnimationClipForTrack(::StringW name, ::UnityEngine::Timeline::TrackAsset* track, bool isLegacy);
 
-  /// @brief Method GenerateUniqueActorName, addr 0x47b70c4, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method GenerateUniqueActorName, addr 0x47cb7dc, size 0x2e4, virtual false, abstract: false, final false
   static inline ::StringW GenerateUniqueActorName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* tracks, ::StringW name);
 
-  /// @brief Method RemoveAssetFromObject, addr 0x47b6fc8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RemoveAssetFromObject, addr 0x47cb6e0, size 0x9c, virtual false, abstract: false, final false
   static inline void RemoveAssetFromObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);
 
-  /// @brief Method SaveAssetIntoObject, addr 0x47b6ee0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SaveAssetIntoObject, addr 0x47cb5f8, size 0xe8, virtual false, abstract: false, final false
   static inline void SaveAssetIntoObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);
 
-  /// @brief Method ValidateParentTrack, addr 0x47b7570, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method ValidateParentTrack, addr 0x47cbc88, size 0x31c, virtual false, abstract: false, final false
   static inline bool ValidateParentTrack(::UnityEngine::Timeline::TrackAsset* parent, ::System::Type* childType);
 
 protected:
@@ -192,7 +192,7 @@ public:
   TimelineCreateUtilities(TimelineCreateUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

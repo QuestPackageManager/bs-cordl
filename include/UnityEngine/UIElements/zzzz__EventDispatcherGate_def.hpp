@@ -38,19 +38,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*();
 
-  /// @brief Method Dispose, addr 0x49a6c24, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49bb33c, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Equals, addr 0x49a6cd0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x49bb3e8, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x49a6cc4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x49bb3dc, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::EventDispatcherGate other);
 
-  /// @brief Method GetHashCode, addr 0x49a6d4c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x49bb464, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x49a6bac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bb2c4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventDispatcher* d);
 
   /// @brief Convert to "::System::IDisposable"
@@ -70,7 +70,7 @@ public:
   ::UnityEngine::UIElements::EventDispatcher* m_Dispatcher;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5748 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

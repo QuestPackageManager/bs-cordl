@@ -60,109 +60,109 @@ public:
 
   static inline ::UnityEngine::AudioReverbZone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47e5108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47f9820, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HFReference, addr 0x47e4e10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_HFReference, addr 0x47f9528, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_HFReference();
 
-  /// @brief Method get_LFReference, addr 0x47e4e98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_LFReference, addr 0x47f95b0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_LFReference();
 
-  /// @brief Method get_decayHFRatio, addr 0x47e4b78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_decayHFRatio, addr 0x47f9290, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_decayHFRatio();
 
-  /// @brief Method get_decayTime, addr 0x47e4af0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_decayTime, addr 0x47f9208, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_decayTime();
 
-  /// @brief Method get_density, addr 0x47e5080, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_density, addr 0x47f9798, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_density();
 
-  /// @brief Method get_diffusion, addr 0x47e4ff8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_diffusion, addr 0x47f9710, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_diffusion();
 
-  /// @brief Method get_maxDistance, addr 0x47e4868, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maxDistance, addr 0x47f8f80, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_maxDistance();
 
-  /// @brief Method get_minDistance, addr 0x47e47e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_minDistance, addr 0x47f8ef8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_minDistance();
 
-  /// @brief Method get_reflections, addr 0x47e4c00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_reflections, addr 0x47f9318, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_reflections();
 
-  /// @brief Method get_reflectionsDelay, addr 0x47e4c80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionsDelay, addr 0x47f9398, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_reflectionsDelay();
 
-  /// @brief Method get_reverb, addr 0x47e4d08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_reverb, addr 0x47f9420, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_reverb();
 
-  /// @brief Method get_reverbDelay, addr 0x47e4d88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_reverbDelay, addr 0x47f94a0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_reverbDelay();
 
-  /// @brief Method get_reverbPreset, addr 0x47e48f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_reverbPreset, addr 0x47f9008, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioReverbPreset get_reverbPreset();
 
-  /// @brief Method get_room, addr 0x47e4970, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_room, addr 0x47f9088, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_room();
 
-  /// @brief Method get_roomHF, addr 0x47e49f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_roomHF, addr 0x47f9108, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_roomHF();
 
-  /// @brief Method get_roomLF, addr 0x47e4a70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_roomLF, addr 0x47f9188, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_roomLF();
 
-  /// @brief Method get_roomRolloffFactor, addr 0x47e4f20, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_roomRolloffFactor, addr 0x47f9638, size 0x70, virtual false, abstract: false, final false
   inline float_t get_roomRolloffFactor();
 
-  /// @brief Method set_HFReference, addr 0x47e4e4c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_HFReference, addr 0x47f9564, size 0x4c, virtual false, abstract: false, final false
   inline void set_HFReference(float_t value);
 
-  /// @brief Method set_LFReference, addr 0x47e4ed4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_LFReference, addr 0x47f95ec, size 0x4c, virtual false, abstract: false, final false
   inline void set_LFReference(float_t value);
 
-  /// @brief Method set_decayHFRatio, addr 0x47e4bb4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_decayHFRatio, addr 0x47f92cc, size 0x4c, virtual false, abstract: false, final false
   inline void set_decayHFRatio(float_t value);
 
-  /// @brief Method set_decayTime, addr 0x47e4b2c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_decayTime, addr 0x47f9244, size 0x4c, virtual false, abstract: false, final false
   inline void set_decayTime(float_t value);
 
-  /// @brief Method set_density, addr 0x47e50bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_density, addr 0x47f97d4, size 0x4c, virtual false, abstract: false, final false
   inline void set_density(float_t value);
 
-  /// @brief Method set_diffusion, addr 0x47e5034, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_diffusion, addr 0x47f974c, size 0x4c, virtual false, abstract: false, final false
   inline void set_diffusion(float_t value);
 
-  /// @brief Method set_maxDistance, addr 0x47e48a4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_maxDistance, addr 0x47f8fbc, size 0x4c, virtual false, abstract: false, final false
   inline void set_maxDistance(float_t value);
 
-  /// @brief Method set_minDistance, addr 0x47e481c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_minDistance, addr 0x47f8f34, size 0x4c, virtual false, abstract: false, final false
   inline void set_minDistance(float_t value);
 
-  /// @brief Method set_reflections, addr 0x47e4c3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_reflections, addr 0x47f9354, size 0x44, virtual false, abstract: false, final false
   inline void set_reflections(int32_t value);
 
-  /// @brief Method set_reflectionsDelay, addr 0x47e4cbc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionsDelay, addr 0x47f93d4, size 0x4c, virtual false, abstract: false, final false
   inline void set_reflectionsDelay(float_t value);
 
-  /// @brief Method set_reverb, addr 0x47e4d44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_reverb, addr 0x47f945c, size 0x44, virtual false, abstract: false, final false
   inline void set_reverb(int32_t value);
 
-  /// @brief Method set_reverbDelay, addr 0x47e4dc4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_reverbDelay, addr 0x47f94dc, size 0x4c, virtual false, abstract: false, final false
   inline void set_reverbDelay(float_t value);
 
-  /// @brief Method set_reverbPreset, addr 0x47e492c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_reverbPreset, addr 0x47f9044, size 0x44, virtual false, abstract: false, final false
   inline void set_reverbPreset(::UnityEngine::AudioReverbPreset value);
 
-  /// @brief Method set_room, addr 0x47e49ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_room, addr 0x47f90c4, size 0x44, virtual false, abstract: false, final false
   inline void set_room(int32_t value);
 
-  /// @brief Method set_roomHF, addr 0x47e4a2c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_roomHF, addr 0x47f9144, size 0x44, virtual false, abstract: false, final false
   inline void set_roomHF(int32_t value);
 
-  /// @brief Method set_roomLF, addr 0x47e4aac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_roomLF, addr 0x47f91c4, size 0x44, virtual false, abstract: false, final false
   inline void set_roomLF(int32_t value);
 
-  /// @brief Method set_roomRolloffFactor, addr 0x47e4f90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_roomRolloffFactor, addr 0x47f96a8, size 0x68, virtual false, abstract: false, final false
   inline void set_roomRolloffFactor(float_t value);
 
 protected:
@@ -180,7 +180,7 @@ public:
   AudioReverbZone(AudioReverbZone const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17782 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

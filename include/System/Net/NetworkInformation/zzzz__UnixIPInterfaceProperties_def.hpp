@@ -63,14 +63,14 @@ public:
 
   constexpr void __cordl_internal_set_iface(::System::Net::NetworkInformation::UnixNetworkInterface* value);
 
-  /// @brief Method .ctor, addr 0x4373070, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4387788, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::UnixNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_ns();
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_search();
 
-  /// @brief Method get_UnicastAddresses, addr 0x4377750, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method get_UnicastAddresses, addr 0x438be68, size 0x268, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
 
   static inline void setStaticF_ns(::System::Text::RegularExpressions::Regex* value);
@@ -98,7 +98,7 @@ public:
   ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* ___addresses;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9781 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

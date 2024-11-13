@@ -42,10 +42,10 @@ public:
 
   __declspec(property(get = get_intEventsList)) ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::IntFxEventBaseData*>* intEventsList;
 
-  /// @brief Method AddEventAndGetIndex, addr 0x26c7f54, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AddEventAndGetIndex, addr 0x26d3c44, size 0xbc, virtual false, abstract: false, final false
   inline int32_t AddEventAndGetIndex(::BeatmapSaveDataVersion3::FloatFxEventBaseData* e);
 
-  /// @brief Method AddEventAndGetIndex, addr 0x26c8010, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AddEventAndGetIndex, addr 0x26d3d00, size 0xbc, virtual false, abstract: false, final false
   inline int32_t AddEventAndGetIndex(::BeatmapSaveDataVersion3::IntFxEventBaseData* e);
 
   static inline ::BeatmapSaveDataVersion3::FxEventsCollection* New_ctor();
@@ -65,17 +65,17 @@ public:
 
   constexpr void __cordl_internal_set__il(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::IntFxEventBaseData*>* value);
 
-  /// @brief Method .ctor, addr 0x26c7db4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d3aa4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26c7e78, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d3b68, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::IntFxEventBaseData*>* intFxEventBaseData,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>* floatFxEventBaseData);
 
-  /// @brief Method get_floatEventsList, addr 0x26c7dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatEventsList, addr 0x26d3a9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>* get_floatEventsList();
 
-  /// @brief Method get_intEventsList, addr 0x26c7da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intEventsList, addr 0x26d3a94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::IntFxEventBaseData*>* get_intEventsList();
 
 protected:
@@ -99,7 +99,7 @@ public:
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>* ____fl;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13364 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

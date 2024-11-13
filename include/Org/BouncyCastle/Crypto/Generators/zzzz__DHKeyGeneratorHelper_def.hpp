@@ -31,15 +31,15 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* Instance;
 
-  /// @brief Method CalculatePrivate, addr 0x23415d4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method CalculatePrivate, addr 0x234c67c, size 0x1c4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculatePrivate(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method CalculatePublic, addr 0x2341798, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CalculatePublic, addr 0x234c840, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculatePublic(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23417cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x234c874, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* getStaticF_Instance();

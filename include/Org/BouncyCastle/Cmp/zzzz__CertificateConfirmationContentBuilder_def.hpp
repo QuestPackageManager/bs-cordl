@@ -49,11 +49,11 @@ public:
   /// @brief Field sigAlgFinder, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sigAlgFinder, put = setStaticF_sigAlgFinder)) ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* sigAlgFinder;
 
-  /// @brief Method AddAcceptedCertificate, addr 0x260bc2c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method AddAcceptedCertificate, addr 0x2616cd4, size 0x128, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* AddAcceptedCertificate(::Org::BouncyCastle::X509::X509Certificate* certHolder,
                                                                                                  ::Org::BouncyCastle::Math::BigInteger* certReqId);
 
-  /// @brief Method Build, addr 0x260bd54, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x2616dfc, size 0x460, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* Build();
 
   static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* New_ctor();
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* value);
 
-  /// @brief Method .ctor, addr 0x260bb4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2616bf4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x260bba8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2616c50, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder);
 
   static inline ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* getStaticF_sigAlgFinder();

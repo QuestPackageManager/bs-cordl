@@ -74,7 +74,7 @@ public:
 
   static inline ::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method <PostInitRegistration>b__0, addr 0x4900a08, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <PostInitRegistration>b__0, addr 0x4915120, size 0x2c, virtual false, abstract: false, final false
   inline void _PostInitRegistration_b__0();
 
   constexpr ::UnityEngine::UIElements::BaseTreeViewController*& __cordl_internal_get___4__this();
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_treeItem(::UnityEngine::UIElements::ReusableTreeViewItem* value);
 
-  /// @brief Method .ctor, addr 0x48fdd38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4912450, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   ::UnityEngine::UIElements::ReusableTreeViewItem* ___treeItem;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5440 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -164,80 +164,80 @@ public:
   __declspec(property(get = __cordl_internal_get_m_WrapperInsertionList,
                       put = __cordl_internal_set_m_WrapperInsertionList)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>* m_WrapperInsertionList;
 
-  /// @brief Method CanChangeExpandedState, addr 0x48ffdb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanChangeExpandedState, addr 0x49144cc, size 0x8, virtual true, abstract: false, final false
   inline bool CanChangeExpandedState(int32_t id);
 
-  /// @brief Method CollapseItem, addr 0x4900638, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CollapseItem, addr 0x4914d50, size 0x174, virtual false, abstract: false, final false
   inline void CollapseItem(int32_t id, bool collapseAllChildren);
 
-  /// @brief Method CollapseItemByIndex, addr 0x48fe6ac, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method CollapseItemByIndex, addr 0x4912dc4, size 0x530, virtual false, abstract: false, final false
   inline void CollapseItemByIndex(int32_t index, bool collapseAllChildren);
 
-  /// @brief Method CreateWrappers, addr 0x48ffe20, size 0x630, virtual false, abstract: false, final false
+  /// @brief Method CreateWrappers, addr 0x4914538, size 0x630, virtual false, abstract: false, final false
   inline void CreateWrappers(::System::Collections::Generic::IEnumerable_1<int32_t>* treeViewItemIds, int32_t depth,
                              ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>*> wrappers);
 
-  /// @brief Method Exists, addr 0x48ff974, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x491408c, size 0x58, virtual false, abstract: false, final false
   inline bool Exists(int32_t id);
 
-  /// @brief Method ExpandItem, addr 0x4900450, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ExpandItem, addr 0x4914b68, size 0x1e8, virtual false, abstract: false, final false
   inline void ExpandItem(int32_t id, bool expandAllChildren, bool refresh);
 
-  /// @brief Method ExpandItemByIndex, addr 0x48febdc, size 0xb14, virtual false, abstract: false, final false
+  /// @brief Method ExpandItemByIndex, addr 0x49132f4, size 0xb14, virtual false, abstract: false, final false
   inline void ExpandItemByIndex(int32_t index, bool expandAllChildren, bool refresh);
 
   /// @brief Method GetAllItemIds, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetAllItemIds(::System::Collections::Generic::IEnumerable_1<int32_t>* rootIds);
 
-  /// @brief Method GetChildIndexForId, addr 0x48ff9cc, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method GetChildIndexForId, addr 0x49140e4, size 0x380, virtual false, abstract: false, final false
   inline int32_t GetChildIndexForId(int32_t id);
 
   /// @brief Method GetChildrenIds, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetChildrenIds(int32_t id);
 
-  /// @brief Method GetChildrenIdsByIndex, addr 0x48fe4c0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetChildrenIdsByIndex, addr 0x4912bd8, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetChildrenIdsByIndex(int32_t index);
 
-  /// @brief Method GetIdForIndex, addr 0x48ff7e8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetIdForIndex, addr 0x4913f00, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetIdForIndex(int32_t index);
 
-  /// @brief Method GetIndentationDepth, addr 0x48ffd4c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetIndentationDepth, addr 0x4914464, size 0x68, virtual false, abstract: false, final false
   inline int32_t GetIndentationDepth(int32_t id);
 
-  /// @brief Method GetIndentationDepthByIndex, addr 0x48fd8bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetIndentationDepthByIndex, addr 0x4911fd4, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetIndentationDepthByIndex(int32_t index);
 
-  /// @brief Method GetIndexForId, addr 0x48ff6f0, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetIndexForId, addr 0x4913e08, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetIndexForId(int32_t id);
 
   /// @brief Method GetParentId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetParentId(int32_t id);
 
-  /// @brief Method GetRootItemIds, addr 0x48fd49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRootItemIds, addr 0x4911bb4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetRootItemIds();
 
-  /// @brief Method HasChildren, addr 0x48ff8ec, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method HasChildren, addr 0x4914004, size 0x88, virtual true, abstract: false, final false
   inline bool HasChildren(int32_t id);
 
-  /// @brief Method HasChildrenByIndex, addr 0x48fd9c8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HasChildrenByIndex, addr 0x49120e0, size 0xa8, virtual false, abstract: false, final false
   inline bool HasChildrenByIndex(int32_t index);
 
-  /// @brief Method InvokeBindItem, addr 0x48fd7ac, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method InvokeBindItem, addr 0x4911ec4, size 0x110, virtual true, abstract: false, final false
   inline void InvokeBindItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem, int32_t index);
 
-  /// @brief Method InvokeDestroyItem, addr 0x48fda88, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method InvokeDestroyItem, addr 0x49121a0, size 0x12c, virtual true, abstract: false, final false
   inline void InvokeDestroyItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
 
-  /// @brief Method InvokeMakeItem, addr 0x48fd4a4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method InvokeMakeItem, addr 0x4911bbc, size 0xb0, virtual true, abstract: false, final false
   inline void InvokeMakeItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
 
-  /// @brief Method IsExpanded, addr 0x48ffdbc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsExpanded, addr 0x49144d4, size 0x64, virtual false, abstract: false, final false
   inline bool IsExpanded(int32_t id);
 
-  /// @brief Method IsExpandedByIndex, addr 0x48fd8f4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method IsExpandedByIndex, addr 0x491200c, size 0xb4, virtual false, abstract: false, final false
   inline bool IsExpandedByIndex(int32_t index);
 
-  /// @brief Method IsIndexValid, addr 0x48ff88c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsIndexValid, addr 0x4913fa4, size 0x60, virtual false, abstract: false, final false
   inline bool IsIndexValid(int32_t index);
 
   /// @brief Method Move, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -245,22 +245,22 @@ public:
 
   static inline ::UnityEngine::UIElements::BaseTreeViewController* New_ctor();
 
-  /// @brief Method OnItemPointerUp, addr 0x48fdea0, size 0x620, virtual false, abstract: false, final false
+  /// @brief Method OnItemPointerUp, addr 0x49125b8, size 0x620, virtual false, abstract: false, final false
   inline void OnItemPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OnToggleValueChanged, addr 0x48fe564, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnToggleValueChanged, addr 0x4912c7c, size 0x148, virtual false, abstract: false, final false
   inline void OnToggleValueChanged(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
-  /// @brief Method PostInitRegistration, addr 0x48fd554, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method PostInitRegistration, addr 0x4911c6c, size 0x258, virtual false, abstract: false, final false
   inline void PostInitRegistration(::UnityEngine::UIElements::ReusableTreeViewItem* treeItem);
 
-  /// @brief Method RaiseItemParentChanged, addr 0x49007b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RaiseItemParentChanged, addr 0x4914ecc, size 0x1c, virtual false, abstract: false, final false
   inline void RaiseItemParentChanged(int32_t id, int32_t newParentId);
 
-  /// @brief Method RebuildTree, addr 0x48fcf78, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method RebuildTree, addr 0x4911690, size 0x474, virtual false, abstract: false, final false
   inline void RebuildTree();
 
-  /// @brief Method RegenerateWrappers, addr 0x48fd3ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method RegenerateWrappers, addr 0x4911b04, size 0xb0, virtual false, abstract: false, final false
   inline void RegenerateWrappers();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>*& __cordl_internal_get_m_ItemWrappers();
@@ -293,24 +293,24 @@ public:
 
   constexpr void __cordl_internal_set_m_WrapperInsertionList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>* value);
 
-  /// @brief Method .ctor, addr 0x49007d0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4914ee8, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_K_ExpandItemByIndex();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_CreateWrappers();
 
-  /// @brief Method get_baseTreeView, addr 0x48fcea8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_baseTreeView, addr 0x49115c0, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseTreeView* get_baseTreeView();
 
-  /// @brief Method get_itemsSource, addr 0x48fcf24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_itemsSource, addr 0x491163c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_itemsSource();
 
   static inline void setStaticF_K_ExpandItemByIndex(::Unity::Profiling::ProfilerMarker value);
 
   static inline void setStaticF_k_CreateWrappers(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_itemsSource, addr 0x48fcf2c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method set_itemsSource, addr 0x4911644, size 0x4c, virtual true, abstract: false, final false
   inline void set_itemsSource(::System::Collections::IList* value);
 
 protected:
@@ -343,7 +343,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>* ___m_WrapperInsertionList;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

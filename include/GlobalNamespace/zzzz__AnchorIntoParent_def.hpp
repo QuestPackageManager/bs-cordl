@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::AnchorIntoParent* New_ctor();
 
-  /// @brief Method Start, addr 0x3954f74, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3968d3c, size 0x100, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__parentTransform() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3955074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3968e3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   ::UnityEngine::Vector3 ____positionOffset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18743 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

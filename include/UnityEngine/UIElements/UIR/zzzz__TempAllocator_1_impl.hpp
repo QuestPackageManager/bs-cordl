@@ -76,7 +76,7 @@ template <typename T>
 constexpr void
 UnityEngine::UIElements::UIR::TempAllocator_1<T>::__cordl_internal_set_m_Excess(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__TempAllocator_1__Page<T>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Excess)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Excess, value);
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::UIR::TempAllocator_1<T>::__cordl_internal_get_m_NextExcessSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

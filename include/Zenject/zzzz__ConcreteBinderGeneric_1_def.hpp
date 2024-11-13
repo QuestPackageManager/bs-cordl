@@ -107,7 +107,7 @@ public:
   ::System::Type* ___concreteType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11974 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -166,7 +166,7 @@ public:
   ConcreteBinderGeneric_1(ConcreteBinderGeneric_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11975 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

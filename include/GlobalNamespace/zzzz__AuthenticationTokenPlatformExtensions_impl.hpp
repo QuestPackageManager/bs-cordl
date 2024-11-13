@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__AuthenticationToken__Platform (*)(::GlobalNamespace::__UserInfo__Platform)>(
     &::GlobalNamespace::AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4007804;
+  constexpr static std::size_t addrs = 0x401be94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__UserInfo__Platform (*)(::GlobalNamespace::__AuthenticationToken__Platform)>(
     &::GlobalNamespace::AuthenticationTokenPlatformExtensions::ToUserInfoPlatform)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x400782c;
+  constexpr static std::size_t addrs = 0x401bebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

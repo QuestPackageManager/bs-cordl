@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::LimitedInputStream::*)(::System::IO::Stream*, int32_t)>(
     &::Org::BouncyCastle::Asn1::LimitedInputStream::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25f6bd0;
+  constexpr static std::size_t addrs = 0x2601c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::LimitedInputStream::*)()>(
     &::Org::BouncyCastle::Asn1::LimitedInputStream::get_Limit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f6bfc;
+  constexpr static std::size_t addrs = 0x2601ca4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::LimitedInputStream::*)(bool)>(
     &::Org::BouncyCastle::Asn1::LimitedInputStream::SetParentEofDetect)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x25f6c04;
+  constexpr static std::size_t addrs = 0x2601cac;
 
   inline static ::MethodInfo const* methodInfo() {
 

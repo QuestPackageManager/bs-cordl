@@ -30,10 +30,10 @@ namespace UnityEngine {
 class CORDL_TYPE SetupCoroutine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeMember, addr 0x4832988, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InvokeMember, addr 0x48470a0, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeMember(::System::Object* behaviour, ::StringW name, ::System::Object* variable);
 
-  /// @brief Method InvokeMoveNext, addr 0x483285c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method InvokeMoveNext, addr 0x4846f74, size 0x12c, virtual false, abstract: false, final false
   static inline void InvokeMoveNext(::System::Collections::IEnumerator* enumerator, ::System::IntPtr returnValueAddress);
 
 protected:
@@ -51,7 +51,7 @@ public:
   SetupCoroutine(SetupCoroutine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

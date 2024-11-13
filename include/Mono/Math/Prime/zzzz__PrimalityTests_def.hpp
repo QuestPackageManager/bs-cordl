@@ -26,10 +26,10 @@ namespace Mono::Math::Prime {
 class CORDL_TYPE PrimalityTests : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSPPRounds, addr 0x3bdd4a8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetSPPRounds, addr 0x3bf1b38, size 0x18c, virtual false, abstract: false, final false
   static inline int32_t GetSPPRounds(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
-  /// @brief Method RabinMillerTest, addr 0x3bdd634, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method RabinMillerTest, addr 0x3bf1cc4, size 0x298, virtual false, abstract: false, final false
   static inline bool RabinMillerTest(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
 protected:
@@ -47,7 +47,7 @@ public:
   PrimalityTests(PrimalityTests const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15946 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

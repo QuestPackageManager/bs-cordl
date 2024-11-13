@@ -102,7 +102,7 @@ public:
   __BeatmapDataSortedListForTypeAndIds_1____c(__BeatmapDataSortedListForTypeAndIds_1____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -208,7 +208,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* ____itemToNodeMap;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

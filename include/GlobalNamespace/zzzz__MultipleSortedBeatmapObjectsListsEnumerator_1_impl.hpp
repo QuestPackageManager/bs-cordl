@@ -27,7 +27,7 @@ GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectL
 template <typename T>
 constexpr void GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>::__cordl_internal_set__dataList(::System::Collections::Generic::IReadOnlyList_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dataList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____dataList, value);
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>::__cordl_internal_get__typeId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -159,7 +159,7 @@ template <typename T>
 constexpr void
 GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4<T>::__cordl_internal_set___4__this(::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 constexpr ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*&
@@ -177,7 +177,7 @@ template <typename T>
 constexpr void GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4<T>::__cordl_internal_set__node_5__2(
     ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____node_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____node_5__2, value);
 }
 template <typename T>
 inline ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4<T>*
@@ -248,7 +248,7 @@ template <typename T>
 constexpr void GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>::__cordl_internal_set__priorityQueue(
     ::Priority_Queue::StablePriorityQueue_1<::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____priorityQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____priorityQueue, value);
 }
 template <typename T>
 inline ::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>* GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>::New_ctor(

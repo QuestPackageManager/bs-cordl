@@ -157,7 +157,7 @@ System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TV
 template <typename TKey, typename TValue>
 constexpr void System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>::__cordl_internal_set__collection(::System::Collections::Generic::ICollection_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____collection, value);
 }
 template <typename TKey, typename TValue> constexpr ::System::Object*& System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>::__cordl_internal_get__syncRoot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -171,7 +171,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::
 template <typename TKey, typename TValue>
 constexpr void System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>::__cordl_internal_set__syncRoot(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____syncRoot, value);
 }
 template <typename TKey, typename TValue>
 inline ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>*
@@ -350,7 +350,7 @@ System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, 
 template <typename TKey, typename TValue>
 constexpr void System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>::__cordl_internal_set__collection(::System::Collections::Generic::ICollection_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____collection, value);
 }
 template <typename TKey, typename TValue> constexpr ::System::Object*& System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>::__cordl_internal_get__syncRoot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -365,7 +365,7 @@ System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, 
 template <typename TKey, typename TValue>
 constexpr void System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>::__cordl_internal_set__syncRoot(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____syncRoot, value);
 }
 template <typename TKey, typename TValue>
 inline ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>*
@@ -578,7 +578,7 @@ System::Collections::ObjectModel::ReadOnlyDictionary_2<TKey, TValue>::__cordl_in
 template <typename TKey, typename TValue>
 constexpr void System::Collections::ObjectModel::ReadOnlyDictionary_2<TKey, TValue>::__cordl_internal_set_m_dictionary(::System::Collections::Generic::IDictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_dictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_dictionary, value);
 }
 template <typename TKey, typename TValue> constexpr ::System::Object*& System::Collections::ObjectModel::ReadOnlyDictionary_2<TKey, TValue>::__cordl_internal_get__syncRoot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -591,7 +591,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::
 }
 template <typename TKey, typename TValue> constexpr void System::Collections::ObjectModel::ReadOnlyDictionary_2<TKey, TValue>::__cordl_internal_set__syncRoot(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____syncRoot, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>*& System::Collections::ObjectModel::ReadOnlyDictionary_2<TKey, TValue>::__cordl_internal_get__keys() {
@@ -608,7 +608,7 @@ template <typename TKey, typename TValue>
 constexpr void
 System::Collections::ObjectModel::ReadOnlyDictionary_2<TKey, TValue>::__cordl_internal_set__keys(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____keys, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>*&
@@ -626,7 +626,7 @@ template <typename TKey, typename TValue>
 constexpr void
 System::Collections::ObjectModel::ReadOnlyDictionary_2<TKey, TValue>::__cordl_internal_set__values(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____values, value);
 }
 template <typename TKey, typename TValue>
 inline ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* System::Collections::ObjectModel::ReadOnlyDictionary_2<TKey, TValue>::get_Keys() {

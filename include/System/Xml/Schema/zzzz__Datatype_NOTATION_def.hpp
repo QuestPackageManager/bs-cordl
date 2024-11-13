@@ -83,43 +83,43 @@ public:
   /// @brief Field listValueType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType)) ::System::Type* listValueType;
 
-  /// @brief Method CreateValueConverter, addr 0x43364c0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x434abd8, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_NOTATION* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x43365f4, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x434ad0c, size 0x238, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method VerifySchemaValid, addr 0x433682c, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method VerifySchemaValid, addr 0x434af44, size 0x20c, virtual true, abstract: false, final false
   inline void VerifySchemaValid(::System::Xml::Schema::XmlSchemaObjectTable* notations, ::System::Xml::Schema::XmlSchemaObject* caller);
 
-  /// @brief Method .ctor, addr 0x432e7d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4342eec, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Type* getStaticF_atomicValueType();
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x43365ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x434ad04, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_FacetsChecker, addr 0x43364cc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x434abe4, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_ListValueType, addr 0x4336594, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x434acac, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TokenizedType, addr 0x433652c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x434ac44, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_TypeCode, addr 0x4336524, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x434ac3c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValidRestrictionFlags, addr 0x4336534, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidRestrictionFlags, addr 0x434ac4c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
 
-  /// @brief Method get_ValueType, addr 0x433653c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x434ac54, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);
@@ -141,7 +141,7 @@ public:
   Datatype_NOTATION(Datatype_NOTATION const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7530 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7535 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__intervalBit_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x47ad82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c1f44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_intervalBit, addr 0x47ae194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intervalBit, addr 0x47c28ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_intervalBit();
 
   /// @brief Method get_intervalEnd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -73,7 +73,7 @@ public:
   /// @brief Method set_enable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_enable(bool value);
 
-  /// @brief Method set_intervalBit, addr 0x47ae19c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intervalBit, addr 0x47c28b4, size 0x8, virtual false, abstract: false, final false
   inline void set_intervalBit(int32_t value);
 
 protected:
@@ -94,7 +94,7 @@ public:
   int32_t ____intervalBit_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15807 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

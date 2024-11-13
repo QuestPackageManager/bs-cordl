@@ -28,7 +28,7 @@ public:
   /// @brief Field _innerBinder, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__innerBinder, put = __cordl_internal_set__innerBinder)) ::System::Dynamic::GetMemberBinder* _innerBinder;
 
-  /// @brief Method FallbackGetMember, addr 0x3e539e4, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method FallbackGetMember, addr 0x3e68074, size 0x148, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
   static inline ::Newtonsoft::Json::Utilities::NoThrowGetBinderMember* New_ctor(::System::Dynamic::GetMemberBinder* innerBinder);
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__innerBinder(::System::Dynamic::GetMemberBinder* value);
 
-  /// @brief Method .ctor, addr 0x3e539ac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6803c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Dynamic::GetMemberBinder* innerBinder);
 
 protected:
@@ -60,7 +60,7 @@ public:
   ::System::Dynamic::GetMemberBinder* ____innerBinder;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10197 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

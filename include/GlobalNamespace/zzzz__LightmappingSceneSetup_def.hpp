@@ -52,7 +52,7 @@ public:
 
   __declspec(property(get = get_colorScheme, put = set_colorScheme)) ::UnityW<::GlobalNamespace::ColorSchemeSO> colorScheme;
 
-  /// @brief Method InstallBindings, addr 0x3ac3510, size 0xe78, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3ad70b0, size 0xec8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LightmappingSceneSetup* New_ctor();
@@ -87,13 +87,13 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelNoTransitionInstallerData(::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> value);
 
-  /// @brief Method .ctor, addr 0x3ac4454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad8044, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorScheme, addr 0x3ac3500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x3ad70a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
 
-  /// @brief Method set_colorScheme, addr 0x3ac3508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorScheme, addr 0x3ad70a8, size 0x8, virtual false, abstract: false, final false
   inline void set_colorScheme(::GlobalNamespace::ColorSchemeSO* value);
 
 protected:
@@ -126,7 +126,7 @@ public:
   ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> ____standardLevelNoTransitionInstallerData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5200 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

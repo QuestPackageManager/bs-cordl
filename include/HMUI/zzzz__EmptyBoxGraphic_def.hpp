@@ -28,10 +28,10 @@ public:
 
   static inline ::HMUI::EmptyBoxGraphic* New_ctor();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x3989fa4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x399d8fc, size 0x124, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnPopulateMesh, addr 0x3989d10, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x399d668, size 0x294, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
   constexpr float_t const& __cordl_internal_get__depth() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__depth(float_t value);
 
-  /// @brief Method .ctor, addr 0x398a0c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399da20, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   float_t ____depth;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16022 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
