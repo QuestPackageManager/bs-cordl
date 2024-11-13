@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesPlayback::*)()>(&::GlobalNamespace::PosesPlayback::Update)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3aa8e28;
+  constexpr static std::size_t addrs = 0x3abc9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesPlayback*>::get(), "Update",
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*>, ::GlobalNamespace::PosesRecordingData*, ::GlobalNamespace::IBeatSaberLogger*)>(
     &::GlobalNamespace::PosesPlayback::Init)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x3aa6fb8;
+  constexpr static std::size_t addrs = 0x3abab54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesPlayback::*)()>(&::GlobalNamespace::PosesPlayback::StartPlayback)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3aa7654;
+  constexpr static std::size_t addrs = 0x3abb1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesPlayback*>::get(), "StartPlayback",
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesPlayback::*)(float_t)>(&::GlobalNamespace::PosesPlayback::PlaybackTick)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x3aa8e44;
+  constexpr static std::size_t addrs = 0x3abc9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesPlayback::*)()>(&::GlobalNamespace::PosesPlayback::StopPlayback)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3aa75cc;
+  constexpr static std::size_t addrs = 0x3abb168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesPlayback*>::get(), "StopPlayback",
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesPlayback::*)()>(&::GlobalNamespace::PosesPlayback::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa91e4;
+  constexpr static std::size_t addrs = 0x3abcd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosesPlayback*>::get(), ".ctor",

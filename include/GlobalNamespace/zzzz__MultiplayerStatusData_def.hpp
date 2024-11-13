@@ -84,7 +84,7 @@ public:
   static ::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus const Online;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13017 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2693d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269f944, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -149,7 +149,7 @@ public:
   ::StringW ___message;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13018 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -188,7 +188,7 @@ public:
   constexpr void __cordl_internal_set_localizations(
       ::ArrayW<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*, ::Array<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*>*> value);
 
-  /// @brief Method .ctor, addr 0x2693d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269f93c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -209,7 +209,7 @@ public:
   ::ArrayW<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*, ::Array<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*>*> ___localizations;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13019 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -308,43 +308,43 @@ public:
 
   constexpr void __cordl_internal_set_user_message(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value);
 
-  /// @brief Method .ctor, addr 0x2693d14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269f934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maintenanceEndTime, addr 0x2693ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maintenanceEndTime, addr 0x269f8ec, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_maintenanceEndTime();
 
-  /// @brief Method get_maintenanceStartTime, addr 0x2693cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maintenanceStartTime, addr 0x269f8dc, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_maintenanceStartTime();
 
-  /// @brief Method get_minimumAppVersion, addr 0x2693cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minimumAppVersion, addr 0x269f8cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_minimumAppVersion();
 
-  /// @brief Method get_useGamelift, addr 0x2693cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useGamelift, addr 0x269f90c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useGamelift();
 
-  /// @brief Method get_useXPlatformAuth, addr 0x2693d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useXPlatformAuth, addr 0x269f920, size 0x8, virtual false, abstract: false, final false
   inline bool get_useXPlatformAuth();
 
-  /// @brief Method get_userMessage, addr 0x2693cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userMessage, addr 0x269f8fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage* get_userMessage();
 
-  /// @brief Method set_maintenanceEndTime, addr 0x2693cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maintenanceEndTime, addr 0x269f8f4, size 0x8, virtual false, abstract: false, final false
   inline void set_maintenanceEndTime(int64_t value);
 
-  /// @brief Method set_maintenanceStartTime, addr 0x2693cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maintenanceStartTime, addr 0x269f8e4, size 0x8, virtual false, abstract: false, final false
   inline void set_maintenanceStartTime(int64_t value);
 
-  /// @brief Method set_minimumAppVersion, addr 0x2693cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minimumAppVersion, addr 0x269f8d4, size 0x8, virtual false, abstract: false, final false
   inline void set_minimumAppVersion(::StringW value);
 
-  /// @brief Method set_useGamelift, addr 0x2693cf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useGamelift, addr 0x269f914, size 0xc, virtual false, abstract: false, final false
   inline void set_useGamelift(bool value);
 
-  /// @brief Method set_useXPlatformAuth, addr 0x2693d08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useXPlatformAuth, addr 0x269f928, size 0xc, virtual false, abstract: false, final false
   inline void set_useXPlatformAuth(bool value);
 
-  /// @brief Method set_userMessage, addr 0x2693ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userMessage, addr 0x269f904, size 0x8, virtual false, abstract: false, final false
   inline void set_userMessage(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value);
 
 protected:
@@ -383,7 +383,7 @@ public:
   bool ___use_xplatform_auth;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13020 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

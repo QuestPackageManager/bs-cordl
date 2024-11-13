@@ -35,10 +35,10 @@ namespace UnityEngine::Playables {
 class CORDL_TYPE ScriptPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x4856d4c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x486b464, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key, ::System::Type* type);
 
-  /// @brief Method CreateScriptOutput, addr 0x4856e08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptOutput, addr 0x486b520, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateScriptOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
 protected:
@@ -56,7 +56,7 @@ public:
   ScriptPlayableBinding(ScriptPlayableBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11253 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,17 +35,17 @@ public:
   /// @brief Field targets, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_targets, put = __cordl_internal_set_targets)) ::Org::BouncyCastle::Asn1::Asn1Sequence* targets;
 
-  /// @brief Method GetInstance, addr 0x25d04e8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25db590, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Targets* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetTargets, addr 0x25d07e8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetTargets, addr 0x25db890, size 0x110, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> GetTargets();
 
   static inline ::Org::BouncyCastle::Asn1::X509::Targets* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> targets);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Targets* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets);
 
-  /// @brief Method ToAsn1Object, addr 0x25d08f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25db9a0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_targets();
@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set_targets(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x25d0744, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25db7ec, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> targets);
 
-  /// @brief Method .ctor, addr 0x25d07c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25db868, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets);
 
 protected:

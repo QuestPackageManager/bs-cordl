@@ -59,10 +59,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__FlyingScoreEffect__Pool* New_ctor();
 
-  /// @brief Method OnDespawned, addr 0x3b08748, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method OnDespawned, addr 0x3b1dad8, size 0x60, virtual true, abstract: false, final false
   inline void OnDespawned(::GlobalNamespace::FlyingScoreEffect* item);
 
-  /// @brief Method .ctor, addr 0x3b087a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1db38, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   __FlyingScoreEffect__Pool(__FlyingScoreEffect__Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4200 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,24 +126,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
   constexpr operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept;
 
-  /// @brief Method HandleCutScoreBufferDidChange, addr 0x3b085a0, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method HandleCutScoreBufferDidChange, addr 0x3b1d930, size 0x4c, virtual true, abstract: false, final true
   inline void HandleCutScoreBufferDidChange(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x3b085ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x3b1d97c, size 0x4, virtual true, abstract: false, final true
   inline void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method InitAndPresent, addr 0x3b07fac, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x3b1d33c, size 0x4e4, virtual false, abstract: false, final false
   inline void InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Color color);
 
-  /// @brief Method ManualUpdate, addr 0x3b08518, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3b1d8a8, size 0x88, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingScoreEffect* New_ctor();
 
-  /// @brief Method RefreshScore, addr 0x3b08490, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RefreshScore, addr 0x3b1d820, size 0x88, virtual false, abstract: false, final false
   inline void RefreshScore(int32_t score, int32_t maxPossibleCutScore);
 
-  /// @brief Method UnregisterCallbacksIfNeeded, addr 0x3b085f0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallbacksIfNeeded, addr 0x3b1d980, size 0x128, virtual false, abstract: false, final false
   inline void UnregisterCallbacksIfNeeded();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -188,7 +188,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x3b08718, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1daa8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidChangeReceiver"
@@ -233,7 +233,7 @@ public:
   ::GlobalNamespace::IReadonlyCutScoreBuffer* ____cutScoreBuffer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4201 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

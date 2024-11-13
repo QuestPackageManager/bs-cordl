@@ -47,10 +47,10 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::UnixDateTimeConverter* New_ctor(bool allowPreEpoch);
 
-  /// @brief Method ReadJson, addr 0x3eccaf4, size 0x41c, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x3ee1184, size 0x41c, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x3ecc890, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x3ee0f20, size 0x264, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   constexpr bool const& __cordl_internal_get__AllowPreEpoch_k__BackingField() const;
@@ -59,20 +59,20 @@ public:
 
   constexpr void __cordl_internal_set__AllowPreEpoch_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3ecc848, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee0ed8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3ecc864, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee0ef4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool allowPreEpoch);
 
   static inline ::System::DateTime getStaticF_UnixEpoch();
 
-  /// @brief Method get_AllowPreEpoch, addr 0x3ecc834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowPreEpoch, addr 0x3ee0ec4, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowPreEpoch();
 
   static inline void setStaticF_UnixEpoch(::System::DateTime value);
 
-  /// @brief Method set_AllowPreEpoch, addr 0x3ecc83c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowPreEpoch, addr 0x3ee0ecc, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowPreEpoch(bool value);
 
 protected:
@@ -93,7 +93,7 @@ public:
   bool ____AllowPreEpoch_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

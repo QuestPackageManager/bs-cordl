@@ -43,7 +43,7 @@ public:
   static constexpr ::ConstString InterfaceV1{ u"XRInput" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6706 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6711 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

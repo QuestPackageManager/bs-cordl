@@ -36,7 +36,7 @@ public:
   // Declarations
   static inline ::TMPro::__FloatTween__FloatTweenCallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x474f920, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4764038, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   __FloatTween__FloatTweenCallback(__FloatTween__FloatTweenCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -83,46 +83,46 @@ public:
   /// @brief Convert operator to "::TMPro::ITweenValue"
   constexpr operator ::TMPro::ITweenValue*();
 
-  /// @brief Method AddOnChangedCallback, addr 0x474f898, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AddOnChangedCallback, addr 0x4763fb0, size 0x88, virtual false, abstract: false, final false
   inline void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float_t>* callback);
 
-  /// @brief Method GetDuration, addr 0x474f970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDuration, addr 0x4764088, size 0x8, virtual false, abstract: false, final false
   inline float_t GetDuration();
 
-  /// @brief Method GetIgnoreTimescale, addr 0x474f968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIgnoreTimescale, addr 0x4764080, size 0x8, virtual false, abstract: false, final false
   inline bool GetIgnoreTimescale();
 
-  /// @brief Method TweenValue, addr 0x474f7fc, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method TweenValue, addr 0x4763f14, size 0x8c, virtual true, abstract: false, final true
   inline void TweenValue(float_t floatPercentage);
 
-  /// @brief Method ValidTarget, addr 0x474f888, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ValidTarget, addr 0x4763fa0, size 0x10, virtual true, abstract: false, final true
   inline bool ValidTarget();
 
-  /// @brief Method get_duration, addr 0x474f7d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_duration, addr 0x4763ef0, size 0x8, virtual true, abstract: false, final true
   inline float_t get_duration();
 
-  /// @brief Method get_ignoreTimeScale, addr 0x474f7e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ignoreTimeScale, addr 0x4763f00, size 0x8, virtual true, abstract: false, final true
   inline bool get_ignoreTimeScale();
 
-  /// @brief Method get_startValue, addr 0x474f7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startValue, addr 0x4763ed0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startValue();
 
-  /// @brief Method get_targetValue, addr 0x474f7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetValue, addr 0x4763ee0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetValue();
 
   /// @brief Convert to "::TMPro::ITweenValue"
   constexpr ::TMPro::ITweenValue* i___TMPro__ITweenValue();
 
-  /// @brief Method set_duration, addr 0x474f7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x4763ef8, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_ignoreTimeScale, addr 0x474f7f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreTimeScale, addr 0x4763f08, size 0xc, virtual false, abstract: false, final false
   inline void set_ignoreTimeScale(bool value);
 
-  /// @brief Method set_startValue, addr 0x474f7c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startValue, addr 0x4763ed8, size 0x8, virtual false, abstract: false, final false
   inline void set_startValue(float_t value);
 
-  /// @brief Method set_targetValue, addr 0x474f7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetValue, addr 0x4763ee8, size 0x8, virtual false, abstract: false, final false
   inline void set_targetValue(float_t value);
 
   // Ctor Parameters []
@@ -150,7 +150,7 @@ public:
   bool m_IgnoreTimeScale;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14425 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

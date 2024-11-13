@@ -66,36 +66,36 @@ public:
   /// @brief Field _thread, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__thread, put = __cordl_internal_set__thread)) ::System::Threading::Thread* _thread;
 
-  /// @brief Method Abort, addr 0x39f8a7c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Abort, addr 0x3a0c3d4, size 0x34, virtual true, abstract: false, final false
   inline void Abort();
 
-  /// @brief Method CleanUp, addr 0x39f8d28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x3a0c680, size 0x4, virtual true, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method DoWork, addr 0x39f8d1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DoWork, addr 0x3a0c674, size 0x4, virtual true, abstract: false, final false
   inline void DoWork();
 
   static inline ::HoudiniEngineUnity::HEU_ThreadedTask* New_ctor();
 
-  /// @brief Method OnComplete, addr 0x39f8d20, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnComplete, addr 0x3a0c678, size 0x4, virtual true, abstract: false, final false
   inline void OnComplete();
 
-  /// @brief Method OnStopped, addr 0x39f8d24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnStopped, addr 0x3a0c67c, size 0x4, virtual true, abstract: false, final false
   inline void OnStopped();
 
-  /// @brief Method Reset, addr 0x39f8ab0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3a0c408, size 0x84, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Run, addr 0x39f8d2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3a0c684, size 0x24, virtual false, abstract: false, final false
   inline void Run();
 
-  /// @brief Method Start, addr 0x39f8600, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3a0bf58, size 0x138, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x39f88b8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Stop, addr 0x3a0c210, size 0x3c, virtual true, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x39f8b34, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3a0c48c, size 0x58, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__isActive() const;
@@ -146,40 +146,40 @@ public:
 
   constexpr void __cordl_internal_set__thread(::System::Threading::Thread* value);
 
-  /// @brief Method .ctor, addr 0x39f8d7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0c6d4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsActive, addr 0x39f8b8c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_IsActive, addr 0x3a0c4e4, size 0xc8, virtual false, abstract: false, final false
   inline bool get_IsActive();
 
-  /// @brief Method get_IsBackground, addr 0x39f8d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsBackground, addr 0x3a0c6c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsBackground();
 
-  /// @brief Method get_IsComplete, addr 0x39f88f4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_IsComplete, addr 0x3a0c24c, size 0xc8, virtual false, abstract: false, final false
   inline bool get_IsComplete();
 
-  /// @brief Method get_Priority, addr 0x39f8d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x3a0c6b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::ThreadPriority get_Priority();
 
-  /// @brief Method get_StopRequested, addr 0x39f8c54, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_StopRequested, addr 0x3a0c5ac, size 0xc8, virtual false, abstract: false, final false
   inline bool get_StopRequested();
 
-  /// @brief Method get_TaskName, addr 0x39f8d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TaskName, addr 0x3a0c6a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TaskName();
 
-  /// @brief Method set_IsActive, addr 0x39f8738, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_IsActive, addr 0x3a0c090, size 0xc0, virtual false, abstract: false, final false
   inline void set_IsActive(bool value);
 
-  /// @brief Method set_IsBackground, addr 0x39f8d70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsBackground, addr 0x3a0c6c8, size 0xc, virtual false, abstract: false, final false
   inline void set_IsBackground(bool value);
 
-  /// @brief Method set_IsComplete, addr 0x39f87f8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_IsComplete, addr 0x3a0c150, size 0xc0, virtual false, abstract: false, final false
   inline void set_IsComplete(bool value);
 
-  /// @brief Method set_Priority, addr 0x39f8d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Priority, addr 0x3a0c6b8, size 0x8, virtual false, abstract: false, final false
   inline void set_Priority(::System::Threading::ThreadPriority value);
 
-  /// @brief Method set_StopRequested, addr 0x39f89bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_StopRequested, addr 0x3a0c314, size 0xc0, virtual false, abstract: false, final false
   inline void set_StopRequested(bool value);
 
 protected:
@@ -221,7 +221,7 @@ public:
   ::StringW ____name;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11758 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

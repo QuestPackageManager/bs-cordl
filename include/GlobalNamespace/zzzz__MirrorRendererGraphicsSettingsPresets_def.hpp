@@ -81,7 +81,7 @@ public:
   static ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType const RenderedMirror;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12995 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set_stereoTextureWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x269329c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269eebc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -220,7 +220,7 @@ public:
   bool ___enableBloomPrePassFog;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -276,13 +276,13 @@ public:
   constexpr void
   __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> value);
 
-  /// @brief Method .ctor, addr 0x2693294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269eeb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_namedPresets, addr 0x269328c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_namedPresets, addr 0x269eeac, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
-  /// @brief Method get_presets, addr 0x2693284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presets, addr 0x269eea4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> get_presets();
 
 protected:
@@ -303,7 +303,7 @@ public:
   ::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> ____presets;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12997 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

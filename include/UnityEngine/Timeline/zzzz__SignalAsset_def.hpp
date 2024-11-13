@@ -27,18 +27,18 @@ public:
 
   static inline ::UnityEngine::Timeline::SignalAsset* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x47af02c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x47c3744, size 0x6c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method .ctor, addr 0x47af098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c37b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnEnableCallback, addr 0x47aee94, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method add_OnEnableCallback, addr 0x47c35ac, size 0xcc, virtual false, abstract: false, final false
   static inline void add_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* getStaticF_OnEnableCallback();
 
-  /// @brief Method remove_OnEnableCallback, addr 0x47aef60, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method remove_OnEnableCallback, addr 0x47c3678, size 0xcc, virtual false, abstract: false, final false
   static inline void remove_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
   static inline void setStaticF_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
@@ -58,7 +58,7 @@ public:
   SignalAsset(SignalAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

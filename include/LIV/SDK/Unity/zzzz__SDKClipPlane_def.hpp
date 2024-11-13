@@ -26,10 +26,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKClipPlane {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3a5e7d8, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3a72130, size 0x1dc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3a5dc64, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3a715bc, size 0x34, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKClipPlane get_empty();
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
   float_t tesselation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17284 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4c };

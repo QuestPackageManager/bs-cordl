@@ -98,7 +98,7 @@ template <typename TList, typename TElement>
 constexpr void Unity::Properties::IndexedCollectionPropertyBag_2<TList, TElement>::__cordl_internal_set_m_Property(
     ::Unity::Properties::__IndexedCollectionPropertyBag_2__ListElementProperty<TList, TElement>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Property)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Property, value);
 }
 template <typename TList, typename TElement>
 inline TList Unity::Properties::IndexedCollectionPropertyBag_2<TList, TElement>::Unity_Properties_IConstructorWithCount_TList__InstantiateWithCount(int32_t count) {

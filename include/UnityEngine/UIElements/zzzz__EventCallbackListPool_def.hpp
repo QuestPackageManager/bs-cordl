@@ -28,12 +28,12 @@ public:
   /// @brief Field m_Stack, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Stack, put = __cordl_internal_set_m_Stack)) ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* m_Stack;
 
-  /// @brief Method Get, addr 0x49ac2a4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x49c09bc, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackList* Get(::UnityEngine::UIElements::EventCallbackList* initializer);
 
   static inline ::UnityEngine::UIElements::EventCallbackListPool* New_ctor();
 
-  /// @brief Method Release, addr 0x49ac600, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x49c0d18, size 0x64, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::UIElements::EventCallbackList* element);
 
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>*& __cordl_internal_get_m_Stack();
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Stack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* value);
 
-  /// @brief Method .ctor, addr 0x49ac6d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c0de8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,7 +63,7 @@ public:
   ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* ___m_Stack;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5788 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

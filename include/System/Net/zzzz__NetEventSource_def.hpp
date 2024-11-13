@@ -60,7 +60,7 @@ public:
   static ::System::Diagnostics::Tracing::EventKeywords const EnterExit;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9514 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -81,77 +81,77 @@ public:
   /// @brief Field Log, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Log, put = setStaticF_Log)) ::System::Net::NetEventSource* Log;
 
-  /// @brief Method Associate, addr 0x4415454, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Associate, addr 0x4429b6c, size 0xd0, virtual false, abstract: false, final false
   static inline void Associate(::System::Object* first, ::System::Object* second, ::StringW memberName);
 
-  /// @brief Method Associate, addr 0x4415524, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Associate, addr 0x4429c3c, size 0x88, virtual false, abstract: false, final false
   inline void Associate(::StringW thisOrContextObject, ::StringW memberName, ::StringW first, ::StringW second);
 
-  /// @brief Method CriticalFailure, addr 0x44153d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CriticalFailure, addr 0x4429af0, size 0x7c, virtual false, abstract: false, final false
   inline void CriticalFailure(::StringW thisOrContextObject, ::StringW memberName, ::StringW message);
 
-  /// @brief Method Enter, addr 0x4414970, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Enter, addr 0x4429088, size 0x7c, virtual false, abstract: false, final false
   inline void Enter(::StringW thisOrContextObject, ::StringW memberName, ::StringW parameters);
 
-  /// @brief Method Enter, addr 0x4414eb8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Enter, addr 0x44295d0, size 0x11c, virtual false, abstract: false, final false
   static inline void Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2, ::StringW memberName);
 
-  /// @brief Method Enter, addr 0x44149ec, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Enter, addr 0x4429104, size 0xe8, virtual false, abstract: false, final false
   static inline void Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::StringW memberName);
 
-  /// @brief Method Enter, addr 0x4414440, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Enter, addr 0x4428b58, size 0xf0, virtual false, abstract: false, final false
   static inline void Enter(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName);
 
-  /// @brief Method Error, addr 0x441528c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Error, addr 0x44299a4, size 0xd0, virtual false, abstract: false, final false
   static inline void Error(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName);
 
-  /// @brief Method ErrorMessage, addr 0x441535c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ErrorMessage, addr 0x4429a74, size 0x7c, virtual false, abstract: false, final false
   inline void ErrorMessage(::StringW thisOrContextObject, ::StringW memberName, ::StringW message);
 
-  /// @brief Method Exit, addr 0x44150c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Exit, addr 0x44297dc, size 0x7c, virtual false, abstract: false, final false
   inline void Exit(::StringW thisOrContextObject, ::StringW memberName, ::StringW result);
 
-  /// @brief Method Exit, addr 0x4415140, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Exit, addr 0x4429858, size 0xd0, virtual false, abstract: false, final false
   static inline void Exit(::System::Object* thisOrContextObject, ::System::Object* arg0, ::StringW memberName);
 
-  /// @brief Method Exit, addr 0x4414fd4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Exit, addr 0x44296ec, size 0xf0, virtual false, abstract: false, final false
   static inline void Exit(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName);
 
-  /// @brief Method Fail, addr 0x4413008, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Fail, addr 0x4427720, size 0xd0, virtual false, abstract: false, final false
   static inline void Fail(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName);
 
-  /// @brief Method Format, addr 0x4414618, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x4428d30, size 0x358, virtual false, abstract: false, final false
   static inline ::StringW Format(::System::FormattableString* s);
 
-  /// @brief Method Format, addr 0x4414ad4, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x44291ec, size 0x3e4, virtual false, abstract: false, final false
   static inline ::System::Object* Format(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x44157b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4429ed0, size 0x14, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::System::Object* value);
 
-  /// @brief Method IdOf, addr 0x4414530, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IdOf, addr 0x4428c48, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW IdOf(::System::Object* value);
 
-  /// @brief Method Info, addr 0x4415210, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x4429928, size 0x7c, virtual false, abstract: false, final false
   inline void Info(::StringW thisOrContextObject, ::StringW memberName, ::StringW message);
 
-  /// @brief Method Info, addr 0x44135e4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x4427cfc, size 0xf0, virtual false, abstract: false, final false
   static inline void Info(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName);
 
-  /// @brief Method Info, addr 0x44136d4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x4427dec, size 0xd0, virtual false, abstract: false, final false
   static inline void Info(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName);
 
   static inline ::System::Net::NetEventSource* New_ctor();
 
-  /// @brief Method WriteEvent, addr 0x44155ac, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method WriteEvent, addr 0x4429cc4, size 0x20c, virtual false, abstract: false, final false
   inline void WriteEvent(int32_t eventId, ::StringW arg1, ::StringW arg2, ::StringW arg3, ::StringW arg4);
 
-  /// @brief Method .ctor, addr 0x44157cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4429ee4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::NetEventSource* getStaticF_Log();
 
-  /// @brief Method get_IsEnabled, addr 0x4413580, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_IsEnabled, addr 0x4427c98, size 0x64, virtual false, abstract: false, final false
   static inline bool get_IsEnabled();
 
   static inline void setStaticF_Log(::System::Net::NetEventSource* value);
@@ -171,7 +171,7 @@ public:
   NetEventSource(NetEventSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9515 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

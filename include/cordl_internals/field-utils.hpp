@@ -86,6 +86,18 @@ template <typename T, internal::NTTPString name, auto klass_resolver> [[nodiscar
   ::il2cpp_functions::field_static_get_value(field, static_cast<void*>(&val));
   return val;
 }
+
+/// @brief method to set a field for a generic container type
+template <typename T> CORDL_HIDDEN void setInstanceField(Il2CppObject* owner, T* pointer, std::type_identity_t<T>& value) {
+  // if a ref type, use wbarrier
+  if constexpr (::il2cpp_utils::il2cpp_reference_type<T>) {
+    il2cpp_functions::gc_wbarrier_set_field(owner, static_cast<void**>(static_cast<void*>(pointer)), cordl_internals::convert(std::forward<T>(value)));
+  } else {
+    // if a value type, normal assignment wokrs
+    *pointer = value;
+  }
+}
+
 #pragma endregion // static field getters
 } // namespace cordl_internals
 } // end anonymous namespace

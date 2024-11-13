@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__AnimatedSwitchView__ColorBlock::*)()>(&::HMUI::__AnimatedSwitchView__ColorBlock::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x224edfc;
+  constexpr static std::size_t addrs = 0x2259d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView__ColorBlock*>::get(), ".ctor",
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__AnimatedSwitchView__GetColorDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::HMUI::__AnimatedSwitchView__GetColorDelegate::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x224eabc;
+  constexpr static std::size_t addrs = 0x22599fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView__GetColorDelegate::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
     &::HMUI::__AnimatedSwitchView__GetColorDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x224ee14;
+  constexpr static std::size_t addrs = 0x2259d54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::HMUI::__AnimatedSwitchView__GetColorDelegate::*)(::HMUI::__AnimatedSwitchView__ColorBlock*, ::System::AsyncCallback*, ::System::Object*)>(
         &::HMUI::__AnimatedSwitchView__GetColorDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x224ee28;
+  constexpr static std::size_t addrs = 0x2259d68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView__GetColorDelegate::*)(::System::IAsyncResult*)>(
     &::HMUI::__AnimatedSwitchView__GetColorDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x224ee48;
+  constexpr static std::size_t addrs = 0x2259d88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__AnimatedSwitchView____c::*)()>(&::HMUI::__AnimatedSwitchView____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224eed0;
+  constexpr static std::size_t addrs = 0x2259e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__AnimatedSwitchView____c*>::get(), ".ctor",
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView____c::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
     &::HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x224eed8;
+  constexpr static std::size_t addrs = 0x2259e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView____c::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
     &::HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x224eef4;
+  constexpr static std::size_t addrs = 0x2259e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView____c::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
     &::HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x224ef10;
+  constexpr static std::size_t addrs = 0x2259e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView____c::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
     &::HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x224ef2c;
+  constexpr static std::size_t addrs = 0x2259e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView____c::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
     &::HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_4)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x224ef48;
+  constexpr static std::size_t addrs = 0x2259e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::__AnimatedSwitchView____c::*)(::HMUI::__AnimatedSwitchView__ColorBlock*)>(
     &::HMUI::__AnimatedSwitchView____c::_LerpColors_b__31_5)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x224ef64;
+  constexpr static std::size_t addrs = 0x2259ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -426,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)()>(&::HMUI::AnimatedSwitchView::Awake)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x224df1c;
+  constexpr static std::size_t addrs = 0x2258e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), "Awake",
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)()>(&::HMUI::AnimatedSwitchView::Start)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x224df6c;
+  constexpr static std::size_t addrs = 0x2258eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), "Start",
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)()>(&::HMUI::AnimatedSwitchView::OnDestroy)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x224e654;
+  constexpr static std::size_t addrs = 0x2259594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), "OnDestroy",
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)()>(&::HMUI::AnimatedSwitchView::Update)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x224e79c;
+  constexpr static std::size_t addrs = 0x22596dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), "Update",
@@ -478,7 +478,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)(float_t)>(&::HMUI::AnimatedSwitchView::LerpPosition)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x224e5f0;
+  constexpr static std::size_t addrs = 0x2259530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)(float_t)>(&::HMUI::AnimatedSwitchView::LerpStretch)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x224ea3c;
+  constexpr static std::size_t addrs = 0x225997c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -506,7 +506,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)(float_t, float_t, float_t)>(&::HMUI::AnimatedSwitchView::LerpColors)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x224e10c;
+  constexpr static std::size_t addrs = 0x225904c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Color (::HMUI::AnimatedSwitchView::*)(float_t, float_t, float_t, ::HMUI::__AnimatedSwitchView__GetColorDelegate*)>(&::HMUI::AnimatedSwitchView::LerpColor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x224ebbc;
+  constexpr static std::size_t addrs = 0x2259afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -538,7 +538,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)(bool)>(&::HMUI::AnimatedSwitchView::HandleOnValueChanged)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x224ed64;
+  constexpr static std::size_t addrs = 0x2259ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -553,7 +553,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)(::HMUI::__ToggleWithCallbacks__SelectionState)>(
     &::HMUI::AnimatedSwitchView::HandleStateDidChange)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x224ed8c;
+  constexpr static std::size_t addrs = 0x2259ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -567,7 +567,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AnimatedSwitchView::*)()>(&::HMUI::AnimatedSwitchView::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x224eddc;
+  constexpr static std::size_t addrs = 0x2259d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AnimatedSwitchView*>::get(), ".ctor",

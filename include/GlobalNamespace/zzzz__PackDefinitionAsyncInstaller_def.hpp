@@ -58,10 +58,10 @@ public:
 
   static inline ::GlobalNamespace::__PackDefinitionAsyncInstaller____c* New_ctor();
 
-  /// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x268d9d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x26995d8, size 0x18, virtual false, abstract: false, final false
   inline int32_t _LoadResourcesBeforeInstall_b__3_0(::GlobalNamespace::PackDefinitionSO* asset);
 
-  /// @brief Method .ctor, addr 0x268d9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26995d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__PackDefinitionAsyncInstaller____c* getStaticF___9();
@@ -87,7 +87,7 @@ public:
   __PackDefinitionAsyncInstaller____c(__PackDefinitionAsyncInstaller____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12954 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -111,15 +111,15 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x268d7e8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26993ec, size 0x74, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadPackDefinitionListAsync, addr 0x268d85c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LoadPackDefinitionListAsync, addr 0x2699460, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>>
   LoadPackDefinitionListAsync();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x268d68c, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x2699290, size 0x15c, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* assets,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
@@ -131,10 +131,10 @@ public:
 
   constexpr void __cordl_internal_set__packDefinitions(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method .ctor, addr 0x268d8e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26994e4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x268d64c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x2699250, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -155,7 +155,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ____packDefinitions;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12955 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

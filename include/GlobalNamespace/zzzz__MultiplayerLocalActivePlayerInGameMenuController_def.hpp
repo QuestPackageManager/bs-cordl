@@ -86,39 +86,39 @@ public:
   /// @brief Field requestsDisconnectEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_requestsDisconnectEvent, put = __cordl_internal_set_requestsDisconnectEvent)) ::System::Action* requestsDisconnectEvent;
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressDisconnectButton, addr 0x3b31e38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressDisconnectButton, addr 0x3b478f0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressDisconnectButton();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressGiveUpButton, addr 0x3b31dfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressGiveUpButton, addr 0x3b478b4, size 0x3c, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressGiveUpButton();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressResumeButton, addr 0x3b31df8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressResumeButton, addr 0x3b478b0, size 0x4, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressResumeButton();
 
-  /// @brief Method HandleInputFocusWasCaptured, addr 0x3b31df4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusWasCaptured, addr 0x3b478ac, size 0x4, virtual false, abstract: false, final false
   inline void HandleInputFocusWasCaptured();
 
-  /// @brief Method HandleMenuButtonTriggered, addr 0x3b31df0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButtonTriggered, addr 0x3b478a8, size 0x4, virtual false, abstract: false, final false
   inline void HandleMenuButtonTriggered();
 
-  /// @brief Method HandleStateChanged, addr 0x3b31e54, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3b4790c, size 0x1c8, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
-  /// @brief Method HideInGameMenu, addr 0x3b313b4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method HideInGameMenu, addr 0x3b46e6c, size 0x184, virtual false, abstract: false, final false
   inline void HideInGameMenu();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x3b31c28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x3b476e0, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDestroy, addr 0x3b3170c, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b471c4, size 0x348, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ShowInGameMenu, addr 0x3b31c34, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ShowInGameMenu, addr 0x3b476ec, size 0x128, virtual false, abstract: false, final false
   inline void ShowInGameMenu();
 
-  /// @brief Method Start, addr 0x3b310ec, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b46ba4, size 0x2c8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -187,25 +187,25 @@ public:
 
   constexpr void __cordl_internal_set_requestsDisconnectEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b3201c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b47ad4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didGiveUpEvent, addr 0x3b30e44, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didGiveUpEvent, addr 0x3b468fc, size 0x9c, virtual false, abstract: false, final false
   inline void add_didGiveUpEvent(::System::Action* value);
 
-  /// @brief Method add_requestsDisconnectEvent, addr 0x3b30f7c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_requestsDisconnectEvent, addr 0x3b46a34, size 0x9c, virtual false, abstract: false, final false
   inline void add_requestsDisconnectEvent(::System::Action* value);
 
-  /// @brief Method get_canChangeMenuState, addr 0x3b310bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_canChangeMenuState, addr 0x3b46b74, size 0x30, virtual false, abstract: false, final false
   inline bool get_canChangeMenuState();
 
-  /// @brief Method get_gameMenuIsShown, addr 0x3b310b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameMenuIsShown, addr 0x3b46b6c, size 0x8, virtual false, abstract: false, final false
   inline bool get_gameMenuIsShown();
 
-  /// @brief Method remove_didGiveUpEvent, addr 0x3b30ee0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didGiveUpEvent, addr 0x3b46998, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didGiveUpEvent(::System::Action* value);
 
-  /// @brief Method remove_requestsDisconnectEvent, addr 0x3b31018, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_requestsDisconnectEvent, addr 0x3b46ad0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_requestsDisconnectEvent(::System::Action* value);
 
 protected:
@@ -256,7 +256,7 @@ public:
   float_t ____menuChangedStateTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4418 };
 
   /// @brief Field kChangeStateDelay offset 0xffffffff size 0x4
   static constexpr float_t kChangeStateDelay{ 0.05 };

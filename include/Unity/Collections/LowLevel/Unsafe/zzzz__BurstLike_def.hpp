@@ -60,7 +60,7 @@ public:
   ::cordl_internals::Ptr<void> _buffer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10575 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -77,7 +77,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE __BurstLike__SharedStatic : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x47e8ed4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x47fd5ec, size 0x74, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetOrCreateSharedStaticInternal(int64_t getHashCode64, int64_t getSubHashCode64, uint32_t sizeOf, uint32_t alignment);
 
 protected:
@@ -95,7 +95,7 @@ public:
   __BurstLike__SharedStatic(__BurstLike__SharedStatic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10576 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -130,7 +130,7 @@ public:
   BurstLike(BurstLike const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10577 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ template <typename TCreatedType, typename TTraits> constexpr TTraits const& Unit
 }
 template <typename TCreatedType, typename TTraits> constexpr void UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>::__cordl_internal_set_m_Traits(TTraits value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Traits)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Traits, value);
 }
 template <typename TCreatedType, typename TTraits>
 inline ::UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>* UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>::New_ctor() {

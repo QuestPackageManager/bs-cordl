@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Configuration::ConfigurationSection::*)(::System::Xml::XmlReader*)>(
     &::System::Configuration::ConfigurationSection::DeserializeSection)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x401445c;
+  constexpr static std::size_t addrs = 0x4028b74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Configuration::ConfigurationSection::*)()>(
     &::System::Configuration::ConfigurationSection::IsModified)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4014494;
+  constexpr static std::size_t addrs = 0x4028bac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Configuration::ConfigurationSection::*)()>(
     &::System::Configuration::ConfigurationSection::ResetModified)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x40144cc;
+  constexpr static std::size_t addrs = 0x4028be4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Configuration::ConfigurationSection::*)(
     ::System::Configuration::ConfigurationElement*, ::StringW, ::System::Configuration::ConfigurationSaveMode)>(&::System::Configuration::ConfigurationSection::SerializeSection)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4014504;
+  constexpr static std::size_t addrs = 0x4028c1c;
 
   inline static ::MethodInfo const* methodInfo() {
 

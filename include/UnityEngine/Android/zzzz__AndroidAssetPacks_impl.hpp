@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_1<::UnityEngine::Android::AndroidAssetPackInfo*>*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x47d41e8;
+  constexpr static std::size_t addrs = 0x47e8900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::*)(
     ::StringW, int32_t, int64_t, int64_t, int32_t, int32_t)>(&::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerDownloadStatusCallback::onStatusUpdate)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x47d426c;
+  constexpr static std::size_t addrs = 0x47e8984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback::*)(
     ::System::Action_1<::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult*>*)>(&::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x47d4378;
+  constexpr static std::size_t addrs = 0x47e8a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback::*)(bool)>(
     &::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerMobileDataConfirmationCallback::onMobileDataConfirmationResult)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x47d43f8;
+  constexpr static std::size_t addrs = 0x47e8b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,7 +174,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<uint64_t, ::ArrayW<::UnityEngine::Android::AndroidAssetPackState*, ::Array<::UnityEngine::Android::AndroidAssetPackState*>*>>*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x47d447c;
+  constexpr static std::size_t addrs = 0x47e8b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +194,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int64_t, ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::UnityEngine::Android::__AndroidAssetPacks__AssetPackManagerStatusQueryCallback::onStatusResult)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x47d456c;
+  constexpr static std::size_t addrs = 0x47e8c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (*)()>(&::UnityEngine::Android::AndroidAssetPacks::GetAssetPackManager)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x47d3e44;
+  constexpr static std::size_t addrs = 0x47e855c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidAssetPacks*>::get(),

@@ -88,7 +88,7 @@ public:
   static ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode const Path;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14228 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -139,12 +139,12 @@ public:
 
   __declspec(property(get = get_polyEditMode, put = set_polyEditMode)) ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode polyEditMode;
 
-  /// @brief Method IsSnapEnabled, addr 0x46a61a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsSnapEnabled, addr 0x46ba8b8, size 0x8, virtual false, abstract: false, final false
   inline bool IsSnapEnabled();
 
   static inline ::UnityEngine::ProBuilder::PolyShape* New_ctor();
 
-  /// @brief Method SetControlPoints, addr 0x46a6074, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetControlPoints, addr 0x46ba78c, size 0x5c, virtual false, abstract: false, final false
   inline void SetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points);
 
   constexpr bool const& __cordl_internal_get_isOnGrid() const;
@@ -183,34 +183,34 @@ public:
 
   constexpr void __cordl_internal_set_m_Points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x46a61a8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ba8c0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_controlPoints, addr 0x46a5ff8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_controlPoints, addr 0x46ba710, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector3>* get_controlPoints();
 
-  /// @brief Method get_extrude, addr 0x46a60d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extrude, addr 0x46ba7e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_extrude();
 
-  /// @brief Method get_flipNormals, addr 0x46a60f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flipNormals, addr 0x46ba808, size 0x8, virtual false, abstract: false, final false
   inline bool get_flipNormals();
 
-  /// @brief Method get_mesh, addr 0x46a6104, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x46ba81c, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
 
-  /// @brief Method get_polyEditMode, addr 0x46a60e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_polyEditMode, addr 0x46ba7f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode get_polyEditMode();
 
-  /// @brief Method set_extrude, addr 0x46a60d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_extrude, addr 0x46ba7f0, size 0x8, virtual false, abstract: false, final false
   inline void set_extrude(float_t value);
 
-  /// @brief Method set_flipNormals, addr 0x46a60f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_flipNormals, addr 0x46ba810, size 0xc, virtual false, abstract: false, final false
   inline void set_flipNormals(bool value);
 
-  /// @brief Method set_mesh, addr 0x46a6198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x46ba8b0, size 0x8, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
 
-  /// @brief Method set_polyEditMode, addr 0x46a60e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_polyEditMode, addr 0x46ba800, size 0x8, virtual false, abstract: false, final false
   inline void set_polyEditMode(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode value);
 
 protected:
@@ -246,7 +246,7 @@ public:
   bool ___isOnGrid;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14229 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

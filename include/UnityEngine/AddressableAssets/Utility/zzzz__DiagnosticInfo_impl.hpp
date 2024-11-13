@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo::*)(::StringW, ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType, int32_t, int32_t)>(
     &::UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x447fc70;
+  constexpr static std::size_t addrs = 0x4494388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Utility::DiagnosticInfo::*)()>(
     &::UnityEngine::AddressableAssets::Utility::DiagnosticInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447fcb4;
+  constexpr static std::size_t addrs = 0x44943cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

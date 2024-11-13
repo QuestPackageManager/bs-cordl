@@ -79,7 +79,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Image__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4972528, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4986c40, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   __Image__UxmlFactory(__Image__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5572 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -115,7 +115,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Image__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4972570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4986c88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,7 +133,7 @@ public:
   __Image__UxmlTraits(__Image__UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5573 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -214,40 +214,40 @@ public:
 
   __declspec(property(get = get_vectorImage, put = set_vectorImage)) ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage;
 
-  /// @brief Method ClearProperty, addr 0x4920468, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearProperty, addr 0x4934b80, size 0x3c, virtual false, abstract: false, final false
   inline void ClearProperty();
 
-  /// @brief Method DoMeasure, addr 0x491f8d0, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x4933fe8, size 0x210, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
-  /// @brief Method GetSourceRect, addr 0x491f2e4, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetSourceRect, addr 0x49339fc, size 0x1a0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetSourceRect();
 
-  /// @brief Method GetTextureDisplaySize, addr 0x491f7a0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetTextureDisplaySize, addr 0x4933eb8, size 0x130, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetTextureDisplaySize(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetTextureDisplaySize, addr 0x491f6c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetTextureDisplaySize, addr 0x4933ddc, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetTextureDisplaySize(::UnityEngine::Texture* texture);
 
   static inline ::UnityEngine::UIElements::Image* New_ctor();
 
-  /// @brief Method OnCustomStyleResolved, addr 0x491ffec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnCustomStyleResolved, addr 0x4934704, size 0x2c, virtual false, abstract: false, final false
   inline void OnCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e);
 
-  /// @brief Method OnGenerateVisualContent, addr 0x491fae0, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method OnGenerateVisualContent, addr 0x49341f8, size 0x50c, virtual false, abstract: false, final false
   inline void OnGenerateVisualContent(::UnityEngine::UIElements::MeshGenerationContext* mgc);
 
-  /// @brief Method ReadCustomProperties, addr 0x4920018, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method ReadCustomProperties, addr 0x4934730, size 0x450, virtual false, abstract: false, final false
   inline void ReadCustomProperties(::UnityEngine::UIElements::ICustomStyle* customStyleProvider);
 
   /// @brief Method SetProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T0, typename T1, typename T2> inline void SetProperty(T0 src, ByRef<T0> dst, ByRef<T1> alt0, ByRef<T2> alt1);
 
-  /// @brief Method SetScaleMode, addr 0x49204a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetScaleMode, addr 0x4934bbc, size 0x24, virtual false, abstract: false, final false
   inline void SetScaleMode(::UnityEngine::ScaleMode mode);
 
-  /// @brief Method SetTintColor, addr 0x49204c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetTintColor, addr 0x4934be0, size 0x6c, virtual false, abstract: false, final false
   inline void SetTintColor(::UnityEngine::Color color);
 
   constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get_m_Image() const;
@@ -304,7 +304,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VectorImage(::UnityW<::UnityEngine::UIElements::VectorImage> value);
 
-  /// @brief Method .ctor, addr 0x491f4fc, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4933c14, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>> getStaticF_s_ImageProperty();
@@ -319,25 +319,25 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_image, addr 0x491f01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_image, addr 0x4933734, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_image();
 
-  /// @brief Method get_scaleMode, addr 0x491f4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scaleMode, addr 0x4933bf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ScaleMode get_scaleMode();
 
-  /// @brief Method get_sourceRect, addr 0x491f2e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_sourceRect, addr 0x49339f8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_sourceRect();
 
-  /// @brief Method get_sprite, addr 0x491f108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x4933820, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method get_tintColor, addr 0x491f4e8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_tintColor, addr 0x4933c00, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_tintColor();
 
-  /// @brief Method get_uv, addr 0x491f484, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_uv, addr 0x4933b9c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_uv();
 
-  /// @brief Method get_vectorImage, addr 0x491f1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vectorImage, addr 0x493390c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VectorImage> get_vectorImage();
 
   static inline void setStaticF_s_ImageProperty(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>> value);
@@ -352,16 +352,16 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_image, addr 0x491f024, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method set_image, addr 0x493373c, size 0xe4, virtual false, abstract: false, final false
   inline void set_image(::UnityEngine::Texture* value);
 
-  /// @brief Method set_sprite, addr 0x491f110, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x4933828, size 0xe4, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_uv, addr 0x491f498, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_uv, addr 0x4933bb0, size 0x48, virtual false, abstract: false, final false
   inline void set_uv(::UnityEngine::Rect value);
 
-  /// @brief Method set_vectorImage, addr 0x491f1fc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method set_vectorImage, addr 0x4933914, size 0xe4, virtual false, abstract: false, final false
   inline void set_vectorImage(::UnityEngine::UIElements::VectorImage* value);
 
 protected:
@@ -406,7 +406,7 @@ public:
   bool ___m_TintColorIsInline;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5574 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

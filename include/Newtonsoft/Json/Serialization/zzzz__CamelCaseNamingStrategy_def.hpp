@@ -26,16 +26,16 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy* New_ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
-  /// @brief Method ResolvePropertyName, addr 0x3e63004, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x3e77694, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
-  /// @brief Method .ctor, addr 0x3e62ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7768c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e62f78, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e77608, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames);
 
-  /// @brief Method .ctor, addr 0x3e62fb0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e77640, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
 protected:
@@ -53,7 +53,7 @@ public:
   CamelCaseNamingStrategy(CamelCaseNamingStrategy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

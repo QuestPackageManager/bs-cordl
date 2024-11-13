@@ -126,7 +126,7 @@ public:
   __BindSignalFromBinder_2____c(__BindSignalFromBinder_2____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11941 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -195,7 +195,7 @@ public:
   ::Zenject::BindSignalFromBinder_2<TObject, TSignal>* _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11942 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -306,7 +306,7 @@ public:
   ::Zenject::SignalBindingBindInfo* ____signalBindInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11943 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -82,7 +82,7 @@ public:
   /// @brief Field typeInformationA, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_typeInformationA, put = __cordl_internal_set_typeInformationA)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> typeInformationA;
 
-  /// @brief Method Create, addr 0x3c8caa0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3ca1130, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap*
   Create(::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
          ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> binaryTypeEnumA,
@@ -90,12 +90,12 @@ public:
          ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo,
          ::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable);
 
-  /// @brief Method Create, addr 0x3c8ca08, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3ca1098, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap* Create(::StringW name, ::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                                                                                         ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
                                                                                         ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
 
-  /// @brief Method CreateObjectInfo, addr 0x3c8c9a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateObjectInfo, addr 0x3ca1030, size 0x68, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateObjectInfo(ByRef<::System::Runtime::Serialization::SerializationInfo*> si,
                                                                                                 ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> memberData);
 
@@ -179,14 +179,14 @@ public:
 
   constexpr void __cordl_internal_set_typeInformationA(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x3c8c6c0, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca0d50, size 0x2e0, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                     ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> binaryTypeEnumA,
                     ::ArrayW<::System::Object*, ::Array<::System::Object*>*> typeInformationA, ::ArrayW<int32_t, ::Array<int32_t>*> memberAssemIds,
                     ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
                     ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable);
 
-  /// @brief Method .ctor, addr 0x3c8c508, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca0b98, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName, ::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                     ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
                     ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);

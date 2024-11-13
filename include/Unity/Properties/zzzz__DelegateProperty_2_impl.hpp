@@ -18,7 +18,7 @@ Unity::Properties::DelegateProperty_2<TContainer, TValue>::__cordl_internal_get_
 template <typename TContainer, typename TValue>
 constexpr void Unity::Properties::DelegateProperty_2<TContainer, TValue>::__cordl_internal_set_m_Getter(::Unity::Properties::PropertyGetter_2<TContainer, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Getter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Getter, value);
 }
 template <typename TContainer, typename TValue>
 constexpr ::Unity::Properties::PropertySetter_2<TContainer, TValue>*& Unity::Properties::DelegateProperty_2<TContainer, TValue>::__cordl_internal_get_m_Setter() {
@@ -34,7 +34,7 @@ Unity::Properties::DelegateProperty_2<TContainer, TValue>::__cordl_internal_get_
 template <typename TContainer, typename TValue>
 constexpr void Unity::Properties::DelegateProperty_2<TContainer, TValue>::__cordl_internal_set_m_Setter(::Unity::Properties::PropertySetter_2<TContainer, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Setter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Setter, value);
 }
 template <typename TContainer, typename TValue> constexpr ::StringW& Unity::Properties::DelegateProperty_2<TContainer, TValue>::__cordl_internal_get__Name_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -46,7 +46,7 @@ template <typename TContainer, typename TValue> constexpr ::StringW const& Unity
 }
 template <typename TContainer, typename TValue> constexpr void Unity::Properties::DelegateProperty_2<TContainer, TValue>::__cordl_internal_set__Name_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____Name_k__BackingField, value);
 }
 template <typename TContainer, typename TValue> inline ::StringW Unity::Properties::DelegateProperty_2<TContainer, TValue>::get_Name() {
   auto* ___internal_method =

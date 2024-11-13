@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method get_Type, addr 0x42fb9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x43100e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -54,7 +54,7 @@ public:
   ::System::Type* ___type;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7391 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

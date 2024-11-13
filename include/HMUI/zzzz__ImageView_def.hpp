@@ -100,7 +100,7 @@ public:
   static ::HMUI::__ImageView__GradientDirection const Vertical;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16795 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -198,66 +198,66 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IComponentRefresher"
   constexpr operator ::GlobalNamespace::IComponentRefresher*() noexcept;
 
-  /// @brief Method AddQuad, addr 0x2252da4, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method AddQuad, addr 0x225dce4, size 0x2dc, virtual false, abstract: false, final false
   static inline void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::UnityEngine::Vector2 posMin, ::UnityEngine::Vector2 posMax, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uv0Min,
                              ::UnityEngine::Vector2 uv0Max, ::UnityEngine::Vector2 uv1Min, ::UnityEngine::Vector2 uv1Max, float_t elementWidthScale, float_t curvedUIRadius, float_t skewFactor,
                              float_t skewOffset);
 
-  /// @brief Method AddQuad, addr 0x2253080, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method AddQuad, addr 0x225dfc0, size 0x274, virtual false, abstract: false, final false
   static inline void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::UnityEngine::Vector2 posMin, ::UnityEngine::Vector2 posMax, ::UnityEngine::Color32 color, ::UnityEngine::Vector2 uvMin,
                              ::UnityEngine::Vector2 uvMax, float_t elementWidthScale, float_t curvedUIRadius);
 
-  /// @brief Method AddQuad, addr 0x22532f4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AddQuad, addr 0x225e234, size 0xe4, virtual false, abstract: false, final false
   static inline void AddQuad(::UnityEngine::UI::VertexHelper* vertexHelper, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> quadPositions, ::UnityEngine::Color32 color,
                              ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> quadUVs);
 
-  /// @brief Method AddQuadWithHorizontalGradient, addr 0x2252700, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method AddQuadWithHorizontalGradient, addr 0x225d640, size 0x3b8, virtual false, abstract: false, final false
   static inline void AddQuadWithHorizontalGradient(::UnityEngine::UI::VertexHelper* vertexHelper, ::UnityEngine::Vector2 posMin, ::UnityEngine::Vector2 posMax, ::UnityEngine::Color32 color0,
                                                    ::UnityEngine::Color32 color1, ::UnityEngine::Vector2 uv0Min, ::UnityEngine::Vector2 uv0Max, ::UnityEngine::Vector2 uv1Min,
                                                    ::UnityEngine::Vector2 uv1Max, float_t elementWidthScale, float_t curvedUIRadius, float_t skewFactor, float_t skewOffset);
 
-  /// @brief Method AddQuadWithVerticalGradient, addr 0x2252ab8, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method AddQuadWithVerticalGradient, addr 0x225d9f8, size 0x2ec, virtual false, abstract: false, final false
   static inline void AddQuadWithVerticalGradient(::UnityEngine::UI::VertexHelper* vertexHelper, ::UnityEngine::Vector2 posMin, ::UnityEngine::Vector2 posMax, ::UnityEngine::Color32 color0,
                                                  ::UnityEngine::Color32 color1, ::UnityEngine::Vector2 uv0Min, ::UnityEngine::Vector2 uv0Max, ::UnityEngine::Vector2 uv1Min,
                                                  ::UnityEngine::Vector2 uv1Max, float_t elementWidthScale, float_t curvedUIRadius, float_t skewFactor, float_t skewOffset);
 
-  /// @brief Method GenerateFilledSprite, addr 0x2251848, size 0x9b8, virtual false, abstract: false, final false
+  /// @brief Method GenerateFilledSprite, addr 0x225c788, size 0x9b8, virtual false, abstract: false, final false
   inline void GenerateFilledSprite(::UnityEngine::UI::VertexHelper* toFill, bool preserveAspect, float_t curvedUIRadius);
 
-  /// @brief Method GenerateSimpleSprite, addr 0x224f998, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method GenerateSimpleSprite, addr 0x225a8d8, size 0x6f4, virtual false, abstract: false, final false
   inline void GenerateSimpleSprite(::UnityEngine::UI::VertexHelper* vh, bool lPreserveAspect, float_t curvedUIRadius);
 
-  /// @brief Method GenerateSlicedSprite, addr 0x225008c, size 0xea4, virtual false, abstract: false, final false
+  /// @brief Method GenerateSlicedSprite, addr 0x225afcc, size 0xea4, virtual false, abstract: false, final false
   inline void GenerateSlicedSprite(::UnityEngine::UI::VertexHelper* toFill, float_t curvedUIRadius);
 
-  /// @brief Method GenerateTiledSprite, addr 0x2250f30, size 0x918, virtual false, abstract: false, final false
+  /// @brief Method GenerateTiledSprite, addr 0x225be70, size 0x918, virtual false, abstract: false, final false
   inline void GenerateTiledSprite(::UnityEngine::UI::VertexHelper* toFill, float_t curvedUIRadius);
 
-  /// @brief Method GetAdjustedBorders, addr 0x22526bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAdjustedBorders, addr 0x225d5fc, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetAdjustedBorders(::UnityEngine::Vector4 border, ::UnityEngine::Rect rect);
 
-  /// @brief Method GetDrawingDimensions, addr 0x2252210, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method GetDrawingDimensions, addr 0x225d150, size 0x414, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetDrawingDimensions(bool shouldPreserveAspect);
 
-  /// @brief Method GetNumberOfElements, addr 0x2252624, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetNumberOfElements, addr 0x225d564, size 0x98, virtual false, abstract: false, final false
   static inline int32_t GetNumberOfElements(float_t curvedUIRadius, float_t width);
 
   static inline ::HMUI::ImageView* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x224f7fc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x225a73c, size 0x28, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPopulateMesh, addr 0x224f824, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x225a764, size 0x174, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* toFill);
 
-  /// @brief Method RadialCut, addr 0x22533d8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method RadialCut, addr 0x225e318, size 0x120, virtual false, abstract: false, final false
   static inline bool RadialCut(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> xy, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> uv, float_t fill, bool invert,
                                int32_t corner);
 
-  /// @brief Method RadialCut, addr 0x22534f8, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method RadialCut, addr 0x225e438, size 0x42c, virtual false, abstract: false, final false
   static inline void RadialCut(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> xy, float_t cos, float_t sin, bool invert, int32_t corner);
 
-  /// @brief Method __Refresh, addr 0x2252200, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method __Refresh, addr 0x225d140, size 0x10, virtual true, abstract: false, final true
   inline void __Refresh();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color0() const;
@@ -326,7 +326,7 @@ public:
 
   constexpr void __cordl_internal_set__useScriptableObjectColors(bool value);
 
-  /// @brief Method .ctor, addr 0x2253924, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225e864, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector2 getStaticF_kVec2Zero();
@@ -347,22 +347,22 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> getStaticF_s_Xy();
 
-  /// @brief Method get_color, addr 0x224f5e0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x225a520, size 0x8c, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_color0, addr 0x224f69c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_color0, addr 0x225a5dc, size 0x90, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color0();
 
-  /// @brief Method get_color1, addr 0x224f74c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_color1, addr 0x225a68c, size 0x90, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color1();
 
-  /// @brief Method get_gradient, addr 0x224f67c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_gradient, addr 0x225a5bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_gradient();
 
-  /// @brief Method get_skew, addr 0x224f674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skew, addr 0x225a5b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_skew();
 
-  /// @brief Method get_useScriptableObjectColors, addr 0x224f5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useScriptableObjectColors, addr 0x225a50c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useScriptableObjectColors();
 
   /// @brief Convert to "::GlobalNamespace::IComponentRefresher"
@@ -386,19 +386,19 @@ public:
 
   static inline void setStaticF_s_Xy(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method set_color, addr 0x224f66c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_color, addr 0x225a5ac, size 0x8, virtual true, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_color0, addr 0x224f72c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_color0, addr 0x225a66c, size 0x20, virtual true, abstract: false, final false
   inline void set_color0(::UnityEngine::Color value);
 
-  /// @brief Method set_color1, addr 0x224f7dc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method set_color1, addr 0x225a71c, size 0x20, virtual true, abstract: false, final false
   inline void set_color1(::UnityEngine::Color value);
 
-  /// @brief Method set_gradient, addr 0x224f684, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method set_gradient, addr 0x225a5c4, size 0x18, virtual true, abstract: false, final false
   inline void set_gradient(bool value);
 
-  /// @brief Method set_useScriptableObjectColors, addr 0x224f5d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useScriptableObjectColors, addr 0x225a514, size 0xc, virtual false, abstract: false, final false
   inline void set_useScriptableObjectColors(bool value);
 
 protected:
@@ -449,7 +449,7 @@ public:
   ::HMUI::CurvedCanvasSettingsHelper* ____curvedCanvasSettingsHelper;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16796 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

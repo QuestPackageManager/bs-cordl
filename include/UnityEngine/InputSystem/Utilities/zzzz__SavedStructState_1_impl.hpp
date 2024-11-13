@@ -62,7 +62,7 @@ template <typename T> constexpr T const& UnityEngine::InputSystem::Utilities::Sa
 }
 template <typename T> constexpr void UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__cordl_internal_set_m_State(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_State)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_State, value);
 }
 template <typename T>
 constexpr ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*& UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__cordl_internal_get_m_RestoreAction() {
@@ -78,7 +78,7 @@ UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__cordl_internal_get
 template <typename T>
 constexpr void UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__cordl_internal_set_m_RestoreAction(::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RestoreAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_RestoreAction, value);
 }
 template <typename T> constexpr ::System::Action*& UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__cordl_internal_get_m_StaticDisposeCurrentState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -91,7 +91,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEng
 }
 template <typename T> constexpr void UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::__cordl_internal_set_m_StaticDisposeCurrentState(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_StaticDisposeCurrentState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_StaticDisposeCurrentState, value);
 }
 /// @param staticDisposeCurrentState: ::System::Action* (default: nullptr)
 template <typename T>

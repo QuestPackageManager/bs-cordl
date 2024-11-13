@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlatformMenu__eBackButtonAction (::GlobalNamespace::OVRPlatformMenu::*)()>(
     &::GlobalNamespace::OVRPlatformMenu::HandleBackButtonState)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f66f10;
+  constexpr static std::size_t addrs = 0x3f7b5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlatformMenu*>::get(),
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlatformMenu::*)()>(&::GlobalNamespace::OVRPlatformMenu::Awake)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3f66f78;
+  constexpr static std::size_t addrs = 0x3f7b608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlatformMenu*>::get(), "Awake",
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlatformMenu::*)()>(&::GlobalNamespace::OVRPlatformMenu::ShowConfirmQuitMenu)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3f670e8;
+  constexpr static std::size_t addrs = 0x3f7b778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlatformMenu*>::get(),
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRPlatformMenu::RetreatOneLevel)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3f671bc;
+  constexpr static std::size_t addrs = 0x3f7b84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlatformMenu*>::get(), "RetreatOneLevel",
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlatformMenu::*)()>(&::GlobalNamespace::OVRPlatformMenu::Update)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3f672b0;
+  constexpr static std::size_t addrs = 0x3f7b940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlatformMenu*>::get(), "Update",
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRPlatformMenu::*)()>(&::GlobalNamespace::OVRPlatformMenu::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3f672f0;
+  constexpr static std::size_t addrs = 0x3f7b980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRPlatformMenu*>::get(), ".ctor",

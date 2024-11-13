@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::XmlSchemaContentType, bool,
     bool)>(&::System::Xml::Schema::DfaContentValidator::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4327d78;
+  constexpr static std::size_t addrs = 0x433c490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DfaContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::DfaContentValidator::InitValidation)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4327fcc;
+  constexpr static std::size_t addrs = 0x433c6e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Xml::Schema::DfaContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ByRef<int32_t>)>(
         &::System::Xml::Schema::DfaContentValidator::ValidateElement)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4328030;
+  constexpr static std::size_t addrs = 0x433c748;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DfaContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::DfaContentValidator::CompleteValidation)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4328140;
+  constexpr static std::size_t addrs = 0x433c858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (
     ::System::Xml::Schema::DfaContentValidator::*)(::System::Xml::Schema::ValidationState*, bool)>(&::System::Xml::Schema::DfaContentValidator::ExpectedElements)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x4328158;
+  constexpr static std::size_t addrs = 0x433c870;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::DfaContentValidator::*)(::System::Xml::Schema::ValidationState*, bool, ::System::Xml::Schema::XmlSchemaSet*)>(
         &::System::Xml::Schema::DfaContentValidator::ExpectedParticles)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x4328324;
+  constexpr static std::size_t addrs = 0x433ca3c;
 
   inline static ::MethodInfo const* methodInfo() {
 

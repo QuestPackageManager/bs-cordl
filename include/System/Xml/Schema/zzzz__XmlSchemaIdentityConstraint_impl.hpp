@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaIdentityConstraint::*)()>(
     &::System::Xml::Schema::XmlSchemaIdentityConstraint::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4247dd8;
+  constexpr static std::size_t addrs = 0x425c4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaIdentityConstraint*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaIdentityConstraint::*)(::StringW)>(
     &::System::Xml::Schema::XmlSchemaIdentityConstraint::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4247de0;
+  constexpr static std::size_t addrs = 0x425c4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaXPath* (::System::Xml::Schema::XmlSchemaIdentityConstraint::*)()>(
     &::System::Xml::Schema::XmlSchemaIdentityConstraint::get_Selector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4247de8;
+  constexpr static std::size_t addrs = 0x425c500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaIdentityConstraint*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaIdentityConstraint::*)(::System::Xml::Schema::XmlSchemaXPath*)>(
     &::System::Xml::Schema::XmlSchemaIdentityConstraint::set_Selector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4247df0;
+  constexpr static std::size_t addrs = 0x425c508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Xml::Schema::XmlSchemaIdentityConstraint::*)()>(
     &::System::Xml::Schema::XmlSchemaIdentityConstraint::get_Fields)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4247df8;
+  constexpr static std::size_t addrs = 0x425c510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaIdentityConstraint*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaIdentityConstraint::*)()>(
     &::System::Xml::Schema::XmlSchemaIdentityConstraint::get_QualifiedName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4247e00;
+  constexpr static std::size_t addrs = 0x425c518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaIdentityConstraint*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaIdentityConstraint::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaIdentityConstraint::SetQualifiedName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4247e08;
+  constexpr static std::size_t addrs = 0x425c520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::CompiledIdentityConstraint* (::System::Xml::Schema::XmlSchemaIdentityConstraint::*)()>(
     &::System::Xml::Schema::XmlSchemaIdentityConstraint::get_CompiledConstraint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4247e10;
+  constexpr static std::size_t addrs = 0x425c528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaIdentityConstraint*>::get(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaIdentityConstraint::*)(::System::Xml::Schema::CompiledIdentityConstraint*)>(
     &::System::Xml::Schema::XmlSchemaIdentityConstraint::set_CompiledConstraint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4247e18;
+  constexpr static std::size_t addrs = 0x425c530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaIdentityConstraint::*)()>(
     &::System::Xml::Schema::XmlSchemaIdentityConstraint::get_NameAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4247e20;
+  constexpr static std::size_t addrs = 0x425c538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaIdentityConstraint::*)(::StringW)>(
     &::System::Xml::Schema::XmlSchemaIdentityConstraint::set_NameAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4247e28;
+  constexpr static std::size_t addrs = 0x425c540;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaIdentityConstraint::*)()>(
     &::System::Xml::Schema::XmlSchemaIdentityConstraint::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4247e30;
+  constexpr static std::size_t addrs = 0x425c548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaIdentityConstraint*>::get(),

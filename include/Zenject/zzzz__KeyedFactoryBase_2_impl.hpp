@@ -98,7 +98,7 @@ constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Ze
 }
 template <typename TBase, typename TKey> constexpr void Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_set__container(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____container, value);
 }
 template <typename TBase, typename TKey>
 constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>*& Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__typePairs() {
@@ -114,7 +114,7 @@ Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__typePairs() cons
 template <typename TBase, typename TKey>
 constexpr void Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_set__typePairs(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____typePairs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____typePairs, value);
 }
 template <typename TBase, typename TKey> constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>*& Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__typeMap() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -129,7 +129,7 @@ Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__typeMap() const 
 template <typename TBase, typename TKey>
 constexpr void Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_set__typeMap(::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____typeMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____typeMap, value);
 }
 template <typename TBase, typename TKey> constexpr ::System::Type*& Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_get__fallbackType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -141,7 +141,7 @@ template <typename TBase, typename TKey> constexpr ::cordl_internals::to_const_p
 }
 template <typename TBase, typename TKey> constexpr void Zenject::KeyedFactoryBase_2<TBase, TKey>::__cordl_internal_set__fallbackType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fallbackType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____fallbackType, value);
 }
 template <typename TBase, typename TKey> inline ::Zenject::DiContainer* Zenject::KeyedFactoryBase_2<TBase, TKey>::get_Container() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2<TBase, TKey>*>::get(),

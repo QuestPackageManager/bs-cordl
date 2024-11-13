@@ -13,6 +13,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HealthWarningFlowCoordinator)
+namespace BeatSaber::Init {
+class IPlatformInit;
+}
 namespace GlobalNamespace {
 class AppInitScenesTransitionSetupDataContainerSO;
 }
@@ -36,9 +39,6 @@ class HealthWarningViewController;
 }
 namespace GlobalNamespace {
 class IFileStorage;
-}
-namespace GlobalNamespace {
-class IPlatformInit;
 }
 namespace GlobalNamespace {
 class NoUserAgeWarningViewController;
@@ -135,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set_nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3b8b540, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba1108, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
 protected:
@@ -156,7 +156,7 @@ public:
   ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ___nextScenesTransitionSetupData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4775 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -177,10 +177,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b8b568, size 0x30c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ba1130, size 0x30c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b8b874, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ba143c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -211,7 +211,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4776 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -241,10 +241,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b8b880, size 0x2f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ba1448, size 0x2f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b8bb78, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ba1740, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -274,7 +274,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4777 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -346,7 +346,7 @@ public:
       _noUserAgeWarningViewController;
 
   /// @brief Field _platformInit, offset 0x128, size 0x8
-  __declspec(property(get = __cordl_internal_get__platformInit, put = __cordl_internal_set__platformInit)) ::GlobalNamespace::IPlatformInit* _platformInit;
+  __declspec(property(get = __cordl_internal_get__platformInit, put = __cordl_internal_set__platformInit)) ::BeatSaber::Init::IPlatformInit* _platformInit;
 
   /// @brief Field _playerDataModel, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
@@ -373,63 +373,63 @@ public:
   __declspec(property(get = __cordl_internal_get__viewControllerTitles,
                       put = __cordl_internal_set__viewControllerTitles)) ::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* _viewControllerTitles;
 
-  /// @brief Method CheckPlayerSensitivityFlagAndContinueFlow, addr 0x3b8b3bc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckPlayerSensitivityFlagAndContinueFlow, addr 0x3ba0f84, size 0xa0, virtual false, abstract: false, final false
   inline void CheckPlayerSensitivityFlagAndContinueFlow();
 
-  /// @brief Method DidActivate, addr 0x3b8a570, size 0x598, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3ba0138, size 0x598, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b8ab58, size 0x310, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3ba0720, size 0x310, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method EndOfLifeNoticeContinueFlow, addr 0x3b8b298, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EndOfLifeNoticeContinueFlow, addr 0x3ba0e60, size 0x38, virtual false, abstract: false, final false
   inline void EndOfLifeNoticeContinueFlow();
 
-  /// @brief Method GoToNextScene, addr 0x3b8b4a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GoToNextScene, addr 0x3ba1068, size 0x3c, virtual false, abstract: false, final false
   inline void GoToNextScene();
 
-  /// @brief Method HandleEndOfLifeNoticeViewControllerDidFinish, addr 0x3b8b2d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleEndOfLifeNoticeViewControllerDidFinish, addr 0x3ba0e98, size 0x5c, virtual false, abstract: false, final false
   inline void HandleEndOfLifeNoticeViewControllerDidFinish();
 
-  /// @brief Method HandleEulaViewControllerDidFinish, addr 0x3b8b0ec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HandleEulaViewControllerDidFinish, addr 0x3ba0cb4, size 0xc4, virtual false, abstract: false, final false
   inline void HandleEulaViewControllerDidFinish(::GlobalNamespace::__EulaViewController__ButtonType buttonType);
 
-  /// @brief Method HandleExplicitContentWarningViewControllerDidFinish, addr 0x3b8b4e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandleExplicitContentWarningViewControllerDidFinish, addr 0x3ba10a8, size 0x58, virtual false, abstract: false, final false
   inline void HandleExplicitContentWarningViewControllerDidFinish();
 
-  /// @brief Method HandleHealthWarningViewControllerDidFinish, addr 0x3b8b204, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleHealthWarningViewControllerDidFinish, addr 0x3ba0dcc, size 0x94, virtual false, abstract: false, final false
   inline void HandleHealthWarningViewControllerDidFinish();
 
-  /// @brief Method HandleNoUserAgeWarningViewControllerDidFinish, addr 0x3b8b4dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoUserAgeWarningViewControllerDidFinish, addr 0x3ba10a4, size 0x4, virtual false, abstract: false, final false
   inline void HandleNoUserAgeWarningViewControllerDidFinish();
 
-  /// @brief Method HandlePrivacyPolicyViewControllerDidFinish, addr 0x3b8b1b0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandlePrivacyPolicyViewControllerDidFinish, addr 0x3ba0d78, size 0x54, virtual false, abstract: false, final false
   inline void HandlePrivacyPolicyViewControllerDidFinish();
 
-  /// @brief Method HandleSelectLanguageViewControllerDidChangeLanguageAsync, addr 0x3b8aeec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectLanguageViewControllerDidChangeLanguageAsync, addr 0x3ba0ab4, size 0x90, virtual false, abstract: false, final false
   inline void HandleSelectLanguageViewControllerDidChangeLanguageAsync();
 
-  /// @brief Method HandleSelectLanguageViewControllerDidPressContinueButton, addr 0x3b8af7c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectLanguageViewControllerDidPressContinueButton, addr 0x3ba0b44, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSelectLanguageViewControllerDidPressContinueButton();
 
-  /// @brief Method HandleSelectRegionViewControllerDidPressContinueButton, addr 0x3b8afc8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectRegionViewControllerDidPressContinueButton, addr 0x3ba0b90, size 0x30, virtual false, abstract: false, final false
   inline void HandleSelectRegionViewControllerDidPressContinueButton(::GlobalNamespace::__SelectRegionViewController__Region region);
 
-  /// @brief Method HandleUserAgeCategoryArrived, addr 0x3b8b45c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleUserAgeCategoryArrived, addr 0x3ba1024, size 0x44, virtual false, abstract: false, final false
   inline void HandleUserAgeCategoryArrived();
 
   static inline ::GlobalNamespace::HealthWarningFlowCoordinator* New_ctor();
 
-  /// @brief Method ResolveMainViewController, addr 0x3b8ab08, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResolveMainViewController, addr 0x3ba06d0, size 0x50, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> ResolveMainViewController();
 
-  /// @brief Method ResolvePlayerAgreementsViewController, addr 0x3b8aff8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ResolvePlayerAgreementsViewController, addr 0x3ba0bc0, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> ResolvePlayerAgreementsViewController();
 
-  /// @brief Method TopViewControllerWillChange, addr 0x3b8ae68, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x3ba0a30, size 0x84, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method WaitForUserAgeCategory, addr 0x3b8b32c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method WaitForUserAgeCategory, addr 0x3ba0ef4, size 0x90, virtual false, abstract: false, final false
   inline void WaitForUserAgeCategory();
 
   constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const& __cordl_internal_get__appInitScenesTransitionSetupDataContainer() const;
@@ -472,9 +472,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::NoUserAgeWarningViewController>& __cordl_internal_get__noUserAgeWarningViewController();
 
-  constexpr ::GlobalNamespace::IPlatformInit*& __cordl_internal_get__platformInit();
+  constexpr ::BeatSaber::Init::IPlatformInit*& __cordl_internal_get__platformInit();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformInit*> const& __cordl_internal_get__platformInit() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Init::IPlatformInit*> const& __cordl_internal_get__platformInit() const;
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
@@ -524,7 +524,7 @@ public:
 
   constexpr void __cordl_internal_set__noUserAgeWarningViewController(::UnityW<::GlobalNamespace::NoUserAgeWarningViewController> value);
 
-  constexpr void __cordl_internal_set__platformInit(::GlobalNamespace::IPlatformInit* value);
+  constexpr void __cordl_internal_set__platformInit(::BeatSaber::Init::IPlatformInit* value);
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
@@ -540,7 +540,7 @@ public:
 
   constexpr void __cordl_internal_set__viewControllerTitles(::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3b8b538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba1100, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -603,7 +603,7 @@ public:
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   /// @brief Field _platformInit, offset: 0x128, size: 0x8, def value: None
-  ::GlobalNamespace::IPlatformInit* ____platformInit;
+  ::BeatSaber::Init::IPlatformInit* ____platformInit;
 
   /// @brief Field _viewControllerTitles, offset: 0x130, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* ____viewControllerTitles;
@@ -612,7 +612,7 @@ public:
   ::GlobalNamespace::__SelectRegionViewController__Region ____selectedRegion;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4778 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

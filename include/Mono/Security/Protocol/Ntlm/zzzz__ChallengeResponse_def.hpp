@@ -54,26 +54,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3bcc920, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3be0fb0, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3bcce64, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3be14f4, size 0x6c, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x3bcc880, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3be0f10, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetResponse, addr 0x3bccb28, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method GetResponse, addr 0x3be11b8, size 0x2dc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetResponse(::ArrayW<uint8_t, ::Array<uint8_t>*> pwd);
 
   static inline ::Mono::Security::Protocol::Ntlm::ChallengeResponse* New_ctor();
 
   static inline ::Mono::Security::Protocol::Ntlm::ChallengeResponse* New_ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
-  /// @brief Method PasswordToKey, addr 0x3bcc984, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method PasswordToKey, addr 0x3be1014, size 0x144, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PasswordToKey(::StringW password, int32_t position);
 
-  /// @brief Method PrepareDESKey, addr 0x3bcced0, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method PrepareDESKey, addr 0x3be1560, size 0x1f8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareDESKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key56bits, int32_t position);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__challenge() const;
@@ -100,20 +100,20 @@ public:
 
   constexpr void __cordl_internal_set__ntpwd(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3bcc2a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be0934, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3bcc314, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be09a4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_magic();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_nullEncMagic();
 
-  /// @brief Method get_LM, addr 0x3bccac8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_LM, addr 0x3be1158, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_LM();
 
-  /// @brief Method get_NT, addr 0x3bcce04, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_NT, addr 0x3be1494, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_NT();
 
   /// @brief Convert to "::System::IDisposable"
@@ -123,10 +123,10 @@ public:
 
   static inline void setStaticF_nullEncMagic(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_Challenge, addr 0x3bcc754, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method set_Challenge, addr 0x3be0de4, size 0x12c, virtual false, abstract: false, final false
   inline void set_Challenge(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_Password, addr 0x3bcc34c, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method set_Password, addr 0x3be09dc, size 0x408, virtual false, abstract: false, final false
   inline void set_Password(::StringW value);
 
 protected:
@@ -156,7 +156,7 @@ public:
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____ntpwd;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

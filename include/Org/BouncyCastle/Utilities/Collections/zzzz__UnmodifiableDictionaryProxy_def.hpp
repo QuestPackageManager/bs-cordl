@@ -50,16 +50,16 @@ public:
   /// @brief Field d, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d)) ::System::Collections::IDictionary* d;
 
-  /// @brief Method Contains, addr 0x2594034, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x259f0dc, size 0xac, virtual true, abstract: false, final false
   inline bool Contains(::System::Object* k);
 
-  /// @brief Method CopyTo, addr 0x25940e0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x259f188, size 0xb8, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x259423c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x259f2e4, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method GetValue, addr 0x2594614, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x259f6bc, size 0xa8, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* k);
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy* New_ctor(::System::Collections::IDictionary* d);
@@ -70,25 +70,25 @@ public:
 
   constexpr void __cordl_internal_set_d(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x259132c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259c3d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* d);
 
-  /// @brief Method get_Count, addr 0x2594198, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x259f240, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsFixedSize, addr 0x25942e0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixedSize, addr 0x259f388, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsSynchronized, addr 0x2594384, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x259f42c, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Keys, addr 0x25944cc, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x259f574, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_SyncRoot, addr 0x2594428, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x259f4d0, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Values, addr 0x2594570, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_Values, addr 0x259f618, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* get_Values();
 
 protected:

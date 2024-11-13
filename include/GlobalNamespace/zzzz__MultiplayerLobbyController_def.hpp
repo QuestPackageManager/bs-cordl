@@ -74,10 +74,10 @@ public:
 
   __declspec(property(get = get_lobbyActivated, put = set_lobbyActivated)) bool lobbyActivated;
 
-  /// @brief Method ActivateMultiplayerLobby, addr 0x3b92c60, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ActivateMultiplayerLobby, addr 0x3ba8828, size 0xcc, virtual false, abstract: false, final false
   inline void ActivateMultiplayerLobby();
 
-  /// @brief Method DeactivateMultiplayerLobby, addr 0x3b92d2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DeactivateMultiplayerLobby, addr 0x3ba88f4, size 0x84, virtual false, abstract: false, final false
   inline void DeactivateMultiplayerLobby();
 
   static inline ::GlobalNamespace::MultiplayerLobbyController* New_ctor();
@@ -136,13 +136,13 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x3b92db0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba8978, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lobbyActivated, addr 0x3b92c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lobbyActivated, addr 0x3ba8814, size 0x8, virtual false, abstract: false, final false
   inline bool get_lobbyActivated();
 
-  /// @brief Method set_lobbyActivated, addr 0x3b92c54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_lobbyActivated, addr 0x3ba881c, size 0xc, virtual false, abstract: false, final false
   inline void set_lobbyActivated(bool value);
 
 protected:
@@ -187,7 +187,7 @@ public:
   bool ____lobbyActivated_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4824 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

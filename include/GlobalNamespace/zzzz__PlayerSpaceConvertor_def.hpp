@@ -30,7 +30,7 @@ public:
 
   static inline ::GlobalNamespace::PlayerSpaceConvertor* New_ctor();
 
-  /// @brief Method Start, addr 0x3b6cb8c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b82680, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__worldToPlayerSpaceRotation() const;
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__worldToPlayerSpaceRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x3b6cbc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b826b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_worldToPlayerSpaceRotation, addr 0x3b6cb80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_worldToPlayerSpaceRotation, addr 0x3b82674, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldToPlayerSpaceRotation();
 
 protected:
@@ -63,7 +63,7 @@ public:
   ::UnityEngine::Quaternion ____worldToPlayerSpaceRotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4624 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

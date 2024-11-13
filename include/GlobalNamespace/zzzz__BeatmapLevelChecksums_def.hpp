@@ -55,10 +55,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __BeatmapLevelChecksums__DifficultyBeatmapChecksums {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x26830d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268ecd4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW beatmapDifficulty, ::StringW beatmapCharacteristic, ::StringW beatmapAssetChecksum, ::StringW lightshowAssetChecksum);
 
-  /// @brief Method .ctor, addr 0x26832e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268eee4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__BeatmapLevelChecksums__DifficultyBeatmapChecksums other);
 
   // Ctor Parameters []
@@ -83,7 +83,7 @@ public:
   ::StringW lightshowAssetChecksum;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12904 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -119,10 +119,10 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapLevelChecksums____c* New_ctor();
 
-  /// @brief Method <.ctor>b__6_0, addr 0x2683368, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__6_0, addr 0x268ef6c, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BeatmapLevelChecksums__DifficultyBeatmapChecksums __ctor_b__6_0(::GlobalNamespace::__BeatmapLevelChecksums__DifficultyBeatmapChecksums d);
 
-  /// @brief Method .ctor, addr 0x2683360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268ef64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BeatmapLevelChecksums____c* getStaticF___9();
@@ -149,7 +149,7 @@ public:
   __BeatmapLevelChecksums____c(__BeatmapLevelChecksums____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12905 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -173,7 +173,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapLevelChecksums____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <GetOrAddDifficultyBeatmapChecksums>b__0, addr 0x2683374, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <GetOrAddDifficultyBeatmapChecksums>b__0, addr 0x268ef78, size 0x4c, virtual false, abstract: false, final false
   inline bool _GetOrAddDifficultyBeatmapChecksums_b__0(::GlobalNamespace::__BeatmapLevelChecksums__DifficultyBeatmapChecksums difficultyBeatmapChecksums);
 
   constexpr ::StringW const& __cordl_internal_get_beatmapCharacteristic() const;
@@ -188,7 +188,7 @@ public:
 
   constexpr void __cordl_internal_set_beatmapDifficulty(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26830c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268eccc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -212,7 +212,7 @@ public:
   ::StringW ___beatmapCharacteristic;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12906 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -240,7 +240,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapLevelChecksums____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <SetDifficultyBeatmapChecksums>b__0, addr 0x26833c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <SetDifficultyBeatmapChecksums>b__0, addr 0x268efc4, size 0x4c, virtual false, abstract: false, final false
   inline bool _SetDifficultyBeatmapChecksums_b__0(::GlobalNamespace::__BeatmapLevelChecksums__DifficultyBeatmapChecksums d);
 
   constexpr ::StringW const& __cordl_internal_get_beatmapCharacteristic() const;
@@ -255,7 +255,7 @@ public:
 
   constexpr void __cordl_internal_set_beatmapDifficulty(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26832d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268eedc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -279,7 +279,7 @@ public:
   ::StringW ___beatmapCharacteristic;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12907 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -307,13 +307,13 @@ public:
 
   using __c__DisplayClass8_0 = ::GlobalNamespace::__BeatmapLevelChecksums____c__DisplayClass8_0;
 
-  /// @brief Method GetOrAddDifficultyBeatmapChecksums, addr 0x2682df8, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GetOrAddDifficultyBeatmapChecksums, addr 0x268e9fc, size 0x2d0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BeatmapLevelChecksums__DifficultyBeatmapChecksums GetOrAddDifficultyBeatmapChecksums(::StringW beatmapDifficulty, ::StringW beatmapCharacteristic);
 
-  /// @brief Method SetDifficultyBeatmapChecksums, addr 0x26830dc, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method SetDifficultyBeatmapChecksums, addr 0x268ece0, size 0x1fc, virtual false, abstract: false, final false
   inline void SetDifficultyBeatmapChecksums(::StringW beatmapDifficulty, ::StringW beatmapCharacteristic, ::StringW beatmapAssetChecksum, ::StringW lightshowAssetChecksum);
 
-  /// @brief Method .ctor, addr 0x2682ca8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268e8ac, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelChecksums other);
 
   // Ctor Parameters []
@@ -343,7 +343,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatmapLevelChecksums__DifficultyBeatmapChecksums>* difficultyBeatmapsChecksums;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12908 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

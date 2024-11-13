@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::XmlSchemaSubstitutionGroup::*)()>(
     &::System::Xml::Schema::XmlSchemaSubstitutionGroup::get_Members)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4252da4;
+  constexpr static std::size_t addrs = 0x42674bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaSubstitutionGroup*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaSubstitutionGroup::*)()>(
     &::System::Xml::Schema::XmlSchemaSubstitutionGroup::get_Examplar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4252dac;
+  constexpr static std::size_t addrs = 0x42674c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaSubstitutionGroup*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaSubstitutionGroup::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaSubstitutionGroup::set_Examplar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4252db4;
+  constexpr static std::size_t addrs = 0x42674cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaSubstitutionGroup::*)()>(
     &::System::Xml::Schema::XmlSchemaSubstitutionGroup::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4252dbc;
+  constexpr static std::size_t addrs = 0x42674d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaSubstitutionGroup*>::get(),

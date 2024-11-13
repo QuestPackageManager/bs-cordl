@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetGlobalShaderFloat::*)()>(&::GlobalNamespace::SetGlobalShaderFloat::Start)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x397d44c;
+  constexpr static std::size_t addrs = 0x3990cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetGlobalShaderFloat*>::get(), "Start",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetGlobalShaderFloat::*)()>(&::GlobalNamespace::SetGlobalShaderFloat::Update)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x397d46c;
+  constexpr static std::size_t addrs = 0x3990cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetGlobalShaderFloat*>::get(), "Update",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetGlobalShaderFloat::*)()>(&::GlobalNamespace::SetGlobalShaderFloat::OnValidate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x397d480;
+  constexpr static std::size_t addrs = 0x3990d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetGlobalShaderFloat*>::get(), "OnValidate",
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetGlobalShaderFloat::*)()>(&::GlobalNamespace::SetGlobalShaderFloat::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397d4a0;
+  constexpr static std::size_t addrs = 0x3990d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetGlobalShaderFloat*>::get(), ".ctor",

@@ -32,10 +32,10 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE ColorPage {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x49cf4c8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x49e3be0, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ColorPage Init(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method ToNativeColorPage, addr 0x49cf594, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToNativeColorPage, addr 0x49e3cac, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__MeshBuilderNative__NativeColorPage ToNativeColorPage();
 
   // Ctor Parameters []
@@ -52,7 +52,7 @@ public:
   ::UnityEngine::Color32 pageAndID;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6004 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

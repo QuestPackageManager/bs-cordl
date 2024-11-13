@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::CultureAwareComparer::*)(::System::Globalization::CultureInfo*, ::System::Globalization::CompareOptions)>(&::System::CultureAwareComparer::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3d8af7c;
+  constexpr static std::size_t addrs = 0x3d9f60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::CultureAwareComparer::*)(::System::Globalization::CompareInfo*, ::System::Globalization::CompareOptions)>(&::System::CultureAwareComparer::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3d8b444;
+  constexpr static std::size_t addrs = 0x3d9fad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::CultureAwareComparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::CultureAwareComparer::_ctor)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3d8b524;
+  constexpr static std::size_t addrs = 0x3d9fbb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::CultureAwareComparer::*)(::StringW, ::StringW)>(&::System::CultureAwareComparer::Compare)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d8b730;
+  constexpr static std::size_t addrs = 0x3d9fdc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::CultureAwareComparer::*)(::StringW, ::StringW)>(&::System::CultureAwareComparer::Equals)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3d8b784;
+  constexpr static std::size_t addrs = 0x3d9fe14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::CultureAwareComparer::*)(::StringW)>(&::System::CultureAwareComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d8b7d4;
+  constexpr static std::size_t addrs = 0x3d9fe64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::CultureAwareComparer::*)(::System::Object*)>(&::System::CultureAwareComparer::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3d8b844;
+  constexpr static std::size_t addrs = 0x3d9fed4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::CultureAwareComparer::*)()>(&::System::CultureAwareComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3d8b8dc;
+  constexpr static std::size_t addrs = 0x3d9ff6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::CultureAwareComparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::CultureAwareComparer::GetObjectData)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3d8b910;
+  constexpr static std::size_t addrs = 0x3d9ffa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

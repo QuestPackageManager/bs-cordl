@@ -14,7 +14,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& System::Collecti
 }
 template <typename T> constexpr void System::Collections::Generic::LowLevelList_1<T>::__cordl_internal_set__items(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____items, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Generic::LowLevelList_1<T>::__cordl_internal_get__size() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

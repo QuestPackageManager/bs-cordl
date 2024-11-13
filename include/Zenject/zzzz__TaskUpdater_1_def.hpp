@@ -124,7 +124,7 @@ public:
   bool ___IsRemoved;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12638 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -183,7 +183,7 @@ public:
   __TaskUpdater_1____c(__TaskUpdater_1____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -240,7 +240,7 @@ public:
   TTask ___task;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12640 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -350,7 +350,7 @@ public:
   ::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* ____queuedTasks;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

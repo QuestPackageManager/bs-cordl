@@ -50,19 +50,19 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x397da90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3991314, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_icon, addr 0x397da40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x39912c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Image> get_icon();
 
-  /// @brief Method get_text, addr 0x397da6c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x39912f0, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_icon, addr 0x397da38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x39912bc, size 0x8, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::UI::Image* value);
 
-  /// @brief Method set_text, addr 0x397da48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x39912cc, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   ::UnityW<::UnityEngine::UI::Image> ____icon;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15966 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

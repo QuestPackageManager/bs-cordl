@@ -15,7 +15,7 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OculusPlatformUserModel)
-namespace GlobalNamespace {
+namespace BeatSaber::Init {
 class IPlatformInit;
 }
 namespace GlobalNamespace {
@@ -139,10 +139,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x223a89c, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22457bc, size 0x22c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x223aac8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22459e8, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -173,7 +173,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18216 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18225 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -211,13 +211,13 @@ public:
 
   static inline ::GlobalNamespace::__OculusPlatformUserModel____c* New_ctor();
 
-  /// @brief Method <GetUserNamesForUserIds>b__16_1, addr 0x223aba8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetUserNamesForUserIds>b__16_1, addr 0x2245ac8, size 0x18, virtual false, abstract: false, final false
   inline bool _GetUserNamesForUserIds_b__16_1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* response);
 
-  /// @brief Method <GetUserNamesForUserIds>b__16_2, addr 0x223abc0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <GetUserNamesForUserIds>b__16_2, addr 0x2245ae0, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW _GetUserNamesForUserIds_b__16_2(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* response);
 
-  /// @brief Method .ctor, addr 0x223aba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2245ac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__OculusPlatformUserModel____c* getStaticF___9();
@@ -247,7 +247,7 @@ public:
   __OculusPlatformUserModel____c(__OculusPlatformUserModel____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18226 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -266,10 +266,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x223ac0c, size 0x298, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2245b2c, size 0x298, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x223aea4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2245dc4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -296,7 +296,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof*>*> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18227 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -324,10 +324,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x223af20, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2245e40, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x223b2cc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22461ec, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -362,7 +362,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserList*>*> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18228 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -394,10 +394,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x223b348, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2246268, size 0x244, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x223b58c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22464ac, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -431,7 +431,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18229 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -463,10 +463,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x223b608, size 0x458, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2246528, size 0x458, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x223ba60, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2246980, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -502,7 +502,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*> __u__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18230 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -534,10 +534,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x223badc, size 0x4a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22469fc, size 0x4a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x223bf84, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2246ea4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -574,7 +574,7 @@ public:
       __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18231 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -604,10 +604,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x223c000, size 0x3f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2246f20, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x223c454, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2247374, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -647,7 +647,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData> __u__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18223 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18232 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -703,7 +703,7 @@ public:
   __declspec(property(get = __cordl_internal_get__lastXPlatformTokenStatusChange, put = __cordl_internal_set__lastXPlatformTokenStatusChange)) float_t _lastXPlatformTokenStatusChange;
 
   /// @brief Field _platformInit, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__platformInit, put = __cordl_internal_set__platformInit)) ::GlobalNamespace::IPlatformInit* _platformInit;
+  __declspec(property(get = __cordl_internal_get__platformInit, put = __cordl_internal_set__platformInit)) ::BeatSaber::Init::IPlatformInit* _platformInit;
 
   /// @brief Field _userInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__userInfo, put = __cordl_internal_set__userInfo)) ::GlobalNamespace::UserInfo* _userInfo;
@@ -718,27 +718,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlatformUserModel"
   constexpr operator ::GlobalNamespace::IPlatformUserModel*() noexcept;
 
-  /// @brief Method GetUserAuthToken, addr 0x223a508, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method GetUserAuthToken, addr 0x2245428, size 0xd4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken();
 
-  /// @brief Method GetUserFriendsUserIds, addr 0x223a414, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method GetUserFriendsUserIds, addr 0x2245334, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserFriendsUserIds(bool cached);
 
-  /// @brief Method GetUserInfo, addr 0x223a240, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method GetUserInfo, addr 0x2245160, size 0xec, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo(::System::Threading::CancellationToken ctx);
 
-  /// @brief Method GetUserInfoInternalAsync, addr 0x223a32c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetUserInfoInternalAsync, addr 0x224524c, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfoInternalAsync(::System::Threading::CancellationToken ctx);
 
-  /// @brief Method GetUserNamesForUserIds, addr 0x223a5dc, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method GetUserNamesForUserIds, addr 0x22454fc, size 0xe4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserNamesForUserIds(::System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds);
 
-  static inline ::GlobalNamespace::OculusPlatformUserModel* New_ctor(::GlobalNamespace::IPlatformInit* platformInit);
+  static inline ::GlobalNamespace::OculusPlatformUserModel* New_ctor(::BeatSaber::Init::IPlatformInit* platformInit);
 
-  /// @brief Method RequestXPlatformAccessToken, addr 0x223a6c0, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method RequestXPlatformAccessToken, addr 0x22455e0, size 0xf8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method <GetUserNamesForUserIds>g__Fetch|16_0, addr 0x223a7b8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <GetUserNamesForUserIds>g__Fetch|16_0, addr 0x22456d8, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*>* _GetUserNamesForUserIds_g__Fetch_16_0(::StringW userId);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__friendsUserIds() const;
@@ -749,9 +749,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__lastXPlatformTokenStatusChange();
 
-  constexpr ::GlobalNamespace::IPlatformInit*& __cordl_internal_get__platformInit();
+  constexpr ::BeatSaber::Init::IPlatformInit*& __cordl_internal_get__platformInit();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformInit*> const& __cordl_internal_get__platformInit() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Init::IPlatformInit*> const& __cordl_internal_get__platformInit() const;
 
   constexpr ::GlobalNamespace::UserInfo*& __cordl_internal_get__userInfo();
 
@@ -769,7 +769,7 @@ public:
 
   constexpr void __cordl_internal_set__lastXPlatformTokenStatusChange(float_t value);
 
-  constexpr void __cordl_internal_set__platformInit(::GlobalNamespace::IPlatformInit* value);
+  constexpr void __cordl_internal_set__platformInit(::BeatSaber::Init::IPlatformInit* value);
 
   constexpr void __cordl_internal_set__userInfo(::GlobalNamespace::UserInfo* value);
 
@@ -777,19 +777,19 @@ public:
 
   constexpr void __cordl_internal_set_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x223a210, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IPlatformInit* platformInit);
+  /// @brief Method .ctor, addr 0x2245130, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::BeatSaber::Init::IPlatformInit* platformInit);
 
-  /// @brief Method add_platformUserInfoDidChangeEvent, addr 0x223a0b0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_platformUserInfoDidChangeEvent, addr 0x2244fd0, size 0xb0, virtual true, abstract: false, final true
   inline void add_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method get_CanXPlatformAccessTokenBeCached, addr 0x223a238, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanXPlatformAccessTokenBeCached, addr 0x2245158, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanXPlatformAccessTokenBeCached();
 
   /// @brief Convert to "::GlobalNamespace::IPlatformUserModel"
   constexpr ::GlobalNamespace::IPlatformUserModel* i___GlobalNamespace__IPlatformUserModel() noexcept;
 
-  /// @brief Method remove_platformUserInfoDidChangeEvent, addr 0x223a160, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_platformUserInfoDidChangeEvent, addr 0x2245080, size 0xb0, virtual true, abstract: false, final true
   inline void remove_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
 protected:
@@ -807,7 +807,7 @@ public:
   OculusPlatformUserModel(OculusPlatformUserModel const&) = delete;
 
   /// @brief Field _platformInit, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IPlatformInit* ____platformInit;
+  ::BeatSaber::Init::IPlatformInit* ____platformInit;
 
   /// @brief Field _userInfoTask, offset: 0x18, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* ____userInfoTask;
@@ -825,7 +825,7 @@ public:
   ::System::Action_1<::GlobalNamespace::UserInfo*>* ___platformUserInfoDidChangeEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18224 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18233 };
 
   /// @brief Field kPlatformEnvironment value: static_cast<uint8_t>(0x2u)
   static ::GlobalNamespace::PlatformEnvironment const kPlatformEnvironment;

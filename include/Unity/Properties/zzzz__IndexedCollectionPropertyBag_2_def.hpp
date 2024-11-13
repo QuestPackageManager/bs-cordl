@@ -85,7 +85,7 @@ public:
   int32_t ___m_Index;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17413 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -166,7 +166,7 @@ public:
   ::Unity::Properties::__IndexedCollectionPropertyBag_2__ListElementProperty<TList, TElement>* ___m_Property;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17414 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

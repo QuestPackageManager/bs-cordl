@@ -100,7 +100,7 @@ public:
 
   static inline ::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <WaitAsyncInternal>b__0, addr 0x2260924, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <WaitAsyncInternal>b__0, addr 0x226b8d8, size 0x54, virtual false, abstract: false, final false
   inline void _WaitAsyncInternal_b__0();
 
   constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x226091c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226b8d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -139,7 +139,7 @@ public:
   ::System::Threading::CancellationToken ___cancellationToken;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16882 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -208,7 +208,7 @@ public:
   ::System::Threading::CancellationToken ___cancellationToken;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16874 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16883 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -225,10 +225,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2260978, size 0x930, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x226b92c, size 0x930, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22612a8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x226c25c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -282,7 +282,7 @@ public:
   ::System::Runtime::CompilerServices::ValueTaskAwaiter __u__3;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16875 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16884 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -387,7 +387,7 @@ public:
   ::System::Runtime::CompilerServices::ValueTaskAwaiter __u__3;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16885 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -412,13 +412,13 @@ public:
 
   template <typename T> using __c__DisplayClass4_0_1 = ::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>;
 
-  /// @brief Method WaitAsync, addr 0x2260768, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method WaitAsync, addr 0x226b71c, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WaitAsync(::System::Threading::Tasks::Task* task, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method WaitAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* WaitAsync(::System::Threading::Tasks::Task_1<T>* task, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WaitAsyncInternal, addr 0x2260840, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method WaitAsyncInternal, addr 0x226b7f4, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WaitAsyncInternal(::System::Threading::Tasks::Task* task, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method WaitAsyncInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -442,7 +442,7 @@ public:
   TaskExtensions(TaskExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16886 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

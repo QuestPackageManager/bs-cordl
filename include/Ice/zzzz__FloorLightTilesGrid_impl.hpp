@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Ice::FloorLightTilesGrid::*)()>(&::Ice::FloorLightTilesGrid::get_ySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2233ca8;
+  constexpr static std::size_t addrs = 0x223c760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightTilesGrid*>::get(), "get_ySize",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightTilesGrid::*)(::UnityEngine::Vector3, int32_t, int32_t, float_t, float_t)>(
     &::Ice::FloorLightTilesGrid::Init)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x2232dd0;
+  constexpr static std::size_t addrs = 0x223b888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightTilesGrid::*)(int32_t, int32_t, float_t, float_t, ::UnityEngine::Color)>(
     &::Ice::FloorLightTilesGrid::HighlightTile)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x223336c;
+  constexpr static std::size_t addrs = 0x223be24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightTilesGrid::*)()>(&::Ice::FloorLightTilesGrid::DespawnAll)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2233cb0;
+  constexpr static std::size_t addrs = 0x223c768;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightTilesGrid::*)(::Ice::FloorLightTile*)>(
     &::Ice::FloorLightTilesGrid::HandleFloorLightTileDidFinish)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2233dd0;
+  constexpr static std::size_t addrs = 0x223c888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightTilesGrid::*)(::Ice::FloorLightTile*)>(&::Ice::FloorLightTilesGrid::DespawnTile)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2233d70;
+  constexpr static std::size_t addrs = 0x223c828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightTilesGrid::*)()>(&::Ice::FloorLightTilesGrid::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2233dd4;
+  constexpr static std::size_t addrs = 0x223c88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightTilesGrid*>::get(), ".ctor",

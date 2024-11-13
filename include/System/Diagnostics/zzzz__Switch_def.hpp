@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set_switchValueString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43b3d84, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43c849c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x43b3ea8, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43c85c0, size 0x238, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue);
 
-  /// @brief Method _pruneCachedSwitches, addr 0x43b40e0, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method _pruneCachedSwitches, addr 0x43c87f8, size 0x4dc, virtual false, abstract: false, final false
   static inline void _pruneCachedSwitches();
 
   static inline int32_t getStaticF_s_LastCollectionCount();
@@ -117,7 +117,7 @@ public:
   ::StringW ___defaultValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9226 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

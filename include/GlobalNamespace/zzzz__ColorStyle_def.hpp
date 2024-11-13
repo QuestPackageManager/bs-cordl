@@ -163,55 +163,55 @@ public:
 
   constexpr void __cordl_internal_set__useScriptableObjectGradientColors(bool value);
 
-  /// @brief Method .ctor, addr 0x2661238, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266c2e0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x266104c, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method get_color, addr 0x266c0f4, size 0x84, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_color0, addr 0x2661100, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method get_color0, addr 0x266c1a8, size 0x84, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color0();
 
-  /// @brief Method get_color1, addr 0x2661190, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method get_color1, addr 0x266c238, size 0x84, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_color1();
 
-  /// @brief Method get_flipGradientColors, addr 0x2661230, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_flipGradientColors, addr 0x266c2d8, size 0x8, virtual true, abstract: false, final true
   inline bool get_flipGradientColors();
 
-  /// @brief Method get_globalLightTintIntensity, addr 0x26610dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_globalLightTintIntensity, addr 0x266c184, size 0x8, virtual true, abstract: false, final true
   inline float_t get_globalLightTintIntensity();
 
-  /// @brief Method get_gradient, addr 0x26610ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gradient, addr 0x266c194, size 0x8, virtual true, abstract: false, final true
   inline bool get_gradient();
 
-  /// @brief Method get_gradientDirection, addr 0x2661220, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gradientDirection, addr 0x266c2c8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GradientDirection get_gradientDirection();
 
-  /// @brief Method get_useScriptableObjectColor, addr 0x2661038, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_useScriptableObjectColor, addr 0x266c0e0, size 0x8, virtual true, abstract: false, final true
   inline bool get_useScriptableObjectColor();
 
   /// @brief Convert to "::GlobalNamespace::IReadOnlyColorStyle"
   constexpr ::GlobalNamespace::IReadOnlyColorStyle* i___GlobalNamespace__IReadOnlyColorStyle() noexcept;
 
-  /// @brief Method set_color, addr 0x26610d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x266c178, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_color0, addr 0x2661184, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color0, addr 0x266c22c, size 0xc, virtual false, abstract: false, final false
   inline void set_color0(::UnityEngine::Color value);
 
-  /// @brief Method set_color1, addr 0x2661214, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color1, addr 0x266c2bc, size 0xc, virtual false, abstract: false, final false
   inline void set_color1(::UnityEngine::Color value);
 
-  /// @brief Method set_globalLightTintIntensity, addr 0x26610e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_globalLightTintIntensity, addr 0x266c18c, size 0x8, virtual false, abstract: false, final false
   inline void set_globalLightTintIntensity(float_t value);
 
-  /// @brief Method set_gradient, addr 0x26610f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_gradient, addr 0x266c19c, size 0xc, virtual false, abstract: false, final false
   inline void set_gradient(bool value);
 
-  /// @brief Method set_gradientDirection, addr 0x2661228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gradientDirection, addr 0x266c2d0, size 0x8, virtual false, abstract: false, final false
   inline void set_gradientDirection(::GlobalNamespace::GradientDirection value);
 
-  /// @brief Method set_useScriptableObjectColor, addr 0x2661040, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useScriptableObjectColor, addr 0x266c0e8, size 0xc, virtual false, abstract: false, final false
   inline void set_useScriptableObjectColor(bool value);
 
 protected:
@@ -265,7 +265,7 @@ public:
   bool ____flipGradientColors;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18900 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__sceneName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x225c0e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2267024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledRootObjects, addr 0x225c0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledRootObjects, addr 0x226701c, size 0x8, virtual false, abstract: false, final false
   inline bool get_disabledRootObjects();
 
-  /// @brief Method get_sceneName, addr 0x225c0d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneName, addr 0x2267014, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sceneName();
 
 protected:
@@ -74,7 +74,7 @@ public:
   bool ____disabledRootObjects;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17577 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

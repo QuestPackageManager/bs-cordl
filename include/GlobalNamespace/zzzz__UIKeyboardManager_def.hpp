@@ -62,36 +62,36 @@ public:
 
   __declspec(property(get = get_keyboard)) ::UnityW<::HMUI::UIKeyboard> keyboard;
 
-  /// @brief Method CloseKeyboard, addr 0x3b85ac8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CloseKeyboard, addr 0x3b9b690, size 0x9c, virtual false, abstract: false, final false
   inline void CloseKeyboard();
 
-  /// @brief Method HandleKeyboardOkButton, addr 0x3b85db8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method HandleKeyboardOkButton, addr 0x3b9b980, size 0x160, virtual false, abstract: false, final false
   inline void HandleKeyboardOkButton();
 
   static inline ::GlobalNamespace::UIKeyboardManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b85800, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b9b3c8, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b85770, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b9b338, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b856e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b9b2a8, size 0x90, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OpenKeyboardFor, addr 0x3b85900, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method OpenKeyboardFor, addr 0x3b9b4c8, size 0x1c8, virtual false, abstract: false, final false
   inline void OpenKeyboardFor(::HMUI::InputFieldView* input);
 
-  /// @brief Method ProcessMousePress, addr 0x3b85c50, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ProcessMousePress, addr 0x3b9b818, size 0x168, virtual false, abstract: false, final false
   inline void ProcessMousePress(::UnityEngine::GameObject* currentOverGo);
 
-  /// @brief Method ShouldCloseKeyboard, addr 0x3b85bf8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ShouldCloseKeyboard, addr 0x3b9b7c0, size 0x58, virtual false, abstract: false, final false
   inline bool ShouldCloseKeyboard(::UnityEngine::GameObject* root);
 
-  /// @brief Method Start, addr 0x3b855f0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9b1b8, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TransferKeyboardTo, addr 0x3b85b64, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TransferKeyboardTo, addr 0x3b9b72c, size 0x94, virtual false, abstract: false, final false
   inline void TransferKeyboardTo(::HMUI::InputFieldView* nextInput);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__keyboardContainerTransform() const;
@@ -130,10 +130,10 @@ public:
 
   constexpr void __cordl_internal_set__vrInputModule(::GlobalNamespace::IVRInputModule* value);
 
-  /// @brief Method .ctor, addr 0x3b85f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9bae0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_keyboard, addr 0x3b855e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyboard, addr 0x3b9b1b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::UIKeyboard> get_keyboard();
 
 protected:
@@ -169,7 +169,7 @@ public:
   ::UnityW<::HMUI::InputFieldView> ____selectedInput;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4754 };
 
   /// @brief Field kKeyboardTopOffset offset 0xffffffff size 0x4
   static constexpr float_t kKeyboardTopOffset{ 5.0 };

@@ -71,27 +71,27 @@ public:
 
   __declspec(property(get = get_isLoading)) bool isLoading;
 
-  /// @brief Method Awake, addr 0x3b838cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b99494, size 0xc0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Hide, addr 0x3b83b90, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3b99758, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::GlobalNamespace::LoadingControl* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b8398c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b99554, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ShowDownloadingProgress, addr 0x3b83ae4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ShowDownloadingProgress, addr 0x3b996ac, size 0xac, virtual false, abstract: false, final false
   inline void ShowDownloadingProgress(::StringW text, float_t downloadingProgress);
 
-  /// @brief Method ShowLoading, addr 0x3b839a8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ShowLoading, addr 0x3b99570, size 0x8c, virtual false, abstract: false, final false
   inline void ShowLoading(::StringW text);
 
-  /// @brief Method ShowText, addr 0x3b83a34, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShowText, addr 0x3b995fc, size 0xb0, virtual false, abstract: false, final false
   inline void ShowText(::StringW text, bool showRefreshButton);
 
-  /// @brief Method <Awake>b__14_0, addr 0x3b83bbc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__14_0, addr 0x3b99784, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__14_0();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -154,16 +154,16 @@ public:
 
   constexpr void __cordl_internal_set_didPressRefreshButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b83bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9977c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressRefreshButtonEvent, addr 0x3b83778, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressRefreshButtonEvent, addr 0x3b99340, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressRefreshButtonEvent(::System::Action* value);
 
-  /// @brief Method get_isLoading, addr 0x3b838b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_isLoading, addr 0x3b99478, size 0x1c, virtual false, abstract: false, final false
   inline bool get_isLoading();
 
-  /// @brief Method remove_didPressRefreshButtonEvent, addr 0x3b83814, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressRefreshButtonEvent, addr 0x3b993dc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressRefreshButtonEvent(::System::Action* value);
 
 protected:
@@ -211,7 +211,7 @@ public:
   ::HMUI::ButtonBinder* ____buttonBinder;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4742 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

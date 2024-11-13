@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PointerCancelEvent____c::*)()>(
     &::UnityEngine::UIElements::__PointerCancelEvent____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b85a4;
+  constexpr static std::size_t addrs = 0x49cccbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerCancelEvent____c*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::PointerCancelEvent* (::UnityEngine::UIElements::__PointerCancelEvent____c::*)()>(
     &::UnityEngine::UIElements::__PointerCancelEvent____c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49b85ac;
+  constexpr static std::size_t addrs = 0x49cccc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerCancelEvent____c*>::get(),
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerCancelEvent::*)()>(&::UnityEngine::UIElements::PointerCancelEvent::Init)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49b8058;
+  constexpr static std::size_t addrs = 0x49cc770;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerCancelEvent::*)()>(
     &::UnityEngine::UIElements::PointerCancelEvent::LocalInit)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x49b80a8;
+  constexpr static std::size_t addrs = 0x49cc7c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerCancelEvent*>::get(),
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerCancelEvent::*)()>(&::UnityEngine::UIElements::PointerCancelEvent::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49b81ac;
+  constexpr static std::size_t addrs = 0x49cc8c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerCancelEvent*>::get(), ".ctor",
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerCancelEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::PointerCancelEvent::PostDispatch)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x49b81fc;
+  constexpr static std::size_t addrs = 0x49cc914;
 
   inline static ::MethodInfo const* methodInfo() {
 

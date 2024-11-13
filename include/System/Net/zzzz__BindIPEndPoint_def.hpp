@@ -32,12 +32,12 @@ namespace System::Net {
 class CORDL_TYPE BindIPEndPoint : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4444f0c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4459624, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::IPEndPoint* Invoke(::System::Net::ServicePoint* servicePoint, ::System::Net::IPEndPoint* remoteEndPoint, int32_t retryCount);
 
   static inline ::System::Net::BindIPEndPoint* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4444e08, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4459520, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -55,7 +55,7 @@ public:
   BindIPEndPoint(BindIPEndPoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

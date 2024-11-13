@@ -54,19 +54,19 @@ public:
 
   constexpr void __cordl_internal_set__moveVector_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x4a5b75c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a6fe74, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_moveDir, addr 0x4a5b74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveDir, addr 0x4a6fe64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::MoveDirection get_moveDir();
 
-  /// @brief Method get_moveVector, addr 0x4a5b73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveVector, addr 0x4a6fe54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_moveVector();
 
-  /// @brief Method set_moveDir, addr 0x4a5b754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveDir, addr 0x4a6fe6c, size 0x8, virtual false, abstract: false, final false
   inline void set_moveDir(::UnityEngine::EventSystems::MoveDirection value);
 
-  /// @brief Method set_moveVector, addr 0x4a5b744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveVector, addr 0x4a6fe5c, size 0x8, virtual false, abstract: false, final false
   inline void set_moveVector(::UnityEngine::Vector2 value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   ::UnityEngine::EventSystems::MoveDirection ____moveDir_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

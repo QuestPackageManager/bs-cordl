@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::Rendering::ObjectIdRequest::*)()>(
     &::UnityEngine::Rendering::ObjectIdRequest::get_destination)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850348;
+  constexpr static std::size_t addrs = 0x4864a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ObjectIdRequest*>::get(),

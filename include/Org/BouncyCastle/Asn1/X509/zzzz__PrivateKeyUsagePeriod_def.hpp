@@ -41,12 +41,12 @@ public:
   /// @brief Field _notBefore, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__notBefore, put = __cordl_internal_set__notBefore)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* _notBefore;
 
-  /// @brief Method GetInstance, addr 0x25cd528, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25d85d0, size 0x1c8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x25cda14, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25d8abc, size 0xbc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get__notAfter();
@@ -61,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set__notBefore(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method .ctor, addr 0x25cd6f0, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d8798, size 0x314, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_NotAfter, addr 0x25cda0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotAfter, addr 0x25d8ab4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotAfter();
 
-  /// @brief Method get_NotBefore, addr 0x25cda04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotBefore, addr 0x25d8aac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotBefore();
 
 protected:

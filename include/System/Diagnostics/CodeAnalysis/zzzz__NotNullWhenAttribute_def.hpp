@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__ReturnValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3e01550, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e15be0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool returnValue);
 
-  /// @brief Method get_ReturnValue, addr 0x3e01578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReturnValue, addr 0x3e15c08, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReturnValue();
 
 protected:
@@ -56,7 +56,7 @@ public:
   bool ____ReturnValue_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10014 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

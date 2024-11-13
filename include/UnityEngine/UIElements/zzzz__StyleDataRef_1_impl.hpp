@@ -39,7 +39,7 @@ template <typename T> constexpr T const& UnityEngine::UIElements::__StyleDataRef
 }
 template <typename T> constexpr void UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::__cordl_internal_set_value(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___value, value);
 }
 template <typename T> inline void UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>::setStaticF_m_NextId(uint32_t value) {
   ::cordl_internals::setStaticField<uint32_t, "m_NextId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>*>::get>(

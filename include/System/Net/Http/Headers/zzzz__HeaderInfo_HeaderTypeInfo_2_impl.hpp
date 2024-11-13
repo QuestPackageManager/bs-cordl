@@ -21,7 +21,7 @@ System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::__cordl_intern
 template <typename T, typename U>
 constexpr void System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::__cordl_internal_set_parser(::System::Net::Http::Headers::TryParseDelegate_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parser)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___parser, value);
 }
 template <typename T, typename U>
 inline ::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>*

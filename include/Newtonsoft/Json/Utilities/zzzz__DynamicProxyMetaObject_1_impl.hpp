@@ -135,7 +135,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass10_0<T
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass10_0<T>::__cordl_internal_set_binder(::System::Dynamic::BinaryOperationBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___binder, value);
 }
 template <typename T>
 constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass10_0<T>::__cordl_internal_get___4__this() {
@@ -151,7 +151,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass10_0<T
 template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass10_0<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T> constexpr ::System::Dynamic::DynamicMetaObject*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass10_0<T>::__cordl_internal_get_arg() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -165,7 +165,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass10_0<T
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass10_0<T>::__cordl_internal_set_arg(::System::Dynamic::DynamicMetaObject* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___arg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___arg, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass10_0<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass10_0<T>::New_ctor() {
@@ -198,7 +198,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass11_0<T
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass11_0<T>::__cordl_internal_set_binder(::System::Dynamic::UnaryOperationBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___binder, value);
 }
 template <typename T>
 constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass11_0<T>::__cordl_internal_get___4__this() {
@@ -214,7 +214,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass11_0<T
 template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass11_0<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass11_0<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass11_0<T>::New_ctor() {
@@ -247,7 +247,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass12_0<T
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass12_0<T>::__cordl_internal_set_binder(::System::Dynamic::GetIndexBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___binder, value);
 }
 template <typename T>
 constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass12_0<T>::__cordl_internal_get___4__this() {
@@ -263,7 +263,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass12_0<T
 template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass12_0<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>&
@@ -281,7 +281,7 @@ template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass12_0<T>::__cordl_internal_set_indexes(
     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___indexes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___indexes, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass12_0<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass12_0<T>::New_ctor() {
@@ -314,7 +314,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass13_0<T
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass13_0<T>::__cordl_internal_set_binder(::System::Dynamic::SetIndexBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___binder, value);
 }
 template <typename T>
 constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass13_0<T>::__cordl_internal_get___4__this() {
@@ -330,7 +330,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass13_0<T
 template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass13_0<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>&
@@ -348,7 +348,7 @@ template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass13_0<T>::__cordl_internal_set_indexes(
     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___indexes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___indexes, value);
 }
 template <typename T> constexpr ::System::Dynamic::DynamicMetaObject*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass13_0<T>::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -362,7 +362,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass13_0<T
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass13_0<T>::__cordl_internal_set_value(::System::Dynamic::DynamicMetaObject* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___value, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass13_0<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass13_0<T>::New_ctor() {
@@ -395,7 +395,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass14_0<T
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass14_0<T>::__cordl_internal_set_binder(::System::Dynamic::DeleteIndexBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___binder, value);
 }
 template <typename T>
 constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass14_0<T>::__cordl_internal_get___4__this() {
@@ -411,7 +411,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass14_0<T
 template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass14_0<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>&
@@ -429,7 +429,7 @@ template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass14_0<T>::__cordl_internal_set_indexes(
     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___indexes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___indexes, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass14_0<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass14_0<T>::New_ctor() {
@@ -462,7 +462,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass3_0<T>
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass3_0<T>::__cordl_internal_set_binder(::System::Dynamic::GetMemberBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___binder, value);
 }
 template <typename T>
 constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass3_0<T>::__cordl_internal_get___4__this() {
@@ -478,7 +478,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass3_0<T>
 template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass3_0<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass3_0<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass3_0<T>::New_ctor() {
@@ -511,7 +511,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass4_0<T>
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass4_0<T>::__cordl_internal_set_binder(::System::Dynamic::SetMemberBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___binder, value);
 }
 template <typename T>
 constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass4_0<T>::__cordl_internal_get___4__this() {
@@ -527,7 +527,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass4_0<T>
 template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass4_0<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T> constexpr ::System::Dynamic::DynamicMetaObject*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass4_0<T>::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -541,7 +541,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass4_0<T>
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass4_0<T>::__cordl_internal_set_value(::System::Dynamic::DynamicMetaObject* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___value, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass4_0<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass4_0<T>::New_ctor() {
@@ -574,7 +574,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass5_0<T>
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass5_0<T>::__cordl_internal_set_binder(::System::Dynamic::DeleteMemberBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___binder, value);
 }
 template <typename T>
 constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass5_0<T>::__cordl_internal_get___4__this() {
@@ -590,7 +590,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass5_0<T>
 template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass5_0<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass5_0<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass5_0<T>::New_ctor() {
@@ -623,7 +623,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass6_0<T>
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass6_0<T>::__cordl_internal_set_binder(::System::Dynamic::ConvertBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___binder, value);
 }
 template <typename T>
 constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass6_0<T>::__cordl_internal_get___4__this() {
@@ -639,7 +639,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass6_0<T>
 template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass6_0<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass6_0<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass6_0<T>::New_ctor() {
@@ -672,7 +672,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass7_0<T>
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass7_0<T>::__cordl_internal_set_binder(::System::Dynamic::InvokeMemberBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___binder, value);
 }
 template <typename T>
 constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass7_0<T>::__cordl_internal_get___4__this() {
@@ -688,7 +688,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass7_0<T>
 template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass7_0<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>&
@@ -706,7 +706,7 @@ template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass7_0<T>::__cordl_internal_set_args(
     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___args)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___args, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass7_0<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass7_0<T>::New_ctor() {
@@ -746,7 +746,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass8_0<T>
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass8_0<T>::__cordl_internal_set_binder(::System::Dynamic::CreateInstanceBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___binder, value);
 }
 template <typename T>
 constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass8_0<T>::__cordl_internal_get___4__this() {
@@ -762,7 +762,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass8_0<T>
 template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass8_0<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>&
@@ -780,7 +780,7 @@ template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass8_0<T>::__cordl_internal_set_args(
     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___args)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___args, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass8_0<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass8_0<T>::New_ctor() {
@@ -813,7 +813,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass9_0<T>
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass9_0<T>::__cordl_internal_set_binder(::System::Dynamic::InvokeBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___binder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___binder, value);
 }
 template <typename T>
 constexpr ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*& Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass9_0<T>::__cordl_internal_get___4__this() {
@@ -829,7 +829,7 @@ Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass9_0<T>
 template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass9_0<T>::__cordl_internal_set___4__this(::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 constexpr ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>&
@@ -847,7 +847,7 @@ template <typename T>
 constexpr void Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass9_0<T>::__cordl_internal_set_args(
     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___args)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___args, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass9_0<T>* Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass9_0<T>::New_ctor() {
@@ -879,7 +879,7 @@ constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::Dyn
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>::__cordl_internal_set__proxy(::Newtonsoft::Json::Utilities::DynamicProxy_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____proxy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____proxy, value);
 }
 template <typename T>
 inline ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>::New_ctor(::System::Linq::Expressions::Expression* expression, T value,

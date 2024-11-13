@@ -48,22 +48,22 @@ public:
 
   constexpr void __cordl_internal_set_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b2a6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3fb08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_levelFailedEvent, addr 0x3b2a584, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFailedEvent, addr 0x3b3f9d0, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent, addr 0x3b2a44c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0x3b3f898, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
   constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
 
-  /// @brief Method remove_levelFailedEvent, addr 0x3b2a620, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFailedEvent, addr 0x3b3fa6c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent, addr 0x3b2a4e8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x3b3f934, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
 protected:
@@ -87,7 +87,7 @@ public:
   ::System::Action* ___levelFailedEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

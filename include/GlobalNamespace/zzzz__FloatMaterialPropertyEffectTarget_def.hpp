@@ -40,18 +40,18 @@ public:
   /// @brief Field _valueBounds, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
 
-  /// @brief Method Awake, addr 0x3b13980, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b28df4, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::FloatMaterialPropertyEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x3b139a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x3b28e18, size 0x60, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x3b139a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b28e14, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b13a04, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b28e78, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3b13a08, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b28e7c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   int32_t ____propertyId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4260 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

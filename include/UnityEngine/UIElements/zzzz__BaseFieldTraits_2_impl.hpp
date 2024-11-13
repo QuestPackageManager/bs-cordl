@@ -18,7 +18,7 @@ constexpr TValueUxmlAttributeType const& UnityEngine::UIElements::BaseFieldTrait
 template <typename TValueType, typename TValueUxmlAttributeType>
 constexpr void UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>::__cordl_internal_set_m_Value(TValueUxmlAttributeType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Value, value);
 }
 template <typename TValueType, typename TValueUxmlAttributeType>
 inline void UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>::Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag,

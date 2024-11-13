@@ -63,10 +63,10 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* New_ctor();
 
-  /// @brief Method <Update>b__10_0, addr 0x3b60cc8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Update>b__10_0, addr 0x3b77390, size 0x14, virtual false, abstract: false, final false
   inline bool _Update_b__10_0(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* p);
 
-  /// @brief Method .ctor, addr 0x3b60cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b77388, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* getStaticF___9();
@@ -92,7 +92,7 @@ public:
   __MultiplayerOtherPlayersScoreDiffTextManager____c(__MultiplayerOtherPlayersScoreDiffTextManager____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4580 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -132,24 +132,24 @@ public:
   /// @brief Field _timeToNextUpdate, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__timeToNextUpdate, put = __cordl_internal_set__timeToNextUpdate)) float_t _timeToNextUpdate;
 
-  /// @brief Method HandleStateChanged, addr 0x3b60af4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3b771bc, size 0x168, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State newState);
 
-  /// @brief Method HideAll, addr 0x3b60278, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method HideAll, addr 0x3b76940, size 0x3c0, virtual false, abstract: false, final false
   inline void HideAll();
 
-  /// @brief Method InitLeftRightPositions, addr 0x3b60638, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method InitLeftRightPositions, addr 0x3b76d00, size 0x4bc, virtual false, abstract: false, final false
   inline void InitLeftRightPositions();
 
   static inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b5fde0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b764a8, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b5fd28, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b763f0, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b5feb0, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b76578, size 0x3c8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::__CoreGameHUDController__InitData*& __cordl_internal_get__initData();
@@ -194,7 +194,7 @@ public:
 
   constexpr void __cordl_internal_set__timeToNextUpdate(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b60c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b77324, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -233,7 +233,7 @@ public:
   float_t ____timeToNextUpdate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4581 };
 
   /// @brief Field kUpdateInterval offset 0xffffffff size 0x4
   static constexpr float_t kUpdateInterval{ 0.5 };

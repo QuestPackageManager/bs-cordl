@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::*)(int32_t)>(
     &::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b367a8;
+  constexpr static std::size_t addrs = 0x3b4c260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::*)()>(
     &::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b36ab4;
+  constexpr static std::size_t addrs = 0x3b4c56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::*)()>(
     &::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x3b36ab8;
+  constexpr static std::size_t addrs = 0x3b4c570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::*)()>(
     &::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b36f5c;
+  constexpr static std::size_t addrs = 0x3b4ca14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::*)()>(
     &::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b36f64;
+  constexpr static std::size_t addrs = 0x3b4ca1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::*)()>(
     &::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b36f9c;
+  constexpr static std::size_t addrs = 0x3b4ca54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::add_allResultsCollectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b36100;
+  constexpr static std::size_t addrs = 0x3b4bbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -282,7 +282,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::remove_allResultsCollectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b361b0;
+  constexpr static std::size_t addrs = 0x3b4bc68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::get_gameResultsReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b36260;
+  constexpr static std::size_t addrs = 0x3b4bd18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController*>::get(),
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* (
     ::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(&::GlobalNamespace::MultiplayerLevelFinishedController::get_otherPlayersCompletionResults)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b36268;
+  constexpr static std::size_t addrs = 0x3b4bd20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerLevelCompletionResults* (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::get_localPlayerResults)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b36270;
+  constexpr static std::size_t addrs = 0x3b4bd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController*>::get(),
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::Start)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x3b36278;
+  constexpr static std::size_t addrs = 0x3b4bd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController*>::get(),
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::OnDestroy)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x3b364d4;
+  constexpr static std::size_t addrs = 0x3b4bf8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController*>::get(),
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::MultiplayerLevelFinishedController::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MultiplayerLevelFinishedController::StartLevelFinished)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3b3673c;
+  constexpr static std::size_t addrs = 0x3b4c1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)(
     ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MultiplayerLevelFinishedController::HandlePlayerDidFinish)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b367d0;
+  constexpr static std::size_t addrs = 0x3b4c288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)(
     ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MultiplayerLevelFinishedController::HandlePlayerNetworkDidFailed)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b367f0;
+  constexpr static std::size_t addrs = 0x3b4c2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)(
     ::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MultiplayerLevelFinishedController::HandleRpcLevelFinished)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3b36824;
+  constexpr static std::size_t addrs = 0x3b4c2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b36a38;
+  constexpr static std::size_t addrs = 0x3b4c4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController*>::get(),

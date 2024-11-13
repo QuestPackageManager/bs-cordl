@@ -29,7 +29,7 @@ template <typename TReturn> constexpr ::cordl_internals::to_const_pointer<::Zenj
 }
 template <typename TReturn> constexpr void Zenject::MethodProvider_1<TReturn>::__cordl_internal_set__container(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____container, value);
 }
 template <typename TReturn> constexpr ::System::Func_2<::Zenject::InjectContext*, TReturn>*& Zenject::MethodProvider_1<TReturn>::__cordl_internal_get__method() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -42,7 +42,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::Inject
 }
 template <typename TReturn> constexpr void Zenject::MethodProvider_1<TReturn>::__cordl_internal_set__method(::System::Func_2<::Zenject::InjectContext*, TReturn>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____method, value);
 }
 template <typename TReturn>
 inline ::Zenject::MethodProvider_1<TReturn>* Zenject::MethodProvider_1<TReturn>::New_ctor(::System::Func_2<::Zenject::InjectContext*, TReturn>* method, ::Zenject::DiContainer* container) {

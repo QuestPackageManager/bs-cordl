@@ -28,7 +28,7 @@ public:
 
   static inline ::GlobalNamespace::OVRMonoscopic* New_ctor();
 
-  /// @brief Method Update, addr 0x3fc5210, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fd98a0, size 0xf0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_monoscopic() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value);
 
-  /// @brief Method .ctor, addr 0x3fc5300, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd9990, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   bool ___monoscopic;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8425 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

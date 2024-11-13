@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set_g(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26c7ce0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d39d0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId);
 
   /// @brief Method get_baseEventBoxes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::EventBox*>* get_baseEventBoxes();
 
-  /// @brief Method get_groupId, addr 0x26c7cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x26d39c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
 protected:
@@ -69,7 +69,7 @@ public:
   int32_t ___g;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

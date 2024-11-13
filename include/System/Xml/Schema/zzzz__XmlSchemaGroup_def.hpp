@@ -68,15 +68,15 @@ public:
   /// @brief Field selfReferenceCount, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_selfReferenceCount, put = __cordl_internal_set_selfReferenceCount)) int32_t selfReferenceCount;
 
-  /// @brief Method Clone, addr 0x4247cb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x425c3cc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
-  /// @brief Method Clone, addr 0x4241cd8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x42563f0, size 0x180, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone(::System::Xml::Schema::XmlSchema* parentSchema);
 
   static inline ::System::Xml::Schema::XmlSchemaGroup* New_ctor();
 
-  /// @brief Method SetQualifiedName, addr 0x4247cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetQualifiedName, addr 0x425c3c4, size 0x8, virtual false, abstract: false, final false
   inline void SetQualifiedName(::System::Xml::XmlQualifiedName* value);
 
   constexpr ::System::Xml::Schema::XmlSchemaParticle*& __cordl_internal_get_canonicalParticle();
@@ -115,46 +115,46 @@ public:
 
   constexpr void __cordl_internal_set_selfReferenceCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4247cbc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x425c3d4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanonicalParticle, addr 0x4247c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CanonicalParticle, addr 0x425c384, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaParticle* get_CanonicalParticle();
 
-  /// @brief Method get_Name, addr 0x4247c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x425c35c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameAttribute, addr 0x4247c9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameAttribute, addr 0x425c3b4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameAttribute();
 
-  /// @brief Method get_Particle, addr 0x4247c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle, addr 0x425c36c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaGroupBase* get_Particle();
 
-  /// @brief Method get_QualifiedName, addr 0x4247c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QualifiedName, addr 0x425c37c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
 
-  /// @brief Method get_Redefined, addr 0x4247c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Redefined, addr 0x425c394, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaGroup* get_Redefined();
 
-  /// @brief Method get_SelfReferenceCount, addr 0x4247c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SelfReferenceCount, addr 0x425c3a4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SelfReferenceCount();
 
-  /// @brief Method set_CanonicalParticle, addr 0x4247c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CanonicalParticle, addr 0x425c38c, size 0x8, virtual false, abstract: false, final false
   inline void set_CanonicalParticle(::System::Xml::Schema::XmlSchemaParticle* value);
 
-  /// @brief Method set_Name, addr 0x4247c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x425c364, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_NameAttribute, addr 0x4247ca4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_NameAttribute, addr 0x425c3bc, size 0x8, virtual true, abstract: false, final false
   inline void set_NameAttribute(::StringW value);
 
-  /// @brief Method set_Particle, addr 0x4247c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Particle, addr 0x425c374, size 0x8, virtual false, abstract: false, final false
   inline void set_Particle(::System::Xml::Schema::XmlSchemaGroupBase* value);
 
-  /// @brief Method set_Redefined, addr 0x4247c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Redefined, addr 0x425c39c, size 0x8, virtual false, abstract: false, final false
   inline void set_Redefined(::System::Xml::Schema::XmlSchemaGroup* value);
 
-  /// @brief Method set_SelfReferenceCount, addr 0x4247c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SelfReferenceCount, addr 0x425c3ac, size 0x8, virtual false, abstract: false, final false
   inline void set_SelfReferenceCount(int32_t value);
 
 protected:
@@ -190,7 +190,7 @@ public:
   int32_t ___selfReferenceCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7664 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

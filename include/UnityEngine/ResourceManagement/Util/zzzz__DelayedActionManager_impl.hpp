@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo::*)(
     ::System::Delegate*, float_t, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x471f0f0;
+  constexpr static std::size_t addrs = 0x4733808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo::*)()>(
     &::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo::get_InvocationTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x471fafc;
+  constexpr static std::size_t addrs = 0x4734214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo::*)(float_t)>(
     &::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo::set_InvocationTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x471fb04;
+  constexpr static std::size_t addrs = 0x473421c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo::*)()>(
     &::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo::ToString)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x471fb0c;
+  constexpr static std::size_t addrs = 0x4734224;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo::*)()>(
     &::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo::Invoke)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x471f710;
+  constexpr static std::size_t addrs = 0x4733e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)(ByRef<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>)>(
         &::UnityEngine::ResourceManagement::Util::DelayedActionManager::GetNode)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x471ec98;
+  constexpr static std::size_t addrs = 0x47333b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::ResourceManagement::Util::DelayedActionManager::Clear)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x471ed8c;
+  constexpr static std::size_t addrs = 0x47334a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)()>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::DestroyWhenComplete)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x471ee00;
+  constexpr static std::size_t addrs = 0x4733518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Delegate*, float_t, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::AddAction)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x471ee0c;
+  constexpr static std::size_t addrs = 0x4733524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)(
     ::System::Delegate*, float_t, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::UnityEngine::ResourceManagement::Util::DelayedActionManager::AddActionInternal)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x471ee80;
+  constexpr static std::size_t addrs = 0x4733598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::ResourceManagement::Util::DelayedActionManager::get_IsActive)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x471f170;
+  constexpr static std::size_t addrs = 0x4733888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t, float_t)>(&::UnityEngine::ResourceManagement::Util::DelayedActionManager::Wait)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x471f28c;
+  constexpr static std::size_t addrs = 0x47339a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)()>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::LateUpdate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x471f6f4;
+  constexpr static std::size_t addrs = 0x4733e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)(float_t)>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::InternalLateUpdate)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x471f3ec;
+  constexpr static std::size_t addrs = 0x4733b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)()>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::OnApplicationQuit)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x471f88c;
+  constexpr static std::size_t addrs = 0x4733fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::DelayedActionManager::*)()>(
     &::UnityEngine::ResourceManagement::Util::DelayedActionManager::_ctor)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x471f940;
+  constexpr static std::size_t addrs = 0x4734058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::System::Object* value);
 
-  /// @brief Method get_Value, addr 0x43d0e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x43e55a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -54,7 +54,7 @@ public:
   ::System::Object* ____Value_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9329 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

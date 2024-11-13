@@ -63,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_user(int64_t value);
 
-  /// @brief Method .ctor, addr 0x43b7ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43cc3b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TotalProcessorTime, addr 0x43b8088, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TotalProcessorTime, addr 0x43cc7a0, size 0xc, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_TotalProcessorTime();
 
 protected:
@@ -96,7 +96,7 @@ public:
   int64_t ___user;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9244 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

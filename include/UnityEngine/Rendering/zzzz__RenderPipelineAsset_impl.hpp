@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderPipeline* (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::InternalCreatePipeline)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x48504d8;
+  constexpr static std::size_t addrs = 0x4864bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderPipelineAsset*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_renderingLayerMaskNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48507d0;
+  constexpr static std::size_t addrs = 0x4864ee8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_prefixedRenderingLayerMaskNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48507d8;
+  constexpr static std::size_t addrs = 0x4864ef0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_defaultMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48507e0;
+  constexpr static std::size_t addrs = 0x4864ef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_autodeskInteractiveShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48507e8;
+  constexpr static std::size_t addrs = 0x4864f00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_autodeskInteractiveTransparentShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48507f0;
+  constexpr static std::size_t addrs = 0x4864f08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_autodeskInteractiveMaskedShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48507f8;
+  constexpr static std::size_t addrs = 0x4864f10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_terrainDetailLitShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850800;
+  constexpr static std::size_t addrs = 0x4864f18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_terrainDetailGrassShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850808;
+  constexpr static std::size_t addrs = 0x4864f20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_terrainDetailGrassBillboardShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850810;
+  constexpr static std::size_t addrs = 0x4864f28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_defaultParticleMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850818;
+  constexpr static std::size_t addrs = 0x4864f30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_defaultLineMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850820;
+  constexpr static std::size_t addrs = 0x4864f38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_defaultTerrainMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850828;
+  constexpr static std::size_t addrs = 0x4864f40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_defaultUIMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850830;
+  constexpr static std::size_t addrs = 0x4864f48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_defaultUIOverdrawMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850838;
+  constexpr static std::size_t addrs = 0x4864f50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_defaultUIETC1SupportedMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850840;
+  constexpr static std::size_t addrs = 0x4864f58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_default2DMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850848;
+  constexpr static std::size_t addrs = 0x4864f60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_default2DMaskMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850850;
+  constexpr static std::size_t addrs = 0x4864f68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_defaultShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850858;
+  constexpr static std::size_t addrs = 0x4864f70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_defaultSpeedTree7Shader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850860;
+  constexpr static std::size_t addrs = 0x4864f78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_defaultSpeedTree8Shader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850868;
+  constexpr static std::size_t addrs = 0x4864f80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::get_renderPipelineShaderTag)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4850870;
+  constexpr static std::size_t addrs = 0x4864f88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::OnValidate)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x48508fc;
+  constexpr static std::size_t addrs = 0x4865014;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(
     &::UnityEngine::Rendering::RenderPipelineAsset::OnDisable)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4850c20;
+  constexpr static std::size_t addrs = 0x4865338;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -402,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderPipelineAsset::*)()>(&::UnityEngine::Rendering::RenderPipelineAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4850c6c;
+  constexpr static std::size_t addrs = 0x4865384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderPipelineAsset*>::get(), ".ctor",

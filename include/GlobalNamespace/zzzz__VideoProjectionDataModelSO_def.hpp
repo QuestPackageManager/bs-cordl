@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__videoAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method .ctor, addr 0x3b202a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b35768, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x3b20290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x3b35758, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_videoAssetReference, addr 0x3b20298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_videoAssetReference, addr 0x3b35760, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_videoAssetReference();
 
 protected:
@@ -86,7 +86,7 @@ public:
   ::UnityEngine::AddressableAssets::AssetReference* ____videoAssetReference;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4332 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -128,10 +128,10 @@ public:
   constexpr void __cordl_internal_set__videoClipsWithId(
       ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b20288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b35750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_videoClipWithIds, addr 0x3b20280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_videoClipWithIds, addr 0x3b35748, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> get_videoClipWithIds();
 
 protected:
@@ -152,7 +152,7 @@ public:
   ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> ____videoClipsWithId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4333 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

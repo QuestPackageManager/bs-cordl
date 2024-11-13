@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyMessageHandler__ServerStatusUpdatedDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::__PartyMessageHandler__ServerStatusUpdatedDelegate::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22a0e74;
+  constexpr static std::size_t addrs = 0x22abf1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyMessageHandler__ServerStatusUpdatedDelegate::*)(
     ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration)>(&::GlobalNamespace::__PartyMessageHandler__ServerStatusUpdatedDelegate::Invoke)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22a0f00;
+  constexpr static std::size_t addrs = 0x22abfa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__PartyMessageHandler__ServerStatusUpdatedDelegate::*)(::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration, ::System::AsyncCallback*,
                                                                               ::System::Object*)>(&::GlobalNamespace::__PartyMessageHandler__ServerStatusUpdatedDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22a0f50;
+  constexpr static std::size_t addrs = 0x22abff8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyMessageHandler__ServerStatusUpdatedDelegate::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::__PartyMessageHandler__ServerStatusUpdatedDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22a1010;
+  constexpr static std::size_t addrs = 0x22ac0b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate::*)(
     ::System::Object*, ::System::IntPtr)>(&::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22a101c;
+  constexpr static std::size_t addrs = 0x22ac0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate::*)(::StringW)>(
     &::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22a10b8;
+  constexpr static std::size_t addrs = 0x22ac160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +164,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
         &::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22a10cc;
+  constexpr static std::size_t addrs = 0x22ac174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22a10ec;
+  constexpr static std::size_t addrs = 0x22ac194;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage*>* (*)()>(
     &::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22a0bb0;
+  constexpr static std::size_t addrs = 0x22abc58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage* (
     ::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage::*)(::StringW)>(&::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a0dd8;
+  constexpr static std::size_t addrs = 0x22abe80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage::*)(
     ::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage::Serialize)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22a10f8;
+  constexpr static std::size_t addrs = 0x22ac1a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage::*)(
     ::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage::Deserialize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22a111c;
+  constexpr static std::size_t addrs = 0x22ac1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage::*)()>(
     &::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage::Release)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22a0e20;
+  constexpr static std::size_t addrs = 0x22abec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage::*)()>(
     &::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a1144;
+  constexpr static std::size_t addrs = 0x22ac1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -386,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyMessageHandler::*)(::GlobalNamespace::ConnectedPlayerManager*)>(
     &::GlobalNamespace::PartyMessageHandler::_ctor)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x22a0a44;
+  constexpr static std::size_t addrs = 0x22abaec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyMessageHandler::*)()>(&::GlobalNamespace::PartyMessageHandler::Dispose)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22a0bf0;
+  constexpr static std::size_t addrs = 0x22abc98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PartyMessageHandler*>::get(), "Dispose",
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyMessageHandler::*)(
     ::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate*)>(&::GlobalNamespace::PartyMessageHandler::add_connectToMasterServerEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22a0c18;
+  constexpr static std::size_t addrs = 0x22abcc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -429,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyMessageHandler::*)(
     ::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate*)>(&::GlobalNamespace::PartyMessageHandler::remove_connectToMasterServerEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22a0cb4;
+  constexpr static std::size_t addrs = 0x22abd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyMessageHandler::*)(::StringW)>(
     &::GlobalNamespace::PartyMessageHandler::ConnectToMasterServer)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22a0d50;
+  constexpr static std::size_t addrs = 0x22abdf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PartyMessageHandler::*)(
     ::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage*)>(&::GlobalNamespace::PartyMessageHandler::HandleConnectToMasterServer)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22a0de0;
+  constexpr static std::size_t addrs = 0x22abe88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

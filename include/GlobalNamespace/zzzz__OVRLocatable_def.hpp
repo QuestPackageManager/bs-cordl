@@ -75,25 +75,25 @@ public:
 
   __declspec(property(get = get_Rotation)) ::System::Nullable_1<::UnityEngine::Quaternion> Rotation;
 
-  /// @brief Method ComputeWorldPosition, addr 0x3f27774, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method ComputeWorldPosition, addr 0x3f3be04, size 0x29c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Vector3> ComputeWorldPosition(::UnityEngine::Camera* camera);
 
-  /// @brief Method ComputeWorldRotation, addr 0x3f27f8c, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method ComputeWorldRotation, addr 0x3f3c61c, size 0x2e8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Quaternion> ComputeWorldRotation(::UnityEngine::Camera* camera);
 
-  /// @brief Method .ctor, addr 0x3f273e4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3ba74, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::GlobalNamespace::__OVRPlugin__SpaceLocationFlags flags);
 
-  /// @brief Method get_IsPositionTracked, addr 0x3f276bc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_IsPositionTracked, addr 0x3f3bd4c, size 0x5c, virtual false, abstract: false, final false
   inline bool get_IsPositionTracked();
 
-  /// @brief Method get_IsRotationTracked, addr 0x3f27718, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_IsRotationTracked, addr 0x3f3bda8, size 0x5c, virtual false, abstract: false, final false
   inline bool get_IsRotationTracked();
 
-  /// @brief Method get_Position, addr 0x3f2769c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x3f3bd2c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Vector3> get_Position();
 
-  /// @brief Method get_Rotation, addr 0x3f276a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Rotation, addr 0x3f3bd38, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Quaternion> get_Rotation();
 
   // Ctor Parameters []
@@ -116,7 +116,7 @@ public:
   ::GlobalNamespace::__OVRPlugin__SpaceLocationFlags _flags;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7798 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -164,51 +164,51 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRLocatable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRLocatable>*();
 
-  /// @brief Method Equals, addr 0x3f270f0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3f3b780, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3f26fac, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3f3b63c, size 0x68, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRLocatable other);
 
-  /// @brief Method GetHashCode, addr 0x3f27180, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3f3b810, size 0x90, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IOVRAnchorComponent<OVRLocatable>.FromAnchor, addr 0x3f26cd0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRLocatable>.FromAnchor, addr 0x3f3b360, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRLocatable IOVRAnchorComponent_OVRLocatable__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method IOVRAnchorComponent<OVRLocatable>.get_Handle, addr 0x3f26c7c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRLocatable>.get_Handle, addr 0x3f3b30c, size 0x54, virtual true, abstract: false, final true
   inline uint64_t IOVRAnchorComponent_OVRLocatable__get_Handle();
 
-  /// @brief Method IOVRAnchorComponent<OVRLocatable>.get_Type, addr 0x3f26c24, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRLocatable>.get_Type, addr 0x3f3b2b4, size 0x50, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRPlugin__SpaceComponentType IOVRAnchorComponent_OVRLocatable__get_Type();
 
-  /// @brief Method SetEnabledAsync, addr 0x3f26eac, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method SetEnabledAsync, addr 0x3f3b53c, size 0x100, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enabled, double_t timeout);
 
-  /// @brief Method ToString, addr 0x3f27210, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3f3b8a0, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetSceneAnchorPose, addr 0x3f272c0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TryGetSceneAnchorPose, addr 0x3f3b950, size 0x11c, virtual false, abstract: false, final false
   inline bool TryGetSceneAnchorPose(ByRef<::GlobalNamespace::__OVRLocatable__TrackingSpacePose> pose);
 
-  /// @brief Method TryGetSpatialAnchorPose, addr 0x3f27570, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TryGetSpatialAnchorPose, addr 0x3f3bc00, size 0x11c, virtual false, abstract: false, final false
   inline bool TryGetSpatialAnchorPose(ByRef<::GlobalNamespace::__OVRLocatable__TrackingSpacePose> pose);
 
-  /// @brief Method .ctor, addr 0x3f26d00, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3b390, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
   static inline ::GlobalNamespace::OVRLocatable getStaticF_Null();
 
-  /// @brief Method get_Handle, addr 0x3f272b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x3f3b948, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x3f26dc0, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x3f3b450, size 0xec, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x3f26d64, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x3f3b3f4, size 0x5c, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Type, addr 0x3f26c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3f3b304, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__SpaceComponentType get_Type();
 
   /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRLocatable>"
@@ -217,10 +217,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRLocatable>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRLocatable>* i___System__IEquatable_1___GlobalNamespace__OVRLocatable_();
 
-  /// @brief Method op_Equality, addr 0x3f27014, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3f3b6a4, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRLocatable lhs, ::GlobalNamespace::OVRLocatable rhs);
 
-  /// @brief Method op_Inequality, addr 0x3f27080, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3f3b710, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRLocatable lhs, ::GlobalNamespace::OVRLocatable rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRLocatable value);
@@ -236,7 +236,7 @@ public:
   uint64_t _Handle_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7799 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -44,7 +44,7 @@ public:
   /// @brief Field qcStatementInfo, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_qcStatementInfo, put = __cordl_internal_set_qcStatementInfo)) ::Org::BouncyCastle::Asn1::Asn1Encodable* qcStatementInfo;
 
-  /// @brief Method GetInstance, addr 0x24c24f4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24cd59c, size 0x164, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::QCStatement* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::QCStatement* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* qcStatementId);
@@ -54,7 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::QCStatement* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x24c2780, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24cd828, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_qcStatementId();
@@ -69,19 +69,19 @@ public:
 
   constexpr void __cordl_internal_set_qcStatementInfo(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x24c271c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cd7c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* qcStatementId);
 
-  /// @brief Method .ctor, addr 0x24c2744, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cd7ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* qcStatementId, ::Org::BouncyCastle::Asn1::Asn1Encodable* qcStatementInfo);
 
-  /// @brief Method .ctor, addr 0x24c2658, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cd700, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_StatementId, addr 0x24c2770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatementId, addr 0x24cd818, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_StatementId();
 
-  /// @brief Method get_StatementInfo, addr 0x24c2778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatementInfo, addr 0x24cd820, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_StatementInfo();
 
 protected:

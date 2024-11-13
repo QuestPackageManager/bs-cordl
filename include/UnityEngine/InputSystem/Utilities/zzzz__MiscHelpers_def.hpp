@@ -260,7 +260,7 @@ public:
   ::System::Collections::Generic::IEnumerator_1<TValue>* _____7__wrap2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7059 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -300,7 +300,7 @@ public:
   MiscHelpers(MiscHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7060 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleWithCallbacks::*)(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>*)>(
     &::HMUI::ToggleWithCallbacks::add_stateDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3993f24;
+  constexpr static std::size_t addrs = 0x39a787c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleWithCallbacks::*)(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>*)>(
     &::HMUI::ToggleWithCallbacks::remove_stateDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3994200;
+  constexpr static std::size_t addrs = 0x39a7b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::__ToggleWithCallbacks__SelectionState (::HMUI::ToggleWithCallbacks::*)()>(
     &::HMUI::ToggleWithCallbacks::get_selectionState)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39942bc;
+  constexpr static std::size_t addrs = 0x39a7c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleWithCallbacks*>::get(), "get_selectionState",
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleWithCallbacks::*)(::UnityEngine::UI::__Selectable__SelectionState, bool)>(
     &::HMUI::ToggleWithCallbacks::DoStateTransition)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3998838;
+  constexpr static std::size_t addrs = 0x39ac190;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ToggleWithCallbacks::*)()>(&::HMUI::ToggleWithCallbacks::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3998884;
+  constexpr static std::size_t addrs = 0x39ac1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ToggleWithCallbacks*>::get(), ".ctor",

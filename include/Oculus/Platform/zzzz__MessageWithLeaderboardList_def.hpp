@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLeaderboardList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f09304, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f1d994, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LeaderboardList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLeaderboardList, addr 0x3f092c8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLeaderboardList, addr 0x3f1d958, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LeaderboardList* GetLeaderboardList();
 
   static inline ::Oculus::Platform::MessageWithLeaderboardList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f064c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1ab50, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -52,7 +52,7 @@ public:
   MessageWithLeaderboardList(MessageWithLeaderboardList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15337 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15345 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

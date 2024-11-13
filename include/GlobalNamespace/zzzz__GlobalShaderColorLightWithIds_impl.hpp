@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__GlobalShaderColorLightWithIds__LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::__GlobalShaderColorLightWithIds__LightIntensitiesWithId::get_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978080;
+  constexpr static std::size_t addrs = 0x398b904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GlobalShaderColorLightWithIds__LightIntensitiesWithId::*)(float_t)>(
     &::GlobalNamespace::__GlobalShaderColorLightWithIds__LightIntensitiesWithId::set_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978088;
+  constexpr static std::size_t addrs = 0x398b90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GlobalShaderColorLightWithIds__LightIntensitiesWithId::*)(int32_t, float_t)>(
     &::GlobalNamespace::__GlobalShaderColorLightWithIds__LightIntensitiesWithId::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3978090;
+  constexpr static std::size_t addrs = 0x398b914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GlobalShaderColorLightWithIds::*)()>(
     &::GlobalNamespace::GlobalShaderColorLightWithIds::ProcessNewColorData)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3977eb4;
+  constexpr static std::size_t addrs = 0x398b738;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* (
     ::GlobalNamespace::GlobalShaderColorLightWithIds::*)()>(&::GlobalNamespace::GlobalShaderColorLightWithIds::GetLightWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978000;
+  constexpr static std::size_t addrs = 0x398b884;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GlobalShaderColorLightWithIds::*)()>(
     &::GlobalNamespace::GlobalShaderColorLightWithIds::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3978008;
+  constexpr static std::size_t addrs = 0x398b88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GlobalShaderColorLightWithIds*>::get(),

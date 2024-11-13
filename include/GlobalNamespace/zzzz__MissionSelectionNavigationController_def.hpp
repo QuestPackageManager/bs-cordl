@@ -53,10 +53,10 @@ public:
 
   static inline ::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <PresentMissionClearedIfNeeded>b__0, addr 0x3ba1e70, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <PresentMissionClearedIfNeeded>b__0, addr 0x3bb6fe0, size 0xb8, virtual false, abstract: false, final false
   inline void _PresentMissionClearedIfNeeded_b__0();
 
-  /// @brief Method <PresentMissionClearedIfNeeded>b__1, addr 0x3ba1f28, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <PresentMissionClearedIfNeeded>b__1, addr 0x3bb7098, size 0x20, virtual false, abstract: false, final false
   inline void _PresentMissionClearedIfNeeded_b__1();
 
   constexpr ::UnityW<::GlobalNamespace::MissionSelectionNavigationController> const& __cordl_internal_get___4__this() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3ba1e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb6fd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,7 +104,7 @@ public:
   ::System::Action* _____9__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -144,21 +144,21 @@ public:
 
   __declspec(property(get = get_selectedMissionNode)) ::UnityW<::GlobalNamespace::MissionNode> selectedMissionNode;
 
-  /// @brief Method DidActivate, addr 0x3ba1a68, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3bb6bd8, size 0x160, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3ba1bc8, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3bb6d38, size 0xf0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionLevelDetailViewControllerDidPressPlayButton, addr 0x3ba1d2c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelDetailViewControllerDidPressPlayButton, addr 0x3bb6e9c, size 0x20, virtual false, abstract: false, final false
   inline void HandleMissionLevelDetailViewControllerDidPressPlayButton(::GlobalNamespace::MissionLevelDetailViewController* viewController);
 
-  /// @brief Method HandleMissionSelectionMapViewControllerDidSelectMissionLevel, addr 0x3ba1cb8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionSelectionMapViewControllerDidSelectMissionLevel, addr 0x3bb6e28, size 0x74, virtual false, abstract: false, final false
   inline void HandleMissionSelectionMapViewControllerDidSelectMissionLevel(::GlobalNamespace::MissionSelectionMapViewController* viewController, ::GlobalNamespace::MissionNode* missionNode);
 
   static inline ::GlobalNamespace::MissionSelectionNavigationController* New_ctor();
 
-  /// @brief Method PresentMissionClearedIfNeeded, addr 0x3ba1d4c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method PresentMissionClearedIfNeeded, addr 0x3bb6ebc, size 0x114, virtual false, abstract: false, final false
   inline void PresentMissionClearedIfNeeded(::System::Action_1<bool>* finishedCallback);
 
   constexpr ::UnityW<::GlobalNamespace::MissionLevelDetailViewController> const& __cordl_internal_get__missionLevelDetailViewController() const;
@@ -179,16 +179,16 @@ public:
 
   constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
-  /// @brief Method .ctor, addr 0x3ba1e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb6fd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressPlayButtonEvent, addr 0x3ba18ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPlayButtonEvent, addr 0x3bb6a5c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
-  /// @brief Method get_selectedMissionNode, addr 0x3ba1a4c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedMissionNode, addr 0x3bb6bbc, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_selectedMissionNode();
 
-  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3ba199c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3bb6b0c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
 protected:
@@ -215,7 +215,7 @@ public:
   ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* ___didPressPlayButtonEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4900 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

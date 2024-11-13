@@ -30,7 +30,7 @@ public:
   /// @brief Field m_WebRequestTimeout, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_WebRequestTimeout, put = __cordl_internal_set_m_WebRequestTimeout)) int32_t m_WebRequestTimeout;
 
-  /// @brief Method Copy, addr 0x47286fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x473ce14, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* Copy();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* New_ctor();
@@ -47,19 +47,19 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequestTimeout(int32_t value);
 
-  /// @brief Method .ctor, addr 0x47287a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x473ceb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IgnoreFailures, addr 0x472877c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreFailures, addr 0x473ce94, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreFailures();
 
-  /// @brief Method get_WebRequestTimeout, addr 0x4728790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequestTimeout, addr 0x473cea8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_WebRequestTimeout();
 
-  /// @brief Method set_IgnoreFailures, addr 0x4728784, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreFailures, addr 0x473ce9c, size 0xc, virtual false, abstract: false, final false
   inline void set_IgnoreFailures(bool value);
 
-  /// @brief Method set_WebRequestTimeout, addr 0x4728798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WebRequestTimeout, addr 0x473ceb0, size 0x8, virtual false, abstract: false, final false
   inline void set_WebRequestTimeout(int32_t value);
 
 protected:
@@ -83,7 +83,7 @@ public:
   int32_t ___m_WebRequestTimeout;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

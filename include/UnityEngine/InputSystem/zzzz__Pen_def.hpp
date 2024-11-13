@@ -87,15 +87,15 @@ public:
 
   __declspec(property(get = get_twist, put = set_twist)) ::UnityEngine::InputSystem::Controls::AxisControl* twist;
 
-  /// @brief Method FinishSetup, addr 0x4511228, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x4525940, size 0x1f4, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x4511128, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x4525840, size 0x80, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::Pen* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x45111a8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x45258c0, size 0x80, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__eraser_k__BackingField();
@@ -152,74 +152,74 @@ public:
 
   constexpr void __cordl_internal_set__twist_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x451141c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4525b34, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Pen* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_Item, addr 0x4511034, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x452574c, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_Item(::UnityEngine::InputSystem::PenButton button);
 
-  /// @brief Method get_current, addr 0x4510fa0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x45256b8, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Pen* get_current();
 
-  /// @brief Method get_eraser, addr 0x4510f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eraser, addr 0x4525638, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_eraser();
 
-  /// @brief Method get_firstBarrelButton, addr 0x4510f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstBarrelButton, addr 0x4525648, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_firstBarrelButton();
 
-  /// @brief Method get_fourthBarrelButton, addr 0x4510f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fourthBarrelButton, addr 0x4525678, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_fourthBarrelButton();
 
-  /// @brief Method get_inRange, addr 0x4510f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inRange, addr 0x4525688, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_inRange();
 
-  /// @brief Method get_secondBarrelButton, addr 0x4510f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secondBarrelButton, addr 0x4525658, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_secondBarrelButton();
 
-  /// @brief Method get_thirdBarrelButton, addr 0x4510f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thirdBarrelButton, addr 0x4525668, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thirdBarrelButton();
 
-  /// @brief Method get_tilt, addr 0x4510f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tilt, addr 0x4525698, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_tilt();
 
-  /// @brief Method get_tip, addr 0x4510f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tip, addr 0x4525628, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_tip();
 
-  /// @brief Method get_twist, addr 0x4510f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_twist, addr 0x45256a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_twist();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Pen* value);
 
-  /// @brief Method set_current, addr 0x4510fe8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x4525700, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Pen* value);
 
-  /// @brief Method set_eraser, addr 0x4510f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eraser, addr 0x4525640, size 0x8, virtual false, abstract: false, final false
   inline void set_eraser(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_firstBarrelButton, addr 0x4510f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_firstBarrelButton, addr 0x4525650, size 0x8, virtual false, abstract: false, final false
   inline void set_firstBarrelButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_fourthBarrelButton, addr 0x4510f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fourthBarrelButton, addr 0x4525680, size 0x8, virtual false, abstract: false, final false
   inline void set_fourthBarrelButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_inRange, addr 0x4510f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inRange, addr 0x4525690, size 0x8, virtual false, abstract: false, final false
   inline void set_inRange(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_secondBarrelButton, addr 0x4510f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_secondBarrelButton, addr 0x4525660, size 0x8, virtual false, abstract: false, final false
   inline void set_secondBarrelButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_thirdBarrelButton, addr 0x4510f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thirdBarrelButton, addr 0x4525670, size 0x8, virtual false, abstract: false, final false
   inline void set_thirdBarrelButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_tilt, addr 0x4510f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tilt, addr 0x45256a0, size 0x8, virtual false, abstract: false, final false
   inline void set_tilt(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method set_tip, addr 0x4510f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tip, addr 0x4525630, size 0x8, virtual false, abstract: false, final false
   inline void set_tip(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_twist, addr 0x4510f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_twist, addr 0x45256b0, size 0x8, virtual false, abstract: false, final false
   inline void set_twist(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:
@@ -264,7 +264,7 @@ public:
   ::UnityEngine::InputSystem::Controls::AxisControl* ____twist_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6619 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6624 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

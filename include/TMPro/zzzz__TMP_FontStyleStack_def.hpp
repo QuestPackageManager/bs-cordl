@@ -23,13 +23,13 @@ namespace TMPro {
 struct CORDL_TYPE TMP_FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x4790208, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x47a4920, size 0xfc, virtual false, abstract: false, final false
   inline uint8_t Add(::TMPro::FontStyles style);
 
-  /// @brief Method Clear, addr 0x47901fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x47a4914, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Remove, addr 0x4790304, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x47a4a1c, size 0x144, virtual false, abstract: false, final false
   inline uint8_t Remove(::TMPro::FontStyles style);
 
   // Ctor Parameters []
@@ -75,7 +75,7 @@ public:
   uint8_t smallcaps;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14535 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa };

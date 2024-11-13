@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(&::GlobalNamespace::BeatmapObjectsAvoidance::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x222a42c;
+  constexpr static std::size_t addrs = 0x2232ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), "Awake",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(&::GlobalNamespace::BeatmapObjectsAvoidance::Start)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x222a448;
+  constexpr static std::size_t addrs = 0x2232efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), "Start",
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(&::GlobalNamespace::BeatmapObjectsAvoidance::OnDestroy)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x222a948;
+  constexpr static std::size_t addrs = 0x2233400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), "OnDestroy",
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(&::GlobalNamespace::BeatmapObjectsAvoidance::Update)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x222aa48;
+  constexpr static std::size_t addrs = 0x2233500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), "Update",
@@ -70,8 +70,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(&::GlobalNamespace::BeatmapObjectsAvoidance::SetupAndRun)> {
-  constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x222a5c8;
+  constexpr static std::size_t size = 0x384;
+  constexpr static std::size_t addrs = 0x223307c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(
     &::GlobalNamespace::BeatmapObjectsAvoidance::BuildAnimationCurvePath)> {
   constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x222abd8;
+  constexpr static std::size_t addrs = 0x2233690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)(
     ByRef<::UnityEngine::Vector2>, int32_t, ::GlobalNamespace::OffsetDirection)>(&::GlobalNamespace::BeatmapObjectsAvoidance::AdjustPositionWithOffsetDirection)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x222b224;
+  constexpr static std::size_t addrs = 0x2233cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(
     &::GlobalNamespace::BeatmapObjectsAvoidance::HandleBeatmapObjectSpawnControllerDidInit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x222bd44;
+  constexpr static std::size_t addrs = 0x22347fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(&::GlobalNamespace::BeatmapObjectsAvoidance::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x222bd48;
+  constexpr static std::size_t addrs = 0x2234800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), ".ctor",

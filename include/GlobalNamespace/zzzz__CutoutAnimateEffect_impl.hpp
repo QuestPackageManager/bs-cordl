@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::*)(int32_t)>(
     &::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b05f34;
+  constexpr static std::size_t addrs = 0x3b1b2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::*)()>(
     &::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b060cc;
+  constexpr static std::size_t addrs = 0x3b1b45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::*)()>(
     &::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::MoveNext)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3b060d0;
+  constexpr static std::size_t addrs = 0x3b1b460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::*)()>(
     &::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b061c8;
+  constexpr static std::size_t addrs = 0x3b1b558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::*)()>(
     &::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b061d0;
+  constexpr static std::size_t addrs = 0x3b1b560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::*)()>(
     &::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b06208;
+  constexpr static std::size_t addrs = 0x3b1b598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CutoutAnimateEffect::*)()>(&::GlobalNamespace::CutoutAnimateEffect::get_animating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b05e28;
+  constexpr static std::size_t addrs = 0x3b1b1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutAnimateEffect*>::get(), "get_animating",
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect::*)(bool)>(&::GlobalNamespace::CutoutAnimateEffect::set_animating)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b05e30;
+  constexpr static std::size_t addrs = 0x3b1b1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect::*)()>(&::GlobalNamespace::CutoutAnimateEffect::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b05e3c;
+  constexpr static std::size_t addrs = 0x3b1b1cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutAnimateEffect*>::get(), "Start",
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::CutoutAnimateEffect::*)(float_t, float_t, float_t)>(
     &::GlobalNamespace::CutoutAnimateEffect::AnimateToCutoutCoroutine)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b05eb0;
+  constexpr static std::size_t addrs = 0x3b1b240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect::*)(float_t)>(&::GlobalNamespace::CutoutAnimateEffect::SetCutout)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3b05e44;
+  constexpr static std::size_t addrs = 0x3b1b1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect::*)()>(&::GlobalNamespace::CutoutAnimateEffect::ResetEffect)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b06020;
+  constexpr static std::size_t addrs = 0x3b1b3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutAnimateEffect*>::get(), "ResetEffect",
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect::*)(float_t, float_t, float_t)>(
     &::GlobalNamespace::CutoutAnimateEffect::AnimateCutout)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3b06044;
+  constexpr static std::size_t addrs = 0x3b1b3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutAnimateEffect::*)()>(&::GlobalNamespace::CutoutAnimateEffect::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b06098;
+  constexpr static std::size_t addrs = 0x3b1b428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutAnimateEffect*>::get(), ".ctor",

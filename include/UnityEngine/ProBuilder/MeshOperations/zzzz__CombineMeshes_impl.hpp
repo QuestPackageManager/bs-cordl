@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__CombineMeshes____c::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::__CombineMeshes____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46f1700;
+  constexpr static std::size_t addrs = 0x4705e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__CombineMeshes____c::*)(::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::MeshOperations::__CombineMeshes____c::_SplitByMaxVertexCount_b__5_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x46f1708;
+  constexpr static std::size_t addrs = 0x4705e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46ee6ac;
+  constexpr static std::size_t addrs = 0x4702dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*,
                                                               ::UnityEngine::ProBuilder::ProBuilderMesh*)>(&::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::Combine)> {
   constexpr static std::size_t size = 0xbbc;
-  constexpr static std::size_t addrs = 0x46eeb48;
+  constexpr static std::size_t addrs = 0x4703260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CombineToNewMeshes)> {
   constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x46ee6b0;
+  constexpr static std::size_t addrs = 0x4702dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>, ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*>,
     ByRef<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*>, ::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::AccumulateMeshesInfo)> {
   constexpr static std::size_t size = 0xd6c;
-  constexpr static std::size_t addrs = 0x46ef704;
+  constexpr static std::size_t addrs = 0x4703e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*,
     ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>)>(&::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CreateMeshFromSplit)> {
   constexpr static std::size_t size = 0x510;
-  constexpr static std::size_t addrs = 0x46f1194;
+  constexpr static std::size_t addrs = 0x47058ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                      ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>*, uint32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::SplitByMaxVertexCount)> {
   constexpr static std::size_t size = 0xd24;
-  constexpr static std::size_t addrs = 0x46f0470;
+  constexpr static std::size_t addrs = 0x4704b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

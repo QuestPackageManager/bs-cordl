@@ -481,7 +481,7 @@ public:
   static ::Mono::Unity::__UnityTls__unitytls_error_code const UNITYTLS_USER_WRITE_FAILED;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9048 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -520,7 +520,7 @@ public:
   uint64_t reserved;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9049 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -554,7 +554,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9050 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -585,7 +585,7 @@ public:
   uint64_t handle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9051 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -617,7 +617,7 @@ public:
   uint64_t handle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9052 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -647,7 +647,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9053 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -678,7 +678,7 @@ public:
   uint64_t handle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9054 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -790,7 +790,7 @@ public:
   static ::Mono::Unity::__UnityTls__unitytls_x509verify_result const UNITYTLS_X509VERIFY_SUCCESS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9055 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -811,14 +811,14 @@ namespace Mono::Unity {
 class CORDL_TYPE __UnityTls__unitytls_x509verify_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x40939e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8100, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::cordl_internals::Ptr<void> userData, ::Mono::Unity::__UnityTls__unitytls_x509_ref cert,
                                                                       ::Mono::Unity::__UnityTls__unitytls_x509verify_result result,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4093948, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8060, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -836,7 +836,7 @@ public:
   __UnityTls__unitytls_x509verify_callback(__UnityTls__unitytls_x509verify_callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9056 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -861,7 +861,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9057 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -890,7 +890,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9058 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -941,7 +941,7 @@ public:
   static ::Mono::Unity::__UnityTls__unitytls_ciphersuite const UNITYTLS_CIPHERSUITE_INVALID;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9059 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1005,7 +1005,7 @@ public:
   static ::Mono::Unity::__UnityTls__unitytls_protocol const UNITYTLS_PROTOCOL_TLS_1_2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9060 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1041,7 +1041,7 @@ public:
   ::Mono::Unity::__UnityTls__unitytls_protocol max;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9061 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -1064,13 +1064,13 @@ namespace Mono::Unity {
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_write_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4093a9c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a81b4, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> data, ::System::IntPtr bufferLen,
                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40939fc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8114, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1088,7 +1088,7 @@ public:
   __UnityTls__unitytls_tlsctx_write_callback(__UnityTls__unitytls_tlsctx_write_callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9062 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1104,13 +1104,13 @@ namespace Mono::Unity {
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_read_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4093b50, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8268, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4093ab0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a81c8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1128,7 +1128,7 @@ public:
   __UnityTls__unitytls_tlsctx_read_callback(__UnityTls__unitytls_tlsctx_read_callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9063 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1144,13 +1144,13 @@ namespace Mono::Unity {
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_trace_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4093c04, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a831c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> traceMessage,
                      ::System::IntPtr traceMessageLen);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4093b64, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a827c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1168,7 +1168,7 @@ public:
   __UnityTls__unitytls_tlsctx_trace_callback(__UnityTls__unitytls_tlsctx_trace_callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9064 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1184,7 +1184,7 @@ namespace Mono::Unity {
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_certificate_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4093cb8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a83d0, size 0x1c, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509name> caList, ::System::IntPtr caListLen,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list_ref> chain, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key_ref> key,
@@ -1192,7 +1192,7 @@ public:
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4093c18, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8330, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1210,7 +1210,7 @@ public:
   __UnityTls__unitytls_tlsctx_certificate_callback(__UnityTls__unitytls_tlsctx_certificate_callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9065 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1226,13 +1226,13 @@ namespace Mono::Unity {
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_x509verify_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4093d74, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a848c, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::cordl_internals::Ptr<void> userData, ::Mono::Unity::__UnityTls__unitytls_x509list_ref chain,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4093cd4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a83ec, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1250,7 +1250,7 @@ public:
   __UnityTls__unitytls_tlsctx_x509verify_callback(__UnityTls__unitytls_tlsctx_x509verify_callback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1285,7 +1285,7 @@ public:
   ::cordl_internals::Ptr<void> data;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9067 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -1310,12 +1310,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4093e18, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8530, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_errorstate Invoke();
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4093d90, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a84a8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1333,7 +1333,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t(__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9068 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1349,12 +1349,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4093ecc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a85e4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState, ::Mono::Unity::__UnityTls__unitytls_error_code errorCode);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4093e2c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8544, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1372,7 +1372,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t(__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9069 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1388,13 +1388,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4093f80, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8698, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_key_ref Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> key,
                                                             ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4093ee0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a85f8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1412,7 +1412,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t(__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9070 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1428,13 +1428,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094034, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a874c, size 0x14, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> Invoke(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen, ::cordl_internals::Ptr<uint8_t> password,
                                                                                 ::System::IntPtr passwordLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4093f94, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a86ac, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1452,7 +1452,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t(__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1468,13 +1468,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x40940e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8800, size 0x14, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> Invoke(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen, ::cordl_internals::Ptr<uint8_t> password,
                                                                                 ::System::IntPtr passwordLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094048, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8760, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1492,7 +1492,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t(__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9072 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1508,12 +1508,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094198, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a88b0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> key);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40940fc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8814, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1531,7 +1531,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_key_free_t(__UnityTls__unitytls_interface_struct__unitytls_key_free_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1547,13 +1547,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094238, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8950, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::Mono::Unity::__UnityTls__unitytls_x509_ref cert, ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40941ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a88c4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1571,7 +1571,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t(__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9074 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1587,13 +1587,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x40942ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8a04, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509list_ref Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list,
                                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x409424c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8964, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1611,7 +1611,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t(__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9075 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1627,13 +1627,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x409438c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8aa4, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509_ref Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref list, ::System::IntPtr index,
                                                              ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094300, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8a18, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1651,7 +1651,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t(__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9076 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1667,12 +1667,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_create_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x409443c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8b54, size 0x14, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40943a0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8ab8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1690,7 +1690,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_x509list_create_t(__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9077 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1706,13 +1706,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_append_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x40944f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8c08, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list, ::Mono::Unity::__UnityTls__unitytls_x509_ref cert,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094450, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8b68, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1730,7 +1730,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_x509list_append_t(__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9078 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1746,13 +1746,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x40945a4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8cbc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list, ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094504, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8c1c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1770,7 +1770,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t(__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9079 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1786,12 +1786,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094654, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8d6c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40945b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8cd0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1809,7 +1809,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_x509list_free_t(__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1825,14 +1825,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x40946f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8e0c, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref chain, ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen,
                                                                       ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* cb, ::cordl_internals::Ptr<void> userData,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094668, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8d80, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1850,7 +1850,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t(__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9081 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1866,14 +1866,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094794, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8eac, size 0x18, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref chain, ::Mono::Unity::__UnityTls__unitytls_x509list_ref trustCA,
                                                                       ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen, ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* cb,
                                                                       ::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094708, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8e20, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1891,7 +1891,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t(__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1907,14 +1907,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094838, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a8f50, size 0x3c, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> Invoke(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange supportedProtocols,
                                                                                    ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks callbacks, uint64_t certChain, uint64_t leafCertificateKey,
                                                                                    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40947ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8ec4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1932,7 +1932,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9083 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1948,14 +1948,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094900, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a9018, size 0x3c, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> Invoke(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange supportedProtocols,
                                                                                    ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks callbacks, ::cordl_internals::Ptr<uint8_t> cn,
                                                                                    ::System::IntPtr cnLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094874, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a8f8c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1973,7 +1973,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9084 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1989,13 +1989,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x40949dc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a90f4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_x509list_ref clientAuthCAList,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x409493c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a9054, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2015,7 +2015,7 @@ public:
       delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2031,13 +2031,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094a90, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a91a8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* cb, ::cordl_internals::Ptr<void> userData,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40949f0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a9108, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2055,7 +2055,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9086 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2071,13 +2071,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094b44, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a925c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback* cb, ::cordl_internals::Ptr<void> userData,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094aa4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a91bc, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2095,7 +2095,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9087 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2111,13 +2111,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094bf8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a9310, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* cb, ::cordl_internals::Ptr<void> userData,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094b58, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a9270, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2135,7 +2135,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9088 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2151,13 +2151,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094cac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a93c4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_ciphersuite> supportedCiphersuites,
                      ::System::IntPtr supportedCiphersuitesLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094c0c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a9324, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2175,7 +2175,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9089 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2191,13 +2191,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094d60, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a9478, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_ciphersuite Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
                                                                 ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094cc0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a93d8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2215,7 +2215,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9090 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2231,13 +2231,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094e14, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a952c, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_protocol Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
                                                              ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094d74, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a948c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2255,7 +2255,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9091 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2271,13 +2271,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094ec8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a95e0, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094e28, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a9540, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2295,7 +2295,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9092 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2311,13 +2311,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4094f7c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a9694, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094edc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a95f4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2335,7 +2335,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9093 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2351,13 +2351,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4095030, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a9748, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> data, ::System::IntPtr bufferLen,
                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4094f90, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a96a8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2375,7 +2375,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9094 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2391,12 +2391,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x40950e4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a97fc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4095044, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a975c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2414,7 +2414,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9095 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2430,12 +2430,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4095194, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a98ac, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40950f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a9810, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2453,7 +2453,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2469,12 +2469,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4095248, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a9960, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40951a8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a98c0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2492,7 +2492,7 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t(__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9097 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2934,7 +2934,7 @@ public:
 
   constexpr void __cordl_internal_set_unitytls_x509verify_explicit_ca(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* value);
 
-  /// @brief Method .ctor, addr 0x4093d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a84a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3051,7 +3051,7 @@ public:
   ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* ___unitytls_random_generate_bytes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3178,15 +3178,15 @@ public:
   /// @brief Field marshalledInterface, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_marshalledInterface, put = setStaticF_marshalledInterface)) ::Mono::Unity::__UnityTls__unitytls_interface_struct* marshalledInterface;
 
-  /// @brief Method GetUnityTlsInterface, addr 0x409392c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetUnityTlsInterface, addr 0x40a8044, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetUnityTlsInterface();
 
   static inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* getStaticF_marshalledInterface();
 
-  /// @brief Method get_IsSupported, addr 0x4093930, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsSupported, addr 0x40a8048, size 0x18, virtual false, abstract: false, final false
   static inline bool get_IsSupported();
 
-  /// @brief Method get_NativeInterface, addr 0x40936a8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeInterface, addr 0x40a7dc0, size 0xc8, virtual false, abstract: false, final false
   static inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* get_NativeInterface();
 
   static inline void setStaticF_marshalledInterface(::Mono::Unity::__UnityTls__unitytls_interface_struct* value);
@@ -3206,7 +3206,7 @@ public:
   UnityTls(UnityTls const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9099 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -165,7 +165,7 @@ public:
   int32_t ____i_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16894 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -345,7 +345,7 @@ public:
   ::System::Comparison_1<TPriority>* ____comparer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16895 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

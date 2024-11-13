@@ -70,7 +70,7 @@ public:
   ::System::Func_2<T, int32_t>* ___getSortIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -107,7 +107,7 @@ public:
   SortExtensions(SortExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14934 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

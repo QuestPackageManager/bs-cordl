@@ -21,7 +21,7 @@ template <typename TDelegate>
 constexpr void
 System::Linq::Expressions::ExpressionN_1<TDelegate>::__cordl_internal_set__parameters(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____parameters, value);
 }
 template <typename TDelegate>
 inline ::System::Linq::Expressions::ExpressionN_1<TDelegate>*

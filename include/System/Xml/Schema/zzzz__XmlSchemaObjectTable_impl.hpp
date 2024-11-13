@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry::*)(
     ::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*)>(&::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4248db0;
+  constexpr static std::size_t addrs = 0x425d4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::*)(
     ::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*, int32_t)>(&::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4249340;
+  constexpr static std::size_t addrs = 0x425da58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::*)()>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4249454;
+  constexpr static std::size_t addrs = 0x425db6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::*)()>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::get_SyncRoot)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x424945c;
+  constexpr static std::size_t addrs = 0x425db74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::*)()>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::get_IsSynchronized)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4249500;
+  constexpr static std::size_t addrs = 0x425dc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::*)(::System::Array*, int32_t)>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::CopyTo)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x42495a4;
+  constexpr static std::size_t addrs = 0x425dcbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::*)()>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__ValuesCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42496cc;
+  constexpr static std::size_t addrs = 0x425dde4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*, int32_t, ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType)>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4249748;
+  constexpr static std::size_t addrs = 0x425de60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::*)()>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x424978c;
+  constexpr static std::size_t addrs = 0x425dea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::*)()>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4249944;
+  constexpr static std::size_t addrs = 0x425e05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::*)()>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__XSOEnumerator::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x42499e4;
+  constexpr static std::size_t addrs = 0x425e0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -426,7 +426,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::System::Xml::Schema::__XmlSchemaObjectTable__XmlSchemaObjectEntry>*, int32_t, ::System::Xml::Schema::__XmlSchemaObjectTable__EnumeratorType)>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4249410;
+  constexpr static std::size_t addrs = 0x425db28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::DictionaryEntry (::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::*)()>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::get_Entry)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x42499f4;
+  constexpr static std::size_t addrs = 0x425e10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::*)()>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::get_Key)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4249b40;
+  constexpr static std::size_t addrs = 0x425e258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::*)()>(
     &::System::Xml::Schema::__XmlSchemaObjectTable__XSODictionaryEnumerator::get_Value)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4249c70;
+  constexpr static std::size_t addrs = 0x425e388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -540,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable::*)()>(&::System::Xml::Schema::XmlSchemaObjectTable::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4248c08;
+  constexpr static std::size_t addrs = 0x425d320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable*>::get(), ".ctor",
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*)>(&::System::Xml::Schema::XmlSchemaObjectTable::Add)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4248ccc;
+  constexpr static std::size_t addrs = 0x425d3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -570,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable::*)(
     ::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*)>(&::System::Xml::Schema::XmlSchemaObjectTable::Insert)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4248db8;
+  constexpr static std::size_t addrs = 0x425d4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -586,7 +586,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable::*)(
     ::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::XmlSchemaObject*)>(&::System::Xml::Schema::XmlSchemaObjectTable::Replace)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4248f48;
+  constexpr static std::size_t addrs = 0x425d660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -601,7 +601,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable::*)()>(&::System::Xml::Schema::XmlSchemaObjectTable::Clear)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4249028;
+  constexpr static std::size_t addrs = 0x425d740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable*>::get(), "Clear",
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaObjectTable::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaObjectTable::Remove)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x42490bc;
+  constexpr static std::size_t addrs = 0x425d7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XmlSchemaObjectTable::*)(::System::Xml::Schema::XmlSchemaObject*)>(
     &::System::Xml::Schema::XmlSchemaObjectTable::FindIndexByValue)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4248eac;
+  constexpr static std::size_t addrs = 0x425d5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -645,7 +645,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XmlSchemaObjectTable::*)()>(
     &::System::Xml::Schema::XmlSchemaObjectTable::get_Count)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x424918c;
+  constexpr static std::size_t addrs = 0x425d8a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable*>::get(), "get_Count",
@@ -659,7 +659,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaObjectTable::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaObjectTable::Contains)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x42491dc;
+  constexpr static std::size_t addrs = 0x425d8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -674,7 +674,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::Schema::XmlSchemaObject* (::System::Xml::Schema::XmlSchemaObjectTable::*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::XmlSchemaObjectTable::get_Item)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4249234;
+  constexpr static std::size_t addrs = 0x425d94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -689,7 +689,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Xml::Schema::XmlSchemaObjectTable::*)()>(
     &::System::Xml::Schema::XmlSchemaObjectTable::get_Values)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x42492ac;
+  constexpr static std::size_t addrs = 0x425d9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable*>::get(),
@@ -703,7 +703,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Xml::Schema::XmlSchemaObjectTable::*)()>(
     &::System::Xml::Schema::XmlSchemaObjectTable::GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4249370;
+  constexpr static std::size_t addrs = 0x425da88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaObjectTable*>::get(),

@@ -122,26 +122,26 @@ public:
   __declspec(property(get = __cordl_internal_get_startCharacterAnimationEvent,
                       put = __cordl_internal_set_startCharacterAnimationEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* startCharacterAnimationEvent;
 
-  /// @brief Method CleanupAddressables, addr 0x222e790, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CleanupAddressables, addr 0x2237248, size 0x154, virtual false, abstract: false, final false
   inline void CleanupAddressables();
 
-  /// @brief Method GetCharacterWithAnimationClip, addr 0x222e618, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterWithAnimationClip, addr 0x22370d0, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Tuple_2<::UnityW<::GlobalNamespace::BTSCharacter>, ::UnityW<::UnityEngine::AnimationClip>>*
   GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::GlobalNamespace::BTSCharacter>>* charDictionary,
                                 ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::AnimationClip>>* animDictionary, int32_t prefabId, int32_t animationId);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x222e90c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x22373c4, size 0x144, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method LoadAddressables, addr 0x222dd98, size 0x870, virtual false, abstract: false, final false
+  /// @brief Method LoadAddressables, addr 0x2236850, size 0x870, virtual false, abstract: false, final false
   inline void LoadAddressables();
 
   static inline ::GlobalNamespace::BTSCharacterSpawnEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x222e8e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x223739c, size 0x28, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x222d7e4, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x223629c, size 0x5b4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__animationStartAheadTime() const;
@@ -232,16 +232,16 @@ public:
 
   constexpr void __cordl_internal_set_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
-  /// @brief Method .ctor, addr 0x222ea58, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2237510, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_startCharacterAnimationEvent, addr 0x222d104, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_startCharacterAnimationEvent, addr 0x2235bbc, size 0xb0, virtual false, abstract: false, final false
   inline void add_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
-  /// @brief Method get_isInitialized, addr 0x222d7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0x2236294, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
-  /// @brief Method remove_startCharacterAnimationEvent, addr 0x222d5a0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_startCharacterAnimationEvent, addr 0x2236058, size 0xb0, virtual false, abstract: false, final false
   inline void remove_startCharacterAnimationEvent(::System::Action_1<::UnityW<::GlobalNamespace::BTSCharacter>>* value);
 
 protected:
@@ -301,7 +301,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* ____asyncOperationHandles;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17628 };
 
   /// @brief Field kCharacterDisplayEventType value: static_cast<int32_t>(0x28)
   static ::GlobalNamespace::BasicBeatmapEventType const kCharacterDisplayEventType;

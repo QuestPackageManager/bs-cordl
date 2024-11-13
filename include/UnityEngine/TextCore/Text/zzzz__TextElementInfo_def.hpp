@@ -61,7 +61,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE TextElementInfo {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x48b6134, size 0x16f8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48ca84c, size 0x16f8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -231,7 +231,7 @@ public:
   bool isVisible;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15216 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15224 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x188 };

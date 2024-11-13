@@ -49,18 +49,18 @@ public:
   /// @brief Field _rp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__rp, put = __cordl_internal_set__rp)) ::System::Runtime::Remoting::Proxies::RealProxy* _rp;
 
-  /// @brief Method GetProxyType, addr 0x3c62048, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetProxyType, addr 0x3c766d8, size 0xd0, virtual false, abstract: false, final false
   inline ::System::RuntimeType* GetProxyType();
 
-  /// @brief Method InCurrentContext, addr 0x3c62150, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InCurrentContext, addr 0x3c767e0, size 0x40, virtual false, abstract: false, final false
   inline bool InCurrentContext();
 
-  /// @brief Method LoadRemoteFieldNew, addr 0x3c62190, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method LoadRemoteFieldNew, addr 0x3c76820, size 0x2cc, virtual false, abstract: false, final false
   inline ::System::Object* LoadRemoteFieldNew(::System::IntPtr classPtr, ::System::IntPtr fieldPtr);
 
   static inline ::System::Runtime::Remoting::Proxies::TransparentProxy* New_ctor();
 
-  /// @brief Method StoreRemoteField, addr 0x3c62d14, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method StoreRemoteField, addr 0x3c773a4, size 0x2cc, virtual false, abstract: false, final false
   inline void StoreRemoteField(::System::IntPtr classPtr, ::System::IntPtr fieldPtr, ::System::Object* arg);
 
   constexpr ::Mono::RuntimeRemoteClassHandle const& __cordl_internal_get__class() const;
@@ -81,13 +81,13 @@ public:
 
   constexpr void __cordl_internal_set__rp(::System::Runtime::Remoting::Proxies::RealProxy* value);
 
-  /// @brief Method .ctor, addr 0x3c62fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c77670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsContextBoundObject, addr 0x3c62118, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsContextBoundObject, addr 0x3c767a8, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsContextBoundObject();
 
-  /// @brief Method get_TargetContext, addr 0x3c62134, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_TargetContext, addr 0x3c767c4, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Contexts::Context* get_TargetContext();
 
 protected:

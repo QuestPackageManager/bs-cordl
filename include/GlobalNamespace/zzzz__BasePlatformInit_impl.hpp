@@ -5,8 +5,8 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BasePlatformInit_def.hpp"
+#include "BeatSaber/Init/zzzz__IPlatformInit_def.hpp"
 #include "GlobalNamespace/zzzz__BasePlatformInit_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformInit_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BasePlatformInit___Initialize_d__5::*)()>(
     &::GlobalNamespace::__BasePlatformInit___Initialize_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x40079f4;
+  constexpr static std::size_t addrs = 0x401c084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BasePlatformInit___Initialize_d__5>::get(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BasePlatformInit___Initialize_d__5::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__BasePlatformInit___Initialize_d__5::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4007c74;
+  constexpr static std::size_t addrs = 0x401c304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BasePlatformInit___InitializeAsync_d__7::*)()>(
     &::GlobalNamespace::__BasePlatformInit___InitializeAsync_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x4007c80;
+  constexpr static std::size_t addrs = 0x401c310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BasePlatformInit___InitializeAsync_d__7::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__BasePlatformInit___InitializeAsync_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4007ef4;
+  constexpr static std::size_t addrs = 0x401c584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BasePlatformInit::*)()>(&::GlobalNamespace::BasePlatformInit::get_IsInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4007858;
+  constexpr static std::size_t addrs = 0x401bee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(), "get_IsInitialized",
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasePlatformInit::*)(bool)>(&::GlobalNamespace::BasePlatformInit::set_IsInitialized)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4007860;
+  constexpr static std::size_t addrs = 0x401bef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasePlatformInit::*)()>(&::GlobalNamespace::BasePlatformInit::Initialize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x400786c;
+  constexpr static std::size_t addrs = 0x401befc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(), "Initialize",
@@ -189,7 +189,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(), 7));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(), 8));
     return ___internal_method;
   }
 };
@@ -199,11 +199,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::BasePlatformInit::*)()>(
     &::GlobalNamespace::BasePlatformInit::InitializeAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x40078fc;
+  constexpr static std::size_t addrs = 0x401bf8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(), "InitializeAsync",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BasePlatformInit.GetAppVersionAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::BasePlatformInit::*)()>(
+    &::GlobalNamespace::BasePlatformInit::GetAppVersionAsync)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0x0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(), 9));
     return ___internal_method;
   }
 };
@@ -212,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasePlatformInit::*)()>(&::GlobalNamespace::BasePlatformInit::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40079ec;
+  constexpr static std::size_t addrs = 0x401c07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(), ".ctor",
@@ -220,13 +235,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IPlatformInit"
-constexpr GlobalNamespace::BasePlatformInit::operator ::GlobalNamespace::IPlatformInit*() noexcept {
-  return static_cast<::GlobalNamespace::IPlatformInit*>(static_cast<void*>(this));
+/// @brief Convert operator to "::BeatSaber::Init::IPlatformInit"
+constexpr GlobalNamespace::BasePlatformInit::operator ::BeatSaber::Init::IPlatformInit*() noexcept {
+  return static_cast<::BeatSaber::Init::IPlatformInit*>(static_cast<void*>(this));
 }
-/// @brief Convert to "::GlobalNamespace::IPlatformInit"
-constexpr ::GlobalNamespace::IPlatformInit* GlobalNamespace::BasePlatformInit::i___GlobalNamespace__IPlatformInit() noexcept {
-  return static_cast<::GlobalNamespace::IPlatformInit*>(static_cast<void*>(this));
+/// @brief Convert to "::BeatSaber::Init::IPlatformInit"
+constexpr ::BeatSaber::Init::IPlatformInit* GlobalNamespace::BasePlatformInit::i___BeatSaber__Init__IPlatformInit() noexcept {
+  return static_cast<::BeatSaber::Init::IPlatformInit*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::Zenject::IInitializable"
 constexpr GlobalNamespace::BasePlatformInit::operator ::Zenject::IInitializable*() noexcept {
@@ -278,13 +293,18 @@ inline void GlobalNamespace::BasePlatformInit::Initialize() {
 }
 inline ::System::Threading::Tasks::Task_1<bool>* GlobalNamespace::BasePlatformInit::InitializeInternalAsync() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(), 7)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method);
 }
 inline ::System::Threading::Tasks::Task_1<bool>* GlobalNamespace::BasePlatformInit::InitializeAsync() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(), "InitializeAsync",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::BasePlatformInit::GetAppVersionAsync() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasePlatformInit*>::get(), 9)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::BasePlatformInit* GlobalNamespace::BasePlatformInit::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BasePlatformInit*>());

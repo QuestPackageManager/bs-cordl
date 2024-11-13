@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithChallenge : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Challenge*> {
 public:
   // Declarations
-  /// @brief Method GetChallenge, addr 0x3f08658, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetChallenge, addr 0x3f1cce8, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Challenge* GetChallenge();
 
-  /// @brief Method GetDataFromMessage, addr 0x3f08694, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f1cd24, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Challenge* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithChallenge* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f06048, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1a6d8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -52,7 +52,7 @@ public:
   MessageWithChallenge(MessageWithChallenge const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15330 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

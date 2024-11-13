@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool::*)()>(
     &::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b4060c;
+  constexpr static std::size_t addrs = 0x3b560f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,10 +37,10 @@ constexpr ::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Poo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::*)(
-    ::GlobalNamespace::ObstacleData*, float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t, float_t, float_t)>(
+    ::GlobalNamespace::ObstacleData*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3b40434;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x3b55f24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b40604;
+  constexpr static std::size_t addrs = 0x3b560ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,13 +81,12 @@ constexpr void GlobalNamespace::MultiplayerConnectedPlayerObstacleController::__
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerConnectedPlayerObstacleClippingController)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init(::GlobalNamespace::ObstacleData* obstacleData, float_t worldRotation, ::UnityEngine::Vector3 startPos,
-                                                                                ::UnityEngine::Vector3 midPos, ::UnityEngine::Vector3 endPos, float_t move1Duration, float_t move2Duration,
-                                                                                float_t singleLineWidth, float_t height) {
+inline void GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init(::GlobalNamespace::ObstacleData* obstacleData, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 midPos,
+                                                                                ::UnityEngine::Vector3 endPos, float_t move1Duration, float_t move2Duration, float_t singleLineWidth, float_t height) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*>::get(), 7)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obstacleData, worldRotation, startPos, midPos, endPos, move1Duration, move2Duration, singleLineWidth, height);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obstacleData, startPos, midPos, endPos, move1Duration, move2Duration, singleLineWidth, height);
 }
 inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController* GlobalNamespace::MultiplayerConnectedPlayerObstacleController::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*>());

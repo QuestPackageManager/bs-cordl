@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_levels(int32_t value);
 
-  /// @brief Method .ctor, addr 0x47b3878, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c7f90, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* childType, int32_t levels);
 
 protected:
@@ -67,7 +67,7 @@ public:
   int32_t ___levels;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent::*)()>(
     &::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x484b824;
+  constexpr static std::size_t addrs = 0x485ff3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent::*)()>(
     &::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x484b874;
+  constexpr static std::size_t addrs = 0x485ff8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Guid (::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers::*)()>(
         &::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers::get_MessageTypeId)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x484b708;
+  constexpr static std::size_t addrs = 0x485fe20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers::*)(
     ::System::Guid)>(&::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers::set_MessageTypeId)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x484b7f8;
+  constexpr static std::size_t addrs = 0x485ff10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers::*)()>(
     &::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x484b798;
+  constexpr static std::size_t addrs = 0x485feb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass6_0::*)()>(
     &::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x484b788;
+  constexpr static std::size_t addrs = 0x485fea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +194,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*)>(
     &::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass6_0::_InvokeMessageIdSubscribers_b__0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x484b8bc;
+  constexpr static std::size_t addrs = 0x485ffd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass7_0::*)()>(
     &::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x484b790;
+  constexpr static std::size_t addrs = 0x485fea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*)>(
     &::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass7_0::_AddAndCreate_b__0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x484b904;
+  constexpr static std::size_t addrs = 0x486001c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass8_0::*)()>(
     &::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass8_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x484b86c;
+  constexpr static std::size_t addrs = 0x485ff84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +326,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*)>(
     &::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass8_0::_UnregisterManagedCallback_b__0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x484b94c;
+  constexpr static std::size_t addrs = 0x4860064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::*)(
     ::System::Guid, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::InvokeMessageIdSubscribers)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x484af54;
+  constexpr static std::size_t addrs = 0x485f66c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* (
     ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::*)(::System::Guid)>(&::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::AddAndCreate)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x484a10c;
+  constexpr static std::size_t addrs = 0x485e824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -410,7 +410,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Guid, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*)>(
     &::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::UnregisterManagedCallback)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x484a48c;
+  constexpr static std::size_t addrs = 0x485eba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::*)()>(
     &::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x484b608;
+  constexpr static std::size_t addrs = 0x485fd20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -62,15 +62,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x228b75c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2296720, size 0xa4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::HealthCheckService* New_ctor(int32_t port);
 
-  /// @brief Method PollUpdate, addr 0x228b800, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x22967c4, size 0x94, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method Run, addr 0x228b894, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x2296858, size 0x4a0, virtual false, abstract: false, final false
   inline void Run();
 
   constexpr bool const& __cordl_internal_get__disposed() const;
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set__runThread(::System::Threading::Thread* value);
 
-  /// @brief Method .ctor, addr 0x228b668, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229662c, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(int32_t port);
 
   /// @brief Convert to "::GlobalNamespace::IHealthCheckService"
@@ -145,7 +145,7 @@ public:
   ::System::Net::HttpListener* ____listener;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14739 };
 
   /// @brief Field kTimeoutLengthMs offset 0xffffffff size 0x4
   static constexpr int32_t kTimeoutLengthMs{ static_cast<int32_t>(0x3e8) };

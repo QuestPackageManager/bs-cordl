@@ -46,7 +46,7 @@ public:
   /// @brief Field mSequenceNumber, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_mSequenceNumber, put = __cordl_internal_set_mSequenceNumber)) int64_t mSequenceNumber;
 
-  /// @brief Method AllocateSequenceNumber, addr 0x23b2fdc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AllocateSequenceNumber, addr 0x23be084, size 0xe8, virtual false, abstract: false, final false
   inline int64_t AllocateSequenceNumber();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* New_ctor(int32_t epoch, ::Org::BouncyCastle::Crypto::Tls::TlsCipher* cipher);
@@ -75,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set_mSequenceNumber(int64_t value);
 
-  /// @brief Method .ctor, addr 0x23b2ea4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bdf4c, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(int32_t epoch, ::Org::BouncyCastle::Crypto::Tls::TlsCipher* cipher);
 
-  /// @brief Method get_Cipher, addr 0x23b30c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cipher, addr 0x23be16c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* get_Cipher();
 
-  /// @brief Method get_Epoch, addr 0x23b30cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Epoch, addr 0x23be174, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Epoch();
 
-  /// @brief Method get_ReplayWindow, addr 0x23b30d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReplayWindow, addr 0x23be17c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* get_ReplayWindow();
 
-  /// @brief Method get_SequenceNumber, addr 0x23b30dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_SequenceNumber, addr 0x23be184, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_SequenceNumber();
 
 protected:

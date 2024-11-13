@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::GetInstance)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x24c13d0;
+  constexpr static std::size_t addrs = 0x24cc478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x24c30c8;
+  constexpr static std::size_t addrs = 0x24ce170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x24c31b4;
+  constexpr static std::size_t addrs = 0x24ce25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::get_IsPredefined)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x24c31dc;
+  constexpr static std::size_t addrs = 0x24ce284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::get_PredefinedBiometricType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x24c3258;
+  constexpr static std::size_t addrs = 0x24ce300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (
     ::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::*)()>(&::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::get_BiometricDataOid)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x24c32d8;
+  constexpr static std::size_t addrs = 0x24ce380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData::ToAsn1Object)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x24c3350;
+  constexpr static std::size_t addrs = 0x24ce3f8;
 
   inline static ::MethodInfo const* methodInfo() {
 

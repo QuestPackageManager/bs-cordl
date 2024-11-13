@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapLevelExtensions____c::*)()>(
     &::GlobalNamespace::__BeatmapLevelExtensions____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2687870;
+  constexpr static std::size_t addrs = 0x2693474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapLevelExtensions____c*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__BeatmapLevelExtensions____c::*)(::StringW)>(
     &::GlobalNamespace::__BeatmapLevelExtensions____c::_ToRuntime_b__1_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2687878;
+  constexpr static std::size_t addrs = 0x269347c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevel* (*)(::GlobalNamespace::BeatmapLevelSO*, ::UnityEngine::Sprite*, ::StringW)>(
     &::GlobalNamespace::BeatmapLevelExtensions::ToCensoredRuntime)> {
   constexpr static std::size_t size = 0x930;
-  constexpr static std::size_t addrs = 0x2686130;
+  constexpr static std::size_t addrs = 0x2691d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevel* (*)(::GlobalNamespace::BeatmapLevelSO*)>(
     &::GlobalNamespace::BeatmapLevelExtensions::ToRuntime)> {
   constexpr static std::size_t size = 0xce8;
-  constexpr static std::size_t addrs = 0x2686a8c;
+  constexpr static std::size_t addrs = 0x2692690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

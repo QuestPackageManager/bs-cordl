@@ -61,7 +61,7 @@ public:
 
   __declspec(property(get = get_rightEyeRotation, put = set_rightEyeRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* rightEyeRotation;
 
-  /// @brief Method FinishSetup, addr 0x456d404, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x4581b1c, size 0x170, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XR::XRHMD* New_ctor();
@@ -102,43 +102,43 @@ public:
 
   constexpr void __cordl_internal_set__rightEyeRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method .ctor, addr 0x456d574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4581c8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_centerEyePosition, addr 0x456d3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyePosition, addr 0x4581afc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyePosition();
 
-  /// @brief Method get_centerEyeRotation, addr 0x456d3f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeRotation, addr 0x4581b0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_centerEyeRotation();
 
-  /// @brief Method get_leftEyePosition, addr 0x456d3a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyePosition, addr 0x4581abc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyePosition();
 
-  /// @brief Method get_leftEyeRotation, addr 0x456d3b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeRotation, addr 0x4581acc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_leftEyeRotation();
 
-  /// @brief Method get_rightEyePosition, addr 0x456d3c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyePosition, addr 0x4581adc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyePosition();
 
-  /// @brief Method get_rightEyeRotation, addr 0x456d3d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeRotation, addr 0x4581aec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_rightEyeRotation();
 
-  /// @brief Method set_centerEyePosition, addr 0x456d3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyePosition, addr 0x4581b04, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_centerEyeRotation, addr 0x456d3fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeRotation, addr 0x4581b14, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_leftEyePosition, addr 0x456d3ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyePosition, addr 0x4581ac4, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_leftEyeRotation, addr 0x456d3bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeRotation, addr 0x4581ad4, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_rightEyePosition, addr 0x456d3cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyePosition, addr 0x4581ae4, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rightEyeRotation, addr 0x456d3dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeRotation, addr 0x4581af4, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
 protected:
@@ -174,7 +174,7 @@ public:
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____centerEyeRotation_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6702 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

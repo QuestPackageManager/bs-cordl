@@ -113,10 +113,10 @@ public:
   /// @brief Field s_true, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_true, put = setStaticF_s_true)) ::System::Linq::Expressions::ConstantExpression* s_true;
 
-  /// @brief Method Constant, addr 0x4047258, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Constant, addr 0x405b970, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConstantExpression* Constant(bool value);
 
-  /// @brief Method Constant, addr 0x40472c4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Constant, addr 0x405b9dc, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConstantExpression* Constant(int32_t value);
 
   static inline ::System::Object* getStaticF_BoxedDefaultByte();
@@ -246,7 +246,7 @@ public:
   Utils(Utils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13703 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

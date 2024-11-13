@@ -18,7 +18,7 @@ template <typename TValueType> constexpr ::StringW const& UnityEngine::UIElement
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::__TextValueField_1__TextValueInput<TValueType>::__cordl_internal_set__formatString_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____formatString_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____formatString_k__BackingField, value);
 }
 template <typename TValueType> inline ::UnityEngine::UIElements::TextValueField_1<TValueType>* UnityEngine::UIElements::__TextValueField_1__TextValueInput<TValueType>::get_textValueFieldParent() {
   static auto* ___internal_method =
@@ -113,7 +113,7 @@ constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseFie
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::TextValueField_1<TValueType>::__cordl_internal_set_m_Dragger(::UnityEngine::UIElements::BaseFieldMouseDragger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Dragger)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Dragger, value);
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::TextValueField_1<TValueType>::__cordl_internal_get_m_UpdateTextFromValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

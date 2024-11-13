@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_SourceType(::Zenject::InjectSources value);
 
-  /// @brief Method .ctor, addr 0x4a7703c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8b754, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(bool optional, ::System::Object* identifier, ::StringW memberName, ::System::Type* memberType, ::System::Object* defaultValue, ::Zenject::InjectSources sourceType);
 
 protected:
@@ -123,7 +123,7 @@ public:
   ::System::Object* ___DefaultValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18330 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -155,7 +155,7 @@ public:
   ::System::Type* ___installerType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12127 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -236,7 +236,7 @@ public:
   ::System::Type* ___installerType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12128 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -329,7 +329,7 @@ public:
   ::System::Type* ___installerType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12129 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -422,7 +422,7 @@ public:
   ::System::Type* ___installerType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12130 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -585,7 +585,7 @@ public:
   ::System::Object* ____SubIdentifier_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12131 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -32,7 +32,7 @@ namespace UnityEngine::InputSystem::UI {
 struct CORDL_TYPE NavigationModel {
 public:
   // Declarations
-  /// @brief Method Reset, addr 0x457b558, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x458fc70, size 0x50, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters []
@@ -61,7 +61,7 @@ public:
   ::UnityEngine::EventSystems::AxisEventData* eventData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6752 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6757 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -68,7 +68,7 @@ public:
   // Declarations
   static inline ::System::Resources::__ResourceManager__CultureNameResourceSetPair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ca7908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cbbf98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set__rm(::System::Resources::ResourceManager* value);
 
-  /// @brief Method .ctor, addr 0x3ca7910, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cbbfa0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::ResourceManager* rm);
 
 protected:
@@ -212,21 +212,21 @@ public:
   /// @brief Field resourceGroveler, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_resourceGroveler, put = __cordl_internal_set_resourceGroveler)) ::System::Resources::IResourceGroveler* resourceGroveler;
 
-  /// @brief Method CompareNames, addr 0x3ca7bc8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method CompareNames, addr 0x3cbc258, size 0x25c, virtual false, abstract: false, final false
   static inline bool CompareNames(::StringW asmTypeName1, ::StringW typeName2, ::System::Reflection::AssemblyName* asmName2);
 
-  /// @brief Method Init, addr 0x3ca7720, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3cbbdb0, size 0x118, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Resources::ResourceManager* New_ctor();
 
-  /// @brief Method OnDeserialized, addr 0x3ca7994, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x3cbc024, size 0x1cc, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnDeserializing, addr 0x3ca7984, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializing, addr 0x3cbc014, size 0x10, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnSerializing, addr 0x3ca7b60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnSerializing, addr 0x3cbc1f0, size 0x68, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
   constexpr ::System::Reflection::Assembly*& __cordl_internal_get_MainAssembly();
@@ -295,7 +295,7 @@ public:
 
   constexpr void __cordl_internal_set_resourceGroveler(::System::Resources::IResourceGroveler* value);
 
-  /// @brief Method .ctor, addr 0x3ca783c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cbbecc, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_DEBUG();

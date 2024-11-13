@@ -26,7 +26,7 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE LightColorBaseDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x26cd3d8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x26d8f54, size 0xdc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightColorBaseData* Convert(float_t beat, ::BeatmapSaveDataVersion4::LightColorEvent lightColorEvent);
 
 protected:
@@ -44,7 +44,7 @@ public:
   LightColorBaseDataConverter(LightColorBaseDataConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

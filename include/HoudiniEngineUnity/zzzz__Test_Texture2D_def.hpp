@@ -37,10 +37,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Texture2D*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Texture2D*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a31aac, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a45404, size 0x108, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Texture2D* other);
 
-  /// @brief Method IsNull, addr 0x3a31a4c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a453a4, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_Texture2D* New_ctor(::UnityEngine::Texture2D* self);
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x3a31a24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a4537c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture2D* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Texture2D*>"
@@ -78,7 +78,7 @@ public:
   ::UnityW<::UnityEngine::Texture2D> ___self;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11885 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

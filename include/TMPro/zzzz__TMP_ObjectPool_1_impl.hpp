@@ -14,7 +14,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Co
 }
 template <typename T> constexpr void TMPro::TMP_ObjectPool_1<T>::__cordl_internal_set_m_Stack(::System::Collections::Generic::Stack_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Stack, value);
 }
 template <typename T> constexpr ::UnityEngine::Events::UnityAction_1<T>*& TMPro::TMP_ObjectPool_1<T>::__cordl_internal_get_m_ActionOnGet() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -26,7 +26,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::UnityEngin
 }
 template <typename T> constexpr void TMPro::TMP_ObjectPool_1<T>::__cordl_internal_set_m_ActionOnGet(::UnityEngine::Events::UnityAction_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionOnGet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ActionOnGet, value);
 }
 template <typename T> constexpr ::UnityEngine::Events::UnityAction_1<T>*& TMPro::TMP_ObjectPool_1<T>::__cordl_internal_get_m_ActionOnRelease() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -38,7 +38,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::UnityEngin
 }
 template <typename T> constexpr void TMPro::TMP_ObjectPool_1<T>::__cordl_internal_set_m_ActionOnRelease(::UnityEngine::Events::UnityAction_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionOnRelease)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ActionOnRelease, value);
 }
 template <typename T> constexpr int32_t& TMPro::TMP_ObjectPool_1<T>::__cordl_internal_get__countAll_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

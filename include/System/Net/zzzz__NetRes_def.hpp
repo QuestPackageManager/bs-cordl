@@ -26,13 +26,13 @@ namespace System::Net {
 class CORDL_TYPE NetRes : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetWebStatusCodeString, addr 0x4433e50, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusCodeString, addr 0x4448568, size 0x1e0, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusCodeString(::System::Net::FtpStatusCode statusCode, ::StringW statusDescription);
 
-  /// @brief Method GetWebStatusString, addr 0x442a288, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x443e9a0, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::StringW Res, ::System::Net::WebExceptionStatus Status);
 
-  /// @brief Method GetWebStatusString, addr 0x4433df4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x444850c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::System::Net::WebExceptionStatus Status);
 
 protected:
@@ -50,7 +50,7 @@ public:
   NetRes(NetRes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9599 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

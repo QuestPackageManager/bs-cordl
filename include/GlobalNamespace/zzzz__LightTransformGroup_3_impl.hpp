@@ -54,7 +54,7 @@ GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_get__xTrans
 template <typename TX, typename TY, typename TZ>
 constexpr void GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_set__xTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____xTransforms, value);
 }
 template <typename TX, typename TY, typename TZ>
 constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_get__yTransforms() {
@@ -70,7 +70,7 @@ GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_get__yTrans
 template <typename TX, typename TY, typename TZ>
 constexpr void GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_set__yTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____yTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____yTransforms, value);
 }
 template <typename TX, typename TY, typename TZ>
 constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_get__zTransforms() {
@@ -86,7 +86,7 @@ GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_get__zTrans
 template <typename TX, typename TY, typename TZ>
 constexpr void GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_set__zTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____zTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____zTransforms, value);
 }
 template <typename TX, typename TY, typename TZ> inline bool GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::get_mirrorX() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>*>::get(),

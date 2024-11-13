@@ -25,10 +25,10 @@ namespace BeatSaber::BeatAvatarAdapter {
 class CORDL_TYPE AvatarDataMultiplayerAvatarsDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateAvatarData, addr 0x221dfc0, size 0x5d0, virtual false, abstract: false, final false
+  /// @brief Method CreateAvatarData, addr 0x2226a74, size 0x5d0, virtual false, abstract: false, final false
   static inline ::BeatSaber::BeatAvatarSDK::AvatarData* CreateAvatarData(::GlobalNamespace::MultiplayerAvatarData multiplayerAvatarsData);
 
-  /// @brief Method CreateMultiplayerAvatarsData, addr 0x221daa4, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method CreateMultiplayerAvatarsData, addr 0x2226558, size 0x51c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarsData(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
 
 protected:
@@ -46,7 +46,7 @@ public:
   AvatarDataMultiplayerAvatarsDataConverter(AvatarDataMultiplayerAvatarsDataConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17654 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

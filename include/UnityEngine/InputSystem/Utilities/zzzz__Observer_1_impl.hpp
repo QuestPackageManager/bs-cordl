@@ -25,7 +25,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__cordl_internal_set_m_OnNext(::System::Action_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnNext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_OnNext, value);
 }
 template <typename TValue> constexpr ::System::Action*& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__cordl_internal_get_m_OnCompleted() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -37,7 +37,7 @@ template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::Syste
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__cordl_internal_set_m_OnCompleted(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnCompleted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_OnCompleted, value);
 }
 /// @param onCompleted: ::System::Action* (default: nullptr)
 template <typename TValue>

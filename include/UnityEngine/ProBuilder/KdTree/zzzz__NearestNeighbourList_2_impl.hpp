@@ -30,7 +30,7 @@ UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::__cor
 template <typename TItem, typename TDistance>
 constexpr void UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::__cordl_internal_set_queue(::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___queue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___queue, value);
 }
 template <typename TItem, typename TDistance>
 constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>*& UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::__cordl_internal_get_distanceMath() {
@@ -46,7 +46,7 @@ UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::__cor
 template <typename TItem, typename TDistance>
 constexpr void UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::__cordl_internal_set_distanceMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___distanceMath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___distanceMath, value);
 }
 template <typename TItem, typename TDistance> constexpr int32_t& UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>::__cordl_internal_get_maxCapacity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

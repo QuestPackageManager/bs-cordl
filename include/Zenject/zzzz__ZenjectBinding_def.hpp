@@ -83,7 +83,7 @@ public:
   static ::Zenject::__ZenjectBinding__BindTypes const Self;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12459 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -139,7 +139,7 @@ public:
 
   static inline ::Zenject::ZenjectBinding* New_ctor();
 
-  /// @brief Method Start, addr 0x4ab186c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4ac5f84, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::__ZenjectBinding__BindTypes const& __cordl_internal_get__bindType() const;
@@ -178,31 +178,31 @@ public:
 
   constexpr void __cordl_internal_set__useSceneContext(bool value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ab18c8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ac5fe0, size 0x16c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4ab1870, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac5f88, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BindType, addr 0x4ab1864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindType, addr 0x4ac5f7c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::__ZenjectBinding__BindTypes get_BindType();
 
-  /// @brief Method get_Components, addr 0x4ab1854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Components, addr 0x4ac5f6c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> get_Components();
 
-  /// @brief Method get_Context, addr 0x4ab1844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Context, addr 0x4ac5f5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Zenject::Context> get_Context();
 
-  /// @brief Method get_Identifier, addr 0x4ab185c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x4ac5f74, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Identifier();
 
-  /// @brief Method get_IfNotBound, addr 0x4ab183c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IfNotBound, addr 0x4ac5f54, size 0x8, virtual false, abstract: false, final false
   inline bool get_IfNotBound();
 
-  /// @brief Method get_UseSceneContext, addr 0x4ab1834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseSceneContext, addr 0x4ac5f4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseSceneContext();
 
-  /// @brief Method set_Context, addr 0x4ab184c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Context, addr 0x4ac5f64, size 0x8, virtual false, abstract: false, final false
   inline void set_Context(::Zenject::Context* value);
 
 protected:
@@ -238,7 +238,7 @@ public:
   ::Zenject::__ZenjectBinding__BindTypes ____bindType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12460 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,13 +21,13 @@ namespace System::Net::Mail {
 class CORDL_TYPE QuotedStringFormatReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValidQtext, addr 0x438e0b0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsValidQtext, addr 0x43a27c8, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsValidQtext(bool allowUnicode, char16_t ch);
 
-  /// @brief Method ReadReverseQuoted, addr 0x438dcb0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseQuoted, addr 0x43a23c8, size 0x1c4, virtual false, abstract: false, final false
   static inline int32_t ReadReverseQuoted(::StringW data, int32_t index, bool permitUnicode);
 
-  /// @brief Method ReadReverseUnQuoted, addr 0x438de74, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseUnQuoted, addr 0x43a258c, size 0x198, virtual false, abstract: false, final false
   static inline int32_t ReadReverseUnQuoted(::StringW data, int32_t index, bool permitUnicode, bool expectCommaDelimiter);
 
 protected:
@@ -45,7 +45,7 @@ public:
   QuotedStringFormatReader(QuotedStringFormatReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9853 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9858 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

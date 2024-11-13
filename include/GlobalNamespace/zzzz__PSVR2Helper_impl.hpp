@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit::*)(float_t, int32_t)>(
     &::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x396492c;
+  constexpr static std::size_t addrs = 0x39781b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PSVR2Helper____c::*)()>(&::GlobalNamespace::__PSVR2Helper____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3964994;
+  constexpr static std::size_t addrs = 0x3978218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper____c*>::get(), ".ctor",
@@ -66,17 +66,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper____c._HasAnyVRControllerConnected_b__52_0
+//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper____c._HasAnyVRControllerConnected_b__51_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__PSVR2Helper____c::*)(::UnityEngine::InputSystem::InputDevice*)>(
-    &::GlobalNamespace::__PSVR2Helper____c::_HasAnyVRControllerConnected_b__52_0)> {
+    &::GlobalNamespace::__PSVR2Helper____c::_HasAnyVRControllerConnected_b__51_0)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x396499c;
+  constexpr static std::size_t addrs = 0x3978220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper____c*>::get(), "<HasAnyVRControllerConnected>b__52_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper____c*>::get(), "<HasAnyVRControllerConnected>b__51_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputDevice*>::get() })));
     return ___internal_method;
   }
@@ -88,13 +88,13 @@ inline void GlobalNamespace::__PSVR2Helper____c::setStaticF___9(::GlobalNamespac
 inline ::GlobalNamespace::__PSVR2Helper____c* GlobalNamespace::__PSVR2Helper____c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::__PSVR2Helper____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper____c*>::get>();
 }
-inline void GlobalNamespace::__PSVR2Helper____c::setStaticF___9__52_0(::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>*, "<>9__52_0",
+inline void GlobalNamespace::__PSVR2Helper____c::setStaticF___9__51_0(::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>*, "<>9__51_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper____c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>* GlobalNamespace::__PSVR2Helper____c::getStaticF___9__52_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>*, "<>9__52_0",
+inline ::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>* GlobalNamespace::__PSVR2Helper____c::getStaticF___9__51_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::InputSystem::InputDevice*, bool>*, "<>9__51_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper____c*>::get>();
 }
 inline ::GlobalNamespace::__PSVR2Helper____c* GlobalNamespace::__PSVR2Helper____c::New_ctor() {
@@ -105,225 +105,225 @@ inline void GlobalNamespace::__PSVR2Helper____c::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__PSVR2Helper____c::_HasAnyVRControllerConnected_b__52_0(::UnityEngine::InputSystem::InputDevice* device) {
+inline bool GlobalNamespace::__PSVR2Helper____c::_HasAnyVRControllerConnected_b__51_0(::UnityEngine::InputSystem::InputDevice* device) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper____c*>::get(), "<HasAnyVRControllerConnected>b__52_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper____c*>::get(), "<HasAnyVRControllerConnected>b__51_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputDevice*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, device);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__PSVR2Helper____c::__PSVR2Helper____c() {}
-//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72._ctor
+//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::*)(int32_t)>(
-    &::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::*)(int32_t)>(
+    &::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39646f0;
+  constexpr static std::size_t addrs = 0x3977f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::*)()>(
-    &::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::*)()>(
+    &::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3964a38;
+  constexpr static std::size_t addrs = 0x39782bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::*)()>(
-    &::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::*)()>(
+    &::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::MoveNext)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3964a3c;
+  constexpr static std::size_t addrs = 0x39782c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::*)()>(
-    &::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::*)()>(
+    &::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3964b00;
+  constexpr static std::size_t addrs = 0x3978384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::*)()>(
-    &::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::*)()>(
+    &::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3964b08;
+  constexpr static std::size_t addrs = 0x397838c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::*)()>(
-    &::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::*)()>(
+    &::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3964b40;
+  constexpr static std::size_t addrs = 0x39783c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__cordl_internal_get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__cordl_internal_get_delayInSeconds() {
+constexpr float_t& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__cordl_internal_get_delayInSeconds() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delayInSeconds;
 }
-constexpr float_t const& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__cordl_internal_get_delayInSeconds() const {
+constexpr float_t const& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__cordl_internal_get_delayInSeconds() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delayInSeconds;
 }
-constexpr void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__cordl_internal_set_delayInSeconds(float_t value) {
+constexpr void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__cordl_internal_set_delayInSeconds(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delayInSeconds = value;
 }
-constexpr ::UnityW<::GlobalNamespace::PSVR2Helper>& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::PSVR2Helper>& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::PSVR2Helper> const& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::PSVR2Helper> const& GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::PSVR2Helper> value) {
+constexpr void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::PSVR2Helper> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72* GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>(__1__state));
+inline ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71* GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>(__1__state));
 }
-inline void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::System_IDisposable_Dispose() {
+inline void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::MoveNext() {
+inline bool GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72::__PSVR2Helper___CheckControllerConnectionOnStartup_d__72() {}
+constexpr ::GlobalNamespace::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71::__PSVR2Helper___CheckControllerConnectionOnStartup_d__71() {}
 //  Writing Method size for method: ::GlobalNamespace::PSVR2Helper.add_controllersDidChangeReferenceEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::add_controllersDidChangeReferenceEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3962b54;
+  constexpr static std::size_t addrs = 0x39763d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::remove_controllersDidChangeReferenceEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3962bf0;
+  constexpr static std::size_t addrs = 0x3976474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::add_vrControllersDisconnectedOnStartupEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3962c8c;
+  constexpr static std::size_t addrs = 0x3976510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::remove_vrControllersDisconnectedOnStartupEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3962d28;
+  constexpr static std::size_t addrs = 0x39765ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::get_hasInputFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3962dc4;
+  constexpr static std::size_t addrs = 0x3976648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(), "get_hasInputFocus",
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::get_hasVrFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3962dcc;
+  constexpr static std::size_t addrs = 0x3976650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(), "get_hasVrFocus",
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::get_isAlwaysWireless)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3962dd4;
+  constexpr static std::size_t addrs = 0x3976658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(), "get_isAlwaysWireless",
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VRPlatformSDK (::GlobalNamespace::PSVR2Helper::*)()>(
     &::GlobalNamespace::PSVR2Helper::get_vrPlatformSDK)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3962ddc;
+  constexpr static std::size_t addrs = 0x3976660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(), "get_vrPlatformSDK",
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::add_inputFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3962de4;
+  constexpr static std::size_t addrs = 0x3976668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::remove_inputFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3962e80;
+  constexpr static std::size_t addrs = 0x3976704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::add_inputFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3962f1c;
+  constexpr static std::size_t addrs = 0x39767a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::remove_inputFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3962fb8;
+  constexpr static std::size_t addrs = 0x397683c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -496,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::add_vrFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3963054;
+  constexpr static std::size_t addrs = 0x39768d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -511,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::remove_vrFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39630f0;
+  constexpr static std::size_t addrs = 0x3976974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::add_vrFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x396318c;
+  constexpr static std::size_t addrs = 0x3976a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -541,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::remove_vrFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3963228;
+  constexpr static std::size_t addrs = 0x3976aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -556,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::add_hmdUnmountedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39632c4;
+  constexpr static std::size_t addrs = 0x3976b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -571,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::remove_hmdUnmountedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3963360;
+  constexpr static std::size_t addrs = 0x3976be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -585,7 +585,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(&::GlobalNamespace::PSVR2Helper::add_hmdMountedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39633fc;
+  constexpr static std::size_t addrs = 0x3976c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::remove_hmdMountedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3963498;
+  constexpr static std::size_t addrs = 0x3976d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::add_controllersDidDisconnectEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3963534;
+  constexpr static std::size_t addrs = 0x3976db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVR2Helper::remove_controllersDidDisconnectEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39635d0;
+  constexpr static std::size_t addrs = 0x3976e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -644,7 +644,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::HasAnyVRControllerConnected)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x396366c;
+  constexpr static std::size_t addrs = 0x3976ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(),
@@ -657,7 +657,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::Awake)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x39637c8;
+  constexpr static std::size_t addrs = 0x397704c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(), "Awake",
@@ -671,7 +671,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVR2Helper::*)(::UnityEngine::XR::XRNode, ByRef<::UnityEngine::Pose>)>(
     &::GlobalNamespace::PSVR2Helper::TryGetPoseOffsetForNode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3963ae0;
+  constexpr static std::size_t addrs = 0x3977364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -687,7 +687,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVR2Helper::*)(
     ::UnityEngine::XR::XRNode, int32_t, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(&::GlobalNamespace::PSVR2Helper::GetNodePose)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3963b00;
+  constexpr static std::size_t addrs = 0x3977384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -705,7 +705,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PSVR2Helper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::PSVR2Helper::GetTriggerValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3963c6c;
+  constexpr static std::size_t addrs = 0x39774f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -720,7 +720,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::PSVR2Helper::*)()>(
     &::GlobalNamespace::PSVR2Helper::GetAnyJoystickMaxAxis)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3963c74;
+  constexpr static std::size_t addrs = 0x39774f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(), "GetAnyJoystickMaxAxis",
@@ -734,7 +734,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::PSVR2Helper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::PSVR2Helper::GetThumbstickValue)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3963c78;
+  constexpr static std::size_t addrs = 0x39774fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVR2Helper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::PSVR2Helper::IsAdvancedHapticsSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3963d4c;
+  constexpr static std::size_t addrs = 0x39775d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -763,7 +763,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::GetMenuButton)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3963d54;
+  constexpr static std::size_t addrs = 0x39775d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(), "GetMenuButton",
@@ -776,7 +776,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::GetMenuButtonDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3963d58;
+  constexpr static std::size_t addrs = 0x39775dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(), "GetMenuButtonDown",
@@ -789,7 +789,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::RefreshControllersReference)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3963d60;
+  constexpr static std::size_t addrs = 0x39775e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(),
@@ -802,7 +802,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::PSVR2Helper::StopHaptics)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3963d7c;
+  constexpr static std::size_t addrs = 0x3977600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -817,7 +817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(
     ::UnityEngine::XR::XRNode, ::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::PSVR2Helper::AdjustControllerTransform)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3963d80;
+  constexpr static std::size_t addrs = 0x3977604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -834,7 +834,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::UnityEngine::XR::XRNode, float_t, float_t, float_t)>(
     &::GlobalNamespace::PSVR2Helper::TriggerHapticPulse)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3963d84;
+  constexpr static std::size_t addrs = 0x3977608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -851,7 +851,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::PSVR2Helper::*)(float_t)>(
     &::GlobalNamespace::PSVR2Helper::GetTRCCompliantHeadsetHapticFrequency)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3963e24;
+  constexpr static std::size_t addrs = 0x39776a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -865,7 +865,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::HandleApplicationVRFocusLost)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3964024;
+  constexpr static std::size_t addrs = 0x39778a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(),
@@ -878,7 +878,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::HandleApplicationVRFocusResumed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3964044;
+  constexpr static std::size_t addrs = 0x39778c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -892,7 +892,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::HandleApplicationInputFocusLost)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3964068;
+  constexpr static std::size_t addrs = 0x39778ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -906,7 +906,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::HandleApplicationInputFocusResumed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3964088;
+  constexpr static std::size_t addrs = 0x397790c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -921,7 +921,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(
     ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange)>(&::GlobalNamespace::PSVR2Helper::InputDeviceChangeTriggered)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x39640ac;
+  constexpr static std::size_t addrs = 0x3977930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -937,7 +937,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PSVR2Helper::*)(float_t)>(
     &::GlobalNamespace::PSVR2Helper::CheckControllerConnectionOnStartup)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3964680;
+  constexpr static std::size_t addrs = 0x3977f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -952,7 +952,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)(::UnityEngine::XR::XRNode, ::UnityEngine::InputSystem::InputDevice*)>(
     &::GlobalNamespace::PSVR2Helper::AddControllerToMap)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x3964414;
+  constexpr static std::size_t addrs = 0x3977c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -967,7 +967,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::OnDestroy)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3964718;
+  constexpr static std::size_t addrs = 0x3977f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(), "OnDestroy",
@@ -980,7 +980,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVR2Helper::*)()>(&::GlobalNamespace::PSVR2Helper::_ctor)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x39647bc;
+  constexpr static std::size_t addrs = 0x3978040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVR2Helper*>::get(), ".ctor",
@@ -1107,18 +1107,6 @@ constexpr bool const& GlobalNamespace::PSVR2Helper::__cordl_internal_get__menuBu
 constexpr void GlobalNamespace::PSVR2Helper::__cordl_internal_set__menuButtonDown(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____menuButtonDown = value;
-}
-constexpr bool& GlobalNamespace::PSVR2Helper::__cordl_internal_get__menuButtonDownLastFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____menuButtonDownLastFrame;
-}
-constexpr bool const& GlobalNamespace::PSVR2Helper::__cordl_internal_get__menuButtonDownLastFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____menuButtonDownLastFrame;
-}
-constexpr void GlobalNamespace::PSVR2Helper::__cordl_internal_set__menuButtonDownLastFrame(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____menuButtonDownLastFrame = value;
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit>*& GlobalNamespace::PSVR2Helper::__cordl_internal_get__maximumHapticFrequencyLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

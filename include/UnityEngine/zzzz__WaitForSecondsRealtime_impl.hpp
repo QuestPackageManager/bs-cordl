@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::WaitForSecondsRealtime::*)()>(&::UnityEngine::WaitForSecondsRealtime::get_waitTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x483b128;
+  constexpr static std::size_t addrs = 0x484f840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::WaitForSecondsRealtime*>::get(), "get_waitTime",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::WaitForSecondsRealtime::*)(float_t)>(&::UnityEngine::WaitForSecondsRealtime::set_waitTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x483b130;
+  constexpr static std::size_t addrs = 0x484f848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::WaitForSecondsRealtime::*)()>(&::UnityEngine::WaitForSecondsRealtime::get_keepWaiting)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x483b138;
+  constexpr static std::size_t addrs = 0x484f850;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::WaitForSecondsRealtime::*)(float_t)>(&::UnityEngine::WaitForSecondsRealtime::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x483b1fc;
+  constexpr static std::size_t addrs = 0x484f914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::WaitForSecondsRealtime::*)()>(&::UnityEngine::WaitForSecondsRealtime::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x483b22c;
+  constexpr static std::size_t addrs = 0x484f944;
 
   inline static ::MethodInfo const* methodInfo() {
 

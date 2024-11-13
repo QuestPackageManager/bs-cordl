@@ -55,34 +55,34 @@ public:
   /// @brief Method AddEventCategories, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TEventType> inline void AddEventCategories();
 
-  /// @brief Method ExecuteDefaultAction, addr 0x49ad334, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x49c1a4c, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x49ad330, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x49c1a48, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultActionDisabled, addr 0x49ad33c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionDisabled, addr 0x49c1a54, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionDisabled(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultActionDisabledAtTarget, addr 0x49ad338, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionDisabledAtTarget, addr 0x49c1a50, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionDisabledAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HandleEvent, addr 0x49ad040, size 0x2a0, virtual true, abstract: false, final false
+  /// @brief Method HandleEvent, addr 0x49c1758, size 0x2a0, virtual true, abstract: false, final false
   inline void HandleEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HandleEventAtCurrentTargetAndPhase, addr 0x49acfe8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleEventAtCurrentTargetAndPhase, addr 0x49c1700, size 0xc, virtual false, abstract: false, final false
   inline void HandleEventAtCurrentTargetAndPhase(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HandleEventAtTargetAndDefaultPhase, addr 0x49acff4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleEventAtTargetAndDefaultPhase, addr 0x49c170c, size 0x40, virtual false, abstract: false, final false
   inline void HandleEventAtTargetAndDefaultPhase(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HandleEventAtTargetPhase, addr 0x49acf7c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleEventAtTargetPhase, addr 0x49c1694, size 0x6c, virtual false, abstract: false, final false
   inline void HandleEventAtTargetPhase(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HasBubbleUpHandlers, addr 0x49ad308, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method HasBubbleUpHandlers, addr 0x49c1a20, size 0x28, virtual true, abstract: false, final true
   inline bool HasBubbleUpHandlers();
 
-  /// @brief Method HasTrickleDownHandlers, addr 0x49ad2e0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method HasTrickleDownHandlers, addr 0x49c19f8, size 0x28, virtual true, abstract: false, final true
   inline bool HasTrickleDownHandlers();
 
   static inline ::UnityEngine::UIElements::CallbackEventHandler* New_ctor();
@@ -105,7 +105,7 @@ public:
   /// @brief Method SendEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendEvent(::UnityEngine::UIElements::EventBase* e, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
-  /// @brief Method UnityEngine.UIElements.IEventHandler.HandleEvent, addr 0x49ad034, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IEventHandler.HandleEvent, addr 0x49c174c, size 0xc, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IEventHandler_HandleEvent(::UnityEngine::UIElements::EventBase* evt);
 
   /// @brief Method UnregisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CallbackRegistry(::UnityEngine::UIElements::EventCallbackRegistry* value);
 
-  /// @brief Method .ctor, addr 0x49ad340, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c1a58, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IEventHandler"
@@ -156,7 +156,7 @@ public:
   static constexpr ::ConstString ExecuteDefaultActionName{ u"ExecuteDefaultAction" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5796 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

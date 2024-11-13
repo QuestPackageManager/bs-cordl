@@ -26,12 +26,12 @@ namespace System::Threading {
 class CORDL_TYPE SendOrPostCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3dd7790, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3debe20, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state);
 
   static inline ::System::Threading::SendOrPostCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3dd7690, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3debd20, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

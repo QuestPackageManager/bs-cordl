@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__Variables_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* value);
 
-  /// @brief Method get_Variables, addr 0x4045c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variables, addr 0x405a35c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* get_Variables();
 
 protected:
@@ -60,7 +60,7 @@ public:
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* ____Variables_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13693 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

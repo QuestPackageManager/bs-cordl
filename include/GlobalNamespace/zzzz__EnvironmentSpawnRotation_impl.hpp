@@ -4,14 +4,14 @@
 #include "GlobalNamespace/zzzz__EnvironmentSpawnRotation_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
-#include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentSpawnRotation.get_targetRotation
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(
     &::GlobalNamespace::EnvironmentSpawnRotation::get_targetRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b210dc;
+  constexpr static std::size_t addrs = 0x3b365a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::OnEnable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b210e4;
+  constexpr static std::size_t addrs = 0x3b365ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), "OnEnable",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::OnDisable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b21144;
+  constexpr static std::size_t addrs = 0x3b3660c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), "OnDisable",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::Start)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3b211a4;
+  constexpr static std::size_t addrs = 0x3b3666c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), "Start",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b21304;
+  constexpr static std::size_t addrs = 0x3b367cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), "OnDestroy",
@@ -74,15 +74,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentSpawnRotation.HandleSpawnRotationBeatmapEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)(::GlobalNamespace::SpawnRotationBeatmapEventData*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)(::GlobalNamespace::BeatmapObjectData*)>(
     &::GlobalNamespace::EnvironmentSpawnRotation::HandleSpawnRotationBeatmapEvent)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3b21320;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x3b367e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), "HandleSpawnRotationBeatmapEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SpawnRotationBeatmapEventData*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapObjectData*>::get() })));
     return ___internal_method;
   }
 };
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::FixedUpdate)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b2141c;
+  constexpr static std::size_t addrs = 0x3b368e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(),
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::LateUpdate)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3b214a8;
+  constexpr static std::size_t addrs = 0x3b36974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(),
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b215c8;
+  constexpr static std::size_t addrs = 0x3b36a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), ".ctor",
@@ -251,11 +251,11 @@ inline void GlobalNamespace::EnvironmentSpawnRotation::OnDestroy() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::EnvironmentSpawnRotation::HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData) {
+inline void GlobalNamespace::EnvironmentSpawnRotation::HandleSpawnRotationBeatmapEvent(::GlobalNamespace::BeatmapObjectData* data) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), "HandleSpawnRotationBeatmapEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SpawnRotationBeatmapEventData*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapEventData);
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapObjectData*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
 }
 inline void GlobalNamespace::EnvironmentSpawnRotation::FixedUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), "FixedUpdate",

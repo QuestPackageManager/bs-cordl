@@ -90,21 +90,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3a57778, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a6b0d0, size 0xf0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3a5792c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3a6b284, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3a57934, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3a6b28c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3a5796c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3a6b2c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3a57774, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3a6b0cc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::LIV::SDK::Unity::LIV> value);
 
-  /// @brief Method .ctor, addr 0x3a56e44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a6a79c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -161,7 +161,7 @@ public:
   ::UnityW<::LIV::SDK::Unity::LIV> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17257 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -294,51 +294,51 @@ public:
 
   __declspec(property(get = get_trackedSpaceOrigin, put = set_trackedSpaceOrigin)) ::UnityW<::UnityEngine::Transform> trackedSpaceOrigin;
 
-  /// @brief Method Activate, addr 0x3a56e6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x3a6a7c4, size 0x18, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method CreateAssets, addr 0x3a57160, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateAssets, addr 0x3a6aab8, size 0x68, virtual false, abstract: false, final false
   inline void CreateAssets();
 
-  /// @brief Method DestroyAssets, addr 0x3a57230, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method DestroyAssets, addr 0x3a6ab88, size 0x20, virtual false, abstract: false, final false
   inline void DestroyAssets();
 
-  /// @brief Method Invalidate, addr 0x3a56d64, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Invalidate, addr 0x3a6a6bc, size 0x78, virtual false, abstract: false, final false
   inline void Invalidate();
 
   static inline ::LIV::SDK::Unity::LIV* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3a56ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3a6a734, size 0x8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3a56cfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3a6a654, size 0xc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnSDKActivate, addr 0x3a56e90, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnSDKActivate, addr 0x3a6a7e8, size 0xac, virtual false, abstract: false, final false
   inline void OnSDKActivate();
 
-  /// @brief Method OnSDKDeactivate, addr 0x3a56f3c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnSDKDeactivate, addr 0x3a6a894, size 0xb4, virtual false, abstract: false, final false
   inline void OnSDKDeactivate();
 
-  /// @brief Method OnSDKReadyChanged, addr 0x3a56e84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnSDKReadyChanged, addr 0x3a6a7dc, size 0xc, virtual false, abstract: false, final false
   inline void OnSDKReadyChanged(bool value);
 
-  /// @brief Method StartRenderCoroutine, addr 0x3a571c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartRenderCoroutine, addr 0x3a6ab20, size 0x44, virtual false, abstract: false, final false
   inline void StartRenderCoroutine();
 
-  /// @brief Method StopRenderCoroutine, addr 0x3a5720c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method StopRenderCoroutine, addr 0x3a6ab64, size 0x24, virtual false, abstract: false, final false
   inline void StopRenderCoroutine();
 
-  /// @brief Method SubmitSDKOutput, addr 0x3a56ff0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SubmitSDKOutput, addr 0x3a6a948, size 0x170, virtual false, abstract: false, final false
   inline void SubmitSDKOutput();
 
-  /// @brief Method Update, addr 0x3a56d4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a6a6a4, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSDKReady, addr 0x3a56d08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdateSDKReady, addr 0x3a6a660, size 0x44, virtual false, abstract: false, final false
   inline void UpdateSDKReady();
 
-  /// @brief Method WaitForUnityEndOfFrame, addr 0x3a56de4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WaitForUnityEndOfFrame, addr 0x3a6a73c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitForUnityEndOfFrame();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__HMDCamera() const;
@@ -497,79 +497,79 @@ public:
 
   constexpr void __cordl_internal_set_onPreRenderForeground(::System::Action_1<::LIV::SDK::Unity::SDKRender*>* value);
 
-  /// @brief Method .ctor, addr 0x3a5764c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a6afa4, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HMDCamera, addr 0x3a5690c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HMDCamera, addr 0x3a6a264, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_HMDCamera();
 
-  /// @brief Method get_MRCameraPrefab, addr 0x3a56a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MRCameraPrefab, addr 0x3a6a358, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_MRCameraPrefab();
 
-  /// @brief Method get__isReady, addr 0x3a56be8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get__isReady, addr 0x3a6a540, size 0x74, virtual false, abstract: false, final false
   inline bool get__isReady();
 
-  /// @brief Method get_disableStandardAssets, addr 0x3a56a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disableStandardAssets, addr 0x3a6a3e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_disableStandardAssets();
 
-  /// @brief Method get_excludeBehaviours, addr 0x3a56ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_excludeBehaviours, addr 0x3a6a408, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_excludeBehaviours();
 
-  /// @brief Method get_fixPostEffectsAlpha, addr 0x3a56ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixPostEffectsAlpha, addr 0x3a6a430, size 0x8, virtual false, abstract: false, final false
   inline bool get_fixPostEffectsAlpha();
 
-  /// @brief Method get_isActive, addr 0x3a56be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x3a6a538, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isValid, addr 0x3a56aec, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x3a6a444, size 0xf4, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method get_render, addr 0x3a56cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_render, addr 0x3a6a64c, size 0x8, virtual false, abstract: false, final false
   inline ::LIV::SDK::Unity::SDKRender* get_render();
 
-  /// @brief Method get_spectatorLayerMask, addr 0x3a56aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spectatorLayerMask, addr 0x3a6a3f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_spectatorLayerMask();
 
-  /// @brief Method get_stage, addr 0x3a565e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_stage, addr 0x3a69f38, size 0x90, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_stage();
 
-  /// @brief Method get_stageLocalToWorldMatrix, addr 0x3a5671c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_stageLocalToWorldMatrix, addr 0x3a6a074, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix();
 
-  /// @brief Method get_stageTransform, addr 0x3a568fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stageTransform, addr 0x3a6a254, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_stageTransform();
 
-  /// @brief Method get_stageWorldToLocalMatrix, addr 0x3a5680c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_stageWorldToLocalMatrix, addr 0x3a6a164, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_stageWorldToLocalMatrix();
 
-  /// @brief Method get_trackedSpaceOrigin, addr 0x3a56714, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_trackedSpaceOrigin, addr 0x3a6a06c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_trackedSpaceOrigin();
 
-  /// @brief Method set_HMDCamera, addr 0x3a56914, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method set_HMDCamera, addr 0x3a6a26c, size 0xec, virtual false, abstract: false, final false
   inline void set_HMDCamera(::UnityEngine::Camera* value);
 
-  /// @brief Method set_MRCameraPrefab, addr 0x3a56a08, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_MRCameraPrefab, addr 0x3a6a360, size 0x84, virtual false, abstract: false, final false
   inline void set_MRCameraPrefab(::UnityEngine::Camera* value);
 
-  /// @brief Method set_disableStandardAssets, addr 0x3a56a94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disableStandardAssets, addr 0x3a6a3ec, size 0xc, virtual false, abstract: false, final false
   inline void set_disableStandardAssets(bool value);
 
-  /// @brief Method set_excludeBehaviours, addr 0x3a56ab8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_excludeBehaviours, addr 0x3a6a410, size 0x20, virtual false, abstract: false, final false
   inline void set_excludeBehaviours(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_fixPostEffectsAlpha, addr 0x3a56ae0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_fixPostEffectsAlpha, addr 0x3a6a438, size 0xc, virtual false, abstract: false, final false
   inline void set_fixPostEffectsAlpha(bool value);
 
-  /// @brief Method set_spectatorLayerMask, addr 0x3a56aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_spectatorLayerMask, addr 0x3a6a400, size 0x8, virtual false, abstract: false, final false
   inline void set_spectatorLayerMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_stage, addr 0x3a56670, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_stage, addr 0x3a69fc8, size 0x90, virtual false, abstract: false, final false
   inline void set_stage(::UnityEngine::Transform* value);
 
-  /// @brief Method set_stageTransform, addr 0x3a56904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stageTransform, addr 0x3a6a25c, size 0x8, virtual false, abstract: false, final false
   inline void set_stageTransform(::UnityEngine::Transform* value);
 
-  /// @brief Method set_trackedSpaceOrigin, addr 0x3a56718, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_trackedSpaceOrigin, addr 0x3a6a070, size 0x4, virtual false, abstract: false, final false
   inline void set_trackedSpaceOrigin(::UnityEngine::Transform* value);
 
 protected:
@@ -665,7 +665,7 @@ public:
   ::UnityEngine::Coroutine* ____waitForEndOfFrameCoroutine;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17251 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17258 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

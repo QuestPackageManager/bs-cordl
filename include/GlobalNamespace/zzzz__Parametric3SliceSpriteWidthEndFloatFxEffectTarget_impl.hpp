@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3b13b9c;
+  constexpr static std::size_t addrs = 0x3b29010;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3b13c3c;
+  constexpr static std::size_t addrs = 0x3b290b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteWidthEndFloatFxEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b13cdc;
+  constexpr static std::size_t addrs = 0x3b29150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

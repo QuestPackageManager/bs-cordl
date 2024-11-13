@@ -24,7 +24,7 @@ namespace UnityEngine {
 struct CORDL_TYPE GradientColorKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x4825e80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x483a598, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color col, float_t time);
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   float_t time;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10778 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

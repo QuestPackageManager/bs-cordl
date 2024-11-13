@@ -36,10 +36,10 @@ public:
   /// @brief Method ResumeSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResumeSong();
 
-  /// @brief Method SendSongDidFinishEvent, addr 0x3b74884, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SendSongDidFinishEvent, addr 0x3b8a378, size 0x1c, virtual false, abstract: false, final false
   inline void SendSongDidFinishEvent();
 
-  /// @brief Method SendSongDidStartEvent, addr 0x3b748e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SendSongDidStartEvent, addr 0x3b8a3d8, size 0x1c, virtual false, abstract: false, final false
   inline void SendSongDidStartEvent();
 
   /// @brief Method StopSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -57,19 +57,19 @@ public:
 
   constexpr void __cordl_internal_set_songDidStartEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b74ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8a5ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_songDidFinishEvent, addr 0x3b74c28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_songDidFinishEvent, addr 0x3b8a71c, size 0x9c, virtual false, abstract: false, final false
   inline void add_songDidFinishEvent(::System::Action* value);
 
-  /// @brief Method add_songDidStartEvent, addr 0x3b74af0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_songDidStartEvent, addr 0x3b8a5e4, size 0x9c, virtual false, abstract: false, final false
   inline void add_songDidStartEvent(::System::Action* value);
 
-  /// @brief Method remove_songDidFinishEvent, addr 0x3b74cc4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_songDidFinishEvent, addr 0x3b8a7b8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_songDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_songDidStartEvent, addr 0x3b74b8c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_songDidStartEvent, addr 0x3b8a680, size 0x9c, virtual false, abstract: false, final false
   inline void remove_songDidStartEvent(::System::Action* value);
 
 protected:
@@ -93,7 +93,7 @@ public:
   ::System::Action* ___songDidFinishEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4681 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -32,10 +32,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__NavigationCancelEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49b4764, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49c8e7c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::NavigationCancelEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49b475c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c8e74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__NavigationCancelEvent____c* getStaticF___9();
@@ -57,7 +57,7 @@ public:
   __NavigationCancelEvent____c(__NavigationCancelEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5856 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -77,7 +77,7 @@ public:
 
   static inline ::UnityEngine::UIElements::NavigationCancelEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49b46b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c8dd0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   NavigationCancelEvent(NavigationCancelEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__BoundsIntField__UxmlFactory::*)()>(
     &::UnityEngine::UIElements::__BoundsIntField__UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4911ae4;
+  constexpr static std::size_t addrs = 0x49261fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BoundsIntField__UxmlFactory*>::get(),
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::__BoundsIntField__UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x4911b2c;
+  constexpr static std::size_t addrs = 0x4926244;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__BoundsIntField__UxmlTraits::*)()>(
     &::UnityEngine::UIElements::__BoundsIntField__UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x4911d84;
+  constexpr static std::size_t addrs = 0x492649c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BoundsIntField__UxmlTraits*>::get(),
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField::*)()>(&::UnityEngine::UIElements::BoundsIntField::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4911244;
+  constexpr static std::size_t addrs = 0x492595c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BoundsIntField*>::get(), ".ctor",
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField::*)(::StringW)>(&::UnityEngine::UIElements::BoundsIntField::_ctor)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x491124c;
+  constexpr static std::size_t addrs = 0x4925964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField::*)(::UnityEngine::BoundsInt)>(
     &::UnityEngine::UIElements::BoundsIntField::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x49116e4;
+  constexpr static std::size_t addrs = 0x4925dfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField::*)()>(
     &::UnityEngine::UIElements::BoundsIntField::UpdateMixedValueContent)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x49117e0;
+  constexpr static std::size_t addrs = 0x4925ef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField::*)(
     ::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3Int>*)>(&::UnityEngine::UIElements::BoundsIntField::__ctor_b__10_0)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x491198c;
+  constexpr static std::size_t addrs = 0x49260a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BoundsIntField::*)(
     ::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3Int>*)>(&::UnityEngine::UIElements::BoundsIntField::__ctor_b__10_1)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4911a38;
+  constexpr static std::size_t addrs = 0x4926150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

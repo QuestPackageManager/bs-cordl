@@ -58,7 +58,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleContentRestriction* New_ctor();
 
-  /// @brief Method SetAttributes, addr 0x42525a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAttributes, addr 0x4266cc0, size 0x8, virtual false, abstract: false, final false
   inline void SetAttributes(::System::Xml::Schema::XmlSchemaObjectCollection* newAttributes);
 
   constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute*& __cordl_internal_get_anyAttribute();
@@ -91,31 +91,31 @@ public:
 
   constexpr void __cordl_internal_set_facets(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method .ctor, addr 0x42525b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4266cc8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AnyAttribute, addr 0x4252598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnyAttribute, addr 0x4266cb0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AnyAttribute();
 
-  /// @brief Method get_Attributes, addr 0x4252590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x4266ca8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Attributes();
 
-  /// @brief Method get_BaseType, addr 0x4252578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x4266c90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_BaseType();
 
-  /// @brief Method get_BaseTypeName, addr 0x42524d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseTypeName, addr 0x4266bf0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_BaseTypeName();
 
-  /// @brief Method get_Facets, addr 0x4252588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Facets, addr 0x4266ca0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Facets();
 
-  /// @brief Method set_AnyAttribute, addr 0x42525a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnyAttribute, addr 0x4266cb8, size 0x8, virtual false, abstract: false, final false
   inline void set_AnyAttribute(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  /// @brief Method set_BaseType, addr 0x4252580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x4266c98, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_BaseTypeName, addr 0x42524e0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_BaseTypeName, addr 0x4266bf8, size 0x98, virtual false, abstract: false, final false
   inline void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -148,7 +148,7 @@ public:
   ::System::Xml::Schema::XmlSchemaAnyAttribute* ___anyAttribute;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7693 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

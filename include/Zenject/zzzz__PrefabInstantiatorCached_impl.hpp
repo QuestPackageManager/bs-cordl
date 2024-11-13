@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::PrefabInstantiatorCached::*)(::Zenject::IPrefabInstantiator*)>(
     &::Zenject::PrefabInstantiatorCached::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4ac4148;
+  constexpr static std::size_t addrs = 0x4ad8860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* (::Zenject::PrefabInstantiatorCached::*)()>(
     &::Zenject::PrefabInstantiatorCached::get_ExtraArguments)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4ac4170;
+  constexpr static std::size_t addrs = 0x4ad8888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabInstantiatorCached*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::PrefabInstantiatorCached::*)()>(
     &::Zenject::PrefabInstantiatorCached::get_ArgumentTarget)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4ac4214;
+  constexpr static std::size_t addrs = 0x4ad892c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabInstantiatorCached*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::GameObjectCreationParameters* (::Zenject::PrefabInstantiatorCached::*)()>(
     &::Zenject::PrefabInstantiatorCached::get_GameObjectCreationParameters)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4ac42b4;
+  constexpr static std::size_t addrs = 0x4ad89cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (::Zenject::PrefabInstantiatorCached::*)()>(
     &::Zenject::PrefabInstantiatorCached::GetPrefab)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4ac4358;
+  constexpr static std::size_t addrs = 0x4ad8a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabInstantiatorCached*>::get(), "GetPrefab",
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::PrefabInstantiatorCached::*)(
     ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ByRef<::System::Action*>)>(&::Zenject::PrefabInstantiatorCached::Instantiate)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x4ac43fc;
+  constexpr static std::size_t addrs = 0x4ad8b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

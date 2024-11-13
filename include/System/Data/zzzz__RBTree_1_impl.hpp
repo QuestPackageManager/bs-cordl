@@ -63,7 +63,7 @@ constexpr ::ArrayW<::System::Data::__RBTree_1__Node<K>, ::Array<::System::Data::
 template <typename K>
 constexpr void System::Data::__RBTree_1__TreePage<K>::__cordl_internal_set__slots(::ArrayW<::System::Data::__RBTree_1__Node<K>, ::Array<::System::Data::__RBTree_1__Node<K>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____slots)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____slots, value);
 }
 template <typename K> constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Data::__RBTree_1__TreePage<K>::__cordl_internal_get__slotMap() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -75,7 +75,7 @@ template <typename K> constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Syst
 }
 template <typename K> constexpr void System::Data::__RBTree_1__TreePage<K>::__cordl_internal_set__slotMap(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____slotMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____slotMap, value);
 }
 template <typename K> constexpr int32_t& System::Data::__RBTree_1__TreePage<K>::__cordl_internal_get__inUseCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -250,7 +250,7 @@ constexpr ::ArrayW<::System::Data::__RBTree_1__TreePage<K>*, ::Array<::System::D
 template <typename K>
 constexpr void System::Data::RBTree_1<K>::__cordl_internal_set__pageTable(::ArrayW<::System::Data::__RBTree_1__TreePage<K>*, ::Array<::System::Data::__RBTree_1__TreePage<K>*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pageTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____pageTable, value);
 }
 template <typename K> constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Data::RBTree_1<K>::__cordl_internal_get__pageTableMap() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -262,7 +262,7 @@ template <typename K> constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Syst
 }
 template <typename K> constexpr void System::Data::RBTree_1<K>::__cordl_internal_set__pageTableMap(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pageTableMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____pageTableMap, value);
 }
 template <typename K> constexpr int32_t& System::Data::RBTree_1<K>::__cordl_internal_get__inUsePageCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

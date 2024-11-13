@@ -77,7 +77,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename T> constexpr void GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>::__cordl_internal_set___2__current(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -102,7 +102,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IE
 }
 template <typename T> constexpr void GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>::__cordl_internal_set_enumerable(::System::Collections::Generic::IEnumerable_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enumerable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___enumerable, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>*& GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>::__cordl_internal_get___3__enumerable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -116,7 +116,7 @@ GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>::__cordl_internal_get___3__
 }
 template <typename T> constexpr void GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>::__cordl_internal_set___3__enumerable(::System::Collections::Generic::IEnumerable_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__enumerable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____3__enumerable, value);
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>::__cordl_internal_get_batchSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -153,7 +153,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IE
 }
 template <typename T> constexpr void GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>::__cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____7__wrap1, value);
 }
 template <typename T> inline ::GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>* GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>::New_ctor(int32_t __1__state) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>*>(__1__state));

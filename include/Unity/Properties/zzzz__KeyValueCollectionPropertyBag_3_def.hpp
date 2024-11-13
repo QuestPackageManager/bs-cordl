@@ -79,7 +79,7 @@ public:
   TKey ____Key_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17415 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -144,7 +144,7 @@ public:
   ::Unity::Properties::__KeyValueCollectionPropertyBag_3__KeyValuePairProperty<TDictionary, TKey, TValue>* ___m_KeyValuePairProperty;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17416 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

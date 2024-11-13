@@ -43,10 +43,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23a28d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ad97c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SignatureAndHashAlgorithm, addr 0x23a2888, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_SignatureAndHashAlgorithm, addr 0x23ad930, size 0x4c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_SignatureAndHashAlgorithm();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"

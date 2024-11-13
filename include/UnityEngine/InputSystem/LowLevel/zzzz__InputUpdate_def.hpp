@@ -42,16 +42,16 @@ public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) uint32_t value;
 
-  /// @brief Method OnBeforeUpdate, addr 0x4599944, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnBeforeUpdate, addr 0x45ae05c, size 0x18, virtual false, abstract: false, final false
   inline void OnBeforeUpdate();
 
-  /// @brief Method OnUpdate, addr 0x45999e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x45ae0fc, size 0x1c, virtual false, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method get_value, addr 0x4599b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x45ae23c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_value();
 
-  /// @brief Method set_value, addr 0x4599b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x45ae244, size 0x8, virtual false, abstract: false, final false
   inline void set_value(uint32_t value);
 
   // Ctor Parameters []
@@ -68,7 +68,7 @@ public:
   uint32_t _value_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6934 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -107,7 +107,7 @@ public:
   ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount playerUpdateStepCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6935 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -144,22 +144,22 @@ public:
   /// @brief Field s_UpdateStepCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_UpdateStepCount, put = setStaticF_s_UpdateStepCount)) uint32_t s_UpdateStepCount;
 
-  /// @brief Method GetUpdateTypeForPlayer, addr 0x4599af8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetUpdateTypeForPlayer, addr 0x45ae210, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType GetUpdateTypeForPlayer(::UnityEngine::InputSystem::LowLevel::InputUpdateType mask);
 
-  /// @brief Method IsPlayerUpdate, addr 0x4599b18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsPlayerUpdate, addr 0x45ae230, size 0xc, virtual false, abstract: false, final false
   static inline bool IsPlayerUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  /// @brief Method OnBeforeUpdate, addr 0x45998c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnBeforeUpdate, addr 0x45adfdc, size 0x80, virtual false, abstract: false, final false
   static inline void OnBeforeUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType type);
 
-  /// @brief Method OnUpdate, addr 0x459995c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x45ae074, size 0x88, virtual false, abstract: false, final false
   static inline void OnUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType type);
 
-  /// @brief Method Restore, addr 0x4599a64, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Restore, addr 0x45ae17c, size 0x94, virtual false, abstract: false, final false
   static inline void Restore(::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState state);
 
-  /// @brief Method Save, addr 0x4599a00, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x45ae118, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState Save();
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType getStaticF_s_LatestUpdateType();
@@ -189,7 +189,7 @@ public:
   InputUpdate(InputUpdate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6936 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

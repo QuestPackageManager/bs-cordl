@@ -29,7 +29,7 @@ UnityEngine::UIElements::__UQueryState_1__ListQueryMatcher_1<T, TElement>::__cor
 template <typename T, typename TElement>
 constexpr void UnityEngine::UIElements::__UQueryState_1__ListQueryMatcher_1<T, TElement>::__cordl_internal_set__matches_k__BackingField(::System::Collections::Generic::List_1<TElement>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____matches_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____matches_k__BackingField, value);
 }
 template <typename T, typename TElement> inline ::System::Collections::Generic::List_1<TElement>* UnityEngine::UIElements::__UQueryState_1__ListQueryMatcher_1<T, TElement>::get_matches() {
   static auto* ___internal_method =
@@ -81,7 +81,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& Uni
 }
 template <typename T> constexpr void UnityEngine::UIElements::__UQueryState_1__ActionQueryMatcher<T>::__cordl_internal_set__callBack_k__BackingField(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____callBack_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____callBack_k__BackingField, value);
 }
 template <typename T> inline ::System::Action_1<T>* UnityEngine::UIElements::__UQueryState_1__ActionQueryMatcher<T>::get_callBack() {
   static auto* ___internal_method =

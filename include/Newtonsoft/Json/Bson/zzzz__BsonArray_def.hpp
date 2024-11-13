@@ -51,15 +51,15 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x3edd128, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3ef17b8, size 0xa8, virtual false, abstract: false, final false
   inline void Add(::Newtonsoft::Json::Bson::BsonToken* token);
 
-  /// @brief Method GetEnumerator, addr 0x3edafd8, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x3eef668, size 0x90, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Bson::BsonToken*>* GetEnumerator();
 
   static inline ::Newtonsoft::Json::Bson::BsonArray* New_ctor();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3edd1d8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3ef1868, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>*& __cordl_internal_get__children();
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__children(::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>* value);
 
-  /// @brief Method .ctor, addr 0x3edd1dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ef186c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Type, addr 0x3edd1d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3ef1860, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Bson::BsonToken*>"
@@ -98,7 +98,7 @@ public:
   ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonToken*>* ____children;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10483 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

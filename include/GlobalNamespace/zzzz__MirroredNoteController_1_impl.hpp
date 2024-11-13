@@ -39,7 +39,7 @@ template <typename T> constexpr ::UnityW<::UnityEngine::Transform> const& Global
 }
 template <typename T> constexpr void GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_set__noteTransform(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____noteTransform, value);
 }
 template <typename T> constexpr T& GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_get_followedNote() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -51,7 +51,7 @@ template <typename T> constexpr T const& GlobalNamespace::MirroredNoteController
 }
 template <typename T> constexpr void GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_set_followedNote(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___followedNote)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___followedNote, value);
 }
 template <typename T> constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_get__followedNoteTransform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -63,7 +63,7 @@ template <typename T> constexpr ::UnityW<::UnityEngine::Transform> const& Global
 }
 template <typename T> constexpr void GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_set__followedNoteTransform(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____followedNoteTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____followedNoteTransform, value);
 }
 template <typename T>
 constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*& GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_get__didInitEvent() {
@@ -79,7 +79,7 @@ GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_get__didInitEvent
 template <typename T>
 constexpr void GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_set__didInitEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____didInitEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____didInitEvent, value);
 }
 template <typename T>
 constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>*&
@@ -97,7 +97,7 @@ template <typename T>
 constexpr void GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_set__noteDidPassJumpThreeQuartersEvent(
     ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteDidPassJumpThreeQuartersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____noteDidPassJumpThreeQuartersEvent, value);
 }
 template <typename T>
 constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>*&
@@ -115,7 +115,7 @@ template <typename T>
 constexpr void GlobalNamespace::MirroredNoteController_1<T>::__cordl_internal_set__noteDidStartDissolvingEvent(
     ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteDidStartDissolvingEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____noteDidStartDissolvingEvent, value);
 }
 template <typename T> inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* GlobalNamespace::MirroredNoteController_1<T>::get_didInitEvent() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

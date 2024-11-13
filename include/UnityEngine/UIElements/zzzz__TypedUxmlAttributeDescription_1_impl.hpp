@@ -14,7 +14,7 @@ template <typename T> constexpr T const& UnityEngine::UIElements::TypedUxmlAttri
 }
 template <typename T> constexpr void UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T>::__cordl_internal_set__defaultValue_k__BackingField(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultValue_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____defaultValue_k__BackingField, value);
 }
 template <typename T>
 inline T UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T>::GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc) {

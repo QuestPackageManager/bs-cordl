@@ -59,17 +59,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*() noexcept;
 
-  /// @brief Method Generate, addr 0x238871c, size 0x508, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x23937c4, size 0x508, virtual true, abstract: false, final true
   inline int32_t Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput, bool predictionResistant);
 
-  /// @brief Method GetEntropy, addr 0x238817c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetEntropy, addr 0x2393224, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEntropy();
 
   static inline ::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg* New_ctor(::Org::BouncyCastle::Crypto::IMac* hMac, int32_t securityStrength,
                                                                                  ::Org::BouncyCastle::Crypto::IEntropySource* entropySource, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString,
                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method Reseed, addr 0x2388c24, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Reseed, addr 0x2393ccc, size 0x90, virtual true, abstract: false, final true
   inline void Reseed(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
   constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& __cordl_internal_get_mEntropySource();
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2387e8c, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2392f34, size 0x2f0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* hMac, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
@@ -116,13 +116,13 @@ public:
 
   static inline int64_t getStaticF_RESEED_MAX();
 
-  /// @brief Method get_BlockSize, addr 0x23886fc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_BlockSize, addr 0x23937a4, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_BlockSize();
 
-  /// @brief Method hmac_DRBG_Update, addr 0x2388290, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method hmac_DRBG_Update, addr 0x2393338, size 0x40, virtual false, abstract: false, final false
   inline void hmac_DRBG_Update(::ArrayW<uint8_t, ::Array<uint8_t>*> seedMaterial);
 
-  /// @brief Method hmac_DRBG_Update_Func, addr 0x23882d0, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method hmac_DRBG_Update_Func, addr 0x2393378, size 0x42c, virtual false, abstract: false, final false
   inline void hmac_DRBG_Update_Func(::ArrayW<uint8_t, ::Array<uint8_t>*> seedMaterial, uint8_t vValue);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"

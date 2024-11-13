@@ -6,6 +6,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelGameplayManager_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameSongController_def.hpp"
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelGameplayManager__InitData::*)(bool)>(
     &::GlobalNamespace::__StandardLevelGameplayManager__InitData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b2b0c0;
+  constexpr static std::size_t addrs = 0x3b4050c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,205 +72,205 @@ constexpr ::GlobalNamespace::__StandardLevelGameplayManager__GameState GlobalNam
 constexpr ::GlobalNamespace::__StandardLevelGameplayManager__GameState GlobalNamespace::__StandardLevelGameplayManager__GameState::Paused{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::__StandardLevelGameplayManager__GameState GlobalNamespace::__StandardLevelGameplayManager__GameState::Finished{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::__StandardLevelGameplayManager__GameState GlobalNamespace::__StandardLevelGameplayManager__GameState::Failed{ static_cast<int32_t>(0x4) };
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28._ctor
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::*)(int32_t)>(
-    &::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::*)(int32_t)>(
+    &::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b2ac14;
+  constexpr static std::size_t addrs = 0x3b40060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::*)()>(
-    &::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::*)()>(
+    &::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b2b0e8;
+  constexpr static std::size_t addrs = 0x3b40534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::*)()>(
-    &::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::MoveNext)> {
-  constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x3b2b0ec;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::*)()>(
+    &::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::MoveNext)> {
+  constexpr static std::size_t size = 0x5cc;
+  constexpr static std::size_t addrs = 0x3b40538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::*)()>(
-    &::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::*)()>(
+    &::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2b66c;
+  constexpr static std::size_t addrs = 0x3b40b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::*)()>(
-    &::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::*)()>(
+    &::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b2b674;
+  constexpr static std::size_t addrs = 0x3b40b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::*)()>(
-    &::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::*)()>(
+    &::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2b6ac;
+  constexpr static std::size_t addrs = 0x3b40b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::__cordl_internal_get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::StandardLevelGameplayManager>& GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::StandardLevelGameplayManager>& GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::StandardLevelGameplayManager> const& GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::StandardLevelGameplayManager> const& GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::StandardLevelGameplayManager> value) {
+constexpr void GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::StandardLevelGameplayManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28* GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>(__1__state));
+inline ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29* GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>(__1__state));
 }
-inline void GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::System_IDisposable_Dispose() {
+inline void GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::MoveNext() {
+inline bool GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__28::__StandardLevelGameplayManager___Start_d__28() {}
+constexpr ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__29::__StandardLevelGameplayManager___Start_d__29() {}
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelGameplayManager.add_levelWillStartIntroEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::StandardLevelGameplayManager::add_levelWillStartIntroEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b2a6c4;
+  constexpr static std::size_t addrs = 0x3b3fb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::StandardLevelGameplayManager::remove_levelWillStartIntroEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b2a760;
+  constexpr static std::size_t addrs = 0x3b3fbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::StandardLevelGameplayManager::add_levelDidStartEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b2a7fc;
+  constexpr static std::size_t addrs = 0x3b3fc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -314,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::StandardLevelGameplayManager::remove_levelDidStartEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b2a898;
+  constexpr static std::size_t addrs = 0x3b3fce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -329,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::StandardLevelGameplayManager::add_levelFinishedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b2a934;
+  constexpr static std::size_t addrs = 0x3b3fd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::StandardLevelGameplayManager::remove_levelFinishedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b2a9d0;
+  constexpr static std::size_t addrs = 0x3b3fe1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::StandardLevelGameplayManager::add_levelFailedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b2aa6c;
+  constexpr static std::size_t addrs = 0x3b3feb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::StandardLevelGameplayManager::remove_levelFailedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b2ab08;
+  constexpr static std::size_t addrs = 0x3b3ff54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -389,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__LevelCompletionResults__LevelEndStateType (
     ::GlobalNamespace::StandardLevelGameplayManager::*)()>(&::GlobalNamespace::StandardLevelGameplayManager::get_levelEndStateType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2aba4;
+  constexpr static std::size_t addrs = 0x3b3fff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelGameplayManager*>::get(),
@@ -403,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)()>(
     &::GlobalNamespace::StandardLevelGameplayManager::Awake)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2abac;
+  constexpr static std::size_t addrs = 0x3b3fff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelGameplayManager*>::get(), "Awake",
@@ -417,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::StandardLevelGameplayManager::*)()>(
     &::GlobalNamespace::StandardLevelGameplayManager::Start)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b2abb4;
+  constexpr static std::size_t addrs = 0x3b40000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelGameplayManager*>::get(), "Start",
@@ -431,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)()>(
     &::GlobalNamespace::StandardLevelGameplayManager::OnDestroy)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3b2ac3c;
+  constexpr static std::size_t addrs = 0x3b40088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelGameplayManager*>::get(),
@@ -445,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)()>(
     &::GlobalNamespace::StandardLevelGameplayManager::Update)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b2ae90;
+  constexpr static std::size_t addrs = 0x3b402dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelGameplayManager*>::get(),
@@ -459,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)()>(
     &::GlobalNamespace::StandardLevelGameplayManager::HandleGameEnergyDidReach0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b2afd4;
+  constexpr static std::size_t addrs = 0x3b40420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelGameplayManager*>::get(),
@@ -473,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)()>(
     &::GlobalNamespace::StandardLevelGameplayManager::HandleSongDidFinish)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b2b02c;
+  constexpr static std::size_t addrs = 0x3b40478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelGameplayManager*>::get(),
@@ -487,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::StandardLevelGameplayManager::HandlePauseControllerCanPause)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b2b060;
+  constexpr static std::size_t addrs = 0x3b404ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -502,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)()>(
     &::GlobalNamespace::StandardLevelGameplayManager::HandlePauseControllerDidPause)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b2b084;
+  constexpr static std::size_t addrs = 0x3b404d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelGameplayManager*>::get(),
@@ -516,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)()>(
     &::GlobalNamespace::StandardLevelGameplayManager::HandlePauseControllerDidResume)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b2b0a0;
+  constexpr static std::size_t addrs = 0x3b404ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelGameplayManager*>::get(),
@@ -530,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelGameplayManager::*)()>(
     &::GlobalNamespace::StandardLevelGameplayManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2b0b8;
+  constexpr static std::size_t addrs = 0x3b40504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelGameplayManager*>::get(), ".ctor",
@@ -650,6 +651,19 @@ constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReturnToMenuCo
 constexpr void GlobalNamespace::StandardLevelGameplayManager::__cordl_internal_set__returnToMenuController(::GlobalNamespace::IReturnToMenuController* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____returnToMenuController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::StandardLevelGameplayManager::__cordl_internal_get__beatmapCallbacksController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapCallbacksController;
+}
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const&
+GlobalNamespace::StandardLevelGameplayManager::__cordl_internal_get__beatmapCallbacksController() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapCallbacksController;
+}
+constexpr void GlobalNamespace::StandardLevelGameplayManager::__cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action*& GlobalNamespace::StandardLevelGameplayManager::__cordl_internal_get_levelWillStartIntroEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

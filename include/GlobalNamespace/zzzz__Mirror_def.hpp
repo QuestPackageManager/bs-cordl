@@ -60,15 +60,15 @@ public:
 
   __declspec(property(get = get_noMirrorMaterial)) ::UnityW<::UnityEngine::Material> noMirrorMaterial;
 
-  /// @brief Method ChangeMirrorEnabledState, addr 0x400ce00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ChangeMirrorEnabledState, addr 0x4021518, size 0x3c, virtual false, abstract: false, final false
   inline void ChangeMirrorEnabledState(bool newIsEnabled);
 
   static inline ::GlobalNamespace::Mirror* New_ctor();
 
-  /// @brief Method OnWillRenderObject, addr 0x400cb40, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method OnWillRenderObject, addr 0x4021258, size 0x2c0, virtual false, abstract: false, final false
   inline void OnWillRenderObject();
 
-  /// @brief Method Update, addr 0x400c99c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x40210b4, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__isEnabled_k__BackingField() const;
@@ -107,29 +107,29 @@ public:
 
   constexpr void __cordl_internal_set_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x400d6b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4021dcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x400c83c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x4020f54, size 0xb0, virtual false, abstract: false, final false
   inline void add_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
   static inline int32_t getStaticF__texturePropertyID();
 
-  /// @brief Method get_isEnabled, addr 0x400c828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEnabled, addr 0x4020f40, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method get_mirrorMaterial, addr 0x400c818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirrorMaterial, addr 0x4020f30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_mirrorMaterial();
 
-  /// @brief Method get_noMirrorMaterial, addr 0x400c820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noMirrorMaterial, addr 0x4020f38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_noMirrorMaterial();
 
-  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x400c8ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x4021004, size 0xb0, virtual false, abstract: false, final false
   inline void remove_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
   static inline void setStaticF__texturePropertyID(int32_t value);
 
-  /// @brief Method set_isEnabled, addr 0x400c830, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isEnabled, addr 0x4020f48, size 0xc, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
 protected:
@@ -165,7 +165,7 @@ public:
   ::System::Action_1<bool>* ___mirrorDidChangeEnabledStateEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17819 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

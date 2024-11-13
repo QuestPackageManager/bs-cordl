@@ -38,10 +38,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetDerivationV, addr 0x237f208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDerivationV, addr 0x238a2b0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDerivationV();
 
-  /// @brief Method GetEncodingV, addr 0x237f210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingV, addr 0x238a2b8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodingV();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::IesParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize);
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_macKeySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x237f1cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238a274, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize);
 
-  /// @brief Method get_MacKeySize, addr 0x237f218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MacKeySize, addr 0x238a2c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MacKeySize();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

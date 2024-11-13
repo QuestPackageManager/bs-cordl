@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BombCutSoundEffect__Pool::*)()>(&::GlobalNamespace::__BombCutSoundEffect__Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3a64da0;
+  constexpr static std::size_t addrs = 0x3a78768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BombCutSoundEffect__Pool*>::get(), ".ctor",
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BombCutSoundEffect::*)(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>*)>(&::GlobalNamespace::BombCutSoundEffect::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3a64ae4;
+  constexpr static std::size_t addrs = 0x3a784ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BombCutSoundEffect::*)(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>*)>(&::GlobalNamespace::BombCutSoundEffect::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3a64b94;
+  constexpr static std::size_t addrs = 0x3a7855c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombCutSoundEffect::*)(::UnityEngine::AudioClip*, ::GlobalNamespace::Saber*, float_t)>(
     &::GlobalNamespace::BombCutSoundEffect::Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3a64c44;
+  constexpr static std::size_t addrs = 0x3a7860c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombCutSoundEffect::*)()>(&::GlobalNamespace::BombCutSoundEffect::LateUpdate)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3a64cb8;
+  constexpr static std::size_t addrs = 0x3a78680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombCutSoundEffect*>::get(), "LateUpdate",
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombCutSoundEffect::*)()>(&::GlobalNamespace::BombCutSoundEffect::StopPlayingAndFinish)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3a64d48;
+  constexpr static std::size_t addrs = 0x3a78710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombCutSoundEffect*>::get(),
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombCutSoundEffect::*)()>(&::GlobalNamespace::BombCutSoundEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a64d98;
+  constexpr static std::size_t addrs = 0x3a78760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombCutSoundEffect*>::get(), ".ctor",

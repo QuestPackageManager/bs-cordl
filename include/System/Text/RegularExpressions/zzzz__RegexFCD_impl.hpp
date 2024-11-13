@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFCD::*)(::System::Span_1<int32_t>)>(
     &::System::Text::RegularExpressions::RegexFCD::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x43a6d70;
+  constexpr static std::size_t addrs = 0x43bb488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> (*)(::System::Text::RegularExpressions::RegexTree*)>(&::System::Text::RegularExpressions::RegexFCD::FirstChars)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x43a6e44;
+  constexpr static std::size_t addrs = 0x43bb55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexPrefix (*)(::System::Text::RegularExpressions::RegexTree*)>(
     &::System::Text::RegularExpressions::RegexFCD::Prefix)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x43a71c0;
+  constexpr static std::size_t addrs = 0x43bb8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Text::RegularExpressions::RegexTree*)>(
     &::System::Text::RegularExpressions::RegexFCD::Anchors)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x43a749c;
+  constexpr static std::size_t addrs = 0x43bbbb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Text::RegularExpressions::RegexFCD::AnchorFromType)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x43a75cc;
+  constexpr static std::size_t addrs = 0x43bbce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFCD::*)(int32_t)>(
     &::System::Text::RegularExpressions::RegexFCD::PushInt)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x43a763c;
+  constexpr static std::size_t addrs = 0x43bbd54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexFCD::*)()>(
     &::System::Text::RegularExpressions::RegexFCD::IntIsEmpty)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x43a76f0;
+  constexpr static std::size_t addrs = 0x43bbe08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexFCD>::get(),
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::RegexFCD::*)()>(&::System::Text::RegularExpressions::RegexFCD::PopInt)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x43a7734;
+  constexpr static std::size_t addrs = 0x43bbe4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexFCD>::get(), "PopInt",
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFCD::*)(::System::Text::RegularExpressions::RegexFC*)>(
     &::System::Text::RegularExpressions::RegexFCD::PushFC)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x43a7790;
+  constexpr static std::size_t addrs = 0x43bbea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexFCD::*)()>(&::System::Text::RegularExpressions::RegexFCD::FCIsEmpty)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x43a7834;
+  constexpr static std::size_t addrs = 0x43bbf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexFCD>::get(), "FCIsEmpty",
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexFC* (::System::Text::RegularExpressions::RegexFCD::*)()>(
     &::System::Text::RegularExpressions::RegexFCD::PopFC)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43a7884;
+  constexpr static std::size_t addrs = 0x43bbf9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexFCD>::get(), "PopFC",
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexFC* (::System::Text::RegularExpressions::RegexFCD::*)()>(
     &::System::Text::RegularExpressions::RegexFCD::TopFC)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x43a7900;
+  constexpr static std::size_t addrs = 0x43bc018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexFCD>::get(), "TopFC",
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFCD::*)()>(&::System::Text::RegularExpressions::RegexFCD::Dispose)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x43a7130;
+  constexpr static std::size_t addrs = 0x43bb848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexFCD>::get(), "Dispose",
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexFC* (
     ::System::Text::RegularExpressions::RegexFCD::*)(::System::Text::RegularExpressions::RegexTree*)>(&::System::Text::RegularExpressions::RegexFCD::RegexFCFromRegexTree)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x43a6f98;
+  constexpr static std::size_t addrs = 0x43bb6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFCD::*)()>(&::System::Text::RegularExpressions::RegexFCD::SkipChild)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43a7d60;
+  constexpr static std::size_t addrs = 0x43bc478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexFCD>::get(), "SkipChild",
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Text::RegularExpressions::RegexFCD::*)(int32_t, ::System::Text::RegularExpressions::RegexNode*, int32_t)>(&::System::Text::RegularExpressions::RegexFCD::CalculateFC)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x43a7964;
+  constexpr static std::size_t addrs = 0x43bc07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

@@ -27,13 +27,13 @@ public:
 
   static inline ::GlobalNamespace::Signal* New_ctor();
 
-  /// @brief Method Raise, addr 0x395c73c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Raise, addr 0x396ffc0, size 0x1c, virtual true, abstract: false, final false
   inline void Raise();
 
-  /// @brief Method Subscribe, addr 0x395c758, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Subscribe, addr 0x396ffdc, size 0x28, virtual false, abstract: false, final false
   inline void Subscribe(::System::Action* foo);
 
-  /// @brief Method Unsubscribe, addr 0x395c780, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Unsubscribe, addr 0x3970004, size 0x4, virtual false, abstract: false, final false
   inline void Unsubscribe(::System::Action* foo);
 
   constexpr ::System::Action*& __cordl_internal_get__event();
@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set__event(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x395c784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3970008, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add__event, addr 0x395c604, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add__event, addr 0x396fe88, size 0x9c, virtual false, abstract: false, final false
   inline void add__event(::System::Action* value);
 
-  /// @brief Method remove__event, addr 0x395c6a0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove__event, addr 0x396ff24, size 0x9c, virtual false, abstract: false, final false
   inline void remove__event(::System::Action* value);
 
 protected:
@@ -69,7 +69,7 @@ public:
   ::System::Action* ____event;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16403 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

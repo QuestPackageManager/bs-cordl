@@ -4,9 +4,9 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GameSessionAnalyticsManager_def.hpp"
+#include "BeatSaber/Init/zzzz__IPlatformInit_def.hpp"
 #include "GlobalNamespace/zzzz__GameSessionAnalyticsManager_def.hpp"
 #include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformInit_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameSessionAnalyticsManager___LogSessionEventAfterPlatformInit_d__6::*)()>(
     &::GlobalNamespace::__GameSessionAnalyticsManager___LogSessionEventAfterPlatformInit_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3a61044;
+  constexpr static std::size_t addrs = 0x3a7499c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameSessionAnalyticsManager___LogSessionEventAfterPlatformInit_d__6::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__GameSessionAnalyticsManager___LogSessionEventAfterPlatformInit_d__6::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3a61300;
+  constexpr static std::size_t addrs = 0x3a74c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)(bool)>(
     &::GlobalNamespace::GameSessionAnalyticsManager::OnApplicationFocus)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3a60d78;
+  constexpr static std::size_t addrs = 0x3a746d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::GameSessionAnalyticsManager::*)(bool)>(
     &::GlobalNamespace::GameSessionAnalyticsManager::LogSessionEventAfterPlatformInit)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3a60dd4;
+  constexpr static std::size_t addrs = 0x3a7472c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)(bool)>(
     &::GlobalNamespace::GameSessionAnalyticsManager::LogSessionEventOnFocus)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a60dc8;
+  constexpr static std::size_t addrs = 0x3a74720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)()>(
     &::GlobalNamespace::GameSessionAnalyticsManager::LogSessionFinish)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3a60f64;
+  constexpr static std::size_t addrs = 0x3a748bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameSessionAnalyticsManager*>::get(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)()>(
     &::GlobalNamespace::GameSessionAnalyticsManager::LogSessionStart)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3a60eac;
+  constexpr static std::size_t addrs = 0x3a74804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameSessionAnalyticsManager*>::get(),
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSessionAnalyticsManager::*)()>(&::GlobalNamespace::GameSessionAnalyticsManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a6103c;
+  constexpr static std::size_t addrs = 0x3a74994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameSessionAnalyticsManager*>::get(), ".ctor",
@@ -177,15 +177,15 @@ constexpr void GlobalNamespace::GameSessionAnalyticsManager::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____analyticsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IPlatformInit*& GlobalNamespace::GameSessionAnalyticsManager::__cordl_internal_get__platformInit() {
+constexpr ::BeatSaber::Init::IPlatformInit*& GlobalNamespace::GameSessionAnalyticsManager::__cordl_internal_get__platformInit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformInit;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformInit*> const& GlobalNamespace::GameSessionAnalyticsManager::__cordl_internal_get__platformInit() const {
+constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Init::IPlatformInit*> const& GlobalNamespace::GameSessionAnalyticsManager::__cordl_internal_get__platformInit() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformInit;
 }
-constexpr void GlobalNamespace::GameSessionAnalyticsManager::__cordl_internal_set__platformInit(::GlobalNamespace::IPlatformInit* value) {
+constexpr void GlobalNamespace::GameSessionAnalyticsManager::__cordl_internal_set__platformInit(::BeatSaber::Init::IPlatformInit* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformInit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

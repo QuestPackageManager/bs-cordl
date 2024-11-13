@@ -57,12 +57,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2593d14, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x259edbc, size 0x14c, virtual true, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator* New_ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent);
 
-  /// @brief Method Reset, addr 0x2593e60, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x259ef08, size 0xc, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*& __cordl_internal_get_parent();
@@ -77,22 +77,22 @@ public:
 
   constexpr void __cordl_internal_set_pos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2593148, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259e1f0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent);
 
-  /// @brief Method get_Current, addr 0x2593a50, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x259eaf8, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_CurrentKey, addr 0x2593b9c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentKey, addr 0x259ec44, size 0x174, virtual false, abstract: false, final false
   inline ::System::Object* get_CurrentKey();
 
-  /// @brief Method get_Entry, addr 0x2593abc, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method get_Entry, addr 0x259eb64, size 0xe0, virtual true, abstract: false, final false
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x2593d10, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x259edb8, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x2593e6c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x259ef14, size 0xb8, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
   /// @brief Convert to "::System::Collections::IDictionaryEnumerator"

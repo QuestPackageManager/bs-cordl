@@ -93,7 +93,7 @@ public:
   static ::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState const Revert;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15823 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -153,7 +153,7 @@ public:
   static ::UnityEngine::Timeline::__ActivationControlPlayable__InitialState const Unset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15824 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -187,25 +187,25 @@ public:
   /// @brief Field postPlayback, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_postPlayback, put = __cordl_internal_set_postPlayback)) ::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState postPlayback;
 
-  /// @brief Method Create, addr 0x47ab340, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x47bfa58, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationControlPlayable*>
   Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* gameObject, ::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState postPlaybackState);
 
   static inline ::UnityEngine::Timeline::ActivationControlPlayable* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x47b0470, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x47c4b88, size 0xa8, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x47b03e8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x47c4b00, size 0x88, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x47b05a0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x47c4cb8, size 0x94, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x47b0634, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x47c4d4c, size 0xcc, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x47b0518, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x47c4c30, size 0x88, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* userData);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_gameObject() const;
@@ -226,7 +226,7 @@ public:
 
   constexpr void __cordl_internal_set_postPlayback(::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState value);
 
-  /// @brief Method .ctor, addr 0x47b0700, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c4e18, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -253,7 +253,7 @@ public:
   ::UnityEngine::Timeline::__ActivationControlPlayable__InitialState ___m_InitialState;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15825 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

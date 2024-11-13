@@ -33,21 +33,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE BinaryFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x41ea8ec, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x41ff004, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x41ea85c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x41fef74, size 0x90, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x41eaab8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x41ff1d0, size 0x124, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x41eabdc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x41ff2f4, size 0x84, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::BinaryFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x41eac60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41ff378, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   BinaryFacetsChecker(BinaryFacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7568 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

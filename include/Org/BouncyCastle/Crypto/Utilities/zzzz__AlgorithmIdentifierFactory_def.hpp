@@ -39,13 +39,13 @@ public:
   /// @brief Field rc2Table, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_rc2Table, put = setStaticF_rc2Table)) ::ArrayW<int16_t, ::Array<int16_t>*> rc2Table;
 
-  /// @brief Method GenerateEncryptionAlgID, addr 0x24043d4, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method GenerateEncryptionAlgID, addr 0x240f47c, size 0x538, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GenerateEncryptionAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize,
                                                                                               ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2404a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240fad4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_CAST5_CBC();

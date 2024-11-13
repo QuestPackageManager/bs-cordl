@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AttributeUsageAttribute::*)(::System::AttributeTargets)>(&::System::AttributeUsageAttribute::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ce0ac8;
+  constexpr static std::size_t addrs = 0x3cf5158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::AttributeUsageAttribute::*)()>(&::System::AttributeUsageAttribute::get_AllowMultiple)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce0b00;
+  constexpr static std::size_t addrs = 0x3cf5190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(), "get_AllowMultiple",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AttributeUsageAttribute::*)(bool)>(&::System::AttributeUsageAttribute::set_AllowMultiple)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ce0b08;
+  constexpr static std::size_t addrs = 0x3cf5198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::AttributeUsageAttribute::*)()>(&::System::AttributeUsageAttribute::get_Inherited)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce0b14;
+  constexpr static std::size_t addrs = 0x3cf51a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(), "get_Inherited",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AttributeUsageAttribute::*)(bool)>(&::System::AttributeUsageAttribute::set_Inherited)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ce0b1c;
+  constexpr static std::size_t addrs = 0x3cf51ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

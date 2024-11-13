@@ -26,10 +26,10 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE SelectorMatchRecord {
 public:
   // Declarations
-  /// @brief Method Compare, addr 0x495e424, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x4972b3c, size 0xec, virtual false, abstract: false, final false
   static inline int32_t Compare(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b);
 
-  /// @brief Method .ctor, addr 0x495e410, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4972b28, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet* sheet, int32_t styleSheetIndexInStack);
 
   // Ctor Parameters []
@@ -50,7 +50,7 @@ public:
   ::UnityEngine::UIElements::StyleComplexSelector* complexSelector;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6428 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

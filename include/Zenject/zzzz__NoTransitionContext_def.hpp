@@ -39,7 +39,7 @@ public:
 
   __declspec(property(get = get_postInstallMethod)) ::System::Action_1<::Zenject::DiContainer*>* postInstallMethod;
 
-  /// @brief Method Awake, addr 0x4abf4f8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4ad3c10, size 0x78, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Zenject::NoTransitionContext* New_ctor();
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__noScenesTransitionInstaller(::UnityW<::Zenject::NoTransitionInstaller> value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4abf578, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ad3c90, size 0x16c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4abf570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad3c88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_installMethod, addr 0x4abf418, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_installMethod, addr 0x4ad3b30, size 0x70, virtual false, abstract: false, final false
   inline ::System::Action_1<::Zenject::DiContainer*>* get_installMethod();
 
-  /// @brief Method get_postInstallMethod, addr 0x4abf488, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_postInstallMethod, addr 0x4ad3ba0, size 0x70, virtual false, abstract: false, final false
   inline ::System::Action_1<::Zenject::DiContainer*>* get_postInstallMethod();
 
 protected:
@@ -80,7 +80,7 @@ public:
   ::UnityW<::Zenject::NoTransitionInstaller> ____noScenesTransitionInstaller;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12479 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int32_t, int32_t, ByRef<bool>)>(&::System::DomainNameHelper::ParseCanonicalName)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x43974cc;
+  constexpr static std::size_t addrs = 0x43abbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>, uint16_t, ByRef<int32_t>, ByRef<bool>, bool)>(
     &::System::DomainNameHelper::IsValid)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x4397664;
+  constexpr static std::size_t addrs = 0x43abd7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>, uint16_t, ByRef<int32_t>, ByRef<bool>, bool)>(
     &::System::DomainNameHelper::IsValidByIri)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x4397894;
+  constexpr static std::size_t addrs = 0x43abfac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::cordl_internals::Ptr<char16_t>, int32_t, int32_t, ByRef<bool>, ByRef<bool>)>(
     &::System::DomainNameHelper::IdnEquivalent)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x4397a84;
+  constexpr static std::size_t addrs = 0x43ac19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::cordl_internals::Ptr<char16_t>, int32_t, int32_t, ByRef<bool>, ByRef<::StringW>)>(
     &::System::DomainNameHelper::IdnEquivalent)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x4397d10;
+  constexpr static std::size_t addrs = 0x43ac428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int32_t)>(&::System::DomainNameHelper::IsIdnAce)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4397f50;
+  constexpr static std::size_t addrs = 0x43ac668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>, int32_t)>(&::System::DomainNameHelper::IsIdnAce)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4397f04;
+  constexpr static std::size_t addrs = 0x43ac61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::cordl_internals::Ptr<char16_t>, int32_t, int32_t)>(
     &::System::DomainNameHelper::UnicodeEquivalent)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x4397fe8;
+  constexpr static std::size_t addrs = 0x43ac700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::cordl_internals::Ptr<char16_t>, int32_t, int32_t, ByRef<bool>, ByRef<bool>)>(
     &::System::DomainNameHelper::UnicodeEquivalent)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x4398104;
+  constexpr static std::size_t addrs = 0x43ac81c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t, ByRef<bool>)>(&::System::DomainNameHelper::IsASCIILetterOrDigit)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43977e4;
+  constexpr static std::size_t addrs = 0x43abefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t, ByRef<bool>)>(&::System::DomainNameHelper::IsValidDomainLabelCharacter)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4397830;
+  constexpr static std::size_t addrs = 0x43abf48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

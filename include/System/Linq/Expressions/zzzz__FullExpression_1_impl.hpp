@@ -15,7 +15,7 @@ template <typename TDelegate> constexpr ::StringW const& System::Linq::Expressio
 }
 template <typename TDelegate> constexpr void System::Linq::Expressions::FullExpression_1<TDelegate>::__cordl_internal_set__NameCore_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____NameCore_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____NameCore_k__BackingField, value);
 }
 template <typename TDelegate> constexpr bool& System::Linq::Expressions::FullExpression_1<TDelegate>::__cordl_internal_get__TailCallCore_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

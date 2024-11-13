@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlatformNetworkPlayerModel__CreatePartyConfig::*)()>(
     &::GlobalNamespace::__PlatformNetworkPlayerModel__CreatePartyConfig::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dfcad8;
+  constexpr static std::size_t addrs = 0x3e11168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* (
     ::GlobalNamespace::PlatformNetworkPlayerModel::*)()>(&::GlobalNamespace::PlatformNetworkPlayerModel::get_friends)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3dfcab0;
+  constexpr static std::size_t addrs = 0x3e11140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformNetworkPlayerModel*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformNetworkPlayerModel::*)()>(
     &::GlobalNamespace::PlatformNetworkPlayerModel::DestroyPartyConnection)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3dfcac0;
+  constexpr static std::size_t addrs = 0x3e11150;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformNetworkPlayerModel::*)()>(&::GlobalNamespace::PlatformNetworkPlayerModel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dfcaa8;
+  constexpr static std::size_t addrs = 0x3e11138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformNetworkPlayerModel*>::get(), ".ctor",

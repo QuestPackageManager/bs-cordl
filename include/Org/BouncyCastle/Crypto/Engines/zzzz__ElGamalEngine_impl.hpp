@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x231ba58;
+  constexpr static std::size_t addrs = 0x2326b00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::Init)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x231ba98;
+  constexpr static std::size_t addrs = 0x2326b40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::GetInputBlockSize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x231bd40;
+  constexpr static std::size_t addrs = 0x2326de8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::GetOutputBlockSize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x231bd80;
+  constexpr static std::size_t addrs = 0x2326e28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::ProcessBlock)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x231bdc0;
+  constexpr static std::size_t addrs = 0x2326e68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x231c2ec;
+  constexpr static std::size_t addrs = 0x2327394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::ElGamalEngine*>::get(),

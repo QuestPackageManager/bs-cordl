@@ -29,10 +29,10 @@ public:
 
   static inline ::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3b13cf8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b2916c, size 0x84, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b13d7c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b291f0, size 0x84, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::SpectrogramRowPropertyAnimator> const& __cordl_internal_get__spectrogram() const;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set__spectrogram(::UnityW<::GlobalNamespace::SpectrogramRowPropertyAnimator> value);
 
-  /// @brief Method .ctor, addr 0x3b13e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b29274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   ::UnityW<::GlobalNamespace::SpectrogramRowPropertyAnimator> ____spectrogram;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4263 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

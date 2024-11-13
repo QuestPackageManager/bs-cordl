@@ -66,18 +66,18 @@ public:
   __declspec(property(get = __cordl_internal_get_lastProcessedNode,
                       put = __cordl_internal_set_lastProcessedNode)) ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* lastProcessedNode;
 
-  /// @brief Method AddCallback, addr 0x3a70148, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method AddCallback, addr 0x3a83b70, size 0x2f0, virtual false, abstract: false, final false
   inline void AddCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
-  /// @brief Method CallCallbacks, addr 0x3a6f024, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CallCallbacks, addr 0x3a82a4c, size 0xcc, virtual false, abstract: false, final false
   inline void CallCallbacks(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
-  /// @brief Method CallCallbacks, addr 0x3a70438, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method CallCallbacks, addr 0x3a83e60, size 0x2f0, virtual false, abstract: false, final false
   inline void CallCallbacks(::System::Type* beatmapEventDataType, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   static inline ::GlobalNamespace::CallbacksInTime* New_ctor(float_t aheadTime);
 
-  /// @brief Method RemoveCallback, addr 0x3a6ec4c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method RemoveCallback, addr 0x3a82674, size 0x1ec, virtual false, abstract: false, final false
   inline void RemoveCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*& __cordl_internal_get__callbacks();
@@ -117,10 +117,10 @@ public:
 
   constexpr void __cordl_internal_set_lastProcessedNode(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* value);
 
-  /// @brief Method .ctor, addr 0x3a70070, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a83a98, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(float_t aheadTime);
 
-  /// @brief Method get_isEmpty, addr 0x3a6ee38, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x3a82860, size 0x8c, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
 protected:
@@ -154,7 +154,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* ____callbacks;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4053 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -47,10 +47,10 @@ public:
   /// @brief Field identifier, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_identifier, put = __cordl_internal_set_identifier)) ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* identifier;
 
-  /// @brief Method GetInstance, addr 0x22caec0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22d5f68, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x22caed8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22d5f80, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey* New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* id,
@@ -58,7 +58,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22cb090, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22d6138, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_encryptedKey();
@@ -73,16 +73,16 @@ public:
 
   constexpr void __cordl_internal_set_identifier(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x22cb054, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d60fc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* id, ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
-  /// @brief Method .ctor, addr 0x22caddc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d5e84, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_EncryptedKey, addr 0x22cb088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedKey, addr 0x22d6130, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedKey();
 
-  /// @brief Method get_Identifier, addr 0x22cb080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x22d6128, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* get_Identifier();
 
 protected:

@@ -71,7 +71,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLeaderboardPanelItem* New_ctor();
 
-  /// @brief Method SetData, addr 0x3b2dcc4, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b4315c, size 0x2c4, virtual false, abstract: false, final false
   inline void SetData(int32_t position, ::StringW playerName, int32_t score, bool failed, int32_t numberOfPlayers);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -152,10 +152,10 @@ public:
 
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b2df90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b43428, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x3b2da50, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x3b42ee8, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -212,7 +212,7 @@ public:
   int32_t ____prevNumberOfPlayers;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4398 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

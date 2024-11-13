@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRScreenFade___Fade_d__25::*)(int32_t)>(
     &::GlobalNamespace::__OVRScreenFade___Fade_d__25::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3fcd50c;
+  constexpr static std::size_t addrs = 0x3fe1b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRScreenFade___Fade_d__25::*)()>(
     &::GlobalNamespace::__OVRScreenFade___Fade_d__25::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fcd560;
+  constexpr static std::size_t addrs = 0x3fe1bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__OVRScreenFade___Fade_d__25::*)()>(
     &::GlobalNamespace::__OVRScreenFade___Fade_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3fcd564;
+  constexpr static std::size_t addrs = 0x3fe1bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__OVRScreenFade___Fade_d__25::*)()>(
     &::GlobalNamespace::__OVRScreenFade___Fade_d__25::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fcd678;
+  constexpr static std::size_t addrs = 0x3fe1d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRScreenFade___Fade_d__25::*)()>(
     &::GlobalNamespace::__OVRScreenFade___Fade_d__25::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3fcd680;
+  constexpr static std::size_t addrs = 0x3fe1d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__OVRScreenFade___Fade_d__25::*)()>(
     &::GlobalNamespace::__OVRScreenFade___Fade_d__25::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fcd6b8;
+  constexpr static std::size_t addrs = 0x3fe1d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRScreenFade> (*)()>(&::GlobalNamespace::OVRScreenFade::get_instance)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3fccba4;
+  constexpr static std::size_t addrs = 0x3fe1234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "get_instance",
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::OVRScreenFade*)>(&::GlobalNamespace::OVRScreenFade::set_instance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3fccbec;
+  constexpr static std::size_t addrs = 0x3fe127c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::get_currentAlpha)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3fccc38;
+  constexpr static std::size_t addrs = 0x3fe12c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "get_currentAlpha",
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::Start)> {
   constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x3fcccf0;
+  constexpr static std::size_t addrs = 0x3fe1380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "Start",
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::FadeIn)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3fcd188;
+  constexpr static std::size_t addrs = 0x3fe1818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "FadeIn",
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::FadeOut)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3fcd224;
+  constexpr static std::size_t addrs = 0x3fe18b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "FadeOut",
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)(int32_t)>(&::GlobalNamespace::OVRScreenFade::OnLevelFinishedLoading)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3fcd24c;
+  constexpr static std::size_t addrs = 0x3fe18dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::OnEnable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fcd274;
+  constexpr static std::size_t addrs = 0x3fe1904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "OnEnable",
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::OnDestroy)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3fcd28c;
+  constexpr static std::size_t addrs = 0x3fe191c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "OnDestroy",
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)(float_t)>(&::GlobalNamespace::OVRScreenFade::SetUIFade)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3fcd3e0;
+  constexpr static std::size_t addrs = 0x3fe1a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)(float_t)>(&::GlobalNamespace::OVRScreenFade::SetExplicitFade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fcd504;
+  constexpr static std::size_t addrs = 0x3fe1b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRScreenFade::*)(float_t, float_t)>(
     &::GlobalNamespace::OVRScreenFade::Fade)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3fcd1b0;
+  constexpr static std::size_t addrs = 0x3fe1840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::SetMaterialAlpha)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3fcd3fc;
+  constexpr static std::size_t addrs = 0x3fe1a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "SetMaterialAlpha",
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3fcd534;
+  constexpr static std::size_t addrs = 0x3fe1bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), ".ctor",

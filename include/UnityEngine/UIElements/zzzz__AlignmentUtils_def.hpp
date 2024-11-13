@@ -20,10 +20,10 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE AlignmentUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CeilToPixelGrid, addr 0x48f3ce0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CeilToPixelGrid, addr 0x49083f8, size 0x14, virtual false, abstract: false, final false
   static inline float_t CeilToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
-  /// @brief Method RoundToPixelGrid, addr 0x48f3cc4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RoundToPixelGrid, addr 0x49083dc, size 0x1c, virtual false, abstract: false, final false
   static inline float_t RoundToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
 protected:
@@ -41,7 +41,7 @@ public:
   AlignmentUtils(AlignmentUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5419 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

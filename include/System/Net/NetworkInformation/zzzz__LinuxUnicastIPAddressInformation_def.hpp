@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_address(::System::Net::IPAddress* value);
 
-  /// @brief Method .ctor, addr 0x4376228, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438a940, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* address);
 
-  /// @brief Method get_Address, addr 0x4376250, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Address, addr 0x438a968, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::IPAddress* get_Address();
 
 protected:
@@ -59,7 +59,7 @@ public:
   ::System::Net::IPAddress* ___address;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

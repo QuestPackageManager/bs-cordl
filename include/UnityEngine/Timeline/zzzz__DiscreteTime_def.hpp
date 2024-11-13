@@ -34,132 +34,132 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*();
 
-  /// @brief Method CompareTo, addr 0x47ad340, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x47c1a58, size 0x88, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method DoubleToDiscreteTime, addr 0x47ad0c0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DoubleToDiscreteTime, addr 0x47c17d8, size 0xa0, virtual false, abstract: false, final false
   static inline int64_t DoubleToDiscreteTime(double_t time);
 
-  /// @brief Method Equals, addr 0x47ad3d8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x47c1af0, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x47ad3c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x47c1ae0, size 0x10, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::Timeline::DiscreteTime other);
 
-  /// @brief Method FloatToDiscreteTime, addr 0x47ad1c8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FloatToDiscreteTime, addr 0x47c18e0, size 0xa0, virtual false, abstract: false, final false
   static inline int64_t FloatToDiscreteTime(float_t time);
 
-  /// @brief Method FromTicks, addr 0x47ad33c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromTicks, addr 0x47c1a54, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::DiscreteTime FromTicks(int64_t ticks);
 
-  /// @brief Method GetHashCode, addr 0x47ad62c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x47c1d44, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetNearestTick, addr 0x47ad784, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetNearestTick, addr 0x47c1e9c, size 0x5c, virtual false, abstract: false, final false
   static inline int64_t GetNearestTick(double_t time);
 
-  /// @brief Method GetTick, addr 0x47ad334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTick, addr 0x47c1a4c, size 0x8, virtual false, abstract: false, final false
   inline int64_t GetTick();
 
-  /// @brief Method IntToDiscreteTime, addr 0x47ad268, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IntToDiscreteTime, addr 0x47c1980, size 0x54, virtual false, abstract: false, final false
   static inline int64_t IntToDiscreteTime(int32_t time);
 
-  /// @brief Method Max, addr 0x479f6e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x47b3dfc, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::DiscreteTime Max(::UnityEngine::Timeline::DiscreteTime lhs, ::UnityEngine::Timeline::DiscreteTime rhs);
 
-  /// @brief Method Min, addr 0x47ad64c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x47c1d64, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::DiscreteTime Min(::UnityEngine::Timeline::DiscreteTime lhs, ::UnityEngine::Timeline::DiscreteTime rhs);
 
-  /// @brief Method OneTickAfter, addr 0x47ab5dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OneTickAfter, addr 0x47bfcf4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::DiscreteTime OneTickAfter();
 
-  /// @brief Method OneTickBefore, addr 0x479d87c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OneTickBefore, addr 0x47b1f94, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::DiscreteTime OneTickBefore();
 
-  /// @brief Method SnapToNearestTick, addr 0x47ad6b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SnapToNearestTick, addr 0x47c1dcc, size 0x70, virtual false, abstract: false, final false
   static inline double_t SnapToNearestTick(double_t time);
 
-  /// @brief Method SnapToNearestTick, addr 0x47ad724, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SnapToNearestTick, addr 0x47c1e3c, size 0x60, virtual false, abstract: false, final false
   static inline float_t SnapToNearestTick(float_t time);
 
-  /// @brief Method ToDouble, addr 0x47ad480, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x47c1b98, size 0x14, virtual false, abstract: false, final false
   static inline double_t ToDouble(int64_t time);
 
-  /// @brief Method ToFloat, addr 0x47ad494, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToFloat, addr 0x47c1bac, size 0x64, virtual false, abstract: false, final false
   static inline float_t ToFloat(int64_t time);
 
-  /// @brief Method ToString, addr 0x47ad60c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47c1d24, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x47ad2bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c19d4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(int32_t frame, double_t fps);
 
-  /// @brief Method .ctor, addr 0x47ad048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c1760, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::DiscreteTime time);
 
-  /// @brief Method .ctor, addr 0x47ad058, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c1770, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(double_t time);
 
-  /// @brief Method .ctor, addr 0x47ad160, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c1878, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(float_t time);
 
-  /// @brief Method .ctor, addr 0x479f61c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47b3d34, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t time);
 
-  /// @brief Method .ctor, addr 0x47ad050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c1768, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t time);
 
   static inline ::UnityEngine::Timeline::DiscreteTime getStaticF_kMaxTime();
 
-  /// @brief Method get_tickValue, addr 0x47ad03c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_tickValue, addr 0x47c1754, size 0xc, virtual false, abstract: false, final false
   static inline double_t get_tickValue();
 
   /// @brief Convert to "::System::IComparable"
   constexpr ::System::IComparable* i___System__IComparable();
 
-  /// @brief Method op_Addition, addr 0x47ad604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x47c1d1c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::DiscreteTime op_Addition(::UnityEngine::Timeline::DiscreteTime lhs, ::UnityEngine::Timeline::DiscreteTime rhs);
 
-  /// @brief Method op_Equality, addr 0x47ad570, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x47c1c88, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Timeline::DiscreteTime lhs, ::UnityEngine::Timeline::DiscreteTime rhs);
 
-  /// @brief Method op_Explicit, addr 0x479d99c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x47b20b4, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::DiscreteTime op_Explicit___UnityEngine__Timeline__DiscreteTime(double_t time);
 
-  /// @brief Method op_Explicit, addr 0x47ad550, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x47c1c68, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::DiscreteTime op_Explicit___UnityEngine__Timeline__DiscreteTime(float_t time);
 
-  /// @brief Method op_Explicit, addr 0x47ad56c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x47c1c84, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::DiscreteTime op_Explicit___UnityEngine__Timeline__DiscreteTime(int64_t time);
 
-  /// @brief Method op_Explicit, addr 0x479d888, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x47b1fa0, size 0x60, virtual false, abstract: false, final false
   static inline double_t op_Explicit_double_t(::UnityEngine::Timeline::DiscreteTime b);
 
-  /// @brief Method op_Explicit, addr 0x47ad4f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x47c1c10, size 0x54, virtual false, abstract: false, final false
   static inline float_t op_Explicit_float_t(::UnityEngine::Timeline::DiscreteTime b);
 
-  /// @brief Method op_Explicit, addr 0x47ad54c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x47c1c64, size 0x4, virtual false, abstract: false, final false
   static inline int64_t op_Explicit_int64_t(::UnityEngine::Timeline::DiscreteTime b);
 
-  /// @brief Method op_GreaterThan, addr 0x47ad5e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x47c1cf8, size 0xc, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::UnityEngine::Timeline::DiscreteTime lhs, ::UnityEngine::Timeline::DiscreteTime rhs);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x47ad5f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x47c1d10, size 0xc, virtual false, abstract: false, final false
   static inline bool op_GreaterThanOrEqual(::UnityEngine::Timeline::DiscreteTime lhs, ::UnityEngine::Timeline::DiscreteTime rhs);
 
-  /// @brief Method op_Implicit, addr 0x479d850, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x47b1f68, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::DiscreteTime op_Implicit___UnityEngine__Timeline__DiscreteTime(int32_t time);
 
-  /// @brief Method op_Inequality, addr 0x47ad57c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x47c1c94, size 0x64, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Timeline::DiscreteTime lhs, ::UnityEngine::Timeline::DiscreteTime rhs);
 
-  /// @brief Method op_LessThan, addr 0x47ad5ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x47c1d04, size 0xc, virtual false, abstract: false, final false
   static inline bool op_LessThan(::UnityEngine::Timeline::DiscreteTime lhs, ::UnityEngine::Timeline::DiscreteTime rhs);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x479d870, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x47b1f88, size 0xc, virtual false, abstract: false, final false
   static inline bool op_LessThanOrEqual(::UnityEngine::Timeline::DiscreteTime lhs, ::UnityEngine::Timeline::DiscreteTime rhs);
 
-  /// @brief Method op_Subtraction, addr 0x47a2114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x47b682c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::DiscreteTime op_Subtraction(::UnityEngine::Timeline::DiscreteTime lhs, ::UnityEngine::Timeline::DiscreteTime rhs);
 
   static inline void setStaticF_kMaxTime(::UnityEngine::Timeline::DiscreteTime value);
@@ -175,7 +175,7 @@ public:
   int64_t m_DiscreteTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15799 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

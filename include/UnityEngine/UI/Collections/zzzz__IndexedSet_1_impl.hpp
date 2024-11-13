@@ -55,7 +55,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename T> constexpr void UnityEngine::UI::Collections::IndexedSet_1<T>::__cordl_internal_set_m_List(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_List)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_List, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::Dictionary_2<T, int32_t>*& UnityEngine::UI::Collections::IndexedSet_1<T>::__cordl_internal_get_m_Dictionary() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -69,7 +69,7 @@ UnityEngine::UI::Collections::IndexedSet_1<T>::__cordl_internal_get_m_Dictionary
 }
 template <typename T> constexpr void UnityEngine::UI::Collections::IndexedSet_1<T>::__cordl_internal_set_m_Dictionary(::System::Collections::Generic::Dictionary_2<T, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Dictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Dictionary, value);
 }
 template <typename T> constexpr int32_t& UnityEngine::UI::Collections::IndexedSet_1<T>::__cordl_internal_get_m_EnabledObjectCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

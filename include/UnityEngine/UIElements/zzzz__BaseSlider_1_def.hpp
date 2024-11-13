@@ -103,7 +103,7 @@ public:
   __BaseSlider_1__UxmlTraits(__BaseSlider_1__UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5479 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -174,7 +174,7 @@ public:
   static ::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType> const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5480 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -700,7 +700,7 @@ public:
   bool ___m_Inverted;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

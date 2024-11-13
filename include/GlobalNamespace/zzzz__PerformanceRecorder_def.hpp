@@ -87,24 +87,24 @@ public:
 
   __declspec(property(get = get_settingsManager, put = set_settingsManager)) ::GlobalNamespace::SettingsManager* settingsManager;
 
-  /// @brief Method Awake, addr 0x3ab0e60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ac49fc, size 0xc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GenerateReports, addr 0x3ab0edc, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method GenerateReports, addr 0x3ac4a78, size 0x308, virtual false, abstract: false, final false
   inline void GenerateReports();
 
   static inline ::GlobalNamespace::PerformanceRecorder* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3ab0ed8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3ac4a74, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3ab0e6c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3ac4a08, size 0x6c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x3ab11e4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ac4d80, size 0x150, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <GenerateReports>g__WriteFileReport|28_0, addr 0x3ab18d0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <GenerateReports>g__WriteFileReport|28_0, addr 0x3ac546c, size 0x34, virtual false, abstract: false, final false
   static inline void _GenerateReports_g__WriteFileReport_28_0(::StringW path, ::StringW contents);
 
   constexpr ::GlobalNamespace::PerformanceConfigurationChecks*& __cordl_internal_get__configChecks();
@@ -161,37 +161,37 @@ public:
 
   constexpr void __cordl_internal_set_minFpsWindow(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ab1904, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac54a0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gamePause, addr 0x3ab0e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gamePause, addr 0x3ac49ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IGamePause* get_gamePause();
 
-  /// @brief Method get_gameplayModifiers, addr 0x3ab0e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x3ac49ec, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifierMask get_gameplayModifiers();
 
-  /// @brief Method get_playerSpecificSettings, addr 0x3ab0e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSpecificSettings, addr 0x3ac49dc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
-  /// @brief Method get_sceneSetupData, addr 0x3ab0e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneSetupData, addr 0x3ac49bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_sceneSetupData();
 
-  /// @brief Method get_settingsManager, addr 0x3ab0e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_settingsManager, addr 0x3ac49cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SettingsManager* get_settingsManager();
 
-  /// @brief Method set_gamePause, addr 0x3ab0e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gamePause, addr 0x3ac49b4, size 0x8, virtual false, abstract: false, final false
   inline void set_gamePause(::GlobalNamespace::IGamePause* value);
 
-  /// @brief Method set_gameplayModifiers, addr 0x3ab0e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayModifiers, addr 0x3ac49f4, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifierMask value);
 
-  /// @brief Method set_playerSpecificSettings, addr 0x3ab0e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerSpecificSettings, addr 0x3ac49e4, size 0x8, virtual false, abstract: false, final false
   inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method set_sceneSetupData, addr 0x3ab0e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sceneSetupData, addr 0x3ac49c4, size 0x8, virtual false, abstract: false, final false
   inline void set_sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method set_settingsManager, addr 0x3ab0e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_settingsManager, addr 0x3ac49d4, size 0x8, virtual false, abstract: false, final false
   inline void set_settingsManager(::GlobalNamespace::SettingsManager* value);
 
 protected:
@@ -236,7 +236,7 @@ public:
   ::GlobalNamespace::PerformanceConfigurationStats* ____configStats;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5102 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

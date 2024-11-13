@@ -108,42 +108,42 @@ public:
   __declspec(property(get = __cordl_internal_get_updatedBindings,
                       put = __cordl_internal_set_updatedBindings)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* updatedBindings;
 
-  /// @brief Method CurrentTime, addr 0x48f6414, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CurrentTime, addr 0x490ab2c, size 0x50, virtual false, abstract: false, final false
   static inline int64_t CurrentTime();
 
-  /// @brief Method GetAdditionalBinding, addr 0x48f5f50, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetAdditionalBinding, addr 0x490a668, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IBinding* GetAdditionalBinding(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetBindingObjectFromElement, addr 0x48f5e18, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetBindingObjectFromElement, addr 0x490a530, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IBinding* GetBindingObjectFromElement(::UnityEngine::UIElements::VisualElement* ve);
 
   static inline ::UnityEngine::UIElements::VisualTreeBindingsUpdater* New_ctor();
 
-  /// @brief Method OnHierarchyChange, addr 0x48f63fc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnHierarchyChange, addr 0x490ab14, size 0x18, virtual true, abstract: false, final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type);
 
-  /// @brief Method OnVersionChanged, addr 0x48f6304, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x490aa1c, size 0xf8, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method PerformTrackingOperations, addr 0x48f6464, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method PerformTrackingOperations, addr 0x490ab7c, size 0x288, virtual false, abstract: false, final false
   inline void PerformTrackingOperations();
 
-  /// @brief Method StartTracking, addr 0x48f5fd8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StartTracking, addr 0x490a6f0, size 0x80, virtual false, abstract: false, final false
   inline void StartTracking(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StartTrackingRecursive, addr 0x48f60e0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method StartTrackingRecursive, addr 0x490a7f8, size 0x118, virtual false, abstract: false, final false
   inline void StartTrackingRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTracking, addr 0x48f6058, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StopTracking, addr 0x490a770, size 0x80, virtual false, abstract: false, final false
   inline void StopTracking(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTrackingRecursive, addr 0x48f61f8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method StopTrackingRecursive, addr 0x490a910, size 0x10c, virtual false, abstract: false, final false
   inline void StopTrackingRecursive(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Update, addr 0x48f66ec, size 0x5b8, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x490ae04, size 0x5b8, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateBindings, addr 0x48f6ca4, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method UpdateBindings, addr 0x490b3bc, size 0x530, virtual false, abstract: false, final false
   inline void UpdateBindings();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*& __cordl_internal_get__temporaryObjectCache_k__BackingField();
@@ -189,7 +189,7 @@ public:
 
   constexpr void __cordl_internal_set_updatedBindings(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* value);
 
-  /// @brief Method .ctor, addr 0x48f71d4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x490b8ec, size 0x154, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__disableBindingsThrottling_k__BackingField();
@@ -208,13 +208,13 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_disableBindingsThrottling, addr 0x48f5dc0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_disableBindingsThrottling, addr 0x490a4d8, size 0x58, virtual false, abstract: false, final false
   static inline bool get_disableBindingsThrottling();
 
-  /// @brief Method get_profilerMarker, addr 0x48f5d68, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x490a480, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_temporaryObjectCache, addr 0x48f60d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_temporaryObjectCache, addr 0x490a7f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* get_temporaryObjectCache();
 
   static inline void setStaticF__disableBindingsThrottling_k__BackingField(bool value);
@@ -269,7 +269,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBinding*>* ___updatedBindings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

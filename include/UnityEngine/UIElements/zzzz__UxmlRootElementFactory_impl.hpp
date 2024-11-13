@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UxmlRootElementFactory::*)()>(
     &::UnityEngine::UIElements::UxmlRootElementFactory::get_uxmlName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a25fe8;
+  constexpr static std::size_t addrs = 0x4a3a700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UxmlRootElementFactory::*)()>(
     &::UnityEngine::UIElements::UxmlRootElementFactory::get_uxmlQualifiedName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a26028;
+  constexpr static std::size_t addrs = 0x4a3a740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::UxmlRootElementFactory::*)(::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::UxmlRootElementFactory::Create)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2609c;
+  constexpr static std::size_t addrs = 0x4a3a7b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlRootElementFactory::*)()>(
     &::UnityEngine::UIElements::UxmlRootElementFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a260a4;
+  constexpr static std::size_t addrs = 0x4a3a7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlRootElementFactory*>::get(),

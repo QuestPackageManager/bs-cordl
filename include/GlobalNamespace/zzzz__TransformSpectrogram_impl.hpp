@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TransformSpectrogram::*)()>(&::GlobalNamespace::TransformSpectrogram::Awake)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3b24940;
+  constexpr static std::size_t addrs = 0x3b39d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(), "Awake",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TransformSpectrogram::*)()>(&::GlobalNamespace::TransformSpectrogram::Update)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x3b24ac8;
+  constexpr static std::size_t addrs = 0x3b39f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(), "Update",
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TransformSpectrogram::*)()>(&::GlobalNamespace::TransformSpectrogram::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b24d30;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x3b3a170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TransformSpectrogram*>::get(), ".ctor",

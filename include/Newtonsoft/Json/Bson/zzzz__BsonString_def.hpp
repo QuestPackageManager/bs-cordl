@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set__IncludeLength_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3edd068, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ef16f8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, bool includeLength);
 
-  /// @brief Method get_ByteCount, addr 0x3edd44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ByteCount, addr 0x3ef1adc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ByteCount();
 
-  /// @brief Method get_IncludeLength, addr 0x3edd45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeLength, addr 0x3ef1aec, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeLength();
 
-  /// @brief Method set_ByteCount, addr 0x3edd454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ByteCount, addr 0x3ef1ae4, size 0x8, virtual false, abstract: false, final false
   inline void set_ByteCount(int32_t value);
 
 protected:
@@ -80,7 +80,7 @@ public:
   bool ____IncludeLength_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10487 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

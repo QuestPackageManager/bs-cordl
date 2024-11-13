@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElement::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::TrailElement::SetData)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4011e90;
+  constexpr static std::size_t addrs = 0x40265a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElement::*)(::GlobalNamespace::TrailElement*)>(
     &::GlobalNamespace::TrailElement::CopyFrom)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4011ed0;
+  constexpr static std::size_t addrs = 0x40265e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElement::*)(float_t)>(&::GlobalNamespace::TrailElement::SetDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4011f10;
+  constexpr static std::size_t addrs = 0x4026628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElement::*)(::GlobalNamespace::TrailElement*)>(
     &::GlobalNamespace::TrailElement::UpdateLocalDistance)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4011f18;
+  constexpr static std::size_t addrs = 0x4026630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElement::*)()>(&::GlobalNamespace::TrailElement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4011fc0;
+  constexpr static std::size_t addrs = 0x40266d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElement*>::get(), ".ctor",

@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* (*)()>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22aa528;
+  constexpr static std::size_t addrs = 0x22b55d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SyncStateId (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::get_baseId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22aa568;
+  constexpr static std::size_t addrs = 0x22b5610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)(::GlobalNamespace::SyncStateId)>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::set_baseId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22aa570;
+  constexpr static std::size_t addrs = 0x22b5618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::get_timeOffsetMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22aa578;
+  constexpr static std::size_t addrs = 0x22b5620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)(int32_t)>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::set_timeOffsetMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22aa580;
+  constexpr static std::size_t addrs = 0x22b5628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::get_delta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22aa588;
+  constexpr static std::size_t addrs = 0x22b5630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)(::GlobalNamespace::StandardScoreSyncState)>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::set_delta)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22aa59c;
+  constexpr static std::size_t addrs = 0x22b5644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22aa5b0;
+  constexpr static std::size_t addrs = 0x22b5658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22aa660;
+  constexpr static std::size_t addrs = 0x22b5708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::Release)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22aa6cc;
+  constexpr static std::size_t addrs = 0x22b5774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22aa778;
+  constexpr static std::size_t addrs = 0x22b5820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

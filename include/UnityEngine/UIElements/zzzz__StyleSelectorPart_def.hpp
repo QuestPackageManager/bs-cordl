@@ -31,25 +31,25 @@ public:
 
   __declspec(property(get = get_value)) ::StringW value;
 
-  /// @brief Method CreateClass, addr 0x4a1216c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateClass, addr 0x4a26884, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreateClass(::StringW className);
 
-  /// @brief Method CreateId, addr 0x4a12184, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateId, addr 0x4a2689c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreateId(::StringW Id);
 
-  /// @brief Method CreatePredicate, addr 0x4a1219c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreatePredicate, addr 0x4a268b4, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreatePredicate(::System::Object* predicate);
 
-  /// @brief Method ToString, addr 0x4a12054, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a2676c, size 0x110, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_type, addr 0x4a11690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x4a25da8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSelectorType get_type();
 
-  /// @brief Method get_value, addr 0x4a11698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x4a25db0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_value();
 
-  /// @brief Method set_type, addr 0x4a12164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x4a2687c, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::StyleSelectorType value);
 
   // Ctor Parameters []
@@ -70,7 +70,7 @@ public:
   ::System::Object* tempData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6147 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

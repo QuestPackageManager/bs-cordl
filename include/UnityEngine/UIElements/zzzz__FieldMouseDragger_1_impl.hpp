@@ -23,7 +23,7 @@ constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IValueF
 }
 template <typename T> constexpr void UnityEngine::UIElements::FieldMouseDragger_1<T>::__cordl_internal_set_m_DrivenField(::UnityEngine::UIElements::IValueField_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DrivenField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_DrivenField, value);
 }
 template <typename T> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::FieldMouseDragger_1<T>::__cordl_internal_get_m_DragElement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -36,7 +36,7 @@ constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualE
 }
 template <typename T> constexpr void UnityEngine::UIElements::FieldMouseDragger_1<T>::__cordl_internal_set_m_DragElement(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DragElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_DragElement, value);
 }
 template <typename T> constexpr ::UnityEngine::Rect& UnityEngine::UIElements::FieldMouseDragger_1<T>::__cordl_internal_get_m_DragHotZone() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -72,7 +72,7 @@ template <typename T> constexpr T const& UnityEngine::UIElements::FieldMouseDrag
 }
 template <typename T> constexpr void UnityEngine::UIElements::FieldMouseDragger_1<T>::__cordl_internal_set__startValue_k__BackingField(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____startValue_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____startValue_k__BackingField, value);
 }
 template <typename T> inline ::UnityEngine::UIElements::FieldMouseDragger_1<T>* UnityEngine::UIElements::FieldMouseDragger_1<T>::New_ctor(::UnityEngine::UIElements::IValueField_1<T>* drivenField) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::FieldMouseDragger_1<T>*>(drivenField));

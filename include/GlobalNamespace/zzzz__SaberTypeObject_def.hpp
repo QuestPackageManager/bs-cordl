@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method .ctor, addr 0x3b70a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b86584, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_saberType, addr 0x3b70a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_saberType, addr 0x3b8657c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberType get_saberType();
 
 protected:
@@ -60,7 +60,7 @@ public:
   ::GlobalNamespace::SaberType ____saberType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4646 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

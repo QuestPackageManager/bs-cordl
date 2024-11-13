@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_Size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x443183c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4445f54, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer);
 
-  /// @brief Method .ctor, addr 0x4431790, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4445ea8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer);
 
 protected:
@@ -82,7 +82,7 @@ public:
   int32_t ___Size;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9591 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

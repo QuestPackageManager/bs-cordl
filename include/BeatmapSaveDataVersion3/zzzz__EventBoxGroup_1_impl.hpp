@@ -15,7 +15,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Co
 }
 template <typename T> constexpr void BeatmapSaveDataVersion3::EventBoxGroup_1<T>::__cordl_internal_set_e(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___e)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___e, value);
 }
 template <typename T> inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::EventBox*>* BeatmapSaveDataVersion3::EventBoxGroup_1<T>::get_baseEventBoxes() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

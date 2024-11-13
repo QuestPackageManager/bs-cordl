@@ -188,16 +188,16 @@ public:
 
   static inline ::GlobalNamespace::__MainSystemInit____c* New_ctor();
 
-  /// @brief Method <InstallBindings>b__43_0, addr 0x26d9360, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__43_0, addr 0x26e4edc, size 0x70, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* _InstallBindings_b__43_0(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method <InstallBindings>b__43_1, addr 0x26d93d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__43_1, addr 0x26e4f4c, size 0x70, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel* _InstallBindings_b__43_1(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method <InstallPlatformLeaderboardsModel>b__46_0, addr 0x26d9440, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <InstallPlatformLeaderboardsModel>b__46_0, addr 0x26e4fbc, size 0x78, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LeaderboardIdsModel* _InstallPlatformLeaderboardsModel_b__46_0(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method .ctor, addr 0x26d9358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e4ed4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__MainSystemInit____c* getStaticF___9();
@@ -235,7 +235,7 @@ public:
   __MainSystemInit____c(__MainSystemInit____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17873 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -409,25 +409,25 @@ public:
   /// @brief Field _voipManagerPrefab, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__voipManagerPrefab, put = __cordl_internal_set__voipManagerPrefab)) ::UnityW<::GlobalNamespace::VoipManager> _voipManagerPrefab;
 
-  /// @brief Method Init, addr 0x26d79cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26e3548, size 0x74, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SettingsApplicatorSO* settingsApplicator);
 
-  /// @brief Method InstallBindings, addr 0x26d7a40, size 0x1490, virtual false, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26e35bc, size 0x1490, virtual false, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container, bool isRunningFromTests);
 
-  /// @brief Method InstallOculusDestinationBindings, addr 0x26d8ed0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InstallOculusDestinationBindings, addr 0x26e4a4c, size 0xf8, virtual false, abstract: false, final false
   inline void InstallOculusDestinationBindings(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallPS4Bindings, addr 0x26d92e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InstallPS4Bindings, addr 0x26e4e60, size 0x4, virtual false, abstract: false, final false
   inline void InstallPS4Bindings(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallPS5Bindings, addr 0x26d92e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InstallPS5Bindings, addr 0x26e4e5c, size 0x4, virtual false, abstract: false, final false
   inline void InstallPS5Bindings(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallPlatformLeaderboardsModel, addr 0x26d90b8, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method InstallPlatformLeaderboardsModel, addr 0x26e4c34, size 0x228, virtual false, abstract: false, final false
   inline void InstallPlatformLeaderboardsModel(::Zenject::DiContainer* container, bool isRunningFromTests);
 
-  /// @brief Method InstallRichPresence, addr 0x26d8fc8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method InstallRichPresence, addr 0x26e4b44, size 0xf0, virtual false, abstract: false, final false
   inline void InstallRichPresence(::Zenject::DiContainer* container, bool isRunningFromTests);
 
   static inline ::GlobalNamespace::MainSystemInit* New_ctor();
@@ -684,7 +684,7 @@ public:
 
   constexpr void __cordl_internal_set__voipManagerPrefab(::UnityW<::GlobalNamespace::VoipManager> value);
 
-  /// @brief Method .ctor, addr 0x26d92e8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e4e64, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -828,7 +828,7 @@ public:
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17874 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

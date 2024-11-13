@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserIdPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::UserIdPacket::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26055d0;
+  constexpr static std::size_t addrs = 0x2610678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserIdPacket::*)(::StringW)>(&::Org::BouncyCastle::Bcpg::UserIdPacket::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x260b8ec;
+  constexpr static std::size_t addrs = 0x2616994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Bcpg::UserIdPacket::*)()>(&::Org::BouncyCastle::Bcpg::UserIdPacket::GetId)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x260b938;
+  constexpr static std::size_t addrs = 0x26169e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::UserIdPacket*>::get(), "GetId",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserIdPacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::UserIdPacket::Encode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x260b974;
+  constexpr static std::size_t addrs = 0x2616a1c;
 
   inline static ::MethodInfo const* methodInfo() {
 

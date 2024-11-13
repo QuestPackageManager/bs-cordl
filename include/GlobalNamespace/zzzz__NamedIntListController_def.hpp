@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3bb27fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc6e8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedText, addr 0x3bb27cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_localizedText, addr 0x3bc6e5c, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
 
 protected:
@@ -86,7 +86,7 @@ public:
   int32_t ___value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18845 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -123,21 +123,21 @@ public:
   /// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
   constexpr operator ::HMUI::IValueChanger_1<int32_t>*() noexcept;
 
-  /// @brief Method ApplyValue, addr 0x3bb2778, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3bc6e08, size 0x20, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x3bb2704, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x3bc6d94, size 0x74, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method InitValues, addr 0x3bb2694, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InitValues, addr 0x3bc6d24, size 0x38, virtual false, abstract: false, final false
   inline void InitValues(::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> values);
 
   static inline ::GlobalNamespace::NamedIntListController* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3bb26cc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3bc6d5c, size 0x38, virtual false, abstract: false, final false
   inline void SetValue(int32_t value);
 
-  /// @brief Method TextForValue, addr 0x3bb2798, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x3bc6e28, size 0x34, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> const&
@@ -160,16 +160,16 @@ public:
 
   constexpr void __cordl_internal_set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3bb27f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc6e84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueChangedEvent, addr 0x3bb2534, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_valueChangedEvent, addr 0x3bc6bc4, size 0xb0, virtual true, abstract: false, final true
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
   constexpr ::HMUI::IValueChanger_1<int32_t>* i___HMUI__IValueChanger_1_int32_t_() noexcept;
 
-  /// @brief Method remove_valueChangedEvent, addr 0x3bb25e4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_valueChangedEvent, addr 0x3bc6c74, size 0xb0, virtual true, abstract: false, final true
   inline void remove_valueChangedEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -196,7 +196,7 @@ public:
   ::System::Action_1<int32_t>* ___valueChangedEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18846 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

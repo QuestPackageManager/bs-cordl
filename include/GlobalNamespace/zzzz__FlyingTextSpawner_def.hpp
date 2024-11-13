@@ -64,12 +64,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x3b0efe0, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x3b24430, size 0x11c, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingTextSpawner* New_ctor();
 
-  /// @brief Method SpawnText, addr 0x3b0ee00, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method SpawnText, addr 0x3b24250, size 0x1e0, virtual false, abstract: false, final false
   inline void SpawnText(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation, ::StringW text);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set__xSpread(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b0f0fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2454c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
@@ -165,7 +165,7 @@ public:
   ::GlobalNamespace::__FlyingTextEffect__Pool* ____flyingTextEffectPool;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4234 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

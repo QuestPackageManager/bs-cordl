@@ -110,7 +110,7 @@ public:
   T _2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17757 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -276,7 +276,7 @@ public:
   int32_t ____i_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17756 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

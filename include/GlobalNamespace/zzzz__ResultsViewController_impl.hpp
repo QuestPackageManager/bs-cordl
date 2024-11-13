@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33::*)(int32_t)>(
     &::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3af91e8;
+  constexpr static std::size_t addrs = 0x3b0dc08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33::*)()>(
     &::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3af92a8;
+  constexpr static std::size_t addrs = 0x3b0dcc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33::*)()>(
     &::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33::MoveNext)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3af92ac;
+  constexpr static std::size_t addrs = 0x3b0dccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33::*)()>(
     &::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af9364;
+  constexpr static std::size_t addrs = 0x3b0dd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33::*)()>(
     &::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3af936c;
+  constexpr static std::size_t addrs = 0x3b0dd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33::*)()>(
     &::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af93a4;
+  constexpr static std::size_t addrs = 0x3b0ddc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*)>(&::GlobalNamespace::ResultsViewController::add_continueButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af8870;
+  constexpr static std::size_t addrs = 0x3b0d290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*)>(&::GlobalNamespace::ResultsViewController::remove_continueButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af8920;
+  constexpr static std::size_t addrs = 0x3b0d340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*)>(&::GlobalNamespace::ResultsViewController::add_restartButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af89d0;
+  constexpr static std::size_t addrs = 0x3b0d3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*)>(&::GlobalNamespace::ResultsViewController::remove_restartButtonPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af8a80;
+  constexpr static std::size_t addrs = 0x3b0d4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ResultsViewController::*)()>(&::GlobalNamespace::ResultsViewController::get_practice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af8b30;
+  constexpr static std::size_t addrs = 0x3b0d550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(), "get_practice",
@@ -307,7 +307,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IReadonlyBeatmapData*, ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, bool, bool)>(
     &::GlobalNamespace::ResultsViewController::Init)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3af8b38;
+  constexpr static std::size_t addrs = 0x3b0d558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ResultsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3af8b60;
+  constexpr static std::size_t addrs = 0x3b0d580;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(bool, bool)>(
     &::GlobalNamespace::ResultsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3af9148;
+  constexpr static std::size_t addrs = 0x3b0db68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ResultsViewController::*)(float_t)>(
     &::GlobalNamespace::ResultsViewController::StartFireworksAfterDelay)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3af9004;
+  constexpr static std::size_t addrs = 0x3b0da24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)()>(&::GlobalNamespace::ResultsViewController::SetDataToUI)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x3af8d04;
+  constexpr static std::size_t addrs = 0x3b0d724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(), "SetDataToUI",
@@ -384,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)()>(
     &::GlobalNamespace::ResultsViewController::ContinueButtonPressed)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3af9210;
+  constexpr static std::size_t addrs = 0x3b0dc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(),
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)()>(
     &::GlobalNamespace::ResultsViewController::RestartButtonPressed)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3af9258;
+  constexpr static std::size_t addrs = 0x3b0dc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(),
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)(::GlobalNamespace::MenuDestination*)>(
     &::GlobalNamespace::ResultsViewController::ProcessMenuDestinationRequest)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3af9074;
+  constexpr static std::size_t addrs = 0x3b0da94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -426,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsViewController::*)()>(&::GlobalNamespace::ResultsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af92a0;
+  constexpr static std::size_t addrs = 0x3b0dcc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsViewController*>::get(), ".ctor",

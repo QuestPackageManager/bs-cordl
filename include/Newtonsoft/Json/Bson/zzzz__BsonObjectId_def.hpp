@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3edb268, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eef8f8, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_Value, addr 0x3edb260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3eef8f0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Value();
 
 protected:
@@ -58,7 +58,7 @@ public:
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____Value_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10477 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

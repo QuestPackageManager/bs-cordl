@@ -58,10 +58,10 @@ public:
 
   static inline ::GlobalNamespace::__CustomTweenBehaviour____c* New_ctor();
 
-  /// @brief Method <OnBehaviourPlay>b__21_0, addr 0x3ac0504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <OnBehaviourPlay>b__21_0, addr 0x3ad40a4, size 0x8, virtual false, abstract: false, final false
   inline float_t _OnBehaviourPlay_b__21_0(int32_t i);
 
-  /// @brief Method .ctor, addr 0x3ac04fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad409c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__CustomTweenBehaviour____c* getStaticF___9();
@@ -87,7 +87,7 @@ public:
   __CustomTweenBehaviour____c(__CustomTweenBehaviour____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -162,16 +162,16 @@ public:
 
   static inline ::GlobalNamespace::CustomTweenBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPlay, addr 0x3ac02a4, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x3ad3e44, size 0x1e4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x3abfc7c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x3ad381c, size 0x13c, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x3ac01a0, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x3ad3d40, size 0x104, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x3abfdb8, size 0x3e8, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3ad3958, size 0x3e8, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr float_t const& __cordl_internal_get__duration() const;
@@ -282,7 +282,7 @@ public:
 
   constexpr void __cordl_internal_set_startLocationCurrentPosition(bool value);
 
-  /// @brief Method .ctor, addr 0x3ac0488, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad4028, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -354,7 +354,7 @@ public:
   ::ArrayW<float_t, ::Array<float_t>*> ____randomizedDuration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

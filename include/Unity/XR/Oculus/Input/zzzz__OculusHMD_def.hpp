@@ -169,7 +169,7 @@ public:
 
   __declspec(property(get = get_userPresence, put = set_userPresence)) ::UnityEngine::InputSystem::Controls::ButtonControl* userPresence;
 
-  /// @brief Method FinishSetup, addr 0x47c0958, size 0x440, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x47d5070, size 0x440, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusHMD* New_ctor();
@@ -312,145 +312,145 @@ public:
 
   constexpr void __cordl_internal_set__userPresence_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x47c0d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d54b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_centerEyeAcceleration, addr 0x47c0938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeAcceleration, addr 0x47d5050, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyeAcceleration();
 
-  /// @brief Method get_centerEyeAngularAcceleration, addr 0x47c0948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeAngularAcceleration, addr 0x47d5060, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyeAngularAcceleration();
 
-  /// @brief Method get_centerEyeAngularVelocity, addr 0x47c0928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeAngularVelocity, addr 0x47d5040, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyeAngularVelocity();
 
-  /// @brief Method get_centerEyePosition, addr 0x47c0908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyePosition, addr 0x47d5020, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyePosition();
 
-  /// @brief Method get_centerEyeRotation, addr 0x47c0918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeRotation, addr 0x47d5030, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_centerEyeRotation();
 
-  /// @brief Method get_deviceAcceleration, addr 0x47c0848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAcceleration, addr 0x47d4f60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAcceleration();
 
-  /// @brief Method get_deviceAngularAcceleration, addr 0x47c0858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAngularAcceleration, addr 0x47d4f70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularAcceleration();
 
-  /// @brief Method get_deviceAngularVelocity, addr 0x47c0838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAngularVelocity, addr 0x47d4f50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
-  /// @brief Method get_devicePosition, addr 0x47c0818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_devicePosition, addr 0x47d4f30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
 
-  /// @brief Method get_deviceRotation, addr 0x47c0828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceRotation, addr 0x47d4f40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
 
-  /// @brief Method get_isTracked, addr 0x47c0808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x47d4f20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
-  /// @brief Method get_leftEyeAcceleration, addr 0x47c0898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeAcceleration, addr 0x47d4fb0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyeAcceleration();
 
-  /// @brief Method get_leftEyeAngularAcceleration, addr 0x47c08a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeAngularAcceleration, addr 0x47d4fc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyeAngularAcceleration();
 
-  /// @brief Method get_leftEyeAngularVelocity, addr 0x47c0888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeAngularVelocity, addr 0x47d4fa0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyeAngularVelocity();
 
-  /// @brief Method get_leftEyePosition, addr 0x47c0868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyePosition, addr 0x47d4f80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyePosition();
 
-  /// @brief Method get_leftEyeRotation, addr 0x47c0878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeRotation, addr 0x47d4f90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_leftEyeRotation();
 
-  /// @brief Method get_rightEyeAcceleration, addr 0x47c08e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeAcceleration, addr 0x47d5000, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyeAcceleration();
 
-  /// @brief Method get_rightEyeAngularAcceleration, addr 0x47c08f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeAngularAcceleration, addr 0x47d5010, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyeAngularAcceleration();
 
-  /// @brief Method get_rightEyeAngularVelocity, addr 0x47c08d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeAngularVelocity, addr 0x47d4ff0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyeAngularVelocity();
 
-  /// @brief Method get_rightEyePosition, addr 0x47c08b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyePosition, addr 0x47d4fd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyePosition();
 
-  /// @brief Method get_rightEyeRotation, addr 0x47c08c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeRotation, addr 0x47d4fe0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_rightEyeRotation();
 
-  /// @brief Method get_trackingState, addr 0x47c07f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x47d4f10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
-  /// @brief Method get_userPresence, addr 0x47c07e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userPresence, addr 0x47d4f00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_userPresence();
 
-  /// @brief Method set_centerEyeAcceleration, addr 0x47c0940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeAcceleration, addr 0x47d5058, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_centerEyeAngularAcceleration, addr 0x47c0950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeAngularAcceleration, addr 0x47d5068, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeAngularAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_centerEyeAngularVelocity, addr 0x47c0930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeAngularVelocity, addr 0x47d5048, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_centerEyePosition, addr 0x47c0910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyePosition, addr 0x47d5028, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_centerEyeRotation, addr 0x47c0920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeRotation, addr 0x47d5038, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_deviceAcceleration, addr 0x47c0850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAcceleration, addr 0x47d4f68, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_deviceAngularAcceleration, addr 0x47c0860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAngularAcceleration, addr 0x47d4f78, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_deviceAngularVelocity, addr 0x47c0840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAngularVelocity, addr 0x47d4f58, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_devicePosition, addr 0x47c0820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_devicePosition, addr 0x47d4f38, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_deviceRotation, addr 0x47c0830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceRotation, addr 0x47d4f48, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_isTracked, addr 0x47c0810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x47d4f28, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_leftEyeAcceleration, addr 0x47c08a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeAcceleration, addr 0x47d4fb8, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_leftEyeAngularAcceleration, addr 0x47c08b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeAngularAcceleration, addr 0x47d4fc8, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeAngularAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_leftEyeAngularVelocity, addr 0x47c0890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeAngularVelocity, addr 0x47d4fa8, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_leftEyePosition, addr 0x47c0870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyePosition, addr 0x47d4f88, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_leftEyeRotation, addr 0x47c0880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeRotation, addr 0x47d4f98, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_rightEyeAcceleration, addr 0x47c08f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeAcceleration, addr 0x47d5008, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rightEyeAngularAcceleration, addr 0x47c0900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeAngularAcceleration, addr 0x47d5018, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeAngularAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rightEyeAngularVelocity, addr 0x47c08e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeAngularVelocity, addr 0x47d4ff8, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rightEyePosition, addr 0x47c08c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyePosition, addr 0x47d4fd8, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rightEyeRotation, addr 0x47c08d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeRotation, addr 0x47d4fe8, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_trackingState, addr 0x47c0800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x47d4f18, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method set_userPresence, addr 0x47c07f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userPresence, addr 0x47d4f08, size 0x8, virtual false, abstract: false, final false
   inline void set_userPresence(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -537,7 +537,7 @@ public:
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____centerEyeAngularAcceleration_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17369 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

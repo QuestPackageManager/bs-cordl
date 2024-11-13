@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4726f08;
+  constexpr static std::size_t addrs = 0x473b620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Rotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4726f14;
+  constexpr static std::size_t addrs = 0x473b62c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (
     ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4726f20;
+  constexpr static std::size_t addrs = 0x473b638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_InstantiateInWorldPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4726f28;
+  constexpr static std::size_t addrs = 0x473b640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_SetPositionRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4726f30;
+  constexpr static std::size_t addrs = 0x473b648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)(
     ::UnityEngine::Transform*, bool)>(&::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4726f38;
+  constexpr static std::size_t addrs = 0x473b650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Transform*)>(&::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4726fe8;
+  constexpr static std::size_t addrs = 0x473b700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

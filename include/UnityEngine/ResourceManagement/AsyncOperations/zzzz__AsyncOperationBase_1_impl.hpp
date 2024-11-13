@@ -36,7 +36,7 @@ template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>::__cordl_internal_set_value(
     ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___value, value);
 }
 template <typename TObject>
 inline ::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass60_0<TObject>*
@@ -76,7 +76,7 @@ template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>::__cordl_internal_set_value(
     ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___value, value);
 }
 template <typename TObject>
 inline ::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass61_0<TObject>*
@@ -121,7 +121,7 @@ template <typename TObject> constexpr TObject const& UnityEngine::ResourceManage
 }
 template <typename TObject> constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_set__Result_k__BackingField(TObject value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Result_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____Result_k__BackingField, value);
 }
 template <typename TObject> constexpr int32_t& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_referenceCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -163,7 +163,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& Unity
 }
 template <typename TObject> constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_set_m_Error(::System::Exception* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Error)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Error, value);
 }
 template <typename TObject>
 constexpr ::UnityEngine::ResourceManagement::ResourceManager*& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_RM() {
@@ -179,7 +179,7 @@ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>:
 template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_set_m_RM(::UnityEngine::ResourceManagement::ResourceManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RM)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_RM, value);
 }
 template <typename TObject> constexpr int32_t& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_Version() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -209,7 +209,7 @@ template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_set_m_DestroyedAction(
     ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DestroyedAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_DestroyedAction, value);
 }
 template <typename TObject>
 constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*&
@@ -227,7 +227,7 @@ template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_set_m_CompletedActionT(
     ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CompletedActionT)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_CompletedActionT, value);
 }
 template <typename TObject>
 constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*&
@@ -245,7 +245,7 @@ template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_set_m_OnDestroyAction(
     ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnDestroyAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_OnDestroyAction, value);
 }
 template <typename TObject>
 constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*&
@@ -263,7 +263,7 @@ template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_set_m_dependencyCompleteAction(
     ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_dependencyCompleteAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_dependencyCompleteAction, value);
 }
 template <typename TObject> constexpr bool& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_HasExecuted() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -288,7 +288,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEng
 }
 template <typename TObject> constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_set_Executed(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Executed)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___Executed, value);
 }
 template <typename TObject> constexpr bool& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get__IsRunning_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -317,7 +317,7 @@ template <typename TObject>
 constexpr void
 UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_set_m_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<TObject>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_taskCompletionSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_taskCompletionSource, value);
 }
 template <typename TObject>
 constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>*&
@@ -335,7 +335,7 @@ template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_set_m_taskCompletionSourceTypeless(
     ::System::Threading::Tasks::TaskCompletionSource_1<::System::Object*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_taskCompletionSourceTypeless)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_taskCompletionSourceTypeless, value);
 }
 template <typename TObject> constexpr bool& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_InDeferredCallbackQueue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -363,7 +363,7 @@ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>:
 template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_set_m_UpdateCallbacks(::GlobalNamespace::DelegateList_1<float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_UpdateCallbacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_UpdateCallbacks, value);
 }
 template <typename TObject> constexpr ::System::Action_1<float_t>*& UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_get_m_UpdateCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -377,7 +377,7 @@ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>:
 }
 template <typename TObject> constexpr void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::__cordl_internal_set_m_UpdateCallback(::System::Action_1<float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_UpdateCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_UpdateCallback, value);
 }
 template <typename TObject> inline void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::Execute() {
   auto* ___internal_method = THROW_UNLESS(

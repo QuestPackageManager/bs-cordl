@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::__BurstRuntime__PreserveAttribute::*)()>(
     &::Unity::Burst::__BurstRuntime__PreserveAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448ff78;
+  constexpr static std::size_t addrs = 0x44a4690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::__BurstRuntime__PreserveAttribute*>::get(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*)>(&::Unity::Burst::BurstRuntime::GetHashCode32)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x448facc;
+  constexpr static std::size_t addrs = 0x44a41e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::Type*)>(&::Unity::Burst::BurstRuntime::GetHashCode64)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x448fb74;
+  constexpr static std::size_t addrs = 0x44a428c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::Unity::Burst::BurstRuntime::HashStringWithFNV1A32)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x448faf0;
+  constexpr static std::size_t addrs = 0x44a4208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW)>(&::Unity::Burst::BurstRuntime::HashStringWithFNV1A64)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x448fb98;
+  constexpr static std::size_t addrs = 0x44a42b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Unity::Burst::BurstRuntime::LoadAdditionalLibrary)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x448fc24;
+  constexpr static std::size_t addrs = 0x44a433c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Unity::Burst::BurstRuntime::LoadAdditionalLibraryInternal)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x448fc90;
+  constexpr static std::size_t addrs = 0x44a43a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint8_t>, int32_t, ::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::Unity::Burst::BurstRuntime::RuntimeLog)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x448fdec;
+  constexpr static std::size_t addrs = 0x44a4504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Burst::BurstRuntime::Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x448fe04;
+  constexpr static std::size_t addrs = 0x44a451c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstRuntime*>::get(), "Initialize",
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Burst::BurstRuntime::PreventRequiredAttributeStrip)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x448fe08;
+  constexpr static std::size_t addrs = 0x44a4520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstRuntime*>::get(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint8_t>, int32_t, ::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::Unity::Burst::BurstRuntime::Log)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x448ff14;
+  constexpr static std::size_t addrs = 0x44a462c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<uint8_t> (*)(::StringW, ByRef<int32_t>)>(
     &::Unity::Burst::BurstRuntime::GetUTF8LiteralPointer)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x448ff2c;
+  constexpr static std::size_t addrs = 0x44a4644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

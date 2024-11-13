@@ -28,7 +28,7 @@ Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract
 template <typename TContract>
 constexpr void Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract>::__cordl_internal_set___4__this(::Zenject::FactorySubContainerBinderWithParams_1<TContract>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TContract> constexpr ::System::Type*& Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract>::__cordl_internal_get_installerType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -41,7 +41,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::_
 }
 template <typename TContract> constexpr void Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract>::__cordl_internal_set_installerType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___installerType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___installerType, value);
 }
 template <typename TContract> constexpr ::UnityW<::UnityEngine::Object>& Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract>::__cordl_internal_get_prefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -53,7 +53,7 @@ template <typename TContract> constexpr ::UnityW<::UnityEngine::Object> const& Z
 }
 template <typename TContract> constexpr void Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract>::__cordl_internal_set_prefab(::UnityW<::UnityEngine::Object> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___prefab, value);
 }
 template <typename TContract>
 constexpr ::Zenject::GameObjectCreationParameters*& Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract>::__cordl_internal_get_gameObjectInfo() {
@@ -69,7 +69,7 @@ Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract
 template <typename TContract>
 constexpr void Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract>::__cordl_internal_set_gameObjectInfo(::Zenject::GameObjectCreationParameters* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gameObjectInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___gameObjectInfo, value);
 }
 template <typename TContract>
 inline ::Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract>* Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract>::New_ctor() {
@@ -118,7 +118,7 @@ Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract
 template <typename TContract>
 constexpr void Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract>::__cordl_internal_set___4__this(::Zenject::FactorySubContainerBinderWithParams_1<TContract>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TContract> constexpr ::System::Type*& Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract>::__cordl_internal_get_installerType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -131,7 +131,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::_
 }
 template <typename TContract> constexpr void Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract>::__cordl_internal_set_installerType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___installerType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___installerType, value);
 }
 template <typename TContract> constexpr ::StringW& Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract>::__cordl_internal_get_resourcePath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -143,7 +143,7 @@ template <typename TContract> constexpr ::StringW const& Zenject::__FactorySubCo
 }
 template <typename TContract> constexpr void Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract>::__cordl_internal_set_resourcePath(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___resourcePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___resourcePath, value);
 }
 template <typename TContract>
 constexpr ::Zenject::GameObjectCreationParameters*& Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract>::__cordl_internal_get_gameObjectInfo() {
@@ -159,7 +159,7 @@ Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract
 template <typename TContract>
 constexpr void Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract>::__cordl_internal_set_gameObjectInfo(::Zenject::GameObjectCreationParameters* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gameObjectInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___gameObjectInfo, value);
 }
 template <typename TContract>
 inline ::Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract>* Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract>::New_ctor() {

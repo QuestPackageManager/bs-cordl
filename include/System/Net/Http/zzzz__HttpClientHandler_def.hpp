@@ -71,10 +71,10 @@ public:
 
   static inline ::System::Net::Http::__HttpClientHandler____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x419c298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41b09b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_ClientCertificateOptions>b__23_1, addr 0x419c2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <set_ClientCertificateOptions>b__23_1, addr 0x41b09b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate*
   _set_ClientCertificateOptions_b__23_1(::System::Object* sender, ::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);
@@ -102,7 +102,7 @@ public:
   __HttpClientHandler____c(__HttpClientHandler____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -131,24 +131,24 @@ public:
   /// @brief Field _delegatingHandler, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__delegatingHandler, put = __cordl_internal_set__delegatingHandler)) ::System::Net::Http::IMonoHttpClientHandler* _delegatingHandler;
 
-  /// @brief Method CreateDefaultHandler, addr 0x419b838, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultHandler, addr 0x41aff50, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Net::Http::IMonoHttpClientHandler* CreateDefaultHandler();
 
-  /// @brief Method Dispose, addr 0x419bd2c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x41b0444, size 0xb4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Net::Http::HttpClientHandler* New_ctor();
 
   static inline ::System::Net::Http::HttpClientHandler* New_ctor(::System::Net::Http::IMonoHttpClientHandler* handler);
 
-  /// @brief Method SendAsync, addr 0x419c16c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x41b0884, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SetWebRequestTimeout, addr 0x419c0c0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetWebRequestTimeout, addr 0x41b07d8, size 0xac, virtual false, abstract: false, final false
   inline void SetWebRequestTimeout(::System::TimeSpan timeout);
 
-  /// @brief Method ThrowForModifiedManagedSslOptionsIfStarted, addr 0x419bde4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ThrowForModifiedManagedSslOptionsIfStarted, addr 0x41b04fc, size 0x104, virtual false, abstract: false, final false
   inline void ThrowForModifiedManagedSslOptionsIfStarted();
 
   constexpr ::System::Net::Http::ClientCertificateOption const& __cordl_internal_get__clientCertificateOptions() const;
@@ -163,24 +163,24 @@ public:
 
   constexpr void __cordl_internal_set__delegatingHandler(::System::Net::Http::IMonoHttpClientHandler* value);
 
-  /// @brief Method .ctor, addr 0x419ba38, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41b0150, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x419ba70, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41b0188, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::IMonoHttpClientHandler* handler);
 
-  /// @brief Method <set_ClientCertificateOptions>b__23_0, addr 0x419c228, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <set_ClientCertificateOptions>b__23_0, addr 0x41b0940, size 0x14, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate*
   _set_ClientCertificateOptions_b__23_0(::System::Object* sender, ::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);
 
-  /// @brief Method get_ClientCertificateOptions, addr 0x419bee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificateOptions, addr 0x41b0600, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::ClientCertificateOption get_ClientCertificateOptions();
 
-  /// @brief Method get_ClientCertificates, addr 0x419bef0, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x41b0608, size 0x1d0, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method set_ClientCertificateOptions, addr 0x419baa8, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method set_ClientCertificateOptions, addr 0x41b01c0, size 0x284, virtual false, abstract: false, final false
   inline void set_ClientCertificateOptions(::System::Net::Http::ClientCertificateOption value);
 
 protected:
@@ -204,7 +204,7 @@ public:
   ::System::Net::Http::ClientCertificateOption ____clientCertificateOptions;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16623 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16631 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

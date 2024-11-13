@@ -48,7 +48,7 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x269fdb0, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x26ab9d0, size 0x1dc, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
   static inline ::GlobalNamespace::MultiplayerPlayerResultsData* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_multiplayerLevelCompletionResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
 
-  /// @brief Method .ctor, addr 0x269fd84, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ab9a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults);
 
   /// @brief Convert to "::System::IComparable"
@@ -102,7 +102,7 @@ public:
   ::GlobalNamespace::MultiplayerBadgeAwardData* ___badge;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

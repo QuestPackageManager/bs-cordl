@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15::*)(int32_t)>(
     &::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b9e8b8;
+  constexpr static std::size_t addrs = 0x3bb472c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15::*)()>(
     &::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b9e904;
+  constexpr static std::size_t addrs = 0x3bb4778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15::*)()>(
     &::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15::MoveNext)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3b9e908;
+  constexpr static std::size_t addrs = 0x3bb477c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15::*)()>(
     &::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9e9cc;
+  constexpr static std::size_t addrs = 0x3bb4840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15::*)()>(
     &::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b9e9d4;
+  constexpr static std::size_t addrs = 0x3bb4848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15::*)()>(
     &::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9ea0c;
+  constexpr static std::size_t addrs = 0x3bb4880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningViewController::*)(::System::Action*)>(
     &::GlobalNamespace::HealthWarningViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b9e4b0;
+  constexpr static std::size_t addrs = 0x3bb4324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningViewController::*)(::System::Action*)>(
     &::GlobalNamespace::HealthWarningViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b9e54c;
+  constexpr static std::size_t addrs = 0x3bb43c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::HealthWarningViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3b9e5e8;
+  constexpr static std::size_t addrs = 0x3bb445c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningViewController::*)(bool, bool)>(
     &::GlobalNamespace::HealthWarningViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3b9e7e8;
+  constexpr static std::size_t addrs = 0x3bb465c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningViewController::*)(bool)>(
     &::GlobalNamespace::HealthWarningViewController::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b9e8ac;
+  constexpr static std::size_t addrs = 0x3bb4720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::HealthWarningViewController::*)()>(
     &::GlobalNamespace::HealthWarningViewController::DismissHealthAndSafety)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b9e788;
+  constexpr static std::size_t addrs = 0x3bb45fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningViewController*>::get(),
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningViewController::*)()>(&::GlobalNamespace::HealthWarningViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9e8e0;
+  constexpr static std::size_t addrs = 0x3bb4754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningViewController*>::get(), ".ctor",
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningViewController::*)()>(
     &::GlobalNamespace::HealthWarningViewController::_DidActivate_b__12_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b9e8e8;
+  constexpr static std::size_t addrs = 0x3bb475c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningViewController*>::get(),

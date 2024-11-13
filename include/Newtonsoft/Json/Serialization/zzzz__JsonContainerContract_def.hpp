@@ -114,40 +114,40 @@ public:
 
   constexpr void __cordl_internal_set__itemContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  /// @brief Method .ctor, addr 0x3e6f1e0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e83870, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_FinalItemContract, addr 0x3e6fb1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FinalItemContract, addr 0x3e841ac, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_FinalItemContract();
 
-  /// @brief Method get_ItemContract, addr 0x3e6fad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemContract, addr 0x3e84160, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_ItemContract();
 
-  /// @brief Method get_ItemConverter, addr 0x3e6fb24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemConverter, addr 0x3e841b4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonConverter* get_ItemConverter();
 
-  /// @brief Method get_ItemIsReference, addr 0x3e6fb34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemIsReference, addr 0x3e841c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ItemIsReference();
 
-  /// @brief Method get_ItemReferenceLoopHandling, addr 0x3e6fb44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemReferenceLoopHandling, addr 0x3e841d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ItemReferenceLoopHandling();
 
-  /// @brief Method get_ItemTypeNameHandling, addr 0x3e6fb54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemTypeNameHandling, addr 0x3e841e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_ItemTypeNameHandling();
 
-  /// @brief Method set_ItemContract, addr 0x3e6fad8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ItemContract, addr 0x3e84168, size 0x44, virtual false, abstract: false, final false
   inline void set_ItemContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  /// @brief Method set_ItemConverter, addr 0x3e6fb2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemConverter, addr 0x3e841bc, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverter(::Newtonsoft::Json::JsonConverter* value);
 
-  /// @brief Method set_ItemIsReference, addr 0x3e6fb3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemIsReference, addr 0x3e841cc, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemIsReference(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_ItemReferenceLoopHandling, addr 0x3e6fb4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemReferenceLoopHandling, addr 0x3e841dc, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
-  /// @brief Method set_ItemTypeNameHandling, addr 0x3e6fb5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemTypeNameHandling, addr 0x3e841ec, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
 protected:
@@ -183,7 +183,7 @@ public:
   ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> ____ItemTypeNameHandling_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10282 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

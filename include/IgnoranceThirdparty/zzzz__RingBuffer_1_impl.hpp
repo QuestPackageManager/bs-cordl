@@ -13,7 +13,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& IgnoranceThirdpa
 }
 template <typename T> constexpr void IgnoranceThirdparty::RingBuffer_1<T>::__cordl_internal_set__entries(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____entries, value);
 }
 template <typename T> constexpr int32_t& IgnoranceThirdparty::RingBuffer_1<T>::__cordl_internal_get__modMask() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SendOrPostCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Threading::SendOrPostCallback::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3dd7690;
+  constexpr static std::size_t addrs = 0x3debd20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SendOrPostCallback::*)(::System::Object*)>(
     &::System::Threading::SendOrPostCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3dd7790;
+  constexpr static std::size_t addrs = 0x3debe20;
 
   inline static ::MethodInfo const* methodInfo() {
 

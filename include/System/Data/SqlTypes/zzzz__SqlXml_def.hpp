@@ -91,30 +91,30 @@ public:
   /// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
   constexpr operator ::System::Xml::Serialization::IXmlSerializable*() noexcept;
 
-  /// @brief Method CreateReader, addr 0x415e650, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CreateReader, addr 0x4172d68, size 0x154, virtual false, abstract: false, final false
   inline ::System::Xml::XmlReader* CreateReader();
 
-  /// @brief Method CreateSqlReaderDelegate, addr 0x415eb00, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CreateSqlReaderDelegate, addr 0x4173218, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Func_4<::System::IO::Stream*, ::System::Xml::XmlReaderSettings*, ::System::Xml::XmlParserContext*, ::System::Xml::XmlReader*>* CreateSqlReaderDelegate();
 
-  /// @brief Method CreateSqlXmlReader, addr 0x415e948, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CreateSqlXmlReader, addr 0x4173060, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlReader* CreateSqlXmlReader(::System::IO::Stream* stream, bool closeInput, bool throwTargetInvocationExceptions);
 
-  /// @brief Method GetXsdType, addr 0x415ef20, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetXsdType, addr 0x4173638, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetXsdType(::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
   static inline ::System::Data::SqlTypes::SqlXml* New_ctor();
 
-  /// @brief Method SetNull, addr 0x415e63c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetNull, addr 0x4172d54, size 0x14, virtual false, abstract: false, final false
   inline void SetNull();
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x415ebf8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x4173310, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x415ec00, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x4173318, size 0x1d0, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* r);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x415edd0, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x41734e8, size 0x150, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get__createSqlReaderMethodInfo();
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x415e614, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4172d2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Reflection::MethodInfo* getStaticF_s_createSqlReaderMethodInfo();
@@ -152,10 +152,10 @@ public:
 
   static inline ::System::Func_4<::System::IO::Stream*, ::System::Xml::XmlReaderSettings*, ::System::Xml::XmlParserContext*, ::System::Xml::XmlReader*>* getStaticF_s_sqlReaderDelegate();
 
-  /// @brief Method get_CreateSqlReaderMethodInfo, addr 0x415e824, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_CreateSqlReaderMethodInfo, addr 0x4172f3c, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CreateSqlReaderMethodInfo();
 
-  /// @brief Method get_IsNull, addr 0x415e7a4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x4172ebc, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
   /// @brief Convert to "::System::Data::SqlTypes::INullable"
@@ -199,7 +199,7 @@ public:
   bool ____firstCreateReader;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

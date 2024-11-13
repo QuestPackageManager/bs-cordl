@@ -86,11 +86,11 @@ public:
 
   constexpr void __cordl_internal_set_oldValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x42ce4c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42e2bd8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue,
                     ::System::Xml::XmlNodeChangedAction action);
 
-  /// @brief Method get_Action, addr 0x42ce55c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Action, addr 0x42e2c74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNodeChangedAction get_Action();
 
 protected:
@@ -126,7 +126,7 @@ public:
   ::StringW ___newValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7281 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

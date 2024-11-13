@@ -167,7 +167,7 @@ public:
   ::System::Action_1<::Zenject::DiContainer*>* ___installerMethod;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -248,7 +248,7 @@ public:
   ::System::Action_1<::Zenject::DiContainer*>* ___installerMethod;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12086 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -341,7 +341,7 @@ public:
   ::System::Action_1<::Zenject::DiContainer*>* ___installerMethod;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12087 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -434,7 +434,7 @@ public:
   ::System::Action_1<::Zenject::DiContainer*>* ___installerMethod;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12088 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -515,7 +515,7 @@ public:
   ::Zenject::GameObjectCreationParameters* ___gameObjectInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12089 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -596,7 +596,7 @@ public:
   ::Zenject::GameObjectCreationParameters* ___gameObjectInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12090 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -669,7 +669,7 @@ public:
   FactorySubContainerBinder_1(FactorySubContainerBinder_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12091 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

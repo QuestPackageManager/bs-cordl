@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LoadGameLoaderAfterSplashScreen____c::*)()>(
     &::GlobalNamespace::__LoadGameLoaderAfterSplashScreen____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d6954;
+  constexpr static std::size_t addrs = 0x26e24d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LoadGameLoaderAfterSplashScreen____c::*)()>(
     &::GlobalNamespace::__LoadGameLoaderAfterSplashScreen____c::_Start_b__2_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d695c;
+  constexpr static std::size_t addrs = 0x26e24d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2::*)(int32_t)>(
     &::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26d68c8;
+  constexpr static std::size_t addrs = 0x26e2444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2::*)()>(
     &::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d6964;
+  constexpr static std::size_t addrs = 0x26e24e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2::*)()>(
     &::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2::MoveNext)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x26d6968;
+  constexpr static std::size_t addrs = 0x26e24e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2::*)()>(
     &::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d6b4c;
+  constexpr static std::size_t addrs = 0x26e26c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2::*)()>(
     &::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26d6b54;
+  constexpr static std::size_t addrs = 0x26e26d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2::*)()>(
     &::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d6b8c;
+  constexpr static std::size_t addrs = 0x26e2708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::LoadGameLoaderAfterSplashScreen::*)()>(
     &::GlobalNamespace::LoadGameLoaderAfterSplashScreen::Start)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26d6868;
+  constexpr static std::size_t addrs = 0x26e23e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadGameLoaderAfterSplashScreen*>::get(),
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadGameLoaderAfterSplashScreen::*)()>(
     &::GlobalNamespace::LoadGameLoaderAfterSplashScreen::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d68f0;
+  constexpr static std::size_t addrs = 0x26e246c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadGameLoaderAfterSplashScreen*>::get(),

@@ -32,7 +32,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AssetInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AssetInfo*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a2c3ec, size 0x2c0, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a3fd44, size 0x2c0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_AssetInfo* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_AssetInfo* New_ctor(::HoudiniEngineUnity::HAPI_AssetInfo self);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_AssetInfo value);
 
-  /// @brief Method .ctor, addr 0x3a2c3b8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a3fd10, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_AssetInfo self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AssetInfo*>"
@@ -67,7 +67,7 @@ public:
   ::HoudiniEngineUnity::HAPI_AssetInfo ___self;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

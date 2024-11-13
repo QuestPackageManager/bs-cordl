@@ -112,7 +112,7 @@ public:
   int32_t value__;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11415 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -173,7 +173,7 @@ public:
   ::System::Data::__RBTree_1__NodeColor<K> _nodeColor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11416 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -209,7 +209,7 @@ public:
   int32_t _mainTreeNodeID;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11412 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11417 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -327,7 +327,7 @@ public:
   int32_t ____nextFreeSlotLine;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11418 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -411,7 +411,7 @@ public:
   K _current;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11419 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -768,7 +768,7 @@ public:
   ::System::Data::TreeAccessMethod ____accessMethod;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11420 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

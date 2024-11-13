@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c::*)()>(
     &::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4938f10;
+  constexpr static std::size_t addrs = 0x494d628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::VectorImageRenderInfo* (
     ::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c::*)()>(&::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c::__ctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4938f18;
+  constexpr static std::size_t addrs = 0x494d630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c::*)(
     ::UnityEngine::UIElements::UIR::VectorImageRenderInfo*)>(&::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c::__ctor_b__0_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4938fb0;
+  constexpr static std::size_t addrs = 0x494d6c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool::*)()>(
     &::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool::_ctor)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x4938d30;
+  constexpr static std::size_t addrs = 0x494d448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

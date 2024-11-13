@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4073478;
+  constexpr static std::size_t addrs = 0x4087b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox::Run)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x40734a0;
+  constexpr static std::size_t addrs = 0x4087bb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox::*)()>(
     &::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x407357c;
+  constexpr static std::size_t addrs = 0x4087c94;
 
   inline static ::MethodInfo const* methodInfo() {
 

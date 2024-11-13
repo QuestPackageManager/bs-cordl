@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Channels::SinkProviderData::*)(::StringW)>(
     &::System::Runtime::Remoting::Channels::SinkProviderData::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3c6e224;
+  constexpr static std::size_t addrs = 0x3c828b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::System::Runtime::Remoting::Channels::SinkProviderData::*)()>(
     &::System::Runtime::Remoting::Channels::SinkProviderData::get_Children)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c6e2c4;
+  constexpr static std::size_t addrs = 0x3c82954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::SinkProviderData*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Channels::SinkProviderData::*)()>(
     &::System::Runtime::Remoting::Channels::SinkProviderData::get_Properties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c6e2cc;
+  constexpr static std::size_t addrs = 0x3c8295c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::SinkProviderData*>::get(),

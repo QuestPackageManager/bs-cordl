@@ -68,21 +68,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2219e78, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x222292c, size 0xd4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::BeatSaber::AvatarCore::__MultiplayerAvatarAudioController___Start_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2219f4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2222a00, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2219f54, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2222a08, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2219f8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2222a40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2219e74, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2222928, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarAudioController> value);
 
-  /// @brief Method .ctor, addr 0x2219e44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22228f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -139,7 +139,7 @@ public:
   ::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarAudioController> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17535 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -173,7 +173,7 @@ public:
 
   static inline ::BeatSaber::AvatarCore::MultiplayerAvatarAudioController* New_ctor();
 
-  /// @brief Method Start, addr 0x2219de4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2222898, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -188,10 +188,10 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x2219e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2222920, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_connectedPlayer, addr 0x2219ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_connectedPlayer, addr 0x2222890, size 0x8, virtual false, abstract: false, final false
   inline void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
 protected:
@@ -215,7 +215,7 @@ public:
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

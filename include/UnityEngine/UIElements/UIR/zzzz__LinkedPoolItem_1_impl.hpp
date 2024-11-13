@@ -12,7 +12,7 @@ template <typename T> constexpr T const& UnityEngine::UIElements::UIR::LinkedPoo
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>::__cordl_internal_set_poolNext(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___poolNext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___poolNext, value);
 }
 template <typename T> inline ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>* UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>*>());

@@ -96,7 +96,7 @@ public:
   static ::GlobalNamespace::__NoteCutHapticEffect__Type const Normal;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4214 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4216 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -146,7 +146,7 @@ public:
   /// @brief Field _normalPreset, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__normalPreset, put = __cordl_internal_set__normalPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _normalPreset;
 
-  /// @brief Method HitNote, addr 0x3b0a5d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HitNote, addr 0x3b1f960, size 0xa0, virtual false, abstract: false, final false
   inline void HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::__NoteCutHapticEffect__Type type);
 
   static inline ::GlobalNamespace::NoteCutHapticEffect* New_ctor();
@@ -205,7 +205,7 @@ public:
 
   constexpr void __cordl_internal_set__normalPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
 
-  /// @brief Method .ctor, addr 0x3b0a670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1fa00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -250,7 +250,7 @@ public:
   ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4215 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4217 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

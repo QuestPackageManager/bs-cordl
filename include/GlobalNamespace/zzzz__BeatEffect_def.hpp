@@ -58,7 +58,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__BeatEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b05c58, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1afe8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   __BeatEffect__Pool(__BeatEffect__Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4183 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -130,10 +130,10 @@ public:
 
   __declspec(property(get = get_didFinishEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* didFinishEvent;
 
-  /// @brief Method Init, addr 0x3b0582c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b1abbc, size 0xc4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Color color, float_t animationDuration, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ManualUpdate, addr 0x3b058f0, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3b1ac80, size 0x2ec, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::BeatEffect* New_ctor();
@@ -204,10 +204,10 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x3b05bdc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1af6c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x3b05824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x3b1abb4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
 
 protected:
@@ -258,7 +258,7 @@ public:
   ::UnityEngine::Color ____color;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4184 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

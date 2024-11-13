@@ -31,7 +31,7 @@ template <typename TKey, typename TValue> constexpr TKey const& GlobalNamespace:
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__cordl_internal_set_key(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___key, value);
 }
 template <typename TKey, typename TValue> constexpr TValue& GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -43,7 +43,7 @@ template <typename TKey, typename TValue> constexpr TValue const& GlobalNamespac
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__cordl_internal_set_value(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___value, value);
 }
 template <typename TKey, typename TValue> constexpr int64_t& GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>::__cordl_internal_get_expireTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -124,7 +124,7 @@ template <typename TKey, typename TValue> constexpr TValue const& GlobalNamespac
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__cordl_internal_set___2__current(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>*& GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__cordl_internal_get___4__this() {
@@ -140,7 +140,7 @@ GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__cordl
 template <typename TKey, typename TValue>
 constexpr void GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__cordl_internal_set___4__this(::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*&
@@ -158,7 +158,7 @@ template <typename TKey, typename TValue>
 constexpr void GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::__cordl_internal_set___7__wrap1(
     ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____7__wrap1, value);
 }
 template <typename TKey, typename TValue>
 inline ::GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>* GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>::New_ctor(int32_t __1__state) {
@@ -244,7 +244,7 @@ constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> con
 }
 template <typename TKey, typename TValue> constexpr void GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__cordl_internal_set__timeProvider(::BGNet::Core::ITimeProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____timeProvider, value);
 }
 template <typename TKey, typename TValue> constexpr int64_t& GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__cordl_internal_get__expirationLengthMs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -274,7 +274,7 @@ template <typename TKey, typename TValue>
 constexpr void
 GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__cordl_internal_set__expirationQueue(::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____expirationQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____expirationQueue, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*&
@@ -292,7 +292,7 @@ template <typename TKey, typename TValue>
 constexpr void GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__cordl_internal_set__entryLookup(
     ::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entryLookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____entryLookup, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*&
@@ -310,7 +310,7 @@ template <typename TKey, typename TValue>
 constexpr void GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::__cordl_internal_set__reusableEntries(
     ::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reusableEntries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____reusableEntries, value);
 }
 template <typename TKey, typename TValue> inline int32_t GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::get_Count() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>*>::get(),

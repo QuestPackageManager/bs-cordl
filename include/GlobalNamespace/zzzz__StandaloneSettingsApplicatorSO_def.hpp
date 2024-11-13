@@ -23,12 +23,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE StandaloneSettingsApplicatorSO : public ::GlobalNamespace::SettingsApplicatorSO {
 public:
   // Declarations
-  /// @brief Method ApplyWindowSettings, addr 0x3aba6fc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ApplyWindowSettings, addr 0x3ace29c, size 0x5c, virtual true, abstract: false, final false
   inline void ApplyWindowSettings(ByRef<::BeatSaber::Settings::WindowSettings> settings);
 
   static inline ::GlobalNamespace::StandaloneSettingsApplicatorSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3aba758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ace2f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   StandaloneSettingsApplicatorSO(StandaloneSettingsApplicatorSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5151 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

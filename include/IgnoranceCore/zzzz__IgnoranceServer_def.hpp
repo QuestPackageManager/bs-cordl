@@ -109,7 +109,7 @@ public:
   ::StringW PrivateKey;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17708 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -240,16 +240,16 @@ public:
 
   static inline ::IgnoranceCore::IgnoranceServer* New_ctor();
 
-  /// @brief Method SetupRingBuffersIfNull, addr 0x3a3f2a8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method SetupRingBuffersIfNull, addr 0x3a52c00, size 0x230, virtual false, abstract: false, final false
   inline void SetupRingBuffersIfNull();
 
-  /// @brief Method Start, addr 0x3a3ef0c, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a52864, size 0x39c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x3a3f4d8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x3a52e30, size 0x9c, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method ThreadWorker, addr 0x3a3f574, size 0x11c0, virtual false, abstract: false, final false
+  /// @brief Method ThreadWorker, addr 0x3a52ecc, size 0x11c0, virtual false, abstract: false, final false
   inline void ThreadWorker(::System::Object* parameters);
 
   constexpr ::StringW const& __cordl_internal_get_BindAddress() const;
@@ -402,10 +402,10 @@ public:
 
   constexpr void __cordl_internal_set_WorkerThread(::System::Threading::Thread* value);
 
-  /// @brief Method .ctor, addr 0x3a40734, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5408c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsAlive, addr 0x3a3eef8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsAlive, addr 0x3a52850, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsAlive();
 
 protected:
@@ -498,7 +498,7 @@ public:
   ::System::Threading::Thread* ___WorkerThread;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

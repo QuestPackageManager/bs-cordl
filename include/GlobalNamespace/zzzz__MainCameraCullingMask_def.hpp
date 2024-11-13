@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_showDebris(bool value);
 
-  /// @brief Method .ctor, addr 0x400b49c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401fbb4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool showDebris);
 
 protected:
@@ -62,7 +62,7 @@ public:
   bool ___showDebris;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17803 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,7 +90,7 @@ public:
 
   static inline ::GlobalNamespace::MainCameraCullingMask* New_ctor();
 
-  /// @brief Method Start, addr 0x400b384, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x401fa9c, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__MainCameraCullingMask__InitData* value);
 
-  /// @brief Method .ctor, addr 0x400b434, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401fb4c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,7 +129,7 @@ public:
   ::GlobalNamespace::__MainCameraCullingMask__InitData* ____initData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -121,7 +121,7 @@ public:
 
   static inline ::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method <SetData>b__0, addr 0x3b81f58, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <SetData>b__0, addr 0x3b97b20, size 0x7c, virtual false, abstract: false, final false
   inline void _SetData_b__0(int32_t id, ::GlobalNamespace::GameplayModifierInfoListItem* listItem);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*& __cordl_internal_get_modifiersList();
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_modifiersList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3b81f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9787c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -151,7 +151,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* ___modifiersList;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -172,10 +172,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b81fd4, size 0x45c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b97b9c, size 0x45c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b82430, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b97ff8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -215,7 +215,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4734 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -328,24 +328,24 @@ public:
   /// @brief Field useModifiersEvent, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get_useModifiersEvent, put = __cordl_internal_set_useModifiersEvent)) ::System::Action_1<int32_t>* useModifiersEvent;
 
-  /// @brief Method Awake, addr 0x3b81d50, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b97920, size 0x140, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleKickPlayerButtonPressed, addr 0x3b81e90, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleKickPlayerButtonPressed, addr 0x3b97a60, size 0x20, virtual false, abstract: false, final false
   inline void HandleKickPlayerButtonPressed();
 
-  /// @brief Method HandleUseBeatmapButtonPressed, addr 0x3b81eb0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleUseBeatmapButtonPressed, addr 0x3b97a80, size 0x20, virtual false, abstract: false, final false
   inline void HandleUseBeatmapButtonPressed();
 
-  /// @brief Method HandleUseModifiersButtonPressed, addr 0x3b81ed0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleUseModifiersButtonPressed, addr 0x3b97aa0, size 0x20, virtual false, abstract: false, final false
   inline void HandleUseModifiersButtonPressed();
 
   static inline ::GlobalNamespace::GameServerPlayerTableCell* New_ctor();
 
-  /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x3b81cb4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x3b97884, size 0x9c, virtual false, abstract: false, final false
   inline void SetBeatmapUseButtonEnabledAsync(::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
-  /// @brief Method SetData, addr 0x3b811cc, size 0xae8, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b96d94, size 0xae8, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::ILobbyPlayerData* playerData, bool hasKickPermissions, bool allowSelection,
                       ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
@@ -499,25 +499,25 @@ public:
 
   constexpr void __cordl_internal_set_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b81ef0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b97ac0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_kickPlayerEvent, addr 0x3b80d94, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_kickPlayerEvent, addr 0x3b9695c, size 0xb4, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_useBeatmapEvent, addr 0x3b80efc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_useBeatmapEvent, addr 0x3b96ac4, size 0xb4, virtual false, abstract: false, final false
   inline void add_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_useModifiersEvent, addr 0x3b81064, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_useModifiersEvent, addr 0x3b96c2c, size 0xb4, virtual false, abstract: false, final false
   inline void add_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_kickPlayerEvent, addr 0x3b80e48, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_kickPlayerEvent, addr 0x3b96a10, size 0xb4, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_useBeatmapEvent, addr 0x3b80fb0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_useBeatmapEvent, addr 0x3b96b78, size 0xb4, virtual false, abstract: false, final false
   inline void remove_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_useModifiersEvent, addr 0x3b81118, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_useModifiersEvent, addr 0x3b96ce0, size 0xb4, virtual false, abstract: false, final false
   inline void remove_useModifiersEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -610,7 +610,7 @@ public:
   ::System::Threading::CancellationTokenSource* ____getLevelEntitlementCancellationTokenSource;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4735 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

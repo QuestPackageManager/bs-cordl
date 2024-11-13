@@ -28,19 +28,19 @@ public:
 
   __declspec(property(put = set_StatusInformation)) ::StringW StatusInformation;
 
-  /// @brief Method GetInformation, addr 0x43c7798, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetInformation, addr 0x43dbeb0, size 0x190, virtual false, abstract: false, final false
   static inline ::StringW GetInformation(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
 
-  /// @brief Method .ctor, addr 0x43c8cd8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43dd3f0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
 
-  /// @brief Method get_Status, addr 0x43cb60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x43dfd24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status();
 
-  /// @brief Method set_Status, addr 0x43cb614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Status, addr 0x43dfd2c, size 0x8, virtual false, abstract: false, final false
   inline void set_Status(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
 
-  /// @brief Method set_StatusInformation, addr 0x43cb61c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusInformation, addr 0x43dfd34, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusInformation(::StringW value);
 
   // Ctor Parameters []
@@ -58,7 +58,7 @@ public:
   ::StringW info;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9300 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

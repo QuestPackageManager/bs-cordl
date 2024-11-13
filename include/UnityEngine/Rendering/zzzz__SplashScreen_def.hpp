@@ -19,7 +19,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE SplashScreen : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_isFinished, addr 0x484e4c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x4862bdc, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isFinished();
 
 protected:
@@ -37,7 +37,7 @@ public:
   SplashScreen(SplashScreen const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11180 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

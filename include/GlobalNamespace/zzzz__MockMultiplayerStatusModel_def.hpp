@@ -37,7 +37,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerStatusModel"
   constexpr operator ::GlobalNamespace::IMultiplayerStatusModel*() noexcept;
 
-  /// @brief Method GetMultiplayerStatusAsync, addr 0x3b4cb4c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetMultiplayerStatusAsync, addr 0x3b62638, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::MockMultiplayerStatusModel* New_ctor();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value);
 
-  /// @brief Method .ctor, addr 0x3b4cbbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b626a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerStatusModel"
@@ -72,7 +72,7 @@ public:
   ::GlobalNamespace::MultiplayerStatusData* ____multiplayerStatusData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4525 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

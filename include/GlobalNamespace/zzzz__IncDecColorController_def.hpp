@@ -34,7 +34,7 @@ public:
 
   __declspec(property(put = set_enableInc)) bool enableInc;
 
-  /// @brief Method Awake, addr 0x3bb1904, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bc5f94, size 0xb0, virtual true, abstract: false, final false
   inline void Awake();
 
   /// @brief Method DecButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -45,7 +45,7 @@ public:
 
   static inline ::GlobalNamespace::IncDecColorController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb19b4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bc6044, size 0xfc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::ColorStepValuePicker> const& __cordl_internal_get__stepValuePicker() const;
@@ -54,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::ColorStepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x3bb1ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc6140, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_color, addr 0x3bb18d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3bc5f68, size 0x2c, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_enableDec, addr 0x3bb1888, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableDec, addr 0x3bc5f18, size 0x28, virtual false, abstract: false, final false
   inline void set_enableDec(bool value);
 
-  /// @brief Method set_enableInc, addr 0x3bb18b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableInc, addr 0x3bc5f40, size 0x28, virtual false, abstract: false, final false
   inline void set_enableInc(bool value);
 
 protected:
@@ -84,7 +84,7 @@ public:
   ::UnityW<::GlobalNamespace::ColorStepValuePicker> ____stepValuePicker;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18839 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

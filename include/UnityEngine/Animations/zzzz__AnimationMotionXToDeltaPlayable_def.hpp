@@ -45,31 +45,31 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x47de9b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x47f30c8, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable Create(::UnityEngine::Playables::PlayableGraph graph);
 
-  /// @brief Method CreateHandle, addr 0x47dea40, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x47f3158, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph);
 
-  /// @brief Method CreateHandleInternal, addr 0x47dec18, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal, addr 0x47f3330, size 0x8c, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandleInternal_Injected, addr 0x47dee94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x47f35ac, size 0x44, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method Equals, addr 0x47ded30, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x47f3448, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable other);
 
-  /// @brief Method GetHandle, addr 0x47deca4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x47f33bc, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method SetAbsoluteMotion, addr 0x47dedcc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetAbsoluteMotion, addr 0x47f34e4, size 0x84, virtual false, abstract: false, final false
   inline void SetAbsoluteMotion(bool value);
 
-  /// @brief Method SetAbsoluteMotionInternal, addr 0x47dee50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetAbsoluteMotionInternal, addr 0x47f3568, size 0x44, virtual false, abstract: false, final false
   static inline void SetAbsoluteMotionInternal(ByRef<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method .ctor, addr 0x47deb28, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47f3240, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable getStaticF_m_NullPlayable();
@@ -80,7 +80,7 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Implicit, addr 0x47decb0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x47f33c8, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable playable);
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable value);
@@ -96,7 +96,7 @@ public:
   ::UnityEngine::Playables::PlayableHandle m_Handle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16851 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -44,13 +44,13 @@ public:
 
   static inline ::GlobalNamespace::OVRScenePrefabOverride* New_ctor();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x3f9ad2c, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x3faf3bc, size 0x154, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x3f9ad28, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x3faf3b8, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method <UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize>g__IndexOf|4_0, addr 0x3f9ae80, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method <UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize>g__IndexOf|4_0, addr 0x3faf510, size 0x2f8, virtual false, abstract: false, final false
   static inline int32_t _UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_g__IndexOf_4_0(::StringW label, ::System::Collections::Generic::IEnumerable_1<::StringW>* collection);
 
   constexpr ::StringW const& __cordl_internal_get_ClassificationLabel() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__editorClassificationIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3f9b178, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3faf808, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -101,7 +101,7 @@ public:
   int32_t ____editorClassificationIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8266 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

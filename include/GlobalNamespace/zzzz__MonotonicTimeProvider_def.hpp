@@ -42,10 +42,10 @@ public:
   /// @brief Convert operator to "::BGNet::Core::ITimeProvider"
   constexpr operator ::BGNet::Core::ITimeProvider*() noexcept;
 
-  /// @brief Method GetTicks, addr 0x2299588, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetTicks, addr 0x22a4630, size 0x58, virtual true, abstract: false, final true
   inline int64_t GetTicks();
 
-  /// @brief Method GetTimeMs, addr 0x229955c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetTimeMs, addr 0x22a4604, size 0x2c, virtual true, abstract: false, final true
   inline int64_t GetTimeMs();
 
   static inline ::GlobalNamespace::MonotonicTimeProvider* New_ctor();
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__timeSpanTicksPerStopwatchTick(double_t value);
 
-  /// @brief Method .ctor, addr 0x22993cc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a4474, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MonotonicTimeProvider* getStaticF_instance();
@@ -102,7 +102,7 @@ public:
   ::System::Diagnostics::Stopwatch* ____stopwatch;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

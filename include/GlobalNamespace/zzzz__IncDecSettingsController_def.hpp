@@ -32,7 +32,7 @@ public:
 
   __declspec(property(put = set_text)) ::StringW text;
 
-  /// @brief Method Awake, addr 0x3bb1b98, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bc6228, size 0xb0, virtual true, abstract: false, final false
   inline void Awake();
 
   /// @brief Method DecButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -43,7 +43,7 @@ public:
 
   static inline ::GlobalNamespace::IncDecSettingsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb1d80, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bc6410, size 0xfc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::StepValuePicker> const& __cordl_internal_get__stepValuePicker() const;
@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x3bb1fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc6644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_enableDec, addr 0x3bb1ab8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableDec, addr 0x3bc6148, size 0x28, virtual false, abstract: false, final false
   inline void set_enableDec(bool value);
 
-  /// @brief Method set_enableInc, addr 0x3bb1b00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableInc, addr 0x3bc6190, size 0x28, virtual false, abstract: false, final false
   inline void set_enableInc(bool value);
 
-  /// @brief Method set_text, addr 0x3bb1b48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3bc61d8, size 0x2c, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -82,7 +82,7 @@ public:
   ::UnityW<::GlobalNamespace::StepValuePicker> ____stepValuePicker;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18840 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

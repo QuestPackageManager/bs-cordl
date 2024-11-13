@@ -34,16 +34,16 @@ public:
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
-  /// @brief Method Dispose, addr 0x485045c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4864b74, size 0x78, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x48504d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4864bec, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method InternalProcessRenderRequests, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename RequestData> inline void InternalProcessRenderRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera, RequestData renderRequest);
 
-  /// @brief Method InternalRender, addr 0x48503c8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InternalRender, addr 0x4864ae0, size 0x80, virtual false, abstract: false, final false
   inline void InternalRender(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
   /// @brief Method IsRenderRequestSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -55,7 +55,7 @@ public:
   /// @brief Method Render, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> cameras);
 
-  /// @brief Method Render, addr 0x4850350, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x4864a68, size 0x78, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* cameras);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  /// @brief Method get_disposed, addr 0x4850448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x4864b60, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x4850450, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x4864b68, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -88,7 +88,7 @@ public:
   bool ____disposed_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11194 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

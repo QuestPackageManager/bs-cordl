@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x49acf68, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49c1680, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x49acf64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c167c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* callback, ::UnityEngine::UIElements::EventBase* evt);
 
   /// @brief Convert to "::System::IDisposable"
@@ -49,7 +49,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5791 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

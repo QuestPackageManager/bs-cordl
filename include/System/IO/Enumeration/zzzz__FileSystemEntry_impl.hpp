@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::System::IO::Enumeration::FileSystemEntry>, ::GlobalNamespace::__Interop__Sys__DirectoryEntry, ::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>,
     ::System::ReadOnlySpan_1<char16_t>, ::System::Span_1<char16_t>)>(&::System::IO::Enumeration::FileSystemEntry::Initialize)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x3d0eb84;
+  constexpr static std::size_t addrs = 0x3d23214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::get_FullPath)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3d0ee00;
+  constexpr static std::size_t addrs = 0x3d23490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEntry>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::get_FileName)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d0ef30;
+  constexpr static std::size_t addrs = 0x3d235c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEntry>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::get_Directory)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d0efa0;
+  constexpr static std::size_t addrs = 0x3d23630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEntry>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Enumeration::FileSystemEntry::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::System::IO::Enumeration::FileSystemEntry::set_Directory)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d0efb0;
+  constexpr static std::size_t addrs = 0x3d23640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::get_RootDirectory)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d0efbc;
+  constexpr static std::size_t addrs = 0x3d2364c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEntry>::get(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Enumeration::FileSystemEntry::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::System::IO::Enumeration::FileSystemEntry::set_RootDirectory)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d0efcc;
+  constexpr static std::size_t addrs = 0x3d2365c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::get_OriginalRootDirectory)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d0efd8;
+  constexpr static std::size_t addrs = 0x3d23668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEntry>::get(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Enumeration::FileSystemEntry::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::System::IO::Enumeration::FileSystemEntry::set_OriginalRootDirectory)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d0efe8;
+  constexpr static std::size_t addrs = 0x3d23678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::FileAttributes (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::get_Attributes)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3d0eff4;
+  constexpr static std::size_t addrs = 0x3d23684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEntry>::get(),
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::get_IsDirectory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d0f03c;
+  constexpr static std::size_t addrs = 0x3d236cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEntry>::get(),
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::FileSystemInfo* (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::ToFileSystemInfo)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d0f044;
+  constexpr static std::size_t addrs = 0x3d236d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEntry>::get(),
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::ToFullPath)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d0f0b4;
+  constexpr static std::size_t addrs = 0x3d23744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEntry>::get(), "ToFullPath",
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::Enumeration::FileSystemEntry::*)()>(
     &::System::IO::Enumeration::FileSystemEntry::ToSpecifiedFullPath)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3d0f0dc;
+  constexpr static std::size_t addrs = 0x3d2376c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEntry>::get(),

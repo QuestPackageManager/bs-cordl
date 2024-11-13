@@ -40,7 +40,7 @@ public:
 
   static inline ::Mono::Security::Interface::Alert* New_ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method ToString, addr 0x3bd011c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3be47ac, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Mono::Security::Interface::AlertDescription const& __cordl_internal_get_description() const;
@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_level(::Mono::Security::Interface::AlertLevel value);
 
-  /// @brief Method .ctor, addr 0x3bd0070, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be4700, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method get_Description, addr 0x3bd0068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x3be46f8, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::AlertDescription get_Description();
 
-  /// @brief Method get_Level, addr 0x3bd0060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x3be46f0, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::AlertLevel get_Level();
 
-  /// @brief Method inferAlertLevel, addr 0x3bd00dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method inferAlertLevel, addr 0x3be476c, size 0x40, virtual false, abstract: false, final false
   inline void inferAlertLevel();
 
 protected:
@@ -88,7 +88,7 @@ public:
   ::Mono::Security::Interface::AlertDescription ___description;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15910 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

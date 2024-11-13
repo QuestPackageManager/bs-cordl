@@ -38,7 +38,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__SpawnRotationChevron__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b22b74, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b38044, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   __SpawnRotationChevron__Pool(__SpawnRotationChevron__Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4354 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -85,15 +85,15 @@ public:
                       put = __cordl_internal_set__lights)) ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>
       _lights;
 
-  /// @brief Method ColorWasSet, addr 0x3b22ae8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x3b37fb8, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::SpawnRotationChevron* New_ctor();
 
-  /// @brief Method SetLightAmount, addr 0x3b22b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLightAmount, addr 0x3b38034, size 0x8, virtual false, abstract: false, final false
   inline void SetLightAmount(float_t amount);
 
-  /// @brief Method UpdateLights, addr 0x3b22af4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UpdateLights, addr 0x3b37fc4, size 0x70, virtual false, abstract: false, final false
   inline void UpdateLights();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__lights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b22b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3803c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -141,7 +141,7 @@ public:
   float_t ____lightAmount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4355 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

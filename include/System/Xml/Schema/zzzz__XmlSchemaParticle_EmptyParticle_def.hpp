@@ -23,10 +23,10 @@ public:
 
   static inline ::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle* New_ctor();
 
-  /// @brief Method .ctor, addr 0x424a868, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x425ef80, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsEmpty, addr 0x424a8bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x425efd4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
 protected:
@@ -44,7 +44,7 @@ public:
   __XmlSchemaParticle__EmptyParticle(__XmlSchemaParticle__EmptyParticle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7686 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

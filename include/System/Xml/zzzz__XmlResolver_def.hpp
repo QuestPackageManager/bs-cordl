@@ -35,18 +35,18 @@ public:
   /// @brief Method GetEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
-  /// @brief Method GetEntityAsync, addr 0x42ec674, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetEntityAsync, addr 0x4300d8c, size 0x38, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   static inline ::System::Xml::XmlResolver* New_ctor();
 
-  /// @brief Method ResolveUri, addr 0x42ec364, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ResolveUri, addr 0x4300a7c, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
 
-  /// @brief Method SupportsType, addr 0x42ec530, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method SupportsType, addr 0x4300c48, size 0x144, virtual true, abstract: false, final false
   inline bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x42ec6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4300dc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   XmlResolver(XmlResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7337 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7342 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

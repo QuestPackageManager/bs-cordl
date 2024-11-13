@@ -68,13 +68,13 @@ public:
 
   static inline ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* New_ctor();
 
-  /// @brief Method <Raycast>b__15_0, addr 0x4006b58, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <Raycast>b__15_0, addr 0x401b1e8, size 0x40, virtual false, abstract: false, final false
   inline int32_t _Raycast_b__15_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2);
 
-  /// @brief Method <Spherecast>b__16_0, addr 0x4006b98, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <Spherecast>b__16_0, addr 0x401b228, size 0x40, virtual false, abstract: false, final false
   inline int32_t _Spherecast_b__16_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2);
 
-  /// @brief Method .ctor, addr 0x4006b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401b1e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* getStaticF___9();
@@ -104,7 +104,7 @@ public:
   __OVRPhysicsRaycaster____c(__OVRPhysicsRaycaster____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9028 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -138,15 +138,15 @@ public:
 
   __declspec(property(get = get_sortOrderPriority)) int32_t sortOrderPriority;
 
-  /// @brief Method GetScreenPos, addr 0x40057c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetScreenPos, addr 0x4019e50, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetScreenPos(::UnityEngine::Vector3 worldPosition);
 
   static inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster* New_ctor();
 
-  /// @brief Method Raycast, addr 0x400662c, size 0x440, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x401acbc, size 0x440, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method Spherecast, addr 0x4005378, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method Spherecast, addr 0x4019a08, size 0x448, virtual false, abstract: false, final false
   inline void Spherecast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList,
                          float_t radius);
 
@@ -162,25 +162,25 @@ public:
 
   constexpr void __cordl_internal_set_sortOrder(int32_t value);
 
-  /// @brief Method .ctor, addr 0x400640c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401aa9c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_depth, addr 0x400648c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method get_depth, addr 0x401ab1c, size 0xc4, virtual true, abstract: false, final false
   inline int32_t get_depth();
 
-  /// @brief Method get_eventCamera, addr 0x4006434, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x401aac4, size 0x58, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_eventMask, addr 0x400661c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventMask, addr 0x401acac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_eventMask();
 
-  /// @brief Method get_finalEventMask, addr 0x4006558, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_finalEventMask, addr 0x401abe8, size 0xc4, virtual false, abstract: false, final false
   inline int32_t get_finalEventMask();
 
-  /// @brief Method get_sortOrderPriority, addr 0x4006550, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x401abe0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
-  /// @brief Method set_eventMask, addr 0x4006624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventMask, addr 0x401acb4, size 0x8, virtual false, abstract: false, final false
   inline void set_eventMask(::UnityEngine::LayerMask value);
 
 protected:
@@ -204,7 +204,7 @@ public:
   int32_t ___sortOrder;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9029 };
 
   /// @brief Field kNoEventMaskSet offset 0xffffffff size 0x4
   static constexpr int32_t kNoEventMaskSet{ static_cast<int32_t>(0xffffffff) };

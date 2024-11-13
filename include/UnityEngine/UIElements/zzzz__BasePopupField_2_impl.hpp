@@ -95,7 +95,7 @@ UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_int
 template <typename TValueType, typename TValueChoice>
 constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_set_m_Choices(::System::Collections::Generic::List_1<TValueChoice>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Choices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Choices, value);
 }
 template <typename TValueType, typename TValueChoice>
 constexpr ::UnityEngine::UIElements::TextElement*& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_m_TextElement() {
@@ -111,7 +111,7 @@ UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_int
 template <typename TValueType, typename TValueChoice>
 constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_TextElement, value);
 }
 template <typename TValueType, typename TValueChoice>
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_m_ArrowElement() {
@@ -127,7 +127,7 @@ UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_int
 template <typename TValueType, typename TValueChoice>
 constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_set_m_ArrowElement(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ArrowElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ArrowElement, value);
 }
 template <typename TValueType, typename TValueChoice>
 constexpr ::System::Func_2<TValueChoice, ::StringW>*& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_m_FormatSelectedValueCallback() {
@@ -143,7 +143,7 @@ UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_int
 template <typename TValueType, typename TValueChoice>
 constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_set_m_FormatSelectedValueCallback(::System::Func_2<TValueChoice, ::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FormatSelectedValueCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_FormatSelectedValueCallback, value);
 }
 template <typename TValueType, typename TValueChoice>
 constexpr ::System::Func_2<TValueChoice, ::StringW>*& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_m_FormatListItemCallback() {
@@ -159,7 +159,7 @@ UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_int
 template <typename TValueType, typename TValueChoice>
 constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_set_m_FormatListItemCallback(::System::Func_2<TValueChoice, ::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FormatListItemCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_FormatListItemCallback, value);
 }
 template <typename TValueType, typename TValueChoice>
 constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>*& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_createMenuCallback() {
@@ -175,7 +175,7 @@ UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_int
 template <typename TValueType, typename TValueChoice>
 constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_set_createMenuCallback(::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___createMenuCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___createMenuCallback, value);
 }
 template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::setStaticF_ussClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get>(

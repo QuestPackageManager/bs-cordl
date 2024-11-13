@@ -39,7 +39,7 @@ public:
   __declspec(property(get = __cordl_internal_get_hi, put = __cordl_internal_set_hi)) int32_t hi;
 
   /// @brief Field hr, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_hr, put = __cordl_internal_set_hr)) float_t hr;
+  __declspec(property(get = __cordl_internal_get_hr, put = __cordl_internal_set_hr)) int32_t hr;
 
   /// @brief Field tb, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_tb, put = __cordl_internal_set_tb)) float_t tb;
@@ -48,7 +48,7 @@ public:
   __declspec(property(get = __cordl_internal_get_ti, put = __cordl_internal_set_ti)) int32_t ti;
 
   /// @brief Field tr, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_tr, put = __cordl_internal_set_tr)) float_t tr;
+  __declspec(property(get = __cordl_internal_get_tr, put = __cordl_internal_set_tr)) int32_t tr;
 
   /// @brief Convert operator to "::BeatmapSaveDataCommon::IBeat"
   constexpr operator ::BeatmapSaveDataCommon::IBeat*() noexcept;
@@ -70,9 +70,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_hi();
 
-  constexpr float_t const& __cordl_internal_get_hr() const;
+  constexpr int32_t const& __cordl_internal_get_hr() const;
 
-  constexpr float_t& __cordl_internal_get_hr();
+  constexpr int32_t& __cordl_internal_get_hr();
 
   constexpr float_t const& __cordl_internal_get_tb() const;
 
@@ -82,9 +82,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_ti();
 
-  constexpr float_t const& __cordl_internal_get_tr() const;
+  constexpr int32_t const& __cordl_internal_get_tr() const;
 
-  constexpr float_t& __cordl_internal_get_tr();
+  constexpr int32_t& __cordl_internal_get_tr();
 
   constexpr void __cordl_internal_set_ai(int32_t value);
 
@@ -92,18 +92,18 @@ public:
 
   constexpr void __cordl_internal_set_hi(int32_t value);
 
-  constexpr void __cordl_internal_set_hr(float_t value);
+  constexpr void __cordl_internal_set_hr(int32_t value);
 
   constexpr void __cordl_internal_set_tb(float_t value);
 
   constexpr void __cordl_internal_set_ti(int32_t value);
 
-  constexpr void __cordl_internal_set_tr(float_t value);
+  constexpr void __cordl_internal_set_tr(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26c6e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d2bfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x26c6e34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x26d2bf4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
@@ -133,7 +133,7 @@ public:
   int32_t ___hi;
 
   /// @brief Field hr, offset: 0x18, size: 0x4, def value: None
-  float_t ___hr;
+  int32_t ___hr;
 
   /// @brief Field tb, offset: 0x1c, size: 0x4, def value: None
   float_t ___tb;
@@ -142,13 +142,13 @@ public:
   int32_t ___ti;
 
   /// @brief Field tr, offset: 0x24, size: 0x4, def value: None
-  float_t ___tr;
+  int32_t ___tr;
 
   /// @brief Field ai, offset: 0x28, size: 0x4, def value: None
   int32_t ___ai;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13334 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

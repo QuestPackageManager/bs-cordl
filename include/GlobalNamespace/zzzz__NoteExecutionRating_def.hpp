@@ -73,7 +73,7 @@ public:
   static ::GlobalNamespace::__NoteExecutionRating__Rating const Miss;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13084 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_scoringType(::GlobalNamespace::__NoteData__ScoringType value);
 
-  /// @brief Method .ctor, addr 0x26a1678, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ad298, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::__NoteExecutionRating__Rating rating, int32_t cutScore, int32_t beforeCutScore,
                     int32_t centerDistanceCutScore, int32_t afterCutScore);
 
@@ -190,7 +190,7 @@ public:
   ::GlobalNamespace::__NoteData__ScoringType ___scoringType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourcesAPI* (*)()>(&::UnityEngine::ResourcesAPI::get_ActiveAPI)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x482fb1c;
+  constexpr static std::size_t addrs = 0x4844234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourcesAPI*>::get(), "get_ActiveAPI",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourcesAPI* (*)()>(&::UnityEngine::ResourcesAPI::get_overrideAPI)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x482fbc4;
+  constexpr static std::size_t addrs = 0x48442dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourcesAPI*>::get(), "get_overrideAPI",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourcesAPI::*)()>(&::UnityEngine::ResourcesAPI::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x482fc1c;
+  constexpr static std::size_t addrs = 0x4844334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourcesAPI*>::get(), ".ctor",
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (::UnityEngine::ResourcesAPI::*)(
     ::System::Type*)>(&::UnityEngine::ResourcesAPI::FindObjectsOfTypeAll)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x482fc24;
+  constexpr static std::size_t addrs = 0x484433c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::ResourcesAPI::*)(::StringW)>(
     &::UnityEngine::ResourcesAPI::FindShaderByName)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x482fc60;
+  constexpr static std::size_t addrs = 0x4844378;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::ResourcesAPI::*)(::StringW, ::System::Type*)>(
     &::UnityEngine::ResourcesAPI::Load)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x482fc9c;
+  constexpr static std::size_t addrs = 0x48443b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (::UnityEngine::ResourcesAPI::*)(
     ::StringW, ::System::Type*)>(&::UnityEngine::ResourcesAPI::LoadAll)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x482fce0;
+  constexpr static std::size_t addrs = 0x48443f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceRequest* (::UnityEngine::ResourcesAPI::*)(::StringW, ::System::Type*)>(
     &::UnityEngine::ResourcesAPI::LoadAsync)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x482fd24;
+  constexpr static std::size_t addrs = 0x484443c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourcesAPI::*)(::UnityEngine::Object*)>(&::UnityEngine::ResourcesAPI::UnloadAsset)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x482fd78;
+  constexpr static std::size_t addrs = 0x4844490;
 
   inline static ::MethodInfo const* methodInfo() {
 

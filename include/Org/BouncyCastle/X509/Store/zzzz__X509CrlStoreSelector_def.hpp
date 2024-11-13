@@ -106,10 +106,10 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x25ab898, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x25b6940, size 0x58, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method Match, addr 0x25aba5c, size 0x710, virtual true, abstract: false, final false
+  /// @brief Method Match, addr 0x25b6b04, size 0x710, virtual true, abstract: false, final false
   inline bool Match(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* New_ctor();
@@ -182,43 +182,43 @@ public:
 
   constexpr void __cordl_internal_set_minCrlNumber(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x25ab75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b6804, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25ab764, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b680c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector* o);
 
-  /// @brief Method get_AttrCertChecking, addr 0x25ab998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttrCertChecking, addr 0x25b6a40, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* get_AttrCertChecking();
 
-  /// @brief Method get_CertificateChecking, addr 0x25ab8f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateChecking, addr 0x25b6998, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* get_CertificateChecking();
 
-  /// @brief Method get_CompleteCrlEnabled, addr 0x25ab9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompleteCrlEnabled, addr 0x25b6a50, size 0x8, virtual false, abstract: false, final false
   inline bool get_CompleteCrlEnabled();
 
-  /// @brief Method get_DateAndTime, addr 0x25ab900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateAndTime, addr 0x25b69a8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_DateAndTime();
 
-  /// @brief Method get_DeltaCrlIndicatorEnabled, addr 0x25ab9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DeltaCrlIndicatorEnabled, addr 0x25b6a64, size 0x8, virtual false, abstract: false, final false
   inline bool get_DeltaCrlIndicatorEnabled();
 
-  /// @brief Method get_Issuers, addr 0x25ab7e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Issuers, addr 0x25b6890, size 0x58, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Issuers();
 
-  /// @brief Method get_IssuingDistributionPoint, addr 0x25ab840, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_IssuingDistributionPoint, addr 0x25b68e8, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_IssuingDistributionPoint();
 
-  /// @brief Method get_IssuingDistributionPointEnabled, addr 0x25aba38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuingDistributionPointEnabled, addr 0x25b6ae0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IssuingDistributionPointEnabled();
 
-  /// @brief Method get_MaxBaseCrlNumber, addr 0x25aba4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxBaseCrlNumber, addr 0x25b6af4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_MaxBaseCrlNumber();
 
-  /// @brief Method get_MaxCrlNumber, addr 0x25ab978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxCrlNumber, addr 0x25b6a20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_MaxCrlNumber();
 
-  /// @brief Method get_MinCrlNumber, addr 0x25ab988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinCrlNumber, addr 0x25b6a30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_MinCrlNumber();
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
@@ -227,37 +227,37 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_AttrCertChecking, addr 0x25ab9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttrCertChecking, addr 0x25b6a48, size 0x8, virtual false, abstract: false, final false
   inline void set_AttrCertChecking(::Org::BouncyCastle::X509::IX509AttributeCertificate* value);
 
-  /// @brief Method set_CertificateChecking, addr 0x25ab8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateChecking, addr 0x25b69a0, size 0x8, virtual false, abstract: false, final false
   inline void set_CertificateChecking(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  /// @brief Method set_CompleteCrlEnabled, addr 0x25ab9b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CompleteCrlEnabled, addr 0x25b6a58, size 0xc, virtual false, abstract: false, final false
   inline void set_CompleteCrlEnabled(bool value);
 
-  /// @brief Method set_DateAndTime, addr 0x25ab908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DateAndTime, addr 0x25b69b0, size 0x8, virtual false, abstract: false, final false
   inline void set_DateAndTime(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method set_DeltaCrlIndicatorEnabled, addr 0x25ab9c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_DeltaCrlIndicatorEnabled, addr 0x25b6a6c, size 0xc, virtual false, abstract: false, final false
   inline void set_DeltaCrlIndicatorEnabled(bool value);
 
-  /// @brief Method set_Issuers, addr 0x25ab910, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_Issuers, addr 0x25b69b8, size 0x68, virtual false, abstract: false, final false
   inline void set_Issuers(::System::Collections::ICollection* value);
 
-  /// @brief Method set_IssuingDistributionPoint, addr 0x25ab9d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_IssuingDistributionPoint, addr 0x25b6a78, size 0x68, virtual false, abstract: false, final false
   inline void set_IssuingDistributionPoint(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method set_IssuingDistributionPointEnabled, addr 0x25aba40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IssuingDistributionPointEnabled, addr 0x25b6ae8, size 0xc, virtual false, abstract: false, final false
   inline void set_IssuingDistributionPointEnabled(bool value);
 
-  /// @brief Method set_MaxBaseCrlNumber, addr 0x25aba54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxBaseCrlNumber, addr 0x25b6afc, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxBaseCrlNumber(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method set_MaxCrlNumber, addr 0x25ab980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxCrlNumber, addr 0x25b6a28, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxCrlNumber(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method set_MinCrlNumber, addr 0x25ab990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MinCrlNumber, addr 0x25b6a38, size 0x8, virtual false, abstract: false, final false
   inline void set_MinCrlNumber(::Org::BouncyCastle::Math::BigInteger* value);
 
 protected:

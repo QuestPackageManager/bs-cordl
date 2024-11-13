@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Experimental::__PointerDownLinkTagEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49663dc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x497aaf4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49663d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497aaec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Experimental::__PointerDownLinkTagEvent____c* getStaticF___9();
@@ -61,7 +61,7 @@ public:
   __PointerDownLinkTagEvent____c(__PointerDownLinkTagEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6459 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,13 +89,13 @@ public:
 
   __declspec(property(put = set_linkText)) ::StringW linkText;
 
-  /// @brief Method GetPooled, addr 0x49662bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x497a9d4, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent* GetPooled(::UnityEngine::UIElements::IPointerEvent* evt, ::StringW linkID, ::StringW linkText);
 
-  /// @brief Method Init, addr 0x496625c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x497a974, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49662b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x497a9c8, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent* New_ctor();
@@ -112,13 +112,13 @@ public:
 
   constexpr void __cordl_internal_set__linkText_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4966324, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497aa3c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_linkID, addr 0x496624c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_linkID, addr 0x497a964, size 0x8, virtual false, abstract: false, final false
   inline void set_linkID(::StringW value);
 
-  /// @brief Method set_linkText, addr 0x4966254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_linkText, addr 0x497a96c, size 0x8, virtual false, abstract: false, final false
   inline void set_linkText(::StringW value);
 
 protected:
@@ -142,7 +142,7 @@ public:
   ::StringW ____linkText_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6460 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

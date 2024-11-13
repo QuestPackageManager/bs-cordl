@@ -112,7 +112,7 @@ public:
   __FSharpUtils____c__55_2(__FSharpUtils____c__55_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10205 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -134,7 +134,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0* New_ctor();
 
-  /// @brief Method <CreateFSharpFuncCall>b__0, addr 0x3e562ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <CreateFSharpFuncCall>b__0, addr 0x3e6a97c, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Object* _CreateFSharpFuncCall_b__0(::System::Object* target, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& __cordl_internal_get_call();
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set_invoke(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3e55fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6a660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -173,7 +173,7 @@ public:
   ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* ___invoke;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10201 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10206 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -230,7 +230,7 @@ public:
   ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ___ctorDelegate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10207 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -333,19 +333,19 @@ public:
   /// @brief Method BuildMapCreator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue> inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* BuildMapCreator();
 
-  /// @brief Method CreateFSharpFuncCall, addr 0x3e55b8c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CreateFSharpFuncCall, addr 0x3e6a21c, size 0x1e4, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* CreateFSharpFuncCall(::System::Type* type, ::StringW methodName);
 
-  /// @brief Method CreateMap, addr 0x3e560d4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method CreateMap, addr 0x3e6a764, size 0x1a8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* CreateMap(::System::Type* keyType, ::System::Type* valueType);
 
-  /// @brief Method CreateSeq, addr 0x3e55fd8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CreateSeq, addr 0x3e6a668, size 0xfc, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* CreateSeq(::System::Type* t);
 
-  /// @brief Method EnsureInitialized, addr 0x3e55e68, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method EnsureInitialized, addr 0x3e6a4f8, size 0x168, virtual false, abstract: false, final false
   static inline void EnsureInitialized(::System::Reflection::Assembly* fsharpCoreAssembly);
 
-  /// @brief Method GetMethodWithNonPublicFallback, addr 0x3e55b18, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetMethodWithNonPublicFallback, addr 0x3e6a1a8, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetMethodWithNonPublicFallback(::System::Type* type, ::StringW methodName, ::System::Reflection::BindingFlags bindingFlags);
 
   static inline ::Newtonsoft::Json::Utilities::FSharpUtils* New_ctor(::System::Reflection::Assembly* fsharpCoreAssembly);
@@ -426,78 +426,78 @@ public:
 
   constexpr void __cordl_internal_set__ofSeq(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method .ctor, addr 0x3e55648, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e69cd8, size 0x4d0, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::Assembly* fsharpCoreAssembly);
 
   static inline ::System::Object* getStaticF_Lock();
 
   static inline ::Newtonsoft::Json::Utilities::FSharpUtils* getStaticF__instance();
 
-  /// @brief Method get_FSharpCoreAssembly, addr 0x3e55dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FSharpCoreAssembly, addr 0x3e6a458, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* get_FSharpCoreAssembly();
 
-  /// @brief Method get_GetUnionCaseInfoDeclaringType, addr 0x3e55e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GetUnionCaseInfoDeclaringType, addr 0x3e6a4b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::System::Object*>* get_GetUnionCaseInfoDeclaringType();
 
-  /// @brief Method get_GetUnionCaseInfoFields, addr 0x3e55e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GetUnionCaseInfoFields, addr 0x3e6a4e8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* get_GetUnionCaseInfoFields();
 
-  /// @brief Method get_GetUnionCaseInfoName, addr 0x3e55e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GetUnionCaseInfoName, addr 0x3e6a4c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::System::Object*>* get_GetUnionCaseInfoName();
 
-  /// @brief Method get_GetUnionCaseInfoTag, addr 0x3e55e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GetUnionCaseInfoTag, addr 0x3e6a4d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::System::Object*>* get_GetUnionCaseInfoTag();
 
-  /// @brief Method get_GetUnionCases, addr 0x3e55de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GetUnionCases, addr 0x3e6a478, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* get_GetUnionCases();
 
-  /// @brief Method get_Instance, addr 0x3e55d70, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x3e6a400, size 0x58, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::FSharpUtils* get_Instance();
 
-  /// @brief Method get_IsUnion, addr 0x3e55dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsUnion, addr 0x3e6a468, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* get_IsUnion();
 
-  /// @brief Method get_PreComputeUnionConstructor, addr 0x3e55e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PreComputeUnionConstructor, addr 0x3e6a4a8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* get_PreComputeUnionConstructor();
 
-  /// @brief Method get_PreComputeUnionReader, addr 0x3e55e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PreComputeUnionReader, addr 0x3e6a498, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* get_PreComputeUnionReader();
 
-  /// @brief Method get_PreComputeUnionTagReader, addr 0x3e55df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PreComputeUnionTagReader, addr 0x3e6a488, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* get_PreComputeUnionTagReader();
 
   static inline void setStaticF_Lock(::System::Object* value);
 
   static inline void setStaticF__instance(::Newtonsoft::Json::Utilities::FSharpUtils* value);
 
-  /// @brief Method set_FSharpCoreAssembly, addr 0x3e55dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FSharpCoreAssembly, addr 0x3e6a460, size 0x8, virtual false, abstract: false, final false
   inline void set_FSharpCoreAssembly(::System::Reflection::Assembly* value);
 
-  /// @brief Method set_GetUnionCaseInfoDeclaringType, addr 0x3e55e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GetUnionCaseInfoDeclaringType, addr 0x3e6a4c0, size 0x8, virtual false, abstract: false, final false
   inline void set_GetUnionCaseInfoDeclaringType(::System::Func_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_GetUnionCaseInfoFields, addr 0x3e55e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GetUnionCaseInfoFields, addr 0x3e6a4f0, size 0x8, virtual false, abstract: false, final false
   inline void set_GetUnionCaseInfoFields(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_GetUnionCaseInfoName, addr 0x3e55e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GetUnionCaseInfoName, addr 0x3e6a4d0, size 0x8, virtual false, abstract: false, final false
   inline void set_GetUnionCaseInfoName(::System::Func_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_GetUnionCaseInfoTag, addr 0x3e55e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GetUnionCaseInfoTag, addr 0x3e6a4e0, size 0x8, virtual false, abstract: false, final false
   inline void set_GetUnionCaseInfoTag(::System::Func_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_GetUnionCases, addr 0x3e55df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GetUnionCases, addr 0x3e6a480, size 0x8, virtual false, abstract: false, final false
   inline void set_GetUnionCases(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_IsUnion, addr 0x3e55de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsUnion, addr 0x3e6a470, size 0x8, virtual false, abstract: false, final false
   inline void set_IsUnion(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_PreComputeUnionConstructor, addr 0x3e55e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PreComputeUnionConstructor, addr 0x3e6a4b0, size 0x8, virtual false, abstract: false, final false
   inline void set_PreComputeUnionConstructor(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_PreComputeUnionReader, addr 0x3e55e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PreComputeUnionReader, addr 0x3e6a4a0, size 0x8, virtual false, abstract: false, final false
   inline void set_PreComputeUnionReader(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_PreComputeUnionTagReader, addr 0x3e55e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PreComputeUnionTagReader, addr 0x3e6a490, size 0x8, virtual false, abstract: false, final false
   inline void set_PreComputeUnionTagReader(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
 protected:
@@ -560,7 +560,7 @@ public:
   static constexpr ::ConstString FSharpSetTypeName{ u"FSharpSet`1" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

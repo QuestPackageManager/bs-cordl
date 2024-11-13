@@ -70,7 +70,7 @@ public:
   static ::UnityEngine::Scripting::__GarbageCollector__Mode const Manual;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10964 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -96,17 +96,17 @@ public:
   /// @brief Field GCModeChanged, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_GCModeChanged, put = setStaticF_GCModeChanged)) ::System::Action_1<::UnityEngine::Scripting::__GarbageCollector__Mode>* GCModeChanged;
 
-  /// @brief Method GetMode, addr 0x4847f3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMode, addr 0x485c654, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Scripting::__GarbageCollector__Mode GetMode();
 
-  /// @brief Method SetMode, addr 0x4847f64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetMode, addr 0x485c67c, size 0x3c, virtual false, abstract: false, final false
   static inline void SetMode(::UnityEngine::Scripting::__GarbageCollector__Mode mode);
 
   static inline ::System::Action_1<::UnityEngine::Scripting::__GarbageCollector__Mode>* getStaticF_GCModeChanged();
 
   static inline void setStaticF_GCModeChanged(::System::Action_1<::UnityEngine::Scripting::__GarbageCollector__Mode>* value);
 
-  /// @brief Method set_GCMode, addr 0x4847e7c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_GCMode, addr 0x485c594, size 0xc0, virtual false, abstract: false, final false
   static inline void set_GCMode(::UnityEngine::Scripting::__GarbageCollector__Mode value);
 
 protected:
@@ -124,7 +124,7 @@ public:
   GarbageCollector(GarbageCollector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10965 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

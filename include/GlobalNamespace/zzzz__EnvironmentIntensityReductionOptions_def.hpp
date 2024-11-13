@@ -71,7 +71,7 @@ public:
   static ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType const RemoveWithStrobeFilter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12794 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -127,7 +127,7 @@ public:
   static ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType const RemoveWithStrobeFilter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12795 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -178,13 +178,13 @@ public:
 
   constexpr void __cordl_internal_set__rotateRings(::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType value);
 
-  /// @brief Method .ctor, addr 0x266d980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2678c40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_compressExpand, addr 0x266d970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_compressExpand, addr 0x2678c30, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType get_compressExpand();
 
-  /// @brief Method get_rotateRings, addr 0x266d978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotateRings, addr 0x2678c38, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType get_rotateRings();
 
 protected:
@@ -208,7 +208,7 @@ public:
   ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType ____rotateRings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12796 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -114,10 +114,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <CreateParameterizedConstructor>b__0, addr 0x3e5b308, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CreateParameterizedConstructor>b__0, addr 0x3e6f998, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Object* _CreateParameterizedConstructor_b__0(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a);
 
-  /// @brief Method <CreateParameterizedConstructor>b__1, addr 0x3e5b324, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <CreateParameterizedConstructor>b__1, addr 0x3e6f9b4, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _CreateParameterizedConstructor_b__1(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a);
 
   constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get_c();
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set_method(::System::Reflection::MethodBase* value);
 
-  /// @brief Method .ctor, addr 0x3e5b294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6f924, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,7 +156,7 @@ public:
   ::System::Reflection::MethodBase* ___method;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10215 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10220 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -228,7 +228,7 @@ public:
   ::System::Reflection::MethodBase* ___method;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10216 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10221 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -294,7 +294,7 @@ public:
   ::System::Reflection::ConstructorInfo* ___constructorInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -345,7 +345,7 @@ public:
   ::System::Reflection::PropertyInfo* ___propertyInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10223 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -396,7 +396,7 @@ public:
   ::System::Reflection::FieldInfo* ___fieldInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10224 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -447,7 +447,7 @@ public:
   ::System::Reflection::FieldInfo* ___fieldInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10225 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -498,7 +498,7 @@ public:
   ::System::Reflection::PropertyInfo* ___propertyInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10226 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -541,7 +541,7 @@ public:
   /// @brief Method CreateMethodCall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::Newtonsoft::Json::Utilities::MethodCall_2<T, ::System::Object*>* CreateMethodCall(::System::Reflection::MethodBase* method);
 
-  /// @brief Method CreateParameterizedConstructor, addr 0x3e5b138, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method CreateParameterizedConstructor, addr 0x3e6f7c8, size 0x15c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* CreateParameterizedConstructor(::System::Reflection::MethodBase* method);
 
   /// @brief Method CreateSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -552,12 +552,12 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e5b29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6f92c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x3e5b0e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x3e6f770, size 0x58, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* get_Instance();
 
   static inline void setStaticF__instance(::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* value);
@@ -577,7 +577,7 @@ public:
   LateBoundReflectionDelegateFactory(LateBoundReflectionDelegateFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10227 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

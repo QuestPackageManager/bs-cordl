@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__DelegateHelpers____c::*)()>(
     &::System::Linq::Expressions::Interpreter::__DelegateHelpers____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4083204;
+  constexpr static std::size_t addrs = 0x409791c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::__DelegateHelpers____c::*)(::System::Type*)>(
     &::System::Linq::Expressions::Interpreter::__DelegateHelpers____c::_MakeDelegate_b__1_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x408320c;
+  constexpr static std::size_t addrs = 0x4097924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
     &::System::Linq::Expressions::Interpreter::DelegateHelpers::MakeDelegate)> {
   constexpr static std::size_t size = 0x670;
-  constexpr static std::size_t addrs = 0x4070258;
+  constexpr static std::size_t addrs = 0x4084970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

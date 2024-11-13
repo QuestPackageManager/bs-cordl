@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Timeline::TimelineHelpURLAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x47a7ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47bc1f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:
@@ -42,7 +42,7 @@ public:
   TimelineHelpURLAttribute(TimelineHelpURLAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15786 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -343,7 +343,7 @@ public:
   ::UnityEngine::UIElements::IPointerEvent* ____UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

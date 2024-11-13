@@ -85,7 +85,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x3fc1f4c, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3fd65dc, size 0x180, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -139,7 +139,7 @@ public:
   ::Unity::Collections::NativeArray_1<::GlobalNamespace::__OVRPlugin__Vector4s> MeshBoneIndices;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8410 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
@@ -179,7 +179,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x3fc20cc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3fd675c, size 0x20, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -203,7 +203,7 @@ public:
   int32_t NumIndices;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8411 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -257,7 +257,7 @@ public:
   ::System::Runtime::InteropServices::GCHandle _handle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8412 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -282,7 +282,7 @@ public:
 
   static inline ::GlobalNamespace::OVRMeshJobs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fc1f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd65d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -300,7 +300,7 @@ public:
   OVRMeshJobs(OVRMeshJobs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8413 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

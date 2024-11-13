@@ -36,7 +36,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 constexpr void
 Zenject::MethodProviderWithContainer_4<TParam1, TParam2, TParam3, TValue>::__cordl_internal_set__method(::System::Func_5<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____method, value);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 inline ::Zenject::MethodProviderWithContainer_4<TParam1, TParam2, TParam3, TValue>*

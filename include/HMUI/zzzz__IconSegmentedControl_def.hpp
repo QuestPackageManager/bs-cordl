@@ -78,25 +78,25 @@ public:
 
   constexpr void __cordl_internal_set__interactable_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x40132f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4027a10, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* icon, ::StringW hintText, bool interactable);
 
-  /// @brief Method get_hintText, addr 0x40132d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hintText, addr 0x40279ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_hintText();
 
-  /// @brief Method get_icon, addr 0x40132c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x40279dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_interactable, addr 0x40132e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x40279fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method set_hintText, addr 0x40132dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x40279f4, size 0x8, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_icon, addr 0x40132cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x40279e4, size 0x8, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_interactable, addr 0x40132ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x4027a04, size 0xc, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
 protected:
@@ -123,7 +123,7 @@ public:
   bool ____interactable_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18707 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -182,18 +182,18 @@ public:
   /// @brief Convert operator to "::HMUI::__SegmentedControl__IDataSource"
   constexpr operator ::HMUI::__SegmentedControl__IDataSource*() noexcept;
 
-  /// @brief Method CellForCellNumber, addr 0x4012fdc, size 0x1c8, virtual true, abstract: false, final true
+  /// @brief Method CellForCellNumber, addr 0x40276f4, size 0x1c8, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
-  /// @brief Method Init, addr 0x4012f68, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4027680, size 0x1c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::IconSegmentedControl* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x4012fc4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x40276dc, size 0x18, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetData, addr 0x4012f84, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x402769c, size 0x40, virtual false, abstract: false, final false
   inline void SetData(::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> dataItems);
 
   constexpr ::ArrayW<::HMUI::__IconSegmentedControl__DataItem*, ::Array<::HMUI::__IconSegmentedControl__DataItem*>*> const& __cordl_internal_get__dataItems() const;
@@ -256,7 +256,7 @@ public:
 
   constexpr void __cordl_internal_set__singleCellPrefab(::UnityW<::HMUI::IconSegmentedControlCell> value);
 
-  /// @brief Method .ctor, addr 0x40132b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40279cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::__SegmentedControl__IDataSource"
@@ -307,7 +307,7 @@ public:
   bool ____isInitialized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18708 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

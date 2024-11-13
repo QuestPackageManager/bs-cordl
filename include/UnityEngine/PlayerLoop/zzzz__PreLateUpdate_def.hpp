@@ -126,7 +126,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11055 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -155,7 +155,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11056 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -184,7 +184,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11057 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -213,7 +213,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11053 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11058 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -242,7 +242,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11059 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -271,7 +271,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11060 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -300,7 +300,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11061 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -329,7 +329,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11062 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -358,7 +358,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11063 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -387,7 +387,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11064 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -416,7 +416,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11065 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -445,7 +445,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11066 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -474,7 +474,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11067 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -503,7 +503,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11068 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -560,7 +560,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11069 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

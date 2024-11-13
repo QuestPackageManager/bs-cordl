@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_localizedText(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x3aa49bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab8558, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   ::UnityW<::UnityEngine::TextAsset> ___localizedText;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5047 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -122,10 +122,10 @@ public:
 
   static inline ::GlobalNamespace::__LocalizedTextAsset____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3aa4a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab85bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedText>b__6_0, addr 0x3aa4a28, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedText>b__6_0, addr 0x3ab85c4, size 0x20, virtual false, abstract: false, final false
   inline bool _get_localizedText_b__6_0(::GlobalNamespace::__LocalizedTextAsset__TextInfo* t);
 
   static inline ::GlobalNamespace::__LocalizedTextAsset____c* getStaticF___9();
@@ -151,7 +151,7 @@ public:
   __LocalizedTextAsset____c(__LocalizedTextAsset____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5048 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -178,10 +178,10 @@ public:
 
   constexpr void __cordl_internal_set_language(::BGLib::Polyglot::Language value);
 
-  /// @brief Method .ctor, addr 0x3aa49ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab8548, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedText>b__1, addr 0x3aa4a48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedText>b__1, addr 0x3ab85e4, size 0x24, virtual false, abstract: false, final false
   inline bool _get_localizedText_b__1(::GlobalNamespace::__LocalizedTextAsset__TextInfo* t);
 
 protected:
@@ -202,7 +202,7 @@ public:
   ::BGLib::Polyglot::Language ___language;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5049 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -252,13 +252,13 @@ public:
 
   constexpr void __cordl_internal_set__textInfos(::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x3aa49b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab8550, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedText, addr 0x3aa46a8, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method get_localizedText, addr 0x3ab8244, size 0x304, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
 
-  /// @brief Method get_textInfos, addr 0x3aa46a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textInfos, addr 0x3ab823c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> get_textInfos();
 
 protected:
@@ -282,7 +282,7 @@ public:
   ::GlobalNamespace::__LocalizedTextAsset__TextInfo* ____lastTextInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5050 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

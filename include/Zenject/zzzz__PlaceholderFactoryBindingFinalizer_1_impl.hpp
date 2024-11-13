@@ -16,7 +16,7 @@ constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryBindInfo*> const
 }
 template <typename TContract> constexpr void Zenject::PlaceholderFactoryBindingFinalizer_1<TContract>::__cordl_internal_set__factoryBindInfo(::Zenject::FactoryBindInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____factoryBindInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____factoryBindInfo, value);
 }
 template <typename TContract>
 inline ::Zenject::PlaceholderFactoryBindingFinalizer_1<TContract>* Zenject::PlaceholderFactoryBindingFinalizer_1<TContract>::New_ctor(::Zenject::BindInfo* bindInfo,

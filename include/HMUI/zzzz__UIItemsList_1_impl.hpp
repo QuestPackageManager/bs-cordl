@@ -49,7 +49,7 @@ template <typename T> constexpr T const& HMUI::UIItemsList_1<T>::__cordl_interna
 }
 template <typename T> constexpr void HMUI::UIItemsList_1<T>::__cordl_internal_set__prefab(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____prefab, value);
 }
 template <typename T> constexpr ::UnityW<::UnityEngine::Transform>& HMUI::UIItemsList_1<T>::__cordl_internal_get__itemsContainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -61,7 +61,7 @@ template <typename T> constexpr ::UnityW<::UnityEngine::Transform> const& HMUI::
 }
 template <typename T> constexpr void HMUI::UIItemsList_1<T>::__cordl_internal_set__itemsContainer(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____itemsContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____itemsContainer, value);
 }
 template <typename T> constexpr bool& HMUI::UIItemsList_1<T>::__cordl_internal_get__insertInTheBeginning() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -85,7 +85,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Co
 }
 template <typename T> constexpr void HMUI::UIItemsList_1<T>::__cordl_internal_set__items(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____items, value);
 }
 template <typename T> constexpr ::Zenject::DiContainer*& HMUI::UIItemsList_1<T>::__cordl_internal_get__container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -97,7 +97,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::Zenject::D
 }
 template <typename T> constexpr void HMUI::UIItemsList_1<T>::__cordl_internal_set__container(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____container, value);
 }
 template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* HMUI::UIItemsList_1<T>::get_items() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIItemsList_1<T>*>::get(), "get_items",

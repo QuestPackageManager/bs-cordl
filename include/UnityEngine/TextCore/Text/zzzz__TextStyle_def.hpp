@@ -57,7 +57,7 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextStyle* New_ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
-  /// @brief Method RefreshStyle, addr 0x48d7124, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyle, addr 0x48eb83c, size 0x1b4, virtual false, abstract: false, final false
   inline void RefreshStyle();
 
   constexpr ::StringW const& __cordl_internal_get_m_ClosingDefinition() const;
@@ -108,18 +108,18 @@ public:
 
   constexpr void __cordl_internal_set_m_OpeningTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x48d70d8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48eb7f0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
   static inline ::UnityEngine::TextCore::Text::TextStyle* getStaticF_k_NormalStyle();
 
-  /// @brief Method get_hashCode, addr 0x48cfd18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x48e4430, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_styleClosingTagArray, addr 0x48d02b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleClosingTagArray, addr 0x48e49cc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_styleClosingTagArray();
 
-  /// @brief Method get_styleOpeningTagArray, addr 0x48cfd20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleOpeningTagArray, addr 0x48e4438, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_styleOpeningTagArray();
 
   static inline void setStaticF_k_NormalStyle(::UnityEngine::TextCore::Text::TextStyle* value);
@@ -163,7 +163,7 @@ public:
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ___m_ClosingTagUnicodeArray;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15258 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

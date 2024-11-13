@@ -77,7 +77,7 @@ HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::__cordl_internal
 template <typename TKey, typename TValue>
 constexpr void HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::__cordl_internal_set__dictionary(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____dictionary, value);
 }
 template <typename TKey, typename TValue> constexpr ::ArrayW<TKey, ::Array<TKey>*>& HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::__cordl_internal_get__keys() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -89,7 +89,7 @@ template <typename TKey, typename TValue> constexpr ::ArrayW<TKey, ::Array<TKey>
 }
 template <typename TKey, typename TValue> constexpr void HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::__cordl_internal_set__keys(::ArrayW<TKey, ::Array<TKey>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____keys, value);
 }
 template <typename TKey, typename TValue> constexpr ::ArrayW<TValue, ::Array<TValue>*>& HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::__cordl_internal_get__values() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -101,7 +101,7 @@ template <typename TKey, typename TValue> constexpr ::ArrayW<TValue, ::Array<TVa
 }
 template <typename TKey, typename TValue> constexpr void HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::__cordl_internal_set__values(::ArrayW<TValue, ::Array<TValue>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____values, value);
 }
 template <typename TKey, typename TValue> inline TValue HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::get_Item(TKey key) {
   static auto* ___internal_method =

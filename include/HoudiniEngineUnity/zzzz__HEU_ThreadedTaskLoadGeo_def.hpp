@@ -160,7 +160,7 @@ public:
   static ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType const NODE;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11759 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -224,7 +224,7 @@ public:
   static ::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus const SUCCESS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11760 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -306,7 +306,7 @@ public:
 
   constexpr void __cordl_internal_set__session(::HoudiniEngineUnity::HEU_SessionBase* value);
 
-  /// @brief Method .ctor, addr 0x39fd5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a10f54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -342,7 +342,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>* ____idBuffersMap;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11761 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -420,7 +420,7 @@ public:
 
   constexpr void __cordl_internal_set__terrainBuffers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* value);
 
-  /// @brief Method .ctor, addr 0x39fd604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a10f5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -453,7 +453,7 @@ public:
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>* ____instancerBuffers;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11762 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -514,7 +514,7 @@ public:
   static ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallbackType const PRECOOK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11763 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -535,20 +535,20 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE __HEU_ThreadedTaskLoadGeo__HEU_LoadCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x39fd724, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3a1107c, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* loadData,
                                              ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallbackType callbackType, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x39fd7bc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3a11114, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x39fd710, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3a11068, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* loadData,
                      ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallbackType callbackType);
 
   static inline ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x39fd60c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a10f64, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -566,7 +566,7 @@ public:
   __HEU_ThreadedTaskLoadGeo__HEU_LoadCallback(__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11764 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -613,121 +613,121 @@ public:
   /// @brief Field _session, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__session, put = __cordl_internal_set__session)) ::HoudiniEngineUnity::HEU_SessionBase* _session;
 
-  /// @brief Method AppendLog, addr 0x39f9208, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AppendLog, addr 0x3a0cb60, size 0x114, virtual false, abstract: false, final false
   inline void AppendLog(::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus status, ::StringW logStr);
 
-  /// @brief Method BuildBufferIDsMap, addr 0x39fbb40, size 0x4c4, virtual true, abstract: false, final false
+  /// @brief Method BuildBufferIDsMap, addr 0x3a0f498, size 0x4c4, virtual true, abstract: false, final false
   inline void BuildBufferIDsMap(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* loadData);
 
-  /// @brief Method CleanUp, addr 0x39fc818, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x3a10170, size 0x8, virtual true, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method CookNode, addr 0x39f931c, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method CookNode, addr 0x3a0cc74, size 0x19c, virtual true, abstract: false, final false
   inline bool CookNode(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t cookNodeID);
 
-  /// @brief Method CreateFileNode, addr 0x39fc260, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateFileNode, addr 0x3a0fbb8, size 0x8c, virtual false, abstract: false, final false
   inline bool CreateFileNode(ByRef<int32_t> fileNodeID);
 
-  /// @brief Method CreateLogString, addr 0x39fc820, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateLogString, addr 0x3a10178, size 0xa4, virtual false, abstract: false, final false
   inline ::StringW CreateLogString(::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus status, ::StringW logStr);
 
-  /// @brief Method DoAssetLoad, addr 0x39fc3f4, size 0x310, virtual true, abstract: false, final false
+  /// @brief Method DoAssetLoad, addr 0x3a0fd4c, size 0x310, virtual true, abstract: false, final false
   inline bool DoAssetLoad();
 
-  /// @brief Method DoFileLoad, addr 0x39fc004, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method DoFileLoad, addr 0x3a0f95c, size 0x25c, virtual true, abstract: false, final false
   inline bool DoFileLoad();
 
-  /// @brief Method DoWork, addr 0x39f8ed0, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method DoWork, addr 0x3a0c828, size 0x338, virtual true, abstract: false, final false
   inline void DoWork();
 
-  /// @brief Method GenerateInstancerBuffers, addr 0x39fb72c, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method GenerateInstancerBuffers, addr 0x3a0f084, size 0x414, virtual false, abstract: false, final false
   inline bool GenerateInstancerBuffers(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* instancerParts,
                                        ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*> instancerBuffers);
 
-  /// @brief Method GenerateMeshBuffers, addr 0x39f9dc0, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method GenerateMeshBuffers, addr 0x3a0d718, size 0x4ec, virtual false, abstract: false, final false
   inline bool GenerateMeshBuffers(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* meshParts,
                                   bool bSplitPoints, bool bUseLODGroups, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals,
                                   ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*> meshBuffers);
 
-  /// @brief Method GeneratePartsInstancerBuffer, addr 0x39fcfb4, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GeneratePartsInstancerBuffer, addr 0x3a1090c, size 0x2b0, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_LoadBufferInstancer* GeneratePartsInstancerBuffer(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW partName,
                                                                                      ::HoudiniEngineUnity::HAPI_PartInfo partInfo);
 
-  /// @brief Method GeneratePointAttributeInstancerBuffer, addr 0x39fd264, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method GeneratePointAttributeInstancerBuffer, addr 0x3a10bbc, size 0x398, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_LoadBufferInstancer* GeneratePointAttributeInstancerBuffer(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW partName,
                                                                                               ::HoudiniEngineUnity::HAPI_PartInfo partInfo);
 
-  /// @brief Method GenerateTerrainBuffers, addr 0x39fa2ac, size 0x1480, virtual false, abstract: false, final false
+  /// @brief Method GenerateTerrainBuffers, addr 0x3a0dc04, size 0x1480, virtual false, abstract: false, final false
   inline bool GenerateTerrainBuffers(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* volumeParts,
                                      ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>* scatterInstancerParts,
                                      ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*> volumeBuffers);
 
-  /// @brief Method GetCookNodeID, addr 0x39fca04, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetCookNodeID, addr 0x3a1035c, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetCookNodeID();
 
-  /// @brief Method GetDisplayNodeID, addr 0x39fc2ec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayNodeID, addr 0x3a0fc44, size 0x50, virtual false, abstract: false, final false
   inline int32_t GetDisplayNodeID(int32_t objNodeID);
 
-  /// @brief Method GetLoadBufferVolumeFromTileIndex, addr 0x39fce5c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetLoadBufferVolumeFromTileIndex, addr 0x3a107b4, size 0x158, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_LoadBufferVolume* GetLoadBufferVolumeFromTileIndex(int32_t tileIndex,
                                                                                              ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* buffers);
 
-  /// @brief Method LoadFloatFromAttribute, addr 0x39fcaa4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method LoadFloatFromAttribute, addr 0x3a103fc, size 0x124, virtual false, abstract: false, final false
   inline void LoadFloatFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ByRef<float_t> floatValue);
 
-  /// @brief Method LoadLayerColorFromAttribute, addr 0x39fcbc8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method LoadLayerColorFromAttribute, addr 0x3a10520, size 0x160, virtual false, abstract: false, final false
   inline void LoadLayerColorFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ByRef<::UnityEngine::Color> colorValue);
 
-  /// @brief Method LoadLayerVector2FromAttribute, addr 0x39fcd28, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method LoadLayerVector2FromAttribute, addr 0x3a10680, size 0x134, virtual false, abstract: false, final false
   inline void LoadLayerVector2FromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ByRef<::UnityEngine::Vector2> vectorValue);
 
-  /// @brief Method LoadNodeBuffer, addr 0x39f968c, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method LoadNodeBuffer, addr 0x3a0cfe4, size 0x2b0, virtual true, abstract: false, final false
   inline bool LoadNodeBuffer(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject* loadObject);
 
-  /// @brief Method LoadObjectBuffers, addr 0x39f94c4, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method LoadObjectBuffers, addr 0x3a0ce1c, size 0x1c8, virtual true, abstract: false, final false
   inline bool LoadObjectBuffers(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_ObjectInfo> objectInfo);
 
-  /// @brief Method LoadStringFromAttribute, addr 0x39fca20, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LoadStringFromAttribute, addr 0x3a10378, size 0x84, virtual false, abstract: false, final false
   inline void LoadStringFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ByRef<::StringW> strValue);
 
   static inline ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* New_ctor();
 
-  /// @brief Method OnComplete, addr 0x39fc704, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnComplete, addr 0x3a1005c, size 0x90, virtual true, abstract: false, final false
   inline void OnComplete();
 
-  /// @brief Method OnStopped, addr 0x39fc794, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnStopped, addr 0x3a100ec, size 0x84, virtual true, abstract: false, final false
   inline void OnStopped();
 
-  /// @brief Method QueryParts, addr 0x39f993c, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method QueryParts, addr 0x3a0d294, size 0x484, virtual false, abstract: false, final false
   inline bool QueryParts(int32_t nodeID, ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*> meshParts,
                          ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*> volumeParts,
                          ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*> instancerParts,
                          ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*> curveParts,
                          ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HAPI_PartInfo>*> scatterInstancerParts);
 
-  /// @brief Method SetFileParm, addr 0x39fc33c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SetFileParm, addr 0x3a0fc94, size 0xb8, virtual false, abstract: false, final false
   inline bool SetFileParm(int32_t fileNodeID, ::StringW filePath);
 
-  /// @brief Method SetLoadCallback, addr 0x39f8ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLoadCallback, addr 0x3a0c820, size 0x8, virtual false, abstract: false, final false
   inline void SetLoadCallback(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback* loadCallback);
 
-  /// @brief Method SetLog, addr 0x39fc8c4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SetLog, addr 0x3a1021c, size 0x140, virtual false, abstract: false, final false
   inline void SetLog(::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus status, ::StringW logStr);
 
-  /// @brief Method SetupLoad, addr 0x39f8de4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetupLoad, addr 0x3a0c73c, size 0xe4, virtual false, abstract: false, final false
   inline void SetupLoad(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType loadType,
                         int32_t cookNodeID, ::StringW name, ::StringW filePath);
 
-  /// @brief Method SetupLoadAsset, addr 0x39f1f44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetupLoadAsset, addr 0x3a0589c, size 0x14, virtual false, abstract: false, final false
   inline void SetupLoadAsset(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, ::StringW assetPath, ::StringW name);
 
-  /// @brief Method SetupLoadFile, addr 0x39f68d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetupLoadFile, addr 0x3a0a22c, size 0x14, virtual false, abstract: false, final false
   inline void SetupLoadFile(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, int32_t cookNodeID, ::StringW filePath);
 
-  /// @brief Method SetupLoadNode, addr 0x39f6a88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetupLoadNode, addr 0x3a0a3e0, size 0x14, virtual false, abstract: false, final false
   inline void SetupLoadNode(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, int32_t cookNodeID, ::StringW name);
 
-  /// @brief Method Sleep, addr 0x39f94b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Sleep, addr 0x3a0ce10, size 0xc, virtual false, abstract: false, final false
   inline void Sleep();
 
   constexpr ::StringW const& __cordl_internal_get__filePath() const;
@@ -772,7 +772,7 @@ public:
 
   constexpr void __cordl_internal_set__session(::HoudiniEngineUnity::HEU_SessionBase* value);
 
-  /// @brief Method .ctor, addr 0x39f1ea8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a05800, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -811,7 +811,7 @@ public:
   ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback* ____loadCallback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11765 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

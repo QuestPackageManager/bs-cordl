@@ -69,7 +69,7 @@ public:
   static ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling const LeaveAsIs;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5040 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -115,7 +115,7 @@ public:
 
   static inline ::GlobalNamespace::ReflectionProbeBakingOverride* New_ctor();
 
-  /// @brief Method UpdateForProbeBaking, addr 0x3aa4374, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UpdateForProbeBaking, addr 0x3ab7f10, size 0xe8, virtual false, abstract: false, final false
   inline void UpdateForProbeBaking();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__localPosition() const;
@@ -160,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set__stateHandling(::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling value);
 
-  /// @brief Method .ctor, addr 0x3aa445c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab7ff8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -199,7 +199,7 @@ public:
   ::UnityEngine::Vector3 ____localScale;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5041 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

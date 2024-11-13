@@ -109,7 +109,7 @@ public:
   static ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> const Lifo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14874 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -208,7 +208,7 @@ public:
   int32_t ___clearCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14875 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -329,7 +329,7 @@ public:
   ::GlobalNamespace::__OrderedSet_1__Node<T>* ____next_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14876 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -509,7 +509,7 @@ public:
   int32_t ____clearCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14877 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

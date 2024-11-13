@@ -22,18 +22,18 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE Check : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DataLength, addr 0x2409980, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DataLength, addr 0x2414a28, size 0x64, virtual false, abstract: false, final false
   static inline void DataLength(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::StringW msg);
 
-  /// @brief Method DataLength, addr 0x2409938, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method DataLength, addr 0x24149e0, size 0x48, virtual false, abstract: false, final false
   static inline void DataLength(bool condition, ::StringW msg);
 
   static inline ::Org::BouncyCastle::Crypto::Check* New_ctor();
 
-  /// @brief Method OutputLength, addr 0x24099e4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OutputLength, addr 0x2414a8c, size 0x64, virtual false, abstract: false, final false
   static inline void OutputLength(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::StringW msg);
 
-  /// @brief Method .ctor, addr 0x2409a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2414af4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SonyPublisherSKUSettingsSO::*)()>(
     &::GlobalNamespace::SonyPublisherSKUSettingsSO::get_skuName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26abe6c;
+  constexpr static std::size_t addrs = 0x26b7c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SonyPublisherSKUSettingsSO::*)()>(
     &::GlobalNamespace::SonyPublisherSKUSettingsSO::get_serviceIdPrefix)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26abe74;
+  constexpr static std::size_t addrs = 0x26b7c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SonyPublisherSKUSettingsSO::*)()>(
     &::GlobalNamespace::SonyPublisherSKUSettingsSO::get_titleId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26abe7c;
+  constexpr static std::size_t addrs = 0x26b7c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SonyPublisherSKUSettingsSO::*)()>(
     &::GlobalNamespace::SonyPublisherSKUSettingsSO::get_productLabel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26abe84;
+  constexpr static std::size_t addrs = 0x26b7c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(),
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPublisherSKUSettingsSO::*)()>(&::GlobalNamespace::SonyPublisherSKUSettingsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a69b0;
+  constexpr static std::size_t addrs = 0x26b25d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyPublisherSKUSettingsSO*>::get(), ".ctor",

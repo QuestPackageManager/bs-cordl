@@ -56,7 +56,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__UnsignedIntegerField__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4997564, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49abc7c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   __UnsignedIntegerField__UxmlFactory(__UnsignedIntegerField__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5692 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -92,7 +92,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__UnsignedIntegerField__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49975ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49abcc4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   __UnsignedIntegerField__UxmlTraits(__UnsignedIntegerField__UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5693 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -130,24 +130,24 @@ public:
 
   __declspec(property(get = get_parentUnsignedIntegerField)) ::UnityEngine::UIElements::UnsignedIntegerField* parentUnsignedIntegerField;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x49976cc, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x49abde4, size 0x250, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, uint32_t startValue);
 
   static inline ::UnityEngine::UIElements::__UnsignedIntegerField__UnsignedIntegerInput* New_ctor();
 
-  /// @brief Method StringToValue, addr 0x4997968, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x49ac080, size 0xa8, virtual true, abstract: false, final false
   inline uint32_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x499791c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x49ac034, size 0x4c, virtual true, abstract: false, final false
   inline ::StringW ValueToString(uint32_t v);
 
-  /// @brief Method .ctor, addr 0x4997378, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49aba90, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowedCharacters, addr 0x4997674, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_allowedCharacters, addr 0x49abd8c, size 0x58, virtual true, abstract: false, final false
   inline ::StringW get_allowedCharacters();
 
-  /// @brief Method get_parentUnsignedIntegerField, addr 0x49975f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_parentUnsignedIntegerField, addr 0x49abd0c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UnsignedIntegerField* get_parentUnsignedIntegerField();
 
 protected:
@@ -165,7 +165,7 @@ public:
   __UnsignedIntegerField__UnsignedIntegerInput(__UnsignedIntegerField__UnsignedIntegerInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5694 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -198,26 +198,26 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x4997430, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x49abb48, size 0x64, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, uint32_t startValue);
 
-  /// @brief Method CanTryParse, addr 0x499740c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CanTryParse, addr 0x49abb24, size 0x24, virtual true, abstract: false, final false
   inline bool CanTryParse(::StringW textString);
 
   static inline ::UnityEngine::UIElements::UnsignedIntegerField* New_ctor();
 
   static inline ::UnityEngine::UIElements::UnsignedIntegerField* New_ctor(::StringW label, int32_t maxLength);
 
-  /// @brief Method StringToValue, addr 0x4997140, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x49ab858, size 0xdc, virtual true, abstract: false, final false
   inline uint32_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x4997088, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x49ab7a0, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ValueToString(uint32_t v);
 
-  /// @brief Method .ctor, addr 0x499721c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ab934, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4997228, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ab940, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -226,7 +226,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_integerInput, addr 0x4997004, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_integerInput, addr 0x49ab71c, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__UnsignedIntegerField__UnsignedIntegerInput* get_integerInput();
 
   static inline void setStaticF_inputUssClassName(::StringW value);
@@ -250,7 +250,7 @@ public:
   UnsignedIntegerField(UnsignedIntegerField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5695 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

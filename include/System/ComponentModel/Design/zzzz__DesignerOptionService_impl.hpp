@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::*)(
     ::System::ComponentModel::PropertyDescriptor*, ::System::Object*)>(&::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4407a40;
+  constexpr static std::size_t addrs = 0x441c158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::AttributeCollection* (::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::*)()>(
         &::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::get_Attributes)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4407b0c;
+  constexpr static std::size_t addrs = 0x441c224;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Type* (::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::*)()>(
         &::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4407b2c;
+  constexpr static std::size_t addrs = 0x441c244;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::*)()>(
     &::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4407b50;
+  constexpr static std::size_t addrs = 0x441c268;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Type* (::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::*)()>(
         &::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::get_PropertyType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4407b74;
+  constexpr static std::size_t addrs = 0x441c28c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::*)(
     ::System::Object*)>(&::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4407b98;
+  constexpr static std::size_t addrs = 0x441c2b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::*)(::System::Object*)>(
         &::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::GetValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4407bc4;
+  constexpr static std::size_t addrs = 0x441c2dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::*)(
     ::System::Object*)>(&::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4407bf0;
+  constexpr static std::size_t addrs = 0x441c308;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::*)(
     ::System::Object*, ::System::Object*)>(&::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4407c1c;
+  constexpr static std::size_t addrs = 0x441c334;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::*)(
     ::System::Object*)>(&::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4407c48;
+  constexpr static std::size_t addrs = 0x441c360;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::*)()>(
     &::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::get_Count)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4407230;
+  constexpr static std::size_t addrs = 0x441b948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::*)()>(
     &::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44072e4;
+  constexpr static std::size_t addrs = 0x441b9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (
     ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::*)()>(&::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::get_Properties)> {
   constexpr static std::size_t size = 0x754;
-  constexpr static std::size_t addrs = 0x44072ec;
+  constexpr static std::size_t addrs = 0x441ba04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::*)(
     ::System::Array*, int32_t)>(&::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::CopyTo)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4407a90;
+  constexpr static std::size_t addrs = 0x441c1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::*)()>(
     &::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::EnsurePopulated)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x440725c;
+  constexpr static std::size_t addrs = 0x441b974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::*)()>(&::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4407ad4;
+  constexpr static std::size_t addrs = 0x441c1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::*)()>(
     &::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4407b00;
+  constexpr static std::size_t addrs = 0x441c218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::*)()>(
     &::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4407b08;
+  constexpr static std::size_t addrs = 0x441c220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -525,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::*)(
     ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection*)>(&::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4408264;
+  constexpr static std::size_t addrs = 0x441c97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -541,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::*)()>(
     &::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4408388;
+  constexpr static std::size_t addrs = 0x441caa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -557,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::*)()>(
     &::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44083a4;
+  constexpr static std::size_t addrs = 0x441cabc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::*)()>(
     &::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::get_PropertyType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x44083ac;
+  constexpr static std::size_t addrs = 0x441cac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -589,7 +589,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::*)(
     ::System::Object*)>(&::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44083c8;
+  constexpr static std::size_t addrs = 0x441cae0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -606,7 +606,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::*)(::System::Object*)>(
         &::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44083d0;
+  constexpr static std::size_t addrs = 0x441cae8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::*)(
     ::System::Object*)>(&::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44083d8;
+  constexpr static std::size_t addrs = 0x441caf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -638,7 +638,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::*)(
     ::System::Object*, ::System::Object*)>(&::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44083dc;
+  constexpr static std::size_t addrs = 0x441caf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::*)(
     ::System::Object*)>(&::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44083e0;
+  constexpr static std::size_t addrs = 0x441caf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -747,7 +747,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*)>(&::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4407c74;
+  constexpr static std::size_t addrs = 0x441c38c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -765,7 +765,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionConverter::GetProperties)> {
   constexpr static std::size_t size = 0x5e8;
-  constexpr static std::size_t addrs = 0x4407c7c;
+  constexpr static std::size_t addrs = 0x441c394;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -783,7 +783,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                                                                           ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
         &::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionConverter::ConvertTo)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x440829c;
+  constexpr static std::size_t addrs = 0x441c9b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -799,7 +799,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionConverter::*)()>(
     &::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4408380;
+  constexpr static std::size_t addrs = 0x441ca98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -847,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Design::DesignerOptionService::*)(
     ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection*)>(&::System::ComponentModel::Design::DesignerOptionService::PopulateOptionCollection)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x440722c;
+  constexpr static std::size_t addrs = 0x441b944;
 
   inline static ::MethodInfo const* methodInfo() {
 

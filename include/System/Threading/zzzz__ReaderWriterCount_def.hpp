@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_writercount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4090498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a4bb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,7 +100,7 @@ public:
   ::System::Threading::ReaderWriterCount* ___next;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14160 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)()>(&::GlobalNamespace::AnniversaryManager::Start)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3a5fab8;
+  constexpr static std::size_t addrs = 0x3a73410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnniversaryManager*>::get(), "Start",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)()>(&::GlobalNamespace::AnniversaryManager::OnDestroy)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3a5fbcc;
+  constexpr static std::size_t addrs = 0x3a73524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnniversaryManager*>::get(), "OnDestroy",
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)(
     ::GlobalNamespace::MainMenuViewController*, ::GlobalNamespace::__MainMenuViewController__MenuButton)>(&::GlobalNamespace::AnniversaryManager::HandleMainMenuViewControllerDidFinish)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a5fcf8;
+  constexpr static std::size_t addrs = 0x3a73650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)(::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*)>(
     &::GlobalNamespace::AnniversaryManager::HandleMainMenuViewControllerPromoButtonWasPressed)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a5fd1c;
+  constexpr static std::size_t addrs = 0x3a73674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)()>(&::GlobalNamespace::AnniversaryManager::StartFireworks)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3a5fbac;
+  constexpr static std::size_t addrs = 0x3a73504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnniversaryManager*>::get(), "StartFireworks",
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)()>(&::GlobalNamespace::AnniversaryManager::StopFireworks)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3a5fcfc;
+  constexpr static std::size_t addrs = 0x3a73654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnniversaryManager*>::get(), "StopFireworks",
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnniversaryManager::*)()>(&::GlobalNamespace::AnniversaryManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a5fd20;
+  constexpr static std::size_t addrs = 0x3a73678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AnniversaryManager*>::get(), ".ctor",

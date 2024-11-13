@@ -36,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::CreateServerFormController* New_ctor();
 
-  /// @brief Method Setup, addr 0x3ae0fe0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3af4cec, size 0x3c, virtual false, abstract: false, final false
   inline void Setup(int32_t selectedNumberOfPlayers, bool netDiscoverable);
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__maxPlayersList() const;
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__netDiscoverable(bool value);
 
-  /// @brief Method .ctor, addr 0x3ae101c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af4d28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_formData, addr 0x3ae0ef4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_formData, addr 0x3af4c00, size 0xec, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CreateServerFormData get_formData();
 
 protected:
@@ -78,7 +78,7 @@ public:
   bool ____netDiscoverable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5290 };
 
   /// @brief Field kMaxPlayers offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPlayers{ static_cast<int32_t>(0x5) };

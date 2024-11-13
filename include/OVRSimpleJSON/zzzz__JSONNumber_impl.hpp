@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNodeType (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::get_Tag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fdd7c8;
+  constexpr static std::size_t addrs = 0x3ff1e58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::get_IsNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fdd7d0;
+  constexpr static std::size_t addrs = 0x3ff1e60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::__JSONNode__Enumerator (::OVRSimpleJSON::JSONNumber::*)()>(
     &::OVRSimpleJSON::JSONNumber::GetEnumerator)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3fdd7d8;
+  constexpr static std::size_t addrs = 0x3ff1e68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::get_Value)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3fdd7ec;
+  constexpr static std::size_t addrs = 0x3ff1e7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)(::StringW)>(&::OVRSimpleJSON::JSONNumber::set_Value)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3fdd854;
+  constexpr static std::size_t addrs = 0x3ff1ee4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::get_AsDouble)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fdd8e0;
+  constexpr static std::size_t addrs = 0x3ff1f70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)(double_t)>(&::OVRSimpleJSON::JSONNumber::set_AsDouble)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fdd8e8;
+  constexpr static std::size_t addrs = 0x3ff1f78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::get_AsLong)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3fdd8f0;
+  constexpr static std::size_t addrs = 0x3ff1f80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)(int64_t)>(&::OVRSimpleJSON::JSONNumber::set_AsLong)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fdd910;
+  constexpr static std::size_t addrs = 0x3ff1fa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)(double_t)>(&::OVRSimpleJSON::JSONNumber::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3fd2a24;
+  constexpr static std::size_t addrs = 0x3fe70b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONNumber::*)(::StringW)>(&::OVRSimpleJSON::JSONNumber::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3fdd91c;
+  constexpr static std::size_t addrs = 0x3ff1fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::OVRSimpleJSON::JSONNumber::*)(::System::Text::StringBuilder*, int32_t, int32_t, ::OVRSimpleJSON::JSONTextMode)>(&::OVRSimpleJSON::JSONNumber::WriteToStringBuilder)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3fdd950;
+  constexpr static std::size_t addrs = 0x3ff1fe0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*)>(&::OVRSimpleJSON::JSONNumber::IsNumeric)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3fdd984;
+  constexpr static std::size_t addrs = 0x3ff2014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::JSONNumber::*)(::System::Object*)>(&::OVRSimpleJSON::JSONNumber::Equals)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3fddb24;
+  constexpr static std::size_t addrs = 0x3ff21b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::OVRSimpleJSON::JSONNumber::*)()>(&::OVRSimpleJSON::JSONNumber::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3fddc30;
+  constexpr static std::size_t addrs = 0x3ff22c0;
 
   inline static ::MethodInfo const* methodInfo() {
 

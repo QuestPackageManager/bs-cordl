@@ -71,37 +71,37 @@ public:
 
   constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4248254, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x425c96c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4248204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x425c91c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameAttribute, addr 0x4248244, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameAttribute, addr 0x425c95c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameAttribute();
 
-  /// @brief Method get_Public, addr 0x4248214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Public, addr 0x425c92c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Public();
 
-  /// @brief Method get_QualifiedName, addr 0x4248234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QualifiedName, addr 0x425c94c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
 
-  /// @brief Method get_System, addr 0x4248224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_System, addr 0x425c93c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_System();
 
-  /// @brief Method set_Name, addr 0x424820c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x425c924, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_NameAttribute, addr 0x424824c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_NameAttribute, addr 0x425c964, size 0x8, virtual true, abstract: false, final false
   inline void set_NameAttribute(::StringW value);
 
-  /// @brief Method set_Public, addr 0x424821c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Public, addr 0x425c934, size 0x8, virtual false, abstract: false, final false
   inline void set_Public(::StringW value);
 
-  /// @brief Method set_QualifiedName, addr 0x424823c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QualifiedName, addr 0x425c954, size 0x8, virtual false, abstract: false, final false
   inline void set_QualifiedName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_System, addr 0x424822c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_System, addr 0x425c944, size 0x8, virtual false, abstract: false, final false
   inline void set_System(::StringW value);
 
 protected:
@@ -131,7 +131,7 @@ public:
   ::System::Xml::XmlQualifiedName* ___qname;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7675 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -79,16 +79,16 @@ public:
 
   constexpr void __cordl_internal_set_lightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3bb2d18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc73a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightColor, addr 0x3bb2cc4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_lightColor, addr 0x3bc7354, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_lightColor();
 
-  /// @brief Method get_useScriptableObjectColor, addr 0x3bb2d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useScriptableObjectColor, addr 0x3bc7394, size 0x8, virtual false, abstract: false, final false
   inline bool get_useScriptableObjectColor();
 
-  /// @brief Method set_useScriptableObjectColor, addr 0x3bb2d0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useScriptableObjectColor, addr 0x3bc739c, size 0xc, virtual false, abstract: false, final false
   inline void set_useScriptableObjectColor(bool value);
 
 protected:
@@ -121,7 +121,7 @@ public:
   float_t ___intensity;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19139 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

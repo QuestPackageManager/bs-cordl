@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (*)(::System::Type*, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::ModestTree::ReflectionUtil::CreateArray)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x4a7bec0;
+  constexpr static std::size_t addrs = 0x4a905d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (*)(::System::Type*, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::ModestTree::ReflectionUtil::CreateGenericList)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x4a7c118;
+  constexpr static std::size_t addrs = 0x4a90830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::MethodInfo*)>(&::ModestTree::ReflectionUtil::ToDebugString)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4a7c4bc;
+  constexpr static std::size_t addrs = 0x4a90bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Action*)>(&::ModestTree::ReflectionUtil::ToDebugString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a7c5ec;
+  constexpr static std::size_t addrs = 0x4a90d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

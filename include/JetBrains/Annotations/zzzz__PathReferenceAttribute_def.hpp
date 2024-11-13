@@ -35,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__BasePath_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a77be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c2f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a77be8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c300, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW basePath);
 
-  /// @brief Method get_BasePath, addr 0x4a77c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BasePath, addr 0x4a8c328, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BasePath();
 
-  /// @brief Method set_BasePath, addr 0x4a77c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BasePath, addr 0x4a8c330, size 0x8, virtual false, abstract: false, final false
   inline void set_BasePath(::StringW value);
 
 protected:
@@ -65,7 +65,7 @@ public:
   ::StringW ____BasePath_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

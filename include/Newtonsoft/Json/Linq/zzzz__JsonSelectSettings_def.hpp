@@ -52,19 +52,19 @@ public:
 
   constexpr void __cordl_internal_set__RegexMatchTimeout_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method .ctor, addr 0x3ea975c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebddec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ErrorWhenNoMatch, addr 0x3ea9748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorWhenNoMatch, addr 0x3ebddd8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ErrorWhenNoMatch();
 
-  /// @brief Method get_RegexMatchTimeout, addr 0x3ea9734, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_RegexMatchTimeout, addr 0x3ebddc4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_RegexMatchTimeout();
 
-  /// @brief Method set_ErrorWhenNoMatch, addr 0x3ea9750, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorWhenNoMatch, addr 0x3ebdde0, size 0xc, virtual false, abstract: false, final false
   inline void set_ErrorWhenNoMatch(bool value);
 
-  /// @brief Method set_RegexMatchTimeout, addr 0x3ea9740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RegexMatchTimeout, addr 0x3ebddd0, size 0x8, virtual false, abstract: false, final false
   inline void set_RegexMatchTimeout(::System::Nullable_1<::System::TimeSpan> value);
 
 protected:
@@ -88,7 +88,7 @@ public:
   bool ____ErrorWhenNoMatch_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

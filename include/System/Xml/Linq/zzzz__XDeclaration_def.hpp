@@ -39,7 +39,7 @@ public:
 
   static inline ::System::Xml::Linq::XDeclaration* New_ctor(::StringW version, ::StringW encoding, ::StringW standalone);
 
-  /// @brief Method ToString, addr 0x41d3438, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41e7b50, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__encoding() const;
@@ -60,25 +60,25 @@ public:
 
   constexpr void __cordl_internal_set__version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x41d3390, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41e7aa8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDeclaration* other);
 
-  /// @brief Method .ctor, addr 0x41d3354, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41e7a6c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW version, ::StringW encoding, ::StringW standalone);
 
-  /// @brief Method get_Encoding, addr 0x41d3410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x41e7b28, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Encoding();
 
-  /// @brief Method get_Standalone, addr 0x41d3420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Standalone, addr 0x41e7b38, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Standalone();
 
-  /// @brief Method get_Version, addr 0x41d3430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x41e7b48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Version();
 
-  /// @brief Method set_Encoding, addr 0x41d3418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Encoding, addr 0x41e7b30, size 0x8, virtual false, abstract: false, final false
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method set_Standalone, addr 0x41d3428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Standalone, addr 0x41e7b40, size 0x8, virtual false, abstract: false, final false
   inline void set_Standalone(::StringW value);
 
 protected:
@@ -105,7 +105,7 @@ public:
   ::StringW ____standalone;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17903 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

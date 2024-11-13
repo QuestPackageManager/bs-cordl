@@ -128,25 +128,25 @@ public:
 
   __declspec(property(get = get_usingOverrideColorScheme, put = set_usingOverrideColorScheme)) bool usingOverrideColorScheme;
 
-  /// @brief Method Finish, addr 0x3ac9c68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x3add858, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::MultiplayerResultsData* resultsData);
 
-  /// @brief Method FinishWithDisconnect, addr 0x3ac9c90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FinishWithDisconnect, addr 0x3add880, size 0x28, virtual false, abstract: false, final false
   inline void FinishWithDisconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method GetOrLoadMultiplayerEnvironmentInfo, addr 0x3ac984c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetOrLoadMultiplayerEnvironmentInfo, addr 0x3add43c, size 0xf8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetOrLoadMultiplayerEnvironmentInfo();
 
-  /// @brief Method Init, addr 0x3ac966c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3add25c, size 0x1e0, virtual false, abstract: false, final false
   inline void Init(::StringW gameMode, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
                    ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                    ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::SettingsManager* settingsManager,
                    ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool useTestNoteCutSoundEffects);
 
-  /// @brief Method InitAndSetupScenes, addr 0x3ac99c8, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method InitAndSetupScenes, addr 0x3add5b8, size 0x2a0, virtual false, abstract: false, final false
   inline void InitAndSetupScenes();
 
-  /// @brief Method InitColorInfo, addr 0x3ac9944, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitColorInfo, addr 0x3add534, size 0x84, virtual false, abstract: false, final false
   inline void InitColorInfo(::GlobalNamespace::ColorScheme* overrideColorScheme);
 
   static inline ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* New_ctor();
@@ -226,55 +226,55 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
-  /// @brief Method .ctor, addr 0x3ac9cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3add8a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didDisconnectEvent, addr 0x3ac9490, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didDisconnectEvent, addr 0x3add080, size 0xb0, virtual false, abstract: false, final false
   inline void add_didDisconnectEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x3ac9330, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3adcf20, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
-  /// @brief Method get_beatmapKey, addr 0x3ac9600, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x3add1f0, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_beatmapLevel, addr 0x3ac9628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevel, addr 0x3add218, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevel* get_beatmapLevel();
 
-  /// @brief Method get_beatmapLevelData, addr 0x3ac965c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelData, addr 0x3add24c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
 
-  /// @brief Method get_colorScheme, addr 0x3ac964c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x3add23c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* get_colorScheme();
 
-  /// @brief Method get_gameMode, addr 0x3ac95f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameMode, addr 0x3add1e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_gameMode();
 
-  /// @brief Method get_usingOverrideColorScheme, addr 0x3ac9638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usingOverrideColorScheme, addr 0x3add228, size 0x8, virtual false, abstract: false, final false
   inline bool get_usingOverrideColorScheme();
 
-  /// @brief Method remove_didDisconnectEvent, addr 0x3ac9540, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didDisconnectEvent, addr 0x3add130, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didDisconnectEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3ac93e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3adcfd0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
-  /// @brief Method set_beatmapKey, addr 0x3ac9614, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapKey, addr 0x3add204, size 0x14, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
-  /// @brief Method set_beatmapLevel, addr 0x3ac9630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevel, addr 0x3add220, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
 
-  /// @brief Method set_beatmapLevelData, addr 0x3ac9664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevelData, addr 0x3add254, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevelData(::GlobalNamespace::IBeatmapLevelData* value);
 
-  /// @brief Method set_colorScheme, addr 0x3ac9654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorScheme, addr 0x3add244, size 0x8, virtual false, abstract: false, final false
   inline void set_colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method set_gameMode, addr 0x3ac95f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameMode, addr 0x3add1e8, size 0x8, virtual false, abstract: false, final false
   inline void set_gameMode(::StringW value);
 
-  /// @brief Method set_usingOverrideColorScheme, addr 0x3ac9640, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_usingOverrideColorScheme, addr 0x3add230, size 0xc, virtual false, abstract: false, final false
   inline void set_usingOverrideColorScheme(bool value);
 
 protected:
@@ -328,7 +328,7 @@ public:
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ____loadedMultiplayerEnvironmentInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5242 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

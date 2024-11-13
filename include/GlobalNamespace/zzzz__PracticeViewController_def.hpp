@@ -118,10 +118,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ba7394, size 0x4a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bbc504, size 0x4a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ba7834, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3bbc9a4, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -165,7 +165,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__3;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4911 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -276,39 +276,39 @@ public:
 
   __declspec(property(get = get_practiceSettings)) ::GlobalNamespace::PracticeSettings* practiceSettings;
 
-  /// @brief Method CancelSongLoading, addr 0x3ba6dc0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CancelSongLoading, addr 0x3bbbf30, size 0x2c, virtual false, abstract: false, final false
   inline void CancelSongLoading();
 
-  /// @brief Method DidActivate, addr 0x3ba6e5c, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3bbbfcc, size 0x168, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3ba7098, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3bbc208, size 0xac, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method GetSongTime, addr 0x3ba7218, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetSongTime, addr 0x3bbc388, size 0x4c, virtual false, abstract: false, final false
   inline float_t GetSongTime();
 
-  /// @brief Method HandlePlayButtonPressed, addr 0x3ba7318, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayButtonPressed, addr 0x3bbc488, size 0x74, virtual false, abstract: false, final false
   inline void HandlePlayButtonPressed();
 
-  /// @brief Method HandleSongStartSliderValueDidChange, addr 0x3ba72e4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleSongStartSliderValueDidChange, addr 0x3bbc454, size 0x34, virtual false, abstract: false, final false
   inline void HandleSongStartSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method Init, addr 0x3ba6c84, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3bbbdf4, size 0x13c, virtual false, abstract: false, final false
   inline void Init(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method LoadSong, addr 0x3ba6fc4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LoadSong, addr 0x3bbc134, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadSong(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::PracticeViewController* New_ctor();
 
-  /// @brief Method PlayPreview, addr 0x3ba7144, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PlayPreview, addr 0x3bbc2b4, size 0xd4, virtual false, abstract: false, final false
   inline void PlayPreview();
 
-  /// @brief Method SetLoader, addr 0x3ba7264, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetLoader, addr 0x3bbc3d4, size 0x80, virtual false, abstract: false, final false
   inline void SetLoader(bool loading);
 
-  /// @brief Method SetSongLength, addr 0x3ba6dec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetSongLength, addr 0x3bbbf5c, size 0x70, virtual false, abstract: false, final false
   inline void SetSongLength(float_t songLength);
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
@@ -455,16 +455,16 @@ public:
 
   constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3ba738c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bbc4fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressPlayButtonEvent, addr 0x3ba6b44, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPlayButtonEvent, addr 0x3bbbcb4, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action* value);
 
-  /// @brief Method get_practiceSettings, addr 0x3ba6c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practiceSettings, addr 0x3bbbdec, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
-  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3ba6be0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3bbbd50, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action* value);
 
 protected:
@@ -554,7 +554,7 @@ public:
   ::UnityW<::UnityEngine::AudioClip> ____audioClip;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4912 };
 
   /// @brief Field kMinValueChangeToInstantPlayPreview offset 0xffffffff size 0x4
   static constexpr float_t kMinValueChangeToInstantPlayPreview{ 3.0 };

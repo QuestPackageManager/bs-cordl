@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServicePointScheduler* (::System::Net::__ServicePointScheduler__ConnectionGroup::*)()>(
     &::System::Net::__ServicePointScheduler__ConnectionGroup::get_Scheduler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4361360;
+  constexpr static std::size_t addrs = 0x4375a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointScheduler__ConnectionGroup*>::get(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointScheduler__ConnectionGroup::*)(::System::Net::ServicePointScheduler*, ::StringW)>(
     &::System::Net::__ServicePointScheduler__ConnectionGroup::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x435f90c;
+  constexpr static std::size_t addrs = 0x4374024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::__ServicePointScheduler__ConnectionGroup::*)()>(
     &::System::Net::__ServicePointScheduler__ConnectionGroup::IsEmpty)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x435ff8c;
+  constexpr static std::size_t addrs = 0x43746a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointScheduler__ConnectionGroup*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointScheduler__ConnectionGroup::*)(::System::Net::WebConnection*)>(
     &::System::Net::__ServicePointScheduler__ConnectionGroup::RemoveConnection)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x43606b4;
+  constexpr static std::size_t addrs = 0x4374dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointScheduler__ConnectionGroup::*)()>(
     &::System::Net::__ServicePointScheduler__ConnectionGroup::Cleanup)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4360808;
+  constexpr static std::size_t addrs = 0x4374f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointScheduler__ConnectionGroup*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointScheduler__ConnectionGroup::*)()>(
     &::System::Net::__ServicePointScheduler__ConnectionGroup::Close)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x4360f44;
+  constexpr static std::size_t addrs = 0x437565c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointScheduler__ConnectionGroup*>::get(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointScheduler__ConnectionGroup::*)(::System::Net::WebOperation*)>(
     &::System::Net::__ServicePointScheduler__ConnectionGroup::EnqueueOperation)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4360eec;
+  constexpr static std::size_t addrs = 0x4375604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebOperation* (::System::Net::__ServicePointScheduler__ConnectionGroup::*)()>(
     &::System::Net::__ServicePointScheduler__ConnectionGroup::GetNextOperation)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4360ac4;
+  constexpr static std::size_t addrs = 0x43751dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointScheduler__ConnectionGroup*>::get(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebConnection* (
     ::System::Net::__ServicePointScheduler__ConnectionGroup::*)(::System::Net::WebOperation*)>(&::System::Net::__ServicePointScheduler__ConnectionGroup::FindIdleConnection)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x4361380;
+  constexpr static std::size_t addrs = 0x4375a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<::System::Net::WebConnection*, bool> (
     ::System::Net::__ServicePointScheduler__ConnectionGroup::*)(::System::Net::WebOperation*, bool)>(&::System::Net::__ServicePointScheduler__ConnectionGroup::CreateOrReuseConnection)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x43608f4;
+  constexpr static std::size_t addrs = 0x437500c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ServicePointScheduler__AsyncManualResetEvent____c::*)()>(
     &::GlobalNamespace::__ServicePointScheduler__AsyncManualResetEvent____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4361d9c;
+  constexpr static std::size_t addrs = 0x43764b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ServicePointScheduler__AsyncManualResetEvent____c::*)(::System::Object*)>(
     &::GlobalNamespace::__ServicePointScheduler__AsyncManualResetEvent____c::_Set_b__4_0)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4361da4;
+  constexpr static std::size_t addrs = 0x43764bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::System::Net::__ServicePointScheduler__AsyncManualResetEvent::*)(int32_t)>(&::System::Net::__ServicePointScheduler__AsyncManualResetEvent::WaitAsync)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4361cec;
+  constexpr static std::size_t addrs = 0x4376404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointScheduler__AsyncManualResetEvent::*)()>(
     &::System::Net::__ServicePointScheduler__AsyncManualResetEvent::Set)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x435fad8;
+  constexpr static std::size_t addrs = 0x43741f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointScheduler__AsyncManualResetEvent::*)()>(
     &::System::Net::__ServicePointScheduler__AsyncManualResetEvent::Reset)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x436018c;
+  constexpr static std::size_t addrs = 0x43748a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointScheduler__AsyncManualResetEvent::*)(bool)>(
     &::System::Net::__ServicePointScheduler__AsyncManualResetEvent::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x435f86c;
+  constexpr static std::size_t addrs = 0x4373f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointScheduler___RunScheduler_d__32::*)()>(
     &::System::Net::__ServicePointScheduler___RunScheduler_d__32::MoveNext)> {
   constexpr static std::size_t size = 0xb48;
-  constexpr static std::size_t addrs = 0x4361e40;
+  constexpr static std::size_t addrs = 0x4376558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointScheduler___RunScheduler_d__32::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::__ServicePointScheduler___RunScheduler_d__32::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4362988;
+  constexpr static std::size_t addrs = 0x43770a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -558,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointScheduler___WaitAsync_d__46::*)()>(
     &::System::Net::__ServicePointScheduler___WaitAsync_d__46::MoveNext)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x43629f0;
+  constexpr static std::size_t addrs = 0x4377108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__ServicePointScheduler___WaitAsync_d__46>::get(),
@@ -572,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__ServicePointScheduler___WaitAsync_d__46::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::__ServicePointScheduler___WaitAsync_d__46::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4362e90;
+  constexpr static std::size_t addrs = 0x43775a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -626,7 +626,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServicePoint* (::System::Net::ServicePointScheduler::*)()>(
     &::System::Net::ServicePointScheduler::get_ServicePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x435f854;
+  constexpr static std::size_t addrs = 0x4373f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointScheduler*>::get(), "get_ServicePoint",
@@ -640,7 +640,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::ServicePoint*)>(
     &::System::Net::ServicePointScheduler::set_ServicePoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x435f85c;
+  constexpr static std::size_t addrs = 0x4373f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -654,7 +654,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::get_MaxIdleTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x435f864;
+  constexpr static std::size_t addrs = 0x4373f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointScheduler*>::get(), "get_MaxIdleTime",
@@ -668,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::ServicePoint*, int32_t, int32_t)>(
     &::System::Net::ServicePointScheduler::_ctor)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x435e070;
+  constexpr static std::size_t addrs = 0x4372788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -683,7 +683,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::Run)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x435fa14;
+  constexpr static std::size_t addrs = 0x437412c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointScheduler*>::get(), "Run",
@@ -697,7 +697,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Net::ServicePointScheduler::*)()>(
     &::System::Net::ServicePointScheduler::RunScheduler)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x435fd04;
+  constexpr static std::size_t addrs = 0x437441c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointScheduler*>::get(), "RunScheduler",
@@ -710,7 +710,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::Cleanup)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x435fdcc;
+  constexpr static std::size_t addrs = 0x43744e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointScheduler*>::get(), "Cleanup",
@@ -723,7 +723,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::RunSchedulerIteration)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x4360000;
+  constexpr static std::size_t addrs = 0x4374718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointScheduler*>::get(),
@@ -737,7 +737,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePointScheduler::*)(
     ::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebOperation*)>(&::System::Net::ServicePointScheduler::OperationCompleted)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x436032c;
+  constexpr static std::size_t addrs = 0x4374a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -753,7 +753,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointScheduler::*)(
     ::System::Net::__ServicePointScheduler__ConnectionGroup*, ::System::Net::WebConnection*)>(&::System::Net::ServicePointScheduler::CloseIdleConnection)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4360a8c;
+  constexpr static std::size_t addrs = 0x43751a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -769,7 +769,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePointScheduler::*)(::System::Net::__ServicePointScheduler__ConnectionGroup*)>(
     &::System::Net::ServicePointScheduler::SchedulerIteration)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x436024c;
+  constexpr static std::size_t addrs = 0x4374964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -784,7 +784,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::WebOperation*)>(
     &::System::Net::ServicePointScheduler::RemoveOperation)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4360bb0;
+  constexpr static std::size_t addrs = 0x43752c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -799,7 +799,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::WebConnection*)>(
     &::System::Net::ServicePointScheduler::RemoveIdleConnection)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x436073c;
+  constexpr static std::size_t addrs = 0x4374e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -813,7 +813,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointScheduler::*)()>(&::System::Net::ServicePointScheduler::FinalCleanup)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4360c7c;
+  constexpr static std::size_t addrs = 0x4375394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointScheduler*>::get(), "FinalCleanup",
@@ -827,7 +827,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::WebOperation*, ::StringW)>(
     &::System::Net::ServicePointScheduler::SendRequest)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x435e964;
+  constexpr static std::size_t addrs = 0x437307c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -843,7 +843,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePointScheduler::*)(::StringW)>(
     &::System::Net::ServicePointScheduler::CloseConnectionGroup)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x435eb38;
+  constexpr static std::size_t addrs = 0x4373250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -858,7 +858,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::__ServicePointScheduler__ConnectionGroup* (::System::Net::ServicePointScheduler::*)(::StringW)>(
     &::System::Net::ServicePointScheduler::GetConnectionGroup)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x4360cfc;
+  constexpr static std::size_t addrs = 0x4375414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -873,7 +873,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::WebConnection*)>(
     &::System::Net::ServicePointScheduler::OnConnectionCreated)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4361234;
+  constexpr static std::size_t addrs = 0x437594c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -888,7 +888,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePointScheduler::*)(::System::Net::WebConnection*)>(
     &::System::Net::ServicePointScheduler::OnConnectionClosed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4361240;
+  constexpr static std::size_t addrs = 0x4375958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -903,7 +903,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)(::System::Threading::Tasks::Task*, int32_t)>(
     &::System::Net::ServicePointScheduler::WaitAsync)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x436125c;
+  constexpr static std::size_t addrs = 0x4375974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -919,7 +919,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Net::ServicePointScheduler::*)()>(
     &::System::Net::ServicePointScheduler::_Run_b__31_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x436135c;
+  constexpr static std::size_t addrs = 0x4375a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePointScheduler*>::get(), "<Run>b__31_0",

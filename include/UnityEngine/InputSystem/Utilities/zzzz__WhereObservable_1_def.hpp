@@ -103,7 +103,7 @@ public:
   ::System::IObserver_1<TValue>* ___m_Observer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7074 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -174,7 +174,7 @@ public:
   ::System::Func_2<TValue, bool>* ___m_Predicate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7075 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

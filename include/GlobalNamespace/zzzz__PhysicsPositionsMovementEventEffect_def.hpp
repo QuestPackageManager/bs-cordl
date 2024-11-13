@@ -97,21 +97,21 @@ public:
   /// @brief Field _velocity, offset 0x6c, size 0xc
   __declspec(property(get = __cordl_internal_get__velocity, put = __cordl_internal_set__velocity)) ::UnityEngine::Vector3 _velocity;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b1e25c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b33714, size 0x7c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HandleSongTimeFixedUpdate, addr 0x3b1e110, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleSongTimeFixedUpdate, addr 0x3b335c8, size 0xdc, virtual false, abstract: false, final false
   inline void HandleSongTimeFixedUpdate(float_t fixedDeltaTime);
 
-  /// @brief Method HandleSongTimeUpdate, addr 0x3b1e1ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleSongTimeUpdate, addr 0x3b336a4, size 0x70, virtual false, abstract: false, final false
   inline void HandleSongTimeUpdate();
 
   static inline ::GlobalNamespace::PhysicsPositionsMovementEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b1dfd0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b33488, size 0x140, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b1dd8c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b33244, size 0x244, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -228,7 +228,7 @@ public:
 
   constexpr void __cordl_internal_set__velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3b1e2d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b33790, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -303,7 +303,7 @@ public:
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

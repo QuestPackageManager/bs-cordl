@@ -56,7 +56,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelCompletionResultsHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2672e74, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x267e134, size 0x464, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults*
   Create(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
          ::ArrayW<::GlobalNamespace::BeatmapObjectExecutionRating*, ::Array<::GlobalNamespace::BeatmapObjectExecutionRating*>*> beatmapObjectExecutionRatings,
@@ -65,7 +65,7 @@ public:
          float_t leftHandMovementDistance, float_t rightHandMovementDistance, ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType,
          ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, float_t songTime, bool invalidated);
 
-  /// @brief Method ProcessScore, addr 0x26732d8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ProcessScore, addr 0x267e598, size 0x114, virtual false, abstract: false, final false
   static inline void ProcessScore(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData, ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats,
                                   ::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                   ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);
@@ -85,7 +85,7 @@ public:
   LevelCompletionResultsHelper(LevelCompletionResultsHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12826 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

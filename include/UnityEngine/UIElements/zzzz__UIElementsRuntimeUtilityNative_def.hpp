@@ -31,22 +31,22 @@ public:
   /// @brief Field UpdateRuntimePanelsCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_UpdateRuntimePanelsCallback, put = setStaticF_UpdateRuntimePanelsCallback)) ::System::Action* UpdateRuntimePanelsCallback;
 
-  /// @brief Method RegisterPlayerloopCallback, addr 0x49c71e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RegisterPlayerloopCallback, addr 0x49db8f8, size 0x28, virtual false, abstract: false, final false
   static inline void RegisterPlayerloopCallback();
 
-  /// @brief Method RepaintOffscreenPanels, addr 0x49c717c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RepaintOffscreenPanels, addr 0x49db894, size 0x64, virtual false, abstract: false, final false
   static inline void RepaintOffscreenPanels();
 
-  /// @brief Method RepaintOverlayPanels, addr 0x49c70b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RepaintOverlayPanels, addr 0x49db7cc, size 0x64, virtual false, abstract: false, final false
   static inline void RepaintOverlayPanels();
 
-  /// @brief Method UnregisterPlayerloopCallback, addr 0x49c7208, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnregisterPlayerloopCallback, addr 0x49db920, size 0x28, virtual false, abstract: false, final false
   static inline void UnregisterPlayerloopCallback();
 
-  /// @brief Method UpdateRuntimePanels, addr 0x49c7118, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateRuntimePanels, addr 0x49db830, size 0x64, virtual false, abstract: false, final false
   static inline void UpdateRuntimePanels();
 
-  /// @brief Method VisualElementCreation, addr 0x49c7230, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method VisualElementCreation, addr 0x49db948, size 0x28, virtual false, abstract: false, final false
   static inline void VisualElementCreation();
 
   static inline ::System::Action* getStaticF_RepaintOffscreenPanelsCallback();
@@ -76,7 +76,7 @@ public:
   UIElementsRuntimeUtilityNative(UIElementsRuntimeUtilityNative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5970 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

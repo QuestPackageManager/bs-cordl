@@ -24,10 +24,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKApplicationOutput {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3a5da20, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3a71378, size 0x244, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3a573f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3a6ad48, size 0x80, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKApplicationOutput get_empty();
 
   // Ctor Parameters []
@@ -70,7 +70,7 @@ public:
   ::StringW sdkVersion;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17278 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

@@ -29,7 +29,7 @@ namespace UnityEngine::Events {
 class CORDL_TYPE BaseInvokableCall : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AllowInvoke, addr 0x4845c8c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AllowInvoke, addr 0x485a3a4, size 0xa8, virtual false, abstract: false, final false
   static inline bool AllowInvoke(::System::Delegate* delegate);
 
   /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -45,10 +45,10 @@ public:
   /// @brief Method ThrowOnInvalidArg, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ThrowOnInvalidArg(::System::Object* arg);
 
-  /// @brief Method .ctor, addr 0x4845b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485a2a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4845b98, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485a2b0, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* function);
 
 protected:
@@ -66,7 +66,7 @@ public:
   BaseInvokableCall(BaseInvokableCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10940 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

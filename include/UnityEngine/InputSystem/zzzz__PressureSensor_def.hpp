@@ -31,15 +31,15 @@ public:
 
   __declspec(property(get = get_atmosphericPressure, put = set_atmosphericPressure)) ::UnityEngine::InputSystem::Controls::AxisControl* atmosphericPressure;
 
-  /// @brief Method FinishSetup, addr 0x4551174, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x456588c, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x455109c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x45657b4, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::PressureSensor* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x45510f0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x4565808, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__atmosphericPressure_k__BackingField();
@@ -48,23 +48,23 @@ public:
 
   constexpr void __cordl_internal_set__atmosphericPressure_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x45511ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4565904, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::PressureSensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_atmosphericPressure, addr 0x4550ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atmosphericPressure, addr 0x4565710, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_atmosphericPressure();
 
-  /// @brief Method get_current, addr 0x4551008, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x4565720, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::PressureSensor* get_current();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::PressureSensor* value);
 
-  /// @brief Method set_atmosphericPressure, addr 0x4551000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atmosphericPressure, addr 0x4565718, size 0x8, virtual false, abstract: false, final false
   inline void set_atmosphericPressure(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_current, addr 0x4551050, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x4565768, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::PressureSensor* value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::UnityEngine::InputSystem::Controls::AxisControl* ____atmosphericPressure_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6655 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6660 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

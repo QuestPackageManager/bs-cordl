@@ -29,7 +29,7 @@ public:
   /// @brief Field m_Context, offset 0x10, size 0x18
   __declspec(property(get = __cordl_internal_get_m_Context, put = __cordl_internal_set_m_Context)) ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> m_Context;
 
-  /// @brief Method Get, addr 0x4563988, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x45780a0, size 0x64, virtual false, abstract: false, final false
   inline ::System::Object* Get();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> value);
 
-  /// @brief Method .ctor, addr 0x4563a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4578180, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isPressed, addr 0x45639ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_isPressed, addr 0x4578104, size 0x7c, virtual false, abstract: false, final false
   inline bool get_isPressed();
 
 protected:
@@ -67,7 +67,7 @@ public:
   ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> ___m_Context;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6688 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

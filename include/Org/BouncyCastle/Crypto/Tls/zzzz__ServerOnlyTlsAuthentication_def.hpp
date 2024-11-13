@@ -34,7 +34,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsAuthentication"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication*() noexcept;
 
-  /// @brief Method GetClientCredentials, addr 0x23daa00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetClientCredentials, addr 0x23e5aa8, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetClientCredentials(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication* New_ctor();
@@ -42,7 +42,7 @@ public:
   /// @brief Method NotifyServerCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method .ctor, addr 0x23daa08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e5ab0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsAuthentication"

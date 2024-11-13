@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x42b4da4;
+  constexpr static std::size_t addrs = 0x42c94bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlWriter::WriteAttributeString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x42b4dbc;
+  constexpr static std::size_t addrs = 0x42c94d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlWriter::WriteAttributeString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x42b4e18;
+  constexpr static std::size_t addrs = 0x42c9530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlWriter::WriteAttributeString)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x42b4e74;
+  constexpr static std::size_t addrs = 0x42c958c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlWriter::WriteBinHex)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x42b4ec4;
+  constexpr static std::size_t addrs = 0x42c95dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)()>(&::System::Xml::XmlWriter::Close)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x42b4ee0;
+  constexpr static std::size_t addrs = 0x42c95f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -443,7 +443,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)(::StringW)>(&::System::Xml::XmlWriter::WriteValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x42b4ee4;
+  constexpr static std::size_t addrs = 0x42c95fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -457,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)(::System::Xml::XmlReader*, bool)>(&::System::Xml::XmlWriter::WriteAttributes)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x42b4efc;
+  constexpr static std::size_t addrs = 0x42c9614;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)(::System::Xml::XmlReader*, bool)>(&::System::Xml::XmlWriter::WriteNode)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x42b5178;
+  constexpr static std::size_t addrs = 0x42c9890;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::XmlWriter::WriteElementString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x42b55dc;
+  constexpr static std::size_t addrs = 0x42c9cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -500,7 +500,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)()>(&::System::Xml::XmlWriter::Dispose)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42b5640;
+  constexpr static std::size_t addrs = 0x42c9d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriter*>::get(), "Dispose",
@@ -513,7 +513,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)(bool)>(&::System::Xml::XmlWriter::Dispose)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x42b5654;
+  constexpr static std::size_t addrs = 0x42c9d6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlWriter* (*)(::System::IO::Stream*, ::System::Xml::XmlWriterSettings*)>(
     &::System::Xml::XmlWriter::Create)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x42b5698;
+  constexpr static std::size_t addrs = 0x42c9db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -544,7 +544,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlWriter* (*)(::System::IO::TextWriter*, ::System::Xml::XmlWriterSettings*)>(
     &::System::Xml::XmlWriter::Create)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x42b5bfc;
+  constexpr static std::size_t addrs = 0x42ca314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -559,7 +559,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriter::*)()>(&::System::Xml::XmlWriter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b5f60;
+  constexpr static std::size_t addrs = 0x42ca678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriter*>::get(), ".ctor",

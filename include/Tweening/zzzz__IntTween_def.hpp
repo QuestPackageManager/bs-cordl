@@ -75,7 +75,7 @@ public:
   static ::Tweening::__IntTween__RoundingType const Round;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18576 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -101,7 +101,7 @@ public:
   /// @brief Field _roundingType, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__roundingType, put = __cordl_internal_set__roundingType)) ::Tweening::__IntTween__RoundingType _roundingType;
 
-  /// @brief Method GetValue, addr 0x4463b40, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x4478258, size 0x254, virtual true, abstract: false, final false
   inline int32_t GetValue(float_t t);
 
   static inline ::Tweening::IntTween* New_ctor();
@@ -115,10 +115,10 @@ public:
 
   constexpr void __cordl_internal_set__roundingType(::Tweening::__IntTween__RoundingType value);
 
-  /// @brief Method .ctor, addr 0x4463a54, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447816c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4463a9c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44781b4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(int32_t fromValue, int32_t toValue, ::System::Action_1<int32_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
                     ::Tweening::__IntTween__RoundingType roundingType, float_t delay);
 
@@ -140,7 +140,7 @@ public:
   ::Tweening::__IntTween__RoundingType ____roundingType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18577 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

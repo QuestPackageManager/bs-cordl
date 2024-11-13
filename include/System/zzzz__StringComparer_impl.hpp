@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparer* (*)()>(&::System::StringComparer::get_InvariantCultureIgnoreCase)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d8adc4;
+  constexpr static std::size_t addrs = 0x3d9f454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(),
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparer* (*)()>(&::System::StringComparer::get_Ordinal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d8ae1c;
+  constexpr static std::size_t addrs = 0x3d9f4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), "get_Ordinal",
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparer* (*)()>(&::System::StringComparer::get_OrdinalIgnoreCase)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d8ae74;
+  constexpr static std::size_t addrs = 0x3d9f504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), "get_OrdinalIgnoreCase",
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparer* (*)(::System::Globalization::CultureInfo*, bool)>(&::System::StringComparer::Create)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d8aecc;
+  constexpr static std::size_t addrs = 0x3d9f55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::StringComparer::*)(::System::Object*, ::System::Object*)>(&::System::StringComparer::Compare)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3d8afc0;
+  constexpr static std::size_t addrs = 0x3d9f650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::StringComparer::*)(::System::Object*, ::System::Object*)>(&::System::StringComparer::Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3d8b14c;
+  constexpr static std::size_t addrs = 0x3d9f7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::StringComparer::*)(::System::Object*)>(&::System::StringComparer::GetHashCode)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3d8b214;
+  constexpr static std::size_t addrs = 0x3d9f8a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::StringComparer::*)()>(&::System::StringComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d8b2d8;
+  constexpr static std::size_t addrs = 0x3d9f968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), ".ctor",

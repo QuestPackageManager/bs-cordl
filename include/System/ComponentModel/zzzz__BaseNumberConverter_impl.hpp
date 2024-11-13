@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::BaseNumberConverter::*)()>(&::System::ComponentModel::BaseNumberConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d249c;
+  constexpr static std::size_t addrs = 0x43e6bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BaseNumberConverter*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::BaseNumberConverter::*)()>(
     &::System::ComponentModel::BaseNumberConverter::get_AllowHex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d24a4;
+  constexpr static std::size_t addrs = 0x43e6bbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::BaseNumberConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::BaseNumberConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x43d24ac;
+  constexpr static std::size_t addrs = 0x43e6bc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::BaseNumberConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::BaseNumberConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x43d2574;
+  constexpr static std::size_t addrs = 0x43e6c8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::BaseNumberConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::BaseNumberConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x43d296c;
+  constexpr static std::size_t addrs = 0x43e7084;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::BaseNumberConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::BaseNumberConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43d2c0c;
+  constexpr static std::size_t addrs = 0x43e7324;
 
   inline static ::MethodInfo const* methodInfo() {
 

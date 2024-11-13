@@ -90,82 +90,82 @@ public:
   /// @brief Field requireSameTokenInPartialTrust, offset 0x5a, size 0x1
   __declspec(property(get = __cordl_internal_get_requireSameTokenInPartialTrust, put = __cordl_internal_set_requireSameTokenInPartialTrust)) bool requireSameTokenInPartialTrust;
 
-  /// @brief Method AddValue, addr 0x3c87d94, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x3c9c424, size 0xd4, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, ::System::DateTime value);
 
-  /// @brief Method AddValue, addr 0x3c7ae74, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x3c8f504, size 0xb8, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, ::System::Object* value);
 
-  /// @brief Method AddValue, addr 0x3c86644, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x3c9acd4, size 0x7c, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, ::System::Object* value, ::System::Type* type);
 
-  /// @brief Method AddValue, addr 0x3c87890, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x3c9bf20, size 0xd8, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, bool value);
 
-  /// @brief Method AddValue, addr 0x3c87cb8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x3c9c348, size 0xdc, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, float_t value);
 
-  /// @brief Method AddValue, addr 0x3c87a3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x3c9c0cc, size 0xd4, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, int16_t value);
 
-  /// @brief Method AddValue, addr 0x3c7be74, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x3c90504, size 0xd4, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, int32_t value);
 
-  /// @brief Method AddValue, addr 0x3c87b10, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x3c9c1a0, size 0xd4, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, int64_t value);
 
-  /// @brief Method AddValue, addr 0x3c87be4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x3c9c274, size 0xd4, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, uint64_t value);
 
-  /// @brief Method AddValue, addr 0x3c87968, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x3c9bff8, size 0xd4, virtual false, abstract: false, final false
   inline void AddValue(::StringW name, uint8_t value);
 
-  /// @brief Method AddValueInternal, addr 0x3c876dc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method AddValueInternal, addr 0x3c9bd6c, size 0x1b4, virtual false, abstract: false, final false
   inline void AddValueInternal(::StringW name, ::System::Object* value, ::System::Type* type);
 
-  /// @brief Method Compare, addr 0x3c873e4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3c9ba74, size 0x94, virtual false, abstract: false, final false
   static inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method DemandForUnsafeAssemblyNameAssignments, addr 0x3c873e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DemandForUnsafeAssemblyNameAssignments, addr 0x3c9ba70, size 0x4, virtual false, abstract: false, final false
   static inline void DemandForUnsafeAssemblyNameAssignments(::StringW originalAssemblyName, ::StringW newAssemblyName);
 
-  /// @brief Method ExpandArrays, addr 0x3c875cc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ExpandArrays, addr 0x3c9bc5c, size 0x110, virtual false, abstract: false, final false
   inline void ExpandArrays();
 
-  /// @brief Method FindElement, addr 0x3c87e68, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method FindElement, addr 0x3c9c4f8, size 0xc4, virtual false, abstract: false, final false
   inline int32_t FindElement(::StringW name);
 
-  /// @brief Method GetBoolean, addr 0x3c880a4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetBoolean, addr 0x3c9c734, size 0x180, virtual false, abstract: false, final false
   inline bool GetBoolean(::StringW name);
 
-  /// @brief Method GetElement, addr 0x3c87f2c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetElement, addr 0x3c9c5bc, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Object* GetElement(::StringW name, ByRef<::System::Type*> foundType);
 
-  /// @brief Method GetElementNoThrow, addr 0x3c88028, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetElementNoThrow, addr 0x3c9c6b8, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* GetElementNoThrow(::StringW name, ByRef<::System::Type*> foundType);
 
-  /// @brief Method GetEnumerator, addr 0x3c79c58, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3c8e2e8, size 0x94, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationInfoEnumerator* GetEnumerator();
 
-  /// @brief Method GetInt32, addr 0x3c88224, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetInt32, addr 0x3c9c8b4, size 0x174, virtual false, abstract: false, final false
   inline int32_t GetInt32(::StringW name);
 
-  /// @brief Method GetInt64, addr 0x3c88398, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetInt64, addr 0x3c9ca28, size 0x174, virtual false, abstract: false, final false
   inline int64_t GetInt64(::StringW name);
 
-  /// @brief Method GetSingle, addr 0x3c8850c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetSingle, addr 0x3c9cb9c, size 0x174, virtual false, abstract: false, final false
   inline float_t GetSingle(::StringW name);
 
-  /// @brief Method GetString, addr 0x3c88680, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x3c9cd10, size 0x16c, virtual false, abstract: false, final false
   inline ::StringW GetString(::StringW name);
 
-  /// @brief Method GetValue, addr 0x3c862b8, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3c9a948, size 0x208, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(::StringW name, ::System::Type* type);
 
-  /// @brief Method GetValueNoThrow, addr 0x3c861b0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetValueNoThrow, addr 0x3c9a840, size 0x108, virtual false, abstract: false, final false
   inline ::System::Object* GetValueNoThrow(::StringW name, ::System::Type* type);
 
-  /// @brief Method IsAssemblyNameAssignmentSafe, addr 0x3c87478, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method IsAssemblyNameAssignmentSafe, addr 0x3c9bb08, size 0x134, virtual false, abstract: false, final false
   static inline bool IsAssemblyNameAssignmentSafe(::StringW originalAssemblyName, ::StringW newAssemblyName);
 
   static inline ::System::Runtime::Serialization::SerializationInfo* New_ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter);
@@ -173,10 +173,10 @@ public:
   static inline ::System::Runtime::Serialization::SerializationInfo* New_ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter,
                                                                               bool requireSameTokenInPartialTrust);
 
-  /// @brief Method SetType, addr 0x3c866c0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SetType, addr 0x3c9ad50, size 0x134, virtual false, abstract: false, final false
   inline void SetType(::System::Type* type);
 
-  /// @brief Method UpdateValue, addr 0x3c83b60, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method UpdateValue, addr 0x3c981f0, size 0xe4, virtual false, abstract: false, final false
   inline void UpdateValue(::StringW name, ::System::Object* value, ::System::Type* type);
 
   constexpr bool const& __cordl_internal_get_isAssemblyNameSetExplicit() const;
@@ -251,28 +251,28 @@ public:
 
   constexpr void __cordl_internal_set_requireSameTokenInPartialTrust(bool value);
 
-  /// @brief Method .ctor, addr 0x3c871ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9b87c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter);
 
-  /// @brief Method .ctor, addr 0x3c871f4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9b884, size 0x1dc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter, bool requireSameTokenInPartialTrust);
 
-  /// @brief Method get_AssemblyName, addr 0x3c873d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyName, addr 0x3c9ba68, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method get_FullTypeName, addr 0x3c873d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FullTypeName, addr 0x3c9ba60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FullTypeName();
 
-  /// @brief Method get_IsAssemblyNameSetExplicit, addr 0x3c875c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAssemblyNameSetExplicit, addr 0x3c9bc54, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAssemblyNameSetExplicit();
 
-  /// @brief Method get_IsFullTypeNameSetExplicit, addr 0x3c875bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsFullTypeNameSetExplicit, addr 0x3c9bc4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsFullTypeNameSetExplicit();
 
-  /// @brief Method get_MemberCount, addr 0x3c875ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberCount, addr 0x3c9bc3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MemberCount();
 
-  /// @brief Method get_ObjectType, addr 0x3c875b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x3c9bc44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
 protected:

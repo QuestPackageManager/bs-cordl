@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::TimelinePauseReceiver* New_ctor();
 
-  /// @brief Method OnNotify, addr 0x395cf88, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method OnNotify, addr 0x397080c, size 0x94, virtual true, abstract: false, final true
   inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
   constexpr ::System::Action*& __cordl_internal_get_timelinePauseEvent();
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set_timelinePauseEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x395d01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39708a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_timelinePauseEvent, addr 0x395ce50, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_timelinePauseEvent, addr 0x39706d4, size 0x9c, virtual false, abstract: false, final false
   inline void add_timelinePauseEvent(::System::Action* value);
 
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
   constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
-  /// @brief Method remove_timelinePauseEvent, addr 0x395ceec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_timelinePauseEvent, addr 0x3970770, size 0x9c, virtual false, abstract: false, final false
   inline void remove_timelinePauseEvent(::System::Action* value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   ::System::Action* ___timelinePauseEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16416 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

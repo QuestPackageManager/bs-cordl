@@ -33,7 +33,7 @@ public:
 
   __declspec(property(get = get_order)) int32_t order;
 
-  /// @brief Method LogColorScheme, addr 0x2660cf8, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method LogColorScheme, addr 0x266bda0, size 0x2a4, virtual false, abstract: false, final false
   inline void LogColorScheme();
 
   static inline ::GlobalNamespace::ColorSchemeSO* New_ctor();
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2660f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266c044, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorScheme, addr 0x2660ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x266bd90, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* get_colorScheme();
 
-  /// @brief Method get_order, addr 0x2660cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x266bd98, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
 protected:
@@ -80,7 +80,7 @@ public:
   int32_t ____order;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18898 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

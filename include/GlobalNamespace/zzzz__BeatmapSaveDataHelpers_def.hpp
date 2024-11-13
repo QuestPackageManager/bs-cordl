@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ba884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c6640, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_v, addr 0x26ba62c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_v, addr 0x26c63e8, size 0x30, virtual false, abstract: false, final false
   inline ::StringW get_v();
 
 protected:
@@ -89,7 +89,7 @@ public:
   ::StringW ___version;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13227 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -114,7 +114,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapSaveDataHelpers____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <GetVersionAsync>b__0, addr 0x26ba88c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <GetVersionAsync>b__0, addr 0x26c6648, size 0x58, virtual false, abstract: false, final false
   inline ::System::Version* _GetVersionAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_data() const;
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ba748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c6504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -144,7 +144,7 @@ public:
   ::StringW ___data;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13228 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -178,10 +178,10 @@ public:
   /// @brief Field version4, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_version4, put = setStaticF_version4)) ::System::Version* version4;
 
-  /// @brief Method GetVersion, addr 0x26ba234, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetVersion, addr 0x26c5ff0, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Version* GetVersion(::StringW data);
 
-  /// @brief Method GetVersionAsync, addr 0x26ba65c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetVersionAsync, addr 0x26c6418, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::System::Version*>* GetVersionAsync(::StringW data);
 
   static inline ::System::Version* getStaticF_noVersion();
@@ -215,7 +215,7 @@ public:
   BeatmapSaveDataHelpers(BeatmapSaveDataHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13229 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

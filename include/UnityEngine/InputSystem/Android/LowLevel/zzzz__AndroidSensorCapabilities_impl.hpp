@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities::ToJson)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x458fc04;
+  constexpr static std::size_t addrs = 0x45a431c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities (*)(::StringW)>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities::FromJson)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x458fc68;
+  constexpr static std::size_t addrs = 0x45a4380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x458fd04;
+  constexpr static std::size_t addrs = 0x45a441c;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -57,10 +57,10 @@ public:
 
   static inline ::GlobalNamespace::__ColorSchemesSettings____c* New_ctor();
 
-  /// @brief Method <.ctor>b__14_0, addr 0x26ad100, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__14_0, addr 0x26b8ee0, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* __ctor_b__14_0(::GlobalNamespace::ColorSchemeSO* csSO);
 
-  /// @brief Method .ctor, addr 0x26ad0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b8ed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__ColorSchemesSettings____c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   __ColorSchemesSettings____c(__ColorSchemesSettings____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13168 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -125,29 +125,29 @@ public:
 
   __declspec(property(get = get_selectedColorSchemeId, put = set_selectedColorSchemeId)) ::StringW selectedColorSchemeId;
 
-  /// @brief Method GetColorSchemeForId, addr 0x26ace14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetColorSchemeForId, addr 0x26b8bf4, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetColorSchemeForId(::StringW id);
 
-  /// @brief Method GetColorSchemeForIdx, addr 0x26acdbc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetColorSchemeForIdx, addr 0x26b8b9c, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetColorSchemeForIdx(int32_t idx);
 
-  /// @brief Method GetNumberOfColorSchemes, addr 0x26acd74, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetNumberOfColorSchemes, addr 0x26b8b54, size 0x48, virtual false, abstract: false, final false
   inline int32_t GetNumberOfColorSchemes();
 
-  /// @brief Method GetOverrideColorScheme, addr 0x26ad088, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetOverrideColorScheme, addr 0x26b8e68, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetOverrideColorScheme();
 
-  /// @brief Method GetSelectedColorScheme, addr 0x26acf94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedColorScheme, addr 0x26b8d74, size 0x54, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetSelectedColorScheme();
 
-  /// @brief Method GetSelectedColorSchemeIdx, addr 0x26acfe8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedColorSchemeIdx, addr 0x26b8dc8, size 0xa0, virtual false, abstract: false, final false
   inline int32_t GetSelectedColorSchemeIdx();
 
   static inline ::GlobalNamespace::ColorSchemesSettings* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemeSOs);
 
   static inline ::GlobalNamespace::ColorSchemesSettings* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
 
-  /// @brief Method SetColorSchemeForId, addr 0x26ace6c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SetColorSchemeForId, addr 0x26b8c4c, size 0x128, virtual false, abstract: false, final false
   inline void SetColorSchemeForId(::GlobalNamespace::ColorScheme* colorScheme);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ColorScheme*>*& __cordl_internal_get__colorSchemesDict();
@@ -180,28 +180,28 @@ public:
 
   constexpr void __cordl_internal_set_didChangeOverrideSettingsEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x26acc6c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b8a4c, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemeSOs);
 
-  /// @brief Method .ctor, addr 0x26aca10, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b87f0, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
 
-  /// @brief Method add_didChangeOverrideSettingsEvent, addr 0x26ac8d8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeOverrideSettingsEvent, addr 0x26b86b8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangeOverrideSettingsEvent(::System::Action* value);
 
-  /// @brief Method get_overrideDefaultColors, addr 0x26ac884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideDefaultColors, addr 0x26b8664, size 0x8, virtual false, abstract: false, final false
   inline bool get_overrideDefaultColors();
 
-  /// @brief Method get_selectedColorSchemeId, addr 0x26ac8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColorSchemeId, addr 0x26b86b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_selectedColorSchemeId();
 
-  /// @brief Method remove_didChangeOverrideSettingsEvent, addr 0x26ac974, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeOverrideSettingsEvent, addr 0x26b8754, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didChangeOverrideSettingsEvent(::System::Action* value);
 
-  /// @brief Method set_overrideDefaultColors, addr 0x26ac88c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_overrideDefaultColors, addr 0x26b866c, size 0x24, virtual false, abstract: false, final false
   inline void set_overrideDefaultColors(bool value);
 
-  /// @brief Method set_selectedColorSchemeId, addr 0x26ac8b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_selectedColorSchemeId, addr 0x26b8690, size 0x20, virtual false, abstract: false, final false
   inline void set_selectedColorSchemeId(::StringW value);
 
 protected:
@@ -234,7 +234,7 @@ public:
   bool ____overrideDefaultColors;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

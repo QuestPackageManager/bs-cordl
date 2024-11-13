@@ -73,28 +73,28 @@ public:
 
   static inline ::GlobalNamespace::__MockBeatmapDataConverter____c* New_ctor();
 
-  /// @brief Method <ToMockBeatmapData>b__0_0, addr 0x3b4c3d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_0, addr 0x3b61ebc, size 0x20, virtual false, abstract: false, final false
   inline bool _ToMockBeatmapData_b__0_0(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_1, addr 0x3b4c3f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_1, addr 0x3b61edc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockNoteData* _ToMockBeatmapData_b__0_1(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_2, addr 0x3b4c3f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_2, addr 0x3b61ee4, size 0x20, virtual false, abstract: false, final false
   inline bool _ToMockBeatmapData_b__0_2(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_3, addr 0x3b4c418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_3, addr 0x3b61f04, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockNoteData* _ToMockBeatmapData_b__0_3(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_4, addr 0x3b4c420, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_4, addr 0x3b61f0c, size 0x20, virtual false, abstract: false, final false
   inline bool _ToMockBeatmapData_b__0_4(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_5, addr 0x3b4c440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_5, addr 0x3b61f2c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockNoteData* _ToMockBeatmapData_b__0_5(::GlobalNamespace::NoteData* nd);
 
-  /// @brief Method <ToMockBeatmapData>b__0_6, addr 0x3b4c448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToMockBeatmapData>b__0_6, addr 0x3b61f34, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockObstacleData* _ToMockBeatmapData_b__0_6(::GlobalNamespace::ObstacleData* od);
 
-  /// @brief Method .ctor, addr 0x3b4c3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b61eb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__MockBeatmapDataConverter____c* getStaticF___9();
@@ -144,7 +144,7 @@ public:
   __MockBeatmapDataConverter____c(__MockBeatmapDataConverter____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4520 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -162,13 +162,13 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__MockBeatmapDataConverter____c;
 
-  /// @brief Method ToMockBeatmapData, addr 0x3b4b994, size 0x8d0, virtual false, abstract: false, final false
+  /// @brief Method ToMockBeatmapData, addr 0x3b61480, size 0x8d0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MockBeatmapData* ToMockBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method ToMockNoteData, addr 0x3b4c264, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToMockNoteData, addr 0x3b61d50, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MockNoteData* ToMockNoteData(::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method ToMockObstacleData, addr 0x3b4c2e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToMockObstacleData, addr 0x3b61dd4, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MockObstacleData* ToMockObstacleData(::GlobalNamespace::ObstacleData* obstacleData);
 
 protected:
@@ -186,7 +186,7 @@ public:
   MockBeatmapDataConverter(MockBeatmapDataConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4521 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

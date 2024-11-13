@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_next(::BGNet::Logging::__Debug__LoggerLinkedList* value);
 
-  /// @brief Method .ctor, addr 0x22b05b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bb658, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Logging::__Debug__ILogger* logger);
 
 protected:
@@ -84,7 +84,7 @@ public:
   ::BGNet::Logging::__Debug__LoggerLinkedList* ___next;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -125,7 +125,7 @@ public:
   __Debug__ILogger(__Debug__ILogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19083 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -149,25 +149,25 @@ public:
   /// @brief Field _loggersMutex, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__loggersMutex, put = setStaticF__loggersMutex)) ::System::Object* _loggersMutex;
 
-  /// @brief Method AddLogger, addr 0x22b03d8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method AddLogger, addr 0x22bb480, size 0x168, virtual false, abstract: false, final false
   static inline void AddLogger(::BGNet::Logging::__Debug__ILogger* logger);
 
-  /// @brief Method Log, addr 0x22b0820, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x22bb8c8, size 0xf4, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
-  /// @brief Method LogError, addr 0x22b0914, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x22bb9bc, size 0xf8, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
-  /// @brief Method LogException, addr 0x22b0a0c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method LogException, addr 0x22bbab4, size 0x100, virtual false, abstract: false, final false
   static inline void LogException(::System::Exception* exception, ::StringW message);
 
-  /// @brief Method LogWarning, addr 0x22b0b0c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x22bbbb4, size 0xf8, virtual false, abstract: false, final false
   static inline void LogWarning(::StringW message);
 
-  /// @brief Method NoDomainReloadInit, addr 0x22b0348, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x22bb3f0, size 0x88, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method RemoveLogger, addr 0x22b05d8, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method RemoveLogger, addr 0x22bb680, size 0x248, virtual false, abstract: false, final false
   static inline void RemoveLogger(::BGNet::Logging::__Debug__ILogger* logger);
 
   static inline ::BGNet::Logging::__Debug__LoggerLinkedList* getStaticF__loggers();
@@ -193,7 +193,7 @@ public:
   Debug(Debug const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19084 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

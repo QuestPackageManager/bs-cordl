@@ -29,7 +29,7 @@ template <typename TParam1, typename TParam2, typename TParam3>
 constexpr void Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_set___4__this(
     ::Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TParam1, typename TParam2, typename TParam3>
 constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*&
@@ -47,7 +47,7 @@ template <typename TParam1, typename TParam2, typename TParam3>
 constexpr void
 Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___args)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___args, value);
 }
 template <typename TParam1, typename TParam2, typename TParam3>
 inline ::Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>*
@@ -100,7 +100,7 @@ template <typename TParam1, typename TParam2, typename TParam3>
 constexpr void
 Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>::__cordl_internal_set__installerMethod(::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____installerMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____installerMethod, value);
 }
 template <typename TParam1, typename TParam2, typename TParam3>
 inline ::Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>*

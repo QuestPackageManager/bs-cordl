@@ -58,7 +58,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__GroupBox__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x491dbe0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49322f8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   __GroupBox__UxmlFactory(__GroupBox__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5559 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -95,7 +95,7 @@ public:
   /// @brief Field m_Text, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x491dc28, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4932340, size 0xf8, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__GroupBox__UxmlTraits* New_ctor();
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x491dd20, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4932438, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5560 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,10 +167,10 @@ public:
 
   static inline ::UnityEngine::UIElements::GroupBox* New_ctor(::StringW text);
 
-  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionAdded, addr 0x491db38, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionAdded, addr 0x4932250, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IGroupBox_OnOptionAdded(::UnityEngine::UIElements::IGroupBoxOption* option);
 
-  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionRemoved, addr 0x491db3c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionRemoved, addr 0x4932254, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IGroupBox_OnOptionRemoved(::UnityEngine::UIElements::IGroupBoxOption* option);
 
   constexpr ::UnityEngine::UIElements::Label*& __cordl_internal_get_m_TitleLabel();
@@ -179,10 +179,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TitleLabel(::UnityEngine::UIElements::Label* value);
 
-  /// @brief Method .ctor, addr 0x491daa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49321c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x491dab0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49321c8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::StringW getStaticF_labelUssClassName();
@@ -196,7 +196,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_text, addr 0x491d990, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x49320a8, size 0x118, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -217,7 +217,7 @@ public:
   ::UnityEngine::UIElements::Label* ___m_TitleLabel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

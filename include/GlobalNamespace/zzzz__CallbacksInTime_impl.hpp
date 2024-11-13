@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CallbacksInTime::*)()>(&::GlobalNamespace::CallbacksInTime::get_isEmpty)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3a6ee38;
+  constexpr static std::size_t addrs = 0x3a82860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CallbacksInTime*>::get(), "get_isEmpty",
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(float_t)>(&::GlobalNamespace::CallbacksInTime::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3a70070;
+  constexpr static std::size_t addrs = 0x3a83a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(::GlobalNamespace::BeatmapDataCallbackWrapper*)>(
     &::GlobalNamespace::CallbacksInTime::AddCallback)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x3a70148;
+  constexpr static std::size_t addrs = 0x3a83b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(::GlobalNamespace::BeatmapDataCallbackWrapper*)>(
     &::GlobalNamespace::CallbacksInTime::RemoveCallback)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3a6ec4c;
+  constexpr static std::size_t addrs = 0x3a82674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(::GlobalNamespace::BeatmapDataItem*)>(
     &::GlobalNamespace::CallbacksInTime::CallCallbacks)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3a6f024;
+  constexpr static std::size_t addrs = 0x3a82a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(::System::Type*, ::GlobalNamespace::BeatmapDataItem*)>(
     &::GlobalNamespace::CallbacksInTime::CallCallbacks)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x3a70438;
+  constexpr static std::size_t addrs = 0x3a83e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

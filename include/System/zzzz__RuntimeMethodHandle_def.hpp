@@ -48,28 +48,28 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
-  /// @brief Method ConstructInstantiation, addr 0x3dc604c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ConstructInstantiation, addr 0x3dda6dc, size 0x158, virtual false, abstract: false, final false
   static inline ::StringW ConstructInstantiation(::System::Reflection::RuntimeMethodInfo* method, ::System::TypeNameFormatFlags format);
 
-  /// @brief Method Equals, addr 0x3dc5f48, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3dda5d8, size 0xfc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3dc6044, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3dda6d4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetObjectData, addr 0x3dc5db8, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3dda448, size 0x190, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method IsNullHandle, addr 0x3dc61a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsNullHandle, addr 0x3dda834, size 0x10, virtual false, abstract: false, final false
   inline bool IsNullHandle();
 
-  /// @brief Method .ctor, addr 0x3dc5c28, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dda2b8, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3dc5c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dda2b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr v);
 
-  /// @brief Method get_Value, addr 0x3dc5db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3dda440, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Value();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

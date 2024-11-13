@@ -38,18 +38,18 @@ public:
   /// @brief Field _textMeshPro, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__textMeshPro, put = __cordl_internal_set__textMeshPro)) ::UnityW<::TMPro::TMP_Text> _textMeshPro;
 
-  /// @brief Method HandleTextDidChange, addr 0x3ab802c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleTextDidChange, addr 0x3acbbcc, size 0x90, virtual false, abstract: false, final false
   inline void HandleTextDidChange(::UnityEngine::Object* textMeshPro);
 
   static inline ::GlobalNamespace::ResizableTextMeshPro* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ab7f5c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3acbafc, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3ab7e28, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3acb9c8, size 0xd0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3ab7ef8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3acba98, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__textMeshPro(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x3ab80bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acbc5c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   float_t ____textExtraSpace;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5126 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

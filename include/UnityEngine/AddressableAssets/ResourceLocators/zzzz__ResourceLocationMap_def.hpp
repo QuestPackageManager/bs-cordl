@@ -64,13 +64,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
 
-  /// @brief Method Add, addr 0x4487a7c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x449c194, size 0x160, virtual false, abstract: false, final false
   inline void Add(::System::Object* key, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method Add, addr 0x4485258, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4499970, size 0x68, virtual false, abstract: false, final false
   inline void Add(::System::Object* key, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
 
-  /// @brief Method Locate, addr 0x448607c, size 0x878, virtual true, abstract: false, final true
+  /// @brief Method Locate, addr 0x449a794, size 0x878, virtual true, abstract: false, final true
   inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* New_ctor(::StringW id, int32_t capacity);
@@ -94,26 +94,26 @@ public:
   constexpr void __cordl_internal_set_locations(
       ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* value);
 
-  /// @brief Method .ctor, addr 0x4484fc4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44996dc, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x44870e8, size 0x994, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449b800, size 0x994, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::System::Collections::Generic::IList_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* locations);
 
-  /// @brief Method get_Keys, addr 0x448602c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x449a744, size 0x50, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_Locations, addr 0x4487bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Locations, addr 0x449c2f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*
   get_Locations();
 
-  /// @brief Method get_LocatorId, addr 0x44870d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LocatorId, addr 0x449b7f0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_LocatorId();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
 
-  /// @brief Method set_LocatorId, addr 0x44870e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocatorId, addr 0x449b7f8, size 0x8, virtual false, abstract: false, final false
   inline void set_LocatorId(::StringW value);
 
 protected:
@@ -137,7 +137,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* ___locations;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16174 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

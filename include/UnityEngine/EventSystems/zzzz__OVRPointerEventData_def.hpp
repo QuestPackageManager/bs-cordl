@@ -33,7 +33,7 @@ public:
 
   static inline ::UnityEngine::EventSystems::OVRPointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ToString, addr 0x4006bd8, size 0x590, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x401b268, size 0x590, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_swipeStart() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_worldSpaceRay(::UnityEngine::Ray value);
 
-  /// @brief Method .ctor, addr 0x4004a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40190a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
 protected:
@@ -72,7 +72,7 @@ public:
   ::UnityEngine::Vector2 ___swipeStart;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9030 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

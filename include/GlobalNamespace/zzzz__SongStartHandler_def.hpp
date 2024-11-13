@@ -67,31 +67,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x22a7528, size 0x240, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x22b25d0, size 0x240, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method ForceStart, addr 0x22a7768, size 0x6b4, virtual false, abstract: false, final false
+  /// @brief Method ForceStart, addr 0x22b2810, size 0x6b4, virtual false, abstract: false, final false
   inline void ForceStart(::StringW sessionGameId);
 
-  /// @brief Method GetLevelStartTimeOffset, addr 0x22a7048, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method GetLevelStartTimeOffset, addr 0x22b20f0, size 0x4e0, virtual false, abstract: false, final false
   inline void GetLevelStartTimeOffset();
 
-  /// @brief Method HandleGetGameplaySongReady, addr 0x22a8364, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleGetGameplaySongReady, addr 0x22b340c, size 0xa4, virtual false, abstract: false, final false
   inline void HandleGetGameplaySongReady(::StringW user);
 
-  /// @brief Method HandleSetGameplaySongReady, addr 0x22a80b4, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method HandleSetGameplaySongReady, addr 0x22b315c, size 0x2b0, virtual false, abstract: false, final false
   inline void HandleSetGameplaySongReady(::StringW user);
 
-  /// @brief Method HandleSetSongStartTime, addr 0x22a8408, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleSetSongStartTime, addr 0x22b34b0, size 0x30, virtual false, abstract: false, final false
   inline void HandleSetSongStartTime(::StringW user, int64_t time);
 
-  /// @brief Method Log, addr 0x22a8438, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x22b34e0, size 0x58, virtual false, abstract: false, final false
   inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::SongStartHandler* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                                                               ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method StartSong, addr 0x22a7e1c, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x22b2ec4, size 0x298, virtual false, abstract: false, final false
   inline void StartSong();
 
   constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
@@ -136,20 +136,20 @@ public:
 
   constexpr void __cordl_internal_set_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method .ctor, addr 0x22a6fac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b2054, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method add_setSongStartSyncTimeEvent, addr 0x22a6e4c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_setSongStartSyncTimeEvent, addr 0x22b1ef4, size 0xb0, virtual false, abstract: false, final false
   inline void add_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method get_songStartSyncTime, addr 0x22a6e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songStartSyncTime, addr 0x22b1eec, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_songStartSyncTime();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_setSongStartSyncTimeEvent, addr 0x22a6efc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_setSongStartSyncTimeEvent, addr 0x22b1fa4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
 
 protected:
@@ -188,7 +188,7 @@ public:
   ::System::Action_1<int64_t>* ___setSongStartSyncTimeEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14932 };
 
   /// @brief Field kFixedStartDelayMs offset 0xffffffff size 0x8
   static constexpr int64_t kFixedStartDelayMs{ static_cast<int64_t>(0xfa) };

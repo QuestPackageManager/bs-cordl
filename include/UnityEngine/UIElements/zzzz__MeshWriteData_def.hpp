@@ -56,22 +56,22 @@ public:
 
   static inline ::UnityEngine::UIElements::MeshWriteData* New_ctor();
 
-  /// @brief Method Reset, addr 0x49cf494, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49e3bac, size 0x1c, virtual false, abstract: false, final false
   inline void Reset(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices);
 
-  /// @brief Method Reset, addr 0x49cf4b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49e3bc8, size 0x18, virtual false, abstract: false, final false
   inline void Reset(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Rect uvRegion);
 
-  /// @brief Method SetAllIndices, addr 0x49cf3c0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetAllIndices, addr 0x49e3ad8, size 0xd4, virtual false, abstract: false, final false
   inline void SetAllIndices(::ArrayW<uint16_t, ::Array<uint16_t>*> indices);
 
-  /// @brief Method SetAllVertices, addr 0x49cf2ec, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetAllVertices, addr 0x49e3a04, size 0xd4, virtual false, abstract: false, final false
   inline void SetAllVertices(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> vertices);
 
-  /// @brief Method SetNextIndex, addr 0x49cf288, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetNextIndex, addr 0x49e39a0, size 0x64, virtual false, abstract: false, final false
   inline void SetNextIndex(uint16_t index);
 
-  /// @brief Method SetNextVertex, addr 0x49cf200, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetNextVertex, addr 0x49e3918, size 0x88, virtual false, abstract: false, final false
   inline void SetNextVertex(::UnityEngine::UIElements::Vertex vertex);
 
   constexpr int32_t const& __cordl_internal_get_currentIndex() const;
@@ -104,16 +104,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Vertices(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value);
 
-  /// @brief Method .ctor, addr 0x49cf15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e3874, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_indexCount, addr 0x49cf1ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_indexCount, addr 0x49e38c4, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_indexCount();
 
-  /// @brief Method get_uvRegion, addr 0x49cf1f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_uvRegion, addr 0x49e390c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_uvRegion();
 
-  /// @brief Method get_vertexCount, addr 0x49cf164, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_vertexCount, addr 0x49e387c, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_vertexCount();
 
 protected:
@@ -146,7 +146,7 @@ public:
   int32_t ___currentVertex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6003 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

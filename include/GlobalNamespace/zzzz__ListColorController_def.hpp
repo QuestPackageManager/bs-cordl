@@ -36,24 +36,24 @@ public:
   /// @brief Method ColorForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color ColorForValue(int32_t idx);
 
-  /// @brief Method DecButtonPressed, addr 0x3bb20dc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x3bc676c, size 0x38, virtual true, abstract: false, final false
   inline void DecButtonPressed();
 
   /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method IncButtonPressed, addr 0x3bb209c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x3bc672c, size 0x40, virtual true, abstract: false, final false
   inline void IncButtonPressed();
 
   static inline ::GlobalNamespace::ListColorController* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3bb1fbc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3bc664c, size 0x34, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x3bb2040, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3bc66d0, size 0x5c, virtual false, abstract: false, final false
   inline void Refresh(bool applyValue);
 
-  /// @brief Method RefreshUI, addr 0x3bb1ff0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x3bc6680, size 0x50, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   constexpr int32_t const& __cordl_internal_get__idx() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__numberOfElements(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3bb2114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc67a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   int32_t ____numberOfElements;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18841 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

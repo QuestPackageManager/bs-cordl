@@ -285,7 +285,7 @@ public:
   ::System::Collections::Generic::NodeColor ____Color_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9489 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -402,7 +402,7 @@ public:
   bool _reverse;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9490 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -435,7 +435,7 @@ public:
   int32_t UnfoundCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9491 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -513,7 +513,7 @@ public:
   ::ArrayW<T, ::Array<T>*> ___array;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9492 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -576,7 +576,7 @@ public:
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___objects;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9493 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -862,7 +862,7 @@ public:
   ::System::Runtime::Serialization::SerializationInfo* ___siInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9494 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

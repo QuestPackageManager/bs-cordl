@@ -39,7 +39,7 @@ public:
 
   static inline ::System::Xml::Schema::LocatedActiveAxis* New_ctor(::System::Xml::Schema::Asttree* astfield, ::System::Xml::Schema::KeySequence* ks, int32_t column);
 
-  /// @brief Method Reactivate, addr 0x4321d04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reactivate, addr 0x433641c, size 0x18, virtual false, abstract: false, final false
   inline void Reactivate(::System::Xml::Schema::KeySequence* ks);
 
   constexpr ::System::Xml::Schema::KeySequence*& __cordl_internal_get_Ks();
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_isMatched(bool value);
 
-  /// @brief Method .ctor, addr 0x4321cd4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43363ec, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::Asttree* astfield, ::System::Xml::Schema::KeySequence* ks, int32_t column);
 
-  /// @brief Method get_Column, addr 0x4321ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Column, addr 0x43363e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Column();
 
 protected:
@@ -90,7 +90,7 @@ public:
   ::System::Xml::Schema::KeySequence* ___Ks;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7459 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -59,7 +59,7 @@ public:
   int32_t used;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6367 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -202,7 +202,7 @@ public:
   bool ____disposed_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

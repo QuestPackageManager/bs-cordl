@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(::System::IntPtr, int32_t)>(
     &::UnityEngine::UIElements::UIR::JobProcessor::ScheduleNudgeJobs)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x492b904;
+  constexpr static std::size_t addrs = 0x494001c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(::System::IntPtr, int32_t)>(
     &::UnityEngine::UIElements::UIR::JobProcessor::ScheduleConvertMeshJobs)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x492b9b4;
+  constexpr static std::size_t addrs = 0x49400cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(::System::IntPtr, int32_t)>(
     &::UnityEngine::UIElements::UIR::JobProcessor::ScheduleCopyClosingMeshJobs)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x492ba64;
+  constexpr static std::size_t addrs = 0x494017c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, ByRef<::Unity::Jobs::JobHandle>)>(
     &::UnityEngine::UIElements::UIR::JobProcessor::ScheduleNudgeJobs_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x492b960;
+  constexpr static std::size_t addrs = 0x4940078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, ByRef<::Unity::Jobs::JobHandle>)>(
     &::UnityEngine::UIElements::UIR::JobProcessor::ScheduleConvertMeshJobs_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x492ba10;
+  constexpr static std::size_t addrs = 0x4940128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, ByRef<::Unity::Jobs::JobHandle>)>(
     &::UnityEngine::UIElements::UIR::JobProcessor::ScheduleCopyClosingMeshJobs_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x492bac0;
+  constexpr static std::size_t addrs = 0x49401d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

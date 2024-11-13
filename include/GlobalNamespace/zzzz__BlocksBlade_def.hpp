@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_velocity(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b6e03c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b83440, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   float_t ___velocity;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -191,16 +191,16 @@ public:
 
   static inline ::GlobalNamespace::BlocksBlade* New_ctor();
 
-  /// @brief Method RandomPointOnCircle, addr 0x3b6dec4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RandomPointOnCircle, addr 0x3b839c0, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 RandomPointOnCircle(float_t radius);
 
-  /// @brief Method SetUpElement, addr 0x3b6d94c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetUpElement, addr 0x3b83448, size 0x168, virtual false, abstract: false, final false
   inline void SetUpElement(::GlobalNamespace::__BlocksBlade__Element* element, float_t velocity, ::UnityEngine::Color color);
 
-  /// @brief Method Start, addr 0x3b6d720, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b83214, size 0x22c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b6dab4, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b835b0, size 0x410, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color_k__BackingField() const;
@@ -311,7 +311,7 @@ public:
 
   constexpr void __cordl_internal_set__sizes(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  /// @brief Method .ctor, addr 0x3b6df10, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b83a0c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorPropertyID();
@@ -322,7 +322,7 @@ public:
 
   static inline int32_t getStaticF__zClipPropertyID();
 
-  /// @brief Method get_color, addr 0x3b6d708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3b831fc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline void setStaticF__colorPropertyID(int32_t value);
@@ -333,7 +333,7 @@ public:
 
   static inline void setStaticF__zClipPropertyID(int32_t value);
 
-  /// @brief Method set_color, addr 0x3b6d714, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3b83208, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -405,7 +405,7 @@ public:
   int32_t ____layer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4631 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,17 +33,17 @@ public:
   /// @brief Field k_searchedFontAssets, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_searchedFontAssets, put = setStaticF_k_searchedFontAssets)) ::System::Collections::Generic::List_1<int32_t>* k_searchedFontAssets;
 
-  /// @brief Method SearchForCharacter, addr 0x475dff4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacter, addr 0x477270c, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacter(::TMPro::TMP_FontAsset* font, uint32_t unicode, ByRef<::TMPro::TMP_Character*> character);
 
-  /// @brief Method SearchForCharacter, addr 0x475e360, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacter, addr 0x4772a78, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacter(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fonts, uint32_t unicode,
                                                                     ByRef<::TMPro::TMP_Character*> character);
 
-  /// @brief Method SearchForCharacterInternal, addr 0x475e0d4, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacterInternal, addr 0x47727ec, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacterInternal(::TMPro::TMP_FontAsset* font, uint32_t unicode, ByRef<::TMPro::TMP_Character*> character);
 
-  /// @brief Method SearchForCharacterInternal, addr 0x475e364, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacterInternal, addr 0x4772a7c, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacterInternal(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fonts, uint32_t unicode,
                                                                             ByRef<::TMPro::TMP_Character*> character);
 
@@ -66,7 +66,7 @@ public:
   TMP_FontUtilities(TMP_FontUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

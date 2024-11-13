@@ -22,7 +22,7 @@ namespace System::Net::Cache {
 class CORDL_TYPE RequestCacheValidator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateValidator, addr 0x43782b0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CreateValidator, addr 0x438c9c8, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* CreateValidator();
 
 protected:
@@ -40,7 +40,7 @@ public:
   RequestCacheValidator(RequestCacheValidator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9809 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

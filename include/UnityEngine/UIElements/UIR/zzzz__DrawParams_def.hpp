@@ -60,7 +60,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::DrawParams* New_ctor();
 
-  /// @brief Method Reset, addr 0x493e78c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4952ea4, size 0x1c8, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*& __cordl_internal_get_defaultMaterial();
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_view(::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>* value);
 
-  /// @brief Method .ctor, addr 0x493a554, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494ec6c, size 0x164, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rect getStaticF_k_FullNormalizedRect();
@@ -125,7 +125,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* ___defaultMaterial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6404 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

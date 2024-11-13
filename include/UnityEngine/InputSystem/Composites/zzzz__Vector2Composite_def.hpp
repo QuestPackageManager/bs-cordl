@@ -77,7 +77,7 @@ public:
   static ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode const DigitalNormalized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7100 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -118,12 +118,12 @@ public:
   /// @brief Field up, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_up, put = __cordl_internal_set_up)) int32_t up;
 
-  /// @brief Method EvaluateMagnitude, addr 0x44fce5c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x4511574, size 0x70, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::Vector2Composite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x44fccf8, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x4511410, size 0x164, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_down() const;
@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set_up(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44fcecc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45115e4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -198,7 +198,7 @@ public:
   ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode ___mode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7101 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

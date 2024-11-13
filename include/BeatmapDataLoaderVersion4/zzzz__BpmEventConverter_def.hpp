@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__BeatToTimeConverterProvider_def.hpp"
+#include "GlobalNamespace/zzzz__BeatToTimeConverter_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BpmEventConverter)
 namespace BeatmapLevelSaveDataVersion4 {
@@ -26,13 +26,13 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::BpmEventConverter);
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::BpmEventConverter*
-class CORDL_TYPE BpmEventConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
+class CORDL_TYPE BpmEventConverter : public ::GlobalNamespace::BeatToTimeConverter {
 public:
   // Declarations
   /// @brief Field _songFrequency, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__songFrequency, put = __cordl_internal_set__songFrequency)) int32_t _songFrequency;
 
-  /// @brief Method Convert, addr 0x26cb994, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x26d75e0, size 0xb4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapLevelSaveDataVersion4::BpmData* bpmData);
 
   static inline ::BeatmapDataLoaderVersion4::BpmEventConverter* New_ctor(int32_t songFrequency, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__songFrequency(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26cb968, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d75b4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t songFrequency, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
@@ -64,7 +64,7 @@ public:
   int32_t ____songFrequency;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13446 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

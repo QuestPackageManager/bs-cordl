@@ -31,15 +31,15 @@ public:
   /// @brief Field otherRuntimes, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_otherRuntimes, put = __cordl_internal_set_otherRuntimes)) int32_t otherRuntimes;
 
-  /// @brief Method EvaluateMagnitude, addr 0x3968258, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x397badc, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method Init, addr 0x39682cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x397bb50, size 0x4, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x3968250, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x397bad4, size 0x8, virtual true, abstract: false, final false
   inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_oculusRuntime() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_otherRuntimes(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39682d0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397bb54, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   int32_t ___otherRuntimes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,10 +24,10 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method Dispose, addr 0x4a6bf08, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4a80620, size 0x58, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Release, addr 0x4a6becc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x4a805e4, size 0x3c, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -54,7 +54,7 @@ public:
   ::System::IntPtr ___m_Ptr;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18151 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18158 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

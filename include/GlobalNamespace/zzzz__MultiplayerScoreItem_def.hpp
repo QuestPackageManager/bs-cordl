@@ -57,30 +57,30 @@ public:
   /// @brief Field _tweeningManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method AnimateColors, addr 0x3b65d54, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method AnimateColors, addr 0x3b6cd18, size 0x11c, virtual false, abstract: false, final false
   inline void AnimateColors(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method Awake, addr 0x3b65aac, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b7b76c, size 0x1a8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MultiplayerScoreItem* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b65c54, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b7b914, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetName, addr 0x3b65e70, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetName, addr 0x3b6d524, size 0x24, virtual false, abstract: false, final false
   inline void SetName(::StringW text);
 
-  /// @brief Method SetPositionAndRotation, addr 0x3b65cdc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x3b7b99c, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SetScore, addr 0x3b65e94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetScore, addr 0x3b6d5e0, size 0x24, virtual false, abstract: false, final false
   inline void SetScore(::StringW text);
 
-  /// @brief Method <Awake>b__5_0, addr 0x3b65ec0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__5_0, addr 0x3b7ba1c, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__5_0(::UnityEngine::Color val);
 
-  /// @brief Method <Awake>b__5_1, addr 0x3b65ee4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__5_1, addr 0x3b7ba40, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__5_1(::UnityEngine::Color val);
 
   constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& __cordl_internal_get__nameColorTween();
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b65eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7ba14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,7 +146,7 @@ public:
   ::Tweening::Tween_1<::UnityEngine::Color>* ____scoreColorTween;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

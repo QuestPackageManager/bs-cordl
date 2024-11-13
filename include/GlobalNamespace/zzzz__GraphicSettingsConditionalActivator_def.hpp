@@ -66,7 +66,7 @@ public:
   int32_t value__;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5145 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,12 +113,12 @@ public:
   /// @brief Field _settingsManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method GetGraphicsActivatorType, addr 0x3ab9e34, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsActivatorType, addr 0x3acd9d4, size 0x90, virtual false, abstract: false, final false
   inline bool GetGraphicsActivatorType();
 
   static inline ::GlobalNamespace::GraphicSettingsConditionalActivator* New_ctor();
 
-  /// @brief Method Start, addr 0x3ab9de4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3acd984, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__activateOnFalse() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3ab9ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acda64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -175,7 +175,7 @@ public:
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5146 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

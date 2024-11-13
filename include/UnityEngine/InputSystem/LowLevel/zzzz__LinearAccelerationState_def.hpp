@@ -34,10 +34,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method get_format, addr 0x4591cd4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x45a63ec, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_kFormat, addr 0x4591ca4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_kFormat, addr 0x45a63bc, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -54,7 +54,7 @@ public:
   ::UnityEngine::Vector3 acceleration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6892 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

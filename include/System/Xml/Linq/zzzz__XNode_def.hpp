@@ -32,21 +32,21 @@ public:
   /// @brief Field next, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::System::Xml::Linq::XNode* next;
 
-  /// @brief Method AppendText, addr 0x41d6cd8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AppendText, addr 0x41eb3f0, size 0x4, virtual true, abstract: false, final false
   inline void AppendText(::System::Text::StringBuilder* sb);
 
   /// @brief Method CloneNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
-  /// @brief Method GetXmlString, addr 0x41d6860, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method GetXmlString, addr 0x41eaf78, size 0x478, virtual false, abstract: false, final false
   inline ::StringW GetXmlString(::System::Xml::Linq::SaveOptions o);
 
   static inline ::System::Xml::Linq::XNode* New_ctor();
 
-  /// @brief Method Remove, addr 0x41d6704, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x41eae1c, size 0x60, virtual false, abstract: false, final false
   inline void Remove();
 
-  /// @brief Method ToString, addr 0x41d6764, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41eae7c, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method WriteTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_next(::System::Xml::Linq::XNode* value);
 
-  /// @brief Method .ctor, addr 0x41cf8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41e3fe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   ::System::Xml::Linq::XNode* ___next;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17921 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

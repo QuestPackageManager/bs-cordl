@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::__SslStream____c__DisplayClass21_0::*)()>(
     &::System::Net::Security::__SslStream____c__DisplayClass21_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x438f8e8;
+  constexpr static std::size_t addrs = 0x43a4000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                     ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Net::Security::__SslStream____c__DisplayClass21_0::_SetAndVerifySelectionCallback_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43900a4;
+  constexpr static std::size_t addrs = 0x43a47bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileAuthenticatedStream* (::System::Net::Security::SslStream::*)()>(
     &::System::Net::Security::SslStream::get_Impl)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x438f3dc;
+  constexpr static std::size_t addrs = 0x43a3af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::SslStream*>::get(), "get_Impl",
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_InternalTargetHost)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x438f450;
+  constexpr static std::size_t addrs = 0x43a3b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::SslStream*>::get(),
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::System::Net::Security::SslStream::GetProvider)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x438f474;
+  constexpr static std::size_t addrs = 0x43a3b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::SslStream*>::get(), "GetProvider",
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::Security::SslStream::*)(::System::IO::Stream*, bool, ::System::Net::Security::RemoteCertificateValidationCallback*)>(&::System::Net::Security::SslStream::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x438f4e4;
+  constexpr static std::size_t addrs = 0x43a3bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +169,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::IO::Stream*, bool, ::System::Net::Security::RemoteCertificateValidationCallback*, ::System::Net::Security::LocalCertificateSelectionCallback*)>(
     &::System::Net::Security::SslStream::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x438f4f0;
+  constexpr static std::size_t addrs = 0x43a3c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)(
     ::System::IO::Stream*, bool, ::Mono::Security::Interface::MonoTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*)>(&::System::Net::Security::SslStream::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x438f7c4;
+  constexpr static std::size_t addrs = 0x43a3edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)(::System::Net::Security::RemoteCertificateValidationCallback*)>(
     &::System::Net::Security::SslStream::SetAndVerifyValidationCallback)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x438f580;
+  constexpr static std::size_t addrs = 0x43a3c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)(::System::Net::Security::LocalCertificateSelectionCallback*)>(
     &::System::Net::Security::SslStream::SetAndVerifySelectionCallback)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x438f658;
+  constexpr static std::size_t addrs = 0x43a3d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +234,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Authentication::SslProtocols, bool)>(
     &::System::Net::Security::SslStream::AuthenticateAsClient)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x438f8f0;
+  constexpr static std::size_t addrs = 0x43a4008;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -250,7 +250,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Net::Security::SslStream::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Authentication::SslProtocols, bool,
                                            ::System::AsyncCallback*, ::System::Object*)>(&::System::Net::Security::SslStream::BeginAuthenticateAsClient)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x438f944;
+  constexpr static std::size_t addrs = 0x43a405c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)(::System::IAsyncResult*)>(
     &::System::Net::Security::SslStream::EndAuthenticateAsClient)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x438f9b8;
+  constexpr static std::size_t addrs = 0x43a40d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)(
     ::System::Security::Cryptography::X509Certificates::X509Certificate*, bool, ::System::Security::Authentication::SslProtocols, bool)>(&::System::Net::Security::SslStream::AuthenticateAsServer)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x438f9c4;
+  constexpr static std::size_t addrs = 0x43a40dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -296,7 +296,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Net::Security::SslStream::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Authentication::SslProtocols, bool)>(
     &::System::Net::Security::SslStream::AuthenticateAsClientAsync)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x438fa18;
+  constexpr static std::size_t addrs = 0x43a4130;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_IsAuthenticated)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x438fa6c;
+  constexpr static std::size_t addrs = 0x43a4184;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::System::Net::Security::SslStream::*)()>(
     &::System::Net::Security::SslStream::get_LocalCertificate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x438fa98;
+  constexpr static std::size_t addrs = 0x43a41b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x438fabc;
+  constexpr static std::size_t addrs = 0x43a41d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_CanRead)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x438fac4;
+  constexpr static std::size_t addrs = 0x43a41dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_CanTimeout)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x438fadc;
+  constexpr static std::size_t addrs = 0x43a41f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -381,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x438fafc;
+  constexpr static std::size_t addrs = 0x43a4214;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_ReadTimeout)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x438fb14;
+  constexpr static std::size_t addrs = 0x43a422c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -409,7 +409,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)(int32_t)>(&::System::Net::Security::SslStream::set_ReadTimeout)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x438fb40;
+  constexpr static std::size_t addrs = 0x43a4258;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_WriteTimeout)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x438fb7c;
+  constexpr static std::size_t addrs = 0x43a4294;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -437,7 +437,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)(int32_t)>(&::System::Net::Security::SslStream::set_WriteTimeout)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x438fba8;
+  constexpr static std::size_t addrs = 0x43a42c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -451,7 +451,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_Length)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x438fbe4;
+  constexpr static std::size_t addrs = 0x43a42fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::get_Position)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x438fc0c;
+  constexpr static std::size_t addrs = 0x43a4324;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)(int64_t)>(&::System::Net::Security::SslStream::set_Position)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x438fc38;
+  constexpr static std::size_t addrs = 0x43a4350;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -493,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)(int64_t)>(&::System::Net::Security::SslStream::SetLength)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x438fc90;
+  constexpr static std::size_t addrs = 0x43a43a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -508,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Net::Security::SslStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::System::Net::Security::SslStream::Seek)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x438fccc;
+  constexpr static std::size_t addrs = 0x43a43e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Security::SslStream::*)(::System::Threading::CancellationToken)>(
     &::System::Net::Security::SslStream::FlushAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x438fd24;
+  constexpr static std::size_t addrs = 0x43a443c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -537,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::Flush)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x438fd48;
+  constexpr static std::size_t addrs = 0x43a4460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -551,7 +551,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)()>(&::System::Net::Security::SslStream::CheckDisposed)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x438f3f4;
+  constexpr static std::size_t addrs = 0x43a3b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::SslStream*>::get(), "CheckDisposed",
@@ -564,7 +564,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)(bool)>(&::System::Net::Security::SslStream::Dispose)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x438fd6c;
+  constexpr static std::size_t addrs = 0x43a4484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Security::SslStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Net::Security::SslStream::Read)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x438fe18;
+  constexpr static std::size_t addrs = 0x43a4530;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Net::Security::SslStream::Write)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x438fe6c;
+  constexpr static std::size_t addrs = 0x43a4584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::Net::Security::SslStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::Security::SslStream::ReadAsync)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x438fec0;
+  constexpr static std::size_t addrs = 0x43a45d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -624,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::Net::Security::SslStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::Security::SslStream::WriteAsync)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x438ff1c;
+  constexpr static std::size_t addrs = 0x43a4634;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -639,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::System::Net::Security::SslStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::System::Net::Security::SslStream::BeginRead)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x438ff78;
+  constexpr static std::size_t addrs = 0x43a4690;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Security::SslStream::*)(::System::IAsyncResult*)>(
     &::System::Net::Security::SslStream::EndRead)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x438ffe4;
+  constexpr static std::size_t addrs = 0x43a46fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -669,7 +669,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::System::Net::Security::SslStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::System::Net::Security::SslStream::BeginWrite)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x439002c;
+  constexpr static std::size_t addrs = 0x43a4744;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -684,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslStream::*)(::System::IAsyncResult*)>(
     &::System::Net::Security::SslStream::EndWrite)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4390098;
+  constexpr static std::size_t addrs = 0x43a47b0;
 
   inline static ::MethodInfo const* methodInfo() {
 

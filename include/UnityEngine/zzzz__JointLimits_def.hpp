@@ -30,34 +30,34 @@ public:
 
   __declspec(property(get = get_min, put = set_min)) float_t min;
 
-  /// @brief Method get_bounceMinVelocity, addr 0x4879fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounceMinVelocity, addr 0x488e6e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bounceMinVelocity();
 
-  /// @brief Method get_bounciness, addr 0x4879fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounciness, addr 0x488e6d8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bounciness();
 
-  /// @brief Method get_contactDistance, addr 0x4879fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contactDistance, addr 0x488e6f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_contactDistance();
 
-  /// @brief Method get_max, addr 0x4879fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_max, addr 0x488e6c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_max();
 
-  /// @brief Method get_min, addr 0x4879fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_min, addr 0x488e6b8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_min();
 
-  /// @brief Method set_bounceMinVelocity, addr 0x4879fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bounceMinVelocity, addr 0x488e6f0, size 0x8, virtual false, abstract: false, final false
   inline void set_bounceMinVelocity(float_t value);
 
-  /// @brief Method set_bounciness, addr 0x4879fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bounciness, addr 0x488e6e0, size 0x8, virtual false, abstract: false, final false
   inline void set_bounciness(float_t value);
 
-  /// @brief Method set_contactDistance, addr 0x4879fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contactDistance, addr 0x488e700, size 0x8, virtual false, abstract: false, final false
   inline void set_contactDistance(float_t value);
 
-  /// @brief Method set_max, addr 0x4879fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_max, addr 0x488e6d0, size 0x8, virtual false, abstract: false, final false
   inline void set_max(float_t value);
 
-  /// @brief Method set_min, addr 0x4879fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_min, addr 0x488e6c0, size 0x8, virtual false, abstract: false, final false
   inline void set_min(float_t value);
 
   // Ctor Parameters []
@@ -92,7 +92,7 @@ public:
   float_t maxBounce;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15683 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

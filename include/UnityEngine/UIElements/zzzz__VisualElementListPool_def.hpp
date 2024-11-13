@@ -41,10 +41,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__VisualElementListPool____c* New_ctor();
 
-  /// @brief Method <.cctor>b__4_0, addr 0x4922280, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_0, addr 0x4936998, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* __cctor_b__4_0();
 
-  /// @brief Method .ctor, addr 0x4922278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4936990, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__VisualElementListPool____c* getStaticF___9();
@@ -66,7 +66,7 @@ public:
   __VisualElementListPool____c(__VisualElementListPool____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6279 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -88,13 +88,13 @@ public:
   static __declspec(property(get = getStaticF_pool,
                              put = setStaticF_pool)) ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>* pool;
 
-  /// @brief Method Copy, addr 0x4921ecc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x49365e4, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Copy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
-  /// @brief Method Get, addr 0x4921f78, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x4936690, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Get(int32_t initialCapacity);
 
-  /// @brief Method Release, addr 0x4922058, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x4936770, size 0xb4, virtual false, abstract: false, final false
   static inline void Release(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>* getStaticF_pool();
@@ -116,7 +116,7 @@ public:
   VisualElementListPool(VisualElementListPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6280 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

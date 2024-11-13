@@ -150,7 +150,7 @@ template <typename T> constexpr T const& UnityEngine::ProBuilder::Poly2Tri::__Fi
 }
 template <typename T> constexpr void UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::__cordl_internal_set___2__current(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename T> constexpr int32_t& UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

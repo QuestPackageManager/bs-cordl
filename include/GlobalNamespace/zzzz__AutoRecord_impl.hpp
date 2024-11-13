@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::RecPlay::PlayerPoseFrames (*)(ByRef<::GlobalNamespace::__AutoRecord__Beatmap>)>(
     &::GlobalNamespace::AutoRecord::CreatePlayerPoseFrames)> {
-  constexpr static std::size_t size = 0x814;
-  constexpr static std::size_t addrs = 0x3ab2008;
+  constexpr static std::size_t size = 0x818;
+  constexpr static std::size_t addrs = 0x3ac5ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::GlobalNamespace::NoteData*, int32_t, float_t, float_t, ::UnityEngine::Quaternion, ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*,
                          ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*)>(&::GlobalNamespace::AutoRecord::AddNoteHandFrames)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x3ab285c;
+  constexpr static std::size_t addrs = 0x3ac63fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::GlobalNamespace::SliderData*, int32_t, float_t, float_t, ::UnityEngine::Quaternion, ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*,
                          ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*)>(&::GlobalNamespace::AutoRecord::AddSliderHandFrames)> {
   constexpr static std::size_t size = 0x5f0;
-  constexpr static std::size_t addrs = 0x3ab2cd0;
+  constexpr static std::size_t addrs = 0x3ac6870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                                              ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>*)>(
         &::GlobalNamespace::AutoRecord::SelectHand)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3ab3348;
+  constexpr static std::size_t addrs = 0x3ac6ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(int32_t, int32_t, ::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::AutoRecord::LocateCutPosition)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3ab281c;
+  constexpr static std::size_t addrs = 0x3ac63bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*>)>(
     &::GlobalNamespace::AutoRecord::_CreatePlayerPoseFrames_g__FixFrames_1_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3ab32c0;
+  constexpr static std::size_t addrs = 0x3ac6e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

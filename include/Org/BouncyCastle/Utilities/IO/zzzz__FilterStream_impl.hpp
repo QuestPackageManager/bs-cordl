@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::FilterStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x25eab24;
+  constexpr static std::size_t addrs = 0x25f5bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::IO::FilterStream::*)()>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::get_CanRead)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x25eab90;
+  constexpr static std::size_t addrs = 0x25f5c38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::IO::FilterStream::*)()>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x25eabb0;
+  constexpr static std::size_t addrs = 0x25f5c58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::IO::FilterStream::*)()>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x25eabd0;
+  constexpr static std::size_t addrs = 0x25f5c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Utilities::IO::FilterStream::*)()>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::get_Length)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x25eabf0;
+  constexpr static std::size_t addrs = 0x25f5c98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Utilities::IO::FilterStream::*)()>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::get_Position)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25eac10;
+  constexpr static std::size_t addrs = 0x25f5cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::FilterStream::*)(int64_t)>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::set_Position)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25eac34;
+  constexpr static std::size_t addrs = 0x25f5cdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::FilterStream::*)()>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::Close)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25eac58;
+  constexpr static std::size_t addrs = 0x25f5d00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::FilterStream::*)()>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::Flush)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25eacc0;
+  constexpr static std::size_t addrs = 0x25f5d68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Utilities::IO::FilterStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::Seek)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25eace4;
+  constexpr static std::size_t addrs = 0x25f5d8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::FilterStream::*)(int64_t)>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::SetLength)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25ead08;
+  constexpr static std::size_t addrs = 0x25f5db0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::FilterStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::IO::FilterStream::Read)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25ead2c;
+  constexpr static std::size_t addrs = 0x25f5dd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::FilterStream::*)()>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::ReadByte)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25ead50;
+  constexpr static std::size_t addrs = 0x25f5df8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::FilterStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25ead74;
+  constexpr static std::size_t addrs = 0x25f5e1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::FilterStream::*)(uint8_t)>(
     &::Org::BouncyCastle::Utilities::IO::FilterStream::WriteByte)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25ead98;
+  constexpr static std::size_t addrs = 0x25f5e40;
 
   inline static ::MethodInfo const* methodInfo() {
 

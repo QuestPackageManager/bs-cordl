@@ -41,7 +41,7 @@ public:
 
   static inline ::HMUI::IconAndTextSegmentedControlCell* New_ctor();
 
-  /// @brief Method SetTextActive, addr 0x4012cd4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetTextActive, addr 0x40273ec, size 0x30, virtual false, abstract: false, final false
   inline void SetTextActive(bool active);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
@@ -56,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x4012f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4027670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0x4012f18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x4027630, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method get_text, addr 0x4012f34, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x402764c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_sprite, addr 0x401296c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x4027084, size 0x1c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_text, addr 0x4012988, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x40270a0, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -92,7 +92,7 @@ public:
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18706 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -41,15 +41,15 @@ public:
   /// @brief Field rootDepth, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_rootDepth, put = __cordl_internal_set_rootDepth)) int32_t rootDepth;
 
-  /// @brief Method MoveToChild, addr 0x431cd18, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method MoveToChild, addr 0x4331430, size 0x164, virtual false, abstract: false, final false
   inline bool MoveToChild(::StringW name, ::StringW URN, int32_t depth, ::System::Xml::Schema::ForwardAxis* parent);
 
-  /// @brief Method MoveToParent, addr 0x431cc0c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MoveToParent, addr 0x4331324, size 0x10c, virtual false, abstract: false, final false
   inline void MoveToParent(int32_t depth, ::System::Xml::Schema::ForwardAxis* parent);
 
   static inline ::System::Xml::Schema::AxisElement* New_ctor(::System::Xml::Schema::DoubleLinkAxis* node, int32_t depth);
 
-  /// @brief Method SetDepth, addr 0x431cc04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDepth, addr 0x433131c, size 0x8, virtual false, abstract: false, final false
   inline void SetDepth(int32_t depth);
 
   constexpr int32_t const& __cordl_internal_get_curDepth() const;
@@ -76,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set_rootDepth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x431cbd0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43312e8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::DoubleLinkAxis* node, int32_t depth);
 
-  /// @brief Method get_CurNode, addr 0x431cbc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurNode, addr 0x43312e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::DoubleLinkAxis* get_CurNode();
 
 protected:
@@ -109,7 +109,7 @@ public:
   bool ___isMatch;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7445 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -53,13 +53,13 @@ public:
   static __declspec(property(get = getStaticF_s_NameToId,
                              put = setStaticF_s_NameToId)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyId>* s_NameToId;
 
-  /// @brief Method IsAnimatable, addr 0x4957e24, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsAnimatable, addr 0x496c53c, size 0x80, virtual false, abstract: false, final false
   static inline bool IsAnimatable(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method IsMatchingShorthand, addr 0x4957cb8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method IsMatchingShorthand, addr 0x496c3d0, size 0x16c, virtual false, abstract: false, final false
   static inline bool IsMatchingShorthand(::UnityEngine::UIElements::StyleSheets::StylePropertyId shorthand, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method TryGetEnumIntValue, addr 0x49556a8, size 0xf78, virtual false, abstract: false, final false
+  /// @brief Method TryGetEnumIntValue, addr 0x4969dc0, size 0xf78, virtual false, abstract: false, final false
   static inline bool TryGetEnumIntValue(::UnityEngine::UIElements::StyleSheets::StyleEnumType enumType, ::StringW value, ByRef<int32_t> intValue);
 
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* getStaticF_s_AnimatableProperties();
@@ -95,7 +95,7 @@ public:
   StylePropertyUtil(StylePropertyUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6419 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

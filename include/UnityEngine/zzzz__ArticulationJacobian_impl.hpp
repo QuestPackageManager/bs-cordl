@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ArticulationJacobian::*)(int32_t, int32_t)>(&::UnityEngine::ArticulationJacobian::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x487af24;
+  constexpr static std::size_t addrs = 0x488f63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ArticulationJacobian::*)(int32_t, int32_t)>(&::UnityEngine::ArticulationJacobian::get_Item)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x487b03c;
+  constexpr static std::size_t addrs = 0x488f754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ArticulationJacobian::*)(int32_t, int32_t, float_t)>(
     &::UnityEngine::ArticulationJacobian::set_Item)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x487b0f4;
+  constexpr static std::size_t addrs = 0x488f80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ArticulationJacobian::*)()>(&::UnityEngine::ArticulationJacobian::get_rows)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x487b1bc;
+  constexpr static std::size_t addrs = 0x488f8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ArticulationJacobian>::get(), "get_rows",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ArticulationJacobian::*)(int32_t)>(&::UnityEngine::ArticulationJacobian::set_rows)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x487b1c4;
+  constexpr static std::size_t addrs = 0x488f8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ArticulationJacobian::*)()>(&::UnityEngine::ArticulationJacobian::get_columns)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x487b1cc;
+  constexpr static std::size_t addrs = 0x488f8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ArticulationJacobian>::get(), "get_columns",
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ArticulationJacobian::*)(int32_t)>(&::UnityEngine::ArticulationJacobian::set_columns)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x487b1d4;
+  constexpr static std::size_t addrs = 0x488f8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<float_t>* (::UnityEngine::ArticulationJacobian::*)()>(
     &::UnityEngine::ArticulationJacobian::get_elements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x487b1dc;
+  constexpr static std::size_t addrs = 0x488f8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ArticulationJacobian>::get(), "get_elements",
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ArticulationJacobian::*)(::System::Collections::Generic::List_1<float_t>*)>(
     &::UnityEngine::ArticulationJacobian::set_elements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x487b1e4;
+  constexpr static std::size_t addrs = 0x488f8fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

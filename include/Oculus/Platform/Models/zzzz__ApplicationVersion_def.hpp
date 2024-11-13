@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_Size(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f19af0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2e180, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -116,7 +116,7 @@ public:
   ::StringW ___Size;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15463 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,16 +33,16 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_normalizedString* New_ctor();
 
-  /// @brief Method .ctor, addr 0x432e7d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4342ee8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x4336334, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x434aa4c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_HasValueFacets, addr 0x433633c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasValueFacets, addr 0x434aa54, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasValueFacets();
 
-  /// @brief Method get_TypeCode, addr 0x433632c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x434aa44, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -60,7 +60,7 @@ public:
   Datatype_normalizedString(Datatype_normalizedString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7524 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

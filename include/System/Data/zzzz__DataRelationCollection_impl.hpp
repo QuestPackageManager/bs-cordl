@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::DataRelationCollection::*)()>(&::System::Data::DataRelationCollection::get_ObjectID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40e9bfc;
+  constexpr static std::size_t addrs = 0x40fe314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataRelationCollection*>::get(), "get_ObjectID",
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)(::System::Data::DataRelation*)>(
     &::System::Data::DataRelationCollection::Add)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x40e9c04;
+  constexpr static std::size_t addrs = 0x40fe31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)(::System::Data::DataRelation*)>(
     &::System::Data::DataRelationCollection::AddCore)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x40e9e8c;
+  constexpr static std::size_t addrs = 0x40fe5a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(
     &::System::Data::DataRelationCollection::add_CollectionChanged)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x40ea134;
+  constexpr static std::size_t addrs = 0x40fe84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(
     &::System::Data::DataRelationCollection::remove_CollectionChanged)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x40ea22c;
+  constexpr static std::size_t addrs = 0x40fe944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataRelationCollection::*)()>(&::System::Data::DataRelationCollection::AssignName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40ea324;
+  constexpr static std::size_t addrs = 0x40fea3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataRelationCollection*>::get(), "AssignName",
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)()>(&::System::Data::DataRelationCollection::Clear)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x40ea400;
+  constexpr static std::size_t addrs = 0x40feb18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataRelationCollection::*)(::StringW)>(&::System::Data::DataRelationCollection::Contains)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x40ea644;
+  constexpr static std::size_t addrs = 0x40fed5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::DataRelationCollection::*)(::StringW)>(
     &::System::Data::DataRelationCollection::InternalIndexOf)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x40ea65c;
+  constexpr static std::size_t addrs = 0x40fed74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataRelationCollection::*)(int32_t)>(&::System::Data::DataRelationCollection::MakeName)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x40ea348;
+  constexpr static std::size_t addrs = 0x40fea60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(
     &::System::Data::DataRelationCollection::OnCollectionChanged)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x40ea7d4;
+  constexpr static std::size_t addrs = 0x40feeec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(
     &::System::Data::DataRelationCollection::OnCollectionChanging)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x40ea8a4;
+  constexpr static std::size_t addrs = 0x40fefbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)(::StringW)>(&::System::Data::DataRelationCollection::RegisterName)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x40ea974;
+  constexpr static std::size_t addrs = 0x40ff08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)(::System::Data::DataRelation*)>(
     &::System::Data::DataRelationCollection::Remove)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x40eab30;
+  constexpr static std::size_t addrs = 0x40ff248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)(int32_t)>(&::System::Data::DataRelationCollection::RemoveAt)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x40eacdc;
+  constexpr static std::size_t addrs = 0x40ff3f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)(::System::Data::DataRelation*)>(
     &::System::Data::DataRelationCollection::RemoveCore)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x40ead50;
+  constexpr static std::size_t addrs = 0x40ff468;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)(::StringW)>(
     &::System::Data::DataRelationCollection::UnregisterName)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x40eaf38;
+  constexpr static std::size_t addrs = 0x40ff650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationCollection::*)()>(&::System::Data::DataRelationCollection::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x40eb064;
+  constexpr static std::size_t addrs = 0x40ff77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataRelationCollection*>::get(), ".ctor",

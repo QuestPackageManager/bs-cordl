@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2::*)()>(
     &::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2::MoveNext)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x26da0f0;
+  constexpr static std::size_t addrs = 0x26e5c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26da3d0;
+  constexpr static std::size_t addrs = 0x26e5f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataAsyncLoader::*)(
     ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*, ::Zenject::DiContainer*)>(&::GlobalNamespace::PlayerDataAsyncLoader::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26d9edc;
+  constexpr static std::size_t addrs = 0x26e5a58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlayerDataAsyncLoader::*)(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*, ::Zenject::DiContainer*)>(
         &::GlobalNamespace::PlayerDataAsyncLoader::LoadResourcesBeforeInstallAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x26d9f5c;
+  constexpr static std::size_t addrs = 0x26e5ad8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataAsyncLoader::*)()>(&::GlobalNamespace::PlayerDataAsyncLoader::InstallBindings)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26da030;
+  constexpr static std::size_t addrs = 0x26e5bac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataAsyncLoader::*)()>(&::GlobalNamespace::PlayerDataAsyncLoader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26da0e8;
+  constexpr static std::size_t addrs = 0x26e5c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataAsyncLoader*>::get(), ".ctor",

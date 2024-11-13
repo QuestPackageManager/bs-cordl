@@ -37,15 +37,15 @@ public:
   /// @brief Field _oculusMRCManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__oculusMRCManager, put = __cordl_internal_set__oculusMRCManager)) ::UnityW<::GlobalNamespace::OculusMRCManager> _oculusMRCManager;
 
-  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject, addr 0x400ac8c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject, addr 0x401f3a4, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityBackgroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
-  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject, addr 0x400ad0c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject, addr 0x401f424, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityForegroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
   static inline ::GlobalNamespace::ExternalCamerasManager* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x400abc8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x401f2e0, size 0xc4, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__mrcBackgroundCameraPrefab() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__oculusMRCManager(::UnityW<::GlobalNamespace::OculusMRCManager> value);
 
-  /// @brief Method .ctor, addr 0x400ad8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401f4a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   ::UnityW<::UnityEngine::Camera> ____mrcForegroundCameraPrefab;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17804 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

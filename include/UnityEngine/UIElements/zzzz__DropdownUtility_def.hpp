@@ -28,7 +28,7 @@ public:
   /// @brief Field MakeDropdownFunc, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_MakeDropdownFunc, put = setStaticF_MakeDropdownFunc)) ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* MakeDropdownFunc;
 
-  /// @brief Method CreateDropdown, addr 0x49a6b1c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateDropdown, addr 0x49bb234, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IGenericMenu* CreateDropdown();
 
   static inline ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* getStaticF_MakeDropdownFunc();
@@ -50,7 +50,7 @@ public:
   DropdownUtility(DropdownUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5746 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

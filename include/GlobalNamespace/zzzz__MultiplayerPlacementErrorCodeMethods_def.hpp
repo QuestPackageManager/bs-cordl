@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerPlacementErrorCodeMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToConnectionFailedReason, addr 0x22887f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ToConnectionFailedReason, addr 0x22937bc, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ConnectionFailedReason ToConnectionFailedReason(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode);
 
 protected:
@@ -43,7 +43,7 @@ public:
   MultiplayerPlacementErrorCodeMethods(MultiplayerPlacementErrorCodeMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14708 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

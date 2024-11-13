@@ -60,10 +60,10 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c* New_ctor();
 
-  /// @brief Method <SetData>b__10_0, addr 0x3b9880c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <SetData>b__10_0, addr 0x3bae670, size 0x30, virtual false, abstract: false, final false
   inline int32_t _SetData_b__10_0(::GlobalNamespace::BeatmapCharacteristicSO* a, ::GlobalNamespace::BeatmapCharacteristicSO* b);
 
-  /// @brief Method .ctor, addr 0x3b98804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bae668, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c* getStaticF___9();
@@ -89,7 +89,7 @@ public:
   __BeatmapCharacteristicSegmentedControlController____c(__BeatmapCharacteristicSegmentedControlController____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4850 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,18 +126,18 @@ public:
 
   __declspec(property(get = get_selectedBeatmapCharacteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> selectedBeatmapCharacteristic;
 
-  /// @brief Method Awake, addr 0x3b97e28, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3badc8c, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBeatmapCharacteristicSegmentedControlDidSelectCell, addr 0x3b986a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCharacteristicSegmentedControlDidSelectCell, addr 0x3bae504, size 0x88, virtual false, abstract: false, final false
   inline void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b97eb8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3badd1c, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetData, addr 0x3b97f88, size 0x718, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3baddec, size 0x718, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* beatmapCharacteristics,
                       ::GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic,
                       ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* notAllowedCharacteristics);
@@ -171,17 +171,17 @@ public:
   constexpr void __cordl_internal_set_didSelectBeatmapCharacteristicEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3b98728, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bae58c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x3b97cc0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x3badb24, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectBeatmapCharacteristicEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x3b97e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x3badc84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_selectedBeatmapCharacteristic();
 
-  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x3b97d70, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x3badbd4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectBeatmapCharacteristicEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
@@ -212,7 +212,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* ____currentlyAvailableBeatmapCharacteristics;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4851 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -34,40 +34,40 @@ public:
 
   __declspec(property(get = get_yPlacement, put = set_yPlacement)) float_t yPlacement;
 
-  /// @brief Method .ctor, addr 0x475f1a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47738c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::GlyphValueRecord_Legacy valueRecord);
 
-  /// @brief Method .ctor, addr 0x475f1b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47738cc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
 
-  /// @brief Method .ctor, addr 0x475cb20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4771238, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t xPlacement, float_t yPlacement, float_t xAdvance, float_t yAdvance);
 
-  /// @brief Method get_xAdvance, addr 0x475f188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xAdvance, addr 0x47738a0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xAdvance();
 
-  /// @brief Method get_xPlacement, addr 0x475f168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xPlacement, addr 0x4773880, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xPlacement();
 
-  /// @brief Method get_yAdvance, addr 0x475f198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yAdvance, addr 0x47738b0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yAdvance();
 
-  /// @brief Method get_yPlacement, addr 0x475f178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yPlacement, addr 0x4773890, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yPlacement();
 
-  /// @brief Method op_Addition, addr 0x475f214, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x477392c, size 0x14, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_GlyphValueRecord op_Addition(::TMPro::TMP_GlyphValueRecord a, ::TMPro::TMP_GlyphValueRecord b);
 
-  /// @brief Method set_xAdvance, addr 0x475f190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xAdvance, addr 0x47738a8, size 0x8, virtual false, abstract: false, final false
   inline void set_xAdvance(float_t value);
 
-  /// @brief Method set_xPlacement, addr 0x475f170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xPlacement, addr 0x4773888, size 0x8, virtual false, abstract: false, final false
   inline void set_xPlacement(float_t value);
 
-  /// @brief Method set_yAdvance, addr 0x475f1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yAdvance, addr 0x47738b8, size 0x8, virtual false, abstract: false, final false
   inline void set_yAdvance(float_t value);
 
-  /// @brief Method set_yPlacement, addr 0x475f180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_yPlacement, addr 0x4773898, size 0x8, virtual false, abstract: false, final false
   inline void set_yPlacement(float_t value);
 
   // Ctor Parameters []
@@ -91,7 +91,7 @@ public:
   float_t m_YAdvance;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14455 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

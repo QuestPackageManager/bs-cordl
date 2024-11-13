@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_endBeat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22101b4;
+  constexpr static std::size_t addrs = 0x2218ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleData*>::get(), "get_endBeat",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleData::*)(float_t)>(&::GlobalNamespace::ObstacleData::set_endBeat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22101bc;
+  constexpr static std::size_t addrs = 0x2218bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22101c4;
+  constexpr static std::size_t addrs = 0x2218bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleData*>::get(), "get_lineIndex",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleData::*)(int32_t)>(&::GlobalNamespace::ObstacleData::set_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22101cc;
+  constexpr static std::size_t addrs = 0x2218bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteLineLayer (::GlobalNamespace::ObstacleData::*)()>(
     &::GlobalNamespace::ObstacleData::get_lineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22101d4;
+  constexpr static std::size_t addrs = 0x2218bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleData*>::get(), "get_lineLayer",
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleData::*)(::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::ObstacleData::set_lineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22101dc;
+  constexpr static std::size_t addrs = 0x2218bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22101e4;
+  constexpr static std::size_t addrs = 0x2218bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleData*>::get(), "get_duration",
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleData::*)(float_t)>(&::GlobalNamespace::ObstacleData::set_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22101ec;
+  constexpr static std::size_t addrs = 0x2218bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22101f4;
+  constexpr static std::size_t addrs = 0x2218be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleData*>::get(), "get_width",
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleData::*)(int32_t)>(&::GlobalNamespace::ObstacleData::set_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22101fc;
+  constexpr static std::size_t addrs = 0x2218bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2210204;
+  constexpr static std::size_t addrs = 0x2218bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleData*>::get(), "get_height",
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleData::*)(int32_t)>(&::GlobalNamespace::ObstacleData::set_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x221020c;
+  constexpr static std::size_t addrs = 0x2218bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,16 +172,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::ObstacleData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::ObstacleData::*)(float_t, float_t, float_t, int32_t, ::GlobalNamespace::NoteLineLayer, float_t, int32_t, int32_t)>(&::GlobalNamespace::ObstacleData::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2210214;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleData::*)(
+    float_t, float_t, float_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer, float_t, int32_t, int32_t)>(&::GlobalNamespace::ObstacleData::_ctor)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x2218c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+        ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteLineLayer>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -193,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleData::*)(float_t)>(&::GlobalNamespace::ObstacleData::UpdateDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2210290;
+  constexpr static std::size_t addrs = 0x2218c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,8 +208,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::ObstacleData::*)()>(
     &::GlobalNamespace::ObstacleData::GetCopy)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2210298;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x2218c9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -221,8 +222,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleData::*)(int32_t)>(&::GlobalNamespace::ObstacleData::Mirror)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2210338;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x2218d54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -369,20 +370,21 @@ inline void GlobalNamespace::ObstacleData::set_height(int32_t value) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::ObstacleData* GlobalNamespace::ObstacleData::New_ctor(float_t time, float_t startBeat, float_t endBeat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer,
-                                                                                float_t duration, int32_t width, int32_t height) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ObstacleData*>(time, startBeat, endBeat, lineIndex, lineLayer, duration, width, height));
+inline ::GlobalNamespace::ObstacleData* GlobalNamespace::ObstacleData::New_ctor(float_t time, float_t startBeat, float_t endBeat, int32_t rotation, int32_t lineIndex,
+                                                                                ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ObstacleData*>(time, startBeat, endBeat, rotation, lineIndex, lineLayer, duration, width, height));
 }
-inline void GlobalNamespace::ObstacleData::_ctor(float_t time, float_t startBeat, float_t endBeat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width,
-                                                 int32_t height) {
+inline void GlobalNamespace::ObstacleData::_ctor(float_t time, float_t startBeat, float_t endBeat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration,
+                                                 int32_t width, int32_t height) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+      ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteLineLayer>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, time, startBeat, endBeat, lineIndex, lineLayer, duration, width, height);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, time, startBeat, endBeat, rotation, lineIndex, lineLayer, duration, width, height);
 }
 inline void GlobalNamespace::ObstacleData::UpdateDuration(float_t duration) {
   static auto* ___internal_method =

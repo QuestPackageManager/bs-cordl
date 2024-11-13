@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableBox* New_ctor(int32_t index, ::System::Object* defaultValue);
 
-  /// @brief Method Run, addr 0x4073240, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4087958, size 0xd0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Object*& __cordl_internal_get__defaultValue();
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__defaultValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x40731d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40878e8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::System::Object* defaultValue);
 
-  /// @brief Method get_InstructionName, addr 0x4073310, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x4087a28, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -67,7 +67,7 @@ public:
   ::System::Object* ____defaultValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13936 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

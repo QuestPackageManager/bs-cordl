@@ -42,22 +42,22 @@ public:
   /// @brief Field keys, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys)) ::System::Collections::IList* keys;
 
-  /// @brief Method Encode, addr 0x24f9bf0, size 0x388, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2504c98, size 0x388, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* outStr);
 
-  /// @brief Method GetEncoded, addr 0x24f9b70, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x2504c18, size 0x80, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetPublicKey, addr 0x24f96d0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x2504778, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* GetPublicKey();
 
-  /// @brief Method GetPublicKey, addr 0x24f97c0, size 0x350, virtual true, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x2504868, size 0x350, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* GetPublicKey(int64_t keyId);
 
-  /// @brief Method GetPublicKeys, addr 0x24f9b10, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetPublicKeys, addr 0x2504bb8, size 0x60, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetPublicKeys();
 
-  /// @brief Method InsertPublicKey, addr 0x24f9f78, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method InsertPublicKey, addr 0x2505020, size 0x3c8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* InsertPublicKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* pubRing,
                                                                                       ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey);
 
@@ -67,13 +67,13 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* New_ctor(::System::Collections::IList* pubKeys);
 
-  /// @brief Method ReadPublicKeyPacket, addr 0x24f9554, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReadPublicKeyPacket, addr 0x25045fc, size 0xe0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* ReadPublicKeyPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method ReadSubkey, addr 0x24f9634, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ReadSubkey, addr 0x25046dc, size 0x9c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* ReadSubkey(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method RemovePublicKey, addr 0x24fa340, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method RemovePublicKey, addr 0x25053e8, size 0x278, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* RemovePublicKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* pubRing,
                                                                                       ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey);
 
@@ -83,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set_keys(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x24f9210, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25042b8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor, addr 0x24f9280, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2504328, size 0x2ac, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method .ctor, addr 0x24f952c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25045d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* pubKeys);
 
 protected:

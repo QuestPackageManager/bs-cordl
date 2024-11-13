@@ -106,7 +106,7 @@ public:
   ::System::IObserver_1<TResult>* ___m_Observer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7070 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -178,7 +178,7 @@ public:
   ::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>* ___m_Filter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

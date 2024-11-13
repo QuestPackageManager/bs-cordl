@@ -54,18 +54,18 @@ public:
 
   __declspec(property(get = get_isShown, put = set_isShown)) bool isShown;
 
-  /// @brief Method Awake, addr 0x39844f8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3997d7c, size 0xa8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculatePanelPosition, addr 0x39845a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CalculatePanelPosition, addr 0x3997e24, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculatePanelPosition(::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect, ::UnityEngine::Vector2 panelSize);
 
-  /// @brief Method Hide, addr 0x3983bec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3997470, size 0x28, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::HMUI::HoverHintPanel* New_ctor();
 
-  /// @brief Method Show, addr 0x398403c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x39978c0, size 0x258, virtual false, abstract: false, final false
   inline void Show(::StringW text, ::UnityEngine::Transform* parent, ::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect);
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__containerPadding() const;
@@ -104,13 +104,13 @@ public:
 
   constexpr void __cordl_internal_set__zOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3984620, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3997ea4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isShown, addr 0x39844e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isShown, addr 0x3997d68, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShown();
 
-  /// @brief Method set_isShown, addr 0x39844ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isShown, addr 0x3997d70, size 0xc, virtual false, abstract: false, final false
   inline void set_isShown(bool value);
 
 protected:
@@ -146,7 +146,7 @@ public:
   bool ____isShown_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16001 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

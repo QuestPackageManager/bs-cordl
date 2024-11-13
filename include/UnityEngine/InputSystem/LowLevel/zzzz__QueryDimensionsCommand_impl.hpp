@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand::get_Type)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4590b24;
+  constexpr static std::size_t addrs = 0x45a523c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4590b54;
+  constexpr static std::size_t addrs = 0x45a526c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand::Create)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4590b84;
+  constexpr static std::size_t addrs = 0x45a529c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -43,7 +43,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x459116c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45a5884, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QuerySamplingFrequencyCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set_frequency(float_t value);
 
-  /// @brief Method get_Type, addr 0x459110c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x45a5824, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x459113c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x45a5854, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -110,7 +110,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6863 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

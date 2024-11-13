@@ -32,7 +32,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ProgressBar__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4987154, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499b86c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +50,7 @@ public:
   __ProgressBar__UxmlFactory(__ProgressBar__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5643 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -70,7 +70,7 @@ public:
 
   static inline ::UnityEngine::UIElements::ProgressBar* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4987100, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499b818, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +88,7 @@ public:
   ProgressBar(ProgressBar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5644 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

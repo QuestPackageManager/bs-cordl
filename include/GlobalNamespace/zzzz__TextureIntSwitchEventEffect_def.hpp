@@ -63,7 +63,7 @@ public:
   ::UnityW<::UnityEngine::Texture> texture;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4329 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -123,18 +123,18 @@ public:
   __declspec(property(get = __cordl_internal_get__valueToTextureMap,
                       put = __cordl_internal_set__valueToTextureMap)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* _valueToTextureMap;
 
-  /// @brief Method HandleBasicBeatmapEventData, addr 0x3b1fe14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleBasicBeatmapEventData, addr 0x3b352dc, size 0x18, virtual false, abstract: false, final false
   inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
 
-  /// @brief Method Initialize, addr 0x3b1fb78, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b35040, size 0x1b0, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
   static inline ::GlobalNamespace::TextureIntSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b1fdf8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b352c0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetTextureByIndex, addr 0x3b1fd28, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetTextureByIndex, addr 0x3b351f0, size 0xd0, virtual false, abstract: false, final false
   inline void SetTextureByIndex(int32_t value);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -194,7 +194,7 @@ public:
 
   constexpr void __cordl_internal_set__valueToTextureMap(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* value);
 
-  /// @brief Method .ctor, addr 0x3b1fe2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b352f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -239,7 +239,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* ____valueToTextureMap;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4328 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4330 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

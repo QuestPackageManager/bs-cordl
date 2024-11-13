@@ -73,10 +73,10 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method Awake, addr 0x397a50c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x398dd90, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ColorWasSet, addr 0x397a58c, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x398de10, size 0x188, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::MaterialLightWithId* New_ctor();
@@ -153,12 +153,12 @@ public:
 
   constexpr void __cordl_internal_set__setColorOnly(bool value);
 
-  /// @brief Method .ctor, addr 0x397a714, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398df98, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
-  /// @brief Method get_color, addr 0x397a500, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x398dd84, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
@@ -214,7 +214,7 @@ public:
   int32_t ____propertyId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16283 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16291 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

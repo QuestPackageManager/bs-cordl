@@ -49,7 +49,7 @@ template <typename TResult> constexpr ::StringW const& System::IO::Enumeration::
 }
 template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__originalRootDirectory(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____originalRootDirectory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____originalRootDirectory, value);
 }
 template <typename TResult> constexpr ::StringW& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__rootDirectory() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -61,7 +61,7 @@ template <typename TResult> constexpr ::StringW const& System::IO::Enumeration::
 }
 template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__rootDirectory(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rootDirectory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____rootDirectory, value);
 }
 template <typename TResult> constexpr ::System::IO::EnumerationOptions*& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__options() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -74,7 +74,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*>
 }
 template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__options(::System::IO::EnumerationOptions* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____options)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____options, value);
 }
 template <typename TResult> constexpr ::System::Object*& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__lock() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -86,7 +86,7 @@ template <typename TResult> constexpr ::cordl_internals::to_const_pointer<::Syst
 }
 template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__lock(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____lock, value);
 }
 template <typename TResult> constexpr ::StringW& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__currentPath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -98,7 +98,7 @@ template <typename TResult> constexpr ::StringW const& System::IO::Enumeration::
 }
 template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__currentPath(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____currentPath, value);
 }
 template <typename TResult> constexpr ::System::IntPtr& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__directoryHandle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -136,7 +136,7 @@ System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__
 }
 template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__pending(::System::Collections::Generic::Queue_1<::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pending)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____pending, value);
 }
 template <typename TResult> constexpr ::GlobalNamespace::__Interop__Sys__DirectoryEntry& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__entry() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -160,7 +160,7 @@ template <typename TResult> constexpr TResult const& System::IO::Enumeration::Fi
 }
 template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__current(TResult value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____current, value);
 }
 template <typename TResult> constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__pathBuffer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -172,7 +172,7 @@ template <typename TResult> constexpr ::ArrayW<char16_t, ::Array<char16_t>*> con
 }
 template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__pathBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pathBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____pathBuffer, value);
 }
 template <typename TResult> constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__entryBuffer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -184,7 +184,7 @@ template <typename TResult> constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const
 }
 template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__entryBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entryBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____entryBuffer, value);
 }
 /// @param options: ::System::IO::EnumerationOptions* (default: nullptr)
 template <typename TResult>

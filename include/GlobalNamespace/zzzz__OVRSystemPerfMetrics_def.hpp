@@ -136,12 +136,12 @@ public:
   /// @brief Field systemGpuUtilPercentage_IsValid, offset 0x4c, size 0x1
   __declspec(property(get = __cordl_internal_get_systemGpuUtilPercentage_IsValid, put = __cordl_internal_set_systemGpuUtilPercentage_IsValid)) bool systemGpuUtilPercentage_IsValid;
 
-  /// @brief Method LoadFromJSON, addr 0x3fd2a4c, size 0x954, virtual false, abstract: false, final false
+  /// @brief Method LoadFromJSON, addr 0x3fe70dc, size 0x954, virtual false, abstract: false, final false
   inline bool LoadFromJSON(::StringW json);
 
   static inline ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics* New_ctor();
 
-  /// @brief Method ToJSON, addr 0x3fd2278, size 0x730, virtual false, abstract: false, final false
+  /// @brief Method ToJSON, addr 0x3fe6908, size 0x730, virtual false, abstract: false, final false
   inline ::StringW ToJSON();
 
   constexpr float_t const& __cordl_internal_get_appCpuTime() const;
@@ -330,7 +330,7 @@ public:
 
   constexpr void __cordl_internal_set_systemGpuUtilPercentage_IsValid(bool value);
 
-  /// @brief Method .ctor, addr 0x3fd3b54, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe81e4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -441,7 +441,7 @@ public:
   ::ArrayW<float_t, ::Array<float_t>*> ___deviceCpuCoreUtilPercentage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8468 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -528,18 +528,18 @@ public:
   /// @brief Field tcpServer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_tcpServer, put = __cordl_internal_set_tcpServer)) ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* tcpServer;
 
-  /// @brief Method GatherPerfMetrics, addr 0x3fd3e78, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method GatherPerfMetrics, addr 0x3fe8508, size 0x300, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics* GatherPerfMetrics();
 
   static inline ::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3fd3d54, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3fe83e4, size 0xa0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3fd3c0c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3fe829c, size 0x148, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x3fd3df4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fe8484, size 0x84, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get_listeningPort() const;
@@ -554,7 +554,7 @@ public:
 
   constexpr void __cordl_internal_set_tcpServer(::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* value);
 
-  /// @brief Method .ctor, addr 0x3fd4178, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe8808, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer> getStaticF_singleton();
@@ -582,7 +582,7 @@ public:
   int32_t ___listeningPort;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8469 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -608,7 +608,7 @@ public:
 
   static inline ::GlobalNamespace::OVRSystemPerfMetrics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fd2270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe6900, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -638,7 +638,7 @@ public:
   static constexpr int32_t TcpListeningPort{ static_cast<int32_t>(0x7ea3) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

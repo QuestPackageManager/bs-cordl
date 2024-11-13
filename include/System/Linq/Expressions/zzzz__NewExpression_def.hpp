@@ -39,7 +39,7 @@ public:
   __declspec(property(get = __cordl_internal_get__arguments,
                       put = __cordl_internal_set__arguments)) ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments;
 
-  /// @brief Method GetArgument, addr 0x40453a4, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetArgument, addr 0x4059abc, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get__Constructor_k__BackingField();
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_Constructor, addr 0x404539c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Constructor, addr 0x4059ab4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* get_Constructor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   ::System::Reflection::ConstructorInfo* ____Constructor_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13688 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

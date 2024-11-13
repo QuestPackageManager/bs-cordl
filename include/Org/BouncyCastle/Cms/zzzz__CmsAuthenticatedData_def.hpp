@@ -64,19 +64,19 @@ public:
   /// @brief Field unauthAttrs, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_unauthAttrs, put = __cordl_internal_set_unauthAttrs)) ::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs;
 
-  /// @brief Method GetAuthAttrs, addr 0x260eb38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetAuthAttrs, addr 0x2619be0, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAuthAttrs();
 
-  /// @brief Method GetEncoded, addr 0x260ec10, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x2619cb8, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetMac, addr 0x260ea98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetMac, addr 0x2619b40, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
-  /// @brief Method GetRecipientInfos, addr 0x260eb28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0x2619bd0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  /// @brief Method GetUnauthAttrs, addr 0x260eba4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetUnauthAttrs, addr 0x2619c4c, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnauthAttrs();
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authData);
@@ -121,22 +121,22 @@ public:
 
   constexpr void __cordl_internal_set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x260e8e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2619990, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authData);
 
-  /// @brief Method .ctor, addr 0x260ea74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2619b1c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* authData);
 
-  /// @brief Method .ctor, addr 0x260e90c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26199b4, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method get_ContentInfo, addr 0x260eb30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x2619bd8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
-  /// @brief Method get_MacAlgOid, addr 0x260eafc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MacAlgOid, addr 0x2619ba4, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_MacAlgOid();
 
-  /// @brief Method get_MacAlgorithmID, addr 0x260eaf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MacAlgorithmID, addr 0x2619b9c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MacAlgorithmID();
 
 protected:

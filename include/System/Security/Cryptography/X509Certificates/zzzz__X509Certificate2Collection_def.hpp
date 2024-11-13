@@ -39,38 +39,38 @@ public:
   /// @brief Field newline_split, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_newline_split, put = setStaticF_newline_split)) ::ArrayW<::StringW, ::Array<::StringW>*> newline_split;
 
-  /// @brief Method Add, addr 0x43c31cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x43d78e4, size 0x70, virtual false, abstract: false, final false
   inline int32_t Add(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method AddRange, addr 0x43c3038, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x43d7750, size 0x70, virtual false, abstract: false, final false
   inline void AddRange(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
 
-  /// @brief Method Contains, addr 0x43c323c, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x43d7954, size 0x340, virtual false, abstract: false, final false
   inline bool Contains(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Find, addr 0x43c3644, size 0x1130, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x43d7d5c, size 0x1130, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* Find(::System::Security::Cryptography::X509Certificates::X509FindType findType, ::System::Object* findValue,
                                                                                               bool validOnly);
 
-  /// @brief Method GetEnumerator, addr 0x43c4774, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x43d8e8c, size 0x58, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator* GetEnumerator();
 
-  /// @brief Method GetKeyIdentifier, addr 0x43c357c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetKeyIdentifier, addr 0x43d7c94, size 0xc8, virtual false, abstract: false, final false
   inline ::StringW GetKeyIdentifier(::System::Security::Cryptography::X509Certificates::X509Certificate2* x);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* New_ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
 
-  /// @brief Method .ctor, addr 0x43c2ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d7714, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43c300c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d7724, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_newline_split();
 
-  /// @brief Method get_Item, addr 0x43c30a8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x43d77c0, size 0x124, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_Item(int32_t index);
 
   static inline void setStaticF_newline_split(::ArrayW<::StringW, ::Array<::StringW>*> value);
@@ -90,7 +90,7 @@ public:
   X509Certificate2Collection(X509Certificate2Collection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9285 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

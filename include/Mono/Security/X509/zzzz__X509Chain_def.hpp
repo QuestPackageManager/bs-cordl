@@ -43,30 +43,30 @@ public:
   /// @brief Field roots, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_roots, put = __cordl_internal_set_roots)) ::Mono::Security::X509::X509CertificateCollection* roots;
 
-  /// @brief Method Build, addr 0x3bc9840, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x3bdded0, size 0x3ac, virtual false, abstract: false, final false
   inline bool Build(::Mono::Security::X509::X509Certificate* leaf);
 
-  /// @brief Method FindCertificateParent, addr 0x3bc9bec, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method FindCertificateParent, addr 0x3bde27c, size 0x1dc, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* FindCertificateParent(::Mono::Security::X509::X509Certificate* child);
 
-  /// @brief Method FindCertificateRoot, addr 0x3bc9dc8, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method FindCertificateRoot, addr 0x3bde458, size 0x248, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* FindCertificateRoot(::Mono::Security::X509::X509Certificate* potentialRoot);
 
-  /// @brief Method IsParent, addr 0x3bca010, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsParent, addr 0x3bde6a0, size 0x144, virtual false, abstract: false, final false
   inline bool IsParent(::Mono::Security::X509::X509Certificate* child, ::Mono::Security::X509::X509Certificate* parent);
 
-  /// @brief Method IsTrusted, addr 0x3bca240, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsTrusted, addr 0x3bde8d0, size 0x2c, virtual false, abstract: false, final false
   inline bool IsTrusted(::Mono::Security::X509::X509Certificate* potentialTrusted);
 
-  /// @brief Method IsValid, addr 0x3bca154, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x3bde7e4, size 0xac, virtual false, abstract: false, final false
   inline bool IsValid(::Mono::Security::X509::X509Certificate* cert);
 
-  /// @brief Method LoadCertificates, addr 0x3bc9828, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LoadCertificates, addr 0x3bddeb8, size 0x18, virtual false, abstract: false, final false
   inline void LoadCertificates(::Mono::Security::X509::X509CertificateCollection* collection);
 
   static inline ::Mono::Security::X509::X509Chain* New_ctor();
 
-  /// @brief Method Reset, addr 0x3bca200, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3bde890, size 0x40, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get__chain();
@@ -99,10 +99,10 @@ public:
 
   constexpr void __cordl_internal_set_roots(::Mono::Security::X509::X509CertificateCollection* value);
 
-  /// @brief Method .ctor, addr 0x3bc967c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bddd0c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TrustAnchors, addr 0x3bc96e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_TrustAnchors, addr 0x3bddd70, size 0x7c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_TrustAnchors();
 
 protected:
@@ -135,7 +135,7 @@ public:
   ::Mono::Security::X509::X509ChainStatusFlags ____status;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15890 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

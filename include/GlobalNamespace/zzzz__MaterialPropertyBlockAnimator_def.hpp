@@ -41,21 +41,21 @@ public:
   /// @brief Field propertyId, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_propertyId, put = __cordl_internal_set_propertyId)) int32_t propertyId;
 
-  /// @brief Method Awake, addr 0x397c130, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x398f9b4, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LazyInit, addr 0x397c1c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x398fa44, size 0x30, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockAnimator* New_ctor();
 
-  /// @brief Method RefreshProperty, addr 0x397c27c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshProperty, addr 0x398fb00, size 0x20, virtual false, abstract: false, final false
   inline void RefreshProperty();
 
-  /// @brief Method SetProperty, addr 0x397c12c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x398f9b0, size 0x4, virtual true, abstract: false, final false
   inline void SetProperty();
 
-  /// @brief Method Update, addr 0x397c1f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x398fa74, size 0x28, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__isInitialized() const;
@@ -82,13 +82,13 @@ public:
 
   constexpr void __cordl_internal_set_propertyId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x397c29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398fb20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_materialPropertyBlockController, addr 0x397c0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlockController, addr 0x398f92c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
 
-  /// @brief Method set_materialPropertyBlockController, addr 0x397c0b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_materialPropertyBlockController, addr 0x398f934, size 0x7c, virtual false, abstract: false, final false
   inline void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   bool ____isInitialized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16301 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16309 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

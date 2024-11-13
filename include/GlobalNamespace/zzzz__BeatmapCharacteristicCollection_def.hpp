@@ -50,7 +50,7 @@ public:
       get = __cordl_internal_get_disabledBeatmapCharacteristics,
       put = __cordl_internal_set_disabledBeatmapCharacteristics)) ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* disabledBeatmapCharacteristics;
 
-  /// @brief Method GetBeatmapCharacteristicBySerializedName, addr 0x26740f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapCharacteristicBySerializedName, addr 0x267f3b4, size 0x70, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GetBeatmapCharacteristicBySerializedName(::StringW serializedName);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicCollection* New_ctor(::GlobalNamespace::BeatmapCharacteristicCollectionSO* collection,
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_disabledBeatmapCharacteristics(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method .ctor, addr 0x2673bd4, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267ee94, size 0x520, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapCharacteristicCollectionSO* collection, ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings);
 
 protected:
@@ -104,7 +104,7 @@ public:
   ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* ___disabledBeatmapCharacteristics;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

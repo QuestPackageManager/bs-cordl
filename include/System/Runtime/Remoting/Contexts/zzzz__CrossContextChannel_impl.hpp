@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Messaging::IMessageSink*, ::System::Runtime::Remoting::Contexts::Context*, ::System::Runtime::Remoting::Messaging::IMessage*)>(
     &::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c6a5e8;
+  constexpr static std::size_t addrs = 0x3c7ec78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
     &::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink::SyncProcessMessage)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x3c6a62c;
+  constexpr static std::size_t addrs = 0x3c7ecbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink::AsyncProcessMessage)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c6a8e0;
+  constexpr static std::size_t addrs = 0x3c7ef70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Remoting::Messaging::IMessage* (::System::Runtime::Remoting::Contexts::CrossContextChannel::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
         &::System::Runtime::Remoting::Contexts::CrossContextChannel::SyncProcessMessage)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x3c69dec;
+  constexpr static std::size_t addrs = 0x3c7e47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Contexts::CrossContextChannel::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::Contexts::CrossContextChannel::AsyncProcessMessage)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x3c6a1b4;
+  constexpr static std::size_t addrs = 0x3c7e844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::CrossContextChannel::*)()>(
     &::System::Runtime::Remoting::Contexts::CrossContextChannel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c6a624;
+  constexpr static std::size_t addrs = 0x3c7ecb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

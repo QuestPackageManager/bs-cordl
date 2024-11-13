@@ -23,7 +23,7 @@ template <typename T> constexpr ::UnityW<::GlobalNamespace::TextOnlyTableCell> c
 }
 template <typename T> constexpr void GlobalNamespace::EnumTableViewDataSource_1<T>::__cordl_internal_set__cellPrefab(::UnityW<::GlobalNamespace::TextOnlyTableCell> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cellPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____cellPrefab, value);
 }
 template <typename T> constexpr float_t& GlobalNamespace::EnumTableViewDataSource_1<T>::__cordl_internal_get__cellHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -47,7 +47,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& GlobalNamespace:
 }
 template <typename T> constexpr void GlobalNamespace::EnumTableViewDataSource_1<T>::__cordl_internal_set__values(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____values, value);
 }
 template <typename T> inline float_t GlobalNamespace::EnumTableViewDataSource_1<T>::CellSize(int32_t idx) {
   static auto* ___internal_method =

@@ -48,7 +48,7 @@ public:
   /// @brief Field _defaultColor, offset 0xa4, size 0x10
   __declspec(property(get = __cordl_internal_get__defaultColor, put = __cordl_internal_set__defaultColor)) ::UnityEngine::Color _defaultColor;
 
-  /// @brief Method GetColor, addr 0x3b16530, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x3b2b99c, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
   static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffect* New_ctor(::GlobalNamespace::__LightColorGroupEffect__InitData* initData, ::UnityEngine::Color defaultColor,
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3b164f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2b960, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__LightColorGroupEffect__InitData* initData, ::UnityEngine::Color defaultColor, ::GlobalNamespace::LightWithIdManager* lightManager,
                     ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController,
                     ::GlobalNamespace::IBpmController* bpmController);
@@ -85,7 +85,7 @@ public:
   ::UnityEngine::Color ____defaultColor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4278 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

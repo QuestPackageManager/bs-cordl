@@ -36,7 +36,7 @@ public:
   __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i)) int32_t i;
 
   /// @brief Field r, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) float_t r;
+  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) int32_t r;
 
   /// @brief Convert operator to "::BeatmapSaveDataCommon::IBeat"
   constexpr operator ::BeatmapSaveDataCommon::IBeat*() noexcept;
@@ -54,20 +54,20 @@ public:
 
   constexpr int32_t& __cordl_internal_get_i();
 
-  constexpr float_t const& __cordl_internal_get_r() const;
+  constexpr int32_t const& __cordl_internal_get_r() const;
 
-  constexpr float_t& __cordl_internal_get_r();
+  constexpr int32_t& __cordl_internal_get_r();
 
   constexpr void __cordl_internal_set_b(float_t value);
 
   constexpr void __cordl_internal_set_i(int32_t value);
 
-  constexpr void __cordl_internal_set_r(float_t value);
+  constexpr void __cordl_internal_set_r(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26c6e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d2bdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x26c6e14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x26d2bd4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
@@ -94,13 +94,13 @@ public:
   float_t ___b;
 
   /// @brief Field r, offset: 0x14, size: 0x4, def value: None
-  float_t ___r;
+  int32_t ___r;
 
   /// @brief Field i, offset: 0x18, size: 0x4, def value: None
   int32_t ___i;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13332 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

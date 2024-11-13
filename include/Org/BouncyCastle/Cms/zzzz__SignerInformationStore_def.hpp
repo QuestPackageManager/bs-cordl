@@ -43,13 +43,13 @@ public:
   /// @brief Field table, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table)) ::System::Collections::IDictionary* table;
 
-  /// @brief Method GetFirstSigner, addr 0x264176c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetFirstSigner, addr 0x264c814, size 0x190, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::SignerInformation* GetFirstSigner(::Org::BouncyCastle::Cms::SignerID* selector);
 
-  /// @brief Method GetSigners, addr 0x26419a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetSigners, addr 0x264ca48, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetSigners();
 
-  /// @brief Method GetSigners, addr 0x26419fc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetSigners, addr 0x264caa4, size 0x130, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetSigners(::Org::BouncyCastle::Cms::SignerID* selector);
 
   static inline ::Org::BouncyCastle::Cms::SignerInformationStore* New_ctor(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
@@ -68,13 +68,13 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x2641028, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264c0d0, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
 
-  /// @brief Method .ctor, addr 0x26411b4, size 0x5b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264c25c, size 0x5b8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* signerInfos);
 
-  /// @brief Method get_Count, addr 0x26418fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x264c9a4, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
 protected:

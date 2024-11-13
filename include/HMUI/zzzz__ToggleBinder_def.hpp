@@ -52,7 +52,7 @@ public:
 
   static inline ::HMUI::__ToggleBinder____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <AddBinding>b__0, addr 0x398294c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <AddBinding>b__0, addr 0x39961d0, size 0x3c, virtual false, abstract: false, final false
   inline void _AddBinding_b__0(bool b);
 
   constexpr ::System::Action*& __cordl_internal_get_action();
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x3982314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3995b98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   ::System::Action* ___action;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15988 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -121,25 +121,25 @@ public:
   /// @brief Field _enabled, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__enabled, put = __cordl_internal_set__enabled)) bool _enabled;
 
-  /// @brief Method AddBinding, addr 0x3982120, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x39959a4, size 0xdc, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::UI::Toggle* toggle, ::System::Action_1<bool>* action);
 
-  /// @brief Method AddBinding, addr 0x39821fc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x3995a80, size 0x118, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::UI::Toggle* toggle, bool enabled, ::System::Action* action);
 
-  /// @brief Method AddBindings, addr 0x3981fbc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x3995840, size 0x164, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x398231c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x3995ba0, size 0x234, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Disable, addr 0x3982550, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x3995dd4, size 0x1fc, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x398274c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x3995fd0, size 0x200, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Init, addr 0x3981f0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3995790, size 0x74, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::ToggleBinder* New_ctor();
@@ -159,10 +159,10 @@ public:
 
   constexpr void __cordl_internal_set__enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x3981ee8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399576c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3981f80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3995804, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
 protected:
@@ -186,7 +186,7 @@ public:
   bool ____enabled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15989 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

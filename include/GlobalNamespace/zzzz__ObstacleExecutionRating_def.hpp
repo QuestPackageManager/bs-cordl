@@ -65,7 +65,7 @@ public:
   static ::GlobalNamespace::__ObstacleExecutionRating__Rating const OK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13086 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -102,10 +102,10 @@ public:
 
   constexpr void __cordl_internal_set__rating_k__BackingField(::GlobalNamespace::__ObstacleExecutionRating__Rating value);
 
-  /// @brief Method .ctor, addr 0x26a16d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ad2f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__ObstacleExecutionRating__Rating rating);
 
-  /// @brief Method get_rating, addr 0x26a16cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rating, addr 0x26ad2ec, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ObstacleExecutionRating__Rating get_rating();
 
 protected:
@@ -126,7 +126,7 @@ public:
   ::GlobalNamespace::__ObstacleExecutionRating__Rating ____rating_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13087 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

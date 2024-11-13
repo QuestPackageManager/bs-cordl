@@ -50,10 +50,10 @@ public:
 
   static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b167f4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b2bc60, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b1657c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b2b9e8, size 0x278, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteColorOrAlphaEffects(::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* value);
 
-  /// @brief Method .ctor, addr 0x3b1693c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2bda8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,7 +111,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* ____whiteColorOrAlphaEffects;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4279 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

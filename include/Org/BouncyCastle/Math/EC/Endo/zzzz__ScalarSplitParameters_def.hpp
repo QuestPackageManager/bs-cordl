@@ -60,7 +60,7 @@ public:
   /// @brief Field m_v2B, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_v2B, put = __cordl_internal_set_m_v2B)) ::Org::BouncyCastle::Math::BigInteger* m_v2B;
 
-  /// @brief Method CheckVector, addr 0x2477534, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CheckVector, addr 0x24825dc, size 0x84, virtual false, abstract: false, final false
   static inline void CheckVector(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v, ::StringW name);
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* New_ctor(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v1,
@@ -109,30 +109,30 @@ public:
 
   constexpr void __cordl_internal_set_m_v2B(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x24771ac, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2482254, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v1,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v2, ::Org::BouncyCastle::Math::BigInteger* g1,
                     ::Org::BouncyCastle::Math::BigInteger* g2, int32_t bits);
 
-  /// @brief Method get_Bits, addr 0x24775e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Bits, addr 0x2482690, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Bits();
 
-  /// @brief Method get_G1, addr 0x24775d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_G1, addr 0x2482680, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G1();
 
-  /// @brief Method get_G2, addr 0x24775e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_G2, addr 0x2482688, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G2();
 
-  /// @brief Method get_V1A, addr 0x24775b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_V1A, addr 0x2482660, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_V1A();
 
-  /// @brief Method get_V1B, addr 0x24775c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_V1B, addr 0x2482668, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_V1B();
 
-  /// @brief Method get_V2A, addr 0x24775c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_V2A, addr 0x2482670, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_V2A();
 
-  /// @brief Method get_V2B, addr 0x24775d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_V2B, addr 0x2482678, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_V2B();
 
 protected:

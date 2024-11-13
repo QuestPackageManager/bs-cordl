@@ -43,25 +43,25 @@ public:
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> inline TObject Instantiate(TObject source);
 
-  /// @brief Method .ctor, addr 0x4726f38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x473b650, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
-  /// @brief Method .ctor, addr 0x4726fe8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x473b700, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
 
-  /// @brief Method get_InstantiateInWorldPosition, addr 0x4726f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateInWorldPosition, addr 0x473b640, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateInWorldPosition();
 
-  /// @brief Method get_Parent, addr 0x4726f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x473b638, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Parent();
 
-  /// @brief Method get_Position, addr 0x4726f08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x473b620, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Position();
 
-  /// @brief Method get_Rotation, addr 0x4726f14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Rotation, addr 0x473b62c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_Rotation();
 
-  /// @brief Method get_SetPositionRotation, addr 0x4726f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SetPositionRotation, addr 0x473b648, size 0x8, virtual false, abstract: false, final false
   inline bool get_SetPositionRotation();
 
   // Ctor Parameters []
@@ -90,7 +90,7 @@ public:
   bool m_SetPositionRotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15623 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

@@ -19,13 +19,13 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE RegisterUpdateCallback : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Deinitialize, addr 0x47bd03c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x47d1754, size 0xa0, virtual false, abstract: false, final false
   static inline void Deinitialize();
 
-  /// @brief Method Initialize, addr 0x47bce28, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x47d1540, size 0xa0, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method Update, addr 0x47c07d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x47d4ef0, size 0x10, virtual false, abstract: false, final false
   static inline void Update();
 
 protected:
@@ -43,7 +43,7 @@ public:
   RegisterUpdateCallback(RegisterUpdateCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -49,7 +49,7 @@ public:
 
   static inline ::GlobalNamespace::ResultsTableCell* New_ctor();
 
-  /// @brief Method SetData, addr 0x3a93d38, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3aa7814, size 0x388, virtual false, abstract: false, final false
   inline void SetData(int32_t order, ::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__border() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3a940c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa7b9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +115,7 @@ public:
   ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4978 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

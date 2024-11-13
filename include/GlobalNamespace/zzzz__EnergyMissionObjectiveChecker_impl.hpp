@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::EnergyMissionObjectiveChecker::OnDestroy)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3b37d74;
+  constexpr static std::size_t addrs = 0x3b4d82c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)(float_t)>(
     &::GlobalNamespace::EnergyMissionObjectiveChecker::HandleEnergyDidChange)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3b37e40;
+  constexpr static std::size_t addrs = 0x3b4d8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::EnergyMissionObjectiveChecker::Init)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3b37f70;
+  constexpr static std::size_t addrs = 0x3b4da28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::EnergyMissionObjectiveChecker::CheckAndUpdateStatus)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3b37eac;
+  constexpr static std::size_t addrs = 0x3b4d964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::EnergyMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b380a0;
+  constexpr static std::size_t addrs = 0x3b4db58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnergyMissionObjectiveChecker*>::get(),

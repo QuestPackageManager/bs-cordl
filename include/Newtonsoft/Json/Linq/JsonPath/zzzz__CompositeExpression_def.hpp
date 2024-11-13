@@ -41,7 +41,7 @@ public:
       get = __cordl_internal_get__Expressions_k__BackingField,
       put = __cordl_internal_set__Expressions_k__BackingField)) ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* _Expressions_k__BackingField;
 
-  /// @brief Method IsMatch, addr 0x3ec1234, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x3ed58c4, size 0x2c0, virtual true, abstract: false, final false
   inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression* New_ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator);
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__Expressions_k__BackingField(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
 
-  /// @brief Method .ctor, addr 0x3ec09c8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed5058, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator);
 
-  /// @brief Method get_Expressions, addr 0x3ec1224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expressions, addr 0x3ed58b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* get_Expressions();
 
-  /// @brief Method set_Expressions, addr 0x3ec122c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Expressions, addr 0x3ed58bc, size 0x8, virtual false, abstract: false, final false
   inline void set_Expressions(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
 
 protected:
@@ -80,7 +80,7 @@ public:
   ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* ____Expressions_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10423 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

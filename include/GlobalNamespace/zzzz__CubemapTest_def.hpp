@@ -53,10 +53,10 @@ public:
 
   static inline ::GlobalNamespace::CubemapTest* New_ctor();
 
-  /// @brief Method Start, addr 0x3aa3b0c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ab76a8, size 0x7c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3aa3b88, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ab7724, size 0x210, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__flatMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x3aa3d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab7934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__cubePropertyId();
@@ -135,7 +135,7 @@ public:
   ::UnityW<::UnityEngine::RenderTexture> ____cubemapFlatTexture;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5032 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

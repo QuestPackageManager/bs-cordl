@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (
     ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)()>(&::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::get_playersWithoutEntitlements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e1c2c;
+  constexpr static std::size_t addrs = 0x26ed830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* (*)()>(
     &::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26e1c34;
+  constexpr static std::size_t addrs = 0x26ed838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)()>(
     &::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x26e1c98;
+  constexpr static std::size_t addrs = 0x26ed89c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* (
     ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(&::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Init)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x26e1d38;
+  constexpr static std::size_t addrs = 0x26ed93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x26e1dd0;
+  constexpr static std::size_t addrs = 0x26ed9d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::PlayersMissingEntitlementsNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x26e1f30;
+  constexpr static std::size_t addrs = 0x26edb34;
 
   inline static ::MethodInfo const* methodInfo() {
 

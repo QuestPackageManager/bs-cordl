@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset::*)()>(
     &::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x269329c;
+  constexpr static std::size_t addrs = 0x269eebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> (
         ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(&::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_presets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2693284;
+  constexpr static std::size_t addrs = 0x269eea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*>::get(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> (
     ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(&::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_namedPresets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x269328c;
+  constexpr static std::size_t addrs = 0x269eeac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::*)()>(
     &::GlobalNamespace::MirrorRendererGraphicsSettingsPresets::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2693294;
+  constexpr static std::size_t addrs = 0x269eeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*>::get(),

@@ -76,19 +76,19 @@ public:
 
   constexpr void __cordl_internal_set__repaintEvent_k__BackingField(::UnityEngine::Event* value);
 
-  /// @brief Method .ctor, addr 0x49c7288, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49db9a0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentOffset, addr 0x49c7258, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_currentOffset, addr 0x49db970, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_currentOffset();
 
-  /// @brief Method get_currentWorldClip, addr 0x49c726c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentWorldClip, addr 0x49db984, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_currentWorldClip();
 
-  /// @brief Method get_repaintEvent, addr 0x49c7278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_repaintEvent, addr 0x49db990, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Event* get_repaintEvent();
 
-  /// @brief Method set_repaintEvent, addr 0x49c7280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_repaintEvent, addr 0x49db998, size 0x8, virtual false, abstract: false, final false
   inline void set_repaintEvent(::UnityEngine::Event* value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   ::UnityEngine::Event* ____repaintEvent_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5978 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::Camera*, ::UnityEngine::Ray, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x486f684;
+  constexpr static std::size_t addrs = 0x4883d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::Camera*, ::UnityEngine::Ray, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry2D)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x486f74c;
+  constexpr static std::size_t addrs = 0x4883e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::Camera*, ByRef<::UnityEngine::Ray>, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry_Injected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x486f6e8;
+  constexpr static std::size_t addrs = 0x4883e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::Camera*, ByRef<::UnityEngine::Ray>, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry2D_Injected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x486f7b0;
+  constexpr static std::size_t addrs = 0x4883ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

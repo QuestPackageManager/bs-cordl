@@ -32,10 +32,10 @@ public:
 
   __declspec(property(get = get_rightHandVRController)) ::UnityW<::GlobalNamespace::VRController> rightHandVRController;
 
-  /// @brief Method DisableAllVRControllers, addr 0x3b6cfac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DisableAllVRControllers, addr 0x3b82aa0, size 0x38, virtual false, abstract: false, final false
   inline void DisableAllVRControllers();
 
-  /// @brief Method EnableAllVRControllers, addr 0x3b6cfe4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EnableAllVRControllers, addr 0x3b82ad8, size 0x38, virtual false, abstract: false, final false
   inline void EnableAllVRControllers();
 
   static inline ::GlobalNamespace::PlayerVRControllersManager* New_ctor();
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__rightHandVRController(::UnityW<::GlobalNamespace::VRController> value);
 
-  /// @brief Method .ctor, addr 0x3b6d01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b82b10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_leftHandVRController, addr 0x3b6cf9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandVRController, addr 0x3b82a90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_leftHandVRController();
 
-  /// @brief Method get_rightHandVRController, addr 0x3b6cfa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightHandVRController, addr 0x3b82a98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_rightHandVRController();
 
 protected:
@@ -82,7 +82,7 @@ public:
   ::UnityW<::GlobalNamespace::VRController> ____rightHandVRController;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4623 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4626 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

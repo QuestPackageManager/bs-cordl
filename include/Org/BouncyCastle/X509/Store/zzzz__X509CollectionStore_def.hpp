@@ -34,7 +34,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Store"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509Store*() noexcept;
 
-  /// @brief Method GetMatches, addr 0x25ab104, size 0x448, virtual true, abstract: false, final true
+  /// @brief Method GetMatches, addr 0x25b61ac, size 0x448, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* GetMatches(::Org::BouncyCastle::X509::Store::IX509Selector* selector);
 
   static inline ::Org::BouncyCastle::X509::Store::X509CollectionStore* New_ctor(::System::Collections::ICollection* collection);
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__local(::System::Collections::ICollection* value);
 
-  /// @brief Method .ctor, addr 0x25ab090, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b6138, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* collection);
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Store"

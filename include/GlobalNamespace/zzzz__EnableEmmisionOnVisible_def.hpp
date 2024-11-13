@@ -36,15 +36,15 @@ public:
                       put = __cordl_internal_set__particleSystems)) ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*>
       _particleSystems;
 
-  /// @brief Method Awake, addr 0x3959dac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x396d60c, size 0xe8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::EnableEmmisionOnVisible* New_ctor();
 
-  /// @brief Method OnBecameInvisible, addr 0x3959f08, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnBecameInvisible, addr 0x396d768, size 0x74, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
-  /// @brief Method OnBecameVisible, addr 0x3959e94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnBecameVisible, addr 0x396d6f4, size 0x74, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
   constexpr ::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> const& __cordl_internal_get__emmisionModules() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
 
-  /// @brief Method .ctor, addr 0x3959f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396d7dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,7 +83,7 @@ public:
   ::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> ____emmisionModules;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

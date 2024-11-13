@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*> value);
 
-  /// @brief Method .ctor, addr 0x2693f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269fb8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   ::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*> ___data;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13021 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -122,10 +122,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2693f74, size 0x868, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x269fb94, size 0x868, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26947dc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a03fc, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -160,7 +160,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13022 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -205,21 +205,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerStatusModel"
   constexpr operator ::GlobalNamespace::IMultiplayerStatusModel*() noexcept;
 
-  /// @brief Method GetMultiplayerStatusAsync, addr 0x2693d5c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetMultiplayerStatusAsync, addr 0x269f97c, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetMultiplayerStatusAsyncInternal, addr 0x2693e24, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetMultiplayerStatusAsyncInternal, addr 0x269fa44, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsyncInternal();
 
-  /// @brief Method Init, addr 0x2693d2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x269f94c, size 0x18, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method IsAvailabilityTaskValid, addr 0x2693dc8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsAvailabilityTaskValid, addr 0x269f9e8, size 0x5c, virtual false, abstract: false, final false
   inline bool IsAvailabilityTaskValid();
 
   static inline ::GlobalNamespace::MultiplayerStatusModel* New_ctor();
 
-  /// @brief Method StartRequest, addr 0x2693d44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StartRequest, addr 0x269f964, size 0x18, virtual false, abstract: false, final false
   inline void StartRequest();
 
   constexpr ::System::Net::Http::HttpClient*& __cordl_internal_get__client();
@@ -240,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set__request(::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* value);
 
-  /// @brief Method .ctor, addr 0x2693f0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269fb2c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerStatusModel"
@@ -270,7 +270,7 @@ public:
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* ____request;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13023 };
 
   /// @brief Field kRequestTimeoutSeconds offset 0xffffffff size 0x4
   static constexpr int32_t kRequestTimeoutSeconds{ static_cast<int32_t>(0x3c) };

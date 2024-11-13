@@ -88,25 +88,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedAndHighlightedAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x4462704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4476e1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledAlpha, addr 0x44626ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledAlpha, addr 0x4476e04, size 0x8, virtual false, abstract: false, final false
   inline float_t get_disabledAlpha();
 
-  /// @brief Method get_highlightedAlpha, addr 0x44626dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedAlpha, addr 0x4476df4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highlightedAlpha();
 
-  /// @brief Method get_normalAlpha, addr 0x44626d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalAlpha, addr 0x4476dec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalAlpha();
 
-  /// @brief Method get_pressedAlpha, addr 0x44626e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedAlpha, addr 0x4476dfc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedAlpha();
 
-  /// @brief Method get_selectedAlpha, addr 0x44626f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAlpha, addr 0x4476e0c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAlpha();
 
-  /// @brief Method get_selectedAndHighlightedAlpha, addr 0x44626fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedAlpha, addr 0x4476e14, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAndHighlightedAlpha();
 
 protected:
@@ -142,7 +142,7 @@ public:
   float_t ____selectedAndHighlightedAlpha;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18131 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

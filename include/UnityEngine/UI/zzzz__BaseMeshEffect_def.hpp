@@ -39,7 +39,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::IMeshModifier"
   constexpr operator ::UnityEngine::UI::IMeshModifier*() noexcept;
 
-  /// @brief Method ModifyMesh, addr 0x4a5741c, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x4a6bb34, size 0x1b0, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::Mesh* mesh);
 
   /// @brief Method ModifyMesh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -47,13 +47,13 @@ public:
 
   static inline ::UnityEngine::UI::BaseMeshEffect* New_ctor();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x4a57380, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x4a6ba98, size 0x9c, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x4a572e4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4a6b9fc, size 0x9c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4a5723c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4a6b954, size 0xa8, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_m_Graphic() const;
@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Graphic(::UnityW<::UnityEngine::UI::Graphic> value);
 
-  /// @brief Method .ctor, addr 0x4a575cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a6bce4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_graphic, addr 0x4a571a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_graphic, addr 0x4a6b8c0, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
   /// @brief Convert to "::UnityEngine::UI::IMeshModifier"
@@ -89,7 +89,7 @@ public:
   ::UnityW<::UnityEngine::UI::Graphic> ___m_Graphic;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15119 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

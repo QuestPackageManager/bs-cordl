@@ -47,19 +47,19 @@ public:
   /// @brief Field mPassword, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_mPassword, put = __cordl_internal_set_mPassword)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mPassword;
 
-  /// @brief Method CreateSrpKeyExchange, addr 0x23dc668, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CreateSrpKeyExchange, addr 0x23e7710, size 0x8c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateSrpKeyExchange(int32_t keyExchange);
 
-  /// @brief Method GetAuthentication, addr 0x23dc62c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAuthentication, addr 0x23e76d4, size 0x3c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* GetAuthentication();
 
-  /// @brief Method GetCipherSuites, addr 0x23dc40c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0x23e74b4, size 0x64, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
 
-  /// @brief Method GetClientExtensions, addr 0x23dc470, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetClientExtensions, addr 0x23e7518, size 0x34, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetClientExtensions();
 
-  /// @brief Method GetKeyExchange, addr 0x23dc574, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0x23e761c, size 0xb8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SrpTlsClient* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory,
@@ -71,7 +71,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SrpTlsClient* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method ProcessServerExtensions, addr 0x23dc4a4, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerExtensions, addr 0x23e754c, size 0xd0, virtual true, abstract: false, final false
   inline void ProcessServerExtensions(::System::Collections::IDictionary* serverExtensions);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*& __cordl_internal_get_mGroupVerifier();
@@ -92,17 +92,17 @@ public:
 
   constexpr void __cordl_internal_set_mPassword(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23dc2dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e7384, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* groupVerifier,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method .ctor, addr 0x23dc380, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e7428, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method .ctor, addr 0x23dc234, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e72dc, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method get_RequireSrpServerExtension, addr 0x23dc404, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequireSrpServerExtension, addr 0x23e74ac, size 0x8, virtual true, abstract: false, final false
   inline bool get_RequireSrpServerExtension();
 
 protected:

@@ -35,24 +35,24 @@ public:
   /// @brief Field parent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent)) ::System::Xml::CharEntityEncoderFallback* parent;
 
-  /// @brief Method Fallback, addr 0x41cb0b0, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x41df7c8, size 0x1f0, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x41cb2a0, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x41df9b8, size 0x280, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x41cb530, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x41dfc48, size 0x58, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x41cb588, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x41dfca0, size 0x1c, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
   static inline ::System::Xml::CharEntityEncoderFallbackBuffer* New_ctor(::System::Xml::CharEntityEncoderFallback* parent);
 
-  /// @brief Method Reset, addr 0x41cb5d8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x41dfcf0, size 0xc, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SurrogateCharToUtf32, addr 0x41cb520, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SurrogateCharToUtf32, addr 0x41dfc38, size 0x10, virtual false, abstract: false, final false
   inline int32_t SurrogateCharToUtf32(char16_t highSurrogate, char16_t lowSurrogate);
 
   constexpr ::StringW const& __cordl_internal_get_charEntity() const;
@@ -73,10 +73,10 @@ public:
 
   constexpr void __cordl_internal_set_parent(::System::Xml::CharEntityEncoderFallback* value);
 
-  /// @brief Method .ctor, addr 0x41cafa0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41df6b8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::CharEntityEncoderFallback* parent);
 
-  /// @brief Method get_Remaining, addr 0x41cb5a4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x41dfcbc, size 0x34, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:
@@ -103,7 +103,7 @@ public:
   int32_t ___charEntityIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7145 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

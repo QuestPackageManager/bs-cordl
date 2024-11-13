@@ -77,7 +77,7 @@ public:
   static ::GlobalNamespace::__UserInfo__Platform const Test;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18670 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x40082dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401c8f0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName);
 
 protected:
@@ -156,7 +156,7 @@ public:
   ::StringW ___userName;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18671 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

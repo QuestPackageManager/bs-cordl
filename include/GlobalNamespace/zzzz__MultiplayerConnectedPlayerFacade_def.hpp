@@ -61,7 +61,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b3d788, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b53438, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   __MultiplayerConnectedPlayerFacade__Factory(__MultiplayerConnectedPlayerFacade__Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4467 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -133,24 +133,24 @@ public:
 
   __declspec(property(get = get_scoreDiffText)) ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> scoreDiffText;
 
-  /// @brief Method HideBigAvatar, addr 0x3b3d4c8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HideBigAvatar, addr 0x3b53178, size 0x8c, virtual false, abstract: false, final false
   inline void HideBigAvatar();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerFacade* New_ctor();
 
-  /// @brief Method PauseSpawning, addr 0x3b3d340, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PauseSpawning, addr 0x3b52ff0, size 0xa4, virtual false, abstract: false, final false
   inline void PauseSpawning();
 
-  /// @brief Method ResumeSpawning, addr 0x3b3d3e4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ResumeSpawning, addr 0x3b53094, size 0xa4, virtual false, abstract: false, final false
   inline void ResumeSpawning();
 
-  /// @brief Method SetSongStartSyncTime, addr 0x3b3d1e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetSongStartSyncTime, addr 0x3b52e98, size 0x18, virtual false, abstract: false, final false
   inline void SetSongStartSyncTime(int64_t songStartSyncTime);
 
-  /// @brief Method __ForceStopSong, addr 0x3b3d488, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method __ForceStopSong, addr 0x3b53138, size 0x34, virtual false, abstract: false, final false
   inline void __ForceStopSong();
 
-  /// @brief Method __GetPlayerAvatar, addr 0x3b3d728, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method __GetPlayerAvatar, addr 0x3b533d8, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::AvatarCore::Avatar> __GetPlayerAvatar();
 
   constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& __cordl_internal_get__beatmapObjectEventManager();
@@ -207,16 +207,16 @@ public:
 
   constexpr void __cordl_internal_set__songTimeSyncController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> value);
 
-  /// @brief Method .ctor, addr 0x3b3d774, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b53424, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_introAnimator, addr 0x3b3d1d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_introAnimator, addr 0x3b52e80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator> get_introAnimator();
 
-  /// @brief Method get_outroAnimator, addr 0x3b3d1d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outroAnimator, addr 0x3b52e88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_outroAnimator();
 
-  /// @brief Method get_scoreDiffText, addr 0x3b3d1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scoreDiffText, addr 0x3b52e90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> get_scoreDiffText();
 
 protected:
@@ -261,7 +261,7 @@ public:
   ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* ____beatmapObjectEventManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4468 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

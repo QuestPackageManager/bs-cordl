@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__GeometryChangedEvent____c::*)()>(
     &::UnityEngine::UIElements::__GeometryChangedEvent____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b0024;
+  constexpr static std::size_t addrs = 0x49c473c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__GeometryChangedEvent____c*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::GeometryChangedEvent* (::UnityEngine::UIElements::__GeometryChangedEvent____c::*)()>(
     &::UnityEngine::UIElements::__GeometryChangedEvent____c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49b002c;
+  constexpr static std::size_t addrs = 0x49c4744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__GeometryChangedEvent____c*>::get(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::GeometryChangedEvent* (*)(::UnityEngine::Rect, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::GeometryChangedEvent::GetPooled)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x49afdd0;
+  constexpr static std::size_t addrs = 0x49c44e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent::*)()>(
     &::UnityEngine::UIElements::GeometryChangedEvent::Init)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49afe90;
+  constexpr static std::size_t addrs = 0x49c45a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent::*)()>(
     &::UnityEngine::UIElements::GeometryChangedEvent::LocalInit)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x49afee0;
+  constexpr static std::size_t addrs = 0x49c45f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GeometryChangedEvent*>::get(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::GeometryChangedEvent::*)()>(
     &::UnityEngine::UIElements::GeometryChangedEvent::get_oldRect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49aff14;
+  constexpr static std::size_t addrs = 0x49c462c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GeometryChangedEvent*>::get(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent::*)(::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::GeometryChangedEvent::set_oldRect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49aff20;
+  constexpr static std::size_t addrs = 0x49c4638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::GeometryChangedEvent::*)()>(
     &::UnityEngine::UIElements::GeometryChangedEvent::get_newRect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49aff2c;
+  constexpr static std::size_t addrs = 0x49c4644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GeometryChangedEvent*>::get(),
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent::*)(::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::GeometryChangedEvent::set_newRect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49aff38;
+  constexpr static std::size_t addrs = 0x49c4650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::GeometryChangedEvent::*)()>(
     &::UnityEngine::UIElements::GeometryChangedEvent::get_layoutPass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49aff44;
+  constexpr static std::size_t addrs = 0x49c465c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GeometryChangedEvent*>::get(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent::*)(int32_t)>(
     &::UnityEngine::UIElements::GeometryChangedEvent::set_layoutPass)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49aff4c;
+  constexpr static std::size_t addrs = 0x49c4664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GeometryChangedEvent::*)()>(
     &::UnityEngine::UIElements::GeometryChangedEvent::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x49aff54;
+  constexpr static std::size_t addrs = 0x49c466c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GeometryChangedEvent*>::get(), ".ctor",

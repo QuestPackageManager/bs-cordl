@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Pose::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::Pose::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x483d538;
+  constexpr static std::size_t addrs = 0x4851c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Pose::*)()>(&::UnityEngine::Pose::ToString)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x483d54c;
+  constexpr static std::size_t addrs = 0x4851c64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (::UnityEngine::Pose::*)(::UnityEngine::Pose)>(&::UnityEngine::Pose::GetTransformedBy)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x483d650;
+  constexpr static std::size_t addrs = 0x4851d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Pose::*)()>(&::UnityEngine::Pose::get_forward)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x483d744;
+  constexpr static std::size_t addrs = 0x4851e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Pose>::get(), "get_forward",
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)()>(&::UnityEngine::Pose::get_identity)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483d7b0;
+  constexpr static std::size_t addrs = 0x4851ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Pose>::get(), "get_identity",
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Pose::*)(::System::Object*)>(&::UnityEngine::Pose::Equals)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x483d818;
+  constexpr static std::size_t addrs = 0x4851f30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Pose::*)(::UnityEngine::Pose)>(&::UnityEngine::Pose::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x483d8d8;
+  constexpr static std::size_t addrs = 0x4851ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Pose::*)()>(&::UnityEngine::Pose::GetHashCode)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x483d988;
+  constexpr static std::size_t addrs = 0x48520a0;
 
   inline static ::MethodInfo const* methodInfo() {
 

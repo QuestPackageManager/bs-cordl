@@ -27,15 +27,15 @@ public:
   // Declarations
   __declspec(property(get = get_outputs)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* outputs;
 
-  /// @brief Method CanCompileClips, addr 0x47b0334, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanCompileClips, addr 0x47c4a4c, size 0x8, virtual true, abstract: false, final false
   inline bool CanCompileClips();
 
   static inline ::UnityEngine::Timeline::GroupTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47b0394, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c4aac, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_outputs, addr 0x47b033c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x47c4a54, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
 protected:
@@ -53,7 +53,7 @@ public:
   GroupTrack(GroupTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15821 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

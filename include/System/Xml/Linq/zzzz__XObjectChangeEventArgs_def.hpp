@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__objectChange(::System::Xml::Linq::XObjectChange value);
 
-  /// @brief Method .ctor, addr 0x41d6fa0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41eb6b8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XObjectChange objectChange);
 
   static inline ::System::Xml::Linq::XObjectChangeEventArgs* getStaticF_Add();
@@ -83,7 +83,7 @@ public:
   ::System::Xml::Linq::XObjectChange ____objectChange;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17924 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Net::Configuration::NetSectionGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4390430, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a4b48, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   NetSectionGroup(NetSectionGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9894 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

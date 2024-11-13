@@ -43,10 +43,10 @@ public:
 
   __declspec(property(get = get_name)) ::StringW name;
 
-  /// @brief Method Equals, addr 0x47dc4e0, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x47f0bf8, size 0xdc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x47dc5bc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x47f0cd4, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AnimatorControllerParameter* New_ctor();
@@ -81,10 +81,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::UnityEngine::AnimatorControllerParameterType value);
 
-  /// @brief Method .ctor, addr 0x47dc5dc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47f0cf4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x47dc4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x47f0bf0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
 protected:
@@ -117,7 +117,7 @@ public:
   bool ___m_DefaultBool;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,15 +29,15 @@ namespace Tayx::Graphy::Utils {
 class CORDL_TYPE G_ExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAllActive, addr 0x445a5e0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetAllActive, addr 0x446ecf8, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjects,
                                                                                                           bool active);
 
-  /// @brief Method SetAllActive, addr 0x445a7f8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetAllActive, addr 0x446ef10, size 0x168, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
                                                                                                          bool active);
 
-  /// @brief Method SetOneActive, addr 0x445a744, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetOneActive, addr 0x446ee5c, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetOneActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
                                                                                                          int32_t active);
 
@@ -56,7 +56,7 @@ public:
   G_ExtensionMethods(G_ExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

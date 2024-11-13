@@ -63,7 +63,7 @@ public:
 
   static inline ::GlobalNamespace::__FlowCoordinatorAvatarsHelper____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <HasUserSelectedAvatarSystemWithCreatedAvatar>b__0, addr 0x3b8a038, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <HasUserSelectedAvatarSystemWithCreatedAvatar>b__0, addr 0x3b9fc00, size 0xbc, virtual false, abstract: false, final false
   inline bool _HasUserSelectedAvatarSystemWithCreatedAvatar_b__0(::BeatSaber::AvatarCore::IAvatarSystemMetadata* system);
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get_playerDataModel() const;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x3b8a030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9fbf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   ::UnityW<::GlobalNamespace::PlayerDataModel> ___playerDataModel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4770 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -114,10 +114,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b8a0f4, size 0x3f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b9fcbc, size 0x3f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b8a4ec, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ba00b4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -152,7 +152,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4771 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -185,13 +185,13 @@ public:
 
   using __c__DisplayClass0_0 = ::GlobalNamespace::__FlowCoordinatorAvatarsHelper____c__DisplayClass0_0;
 
-  /// @brief Method HasUserSelectedAvatarSystemWithCreatedAvatar, addr 0x3b89f20, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HasUserSelectedAvatarSystemWithCreatedAvatar, addr 0x3b9fae8, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* HasUserSelectedAvatarSystemWithCreatedAvatar(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection,
                                                                                                        ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
   static inline ::GlobalNamespace::FlowCoordinatorAvatarsHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b8a028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9fbf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -209,7 +209,7 @@ public:
   FlowCoordinatorAvatarsHelper(FlowCoordinatorAvatarsHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4772 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

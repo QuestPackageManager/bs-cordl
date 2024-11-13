@@ -89,7 +89,7 @@ public:
   static ::UnityEngine::UIElements::__DropdownMenuAction__Status const Normal;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5742 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -140,17 +140,17 @@ public:
 
   __declspec(property(put = set_userData)) ::System::Object* userData;
 
-  /// @brief Method AlwaysDisabled, addr 0x49a6288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AlwaysDisabled, addr 0x49ba9a0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__DropdownMenuAction__Status AlwaysDisabled(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method AlwaysEnabled, addr 0x49a6280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AlwaysEnabled, addr 0x49ba998, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__DropdownMenuAction__Status AlwaysEnabled(::UnityEngine::UIElements::DropdownMenuAction* a);
 
   static inline ::UnityEngine::UIElements::DropdownMenuAction*
   New_ctor(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* actionCallback,
            ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method UpdateActionStatus, addr 0x49a62d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateActionStatus, addr 0x49ba9ec, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateActionStatus(::UnityEngine::UIElements::DropdownMenuEventInfo* eventInfo);
 
   constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo*& __cordl_internal_get__eventInfo_k__BackingField();
@@ -190,17 +190,17 @@ public:
 
   constexpr void __cordl_internal_set_actionStatusCallback(::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* value);
 
-  /// @brief Method .ctor, addr 0x49a6290, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ba9a8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* actionCallback,
                     ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method set_eventInfo, addr 0x49a6270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventInfo, addr 0x49ba988, size 0x8, virtual false, abstract: false, final false
   inline void set_eventInfo(::UnityEngine::UIElements::DropdownMenuEventInfo* value);
 
-  /// @brief Method set_status, addr 0x49a6268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_status, addr 0x49ba980, size 0x8, virtual false, abstract: false, final false
   inline void set_status(::UnityEngine::UIElements::__DropdownMenuAction__Status value);
 
-  /// @brief Method set_userData, addr 0x49a6278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userData, addr 0x49ba990, size 0x8, virtual false, abstract: false, final false
   inline void set_userData(::System::Object* value);
 
 protected:
@@ -236,7 +236,7 @@ public:
   ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* ___actionStatusCallback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5743 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -49,23 +49,23 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x41a6f60, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x41bb678, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x41a7028, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x41bb740, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor();
 
   static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x41a6f08, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x41bb620, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x41a70a4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41bb7bc, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x41a70fc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41bb814, size 0x178, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::ContentDispositionHeaderValue*> parsedValue);
 
   constexpr ::StringW const& __cordl_internal_get_dispositionType() const;
@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* value);
 
-  /// @brief Method .ctor, addr 0x41a6bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41bb304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x41a6bf4, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41bb30c, size 0x268, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source);
 
-  /// @brief Method get_Parameters, addr 0x41a6e5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x41bb574, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
 
   /// @brief Convert to "::System::ICloneable"
@@ -113,7 +113,7 @@ public:
   ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* ___parameters;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16660 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

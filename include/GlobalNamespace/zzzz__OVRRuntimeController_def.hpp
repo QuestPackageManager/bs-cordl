@@ -79,21 +79,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3fcc2cc, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3fe095c, size 0x11c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fcc3e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fe0a78, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fcc3f0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fe0a80, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fcc428, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fe0ab8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3fcc2c8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3fe0958, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRRuntimeController> value);
 
-  /// @brief Method .ctor, addr 0x3fcc1ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe087c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -150,7 +150,7 @@ public:
   ::UnityW<::GlobalNamespace::OVRRuntimeController> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -212,30 +212,30 @@ public:
   /// @brief Field rightControllerModelPath, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_rightControllerModelPath, put = setStaticF_rightControllerModelPath)) ::StringW rightControllerModelPath;
 
-  /// @brief Method InputFocusAquired, addr 0x3fcc214, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InputFocusAquired, addr 0x3fe08a4, size 0xc, virtual false, abstract: false, final false
   inline void InputFocusAquired();
 
-  /// @brief Method InputFocusLost, addr 0x3fcc220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InputFocusLost, addr 0x3fe08b0, size 0x8, virtual false, abstract: false, final false
   inline void InputFocusLost();
 
-  /// @brief Method IsModelSupported, addr 0x3fcb8e0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method IsModelSupported, addr 0x3fdff70, size 0x16c, virtual false, abstract: false, final false
   inline bool IsModelSupported(::StringW modelPath);
 
-  /// @brief Method LoadControllerModel, addr 0x3fcbf34, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method LoadControllerModel, addr 0x3fe05c4, size 0x2b8, virtual false, abstract: false, final false
   inline bool LoadControllerModel(::StringW modelPath);
 
   static inline ::GlobalNamespace::OVRRuntimeController* New_ctor();
 
-  /// @brief Method Start, addr 0x3fcb760, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fdfdf0, size 0x180, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fcbaac, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fe013c, size 0x108, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateControllerAnimation, addr 0x3fcbbb4, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerAnimation, addr 0x3fe0244, size 0x380, virtual false, abstract: false, final false
   inline void UpdateControllerAnimation();
 
-  /// @brief Method UpdateControllerModel, addr 0x3fcba4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerModel, addr 0x3fe00dc, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateControllerModel();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>*& __cordl_internal_get_m_animationNodes();
@@ -299,7 +299,7 @@ public:
 
   constexpr void __cordl_internal_set_m_supportAnimation(bool value);
 
-  /// @brief Method .ctor, addr 0x3fcc228, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe08b8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_leftControllerModelPath();
@@ -355,7 +355,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* ___m_animationNodes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

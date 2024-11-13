@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_lobbySecret(::StringW value);
 
-  /// @brief Method .ctor, addr 0x266d118, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26783d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW lobbyCode);
 
-  /// @brief Method .ctor, addr 0x266d0ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26783ac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW lobbySecret, ::StringW lobbyCode);
 
 protected:
@@ -69,7 +69,7 @@ public:
   ::StringW ___lobbyCode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12784 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

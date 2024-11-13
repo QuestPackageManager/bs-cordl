@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::__CBZip2OutputStream__StackElem::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::__CBZip2OutputStream__StackElem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e8178;
+  constexpr static std::size_t addrs = 0x24f3220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::Panic)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x24e52e8;
+  constexpr static std::size_t addrs = 0x24f0390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::MakeMaps)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x24e52ec;
+  constexpr static std::size_t addrs = 0x24f0394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<char16_t, ::Array<char16_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::HbMakeCodeLengths)> {
   constexpr static std::size_t size = 0x63c;
-  constexpr static std::size_t addrs = 0x24e5378;
+  constexpr static std::size_t addrs = 0x24f0420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e5248;
+  constexpr static std::size_t addrs = 0x24f02f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(::System::IO::Stream*, int32_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::_ctor)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x24e59b4;
+  constexpr static std::size_t addrs = 0x24f0a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(uint8_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::WriteByte)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x24e5d64;
+  constexpr static std::size_t addrs = 0x24f0e0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::WriteRun)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x24e5dd8;
+  constexpr static std::size_t addrs = 0x24f0e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::Close)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x24e60f4;
+  constexpr static std::size_t addrs = 0x24f119c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::Finish)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x24e5254;
+  constexpr static std::size_t addrs = 0x24f02fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::Flush)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x24e61fc;
+  constexpr static std::size_t addrs = 0x24f12a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::Initialize)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x24e5cb4;
+  constexpr static std::size_t addrs = 0x24f0d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::InitBlock)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x24e5cf0;
+  constexpr static std::size_t addrs = 0x24f0d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::EndBlock)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x24e6014;
+  constexpr static std::size_t addrs = 0x24f10bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::EndCompression)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x24e6180;
+  constexpr static std::size_t addrs = 0x24f1228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(
     ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::HbAssignCodes)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x24e6558;
+  constexpr static std::size_t addrs = 0x24f1600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::BsSetStream)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24e5bc4;
+  constexpr static std::size_t addrs = 0x24f0c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::BsFinishedWithStream)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x24e646c;
+  constexpr static std::size_t addrs = 0x24f1514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::BsW)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x24e6334;
+  constexpr static std::size_t addrs = 0x24f13dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(int32_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::BsPutUChar)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24e6220;
+  constexpr static std::size_t addrs = 0x24f12c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(int32_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::BsPutint)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x24e62e0;
+  constexpr static std::size_t addrs = 0x24f1388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::BsPutIntVS)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x24e65e0;
+  constexpr static std::size_t addrs = 0x24f1688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::SendMTFValues)> {
   constexpr static std::size_t size = 0xce0;
-  constexpr static std::size_t addrs = 0x24e65e4;
+  constexpr static std::size_t addrs = 0x24f168c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::MoveToFrontCodeAndSend)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x24e6444;
+  constexpr static std::size_t addrs = 0x24f14ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::SimpleSort)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x24e7660;
+  constexpr static std::size_t addrs = 0x24f2708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::Vswap)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x24e7c80;
+  constexpr static std::size_t addrs = 0x24f2d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(char16_t, char16_t, char16_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::Med3)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x24e7ce8;
+  constexpr static std::size_t addrs = 0x24f2d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(int32_t, int32_t, int32_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::QSort3)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x24e7d14;
+  constexpr static std::size_t addrs = 0x24f2dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::MainSort)> {
   constexpr static std::size_t size = 0x7ec;
-  constexpr static std::size_t addrs = 0x24e8180;
+  constexpr static std::size_t addrs = 0x24f3228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::RandomiseBlock)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x24e896c;
+  constexpr static std::size_t addrs = 0x24f3a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::DoReversibleTransformation)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x24e622c;
+  constexpr static std::size_t addrs = 0x24f12d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::FullGtU)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x24e796c;
+  constexpr static std::size_t addrs = 0x24f2a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -538,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::AllocateCompressStructures)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x24e5bd4;
+  constexpr static std::size_t addrs = 0x24f0c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -552,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::GenerateMTFValues)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x24e72c4;
+  constexpr static std::size_t addrs = 0x24f236c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream*>::get(),
@@ -566,7 +566,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::Read)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e8aa4;
+  constexpr static std::size_t addrs = 0x24f3b4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::Seek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e8aac;
+  constexpr static std::size_t addrs = 0x24f3b54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -598,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(int64_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::SetLength)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x24e8ab4;
+  constexpr static std::size_t addrs = 0x24f3b5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x24e8ab8;
+  constexpr static std::size_t addrs = 0x24f3b60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::get_CanRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e8b40;
+  constexpr static std::size_t addrs = 0x24f3be8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -646,7 +646,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e8b48;
+  constexpr static std::size_t addrs = 0x24f3bf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -662,7 +662,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e8b50;
+  constexpr static std::size_t addrs = 0x24f3bf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -678,7 +678,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e8b58;
+  constexpr static std::size_t addrs = 0x24f3c00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -694,7 +694,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)()>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::get_Position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e8b60;
+  constexpr static std::size_t addrs = 0x24f3c08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -710,7 +710,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::*)(int64_t)>(
     &::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream::set_Position)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x24e8b68;
+  constexpr static std::size_t addrs = 0x24f3c10;
 
   inline static ::MethodInfo const* methodInfo() {
 

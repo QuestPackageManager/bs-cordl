@@ -60,24 +60,24 @@ public:
   /// @brief Field particles, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_particles, put = __cordl_internal_set_particles)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> particles;
 
-  /// @brief Method AddElement, addr 0x4329bc4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method AddElement, addr 0x433e2dc, size 0x148, virtual false, abstract: false, final false
   inline bool AddElement(::System::Xml::XmlQualifiedName* name, ::System::Object* particle, bool isEmptiable);
 
-  /// @brief Method CompleteValidation, addr 0x4329f04, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method CompleteValidation, addr 0x433e61c, size 0x50, virtual true, abstract: false, final false
   inline bool CompleteValidation(::System::Xml::Schema::ValidationState* context);
 
-  /// @brief Method ExpectedElements, addr 0x4329f54, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method ExpectedElements, addr 0x433e66c, size 0x430, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* ExpectedElements(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly);
 
-  /// @brief Method ExpectedParticles, addr 0x432a384, size 0x4d8, virtual true, abstract: false, final false
+  /// @brief Method ExpectedParticles, addr 0x433ea9c, size 0x4d8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* ExpectedParticles(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method InitValidation, addr 0x4329d2c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method InitValidation, addr 0x433e444, size 0x90, virtual true, abstract: false, final false
   inline void InitValidation(::System::Xml::Schema::ValidationState* context);
 
   static inline ::System::Xml::Schema::AllElementsContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, int32_t size, bool isEmptiable);
 
-  /// @brief Method ValidateElement, addr 0x4329dbc, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ValidateElement, addr 0x433e4d4, size 0x148, virtual true, abstract: false, final false
   inline ::System::Object* ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ByRef<int32_t> errorCode);
 
   constexpr int32_t const& __cordl_internal_get_countRequired() const;
@@ -104,10 +104,10 @@ public:
 
   constexpr void __cordl_internal_set_particles(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x4329abc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x433e1d4, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaContentType contentType, int32_t size, bool isEmptiable);
 
-  /// @brief Method get_IsEmptiable, addr 0x4329d0c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmptiable, addr 0x433e424, size 0x20, virtual true, abstract: false, final false
   inline bool get_IsEmptiable();
 
 protected:
@@ -137,7 +137,7 @@ public:
   int32_t ___countRequired;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

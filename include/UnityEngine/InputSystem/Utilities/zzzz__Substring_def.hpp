@@ -50,55 +50,55 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::Substring>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::Substring>*();
 
-  /// @brief Method Compare, addr 0x44fa9bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x450f0d4, size 0x28, virtual false, abstract: false, final false
   static inline int32_t Compare(::UnityEngine::InputSystem::Utilities::Substring left, ::UnityEngine::InputSystem::Utilities::Substring right, ::System::StringComparison comparison);
 
-  /// @brief Method CompareTo, addr 0x44fa920, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x450f038, size 0x1c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::InputSystem::Utilities::Substring other);
 
-  /// @brief Method Equals, addr 0x44fa774, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x450ee8c, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x44fa858, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x450ef70, size 0xc8, virtual false, abstract: false, final false
   inline bool Equals(::StringW other);
 
-  /// @brief Method Equals, addr 0x44fa93c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x450f054, size 0x80, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::InputSystem::Utilities::InternedString other);
 
-  /// @brief Method Equals, addr 0x44fa828, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x450ef40, size 0x30, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Utilities::Substring other);
 
-  /// @brief Method GetHashCode, addr 0x44fab20, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x450f238, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method StartsWith, addr 0x44fa9e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x450f0fc, size 0xa0, virtual false, abstract: false, final false
   inline bool StartsWith(::StringW str);
 
-  /// @brief Method Substr, addr 0x44faa84, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Substr, addr 0x450f19c, size 0x34, virtual false, abstract: false, final false
   inline ::StringW Substr(int32_t index, int32_t length);
 
-  /// @brief Method ToString, addr 0x44faab8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x450f1d0, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x44fa72c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x450ee44, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method .ctor, addr 0x44fa74c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x450ee64, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW str, int32_t index);
 
-  /// @brief Method .ctor, addr 0x44fa5d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x450ece8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW str, int32_t index, int32_t length);
 
-  /// @brief Method get_Item, addr 0x44fac90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x450f3a8, size 0x80, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t index);
 
-  /// @brief Method get_index, addr 0x44fac88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x450f3a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method get_isEmpty, addr 0x44fa71c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x450ee34, size 0x10, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
-  /// @brief Method get_length, addr 0x44fac80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x450f398, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_length();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::InputSystem::Utilities::Substring>"
@@ -107,25 +107,25 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::Substring>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::Substring>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__Substring_();
 
-  /// @brief Method op_Equality, addr 0x44fac04, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x450f31c, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Utilities::InternedString a, ::UnityEngine::InputSystem::Utilities::Substring b);
 
-  /// @brief Method op_Equality, addr 0x44faba8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x450f2c0, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Utilities::Substring a, ::UnityEngine::InputSystem::Utilities::InternedString b);
 
-  /// @brief Method op_Equality, addr 0x44fab70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x450f288, size 0x1c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Utilities::Substring a, ::UnityEngine::InputSystem::Utilities::Substring b);
 
-  /// @brief Method op_Implicit, addr 0x44fac68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x450f380, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::Substring op_Implicit___UnityEngine__InputSystem__Utilities__Substring(::StringW s);
 
-  /// @brief Method op_Inequality, addr 0x44fac34, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x450f34c, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Utilities::InternedString a, ::UnityEngine::InputSystem::Utilities::Substring b);
 
-  /// @brief Method op_Inequality, addr 0x44fabd4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x450f2ec, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Utilities::Substring a, ::UnityEngine::InputSystem::Utilities::InternedString b);
 
-  /// @brief Method op_Inequality, addr 0x44fab8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x450f2a4, size 0x1c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Utilities::Substring a, ::UnityEngine::InputSystem::Utilities::Substring b);
 
   // Ctor Parameters []
@@ -146,7 +146,7 @@ public:
   int32_t m_Length;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7090 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

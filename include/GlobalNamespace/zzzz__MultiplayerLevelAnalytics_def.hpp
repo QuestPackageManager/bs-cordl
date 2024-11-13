@@ -36,16 +36,16 @@ public:
                       put = __cordl_internal_set__multiplayerLevelScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>
       _multiplayerLevelScenesTransitionSetupData;
 
-  /// @brief Method HandleMultiplayerLevelDidFinish, addr 0x3a617cc, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelDidFinish, addr 0x3a75124, size 0x4bc, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData,
                                               ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
 
   static inline ::GlobalNamespace::MultiplayerLevelAnalytics* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a6173c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a75094, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3a616ac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a75004, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3a61c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a755e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

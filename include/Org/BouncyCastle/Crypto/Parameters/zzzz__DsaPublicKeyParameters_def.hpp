@@ -34,18 +34,18 @@ public:
   /// @brief Field y, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) ::Org::BouncyCastle::Math::BigInteger* y;
 
-  /// @brief Method Equals, addr 0x237a8a0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2385948, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x237a93c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x23859e4, size 0x58, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x237a994, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2385a3c, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaPublicKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
-  /// @brief Method Validate, addr 0x237a6a8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x2385750, size 0x164, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* Validate(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_y();
@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x237a80c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23858b4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
-  /// @brief Method get_Y, addr 0x237a898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x2385940, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Y();
 
 protected:

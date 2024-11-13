@@ -57,13 +57,13 @@ public:
 
   static inline ::System::Xml::XPath::XPathItem* New_ctor();
 
-  /// @brief Method ValueAs, addr 0x42ed7d8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ValueAs, addr 0x4301ef0, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* ValueAs(::System::Type* returnType);
 
   /// @brief Method ValueAs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x42ed7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4301f04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_TypedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -108,7 +108,7 @@ public:
   XPathItem(XPathItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7350 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

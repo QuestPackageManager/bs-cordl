@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::*)(int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46885f0;
+  constexpr static std::size_t addrs = 0x469cd08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::*)()>(
     &::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::Valid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x46885f8;
+  constexpr static std::size_t addrs = 0x469cd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility__SearchRange>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::*)()>(
     &::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::Center)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x468860c;
+  constexpr static std::size_t addrs = 0x469cd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility__SearchRange>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::*)()>(
     &::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::ToString)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4688624;
+  constexpr static std::size_t addrs = 0x469cd3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ UnityEngine::ProBuilder::__ArrayUtility____c__DisplayClass21_0_2<TSource, TKey>:
 template <typename TSource, typename TKey>
 constexpr void UnityEngine::ProBuilder::__ArrayUtility____c__DisplayClass21_0_2<TSource, TKey>::__cordl_internal_set_knownKeys(::System::Collections::Generic::HashSet_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___knownKeys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___knownKeys, value);
 }
 template <typename TSource, typename TKey>
 constexpr ::System::Func_2<TSource, TKey>*& UnityEngine::ProBuilder::__ArrayUtility____c__DisplayClass21_0_2<TSource, TKey>::__cordl_internal_get_keySelector() {
@@ -161,7 +161,7 @@ UnityEngine::ProBuilder::__ArrayUtility____c__DisplayClass21_0_2<TSource, TKey>:
 template <typename TSource, typename TKey>
 constexpr void UnityEngine::ProBuilder::__ArrayUtility____c__DisplayClass21_0_2<TSource, TKey>::__cordl_internal_set_keySelector(::System::Func_2<TSource, TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keySelector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___keySelector, value);
 }
 template <typename TSource, typename TKey>
 inline ::UnityEngine::ProBuilder::__ArrayUtility____c__DisplayClass21_0_2<TSource, TKey>* UnityEngine::ProBuilder::__ArrayUtility____c__DisplayClass21_0_2<TSource, TKey>::New_ctor() {

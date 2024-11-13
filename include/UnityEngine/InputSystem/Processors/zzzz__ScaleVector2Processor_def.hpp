@@ -36,10 +36,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::ScaleVector2Processor* New_ctor();
 
-  /// @brief Method Process, addr 0x45a2200, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x45b6918, size 0x10, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x45a2210, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x45b6928, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_x() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_y(float_t value);
 
-  /// @brief Method .ctor, addr 0x45a22b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45b69c8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   float_t ___y;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6971 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

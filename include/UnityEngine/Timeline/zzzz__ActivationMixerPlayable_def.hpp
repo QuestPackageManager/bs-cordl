@@ -54,15 +54,15 @@ public:
 
   __declspec(property(get = get_postPlaybackState, put = set_postPlaybackState)) ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState postPlaybackState;
 
-  /// @brief Method Create, addr 0x4794dc0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x47a94d8, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationMixerPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
   static inline ::UnityEngine::Timeline::ActivationMixerPlayable* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x4794e54, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x47a956c, size 0xc0, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x4794f14, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x47a962c, size 0x1f0, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_BoundGameObject() const;
@@ -83,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set_m_PostPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
 
-  /// @brief Method .ctor, addr 0x4795104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a981c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_postPlaybackState, addr 0x4794e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_postPlaybackState, addr 0x47a955c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState get_postPlaybackState();
 
-  /// @brief Method set_postPlaybackState, addr 0x4794e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_postPlaybackState, addr 0x47a9564, size 0x8, virtual false, abstract: false, final false
   inline void set_postPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
 
 protected:
@@ -116,7 +116,7 @@ public:
   ::UnityW<::UnityEngine::GameObject> ___m_BoundGameObject;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15748 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

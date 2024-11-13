@@ -30,16 +30,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class CORDL_TYPE MeshTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CenterPivot, addr 0x4702fa8, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method CenterPivot, addr 0x47176c0, size 0x2d8, virtual false, abstract: false, final false
   static inline void CenterPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes);
 
-  /// @brief Method FreezeScaleTransform, addr 0x47078dc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method FreezeScaleTransform, addr 0x471bff4, size 0x160, virtual false, abstract: false, final false
   static inline void FreezeScaleTransform(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method SetPivot, addr 0x47076b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetPivot, addr 0x471bdc8, size 0x98, virtual false, abstract: false, final false
   static inline void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::PivotLocation pivotLocation);
 
-  /// @brief Method SetPivot, addr 0x4707748, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method SetPivot, addr 0x471be60, size 0x194, virtual false, abstract: false, final false
   static inline void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 worldPosition);
 
 protected:
@@ -57,7 +57,7 @@ public:
   MeshTransform(MeshTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14352 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::RecordingConverter* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method SaveToOldFormat, addr 0x3aaab1c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SaveToOldFormat, addr 0x3abe6b8, size 0xf0, virtual false, abstract: false, final false
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
   constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value);
 
-  /// @brief Method .ctor, addr 0x3aa9978, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abd514, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
 protected:
@@ -61,7 +61,7 @@ public:
   ::GlobalNamespace::IBeatSaberLogger* ____logger;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5087 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

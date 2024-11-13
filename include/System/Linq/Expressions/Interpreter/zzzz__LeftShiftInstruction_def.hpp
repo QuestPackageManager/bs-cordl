@@ -97,12 +97,12 @@ public:
   /// @brief Field s_UInt64, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
 
-  /// @brief Method Create, addr 0x4059ae8, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x406e200, size 0x368, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type);
 
   static inline ::System::Linq::Expressions::Interpreter::LeftShiftInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x405e8c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4072fdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Byte();
@@ -121,13 +121,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt64();
 
-  /// @brief Method get_ConsumedStack, addr 0x405e874, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x4072f8c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x405e884, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x4072f9c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x405e87c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x4072f94, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Byte(::System::Linq::Expressions::Interpreter::Instruction* value);
@@ -161,7 +161,7 @@ public:
   LeftShiftInstruction(LeftShiftInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13876 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

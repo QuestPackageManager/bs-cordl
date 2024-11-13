@@ -14,7 +14,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::Oculus::Pl
 }
 template <typename T> constexpr void Oculus::Platform::Request_1<T>::__cordl_internal_set_callback_(::Oculus::Platform::__Message_1__Callback<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___callback_, value);
 }
 template <typename T> inline ::Oculus::Platform::Request_1<T>* Oculus::Platform::Request_1<T>::New_ctor(uint64_t requestID) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Request_1<T>*>(requestID));

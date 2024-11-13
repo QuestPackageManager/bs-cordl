@@ -36,18 +36,18 @@ public:
   /// @brief Field m_HashStack, offset 0x4010, size 0x8
   __declspec(property(get = __cordl_internal_get_m_HashStack, put = __cordl_internal_set_m_HashStack)) ::System::Collections::Generic::Stack_1<int32_t>* m_HashStack;
 
-  /// @brief Method AddHash, addr 0x49985dc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddHash, addr 0x49accf4, size 0x94, virtual false, abstract: false, final false
   inline void AddHash(int32_t hash);
 
-  /// @brief Method IsCandidate, addr 0x4998670, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsCandidate, addr 0x49acd88, size 0x58, virtual false, abstract: false, final false
   inline bool IsCandidate(::UnityEngine::UIElements::StyleComplexSelector* complexSel);
 
   static inline ::UnityEngine::UIElements::AncestorFilter* New_ctor();
 
-  /// @brief Method PopElement, addr 0x49988f8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method PopElement, addr 0x49ad010, size 0xf0, virtual false, abstract: false, final false
   inline void PopElement();
 
-  /// @brief Method PushElement, addr 0x49986c8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method PushElement, addr 0x49acde0, size 0x230, virtual false, abstract: false, final false
   inline void PushElement(::UnityEngine::UIElements::VisualElement* element);
 
   constexpr ::UnityEngine::UIElements::CountingBloomFilter const& __cordl_internal_get_m_CountingBloomFilter() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_m_HashStack(::System::Collections::Generic::Stack_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x499855c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49acc74, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   ::System::Collections::Generic::Stack_1<int32_t>* ___m_HashStack;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5702 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

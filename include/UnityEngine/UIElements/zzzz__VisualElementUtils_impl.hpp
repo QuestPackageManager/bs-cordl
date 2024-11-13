@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__VisualElementUtils____c::*)()>(
     &::UnityEngine::UIElements::__VisualElementUtils____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4925ae4;
+  constexpr static std::size_t addrs = 0x493a1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualElementUtils____c*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::__VisualElementUtils____c::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::__VisualElementUtils____c::_AssignInspectorStyleIfNecessary_b__5_0)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4925aec;
+  constexpr static std::size_t addrs = 0x493a204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::UIElements::VisualElementUtils::GetUniqueName)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x4925690;
+  constexpr static std::size_t addrs = 0x4939da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElementUtils::GetFoldoutDepth)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x49257a4;
+  constexpr static std::size_t addrs = 0x4939ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::StringW)>(
     &::UnityEngine::UIElements::VisualElementUtils::AssignInspectorStyleIfNecessary)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4925888;
+  constexpr static std::size_t addrs = 0x4939fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

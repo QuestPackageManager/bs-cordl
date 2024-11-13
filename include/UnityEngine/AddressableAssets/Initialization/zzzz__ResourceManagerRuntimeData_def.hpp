@@ -175,73 +175,73 @@ public:
 
   constexpr void __cordl_internal_set_m_maxConcurrentWebRequests(int32_t value);
 
-  /// @brief Method .ctor, addr 0x448be1c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44a0534, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AddressablesVersion, addr 0x448bdc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddressablesVersion, addr 0x44a04dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AddressablesVersion();
 
-  /// @brief Method get_BuildTarget, addr 0x448bd38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BuildTarget, addr 0x44a0450, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BuildTarget();
 
-  /// @brief Method get_CatalogLocations, addr 0x448bd58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CatalogLocations, addr 0x44a0470, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* get_CatalogLocations();
 
-  /// @brief Method get_CatalogRequestsTimeout, addr 0x448bdf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CatalogRequestsTimeout, addr 0x44a0510, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CatalogRequestsTimeout();
 
-  /// @brief Method get_CertificateHandlerType, addr 0x448a504, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateHandlerType, addr 0x449ec1c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Type* get_CertificateHandlerType();
 
-  /// @brief Method get_DisableCatalogUpdateOnStartup, addr 0x448bd90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DisableCatalogUpdateOnStartup, addr 0x44a04a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_DisableCatalogUpdateOnStartup();
 
-  /// @brief Method get_InitializationObjects, addr 0x448bd88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitializationObjects, addr 0x44a04a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* get_InitializationObjects();
 
-  /// @brief Method get_IsLocalCatalogInBundle, addr 0x448bda4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsLocalCatalogInBundle, addr 0x44a04bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsLocalCatalogInBundle();
 
-  /// @brief Method get_LogResourceManagerExceptions, addr 0x448bd74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LogResourceManagerExceptions, addr 0x44a048c, size 0x8, virtual false, abstract: false, final false
   inline bool get_LogResourceManagerExceptions();
 
-  /// @brief Method get_MaxConcurrentWebRequests, addr 0x448bdd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxConcurrentWebRequests, addr 0x44a04ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxConcurrentWebRequests();
 
-  /// @brief Method get_ProfileEvents, addr 0x448bd60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProfileEvents, addr 0x44a0478, size 0x8, virtual false, abstract: false, final false
   inline bool get_ProfileEvents();
 
-  /// @brief Method get_SettingsHash, addr 0x448bd48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SettingsHash, addr 0x44a0460, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SettingsHash();
 
-  /// @brief Method set_AddressablesVersion, addr 0x448bdcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AddressablesVersion, addr 0x44a04e4, size 0x8, virtual false, abstract: false, final false
   inline void set_AddressablesVersion(::StringW value);
 
-  /// @brief Method set_BuildTarget, addr 0x448bd40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BuildTarget, addr 0x44a0458, size 0x8, virtual false, abstract: false, final false
   inline void set_BuildTarget(::StringW value);
 
-  /// @brief Method set_CatalogRequestsTimeout, addr 0x448be00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_CatalogRequestsTimeout, addr 0x44a0518, size 0x1c, virtual false, abstract: false, final false
   inline void set_CatalogRequestsTimeout(int32_t value);
 
-  /// @brief Method set_CertificateHandlerType, addr 0x448bdb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateHandlerType, addr 0x44a04d0, size 0xc, virtual false, abstract: false, final false
   inline void set_CertificateHandlerType(::System::Type* value);
 
-  /// @brief Method set_DisableCatalogUpdateOnStartup, addr 0x448bd98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_DisableCatalogUpdateOnStartup, addr 0x44a04b0, size 0xc, virtual false, abstract: false, final false
   inline void set_DisableCatalogUpdateOnStartup(bool value);
 
-  /// @brief Method set_IsLocalCatalogInBundle, addr 0x448bdac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsLocalCatalogInBundle, addr 0x44a04c4, size 0xc, virtual false, abstract: false, final false
   inline void set_IsLocalCatalogInBundle(bool value);
 
-  /// @brief Method set_LogResourceManagerExceptions, addr 0x448bd7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_LogResourceManagerExceptions, addr 0x44a0494, size 0xc, virtual false, abstract: false, final false
   inline void set_LogResourceManagerExceptions(bool value);
 
-  /// @brief Method set_MaxConcurrentWebRequests, addr 0x448bddc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_MaxConcurrentWebRequests, addr 0x44a04f4, size 0x1c, virtual false, abstract: false, final false
   inline void set_MaxConcurrentWebRequests(int32_t value);
 
-  /// @brief Method set_ProfileEvents, addr 0x448bd68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ProfileEvents, addr 0x44a0480, size 0xc, virtual false, abstract: false, final false
   inline void set_ProfileEvents(bool value);
 
-  /// @brief Method set_SettingsHash, addr 0x448bd50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SettingsHash, addr 0x44a0468, size 0x8, virtual false, abstract: false, final false
   inline void set_SettingsHash(::StringW value);
 
 protected:
@@ -295,7 +295,7 @@ public:
   int32_t ___m_CatalogRequestsTimeout;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16184 };
 
   /// @brief Field kCatalogAddress offset 0xffffffff size 0x8
   static constexpr ::ConstString kCatalogAddress{ u"AddressablesMainContentCatalog" };

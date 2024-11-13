@@ -83,21 +83,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b47d4c, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b5d838, size 0xec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b47e38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b5d924, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b47e40, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b5d92c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b47e78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b5d964, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b47d48, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b5d834, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLocalActiveLevelFailController> value);
 
-  /// @brief Method .ctor, addr 0x3b47cd4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b5d7c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -154,7 +154,7 @@ public:
   ::UnityW<::GlobalNamespace::MultiplayerLocalActiveLevelFailController> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4498 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -199,18 +199,18 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerPlayersManager, put = __cordl_internal_set__multiplayerPlayersManager)) ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>
       _multiplayerPlayersManager;
 
-  /// @brief Method HandlePlayerDidFinish, addr 0x3b47cfc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFinish, addr 0x3b5d7e8, size 0x44, virtual false, abstract: false, final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::MultiplayerLocalActiveLevelFailController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b47b74, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b5d660, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PlayerFailedCoroutine, addr 0x3b47c74, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PlayerFailedCoroutine, addr 0x3b5d760, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PlayerFailedCoroutine();
 
-  /// @brief Method Start, addr 0x3b47a84, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b5d570, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -249,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
 
-  /// @brief Method .ctor, addr 0x3b47d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b5d82c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -285,7 +285,7 @@ public:
   ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____multiplayerPlayersManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4499 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::ConnectionRequestResult (::LiteNetLib::ConnectionRequest::*)()>(
     &::LiteNetLib::ConnectionRequest::get_Result)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a41c6c;
+  constexpr static std::size_t addrs = 0x3a555c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ConnectionRequest*>::get(), "get_Result",
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::LiteNetLib::ConnectionRequestResult)>(
     &::LiteNetLib::ConnectionRequest::set_Result)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a41c74;
+  constexpr static std::size_t addrs = 0x3a555cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::ConnectionRequest::*)()>(&::LiteNetLib::ConnectionRequest::TryActivate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a41c7c;
+  constexpr static std::size_t addrs = 0x3a555d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ConnectionRequest*>::get(), "TryActivate",
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::LiteNetLib::NetConnectRequestPacket*)>(
     &::LiteNetLib::ConnectionRequest::UpdateRequest)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3a41ca4;
+  constexpr static std::size_t addrs = 0x3a555fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(
     int64_t, uint8_t, ::LiteNetLib::Utils::NetDataReader*, ::System::Net::IPEndPoint*, ::LiteNetLib::NetManager*)>(&::LiteNetLib::ConnectionRequest::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3a41cd4;
+  constexpr static std::size_t addrs = 0x3a5562c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetPeer* (::LiteNetLib::ConnectionRequest::*)(::StringW)>(
     &::LiteNetLib::ConnectionRequest::AcceptIfKey)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3a41d2c;
+  constexpr static std::size_t addrs = 0x3a55684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetPeer* (::LiteNetLib::ConnectionRequest::*)()>(&::LiteNetLib::ConnectionRequest::Accept)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3a4240c;
+  constexpr static std::size_t addrs = 0x3a55d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ConnectionRequest*>::get(), "Accept",
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, bool)>(
     &::LiteNetLib::ConnectionRequest::Reject)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3a42470;
+  constexpr static std::size_t addrs = 0x3a55dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::LiteNetLib::ConnectionRequest::Reject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a424f8;
+  constexpr static std::size_t addrs = 0x3a55e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::LiteNetLib::ConnectionRequest::RejectForce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a42500;
+  constexpr static std::size_t addrs = 0x3a55e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ConnectionRequest::*)()>(&::LiteNetLib::ConnectionRequest::RejectForce)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a42508;
+  constexpr static std::size_t addrs = 0x3a55e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ConnectionRequest*>::get(), "RejectForce",
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::LiteNetLib::ConnectionRequest::RejectForce)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3a4251c;
+  constexpr static std::size_t addrs = 0x3a55e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::LiteNetLib::ConnectionRequest::RejectForce)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a4253c;
+  constexpr static std::size_t addrs = 0x3a55e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ConnectionRequest::*)()>(&::LiteNetLib::ConnectionRequest::Reject)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a42564;
+  constexpr static std::size_t addrs = 0x3a55ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ConnectionRequest*>::get(), "Reject",
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::LiteNetLib::ConnectionRequest::Reject)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3a42578;
+  constexpr static std::size_t addrs = 0x3a55ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ConnectionRequest::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::LiteNetLib::ConnectionRequest::Reject)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a42598;
+  constexpr static std::size_t addrs = 0x3a55ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

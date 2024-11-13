@@ -63,7 +63,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__TextField__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49746b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4988dd0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   __TextField__UxmlFactory(__TextField__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5581 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -103,7 +103,7 @@ public:
   /// @brief Field m_Multiline, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Multiline, put = __cordl_internal_set_m_Multiline)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Multiline;
 
-  /// @brief Method Init, addr 0x4974700, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4988e18, size 0x1b8, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__TextField__UxmlTraits* New_ctor();
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Multiline(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x49748b8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4988fd0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlStringAttributeDescription* getStaticF_k_Value();
@@ -139,7 +139,7 @@ public:
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Multiline;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5582 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -163,16 +163,16 @@ public:
 
   static inline ::UnityEngine::UIElements::__TextField__TextInput* New_ctor();
 
-  /// @brief Method StringToValue, addr 0x4974ab8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x49891d0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW StringToValue(::StringW str);
 
-  /// @brief Method .ctor, addr 0x497407c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4988794, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_isPasswordField, addr 0x4974a40, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_isPasswordField, addr 0x4989158, size 0x78, virtual true, abstract: false, final false
   inline void set_isPasswordField(bool value);
 
-  /// @brief Method set_multiline, addr 0x4973c40, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method set_multiline, addr 0x4988358, size 0x230, virtual false, abstract: false, final false
   inline void set_multiline(bool value);
 
 protected:
@@ -190,7 +190,7 @@ public:
   __TextField__TextInput(__TextField__TextInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5583 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -227,7 +227,7 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) ::StringW value;
 
-  /// @brief Method ExecuteDefaultAction, addr 0x49743c8, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x4988ae0, size 0x15c, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::TextField* New_ctor();
@@ -236,28 +236,28 @@ public:
 
   static inline ::UnityEngine::UIElements::TextField* New_ctor(::StringW label, int32_t maxLength, bool multiline, bool isPasswordField, char16_t maskChar);
 
-  /// @brief Method OnViewDataReady, addr 0x4974524, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x4988c3c, size 0xb4, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x4974254, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x498896c, size 0x114, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::StringW newValue);
 
-  /// @brief Method StringToValue, addr 0x49745e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x4988cf8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW StringToValue(::StringW str);
 
-  /// @brief Method UpdateTextFromValue, addr 0x4974368, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method UpdateTextFromValue, addr 0x4988a80, size 0x60, virtual true, abstract: false, final false
   inline void UpdateTextFromValue();
 
-  /// @brief Method ValueToString, addr 0x49745d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x4988cf0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ValueToString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4973e70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4988588, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4973e88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49885a0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x4973e9c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49885b4, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength, bool multiline, bool isPasswordField, char16_t maskChar);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -266,10 +266,10 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_textInput, addr 0x4973b9c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_textInput, addr 0x49882b4, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__TextField__TextInput* get_textInput();
 
-  /// @brief Method get_value, addr 0x49740e8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x4988800, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_value();
 
   static inline void setStaticF_inputUssClassName(::StringW value);
@@ -278,10 +278,10 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_multiline, addr 0x4973c20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_multiline, addr 0x4988338, size 0x20, virtual false, abstract: false, final false
   inline void set_multiline(bool value);
 
-  /// @brief Method set_value, addr 0x4974130, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x4988848, size 0x124, virtual true, abstract: false, final false
   inline void set_value(::StringW value);
 
 protected:
@@ -299,7 +299,7 @@ public:
   TextField(TextField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5584 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

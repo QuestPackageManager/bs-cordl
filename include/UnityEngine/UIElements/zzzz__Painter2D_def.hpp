@@ -58,15 +58,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x49d17d4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49e5eec, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49d1838, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49e5f50, size 0x88, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::Painter2D* New_ctor(::UnityEngine::UIElements::MeshGenerationContext* ctx);
 
-  /// @brief Method Reset, addr 0x49d1790, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49e5ea8, size 0x44, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::MeshGenerationContext*& __cordl_internal_get_m_Ctx();
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Handle(::UnityEngine::UIElements::SafeHandleAccess value);
 
-  /// @brief Method .ctor, addr 0x49d164c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e5d64, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::MeshGenerationContext* ctx);
 
   static inline bool getStaticF__isPainterActive_k__BackingField();
@@ -115,7 +115,7 @@ public:
 
   static inline void setStaticF_s_StrokeMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_isPainterActive, addr 0x49d18c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_isPainterActive, addr 0x49e5fd8, size 0x60, virtual false, abstract: false, final false
   static inline void set_isPainterActive(bool value);
 
 protected:
@@ -145,7 +145,7 @@ public:
   bool ___m_Disposed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6010 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

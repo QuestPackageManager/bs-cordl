@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c::*)()>(
     &::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a323cc;
+  constexpr static std::size_t addrs = 0x3a45d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_TreeInstance* (
     ::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c::*)(::UnityEngine::TreeInstance)>(&::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c::_ToTestObject_b__1_0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3a323d4;
+  constexpr static std::size_t addrs = 0x3a45d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_TreeInstance* (
     ::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c::*)(::UnityEngine::TreeInstance)>(&::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c::_ToTestObject_b__2_0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3a32454;
+  constexpr static std::size_t addrs = 0x3a45dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_TreeInstance* (*)(::UnityEngine::TreeInstance)>(
     &::HoudiniEngineUnity::Test_TreeInstance_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3a32108;
+  constexpr static std::size_t addrs = 0x3a45a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::HoudiniEngineUnity::Test_TreeInstance*, ::Array<::HoudiniEngineUnity::Test_TreeInstance*>*> (*)(
     ::ArrayW<::UnityEngine::TreeInstance, ::Array<::UnityEngine::TreeInstance>*>)>(&::HoudiniEngineUnity::Test_TreeInstance_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3a32188;
+  constexpr static std::size_t addrs = 0x3a45ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TreeInstance*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::TreeInstance>*)>(
         &::HoudiniEngineUnity::Test_TreeInstance_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3a32278;
+  constexpr static std::size_t addrs = 0x3a45bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -98,21 +98,21 @@ public:
   /// @brief Field _stringBuilder, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder)) ::System::Text::StringBuilder* _stringBuilder;
 
-  /// @brief Method HandleSongDidFinish, addr 0x3b2fa44, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x3b454fc, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
   static inline ::GlobalNamespace::SongProgressUIController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b2f638, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b450f0, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b2f3b4, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b44e6c, size 0x284, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b2f708, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b451c0, size 0xf8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSongProgressUIElements, addr 0x3b2f800, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method UpdateSongProgressUIElements, addr 0x3b452b8, size 0x244, virtual false, abstract: false, final false
   inline void UpdateSongProgressUIElements(int32_t minutes, int32_t seconds);
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -223,7 +223,7 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x3b2fa90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b45548, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -295,7 +295,7 @@ public:
   bool ____songDidFinish;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4409 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

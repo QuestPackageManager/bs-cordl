@@ -130,7 +130,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& System::Collecti
 }
 template <typename T> constexpr void System::Collections::Generic::Queue_1<T>::__cordl_internal_set__array(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____array)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____array, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Generic::Queue_1<T>::__cordl_internal_get__head() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -190,7 +190,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ob
 }
 template <typename T> constexpr void System::Collections::Generic::Queue_1<T>::__cordl_internal_set__syncRoot(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____syncRoot, value);
 }
 template <typename T> inline ::System::Collections::Generic::Queue_1<T>* System::Collections::Generic::Queue_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::Queue_1<T>*>());

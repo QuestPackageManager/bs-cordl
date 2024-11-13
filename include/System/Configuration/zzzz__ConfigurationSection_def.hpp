@@ -29,16 +29,16 @@ namespace System::Configuration {
 class CORDL_TYPE ConfigurationSection : public ::System::Configuration::ConfigurationElement {
 public:
   // Declarations
-  /// @brief Method DeserializeSection, addr 0x401445c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DeserializeSection, addr 0x4028b74, size 0x38, virtual true, abstract: false, final false
   inline void DeserializeSection(::System::Xml::XmlReader* reader);
 
-  /// @brief Method IsModified, addr 0x4014494, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x4028bac, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method ResetModified, addr 0x40144cc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x4028be4, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method SerializeSection, addr 0x4014504, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SerializeSection, addr 0x4028c1c, size 0x38, virtual true, abstract: false, final false
   inline ::StringW SerializeSection(::System::Configuration::ConfigurationElement* parentElement, ::StringW name, ::System::Configuration::ConfigurationSaveMode saveMode);
 
 protected:
@@ -56,7 +56,7 @@ public:
   ConfigurationSection(ConfigurationSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19186 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

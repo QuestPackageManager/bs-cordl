@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)(
     ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>)>(&::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22d073c;
+  constexpr static std::size_t addrs = 0x22db7e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x22d0764;
+  constexpr static std::size_t addrs = 0x22db80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::_ctor)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x22d080c;
+  constexpr static std::size_t addrs = 0x22db8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22d0b98;
+  constexpr static std::size_t addrs = 0x22dbc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22d0bb0;
+  constexpr static std::size_t addrs = 0x22dbc58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)()>(
         &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::ToTimeStampAndCrlArray)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x22d0c54;
+  constexpr static std::size_t addrs = 0x22dbcfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence::ToAsn1Object)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22d0ccc;
+  constexpr static std::size_t addrs = 0x22dbd74;
 
   inline static ::MethodInfo const* methodInfo() {
 

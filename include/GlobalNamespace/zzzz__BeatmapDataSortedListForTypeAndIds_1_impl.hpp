@@ -87,7 +87,7 @@ template <typename TBase>
 constexpr void GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__cordl_internal_set__items(
     ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____items, value);
 }
 template <typename TBase>
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>*&
@@ -105,7 +105,7 @@ template <typename TBase>
 constexpr void GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__cordl_internal_set__sortedListsDataProcessors(
     ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sortedListsDataProcessors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____sortedListsDataProcessors, value);
 }
 template <typename TBase>
 constexpr ::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>*&
@@ -123,7 +123,7 @@ template <typename TBase>
 constexpr void GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>::__cordl_internal_set__itemToNodeMap(
     ::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____itemToNodeMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____itemToNodeMap, value);
 }
 template <typename TBase>
 inline ::ArrayW<::System::Collections::Generic::LinkedListNode_1<TBase>*, ::Array<::System::Collections::Generic::LinkedListNode_1<TBase>*>*>

@@ -44,36 +44,36 @@ public:
 
   __declspec(property(get = get_numberOfClearedMissions)) int32_t numberOfClearedMissions;
 
-  /// @brief Method Awake, addr 0x2693550, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x269f170, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IsMissionCleared, addr 0x2693680, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsMissionCleared, addr 0x269f2a0, size 0x30, virtual false, abstract: false, final false
   inline bool IsMissionCleared(::StringW missionId);
 
-  /// @brief Method IsMissionFinal, addr 0x26936b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsMissionFinal, addr 0x269f2d0, size 0xc, virtual false, abstract: false, final false
   inline bool IsMissionFinal(::StringW missionId);
 
-  /// @brief Method IsMissionRegistered, addr 0x26935c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsMissionRegistered, addr 0x269f1e4, size 0x58, virtual false, abstract: false, final false
   inline bool IsMissionRegistered(::StringW missionId);
 
   static inline ::GlobalNamespace::CampaignProgressModel* New_ctor();
 
-  /// @brief Method RegisterMissionId, addr 0x269361c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RegisterMissionId, addr 0x269f23c, size 0x64, virtual false, abstract: false, final false
   inline void RegisterMissionId(::StringW missionId);
 
-  /// @brief Method SetFinalMissionId, addr 0x26936bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetFinalMissionId, addr 0x269f2dc, size 0x8, virtual false, abstract: false, final false
   inline void SetFinalMissionId(::StringW missionId);
 
-  /// @brief Method SetMissionCleared, addr 0x269370c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMissionCleared, addr 0x269f32c, size 0x8, virtual false, abstract: false, final false
   inline void SetMissionCleared(::StringW missionId);
 
-  /// @brief Method UpdateNumberOfClearedMissions, addr 0x26933c4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method UpdateNumberOfClearedMissions, addr 0x269efe4, size 0x18c, virtual false, abstract: false, final false
   inline int32_t UpdateNumberOfClearedMissions();
 
-  /// @brief Method WillFinishGameAfterThisMission, addr 0x26936c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WillFinishGameAfterThisMission, addr 0x269f2e4, size 0x48, virtual false, abstract: false, final false
   inline bool WillFinishGameAfterThisMission(::StringW missionId);
 
-  /// @brief Method __SetMissionCleared, addr 0x2693714, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method __SetMissionCleared, addr 0x269f334, size 0x4c, virtual false, abstract: false, final false
   inline void __SetMissionCleared(::StringW missionId, bool cleared);
 
   constexpr ::StringW const& __cordl_internal_get__finalMissionId() const;
@@ -106,10 +106,10 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x2693760, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269f380, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_numberOfClearedMissions, addr 0x269339c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfClearedMissions, addr 0x269efbc, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_numberOfClearedMissions();
 
 protected:
@@ -142,7 +142,7 @@ public:
   int32_t ____numberOfClearedMissions;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13001 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

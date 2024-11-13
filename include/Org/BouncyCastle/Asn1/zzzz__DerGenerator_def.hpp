@@ -37,16 +37,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method WriteDerEncoded, addr 0x25f97cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x2604874, size 0x34, virtual false, abstract: false, final false
   static inline void WriteDerEncoded(::System::IO::Stream* outStr, int32_t tag, ::System::IO::Stream* inStr);
 
-  /// @brief Method WriteDerEncoded, addr 0x25f968c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x2604734, size 0x60, virtual false, abstract: false, final false
   static inline void WriteDerEncoded(::System::IO::Stream* outStream, int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteDerEncoded, addr 0x25f96ec, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x2604794, size 0xe0, virtual false, abstract: false, final false
   inline void WriteDerEncoded(int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteLength, addr 0x25f95d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method WriteLength, addr 0x2604680, size 0xb4, virtual false, abstract: false, final false
   static inline void WriteLength(::System::IO::Stream* outStr, int32_t length);
 
   constexpr bool const& __cordl_internal_get__isExplicit() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set__tagged(bool value);
 
-  /// @brief Method .ctor, addr 0x25f9560, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2604608, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x25f958c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2604634, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:

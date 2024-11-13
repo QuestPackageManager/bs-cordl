@@ -102,22 +102,22 @@ public:
   /// @brief Field target, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target)) ::System::Object* target;
 
-  /// @brief Method CanResetValue, addr 0x4407b98, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x441c2b0, size 0x2c, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method GetValue, addr 0x4407bc4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x441c2dc, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
   static inline ::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor* New_ctor(::System::ComponentModel::PropertyDescriptor* property,
                                                                                                                           ::System::Object* target);
 
-  /// @brief Method ResetValue, addr 0x4407bf0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x441c308, size 0x2c, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x4407c1c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x441c334, size 0x2c, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x4407c48, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x441c360, size 0x2c, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   constexpr ::System::ComponentModel::PropertyDescriptor*& __cordl_internal_get_property();
@@ -132,19 +132,19 @@ public:
 
   constexpr void __cordl_internal_set_target(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x4407a40, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441c158, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::PropertyDescriptor* property, ::System::Object* target);
 
-  /// @brief Method get_Attributes, addr 0x4407b0c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x441c224, size 0x20, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* get_Attributes();
 
-  /// @brief Method get_ComponentType, addr 0x4407b2c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x441c244, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x4407b50, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x441c268, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x4407b74, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x441c28c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
 protected:
@@ -168,7 +168,7 @@ public:
   ::System::ComponentModel::PropertyDescriptor* ___property;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -218,19 +218,19 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x4407a90, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x441c1a8, size 0x44, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method EnsurePopulated, addr 0x440725c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EnsurePopulated, addr 0x441b974, size 0x88, virtual false, abstract: false, final false
   inline void EnsurePopulated();
 
-  /// @brief Method GetEnumerator, addr 0x4407ad4, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x441c1ec, size 0x2c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x4407b00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x441c218, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x4407b08, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x441c220, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__children();
@@ -263,13 +263,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method get_Count, addr 0x4407230, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x441b948, size 0x2c, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Name, addr 0x44072e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x441b9fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Properties, addr 0x44072ec, size 0x754, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x441ba04, size 0x754, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* get_Properties();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -305,7 +305,7 @@ public:
   ::System::ComponentModel::PropertyDescriptorCollection* ____properties;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -340,22 +340,22 @@ public:
   /// @brief Field _option, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__option, put = __cordl_internal_set__option)) ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* _option;
 
-  /// @brief Method CanResetValue, addr 0x44083c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x441cae0, size 0x8, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method GetValue, addr 0x44083d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x441cae8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
   static inline ::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor*
   New_ctor(::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* option);
 
-  /// @brief Method ResetValue, addr 0x44083d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x441caf0, size 0x4, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x44083dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x441caf4, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x44083e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x441caf8, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   constexpr ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection*& __cordl_internal_get__option();
@@ -364,16 +364,16 @@ public:
 
   constexpr void __cordl_internal_set__option(::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* value);
 
-  /// @brief Method .ctor, addr 0x4408264, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441c97c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* option);
 
-  /// @brief Method get_ComponentType, addr 0x4408388, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x441caa0, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x44083a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x441cabc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x44083ac, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x441cac4, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
 protected:
@@ -394,7 +394,7 @@ public:
   ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* ____option;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -414,19 +414,19 @@ public:
   // Declarations
   using OptionPropertyDescriptor = ::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor;
 
-  /// @brief Method ConvertTo, addr 0x440829c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x441c9b4, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* cxt, ::System::Globalization::CultureInfo* culture, ::System::Object* value, ::System::Type* destinationType);
 
-  /// @brief Method GetProperties, addr 0x4407c7c, size 0x5e8, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x441c394, size 0x5e8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* cxt, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x4407c74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x441c38c, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* cxt);
 
   static inline ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4408380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441ca98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -444,7 +444,7 @@ public:
   __DesignerOptionService__DesignerOptionConverter(__DesignerOptionService__DesignerOptionConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -464,7 +464,7 @@ public:
 
   using DesignerOptionConverter = ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionConverter;
 
-  /// @brief Method PopulateOptionCollection, addr 0x440722c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PopulateOptionCollection, addr 0x441b944, size 0x4, virtual true, abstract: false, final false
   inline void PopulateOptionCollection(::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* options);
 
 protected:
@@ -482,7 +482,7 @@ public:
   DesignerOptionService(DesignerOptionService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

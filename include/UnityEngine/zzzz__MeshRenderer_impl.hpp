@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MeshRenderer::*)()>(&::UnityEngine::MeshRenderer::DontStripMeshRenderer)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x480ed6c;
+  constexpr static std::size_t addrs = 0x4823484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MeshRenderer*>::get(), "DontStripMeshRenderer",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::MeshRenderer::*)()>(
     &::UnityEngine::MeshRenderer::get_additionalVertexStreams)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x480ed70;
+  constexpr static std::size_t addrs = 0x4823488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MeshRenderer*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MeshRenderer::*)(::UnityEngine::Mesh*)>(
     &::UnityEngine::MeshRenderer::set_additionalVertexStreams)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x480edac;
+  constexpr static std::size_t addrs = 0x48234c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::MeshRenderer::*)()>(
     &::UnityEngine::MeshRenderer::get_enlightenVertexStream)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x480edf0;
+  constexpr static std::size_t addrs = 0x4823508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MeshRenderer*>::get(), "get_enlightenVertexStream",
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MeshRenderer::*)(::UnityEngine::Mesh*)>(
     &::UnityEngine::MeshRenderer::set_enlightenVertexStream)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x480ee2c;
+  constexpr static std::size_t addrs = 0x4823544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::MeshRenderer::*)()>(&::UnityEngine::MeshRenderer::get_subMeshStartIndex)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x480ee70;
+  constexpr static std::size_t addrs = 0x4823588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MeshRenderer*>::get(), "get_subMeshStartIndex",
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MeshRenderer::*)()>(&::UnityEngine::MeshRenderer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x480eeac;
+  constexpr static std::size_t addrs = 0x48235c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::MeshRenderer*>::get(), ".ctor",

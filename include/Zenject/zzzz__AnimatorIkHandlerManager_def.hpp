@@ -35,12 +35,12 @@ public:
   /// @brief Field _handlers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__handlers, put = __cordl_internal_set__handlers)) ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* _handlers;
 
-  /// @brief Method Construct, addr 0x4ac88f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x4add00c, size 0x8, virtual false, abstract: false, final false
   inline void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* handlers);
 
   static inline ::Zenject::AnimatorIkHandlerManager* New_ctor();
 
-  /// @brief Method OnAnimatorIk, addr 0x4ac88fc, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method OnAnimatorIk, addr 0x4add014, size 0x1b0, virtual false, abstract: false, final false
   inline void OnAnimatorIk();
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*& __cordl_internal_get__handlers();
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ac8b90, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4add2a8, size 0x2fc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x4ac8ab4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x4add1cc, size 0xdc, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method .ctor, addr 0x4ac8aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4add1c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* ____handlers;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12604 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

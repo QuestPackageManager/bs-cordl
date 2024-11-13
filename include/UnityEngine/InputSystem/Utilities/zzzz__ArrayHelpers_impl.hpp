@@ -20,7 +20,7 @@ template <typename TValue> constexpr TValue const& UnityEngine::InputSystem::Uti
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass33_0_1<TValue>::__cordl_internal_set_secondValue(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___secondValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___secondValue, value);
 }
 template <typename TValue>
 inline ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass33_0_1<TValue>* UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass33_0_1<TValue>::New_ctor() {
@@ -54,7 +54,7 @@ UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TVa
 template <typename TValue>
 constexpr void UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>::__cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___comparer, value);
 }
 template <typename TValue>
 inline ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>* UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>::New_ctor() {
@@ -78,7 +78,7 @@ template <typename TValue> constexpr TValue const& UnityEngine::InputSystem::Uti
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_1_1<TValue>::__cordl_internal_set_secondValue(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___secondValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___secondValue, value);
 }
 template <typename TValue>
 constexpr ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>*&
@@ -96,7 +96,7 @@ template <typename TValue>
 constexpr void UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_1_1<TValue>::__cordl_internal_set_CS$__8__locals1(
     ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___CS$__8__locals1, value);
 }
 template <typename TValue>
 inline ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_1_1<TValue>* UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_1_1<TValue>::New_ctor() {

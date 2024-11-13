@@ -22,7 +22,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Entitlements : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsUserEntitledToApplication, addr 0x3f136e0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method IsUserEntitledToApplication, addr 0x3f27d70, size 0x13c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* IsUserEntitledToApplication();
 
 protected:
@@ -40,7 +40,7 @@ public:
   Entitlements(Entitlements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15407 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

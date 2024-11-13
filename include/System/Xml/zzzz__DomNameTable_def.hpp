@@ -49,13 +49,13 @@ public:
   /// @brief Field ownerDocument, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_ownerDocument, put = __cordl_internal_set_ownerDocument)) ::System::Xml::XmlDocument* ownerDocument;
 
-  /// @brief Method AddName, addr 0x42bb674, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method AddName, addr 0x42cfd8c, size 0x270, virtual false, abstract: false, final false
   inline ::System::Xml::XmlName* AddName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method GetName, addr 0x42bb50c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x42cfc24, size 0x168, virtual false, abstract: false, final false
   inline ::System::Xml::XmlName* GetName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method Grow, addr 0x42bb8e4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x42cfffc, size 0x128, virtual false, abstract: false, final false
   inline void Grow();
 
   static inline ::System::Xml::DomNameTable* New_ctor(::System::Xml::XmlDocument* document);
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_ownerDocument(::System::Xml::XmlDocument* value);
 
-  /// @brief Method .ctor, addr 0x42bb46c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42cfb84, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* document);
 
 protected:
@@ -123,7 +123,7 @@ public:
   ::System::Xml::XmlNameTable* ___nameTable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7251 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7256 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

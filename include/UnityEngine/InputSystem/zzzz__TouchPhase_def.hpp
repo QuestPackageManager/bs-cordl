@@ -71,7 +71,7 @@ public:
   static ::UnityEngine::InputSystem::TouchPhase const Stationary;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

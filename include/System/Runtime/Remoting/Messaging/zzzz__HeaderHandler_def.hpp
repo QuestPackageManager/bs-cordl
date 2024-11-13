@@ -30,12 +30,12 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE HeaderHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3c772a4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3c8b934, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> headers);
 
   static inline ::System::Runtime::Remoting::Messaging::HeaderHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3c771a4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c8b834, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

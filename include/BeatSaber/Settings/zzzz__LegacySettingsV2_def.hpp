@@ -238,7 +238,7 @@ public:
 
   constexpr void __cordl_internal_set_smoothCameraSettings(::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings* value);
 
-  /// @brief Method .ctor, addr 0x223def8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2248e1c, size 0x174, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -289,7 +289,7 @@ public:
   bool ___createScreenshotDuringTheGame;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17937 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -365,7 +365,7 @@ public:
 
   constexpr void __cordl_internal_set_volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x223e100, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2249024, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -395,7 +395,7 @@ public:
   float_t ___audioLatency;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17938 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -484,7 +484,7 @@ public:
 
   constexpr void __cordl_internal_set_thirdPersonPosition(::Unity::Mathematics::float3 value);
 
-  /// @brief Method .ctor, addr 0x223e114, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2249038, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -523,7 +523,7 @@ public:
   ::Unity::Mathematics::float3 ___thirdPersonEulerAngles;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17939 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -573,7 +573,7 @@ public:
 
   constexpr void __cordl_internal_set_rotationOffset(::Unity::Mathematics::float3 value);
 
-  /// @brief Method .ctor, addr 0x223e19c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22490c0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -597,7 +597,7 @@ public:
   ::Unity::Mathematics::float3 ___rotationOffset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17940 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -646,7 +646,7 @@ public:
 
   constexpr void __cordl_internal_set_useCustomServerEnvironment(bool value);
 
-  /// @brief Method .ctor, addr 0x223e210, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2249134, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -673,7 +673,7 @@ public:
   ::StringW ___customServerHostName;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17941 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -724,7 +724,7 @@ public:
 
   constexpr void __cordl_internal_set_enableMemoryTracker(bool value);
 
-  /// @brief Method .ctor, addr 0x223e268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224918c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -751,7 +751,7 @@ public:
   bool ___enableMemoryTracker;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17942 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -808,7 +808,7 @@ public:
   static ::BeatSaber::Settings::__LegacySettingsV2__WindowMode const Windowed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17944 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -867,7 +867,7 @@ public:
 
   constexpr void __cordl_internal_set_windowResolution(::Unity::Mathematics::int2 value);
 
-  /// @brief Method .ctor, addr 0x223e06c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2248f90, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -897,7 +897,7 @@ public:
   ::Unity::Mathematics::int2 ___windowResolution;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17943 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -956,7 +956,7 @@ public:
   static ::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset const HDWithoutToneMapping;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17945 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1024,7 +1024,7 @@ public:
   static ::BeatSaber::Settings::__LegacySettingsV2__FoveatedRenderingLevel const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17946 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1084,7 +1084,7 @@ public:
   static ::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset const PyramidForBaking;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17947 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1148,7 +1148,7 @@ public:
   static ::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset const RenderedLQ;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17948 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1212,7 +1212,7 @@ public:
   static ::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality const TexturedObstacle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17949 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1280,7 +1280,7 @@ public:
   static ::BeatSaber::Settings::__LegacySettingsV2__ProcessorPerformanceLevel const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17950 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -1466,7 +1466,7 @@ public:
 
   constexpr void __cordl_internal_set_vrResolutionScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x223e270, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2249194, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1538,7 +1538,7 @@ public:
   ::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality ___obstaclesQuality;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17951 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1626,7 +1626,7 @@ public:
   /// @brief Field mainSettings, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mainSettings, put = __cordl_internal_set_mainSettings)) ::BeatSaber::Settings::__LegacySettingsV2__MainSettings* mainSettings;
 
-  /// @brief Method ApplyTo, addr 0x223db40, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x2248a64, size 0x32c, virtual false, abstract: false, final false
   inline void ApplyTo(ByRef<::BeatSaber::Settings::Settings> settings);
 
   static inline ::BeatSaber::Settings::LegacySettingsV2* New_ctor();
@@ -1643,7 +1643,7 @@ public:
 
   constexpr void __cordl_internal_set_mainSettings(::BeatSaber::Settings::__LegacySettingsV2__MainSettings* value);
 
-  /// @brief Method .ctor, addr 0x223de6c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2248d90, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1667,7 +1667,7 @@ public:
   ::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings* ___graphicSettings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17952 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

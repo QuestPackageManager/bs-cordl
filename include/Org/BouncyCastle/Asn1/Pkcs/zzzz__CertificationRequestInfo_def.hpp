@@ -60,7 +60,7 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x23cb774, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23d681c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -68,10 +68,10 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pkInfo,
                                                                                     ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method ToAsn1Object, addr 0x23cc080, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23d7128, size 0x160, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ValidateAttributes, addr 0x23cbca8, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method ValidateAttributes, addr 0x23d6d50, size 0x3b8, virtual false, abstract: false, final false
   static inline void ValidateAttributes(::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_attributes();
@@ -98,22 +98,22 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x23cb968, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d6a10, size 0x250, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x23cbbb8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d6c60, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pkInfo, ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method get_Attributes, addr 0x23cc078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x23d7120, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_Attributes();
 
-  /// @brief Method get_Subject, addr 0x23cc068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x23d7110, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
-  /// @brief Method get_SubjectPublicKeyInfo, addr 0x23cc070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectPublicKeyInfo, addr 0x23d7118, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKeyInfo();
 
-  /// @brief Method get_Version, addr 0x23cc060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x23d7108, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

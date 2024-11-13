@@ -156,7 +156,7 @@ public:
   static ::HMUI::__ScrollView__ScrollType const PageSize;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16051 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -224,7 +224,7 @@ public:
   static ::HMUI::__ScrollView__ScrollDirection const Up;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16052 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -280,7 +280,7 @@ public:
   static ::HMUI::__ScrollView__ScrollViewDirection const Vertical;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16053 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -312,13 +312,13 @@ public:
 
   static inline ::HMUI::__ScrollView____c* New_ctor();
 
-  /// @brief Method <Awake>b__42_1, addr 0x3992000, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__42_1, addr 0x39a5958, size 0x4, virtual false, abstract: false, final false
   inline float_t _Awake_b__42_1(float_t i);
 
-  /// @brief Method <Awake>b__42_3, addr 0x3992004, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__42_3, addr 0x39a595c, size 0x4, virtual false, abstract: false, final false
   inline float_t _Awake_b__42_3(float_t i);
 
-  /// @brief Method .ctor, addr 0x3991ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39a5950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HMUI::__ScrollView____c* getStaticF___9();
@@ -348,7 +348,7 @@ public:
   __ScrollView____c(__ScrollView____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16054 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -369,7 +369,7 @@ public:
 
   static inline ::HMUI::__ScrollView____c__DisplayClass55_0* New_ctor();
 
-  /// @brief Method <PageUpButtonPressed>b__0, addr 0x3992008, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <PageUpButtonPressed>b__0, addr 0x39a5960, size 0x10, virtual false, abstract: false, final false
   inline bool _PageUpButtonPressed_b__0(float_t pos);
 
   constexpr float_t const& __cordl_internal_get_threshold() const;
@@ -378,7 +378,7 @@ public:
 
   constexpr void __cordl_internal_set_threshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x3991b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39a54c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -399,7 +399,7 @@ public:
   float_t ___threshold;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16055 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -422,7 +422,7 @@ public:
 
   static inline ::HMUI::__ScrollView____c__DisplayClass56_0* New_ctor();
 
-  /// @brief Method <PageDownButtonPressed>b__0, addr 0x3992018, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <PageDownButtonPressed>b__0, addr 0x39a5970, size 0x10, virtual false, abstract: false, final false
   inline bool _PageDownButtonPressed_b__0(float_t pos);
 
   constexpr float_t const& __cordl_internal_get_threshold() const;
@@ -431,7 +431,7 @@ public:
 
   constexpr void __cordl_internal_set_threshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x3991e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39a57d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -452,7 +452,7 @@ public:
   float_t ___threshold;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16056 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -475,7 +475,7 @@ public:
 
   static inline ::HMUI::__ScrollView____c__DisplayClass61_0* New_ctor();
 
-  /// @brief Method <HandleJoystickWasCenteredThisFrame>b__0, addr 0x3992028, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <HandleJoystickWasCenteredThisFrame>b__0, addr 0x39a5980, size 0x10, virtual false, abstract: false, final false
   inline bool _HandleJoystickWasCenteredThisFrame_b__0(float_t pos);
 
   constexpr float_t const& __cordl_internal_get_threshold() const;
@@ -484,7 +484,7 @@ public:
 
   constexpr void __cordl_internal_set_threshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x3991eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39a5844, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -505,7 +505,7 @@ public:
   float_t ___threshold;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16057 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -528,7 +528,7 @@ public:
 
   static inline ::HMUI::__ScrollView____c__DisplayClass61_1* New_ctor();
 
-  /// @brief Method <HandleJoystickWasCenteredThisFrame>b__1, addr 0x3992038, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <HandleJoystickWasCenteredThisFrame>b__1, addr 0x39a5990, size 0x10, virtual false, abstract: false, final false
   inline bool _HandleJoystickWasCenteredThisFrame_b__1(float_t pos);
 
   constexpr float_t const& __cordl_internal_get_threshold() const;
@@ -537,7 +537,7 @@ public:
 
   constexpr void __cordl_internal_set_threshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x3991ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39a584c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -558,7 +558,7 @@ public:
   float_t ___threshold;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16058 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -677,75 +677,75 @@ public:
 
   __declspec(property(get = get_viewportTransform)) ::UnityW<::UnityEngine::RectTransform> viewportTransform;
 
-  /// @brief Method Awake, addr 0x39903e4, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39a3d3c, size 0x4dc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CheckScrollInput, addr 0x3990b68, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method CheckScrollInput, addr 0x39a44c0, size 0x15c, virtual false, abstract: false, final false
   inline void CheckScrollInput();
 
-  /// @brief Method HandleJoystickWasCenteredThisFrame, addr 0x3990db8, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method HandleJoystickWasCenteredThisFrame, addr 0x39a4710, size 0x45c, virtual false, abstract: false, final false
   inline void HandleJoystickWasCenteredThisFrame();
 
-  /// @brief Method HandleJoystickWasNotCenteredThisFrame, addr 0x3990cc4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method HandleJoystickWasNotCenteredThisFrame, addr 0x39a461c, size 0xf4, virtual false, abstract: false, final false
   inline void HandleJoystickWasNotCenteredThisFrame(::UnityEngine::Vector2 deltaPos);
 
-  /// @brief Method HandlePointerDidEnter, addr 0x3991e80, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandlePointerDidEnter, addr 0x39a57d8, size 0x14, virtual false, abstract: false, final false
   inline void HandlePointerDidEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method HandlePointerDidExit, addr 0x3991e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandlePointerDidExit, addr 0x39a57ec, size 0x8, virtual false, abstract: false, final false
   inline void HandlePointerDidExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::HMUI::ScrollView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3990a34, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39a438c, size 0x134, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PageDownButtonPressed, addr 0x3991b70, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method PageDownButtonPressed, addr 0x39a54c8, size 0x308, virtual false, abstract: false, final false
   inline void PageDownButtonPressed();
 
-  /// @brief Method PageUpButtonPressed, addr 0x3991890, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method PageUpButtonPressed, addr 0x39a51e8, size 0x2d8, virtual false, abstract: false, final false
   inline void PageUpButtonPressed();
 
-  /// @brief Method RefreshButtons, addr 0x3990924, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RefreshButtons, addr 0x39a427c, size 0x110, virtual false, abstract: false, final false
   inline void RefreshButtons();
 
-  /// @brief Method ResolveScrollDirection, addr 0x3991e9c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResolveScrollDirection, addr 0x39a57f4, size 0x50, virtual false, abstract: false, final false
   inline ::HMUI::__ScrollView__ScrollDirection ResolveScrollDirection(::UnityEngine::Vector2 deltaPos);
 
-  /// @brief Method ScrollTo, addr 0x39900e4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ScrollTo, addr 0x39a3a3c, size 0xc4, virtual false, abstract: false, final false
   inline void ScrollTo(float_t destinationPos, bool animated);
 
-  /// @brief Method ScrollToEnd, addr 0x399162c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ScrollToEnd, addr 0x39a4f84, size 0x40, virtual false, abstract: false, final false
   inline void ScrollToEnd(bool animated);
 
-  /// @brief Method ScrollToWorldPosition, addr 0x399166c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ScrollToWorldPosition, addr 0x39a4fc4, size 0x48, virtual false, abstract: false, final false
   inline void ScrollToWorldPosition(::UnityEngine::Vector3 worldPosition, float_t pageRelativePosition, bool animated);
 
-  /// @brief Method ScrollToWorldPositionIfOutsideArea, addr 0x3991764, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ScrollToWorldPositionIfOutsideArea, addr 0x39a50bc, size 0xb0, virtual false, abstract: false, final false
   inline void ScrollToWorldPositionIfOutsideArea(::UnityEngine::Vector3 worldPosition, float_t pageRelativePosition, float_t relativeBoundaryStart, float_t relativeBoundaryEnd, bool animated);
 
-  /// @brief Method SetContentSize, addr 0x3991408, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method SetContentSize, addr 0x39a4d60, size 0x1f8, virtual false, abstract: false, final false
   inline void SetContentSize(float_t contentSize);
 
-  /// @brief Method SetDestinationPos, addr 0x3991814, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetDestinationPos, addr 0x39a516c, size 0x50, virtual false, abstract: false, final false
   inline void SetDestinationPos(float_t value);
 
-  /// @brief Method Update, addr 0x3991214, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39a4b6c, size 0x120, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateContentSize, addr 0x39908c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateContentSize, addr 0x39a4218, size 0x64, virtual false, abstract: false, final false
   inline void UpdateContentSize();
 
-  /// @brief Method UpdateVerticalScrollIndicator, addr 0x3991334, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateVerticalScrollIndicator, addr 0x39a4c8c, size 0xd4, virtual false, abstract: false, final false
   inline void UpdateVerticalScrollIndicator(float_t posY);
 
-  /// @brief Method WorldPositionToScrollViewPosition, addr 0x39916b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method WorldPositionToScrollViewPosition, addr 0x39a500c, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 WorldPositionToScrollViewPosition(::UnityEngine::Vector3 worldPosition);
 
-  /// @brief Method <Awake>b__42_0, addr 0x3991f2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__42_0, addr 0x39a5884, size 0x3c, virtual false, abstract: false, final false
   inline float_t _Awake_b__42_0(::HMUI::ItemForFocussedScrolling* item);
 
-  /// @brief Method <Awake>b__42_2, addr 0x3991f68, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__42_2, addr 0x39a58c0, size 0x34, virtual false, abstract: false, final false
   inline float_t _Awake_b__42_2(::HMUI::ItemForFocussedScrolling* item);
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -892,31 +892,31 @@ public:
 
   constexpr void __cordl_internal_set_scrollPositionChangedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3991efc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39a5854, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_scrollPositionChangedEvent, addr 0x39901b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_scrollPositionChangedEvent, addr 0x39a3b08, size 0xb0, virtual false, abstract: false, final false
   inline void add_scrollPositionChangedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_contentSize, addr 0x3990384, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_contentSize, addr 0x39a3cdc, size 0x30, virtual false, abstract: false, final false
   inline float_t get_contentSize();
 
-  /// @brief Method get_contentTransform, addr 0x3990318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentTransform, addr 0x39a3c70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_contentTransform();
 
-  /// @brief Method get_position, addr 0x3990320, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x39a3c78, size 0x30, virtual false, abstract: false, final false
   inline float_t get_position();
 
-  /// @brief Method get_scrollPageSize, addr 0x39903b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_scrollPageSize, addr 0x39a3d0c, size 0x30, virtual false, abstract: false, final false
   inline float_t get_scrollPageSize();
 
-  /// @brief Method get_scrollableSize, addr 0x3990350, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_scrollableSize, addr 0x39a3ca8, size 0x34, virtual false, abstract: false, final false
   inline float_t get_scrollableSize();
 
-  /// @brief Method get_viewportTransform, addr 0x3990310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewportTransform, addr 0x39a3c68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_viewportTransform();
 
-  /// @brief Method remove_scrollPositionChangedEvent, addr 0x3990260, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_scrollPositionChangedEvent, addr 0x39a3bb8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_scrollPositionChangedEvent(::System::Action_1<float_t>* value);
 
 protected:
@@ -1006,7 +1006,7 @@ public:
   float_t ____joystickScrollStartTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16059 };
 
   /// @brief Field kThumbstickThreshold offset 0xffffffff size 0x4
   static constexpr float_t kThumbstickThreshold{ 0.01 };

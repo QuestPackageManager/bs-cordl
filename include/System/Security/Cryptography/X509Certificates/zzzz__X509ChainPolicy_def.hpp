@@ -89,7 +89,7 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* New_ctor();
 
-  /// @brief Method Reset, addr 0x43cb3d4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x43dfaec, size 0xe8, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Security::Cryptography::OidCollection*& __cordl_internal_get_apps();
@@ -146,37 +146,37 @@ public:
 
   constexpr void __cordl_internal_set_vtime(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x43c8484, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43dcb9c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ExtraStore, addr 0x43c93e4, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method get_ExtraStore, addr 0x43ddafc, size 0x260, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_ExtraStore();
 
-  /// @brief Method get_RevocationFlag, addr 0x43cb4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationFlag, addr 0x43dfbd4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509RevocationFlag get_RevocationFlag();
 
-  /// @brief Method get_RevocationMode, addr 0x43cb524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationMode, addr 0x43dfc3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509RevocationMode get_RevocationMode();
 
-  /// @brief Method get_VerificationFlags, addr 0x43cb594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VerificationFlags, addr 0x43dfcac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509VerificationFlags get_VerificationFlags();
 
-  /// @brief Method get_VerificationTime, addr 0x43cb5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VerificationTime, addr 0x43dfd14, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_VerificationTime();
 
-  /// @brief Method set_RevocationFlag, addr 0x43cb4c4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_RevocationFlag, addr 0x43dfbdc, size 0x60, virtual false, abstract: false, final false
   inline void set_RevocationFlag(::System::Security::Cryptography::X509Certificates::X509RevocationFlag value);
 
-  /// @brief Method set_RevocationMode, addr 0x43cb52c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_RevocationMode, addr 0x43dfc44, size 0x60, virtual false, abstract: false, final false
   inline void set_RevocationMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method set_UrlRetrievalTimeout, addr 0x43cb58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UrlRetrievalTimeout, addr 0x43dfca4, size 0x8, virtual false, abstract: false, final false
   inline void set_UrlRetrievalTimeout(::System::TimeSpan value);
 
-  /// @brief Method set_VerificationFlags, addr 0x43cb59c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_VerificationFlags, addr 0x43dfcb4, size 0x60, virtual false, abstract: false, final false
   inline void set_VerificationFlags(::System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
 
-  /// @brief Method set_VerificationTime, addr 0x43cb604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_VerificationTime, addr 0x43dfd1c, size 0x8, virtual false, abstract: false, final false
   inline void set_VerificationTime(::System::DateTime value);
 
 protected:
@@ -221,7 +221,7 @@ public:
   ::System::DateTime ___vtime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9299 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

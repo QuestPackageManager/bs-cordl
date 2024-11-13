@@ -25,33 +25,33 @@ public:
 
   __declspec(property(get = get_realtimeGI, put = set_realtimeGI)) bool realtimeGI;
 
-  /// @brief Method Internal_Create, addr 0x47f77f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x480bf0c, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::LightingSettings* self);
 
-  /// @brief Method LightingSettingsDontStripMe, addr 0x47f7770, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LightingSettingsDontStripMe, addr 0x480be88, size 0x4, virtual false, abstract: false, final false
   inline void LightingSettingsDontStripMe();
 
   static inline ::UnityEngine::LightingSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47f7774, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x480be8c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakedGI, addr 0x47f7830, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bakedGI, addr 0x480bf48, size 0x3c, virtual false, abstract: false, final false
   inline bool get_bakedGI();
 
-  /// @brief Method get_realtimeEnvironmentLighting, addr 0x47f7930, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeEnvironmentLighting, addr 0x480c048, size 0x3c, virtual false, abstract: false, final false
   inline bool get_realtimeEnvironmentLighting();
 
-  /// @brief Method get_realtimeGI, addr 0x47f78b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeGI, addr 0x480bfc8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_realtimeGI();
 
-  /// @brief Method set_bakedGI, addr 0x47f786c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bakedGI, addr 0x480bf84, size 0x44, virtual false, abstract: false, final false
   inline void set_bakedGI(bool value);
 
-  /// @brief Method set_realtimeEnvironmentLighting, addr 0x47f796c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_realtimeEnvironmentLighting, addr 0x480c084, size 0x44, virtual false, abstract: false, final false
   inline void set_realtimeEnvironmentLighting(bool value);
 
-  /// @brief Method set_realtimeGI, addr 0x47f78ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_realtimeGI, addr 0x480c004, size 0x44, virtual false, abstract: false, final false
   inline void set_realtimeGI(bool value);
 
 protected:
@@ -69,7 +69,7 @@ public:
   LightingSettings(LightingSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10662 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

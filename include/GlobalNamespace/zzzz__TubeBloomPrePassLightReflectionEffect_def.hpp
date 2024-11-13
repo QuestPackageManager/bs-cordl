@@ -81,13 +81,13 @@ public:
 
   static inline ::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint* New_ctor();
 
-  /// @brief Method SetActive, addr 0x3b1ea20, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x3b33ed8, size 0xbc, virtual false, abstract: false, final false
   inline void SetActive(bool enabled, ::UnityEngine::Color mainLightColor);
 
-  /// @brief Method SetCollisionLength, addr 0x3b1ebf0, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method SetCollisionLength, addr 0x3b340a8, size 0x27c, virtual false, abstract: false, final false
   inline void SetCollisionLength(bool rayHitGeometry, ::UnityEngine::RaycastHit hit);
 
-  /// @brief Method SetData, addr 0x3b1eadc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b33f94, size 0x114, virtual false, abstract: false, final false
   inline void SetData(float_t remainingLength, float_t startAlpha, ::UnityEngine::Vector3 hitWorldPosition, ::UnityEngine::Vector3 hitReflection);
 
   constexpr bool const& __cordl_internal_get__hitPointState() const;
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set_showHitPoint(bool value);
 
-  /// @brief Method .ctor, addr 0x3b1ee74, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3432c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,7 +171,7 @@ public:
   bool ____hitPointState;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4324 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -223,15 +223,15 @@ public:
                                                                                           ::Array<::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint*>*>
       _tubeBloomPrePassLightBounces;
 
-  /// @brief Method Awake, addr 0x3b1e52c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b339e4, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x3b1e5ac, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b33a64, size 0x1c4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightReflectionEffect* New_ctor();
 
-  /// @brief Method RaycastAndSetLightLength, addr 0x3b1e770, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method RaycastAndSetLightLength, addr 0x3b33c28, size 0x2b0, virtual false, abstract: false, final false
   inline bool RaycastAndSetLightLength(::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint* bounce, ::UnityEngine::Vector3 rayWorldOrigin,
                                        ::UnityEngine::Vector3 rayDirection, ByRef<::UnityEngine::Vector3> hitWorldPosition, ByRef<::UnityEngine::Vector3> hitReflection, ByRef<float_t> length,
                                        ByRef<float_t> endAlpha);
@@ -273,7 +273,7 @@ public:
                                                                              ::Array<::GlobalNamespace::__TubeBloomPrePassLightReflectionEffect__TubeBloomPrePassLightWithHitPoint*>*>
                                                                         value);
 
-  /// @brief Method .ctor, addr 0x3b1ee6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b34324, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -308,7 +308,7 @@ public:
   ::UnityW<::UnityEngine::Transform> ____transform;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

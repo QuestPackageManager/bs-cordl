@@ -18,7 +18,7 @@ GlobalNamespace::RemoteProcedureCall_2<T0, T1>::__cordl_internal_get__value0() c
 }
 template <typename T0, typename T1> constexpr void GlobalNamespace::RemoteProcedureCall_2<T0, T1>::__cordl_internal_set__value0(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____value0, value);
 }
 template <typename T0, typename T1> constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>*& GlobalNamespace::RemoteProcedureCall_2<T0, T1>::__cordl_internal_get__value1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -32,7 +32,7 @@ GlobalNamespace::RemoteProcedureCall_2<T0, T1>::__cordl_internal_get__value1() c
 }
 template <typename T0, typename T1> constexpr void GlobalNamespace::RemoteProcedureCall_2<T0, T1>::__cordl_internal_set__value1(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____value1, value);
 }
 template <typename T0, typename T1> inline T0 GlobalNamespace::RemoteProcedureCall_2<T0, T1>::get_value0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteProcedureCall_2<T0, T1>*>::get(),

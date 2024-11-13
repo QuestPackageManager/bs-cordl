@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::*)(
     ::GlobalNamespace::TextFadeTransitions*)>(&::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::Init)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b6c9c0;
+  constexpr static std::size_t addrs = 0x3b824b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::*)()>(
     &::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::Deinit)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b6cab4;
+  constexpr static std::size_t addrs = 0x3b825a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::*)()>(
     &::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::HandleGameEvent)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b6cb4c;
+  constexpr static std::size_t addrs = 0x3b82640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::*)()>(
     &::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6cb78;
+  constexpr static std::size_t addrs = 0x3b8266c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShowTextOnGameEventController::*)()>(
     &::GlobalNamespace::ShowTextOnGameEventController::Awake)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b6c95c;
+  constexpr static std::size_t addrs = 0x3b82450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShowTextOnGameEventController*>::get(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShowTextOnGameEventController::*)()>(
     &::GlobalNamespace::ShowTextOnGameEventController::OnDestroy)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3b6ca58;
+  constexpr static std::size_t addrs = 0x3b8254c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShowTextOnGameEventController*>::get(),
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShowTextOnGameEventController::*)()>(
     &::GlobalNamespace::ShowTextOnGameEventController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6cb44;
+  constexpr static std::size_t addrs = 0x3b82638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShowTextOnGameEventController*>::get(),

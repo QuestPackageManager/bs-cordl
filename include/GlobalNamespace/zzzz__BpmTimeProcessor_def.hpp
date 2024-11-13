@@ -57,7 +57,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __BpmTimeProcessor__BpmChangeData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2677ba0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2682e14, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t bpmChangeStartTime, float_t bpmChangeStartBpmTime, float_t bpm);
 
   // Ctor Parameters []
@@ -78,7 +78,7 @@ public:
   float_t bpm;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12846 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -111,10 +111,10 @@ public:
 
   static inline ::GlobalNamespace::__BpmTimeProcessor____c* New_ctor();
 
-  /// @brief Method <.ctor>b__3_0, addr 0x26783a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__3_0, addr 0x2683618, size 0x20, virtual false, abstract: false, final false
   inline bool __ctor_b__3_0(::BeatmapSaveDataVersion2_6_0AndEarlier::EventData* e);
 
-  /// @brief Method .ctor, addr 0x267839c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2683610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BpmTimeProcessor____c* getStaticF___9();
@@ -140,7 +140,7 @@ public:
   __BpmTimeProcessor____c(__BpmTimeProcessor____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -170,10 +170,10 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatToTimeConverter"
   constexpr operator ::GlobalNamespace::IBeatToTimeConverter*() noexcept;
 
-  /// @brief Method CalculateTime, addr 0x2677bac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CalculateTime, addr 0x2682e20, size 0x1c, virtual false, abstract: false, final false
   static inline float_t CalculateTime(::GlobalNamespace::__BpmTimeProcessor__BpmChangeData prevBpmChangeData, float_t beat);
 
-  /// @brief Method ConvertBeatToTime, addr 0x2678230, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method ConvertBeatToTime, addr 0x26834a4, size 0x108, virtual true, abstract: false, final true
   inline float_t ConvertBeatToTime(float_t beat);
 
   static inline ::GlobalNamespace::BpmTimeProcessor* New_ctor(::BeatmapLevelSaveDataVersion4::AudioSaveData* audioSaveData);
@@ -182,7 +182,7 @@ public:
 
   static inline ::GlobalNamespace::BpmTimeProcessor* New_ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events);
 
-  /// @brief Method Reset, addr 0x2678338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x26835ac, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BpmTimeProcessor__BpmChangeData>*& __cordl_internal_get__bpmChangeDataList();
@@ -197,13 +197,13 @@ public:
 
   constexpr void __cordl_internal_set_currentBpmChangesDataIdx(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26780b4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2683328, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapLevelSaveDataVersion4::AudioSaveData* audioSaveData);
 
-  /// @brief Method .ctor, addr 0x2677bc8, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2682e3c, size 0x4ec, virtual false, abstract: false, final false
   inline void _ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEventsSaveData);
 
-  /// @brief Method .ctor, addr 0x2677824, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2682a98, size 0x37c, virtual false, abstract: false, final false
   inline void _ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events);
 
   /// @brief Convert to "::GlobalNamespace::IBeatToTimeConverter"
@@ -230,7 +230,7 @@ public:
   int32_t ___currentBpmChangesDataIdx;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12848 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

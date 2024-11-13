@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_ks(::System::Xml::Schema::KeySequence* value);
 
-  /// @brief Method .ctor, addr 0x432216c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4336884, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::KeySequence* ks, int32_t dim);
 
 protected:
@@ -84,7 +84,7 @@ public:
   ::ArrayW<::System::Xml::Schema::LocatedActiveAxis*, ::Array<::System::Xml::Schema::LocatedActiveAxis*>*> ___fields;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

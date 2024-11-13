@@ -24,18 +24,18 @@ public:
   /// @brief Field _timestampOpen, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__timestampOpen, put = __cordl_internal_set__timestampOpen)) float_t _timestampOpen;
 
-  /// @brief Method Awake, addr 0x40028e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4016f78, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Meta::XR::Samples::SampleMetadata* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x4002c7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x401730c, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SendEvent, addr 0x4002978, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method SendEvent, addr 0x4017008, size 0x304, virtual false, abstract: false, final false
   inline void SendEvent(int32_t eventType);
 
-  /// @brief Method Start, addr 0x4002904, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4016f94, size 0x74, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__timestampOpen() const;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__timestampOpen(float_t value);
 
-  /// @brief Method .ctor, addr 0x4002c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4017318, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   float_t ____timestampOpen;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9018 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

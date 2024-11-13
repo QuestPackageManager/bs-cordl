@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26c8ec4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d4bb4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer);
 
-  /// @brief Method get_layer, addr 0x26c8ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x26d4bac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x26c8eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x26d4ba4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
 protected:
@@ -75,7 +75,7 @@ public:
   int32_t ___y;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13386 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

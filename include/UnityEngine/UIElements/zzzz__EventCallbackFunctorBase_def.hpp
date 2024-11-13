@@ -56,7 +56,7 @@ public:
 
   static inline ::UnityEngine::UIElements::EventCallbackFunctorBase* New_ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method PhaseMatches, addr 0x49ac268, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method PhaseMatches, addr 0x49c0980, size 0x3c, virtual false, abstract: false, final false
   inline bool PhaseMatches(::UnityEngine::UIElements::PropagationPhase propagationPhase);
 
   constexpr ::UnityEngine::UIElements::InvokePolicy const& __cordl_internal_get__invokePolicy_k__BackingField() const;
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set__phase_k__BackingField(::UnityEngine::UIElements::CallbackPhase value);
 
-  /// @brief Method .ctor, addr 0x49ac23c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c0954, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method get_invokePolicy, addr 0x49ac234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_invokePolicy, addr 0x49c094c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::InvokePolicy get_invokePolicy();
 
-  /// @brief Method get_phase, addr 0x49ac22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_phase, addr 0x49c0944, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CallbackPhase get_phase();
 
 protected:
@@ -101,7 +101,7 @@ public:
   ::UnityEngine::UIElements::InvokePolicy ____invokePolicy_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5782 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

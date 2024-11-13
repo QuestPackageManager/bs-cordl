@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAvatarEditorResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AvatarEditorResult*> {
 public:
   // Declarations
-  /// @brief Method GetAvatarEditorResult, addr 0x3f084b8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAvatarEditorResult, addr 0x3f1cb48, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AvatarEditorResult* GetAvatarEditorResult();
 
-  /// @brief Method GetDataFromMessage, addr 0x3f084f4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f1cb84, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AvatarEditorResult* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithAvatarEditorResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f05f98, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1a628, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -52,7 +52,7 @@ public:
   MessageWithAvatarEditorResult(MessageWithAvatarEditorResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15328 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

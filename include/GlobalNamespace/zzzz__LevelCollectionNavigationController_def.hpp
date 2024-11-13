@@ -123,7 +123,7 @@ public:
   static ::GlobalNamespace::__LevelCollectionNavigationController__AlphaAnimationType const Out;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5310 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -152,7 +152,7 @@ public:
 
   static inline ::GlobalNamespace::__LevelCollectionNavigationController____c__DisplayClass53_0* New_ctor();
 
-  /// @brief Method <PresentDetailViewController>b__0, addr 0x3aead94, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <PresentDetailViewController>b__0, addr 0x3afeaa0, size 0x2c, virtual false, abstract: false, final false
   inline void _PresentDetailViewController_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::LevelCollectionNavigationController> const& __cordl_internal_get___4__this() const;
@@ -167,7 +167,7 @@ public:
 
   constexpr void __cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x3aeabe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3afe8f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -191,7 +191,7 @@ public:
   ::UnityW<::HMUI::ViewController> ___viewController;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5311 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -297,85 +297,85 @@ public:
                       put = __cordl_internal_set_didSelectLevelPackEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>*
       didSelectLevelPackEvent;
 
-  /// @brief Method AnimateCanvasGroupAlpha, addr 0x3ae8a10, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method AnimateCanvasGroupAlpha, addr 0x3afc71c, size 0x1e8, virtual false, abstract: false, final false
   inline void AnimateCanvasGroupAlpha(::GlobalNamespace::__LevelCollectionNavigationController__AlphaAnimationType animationType);
 
-  /// @brief Method ClearSelected, addr 0x3aea4f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ClearSelected, addr 0x3afe204, size 0x18, virtual false, abstract: false, final false
   inline void ClearSelected();
 
-  /// @brief Method DidActivate, addr 0x3ae8bf8, size 0x484, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3afc904, size 0x484, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3ae95fc, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3afd308, size 0x304, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleLevelCollectionViewControllerDidSelectLevel, addr 0x3aea834, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelCollectionViewControllerDidSelectLevel, addr 0x3afe540, size 0x7c, virtual false, abstract: false, final false
   inline void HandleLevelCollectionViewControllerDidSelectLevel(::GlobalNamespace::LevelCollectionViewController* viewController, ::GlobalNamespace::BeatmapLevel* level);
 
-  /// @brief Method HandleLevelCollectionViewControllerDidSelectPack, addr 0x3aeab88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelCollectionViewControllerDidSelectPack, addr 0x3afe894, size 0x5c, virtual false, abstract: false, final false
   inline void HandleLevelCollectionViewControllerDidSelectPack(::GlobalNamespace::LevelCollectionViewController* viewController);
 
-  /// @brief Method HandleLevelDetailViewControllerDidChangeDifficultyBeatmap, addr 0x3aeac2c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDetailViewControllerDidChangeDifficultyBeatmap, addr 0x3afe938, size 0x20, virtual false, abstract: false, final false
   inline void HandleLevelDetailViewControllerDidChangeDifficultyBeatmap(::GlobalNamespace::StandardLevelDetailViewController* viewController);
 
-  /// @brief Method HandleLevelDetailViewControllerDidPresentContent, addr 0x3aeac4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDetailViewControllerDidPresentContent, addr 0x3afe958, size 0x20, virtual false, abstract: false, final false
   inline void HandleLevelDetailViewControllerDidPresentContent(::GlobalNamespace::StandardLevelDetailViewController* viewController,
                                                                ::GlobalNamespace::__StandardLevelDetailViewController__ContentType contentType);
 
-  /// @brief Method HandleLevelDetailViewControllerDidPressActionButton, addr 0x3aeabec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDetailViewControllerDidPressActionButton, addr 0x3afe8f8, size 0x20, virtual false, abstract: false, final false
   inline void HandleLevelDetailViewControllerDidPressActionButton(::GlobalNamespace::StandardLevelDetailViewController* viewController);
 
-  /// @brief Method HandleLevelDetailViewControllerDidPressOpenLevelPackButton, addr 0x3aeac6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDetailViewControllerDidPressOpenLevelPackButton, addr 0x3afe978, size 0x20, virtual false, abstract: false, final false
   inline void HandleLevelDetailViewControllerDidPressOpenLevelPackButton(::GlobalNamespace::StandardLevelDetailViewController* viewController, ::GlobalNamespace::BeatmapLevelPack* levelPack);
 
-  /// @brief Method HandleLevelDetailViewControllerDidPressPracticeButton, addr 0x3aeac0c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDetailViewControllerDidPressPracticeButton, addr 0x3afe918, size 0x20, virtual false, abstract: false, final false
   inline void HandleLevelDetailViewControllerDidPressPracticeButton(::GlobalNamespace::StandardLevelDetailViewController* viewController, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method HandleLevelDetailViewControllerLevelFavoriteStatusDidChange, addr 0x3aeac8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDetailViewControllerLevelFavoriteStatusDidChange, addr 0x3afe998, size 0x18, virtual false, abstract: false, final false
   inline void HandleLevelDetailViewControllerLevelFavoriteStatusDidChange(::GlobalNamespace::StandardLevelDetailViewController* viewController, bool favoriteStatus);
 
-  /// @brief Method HideDetailViewController, addr 0x3aea7e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HideDetailViewController, addr 0x3afe4ec, size 0x54, virtual false, abstract: false, final false
   inline void HideDetailViewController();
 
-  /// @brief Method HideLoading, addr 0x3aea610, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HideLoading, addr 0x3afe31c, size 0x24, virtual false, abstract: false, final false
   inline void HideLoading();
 
   static inline ::GlobalNamespace::LevelCollectionNavigationController* New_ctor();
 
-  /// @brief Method PresentDetailViewController, addr 0x3aea634, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method PresentDetailViewController, addr 0x3afe340, size 0x1ac, virtual false, abstract: false, final false
   inline void PresentDetailViewController(::HMUI::ViewController* viewController, bool immediately);
 
-  /// @brief Method PresentViewControllersForLevelCollection, addr 0x3aea458, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PresentViewControllersForLevelCollection, addr 0x3afe164, size 0x60, virtual false, abstract: false, final false
   inline void PresentViewControllersForLevelCollection();
 
-  /// @brief Method PresentViewControllersForPack, addr 0x3aea3e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method PresentViewControllersForPack, addr 0x3afe0ec, size 0x78, virtual false, abstract: false, final false
   inline void PresentViewControllersForPack();
 
-  /// @brief Method RefreshDetail, addr 0x3aea4b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RefreshDetail, addr 0x3afe1c4, size 0x24, virtual false, abstract: false, final false
   inline void RefreshDetail();
 
-  /// @brief Method SelectLevel, addr 0x3ae89a8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SelectLevel, addr 0x3afc6b4, size 0x34, virtual false, abstract: false, final false
   inline void SelectLevel(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method SetData, addr 0x3ae8784, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3afc490, size 0x3c, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, bool showPackHeader, bool showPracticeButton, ::StringW actionButtonText, bool sortAlphabetically,
                       ::UnityEngine::GameObject* noDataInfoPrefab, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
                       ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*, ::Array<::GlobalNamespace::BeatmapCharacteristicSO*>*> notAllowedCharacteristics, bool isFiltered);
 
-  /// @brief Method SetDataForLevelCollection, addr 0x3ae8890, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetDataForLevelCollection, addr 0x3afc59c, size 0x118, virtual false, abstract: false, final false
   inline void SetDataForLevelCollection(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, bool showPracticeButton, ::StringW actionButtonText, ::UnityEngine::GameObject* noDataInfoPrefab,
                                         bool sortBeatmapLevels);
 
-  /// @brief Method SetDataForPack, addr 0x3ae87c0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetDataForPack, addr 0x3afc4cc, size 0xd0, virtual false, abstract: false, final false
   inline void SetDataForPack(::GlobalNamespace::BeatmapLevelPack* levelPack, bool showPackHeader, bool showPracticeButton, ::StringW actionButtonText, bool sortBeatmapLevels);
 
-  /// @brief Method ShowLoading, addr 0x3aea534, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ShowLoading, addr 0x3afe240, size 0xdc, virtual false, abstract: false, final false
   inline void ShowLoading();
 
-  /// @brief Method <AnimateCanvasGroupAlpha>b__39_0, addr 0x3aeacdc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AnimateCanvasGroupAlpha>b__39_0, addr 0x3afe9e8, size 0x30, virtual false, abstract: false, final false
   inline void _AnimateCanvasGroupAlpha_b__39_0(float_t f);
 
-  /// @brief Method <AnimateCanvasGroupAlpha>b__39_1, addr 0x3aead0c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <AnimateCanvasGroupAlpha>b__39_1, addr 0x3afea18, size 0x88, virtual false, abstract: false, final false
   inline void _AnimateCanvasGroupAlpha_b__39_1();
 
   constexpr ::StringW const& __cordl_internal_get__actionButtonTextInDetailView() const;
@@ -507,51 +507,51 @@ public:
 
   constexpr void __cordl_internal_set_didSelectLevelPackEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method .ctor, addr 0x3aeacd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3afe9e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x3ae85b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x3afc2bc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>>* value);
 
-  /// @brief Method add_didChangeLevelDetailContentEvent, addr 0x3ae7ed0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeLevelDetailContentEvent, addr 0x3afbbdc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeLevelDetailContentEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>, ::GlobalNamespace::__StandardLevelDetailViewController__ContentType>* value);
 
-  /// @brief Method add_didPressActionButtonEvent, addr 0x3ae8190, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressActionButtonEvent, addr 0x3afbe9c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>>* value);
 
-  /// @brief Method add_didPressOpenPackButtonEvent, addr 0x3ae82f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressOpenPackButtonEvent, addr 0x3afbffc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressOpenPackButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method add_didPressPracticeButtonEvent, addr 0x3ae8450, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPracticeButtonEvent, addr 0x3afc15c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressPracticeButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method add_didSelectLevelPackEvent, addr 0x3ae8030, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectLevelPackEvent, addr 0x3afbd3c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectLevelPackEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method get_beatmapKey, addr 0x3ae8710, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x3afc41c, size 0x30, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_beatmapLevel, addr 0x3ae8768, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevel, addr 0x3afc474, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevel* get_beatmapLevel();
 
-  /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x3ae8660, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x3afc36c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>>* value);
 
-  /// @brief Method remove_didChangeLevelDetailContentEvent, addr 0x3ae7f80, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeLevelDetailContentEvent, addr 0x3afbc8c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeLevelDetailContentEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>, ::GlobalNamespace::__StandardLevelDetailViewController__ContentType>* value);
 
-  /// @brief Method remove_didPressActionButtonEvent, addr 0x3ae8240, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressActionButtonEvent, addr 0x3afbf4c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>>* value);
 
-  /// @brief Method remove_didPressOpenPackButtonEvent, addr 0x3ae83a0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressOpenPackButtonEvent, addr 0x3afc0ac, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressOpenPackButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method remove_didPressPracticeButtonEvent, addr 0x3ae8500, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPracticeButtonEvent, addr 0x3afc20c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressPracticeButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method remove_didSelectLevelPackEvent, addr 0x3ae80e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectLevelPackEvent, addr 0x3afbdec, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectLevelPackEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionNavigationController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
 protected:
@@ -629,7 +629,7 @@ public:
   ::Tweening::FloatTween* ____floatTween;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

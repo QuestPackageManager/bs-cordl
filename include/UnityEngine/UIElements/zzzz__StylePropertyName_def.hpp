@@ -38,43 +38,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>*();
 
-  /// @brief Method Equals, addr 0x4a110b4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a257cc, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x4a1112c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a25844, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StylePropertyName other);
 
-  /// @brief Method GetHashCode, addr 0x4a110ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a257c4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method StylePropertyIdFromString, addr 0x4a10ef0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StylePropertyIdFromString, addr 0x4a25608, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId StylePropertyIdFromString(::StringW name);
 
-  /// @brief Method ToString, addr 0x4a1113c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a25854, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4a1103c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a25754, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x4a10f90, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a256a8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::StylePropertyId stylePropertyId);
 
-  /// @brief Method get_id, addr 0x4a10ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x4a255f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId get_id();
 
-  /// @brief Method get_name, addr 0x4a10ee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4a25600, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>* i___System__IEquatable_1___UnityEngine__UIElements__StylePropertyName_();
 
-  /// @brief Method op_Equality, addr 0x4a11070, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a25788, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs);
 
-  /// @brief Method op_Implicit, addr 0x4a11088, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4a257a0, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StylePropertyName op_Implicit___UnityEngine__UIElements__StylePropertyName(::StringW name);
 
-  /// @brief Method op_Inequality, addr 0x4a1107c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4a25794, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs);
 
   // Ctor Parameters []
@@ -92,7 +92,7 @@ public:
   ::StringW _name_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6136 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

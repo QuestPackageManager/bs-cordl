@@ -64,7 +64,7 @@ public:
   static ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15844 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -101,10 +101,10 @@ public:
 
   constexpr void __cordl_internal_set__useEditMode_k__BackingField(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode value);
 
-  /// @brief Method .ctor, addr 0x47b38b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c7fd0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode useEditMode);
 
-  /// @brief Method get_useEditMode, addr 0x47b38b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useEditMode, addr 0x47c7fc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode get_useEditMode();
 
 protected:
@@ -125,7 +125,7 @@ public:
   ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode ____useEditMode_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15845 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

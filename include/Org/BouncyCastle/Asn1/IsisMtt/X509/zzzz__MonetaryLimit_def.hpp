@@ -54,14 +54,14 @@ public:
   /// @brief Field exponent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_exponent, put = __cordl_internal_set_exponent)) ::Org::BouncyCastle::Asn1::DerInteger* exponent;
 
-  /// @brief Method GetInstance, addr 0x23bdd2c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23c8dd4, size 0x164, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit* New_ctor(::StringW currency, int32_t amount, int32_t exponent);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23be0e4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23c918c, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_amount();
@@ -82,19 +82,19 @@ public:
 
   constexpr void __cordl_internal_set_exponent(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x23bdfb8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c9060, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::StringW currency, int32_t amount, int32_t exponent);
 
-  /// @brief Method .ctor, addr 0x23bde90, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c8f38, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Amount, addr 0x23be0ac, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Amount, addr 0x23c9154, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Amount();
 
-  /// @brief Method get_Currency, addr 0x23be08c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Currency, addr 0x23c9134, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_Currency();
 
-  /// @brief Method get_Exponent, addr 0x23be0c8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Exponent, addr 0x23c9170, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Exponent();
 
 protected:

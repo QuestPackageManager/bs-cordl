@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LiteNetLib::__ReliableChannel__PendingPacket::*)()>(
     &::LiteNetLib::__ReliableChannel__PendingPacket::ToString)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3a51088;
+  constexpr static std::size_t addrs = 0x3a649e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::__ReliableChannel__PendingPacket::*)(::LiteNetLib::NetPacket*)>(
     &::LiteNetLib::__ReliableChannel__PendingPacket::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a50b28;
+  constexpr static std::size_t addrs = 0x3a64480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::__ReliableChannel__PendingPacket::*)(int64_t, ::LiteNetLib::NetPeer*)>(
     &::LiteNetLib::__ReliableChannel__PendingPacket::TrySend)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a50b34;
+  constexpr static std::size_t addrs = 0x3a6448c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::__ReliableChannel__PendingPacket::*)(::LiteNetLib::NetPeer*)>(
     &::LiteNetLib::__ReliableChannel__PendingPacket::Clear)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3a50680;
+  constexpr static std::size_t addrs = 0x3a63fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPeer*, bool, uint8_t)>(
     &::LiteNetLib::ReliableChannel::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3a4cc74;
+  constexpr static std::size_t addrs = 0x3a605cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::ReliableChannel::ProcessAck)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x3a5033c;
+  constexpr static std::size_t addrs = 0x3a63c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel::*)()>(&::LiteNetLib::ReliableChannel::SendNextPackets)> {
   constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x3a506c0;
+  constexpr static std::size_t addrs = 0x3a64018;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::ReliableChannel::ProcessPacket)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x3a50bac;
+  constexpr static std::size_t addrs = 0x3a64504;
 
   inline static ::MethodInfo const* methodInfo() {
 

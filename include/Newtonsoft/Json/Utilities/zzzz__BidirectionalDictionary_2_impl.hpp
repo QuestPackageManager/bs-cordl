@@ -18,7 +18,7 @@ Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl
 template <typename TFirst, typename TSecond>
 constexpr void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl_internal_set__firstToSecond(::System::Collections::Generic::IDictionary_2<TFirst, TSecond>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____firstToSecond)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____firstToSecond, value);
 }
 template <typename TFirst, typename TSecond>
 constexpr ::System::Collections::Generic::IDictionary_2<TSecond, TFirst>*& Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl_internal_get__secondToFirst() {
@@ -34,7 +34,7 @@ Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl
 template <typename TFirst, typename TSecond>
 constexpr void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl_internal_set__secondToFirst(::System::Collections::Generic::IDictionary_2<TSecond, TFirst>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____secondToFirst)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____secondToFirst, value);
 }
 template <typename TFirst, typename TSecond> constexpr ::StringW& Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl_internal_get__duplicateFirstErrorMessage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -47,7 +47,7 @@ constexpr ::StringW const& Newtonsoft::Json::Utilities::BidirectionalDictionary_
 }
 template <typename TFirst, typename TSecond> constexpr void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl_internal_set__duplicateFirstErrorMessage(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____duplicateFirstErrorMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____duplicateFirstErrorMessage, value);
 }
 template <typename TFirst, typename TSecond> constexpr ::StringW& Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl_internal_get__duplicateSecondErrorMessage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -61,7 +61,7 @@ constexpr ::StringW const& Newtonsoft::Json::Utilities::BidirectionalDictionary_
 template <typename TFirst, typename TSecond>
 constexpr void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl_internal_set__duplicateSecondErrorMessage(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____duplicateSecondErrorMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____duplicateSecondErrorMessage, value);
 }
 template <typename TFirst, typename TSecond>
 inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>* Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::New_ctor() {

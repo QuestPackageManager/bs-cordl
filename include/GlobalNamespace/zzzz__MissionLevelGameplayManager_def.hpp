@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_failOn0Energy(bool value);
 
-  /// @brief Method .ctor, addr 0x3b29db0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3f1fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool failOn0Energy);
 
 protected:
@@ -119,7 +119,7 @@ public:
   bool ___failOn0Energy;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -184,7 +184,7 @@ public:
   static ::GlobalNamespace::__MissionLevelGameplayManager__GameState const Playing;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4380 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -227,21 +227,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b29ddc, size 0x3a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b3f228, size 0x3a4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__MissionLevelGameplayManager___Start_d__26* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b2a404, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b3f850, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b2a40c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b3f858, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b2a444, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b3f890, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b29dd8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b3f224, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -262,7 +262,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionLevelGameplayManager> value);
 
-  /// @brief Method .ctor, addr 0x3b2971c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3eb68, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -298,7 +298,7 @@ public:
   ::UnityW<::GlobalNamespace::MissionLevelGameplayManager> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4379 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -375,33 +375,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILevelStartController"
   constexpr operator ::GlobalNamespace::ILevelStartController*() noexcept;
 
-  /// @brief Method Awake, addr 0x3b296b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b3eb00, size 0x8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleGameEnergyDidReach0, addr 0x3b29c88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEnergyDidReach0, addr 0x3b3f0d4, size 0x5c, virtual false, abstract: false, final false
   inline void HandleGameEnergyDidReach0();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveDidFail, addr 0x3b29ce4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveDidFail, addr 0x3b3f130, size 0x3c, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectiveDidFail();
 
-  /// @brief Method HandlePauseControllerCanPause, addr 0x3b29d54, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerCanPause, addr 0x3b3f1a0, size 0x24, virtual false, abstract: false, final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
-  /// @brief Method HandlePauseControllerDidPause, addr 0x3b29d78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerDidPause, addr 0x3b3f1c4, size 0x18, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidPause();
 
-  /// @brief Method HandlePauseControllerDidResume, addr 0x3b29d90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerDidResume, addr 0x3b3f1dc, size 0x18, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidResume();
 
-  /// @brief Method HandleSongDidFinish, addr 0x3b29d20, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x3b3f16c, size 0x34, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
   static inline ::GlobalNamespace::MissionLevelGameplayManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b29744, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b3eb90, size 0x2c0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b296bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b3eb08, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__gameEnergyCounter() const;
@@ -482,22 +482,22 @@ public:
 
   constexpr void __cordl_internal_set_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b29da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3f1f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_levelDidStartEvent, addr 0x3b29304, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelDidStartEvent, addr 0x3b3e750, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method add_levelFailedEvent, addr 0x3b29574, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFailedEvent, addr 0x3b3e9c0, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent, addr 0x3b2943c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0x3b3e888, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method add_levelWillStartIntroEvent, addr 0x3b291cc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelWillStartIntroEvent, addr 0x3b3e618, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method get_levelEndStateType, addr 0x3b296ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelEndStateType, addr 0x3b3eaf8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType get_levelEndStateType();
 
   /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
@@ -506,16 +506,16 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILevelStartController"
   constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
 
-  /// @brief Method remove_levelDidStartEvent, addr 0x3b293a0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelDidStartEvent, addr 0x3b3e7ec, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFailedEvent, addr 0x3b29610, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFailedEvent, addr 0x3b3ea5c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent, addr 0x3b294d8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x3b3e924, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelWillStartIntroEvent, addr 0x3b29268, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelWillStartIntroEvent, addr 0x3b3e6b4, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelWillStartIntroEvent(::System::Action* value);
 
 protected:
@@ -572,7 +572,7 @@ public:
   ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType ____levelEndStateType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

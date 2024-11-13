@@ -23,10 +23,10 @@ public:
   /// @brief Field _msg, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__msg, put = __cordl_internal_set__msg)) ::StringW _msg;
 
-  /// @brief Method AssetCallbackNoMsg, addr 0x399ae00, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AssetCallbackNoMsg, addr 0x39ae758, size 0x68, virtual false, abstract: false, final false
   inline void AssetCallbackNoMsg();
 
-  /// @brief Method AssetCallbackWithMsg, addr 0x399ad68, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AssetCallbackWithMsg, addr 0x39ae6c0, size 0x98, virtual false, abstract: false, final false
   inline void AssetCallbackWithMsg(::StringW msg);
 
   static inline ::GlobalNamespace::HEU_ScriptCallbackExample* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__msg(::StringW value);
 
-  /// @brief Method .ctor, addr 0x399ae68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ae7c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   ::StringW ____msg;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

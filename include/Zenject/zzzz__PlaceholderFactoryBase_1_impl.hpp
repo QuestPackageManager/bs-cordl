@@ -38,7 +38,7 @@ template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::Zenje
 }
 template <typename TValue> constexpr void Zenject::PlaceholderFactoryBase_1<TValue>::__cordl_internal_set__provider(::Zenject::IProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____provider, value);
 }
 template <typename TValue> constexpr ::Zenject::InjectContext*& Zenject::PlaceholderFactoryBase_1<TValue>::__cordl_internal_get__injectContext() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -50,7 +50,7 @@ template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::Zenje
 }
 template <typename TValue> constexpr void Zenject::PlaceholderFactoryBase_1<TValue>::__cordl_internal_set__injectContext(::Zenject::InjectContext* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____injectContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____injectContext, value);
 }
 template <typename TValue> inline void Zenject::PlaceholderFactoryBase_1<TValue>::Construct(::Zenject::IProvider* provider, ::Zenject::InjectContext* injectContext) {
   static auto* ___internal_method = THROW_UNLESS(

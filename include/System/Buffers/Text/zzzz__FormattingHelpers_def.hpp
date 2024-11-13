@@ -20,13 +20,13 @@ namespace System::Buffers::Text {
 class CORDL_TYPE FormattingHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountDigits, addr 0x3d5411c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x3d687ac, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint32_t value);
 
-  /// @brief Method CountDigits, addr 0x3d54060, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x3d686f0, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint64_t value);
 
-  /// @brief Method CountHexDigits, addr 0x3d54188, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CountHexDigits, addr 0x3d68818, size 0x48, virtual false, abstract: false, final false
   static inline int32_t CountHexDigits(uint64_t value);
 
 protected:

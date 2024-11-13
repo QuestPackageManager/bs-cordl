@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FileBrowserItem::*)()>(&::GlobalNamespace::FileBrowserItem::get_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266f300;
+  constexpr static std::size_t addrs = 0x267a5c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserItem*>::get(), "get_displayName",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserItem::*)(::StringW)>(&::GlobalNamespace::FileBrowserItem::set_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266f308;
+  constexpr static std::size_t addrs = 0x267a5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FileBrowserItem::*)()>(&::GlobalNamespace::FileBrowserItem::get_fullPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266f310;
+  constexpr static std::size_t addrs = 0x267a5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserItem*>::get(), "get_fullPath",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserItem::*)(::StringW)>(&::GlobalNamespace::FileBrowserItem::set_fullPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266f318;
+  constexpr static std::size_t addrs = 0x267a5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FileBrowserItem::*)()>(&::GlobalNamespace::FileBrowserItem::get_isDirectory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266f320;
+  constexpr static std::size_t addrs = 0x267a5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileBrowserItem*>::get(), "get_isDirectory",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserItem::*)(bool)>(&::GlobalNamespace::FileBrowserItem::set_isDirectory)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x266f328;
+  constexpr static std::size_t addrs = 0x267a5e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileBrowserItem::*)(::StringW, ::StringW, bool)>(
     &::GlobalNamespace::FileBrowserItem::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x266cf38;
+  constexpr static std::size_t addrs = 0x26781f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -46,39 +46,39 @@ public:
   /// @brief Field rightLinePointer, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_rightLinePointer, put = __cordl_internal_set_rightLinePointer)) ::UnityW<::UnityEngine::LineRenderer> rightLinePointer;
 
-  /// @brief Method Awake, addr 0x3f31698, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3f45d28, size 0xdc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x3f31d30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3f463c0, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::OVRControllerDrivenHandPosesSample* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3f319ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3f4607c, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3f319f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3f46084, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3f319f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3f46080, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x3f31844, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x3f45ed4, size 0xd4, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToControllerConforming();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x3f31918, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x3f45fa8, size 0xd4, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNatural();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x3f31774, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x3f45e04, size 0xd0, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNone();
 
-  /// @brief Method Update, addr 0x3f319f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f46088, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateLineRenderer, addr 0x3f319fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRenderer, addr 0x3f4608c, size 0x50, virtual false, abstract: false, final false
   inline void UpdateLineRenderer();
 
-  /// @brief Method UpdateLineRendererForHand, addr 0x3f31a4c, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRendererForHand, addr 0x3f460dc, size 0x2e4, virtual false, abstract: false, final false
   inline void UpdateLineRendererForHand(bool isLeft);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonConforming() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set_rightLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
 
-  /// @brief Method .ctor, addr 0x3f31d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f463c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -153,7 +153,7 @@ public:
   ::UnityW<::GlobalNamespace::OVRCameraRig> ___cameraRig;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7823 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

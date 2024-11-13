@@ -73,10 +73,10 @@ public:
 
   constexpr void __cordl_internal_set_si(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26c9c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d58f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x26c9bfc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x26d58ec, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
@@ -112,7 +112,7 @@ public:
   float_t ___eb;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

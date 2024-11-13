@@ -25,21 +25,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE InputFieldSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::InputFieldView>> {
 public:
   // Declarations
-  /// @brief Method HandleInputFieldSelectionStateDidChange, addr 0x4461db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFieldSelectionStateDidChange, addr 0x44764cc, size 0x8, virtual false, abstract: false, final false
   inline void HandleInputFieldSelectionStateDidChange(::HMUI::__InputFieldView__SelectionState state);
 
   static inline ::GlobalNamespace::InputFieldSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x4461d24, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x447643c, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4461b90, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x44762a8, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveSelectionState, addr 0x4461c38, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ResolveSelectionState, addr 0x4476350, size 0xec, virtual false, abstract: false, final false
   inline void ResolveSelectionState(::HMUI::__InputFieldView__SelectionState state, bool animated);
 
-  /// @brief Method .ctor, addr 0x4461dbc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44764d4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   InputFieldSelectableStateController(InputFieldSelectableStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18126 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

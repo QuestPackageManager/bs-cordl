@@ -31,15 +31,15 @@ public:
   /// @brief Field _boundSingletons, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__boundSingletons, put = __cordl_internal_set__boundSingletons)) ::System::Collections::Generic::HashSet_1<::System::Type*>* _boundSingletons;
 
-  /// @brief Method MarkNonSingleton, addr 0x4adb9f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method MarkNonSingleton, addr 0x4af0108, size 0xac, virtual false, abstract: false, final false
   inline void MarkNonSingleton(::System::Type* type);
 
-  /// @brief Method MarkSingleton, addr 0x4adba9c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method MarkSingleton, addr 0x4af01b4, size 0xd4, virtual false, abstract: false, final false
   inline void MarkSingleton(::System::Type* type);
 
   static inline ::Zenject::Internal::SingletonMarkRegistry* New_ctor();
 
-  /// @brief Method Unmark, addr 0x4adbb70, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Unmark, addr 0x4af0288, size 0x6c, virtual false, abstract: false, final false
   inline void Unmark(::System::Type* type);
 
   constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& __cordl_internal_get__boundNonSingletons();
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__boundSingletons(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
 
-  /// @brief Method .ctor, addr 0x4adbbdc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af02f4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,7 +78,7 @@ public:
   ::System::Collections::Generic::HashSet_1<::System::Type*>* ____boundNonSingletons;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12667 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12672 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

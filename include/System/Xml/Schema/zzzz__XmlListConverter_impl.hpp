@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlListConverter::*)(::System::Xml::Schema::XmlBaseConverter*)>(
     &::System::Xml::Schema::XmlListConverter::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x42791b4;
+  constexpr static std::size_t addrs = 0x428d8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlListConverter::*)(::System::Xml::Schema::XmlBaseConverter*, ::System::Type*)>(
     &::System::Xml::Schema::XmlListConverter::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x426f1f8;
+  constexpr static std::size_t addrs = 0x4283910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlListConverter::*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::XmlListConverter::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x426f104;
+  constexpr static std::size_t addrs = 0x428381c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlValueConverter* (*)(::System::Xml::Schema::XmlValueConverter*)>(
     &::System::Xml::Schema::XmlListConverter::Create)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x42795b8;
+  constexpr static std::size_t addrs = 0x428dcd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::XmlListConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlListConverter::ChangeType)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4279764;
+  constexpr static std::size_t addrs = 0x428de7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::XmlListConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlListConverter::ChangeListType)> {
   constexpr static std::size_t size = 0xdf8;
-  constexpr static std::size_t addrs = 0x4274ec8;
+  constexpr static std::size_t addrs = 0x42895e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlListConverter::*)(::System::Type*)>(
     &::System::Xml::Schema::XmlListConverter::IsListType)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x4279864;
+  constexpr static std::size_t addrs = 0x428df7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (
     ::System::Xml::Schema::XmlListConverter::*)(::System::Object*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlListConverter::ToList)> {
   constexpr static std::size_t size = 0x64c;
-  constexpr static std::size_t addrs = 0x427a0b8;
+  constexpr static std::size_t addrs = 0x428e7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::System::Xml::Schema::XmlListConverter::*)(::StringW)>(
     &::System::Xml::Schema::XmlListConverter::StringAsList)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x427a010;
+  constexpr static std::size_t addrs = 0x428e728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlListConverter::*)(
     ::System::Collections::IEnumerable*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlListConverter::ListAsString)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x4279c58;
+  constexpr static std::size_t addrs = 0x428e370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::Schema::XmlListConverter::*)(::System::Type*, ::System::Type*)>(
     &::System::Xml::Schema::XmlListConverter::CreateInvalidClrMappingException)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x42799f4;
+  constexpr static std::size_t addrs = 0x428e10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlListConverter*>::get(),

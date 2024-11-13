@@ -123,36 +123,36 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::IClipper"
   constexpr operator ::UnityEngine::UI::IClipper*() noexcept;
 
-  /// @brief Method AddClippable, addr 0x4a47ae8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddClippable, addr 0x4a5c200, size 0x114, virtual false, abstract: false, final false
   inline void AddClippable(::UnityEngine::UI::IClippable* clippable);
 
-  /// @brief Method IsRaycastLocationValid, addr 0x4a46dfc, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method IsRaycastLocationValid, addr 0x4a5b514, size 0xdc, virtual true, abstract: false, final false
   inline bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
   static inline ::UnityEngine::UI::RectMask2D* New_ctor();
 
-  /// @brief Method OnCanvasHierarchyChanged, addr 0x4a47dc0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasHierarchyChanged, addr 0x4a5c4d8, size 0x24, virtual true, abstract: false, final false
   inline void OnCanvasHierarchyChanged();
 
-  /// @brief Method OnDestroy, addr 0x4a46ddc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x4a5b4f4, size 0x20, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x4a46d0c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4a5b424, size 0xd0, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4a46cd8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4a5b3f0, size 0x34, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTransformParentChanged, addr 0x4a47d9c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x4a5c4b4, size 0x24, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method PerformClipping, addr 0x4a46fd4, size 0x81c, virtual true, abstract: false, final false
+  /// @brief Method PerformClipping, addr 0x4a5b6ec, size 0x81c, virtual true, abstract: false, final false
   inline void PerformClipping();
 
-  /// @brief Method RemoveClippable, addr 0x4a47bfc, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method RemoveClippable, addr 0x4a5c314, size 0x1a0, virtual false, abstract: false, final false
   inline void RemoveClippable(::UnityEngine::UI::IClippable* clippable);
 
-  /// @brief Method UpdateClipSoftness, addr 0x4a477f0, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method UpdateClipSoftness, addr 0x4a5bf08, size 0x2f8, virtual true, abstract: false, final false
   inline void UpdateClipSoftness();
 
   constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get_m_Canvas() const;
@@ -227,25 +227,25 @@ public:
 
   constexpr void __cordl_internal_set_m_VertexClipper(::UnityEngine::UI::RectangularVertexClipper* value);
 
-  /// @brief Method .ctor, addr 0x4a46b74, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a5b28c, size 0x164, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Canvas, addr 0x4a46978, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method get_Canvas, addr 0x4a5b090, size 0x160, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Canvas> get_Canvas();
 
-  /// @brief Method get_canvasRect, addr 0x4a46ad8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_canvasRect, addr 0x4a5b1f0, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_canvasRect();
 
-  /// @brief Method get_padding, addr 0x4a4693c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_padding, addr 0x4a5b054, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_padding();
 
-  /// @brief Method get_rectTransform, addr 0x4a46b1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x4a5b234, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_rootCanvasRect, addr 0x4a46ed8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_rootCanvasRect, addr 0x4a5b5f0, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_rootCanvasRect();
 
-  /// @brief Method get_softness, addr 0x4a46958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_softness, addr 0x4a5b070, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int get_softness();
 
   /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
@@ -254,10 +254,10 @@ public:
   /// @brief Convert to "::UnityEngine::UI::IClipper"
   constexpr ::UnityEngine::UI::IClipper* i___UnityEngine__UI__IClipper() noexcept;
 
-  /// @brief Method set_padding, addr 0x4a46948, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_padding, addr 0x4a5b060, size 0x10, virtual false, abstract: false, final false
   inline void set_padding(::UnityEngine::Vector4 value);
 
-  /// @brief Method set_softness, addr 0x4a46960, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_softness, addr 0x4a5b078, size 0x18, virtual false, abstract: false, final false
   inline void set_softness(::UnityEngine::Vector2Int value);
 
 protected:
@@ -311,7 +311,7 @@ public:
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ___m_Corners;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15083 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

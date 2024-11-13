@@ -20,10 +20,10 @@ namespace System::Buffers {
 class CORDL_TYPE Utilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMaxSizeForBucket, addr 0x3d54028, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSizeForBucket, addr 0x3d686b8, size 0xc, virtual false, abstract: false, final false
   static inline int32_t GetMaxSizeForBucket(int32_t binIndex);
 
-  /// @brief Method SelectBucketIndex, addr 0x3d53fac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SelectBucketIndex, addr 0x3d6863c, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t SelectBucketIndex(int32_t bufferSize);
 
 protected:

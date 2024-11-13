@@ -32,10 +32,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__MouseCaptureOutEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49a8c58, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49bd370, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseCaptureOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49a8c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bd368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__MouseCaptureOutEvent____c* getStaticF___9();
@@ -57,7 +57,7 @@ public:
   __MouseCaptureOutEvent____c(__MouseCaptureOutEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5760 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -77,7 +77,7 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseCaptureOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49a8bac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bd2c4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   MouseCaptureOutEvent(MouseCaptureOutEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5761 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Glyph* (*)(::TMPro::TMP_Glyph*)>(&::TMPro::TMP_Glyph::Clone)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x475d24c;
+  constexpr static std::size_t addrs = 0x4771964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Glyph::*)()>(&::TMPro::TMP_Glyph::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x475d2c8;
+  constexpr static std::size_t addrs = 0x47719e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Glyph*>::get(), ".ctor",

@@ -69,7 +69,7 @@ public:
                                                                                          ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                                                                                          ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
-  /// @brief Method Tick, addr 0x2219194, size 0x558, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x2221c48, size 0x558, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction*& __cordl_internal_get__avatarPoseRestriction();
@@ -102,14 +102,14 @@ public:
 
   constexpr void __cordl_internal_set_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
-  /// @brief Method .ctor, addr 0x2219158, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2221c0c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                     ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
-  /// @brief Method add_poseDidChangeEvent, addr 0x2218ff8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_poseDidChangeEvent, addr 0x2221aac, size 0xb0, virtual true, abstract: false, final true
   inline void add_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
-  /// @brief Method get_currentPose, addr 0x2218fe8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_currentPose, addr 0x2221a9c, size 0x10, virtual true, abstract: false, final true
   inline ::BeatSaber::AvatarCore::AvatarPoseData get_currentPose();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
@@ -118,7 +118,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_poseDidChangeEvent, addr 0x22190a8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_poseDidChangeEvent, addr 0x2221b5c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
 protected:
@@ -151,7 +151,7 @@ public:
   ::BeatSaber::AvatarCore::AvatarPoseData ____currentPose;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17524 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

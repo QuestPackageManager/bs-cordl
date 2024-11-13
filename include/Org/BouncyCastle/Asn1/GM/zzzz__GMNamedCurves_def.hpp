@@ -62,12 +62,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x22ea15c, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x22f5204, size 0x1c8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::GM::__GMNamedCurves__SM2P256V1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ea154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f51fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -108,12 +108,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x22ea388, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x22f5430, size 0x1c8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::GM::__GMNamedCurves__WapiP192V1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ea380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f5428, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -164,33 +164,33 @@ public:
   /// @brief Field objIds, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds)) ::System::Collections::IDictionary* objIds;
 
-  /// @brief Method ConfigureBasepoint, addr 0x22e9730, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ConfigureBasepoint, addr 0x22f47d8, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
 
-  /// @brief Method ConfigureCurve, addr 0x22e9820, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCurve, addr 0x22f48c8, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
-  /// @brief Method DefineCurve, addr 0x22e98bc, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method DefineCurve, addr 0x22f4964, size 0x210, virtual false, abstract: false, final false
   static inline void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
 
-  /// @brief Method FromHex, addr 0x22e9824, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x22f48cc, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method GetByName, addr 0x22e9c4c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x22f4cf4, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0x22e9e20, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x22f4ec8, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetName, addr 0x22e9f4c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x22f4ff4, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0x22e9ccc, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x22f4d74, size 0x154, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::GM::GMNamedCurves* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e9728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f47d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_curves();
@@ -199,7 +199,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_objIds();
 
-  /// @brief Method get_Names, addr 0x22ea04c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x22f50f4, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   static inline void setStaticF_curves(::System::Collections::IDictionary* value);

@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlDownloadManager____c__DisplayClass4_0::*)()>(
     &::System::Xml::__XmlDownloadManager____c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e74a4;
+  constexpr static std::size_t addrs = 0x42fbbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Xml::__XmlDownloadManager____c__DisplayClass4_0::*)()>(
     &::System::Xml::__XmlDownloadManager____c__DisplayClass4_0::_GetStreamAsync_b__0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x42e75bc;
+  constexpr static std::size_t addrs = 0x42fbcd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlDownloadManager___GetNonFileStreamAsync_d__5::*)()>(
     &::System::Xml::__XmlDownloadManager___GetNonFileStreamAsync_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x790;
-  constexpr static std::size_t addrs = 0x42e7648;
+  constexpr static std::size_t addrs = 0x42fbd60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__XmlDownloadManager___GetNonFileStreamAsync_d__5::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Xml::__XmlDownloadManager___GetNonFileStreamAsync_d__5::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42e7dd8;
+  constexpr static std::size_t addrs = 0x42fc4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,7 +154,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IO::Stream* (::System::Xml::XmlDownloadManager::*)(::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*)>(
         &::System::Xml::XmlDownloadManager::GetStream)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x42e6a7c;
+  constexpr static std::size_t addrs = 0x42fb194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IO::Stream* (::System::Xml::XmlDownloadManager::*)(::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*)>(
         &::System::Xml::XmlDownloadManager::GetNonFileStream)> {
   constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x42e6b7c;
+  constexpr static std::size_t addrs = 0x42fb294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlDownloadManager::*)(::StringW)>(&::System::Xml::XmlDownloadManager::Remove)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x42e71d8;
+  constexpr static std::size_t addrs = 0x42fb8f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::XmlDownloadManager::*)(::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*)>(
     &::System::Xml::XmlDownloadManager::GetStreamAsync)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x42e7344;
+  constexpr static std::size_t addrs = 0x42fba5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,7 +225,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::XmlDownloadManager::*)(::System::Uri*, ::System::Net::ICredentials*, ::System::Net::IWebProxy*, ::System::Net::Cache::RequestCachePolicy*)>(
     &::System::Xml::XmlDownloadManager::GetNonFileStreamAsync)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x42e74ac;
+  constexpr static std::size_t addrs = 0x42fbbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlDownloadManager::*)()>(&::System::Xml::XmlDownloadManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e75b4;
+  constexpr static std::size_t addrs = 0x42fbccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlDownloadManager*>::get(), ".ctor",

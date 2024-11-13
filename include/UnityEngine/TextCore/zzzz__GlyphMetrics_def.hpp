@@ -40,31 +40,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>*();
 
-  /// @brief Method Equals, addr 0x48a5b48, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48ba260, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48a5bc8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48ba2e0, size 0xa4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::GlyphMetrics other);
 
-  /// @brief Method GetHashCode, addr 0x48a5adc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48ba1f4, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x48a5acc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ba1e4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t width, float_t height, float_t bearingX, float_t bearingY, float_t advance);
 
-  /// @brief Method get_height, addr 0x48a5aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x48ba1c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_horizontalAdvance, addr 0x48a5ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalAdvance, addr 0x48ba1dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_horizontalAdvance();
 
-  /// @brief Method get_horizontalBearingX, addr 0x48a5ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalBearingX, addr 0x48ba1cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_horizontalBearingX();
 
-  /// @brief Method get_horizontalBearingY, addr 0x48a5abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalBearingY, addr 0x48ba1d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_horizontalBearingY();
 
-  /// @brief Method get_width, addr 0x48a5aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x48ba1bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>"
@@ -95,7 +95,7 @@ public:
   float_t m_HorizontalAdvance;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18091 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

@@ -28,7 +28,7 @@ template <typename TReturn> constexpr ::cordl_internals::to_const_pointer<::Syst
 }
 template <typename TReturn> constexpr void Zenject::MethodProviderSimple_1<TReturn>::__cordl_internal_set__method(::System::Func_1<TReturn>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____method, value);
 }
 template <typename TReturn> inline ::Zenject::MethodProviderSimple_1<TReturn>* Zenject::MethodProviderSimple_1<TReturn>::New_ctor(::System::Func_1<TReturn>* method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MethodProviderSimple_1<TReturn>*>(method));

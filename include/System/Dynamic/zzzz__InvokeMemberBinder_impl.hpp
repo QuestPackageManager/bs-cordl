@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Dynamic::InvokeMemberBinder::*)()>(&::System::Dynamic::InvokeMemberBinder::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408b2dc;
+  constexpr static std::size_t addrs = 0x409f9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::InvokeMemberBinder*>::get(), "get_Name",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::InvokeMemberBinder::*)()>(&::System::Dynamic::InvokeMemberBinder::get_IgnoreCase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408b2e4;
+  constexpr static std::size_t addrs = 0x409f9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::InvokeMemberBinder*>::get(), "get_IgnoreCase",
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::InvokeMemberBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::InvokeMemberBinder::Bind)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x408b2ec;
+  constexpr static std::size_t addrs = 0x409fa04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::InvokeMemberBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::InvokeMemberBinder::FallbackInvokeMember)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4089e28;
+  constexpr static std::size_t addrs = 0x409e540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

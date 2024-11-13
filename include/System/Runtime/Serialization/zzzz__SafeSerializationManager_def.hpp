@@ -71,10 +71,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CompleteDeserialization, addr 0x3c867f4, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method CompleteDeserialization, addr 0x3c9ae84, size 0x39c, virtual false, abstract: false, final false
   inline void CompleteDeserialization(::System::Object* deserializedObject);
 
-  /// @brief Method CompleteSerialization, addr 0x3c864d0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CompleteSerialization, addr 0x3c9ab60, size 0x174, virtual false, abstract: false, final false
   inline void CompleteSerialization(::System::Object* serializedObject, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::Serialization::SafeSerializationManager* New_ctor();
@@ -82,13 +82,13 @@ public:
   static inline ::System::Runtime::Serialization::SafeSerializationManager* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                      ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserialized, addr 0x3c86ef4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x3c9b584, size 0x9c, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.IObjectReference.GetRealObject, addr 0x3c86c40, size 0x2b4, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IObjectReference.GetRealObject, addr 0x3c9b2d0, size 0x2b4, virtual true, abstract: false, final true
   inline ::System::Object* System_Runtime_Serialization_IObjectReference_GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x3c86b90, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x3c9b220, size 0xb0, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*& __cordl_internal_get_SerializeObjectState();
@@ -121,13 +121,13 @@ public:
 
   constexpr void __cordl_internal_set_m_serializedStates(::System::Collections::Generic::IList_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3c85fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9a654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c85fcc, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9a65c, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_IsActive, addr 0x3c864c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsActive, addr 0x3c9ab50, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsActive();
 
   /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"

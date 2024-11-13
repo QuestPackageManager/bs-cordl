@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNodeType (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_Tag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fde0a8;
+  constexpr static std::size_t addrs = 0x3ff2738;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::__JSONNode__Enumerator (::OVRSimpleJSON::JSONLazyCreator::*)()>(
     &::OVRSimpleJSON::JSONLazyCreator::GetEnumerator)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3fde0b0;
+  constexpr static std::size_t addrs = 0x3ff2740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(::OVRSimpleJSON::JSONNode*)>(&::OVRSimpleJSON::JSONLazyCreator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3fdbc10;
+  constexpr static std::size_t addrs = 0x3ff02a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(::OVRSimpleJSON::JSONNode*, ::StringW)>(
     &::OVRSimpleJSON::JSONLazyCreator::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3fdc754;
+  constexpr static std::size_t addrs = 0x3ff0de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONLazyCreator::*)(int32_t)>(
     &::OVRSimpleJSON::JSONLazyCreator::get_Item)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fde0c4;
+  constexpr static std::size_t addrs = 0x3ff2754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(int32_t, ::OVRSimpleJSON::JSONNode*)>(
     &::OVRSimpleJSON::JSONLazyCreator::set_Item)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3fde120;
+  constexpr static std::size_t addrs = 0x3ff27b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONLazyCreator::*)(::StringW)>(
     &::OVRSimpleJSON::JSONLazyCreator::get_Item)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3fde1b8;
+  constexpr static std::size_t addrs = 0x3ff2848;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(::StringW, ::OVRSimpleJSON::JSONNode*)>(
     &::OVRSimpleJSON::JSONLazyCreator::set_Item)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3fde220;
+  constexpr static std::size_t addrs = 0x3ff28b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(::OVRSimpleJSON::JSONNode*)>(&::OVRSimpleJSON::JSONLazyCreator::Add)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3fde2c8;
+  constexpr static std::size_t addrs = 0x3ff2958;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(::StringW, ::OVRSimpleJSON::JSONNode*)>(
     &::OVRSimpleJSON::JSONLazyCreator::Add)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3fde360;
+  constexpr static std::size_t addrs = 0x3ff29f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::OVRSimpleJSON::JSONLazyCreator*, ::System::Object*)>(&::OVRSimpleJSON::JSONLazyCreator::op_Equality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fde408;
+  constexpr static std::size_t addrs = 0x3ff2a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::OVRSimpleJSON::JSONLazyCreator*, ::System::Object*)>(&::OVRSimpleJSON::JSONLazyCreator::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fde420;
+  constexpr static std::size_t addrs = 0x3ff2ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::JSONLazyCreator::*)(::System::Object*)>(&::OVRSimpleJSON::JSONLazyCreator::Equals)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fde438;
+  constexpr static std::size_t addrs = 0x3ff2ac8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fde450;
+  constexpr static std::size_t addrs = 0x3ff2ae0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsInt)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3fde458;
+  constexpr static std::size_t addrs = 0x3ff2ae8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(int32_t)>(&::OVRSimpleJSON::JSONLazyCreator::set_AsInt)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3fde4e0;
+  constexpr static std::size_t addrs = 0x3ff2b70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsFloat)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3fde570;
+  constexpr static std::size_t addrs = 0x3ff2c00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(float_t)>(&::OVRSimpleJSON::JSONLazyCreator::set_AsFloat)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3fde5f8;
+  constexpr static std::size_t addrs = 0x3ff2c88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsDouble)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3fde688;
+  constexpr static std::size_t addrs = 0x3ff2d18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(double_t)>(&::OVRSimpleJSON::JSONLazyCreator::set_AsDouble)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3fde710;
+  constexpr static std::size_t addrs = 0x3ff2da0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsLong)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3fde79c;
+  constexpr static std::size_t addrs = 0x3ff2e2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(int64_t)>(&::OVRSimpleJSON::JSONLazyCreator::set_AsLong)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3fde89c;
+  constexpr static std::size_t addrs = 0x3ff2f2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsBool)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3fde9d8;
+  constexpr static std::size_t addrs = 0x3ff3068;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(bool)>(&::OVRSimpleJSON::JSONLazyCreator::set_AsBool)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3fdea60;
+  constexpr static std::size_t addrs = 0x3ff30f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONArray* (::OVRSimpleJSON::JSONLazyCreator::*)()>(
     &::OVRSimpleJSON::JSONLazyCreator::get_AsArray)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3fdeae8;
+  constexpr static std::size_t addrs = 0x3ff3178;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONObject* (::OVRSimpleJSON::JSONLazyCreator::*)()>(
     &::OVRSimpleJSON::JSONLazyCreator::get_AsObject)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3fdeb60;
+  constexpr static std::size_t addrs = 0x3ff31f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(::System::Text::StringBuilder*, int32_t, int32_t, ::OVRSimpleJSON::JSONTextMode)>(&::OVRSimpleJSON::JSONLazyCreator::WriteToStringBuilder)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3fdebd8;
+  constexpr static std::size_t addrs = 0x3ff3268;
 
   inline static ::MethodInfo const* methodInfo() {
 

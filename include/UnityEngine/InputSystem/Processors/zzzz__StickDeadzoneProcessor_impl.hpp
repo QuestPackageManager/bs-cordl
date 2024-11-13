@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::get_minOrDefault)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x45a2434;
+  constexpr static std::size_t addrs = 0x45b6b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::get_maxOrDefault)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x45a24a4;
+  constexpr static std::size_t addrs = 0x45b6bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::*)(
     ::UnityEngine::Vector2, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::Process)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x45a2514;
+  constexpr static std::size_t addrs = 0x45b6c2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::*)(float_t)>(
     &::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::GetDeadZoneAdjustedValue)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x45a25e4;
+  constexpr static std::size_t addrs = 0x45b6cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::ToString)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x45a264c;
+  constexpr static std::size_t addrs = 0x45b6d64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45a26f4;
+  constexpr static std::size_t addrs = 0x45b6e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

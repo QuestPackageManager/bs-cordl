@@ -64,28 +64,28 @@ public:
   /// @brief Field <Type>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::System::Type* _Type_k__BackingField;
 
-  /// @brief Method Accept, addr 0x4046308, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x405aa20, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method FunctionalOp, addr 0x404718c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method FunctionalOp, addr 0x405b8a4, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::UnaryExpression* FunctionalOp(::System::Linq::Expressions::Expression* operand);
 
   static inline ::System::Linq::Expressions::UnaryExpression* New_ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* expression, ::System::Type* type,
                                                                        ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Reduce, addr 0x4046358, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Reduce, addr 0x405aa70, size 0x70, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Reduce();
 
-  /// @brief Method ReduceIndex, addr 0x40463c8, size 0x5d4, virtual false, abstract: false, final false
+  /// @brief Method ReduceIndex, addr 0x405aae0, size 0x5d4, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* ReduceIndex();
 
-  /// @brief Method ReduceMember, addr 0x404699c, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method ReduceMember, addr 0x405b0b4, size 0x4e4, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* ReduceMember();
 
-  /// @brief Method ReduceVariable, addr 0x4046e80, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ReduceVariable, addr 0x405b598, size 0x2c8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* ReduceVariable();
 
-  /// @brief Method Update, addr 0x4041cc8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x40563e0, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::UnaryExpression* Update(::System::Linq::Expressions::Expression* operand);
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get__Method_k__BackingField();
@@ -112,31 +112,31 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4045fb0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405a6c8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* expression, ::System::Type* type, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method get_CanReduce, addr 0x4046334, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_CanReduce, addr 0x405aa4c, size 0x24, virtual true, abstract: false, final false
   inline bool get_CanReduce();
 
-  /// @brief Method get_IsLifted, addr 0x4046058, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method get_IsLifted, addr 0x405a770, size 0x224, virtual false, abstract: false, final false
   inline bool get_IsLifted();
 
-  /// @brief Method get_IsLiftedToNull, addr 0x404627c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_IsLiftedToNull, addr 0x405a994, size 0x8c, virtual false, abstract: false, final false
   inline bool get_IsLiftedToNull();
 
-  /// @brief Method get_IsPrefix, addr 0x4047148, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_IsPrefix, addr 0x405b860, size 0x44, virtual false, abstract: false, final false
   inline bool get_IsPrefix();
 
-  /// @brief Method get_Method, addr 0x4046050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x405a768, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Method();
 
-  /// @brief Method get_NodeType, addr 0x4046040, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x405a758, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Operand, addr 0x4046048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Operand, addr 0x405a760, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Operand();
 
-  /// @brief Method get_Type, addr 0x4046038, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x405a750, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -166,7 +166,7 @@ public:
   ::System::Reflection::MethodInfo* ____Method_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13702 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

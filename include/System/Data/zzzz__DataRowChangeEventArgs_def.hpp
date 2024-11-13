@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__Row_k__BackingField(::System::Data::DataRow* value);
 
-  /// @brief Method .ctor, addr 0x40ef73c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4103e54, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* row, ::System::Data::DataRowAction action);
 
 protected:
@@ -70,7 +70,7 @@ public:
   ::System::Data::DataRowAction ____Action_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11353 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

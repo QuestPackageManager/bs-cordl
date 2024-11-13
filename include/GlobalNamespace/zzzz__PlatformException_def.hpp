@@ -40,6 +40,7 @@ public:
     __E_PlatformNotInstalled = static_cast<int32_t>(0x0),
     __E_PlatformInitialization = static_cast<int32_t>(0x1),
     __E_PlatformUserEntitlement = static_cast<int32_t>(0x2),
+    __E_InvalidPlatformVersion = static_cast<int32_t>(0x3),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -62,6 +63,9 @@ public:
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
+  /// @brief Field InvalidPlatformVersion value: static_cast<int32_t>(0x3)
+  static ::GlobalNamespace::__PlatformException__ErrorType const InvalidPlatformVersion;
+
   /// @brief Field PlatformInitialization value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlatformException__ErrorType const PlatformInitialization;
 
@@ -72,7 +76,7 @@ public:
   static ::GlobalNamespace::__PlatformException__ErrorType const PlatformUserEntitlement;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18667 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -127,10 +131,10 @@ public:
 
   constexpr void __cordl_internal_set_httpCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4009738, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401de50, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, int32_t code, int32_t httpCode, ::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x4009724, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401de3c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, ::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -157,7 +161,7 @@ public:
   int32_t ___httpCode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18668 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

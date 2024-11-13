@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::GlobalNamespace::Vector2Extensions::SignedAngleToLine)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x2275ee8;
+  constexpr static std::size_t addrs = 0x2280f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::GlobalNamespace::Vector2Extensions::Clamp)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x227609c;
+  constexpr static std::size_t addrs = 0x22810e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::Rect)>(
     &::GlobalNamespace::Vector2Extensions::Clamp)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22760c0;
+  constexpr static std::size_t addrs = 0x2281104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

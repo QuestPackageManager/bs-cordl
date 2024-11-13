@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::Init)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x264d424;
+  constexpr static std::size_t addrs = 0x26584cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::GetFieldSize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x264d55c;
+  constexpr static std::size_t addrs = 0x2658604;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
     ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::CalculateAgreement)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x264d5a0;
+  constexpr static std::size_t addrs = 0x2658648;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264d80c;
+  constexpr static std::size_t addrs = 0x26588b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*>::get(),

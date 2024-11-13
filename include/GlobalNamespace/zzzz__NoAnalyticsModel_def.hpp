@@ -35,33 +35,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
   constexpr operator ::GlobalNamespace::IAnalyticsModel*() noexcept;
 
-  /// @brief Method LogClick, addr 0x220b748, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogClick, addr 0x2214750, size 0x4, virtual true, abstract: false, final true
   inline void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-  /// @brief Method LogEditAvatarEvent, addr 0x220b73c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogEditAvatarEvent, addr 0x2214744, size 0x4, virtual true, abstract: false, final true
   inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogEvent, addr 0x220b744, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogEvent, addr 0x221474c, size 0x4, virtual true, abstract: false, final true
   inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogExposure, addr 0x220b750, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogExposure, addr 0x2214758, size 0x4, virtual true, abstract: false, final true
   inline void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
 
-  /// @brief Method LogImpression, addr 0x220b74c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogImpression, addr 0x2214754, size 0x4, virtual true, abstract: false, final true
   inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
 
-  /// @brief Method LogSessionEvent, addr 0x220b740, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogSessionEvent, addr 0x2214748, size 0x4, virtual true, abstract: false, final true
   inline void LogSessionEvent(::GlobalNamespace::BeatSaberSessionEventType eventType, int32_t _);
 
   static inline ::GlobalNamespace::NoAnalyticsModel* New_ctor();
 
-  /// @brief Method OpenDataPrivacyPage, addr 0x220b738, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OpenDataPrivacyPage, addr 0x2214740, size 0x4, virtual true, abstract: false, final true
   inline void OpenDataPrivacyPage();
 
-  /// @brief Method .ctor, addr 0x220b754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x221475c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0x220b730, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0x2214738, size 0x8, virtual true, abstract: false, final true
   inline bool get_supportsOpenDataPrivacyPage();
 
   /// @brief Convert to "::GlobalNamespace::IAnalyticsModel"
@@ -82,7 +82,7 @@ public:
   NoAnalyticsModel(NoAnalyticsModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19029 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

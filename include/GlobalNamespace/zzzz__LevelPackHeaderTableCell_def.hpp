@@ -46,18 +46,18 @@ public:
   /// @brief Field _selectedBackgroundColor, offset 0x88, size 0x10
   __declspec(property(get = __cordl_internal_get__selectedBackgroundColor, put = __cordl_internal_set__selectedBackgroundColor)) ::UnityEngine::Color _selectedBackgroundColor;
 
-  /// @brief Method HighlightDidChange, addr 0x3b8376c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3b99334, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::LevelPackHeaderTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x3b836d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3b99298, size 0x9c, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3b836cc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3b99294, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method SetData, addr 0x3b836a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b99270, size 0x24, virtual false, abstract: false, final false
   inline void SetData(::StringW headerText);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedBackgroundColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3b83770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b99338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,7 +123,7 @@ public:
   ::UnityEngine::Color ____selectedAndHighlightedBackgroundColor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

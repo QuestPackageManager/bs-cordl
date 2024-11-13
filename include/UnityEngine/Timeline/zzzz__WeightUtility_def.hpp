@@ -23,7 +23,7 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE WeightUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NormalizeMixer, addr 0x47b982c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method NormalizeMixer, addr 0x47cdf44, size 0x194, virtual false, abstract: false, final false
   static inline float_t NormalizeMixer(::UnityEngine::Playables::Playable mixer);
 
 protected:
@@ -41,7 +41,7 @@ public:
   WeightUtility(WeightUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15867 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

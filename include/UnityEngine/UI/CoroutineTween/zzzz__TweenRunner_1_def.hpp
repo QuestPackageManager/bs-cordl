@@ -150,7 +150,7 @@ public:
   float_t ____elapsedTime_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15132 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -224,7 +224,7 @@ public:
   ::System::Collections::IEnumerator* ___m_Tween;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

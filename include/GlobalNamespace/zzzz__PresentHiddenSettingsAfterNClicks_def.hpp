@@ -54,13 +54,13 @@ public:
 
   static inline ::GlobalNamespace::PresentHiddenSettingsAfterNClicks* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3ae3234, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3af6f40, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3ae319c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3af6ea8, size 0x98, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method <OnEnable>b__6_0, addr 0x3ae32b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__6_0, addr 0x3af6fc4, size 0x48, virtual false, abstract: false, final false
   inline void _OnEnable_b__6_0();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsFlowCoordinator(::UnityW<::GlobalNamespace::SettingsFlowCoordinator> value);
 
-  /// @brief Method .ctor, addr 0x3ae3250, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af6f5c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,7 +135,7 @@ public:
   ::HMUI::ButtonBinder* ____buttonBinder;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5299 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x3aa9468, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abd004, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> poses, float_t time);
 
 protected:
@@ -90,7 +90,7 @@ public:
   float_t ___time;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5077 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -159,10 +159,10 @@ public:
 
   constexpr void __cordl_internal_set_nearOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3aa6f58, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abaaf4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Camera* camera);
 
-  /// @brief Method .ctor, addr 0x3aa967c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abd218, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
 protected:
@@ -195,7 +195,7 @@ public:
   float_t ___nearOffset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5078 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -236,10 +236,10 @@ public:
   /// @brief Field objectIds, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_objectIds, put = __cordl_internal_set_objectIds)) ::ArrayW<::StringW, ::Array<::StringW>*> objectIds;
 
-  /// @brief Method AddKeyframe, addr 0x3aa94a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddKeyframe, addr 0x3abd03c, size 0xa4, virtual false, abstract: false, final false
   inline void AddKeyframe(::GlobalNamespace::__PosesRecordingData__TransformsKeyframe* keyframe);
 
-  /// @brief Method Contains, addr 0x3aa6ed4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3abaa70, size 0x58, virtual false, abstract: false, final false
   inline bool Contains(::StringW objectId);
 
   static inline ::GlobalNamespace::PosesRecordingData* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds,
@@ -249,7 +249,7 @@ public:
                                                                 ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* keyframes,
                                                                 ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
 
-  /// @brief Method ObjectIndex, addr 0x3aa9624, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ObjectIndex, addr 0x3abd1c0, size 0x58, virtual false, abstract: false, final false
   inline int32_t ObjectIndex(::StringW objectId);
 
   constexpr ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*& __cordl_internal_get_externalCameraCalibration();
@@ -270,10 +270,10 @@ public:
 
   constexpr void __cordl_internal_set_objectIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x3aa93d4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abcf70, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
 
-  /// @brief Method .ctor, addr 0x3aa95e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abd184, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* keyframes,
                     ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
 
@@ -301,7 +301,7 @@ public:
   ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* ___externalCameraCalibration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5079 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

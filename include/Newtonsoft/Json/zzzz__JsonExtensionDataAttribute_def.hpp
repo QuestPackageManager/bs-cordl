@@ -43,19 +43,19 @@ public:
 
   constexpr void __cordl_internal_set__WriteData_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3e062fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e1a98c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReadData, addr 0x3e062e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadData, addr 0x3e1a978, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadData();
 
-  /// @brief Method get_WriteData, addr 0x3e062d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WriteData, addr 0x3e1a964, size 0x8, virtual false, abstract: false, final false
   inline bool get_WriteData();
 
-  /// @brief Method set_ReadData, addr 0x3e062f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ReadData, addr 0x3e1a980, size 0xc, virtual false, abstract: false, final false
   inline void set_ReadData(bool value);
 
-  /// @brief Method set_WriteData, addr 0x3e062dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_WriteData, addr 0x3e1a96c, size 0xc, virtual false, abstract: false, final false
   inline void set_WriteData(bool value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   bool ____ReadData_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10035 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10040 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

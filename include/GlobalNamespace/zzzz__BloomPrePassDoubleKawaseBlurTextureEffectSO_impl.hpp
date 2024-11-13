@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::*)(
     ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(&::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::Render)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x400f9e4;
+  constexpr static std::size_t addrs = 0x40240fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x400fa1c;
+  constexpr static std::size_t addrs = 0x4024134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

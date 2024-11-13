@@ -158,7 +158,7 @@ public:
   static constexpr int32_t HAPI_UV_VECTOR_SIZE{ static_cast<int32_t>(0x2) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11634 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

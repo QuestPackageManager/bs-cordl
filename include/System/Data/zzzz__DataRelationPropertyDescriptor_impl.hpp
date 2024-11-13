@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationPropertyDescriptor::*)(::System::Data::DataRelation*)>(
     &::System::Data::DataRelationPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x40ec1ec;
+  constexpr static std::size_t addrs = 0x4100904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRelation* (::System::Data::DataRelationPropertyDescriptor::*)()>(
     &::System::Data::DataRelationPropertyDescriptor::get_Relation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40ec238;
+  constexpr static std::size_t addrs = 0x4100950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataRelationPropertyDescriptor*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Data::DataRelationPropertyDescriptor::*)()>(
     &::System::Data::DataRelationPropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x40ec240;
+  constexpr static std::size_t addrs = 0x4100958;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataRelationPropertyDescriptor::*)()>(
     &::System::Data::DataRelationPropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40ec2ac;
+  constexpr static std::size_t addrs = 0x41009c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Data::DataRelationPropertyDescriptor::*)()>(
     &::System::Data::DataRelationPropertyDescriptor::get_PropertyType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x40ec2b4;
+  constexpr static std::size_t addrs = 0x41009cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataRelationPropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataRelationPropertyDescriptor::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x40ec320;
+  constexpr static std::size_t addrs = 0x4100a38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::DataRelationPropertyDescriptor::*)()>(
     &::System::Data::DataRelationPropertyDescriptor::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x40ec390;
+  constexpr static std::size_t addrs = 0x4100aa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataRelationPropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataRelationPropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40ec3b0;
+  constexpr static std::size_t addrs = 0x4100ac8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::DataRelationPropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataRelationPropertyDescriptor::GetValue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40ec3b8;
+  constexpr static std::size_t addrs = 0x4100ad0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationPropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataRelationPropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x40ec44c;
+  constexpr static std::size_t addrs = 0x4100b64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRelationPropertyDescriptor::*)(::System::Object*, ::System::Object*)>(
     &::System::Data::DataRelationPropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x40ec450;
+  constexpr static std::size_t addrs = 0x4100b68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataRelationPropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataRelationPropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40ec454;
+  constexpr static std::size_t addrs = 0x4100b6c;
 
   inline static ::MethodInfo const* methodInfo() {
 

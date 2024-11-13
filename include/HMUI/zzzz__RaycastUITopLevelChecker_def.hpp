@@ -36,7 +36,7 @@ public:
   /// @brief Field results, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_results, put = __cordl_internal_set_results)) ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* results;
 
-  /// @brief Method Awake, addr 0x3985754, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39990ac, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::HMUI::RaycastUITopLevelChecker* New_ctor();
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_results(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* value);
 
-  /// @brief Method .ctor, addr 0x39859d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3999328, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isOnTop, addr 0x39857c8, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method get_isOnTop, addr 0x3999120, size 0x208, virtual false, abstract: false, final false
   inline bool get_isOnTop();
 
 protected:
@@ -80,7 +80,7 @@ public:
   ::UnityW<::UnityEngine::Canvas> ____canvas;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16010 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

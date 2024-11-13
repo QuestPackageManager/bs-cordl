@@ -25,7 +25,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TSignal>*> cons
 }
 template <typename TSignal> constexpr void Zenject::__BindSignalToBinder_1____c__DisplayClass6_0<TSignal>::__cordl_internal_set_callback(::System::Action_1<TSignal>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___callback, value);
 }
 template <typename TSignal> inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass6_0<TSignal>* Zenject::__BindSignalToBinder_1____c__DisplayClass6_0<TSignal>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__BindSignalToBinder_1____c__DisplayClass6_0<TSignal>*>());
@@ -67,7 +67,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& Zenject:
 }
 template <typename TSignal> constexpr void Zenject::__BindSignalToBinder_1____c__DisplayClass7_0<TSignal>::__cordl_internal_set_callback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___callback, value);
 }
 template <typename TSignal> inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass7_0<TSignal>* Zenject::__BindSignalToBinder_1____c__DisplayClass7_0<TSignal>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__BindSignalToBinder_1____c__DisplayClass7_0<TSignal>*>());
@@ -112,7 +112,7 @@ Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>::__cor
 template <typename TSignal, typename TObject>
 constexpr void Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>::__cordl_internal_set_handler(::System::Action_2<TObject, TSignal>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___handler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___handler, value);
 }
 template <typename TSignal, typename TObject>
 inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>* Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>::New_ctor() {
@@ -156,7 +156,7 @@ template <typename TSignal, typename TObject> constexpr TObject const& Zenject::
 }
 template <typename TSignal, typename TObject> constexpr void Zenject::__BindSignalToBinder_1____c__DisplayClass8_1_1<TSignal, TObject>::__cordl_internal_set_x(TObject value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___x)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___x, value);
 }
 template <typename TSignal, typename TObject>
 constexpr ::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>*&
@@ -174,7 +174,7 @@ template <typename TSignal, typename TObject>
 constexpr void
 Zenject::__BindSignalToBinder_1____c__DisplayClass8_1_1<TSignal, TObject>::__cordl_internal_set_CS$__8__locals1(::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___CS$__8__locals1, value);
 }
 template <typename TSignal, typename TObject>
 inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass8_1_1<TSignal, TObject>* Zenject::__BindSignalToBinder_1____c__DisplayClass8_1_1<TSignal, TObject>::New_ctor() {
@@ -222,7 +222,7 @@ Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>::__cor
 template <typename TSignal, typename TObject>
 constexpr void Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>::__cordl_internal_set_handlerGetter(::System::Func_2<TObject, ::System::Action*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___handlerGetter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___handlerGetter, value);
 }
 template <typename TSignal, typename TObject>
 inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>* Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>::New_ctor() {
@@ -266,7 +266,7 @@ template <typename TSignal, typename TObject> constexpr TObject const& Zenject::
 }
 template <typename TSignal, typename TObject> constexpr void Zenject::__BindSignalToBinder_1____c__DisplayClass9_1_1<TSignal, TObject>::__cordl_internal_set_x(TObject value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___x)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___x, value);
 }
 template <typename TSignal, typename TObject>
 constexpr ::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>*&
@@ -284,7 +284,7 @@ template <typename TSignal, typename TObject>
 constexpr void
 Zenject::__BindSignalToBinder_1____c__DisplayClass9_1_1<TSignal, TObject>::__cordl_internal_set_CS$__8__locals1(::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___CS$__8__locals1, value);
 }
 template <typename TSignal, typename TObject>
 inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass9_1_1<TSignal, TObject>* Zenject::__BindSignalToBinder_1____c__DisplayClass9_1_1<TSignal, TObject>::New_ctor() {
@@ -328,7 +328,7 @@ template <typename TSignal> constexpr ::cordl_internals::to_const_pointer<::Zenj
 }
 template <typename TSignal> constexpr void Zenject::BindSignalToBinder_1<TSignal>::__cordl_internal_set__container(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____container, value);
 }
 template <typename TSignal> constexpr ::Zenject::BindStatement*& Zenject::BindSignalToBinder_1<TSignal>::__cordl_internal_get__bindStatement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -340,7 +340,7 @@ template <typename TSignal> constexpr ::cordl_internals::to_const_pointer<::Zenj
 }
 template <typename TSignal> constexpr void Zenject::BindSignalToBinder_1<TSignal>::__cordl_internal_set__bindStatement(::Zenject::BindStatement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindStatement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____bindStatement, value);
 }
 template <typename TSignal> constexpr ::Zenject::SignalBindingBindInfo*& Zenject::BindSignalToBinder_1<TSignal>::__cordl_internal_get__signalBindInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -353,7 +353,7 @@ constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalBindingBindInfo*>
 }
 template <typename TSignal> constexpr void Zenject::BindSignalToBinder_1<TSignal>::__cordl_internal_set__signalBindInfo(::Zenject::SignalBindingBindInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____signalBindInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____signalBindInfo, value);
 }
 template <typename TSignal>
 inline ::Zenject::BindSignalToBinder_1<TSignal>* Zenject::BindSignalToBinder_1<TSignal>::New_ctor(::Zenject::DiContainer* container, ::Zenject::SignalBindingBindInfo* signalBindInfo) {

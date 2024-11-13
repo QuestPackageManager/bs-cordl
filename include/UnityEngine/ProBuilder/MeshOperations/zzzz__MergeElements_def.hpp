@@ -64,10 +64,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c* New_ctor();
 
-  /// @brief Method <Merge>b__1_0, addr 0x4705c8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Merge>b__1_0, addr 0x471a3a4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _Merge_b__1_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x4705c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x471a39c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c* getStaticF___9();
@@ -93,7 +93,7 @@ public:
   __MergeElements____c(__MergeElements____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -114,7 +114,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <MergePairs>b__0, addr 0x4705ca4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <MergePairs>b__0, addr 0x471a3bc, size 0x64, virtual false, abstract: false, final false
   inline bool _MergePairs_b__0(::UnityEngine::ProBuilder::Face* x);
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*& __cordl_internal_get_remove();
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_remove(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* value);
 
-  /// @brief Method .ctor, addr 0x47050ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47197c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -144,7 +144,7 @@ public:
   ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ___remove;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14347 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -166,13 +166,13 @@ public:
 
   using __c__DisplayClass0_0 = ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0;
 
-  /// @brief Method CollapseCoincidentVertices, addr 0x47050b4, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method CollapseCoincidentVertices, addr 0x47197cc, size 0x4dc, virtual false, abstract: false, final false
   static inline void CollapseCoincidentVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Merge, addr 0x4705590, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method Merge, addr 0x4719ca8, size 0x374, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* Merge(::UnityEngine::ProBuilder::ProBuilderMesh* target, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method MergePairs, addr 0x4704a1c, size 0x690, virtual false, abstract: false, final false
+  /// @brief Method MergePairs, addr 0x4719134, size 0x690, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
   MergePairs(::UnityEngine::ProBuilder::ProBuilderMesh* target,
              ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>>* pairs,
@@ -193,7 +193,7 @@ public:
   MergeElements(MergeElements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

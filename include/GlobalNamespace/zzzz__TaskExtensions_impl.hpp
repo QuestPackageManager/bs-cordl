@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226091c;
+  constexpr static std::size_t addrs = 0x226b8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0::_WaitAsyncInternal_b__0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2260924;
+  constexpr static std::size_t addrs = 0x226b8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_g
 }
 template <typename T> constexpr void GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___tcs, value);
 }
 template <typename T> constexpr ::System::Threading::CancellationToken& GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_get_cancellationToken() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3::*)()>(
     &::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x930;
-  constexpr static std::size_t addrs = 0x2260978;
+  constexpr static std::size_t addrs = 0x226b92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22612a8;
+  constexpr static std::size_t addrs = 0x226c25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::Tasks::Task*, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::TaskExtensions::WaitAsync)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2260768;
+  constexpr static std::size_t addrs = 0x226b71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::Tasks::Task*, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::TaskExtensions::WaitAsyncInternal)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2260840;
+  constexpr static std::size_t addrs = 0x226b7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

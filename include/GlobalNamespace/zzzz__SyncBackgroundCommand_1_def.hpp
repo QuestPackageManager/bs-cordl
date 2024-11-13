@@ -82,7 +82,7 @@ public:
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ____taskCompletionSource;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17169 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17175 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

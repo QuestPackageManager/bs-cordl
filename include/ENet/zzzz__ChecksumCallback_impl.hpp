@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::ChecksumCallback::*)(::System::Object*, ::System::IntPtr)>(&::ENet::ChecksumCallback::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3a38fd8;
+  constexpr static std::size_t addrs = 0x3a4c930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::ENet::ChecksumCallback::*)(::System::IntPtr, int32_t)>(&::ENet::ChecksumCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a39064;
+  constexpr static std::size_t addrs = 0x3a4c9bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::ENet::ChecksumCallback::*)(::System::IntPtr, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::ENet::ChecksumCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3a39078;
+  constexpr static std::size_t addrs = 0x3a4c9d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::ENet::ChecksumCallback::*)(::System::IAsyncResult*)>(&::ENet::ChecksumCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a39130;
+  constexpr static std::size_t addrs = 0x3a4ca88;
 
   inline static ::MethodInfo const* methodInfo() {
 

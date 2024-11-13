@@ -44,16 +44,16 @@ public:
 
   constexpr void __cordl_internal_set__missionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26af118, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26baf14, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW missionId, bool cleared);
 
-  /// @brief Method get_cleared, addr 0x26b44c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cleared, addr 0x26c0284, size 0x8, virtual false, abstract: false, final false
   inline bool get_cleared();
 
-  /// @brief Method get_missionId, addr 0x26b44c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x26c027c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
-  /// @brief Method set_cleared, addr 0x26b44d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_cleared, addr 0x26c028c, size 0xc, virtual false, abstract: false, final false
   inline void set_cleared(bool value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   bool ____cleared;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13186 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13195 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

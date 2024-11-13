@@ -49,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set_membersList(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x4252dbc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42674d4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Examplar, addr 0x4252dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Examplar, addr 0x42674c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Examplar();
 
-  /// @brief Method get_Members, addr 0x4252da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x42674bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Members();
 
-  /// @brief Method set_Examplar, addr 0x4252db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Examplar, addr 0x42674cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Examplar(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -82,7 +82,7 @@ public:
   ::System::Xml::XmlQualifiedName* ___examplar;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7699 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

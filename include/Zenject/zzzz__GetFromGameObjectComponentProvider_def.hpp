@@ -60,11 +60,11 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ac1660, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ad5d78, size 0x1b0, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x4ac1658, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x4ad5d70, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::GetFromGameObjectComponentProvider* New_ctor(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, bool matchSingle);
@@ -87,13 +87,13 @@ public:
 
   constexpr void __cordl_internal_set__matchSingle(bool value);
 
-  /// @brief Method .ctor, addr 0x4ac160c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad5d24, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, bool matchSingle);
 
-  /// @brief Method get_IsCached, addr 0x4ac1648, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x4ad5d60, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ac1650, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ad5d68, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -123,7 +123,7 @@ public:
   bool ____matchSingle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12491 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

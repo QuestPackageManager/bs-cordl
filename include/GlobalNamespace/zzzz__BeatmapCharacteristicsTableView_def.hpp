@@ -72,33 +72,33 @@ public:
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x3a8ca7c, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x3aa0558, size 0x1b4, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x3a8c9bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x3aa0498, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x3a8cd10, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x3aa07ec, size 0xac, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
-  /// @brief Method HandleDidSelectColumnEvent, addr 0x3a8cc30, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectColumnEvent, addr 0x3aa070c, size 0xe0, virtual false, abstract: false, final false
   inline void HandleDidSelectColumnEvent(::HMUI::TableView* tableView, int32_t column);
 
-  /// @brief Method Init, addr 0x3a8c810, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3aa02ec, size 0xc4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x3a8c9c4, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x3aa04a0, size 0xb8, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method OnDestroy, addr 0x3a8c92c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3aa0408, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SelectCellWithIdx, addr 0x3a8cdbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithIdx, addr 0x3aa0898, size 0x20, virtual false, abstract: false, final false
   inline void SelectCellWithIdx(int32_t idx);
 
-  /// @brief Method SetData, addr 0x3a8c8d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3aa03b0, size 0x58, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
@@ -149,16 +149,16 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCharacteristic(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3a8cddc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa08b8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectCharacteristic, addr 0x3a8c6b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCharacteristic, addr 0x3aa018c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCharacteristic(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
   constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
-  /// @brief Method remove_didSelectCharacteristic, addr 0x3a8c760, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCharacteristic, addr 0x3aa023c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCharacteristic(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
 protected:
@@ -200,7 +200,7 @@ public:
   int32_t ____selectedColumn;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

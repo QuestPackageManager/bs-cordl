@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Span_1_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -31,8 +30,6 @@ template <typename T>
 struct CORDL_TYPE ValueListBuilder_1 {
 public:
   // Declarations
-  __declspec(property(get = get_Item)) T Item[];
-
   __declspec(property(get = get_Length)) int32_t Length;
 
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -47,14 +44,8 @@ public:
   /// @brief Method Grow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Grow();
 
-  /// @brief Method Pop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T Pop();
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<T> initialSpan);
-
-  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ByRef<T> get_Item(int32_t index);
 
   /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Length();
@@ -77,7 +68,7 @@ public:
   int32_t _pos;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3858 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

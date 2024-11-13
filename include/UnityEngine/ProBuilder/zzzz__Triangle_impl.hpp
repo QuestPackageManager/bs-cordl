@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::Triangle::*)()>(&::UnityEngine::ProBuilder::Triangle::get_a)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46cc2ac;
+  constexpr static std::size_t addrs = 0x46e09c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Triangle>::get(), "get_a",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::Triangle::*)()>(&::UnityEngine::ProBuilder::Triangle::get_b)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46cc2b4;
+  constexpr static std::size_t addrs = 0x46e09cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Triangle>::get(), "get_b",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::Triangle::*)()>(&::UnityEngine::ProBuilder::Triangle::get_c)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46cc2bc;
+  constexpr static std::size_t addrs = 0x46e09d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Triangle>::get(), "get_c",
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::UnityEngine::ProBuilder::Triangle::*)()>(
     &::UnityEngine::ProBuilder::Triangle::get_indices)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x46cc2c4;
+  constexpr static std::size_t addrs = 0x46e09dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Triangle>::get(), "get_indices",
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Triangle::*)(int32_t, int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::Triangle::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46cc34c;
+  constexpr static std::size_t addrs = 0x46e0a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Triangle::*)(::UnityEngine::ProBuilder::Triangle)>(
     &::UnityEngine::ProBuilder::Triangle::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x46cc358;
+  constexpr static std::size_t addrs = 0x46e0a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Triangle::*)(::System::Object*)>(&::UnityEngine::ProBuilder::Triangle::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x46cc38c;
+  constexpr static std::size_t addrs = 0x46e0aa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::Triangle::*)()>(&::UnityEngine::ProBuilder::Triangle::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x46cc424;
+  constexpr static std::size_t addrs = 0x46e0b3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Triangle::*)(::UnityEngine::ProBuilder::Triangle)>(
     &::UnityEngine::ProBuilder::Triangle::IsAdjacent)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x46cc444;
+  constexpr static std::size_t addrs = 0x46e0b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Triangle::*)(::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::Triangle::ContainsEdge)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x46cc4d8;
+  constexpr static std::size_t addrs = 0x46e0bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

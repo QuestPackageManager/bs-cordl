@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x47a7aec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47bc204, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t r, float_t g, float_t b);
 
-  /// @brief Method get_color, addr 0x47a7ae0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x47bc1f8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -61,7 +61,7 @@ public:
   ::UnityEngine::Color ___m_Color;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15787 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -100,21 +100,21 @@ public:
   /// @brief Field kFadeSpeed, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get_kFadeSpeed, put = __cordl_internal_set_kFadeSpeed)) float_t kFadeSpeed;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b1dbb0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b33068, size 0x1c4, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::ParticleSystemEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b1dacc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b32f84, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshParticles, addr 0x3b1d9a4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RefreshParticles, addr 0x3b32e5c, size 0x128, virtual false, abstract: false, final false
   inline void RefreshParticles();
 
-  /// @brief Method Start, addr 0x3b1d7c8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b32c80, size 0x1dc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b1dae8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b32fa0, size 0xc8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__afterHighlightColor() const;
@@ -225,7 +225,7 @@ public:
 
   constexpr void __cordl_internal_set_kFadeSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b1dd74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3322c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -297,7 +297,7 @@ public:
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4320 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

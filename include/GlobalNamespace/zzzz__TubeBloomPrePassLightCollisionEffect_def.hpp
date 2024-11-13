@@ -64,10 +64,10 @@ public:
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightCollisionEffect* New_ctor();
 
-  /// @brief Method Start, addr 0x3b1fe34, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b352fc, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b1fe6c, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b35334, size 0x3e0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__environmentLayerMask() const;
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x3b2024c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b35714, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -169,7 +169,7 @@ public:
   bool ____hitPointState;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4331 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

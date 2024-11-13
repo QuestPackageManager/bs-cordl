@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::get_Type)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4590464;
+  constexpr static std::size_t addrs = 0x45a4b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4590494;
+  constexpr static std::size_t addrs = 0x45a4bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand (*)()>(
     &::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::Create)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x45904c4;
+  constexpr static std::size_t addrs = 0x45a4bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

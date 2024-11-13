@@ -49,10 +49,10 @@ public:
 
   static inline ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* New_ctor();
 
-  /// @brief Method <CreateData>b__3_0, addr 0x269172c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <CreateData>b__3_0, addr 0x269d330, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _CreateData_b__3_0(::GlobalNamespace::BeatmapLevel* x);
 
-  /// @brief Method .ctor, addr 0x2691724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269d328, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* getStaticF___9();
@@ -78,7 +78,7 @@ public:
   __AlphabetScrollbarInfoBeatmapLevelHelper____c(__AlphabetScrollbarInfoBeatmapLevelHelper____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12975 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -96,7 +96,7 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c;
 
-  /// @brief Method CreateData, addr 0x2691150, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x269cd54, size 0x578, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>*
   CreateData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, bool sortBeatmapLevels,
              ByRef<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*> sortedBeatmapLevels);
@@ -116,7 +116,7 @@ public:
   AlphabetScrollbarInfoBeatmapLevelHelper(AlphabetScrollbarInfoBeatmapLevelHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12976 };
 
   /// @brief Field kFirstAlphabet offset 0xffffffff size 0x8
   static constexpr ::ConstString kFirstAlphabet{ u"A" };

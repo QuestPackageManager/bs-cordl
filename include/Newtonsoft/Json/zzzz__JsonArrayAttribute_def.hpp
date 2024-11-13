@@ -37,19 +37,19 @@ public:
 
   constexpr void __cordl_internal_set__allowNullItems(bool value);
 
-  /// @brief Method .ctor, addr 0x3e01d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e1639c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e01d1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e163ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool allowNullItems);
 
-  /// @brief Method .ctor, addr 0x3e01d44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e163d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
-  /// @brief Method get_AllowNullItems, addr 0x3e01cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowNullItems, addr 0x3e16388, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowNullItems();
 
-  /// @brief Method set_AllowNullItems, addr 0x3e01d00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowNullItems, addr 0x3e16390, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowNullItems(bool value);
 
 protected:
@@ -70,7 +70,7 @@ public:
   bool ____allowNullItems;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10030 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

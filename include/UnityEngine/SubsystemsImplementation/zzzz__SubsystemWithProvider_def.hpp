@@ -39,7 +39,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x48a0978, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x48b5090, size 0x7c, virtual true, abstract: false, final true
   inline void Destroy();
 
   static inline ::UnityEngine::SubsystemsImplementation::SubsystemWithProvider* New_ctor();
@@ -53,10 +53,10 @@ public:
   /// @brief Method OnStop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStop();
 
-  /// @brief Method Start, addr 0x48a0904, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Start, addr 0x48b501c, size 0x3c, virtual true, abstract: false, final true
   inline void Start();
 
-  /// @brief Method Stop, addr 0x48a0940, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x48b5058, size 0x38, virtual true, abstract: false, final true
   inline void Stop();
 
   constexpr ::UnityEngine::SubsystemsImplementation::SubsystemProvider*& __cordl_internal_get__providerBase_k__BackingField();
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set__running_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x48a0a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b5128, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_providerBase, addr 0x48a0a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_providerBase, addr 0x48b5120, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SubsystemsImplementation::SubsystemProvider* get_providerBase();
 
-  /// @brief Method get_running, addr 0x48a09f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_running, addr 0x48b510c, size 0x8, virtual true, abstract: false, final true
   inline bool get_running();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"
   constexpr ::UnityEngine::ISubsystem* i___UnityEngine__ISubsystem() noexcept;
 
-  /// @brief Method set_running, addr 0x48a09fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_running, addr 0x48b5114, size 0xc, virtual false, abstract: false, final false
   inline void set_running(bool value);
 
 protected:
@@ -107,7 +107,7 @@ public:
   ::UnityEngine::SubsystemsImplementation::SubsystemProvider* ____providerBase_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18652 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

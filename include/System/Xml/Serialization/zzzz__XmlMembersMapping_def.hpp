@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set__mapping(::ArrayW<::System::Xml::Serialization::XmlMemberMapping*, ::Array<::System::Xml::Serialization::XmlMemberMapping*>*> value);
 
-  /// @brief Method get_Count, addr 0x42fba58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4310170, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_HasWrapperElement, addr 0x42fba74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasWrapperElement, addr 0x431018c, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasWrapperElement();
 
 protected:
@@ -75,7 +75,7 @@ public:
   ::ArrayW<::System::Xml::Serialization::XmlMemberMapping*, ::Array<::System::Xml::Serialization::XmlMemberMapping*>*> ____mapping;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7396 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

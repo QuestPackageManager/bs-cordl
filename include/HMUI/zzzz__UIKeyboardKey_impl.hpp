@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::KeyCode (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::get_keyCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3985010;
+  constexpr static std::size_t addrs = 0x3998958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboardKey*>::get(), "get_keyCode",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::get_canBeUppercase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3985018;
+  constexpr static std::size_t addrs = 0x3998960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboardKey*>::get(), "get_canBeUppercase",
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::Awake)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3985020;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x3998968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboardKey*>::get(), "Awake",
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::OnValidate)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x39850c0;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x3998a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboardKey*>::get(), "OnValidate",
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboardKey::*)()>(&::HMUI::UIKeyboardKey::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398519c;
+  constexpr static std::size_t addrs = 0x3998af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboardKey*>::get(), ".ctor",
@@ -117,6 +117,18 @@ constexpr bool const& HMUI::UIKeyboardKey::__cordl_internal_get__canBeUppercase(
 constexpr void HMUI::UIKeyboardKey::__cordl_internal_set__canBeUppercase(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____canBeUppercase = value;
+}
+constexpr bool& HMUI::UIKeyboardKey::__cordl_internal_get__dontSetText() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____dontSetText;
+}
+constexpr bool const& HMUI::UIKeyboardKey::__cordl_internal_get__dontSetText() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____dontSetText;
+}
+constexpr void HMUI::UIKeyboardKey::__cordl_internal_set__dontSetText(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____dontSetText = value;
 }
 inline ::UnityEngine::KeyCode HMUI::UIKeyboardKey::get_keyCode() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboardKey*>::get(), "get_keyCode",

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(
     ::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>*)>(&::UnityEngine::UIElements::ContextualMenuManipulator::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x49047a0;
+  constexpr static std::size_t addrs = 0x4918eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)()>(
     &::UnityEngine::UIElements::ContextualMenuManipulator::RegisterCallbacksOnTarget)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x490491c;
+  constexpr static std::size_t addrs = 0x4919034;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)()>(
     &::UnityEngine::UIElements::ContextualMenuManipulator::UnregisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x4904be4;
+  constexpr static std::size_t addrs = 0x49192fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::IMouseEvent*)>(
     &::UnityEngine::UIElements::ContextualMenuManipulator::OnMouseUpDownEvent)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4904eac;
+  constexpr static std::size_t addrs = 0x49195c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::MouseDownEvent*)>(
     &::UnityEngine::UIElements::ContextualMenuManipulator::OnMouseDownEventOSX)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4904fe8;
+  constexpr static std::size_t addrs = 0x4919700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::MouseUpEvent*)>(
     &::UnityEngine::UIElements::ContextualMenuManipulator::OnMouseUpEventOSX)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4905070;
+  constexpr static std::size_t addrs = 0x4919788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::KeyUpEvent*)>(
     &::UnityEngine::UIElements::ContextualMenuManipulator::OnKeyUpEvent)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49050e8;
+  constexpr static std::size_t addrs = 0x4919800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::ContextualMenuManipulator::DoDisplayMenu)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4904f4c;
+  constexpr static std::size_t addrs = 0x4919664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(
     ::UnityEngine::UIElements::ContextualMenuPopulateEvent*)>(&::UnityEngine::UIElements::ContextualMenuManipulator::OnContextualMenuEvent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x490514c;
+  constexpr static std::size_t addrs = 0x4919864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

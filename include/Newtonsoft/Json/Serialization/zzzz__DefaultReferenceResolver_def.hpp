@@ -36,21 +36,21 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IReferenceResolver"
   constexpr operator ::Newtonsoft::Json::Serialization::IReferenceResolver*() noexcept;
 
-  /// @brief Method AddReference, addr 0x3e6e040, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method AddReference, addr 0x3e826d0, size 0x6c, virtual true, abstract: false, final true
   inline void AddReference(::System::Object* context, ::StringW reference, ::System::Object* value);
 
-  /// @brief Method GetMappings, addr 0x3e6dcc8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetMappings, addr 0x3e82358, size 0x10c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* GetMappings(::System::Object* context);
 
-  /// @brief Method GetReference, addr 0x3e6df4c, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method GetReference, addr 0x3e825dc, size 0xf4, virtual true, abstract: false, final true
   inline ::StringW GetReference(::System::Object* context, ::System::Object* value);
 
-  /// @brief Method IsReferenced, addr 0x3e6e0ac, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method IsReferenced, addr 0x3e8273c, size 0x74, virtual true, abstract: false, final true
   inline bool IsReferenced(::System::Object* context, ::System::Object* value);
 
   static inline ::Newtonsoft::Json::Serialization::DefaultReferenceResolver* New_ctor();
 
-  /// @brief Method ResolveReference, addr 0x3e6ded8, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method ResolveReference, addr 0x3e82568, size 0x74, virtual true, abstract: false, final true
   inline ::System::Object* ResolveReference(::System::Object* context, ::StringW reference);
 
   constexpr int32_t const& __cordl_internal_get__referenceCount() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__referenceCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3e6e120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e827b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::IReferenceResolver"
@@ -83,7 +83,7 @@ public:
   int32_t ____referenceCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10270 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

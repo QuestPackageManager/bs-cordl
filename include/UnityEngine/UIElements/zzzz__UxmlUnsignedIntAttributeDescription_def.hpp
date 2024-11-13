@@ -46,10 +46,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4a27d00, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4a3c418, size 0x40, virtual false, abstract: false, final false
   inline uint32_t _GetValueFromBag_b__3_0(::StringW s, uint32_t i);
 
-  /// @brief Method .ctor, addr 0x4a27cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3c410, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c* getStaticF___9();
@@ -75,7 +75,7 @@ public:
   __UxmlUnsignedIntAttributeDescription____c(__UxmlUnsignedIntAttributeDescription____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6225 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -93,15 +93,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::__UxmlUnsignedIntAttributeDescription____c;
 
-  /// @brief Method ConvertValueToUInt, addr 0x4a27c60, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToUInt, addr 0x4a3c378, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t ConvertValueToUInt(::StringW v, uint32_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x4a27b14, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x4a3c22c, size 0x14c, virtual true, abstract: false, final false
   inline uint32_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlUnsignedIntAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a27a7c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3c194, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,7 +119,7 @@ public:
   UxmlUnsignedIntAttributeDescription(UxmlUnsignedIntAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6226 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

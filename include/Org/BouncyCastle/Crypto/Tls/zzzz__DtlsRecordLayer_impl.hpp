@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Crypto::Tls::DatagramTransport*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t,
                                                                                            int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::SendDatagram)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x23b3a2c;
+  constexpr static std::size_t addrs = 0x23bead4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Tls::DatagramTransport*, ::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::Org::BouncyCastle::Crypto::Tls::TlsPeer*, uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x23af0fc;
+  constexpr static std::size_t addrs = 0x23ba1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::get_IsClosed)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x23b3aec;
+  constexpr static std::size_t addrs = 0x23beb94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::SetPlaintextLimit)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x23b3b04;
+  constexpr static std::size_t addrs = 0x23bebac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::get_ReadEpoch)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x23b3b28;
+  constexpr static std::size_t addrs = 0x23bebd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::get_ReadVersion)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x23b3b44;
+  constexpr static std::size_t addrs = 0x23bebec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::set_ReadVersion)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x23b3b5c;
+  constexpr static std::size_t addrs = 0x23bec04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::SetWriteVersion)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x23b3b80;
+  constexpr static std::size_t addrs = 0x23bec28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(::Org::BouncyCastle::Crypto::Tls::TlsCipher*)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::InitPendingEpoch)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x23b3ba4;
+  constexpr static std::size_t addrs = 0x23bec4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(
     ::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit*)>(&::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::HandshakeSuccessful)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x23b3c58;
+  constexpr static std::size_t addrs = 0x23bed00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::ResetWriteEpoch)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x23b3d24;
+  constexpr static std::size_t addrs = 0x23bedcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::GetReceiveLimit)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x23b3d38;
+  constexpr static std::size_t addrs = 0x23bede0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::GetSendLimit)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x23b3ea8;
+  constexpr static std::size_t addrs = 0x23bef50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::Receive)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x23b401c;
+  constexpr static std::size_t addrs = 0x23bf0c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::Send)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x23b4908;
+  constexpr static std::size_t addrs = 0x23bf9b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::Close)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x23b4cf0;
+  constexpr static std::size_t addrs = 0x23bfd98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::Failed)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x23b4ed0;
+  constexpr static std::size_t addrs = 0x23bff78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::Fail)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x23b4f10;
+  constexpr static std::size_t addrs = 0x23bffb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(uint8_t, ::StringW)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::Warn)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x23b5108;
+  constexpr static std::size_t addrs = 0x23c01b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::CloseTransport)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x23b4d74;
+  constexpr static std::size_t addrs = 0x23bfe1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*>::get(),
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(uint8_t, uint8_t, ::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::RaiseAlert)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x23b4fdc;
+  constexpr static std::size_t addrs = 0x23c0084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::ReceiveDatagram)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x23b511c;
+  constexpr static std::size_t addrs = 0x23c01c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(
     int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::ProcessRecord)> {
   constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x23b43b8;
+  constexpr static std::size_t addrs = 0x23bf460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::ReceiveRecord)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x23b41e0;
+  constexpr static std::size_t addrs = 0x23bf288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::*)(
     uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::SendRecord)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x23b4a78;
+  constexpr static std::size_t addrs = 0x23bfb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int32_t, int64_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::GetMacSequenceNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23b52e8;
+  constexpr static std::size_t addrs = 0x23c0390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

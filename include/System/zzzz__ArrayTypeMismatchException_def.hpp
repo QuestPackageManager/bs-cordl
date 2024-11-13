@@ -29,10 +29,10 @@ public:
 
   static inline ::System::ArrayTypeMismatchException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3ce07a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf4e30, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3ce07fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf4e8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

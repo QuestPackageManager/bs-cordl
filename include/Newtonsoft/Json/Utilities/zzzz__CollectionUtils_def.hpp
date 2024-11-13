@@ -88,7 +88,7 @@ public:
   __CollectionUtils__EmptyArrayContainer_1(__CollectionUtils__EmptyArrayContainer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10161 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -128,13 +128,13 @@ public:
   template <typename TSource>
   static inline bool ContainsValue(::System::Collections::Generic::IEnumerable_1<TSource>* source, TSource value, ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer);
 
-  /// @brief Method CopyFromJaggedToMultidimensionalArray, addr 0x3e4a500, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method CopyFromJaggedToMultidimensionalArray, addr 0x3e5eb90, size 0x2bc, virtual false, abstract: false, final false
   static inline void CopyFromJaggedToMultidimensionalArray(::System::Collections::IList* values, ::System::Array* multidimensionalArray, ::ArrayW<int32_t, ::Array<int32_t>*> indices);
 
   /// @brief Method FastReverse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void FastReverse(::System::Collections::Generic::List_1<T>* list);
 
-  /// @brief Method GetDimensions, addr 0x3e4a24c, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method GetDimensions, addr 0x3e5e8dc, size 0x2b4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<int32_t>* GetDimensions(::System::Collections::IList* values, int32_t dimensionsCount);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -143,23 +143,23 @@ public:
   /// @brief Method IndexOfReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOfReference(::System::Collections::Generic::List_1<T>* list, T item);
 
-  /// @brief Method IsDictionaryType, addr 0x3e49c08, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method IsDictionaryType, addr 0x3e5e298, size 0x198, virtual false, abstract: false, final false
   static inline bool IsDictionaryType(::System::Type* type);
 
   /// @brief Method IsNullOrEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsNullOrEmpty(::System::Collections::Generic::ICollection_1<T>* collection);
 
-  /// @brief Method JaggedArrayGetValue, addr 0x3e4a7bc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method JaggedArrayGetValue, addr 0x3e5ee4c, size 0x13c, virtual false, abstract: false, final false
   static inline ::System::Object* JaggedArrayGetValue(::System::Collections::IList* values, ::ArrayW<int32_t, ::Array<int32_t>*> indices);
 
-  /// @brief Method ResolveEnumerableCollectionConstructor, addr 0x3e49e14, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ResolveEnumerableCollectionConstructor, addr 0x3e5e4a4, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Reflection::ConstructorInfo* ResolveEnumerableCollectionConstructor(::System::Type* collectionType, ::System::Type* collectionItemType);
 
-  /// @brief Method ResolveEnumerableCollectionConstructor, addr 0x3e49f24, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method ResolveEnumerableCollectionConstructor, addr 0x3e5e5b4, size 0x328, virtual false, abstract: false, final false
   static inline ::System::Reflection::ConstructorInfo* ResolveEnumerableCollectionConstructor(::System::Type* collectionType, ::System::Type* collectionItemType,
                                                                                               ::System::Type* constructorArgumentType);
 
-  /// @brief Method ToMultidimensionalArray, addr 0x3e4a8f8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ToMultidimensionalArray, addr 0x3e5ef88, size 0x1dc, virtual false, abstract: false, final false
   static inline ::System::Array* ToMultidimensionalArray(::System::Collections::IList* values, ::System::Type* type, int32_t rank);
 
 protected:
@@ -177,7 +177,7 @@ public:
   CollectionUtils(CollectionUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10162 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -83,36 +83,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::__TableViewWithDetailCell__IDataSource"
   constexpr operator ::GlobalNamespace::__TableViewWithDetailCell__IDataSource*() noexcept;
 
-  /// @brief Method CellForContent, addr 0x3a8fbc4, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method CellForContent, addr 0x3aa36a0, size 0x164, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForContent(::GlobalNamespace::TableViewWithDetailCell* tableView, int32_t idx, bool detailOpened);
 
-  /// @brief Method CellForDetail, addr 0x3a8fd28, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method CellForDetail, addr 0x3aa3804, size 0x1b4, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForDetail(::GlobalNamespace::TableViewWithDetailCell* tableView, int32_t contentIdx);
 
-  /// @brief Method CellSize, addr 0x3a8fa94, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x3aa3570, size 0xc, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method HandleGameServerListDetailTableCellJoinServerButtonWasPressed, addr 0x3a90000, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleGameServerListDetailTableCellJoinServerButtonWasPressed, addr 0x3aa3adc, size 0x24, virtual false, abstract: false, final false
   inline void HandleGameServerListDetailTableCellJoinServerButtonWasPressed();
 
-  /// @brief Method HandleTableViewDidDeselectCellWithIdx, addr 0x3a90058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleTableViewDidDeselectCellWithIdx, addr 0x3aa3b34, size 0x8, virtual false, abstract: false, final false
   inline void HandleTableViewDidDeselectCellWithIdx(::GlobalNamespace::TableViewWithDetailCell* arg1, int32_t arg2);
 
-  /// @brief Method HandleTableViewDidSelectCellWithIdx, addr 0x3a90024, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleTableViewDidSelectCellWithIdx, addr 0x3aa3b00, size 0x34, virtual false, abstract: false, final false
   inline void HandleTableViewDidSelectCellWithIdx(::HMUI::TableView* tableView, int32_t id);
 
-  /// @brief Method Init, addr 0x3a8fab8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3aa3594, size 0x10c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GameServersListTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x3a8faa0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x3aa357c, size 0x18, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method OnDestroy, addr 0x3a90060, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3aa3b3c, size 0xec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetData, addr 0x3a8fedc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3aa39b8, size 0x124, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* servers, bool clearSelection);
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
@@ -163,16 +163,16 @@ public:
 
   constexpr void __cordl_internal_set_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method .ctor, addr 0x3a9014c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa3c28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_joinButtonPressedEvent, addr 0x3a8f934, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_joinButtonPressedEvent, addr 0x3aa3410, size 0xb0, virtual false, abstract: false, final false
   inline void add_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
   /// @brief Convert to "::GlobalNamespace::__TableViewWithDetailCell__IDataSource"
   constexpr ::GlobalNamespace::__TableViewWithDetailCell__IDataSource* i___GlobalNamespace____TableViewWithDetailCell__IDataSource() noexcept;
 
-  /// @brief Method remove_joinButtonPressedEvent, addr 0x3a8f9e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_joinButtonPressedEvent, addr 0x3aa34c0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
 protected:
@@ -214,7 +214,7 @@ public:
   ::GlobalNamespace::INetworkPlayer* ____selectedServer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4955 };
 
   /// @brief Field kCellReuseIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellReuseIdentifier{ u"Cell" };

@@ -50,7 +50,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
 
-  /// @brief Method GetDestinationLocalizedString, addr 0x3ab89a8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetDestinationLocalizedString, addr 0x3acc548, size 0x148, virtual false, abstract: false, final false
   static inline ::StringW GetDestinationLocalizedString(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   static inline ::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData* New_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
@@ -79,13 +79,13 @@ public:
 
   constexpr void __cordl_internal_set__localizedDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3ab8af0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acc690, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method get_apiName, addr 0x3ab8978, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x3acc518, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_localizedDescription, addr 0x3ab8980, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x3acc520, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
@@ -118,7 +118,7 @@ public:
   ::GlobalNamespace::BeatmapLevel* ____beatmapLevel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5137 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

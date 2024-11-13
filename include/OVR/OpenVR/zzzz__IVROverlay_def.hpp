@@ -673,18 +673,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___FindOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fec804, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4000e94, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchOverlayKey, ByRef<uint64_t> pOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fec898, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4000f28, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<uint64_t> pOverlayHandle, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fec7f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4000e80, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(::StringW pchOverlayKey, ByRef<uint64_t> pOverlayHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___FindOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fec750, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4000de0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -702,7 +702,7 @@ public:
   __IVROverlay___FindOverlay(__IVROverlay___FindOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8676 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -718,18 +718,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___CreateOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fec978, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4001008, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchOverlayKey, ::StringW pchOverlayName, ByRef<uint64_t> pOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3feca18, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40010a8, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<uint64_t> pOverlayHandle, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fec964, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4000ff4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(::StringW pchOverlayKey, ::StringW pchOverlayName, ByRef<uint64_t> pOverlayHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___CreateOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fec8c4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4000f54, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -747,7 +747,7 @@ public:
   __IVROverlay___CreateOverlay(__IVROverlay___CreateOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8672 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8677 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -763,18 +763,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___DestroyOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fecae4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4001174, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fecb68, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40011f8, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fecad0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4001160, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___DestroyOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3feca44, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40010d4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -792,7 +792,7 @@ public:
   __IVROverlay___DestroyOverlay(__IVROverlay___DestroyOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8678 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -808,18 +808,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetHighQualityOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fecc30, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40012c0, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3feccb4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4001344, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fecc1c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40012ac, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetHighQualityOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fecb90, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4001220, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -837,7 +837,7 @@ public:
   __IVROverlay___SetHighQualityOverlay(__IVROverlay___SetHighQualityOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8679 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -853,18 +853,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetHighQualityOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fecd78, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4001408, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fecd98, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4001428, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fecd64, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40013f4, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke();
 
   static inline ::OVR::OpenVR::__IVROverlay___GetHighQualityOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3feccdc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400136c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -882,7 +882,7 @@ public:
   __IVROverlay___GetHighQualityOverlay(__IVROverlay___GetHighQualityOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8680 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -898,19 +898,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayKey : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fece60, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40014f0, size 0xf8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ByRef<::OVR::OpenVR::EVROverlayError> pError,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fecf58, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40015e8, size 0x2c, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::EVROverlayError> pError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fece4c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40014dc, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ByRef<::OVR::OpenVR::EVROverlayError> pError);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayKey* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fecdc0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4001450, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -928,7 +928,7 @@ public:
   __IVROverlay___GetOverlayKey(__IVROverlay___GetOverlayKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8676 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8681 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -944,19 +944,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayName : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fed024, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40016b4, size 0xf8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ByRef<::OVR::OpenVR::EVROverlayError> pError,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fed11c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40017ac, size 0x2c, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::EVROverlayError> pError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fed010, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40016a0, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ByRef<::OVR::OpenVR::EVROverlayError> pError);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayName* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fecf84, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4001614, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -974,7 +974,7 @@ public:
   __IVROverlay___GetOverlayName(__IVROverlay___GetOverlayName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8682 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -990,18 +990,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayName : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fed1e8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4001878, size 0x90, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::StringW pchName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fed278, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4001908, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fed1d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4001864, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::StringW pchName);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayName* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fed148, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40017d8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1019,7 +1019,7 @@ public:
   __IVROverlay___SetOverlayName(__IVROverlay___SetOverlayName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8683 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1035,19 +1035,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayImageData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fed340, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40019d0, size 0x120, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint32_t unBufferSize, ByRef<uint32_t> punWidth, ByRef<uint32_t> punHeight,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fed460, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4001af0, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<uint32_t> punWidth, ByRef<uint32_t> punHeight, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fed32c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40019bc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint32_t unBufferSize, ByRef<uint32_t> punWidth, ByRef<uint32_t> punHeight);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayImageData* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fed2a0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4001930, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1065,7 +1065,7 @@ public:
   __IVROverlay___GetOverlayImageData(__IVROverlay___GetOverlayImageData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8684 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1081,18 +1081,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fed534, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4001bc4, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVROverlayError error, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fed5b8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4001c48, size 0x28, virtual true, abstract: false, final false
   inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fed520, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4001bb0, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::OVR::OpenVR::EVROverlayError error);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayErrorNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fed494, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4001b24, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1110,7 +1110,7 @@ public:
   __IVROverlay___GetOverlayErrorNameFromEnum(__IVROverlay___GetOverlayErrorNameFromEnum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8685 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1126,18 +1126,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayRenderingPid : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fed680, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4001d10, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint32_t unPID, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fed738, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4001dc8, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fed66c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4001cfc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint32_t unPID);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayRenderingPid* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fed5e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4001c70, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1155,7 +1155,7 @@ public:
   __IVROverlay___SetOverlayRenderingPid(__IVROverlay___SetOverlayRenderingPid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8686 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1171,18 +1171,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayRenderingPid : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fed800, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4001e90, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fed884, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4001f14, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fed7ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4001e7c, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint64_t ulOverlayHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayRenderingPid* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fed760, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4001df0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1200,7 +1200,7 @@ public:
   __IVROverlay___GetOverlayRenderingPid(__IVROverlay___GetOverlayRenderingPid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8687 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1216,18 +1216,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayFlag : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fed950, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4001fe0, size 0xec, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags eOverlayFlag, bool bEnabled, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3feda3c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40020cc, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fed938, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4001fc8, size 0x18, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags eOverlayFlag, bool bEnabled);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayFlag* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fed8ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4001f3c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1245,7 +1245,7 @@ public:
   __IVROverlay___SetOverlayFlag(__IVROverlay___SetOverlayFlag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8688 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1261,18 +1261,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayFlag : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fedb04, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4002194, size 0xec, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags eOverlayFlag, ByRef<bool> pbEnabled, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fedbf0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4002280, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<bool> pbEnabled, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fedaf0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4002180, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayFlags eOverlayFlag, ByRef<bool> pbEnabled);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayFlag* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3feda64, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40020f4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1290,7 +1290,7 @@ public:
   __IVROverlay___GetOverlayFlag(__IVROverlay___GetOverlayFlag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8689 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1306,18 +1306,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayColor : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fedcbc, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x400234c, size 0xe8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float_t fRed, float_t fGreen, float_t fBlue, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fedda4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4002434, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fedca8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4002338, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float_t fRed, float_t fGreen, float_t fBlue);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayColor* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fedc1c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40022ac, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1335,7 +1335,7 @@ public:
   __IVROverlay___SetOverlayColor(__IVROverlay___SetOverlayColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8690 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1351,19 +1351,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayColor : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fede6c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40024fc, size 0xf8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<float_t> pfRed, ByRef<float_t> pfGreen, ByRef<float_t> pfBlue, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fedf64, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40025f4, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<float_t> pfRed, ByRef<float_t> pfGreen, ByRef<float_t> pfBlue, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fede58, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40024e8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<float_t> pfRed, ByRef<float_t> pfGreen, ByRef<float_t> pfBlue);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayColor* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3feddcc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400245c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1381,7 +1381,7 @@ public:
   __IVROverlay___GetOverlayColor(__IVROverlay___GetOverlayColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8691 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1397,18 +1397,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayAlpha : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fee038, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40026c8, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float_t fAlpha, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fee0f0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4002780, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fee024, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40026b4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float_t fAlpha);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayAlpha* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fedf98, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4002628, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1426,7 +1426,7 @@ public:
   __IVROverlay___SetOverlayAlpha(__IVROverlay___SetOverlayAlpha const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8692 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1442,18 +1442,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayAlpha : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fee1b8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4002848, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<float_t> pfAlpha, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fee274, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4002904, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<float_t> pfAlpha, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fee1a4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4002834, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<float_t> pfAlpha);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayAlpha* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fee118, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40027a8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1471,7 +1471,7 @@ public:
   __IVROverlay___GetOverlayAlpha(__IVROverlay___GetOverlayAlpha const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8693 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1487,18 +1487,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayTexelAspect : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fee340, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40029d0, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float_t fTexelAspect, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fee3f8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4002a88, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fee32c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40029bc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float_t fTexelAspect);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayTexelAspect* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fee2a0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4002930, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1516,7 +1516,7 @@ public:
   __IVROverlay___SetOverlayTexelAspect(__IVROverlay___SetOverlayTexelAspect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8694 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1532,18 +1532,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayTexelAspect : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fee4c0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4002b50, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<float_t> pfTexelAspect, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fee57c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4002c0c, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<float_t> pfTexelAspect, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fee4ac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4002b3c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<float_t> pfTexelAspect);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayTexelAspect* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fee420, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4002ab0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1561,7 +1561,7 @@ public:
   __IVROverlay___GetOverlayTexelAspect(__IVROverlay___GetOverlayTexelAspect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8695 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1577,18 +1577,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlaySortOrder : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fee648, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4002cd8, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint32_t unSortOrder, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fee700, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4002d90, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fee634, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4002cc4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint32_t unSortOrder);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlaySortOrder* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fee5a8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4002c38, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1606,7 +1606,7 @@ public:
   __IVROverlay___SetOverlaySortOrder(__IVROverlay___SetOverlaySortOrder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8691 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8696 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1622,18 +1622,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlaySortOrder : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fee7c8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4002e58, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<uint32_t> punSortOrder, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fee884, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4002f14, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<uint32_t> punSortOrder, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fee7b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4002e44, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<uint32_t> punSortOrder);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlaySortOrder* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fee728, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4002db8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1651,7 +1651,7 @@ public:
   __IVROverlay___GetOverlaySortOrder(__IVROverlay___GetOverlaySortOrder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8697 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1667,18 +1667,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayWidthInMeters : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fee950, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4002fe0, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float_t fWidthInMeters, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3feea08, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4003098, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fee93c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4002fcc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float_t fWidthInMeters);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayWidthInMeters* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fee8b0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4002f40, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1696,7 +1696,7 @@ public:
   __IVROverlay___SetOverlayWidthInMeters(__IVROverlay___SetOverlayWidthInMeters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8698 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1712,18 +1712,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayWidthInMeters : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3feead0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4003160, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<float_t> pfWidthInMeters, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3feeb8c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x400321c, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<float_t> pfWidthInMeters, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3feeabc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x400314c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<float_t> pfWidthInMeters);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayWidthInMeters* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3feea30, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40030c0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1741,7 +1741,7 @@ public:
   __IVROverlay___GetOverlayWidthInMeters(__IVROverlay___GetOverlayWidthInMeters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8699 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1757,18 +1757,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayAutoCurveDistanceRangeInMeters : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3feec58, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40032e8, size 0xcc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, float_t fMinDistanceInMeters, float_t fMaxDistanceInMeters, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3feed24, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40033b4, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3feec44, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40032d4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, float_t fMinDistanceInMeters, float_t fMaxDistanceInMeters);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayAutoCurveDistanceRangeInMeters* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3feebb8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4003248, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1786,7 +1786,7 @@ public:
   __IVROverlay___SetOverlayAutoCurveDistanceRangeInMeters(__IVROverlay___SetOverlayAutoCurveDistanceRangeInMeters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8700 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1802,19 +1802,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayAutoCurveDistanceRangeInMeters : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3feedec, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x400347c, size 0xd8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<float_t> pfMinDistanceInMeters, ByRef<float_t> pfMaxDistanceInMeters, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3feeec4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4003554, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<float_t> pfMinDistanceInMeters, ByRef<float_t> pfMaxDistanceInMeters, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3feedd8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4003468, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<float_t> pfMinDistanceInMeters, ByRef<float_t> pfMaxDistanceInMeters);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayAutoCurveDistanceRangeInMeters* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3feed4c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40033dc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1832,7 +1832,7 @@ public:
   __IVROverlay___GetOverlayAutoCurveDistanceRangeInMeters(__IVROverlay___GetOverlayAutoCurveDistanceRangeInMeters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8701 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1848,18 +1848,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayTextureColorSpace : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3feef98, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4003628, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::EColorSpace eTextureColorSpace, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fef050, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40036e0, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3feef84, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4003614, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::EColorSpace eTextureColorSpace);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayTextureColorSpace* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3feeef8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4003588, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1877,7 +1877,7 @@ public:
   __IVROverlay___SetOverlayTextureColorSpace(__IVROverlay___SetOverlayTextureColorSpace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8702 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1893,18 +1893,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayTextureColorSpace : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fef118, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40037a8, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::EColorSpace> peTextureColorSpace, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fef1d4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4003864, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::EColorSpace> peTextureColorSpace, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fef104, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4003794, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::EColorSpace> peTextureColorSpace);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayTextureColorSpace* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fef078, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4003708, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1922,7 +1922,7 @@ public:
   __IVROverlay___GetOverlayTextureColorSpace(__IVROverlay___GetOverlayTextureColorSpace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8703 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1938,18 +1938,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayTextureBounds : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fef2a0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4003930, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fef35c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40039ec, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fef28c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x400391c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayTextureBounds* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fef200, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4003890, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1967,7 +1967,7 @@ public:
   __IVROverlay___SetOverlayTextureBounds(__IVROverlay___SetOverlayTextureBounds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8704 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1983,18 +1983,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayTextureBounds : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fef428, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4003ab8, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fef4e4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4003b74, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fef414, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4003aa4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VRTextureBounds_t> pOverlayTextureBounds);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayTextureBounds* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fef388, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4003a18, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2012,7 +2012,7 @@ public:
   __IVROverlay___GetOverlayTextureBounds(__IVROverlay___GetOverlayTextureBounds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8705 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2028,20 +2028,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayRenderModel : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fef5b0, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4003c40, size 0x12c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ByRef<::OVR::OpenVR::HmdColor_t> pColor,
                                              ByRef<::OVR::OpenVR::EVROverlayError> pError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fef6dc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4003d6c, size 0x34, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::HmdColor_t> pColor, ByRef<::OVR::OpenVR::EVROverlayError> pError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fef59c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4003c2c, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint64_t ulOverlayHandle, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ByRef<::OVR::OpenVR::HmdColor_t> pColor,
                          ByRef<::OVR::OpenVR::EVROverlayError> pError);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayRenderModel* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fef510, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4003ba0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2059,7 +2059,7 @@ public:
   __IVROverlay___GetOverlayRenderModel(__IVROverlay___GetOverlayRenderModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8706 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2075,18 +2075,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayRenderModel : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fef7b0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4003e40, size 0xc4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::StringW pchRenderModel, ByRef<::OVR::OpenVR::HmdColor_t> pColor, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fef874, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4003f04, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::HmdColor_t> pColor, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fef79c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4003e2c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::StringW pchRenderModel, ByRef<::OVR::OpenVR::HmdColor_t> pColor);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayRenderModel* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fef710, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4003da0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2104,7 +2104,7 @@ public:
   __IVROverlay___SetOverlayRenderModel(__IVROverlay___SetOverlayRenderModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8707 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2120,18 +2120,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayTransformType : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fef940, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4003fd0, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VROverlayTransformType> peTransformType, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fef9fc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x400408c, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::VROverlayTransformType> peTransformType, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fef92c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4003fbc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VROverlayTransformType> peTransformType);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayTransformType* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fef8a0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4003f30, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2149,7 +2149,7 @@ public:
   __IVROverlay___GetOverlayTransformType(__IVROverlay___GetOverlayTransformType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8708 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2165,20 +2165,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayTransformAbsolute : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fefac8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4004158, size 0xec, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fefbb4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4004244, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fefab4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4004144, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin,
                                                ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayTransformAbsolute* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fefa28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40040b8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2196,7 +2196,7 @@ public:
   __IVROverlay___SetOverlayTransformAbsolute(__IVROverlay___SetOverlayTransformAbsolute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2212,21 +2212,21 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayTransformAbsolute : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fefc80, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4004310, size 0xf0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::ETrackingUniverseOrigin> peTrackingOrigin,
                                              ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fefd70, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4004400, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::ETrackingUniverseOrigin> peTrackingOrigin, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform,
                                                   ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fefc6c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40042fc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::ETrackingUniverseOrigin> peTrackingOrigin,
                                                ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToOverlayTransform);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayTransformAbsolute* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fefbe0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4004270, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2244,7 +2244,7 @@ public:
   __IVROverlay___GetOverlayTransformAbsolute(__IVROverlay___GetOverlayTransformAbsolute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8710 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2260,19 +2260,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayTransformTrackedDeviceRelative : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fefe44, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40044d4, size 0xec, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint32_t unTrackedDevice, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3feff30, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40045c0, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fefe30, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40044c0, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint32_t unTrackedDevice, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayTransformTrackedDeviceRelative* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fefda4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4004434, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2290,7 +2290,7 @@ public:
   __IVROverlay___SetOverlayTransformTrackedDeviceRelative(__IVROverlay___SetOverlayTransformTrackedDeviceRelative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8706 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8711 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2306,19 +2306,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayTransformTrackedDeviceRelative : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fefffc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x400468c, size 0xf0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<uint32_t> punTrackedDevice, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff00ec, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x400477c, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<uint32_t> punTrackedDevice, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3feffe8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4004678, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<uint32_t> punTrackedDevice, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackedDeviceToOverlayTransform);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayTransformTrackedDeviceRelative* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3feff5c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40045ec, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2336,7 +2336,7 @@ public:
   __IVROverlay___GetOverlayTransformTrackedDeviceRelative(__IVROverlay___GetOverlayTransformTrackedDeviceRelative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8712 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2352,18 +2352,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayTransformTrackedDeviceComponent : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff01c0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4004850, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint32_t unDeviceIndex, ::StringW pchComponentName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff0280, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4004910, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff01ac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x400483c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint32_t unDeviceIndex, ::StringW pchComponentName);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayTransformTrackedDeviceComponent* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff0120, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40047b0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2381,7 +2381,7 @@ public:
   __IVROverlay___SetOverlayTransformTrackedDeviceComponent(__IVROverlay___SetOverlayTransformTrackedDeviceComponent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8713 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2397,19 +2397,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayTransformTrackedDeviceComponent : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff0348, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40049d8, size 0xe0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<uint32_t> punDeviceIndex, ::System::Text::StringBuilder* pchComponentName, uint32_t unComponentNameSize,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff0428, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4004ab8, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<uint32_t> punDeviceIndex, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff0334, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40049c4, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<uint32_t> punDeviceIndex, ::System::Text::StringBuilder* pchComponentName, uint32_t unComponentNameSize);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayTransformTrackedDeviceComponent* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff02a8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4004938, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2427,7 +2427,7 @@ public:
   __IVROverlay___GetOverlayTransformTrackedDeviceComponent(__IVROverlay___GetOverlayTransformTrackedDeviceComponent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8714 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2443,19 +2443,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayTransformOverlayRelative : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff04f4, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4004b84, size 0xd8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<uint64_t> ulOverlayHandleParent, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff05cc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4004c5c, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<uint64_t> ulOverlayHandleParent, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff04e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4004b70, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<uint64_t> ulOverlayHandleParent, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayTransformOverlayRelative* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff0454, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4004ae4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2473,7 +2473,7 @@ public:
   __IVROverlay___GetOverlayTransformOverlayRelative(__IVROverlay___GetOverlayTransformOverlayRelative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8715 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2489,19 +2489,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayTransformOverlayRelative : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff06a0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4004d30, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t ulOverlayHandleParent, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff0770, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4004e00, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff068c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4004d1c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint64_t ulOverlayHandleParent, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatParentOverlayToOverlayTransform);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayTransformOverlayRelative* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff0600, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4004c90, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2519,7 +2519,7 @@ public:
   __IVROverlay___SetOverlayTransformOverlayRelative(__IVROverlay___SetOverlayTransformOverlayRelative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8716 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2535,18 +2535,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___ShowOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff083c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4004ecc, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff08c0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4004f50, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff0828, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4004eb8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___ShowOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff079c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4004e2c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2564,7 +2564,7 @@ public:
   __IVROverlay___ShowOverlay(__IVROverlay___ShowOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8717 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2580,18 +2580,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___HideOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff0988, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4005018, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff0a0c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x400509c, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff0974, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4005004, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___HideOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff08e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4004f78, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2609,7 +2609,7 @@ public:
   __IVROverlay___HideOverlay(__IVROverlay___HideOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2625,18 +2625,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___IsOverlayVisible : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff0ad4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4005164, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff0b58, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40051e8, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff0ac0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4005150, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(uint64_t ulOverlayHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___IsOverlayVisible* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff0a34, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40050c4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2654,7 +2654,7 @@ public:
   __IVROverlay___IsOverlayVisible(__IVROverlay___IsOverlayVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8719 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2670,20 +2670,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetTransformForOverlayCoordinates : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff0c20, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40052b0, size 0x120, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ::OVR::OpenVR::HmdVector2_t coordinatesInOverlay,
                                              ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTransform, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff0d40, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40053d0, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTransform, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff0c0c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x400529c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ::OVR::OpenVR::HmdVector2_t coordinatesInOverlay,
                                                ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTransform);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetTransformForOverlayCoordinates* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff0b80, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4005210, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2701,7 +2701,7 @@ public:
   __IVROverlay___GetTransformForOverlayCoordinates(__IVROverlay___GetTransformForOverlayCoordinates const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8720 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2717,18 +2717,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___PollNextOverlayEvent : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff0e0c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x400549c, size 0xec, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff0ef8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4005588, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::VREvent_t> pEvent, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff0df8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4005488, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent);
 
   static inline ::OVR::OpenVR::__IVROverlay___PollNextOverlayEvent* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff0d6c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40053fc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2746,7 +2746,7 @@ public:
   __IVROverlay___PollNextOverlayEvent(__IVROverlay___PollNextOverlayEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8721 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2762,18 +2762,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayInputMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff0fc4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4005654, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VROverlayInputMethod> peInputMethod, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff1080, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4005710, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::VROverlayInputMethod> peInputMethod, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff0fb0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4005640, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VROverlayInputMethod> peInputMethod);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayInputMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff0f24, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40055b4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2791,7 +2791,7 @@ public:
   __IVROverlay___GetOverlayInputMethod(__IVROverlay___GetOverlayInputMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8722 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2807,18 +2807,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayInputMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff114c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40057dc, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayInputMethod eInputMethod, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff1204, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4005894, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff1138, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40057c8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::VROverlayInputMethod eInputMethod);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayInputMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff10ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400573c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2836,7 +2836,7 @@ public:
   __IVROverlay___SetOverlayInputMethod(__IVROverlay___SetOverlayInputMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8723 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2852,18 +2852,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayMouseScale : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff12cc, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x400595c, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff1388, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4005a18, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff12b8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4005948, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayMouseScale* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff122c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40058bc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2881,7 +2881,7 @@ public:
   __IVROverlay___GetOverlayMouseScale(__IVROverlay___GetOverlayMouseScale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8724 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2897,18 +2897,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayMouseScale : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff1454, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4005ae4, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff1510, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4005ba0, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff1440, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4005ad0, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::HmdVector2_t> pvecMouseScale);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayMouseScale* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff13b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4005a44, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2926,7 +2926,7 @@ public:
   __IVROverlay___SetOverlayMouseScale(__IVROverlay___SetOverlayMouseScale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8725 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2942,19 +2942,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___ComputeOverlayIntersection : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff15dc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4005c6c, size 0xf0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VROverlayIntersectionParams_t> pParams, ByRef<::OVR::OpenVR::VROverlayIntersectionResults_t> pResults,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff16cc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4005d5c, size 0x34, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::VROverlayIntersectionParams_t> pParams, ByRef<::OVR::OpenVR::VROverlayIntersectionResults_t> pResults, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff15c8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4005c58, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VROverlayIntersectionParams_t> pParams, ByRef<::OVR::OpenVR::VROverlayIntersectionResults_t> pResults);
 
   static inline ::OVR::OpenVR::__IVROverlay___ComputeOverlayIntersection* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff153c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4005bcc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2972,7 +2972,7 @@ public:
   __IVROverlay___ComputeOverlayIntersection(__IVROverlay___ComputeOverlayIntersection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8726 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2988,18 +2988,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___IsHoverTargetOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff17a0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4005e30, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff1824, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4005eb4, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff178c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4005e1c, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(uint64_t ulOverlayHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___IsHoverTargetOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff1700, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4005d90, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3017,7 +3017,7 @@ public:
   __IVROverlay___IsHoverTargetOverlay(__IVROverlay___IsHoverTargetOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8727 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3033,18 +3033,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetGamepadFocusOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff18e8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4005f78, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff1908, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4005f98, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff18d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4005f64, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke();
 
   static inline ::OVR::OpenVR::__IVROverlay___GetGamepadFocusOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff184c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4005edc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3062,7 +3062,7 @@ public:
   __IVROverlay___GetGamepadFocusOverlay(__IVROverlay___GetGamepadFocusOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3078,18 +3078,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetGamepadFocusOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff19d0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4006060, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulNewFocusOverlay, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff1a54, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40060e4, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff19bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x400604c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulNewFocusOverlay);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetGamepadFocusOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff1930, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4005fc0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3107,7 +3107,7 @@ public:
   __IVROverlay___SetGamepadFocusOverlay(__IVROverlay___SetGamepadFocusOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3123,18 +3123,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayNeighbor : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff1b1c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40061ac, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff1bec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x400627c, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff1b08, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4006198, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(::OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, uint64_t ulTo);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayNeighbor* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff1a7c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400610c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3152,7 +3152,7 @@ public:
   __IVROverlay___SetOverlayNeighbor(__IVROverlay___SetOverlayNeighbor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8730 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3168,18 +3168,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___MoveGamepadFocusToNeighbor : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff1cb4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4006344, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff1d6c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40063fc, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff1ca0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4006330, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(::OVR::OpenVR::EOverlayDirection eDirection, uint64_t ulFrom);
 
   static inline ::OVR::OpenVR::__IVROverlay___MoveGamepadFocusToNeighbor* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff1c14, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40062a4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3197,7 +3197,7 @@ public:
   __IVROverlay___MoveGamepadFocusToNeighbor(__IVROverlay___MoveGamepadFocusToNeighbor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8731 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3213,19 +3213,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayDualAnalogTransform : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff1e34, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40064c4, size 0x11c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlay, ::OVR::OpenVR::EDualAnalogWhich eWhich, ::System::IntPtr vCenter, float_t fRadius, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff1f50, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40065e0, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff1e20, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40064b0, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlay, ::OVR::OpenVR::EDualAnalogWhich eWhich, ::System::IntPtr vCenter, float_t fRadius);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayDualAnalogTransform* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff1d94, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4006424, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3243,7 +3243,7 @@ public:
   __IVROverlay___SetOverlayDualAnalogTransform(__IVROverlay___SetOverlayDualAnalogTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3259,19 +3259,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayDualAnalogTransform : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff2018, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40066a8, size 0x124, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlay, ::OVR::OpenVR::EDualAnalogWhich eWhich, ByRef<::OVR::OpenVR::HmdVector2_t> pvCenter, ByRef<float_t> pfRadius,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff213c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40067cc, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::HmdVector2_t> pvCenter, ByRef<float_t> pfRadius, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff2004, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4006694, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlay, ::OVR::OpenVR::EDualAnalogWhich eWhich, ByRef<::OVR::OpenVR::HmdVector2_t> pvCenter, ByRef<float_t> pfRadius);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayDualAnalogTransform* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff1f78, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4006608, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3289,7 +3289,7 @@ public:
   __IVROverlay___GetOverlayDualAnalogTransform(__IVROverlay___GetOverlayDualAnalogTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3305,18 +3305,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayTexture : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff2210, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40068a0, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::Texture_t> pTexture, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff22cc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x400695c, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::Texture_t> pTexture, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff21fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x400688c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::Texture_t> pTexture);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayTexture* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff2170, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4006800, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3334,7 +3334,7 @@ public:
   __IVROverlay___SetOverlayTexture(__IVROverlay___SetOverlayTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8729 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8734 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3350,18 +3350,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___ClearOverlayTexture : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff2398, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4006a28, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff241c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4006aac, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff2384, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4006a14, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___ClearOverlayTexture* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff22f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4006988, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3379,7 +3379,7 @@ public:
   __IVROverlay___ClearOverlayTexture(__IVROverlay___ClearOverlayTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8735 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3395,19 +3395,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayRaw : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff24e4, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4006b74, size 0x114, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint32_t unWidth, uint32_t unHeight, uint32_t unDepth, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff25f8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4006c88, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff24d0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4006b60, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::System::IntPtr pvBuffer, uint32_t unWidth, uint32_t unHeight, uint32_t unDepth);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayRaw* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff2444, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4006ad4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3425,7 +3425,7 @@ public:
   __IVROverlay___SetOverlayRaw(__IVROverlay___SetOverlayRaw const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8736 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3441,18 +3441,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayFromFile : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff26c0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4006d50, size 0x90, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::StringW pchFilePath, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff2750, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4006de0, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff26ac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4006d3c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::StringW pchFilePath);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayFromFile* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff2620, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4006cb0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3470,7 +3470,7 @@ public:
   __IVROverlay___SetOverlayFromFile(__IVROverlay___SetOverlayFromFile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8737 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3486,24 +3486,24 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayTexture : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff2820, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4006eb0, size 0x1c4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::System::IntPtr> pNativeTextureHandle, ::System::IntPtr pNativeTextureRef, ByRef<uint32_t> pWidth,
                                              ByRef<uint32_t> pHeight, ByRef<uint32_t> pNativeFormat, ByRef<::OVR::OpenVR::ETextureType> pAPIType, ByRef<::OVR::OpenVR::EColorSpace> pColorSpace,
                                              ByRef<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff29e4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4007074, size 0x3c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::System::IntPtr> pNativeTextureHandle, ByRef<uint32_t> pWidth, ByRef<uint32_t> pHeight, ByRef<uint32_t> pNativeFormat,
                                                   ByRef<::OVR::OpenVR::ETextureType> pAPIType, ByRef<::OVR::OpenVR::EColorSpace> pColorSpace, ByRef<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds,
                                                   ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff2804, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4006e94, size 0x1c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<::System::IntPtr> pNativeTextureHandle, ::System::IntPtr pNativeTextureRef, ByRef<uint32_t> pWidth,
                                                ByRef<uint32_t> pHeight, ByRef<uint32_t> pNativeFormat, ByRef<::OVR::OpenVR::ETextureType> pAPIType, ByRef<::OVR::OpenVR::EColorSpace> pColorSpace,
                                                ByRef<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayTexture* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff2778, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4006e08, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3521,7 +3521,7 @@ public:
   __IVROverlay___GetOverlayTexture(__IVROverlay___GetOverlayTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8738 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3537,18 +3537,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___ReleaseNativeOverlayHandle : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff2ac0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4007150, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::IntPtr pNativeTextureHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff2b78, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4007208, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff2aac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x400713c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ::System::IntPtr pNativeTextureHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___ReleaseNativeOverlayHandle* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff2a20, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40070b0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3566,7 +3566,7 @@ public:
   __IVROverlay___ReleaseNativeOverlayHandle(__IVROverlay___ReleaseNativeOverlayHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3582,18 +3582,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayTextureSize : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff2c40, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40072d0, size 0xd8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<uint32_t> pWidth, ByRef<uint32_t> pHeight, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff2d18, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40073a8, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<uint32_t> pWidth, ByRef<uint32_t> pHeight, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff2c2c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40072bc, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<uint32_t> pWidth, ByRef<uint32_t> pHeight);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayTextureSize* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff2ba0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4007230, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3611,7 +3611,7 @@ public:
   __IVROverlay___GetOverlayTextureSize(__IVROverlay___GetOverlayTextureSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8740 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3627,19 +3627,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___CreateDashboardOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff2e00, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4007490, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchOverlayKey, ::StringW pchOverlayFriendlyName, ByRef<uint64_t> pMainHandle, ByRef<uint64_t> pThumbnailHandle,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff2eb8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4007548, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<uint64_t> pMainHandle, ByRef<uint64_t> pThumbnailHandle, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff2dec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x400747c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(::StringW pchOverlayKey, ::StringW pchOverlayFriendlyName, ByRef<uint64_t> pMainHandle, ByRef<uint64_t> pThumbnailHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___CreateDashboardOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff2d4c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40073dc, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3657,7 +3657,7 @@ public:
   __IVROverlay___CreateDashboardOverlay(__IVROverlay___CreateDashboardOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3673,18 +3673,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___IsDashboardVisible : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff2f88, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4007618, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff2fa8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4007638, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff2f74, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4007604, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::OVR::OpenVR::__IVROverlay___IsDashboardVisible* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff2eec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400757c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3702,7 +3702,7 @@ public:
   __IVROverlay___IsDashboardVisible(__IVROverlay___IsDashboardVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8742 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3718,18 +3718,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___IsActiveDashboardOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff3070, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4007700, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff30f4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4007784, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff305c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40076ec, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(uint64_t ulOverlayHandle);
 
   static inline ::OVR::OpenVR::__IVROverlay___IsActiveDashboardOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff2fd0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4007660, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3747,7 +3747,7 @@ public:
   __IVROverlay___IsActiveDashboardOverlay(__IVROverlay___IsActiveDashboardOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8743 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3763,18 +3763,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetDashboardOverlaySceneProcess : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff31bc, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x400784c, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint32_t unProcessId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff3274, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4007904, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff31a8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4007838, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, uint32_t unProcessId);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetDashboardOverlaySceneProcess* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff311c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40077ac, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3792,7 +3792,7 @@ public:
   __IVROverlay___SetDashboardOverlaySceneProcess(__IVROverlay___SetDashboardOverlaySceneProcess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8744 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3808,18 +3808,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetDashboardOverlaySceneProcess : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff333c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40079cc, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<uint32_t> punProcessId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff33f8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4007a88, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<uint32_t> punProcessId, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff3328, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40079b8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<uint32_t> punProcessId);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetDashboardOverlaySceneProcess* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff329c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400792c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3837,7 +3837,7 @@ public:
   __IVROverlay___GetDashboardOverlaySceneProcess(__IVROverlay___GetDashboardOverlaySceneProcess const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8745 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3853,18 +3853,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___ShowDashboard : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff34d4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4007b64, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchOverlayToShow, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff34f4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4007b84, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff34c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4007b50, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchOverlayToShow);
 
   static inline ::OVR::OpenVR::__IVROverlay___ShowDashboard* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff3424, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4007ab4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3882,7 +3882,7 @@ public:
   __IVROverlay___ShowDashboard(__IVROverlay___ShowDashboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8741 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8746 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3898,18 +3898,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetPrimaryDashboardDevice : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff359c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4007c2c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff35bc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4007c4c, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff3588, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4007c18, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke();
 
   static inline ::OVR::OpenVR::__IVROverlay___GetPrimaryDashboardDevice* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff3500, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4007b90, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3927,7 +3927,7 @@ public:
   __IVROverlay___GetPrimaryDashboardDevice(__IVROverlay___GetPrimaryDashboardDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8747 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3943,20 +3943,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___ShowKeyboard : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff368c, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4007d1c, size 0x144, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(int32_t eInputMode, int32_t eLineInputMode, ::StringW pchDescription, uint32_t unCharMax, ::StringW pchExistingText, bool bUseMinimalMode,
                                              uint64_t uUserValue, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff37d0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4007e60, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff3670, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4007d00, size 0x1c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(int32_t eInputMode, int32_t eLineInputMode, ::StringW pchDescription, uint32_t unCharMax, ::StringW pchExistingText, bool bUseMinimalMode,
                                                uint64_t uUserValue);
 
   static inline ::OVR::OpenVR::__IVROverlay___ShowKeyboard* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff35e4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4007c74, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3974,7 +3974,7 @@ public:
   __IVROverlay___ShowKeyboard(__IVROverlay___ShowKeyboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8748 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -3990,20 +3990,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___ShowKeyboardForOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff38a0, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4007f30, size 0x158, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, int32_t eInputMode, int32_t eLineInputMode, ::StringW pchDescription, uint32_t unCharMax, ::StringW pchExistingText,
                                              bool bUseMinimalMode, uint64_t uUserValue, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff39f8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4008088, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff3884, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4007f14, size 0x1c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, int32_t eInputMode, int32_t eLineInputMode, ::StringW pchDescription, uint32_t unCharMax, ::StringW pchExistingText,
                                                bool bUseMinimalMode, uint64_t uUserValue);
 
   static inline ::OVR::OpenVR::__IVROverlay___ShowKeyboardForOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff37f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4007e88, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -4021,7 +4021,7 @@ public:
   __IVROverlay___ShowKeyboardForOverlay(__IVROverlay___ShowKeyboardForOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4037,18 +4037,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetKeyboardText : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff3ad4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4008164, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder* pchText, uint32_t cchText, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff3b68, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40081f8, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff3ac0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4008150, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::System::Text::StringBuilder* pchText, uint32_t cchText);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetKeyboardText* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff3a20, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40080b0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -4066,7 +4066,7 @@ public:
   __IVROverlay___GetKeyboardText(__IVROverlay___GetKeyboardText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8750 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4082,18 +4082,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___HideKeyboard : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff3c2c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40082bc, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff3c4c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40082dc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff3c18, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40082a8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::OVR::OpenVR::__IVROverlay___HideKeyboard* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff3b90, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4008220, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -4111,7 +4111,7 @@ public:
   __IVROverlay___HideKeyboard(__IVROverlay___HideKeyboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8746 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8751 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4127,19 +4127,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetKeyboardTransformAbsolute : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff3cf8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4008388, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToKeyboardTransform,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff3db4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4008444, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToKeyboardTransform, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff3ce4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4008374, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::OVR::OpenVR::ETrackingUniverseOrigin eTrackingOrigin, ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatTrackingOriginToKeyboardTransform);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetKeyboardTransformAbsolute* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff3c58, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40082e8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -4157,7 +4157,7 @@ public:
   __IVROverlay___SetKeyboardTransformAbsolute(__IVROverlay___SetKeyboardTransformAbsolute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4173,18 +4173,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetKeyboardPositionForOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff3e70, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4008500, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::HmdRect2_t avoidRect, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff3f2c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40085bc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff3e5c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40084ec, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(uint64_t ulOverlayHandle, ::OVR::OpenVR::HmdRect2_t avoidRect);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetKeyboardPositionForOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff3dd0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4008460, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -4202,7 +4202,7 @@ public:
   __IVROverlay___SetKeyboardPositionForOverlay(__IVROverlay___SetKeyboardPositionForOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8753 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4218,20 +4218,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___SetOverlayIntersectionMask : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff3fd8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4008668, size 0x104, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t> pMaskPrimitives, uint32_t unNumMaskPrimitives,
                                              uint32_t unPrimitiveSize, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff40dc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x400876c, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t> pMaskPrimitives, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff3fc4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4008654, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_t> pMaskPrimitives, uint32_t unNumMaskPrimitives,
                                                uint32_t unPrimitiveSize);
 
   static inline ::OVR::OpenVR::__IVROverlay___SetOverlayIntersectionMask* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff3f38, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40085c8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -4249,7 +4249,7 @@ public:
   __IVROverlay___SetOverlayIntersectionMask(__IVROverlay___SetOverlayIntersectionMask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8754 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4265,18 +4265,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___GetOverlayFlags : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff41a8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4008838, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, ByRef<uint32_t> pFlags, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff4264, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x40088f4, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError EndInvoke(ByRef<uint32_t> pFlags, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff4194, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4008824, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVROverlayError Invoke(uint64_t ulOverlayHandle, ByRef<uint32_t> pFlags);
 
   static inline ::OVR::OpenVR::__IVROverlay___GetOverlayFlags* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff4108, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4008798, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -4294,7 +4294,7 @@ public:
   __IVROverlay___GetOverlayFlags(__IVROverlay___GetOverlayFlags const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8755 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4310,20 +4310,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___ShowMessageOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff4344, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x40089d4, size 0x34, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchText, ::StringW pchCaption, ::StringW pchButton0Text, ::StringW pchButton1Text, ::StringW pchButton2Text, ::StringW pchButton3Text,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff4378, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4008a08, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::VRMessageOverlayResponse EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff4330, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40089c0, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::VRMessageOverlayResponse Invoke(::StringW pchText, ::StringW pchCaption, ::StringW pchButton0Text, ::StringW pchButton1Text, ::StringW pchButton2Text,
                                                         ::StringW pchButton3Text);
 
   static inline ::OVR::OpenVR::__IVROverlay___ShowMessageOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff4290, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4008920, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -4341,7 +4341,7 @@ public:
   __IVROverlay___ShowMessageOverlay(__IVROverlay___ShowMessageOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8756 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4357,18 +4357,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVROverlay___CloseMessageOverlay : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff443c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4008acc, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff445c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4008aec, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff4428, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4008ab8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::OVR::OpenVR::__IVROverlay___CloseMessageOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff43a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4008a30, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -4386,7 +4386,7 @@ public:
   __IVROverlay___CloseMessageOverlay(__IVROverlay___CloseMessageOverlay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8752 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8757 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4929,7 +4929,7 @@ public:
   ::OVR::OpenVR::__IVROverlay___CloseMessageOverlay* CloseMessageOverlay;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8758 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x290 };

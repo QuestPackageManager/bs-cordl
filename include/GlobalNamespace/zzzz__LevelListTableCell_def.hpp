@@ -87,10 +87,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b82968, size 0x490, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b98530, size 0x490, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b82df8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b989c0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -132,7 +132,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4738 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -168,10 +168,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b82e04, size 0x898, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b989cc, size 0x898, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b8369c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b99264, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -223,7 +223,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4739 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -332,27 +332,27 @@ public:
   /// @brief Field _updatedBadgeGo, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__updatedBadgeGo, put = __cordl_internal_set__updatedBadgeGo)) ::UnityW<::UnityEngine::GameObject> _updatedBadgeGo;
 
-  /// @brief Method CancelAsyncOperations, addr 0x3b8287c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CancelAsyncOperations, addr 0x3b98444, size 0x38, virtual false, abstract: false, final false
   inline void CancelAsyncOperations();
 
-  /// @brief Method HighlightDidChange, addr 0x3b82874, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3b9843c, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::LevelListTableCell* New_ctor();
 
-  /// @brief Method RefreshAvailabilityAsync, addr 0x3b828b4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailabilityAsync, addr 0x3b9847c, size 0xa4, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync(::GlobalNamespace::IEntitlementModel* entitlementModel, ::StringW levelID);
 
-  /// @brief Method RefreshVisuals, addr 0x3b827b0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3b98378, size 0xc4, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3b827ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3b98374, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method SetDataFromLevelAsync, addr 0x3b826d0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetDataFromLevelAsync, addr 0x3b98298, size 0xdc, virtual false, abstract: false, final false
   inline void SetDataFromLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel, bool isFavorite, bool isPromoted, bool isUpdated, bool interactable);
 
-  /// @brief Method WasPreparedForReuse, addr 0x3b82878, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WasPreparedForReuse, addr 0x3b98440, size 0x4, virtual true, abstract: false, final false
   inline void WasPreparedForReuse();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -481,7 +481,7 @@ public:
 
   constexpr void __cordl_internal_set__updatedBadgeGo(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3b82958, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b98520, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -562,7 +562,7 @@ public:
   ::StringW ____settingDataFromLevelId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4740 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

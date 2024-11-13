@@ -69,7 +69,7 @@ public:
   __Listeners_1__Action_4(__Listeners_1__Action_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -108,7 +108,7 @@ public:
   __Listeners_1__Func_2(__Listeners_1__Func_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11432 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -216,7 +216,7 @@ public:
   int32_t ____listenerReaderCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

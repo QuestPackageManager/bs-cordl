@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView____c::*)()>(
     &::GlobalNamespace::__StandardLevelDetailView____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afbf90;
+  constexpr static std::size_t addrs = 0x3b109b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__StandardLevelDetailView____c*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> (::GlobalNamespace::__StandardLevelDetailView____c::*)(
     ::GlobalNamespace::BeatmapKey)>(&::GlobalNamespace::__StandardLevelDetailView____c::_SetContent_b__44_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afbf98;
+  constexpr static std::size_t addrs = 0x3b109b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::*)()>(
     &::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afb02c;
+  constexpr static std::size_t addrs = 0x3b0fa4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::*)(::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::__StandardLevelDetailView____c__DisplayClass44_0::_SetContent_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3afbfa0;
+  constexpr static std::size_t addrs = 0x3b109c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61::*)()>(
     &::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61::MoveNext)> {
   constexpr static std::size_t size = 0x784;
-  constexpr static std::size_t addrs = 0x3afbfb0;
+  constexpr static std::size_t addrs = 0x3b109d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__StandardLevelDetailView___CalculateAndSetContentAsync_d__61::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3afc734;
+  constexpr static std::size_t addrs = 0x3b11154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::*)()>(
     &::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::MoveNext)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x3afc79c;
+  constexpr static std::size_t addrs = 0x3b111bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__StandardLevelDetailView___CheckIfBeatmapLevelDataExists_d__56::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3afcca8;
+  constexpr static std::size_t addrs = 0x3b116c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::*)()>(
     &::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::MoveNext)> {
   constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x3afccb4;
+  constexpr static std::size_t addrs = 0x3b116d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__StandardLevelDetailView___SetBeatmapLevelVersions_d__62::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3afd230;
+  constexpr static std::size_t addrs = 0x3b11c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>*)>(&::GlobalNamespace::StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3afa9c8;
+  constexpr static std::size_t addrs = 0x3b0f3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>*)>(&::GlobalNamespace::StandardLevelDetailView::remove_didChangeDifficultyBeatmapEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3afaa78;
+  constexpr static std::size_t addrs = 0x3b0f498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*)>(
     &::GlobalNamespace::StandardLevelDetailView::add_didFavoriteToggleChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3afab28;
+  constexpr static std::size_t addrs = 0x3b0f548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*)>(
     &::GlobalNamespace::StandardLevelDetailView::remove_didFavoriteToggleChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3afabd8;
+  constexpr static std::size_t addrs = 0x3b0f5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::get_actionButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afac88;
+  constexpr static std::size_t addrs = 0x3b0f6a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::StringW)>(
     &::GlobalNamespace::StandardLevelDetailView::set_actionButtonText)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3afac90;
+  constexpr static std::size_t addrs = 0x3b0f6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::get_practiceButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afacb4;
+  constexpr static std::size_t addrs = 0x3b0f6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(bool)>(
     &::GlobalNamespace::StandardLevelDetailView::set_hidePracticeButton)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3afacbc;
+  constexpr static std::size_t addrs = 0x3b0f6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -518,7 +518,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::get_beatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3afacf0;
+  constexpr static std::size_t addrs = 0x3b0f710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -532,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::StandardLevelDetailView::set_beatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3afad04;
+  constexpr static std::size_t addrs = 0x3b0f724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -548,7 +548,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapDifficultyMask, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*,
     ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::PlayerData*)>(&::GlobalNamespace::StandardLevelDetailView::SetContent)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x3afad18;
+  constexpr static std::size_t addrs = 0x3b0f738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -569,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::ClearBeatmapLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afb178;
+  constexpr static std::size_t addrs = 0x3b0fb98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -582,7 +582,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::Awake)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x3afb180;
+  constexpr static std::size_t addrs = 0x3b0fba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "Awake",
@@ -595,7 +595,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::OnEnable)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3afb300;
+  constexpr static std::size_t addrs = 0x3b0fd20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "OnEnable",
@@ -608,7 +608,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::OnDisable)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3afb47c;
+  constexpr static std::size_t addrs = 0x3b0fe9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "OnDisable",
@@ -621,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::OnDestroy)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3afb5d4;
+  constexpr static std::size_t addrs = 0x3b0fff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "OnDestroy",
@@ -635,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(
     ::GlobalNamespace::__BeatmapLevelLoader__LevelDownloadingUpdate)>(&::GlobalNamespace::StandardLevelDetailView::HandleBeatmapLevelsModelLevelDownloadingUpdate)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3afb780;
+  constexpr static std::size_t addrs = 0x3b101a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -651,7 +651,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::HandleDidPressRefreshButton)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3afb94c;
+  constexpr static std::size_t addrs = 0x3b1036c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -666,7 +666,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty)>(
         &::GlobalNamespace::StandardLevelDetailView::HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3afb950;
+  constexpr static std::size_t addrs = 0x3b10370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -684,7 +684,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*)>(
         &::GlobalNamespace::StandardLevelDetailView::HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3afb9a4;
+  constexpr static std::size_t addrs = 0x3b103c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -701,7 +701,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(
     ::GlobalNamespace::__StandardLevelDetailViewController__ContentType, float_t)>(&::GlobalNamespace::StandardLevelDetailView::ShowContent)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3afb7f0;
+  constexpr static std::size_t addrs = 0x3b10210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::RefreshContent)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3afb034;
+  constexpr static std::size_t addrs = 0x3b0fa54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -731,7 +731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::CheckIfBeatmapLevelDataExists)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3afb0ec;
+  constexpr static std::size_t addrs = 0x3b0fb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -745,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::SetContentForBeatmapData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3afba74;
+  constexpr static std::size_t addrs = 0x3b10494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -758,7 +758,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::ClearContent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3afbaac;
+  constexpr static std::size_t addrs = 0x3b104cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -771,7 +771,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::SetContent)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3afbb48;
+  constexpr static std::size_t addrs = 0x3b10568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), "SetContent",
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::CalculateAndSetContent)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3afbbd4;
+  constexpr static std::size_t addrs = 0x3b105f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -799,7 +799,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::StandardLevelDetailView::*)(::GlobalNamespace::BeatmapKey, ::System::Threading::CancellationToken)>(&::GlobalNamespace::StandardLevelDetailView::CalculateAndSetContentAsync)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3afbe08;
+  constexpr static std::size_t addrs = 0x3b10828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -815,7 +815,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::SetBeatmapLevelVersions)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3afbd7c;
+  constexpr static std::size_t addrs = 0x3b1079c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -829,7 +829,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(int32_t, int32_t, int32_t, float_t)>(
     &::GlobalNamespace::StandardLevelDetailView::SetData)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3afbcec;
+  constexpr static std::size_t addrs = 0x3b1070c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -845,7 +845,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::StandardLevelDetailView::*)()>(
     &::GlobalNamespace::StandardLevelDetailView::CreateBeatmapKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3afba30;
+  constexpr static std::size_t addrs = 0x3b10450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -858,7 +858,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::TriggerEvent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3afb984;
+  constexpr static std::size_t addrs = 0x3b103a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(),
@@ -871,7 +871,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)()>(&::GlobalNamespace::StandardLevelDetailView::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afbef0;
+  constexpr static std::size_t addrs = 0x3b10910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelDetailView*>::get(), ".ctor",
@@ -885,7 +885,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(bool)>(
     &::GlobalNamespace::StandardLevelDetailView::_Awake_b__46_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3afbef8;
+  constexpr static std::size_t addrs = 0x3b10918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -900,7 +900,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelDetailView::*)(float_t)>(
     &::GlobalNamespace::StandardLevelDetailView::_CalculateAndSetContentAsync_b__61_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3afbf18;
+  constexpr static std::size_t addrs = 0x3b10938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

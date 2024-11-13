@@ -114,7 +114,7 @@ public:
 
   static inline ::GlobalNamespace::__MissionResultsViewController____c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method <SetDataToUI>b__0, addr 0x3ba0b30, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method <SetDataToUI>b__0, addr 0x3b0ab74, size 0x408, virtual false, abstract: false, final false
   inline void _SetDataToUI_b__0(int32_t idx, ::GlobalNamespace::ResultObjectiveListItem* objectiveListItem);
 
   constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& __cordl_internal_get___4__this() const;
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
 
-  /// @brief Method .ctor, addr 0x3ba0ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0ab24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,7 +171,7 @@ public:
   ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> ___missionObjectiveResults;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5344 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -220,21 +220,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3ba0f3c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b0af80, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__29* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3ba0ff4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b0b038, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3ba0ffc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b0b040, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3ba1034, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b0b078, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3ba0f38, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b0af7c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -261,7 +261,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ba0ab8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0aafc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -300,7 +300,7 @@ public:
   ::UnityW<::GlobalNamespace::MissionResultsViewController> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5345 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -399,27 +399,27 @@ public:
   __declspec(property(get = __cordl_internal_get_retryButtonPressedEvent,
                       put = __cordl_internal_set_retryButtonPressedEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* retryButtonPressedEvent;
 
-  /// @brief Method ContinueButtonPressed, addr 0x3ba0ae8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ContinueButtonPressed, addr 0x3b0ab2c, size 0x20, virtual false, abstract: false, final false
   inline void ContinueButtonPressed();
 
-  /// @brief Method DidActivate, addr 0x3ba0610, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b0a654, size 0x190, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3ba0a7c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b0aac0, size 0x3c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x3ba0608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b0a64c, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::MissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
   static inline ::GlobalNamespace::MissionResultsViewController* New_ctor();
 
-  /// @brief Method RetryButtonPressed, addr 0x3ba0b08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RetryButtonPressed, addr 0x3b0ab4c, size 0x20, virtual false, abstract: false, final false
   inline void RetryButtonPressed();
 
-  /// @brief Method SetDataToUI, addr 0x3ba07a0, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method SetDataToUI, addr 0x3b0a7e4, size 0x26c, virtual false, abstract: false, final false
   inline void SetDataToUI();
 
-  /// @brief Method StartFireworksAfterDelay, addr 0x3ba0a0c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StartFireworksAfterDelay, addr 0x3b0aa50, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartFireworksAfterDelay(float_t delay);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__clearedBannerGo() const;
@@ -554,19 +554,19 @@ public:
 
   constexpr void __cordl_internal_set_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x3ba0b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0ab6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_continueButtonPressedEvent, addr 0x3ba0338, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_continueButtonPressedEvent, addr 0x3b0a37c, size 0xb4, virtual false, abstract: false, final false
   inline void add_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
-  /// @brief Method add_retryButtonPressedEvent, addr 0x3ba04a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_retryButtonPressedEvent, addr 0x3b0a4e4, size 0xb4, virtual false, abstract: false, final false
   inline void add_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
-  /// @brief Method remove_continueButtonPressedEvent, addr 0x3ba03ec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_continueButtonPressedEvent, addr 0x3b0a430, size 0xb4, virtual false, abstract: false, final false
   inline void remove_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
-  /// @brief Method remove_retryButtonPressedEvent, addr 0x3ba0554, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_retryButtonPressedEvent, addr 0x3b0a598, size 0xb4, virtual false, abstract: false, final false
   inline void remove_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
 protected:
@@ -650,7 +650,7 @@ public:
   ::UnityEngine::Coroutine* ____startFireworksAfterDelayCoroutine;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

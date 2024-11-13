@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DifficultyTableCell::*)(::StringW)>(
     &::GlobalNamespace::DifficultyTableCell::set_difficultyText)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b80514;
+  constexpr static std::size_t addrs = 0x3b960dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::DifficultyTableCell::*)()>(
     &::GlobalNamespace::DifficultyTableCell::get_difficultyText)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b80538;
+  constexpr static std::size_t addrs = 0x3b96100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DifficultyTableCell*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DifficultyTableCell::*)(int32_t)>(
     &::GlobalNamespace::DifficultyTableCell::set_difficultyValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b8055c;
+  constexpr static std::size_t addrs = 0x3b96124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DifficultyTableCell::*)(::HMUI::__SelectableCell__TransitionType)>(
     &::GlobalNamespace::DifficultyTableCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b805d8;
+  constexpr static std::size_t addrs = 0x3b961a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DifficultyTableCell::*)(::HMUI::__SelectableCell__TransitionType)>(
     &::GlobalNamespace::DifficultyTableCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b80670;
+  constexpr static std::size_t addrs = 0x3b96238;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DifficultyTableCell::*)()>(&::GlobalNamespace::DifficultyTableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b806b0;
+  constexpr static std::size_t addrs = 0x3b96278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DifficultyTableCell*>::get(), ".ctor",

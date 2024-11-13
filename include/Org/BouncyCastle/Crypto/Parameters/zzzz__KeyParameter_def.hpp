@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetKey, addr 0x2367634, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x23726dc, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKey();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2370b44, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237bbec, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x2377df8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2382ea0, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

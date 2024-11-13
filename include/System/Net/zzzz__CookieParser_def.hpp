@@ -29,10 +29,10 @@ public:
   /// @brief Field m_tokenizer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_tokenizer, put = __cordl_internal_set_m_tokenizer)) ::System::Net::CookieTokenizer* m_tokenizer;
 
-  /// @brief Method CheckQuoted, addr 0x44386f4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckQuoted, addr 0x444ce0c, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW CheckQuoted(::StringW value);
 
-  /// @brief Method Get, addr 0x4438190, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x444c8a8, size 0x564, virtual false, abstract: false, final false
   inline ::System::Net::Cookie* Get();
 
   static inline ::System::Net::CookieParser* New_ctor(::StringW cookieString);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_m_tokenizer(::System::Net::CookieTokenizer* value);
 
-  /// @brief Method .ctor, addr 0x443811c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444c834, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW cookieString);
 
 protected:
@@ -64,7 +64,7 @@ public:
   ::System::Net::CookieTokenizer* ___m_tokenizer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9615 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

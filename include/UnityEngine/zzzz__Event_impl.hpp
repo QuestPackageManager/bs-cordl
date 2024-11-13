@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventType (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_rawType)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485bb44;
+  constexpr static std::size_t addrs = 0x487025c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_rawType",
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_mousePosition)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x485bb80;
+  constexpr static std::size_t addrs = 0x4870298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_mousePosition",
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(::UnityEngine::Vector2)>(&::UnityEngine::Event::set_mousePosition)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x485bc10;
+  constexpr static std::size_t addrs = 0x4870328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_delta)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x485bc9c;
+  constexpr static std::size_t addrs = 0x48703b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_delta",
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(::UnityEngine::Vector2)>(&::UnityEngine::Event::set_delta)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x485bd2c;
+  constexpr static std::size_t addrs = 0x4870444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PointerType (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_pointerType)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485bdb8;
+  constexpr static std::size_t addrs = 0x48704d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_pointerType",
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_button)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485bdf4;
+  constexpr static std::size_t addrs = 0x487050c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_button",
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventModifiers (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_modifiers)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485be30;
+  constexpr static std::size_t addrs = 0x4870548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_modifiers",
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(::UnityEngine::EventModifiers)>(&::UnityEngine::Event::set_modifiers)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485be6c;
+  constexpr static std::size_t addrs = 0x4870584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_pressure)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485beb0;
+  constexpr static std::size_t addrs = 0x48705c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_pressure",
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_twist)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485beec;
+  constexpr static std::size_t addrs = 0x4870604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_twist",
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_tilt)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x485bf28;
+  constexpr static std::size_t addrs = 0x4870640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_tilt",
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PenStatus (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_penStatus)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485bfb8;
+  constexpr static std::size_t addrs = 0x48706d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_penStatus",
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_clickCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485bff4;
+  constexpr static std::size_t addrs = 0x487070c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_clickCount",
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_character)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c030;
+  constexpr static std::size_t addrs = 0x4870748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_character",
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(char16_t)>(&::UnityEngine::Event::set_character)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485c06c;
+  constexpr static std::size_t addrs = 0x4870784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::KeyCode (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_keyCode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c0b0;
+  constexpr static std::size_t addrs = 0x48707c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_keyCode",
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(::UnityEngine::KeyCode)>(&::UnityEngine::Event::set_keyCode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485c0ec;
+  constexpr static std::size_t addrs = 0x4870804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_displayIndex)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c130;
+  constexpr static std::size_t addrs = 0x4870848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_displayIndex",
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(int32_t)>(&::UnityEngine::Event::set_displayIndex)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485c16c;
+  constexpr static std::size_t addrs = 0x4870884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventType (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_type)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c1b0;
+  constexpr static std::size_t addrs = 0x48708c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_type",
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(::UnityEngine::EventType)>(&::UnityEngine::Event::set_type)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485c1ec;
+  constexpr static std::size_t addrs = 0x4870904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_commandName)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c230;
+  constexpr static std::size_t addrs = 0x4870948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_commandName",
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(::StringW)>(&::UnityEngine::Event::set_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485c26c;
+  constexpr static std::size_t addrs = 0x4870984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)()>(&::UnityEngine::Event::Internal_Use)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c2b0;
+  constexpr static std::size_t addrs = 0x48709c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "Internal_Use",
@@ -349,7 +349,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::Event::Internal_Create)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c2ec;
+  constexpr static std::size_t addrs = 0x4870a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -363,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Event::Internal_Destroy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c328;
+  constexpr static std::size_t addrs = 0x4870a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(::System::IntPtr)>(&::UnityEngine::Event::CopyFromPtr)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485c364;
+  constexpr static std::size_t addrs = 0x4870a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Event*)>(&::UnityEngine::Event::PopEvent)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c3a8;
+  constexpr static std::size_t addrs = 0x4870ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Event::Internal_SetNativeEvent)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c3e4;
+  constexpr static std::size_t addrs = 0x4870afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::Event::Internal_MakeMasterEventCurrent)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x485c420;
+  constexpr static std::size_t addrs = 0x4870b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::Event::GetDoubleClickTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x485c564;
+  constexpr static std::size_t addrs = 0x4870c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "GetDoubleClickTime",
@@ -446,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)()>(&::UnityEngine::Event::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x485c58c;
+  constexpr static std::size_t addrs = 0x4870ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), ".ctor",
@@ -459,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(int32_t)>(&::UnityEngine::Event::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x485c514;
+  constexpr static std::size_t addrs = 0x4870c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)()>(&::UnityEngine::Event::Finalize)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x485c5d8;
+  constexpr static std::size_t addrs = 0x4870cf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -487,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(::UnityEngine::Event*)>(&::UnityEngine::Event::CopyFrom)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x485c6b0;
+  constexpr static std::size_t addrs = 0x4870dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -501,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_shift)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485c720;
+  constexpr static std::size_t addrs = 0x4870e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_shift",
@@ -514,7 +514,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Event* (*)()>(&::UnityEngine::Event::get_current)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x485c764;
+  constexpr static std::size_t addrs = 0x4870e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_current",
@@ -527,7 +527,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Event*)>(&::UnityEngine::Event::set_current)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x485c7ac;
+  constexpr static std::size_t addrs = 0x4870ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -541,7 +541,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_isKey)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x485c840;
+  constexpr static std::size_t addrs = 0x4870f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_isKey",
@@ -554,7 +554,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_isMouse)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x485c88c;
+  constexpr static std::size_t addrs = 0x4870fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_isMouse",
@@ -567,7 +567,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Event::*)()>(&::UnityEngine::Event::get_isDirectManipulationDevice)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x485c8f0;
+  constexpr static std::size_t addrs = 0x4871008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "get_isDirectManipulationDevice",
@@ -580,7 +580,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Event* (*)(::StringW)>(&::UnityEngine::Event::KeyboardEvent)> {
   constexpr static std::size_t size = 0x1be4;
-  constexpr static std::size_t addrs = 0x485c96c;
+  constexpr static std::size_t addrs = 0x4871084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -594,7 +594,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Event::*)()>(&::UnityEngine::Event::GetHashCode)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x485e550;
+  constexpr static std::size_t addrs = 0x4872c68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -608,7 +608,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Event::*)(::System::Object*)>(&::UnityEngine::Event::Equals)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x485e650;
+  constexpr static std::size_t addrs = 0x4872d68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -622,7 +622,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Event::*)()>(&::UnityEngine::Event::ToString)> {
   constexpr static std::size_t size = 0x7b4;
-  constexpr static std::size_t addrs = 0x485e8bc;
+  constexpr static std::size_t addrs = 0x4872fd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -636,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)()>(&::UnityEngine::Event::Use)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x485f070;
+  constexpr static std::size_t addrs = 0x4873788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Event*>::get(), "Use",
@@ -649,7 +649,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::Event::get_mousePosition_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485bbcc;
+  constexpr static std::size_t addrs = 0x48702e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -663,7 +663,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::Event::set_mousePosition_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485bc58;
+  constexpr static std::size_t addrs = 0x4870370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -677,7 +677,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::Event::get_delta_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485bce8;
+  constexpr static std::size_t addrs = 0x4870400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -691,7 +691,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::Event::set_delta_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485bd74;
+  constexpr static std::size_t addrs = 0x487048c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -705,7 +705,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Event::*)(ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::Event::get_tilt_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485bf74;
+  constexpr static std::size_t addrs = 0x487068c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

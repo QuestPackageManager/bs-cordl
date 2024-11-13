@@ -23,7 +23,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadLocal
 }
 template <typename T> constexpr void System::Threading::__ThreadLocal_1__LinkedSlot<T>::__cordl_internal_set_Next(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___Next, value);
 }
 template <typename T> constexpr ::System::Threading::__ThreadLocal_1__LinkedSlot<T>*& System::Threading::__ThreadLocal_1__LinkedSlot<T>::__cordl_internal_get_Previous() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -36,7 +36,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadLocal
 }
 template <typename T> constexpr void System::Threading::__ThreadLocal_1__LinkedSlot<T>::__cordl_internal_set_Previous(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Previous)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___Previous, value);
 }
 template <typename T>
 constexpr ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*>&
@@ -54,7 +54,7 @@ template <typename T>
 constexpr void System::Threading::__ThreadLocal_1__LinkedSlot<T>::__cordl_internal_set_SlotArray(
     ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SlotArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___SlotArray, value);
 }
 template <typename T> constexpr T& System::Threading::__ThreadLocal_1__LinkedSlot<T>::__cordl_internal_get_Value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -66,7 +66,7 @@ template <typename T> constexpr T const& System::Threading::__ThreadLocal_1__Lin
 }
 template <typename T> constexpr void System::Threading::__ThreadLocal_1__LinkedSlot<T>::__cordl_internal_set_Value(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___Value, value);
 }
 template <typename T>
 inline ::System::Threading::__ThreadLocal_1__LinkedSlot<T>* System::Threading::__ThreadLocal_1__LinkedSlot<T>::New_ctor(
@@ -107,7 +107,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename T> constexpr void System::Threading::__ThreadLocal_1__IdManager<T>::__cordl_internal_set_m_freeIds(::System::Collections::Generic::List_1<bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_freeIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_freeIds, value);
 }
 template <typename T> inline int32_t System::Threading::__ThreadLocal_1__IdManager<T>::GetId() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ThreadLocal_1__IdManager<T>*>::get(),
@@ -146,7 +146,7 @@ template <typename T>
 constexpr void System::Threading::__ThreadLocal_1__FinalizationHelper<T>::__cordl_internal_set_SlotArray(
     ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SlotArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___SlotArray, value);
 }
 template <typename T> constexpr bool& System::Threading::__ThreadLocal_1__FinalizationHelper<T>::__cordl_internal_get_m_trackAllValues() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -201,7 +201,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Fu
 }
 template <typename T> constexpr void System::Threading::ThreadLocal_1<T>::__cordl_internal_set_m_valueFactory(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_valueFactory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_valueFactory, value);
 }
 template <typename T> constexpr int32_t& System::Threading::ThreadLocal_1<T>::__cordl_internal_get_m_idComplement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -238,7 +238,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadLocal
 }
 template <typename T> constexpr void System::Threading::ThreadLocal_1<T>::__cordl_internal_set_m_linkedSlot(::System::Threading::__ThreadLocal_1__LinkedSlot<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_linkedSlot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_linkedSlot, value);
 }
 template <typename T> constexpr bool& System::Threading::ThreadLocal_1<T>::__cordl_internal_get_m_trackAllValues() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

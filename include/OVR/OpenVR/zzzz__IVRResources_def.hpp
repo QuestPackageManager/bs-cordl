@@ -51,18 +51,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRResources___LoadSharedResource : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff8098, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x400c728, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff8130, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x400c7c0, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff8084, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x400c714, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen);
 
   static inline ::OVR::OpenVR::__IVRResources___LoadSharedResource* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff7fe4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400c674, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -80,7 +80,7 @@ public:
   __IVRResources___LoadSharedResource(__IVRResources___LoadSharedResource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -96,19 +96,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRResources___GetResourceFullPath : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ff820c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x400c89c, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ff82b4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x400c944, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ff81f8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x400c888, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen);
 
   static inline ::OVR::OpenVR::__IVRResources___GetResourceFullPath* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ff8158, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400c7e8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -126,7 +126,7 @@ public:
   __IVRResources___GetResourceFullPath(__IVRResources___GetResourceFullPath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8804 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -161,7 +161,7 @@ public:
   ::OVR::OpenVR::__IVRResources___GetResourceFullPath* GetResourceFullPath;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8805 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

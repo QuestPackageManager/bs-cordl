@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::SetClippingParams)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3b40244;
+  constexpr static std::size_t addrs = 0x3b55d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b40390;
+  constexpr static std::size_t addrs = 0x3b55e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

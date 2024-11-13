@@ -26,7 +26,7 @@ public:
   /// @brief Field _reg1, offset 0x40, size 0x18
   __declspec(property(get = __cordl_internal_get__reg1, put = __cordl_internal_set__reg1)) ::System::Threading::CancellationTokenRegistration _reg1;
 
-  /// @brief Method Dispose, addr 0x3ddb7b8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3defe48, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Threading::__CancellationTokenSource__Linked1CancellationTokenSource* New_ctor(::System::Threading::CancellationToken token1);
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__reg1(::System::Threading::CancellationTokenRegistration value);
 
-  /// @brief Method .ctor, addr 0x3ddb358, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3def9e8, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationToken token1);
 
 protected:

@@ -54,7 +54,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, T1>*> 
 }
 template <typename T0, typename T1> constexpr void HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>::__cordl_internal_set_toValueConvertor(::System::Func_2<::StringW, T1>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toValueConvertor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___toValueConvertor, value);
 }
 template <typename T0, typename T1> constexpr T0& HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_valueItem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -66,7 +66,7 @@ template <typename T0, typename T1> constexpr T0 const& HMUI::__InputFieldDataBi
 }
 template <typename T0, typename T1> constexpr void HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>::__cordl_internal_set_valueItem(T0 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___valueItem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___valueItem, value);
 }
 template <typename T0, typename T1> constexpr ::UnityW<::UnityEngine::UI::InputField>& HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_inputField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -78,7 +78,7 @@ template <typename T0, typename T1> constexpr ::UnityW<::UnityEngine::UI::InputF
 }
 template <typename T0, typename T1> constexpr void HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>::__cordl_internal_set_inputField(::UnityW<::UnityEngine::UI::InputField> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inputField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___inputField, value);
 }
 template <typename T0, typename T1> constexpr ::System::Func_2<T1, ::StringW>*& HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_toStringConvertor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -91,7 +91,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_2<T1, ::StringW>*> 
 }
 template <typename T0, typename T1> constexpr void HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>::__cordl_internal_set_toStringConvertor(::System::Func_2<T1, ::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___toStringConvertor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___toStringConvertor, value);
 }
 template <typename T0, typename T1> inline ::HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>* HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>*>());
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldDataBinder::*)()>(&::HMUI::InputFieldDataBinder::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39801cc;
+  constexpr static std::size_t addrs = 0x3993a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldDataBinder*>::get(), ".ctor",
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldDataBinder::*)()>(&::HMUI::InputFieldDataBinder::ClearBindings)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x398024c;
+  constexpr static std::size_t addrs = 0x3993ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldDataBinder*>::get(), "ClearBindings",

@@ -58,7 +58,7 @@ public:
   static constexpr int32_t Run{ static_cast<int32_t>(0x9b81f62) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9019 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -107,7 +107,7 @@ public:
   static constexpr ::ConstString TimeSpent{ u"TimeSpent" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9020 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -142,7 +142,7 @@ public:
   SampleTelemetryEvents(SampleTelemetryEvents const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9021 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

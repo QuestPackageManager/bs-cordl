@@ -40,19 +40,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x43c5f58, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x43da670, size 0xd0, virtual false, abstract: false, final false
   inline void Add(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl, bool takeOwnership);
 
-  /// @brief Method Clone, addr 0x43c4dbc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x43d94d4, size 0x58, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* Clone();
 
-  /// @brief Method Dispose, addr 0x43c7004, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x43db71c, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x43c7070, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x43db788, size 0x21c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x43c728c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x43db9a4, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* New_ctor();
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_list(::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>* value);
 
-  /// @brief Method .ctor, addr 0x43c5ed8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43da5f0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43c6d3c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43db454, size 0x228, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* other);
 
-  /// @brief Method get_Count, addr 0x43c6f64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x43db67c, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x43c6fac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x43db6c4, size 0x58, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* get_Item(int32_t index);
 
   /// @brief Convert to "::System::IDisposable"
@@ -99,7 +99,7 @@ public:
   ::System::Collections::Generic::List_1<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*>* ___list;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9292 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

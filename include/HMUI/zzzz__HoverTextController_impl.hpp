@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__HoverTextController___HideTextCoroutine_d__12::*)(int32_t)>(
     &::HMUI::__HoverTextController___HideTextCoroutine_d__12::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39853d4;
+  constexpr static std::size_t addrs = 0x3998d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__HoverTextController___HideTextCoroutine_d__12::*)()>(
     &::HMUI::__HoverTextController___HideTextCoroutine_d__12::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3985418;
+  constexpr static std::size_t addrs = 0x3998d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__HoverTextController___HideTextCoroutine_d__12*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::__HoverTextController___HideTextCoroutine_d__12::*)()>(
     &::HMUI::__HoverTextController___HideTextCoroutine_d__12::MoveNext)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x398541c;
+  constexpr static std::size_t addrs = 0x3998d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__HoverTextController___HideTextCoroutine_d__12*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::__HoverTextController___HideTextCoroutine_d__12::*)()>(
     &::HMUI::__HoverTextController___HideTextCoroutine_d__12::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3985504;
+  constexpr static std::size_t addrs = 0x3998e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__HoverTextController___HideTextCoroutine_d__12::*)()>(
     &::HMUI::__HoverTextController___HideTextCoroutine_d__12::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x398550c;
+  constexpr static std::size_t addrs = 0x3998e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::__HoverTextController___HideTextCoroutine_d__12::*)()>(
     &::HMUI::__HoverTextController___HideTextCoroutine_d__12::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3985544;
+  constexpr static std::size_t addrs = 0x3998e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__HoverTextController___ShowTextCoroutine_d__10::*)(int32_t)>(
     &::HMUI::__HoverTextController___ShowTextCoroutine_d__10::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39852e0;
+  constexpr static std::size_t addrs = 0x3998c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__HoverTextController___ShowTextCoroutine_d__10::*)()>(
     &::HMUI::__HoverTextController___ShowTextCoroutine_d__10::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x398554c;
+  constexpr static std::size_t addrs = 0x3998ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__HoverTextController___ShowTextCoroutine_d__10*>::get(),
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::__HoverTextController___ShowTextCoroutine_d__10::*)()>(
     &::HMUI::__HoverTextController___ShowTextCoroutine_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3985550;
+  constexpr static std::size_t addrs = 0x3998ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__HoverTextController___ShowTextCoroutine_d__10*>::get(),
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::__HoverTextController___ShowTextCoroutine_d__10::*)()>(
     &::HMUI::__HoverTextController___ShowTextCoroutine_d__10::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39856a4;
+  constexpr static std::size_t addrs = 0x3998ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__HoverTextController___ShowTextCoroutine_d__10::*)()>(
     &::HMUI::__HoverTextController___ShowTextCoroutine_d__10::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39856ac;
+  constexpr static std::size_t addrs = 0x3999004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::__HoverTextController___ShowTextCoroutine_d__10::*)()>(
     &::HMUI::__HoverTextController___ShowTextCoroutine_d__10::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39856e4;
+  constexpr static std::size_t addrs = 0x399903c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverTextController::*)()>(&::HMUI::HoverTextController::Awake)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39851ac;
+  constexpr static std::size_t addrs = 0x3998b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverTextController*>::get(), "Awake",
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverTextController::*)()>(&::HMUI::HoverTextController::OnDisable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39851cc;
+  constexpr static std::size_t addrs = 0x3998b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverTextController*>::get(), "OnDisable",
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverTextController::*)(bool)>(&::HMUI::HoverTextController::OnApplicationFocus)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39851f4;
+  constexpr static std::size_t addrs = 0x3998b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverTextController::*)(::StringW)>(&::HMUI::HoverTextController::ShowText)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3985220;
+  constexpr static std::size_t addrs = 0x3998b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::HMUI::HoverTextController::*)()>(
     &::HMUI::HoverTextController::ShowTextCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3985280;
+  constexpr static std::size_t addrs = 0x3998bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverTextController*>::get(), "ShowTextCoroutine",
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverTextController::*)()>(&::HMUI::HoverTextController::HideText)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3985308;
+  constexpr static std::size_t addrs = 0x3998c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverTextController*>::get(), "HideText",
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::HMUI::HoverTextController::*)()>(
     &::HMUI::HoverTextController::HideTextCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3985374;
+  constexpr static std::size_t addrs = 0x3998ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverTextController*>::get(), "HideTextCoroutine",
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverTextController::*)()>(&::HMUI::HoverTextController::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39853fc;
+  constexpr static std::size_t addrs = 0x3998d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverTextController*>::get(), ".ctor",

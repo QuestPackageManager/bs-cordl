@@ -105,44 +105,44 @@ public:
 
   constexpr void __cordl_internal_set__ResourceType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x448458c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4498ca4, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW internalId, ::StringW provider, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* keys,
                     ::System::Collections::Generic::IEnumerable_1<::System::Object*>* dependencies, ::System::Object* extraData);
 
-  /// @brief Method get_Data, addr 0x448456c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x4498c84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_Dependencies, addr 0x448455c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dependencies, addr 0x4498c74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Dependencies();
 
-  /// @brief Method get_InternalId, addr 0x448452c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalId, addr 0x4498c44, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_Keys, addr 0x448454c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x4498c64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_Provider, addr 0x448453c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x4498c54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Provider();
 
-  /// @brief Method get_ResourceType, addr 0x448457c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceType, addr 0x4498c94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ResourceType();
 
-  /// @brief Method set_Data, addr 0x4484574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x4498c8c, size 0x8, virtual false, abstract: false, final false
   inline void set_Data(::System::Object* value);
 
-  /// @brief Method set_Dependencies, addr 0x4484564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Dependencies, addr 0x4498c7c, size 0x8, virtual false, abstract: false, final false
   inline void set_Dependencies(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method set_InternalId, addr 0x4484534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InternalId, addr 0x4498c4c, size 0x8, virtual false, abstract: false, final false
   inline void set_InternalId(::StringW value);
 
-  /// @brief Method set_Keys, addr 0x4484554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Keys, addr 0x4498c6c, size 0x8, virtual false, abstract: false, final false
   inline void set_Keys(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method set_Provider, addr 0x4484544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Provider, addr 0x4498c5c, size 0x8, virtual false, abstract: false, final false
   inline void set_Provider(::StringW value);
 
-  /// @brief Method set_ResourceType, addr 0x4484584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ResourceType, addr 0x4498c9c, size 0x8, virtual false, abstract: false, final false
   inline void set_ResourceType(::System::Type* value);
 
 protected:
@@ -178,7 +178,7 @@ public:
   ::System::Type* ____ResourceType_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16166 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

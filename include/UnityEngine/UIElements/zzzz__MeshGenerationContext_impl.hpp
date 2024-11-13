@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Painter2D* (::UnityEngine::UIElements::MeshGenerationContext::*)()>(
     &::UnityEngine::UIElements::MeshGenerationContext::get_painter2D)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49d15e8;
+  constexpr static std::size_t addrs = 0x49e5d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshGenerationContext*>::get(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::MeshGenerationContext::*)()>(
     &::UnityEngine::UIElements::MeshGenerationContext::get_hasPainter2D)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49d16a4;
+  constexpr static std::size_t addrs = 0x49e5dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshGenerationContext*>::get(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MeshGenerationContext::*)(::UnityEngine::UIElements::IStylePainter*)>(
     &::UnityEngine::UIElements::MeshGenerationContext::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x49d16b4;
+  constexpr static std::size_t addrs = 0x49e5dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

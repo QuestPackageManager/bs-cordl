@@ -61,7 +61,7 @@ public:
 
   static inline ::UnityEngine::UIElements::__DropdownMenu____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <AppendAction>b__0, addr 0x49a6b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <AppendAction>b__0, addr 0x49bb22c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__DropdownMenuAction__Status _AppendAction_b__0(::UnityEngine::UIElements::DropdownMenuAction* e);
 
   constexpr ::UnityEngine::UIElements::__DropdownMenuAction__Status const& __cordl_internal_get_status() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_status(::UnityEngine::UIElements::__DropdownMenuAction__Status value);
 
-  /// @brief Method .ctor, addr 0x49a6544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bac5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   ::UnityEngine::UIElements::__DropdownMenuAction__Status ___status;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5744 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -119,25 +119,25 @@ public:
   __declspec(property(get = __cordl_internal_get_m_MenuItems,
                       put = __cordl_internal_set_m_MenuItems)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* m_MenuItems;
 
-  /// @brief Method AppendAction, addr 0x49a6318, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AppendAction, addr 0x49baa30, size 0xfc, virtual false, abstract: false, final false
   inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action,
                            ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method AppendAction, addr 0x49a6414, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AppendAction, addr 0x49bab2c, size 0x130, virtual false, abstract: false, final false
   inline void AppendAction(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* action, ::UnityEngine::UIElements::__DropdownMenuAction__Status status);
 
-  /// @brief Method AppendSeparator, addr 0x49a654c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method AppendSeparator, addr 0x49bac64, size 0x160, virtual false, abstract: false, final false
   inline void AppendSeparator(::StringW subMenuPath);
 
-  /// @brief Method InsertSeparator, addr 0x49a66ac, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method InsertSeparator, addr 0x49badc4, size 0x13c, virtual false, abstract: false, final false
   inline void InsertSeparator(::StringW subMenuPath, int32_t atIndex);
 
-  /// @brief Method MenuItems, addr 0x49a6310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MenuItems, addr 0x49baa28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* MenuItems();
 
   static inline ::UnityEngine::UIElements::DropdownMenu* New_ctor();
 
-  /// @brief Method PrepareForDisplay, addr 0x49a67e8, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method PrepareForDisplay, addr 0x49baf00, size 0x2b0, virtual false, abstract: false, final false
   inline void PrepareForDisplay(::UnityEngine::UIElements::EventBase* e);
 
   constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo*& __cordl_internal_get_m_DropdownMenuEventInfo();
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_m_MenuItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* value);
 
-  /// @brief Method .ctor, addr 0x49a6a98, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bb1b0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -176,7 +176,7 @@ public:
   ::UnityEngine::UIElements::DropdownMenuEventInfo* ___m_DropdownMenuEventInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5745 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

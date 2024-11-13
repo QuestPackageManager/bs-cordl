@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__specialEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* value);
 
-  /// @brief Method .ctor, addr 0x26c98fc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d55ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW keyword, ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* specialEvents);
 
-  /// @brief Method get_keyword, addr 0x26c98ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyword, addr 0x26d55dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keyword();
 
-  /// @brief Method get_specialEvents, addr 0x26c98f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_specialEvents, addr 0x26d55e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* get_specialEvents();
 
 protected:
@@ -82,7 +82,7 @@ public:
   ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* ____specialEvents;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13406 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

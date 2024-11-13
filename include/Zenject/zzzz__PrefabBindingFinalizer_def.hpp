@@ -96,7 +96,7 @@ public:
 
   static inline ::Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x4a9ef1c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x4ab3634, size 0x110, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
   constexpr ::Zenject::PrefabBindingFinalizer*& __cordl_internal_get___4__this();
@@ -117,13 +117,13 @@ public:
 
   constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x4a9f02c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ab3744, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a9f080, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ab3798, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4a9e504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ab2c1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -150,7 +150,7 @@ public:
   ::System::Collections::Generic::List_1<::System::Type*>* ___concreteTypes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -180,7 +180,7 @@ public:
 
   static inline ::Zenject::__PrefabBindingFinalizer____c__DisplayClass5_1* New_ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__1, addr 0x4a9f238, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingConcrete>b__1, addr 0x4ab3950, size 0x44, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__1(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
   constexpr ::Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0*& __cordl_internal_get_CS$__8__locals1();
@@ -195,13 +195,13 @@ public:
 
   constexpr void __cordl_internal_set_prefabCreator(::Zenject::PrefabInstantiatorCached* value);
 
-  /// @brief Method __zenCreate, addr 0x4a9f27c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ab3994, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a9f2d0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ab39e8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4a9ecf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ab3408, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -225,7 +225,7 @@ public:
   ::Zenject::__PrefabBindingFinalizer____c__DisplayClass5_0* ___CS$__8__locals1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12260 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -253,7 +253,7 @@ public:
 
   static inline ::Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x4a9f488, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x4ab3ba0, size 0x114, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__0(::Zenject::DiContainer* _, ::System::Type* contractType);
 
   constexpr ::Zenject::PrefabBindingFinalizer*& __cordl_internal_get___4__this();
@@ -268,13 +268,13 @@ public:
 
   constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x4a9f59c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ab3cb4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a9f5f0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ab3d08, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4a9ecf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ab3410, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -298,7 +298,7 @@ public:
   ::Zenject::DiContainer* ___container;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12261 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -326,7 +326,7 @@ public:
 
   static inline ::Zenject::__PrefabBindingFinalizer____c__DisplayClass6_1* New_ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__1, addr 0x4a9f7a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingSelf>b__1, addr 0x4ab3ec0, size 0x44, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__1(::Zenject::DiContainer* _, ::System::Type* contractType);
 
   constexpr ::Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0*& __cordl_internal_get_CS$__8__locals1();
@@ -341,13 +341,13 @@ public:
 
   constexpr void __cordl_internal_set_prefabCreator(::Zenject::PrefabInstantiatorCached* value);
 
-  /// @brief Method __zenCreate, addr 0x4a9f7ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ab3f04, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a9f840, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ab3f58, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4a9ef14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ab362c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -371,7 +371,7 @@ public:
   ::Zenject::__PrefabBindingFinalizer____c__DisplayClass6_0* ___CS$__8__locals1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12262 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -409,16 +409,16 @@ public:
   __declspec(property(get = __cordl_internal_get__providerFactory,
                       put = __cordl_internal_set__providerFactory)) ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* _providerFactory;
 
-  /// @brief Method FinalizeBindingConcrete, addr 0x4a9e1e4, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBindingConcrete, addr 0x4ab28fc, size 0x320, virtual false, abstract: false, final false
   inline void FinalizeBindingConcrete(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes);
 
-  /// @brief Method FinalizeBindingSelf, addr 0x4a9dec8, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBindingSelf, addr 0x4ab25e0, size 0x31c, virtual false, abstract: false, final false
   inline void FinalizeBindingSelf(::Zenject::DiContainer* container);
 
   static inline ::Zenject::PrefabBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::UnityEngine::Object* prefab,
                                                             ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding, addr 0x4a9de44, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnFinalizeBinding, addr 0x4ab255c, size 0x84, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__gameObjectBindInfo();
@@ -439,7 +439,7 @@ public:
 
   constexpr void __cordl_internal_set__providerFactory(::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* value);
 
-  /// @brief Method .ctor, addr 0x4a9dddc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ab24f4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::UnityEngine::Object* prefab,
                     ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* providerFactory);
 
@@ -467,7 +467,7 @@ public:
   ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* ____providerFactory;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12263 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

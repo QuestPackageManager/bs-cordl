@@ -37,15 +37,15 @@ public:
   /// @brief Field commandBuffer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_commandBuffer, put = __cordl_internal_set_commandBuffer)) ::UnityEngine::Rendering::CommandBuffer* commandBuffer;
 
-  /// @brief Method AddOwner, addr 0x400ab20, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AddOwner, addr 0x401f238, size 0xa0, virtual false, abstract: false, final false
   inline void AddOwner(::UnityEngine::Object* owner);
 
-  /// @brief Method ContainsOwner, addr 0x400aac8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ContainsOwner, addr 0x401f1e0, size 0x58, virtual false, abstract: false, final false
   inline bool ContainsOwner(::UnityEngine::Object* owner);
 
   static inline ::GlobalNamespace::CommandBufferOwners* New_ctor();
 
-  /// @brief Method RemoveOwner, addr 0x400a870, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RemoveOwner, addr 0x401ef88, size 0x60, virtual false, abstract: false, final false
   inline void RemoveOwner(::UnityEngine::Object* owner);
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>*& __cordl_internal_get__owners();
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
-  /// @brief Method .ctor, addr 0x400abc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401f2d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_NumberOfOwners, addr 0x400a8d0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_NumberOfOwners, addr 0x401efe8, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_NumberOfOwners();
 
 protected:
@@ -87,7 +87,7 @@ public:
   ::UnityEngine::Rendering::CommandBuffer* ___commandBuffer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

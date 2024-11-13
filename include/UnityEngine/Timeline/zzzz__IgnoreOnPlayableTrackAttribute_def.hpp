@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47b38a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c7fc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   IgnoreOnPlayableTrackAttribute(IgnoreOnPlayableTrackAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

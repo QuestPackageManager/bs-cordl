@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE DebugConsoleExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToConsoleMessage, addr 0x3a97ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToConsoleMessage, addr 0x3aabad0, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__DebugConsoleController__ConsoleMessage ToConsoleMessage(::StringW message, ::UnityEngine::LogType type);
 
 protected:
@@ -44,7 +44,7 @@ public:
   DebugConsoleExtensionMethods(DebugConsoleExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5006 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5008 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> (
         ::System::Linq::Expressions::Interpreter::BranchFalseInstruction::*)()>(&::System::Linq::Expressions::Interpreter::BranchFalseInstruction::get_Cache)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x404c724;
+  constexpr static std::size_t addrs = 0x4060e3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::BranchFalseInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::BranchFalseInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x404c7a8;
+  constexpr static std::size_t addrs = 0x4060ec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::BranchFalseInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::BranchFalseInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x404c7e8;
+  constexpr static std::size_t addrs = 0x4060f00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::BranchFalseInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::BranchFalseInstruction::Run)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x404c7f0;
+  constexpr static std::size_t addrs = 0x4060f08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::BranchFalseInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::BranchFalseInstruction::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x404c880;
+  constexpr static std::size_t addrs = 0x4060f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

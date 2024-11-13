@@ -248,7 +248,7 @@ public:
 
   constexpr void __cordl_internal_set_tlsSession(::Org::BouncyCastle::Crypto::Tls::TlsSession* value);
 
-  /// @brief Method .ctor, addr 0x23af0dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ba184, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -374,65 +374,65 @@ public:
   // Declarations
   using ClientHandshakeState = ::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState;
 
-  /// @brief Method AbortClientHandshake, addr 0x23af230, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method AbortClientHandshake, addr 0x23ba2d8, size 0x50, virtual true, abstract: false, final false
   inline void AbortClientHandshake(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state, ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer,
                                    uint8_t alertDescription);
 
-  /// @brief Method ClientHandshake, addr 0x23af280, size 0x1378, virtual true, abstract: false, final false
+  /// @brief Method ClientHandshake, addr 0x23ba328, size 0x1378, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsTransport* ClientHandshake(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state,
                                                                           ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer);
 
-  /// @brief Method Connect, addr 0x23aea00, size 0x6dc, virtual true, abstract: false, final false
+  /// @brief Method Connect, addr 0x23b9aa8, size 0x6dc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsTransport* Connect(::Org::BouncyCastle::Crypto::Tls::TlsClient* client, ::Org::BouncyCastle::Crypto::Tls::DatagramTransport* transport);
 
-  /// @brief Method GenerateCertificateVerify, addr 0x23b1028, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GenerateCertificateVerify, addr 0x23bc0d0, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificateVerify(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state,
                                                                         ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* certificateVerify);
 
-  /// @brief Method GenerateClientHello, addr 0x23b10ac, size 0x5d8, virtual true, abstract: false, final false
+  /// @brief Method GenerateClientHello, addr 0x23bc154, size 0x5d8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateClientHello(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state,
                                                                   ::Org::BouncyCastle::Crypto::Tls::TlsClient* client);
 
-  /// @brief Method GenerateClientKeyExchange, addr 0x23b1684, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GenerateClientKeyExchange, addr 0x23bc72c, size 0xec, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateClientKeyExchange(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state);
 
-  /// @brief Method InvalidateSession, addr 0x23b1770, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method InvalidateSession, addr 0x23bc818, size 0xc4, virtual true, abstract: false, final false
   inline void InvalidateSession(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsClientProtocol* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method PatchClientHelloWithCookie, addr 0x23b0bf4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method PatchClientHelloWithCookie, addr 0x23bbc9c, size 0x130, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PatchClientHelloWithCookie(::ArrayW<uint8_t, ::Array<uint8_t>*> clientHelloBody, ::ArrayW<uint8_t, ::Array<uint8_t>*> cookie);
 
-  /// @brief Method ProcessCertificateRequest, addr 0x23b1834, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ProcessCertificateRequest, addr 0x23bc8dc, size 0x140, virtual true, abstract: false, final false
   inline void ProcessCertificateRequest(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessCertificateStatus, addr 0x23b1974, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ProcessCertificateStatus, addr 0x23bca1c, size 0xbc, virtual true, abstract: false, final false
   inline void ProcessCertificateStatus(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessHelloVerifyRequest, addr 0x23b1a30, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ProcessHelloVerifyRequest, addr 0x23bcad8, size 0x180, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessHelloVerifyRequest(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessNewSessionTicket, addr 0x23b1bb0, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewSessionTicket, addr 0x23bcc58, size 0x104, virtual true, abstract: false, final false
   inline void ProcessNewSessionTicket(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessServerCertificate, addr 0x23b1cb4, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCertificate, addr 0x23bcd5c, size 0x220, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state,
                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessServerHello, addr 0x23b1ed4, size 0xca8, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerHello, addr 0x23bcf7c, size 0xca8, virtual true, abstract: false, final false
   inline void ProcessServerHello(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessServerKeyExchange, addr 0x23b2b7c, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerKeyExchange, addr 0x23bdc24, size 0xf4, virtual true, abstract: false, final false
   inline void ProcessServerKeyExchange(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessServerSupplementalData, addr 0x23b2c70, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerSupplementalData, addr 0x23bdd18, size 0xf8, virtual true, abstract: false, final false
   inline void ProcessServerSupplementalData(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ReportServerVersion, addr 0x23b2d68, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ReportServerVersion, addr 0x23bde10, size 0x13c, virtual true, abstract: false, final false
   inline void ReportServerVersion(::Org::BouncyCastle::Crypto::Tls::__DtlsClientProtocol__ClientHandshakeState* state, ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* server_version);
 
-  /// @brief Method .ctor, addr 0x23ae9fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b9aa4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
 protected:

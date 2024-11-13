@@ -103,10 +103,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a90c0c, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3aa46e8, size 0x1ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3a90db8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3aa4894, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -139,7 +139,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4962 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -171,10 +171,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a90dc4, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3aa48a0, size 0x184, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3a90f48, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3aa4a24, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -215,7 +215,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4963 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -251,10 +251,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a90f54, size 0x778, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3aa4a30, size 0x778, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3a916cc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3aa51a8, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -300,7 +300,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4964 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -397,16 +397,16 @@ public:
 
   static inline ::GlobalNamespace::LevelBar* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a90bf0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3aa46cc, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Setup, addr 0x3a8cf14, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3aa09f0, size 0xac, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapKey beatmapKey);
 
-  /// @brief Method Setup, addr 0x3a90a50, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3aa452c, size 0xb4, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method SetupData, addr 0x3a90b04, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetupData, addr 0x3aa45e0, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SetupData(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                                      ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
@@ -512,10 +512,10 @@ public:
 
   constexpr void __cordl_internal_set__useArtworkBackground(bool value);
 
-  /// @brief Method .ctor, addr 0x3a90c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa46e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x3a8cee8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x3aa09c4, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -584,7 +584,7 @@ public:
   ::GlobalNamespace::BeatmapLevel* ____beatmapLevel;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4965 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

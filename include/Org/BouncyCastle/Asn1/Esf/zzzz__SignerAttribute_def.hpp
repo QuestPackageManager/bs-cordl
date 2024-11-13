@@ -41,7 +41,7 @@ public:
   /// @brief Field claimedAttributes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_claimedAttributes, put = __cordl_internal_set_claimedAttributes)) ::Org::BouncyCastle::Asn1::Asn1Sequence* claimedAttributes;
 
-  /// @brief Method GetInstance, addr 0x22e5788, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22f0830, size 0x14c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerAttribute* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerAttribute* New_ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* certifiedAttributes);
@@ -50,7 +50,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerAttribute* New_ctor(::System::Object* obj);
 
-  /// @brief Method ToAsn1Object, addr 0x22e5aa4, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22f0b4c, size 0xf4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*& __cordl_internal_get_certifiedAttributes();
@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set_claimedAttributes(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x22e5a6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f0b14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* certifiedAttributes);
 
-  /// @brief Method .ctor, addr 0x22e5a44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f0aec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* claimedAttributes);
 
-  /// @brief Method .ctor, addr 0x22e58d4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f097c, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj);
 
-  /// @brief Method get_CertifiedAttributes, addr 0x22e5a9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertifiedAttributes, addr 0x22f0b44, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* get_CertifiedAttributes();
 
-  /// @brief Method get_ClaimedAttributes, addr 0x22e5a94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ClaimedAttributes, addr 0x22f0b3c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_ClaimedAttributes();
 
 protected:

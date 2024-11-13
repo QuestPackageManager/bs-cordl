@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::__JSONArray___get_Children_d__22::*)(int32_t)>(
     &::OVRSimpleJSON::__JSONArray___get_Children_d__22::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3fdc160;
+  constexpr static std::size_t addrs = 0x3ff07f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::__JSONArray___get_Children_d__22::*)()>(
     &::OVRSimpleJSON::__JSONArray___get_Children_d__22::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3fdc2fc;
+  constexpr static std::size_t addrs = 0x3ff098c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::__JSONArray___get_Children_d__22*>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::__JSONArray___get_Children_d__22::*)()>(
     &::OVRSimpleJSON::__JSONArray___get_Children_d__22::MoveNext)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3fdc318;
+  constexpr static std::size_t addrs = 0x3ff09a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::__JSONArray___get_Children_d__22*>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::__JSONArray___get_Children_d__22::*)()>(
     &::OVRSimpleJSON::__JSONArray___get_Children_d__22::__m__Finally1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fdc4ac;
+  constexpr static std::size_t addrs = 0x3ff0b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::__JSONArray___get_Children_d__22*>::get(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::__JSONArray___get_Children_d__22::*)()>(
     &::OVRSimpleJSON::__JSONArray___get_Children_d__22::System_Collections_Generic_IEnumerator_OVRSimpleJSON_JSONNode__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fdc4fc;
+  constexpr static std::size_t addrs = 0x3ff0b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::__JSONArray___get_Children_d__22*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::__JSONArray___get_Children_d__22::*)()>(
     &::OVRSimpleJSON::__JSONArray___get_Children_d__22::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3fdc504;
+  constexpr static std::size_t addrs = 0x3ff0b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::OVRSimpleJSON::__JSONArray___get_Children_d__22::*)()>(
     &::OVRSimpleJSON::__JSONArray___get_Children_d__22::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fdc53c;
+  constexpr static std::size_t addrs = 0x3ff0bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>* (
     ::OVRSimpleJSON::__JSONArray___get_Children_d__22::*)()>(&::OVRSimpleJSON::__JSONArray___get_Children_d__22::System_Collections_Generic_IEnumerable_OVRSimpleJSON_JSONNode__GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3fdc544;
+  constexpr static std::size_t addrs = 0x3ff0bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::__JSONArray___get_Children_d__22*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::OVRSimpleJSON::__JSONArray___get_Children_d__22::*)()>(
     &::OVRSimpleJSON::__JSONArray___get_Children_d__22::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fdc5e0;
+  constexpr static std::size_t addrs = 0x3ff0c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::JSONArray::*)()>(&::OVRSimpleJSON::JSONArray::get_Inline)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fdbaac;
+  constexpr static std::size_t addrs = 0x3ff013c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONArray::*)(bool)>(&::OVRSimpleJSON::JSONArray::set_Inline)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fdbab4;
+  constexpr static std::size_t addrs = 0x3ff0144;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNodeType (::OVRSimpleJSON::JSONArray::*)()>(&::OVRSimpleJSON::JSONArray::get_Tag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fdbac0;
+  constexpr static std::size_t addrs = 0x3ff0150;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::JSONArray::*)()>(&::OVRSimpleJSON::JSONArray::get_IsArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fdbac8;
+  constexpr static std::size_t addrs = 0x3ff0158;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::__JSONNode__Enumerator (::OVRSimpleJSON::JSONArray::*)()>(
     &::OVRSimpleJSON::JSONArray::GetEnumerator)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3fdbad0;
+  constexpr static std::size_t addrs = 0x3ff0160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -383,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONArray::*)(int32_t)>(&::OVRSimpleJSON::JSONArray::get_Item)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3fdbb60;
+  constexpr static std::size_t addrs = 0x3ff01f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONArray::*)(int32_t, ::OVRSimpleJSON::JSONNode*)>(&::OVRSimpleJSON::JSONArray::set_Item)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3fdbc38;
+  constexpr static std::size_t addrs = 0x3ff02c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONArray::*)(::StringW)>(&::OVRSimpleJSON::JSONArray::get_Item)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fdbd78;
+  constexpr static std::size_t addrs = 0x3ff0408;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -425,7 +425,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONArray::*)(::StringW, ::OVRSimpleJSON::JSONNode*)>(&::OVRSimpleJSON::JSONArray::set_Item)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3fdbdd4;
+  constexpr static std::size_t addrs = 0x3ff0464;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::OVRSimpleJSON::JSONArray::*)()>(&::OVRSimpleJSON::JSONArray::get_Count)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3fdbeb4;
+  constexpr static std::size_t addrs = 0x3ff0544;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONArray::*)(::StringW, ::OVRSimpleJSON::JSONNode*)>(&::OVRSimpleJSON::JSONArray::Add)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3fdbefc;
+  constexpr static std::size_t addrs = 0x3ff058c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -467,7 +467,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONArray::*)(int32_t)>(&::OVRSimpleJSON::JSONArray::Remove)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3fdbfdc;
+  constexpr static std::size_t addrs = 0x3ff066c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONArray::*)(::OVRSimpleJSON::JSONNode*)>(
     &::OVRSimpleJSON::JSONArray::Remove)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3fdc090;
+  constexpr static std::size_t addrs = 0x3ff0720;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>* (::OVRSimpleJSON::JSONArray::*)()>(
     &::OVRSimpleJSON::JSONArray::get_Children)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3fdc0f0;
+  constexpr static std::size_t addrs = 0x3ff0780;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -512,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::OVRSimpleJSON::JSONArray::*)(::System::Text::StringBuilder*, int32_t, int32_t, ::OVRSimpleJSON::JSONTextMode)>(&::OVRSimpleJSON::JSONArray::WriteToStringBuilder)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3fdc194;
+  constexpr static std::size_t addrs = 0x3ff0824;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -526,7 +526,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONArray::*)()>(&::OVRSimpleJSON::JSONArray::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3fd8a5c;
+  constexpr static std::size_t addrs = 0x3fed0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONArray*>::get(), ".ctor",

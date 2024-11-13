@@ -35,7 +35,7 @@ template <typename T>
 constexpr void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::__cordl_internal_set__perCoreStacks(
     ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____perCoreStacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____perCoreStacks, value);
 }
 template <typename T>
 inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>* System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::New_ctor() {
@@ -86,7 +86,7 @@ constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>
 template <typename T>
 constexpr void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__cordl_internal_set__arrays(::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arrays)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____arrays, value);
 }
 template <typename T> constexpr int32_t& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__cordl_internal_get__count() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -155,7 +155,7 @@ template <typename T> constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Syst
 }
 template <typename T> constexpr void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__cordl_internal_set__bucketArraySizes(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bucketArraySizes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____bucketArraySizes, value);
 }
 template <typename T>
 constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>&
@@ -175,7 +175,7 @@ constexpr void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__cord
     ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>
         value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buckets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____buckets, value);
 }
 template <typename T> constexpr int32_t& System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__cordl_internal_get__callbackCreated() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

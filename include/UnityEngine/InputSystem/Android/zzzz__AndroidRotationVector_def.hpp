@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidRotationVector* New_ctor();
 
-  /// @brief Method .ctor, addr 0x458e9ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45a3104, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   AndroidRotationVector(AndroidRotationVector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_1<A>*> const& Glo
 }
 template <typename A> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass2_0_1<A>::__cordl_internal_set_action(::System::Action_1<A>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___action)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___action, value);
 }
 template <typename A> constexpr A& GlobalNamespace::__MainThreadDispatcher____c__DisplayClass2_0_1<A>::__cordl_internal_get_firstParameter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -33,7 +33,7 @@ template <typename A> constexpr A const& GlobalNamespace::__MainThreadDispatcher
 }
 template <typename A> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass2_0_1<A>::__cordl_internal_set_firstParameter(A value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___firstParameter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___firstParameter, value);
 }
 template <typename A> inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass2_0_1<A>* GlobalNamespace::__MainThreadDispatcher____c__DisplayClass2_0_1<A>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass2_0_1<A>*>());
@@ -63,7 +63,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_2<A, B>*> const& 
 }
 template <typename A, typename B> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass3_0_2<A, B>::__cordl_internal_set_action(::System::Action_2<A, B>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___action)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___action, value);
 }
 template <typename A, typename B> constexpr A& GlobalNamespace::__MainThreadDispatcher____c__DisplayClass3_0_2<A, B>::__cordl_internal_get_firstParameter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -75,7 +75,7 @@ template <typename A, typename B> constexpr A const& GlobalNamespace::__MainThre
 }
 template <typename A, typename B> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass3_0_2<A, B>::__cordl_internal_set_firstParameter(A value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___firstParameter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___firstParameter, value);
 }
 template <typename A, typename B> constexpr B& GlobalNamespace::__MainThreadDispatcher____c__DisplayClass3_0_2<A, B>::__cordl_internal_get_secondParameter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -87,7 +87,7 @@ template <typename A, typename B> constexpr B const& GlobalNamespace::__MainThre
 }
 template <typename A, typename B> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass3_0_2<A, B>::__cordl_internal_set_secondParameter(B value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___secondParameter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___secondParameter, value);
 }
 template <typename A, typename B> inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass3_0_2<A, B>* GlobalNamespace::__MainThreadDispatcher____c__DisplayClass3_0_2<A, B>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass3_0_2<A, B>*>());
@@ -117,7 +117,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_3<A, B, C>*> cons
 }
 template <typename A, typename B, typename C> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>::__cordl_internal_set_action(::System::Action_3<A, B, C>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___action)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___action, value);
 }
 template <typename A, typename B, typename C> constexpr A& GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>::__cordl_internal_get_firstParameter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -129,7 +129,7 @@ template <typename A, typename B, typename C> constexpr A const& GlobalNamespace
 }
 template <typename A, typename B, typename C> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>::__cordl_internal_set_firstParameter(A value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___firstParameter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___firstParameter, value);
 }
 template <typename A, typename B, typename C> constexpr B& GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>::__cordl_internal_get_secondParameter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -141,7 +141,7 @@ template <typename A, typename B, typename C> constexpr B const& GlobalNamespace
 }
 template <typename A, typename B, typename C> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>::__cordl_internal_set_secondParameter(B value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___secondParameter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___secondParameter, value);
 }
 template <typename A, typename B, typename C> constexpr C& GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>::__cordl_internal_get_thirdParameter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -153,7 +153,7 @@ template <typename A, typename B, typename C> constexpr C const& GlobalNamespace
 }
 template <typename A, typename B, typename C> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>::__cordl_internal_set_thirdParameter(C value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___thirdParameter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___thirdParameter, value);
 }
 template <typename A, typename B, typename C>
 inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>* GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>::New_ctor() {
@@ -186,7 +186,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_4<A, B, C, D>*> c
 template <typename A, typename B, typename C, typename D>
 constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>::__cordl_internal_set_action(::System::Action_4<A, B, C, D>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___action)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___action, value);
 }
 template <typename A, typename B, typename C, typename D> constexpr A& GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>::__cordl_internal_get_firstParameter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -198,7 +198,7 @@ template <typename A, typename B, typename C, typename D> constexpr A const& Glo
 }
 template <typename A, typename B, typename C, typename D> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>::__cordl_internal_set_firstParameter(A value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___firstParameter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___firstParameter, value);
 }
 template <typename A, typename B, typename C, typename D> constexpr B& GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>::__cordl_internal_get_secondParameter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -210,7 +210,7 @@ template <typename A, typename B, typename C, typename D> constexpr B const& Glo
 }
 template <typename A, typename B, typename C, typename D> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>::__cordl_internal_set_secondParameter(B value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___secondParameter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___secondParameter, value);
 }
 template <typename A, typename B, typename C, typename D> constexpr C& GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>::__cordl_internal_get_thirdParameter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -222,7 +222,7 @@ template <typename A, typename B, typename C, typename D> constexpr C const& Glo
 }
 template <typename A, typename B, typename C, typename D> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>::__cordl_internal_set_thirdParameter(C value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___thirdParameter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___thirdParameter, value);
 }
 template <typename A, typename B, typename C, typename D> constexpr D& GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>::__cordl_internal_get_fourthParameter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -234,7 +234,7 @@ template <typename A, typename B, typename C, typename D> constexpr D const& Glo
 }
 template <typename A, typename B, typename C, typename D> constexpr void GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>::__cordl_internal_set_fourthParameter(D value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___fourthParameter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___fourthParameter, value);
 }
 template <typename A, typename B, typename C, typename D>
 inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>* GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>::New_ctor() {
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainThreadDispatcher::*)(::System::Action*)>(
     &::GlobalNamespace::MainThreadDispatcher::DispatchOnMainThread)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3955840;
+  constexpr static std::size_t addrs = 0x3969608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainThreadDispatcher::*)()>(&::GlobalNamespace::MainThreadDispatcher::Tick)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3955898;
+  constexpr static std::size_t addrs = 0x3969660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainThreadDispatcher*>::get(), "Tick",
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainThreadDispatcher::*)()>(&::GlobalNamespace::MainThreadDispatcher::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x395599c;
+  constexpr static std::size_t addrs = 0x3969764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainThreadDispatcher*>::get(), ".ctor",

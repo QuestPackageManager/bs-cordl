@@ -41,25 +41,25 @@ public:
   /// @brief Field maxPathLength, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get_maxPathLength, put = __cordl_internal_set_maxPathLength)) int32_t maxPathLength;
 
-  /// @brief Method Clone, addr 0x252d530, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x25385d8, size 0xb8, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method GetExcludedCerts, addr 0x252d39c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetExcludedCerts, addr 0x2538444, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetExcludedCerts();
 
-  /// @brief Method GetInstance, addr 0x252d1bc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2538264, size 0xe8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Pkix::PkixBuilderParameters* GetInstance(::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
 
   static inline ::Org::BouncyCastle::Pkix::PkixBuilderParameters* New_ctor(::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors,
                                                                            ::Org::BouncyCastle::X509::Store::IX509Selector* targetConstraints);
 
-  /// @brief Method SetExcludedCerts, addr 0x252d3fc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method SetExcludedCerts, addr 0x25384a4, size 0x78, virtual true, abstract: false, final false
   inline void SetExcludedCerts(::Org::BouncyCastle::Utilities::Collections::ISet* excludedCerts);
 
-  /// @brief Method SetParams, addr 0x252d474, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method SetParams, addr 0x253851c, size 0xbc, virtual true, abstract: false, final false
   inline void SetParams(::Org::BouncyCastle::Pkix::PkixParameters* parameters);
 
-  /// @brief Method ToString, addr 0x252d5e8, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2538690, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_excludedCerts();
@@ -74,13 +74,13 @@ public:
 
   constexpr void __cordl_internal_set_maxPathLength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x252d2a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253834c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors, ::Org::BouncyCastle::X509::Store::IX509Selector* targetConstraints);
 
-  /// @brief Method get_MaxPathLength, addr 0x252d334, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxPathLength, addr 0x25383dc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxPathLength();
 
-  /// @brief Method set_MaxPathLength, addr 0x252d33c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method set_MaxPathLength, addr 0x25383e4, size 0x60, virtual true, abstract: false, final false
   inline void set_MaxPathLength(int32_t value);
 
 protected:

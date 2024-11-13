@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x489dec4;
+  constexpr static std::size_t addrs = 0x48b25dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

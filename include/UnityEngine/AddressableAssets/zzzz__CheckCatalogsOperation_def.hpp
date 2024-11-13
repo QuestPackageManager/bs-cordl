@@ -62,10 +62,10 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c* New_ctor();
 
-  /// @brief Method <Start>b__5_0, addr 0x447c4ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__5_0, addr 0x4490c04, size 0x9c, virtual false, abstract: false, final false
   inline bool _Start_b__5_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
 
-  /// @brief Method .ctor, addr 0x447c4e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4490bfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c* getStaticF___9();
@@ -91,7 +91,7 @@ public:
   __CheckCatalogsOperation____c(__CheckCatalogsOperation____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16149 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -124,27 +124,27 @@ public:
   __declspec(property(get = __cordl_internal_get_m_LocatorInfos,
                       put = __cordl_internal_set_m_LocatorInfos)) ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* m_LocatorInfos;
 
-  /// @brief Method Destroy, addr 0x447bc40, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Destroy, addr 0x4490358, size 0x70, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Execute, addr 0x447c3f0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x4490b08, size 0x98, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method GetDependencies, addr 0x447bcb0, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x44903c8, size 0x11c, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x447bb0c, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x4490224, size 0x134, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::AddressableAssets::CheckCatalogsOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
-  /// @brief Method ProcessDependentOpResults, addr 0x447bdcc, size 0x624, virtual false, abstract: false, final false
+  /// @brief Method ProcessDependentOpResults, addr 0x44904e4, size 0x624, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>*
   ProcessDependentOpResults(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* results,
                             ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* locatorInfos,
                             ::System::Collections::Generic::List_1<::StringW>* localHashes, ByRef<::StringW> errorString, ByRef<bool> success);
 
-  /// @brief Method Start, addr 0x44784f0, size 0x5e8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x448cc08, size 0x5e8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*>
   Start(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* locatorInfos);
 
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set_m_LocatorInfos(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x4478494, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448cbac, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
 protected:
@@ -209,7 +209,7 @@ public:
       ___m_DepOp;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16150 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

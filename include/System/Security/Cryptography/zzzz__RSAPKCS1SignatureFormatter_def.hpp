@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::RSAPKCS1SignatureFormatter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c3f8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c53f88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

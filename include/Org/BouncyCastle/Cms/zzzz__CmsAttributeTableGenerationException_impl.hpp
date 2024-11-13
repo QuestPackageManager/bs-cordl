@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::*)()>(
     &::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x260e8dc;
+  constexpr static std::size_t addrs = 0x2619984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x260e8e0;
+  constexpr static std::size_t addrs = 0x2619988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x260e8e4;
+  constexpr static std::size_t addrs = 0x261998c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

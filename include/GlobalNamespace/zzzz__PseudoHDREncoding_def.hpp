@@ -28,7 +28,7 @@ public:
   /// @brief Field _material, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__material, put = setStaticF__material)) ::UnityW<::UnityEngine::Material> _material;
 
-  /// @brief Method CreatePseudoHDREncodedTexture, addr 0x3aa4184, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method CreatePseudoHDREncodedTexture, addr 0x3ab7d20, size 0x1f0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture* src);
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__material();
@@ -50,7 +50,7 @@ public:
   PseudoHDREncoding(PseudoHDREncoding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5039 };
 
   /// @brief Field kPseudoHDREncodingShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kPseudoHDREncodingShaderName{ u"Hidden/PseudoHDREncoding" };

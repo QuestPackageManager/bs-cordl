@@ -25,12 +25,12 @@ public:
 
   static inline ::GlobalNamespace::AssemblyInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25c0ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cbe84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_version();
 
-  /// @brief Method get_Version, addr 0x25c0c68, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x25cbd10, size 0x12c, virtual false, abstract: false, final false
   static inline ::StringW get_Version();
 
   static inline void setStaticF_version(::StringW value);

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassLightsUpdateSystem::*)()>(
     &::GlobalNamespace::BloomPrePassLightsUpdateSystem::LateUpdate)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x396f7b0;
+  constexpr static std::size_t addrs = 0x3983034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassLightsUpdateSystem*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassLightsUpdateSystem::*)()>(
     &::GlobalNamespace::BloomPrePassLightsUpdateSystem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x396fa84;
+  constexpr static std::size_t addrs = 0x3983308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassLightsUpdateSystem*>::get(),

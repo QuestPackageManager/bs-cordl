@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t, bool)>(
     &::UnityEngine::UIElements::CountingBloomFilter::AdjustSlot)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4998480;
+  constexpr static std::size_t addrs = 0x49acb98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(
     &::UnityEngine::UIElements::CountingBloomFilter::Hash1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49984ac;
+  constexpr static std::size_t addrs = 0x49acbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(
     &::UnityEngine::UIElements::CountingBloomFilter::Hash2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49984b4;
+  constexpr static std::size_t addrs = 0x49acbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(
     &::UnityEngine::UIElements::CountingBloomFilter::IsSlotEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49984bc;
+  constexpr static std::size_t addrs = 0x49acbd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(
     &::UnityEngine::UIElements::CountingBloomFilter::InsertHash)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x49984cc;
+  constexpr static std::size_t addrs = 0x49acbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(
     &::UnityEngine::UIElements::CountingBloomFilter::RemoveHash)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4998504;
+  constexpr static std::size_t addrs = 0x49acc1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(
     &::UnityEngine::UIElements::CountingBloomFilter::ContainsHash)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4998534;
+  constexpr static std::size_t addrs = 0x49acc4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

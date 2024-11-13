@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* (
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_DebugContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46872f4;
+  constexpr static std::size_t addrs = 0x469ba0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*)>(&::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_DebugContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46872fc;
+  constexpr static std::size_t addrs = 0x469ba14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode (
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_TriangulationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4687304;
+  constexpr static std::size_t addrs = 0x469ba1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode)>(&::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_TriangulationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x468730c;
+  constexpr static std::size_t addrs = 0x469ba24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* (
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_Triangulatable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4687314;
+  constexpr static std::size_t addrs = 0x469ba2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*)>(&::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_Triangulatable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x468731c;
+  constexpr static std::size_t addrs = 0x469ba34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_StepCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4687324;
+  constexpr static std::size_t addrs = 0x469ba3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(int32_t)>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_StepCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x468732c;
+  constexpr static std::size_t addrs = 0x469ba44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Done)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x468315c;
+  constexpr static std::size_t addrs = 0x4697874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*)>(&::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::PrepareTriangulation)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4686764;
+  constexpr static std::size_t addrs = 0x469ae7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(::StringW)>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46834d4;
+  constexpr static std::size_t addrs = 0x4697bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Clear)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4686448;
+  constexpr static std::size_t addrs = 0x469ab60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_IsDebugEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4687334;
+  constexpr static std::size_t addrs = 0x469ba4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(bool)>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_IsDebugEnabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x468733c;
+  constexpr static std::size_t addrs = 0x469ba54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* (
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_DTDebugContext)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4683288;
+  constexpr static std::size_t addrs = 0x46979a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4686144;
+  constexpr static std::size_t addrs = 0x469a85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

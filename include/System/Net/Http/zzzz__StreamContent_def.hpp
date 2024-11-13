@@ -49,7 +49,7 @@ public:
   /// @brief Field startPosition, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_startPosition, put = __cordl_internal_set_startPosition)) int64_t startPosition;
 
-  /// @brief Method Dispose, addr 0x41a391c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x41b8034, size 0x4c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Net::Http::StreamContent* New_ctor(::System::IO::Stream* content);
@@ -58,10 +58,10 @@ public:
 
   static inline ::System::Net::Http::StreamContent* New_ctor(::System::IO::Stream* content, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SerializeToStreamAsync, addr 0x41a3968, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method SerializeToStreamAsync, addr 0x41b8080, size 0xd4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method TryComputeLength, addr 0x41a3a3c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method TryComputeLength, addr 0x41b8154, size 0x68, virtual true, abstract: false, final false
   inline bool TryComputeLength(ByRef<int64_t> length);
 
   constexpr int32_t const& __cordl_internal_get_bufferSize() const;
@@ -94,13 +94,13 @@ public:
 
   constexpr void __cordl_internal_set_startPosition(int64_t value);
 
-  /// @brief Method .ctor, addr 0x41a3830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41b7f48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* content);
 
-  /// @brief Method .ctor, addr 0x41a3838, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41b7f50, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* content, int32_t bufferSize);
 
-  /// @brief Method .ctor, addr 0x419fec0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41b45d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* content, ::System::Threading::CancellationToken cancellationToken);
 
 protected:
@@ -133,7 +133,7 @@ public:
   bool ___contentCopied;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16653 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -64,51 +64,51 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ProcessExpressionList,
                       put = __cordl_internal_set_m_ProcessExpressionList)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* m_ProcessExpressionList;
 
-  /// @brief Method EatSpace, addr 0x49649dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EatSpace, addr 0x49790f4, size 0x40, virtual false, abstract: false, final false
   static inline void EatSpace(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method IsCombinator, addr 0x49649c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsCombinator, addr 0x49790e0, size 0x14, virtual false, abstract: false, final false
   static inline bool IsCombinator(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken token);
 
-  /// @brief Method IsExpressionEnd, addr 0x49642a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsExpressionEnd, addr 0x49789bc, size 0x20, virtual false, abstract: false, final false
   static inline bool IsExpressionEnd(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken token);
 
-  /// @brief Method IsMultiplier, addr 0x4964e50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsMultiplier, addr 0x4979568, size 0x24, virtual false, abstract: false, final false
   static inline bool IsMultiplier(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken token);
 
   static inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser* New_ctor();
 
-  /// @brief Method Parse, addr 0x496293c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x4977054, size 0x194, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* Parse(::StringW syntax);
 
-  /// @brief Method ParseCombinatorType, addr 0x4963e70, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ParseCombinatorType, addr 0x4978588, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator ParseCombinatorType(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method ParseDataType, addr 0x49642c4, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method ParseDataType, addr 0x49789dc, size 0x3dc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* ParseDataType(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method ParseExpression, addr 0x49637c4, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method ParseExpression, addr 0x4977edc, size 0x278, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* ParseExpression(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method ParseGroup, addr 0x4963c4c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ParseGroup, addr 0x4978364, size 0x224, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* ParseGroup(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method ParseMultiplier, addr 0x49647a4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiplier, addr 0x4978ebc, size 0x174, virtual false, abstract: false, final false
   inline void ParseMultiplier(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer, ByRef<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier> multiplier);
 
-  /// @brief Method ParseNonTerminalValue, addr 0x4964a1c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ParseNonTerminalValue, addr 0x4979134, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* ParseNonTerminalValue(::StringW syntax);
 
-  /// @brief Method ParseProperty, addr 0x4964b6c, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method ParseProperty, addr 0x4979284, size 0x2e4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* ParseProperty(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method ParseRanges, addr 0x4964e74, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ParseRanges, addr 0x497958c, size 0x11c, virtual false, abstract: false, final false
   inline void ParseRanges(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer, ByRef<int32_t> min, ByRef<int32_t> max);
 
-  /// @brief Method ParseTerm, addr 0x4963ae8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ParseTerm, addr 0x4978200, size 0x164, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* ParseTerm(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* tokenizer);
 
-  /// @brief Method ProcessCombinatorStack, addr 0x4963fc0, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method ProcessCombinatorStack, addr 0x49786d8, size 0x2e4, virtual false, abstract: false, final false
   inline void ProcessCombinatorStack();
 
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator>*& __cordl_internal_get_m_CombinatorStack();
@@ -139,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ProcessExpressionList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* value);
 
-  /// @brief Method .ctor, addr 0x4964f90, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49796a8, size 0x154, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -169,7 +169,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* ___m_ParsedExpressionCache;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

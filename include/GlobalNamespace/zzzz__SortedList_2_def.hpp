@@ -122,7 +122,7 @@ public:
   ::System::Collections::Generic::LinkedListNode_1<TBase>* ____lastUsedNode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17051 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

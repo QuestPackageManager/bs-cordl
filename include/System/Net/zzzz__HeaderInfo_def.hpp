@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_Parser(::System::Net::HeaderParser* value);
 
-  /// @brief Method .ctor, addr 0x443190c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4446024, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
 protected:
@@ -103,7 +103,7 @@ public:
   bool ___AllowMultiValues;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9593 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

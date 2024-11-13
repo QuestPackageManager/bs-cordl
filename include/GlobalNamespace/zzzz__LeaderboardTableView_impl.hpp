@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__LeaderboardTableView__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardTableView__ScoreData::get_score)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a909c0;
+  constexpr static std::size_t addrs = 0x3aa449c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardTableView__ScoreData*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardTableView__ScoreData::*)(int32_t)>(
     &::GlobalNamespace::__LeaderboardTableView__ScoreData::set_score)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a909c8;
+  constexpr static std::size_t addrs = 0x3aa44a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__LeaderboardTableView__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardTableView__ScoreData::get_playerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a909d0;
+  constexpr static std::size_t addrs = 0x3aa44ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardTableView__ScoreData*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardTableView__ScoreData::*)(::StringW)>(
     &::GlobalNamespace::__LeaderboardTableView__ScoreData::set_playerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a909d8;
+  constexpr static std::size_t addrs = 0x3aa44b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__LeaderboardTableView__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardTableView__ScoreData::get_rank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a909e0;
+  constexpr static std::size_t addrs = 0x3aa44bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardTableView__ScoreData*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardTableView__ScoreData::*)(int32_t)>(
     &::GlobalNamespace::__LeaderboardTableView__ScoreData::set_rank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a909e8;
+  constexpr static std::size_t addrs = 0x3aa44c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LeaderboardTableView__ScoreData::*)()>(
     &::GlobalNamespace::__LeaderboardTableView__ScoreData::get_fullCombo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a909f0;
+  constexpr static std::size_t addrs = 0x3aa44cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LeaderboardTableView__ScoreData*>::get(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardTableView__ScoreData::*)(bool)>(
     &::GlobalNamespace::__LeaderboardTableView__ScoreData::set_fullCombo)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a909f8;
+  constexpr static std::size_t addrs = 0x3aa44d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LeaderboardTableView__ScoreData::*)(int32_t, ::StringW, int32_t, bool)>(
     &::GlobalNamespace::__LeaderboardTableView__ScoreData::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a90a04;
+  constexpr static std::size_t addrs = 0x3aa44e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LeaderboardTableView::*)(int32_t)>(&::GlobalNamespace::LeaderboardTableView::CellSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a90734;
+  constexpr static std::size_t addrs = 0x3aa4210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LeaderboardTableView::*)()>(&::GlobalNamespace::LeaderboardTableView::NumberOfCells)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a9073c;
+  constexpr static std::size_t addrs = 0x3aa4218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableView*>::get(), "NumberOfCells",
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::LeaderboardTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::LeaderboardTableView::CellForIdx)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3a90788;
+  constexpr static std::size_t addrs = 0x3aa4264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableView::*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>*, int32_t)>(&::GlobalNamespace::LeaderboardTableView::SetScores)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3a90978;
+  constexpr static std::size_t addrs = 0x3aa4454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardTableView::*)()>(&::GlobalNamespace::LeaderboardTableView::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a909b0;
+  constexpr static std::size_t addrs = 0x3aa448c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardTableView*>::get(), ".ctor",

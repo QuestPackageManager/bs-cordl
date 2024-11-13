@@ -106,30 +106,30 @@ public:
   /// @brief Field windowID, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_windowID, put = __cordl_internal_set_windowID)) int32_t windowID;
 
-  /// @brief Method ApplyOptions, addr 0x4867860, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ApplyOptions, addr 0x487bf78, size 0x120, virtual true, abstract: false, final false
   inline void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method ApplyStyleSettings, addr 0x4867980, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ApplyStyleSettings, addr 0x487c098, size 0x74, virtual true, abstract: false, final false
   inline void ApplyStyleSettings(::UnityEngine::GUIStyle* style);
 
-  /// @brief Method CalcHeight, addr 0x48688dc, size 0x5fc, virtual true, abstract: false, final false
+  /// @brief Method CalcHeight, addr 0x487cff4, size 0x5fc, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method CalcWidth, addr 0x48679f4, size 0x6ac, virtual true, abstract: false, final false
+  /// @brief Method CalcWidth, addr 0x487c10c, size 0x6ac, virtual true, abstract: false, final false
   inline void CalcWidth();
 
   static inline ::UnityEngine::GUILayoutGroup* New_ctor();
 
-  /// @brief Method ResetCursor, addr 0x4862be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetCursor, addr 0x48772fc, size 0x8, virtual false, abstract: false, final false
   inline void ResetCursor();
 
-  /// @brief Method SetHorizontal, addr 0x48680a0, size 0x83c, virtual true, abstract: false, final false
+  /// @brief Method SetHorizontal, addr 0x487c7b8, size 0x83c, virtual true, abstract: false, final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method SetVertical, addr 0x4868ed8, size 0x848, virtual true, abstract: false, final false
+  /// @brief Method SetVertical, addr 0x487d5f0, size 0x848, virtual true, abstract: false, final false
   inline void SetVertical(float_t y, float_t height);
 
-  /// @brief Method ToString, addr 0x4869720, size 0x38c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x487de38, size 0x38c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>*& __cordl_internal_get_entries();
@@ -252,21 +252,21 @@ public:
 
   constexpr void __cordl_internal_set_windowID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4862278, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4876990, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::GUILayoutEntry* getStaticF_none();
 
-  /// @brief Method get_marginBottom, addr 0x4867858, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_marginBottom, addr 0x487bf70, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginBottom();
 
-  /// @brief Method get_marginLeft, addr 0x4867840, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_marginLeft, addr 0x487bf58, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginLeft();
 
-  /// @brief Method get_marginRight, addr 0x4867848, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_marginRight, addr 0x487bf60, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginRight();
 
-  /// @brief Method get_marginTop, addr 0x4867850, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_marginTop, addr 0x487bf68, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginTop();
 
   static inline void setStaticF_none(::UnityEngine::GUILayoutEntry* value);
@@ -346,7 +346,7 @@ public:
   int32_t ___m_MarginBottom;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16614 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

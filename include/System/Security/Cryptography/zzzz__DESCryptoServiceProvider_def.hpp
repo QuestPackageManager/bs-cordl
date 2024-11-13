@@ -24,21 +24,21 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE DESCryptoServiceProvider : public ::System::Security::Cryptography::DES {
 public:
   // Declarations
-  /// @brief Method CreateDecryptor, addr 0x3c29d30, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x3c3e3c0, size 0x130, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method CreateEncryptor, addr 0x3c29c00, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x3c3e290, size 0x130, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method GenerateIV, addr 0x3c29f40, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x3c3e5d0, size 0x6c, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0x3c29e60, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x3c3e4f0, size 0xe0, virtual true, abstract: false, final false
   inline void GenerateKey();
 
   static inline ::System::Security::Cryptography::DESCryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c29974, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3e004, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

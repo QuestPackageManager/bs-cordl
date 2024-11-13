@@ -38,15 +38,15 @@ public:
 
   __declspec(property(get = get_minOrDefault)) float_t minOrDefault;
 
-  /// @brief Method GetDeadZoneAdjustedValue, addr 0x45a25e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDeadZoneAdjustedValue, addr 0x45b6cfc, size 0x68, virtual false, abstract: false, final false
   inline float_t GetDeadZoneAdjustedValue(float_t value);
 
   static inline ::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x45a2514, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x45b6c2c, size 0xd0, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x45a264c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x45b6d64, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_max() const;
@@ -61,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x45a26f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45b6e0c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxOrDefault, addr 0x45a24a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_maxOrDefault, addr 0x45b6bbc, size 0x70, virtual false, abstract: false, final false
   inline float_t get_maxOrDefault();
 
-  /// @brief Method get_minOrDefault, addr 0x45a2434, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_minOrDefault, addr 0x45b6b4c, size 0x70, virtual false, abstract: false, final false
   inline float_t get_minOrDefault();
 
 protected:
@@ -91,7 +91,7 @@ public:
   float_t ___max;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6973 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

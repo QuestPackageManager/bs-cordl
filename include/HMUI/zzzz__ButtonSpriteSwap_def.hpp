@@ -53,24 +53,24 @@ public:
   /// @brief Field _pressedStateSprite, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__pressedStateSprite, put = __cordl_internal_set__pressedStateSprite)) ::UnityW<::UnityEngine::Sprite> _pressedStateSprite;
 
-  /// @brief Method Awake, addr 0x398a6ec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x399e044, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x398a9f8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x399e350, size 0xcc, virtual true, abstract: false, final false
   inline void HandleButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
 
   static inline ::HMUI::ButtonSpriteSwap* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x398a888, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x399e1e0, size 0xbc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x398a864, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x399e1bc, size 0x24, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshVisualState, addr 0x398a840, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisualState, addr 0x399e198, size 0x24, virtual false, abstract: false, final false
   inline void RefreshVisualState();
 
-  /// @brief Method Start, addr 0x398a814, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x399e16c, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::HMUI::NoTransitionsButton> const& __cordl_internal_get__button() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set__pressedStateSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x398aac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399e41c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,7 +154,7 @@ public:
   bool ____didStart;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16029 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

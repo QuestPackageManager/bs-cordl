@@ -19,7 +19,7 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE RuntimeFeature : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_IsDynamicCodeSupported, addr 0x3ca2d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDynamicCodeSupported, addr 0x3cb73e4, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsDynamicCodeSupported();
 
 protected:

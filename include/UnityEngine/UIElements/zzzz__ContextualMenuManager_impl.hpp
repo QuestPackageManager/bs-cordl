@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ContextualMenuManager::*)()>(
     &::UnityEngine::UIElements::ContextualMenuManager::get_displayMenuHandledOSX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4904398;
+  constexpr static std::size_t addrs = 0x4918ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManager*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)(bool)>(
     &::UnityEngine::UIElements::ContextualMenuManager::set_displayMenuHandledOSX)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49043a0;
+  constexpr static std::size_t addrs = 0x4918ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IEventHandler*)>(&::UnityEngine::UIElements::ContextualMenuManager::DisplayMenu)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x49043ac;
+  constexpr static std::size_t addrs = 0x4918ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -42,18 +42,18 @@ public:
   /// @brief Field _settingsApplicator, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsApplicator, put = __cordl_internal_set__settingsApplicator)) ::UnityW<::GlobalNamespace::SettingsApplicatorSO> _settingsApplicator;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x26db3ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x26e6f68, size 0x4, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InstallBindings, addr 0x26db528, size 0x2a0, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26e70a4, size 0x2a0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::QuestAppInit* New_ctor();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x26db3f0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x26e6f6c, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x26db490, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x26e700c, size 0x98, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
   constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value);
 
-  /// @brief Method .ctor, addr 0x26db7c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e7344, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> ____defaultScenesTransitionsFromInit;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17884 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

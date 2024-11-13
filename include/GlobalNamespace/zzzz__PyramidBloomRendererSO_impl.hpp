@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)()>(&::GlobalNamespace::PyramidBloomRendererSO::OnEnable)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x396a094;
+  constexpr static std::size_t addrs = 0x397d918;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)()>(&::GlobalNamespace::PyramidBloomRendererSO::OnDisable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x396a19c;
+  constexpr static std::size_t addrs = 0x397da20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomRendererSO*>::get(), "OnDisable",
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)(
     ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float_t, bool, bool, bool, bool)>(&::GlobalNamespace::PyramidBloomRendererSO::RenderBloom)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x396a1c0;
+  constexpr static std::size_t addrs = 0x397da44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__PyramidBloomRendererSO__Pass, ::GlobalNamespace::__PyramidBloomRendererSO__Pass, ::GlobalNamespace::__PyramidBloomRendererSO__Pass, bool, bool)>(
     &::GlobalNamespace::PyramidBloomRendererSO::RenderBloom)> {
   constexpr static std::size_t size = 0x834;
-  constexpr static std::size_t addrs = 0x396a250;
+  constexpr static std::size_t addrs = 0x397dad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)()>(&::GlobalNamespace::PyramidBloomRendererSO::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x396aa84;
+  constexpr static std::size_t addrs = 0x397e308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomRendererSO*>::get(), ".ctor",

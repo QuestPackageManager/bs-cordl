@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_startPlayerHeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b6d4a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b82f94, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight);
 
 protected:
@@ -90,7 +90,7 @@ public:
   float_t ___startPlayerHeight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4624 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4627 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -146,18 +146,18 @@ public:
   /// @brief Field playerHeightDidChangeEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_playerHeightDidChangeEvent, put = __cordl_internal_set_playerHeightDidChangeEvent)) ::System::Action_1<float_t>* playerHeightDidChangeEvent;
 
-  /// @brief Method BeatmapObjectSpawnCallback, addr 0x3b6d454, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method BeatmapObjectSpawnCallback, addr 0x3b82f48, size 0x44, virtual false, abstract: false, final false
   inline void BeatmapObjectSpawnCallback(::GlobalNamespace::ObstacleData* obstacleData);
 
-  /// @brief Method LateUpdate, addr 0x3b6d288, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b82d7c, size 0x1cc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::PlayerHeightDetector* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b6d26c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b82d60, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b6d18c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b82c80, size 0xe0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSyncController();
@@ -220,16 +220,16 @@ public:
 
   constexpr void __cordl_internal_set_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b6d498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b82f8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerHeightDidChangeEvent, addr 0x3b6d024, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playerHeightDidChangeEvent, addr 0x3b82b18, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_playerHeight, addr 0x3b6d184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerHeight, addr 0x3b82c78, size 0x8, virtual false, abstract: false, final false
   inline float_t get_playerHeight();
 
-  /// @brief Method remove_playerHeightDidChangeEvent, addr 0x3b6d0d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerHeightDidChangeEvent, addr 0x3b82bc8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
 protected:
@@ -277,7 +277,7 @@ public:
   float_t ____lastReportedHeight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4628 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

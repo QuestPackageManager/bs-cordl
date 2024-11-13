@@ -19,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameServerBrowserFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
   // Declarations
-  /// @brief Method DidActivate, addr 0x3ad120c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3ae4dfc, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::GameServerBrowserFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ad1210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae4e00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   GameServerBrowserFlowCoordinator(GameServerBrowserFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

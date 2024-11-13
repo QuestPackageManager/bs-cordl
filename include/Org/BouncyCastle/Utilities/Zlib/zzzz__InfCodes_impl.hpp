@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::InfCodes::*)()>(&::Org::BouncyCastle::Utilities::Zlib::InfCodes::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x259e320;
+  constexpr static std::size_t addrs = 0x25a93c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfCodes*>::get(), ".ctor",
@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, ::Org::BouncyCastle::Utilities::Zlib::ZStream*)>(
     &::Org::BouncyCastle::Utilities::Zlib::InfCodes::init)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x259f598;
+  constexpr static std::size_t addrs = 0x25aa640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::InfCodes::*)(
     ::Org::BouncyCastle::Utilities::Zlib::InfBlocks*, ::Org::BouncyCastle::Utilities::Zlib::ZStream*, int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::InfCodes::proc)> {
   constexpr static std::size_t size = 0xa54;
-  constexpr static std::size_t addrs = 0x259f91c;
+  constexpr static std::size_t addrs = 0x25aa9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::InfCodes::*)(::Org::BouncyCastle::Utilities::Zlib::ZStream*)>(
     &::Org::BouncyCastle::Utilities::Zlib::InfCodes::free)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x259e3d0;
+  constexpr static std::size_t addrs = 0x25a9478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, ::Org::BouncyCastle::Utilities::Zlib::InfBlocks*,
     ::Org::BouncyCastle::Utilities::Zlib::ZStream*)>(&::Org::BouncyCastle::Utilities::Zlib::InfCodes::inflate_fast)> {
   constexpr static std::size_t size = 0x860;
-  constexpr static std::size_t addrs = 0x25a04ac;
+  constexpr static std::size_t addrs = 0x25ab554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

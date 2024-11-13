@@ -47,36 +47,36 @@ public:
   __declspec(property(get = __cordl_internal_get_m_TouchKeyboardPoller,
                       put = __cordl_internal_set_m_TouchKeyboardPoller)) ::UnityEngine::UIElements::IVisualElementScheduledItem* m_TouchKeyboardPoller;
 
-  /// @brief Method CloseTouchScreenKeyboard, addr 0x497556c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CloseTouchScreenKeyboard, addr 0x4989c84, size 0xe4, virtual false, abstract: false, final false
   inline void CloseTouchScreenKeyboard();
 
-  /// @brief Method DoPollTouchScreenKeyboard, addr 0x4974d2c, size 0x840, virtual false, abstract: false, final false
+  /// @brief Method DoPollTouchScreenKeyboard, addr 0x4989444, size 0x840, virtual false, abstract: false, final false
   inline void DoPollTouchScreenKeyboard();
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x4975dc8, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x498a4e0, size 0x1dc, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::TouchScreenTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
-  /// @brief Method OnFocusInEvent, addr 0x4976184, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method OnFocusInEvent, addr 0x498a89c, size 0x180, virtual false, abstract: false, final false
   inline void OnFocusInEvent();
 
-  /// @brief Method OnFocusOutEvent, addr 0x4976304, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method OnFocusOutEvent, addr 0x498aa1c, size 0x480, virtual false, abstract: false, final false
   inline void OnFocusOutEvent(::UnityEngine::UIElements::FocusOutEvent* evt);
 
-  /// @brief Method OnPointerDownEvent, addr 0x4975fa4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDownEvent, addr 0x498a6bc, size 0x1c0, virtual false, abstract: false, final false
   inline void OnPointerDownEvent();
 
-  /// @brief Method OnPointerUpEvent, addr 0x4976164, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUpEvent, addr 0x498a87c, size 0x20, virtual false, abstract: false, final false
   inline void OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OpenTouchScreenKeyboard, addr 0x49758c0, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method OpenTouchScreenKeyboard, addr 0x4989fd8, size 0x508, virtual false, abstract: false, final false
   inline void OpenTouchScreenKeyboard();
 
-  /// @brief Method PollTouchScreenKeyboard, addr 0x4974af4, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method PollTouchScreenKeyboard, addr 0x498920c, size 0x238, virtual false, abstract: false, final false
   inline void PollTouchScreenKeyboard();
 
-  /// @brief Method UpdateStringPositionFromKeyboard, addr 0x4975650, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method UpdateStringPositionFromKeyboard, addr 0x4989d68, size 0x270, virtual false, abstract: false, final false
   inline void UpdateStringPositionFromKeyboard();
 
   constexpr bool const& __cordl_internal_get_m_IsClicking() const;
@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TouchKeyboardPoller(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
 
-  /// @brief Method .ctor, addr 0x4974ac0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49891d8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
 protected:
@@ -124,7 +124,7 @@ public:
   bool ___m_IsClicking;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

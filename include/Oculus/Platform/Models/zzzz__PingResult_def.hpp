@@ -50,19 +50,19 @@ public:
 
   constexpr void __cordl_internal_set_pingTimeUsec(::System::Nullable_1<uint64_t> value);
 
-  /// @brief Method .ctor, addr 0x3f1d3f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f31a88, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec);
 
-  /// @brief Method get_ID, addr 0x3f1d434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ID, addr 0x3f31ac4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_ID();
 
-  /// @brief Method get_IsTimeout, addr 0x3f1d4b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_IsTimeout, addr 0x3f31b40, size 0x44, virtual false, abstract: false, final false
   inline bool get_IsTimeout();
 
-  /// @brief Method get_PingTimeUsec, addr 0x3f1d444, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_PingTimeUsec, addr 0x3f31ad4, size 0x6c, virtual false, abstract: false, final false
   inline uint64_t get_PingTimeUsec();
 
-  /// @brief Method set_ID, addr 0x3f1d43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ID, addr 0x3f31acc, size 0x8, virtual false, abstract: false, final false
   inline void set_ID(uint64_t value);
 
 protected:
@@ -86,7 +86,7 @@ public:
   ::System::Nullable_1<uint64_t> ___pingTimeUsec;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15518 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_m_VisualTreeUpdaters(::ArrayW<::UnityEngine::UIElements::IVisualTreeUpdater*, ::Array<::UnityEngine::UIElements::IVisualTreeUpdater*>*> value);
 
-  /// @brief Method .ctor, addr 0x49295dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x493dcf4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x4929840, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x493df58, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualTreeUpdater* get_Item(int32_t index);
 
-  /// @brief Method get_Item, addr 0x4929a3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x493e154, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualTreeUpdater* get_Item(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
-  /// @brief Method set_Item, addr 0x4929b6c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x493e284, size 0x64, virtual false, abstract: false, final false
   inline void set_Item(::UnityEngine::UIElements::VisualTreeUpdatePhase phase, ::UnityEngine::UIElements::IVisualTreeUpdater* value);
 
 protected:
@@ -93,7 +93,7 @@ public:
   ::ArrayW<::UnityEngine::UIElements::IVisualTreeUpdater*, ::Array<::UnityEngine::UIElements::IVisualTreeUpdater*>*> ___m_VisualTreeUpdaters;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6316 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -122,24 +122,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4929774, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x493de8c, size 0xcc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetUpdater, addr 0x4929b54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetUpdater, addr 0x493e26c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualTreeUpdater* GetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
   static inline ::UnityEngine::UIElements::VisualTreeUpdater* New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method OnVersionChanged, addr 0x4929a6c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x493e184, size 0xe8, virtual false, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method SetDefaultUpdaters, addr 0x4929638, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultUpdaters, addr 0x493dd50, size 0x13c, virtual false, abstract: false, final false
   inline void SetDefaultUpdaters();
 
   /// @brief Method SetUpdater, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
-  /// @brief Method UpdateVisualTreePhase, addr 0x4929870, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisualTreePhase, addr 0x493df88, size 0x1cc, virtual false, abstract: false, final false
   inline void UpdateVisualTreePhase(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
 
   constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get_m_Panel();
@@ -154,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdaterArray(::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray* value);
 
-  /// @brief Method .ctor, addr 0x4929568, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x493dc80, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   /// @brief Convert to "::System::IDisposable"
@@ -181,7 +181,7 @@ public:
   ::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray* ___m_UpdaterArray;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6312 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6317 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

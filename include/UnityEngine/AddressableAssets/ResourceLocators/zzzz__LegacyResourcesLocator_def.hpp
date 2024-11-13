@@ -46,18 +46,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
 
-  /// @brief Method Locate, addr 0x4486bc4, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method Locate, addr 0x449b2dc, size 0x274, virtual true, abstract: false, final true
   inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4486e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449b598, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Keys, addr 0x4486e38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x449b550, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_LocatorId, addr 0x4486e40, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_LocatorId, addr 0x449b558, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_LocatorId();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
@@ -78,7 +78,7 @@ public:
   LegacyResourcesLocator(LegacyResourcesLocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

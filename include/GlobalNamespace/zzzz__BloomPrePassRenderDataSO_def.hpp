@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_viewMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method .ctor, addr 0x396b748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397efcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +126,7 @@ public:
   ::GlobalNamespace::ToneMapping ___toneMapping;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16214 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,7 +167,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::GlobalNamespace::__BloomPrePassRenderDataSO__Data* value);
 
-  /// @brief Method .ctor, addr 0x396fc0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3983490, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -188,7 +188,7 @@ public:
   ::GlobalNamespace::__BloomPrePassRenderDataSO__Data* ___data;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16215 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16223 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -111,10 +111,10 @@ public:
 
   static inline ::BeatSaber::AvatarCore::__AvatarSystemCollection____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2217b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22205c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_anyAvatarCreated>b__14_0, addr 0x2217b18, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <get_anyAvatarCreated>b__14_0, addr 0x22205cc, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* _get_anyAvatarCreated_b__14_0(::BeatSaber::AvatarCore::IAvatarSystem* avatarSystem);
 
   static inline ::BeatSaber::AvatarCore::__AvatarSystemCollection____c* getStaticF___9();
@@ -140,7 +140,7 @@ public:
   __AvatarSystemCollection____c(__AvatarSystemCollection____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17516 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -159,10 +159,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2217bb8, size 0x46c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x222066c, size 0x46c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2218024, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2220ad8, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -196,7 +196,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17517 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -228,10 +228,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x221808c, size 0x910, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2220b40, size 0x910, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x221899c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2221450, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -267,7 +267,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::MultiplayerAvatarData, ::Array<::GlobalNamespace::MultiplayerAvatarData>*>> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17518 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -331,31 +331,31 @@ public:
 
   __declspec(property(get = get_supportedOptionalAvatarDataType)) ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* supportedOptionalAvatarDataType;
 
-  /// @brief Method AvatarSystemBySelectionSortOrder, addr 0x2217508, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method AvatarSystemBySelectionSortOrder, addr 0x221ffbc, size 0x128, virtual false, abstract: false, final false
   static inline int32_t AvatarSystemBySelectionSortOrder(::BeatSaber::AvatarCore::IAvatarSystem* system1, ::BeatSaber::AvatarCore::IAvatarSystem* system2);
 
-  /// @brief Method CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync, addr 0x2217938, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync, addr 0x22203ec, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync();
 
-  /// @brief Method GetAvatarSystem, addr 0x2217aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAvatarSystem, addr 0x2220558, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::IAvatarSystem* GetAvatarSystem(::BeatSaber::AvatarCore::AvatarSystemIdentifier avatarSystemIdentifier);
 
-  /// @brief Method GetAvatarSystem, addr 0x22179fc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetAvatarSystem, addr 0x22204b0, size 0xa8, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::IAvatarSystem* GetAvatarSystem(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata);
 
-  /// @brief Method GetAvatarSystem, addr 0x2217908, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetAvatarSystem, addr 0x22203bc, size 0x30, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::IAvatarSystem* GetAvatarSystem(::StringW avatarTypeIdentifier);
 
-  /// @brief Method GetAvatarSystem, addr 0x22152b0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetAvatarSystem, addr 0x221dd64, size 0x124, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::IAvatarSystem* GetAvatarSystem(uint32_t avatarTypeIdentifierHash);
 
-  /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0x221784c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0x2220300, size 0xbc, virtual false, abstract: false, final false
   inline ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* GetMultiplayerAvatarOptionalDataProvider(::StringW selectedAvatarTypeIdentifier);
 
-  /// @brief Method GetMultiplayerAvatarsData, addr 0x2217750, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetMultiplayerAvatarsData, addr 0x2220204, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarsData>* GetMultiplayerAvatarsData(::StringW selectedAvatarTypeIdentifier);
 
-  /// @brief Method HasAvatarSystem, addr 0x2215258, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HasAvatarSystem, addr 0x221dd0c, size 0x58, virtual false, abstract: false, final false
   inline bool HasAvatarSystem(uint32_t avatarTypeIdentifierHash);
 
   static inline ::BeatSaber::AvatarCore::AvatarSystemCollection* New_ctor(::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>* boundAvatarSystems);
@@ -393,19 +393,19 @@ public:
 
   constexpr void __cordl_internal_set__supportedOptionalAvatarDataTypes(::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* value);
 
-  /// @brief Method .ctor, addr 0x2216a6c, size 0xa9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x221f520, size 0xa9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>* boundAvatarSystems);
 
-  /// @brief Method get_anyAvatarCreated, addr 0x2217630, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_anyAvatarCreated, addr 0x22200e4, size 0x120, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* get_anyAvatarCreated();
 
-  /// @brief Method get_availableAvatarSystems, addr 0x2216a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_availableAvatarSystems, addr 0x221f510, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* get_availableAvatarSystems();
 
-  /// @brief Method get_selectableAvatarSystems, addr 0x2216a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectableAvatarSystems, addr 0x221f508, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* get_selectableAvatarSystems();
 
-  /// @brief Method get_supportedOptionalAvatarDataType, addr 0x2216a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportedOptionalAvatarDataType, addr 0x221f518, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* get_supportedOptionalAvatarDataType();
 
 protected:
@@ -438,7 +438,7 @@ public:
   ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystem*>* ____availableAvatarSystemList;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17519 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

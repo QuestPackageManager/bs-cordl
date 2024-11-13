@@ -64,16 +64,16 @@ public:
   /// @brief Field symbols, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_symbols, put = __cordl_internal_set_symbols)) ::System::Xml::Schema::SymbolsDictionary* symbols;
 
-  /// @brief Method CompleteValidation, addr 0x43287c8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method CompleteValidation, addr 0x433cee0, size 0x48, virtual true, abstract: false, final false
   inline bool CompleteValidation(::System::Xml::Schema::ValidationState* context);
 
-  /// @brief Method ExpectedElements, addr 0x4328810, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ExpectedElements, addr 0x433cf28, size 0x1e4, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* ExpectedElements(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly);
 
-  /// @brief Method ExpectedParticles, addr 0x43289f4, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method ExpectedParticles, addr 0x433d10c, size 0x17c, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* ExpectedParticles(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method InitValidation, addr 0x432855c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method InitValidation, addr 0x433cc74, size 0xbc, virtual true, abstract: false, final false
   inline void InitValidation(::System::Xml::Schema::ValidationState* context);
 
   static inline ::System::Xml::Schema::NfaContentValidator* New_ctor(::System::Xml::Schema::BitSet* firstpos,
@@ -81,7 +81,7 @@ public:
                                                                      ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos,
                                                                      ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
 
-  /// @brief Method ValidateElement, addr 0x4328618, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method ValidateElement, addr 0x433cd30, size 0x1b0, virtual true, abstract: false, final false
   inline ::System::Object* ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ByRef<int32_t> errorCode);
 
   constexpr int32_t const& __cordl_internal_get_endMarkerPos() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
 
-  /// @brief Method .ctor, addr 0x43284a8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x433cbc0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
                     ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType,
                     bool isOpen, bool isEmptiable);
@@ -149,7 +149,7 @@ public:
   int32_t ___endMarkerPos;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7483 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

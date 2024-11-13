@@ -21,10 +21,10 @@ namespace System::Net::Mail {
 class CORDL_TYPE WhitespaceReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadCfwsReverse, addr 0x438d8f0, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method ReadCfwsReverse, addr 0x43a2008, size 0x2d8, virtual false, abstract: false, final false
   static inline int32_t ReadCfwsReverse(::StringW data, int32_t index);
 
-  /// @brief Method ReadFwsReverse, addr 0x438c900, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method ReadFwsReverse, addr 0x43a1018, size 0x20c, virtual false, abstract: false, final false
   static inline int32_t ReadFwsReverse(::StringW data, int32_t index);
 
 protected:
@@ -42,7 +42,7 @@ public:
   WhitespaceReader(WhitespaceReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9859 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -51,7 +51,7 @@ public:
   // Declarations
   static inline ::System::Net::__FtpWebResponse__EmptyStream* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4426e94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443b5ac, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   __FtpWebResponse__EmptyStream(__FtpWebResponse__EmptyStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9543 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,19 +126,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x4426f30, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x443b648, size 0xf4, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetResponseStream, addr 0x4426e34, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x443b54c, size 0x60, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetResponseStream();
 
   static inline ::System::Net::FtpWebResponse* New_ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode,
                                                         ::StringW statusLine, ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method SetResponseStream, addr 0x4426604, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetResponseStream, addr 0x443ad1c, size 0x94, virtual false, abstract: false, final false
   inline void SetResponseStream(::System::IO::Stream* stream);
 
-  /// @brief Method UpdateStatus, addr 0x4424f98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateStatus, addr 0x44396b0, size 0x10, virtual false, abstract: false, final false
   inline void UpdateStatus(::System::Net::FtpStatusCode statusCode, ::StringW statusLine, ::StringW exitMessage);
 
   constexpr ::StringW const& __cordl_internal_get__bannerMessage() const;
@@ -201,17 +201,17 @@ public:
 
   constexpr void __cordl_internal_set__welcomeMessage(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4426698, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443adb0, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode, ::StringW statusLine,
                     ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method get_Headers, addr 0x4427024, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x443b73c, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri, addr 0x4427130, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x443b848, size 0x8, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_StatusCode, addr 0x4427138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x443b850, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::FtpStatusCode get_StatusCode();
 
   /// @brief Convert to "::System::IDisposable"
@@ -262,7 +262,7 @@ public:
   ::StringW ____exitMessage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9544 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

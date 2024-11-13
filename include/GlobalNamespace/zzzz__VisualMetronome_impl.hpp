@@ -3,46 +3,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__VisualMetronome_def.hpp"
-#include "UnityEngine/UI/zzzz__Image_def.hpp"
+#include "UnityEngine/UI/zzzz__Graphic_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::VisualMetronome.set_tickerColor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)(::UnityEngine::Color)>(
-    &::GlobalNamespace::VisualMetronome::set_tickerColor)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b7ccc4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "set_tickerColor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::VisualMetronome.set_movingTickerColor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)(::UnityEngine::Color)>(
-    &::GlobalNamespace::VisualMetronome::set_movingTickerColor)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b7cce8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "set_movingTickerColor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::VisualMetronome.set_zeroOffset
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)(float_t)>(&::GlobalNamespace::VisualMetronome::set_zeroOffset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b7cd0c;
+  constexpr static std::size_t addrs = 0x3b92890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::get_zeroOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7cd1c;
+  constexpr static std::size_t addrs = 0x3b928a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "get_zeroOffset",
@@ -69,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::Awake)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b7cd24;
+  constexpr static std::size_t addrs = 0x3b928a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "Awake",
@@ -82,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::OnEnable)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b7cdbc;
+  constexpr static std::size_t addrs = 0x3b92940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "OnEnable",
@@ -95,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::OnDisable)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b7ce04;
+  constexpr static std::size_t addrs = 0x3b92988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "OnDisable",
@@ -108,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::Update)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3b7ce4c;
+  constexpr static std::size_t addrs = 0x3b929d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "Update",
@@ -122,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)(float_t)>(
     &::GlobalNamespace::VisualMetronome::SetMovingTickerNormalizedPosition)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3b7cf98;
+  constexpr static std::size_t addrs = 0x3b92b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b7d03c;
+  constexpr static std::size_t addrs = 0x3b92bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), ".ctor",
@@ -204,27 +173,27 @@ constexpr void GlobalNamespace::VisualMetronome::__cordl_internal_set__movingTic
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____movingTicker)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::VisualMetronome::__cordl_internal_get__tickerImage() {
+constexpr ::UnityW<::UnityEngine::UI::Graphic>& GlobalNamespace::VisualMetronome::__cordl_internal_get__tickerImage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tickerImage;
 }
-constexpr ::UnityW<::UnityEngine::UI::Image> const& GlobalNamespace::VisualMetronome::__cordl_internal_get__tickerImage() const {
+constexpr ::UnityW<::UnityEngine::UI::Graphic> const& GlobalNamespace::VisualMetronome::__cordl_internal_get__tickerImage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tickerImage;
 }
-constexpr void GlobalNamespace::VisualMetronome::__cordl_internal_set__tickerImage(::UnityW<::UnityEngine::UI::Image> value) {
+constexpr void GlobalNamespace::VisualMetronome::__cordl_internal_set__tickerImage(::UnityW<::UnityEngine::UI::Graphic> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tickerImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::VisualMetronome::__cordl_internal_get__movingTickerImage() {
+constexpr ::UnityW<::UnityEngine::UI::Graphic>& GlobalNamespace::VisualMetronome::__cordl_internal_get__movingTickerImage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____movingTickerImage;
 }
-constexpr ::UnityW<::UnityEngine::UI::Image> const& GlobalNamespace::VisualMetronome::__cordl_internal_get__movingTickerImage() const {
+constexpr ::UnityW<::UnityEngine::UI::Graphic> const& GlobalNamespace::VisualMetronome::__cordl_internal_get__movingTickerImage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____movingTickerImage;
 }
-constexpr void GlobalNamespace::VisualMetronome::__cordl_internal_set__movingTickerImage(::UnityW<::UnityEngine::UI::Image> value) {
+constexpr void GlobalNamespace::VisualMetronome::__cordl_internal_set__movingTickerImage(::UnityW<::UnityEngine::UI::Graphic> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____movingTickerImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -335,18 +304,6 @@ constexpr bool const& GlobalNamespace::VisualMetronome::__cordl_internal_get__do
 constexpr void GlobalNamespace::VisualMetronome::__cordl_internal_set__dontTickThisFrame(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dontTickThisFrame = value;
-}
-inline void GlobalNamespace::VisualMetronome::set_tickerColor(::UnityEngine::Color value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "set_tickerColor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline void GlobalNamespace::VisualMetronome::set_movingTickerColor(::UnityEngine::Color value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "set_movingTickerColor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::VisualMetronome::set_zeroOffset(float_t value) {
   static auto* ___internal_method =

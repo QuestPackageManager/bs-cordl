@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_subtasks(::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x26a69e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b26bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> ___subtasks;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13125 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c28c68;
+  constexpr static std::size_t addrs = 0x3c3d2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AsymmetricAlgorithm*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c28c70;
+  constexpr static std::size_t addrs = 0x3c3d300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AsymmetricAlgorithm*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::Clear)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c28c74;
+  constexpr static std::size_t addrs = 0x3c3d304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AsymmetricAlgorithm*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)(bool)>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c28ce0;
+  constexpr static std::size_t addrs = 0x3c3d370;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::AsymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::get_KeySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c28ce4;
+  constexpr static std::size_t addrs = 0x3c3d374;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)(int32_t)>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::set_KeySize)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3c28cec;
+  constexpr static std::size_t addrs = 0x3c3d37c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)(::StringW)>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::FromXmlString)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c28de8;
+  constexpr static std::size_t addrs = 0x3c3d478;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::AsymmetricAlgorithm::*)(bool)>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::ToXmlString)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c28e20;
+  constexpr static std::size_t addrs = 0x3c3d4b0;
 
   inline static ::MethodInfo const* methodInfo() {
 

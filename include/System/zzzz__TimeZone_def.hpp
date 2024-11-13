@@ -38,7 +38,7 @@ public:
   /// @brief Field s_InternalSyncObject, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_InternalSyncObject, put = setStaticF_s_InternalSyncObject)) ::System::Object* s_InternalSyncObject;
 
-  /// @brief Method CalculateUtcOffset, addr 0x3d8d1cc, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method CalculateUtcOffset, addr 0x3da185c, size 0x268, virtual false, abstract: false, final false
   static inline ::System::TimeSpan CalculateUtcOffset(::System::DateTime time, ::System::Globalization::DaylightTime* daylightTimes);
 
   /// @brief Method GetDaylightChanges, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -49,17 +49,17 @@ public:
 
   static inline ::System::TimeZone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d8d068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3da16f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::TimeZone* getStaticF_currentTimeZone();
 
   static inline ::System::Object* getStaticF_s_InternalSyncObject();
 
-  /// @brief Method get_CurrentTimeZone, addr 0x3d8d070, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentTimeZone, addr 0x3da1700, size 0x15c, virtual false, abstract: false, final false
   static inline ::System::TimeZone* get_CurrentTimeZone();
 
-  /// @brief Method get_InternalSyncObject, addr 0x3d8cfd0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSyncObject, addr 0x3da1660, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Object* get_InternalSyncObject();
 
   static inline void setStaticF_currentTimeZone(::System::TimeZone* value);

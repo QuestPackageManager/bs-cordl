@@ -33,17 +33,17 @@ public:
   /// @brief Field _useStackAlloc, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__useStackAlloc, put = __cordl_internal_set__useStackAlloc)) bool _useStackAlloc;
 
-  /// @brief Method IsMarked, addr 0x440ff5c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsMarked, addr 0x40a4b04, size 0x84, virtual false, abstract: false, final false
   inline bool IsMarked(int32_t bitPosition);
 
-  /// @brief Method MarkBit, addr 0x440fee0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MarkBit, addr 0x40a4a88, size 0x7c, virtual false, abstract: false, final false
   inline void MarkBit(int32_t bitPosition);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 
-  /// @brief Method ToIntArrayLength, addr 0x440ffe0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToIntArrayLength, addr 0x40a4b88, size 0x28, virtual false, abstract: false, final false
   static inline int32_t ToIntArrayLength(int32_t n);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__array() const;
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set__useStackAlloc(bool value);
 
-  /// @brief Method .ctor, addr 0x440feb0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a4a58, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
-  /// @brief Method .ctor, addr 0x440fe78, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a4a20, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 
 protected:
@@ -103,7 +103,7 @@ public:
   bool ____useStackAlloc;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

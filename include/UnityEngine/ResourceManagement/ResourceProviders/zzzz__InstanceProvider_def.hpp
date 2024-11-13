@@ -46,12 +46,12 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider* New_ctor();
 
-  /// @brief Method ProvideInstance, addr 0x4727008, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method ProvideInstance, addr 0x473b720, size 0xd8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> ProvideInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                                                              ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> prefabHandle,
                                                              ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
 
-  /// @brief Method ReleaseInstance, addr 0x47270e0, size 0x23c, virtual true, abstract: false, final true
+  /// @brief Method ReleaseInstance, addr 0x473b7f8, size 0x23c, virtual true, abstract: false, final true
   inline void ReleaseInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::GameObject* instance);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>,
@@ -66,7 +66,7 @@ public:
       ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>,
                                                    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>* value);
 
-  /// @brief Method .ctor, addr 0x472731c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x473ba34, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider"
@@ -91,7 +91,7 @@ public:
       ___m_InstanceObjectToPrefabHandle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15625 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

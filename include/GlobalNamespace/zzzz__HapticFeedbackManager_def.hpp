@@ -44,7 +44,7 @@ public:
 
   static inline ::GlobalNamespace::HapticFeedbackManager* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x395df64, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method PlayHapticFeedback, addr 0x39717e8, size 0x16c, virtual false, abstract: false, final false
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
   constexpr ::GlobalNamespace::IHapticFeedbackPlayer*& __cordl_internal_get__advancedHapticFeedbackPlayer();
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_hapticFeedbackEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x395e198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3971a1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   bool ___hapticFeedbackEnabled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16418 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

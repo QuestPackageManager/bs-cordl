@@ -72,7 +72,7 @@ public:
   static ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode const ThirdPerson;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8422 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -107,18 +107,18 @@ public:
   /// @brief Field inited, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_inited, put = __cordl_internal_set_inited)) bool inited;
 
-  /// @brief Method Initialize, addr 0x3fc4274, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3fd8904, size 0x224, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::OVRMixedRealityCaptureTest* New_ctor();
 
-  /// @brief Method Start, addr 0x3fc41c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fd8854, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fc48a8, size 0x764, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fd8f38, size 0x764, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateDefaultExternalCamera, addr 0x3fc4498, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method UpdateDefaultExternalCamera, addr 0x3fd8b28, size 0x410, virtual false, abstract: false, final false
   inline void UpdateDefaultExternalCamera();
 
   constexpr ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode const& __cordl_internal_get_currentMode() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_inited(bool value);
 
-  /// @brief Method .ctor, addr 0x3fc500c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd969c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -175,7 +175,7 @@ public:
   ::GlobalNamespace::__OVRPlugin__Fovf ___defaultFov;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8423 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_sortOrder(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4002c90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4017320, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg);
 
 protected:
@@ -77,7 +77,7 @@ public:
   ::StringW ___message;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9022 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,18 +35,18 @@ public:
   /// @brief Field <time>k__BackingField, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__time_k__BackingField, put = setStaticF__time_k__BackingField)) float_t _time_k__BackingField;
 
-  /// @brief Method Awake, addr 0x3958444, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x396bca4, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FixedUpdate, addr 0x39584d8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x396bd38, size 0x94, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
   static inline ::GlobalNamespace::TimeHelper* New_ctor();
 
-  /// @brief Method Update, addr 0x395856c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x396bdcc, size 0x174, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method __SetTime, addr 0x39586e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method __SetTime, addr 0x396bf40, size 0x4c, virtual false, abstract: false, final false
   static inline void __SetTime(float_t time);
 
   constexpr float_t const& __cordl_internal_get__accumulator() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__accumulator(float_t value);
 
-  /// @brief Method .ctor, addr 0x395872c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396bf8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline float_t getStaticF__deltaTime_k__BackingField();
@@ -66,16 +66,16 @@ public:
 
   static inline float_t getStaticF__time_k__BackingField();
 
-  /// @brief Method get_deltaTime, addr 0x3958270, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x396bad0, size 0x48, virtual false, abstract: false, final false
   static inline float_t get_deltaTime();
 
-  /// @brief Method get_fixedDeltaTime, addr 0x395830c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_fixedDeltaTime, addr 0x396bb6c, size 0x48, virtual false, abstract: false, final false
   static inline float_t get_fixedDeltaTime();
 
-  /// @brief Method get_interpolationFactor, addr 0x39583a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_interpolationFactor, addr 0x396bc08, size 0x48, virtual false, abstract: false, final false
   static inline float_t get_interpolationFactor();
 
-  /// @brief Method get_time, addr 0x39581d4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x396ba34, size 0x48, virtual false, abstract: false, final false
   static inline float_t get_time();
 
   static inline void setStaticF__deltaTime_k__BackingField(float_t value);
@@ -86,16 +86,16 @@ public:
 
   static inline void setStaticF__time_k__BackingField(float_t value);
 
-  /// @brief Method set_deltaTime, addr 0x39582b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_deltaTime, addr 0x396bb18, size 0x54, virtual false, abstract: false, final false
   static inline void set_deltaTime(float_t value);
 
-  /// @brief Method set_fixedDeltaTime, addr 0x3958354, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_fixedDeltaTime, addr 0x396bbb4, size 0x54, virtual false, abstract: false, final false
   static inline void set_fixedDeltaTime(float_t value);
 
-  /// @brief Method set_interpolationFactor, addr 0x39583f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_interpolationFactor, addr 0x396bc50, size 0x54, virtual false, abstract: false, final false
   static inline void set_interpolationFactor(float_t value);
 
-  /// @brief Method set_time, addr 0x395821c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x396ba7c, size 0x54, virtual false, abstract: false, final false
   static inline void set_time(float_t value);
 
 protected:
@@ -116,7 +116,7 @@ public:
   float_t ____accumulator;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

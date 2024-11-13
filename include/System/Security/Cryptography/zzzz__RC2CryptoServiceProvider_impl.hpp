@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RC2CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RC2CryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3c2ccd0;
+  constexpr static std::size_t addrs = 0x3c41360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::RC2CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RC2CryptoServiceProvider::get_EffectiveKeySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c2ce30;
+  constexpr static std::size_t addrs = 0x3c414c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::RC2CryptoServiceProvider::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::RC2CryptoServiceProvider::CreateEncryptor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3c2ce38;
+  constexpr static std::size_t addrs = 0x3c414c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::RC2CryptoServiceProvider::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::RC2CryptoServiceProvider::CreateDecryptor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3c2cf00;
+  constexpr static std::size_t addrs = 0x3c41590;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RC2CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RC2CryptoServiceProvider::GenerateKey)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c2cfc8;
+  constexpr static std::size_t addrs = 0x3c41658;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RC2CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RC2CryptoServiceProvider::GenerateIV)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c2d044;
+  constexpr static std::size_t addrs = 0x3c416d4;
 
   inline static ::MethodInfo const* methodInfo() {
 

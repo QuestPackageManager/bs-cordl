@@ -143,15 +143,15 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3d9c018, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3db06a8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext, addr 0x3d9bfe4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3db0674, size 0x28, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::__Array__ArrayEnumerator* New_ctor(::System::Array* array);
 
-  /// @brief Method Reset, addr 0x3d9c00c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x3db069c, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::System::Array*& __cordl_internal_get__array();
@@ -172,10 +172,10 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d9bf9c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db062c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Array* array);
 
-  /// @brief Method get_Current, addr 0x3d9c020, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x3db06b0, size 0x10c, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -456,34 +456,34 @@ namespace System {
 struct CORDL_TYPE __Array__SorterObjectArray {
 public:
   // Declarations
-  /// @brief Method DownHeap, addr 0x3d9cd14, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method DownHeap, addr 0x3db13a4, size 0x35c, virtual false, abstract: false, final false
   inline void DownHeap(int32_t i, int32_t n, int32_t lo);
 
-  /// @brief Method Heapsort, addr 0x3d9ca48, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Heapsort, addr 0x3db10d8, size 0xa0, virtual false, abstract: false, final false
   inline void Heapsort(int32_t lo, int32_t hi);
 
-  /// @brief Method InsertionSort, addr 0x3d9c7a0, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method InsertionSort, addr 0x3db0e30, size 0x2a8, virtual false, abstract: false, final false
   inline void InsertionSort(int32_t lo, int32_t hi);
 
-  /// @brief Method IntroSort, addr 0x3d9c68c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method IntroSort, addr 0x3db0d1c, size 0x114, virtual false, abstract: false, final false
   inline void IntroSort(int32_t lo, int32_t hi, int32_t depthLimit);
 
-  /// @brief Method IntrospectiveSort, addr 0x3d9c540, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method IntrospectiveSort, addr 0x3db0bd0, size 0x14c, virtual false, abstract: false, final false
   inline void IntrospectiveSort(int32_t left, int32_t length);
 
-  /// @brief Method PickPivotAndPartition, addr 0x3d9cae8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method PickPivotAndPartition, addr 0x3db1178, size 0x22c, virtual false, abstract: false, final false
   inline int32_t PickPivotAndPartition(int32_t lo, int32_t hi);
 
-  /// @brief Method Sort, addr 0x3d9c53c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x3db0bcc, size 0x4, virtual false, abstract: false, final false
   inline void Sort(int32_t left, int32_t length);
 
-  /// @brief Method Swap, addr 0x3d9c3d8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0x3db0a68, size 0x164, virtual false, abstract: false, final false
   inline void Swap(int32_t i, int32_t j);
 
-  /// @brief Method SwapIfGreaterWithItems, addr 0x3d9c1a8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method SwapIfGreaterWithItems, addr 0x3db0838, size 0x230, virtual false, abstract: false, final false
   inline void SwapIfGreaterWithItems(int32_t a, int32_t b);
 
-  /// @brief Method .ctor, addr 0x3d9c12c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db07bc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> keys, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> items, ::System::Collections::IComparer* comparer);
 
   // Ctor Parameters []
@@ -531,34 +531,34 @@ namespace System {
 struct CORDL_TYPE __Array__SorterGenericArray {
 public:
   // Declarations
-  /// @brief Method DownHeap, addr 0x3d9dab8, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method DownHeap, addr 0x3db2148, size 0x2d0, virtual false, abstract: false, final false
   inline void DownHeap(int32_t i, int32_t n, int32_t lo);
 
-  /// @brief Method Heapsort, addr 0x3d9d7fc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Heapsort, addr 0x3db1e8c, size 0xa0, virtual false, abstract: false, final false
   inline void Heapsort(int32_t lo, int32_t hi);
 
-  /// @brief Method InsertionSort, addr 0x3d9d614, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method InsertionSort, addr 0x3db1ca4, size 0x1e8, virtual false, abstract: false, final false
   inline void InsertionSort(int32_t lo, int32_t hi);
 
-  /// @brief Method IntroSort, addr 0x3d9d500, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method IntroSort, addr 0x3db1b90, size 0x114, virtual false, abstract: false, final false
   inline void IntroSort(int32_t lo, int32_t hi, int32_t depthLimit);
 
-  /// @brief Method IntrospectiveSort, addr 0x3d9d3ac, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method IntrospectiveSort, addr 0x3db1a3c, size 0x154, virtual false, abstract: false, final false
   inline void IntrospectiveSort(int32_t left, int32_t length);
 
-  /// @brief Method PickPivotAndPartition, addr 0x3d9d89c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method PickPivotAndPartition, addr 0x3db1f2c, size 0x21c, virtual false, abstract: false, final false
   inline int32_t PickPivotAndPartition(int32_t lo, int32_t hi);
 
-  /// @brief Method Sort, addr 0x3d9d3a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x3db1a38, size 0x4, virtual false, abstract: false, final false
   inline void Sort(int32_t left, int32_t length);
 
-  /// @brief Method Swap, addr 0x3d9d2bc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0x3db194c, size 0xec, virtual false, abstract: false, final false
   inline void Swap(int32_t i, int32_t j);
 
-  /// @brief Method SwapIfGreaterWithItems, addr 0x3d9d0ec, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method SwapIfGreaterWithItems, addr 0x3db177c, size 0x1d0, virtual false, abstract: false, final false
   inline void SwapIfGreaterWithItems(int32_t a, int32_t b);
 
-  /// @brief Method .ctor, addr 0x3d9d070, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db1700, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Array* keys, ::System::Array* items, ::System::Collections::IComparer* comparer);
 
   // Ctor Parameters []
@@ -669,80 +669,80 @@ public:
   /// @brief Method BinarySearch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t BinarySearch(::ArrayW<T, ::Array<T>*> array, T value, ::System::Collections::Generic::IComparer_1<T>* comparer);
 
-  /// @brief Method BinarySearch, addr 0x3d99f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method BinarySearch, addr 0x3dae5cc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t BinarySearch(::System::Array* array, int32_t index, int32_t length, ::System::Object* value);
 
-  /// @brief Method BinarySearch, addr 0x3d99318, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method BinarySearch, addr 0x3dad9a8, size 0x494, virtual false, abstract: false, final false
   static inline int32_t BinarySearch(::System::Array* array, int32_t index, int32_t length, ::System::Object* value, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method BinarySearch, addr 0x3d99288, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method BinarySearch, addr 0x3dad918, size 0x90, virtual false, abstract: false, final false
   static inline int32_t BinarySearch(::System::Array* array, ::System::Object* value);
 
-  /// @brief Method BinarySearch, addr 0x3d99f44, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BinarySearch, addr 0x3dae5d4, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t BinarySearch(::System::Array* array, ::System::Object* value, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method CanAssignArrayElement, addr 0x3d9bb08, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CanAssignArrayElement, addr 0x3db0198, size 0xd4, virtual false, abstract: false, final false
   static inline bool CanAssignArrayElement(::System::Type* source, ::System::Type* target);
 
-  /// @brief Method Clear, addr 0x3d985d4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3dacc64, size 0x118, virtual false, abstract: false, final false
   static inline void Clear(::System::Array* array, int32_t index, int32_t length);
 
-  /// @brief Method ClearInternal, addr 0x3d9bab0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ClearInternal, addr 0x3db0140, size 0x4, virtual false, abstract: false, final false
   static inline void ClearInternal(::System::Array* a, int32_t index, int32_t count);
 
-  /// @brief Method Clone, addr 0x3d98d90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3dad420, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method CombineHashCodes, addr 0x3d9910c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x3dad79c, size 0xc, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2);
 
-  /// @brief Method ConstrainedCopy, addr 0x3d9bbdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConstrainedCopy, addr 0x3db026c, size 0x4, virtual false, abstract: false, final false
   static inline void ConstrainedCopy(::System::Array* sourceArray, int32_t sourceIndex, ::System::Array* destinationArray, int32_t destinationIndex, int32_t length);
 
   /// @brief Method ConvertAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInput, typename TOutput>
   static inline ::ArrayW<TOutput, ::Array<TOutput>*> ConvertAll(::ArrayW<TInput, ::Array<TInput>*> array, ::System::Converter_2<TInput, TOutput>* converter);
 
-  /// @brief Method Copy, addr 0x3d9981c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x3dadeac, size 0xc4, virtual false, abstract: false, final false
   static inline void Copy(::System::Array* sourceArray, ::System::Array* destinationArray, int32_t length);
 
-  /// @brief Method Copy, addr 0x3d997ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x3dade3c, size 0x70, virtual false, abstract: false, final false
   static inline void Copy(::System::Array* sourceArray, ::System::Array* destinationArray, int64_t length);
 
-  /// @brief Method Copy, addr 0x3d98888, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x3dacf18, size 0x508, virtual false, abstract: false, final false
   static inline void Copy(::System::Array* sourceArray, int32_t sourceIndex, ::System::Array* destinationArray, int32_t destinationIndex, int32_t length);
 
-  /// @brief Method Copy, addr 0x3d998e0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x3dadf70, size 0xc8, virtual false, abstract: false, final false
   static inline void Copy(::System::Array* sourceArray, int64_t sourceIndex, ::System::Array* destinationArray, int64_t destinationIndex, int64_t length);
 
-  /// @brief Method CopyTo, addr 0x3d987d4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x3dace64, size 0xb0, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method CopyTo, addr 0x3d999a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3dae038, size 0x70, virtual false, abstract: false, final false
   inline void CopyTo(::System::Array* array, int64_t index);
 
-  /// @brief Method CreateArrayTypeMismatchException, addr 0x3d9bab4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayTypeMismatchException, addr 0x3db0144, size 0x54, virtual false, abstract: false, final false
   static inline ::System::ArrayTypeMismatchException* CreateArrayTypeMismatchException();
 
-  /// @brief Method CreateInstance, addr 0x3d9b998, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3db0028, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Array* CreateInstance(::System::Type* elementType, int32_t length);
 
-  /// @brief Method CreateInstance, addr 0x3d9b90c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3daff9c, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Array* CreateInstance(::System::Type* elementType, int32_t length1, int32_t length2);
 
-  /// @brief Method CreateInstance, addr 0x3d9ba10, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3db00a0, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Array* CreateInstance(::System::Type* elementType, int32_t length1, int32_t length2, int32_t length3);
 
-  /// @brief Method CreateInstance, addr 0x3d980a0, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3dac730, size 0x278, virtual false, abstract: false, final false
   static inline ::System::Array* CreateInstance(::System::Type* elementType, ::ArrayW<int32_t, ::Array<int32_t>*> lengths);
 
-  /// @brief Method CreateInstance, addr 0x3d9b544, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3dafbd4, size 0x3c4, virtual false, abstract: false, final false
   static inline ::System::Array* CreateInstance(::System::Type* elementType, ::ArrayW<int32_t, ::Array<int32_t>*> lengths, ::ArrayW<int32_t, ::Array<int32_t>*> lowerBounds);
 
-  /// @brief Method CreateInstance, addr 0x3d97f28, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3dac5b8, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Array* CreateInstance(::System::Type* elementType, ::ArrayW<int64_t, ::Array<int64_t>*> lengths);
 
-  /// @brief Method CreateInstanceImpl, addr 0x3d9b504, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateInstanceImpl, addr 0x3dafb94, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Array* CreateInstanceImpl(::System::Type* elementType, ::ArrayW<int32_t, ::Array<int32_t>*> lengths, ::ArrayW<int32_t, ::Array<int32_t>*> bounds);
 
   /// @brief Method Empty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -751,7 +751,7 @@ public:
   /// @brief Method Exists, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool Exists(::ArrayW<T, ::Array<T>*> array, ::System::Predicate_1<T>* match);
 
-  /// @brief Method FastCopy, addr 0x3d9b500, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FastCopy, addr 0x3dafb90, size 0x4, virtual false, abstract: false, final false
   static inline bool FastCopy(::System::Array* source, int32_t source_idx, ::System::Array* dest, int32_t dest_idx, int32_t length);
 
   /// @brief Method Fill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -790,58 +790,58 @@ public:
   /// @brief Method ForEach, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ForEach(::ArrayW<T, ::Array<T>*> array, ::System::Action_1<T>* action);
 
-  /// @brief Method GetEnumerator, addr 0x3d9b3d4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x3dafa64, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   /// @brief Method GetGenericValueImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void GetGenericValueImpl(int32_t pos, ByRef<T> value);
 
-  /// @brief Method GetLength, addr 0x3d99a7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x3dae10c, size 0x4, virtual false, abstract: false, final false
   inline int32_t GetLength(int32_t dimension);
 
-  /// @brief Method GetLongLength, addr 0x3d99a80, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetLongLength, addr 0x3dae110, size 0x14, virtual false, abstract: false, final false
   inline int64_t GetLongLength(int32_t dimension);
 
-  /// @brief Method GetLowerBound, addr 0x3d985d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetLowerBound, addr 0x3dacc60, size 0x4, virtual false, abstract: false, final false
   inline int32_t GetLowerBound(int32_t dimension);
 
-  /// @brief Method GetMedian, addr 0x3d99fe0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMedian, addr 0x3dae670, size 0xc, virtual false, abstract: false, final false
   static inline int32_t GetMedian(int32_t low, int32_t hi);
 
-  /// @brief Method GetRank, addr 0x3d9b4f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetRank, addr 0x3dafb84, size 0x4, virtual false, abstract: false, final false
   inline int32_t GetRank();
 
-  /// @brief Method GetRawSzArrayData, addr 0x3d9b444, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetRawSzArrayData, addr 0x3dafad4, size 0x14, virtual false, abstract: false, final false
   inline ByRef<uint8_t> GetRawSzArrayData();
 
-  /// @brief Method GetUpperBound, addr 0x3d9b508, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetUpperBound, addr 0x3dafb98, size 0x38, virtual false, abstract: false, final false
   inline int32_t GetUpperBound(int32_t dimension);
 
-  /// @brief Method GetValue, addr 0x3d8e2ac, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3da293c, size 0x168, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(int32_t index);
 
-  /// @brief Method GetValue, addr 0x3d99a94, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3dae124, size 0x70, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(int64_t index);
 
-  /// @brief Method GetValue, addr 0x3d99ba4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3dae234, size 0x88, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(int32_t index1, int32_t index2);
 
-  /// @brief Method GetValue, addr 0x3d99cf4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3dae384, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(int32_t index1, int32_t index2, int32_t index3);
 
-  /// @brief Method GetValue, addr 0x3d99b04, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3dae194, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(int64_t index1, int64_t index2);
 
-  /// @brief Method GetValue, addr 0x3d99c2c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3dae2bc, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(int64_t index1, int64_t index2, int64_t index3);
 
-  /// @brief Method GetValue, addr 0x3d99f1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3dae5ac, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(::ArrayW<int32_t, ::Array<int32_t>*> indices);
 
-  /// @brief Method GetValue, addr 0x3d99d94, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3dae424, size 0x188, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(::ArrayW<int64_t, ::Array<int64_t>*> indices);
 
-  /// @brief Method GetValueImpl, addr 0x3d9b4f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetValueImpl, addr 0x3dafb88, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* GetValueImpl(int32_t pos);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -853,25 +853,25 @@ public:
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(::ArrayW<T, ::Array<T>*> array, T value, int32_t startIndex, int32_t count);
 
-  /// @brief Method IndexOf, addr 0x3d9850c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3dacb9c, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::System::Array* array, ::System::Object* value);
 
-  /// @brief Method IndexOf, addr 0x3d9a284, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3dae914, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::System::Array* array, ::System::Object* value, int32_t startIndex);
 
-  /// @brief Method IndexOf, addr 0x3d99fec, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3dae67c, size 0x298, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::System::Array* array, ::System::Object* value, int32_t startIndex, int32_t count);
 
   /// @brief Method IndexOfImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOfImpl(::ArrayW<T, ::Array<T>*> array, T value, int32_t startIndex, int32_t count);
 
-  /// @brief Method Initialize, addr 0x3d9bbe0, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3db0270, size 0x3bc, virtual false, abstract: false, final false
   inline void Initialize();
 
   /// @brief Method InternalArray__ICollection_Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void InternalArray__ICollection_Add(T item);
 
-  /// @brief Method InternalArray__ICollection_Clear, addr 0x3d9b458, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InternalArray__ICollection_Clear, addr 0x3dafae8, size 0x4c, virtual false, abstract: false, final false
   inline void InternalArray__ICollection_Clear();
 
   /// @brief Method InternalArray__ICollection_Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -883,16 +883,16 @@ public:
   /// @brief Method InternalArray__ICollection_Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool InternalArray__ICollection_Remove(T item);
 
-  /// @brief Method InternalArray__ICollection_get_Count, addr 0x3d9b438, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalArray__ICollection_get_Count, addr 0x3dafac8, size 0x4, virtual false, abstract: false, final false
   inline int32_t InternalArray__ICollection_get_Count();
 
-  /// @brief Method InternalArray__ICollection_get_IsReadOnly, addr 0x3d9b43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalArray__ICollection_get_IsReadOnly, addr 0x3dafacc, size 0x8, virtual false, abstract: false, final false
   inline bool InternalArray__ICollection_get_IsReadOnly();
 
   /// @brief Method InternalArray__IEnumerable_GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Collections::Generic::IEnumerator_1<T>* InternalArray__IEnumerable_GetEnumerator();
 
-  /// @brief Method InternalArray__IReadOnlyCollection_get_Count, addr 0x3d9b4a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalArray__IReadOnlyCollection_get_Count, addr 0x3dafb34, size 0x4, virtual false, abstract: false, final false
   inline int32_t InternalArray__IReadOnlyCollection_get_Count();
 
   /// @brief Method InternalArray__IReadOnlyList_get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -904,7 +904,7 @@ public:
   /// @brief Method InternalArray__Insert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void InternalArray__Insert(int32_t index, T item);
 
-  /// @brief Method InternalArray__RemoveAt, addr 0x3d9b4a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InternalArray__RemoveAt, addr 0x3dafb38, size 0x4c, virtual false, abstract: false, final false
   inline void InternalArray__RemoveAt(int32_t index);
 
   /// @brief Method InternalArray__get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -922,13 +922,13 @@ public:
   /// @brief Method LastIndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t LastIndexOf(::ArrayW<T, ::Array<T>*> array, T value, int32_t startIndex, int32_t count);
 
-  /// @brief Method LastIndexOf, addr 0x3d9a320, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x3dae9b0, size 0x88, virtual false, abstract: false, final false
   static inline int32_t LastIndexOf(::System::Array* array, ::System::Object* value);
 
-  /// @brief Method LastIndexOf, addr 0x3d9a650, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x3daece0, size 0x58, virtual false, abstract: false, final false
   static inline int32_t LastIndexOf(::System::Array* array, ::System::Object* value, int32_t startIndex);
 
-  /// @brief Method LastIndexOf, addr 0x3d9a3a8, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x3daea38, size 0x2a8, virtual false, abstract: false, final false
   static inline int32_t LastIndexOf(::System::Array* array, ::System::Object* value, int32_t startIndex, int32_t count);
 
   /// @brief Method LastIndexOfImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -945,40 +945,40 @@ public:
   /// @brief Method Reverse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Reverse(::ArrayW<T, ::Array<T>*> array, int32_t index, int32_t length);
 
-  /// @brief Method Reverse, addr 0x3d9a6a8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Reverse, addr 0x3daed38, size 0x84, virtual false, abstract: false, final false
   static inline void Reverse(::System::Array* array);
 
-  /// @brief Method Reverse, addr 0x3d9a72c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Reverse, addr 0x3daedbc, size 0x244, virtual false, abstract: false, final false
   static inline void Reverse(::System::Array* array, int32_t index, int32_t length);
 
   /// @brief Method SetGenericValueImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SetGenericValueImpl(int32_t pos, ByRef<T> value);
 
-  /// @brief Method SetValue, addr 0x3d98338, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3dac9c8, size 0x170, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* value, int32_t index);
 
-  /// @brief Method SetValue, addr 0x3d9a970, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3daf000, size 0x70, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* value, int64_t index);
 
-  /// @brief Method SetValue, addr 0x3d9aa80, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3daf110, size 0x98, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* value, int32_t index1, int32_t index2);
 
-  /// @brief Method SetValue, addr 0x3d9abe0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3daf270, size 0xa8, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* value, int32_t index1, int32_t index2, int32_t index3);
 
-  /// @brief Method SetValue, addr 0x3d9a9e0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3daf070, size 0xa0, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* value, int64_t index1, int64_t index2);
 
-  /// @brief Method SetValue, addr 0x3d9ab18, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3daf1a8, size 0xc8, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* value, int64_t index1, int64_t index2, int64_t index3);
 
-  /// @brief Method SetValue, addr 0x3d9ae20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3daf4b0, size 0x4, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* value, ::ArrayW<int32_t, ::Array<int32_t>*> indices);
 
-  /// @brief Method SetValue, addr 0x3d9ac88, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3daf318, size 0x198, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* value, ::ArrayW<int64_t, ::Array<int64_t>*> indices);
 
-  /// @brief Method SetValueImpl, addr 0x3d9b4fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValueImpl, addr 0x3dafb8c, size 0x4, virtual false, abstract: false, final false
   inline void SetValueImpl(::System::Object* value, int32_t pos);
 
   /// @brief Method Sort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -996,16 +996,16 @@ public:
   /// @brief Method Sort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Sort(::ArrayW<T, ::Array<T>*> array, int32_t index, int32_t length, ::System::Collections::Generic::IComparer_1<T>* comparer);
 
-  /// @brief Method Sort, addr 0x3d9ae24, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x3daf4b4, size 0x8c, virtual false, abstract: false, final false
   static inline void Sort(::System::Array* array);
 
-  /// @brief Method Sort, addr 0x3d9b100, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x3daf790, size 0x90, virtual false, abstract: false, final false
   static inline void Sort(::System::Array* array, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method Sort, addr 0x3d9b0ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x3daf77c, size 0x14, virtual false, abstract: false, final false
   static inline void Sort(::System::Array* array, int32_t index, int32_t length);
 
-  /// @brief Method Sort, addr 0x3d9b190, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x3daf820, size 0x14, virtual false, abstract: false, final false
   static inline void Sort(::System::Array* array, int32_t index, int32_t length, ::System::Collections::IComparer* comparer);
 
   /// @brief Method Sort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1022,73 +1022,73 @@ public:
   template <typename TKey, typename TValue>
   static inline void Sort(::ArrayW<TKey, ::Array<TKey>*> keys, ::ArrayW<TValue, ::Array<TValue>*> items, int32_t index, int32_t length, ::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
-  /// @brief Method Sort, addr 0x3d9b1a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x3daf834, size 0x90, virtual false, abstract: false, final false
   static inline void Sort(::System::Array* keys, ::System::Array* items);
 
-  /// @brief Method Sort, addr 0x3d9b234, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x3daf8c4, size 0x9c, virtual false, abstract: false, final false
   static inline void Sort(::System::Array* keys, ::System::Array* items, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method Sort, addr 0x3d9b2d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x3daf960, size 0x8, virtual false, abstract: false, final false
   static inline void Sort(::System::Array* keys, ::System::Array* items, int32_t index, int32_t length);
 
-  /// @brief Method Sort, addr 0x3d9aeb0, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x3daf540, size 0x23c, virtual false, abstract: false, final false
   static inline void Sort(::System::Array* keys, ::System::Array* items, int32_t index, int32_t length, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method SortImpl, addr 0x3d9b2d8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SortImpl, addr 0x3daf968, size 0xfc, virtual false, abstract: false, final false
   static inline void SortImpl(::System::Array* keys, ::System::Array* items, int32_t index, int32_t length, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method System.Collections.ICollection.get_Count, addr 0x3d98318, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_Count, addr 0x3dac9a8, size 0x4, virtual true, abstract: false, final true
   inline int32_t System_Collections_ICollection_get_Count();
 
-  /// @brief Method System.Collections.IList.Add, addr 0x3d984a8, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Add, addr 0x3dacb38, size 0x4c, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_Add(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Clear, addr 0x3d98598, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Clear, addr 0x3dacc28, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IList_Clear();
 
-  /// @brief Method System.Collections.IList.Contains, addr 0x3d984f4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Contains, addr 0x3dacb84, size 0x18, virtual true, abstract: false, final true
   inline bool System_Collections_IList_Contains(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.IndexOf, addr 0x3d986ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.IndexOf, addr 0x3dacd7c, size 0x4, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_IndexOf(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Insert, addr 0x3d986f0, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Insert, addr 0x3dacd80, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_IList_Insert(int32_t index, ::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Remove, addr 0x3d9873c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Remove, addr 0x3dacdcc, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_IList_Remove(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.RemoveAt, addr 0x3d98788, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.RemoveAt, addr 0x3dace18, size 0x4c, virtual true, abstract: false, final true
   inline void System_Collections_IList_RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.IList.get_IsReadOnly, addr 0x3d9831c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_IsReadOnly, addr 0x3dac9ac, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IList_get_IsReadOnly();
 
-  /// @brief Method System.Collections.IList.get_Item, addr 0x3d98324, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_Item, addr 0x3dac9b4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IList_get_Item(int32_t index);
 
-  /// @brief Method System.Collections.IList.set_Item, addr 0x3d98328, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.set_Item, addr 0x3dac9b8, size 0x10, virtual true, abstract: false, final true
   inline void System_Collections_IList_set_Item(int32_t index, ::System::Object* value);
 
-  /// @brief Method System.Collections.IStructuralComparable.CompareTo, addr 0x3d98d98, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IStructuralComparable.CompareTo, addr 0x3dad428, size 0x1e0, virtual true, abstract: false, final true
   inline int32_t System_Collections_IStructuralComparable_CompareTo(::System::Object* other, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method System.Collections.IStructuralEquatable.Equals, addr 0x3d98f78, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IStructuralEquatable.Equals, addr 0x3dad608, size 0x194, virtual true, abstract: false, final true
   inline bool System_Collections_IStructuralEquatable_Equals(::System::Object* other, ::System::Collections::IEqualityComparer* comparer);
 
-  /// @brief Method System.Collections.IStructuralEquatable.GetHashCode, addr 0x3d99118, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IStructuralEquatable.GetHashCode, addr 0x3dad7a8, size 0x170, virtual true, abstract: false, final true
   inline int32_t System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer* comparer);
 
   /// @brief Method TrueForAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool TrueForAll(::ArrayW<T, ::Array<T>*> array, ::System::Predicate_1<T>* match);
 
-  /// @brief Method UnsafeCreateInstance, addr 0x3d9b908, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UnsafeCreateInstance, addr 0x3daff98, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Array* UnsafeCreateInstance(::System::Type* elementType, int32_t length1, int32_t length2);
 
-  /// @brief Method UnsafeCreateInstance, addr 0x3d9b994, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UnsafeCreateInstance, addr 0x3db0024, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Array* UnsafeCreateInstance(::System::Type* elementType, ::ArrayW<int32_t, ::Array<int32_t>*> lengths);
 
-  /// @brief Method UnsafeCreateInstance, addr 0x3d9b540, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UnsafeCreateInstance, addr 0x3dafbd0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Array* UnsafeCreateInstance(::System::Type* elementType, ::ArrayW<int32_t, ::Array<int32_t>*> lengths, ::ArrayW<int32_t, ::Array<int32_t>*> lowerBounds);
 
   /// @brief Method UnsafeLoad, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1100,28 +1100,28 @@ public:
   /// @brief Method UnsafeStore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void UnsafeStore(::ArrayW<T, ::Array<T>*> array, int32_t index, T value);
 
-  /// @brief Method .ctor, addr 0x3d9b430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dafac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsFixedSize, addr 0x3d99f20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsFixedSize, addr 0x3dae5b0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x3d99f28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x3dae5b8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x3d99f30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x3dae5c0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Length, addr 0x3d8e24c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3da28dc, size 0x60, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_LongLength, addr 0x3d99a18, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_LongLength, addr 0x3dae0a8, size 0x64, virtual false, abstract: false, final false
   inline int64_t get_LongLength();
 
-  /// @brief Method get_Rank, addr 0x3d98884, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Rank, addr 0x3dacf14, size 0x4, virtual false, abstract: false, final false
   inline int32_t get_Rank();
 
-  /// @brief Method get_SyncRoot, addr 0x3d99f38, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x3dae5c8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"

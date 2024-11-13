@@ -69,7 +69,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__SliderInt__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4992428, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a6b40, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   __SliderInt__UxmlFactory(__SliderInt__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5669 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -122,7 +122,7 @@ public:
   /// @brief Field m_ShowInputField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShowInputField, put = __cordl_internal_set_m_ShowInputField)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowInputField;
 
-  /// @brief Method Init, addr 0x4992470, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49a6b88, size 0x2c0, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__SliderInt__UxmlTraits* New_ctor();
@@ -163,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShowInputField(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4992730, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a6e48, size 0x228, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -199,7 +199,7 @@ public:
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Inverted;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5670 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -242,32 +242,32 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x49919bc, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x49a60d4, size 0x1cc, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int32_t startValue);
 
-  /// @brief Method ComputeValueAndDirectionFromClick, addr 0x4991d10, size 0x368, virtual true, abstract: false, final false
+  /// @brief Method ComputeValueAndDirectionFromClick, addr 0x49a6428, size 0x368, virtual true, abstract: false, final false
   inline void ComputeValueAndDirectionFromClick(float_t sliderLength, float_t dragElementLength, float_t dragElementPos, float_t dragElementLastPos);
 
-  /// @brief Method ComputeValueFromKey, addr 0x4992078, size 0x2e0, virtual true, abstract: false, final false
+  /// @brief Method ComputeValueFromKey, addr 0x49a6790, size 0x2e0, virtual true, abstract: false, final false
   inline void ComputeValueFromKey(::UnityEngine::UIElements::__BaseSlider_1__SliderKey<int32_t> sliderKey, bool isShift);
 
   static inline ::UnityEngine::UIElements::SliderInt* New_ctor();
 
   static inline ::UnityEngine::UIElements::SliderInt* New_ctor(::StringW label, int32_t start, int32_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
-  /// @brief Method ParseStringToValue, addr 0x4991c90, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ParseStringToValue, addr 0x49a63a8, size 0x80, virtual true, abstract: false, final false
   inline int32_t ParseStringToValue(::StringW previousValue, ::StringW newValue);
 
-  /// @brief Method SliderLerpUnclamped, addr 0x4991b88, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method SliderLerpUnclamped, addr 0x49a62a0, size 0xec, virtual true, abstract: false, final false
   inline int32_t SliderLerpUnclamped(int32_t a, int32_t b, float_t interpolant);
 
-  /// @brief Method SliderNormalizeValue, addr 0x4991c74, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method SliderNormalizeValue, addr 0x49a638c, size 0x1c, virtual true, abstract: false, final false
   inline float_t SliderNormalizeValue(int32_t currentValue, int32_t lowerValue, int32_t higherValue);
 
-  /// @brief Method .ctor, addr 0x49916f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a5e10, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4991710, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a5e28, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t start, int32_t end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -276,7 +276,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_pageSize, addr 0x499185c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_pageSize, addr 0x49a5f74, size 0x48, virtual true, abstract: false, final false
   inline float_t get_pageSize();
 
   static inline void setStaticF_inputUssClassName(::StringW value);
@@ -285,7 +285,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_pageSize, addr 0x49918a4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method set_pageSize, addr 0x49a5fbc, size 0x118, virtual true, abstract: false, final false
   inline void set_pageSize(float_t value);
 
 protected:
@@ -303,7 +303,7 @@ public:
   SliderInt(SliderInt const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5671 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

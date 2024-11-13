@@ -30,19 +30,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>*();
 
-  /// @brief Method Equals, addr 0x484e6c0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4862dd8, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x484e778, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4862e90, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::SphericalHarmonicsL2 other);
 
-  /// @brief Method GetHashCode, addr 0x484e4ec, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4862c04, size 0x1d4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>* i___System__IEquatable_1___UnityEngine__Rendering__SphericalHarmonicsL2_();
 
-  /// @brief Method op_Equality, addr 0x484e7c0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4862ed8, size 0x1bc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs);
 
   // Ctor Parameters []
@@ -146,7 +146,7 @@ public:
   float_t shb8;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11181 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6c };

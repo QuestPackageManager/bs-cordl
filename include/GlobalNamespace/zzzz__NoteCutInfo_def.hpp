@@ -93,7 +93,7 @@ public:
   static ::GlobalNamespace::__NoteCutInfo__FailReason const WrongDirection;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16959 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -122,19 +122,19 @@ public:
 
   __declspec(property(get = get_failReason)) ::GlobalNamespace::__NoteCutInfo__FailReason failReason;
 
-  /// @brief Method .ctor, addr 0x26dfd5c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb960, size 0x230, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::NoteData* noteData, bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float_t saberSpeed, ::UnityEngine::Vector3 saberDir,
                     ::GlobalNamespace::SaberType saberType, float_t timeDeviation, float_t cutDirDeviation, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
                     float_t cutDistanceToCenter, float_t cutAngle, ::UnityEngine::Quaternion worldRotation, ::UnityEngine::Quaternion inverseWorldRotation, ::UnityEngine::Quaternion noteRotation,
                     ::UnityEngine::Vector3 notePosition, ::GlobalNamespace::ISaberMovementData* saberMovementData);
 
-  /// @brief Method get_allExceptSaberTypeIsOK, addr 0x26dfcf0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_allExceptSaberTypeIsOK, addr 0x26eb8f4, size 0x28, virtual false, abstract: false, final false
   inline bool get_allExceptSaberTypeIsOK();
 
-  /// @brief Method get_allIsOK, addr 0x26dfcc0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_allIsOK, addr 0x26eb8c4, size 0x30, virtual false, abstract: false, final false
   inline bool get_allIsOK();
 
-  /// @brief Method get_failReason, addr 0x26dfd18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_failReason, addr 0x26eb91c, size 0x44, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__NoteCutInfo__FailReason get_failReason();
 
   // Ctor Parameters []
@@ -214,7 +214,7 @@ public:
   ::GlobalNamespace::ISaberMovementData* saberMovementData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16960 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::__EdgeUtility____c__DisplayClass0_0::*)()>(
     &::UnityEngine::ProBuilder::__EdgeUtility____c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4690fe0;
+  constexpr static std::size_t addrs = 0x46a56f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::__EdgeUtility____c__DisplayClass0_0::*)(
     ::UnityEngine::ProBuilder::Edge)>(&::UnityEngine::ProBuilder::__EdgeUtility____c__DisplayClass0_0::_GetSharedVertexHandleEdges_b__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46918e4;
+  constexpr static std::size_t addrs = 0x46a5ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::Edge>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*)>(
     &::UnityEngine::ProBuilder::EdgeUtility::GetSharedVertexHandleEdges)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4690f10;
+  constexpr static std::size_t addrs = 0x46a5628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::EdgeUtility::GetSharedVertexHandleEdge)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4690fe8;
+  constexpr static std::size_t addrs = 0x46a5700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::EdgeUtility::GetEdgeWithSharedVertexHandles)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4691084;
+  constexpr static std::size_t addrs = 0x46a579c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,7 +124,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ByRef<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>>)>(
     &::UnityEngine::ProBuilder::EdgeUtility::ValidateEdge)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x469111c;
+  constexpr static std::size_t addrs = 0x46a5834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>, ::UnityEngine::ProBuilder::Edge)>(&::UnityEngine::ProBuilder::EdgeUtility::Contains)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4691394;
+  constexpr static std::size_t addrs = 0x46a5aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>, int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::EdgeUtility::Contains)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4691474;
+  constexpr static std::size_t addrs = 0x46a5b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,7 +175,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>*, ::UnityEngine::ProBuilder::Edge)>(
         &::UnityEngine::ProBuilder::EdgeUtility::IndexOf)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x46914e4;
+  constexpr static std::size_t addrs = 0x46a5bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (*)(
     ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>)>(&::UnityEngine::ProBuilder::EdgeUtility::AllTriangles)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4691684;
+  constexpr static std::size_t addrs = 0x46a5d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Face* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::EdgeUtility::GetFace)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x4691754;
+  constexpr static std::size_t addrs = 0x46a5e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

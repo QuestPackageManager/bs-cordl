@@ -20,7 +20,7 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_Keyframe {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x39dea1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f2374, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t t, float_t v, float_t in_tangent, float_t out_tangent);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   float_t outTangent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11694 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

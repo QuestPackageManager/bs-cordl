@@ -52,10 +52,10 @@ public:
   static inline ::System::Linq::Expressions::Interpreter::PropertyByRefUpdater* New_ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
                                                                                          ::System::Reflection::PropertyInfo* property, int32_t argumentIndex);
 
-  /// @brief Method UndefineTemps, addr 0x406ef6c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method UndefineTemps, addr 0x4083684, size 0x98, virtual true, abstract: false, final false
   inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
-  /// @brief Method Update, addr 0x406ee08, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x4083520, size 0x148, virtual true, abstract: false, final false
   inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
   constexpr ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> const& __cordl_internal_get__object() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__property(::System::Reflection::PropertyInfo* value);
 
-  /// @brief Method .ctor, addr 0x406edc0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40834d8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj, ::System::Reflection::PropertyInfo* property, int32_t argumentIndex);
 
 protected:
@@ -94,7 +94,7 @@ public:
   ::System::Reflection::PropertyInfo* ____property;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -56,44 +56,44 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CommonInit, addr 0x3cab71c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CommonInit, addr 0x3cbfdac, size 0x58, virtual false, abstract: false, final false
   inline void CommonInit();
 
-  /// @brief Method Dispose, addr 0x3cab774, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3cbfe04, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3ca5808, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3cb9e98, size 0xb4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetCaseInsensitiveObjectInternal, addr 0x3cabc2c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method GetCaseInsensitiveObjectInternal, addr 0x3cc02bc, size 0x2cc, virtual false, abstract: false, final false
   inline ::System::Object* GetCaseInsensitiveObjectInternal(::StringW name);
 
-  /// @brief Method GetEnumerator, addr 0x3cab784, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3cbfe14, size 0x4, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method GetEnumeratorHelper, addr 0x3cab788, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumeratorHelper, addr 0x3cbfe18, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
 
-  /// @brief Method GetObject, addr 0x3cabef8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetObject, addr 0x3cc0588, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* GetObject(::StringW name);
 
-  /// @brief Method GetObject, addr 0x3cabefc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetObject, addr 0x3cc058c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* GetObject(::StringW name, bool ignoreCase);
 
-  /// @brief Method GetObjectInternal, addr 0x3cab968, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetObjectInternal, addr 0x3cbfff8, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Object* GetObjectInternal(::StringW name);
 
-  /// @brief Method GetString, addr 0x3cab808, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x3cbfe98, size 0x160, virtual true, abstract: false, final false
   inline ::StringW GetString(::StringW name);
 
-  /// @brief Method GetString, addr 0x3caba30, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x3cc00c0, size 0x1fc, virtual true, abstract: false, final false
   inline ::StringW GetString(::StringW name, bool ignoreCase);
 
   static inline ::System::Resources::ResourceSet* New_ctor();
 
   static inline ::System::Resources::ResourceSet* New_ctor(bool junk);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3cab804, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3cbfe94, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Resources::IResourceReader*& __cordl_internal_get_Reader();
@@ -114,10 +114,10 @@ public:
 
   constexpr void __cordl_internal_set__caseInsensitiveTable(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x3cab700, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cbfd90, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3ca54ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb9b3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool junk);
 
   /// @brief Convert to "::System::Collections::IEnumerable"

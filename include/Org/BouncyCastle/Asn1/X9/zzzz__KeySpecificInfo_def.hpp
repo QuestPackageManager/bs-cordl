@@ -45,7 +45,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x25e1740, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25ec7e8, size 0xe8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_algorithm();
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_counter(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x25e144c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ec4f4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* counter);
 
-  /// @brief Method .ctor, addr 0x25e1478, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ec520, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Algorithm, addr 0x25e1730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x25ec7d8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Algorithm();
 
-  /// @brief Method get_Counter, addr 0x25e1738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Counter, addr 0x25ec7e0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Counter();
 
 protected:

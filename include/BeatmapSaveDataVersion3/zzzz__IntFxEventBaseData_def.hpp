@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set_v(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26c85c4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d42b4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t value);
 
-  /// @brief Method get_beat, addr 0x26c85a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x26d4294, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_usePreviousEventValue, addr 0x26c85ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventValue, addr 0x26d429c, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventValue();
 
-  /// @brief Method get_value, addr 0x26c85bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x26d42ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
 protected:
@@ -92,7 +92,7 @@ public:
   int32_t ___v;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

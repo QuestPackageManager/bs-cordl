@@ -94,7 +94,7 @@ public:
   static ::HoudiniEngineUnity::__HEU_AttributeData__AttributeType const UNDEFINED;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11610 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -154,7 +154,7 @@ public:
   static ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState const SYNCED;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11611 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -203,13 +203,13 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>*() noexcept;
 
-  /// @brief Method CopyValuesTo, addr 0x39cc4fc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CopyValuesTo, addr 0x39dfe54, size 0x124, virtual false, abstract: false, final false
   inline void CopyValuesTo(::HoudiniEngineUnity::HEU_AttributeData* destAttrData);
 
-  /// @brief Method IsColorAttribute, addr 0x39cc48c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsColorAttribute, addr 0x39dfde4, size 0x70, virtual false, abstract: false, final false
   inline bool IsColorAttribute();
 
-  /// @brief Method IsEquivalentTo, addr 0x39cc620, size 0x328, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x39dff78, size 0x328, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributeData* other);
 
   static inline ::HoudiniEngineUnity::HEU_AttributeData* New_ctor();
@@ -256,7 +256,7 @@ public:
 
   constexpr void __cordl_internal_set__stringValues(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x39cc948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e02a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributeData*>"
@@ -298,7 +298,7 @@ public:
   ::HoudiniEngineUnity::__HEU_AttributeData__AttributeState ____attributeState;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11612 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

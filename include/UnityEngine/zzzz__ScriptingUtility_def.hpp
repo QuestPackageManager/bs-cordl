@@ -39,7 +39,7 @@ public:
   int32_t value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10867 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -62,7 +62,7 @@ public:
   // Declarations
   using TestClass = ::UnityEngine::__ScriptingUtility__TestClass;
 
-  /// @brief Method IsManagedCodeWorking, addr 0x4836f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsManagedCodeWorking, addr 0x484b62c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsManagedCodeWorking();
 
 protected:
@@ -80,7 +80,7 @@ public:
   ScriptingUtility(ScriptingUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10863 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10868 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -122,7 +122,7 @@ public:
   static ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackPage const Page2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18540 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -186,7 +186,7 @@ public:
   static ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis const Z;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18541 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -265,22 +265,22 @@ public:
 
   constexpr void __cordl_internal_set__trackToolbarType(::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType value);
 
-  /// @brief Method .ctor, addr 0x22438f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224e848, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_basicBeatmapEventType, addr 0x22438d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_basicBeatmapEventType, addr 0x224e828, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventType get_basicBeatmapEventType();
 
-  /// @brief Method get_basicEventTrackPage, addr 0x22438e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_basicEventTrackPage, addr 0x224e840, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackPage get_basicEventTrackPage();
 
-  /// @brief Method get_trackDefinition, addr 0x22438e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackDefinition, addr 0x224e838, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> get_trackDefinition();
 
-  /// @brief Method get_trackName, addr 0x22438c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackName, addr 0x224e820, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_trackName();
 
-  /// @brief Method get_trackToolbarType, addr 0x22438d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackToolbarType, addr 0x224e830, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType get_trackToolbarType();
 
 protected:
@@ -313,7 +313,7 @@ public:
   ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackPage ____basicEventTrackPage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -366,13 +366,13 @@ public:
 
   constexpr void __cordl_internal_set__eventBoxGroupTrackInfos(::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x2243958, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224e8b0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventBoxGroupPageName, addr 0x2243948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventBoxGroupPageName, addr 0x224e8a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_eventBoxGroupPageName();
 
-  /// @brief Method get_eventBoxGroupTrackInfos, addr 0x2243950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventBoxGroupTrackInfos, addr 0x224e8a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* get_eventBoxGroupTrackInfos();
 
 protected:
@@ -396,7 +396,7 @@ public:
   ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* ____eventBoxGroupTrackInfos;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18508 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18543 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -591,61 +591,61 @@ public:
 
   constexpr void __cordl_internal_set__targetLightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x2243b40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224ea98, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enableDuplicate, addr 0x2243ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableDuplicate, addr 0x224ea0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableDuplicate();
 
-  /// @brief Method get_groupName, addr 0x22439f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x224e94c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
-  /// @brief Method get_lightGroup, addr 0x2243a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x224e95c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroup();
 
-  /// @brief Method get_overrideDefaultRotationAxis, addr 0x2243a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideDefaultRotationAxis, addr 0x224e9dc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis get_overrideDefaultRotationAxis();
 
-  /// @brief Method get_overrideDefaultTranslationAxis, addr 0x2243aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideDefaultTranslationAxis, addr 0x224e9fc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis get_overrideDefaultTranslationAxis();
 
-  /// @brief Method get_showColorTrack, addr 0x2243a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showColorTrack, addr 0x224e96c, size 0x8, virtual false, abstract: false, final false
   inline bool get_showColorTrack();
 
-  /// @brief Method get_showFloatFxTrack, addr 0x2243aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showFloatFxTrack, addr 0x224ea04, size 0x8, virtual false, abstract: false, final false
   inline bool get_showFloatFxTrack();
 
-  /// @brief Method get_showRotationTrack, addr 0x2243a1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_showRotationTrack, addr 0x224e974, size 0x28, virtual false, abstract: false, final false
   inline bool get_showRotationTrack();
 
-  /// @brief Method get_showRotationXTrack, addr 0x2243a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showRotationXTrack, addr 0x224e9c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_showRotationXTrack();
 
-  /// @brief Method get_showRotationYTrack, addr 0x2243a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showRotationYTrack, addr 0x224e9cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_showRotationYTrack();
 
-  /// @brief Method get_showRotationZTrack, addr 0x2243a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showRotationZTrack, addr 0x224e9d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_showRotationZTrack();
 
-  /// @brief Method get_showTranslationTrack, addr 0x2243a44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_showTranslationTrack, addr 0x224e99c, size 0x28, virtual false, abstract: false, final false
   inline bool get_showTranslationTrack();
 
-  /// @brief Method get_showTranslationXTrack, addr 0x2243a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showTranslationXTrack, addr 0x224e9e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_showTranslationXTrack();
 
-  /// @brief Method get_showTranslationYTrack, addr 0x2243a94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showTranslationYTrack, addr 0x224e9ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_showTranslationYTrack();
 
-  /// @brief Method get_showTranslationZTrack, addr 0x2243a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showTranslationZTrack, addr 0x224e9f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_showTranslationZTrack();
 
-  /// @brief Method get_targetLightGroups, addr 0x2243abc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_targetLightGroups, addr 0x224ea14, size 0x84, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> get_targetLightGroups();
 
-  /// @brief Method set_groupName, addr 0x22439fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_groupName, addr 0x224e954, size 0x8, virtual false, abstract: false, final false
   inline void set_groupName(::StringW value);
 
-  /// @brief Method set_lightGroup, addr 0x2243a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightGroup, addr 0x224e964, size 0x8, virtual false, abstract: false, final false
   inline void set_lightGroup(::GlobalNamespace::LightGroupSO* value);
 
 protected:
@@ -708,7 +708,7 @@ public:
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> ____targetLightGroups;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18544 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -813,17 +813,17 @@ public:
 
   constexpr void __cordl_internal_set__eventBoxGroupPageInfos(::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x22438c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224e818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_basicEventTrackInfos, addr 0x22438b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_basicEventTrackInfos, addr 0x224e808, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>
   get_basicEventTrackInfos();
 
-  /// @brief Method get_environmentInfo, addr 0x22438a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentInfo, addr 0x224e800, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
 
-  /// @brief Method get_eventBoxGroupPageInfos, addr 0x22438b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventBoxGroupPageInfos, addr 0x224e810, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo*>* get_eventBoxGroupPageInfos();
 
 protected:
@@ -851,7 +851,7 @@ public:
   ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo*>* ____eventBoxGroupPageInfos;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18545 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

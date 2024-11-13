@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)(::System::Action_2<bool, ::StringW>*)>(
     &::GlobalNamespace::ServerCodeEntryViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af80c4;
+  constexpr static std::size_t addrs = 0x3b0cae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)(::System::Action_2<bool, ::StringW>*)>(
     &::GlobalNamespace::ServerCodeEntryViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af8174;
+  constexpr static std::size_t addrs = 0x3b0cb94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ServerCodeEntryViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3af8224;
+  constexpr static std::size_t addrs = 0x3b0cc44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)(bool, bool)>(
     &::GlobalNamespace::ServerCodeEntryViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3af83c8;
+  constexpr static std::size_t addrs = 0x3b0cde8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)(::HMUI::InputFieldView*)>(
     &::GlobalNamespace::ServerCodeEntryViewController::HandleInputFieldChanged)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3af83f8;
+  constexpr static std::size_t addrs = 0x3b0ce18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)()>(
     &::GlobalNamespace::ServerCodeEntryViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3af8430;
+  constexpr static std::size_t addrs = 0x3b0ce50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)()>(
     &::GlobalNamespace::ServerCodeEntryViewController::HandleJoinButtonPressed)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3af8458;
+  constexpr static std::size_t addrs = 0x3b0ce78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerCodeEntryViewController*>::get(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)()>(
     &::GlobalNamespace::ServerCodeEntryViewController::HandleCancelButtonPressed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3af8494;
+  constexpr static std::size_t addrs = 0x3b0ceb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerCodeEntryViewController*>::get(),
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeEntryViewController::*)()>(
     &::GlobalNamespace::ServerCodeEntryViewController::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3af84b8;
+  constexpr static std::size_t addrs = 0x3b0ced8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerCodeEntryViewController*>::get(),

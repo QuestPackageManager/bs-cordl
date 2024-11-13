@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::*)()>(
     &::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4599b24;
+  constexpr static std::size_t addrs = 0x45ae23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::*)(uint32_t)>(
     &::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4599b2c;
+  constexpr static std::size_t addrs = 0x45ae244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::*)()>(
     &::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::OnBeforeUpdate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4599944;
+  constexpr static std::size_t addrs = 0x45ae05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::*)()>(
     &::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::OnUpdate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x45999e4;
+  constexpr static std::size_t addrs = 0x45ae0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdate::OnBeforeUpdate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x45998c4;
+  constexpr static std::size_t addrs = 0x45adfdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdate::OnUpdate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x459995c;
+  constexpr static std::size_t addrs = 0x45ae074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState (*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdate::Save)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4599a00;
+  constexpr static std::size_t addrs = 0x45ae118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate*>::get(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState)>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdate::Restore)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4599a64;
+  constexpr static std::size_t addrs = 0x45ae17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputUpdateType (*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdate::GetUpdateTypeForPlayer)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4599af8;
+  constexpr static std::size_t addrs = 0x45ae210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdate::IsPlayerUpdate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4599b18;
+  constexpr static std::size_t addrs = 0x45ae230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__DivInstruction__DivSingle::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__DivInstruction__DivSingle::Run)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x40500dc;
+  constexpr static std::size_t addrs = 0x40647f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__DivInstruction__DivSingle::*)()>(
     &::System::Linq::Expressions::Interpreter::__DivInstruction__DivSingle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x404f92c;
+  constexpr static std::size_t addrs = 0x4064044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

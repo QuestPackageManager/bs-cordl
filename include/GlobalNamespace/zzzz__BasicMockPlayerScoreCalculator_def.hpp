@@ -45,7 +45,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
 
-  /// @brief Method GetScoreForNote, addr 0x3bb425c, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method GetScoreForNote, addr 0x3bc88ec, size 0x74, virtual true, abstract: false, final true
   inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
   static inline ::GlobalNamespace::BasicMockPlayerScoreCalculator* New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__random(::System::Random* value);
 
-  /// @brief Method .ctor, addr 0x3bb41a8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc8838, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
 
   /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
@@ -107,7 +107,7 @@ public:
   ::System::Random* ____random;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18012 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

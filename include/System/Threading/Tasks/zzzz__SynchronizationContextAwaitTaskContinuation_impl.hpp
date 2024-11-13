@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c::*)()>(
     &::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3df41b4;
+  constexpr static std::size_t addrs = 0x3e08844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c::*)(::System::Object*)>(
     &::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c::__cctor_b__7_0)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3df41bc;
+  constexpr static std::size_t addrs = 0x3e0884c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::*)(
     ::System::Threading::SynchronizationContext*, ::System::Action*, bool)>(&::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3deed38;
+  constexpr static std::size_t addrs = 0x3e033c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::*)(
     ::System::Threading::Tasks::Task*, bool)>(&::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::Run)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3df3c68;
+  constexpr static std::size_t addrs = 0x3e082f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::PostAction)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3df3f40;
+  constexpr static std::size_t addrs = 0x3e085d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ContextCallback* (*)()>(
     &::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::GetPostActionCallback)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3df3fd4;
+  constexpr static std::size_t addrs = 0x3e08664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -66,15 +66,15 @@ public:
 
   __declspec(property(get = get_lightGroups)) ::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::LightGroup>>* lightGroups;
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b16314, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b2b780, size 0x15c, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
   static inline ::GlobalNamespace::LightColorGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b161b8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b2b624, size 0x15c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b15f24, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b2b390, size 0x294, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -107,10 +107,10 @@ public:
 
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b16470, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2b8dc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightGroups, addr 0x3b15f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x3b2b388, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::LightGroup>>* get_lightGroups();
 
 protected:
@@ -143,7 +143,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect*>* ____lightColorGroupEffects;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4276 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

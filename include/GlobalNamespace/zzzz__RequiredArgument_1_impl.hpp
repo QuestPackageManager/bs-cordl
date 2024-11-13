@@ -12,7 +12,7 @@ template <typename T> constexpr T const& GlobalNamespace::RequiredArgument_1<T>:
 }
 template <typename T> constexpr void GlobalNamespace::RequiredArgument_1<T>::__cordl_internal_set__value(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____value, value);
 }
 template <typename T> inline T GlobalNamespace::RequiredArgument_1<T>::get_value() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RequiredArgument_1<T>*>::get(), "get_value",

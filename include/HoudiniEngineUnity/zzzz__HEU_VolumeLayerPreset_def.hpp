@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__uiExpanded(bool value);
 
-  /// @brief Method .ctor, addr 0x399c6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39b0024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   int32_t ____tile;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11560 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

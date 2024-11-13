@@ -4,20 +4,18 @@
 #include "BeatmapSaveDataVersion4/zzzz__BeatmapSaveData_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ArcBeatIndex_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Arc_def.hpp"
-#include "BeatmapSaveDataVersion4/zzzz__BeatIndex_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BeatmapBeatIndex_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BombNote_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ChainBeatIndex_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Chain_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ColorNote_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Obstacle_def.hpp"
-#include "BeatmapSaveDataVersion4/zzzz__SpawnRotation_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataVersion4::BeatmapSaveData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion4::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion4::BeatmapSaveData::_ctor)> {
-  constexpr static std::size_t size = 0x510;
-  constexpr static std::size_t addrs = 0x26c6e44;
+  constexpr static std::size_t size = 0x440;
+  constexpr static std::size_t addrs = 0x26d2c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::BeatmapSaveData*>::get(), ".ctor",
@@ -163,33 +161,6 @@ constexpr ::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVers
 constexpr void BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_set_arcsData(::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___arcsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>& BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_get_spawnRotations() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___spawnRotations;
-}
-constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> const&
-BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_get_spawnRotations() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___spawnRotations;
-}
-constexpr void BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_set_spawnRotations(::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___spawnRotations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*>& BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_get_spawnRotationsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___spawnRotationsData;
-}
-constexpr ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> const&
-BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_get_spawnRotationsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___spawnRotationsData;
-}
-constexpr void
-BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_set_spawnRotationsData(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___spawnRotationsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::BeatmapSaveDataVersion4::BeatmapSaveData* BeatmapSaveDataVersion4::BeatmapSaveData::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion4::BeatmapSaveData*>());

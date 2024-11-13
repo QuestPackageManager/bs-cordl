@@ -27,13 +27,13 @@ namespace BGLib::UnityExtension::BezierCurves {
 struct CORDL_TYPE CurveData {
 public:
   // Declarations
-  /// @brief Method Evaluate, addr 0x2277ad8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x2282b28, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Evaluate(float_t t);
 
-  /// @brief Method RotatePointAroundPivot, addr 0x2278234, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RotatePointAroundPivot, addr 0x2283284, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RotatePointAroundPivot(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 pivot, ::UnityEngine::Quaternion rot);
 
-  /// @brief Method RotatePointsAroundPivot, addr 0x22780f8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method RotatePointsAroundPivot, addr 0x2283148, size 0x13c, virtual false, abstract: false, final false
   inline ::BGLib::UnityExtension::BezierCurves::CurveData RotatePointsAroundPivot(::UnityEngine::Vector3 pivot, ::UnityEngine::Quaternion rot);
 
   // Ctor Parameters []
@@ -58,7 +58,7 @@ public:
   ::UnityEngine::Vector3 endControlPoint;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17245 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

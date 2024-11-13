@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b9c6cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb2530, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::GlobalNamespace::IRefreshable* refreshable, ::UnityEngine::GameObject* gameObject);
 
 protected:
@@ -133,7 +133,7 @@ public:
   ::UnityW<::UnityEngine::GameObject> ___gameObject;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4872 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -220,39 +220,39 @@ public:
 
   __declspec(property(get = get_playerSettings)) ::GlobalNamespace::PlayerSpecificSettings* playerSettings;
 
-  /// @brief Method DidActivate, addr 0x3b9c1b4, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3bb2018, size 0x16c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers, addr 0x3b9c5c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers, addr 0x3bb2428, size 0x30, virtual false, abstract: false, final false
   inline void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers();
 
-  /// @brief Method HandlePlayerSettingsPanelControllerDidChangePlayerSettings, addr 0x3b9c58c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerSettingsPanelControllerDidChangePlayerSettings, addr 0x3bb23f0, size 0x38, virtual false, abstract: false, final false
   inline void HandlePlayerSettingsPanelControllerDidChangePlayerSettings();
 
-  /// @brief Method HandleSelectionSegmentedControlDidSelectCell, addr 0x3b9c4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectionSegmentedControlDidSelectCell, addr 0x3bb2338, size 0x8, virtual false, abstract: false, final false
   inline void HandleSelectionSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
-  /// @brief Method Init, addr 0x3b9b950, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3bb17b4, size 0x90, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GameplaySetupViewController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b9c3bc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3bb2220, size 0x118, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RefreshActivePanel, addr 0x3b9c5f4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method RefreshActivePanel, addr 0x3bb2458, size 0xd8, virtual false, abstract: false, final false
   inline void RefreshActivePanel();
 
-  /// @brief Method RefreshContent, addr 0x3b9ba04, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x3bb1868, size 0x70c, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method SetActivePanel, addr 0x3b9c4dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetActivePanel, addr 0x3bb2340, size 0xb0, virtual false, abstract: false, final false
   inline void SetActivePanel(int32_t panelIdx);
 
-  /// @brief Method SetIsInteractable, addr 0x3b9c110, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetIsInteractable, addr 0x3bb1f74, size 0x80, virtual false, abstract: false, final false
   inline void SetIsInteractable(bool interactable);
 
-  /// @brief Method Setup, addr 0x3b9b8bc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3bb1720, size 0x94, virtual false, abstract: false, final false
   inline void Setup(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings, bool showMultiplayer,
                     ::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout playerSettingsPanelLayout);
 
@@ -346,19 +346,19 @@ public:
 
   constexpr void __cordl_internal_set__showMultiplayer(bool value);
 
-  /// @brief Method .ctor, addr 0x3b9c708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb256c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorSchemesSettings, addr 0x3b9b898, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_colorSchemesSettings, addr 0x3bb16fc, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
 
-  /// @brief Method get_environmentOverrideSettings, addr 0x3b9b874, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_environmentOverrideSettings, addr 0x3bb16d8, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OverrideEnvironmentSettings* get_environmentOverrideSettings();
 
-  /// @brief Method get_gameplayModifiers, addr 0x3b9b858, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x3bb16bc, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_playerSettings, addr 0x3b9b488, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_playerSettings, addr 0x3bb12ec, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
 
 protected:
@@ -421,7 +421,7 @@ public:
   bool ____isInitialized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4873 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

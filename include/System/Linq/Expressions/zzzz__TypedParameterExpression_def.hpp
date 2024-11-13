@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4045b5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405a274, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW name);
 
-  /// @brief Method get_Type, addr 0x4045c3c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x405a354, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -60,7 +60,7 @@ public:
   ::System::Type* ____Type_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13691 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

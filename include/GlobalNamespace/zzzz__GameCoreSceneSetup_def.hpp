@@ -39,12 +39,12 @@ public:
   /// @brief Field _settingsManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method InstallBindings, addr 0x3ac2f2c, size 0x428, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3ad6acc, size 0x428, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::GameCoreSceneSetup* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ac3354, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ad6ef4, size 0x48, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3ac339c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad6f3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5198 };
 
   /// @brief Field kPauseButtonPressDuration offset 0xffffffff size 0x4
   static constexpr float_t kPauseButtonPressDuration{ 0.75 };

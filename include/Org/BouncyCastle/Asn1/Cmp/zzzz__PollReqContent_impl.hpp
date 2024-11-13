@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PollReqContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PollReqContent::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22bc8c0;
+  constexpr static std::size_t addrs = 0x22c7968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PollReqContent* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PollReqContent::GetInstance)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x22b8be0;
+  constexpr static std::size_t addrs = 0x22c3c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::Array<::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*>>*> (::Org::BouncyCastle::Asn1::Cmp::PollReqContent::*)()>(
         &::Org::BouncyCastle::Asn1::Cmp::PollReqContent::GetCertReqIDs)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x22bc8e8;
+  constexpr static std::size_t addrs = 0x22c7990;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*> (*)(
     ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::Cmp::PollReqContent::SequenceToDerIntegerArray)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22bca24;
+  constexpr static std::size_t addrs = 0x22c7acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::PollReqContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PollReqContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22bcb18;
+  constexpr static std::size_t addrs = 0x22c7bc0;
 
   inline static ::MethodInfo const* methodInfo() {
 

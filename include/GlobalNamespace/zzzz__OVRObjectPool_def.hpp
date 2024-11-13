@@ -112,7 +112,7 @@ public:
   __OVRObjectPool__Storage_1(__OVRObjectPool__Storage_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -151,7 +151,7 @@ public:
   ::System::Collections::Generic::List_1<T>* _list;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8432 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -193,7 +193,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8433 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -235,7 +235,7 @@ public:
   ::System::Collections::Generic::HashSet_1<T>* _set;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8434 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -277,7 +277,7 @@ public:
   ::System::Collections::Generic::Stack_1<T>* _stack;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8435 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -319,7 +319,7 @@ public:
   ::System::Collections::Generic::Queue_1<T>* _queue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8436 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -361,7 +361,7 @@ public:
   T _item;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8437 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -437,7 +437,7 @@ public:
   OVRObjectPool(OVRObjectPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8438 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

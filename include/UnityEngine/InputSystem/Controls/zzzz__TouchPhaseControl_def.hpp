@@ -25,13 +25,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::TouchPhaseControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x44ece9c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x45015b4, size 0x7c, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::TouchPhase ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x44ecf18, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x4501630, size 0x68, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::TouchPhase value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method .ctor, addr 0x44ece14, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x450152c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   TouchPhaseControl(TouchPhaseControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7022 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

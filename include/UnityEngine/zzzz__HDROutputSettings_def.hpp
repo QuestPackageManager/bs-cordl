@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_m_DisplayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x47ff6d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4813df0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::HDROutputSettings* getStaticF__mainDisplay();
@@ -67,7 +67,7 @@ public:
   int32_t ___m_DisplayIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10690 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

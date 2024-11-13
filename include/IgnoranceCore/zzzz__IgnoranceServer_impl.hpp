@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::get_IsAlive)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a3eef8;
+  constexpr static std::size_t addrs = 0x3a52850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "get_IsAlive",
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::Start)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x3a3ef0c;
+  constexpr static std::size_t addrs = 0x3a52864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "Start",
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::Stop)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3a3f4d8;
+  constexpr static std::size_t addrs = 0x3a52e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "Stop",
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)(::System::Object*)>(&::IgnoranceCore::IgnoranceServer::ThreadWorker)> {
   constexpr static std::size_t size = 0x11c0;
-  constexpr static std::size_t addrs = 0x3a3f574;
+  constexpr static std::size_t addrs = 0x3a52ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::SetupRingBuffersIfNull)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3a3f2a8;
+  constexpr static std::size_t addrs = 0x3a52c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3a40734;
+  constexpr static std::size_t addrs = 0x3a5408c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), ".ctor",

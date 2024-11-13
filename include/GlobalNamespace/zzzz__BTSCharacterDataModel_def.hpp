@@ -63,13 +63,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method .ctor, addr 0x222c1f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2234ca8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x222c1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x2234c98, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_prefabAssetReference, addr 0x222c1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabAssetReference, addr 0x2234ca0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
 
 protected:
@@ -93,7 +93,7 @@ public:
   ::UnityEngine::AddressableAssets::AssetReference* ____prefabAssetReference;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17620 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -138,13 +138,13 @@ public:
 
   constexpr void __cordl_internal_set__id(int32_t value);
 
-  /// @brief Method .ctor, addr 0x222c208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2234cc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClipAssetReference, addr 0x222c200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClipAssetReference, addr 0x2234cb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
 
-  /// @brief Method get_id, addr 0x222c1f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x2234cb0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
 protected:
@@ -168,7 +168,7 @@ public:
   ::UnityEngine::AddressableAssets::AssetReference* ____animationClipAssetReference;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17621 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -229,13 +229,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabsWithIds(::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> value);
 
-  /// @brief Method .ctor, addr 0x222c1d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2234c90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClipsWithIds, addr 0x222c1d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClipsWithIds, addr 0x2234c88, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> get_animationClipsWithIds();
 
-  /// @brief Method get_prefabsWithIds, addr 0x222c1c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabsWithIds, addr 0x2234c80, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> get_prefabsWithIds();
 
 protected:
@@ -259,7 +259,7 @@ public:
   ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> ____animationClipsWithIds;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17622 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

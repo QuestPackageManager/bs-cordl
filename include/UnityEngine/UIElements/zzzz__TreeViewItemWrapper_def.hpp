@@ -33,16 +33,16 @@ public:
 
   __declspec(property(get = get_id)) int32_t id;
 
-  /// @brief Method .ctor, addr 0x49932f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a7a0c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TreeItem item, int32_t depth);
 
-  /// @brief Method get_childrenIds, addr 0x49932e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childrenIds, addr 0x49a7a00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_childrenIds();
 
-  /// @brief Method get_hasChildren, addr 0x49932f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_hasChildren, addr 0x49a7a08, size 0x4, virtual false, abstract: false, final false
   inline bool get_hasChildren();
 
-  /// @brief Method get_id, addr 0x49932e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x49a79f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
   // Ctor Parameters []
@@ -59,7 +59,7 @@ public:
   int32_t depth;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5685 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

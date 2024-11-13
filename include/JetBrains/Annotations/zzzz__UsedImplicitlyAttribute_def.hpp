@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__UseKindFlags_k__BackingField(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
-  /// @brief Method .ctor, addr 0x47e9910, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fe028, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x47e9934, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fe04c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
 protected:
@@ -78,7 +78,7 @@ public:
   ::JetBrains::Annotations::ImplicitUseTargetFlags ____TargetFlags_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10602 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

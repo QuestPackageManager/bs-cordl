@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x44277b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443becc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW token);
 
-  /// @brief Method .ctor, addr 0x4427858, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443bf70, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, bool finished);
 
-  /// @brief Method get_Complete, addr 0x44278f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Complete, addr 0x443c00c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Complete();
 
-  /// @brief Method get_Message, addr 0x44278ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x443c004, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -91,7 +91,7 @@ public:
   ::StringW ___ModuleAuthenticationType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9549 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

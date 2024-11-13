@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_suggestedModifiers(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2699294, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a4eb4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady);
 
 protected:
@@ -88,7 +88,7 @@ public:
   bool ___isReady;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13052 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

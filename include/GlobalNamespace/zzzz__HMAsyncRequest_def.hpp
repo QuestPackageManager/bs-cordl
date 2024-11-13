@@ -40,18 +40,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE __HMAsyncRequest__CancelHander : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x395ab70, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x396e3f4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::HMAsyncRequest* request, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x395ab90, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x396e414, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x395ab5c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x396e3e0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::HMAsyncRequest* request);
 
   static inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x395aa5c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396e2e0, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -69,7 +69,7 @@ public:
   __HMAsyncRequest__CancelHander(__HMAsyncRequest__CancelHander const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -97,7 +97,7 @@ public:
 
   __declspec(property(get = get_cancelled)) bool cancelled;
 
-  /// @brief Method Cancel, addr 0x395a9cc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Cancel, addr 0x396e250, size 0x28, virtual true, abstract: false, final false
   inline void Cancel();
 
   static inline ::GlobalNamespace::HMAsyncRequest* New_ctor();
@@ -114,16 +114,16 @@ public:
 
   constexpr void __cordl_internal_set__cancelled(bool value);
 
-  /// @brief Method .ctor, addr 0x395a9f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396e278, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CancelHandler, addr 0x395a9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CancelHandler, addr 0x396e238, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* get_CancelHandler();
 
-  /// @brief Method get_cancelled, addr 0x395a9c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cancelled, addr 0x396e248, size 0x8, virtual false, abstract: false, final false
   inline bool get_cancelled();
 
-  /// @brief Method set_CancelHandler, addr 0x395a9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CancelHandler, addr 0x396e240, size 0x8, virtual false, abstract: false, final false
   inline void set_CancelHandler(::GlobalNamespace::__HMAsyncRequest__CancelHander* value);
 
 protected:
@@ -147,7 +147,7 @@ public:
   ::GlobalNamespace::__HMAsyncRequest__CancelHander* ____cancelHander;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

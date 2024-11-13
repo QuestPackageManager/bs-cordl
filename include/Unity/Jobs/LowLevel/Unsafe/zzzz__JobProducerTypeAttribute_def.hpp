@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__ProducerType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x47e7d7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fc494, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* producerType);
 
 protected:
@@ -54,7 +54,7 @@ public:
   ::System::Type* ____ProducerType_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10524 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

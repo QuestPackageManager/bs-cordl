@@ -52,7 +52,7 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelBuyInfoView* New_ctor();
 
-  /// @brief Method RefreshView, addr 0x3a955e0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RefreshView, addr 0x3aa90bc, size 0x98, virtual false, abstract: false, final false
   inline void RefreshView(::StringW infoText, bool canBuyPack);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__buyLevelButton() const;
@@ -85,16 +85,16 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3a95678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa9154, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_buyLevelButton, addr 0x3a955c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyLevelButton, addr 0x3aa90a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyLevelButton();
 
-  /// @brief Method get_buyPackButton, addr 0x3a955d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyPackButton, addr 0x3aa90b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyPackButton();
 
-  /// @brief Method get_openPackButton, addr 0x3a955d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_openPackButton, addr 0x3aa90ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_openPackButton();
 
 protected:
@@ -127,7 +127,7 @@ public:
   ::UnityW<::UnityEngine::GameObject> ____steamMessageGameObject;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4984 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -74,7 +74,7 @@ public:
   /// @brief Method AddToCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddToCollection(::System::Object* collection, ::System::Object* value);
 
-  /// @brief Method CreateCollection, addr 0x41a85e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateCollection, addr 0x41bccf8, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers);
 
   /// @brief Method CreateCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -122,16 +122,16 @@ public:
 
   constexpr void __cordl_internal_set__CustomToString_k__BackingField(::System::Func_2<::System::Object*, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x41a85b0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41bccc8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
-  /// @brief Method get_CustomToString, addr 0x41a85f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CustomToString, addr 0x41bcd08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::StringW>* get_CustomToString();
 
-  /// @brief Method get_Separator, addr 0x41a8600, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Separator, addr 0x41bcd18, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Separator();
 
-  /// @brief Method set_CustomToString, addr 0x41a85f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CustomToString, addr 0x41bcd10, size 0x8, virtual false, abstract: false, final false
   inline void set_CustomToString(::System::Func_2<::System::Object*, ::StringW>* value);
 
 protected:
@@ -161,7 +161,7 @@ public:
   ::System::Func_2<::System::Object*, ::StringW>* ____CustomToString_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16668 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

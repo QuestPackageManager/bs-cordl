@@ -28,16 +28,16 @@ public:
 
   __declspec(property(get = get_Page)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> Page;
 
-  /// @brief Method GetHashCode, addr 0x4293f4c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x42a8664, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x4293f30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42a8648, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> page, int32_t idx);
 
-  /// @brief Method get_Index, addr 0x4293f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x42a865c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method get_Page, addr 0x4293f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Page, addr 0x42a8654, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_Page();
 
   // Ctor Parameters []
@@ -55,7 +55,7 @@ public:
   int32_t _idx;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7761 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

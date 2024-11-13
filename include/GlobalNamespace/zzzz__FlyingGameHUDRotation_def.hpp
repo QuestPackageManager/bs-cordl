@@ -42,15 +42,15 @@ public:
   /// @brief Field _yAngle, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__yAngle, put = __cordl_internal_set__yAngle)) float_t _yAngle;
 
-  /// @brief Method FixedUpdate, addr 0x3b21bec, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3b370b8, size 0x178, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x3b21d64, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b37230, size 0x88, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::FlyingGameHUDRotation* New_ctor();
 
-  /// @brief Method Start, addr 0x3b21b10, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b36fdc, size 0xdc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BeatLineManager> const& __cordl_internal_get__beatLineManager() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__yAngle(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b21dec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b372b8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   float_t ____yAngle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4347 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

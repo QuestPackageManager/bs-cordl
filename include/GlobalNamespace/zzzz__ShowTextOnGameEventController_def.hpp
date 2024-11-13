@@ -44,13 +44,13 @@ public:
   /// @brief Field _textFadeTransitions, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__textFadeTransitions, put = __cordl_internal_set__textFadeTransitions)) ::UnityW<::GlobalNamespace::TextFadeTransitions> _textFadeTransitions;
 
-  /// @brief Method Deinit, addr 0x3b6cab4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Deinit, addr 0x3b825a8, size 0x90, virtual false, abstract: false, final false
   inline void Deinit();
 
-  /// @brief Method HandleGameEvent, addr 0x3b6cb4c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEvent, addr 0x3b82640, size 0x2c, virtual false, abstract: false, final false
   inline void HandleGameEvent();
 
-  /// @brief Method Init, addr 0x3b6c9c0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b824b4, size 0x98, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::TextFadeTransitions* textFadeTransitions);
 
   static inline ::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding* New_ctor();
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__textFadeTransitions(::UnityW<::GlobalNamespace::TextFadeTransitions> value);
 
-  /// @brief Method .ctor, addr 0x3b6cb78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8266c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,7 +100,7 @@ public:
   ::UnityW<::GlobalNamespace::TextFadeTransitions> ____textFadeTransitions;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4619 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4622 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -133,12 +133,12 @@ public:
   /// @brief Field _textFadeTransitions, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__textFadeTransitions, put = __cordl_internal_set__textFadeTransitions)) ::UnityW<::GlobalNamespace::TextFadeTransitions> _textFadeTransitions;
 
-  /// @brief Method Awake, addr 0x3b6c95c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b82450, size 0x64, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ShowTextOnGameEventController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b6ca58, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b8254c, size 0x5c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::ArrayW<::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding*, ::Array<::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding*>*> const&
@@ -156,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set__textFadeTransitions(::UnityW<::GlobalNamespace::TextFadeTransitions> value);
 
-  /// @brief Method .ctor, addr 0x3b6cb44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b82638, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -180,7 +180,7 @@ public:
   ::ArrayW<::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding*, ::Array<::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding*>*> ____eventTextBindings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4623 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

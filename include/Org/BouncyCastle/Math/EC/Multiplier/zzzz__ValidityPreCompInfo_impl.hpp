@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::HasFailed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24790a0;
+  constexpr static std::size_t addrs = 0x2484148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::ReportFailed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24790a8;
+  constexpr static std::size_t addrs = 0x2484150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::HasCurveEquationPassed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24790b4;
+  constexpr static std::size_t addrs = 0x248415c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::ReportCurveEquationPassed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24790bc;
+  constexpr static std::size_t addrs = 0x2484164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::HasOrderPassed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24790c8;
+  constexpr static std::size_t addrs = 0x2484170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::ReportOrderPassed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24790d0;
+  constexpr static std::size_t addrs = 0x2484178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x247913c;
+  constexpr static std::size_t addrs = 0x24841e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

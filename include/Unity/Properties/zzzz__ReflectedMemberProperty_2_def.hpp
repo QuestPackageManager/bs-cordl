@@ -85,7 +85,7 @@ public:
   __ReflectedMemberProperty_2__GetStructValueAction(__ReflectedMemberProperty_2__GetStructValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17402 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -124,7 +124,7 @@ public:
   __ReflectedMemberProperty_2__SetStructValueAction(__ReflectedMemberProperty_2__SetStructValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17403 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -163,7 +163,7 @@ public:
   __ReflectedMemberProperty_2__GetClassValueAction(__ReflectedMemberProperty_2__GetClassValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17404 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -202,7 +202,7 @@ public:
   __ReflectedMemberProperty_2__SetClassValueAction(__ReflectedMemberProperty_2__SetClassValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17405 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -351,7 +351,7 @@ public:
   bool ____IsReadOnly_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17406 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

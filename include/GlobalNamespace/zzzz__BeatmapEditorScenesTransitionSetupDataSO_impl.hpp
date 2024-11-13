@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*)>(&::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ac653c;
+  constexpr static std::size_t addrs = 0x3ada12c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>*)>(&::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ac65ec;
+  constexpr static std::size_t addrs = 0x3ada1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::get_goStraightToEditor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac669c;
+  constexpr static std::size_t addrs = 0x3ada28c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::*)(bool)>(
     &::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::set_goStraightToEditor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ac66a4;
+  constexpr static std::size_t addrs = 0x3ada294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::*)(bool)>(
     &::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3ac66b0;
+  constexpr static std::size_t addrs = 0x3ada2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::Finish)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ac6728;
+  constexpr static std::size_t addrs = 0x3ada318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac6748;
+  constexpr static std::size_t addrs = 0x3ada338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

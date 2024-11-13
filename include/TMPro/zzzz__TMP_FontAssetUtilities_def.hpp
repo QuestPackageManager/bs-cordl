@@ -54,28 +54,28 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::TMPro::TMP_FontAssetUtilities* s_Instance;
 
-  /// @brief Method GetCharacterFromFontAsset, addr 0x475e510, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterFromFontAsset, addr 0x4772c28, size 0x154, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Character* GetCharacterFromFontAsset(uint32_t unicode, ::TMPro::TMP_FontAsset* sourceFontAsset, bool includeFallbacks, ::TMPro::FontStyles fontStyle,
                                                                   ::TMPro::FontWeight fontWeight, ByRef<bool> isAlternativeTypeface);
 
-  /// @brief Method GetCharacterFromFontAsset_Internal, addr 0x475e664, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterFromFontAsset_Internal, addr 0x4772d7c, size 0x3c4, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Character* GetCharacterFromFontAsset_Internal(uint32_t unicode, ::TMPro::TMP_FontAsset* sourceFontAsset, bool includeFallbacks, ::TMPro::FontStyles fontStyle,
                                                                            ::TMPro::FontWeight fontWeight, ByRef<bool> isAlternativeTypeface);
 
-  /// @brief Method GetCharacterFromFontAssets, addr 0x475ea28, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterFromFontAssets, addr 0x4773140, size 0x25c, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Character* GetCharacterFromFontAssets(uint32_t unicode, ::TMPro::TMP_FontAsset* sourceFontAsset,
                                                                    ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fontAssets, bool includeFallbacks,
                                                                    ::TMPro::FontStyles fontStyle, ::TMPro::FontWeight fontWeight, ByRef<bool> isAlternativeTypeface);
 
-  /// @brief Method GetSpriteCharacterFromSpriteAsset, addr 0x475ec84, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method GetSpriteCharacterFromSpriteAsset, addr 0x477339c, size 0x308, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_SpriteCharacter* GetSpriteCharacterFromSpriteAsset(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, bool includeFallbacks);
 
-  /// @brief Method GetSpriteCharacterFromSpriteAsset_Internal, addr 0x475ef8c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetSpriteCharacterFromSpriteAsset_Internal, addr 0x47736a4, size 0x1dc, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_SpriteCharacter* GetSpriteCharacterFromSpriteAsset_Internal(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, bool includeFallbacks);
 
   static inline ::TMPro::TMP_FontAssetUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x475e4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4772bc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF_k_IsFontEngineInitialized();
@@ -84,7 +84,7 @@ public:
 
   static inline ::TMPro::TMP_FontAssetUtilities* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x475e4b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x4772bd0, size 0x58, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_FontAssetUtilities* get_instance();
 
   static inline void setStaticF_k_IsFontEngineInitialized(bool value);
@@ -108,7 +108,7 @@ public:
   TMP_FontAssetUtilities(TMP_FontAssetUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14453 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

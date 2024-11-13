@@ -50,17 +50,17 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlaybackHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateAndBindAutoPlayback, addr 0x3ab3af0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method CreateAndBindAutoPlayback, addr 0x3ac7690, size 0x190, virtual false, abstract: false, final false
   static inline void CreateAndBindAutoPlayback(::Zenject::DiContainer* container, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method CreateAutoLevelRecording, addr 0x3ab3c80, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method CreateAutoLevelRecording, addr 0x3ac7820, size 0x1b4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelRecording* CreateAutoLevelRecording(::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetup,
                                                                             ::GlobalNamespace::BeatmapObjectSpawnController* beatmapSpawnerController);
 
-  /// @brief Method CreatePlaybackRecord, addr 0x3ab3e34, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreatePlaybackRecord, addr 0x3ac79d4, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::PlaybackRecord> CreatePlaybackRecord(::Zenject::DiContainer* container, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method CreatePoseOffsets, addr 0x3ab3ea8, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method CreatePoseOffsets, addr 0x3ac7a48, size 0x4ec, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PoseOffsets CreatePoseOffsets(ByRef<::BeatSaber::Settings::ControllerSettings> controller, ByRef<::BeatSaber::Settings::RoomSettings> room,
                                                                     ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
@@ -79,7 +79,7 @@ public:
   PlaybackHelpers(PlaybackHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5113 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

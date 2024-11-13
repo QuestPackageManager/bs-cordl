@@ -28,16 +28,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::XSalsa20Engine* New_ctor();
 
-  /// @brief Method SetKey, addr 0x233ece8, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x2349d90, size 0x25c, virtual true, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
-  /// @brief Method .ctor, addr 0x233ef44, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2349fec, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x233eca0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2349d48, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_NonceSize, addr 0x233ece0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NonceSize, addr 0x2349d88, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NonceSize();
 
 protected:

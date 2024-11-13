@@ -74,21 +74,21 @@ public:
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method LazyInitializeMaterials, addr 0x400b4e8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeMaterials, addr 0x401fc00, size 0xbc, virtual false, abstract: false, final false
   inline void LazyInitializeMaterials();
 
   static inline ::GlobalNamespace::KawaseBloomMainEffectSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x400b5a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x401fcbc, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x400b4cc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x401fbe4, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PreRender, addr 0x400b5c4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x401fcdc, size 0x64, virtual true, abstract: false, final false
   inline void PreRender();
 
-  /// @brief Method Render, addr 0x400b6b0, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x401fdc8, size 0x210, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
 
   constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
@@ -151,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set__mainEffectShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x400b8c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401ffd8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__bloomIntensityID();
@@ -160,7 +160,7 @@ public:
 
   static inline int32_t getStaticF__fadeID();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x400b4c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x401fbdc, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
   static inline void setStaticF__bloomIntensityID(int32_t value);
@@ -214,7 +214,7 @@ public:
   ::UnityW<::UnityEngine::Material> ____mainEffectMaterial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17812 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

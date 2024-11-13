@@ -28,10 +28,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKOutputFrame {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3a5e044, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3a7199c, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3a58b0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3a6c464, size 0x60, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKOutputFrame get_empty();
 
   // Ctor Parameters []
@@ -49,7 +49,7 @@ public:
   ::LIV::SDK::Unity::SDKTrackedSpace trackedSpace;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17273 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17280 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xac };

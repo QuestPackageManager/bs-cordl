@@ -49,16 +49,16 @@ public:
   /// @brief Field _type, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Type* _type;
 
-  /// @brief Method FillAttributes, addr 0x43e2ce4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method FillAttributes, addr 0x43f73fc, size 0x68, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributes);
 
-  /// @brief Method FillEventInfoAttribute, addr 0x43e318c, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method FillEventInfoAttribute, addr 0x43f78a4, size 0x32c, virtual false, abstract: false, final false
   inline void FillEventInfoAttribute(::System::Reflection::EventInfo* realEventInfo, ::System::Collections::IList* attributes);
 
-  /// @brief Method FillMethods, addr 0x43e2d4c, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method FillMethods, addr 0x43f7464, size 0x440, virtual false, abstract: false, final false
   inline void FillMethods();
 
-  /// @brief Method FillSingleMethodAttribute, addr 0x43e34b8, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method FillSingleMethodAttribute, addr 0x43f7bd0, size 0x36c, virtual false, abstract: false, final false
   inline void FillSingleMethodAttribute(::System::Reflection::MethodInfo* realMethodInfo, ::System::Collections::IList* attributes);
 
   static inline ::System::ComponentModel::ReflectEventDescriptor* New_ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo);
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x43e2b70, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43f7288, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo);
 
 protected:
@@ -135,7 +135,7 @@ public:
   bool ____filledMethods;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9385 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

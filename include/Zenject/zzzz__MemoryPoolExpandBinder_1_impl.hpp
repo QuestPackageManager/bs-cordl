@@ -18,7 +18,7 @@ constexpr ::cordl_internals::to_const_pointer<::Zenject::MemoryPoolBindInfo*> co
 }
 template <typename TContract> constexpr void Zenject::MemoryPoolExpandBinder_1<TContract>::__cordl_internal_set__MemoryPoolBindInfo_k__BackingField(::Zenject::MemoryPoolBindInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MemoryPoolBindInfo_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____MemoryPoolBindInfo_k__BackingField, value);
 }
 template <typename TContract>
 inline ::Zenject::MemoryPoolExpandBinder_1<TContract>* Zenject::MemoryPoolExpandBinder_1<TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,

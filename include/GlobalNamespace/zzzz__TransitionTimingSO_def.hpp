@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method .ctor, addr 0x4462854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4476f6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_easeDuration, addr 0x446284c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeDuration, addr 0x4476f64, size 0x8, virtual false, abstract: false, final false
   inline float_t get_easeDuration();
 
-  /// @brief Method get_easeType, addr 0x4462844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x4476f5c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
 protected:
@@ -78,7 +78,7 @@ public:
   float_t ____easeDuration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__tcx(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* value);
 
-  /// @brief Method .ctor, addr 0x4686950, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x469b068, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* ____tcx;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17743 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17750 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

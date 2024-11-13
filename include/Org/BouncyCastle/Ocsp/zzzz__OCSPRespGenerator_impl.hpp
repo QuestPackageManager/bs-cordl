@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Ocsp::OcspResp* (::Org::BouncyCastle::Ocsp::OCSPRespGenerator::*)(int32_t, ::System::Object*)>(
     &::Org::BouncyCastle::Ocsp::OCSPRespGenerator::Generate)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x24e1968;
+  constexpr static std::size_t addrs = 0x24eca10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::OCSPRespGenerator::*)()>(&::Org::BouncyCastle::Ocsp::OCSPRespGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e1c4c;
+  constexpr static std::size_t addrs = 0x24eccf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OCSPRespGenerator*>::get(), ".ctor",

@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__pageNum(int32_t value);
 
-  /// @brief Method get_NextPage, addr 0x4293fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextPage, addr 0x42a86bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_NextPage();
 
-  /// @brief Method get_NodeCount, addr 0x4293f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NodeCount, addr 0x42a86b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NodeCount();
 
-  /// @brief Method get_PageNumber, addr 0x4293f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageNumber, addr 0x42a86ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PageNumber();
 
 protected:
@@ -91,7 +91,7 @@ public:
   ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> ____pageNext;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7763 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

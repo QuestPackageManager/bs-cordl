@@ -52,10 +52,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CreateString, addr 0x3caff14, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x3cc45a4, size 0x13c, virtual false, abstract: false, final false
   inline ::StringW CreateString(bool isMessage);
 
-  /// @brief Method GetObjectData, addr 0x3cafddc, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3cc446c, size 0x128, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Reflection::ReflectionTypeLoadException* New_ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> classes,
@@ -63,7 +63,7 @@ public:
 
   static inline ::System::Reflection::ReflectionTypeLoadException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x3cb0050, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3cc46e0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> const& __cordl_internal_get__LoaderExceptions_k__BackingField() const;
@@ -78,16 +78,16 @@ public:
 
   constexpr void __cordl_internal_set__Types_k__BackingField(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x3cafc68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc42f8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> classes, ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> exceptions);
 
-  /// @brief Method .ctor, addr 0x3cafca4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc4334, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_LoaderExceptions, addr 0x3caff04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoaderExceptions, addr 0x3cc4594, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> get_LoaderExceptions();
 
-  /// @brief Method get_Message, addr 0x3caff0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3cc459c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

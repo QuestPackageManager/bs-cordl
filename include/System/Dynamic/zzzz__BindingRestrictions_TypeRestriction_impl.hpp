@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__BindingRestrictions__TypeRestriction::*)(
     ::System::Linq::Expressions::Expression*, ::System::Type*)>(&::System::Dynamic::__BindingRestrictions__TypeRestriction::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x408442c;
+  constexpr static std::size_t addrs = 0x4098b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::__BindingRestrictions__TypeRestriction::*)(::System::Object*)>(
     &::System::Dynamic::__BindingRestrictions__TypeRestriction::Equals)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4084d80;
+  constexpr static std::size_t addrs = 0x4099498;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::__BindingRestrictions__TypeRestriction::*)()>(
     &::System::Dynamic::__BindingRestrictions__TypeRestriction::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4084e44;
+  constexpr static std::size_t addrs = 0x409955c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::__BindingRestrictions__TypeRestriction::*)()>(
     &::System::Dynamic::__BindingRestrictions__TypeRestriction::GetExpression)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4084e98;
+  constexpr static std::size_t addrs = 0x40995b0;
 
   inline static ::MethodInfo const* methodInfo() {
 

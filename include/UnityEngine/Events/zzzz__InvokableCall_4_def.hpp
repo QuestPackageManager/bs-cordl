@@ -69,7 +69,7 @@ public:
   ::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* ___Delegate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

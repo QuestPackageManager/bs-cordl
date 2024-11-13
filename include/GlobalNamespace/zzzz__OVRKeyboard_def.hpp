@@ -89,7 +89,7 @@ public:
   double_t timeInSeconds;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8311 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -148,7 +148,7 @@ public:
   ::GlobalNamespace::__OVRPlugin__TrackedKeyboardPresentationStyles SupportedPresentationStyles;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8312 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -181,13 +181,13 @@ public:
 
   using TrackedKeyboardState = ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState;
 
-  /// @brief Method GetKeyboardState, addr 0x3fa548c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetKeyboardState, addr 0x3fb9b1c, size 0x148, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState GetKeyboardState();
 
-  /// @brief Method GetSystemKeyboardInfo, addr 0x3fa55d4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetSystemKeyboardInfo, addr 0x3fb9c64, size 0xe8, virtual false, abstract: false, final false
   static inline bool GetSystemKeyboardInfo(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags keyboardQueryFlags, ByRef<::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo> keyboardInfo);
 
-  /// @brief Method StopKeyboardTracking, addr 0x3fa56bc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method StopKeyboardTracking, addr 0x3fb9d4c, size 0x50, virtual false, abstract: false, final false
   static inline bool StopKeyboardTracking(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo keyboardInfo);
 
 protected:
@@ -205,7 +205,7 @@ public:
   OVRKeyboard(OVRKeyboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8313 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

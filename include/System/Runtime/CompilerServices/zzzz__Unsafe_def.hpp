@@ -60,7 +60,7 @@ public:
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ByRef<T> AsRef(ByRef<T> source);
 
-  /// @brief Method InitBlockUnaligned, addr 0x3ca5288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlockUnaligned, addr 0x3cb9918, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlockUnaligned(ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
   /// @brief Method IsAddressLessThan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

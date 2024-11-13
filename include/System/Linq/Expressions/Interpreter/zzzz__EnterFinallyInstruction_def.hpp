@@ -37,26 +37,26 @@ public:
       put = setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>*>
       s_cache;
 
-  /// @brief Method Create, addr 0x404dcbc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40623d4, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::EnterFinallyInstruction* Create(int32_t labelIndex);
 
   static inline ::System::Linq::Expressions::Interpreter::EnterFinallyInstruction* New_ctor(int32_t labelIndex);
 
-  /// @brief Method Run, addr 0x404ddb0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40624c8, size 0x6c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x404dc44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406235c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex);
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>*> getStaticF_s_cache();
 
-  /// @brief Method get_ConsumedContinuations, addr 0x404dcb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedContinuations, addr 0x40623cc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedContinuations();
 
-  /// @brief Method get_InstructionName, addr 0x404dc6c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x4062384, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x404dcac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40623c4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void
@@ -77,7 +77,7 @@ public:
   EnterFinallyInstruction(EnterFinallyInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13751 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

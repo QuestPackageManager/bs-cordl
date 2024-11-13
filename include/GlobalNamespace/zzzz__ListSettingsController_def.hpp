@@ -31,24 +31,24 @@ public:
   /// @brief Method ApplyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method DecButtonPressed, addr 0x3bb2240, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x3bc68d0, size 0x38, virtual true, abstract: false, final false
   inline void DecButtonPressed();
 
   /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method IncButtonPressed, addr 0x3bb2200, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x3bc6890, size 0x40, virtual true, abstract: false, final false
   inline void IncButtonPressed();
 
   static inline ::GlobalNamespace::ListSettingsController* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3bb211c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3bc67ac, size 0x34, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x3bb21a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3bc6834, size 0x5c, virtual false, abstract: false, final false
   inline void Refresh(bool applyValue);
 
-  /// @brief Method RefreshUI, addr 0x3bb2150, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x3bc67e0, size 0x54, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   /// @brief Method TextForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__numberOfElements(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3bb2278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc6908, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   int32_t ____numberOfElements;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

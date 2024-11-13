@@ -75,7 +75,7 @@ public:
   static ::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const OK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13140 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -135,7 +135,7 @@ public:
   static ::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult const Unauthorized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13141 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -178,7 +178,7 @@ public:
   ISonyPSPremiumHelper(ISonyPSPremiumHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13142 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

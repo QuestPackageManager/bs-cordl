@@ -49,18 +49,18 @@ public:
 
   __declspec(property(get = get__rootMissionNode)) ::UnityW<::GlobalNamespace::MissionNode> _rootMissionNode;
 
-  /// @brief Method CreateConnectionBetweenNodes, addr 0x3b8e22c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CreateConnectionBetweenNodes, addr 0x3ba3df4, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNodeConnection> CreateConnectionBetweenNodes(::GlobalNamespace::MissionNode* parentMissionNode, ::GlobalNamespace::MissionNode* childMissionNode);
 
-  /// @brief Method CreateConnections, addr 0x3b8e03c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method CreateConnections, addr 0x3ba3c04, size 0x1f0, virtual false, abstract: false, final false
   inline void CreateConnections(::GlobalNamespace::MissionNode* missionNode, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>* visitedNodes);
 
-  /// @brief Method CreateNodeConnections, addr 0x3b8daf0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateNodeConnections, addr 0x3ba36b8, size 0x94, virtual false, abstract: false, final false
   inline void CreateNodeConnections();
 
   static inline ::GlobalNamespace::MissionConnectionsGenerator* New_ctor();
 
-  /// @brief Method RemoveOldConnections, addr 0x3b8db84, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method RemoveOldConnections, addr 0x3ba374c, size 0x4b8, virtual false, abstract: false, final false
   inline void RemoveOldConnections();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__connectionsCanvas() const;
@@ -87,10 +87,10 @@ public:
 
   constexpr void __cordl_internal_set__nodeConnectionPref(::UnityW<::GlobalNamespace::MissionNodeConnection> value);
 
-  /// @brief Method .ctor, addr 0x3b8e320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba3ee8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get__rootMissionNode, addr 0x3b8dad4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get__rootMissionNode, addr 0x3ba369c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get__rootMissionNode();
 
 protected:
@@ -120,7 +120,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>* ____missionNodes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4793 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

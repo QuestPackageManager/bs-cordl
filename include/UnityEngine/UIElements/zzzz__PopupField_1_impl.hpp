@@ -15,7 +15,7 @@ template <typename T> constexpr T const& UnityEngine::UIElements::__PopupField_1
 }
 template <typename T> constexpr void UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::__cordl_internal_set_item(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___item)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___item, value);
 }
 template <typename T> constexpr ::UnityEngine::UIElements::PopupField_1<T>*& UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -29,7 +29,7 @@ UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::__cordl_inter
 }
 template <typename T> constexpr void UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::__cordl_internal_set___4__this(::UnityEngine::UIElements::PopupField_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T> inline ::UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>* UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>*>());

@@ -52,7 +52,7 @@ System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>::__cordl
 template <typename TResult>
 constexpr void System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>::__cordl_internal_set__source(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____source, value);
 }
 template <typename TResult> constexpr int16_t& System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>::__cordl_internal_get__token() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

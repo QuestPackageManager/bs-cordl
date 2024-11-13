@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_StartIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40607e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4074f00, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex, int32_t start, int32_t end);
 
 protected:
@@ -76,7 +76,7 @@ public:
   int32_t ___EndIndex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13901 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

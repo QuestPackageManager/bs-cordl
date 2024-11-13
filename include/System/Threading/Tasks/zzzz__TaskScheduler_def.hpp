@@ -105,22 +105,22 @@ public:
 
   static inline ::System::Threading::Tasks::TaskScheduler* New_ctor();
 
-  /// @brief Method NotifyWorkItemProgress, addr 0x3df5bb0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NotifyWorkItemProgress, addr 0x3e0a240, size 0x4, virtual true, abstract: false, final false
   inline void NotifyWorkItemProgress();
 
-  /// @brief Method PublishUnobservedTaskException, addr 0x3df4d80, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method PublishUnobservedTaskException, addr 0x3e09410, size 0x134, virtual false, abstract: false, final false
   static inline void PublishUnobservedTaskException(::System::Object* sender, ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs* ueea);
 
   /// @brief Method QueueTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void QueueTask(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method TryDequeue, addr 0x3df5ba8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method TryDequeue, addr 0x3e0a238, size 0x8, virtual true, abstract: false, final false
   inline bool TryDequeue(::System::Threading::Tasks::Task* task);
 
   /// @brief Method TryExecuteTaskInline, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryExecuteTaskInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
-  /// @brief Method TryRunInline, addr 0x3def728, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method TryRunInline, addr 0x3e03db8, size 0x1f4, virtual false, abstract: false, final false
   inline bool TryRunInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
   constexpr int32_t const& __cordl_internal_get_m_taskSchedulerId() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set_m_taskSchedulerId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3df5bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0a24c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>* getStaticF__unobservedTaskException();
@@ -142,19 +142,19 @@ public:
 
   static inline int32_t getStaticF_s_taskSchedulerIdCounter();
 
-  /// @brief Method get_Current, addr 0x3df0090, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3e04720, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::TaskScheduler* get_Current();
 
-  /// @brief Method get_Default, addr 0x3df5bc4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x3e0a254, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::TaskScheduler* get_Default();
 
-  /// @brief Method get_Id, addr 0x3def91c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x3e03fac, size 0x94, virtual false, abstract: false, final false
   inline int32_t get_Id();
 
-  /// @brief Method get_InternalCurrent, addr 0x3deed68, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_InternalCurrent, addr 0x3e033f8, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::TaskScheduler* get_InternalCurrent();
 
-  /// @brief Method get_RequiresAtomicStartTransition, addr 0x3df5bb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequiresAtomicStartTransition, addr 0x3e0a244, size 0x8, virtual true, abstract: false, final false
   inline bool get_RequiresAtomicStartTransition();
 
   static inline void setStaticF__unobservedTaskException(::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>* value);

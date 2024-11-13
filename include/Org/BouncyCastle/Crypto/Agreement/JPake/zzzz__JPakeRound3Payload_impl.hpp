@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::*)(
     ::StringW, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2648c6c;
+  constexpr static std::size_t addrs = 0x2653d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::get_ParticipantId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26497b4;
+  constexpr static std::size_t addrs = 0x265485c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::get_MacTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26497bc;
+  constexpr static std::size_t addrs = 0x2654864;
 
   inline static ::MethodInfo const* methodInfo() {
 

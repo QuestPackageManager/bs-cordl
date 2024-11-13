@@ -44,7 +44,7 @@ constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Ze
 }
 template <typename TContract> constexpr void Zenject::PoolableMemoryPoolProviderBase_1<TContract>::__cordl_internal_set__Container_k__BackingField(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Container_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____Container_k__BackingField, value);
 }
 template <typename TContract>
 inline ::Zenject::PoolableMemoryPoolProviderBase_1<TContract>* Zenject::PoolableMemoryPoolProviderBase_1<TContract>::New_ctor(::Zenject::DiContainer* container, ::System::Guid poolId) {

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__UxmlLongAttributeDescription____c::*)()>(
     &::UnityEngine::UIElements::__UxmlLongAttributeDescription____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a28280;
+  constexpr static std::size_t addrs = 0x4a3c998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::__UxmlLongAttributeDescription____c::*)(::StringW, int64_t)>(
     &::UnityEngine::UIElements::__UxmlLongAttributeDescription____c::_GetValueFromBag_b__3_0)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a28288;
+  constexpr static std::size_t addrs = 0x4a3c9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlLongAttributeDescription::*)()>(
     &::UnityEngine::UIElements::UxmlLongAttributeDescription::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4a28004;
+  constexpr static std::size_t addrs = 0x4a3c71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlLongAttributeDescription*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::UxmlLongAttributeDescription::*)(
     ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::UxmlLongAttributeDescription::GetValueFromBag)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4a2809c;
+  constexpr static std::size_t addrs = 0x4a3c7b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW, int64_t)>(&::UnityEngine::UIElements::UxmlLongAttributeDescription::ConvertValueToLong)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a281e8;
+  constexpr static std::size_t addrs = 0x4a3c900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

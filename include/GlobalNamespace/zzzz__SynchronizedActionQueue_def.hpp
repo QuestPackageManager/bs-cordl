@@ -34,7 +34,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __SynchronizedActionQueue__SynchronizedAction {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x22a91f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b42a0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::System::Action* action);
 
   // Ctor Parameters []
@@ -51,7 +51,7 @@ public:
   ::System::Action* action;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14940 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -81,15 +81,15 @@ public:
       get = __cordl_internal_get__synchronizedActionQueue,
       put = __cordl_internal_set__synchronizedActionQueue)) ::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* _synchronizedActionQueue;
 
-  /// @brief Method Clear, addr 0x22a90d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x22b4178, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method EnqueueAction, addr 0x22a9140, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method EnqueueAction, addr 0x22b41e8, size 0xb8, virtual false, abstract: false, final false
   inline void EnqueueAction(float_t time, ::System::Action* action);
 
   static inline ::GlobalNamespace::SynchronizedActionQueue* New_ctor();
 
-  /// @brief Method Update, addr 0x22a9204, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22b42ac, size 0x114, virtual false, abstract: false, final false
   inline void Update(float_t time);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>*& __cordl_internal_get__synchronizedActionQueue();
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__synchronizedActionQueue(::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* value);
 
-  /// @brief Method .ctor, addr 0x22a9318, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b43c0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -120,7 +120,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* ____synchronizedActionQueue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14941 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

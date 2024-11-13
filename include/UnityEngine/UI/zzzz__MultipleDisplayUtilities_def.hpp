@@ -29,13 +29,13 @@ namespace UnityEngine::UI {
 class CORDL_TYPE MultipleDisplayUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRelativeMousePositionForDrag, addr 0x4a455f4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeMousePositionForDrag, addr 0x4a59d0c, size 0x6c, virtual false, abstract: false, final false
   static inline bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ByRef<::UnityEngine::Vector2> position);
 
-  /// @brief Method GetRelativeMousePositionForRaycast, addr 0x4a45acc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeMousePositionForRaycast, addr 0x4a5a1e4, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetRelativeMousePositionForRaycast(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method RelativeMouseAtScaled, addr 0x4a45660, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method RelativeMouseAtScaled, addr 0x4a59d78, size 0x46c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RelativeMouseAtScaled(::UnityEngine::Vector2 position);
 
 protected:
@@ -53,7 +53,7 @@ public:
   MultipleDisplayUtilities(MultipleDisplayUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15079 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -137,40 +137,40 @@ public:
 
   constexpr void __cordl_internal_set__encryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
-  /// @brief Method .ctor, addr 0x438ec3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a3354, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ClientCertificates, addr 0x438eae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x43a31fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method get_EnabledSslProtocols, addr 0x438ec2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnabledSslProtocols, addr 0x43a3344, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
-  /// @brief Method get_LocalCertificateSelectionCallback, addr 0x438eabc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalCertificateSelectionCallback, addr 0x43a31d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::LocalCertificateSelectionCallback* get_LocalCertificateSelectionCallback();
 
-  /// @brief Method get_RemoteCertificateValidationCallback, addr 0x438eacc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RemoteCertificateValidationCallback, addr 0x43a31e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::RemoteCertificateValidationCallback* get_RemoteCertificateValidationCallback();
 
-  /// @brief Method get_TargetHost, addr 0x438ead4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetHost, addr 0x43a31ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetHost();
 
-  /// @brief Method set_CertificateRevocationCheckMode, addr 0x438eaf4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateRevocationCheckMode, addr 0x43a320c, size 0x9c, virtual false, abstract: false, final false
   inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method set_ClientCertificates, addr 0x438eaec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ClientCertificates, addr 0x43a3204, size 0x8, virtual false, abstract: false, final false
   inline void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method set_EnabledSslProtocols, addr 0x438ec34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EnabledSslProtocols, addr 0x43a334c, size 0x8, virtual false, abstract: false, final false
   inline void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value);
 
-  /// @brief Method set_EncryptionPolicy, addr 0x438eb90, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_EncryptionPolicy, addr 0x43a32a8, size 0x9c, virtual false, abstract: false, final false
   inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
-  /// @brief Method set_LocalCertificateSelectionCallback, addr 0x438eac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalCertificateSelectionCallback, addr 0x43a31dc, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalCertificateSelectionCallback(::System::Net::Security::LocalCertificateSelectionCallback* value);
 
-  /// @brief Method set_TargetHost, addr 0x438eadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TargetHost, addr 0x43a31f4, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetHost(::StringW value);
 
 protected:
@@ -212,7 +212,7 @@ public:
   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ____ClientCertificates_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

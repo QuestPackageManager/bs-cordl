@@ -63,25 +63,25 @@ public:
 
   constexpr void __cordl_internal_set__packID_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x229c994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a7a3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levels, addr 0x229c974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levels, addr 0x22a7a1c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LevelInfo*, ::Array<::GlobalNamespace::LevelInfo*>*> get_levels();
 
-  /// @brief Method get_minimumProtocolVersion, addr 0x229c984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minimumProtocolVersion, addr 0x22a7a2c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_minimumProtocolVersion();
 
-  /// @brief Method get_packID, addr 0x229c964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packID, addr 0x22a7a0c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_packID();
 
-  /// @brief Method set_levels, addr 0x229c97c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levels, addr 0x22a7a24, size 0x8, virtual false, abstract: false, final false
   inline void set_levels(::ArrayW<::GlobalNamespace::LevelInfo*, ::Array<::GlobalNamespace::LevelInfo*>*> value);
 
-  /// @brief Method set_minimumProtocolVersion, addr 0x229c98c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minimumProtocolVersion, addr 0x22a7a34, size 0x8, virtual false, abstract: false, final false
   inline void set_minimumProtocolVersion(uint32_t value);
 
-  /// @brief Method set_packID, addr 0x229c96c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_packID, addr 0x22a7a14, size 0x8, virtual false, abstract: false, final false
   inline void set_packID(::StringW value);
 
 protected:
@@ -108,7 +108,7 @@ public:
   uint32_t ____minimumProtocolVersion_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14855 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,12 +29,12 @@ namespace System::Data {
 class CORDL_TYPE DataTableNewRowEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x40f2e78, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4107590, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Data::DataTableNewRowEventArgs* e);
 
   static inline ::System::Data::DataTableNewRowEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x40f2d74, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410748c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -52,7 +52,7 @@ public:
   DataTableNewRowEventHandler(DataTableNewRowEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

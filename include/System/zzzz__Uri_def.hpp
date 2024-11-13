@@ -343,7 +343,7 @@ public:
   static ::System::__Uri__Flags const Zero;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9160 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -400,7 +400,7 @@ public:
   uint16_t End;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9162 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -492,7 +492,7 @@ public:
 
   constexpr void __cordl_internal_set_String(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4394dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a94e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -528,7 +528,7 @@ public:
   ::System::__Uri__MoreInfo* ___MoreInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9161 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -612,7 +612,7 @@ public:
 
   constexpr void __cordl_internal_set_RemoteUrl(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4394dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a94e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -648,7 +648,7 @@ public:
   ::StringW ___RemoteUrl;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9163 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -739,7 +739,7 @@ public:
   static ::System::__Uri__Check const ReservedFound;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9164 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -928,193 +928,193 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method AllowIdnStatic, addr 0x43430e0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AllowIdnStatic, addr 0x43577f8, size 0xc8, virtual false, abstract: false, final false
   inline bool AllowIdnStatic(::System::UriParser* syntax, ::System::__Uri__Flags flags);
 
-  /// @brief Method CalculateCaseInsensitiveHashCode, addr 0x4348854, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CalculateCaseInsensitiveHashCode, addr 0x435cf6c, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t CalculateCaseInsensitiveHashCode(::StringW text);
 
-  /// @brief Method CheckAuthorityHelper, addr 0x434a150, size 0xe28, virtual false, abstract: false, final false
+  /// @brief Method CheckAuthorityHelper, addr 0x435e868, size 0xe28, virtual false, abstract: false, final false
   inline uint16_t CheckAuthorityHelper(::cordl_internals::Ptr<char16_t> pString, uint16_t idx, uint16_t length, ByRef<::System::ParsingError> err, ByRef<::System::__Uri__Flags> flags,
                                        ::System::UriParser* syntax, ByRef<::StringW> newHost);
 
-  /// @brief Method CheckAuthorityHelperHandleAnyHostIri, addr 0x434df14, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method CheckAuthorityHelperHandleAnyHostIri, addr 0x436262c, size 0x2c4, virtual false, abstract: false, final false
   inline void CheckAuthorityHelperHandleAnyHostIri(::cordl_internals::Ptr<char16_t> pString, int32_t startInput, int32_t end, bool iriParsing, bool hasUnicode, ::System::UriParser* syntax,
                                                    ByRef<::System::__Uri__Flags> flags, ByRef<::StringW> newHost, ByRef<::System::ParsingError> err);
 
-  /// @brief Method CheckAuthorityHelperHandleDnsIri, addr 0x434dbc0, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method CheckAuthorityHelperHandleDnsIri, addr 0x43622d8, size 0x354, virtual false, abstract: false, final false
   inline void CheckAuthorityHelperHandleDnsIri(::cordl_internals::Ptr<char16_t> pString, uint16_t start, int32_t end, int32_t startInput, bool iriParsing, bool hasUnicode, ::System::UriParser* syntax,
                                                ::StringW userInfoString, ByRef<::System::__Uri__Flags> flags, ByRef<bool> justNormalized, ByRef<::StringW> newHost, ByRef<::System::ParsingError> err);
 
-  /// @brief Method CheckCanonical, addr 0x434b658, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method CheckCanonical, addr 0x435fd70, size 0x3fc, virtual false, abstract: false, final false
   inline ::System::__Uri__Check CheckCanonical(::cordl_internals::Ptr<char16_t> str, ByRef<uint16_t> idx, uint16_t end, char16_t delim);
 
-  /// @brief Method CheckForColonInFirstPathSegment, addr 0x4349240, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CheckForColonInFirstPathSegment, addr 0x435d958, size 0xb8, virtual false, abstract: false, final false
   static inline bool CheckForColonInFirstPathSegment(::StringW uriString);
 
-  /// @brief Method CheckForConfigLoad, addr 0x434eaf0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CheckForConfigLoad, addr 0x4363208, size 0xe4, virtual false, abstract: false, final false
   inline bool CheckForConfigLoad(::StringW data);
 
-  /// @brief Method CheckForEscapedUnreserved, addr 0x434ecfc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method CheckForEscapedUnreserved, addr 0x4363414, size 0x1c4, virtual false, abstract: false, final false
   inline bool CheckForEscapedUnreserved(::StringW data);
 
-  /// @brief Method CheckForUnicode, addr 0x434ebd4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method CheckForUnicode, addr 0x43632ec, size 0x128, virtual false, abstract: false, final false
   inline bool CheckForUnicode(::StringW data);
 
-  /// @brief Method CheckKnownSchemes, addr 0x434d644, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method CheckKnownSchemes, addr 0x4361d5c, size 0x57c, virtual false, abstract: false, final false
   static inline bool CheckKnownSchemes(::cordl_internals::Ptr<int64_t> lptr, uint16_t nChars, ByRef<::System::UriParser*> syntax);
 
-  /// @brief Method CheckSchemeName, addr 0x4348450, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CheckSchemeName, addr 0x435cb68, size 0x140, virtual false, abstract: false, final false
   static inline bool CheckSchemeName(::StringW schemeName);
 
-  /// @brief Method CheckSchemeSyntax, addr 0x43457f0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CheckSchemeSyntax, addr 0x4359f08, size 0x138, virtual false, abstract: false, final false
   static inline ::System::ParsingError CheckSchemeSyntax(::cordl_internals::Ptr<char16_t> ptr, uint16_t length, ByRef<::System::UriParser*> syntax);
 
-  /// @brief Method CombineUri, addr 0x4345950, size 0x924, virtual false, abstract: false, final false
+  /// @brief Method CombineUri, addr 0x435a068, size 0x924, virtual false, abstract: false, final false
   static inline ::StringW CombineUri(::System::Uri* basePart, ::StringW relativePart, ::System::UriFormat uriFormat);
 
-  /// @brief Method Compress, addr 0x4347834, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method Compress, addr 0x435bf4c, size 0x4d4, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> Compress(::ArrayW<char16_t, ::Array<char16_t>*> dest, uint16_t start, ByRef<int32_t> destLength, ::System::UriParser* syntax);
 
-  /// @brief Method CreateHelper, addr 0x434eec0, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method CreateHelper, addr 0x43635d8, size 0x260, virtual false, abstract: false, final false
   static inline ::System::Uri* CreateHelper(::StringW uriString, bool dontEscape, ::System::UriKind uriKind, ByRef<::System::UriFormatException*> e);
 
-  /// @brief Method CreateHostString, addr 0x4344460, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method CreateHostString, addr 0x4358b78, size 0x3f4, virtual false, abstract: false, final false
   inline void CreateHostString();
 
-  /// @brief Method CreateHostStringHelper, addr 0x434b47c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CreateHostStringHelper, addr 0x435fb94, size 0x1dc, virtual false, abstract: false, final false
   static inline ::StringW CreateHostStringHelper(::StringW str, uint16_t idx, uint16_t end, ByRef<::System::__Uri__Flags> flags, ByRef<::StringW> scopeId);
 
-  /// @brief Method CreateThis, addr 0x43448d4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CreateThis, addr 0x4358fec, size 0x1b8, virtual false, abstract: false, final false
   inline void CreateThis(::StringW uri, bool dontEscape, ::System::UriKind uriKind);
 
-  /// @brief Method CreateThisFromUri, addr 0x4345284, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CreateThisFromUri, addr 0x435999c, size 0x120, virtual false, abstract: false, final false
   inline void CreateThisFromUri(::System::Uri* otherUri);
 
-  /// @brief Method CreateUri, addr 0x4344be0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CreateUri, addr 0x43592f8, size 0x188, virtual false, abstract: false, final false
   inline void CreateUri(::System::Uri* baseUri, ::StringW relativeUri, bool dontEscape);
 
-  /// @brief Method CreateUriInfo, addr 0x4343278, size 0x588, virtual false, abstract: false, final false
+  /// @brief Method CreateUriInfo, addr 0x4357990, size 0x588, virtual false, abstract: false, final false
   inline void CreateUriInfo(::System::__Uri__Flags cF);
 
-  /// @brief Method EnsureHostString, addr 0x4344400, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method EnsureHostString, addr 0x4358b18, size 0x60, virtual false, abstract: false, final false
   inline void EnsureHostString(bool allowDnsOptimization);
 
-  /// @brief Method EnsureParseRemaining, addr 0x4343800, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method EnsureParseRemaining, addr 0x4357f18, size 0x10, virtual false, abstract: false, final false
   inline void EnsureParseRemaining();
 
-  /// @brief Method EnsureUriInfo, addr 0x4343254, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EnsureUriInfo, addr 0x435796c, size 0x24, virtual false, abstract: false, final false
   inline ::System::__Uri__UriInfo* EnsureUriInfo();
 
-  /// @brief Method Equals, addr 0x4348c08, size 0x584, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x435d320, size 0x584, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method EscapeUnescapeIri, addr 0x434d5f4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method EscapeUnescapeIri, addr 0x4361d0c, size 0x50, virtual false, abstract: false, final false
   inline ::StringW EscapeUnescapeIri(::StringW input, int32_t start, int32_t end, ::System::UriComponents component);
 
-  /// @brief Method EscapeUriString, addr 0x434fc70, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method EscapeUriString, addr 0x4364388, size 0x128, virtual false, abstract: false, final false
   static inline ::StringW EscapeUriString(::StringW stringToEscape);
 
-  /// @brief Method FindEndOfComponent, addr 0x434d5a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FindEndOfComponent, addr 0x4361cb8, size 0x54, virtual false, abstract: false, final false
   inline void FindEndOfComponent(::StringW input, ByRef<uint16_t> idx, uint16_t end, char16_t delim);
 
-  /// @brief Method FindEndOfComponent, addr 0x434e338, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FindEndOfComponent, addr 0x4362a50, size 0x98, virtual false, abstract: false, final false
   inline void FindEndOfComponent(::cordl_internals::Ptr<char16_t> str, ByRef<uint16_t> idx, uint16_t end, char16_t delim);
 
-  /// @brief Method FromHex, addr 0x4348674, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x435cd8c, size 0xac, virtual false, abstract: false, final false
   static inline int32_t FromHex(char16_t digit);
 
-  /// @brief Method GetCanonicalPath, addr 0x434cf30, size 0x670, virtual false, abstract: false, final false
+  /// @brief Method GetCanonicalPath, addr 0x4361648, size 0x670, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> GetCanonicalPath(::ArrayW<char16_t, ::Array<char16_t>*> dest, ByRef<int32_t> pos, ::System::UriFormat formatAs);
 
-  /// @brief Method GetCombinedString, addr 0x43455b0, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method GetCombinedString, addr 0x4359cc8, size 0x240, virtual false, abstract: false, final false
   static inline ::System::ParsingError GetCombinedString(::System::Uri* baseUri, ::StringW relativeStr, bool dontEscape, ByRef<::StringW> result);
 
-  /// @brief Method GetComponents, addr 0x434ba54, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetComponents, addr 0x436016c, size 0x1c8, virtual false, abstract: false, final false
   inline ::StringW GetComponents(::System::UriComponents components, ::System::UriFormat format);
 
-  /// @brief Method GetComponentsHelper, addr 0x43489c0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsHelper, addr 0x435d0d8, size 0x214, virtual false, abstract: false, final false
   inline ::StringW GetComponentsHelper(::System::UriComponents uriComponents, ::System::UriFormat uriFormat);
 
-  /// @brief Method GetEscapedParts, addr 0x434bc1c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetEscapedParts, addr 0x4360334, size 0xc8, virtual false, abstract: false, final false
   inline ::StringW GetEscapedParts(::System::UriComponents uriParts);
 
-  /// @brief Method GetException, addr 0x4346274, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x435a98c, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::UriFormatException* GetException(::System::ParsingError err);
 
-  /// @brief Method GetHashCode, addr 0x4348720, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x435ce38, size 0x134, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHostViaCustomSyntax, addr 0x434b04c, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method GetHostViaCustomSyntax, addr 0x435f764, size 0x430, virtual false, abstract: false, final false
   inline void GetHostViaCustomSyntax();
 
-  /// @brief Method GetLocalPath, addr 0x43468c4, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method GetLocalPath, addr 0x435afdc, size 0x5ec, virtual false, abstract: false, final false
   inline ::StringW GetLocalPath();
 
-  /// @brief Method GetObjectData, addr 0x4346518, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x435ac30, size 0xd8, virtual false, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetParts, addr 0x43465f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetParts, addr 0x435ad08, size 0x4, virtual false, abstract: false, final false
   inline ::StringW GetParts(::System::UriComponents uriParts, ::System::UriFormat formatAs);
 
-  /// @brief Method GetRelativeSerializationString, addr 0x434f36c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeSerializationString, addr 0x4363a84, size 0x21c, virtual false, abstract: false, final false
   inline ::StringW GetRelativeSerializationString(::System::UriFormat format);
 
-  /// @brief Method GetUnescapedParts, addr 0x4347d08, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetUnescapedParts, addr 0x435c420, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW GetUnescapedParts(::System::UriComponents uriParts, ::System::UriFormat formatAs);
 
-  /// @brief Method GetUriPartsFromUserString, addr 0x434bce4, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method GetUriPartsFromUserString, addr 0x43603fc, size 0x598, virtual false, abstract: false, final false
   inline ::StringW GetUriPartsFromUserString(::System::UriComponents uriParts);
 
-  /// @brief Method InFact, addr 0x4343238, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InFact, addr 0x4357950, size 0x10, virtual false, abstract: false, final false
   inline bool InFact(::System::__Uri__Flags flags);
 
-  /// @brief Method InitializeUri, addr 0x434e628, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method InitializeUri, addr 0x4362d40, size 0x4c8, virtual false, abstract: false, final false
   inline void InitializeUri(::System::ParsingError err, ::System::UriKind uriKind, ByRef<::System::UriFormatException*> e);
 
-  /// @brief Method InitializeUriConfig, addr 0x4347698, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method InitializeUriConfig, addr 0x435bdb0, size 0x19c, virtual false, abstract: false, final false
   static inline void InitializeUriConfig();
 
-  /// @brief Method InternalEscapeString, addr 0x43492f8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method InternalEscapeString, addr 0x435da10, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW InternalEscapeString(::StringW rawString);
 
-  /// @brief Method InternalIsWellFormedOriginalString, addr 0x434f5cc, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method InternalIsWellFormedOriginalString, addr 0x4363ce4, size 0x468, virtual false, abstract: false, final false
   inline bool InternalIsWellFormedOriginalString();
 
-  /// @brief Method IriParsingStatic, addr 0x4342f88, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IriParsingStatic, addr 0x43576a0, size 0x8c, virtual false, abstract: false, final false
   static inline bool IriParsingStatic(::System::UriParser* syntax);
 
-  /// @brief Method IsAsciiLetter, addr 0x4348590, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsAsciiLetter, addr 0x435cca8, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsAsciiLetter(char16_t character);
 
-  /// @brief Method IsAsciiLetterOrDigit, addr 0x43485bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsAsciiLetterOrDigit, addr 0x435ccd4, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsAsciiLetterOrDigit(char16_t character);
 
-  /// @brief Method IsBaseOf, addr 0x434fdd8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method IsBaseOf, addr 0x43644f0, size 0xb4, virtual false, abstract: false, final false
   inline bool IsBaseOf(::System::Uri* uri);
 
-  /// @brief Method IsBaseOfHelper, addr 0x434fe8c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method IsBaseOfHelper, addr 0x43645a4, size 0x1ec, virtual false, abstract: false, final false
   inline bool IsBaseOfHelper(::System::Uri* uriLink);
 
-  /// @brief Method IsBidiControlCharacter, addr 0x434e5f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsBidiControlCharacter, addr 0x4362d10, size 0x30, virtual false, abstract: false, final false
   static inline bool IsBidiControlCharacter(char16_t ch);
 
-  /// @brief Method IsGenDelim, addr 0x4348420, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsGenDelim, addr 0x435cb38, size 0x30, virtual false, abstract: false, final false
   static inline bool IsGenDelim(char16_t ch);
 
-  /// @brief Method IsHexDigit, addr 0x4348638, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsHexDigit, addr 0x435cd50, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsHexDigit(char16_t character);
 
-  /// @brief Method IsIntranet, addr 0x43431b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsIntranet, addr 0x43578cc, size 0x8, virtual false, abstract: false, final false
   inline bool IsIntranet(::StringW schemeHost);
 
-  /// @brief Method IsLWS, addr 0x434a118, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method IsLWS, addr 0x435e830, size 0x38, virtual false, abstract: false, final false
   static inline bool IsLWS(char16_t ch);
 
-  /// @brief Method IsWellFormedOriginalString, addr 0x434f588, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsWellFormedOriginalString, addr 0x4363ca0, size 0x44, virtual false, abstract: false, final false
   inline bool IsWellFormedOriginalString();
 
-  /// @brief Method IsWellFormedUriString, addr 0x434fa34, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsWellFormedUriString, addr 0x436414c, size 0x9c, virtual false, abstract: false, final false
   static inline bool IsWellFormedUriString(::StringW uriString, ::System::UriKind uriKind);
 
   static inline ::System::Uri* New_ctor(::System::Uri* baseUri, ::StringW relativeUri);
@@ -1129,69 +1129,69 @@ public:
 
   static inline ::System::Uri* New_ctor(::StringW uriString, ::System::UriKind uriKind);
 
-  /// @brief Method NotAny, addr 0x43430d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method NotAny, addr 0x43577e8, size 0x10, virtual false, abstract: false, final false
   inline bool NotAny(::System::__Uri__Flags flags);
 
-  /// @brief Method ParseMinimal, addr 0x4349a04, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ParseMinimal, addr 0x435e11c, size 0x80, virtual false, abstract: false, final false
   inline ::System::UriFormatException* ParseMinimal();
 
-  /// @brief Method ParseRemaining, addr 0x4343810, size 0xbf0, virtual false, abstract: false, final false
+  /// @brief Method ParseRemaining, addr 0x4357f28, size 0xbf0, virtual false, abstract: false, final false
   inline void ParseRemaining();
 
-  /// @brief Method ParseScheme, addr 0x43493d4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ParseScheme, addr 0x435daec, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::ParsingError ParseScheme(::StringW uriString, ByRef<::System::__Uri__Flags> flags, ByRef<::System::UriParser*> syntax);
 
-  /// @brief Method ParseSchemeCheckImplicitFile, addr 0x43494a8, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method ParseSchemeCheckImplicitFile, addr 0x435dbc0, size 0x55c, virtual false, abstract: false, final false
   static inline uint16_t ParseSchemeCheckImplicitFile(::cordl_internals::Ptr<char16_t> uriString, uint16_t length, ByRef<::System::ParsingError> err, ByRef<::System::__Uri__Flags> flags,
                                                       ByRef<::System::UriParser*> syntax);
 
-  /// @brief Method PrivateParseMinimal, addr 0x4349a84, size 0x694, virtual false, abstract: false, final false
+  /// @brief Method PrivateParseMinimal, addr 0x435e19c, size 0x694, virtual false, abstract: false, final false
   inline ::System::ParsingError PrivateParseMinimal();
 
-  /// @brief Method PrivateParseMinimalIri, addr 0x434af78, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PrivateParseMinimalIri, addr 0x435f690, size 0xd4, virtual false, abstract: false, final false
   inline void PrivateParseMinimalIri(::StringW newHost, uint16_t idx);
 
-  /// @brief Method ReCreateParts, addr 0x434c27c, size 0xcb4, virtual false, abstract: false, final false
+  /// @brief Method ReCreateParts, addr 0x4360994, size 0xcb4, virtual false, abstract: false, final false
   inline ::StringW ReCreateParts(::System::UriComponents parts, uint16_t nonCanonical, ::System::UriFormat formatAs);
 
-  /// @brief Method ResolveHelper, addr 0x4344d68, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method ResolveHelper, addr 0x4359480, size 0x4d4, virtual false, abstract: false, final false
   static inline ::System::Uri* ResolveHelper(::System::Uri* baseUri, ::System::Uri* relativeUri, ByRef<::StringW> newUriString, ByRef<bool> userEscaped, ByRef<::System::UriFormatException*> e);
 
-  /// @brief Method SetUserDrivenParsing, addr 0x43431c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetUserDrivenParsing, addr 0x43578e0, size 0x14, virtual false, abstract: false, final false
   inline void SetUserDrivenParsing();
 
-  /// @brief Method StaticInFact, addr 0x4343248, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StaticInFact, addr 0x4357960, size 0xc, virtual false, abstract: false, final false
   static inline bool StaticInFact(::System::__Uri__Flags allFlags, ::System::__Uri__Flags checkFlags);
 
-  /// @brief Method StaticIsFile, addr 0x43475b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StaticIsFile, addr 0x435bccc, size 0x18, virtual false, abstract: false, final false
   static inline bool StaticIsFile(::System::UriParser* syntax);
 
-  /// @brief Method StaticNotAny, addr 0x43431a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StaticNotAny, addr 0x43578c0, size 0xc, virtual false, abstract: false, final false
   static inline bool StaticNotAny(::System::__Uri__Flags allFlags, ::System::__Uri__Flags checkFlags);
 
-  /// @brief Method StripBidiControlCharacter, addr 0x434e1d8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method StripBidiControlCharacter, addr 0x43628f0, size 0x160, virtual false, abstract: false, final false
   static inline ::StringW StripBidiControlCharacter(::cordl_internals::Ptr<char16_t> strToClean, int32_t start, int32_t length);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x4346514, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x435ac2c, size 0x4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method ToString, addr 0x43488f4, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x435d00c, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryCreate, addr 0x434f120, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method TryCreate, addr 0x4363838, size 0xd0, virtual false, abstract: false, final false
   static inline bool TryCreate(::System::Uri* baseUri, ::StringW relativeUri, ByRef<::System::Uri*> result);
 
-  /// @brief Method TryCreate, addr 0x434f1f0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method TryCreate, addr 0x4363908, size 0x17c, virtual false, abstract: false, final false
   static inline bool TryCreate(::System::Uri* baseUri, ::System::Uri* relativeUri, ByRef<::System::Uri*> result);
 
-  /// @brief Method TryCreate, addr 0x434918c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryCreate, addr 0x435d8a4, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryCreate(::StringW uriString, ::System::UriKind uriKind, ByRef<::System::Uri*> result);
 
-  /// @brief Method UnescapeDataString, addr 0x434fad0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method UnescapeDataString, addr 0x43641e8, size 0x1a0, virtual false, abstract: false, final false
   static inline ::StringW UnescapeDataString(::StringW stringToUnescape);
 
-  /// @brief Method UnescapeOnly, addr 0x434e3d0, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method UnescapeOnly, addr 0x4362ae8, size 0x21c, virtual false, abstract: false, final false
   static inline void UnescapeOnly(::cordl_internals::Ptr<char16_t> pch, int32_t start, ByRef<int32_t> end, char16_t ch1, char16_t ch2, char16_t ch3);
 
   constexpr ::StringW const& __cordl_internal_get_m_DnsSafeHost() const;
@@ -1236,22 +1236,22 @@ public:
 
   constexpr void __cordl_internal_set_m_originalUnicodeString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4344b10, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4359228, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* baseUri, ::StringW relativeUri);
 
-  /// @brief Method .ctor, addr 0x43453a4, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4359abc, size 0x20c, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* baseUri, ::System::Uri* relativeUri);
 
-  /// @brief Method .ctor, addr 0x434fd98, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43644b0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::__Uri__Flags flags, ::System::UriParser* uriParser, ::StringW uri);
 
-  /// @brief Method .ctor, addr 0x4346414, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x435ab2c, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x4344854, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4358f6c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW uriString);
 
-  /// @brief Method .ctor, addr 0x4344a8c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43591a4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW uriString, ::System::UriKind uriKind);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_HexLowerChars();
@@ -1298,118 +1298,118 @@ public:
 
   static inline bool getStaticF_useDotNetRelativeOrAbsolute();
 
-  /// @brief Method get_AbsolutePath, addr 0x43465f4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_AbsolutePath, addr 0x435ad0c, size 0xc0, virtual false, abstract: false, final false
   inline ::StringW get_AbsolutePath();
 
-  /// @brief Method get_AbsoluteUri, addr 0x434675c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_AbsoluteUri, addr 0x435ae74, size 0xfc, virtual false, abstract: false, final false
   inline ::StringW get_AbsoluteUri();
 
-  /// @brief Method get_AllowIdn, addr 0x4343014, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_AllowIdn, addr 0x435772c, size 0xbc, virtual false, abstract: false, final false
   inline bool get_AllowIdn();
 
-  /// @brief Method get_Authority, addr 0x4346eb0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Authority, addr 0x435b5c8, size 0x74, virtual false, abstract: false, final false
   inline ::StringW get_Authority();
 
-  /// @brief Method get_DnsSafeHost, addr 0x4348154, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method get_DnsSafeHost, addr 0x435c86c, size 0x24c, virtual false, abstract: false, final false
   inline ::StringW get_DnsSafeHost();
 
-  /// @brief Method get_Fragment, addr 0x4347f9c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_Fragment, addr 0x435c6b4, size 0x100, virtual false, abstract: false, final false
   inline ::StringW get_Fragment();
 
-  /// @brief Method get_HasAuthority, addr 0x434e5ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HasAuthority, addr 0x4362d04, size 0xc, virtual false, abstract: false, final false
   inline bool get_HasAuthority();
 
-  /// @brief Method get_Host, addr 0x4347540, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Host, addr 0x435bc58, size 0x74, virtual false, abstract: false, final false
   inline ::StringW get_Host();
 
-  /// @brief Method get_HostNameType, addr 0x4346f24, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_HostNameType, addr 0x435b63c, size 0xf8, virtual false, abstract: false, final false
   inline ::System::UriHostNameType get_HostNameType();
 
-  /// @brief Method get_HostType, addr 0x4342f64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HostType, addr 0x435767c, size 0xc, virtual false, abstract: false, final false
   inline ::System::__Uri__Flags get_HostType();
 
-  /// @brief Method get_InitializeLock, addr 0x43475cc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_InitializeLock, addr 0x435bce4, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Object* get_InitializeLock();
 
-  /// @brief Method get_IsAbsoluteUri, addr 0x4344bd0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsAbsoluteUri, addr 0x43592e8, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsAbsoluteUri();
 
-  /// @brief Method get_IsDefaultPort, addr 0x434701c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDefaultPort, addr 0x435b734, size 0xa8, virtual false, abstract: false, final false
   inline bool get_IsDefaultPort();
 
-  /// @brief Method get_IsDosPath, addr 0x4342f4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsDosPath, addr 0x4357664, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsDosPath();
 
-  /// @brief Method get_IsFile, addr 0x43470c4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_IsFile, addr 0x435b7dc, size 0xc0, virtual false, abstract: false, final false
   inline bool get_IsFile();
 
-  /// @brief Method get_IsImplicitFile, addr 0x4342f30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsImplicitFile, addr 0x4357648, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsImplicitFile();
 
-  /// @brief Method get_IsLoopback, addr 0x4347184, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_IsLoopback, addr 0x435b89c, size 0x80, virtual false, abstract: false, final false
   inline bool get_IsLoopback();
 
-  /// @brief Method get_IsNotAbsoluteUri, addr 0x4342f78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNotAbsoluteUri, addr 0x4357690, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNotAbsoluteUri();
 
-  /// @brief Method get_IsUnc, addr 0x43474cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_IsUnc, addr 0x435bbe4, size 0x74, virtual false, abstract: false, final false
   inline bool get_IsUnc();
 
-  /// @brief Method get_IsUncOrDosPath, addr 0x4342f3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsUncOrDosPath, addr 0x4357654, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsUncOrDosPath();
 
-  /// @brief Method get_IsUncPath, addr 0x4342f58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsUncPath, addr 0x4357670, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsUncPath();
 
-  /// @brief Method get_LocalPath, addr 0x4346858, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_LocalPath, addr 0x435af70, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW get_LocalPath();
 
-  /// @brief Method get_OriginalString, addr 0x4345928, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalString, addr 0x435a040, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_OriginalString();
 
-  /// @brief Method get_OriginalStringSwitched, addr 0x434810c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalStringSwitched, addr 0x435c824, size 0x48, virtual false, abstract: false, final false
   inline bool get_OriginalStringSwitched();
 
-  /// @brief Method get_PathAndQuery, addr 0x4347204, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_PathAndQuery, addr 0x435b91c, size 0xc8, virtual false, abstract: false, final false
   inline ::StringW get_PathAndQuery();
 
-  /// @brief Method get_Port, addr 0x4347dd8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_Port, addr 0x435c4f0, size 0xc4, virtual false, abstract: false, final false
   inline int32_t get_Port();
 
-  /// @brief Method get_PrivateAbsolutePath, addr 0x43466b4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateAbsolutePath, addr 0x435adcc, size 0xa8, virtual false, abstract: false, final false
   inline ::StringW get_PrivateAbsolutePath();
 
-  /// @brief Method get_Query, addr 0x4347e9c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_Query, addr 0x435c5b4, size 0x100, virtual false, abstract: false, final false
   inline ::StringW get_Query();
 
-  /// @brief Method get_Scheme, addr 0x434809c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Scheme, addr 0x435c7b4, size 0x70, virtual false, abstract: false, final false
   inline ::StringW get_Scheme();
 
-  /// @brief Method get_SecuredPathIndex, addr 0x43431dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_SecuredPathIndex, addr 0x43578f4, size 0x5c, virtual false, abstract: false, final false
   inline uint16_t get_SecuredPathIndex();
 
-  /// @brief Method get_Segments, addr 0x43472cc, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method get_Segments, addr 0x435b9e4, size 0x200, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Segments();
 
-  /// @brief Method get_Syntax, addr 0x4342f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Syntax, addr 0x4357688, size 0x8, virtual false, abstract: false, final false
   inline ::System::UriParser* get_Syntax();
 
-  /// @brief Method get_UserDrivenParsing, addr 0x43431bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_UserDrivenParsing, addr 0x43578d4, size 0xc, virtual false, abstract: false, final false
   inline bool get_UserDrivenParsing();
 
-  /// @brief Method get_UserEscaped, addr 0x43483a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_UserEscaped, addr 0x435cab8, size 0xc, virtual false, abstract: false, final false
   inline bool get_UserEscaped();
 
-  /// @brief Method get_UserInfo, addr 0x43483ac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_UserInfo, addr 0x435cac4, size 0x74, virtual false, abstract: false, final false
   inline ::StringW get_UserInfo();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method op_Equality, addr 0x4348bd4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x435d2ec, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Uri* uri1, ::System::Uri* uri2);
 
-  /// @brief Method op_Inequality, addr 0x434523c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4359954, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Uri* uri1, ::System::Uri* uri2);
 
   static inline void setStaticF_HexLowerChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
@@ -1498,7 +1498,7 @@ public:
   static ::System::UriFormat const V1ToStringUnescape;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9165 };
 
   /// @brief Field c_DummyChar offset 0xffffffff size 0x2
   static constexpr char16_t c_DummyChar{ u'\u{ffff}' };

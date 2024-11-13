@@ -127,7 +127,7 @@ public:
   TList m_Multiple;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7077 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -227,7 +227,7 @@ public:
   ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> ___m_List;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7076 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

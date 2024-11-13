@@ -55,17 +55,17 @@ public:
 
   constexpr void __cordl_internal_set_sc(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26c90d8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d4dc8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection,
                     float_t tailBeat, int32_t tailLine, int32_t tailLayer, int32_t sliceCount, float_t squishAmount);
 
-  /// @brief Method get_cuttableSlicesCount, addr 0x26c90c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableSlicesCount, addr 0x26d4db4, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_cuttableSlicesCount();
 
-  /// @brief Method get_sliceCount, addr 0x26c90bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sliceCount, addr 0x26d4dac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sliceCount();
 
-  /// @brief Method get_squishAmount, addr 0x26c90d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_squishAmount, addr 0x26d4dc0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_squishAmount();
 
 protected:
@@ -89,7 +89,7 @@ public:
   float_t ___s;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13391 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

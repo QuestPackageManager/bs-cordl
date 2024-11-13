@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Toggle> (::GlobalNamespace::ColorSchemeColorToggleController::*)()>(
     &::GlobalNamespace::ColorSchemeColorToggleController::get_toggle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7d940;
+  constexpr static std::size_t addrs = 0x3b934c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeColorToggleController*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorSchemeColorToggleController::*)()>(
     &::GlobalNamespace::ColorSchemeColorToggleController::get_color)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b7d1ec;
+  constexpr static std::size_t addrs = 0x3b92d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeColorToggleController*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorToggleController::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::ColorSchemeColorToggleController::set_color)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b7d23c;
+  constexpr static std::size_t addrs = 0x3b92dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorToggleController::*)()>(
     &::GlobalNamespace::ColorSchemeColorToggleController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7d948;
+  constexpr static std::size_t addrs = 0x3b934cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeColorToggleController*>::get(),

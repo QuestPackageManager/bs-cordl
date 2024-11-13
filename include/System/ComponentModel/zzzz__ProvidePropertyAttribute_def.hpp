@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__ReceiverTypeName_k__BackingField(::StringW value);
 
-  /// @brief Method get_PropertyName, addr 0x43e1994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyName, addr 0x43f60ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
-  /// @brief Method get_ReceiverTypeName, addr 0x43e199c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReceiverTypeName, addr 0x43f60b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReceiverTypeName();
 
 protected:
@@ -69,7 +69,7 @@ public:
   ::StringW ____ReceiverTypeName_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

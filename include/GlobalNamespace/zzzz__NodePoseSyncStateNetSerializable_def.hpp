@@ -70,15 +70,15 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x22a9bac, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x22b4c54, size 0x50, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   static inline ::GlobalNamespace::NodePoseSyncStateNetSerializable* New_ctor();
 
-  /// @brief Method Release, addr 0x22a9c1c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x22b4cc4, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0x22a9b3c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x22b4be4, size 0x4c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::SyncStateId const& __cordl_internal_get__id_k__BackingField() const;
@@ -99,19 +99,19 @@ public:
 
   constexpr void __cordl_internal_set__time_k__BackingField(int64_t value);
 
-  /// @brief Method .ctor, addr 0x22a9c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4d18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x22a9af4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x22b4b9c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::SyncStateId get_id();
 
-  /// @brief Method get_pool, addr 0x22a9ab4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x22b4b5c, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::NodePoseSyncStateNetSerializable*>* get_pool();
 
-  /// @brief Method get_state, addr 0x22a9b14, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_state, addr 0x22b4bbc, size 0x10, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState get_state();
 
-  /// @brief Method get_time, addr 0x22a9b04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0x22b4bac, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_time();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -123,13 +123,13 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  /// @brief Method set_id, addr 0x22a9afc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_id, addr 0x22b4ba4, size 0x8, virtual true, abstract: false, final true
   inline void set_id(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method set_state, addr 0x22a9b24, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method set_state, addr 0x22b4bcc, size 0x18, virtual true, abstract: false, final true
   inline void set_state(::GlobalNamespace::NodePoseSyncState value);
 
-  /// @brief Method set_time, addr 0x22a9b0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_time, addr 0x22b4bb4, size 0x8, virtual true, abstract: false, final true
   inline void set_time(int64_t value);
 
 protected:
@@ -156,7 +156,7 @@ public:
   int64_t ____time_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14947 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

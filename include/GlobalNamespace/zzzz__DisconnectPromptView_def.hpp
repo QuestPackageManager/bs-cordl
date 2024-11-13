@@ -53,7 +53,7 @@ public:
 
   static inline ::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <Hide>b__0, addr 0x3a8dc78, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Hide>b__0, addr 0x3aa1754, size 0x44, virtual false, abstract: false, final false
   inline void _Hide_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView> const& __cordl_internal_get___4__this() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3a8dbd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa16ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   ::UnityW<::GlobalNamespace::DisconnectPromptView> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4949 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -135,24 +135,24 @@ public:
   /// @brief Field didViewFinishEvent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_didViewFinishEvent, put = __cordl_internal_set_didViewFinishEvent)) ::System::Action_1<bool>* didViewFinishEvent;
 
-  /// @brief Method Hide, addr 0x3a8db08, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3aa15e4, size 0xc8, virtual false, abstract: false, final false
   inline void Hide(::System::Action* finishedCallback);
 
   static inline ::GlobalNamespace::DisconnectPromptView* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3a8dab4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3aa1590, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3a8d9c4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3aa14a0, size 0xf0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Show, addr 0x3a8dad0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x3aa15ac, size 0x38, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method <OnEnable>b__9_0, addr 0x3a8dc38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__9_0, addr 0x3aa1714, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__9_0();
 
-  /// @brief Method <OnEnable>b__9_1, addr 0x3a8dc58, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__9_1, addr 0x3aa1734, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__9_1();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -197,13 +197,13 @@ public:
 
   constexpr void __cordl_internal_set_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3a8dbd8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa16b4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didViewFinishEvent, addr 0x3a8d864, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didViewFinishEvent, addr 0x3aa1340, size 0xb0, virtual false, abstract: false, final false
   inline void add_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_didViewFinishEvent, addr 0x3a8d914, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didViewFinishEvent, addr 0x3aa13f0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didViewFinishEvent(::System::Action_1<bool>* value);
 
 protected:
@@ -242,7 +242,7 @@ public:
   ::HMUI::ButtonBinder* ____buttonBinder;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4950 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

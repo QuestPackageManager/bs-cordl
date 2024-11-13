@@ -25,7 +25,7 @@ public:
 
   static inline ::GlobalNamespace::OVRWaitCursor* New_ctor();
 
-  /// @brief Method Update, addr 0x3fd5884, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fe9f14, size 0x58, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotateSpeeds() const;
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_rotateSpeeds(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3fd58dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe9f6c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   ::UnityEngine::Vector3 ___rotateSpeeds;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8469 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8474 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

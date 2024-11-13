@@ -33,10 +33,10 @@ public:
 
   static inline ::GlobalNamespace::VRControllerTransformOffset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39693ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397cc30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_poseOffset, addr 0x3968d38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_poseOffset, addr 0x397c5bc, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose get_poseOffset();
 
   /// @brief Method get_positionOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -60,7 +60,7 @@ public:
   VRControllerTransformOffset(VRControllerTransformOffset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16453 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

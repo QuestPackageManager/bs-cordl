@@ -40,21 +40,21 @@ public:
   /// @brief Field _particlesPerFrame, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__particlesPerFrame, put = __cordl_internal_set__particlesPerFrame)) int32_t _particlesPerFrame;
 
-  /// @brief Method Awake, addr 0x3b1bbd8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b31090, size 0xf8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteDidStartJump, addr 0x3b1be64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidStartJump, addr 0x3b3131c, size 0xc, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump();
 
-  /// @brief Method HandleNoteMovementDidInit, addr 0x3b1be58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteMovementDidInit, addr 0x3b31310, size 0xc, virtual false, abstract: false, final false
   inline void HandleNoteMovementDidInit();
 
   static inline ::GlobalNamespace::NoteTrailEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b1bcd0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b31188, size 0x124, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x3b1bdf4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b312ac, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__maxSpawnDistance() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__particlesPerFrame(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b1be70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b31328, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,7 +111,7 @@ public:
   ::UnityW<::GlobalNamespace::NoteTrailParticleSystem> ____noteTrailParticleSystem;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4310 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

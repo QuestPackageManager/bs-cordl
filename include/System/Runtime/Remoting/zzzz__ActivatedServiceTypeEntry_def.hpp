@@ -30,7 +30,7 @@ public:
 
   static inline ::System::Runtime::Remoting::ActivatedServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName);
 
-  /// @brief Method ToString, addr 0x3c5135c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c659ec, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Type*& __cordl_internal_get_obj_type();
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_obj_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3c51230, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c658c0, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName);
 
-  /// @brief Method get_ObjectType, addr 0x3c51354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x3c659e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
 protected:

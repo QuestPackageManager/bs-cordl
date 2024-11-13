@@ -53,7 +53,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Button__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49123bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4926ad4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   __Button__UxmlFactory(__Button__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5502 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,7 +89,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Button__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4912404, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4926b1c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   __Button__UxmlTraits(__Button__UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5503 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -138,7 +138,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DoMeasure, addr 0x4912274, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x492698c, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
@@ -146,7 +146,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Button* New_ctor(::System::Action* clickEvent);
 
-  /// @brief Method OnNavigationSubmit, addr 0x491223c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x4926954, size 0x38, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
   constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get_m_Clickable();
@@ -155,24 +155,24 @@ public:
 
   constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method .ctor, addr 0x49120dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49267f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49120e4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49267fc, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* clickEvent);
 
   static inline ::StringW getStaticF_NonEmptyString();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_clickable, addr 0x4912070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickable, addr 0x4926788, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Clickable* get_clickable();
 
   static inline void setStaticF_NonEmptyString(::StringW value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_clickable, addr 0x4912078, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_clickable, addr 0x4926790, size 0x64, virtual false, abstract: false, final false
   inline void set_clickable(::UnityEngine::UIElements::Clickable* value);
 
 protected:
@@ -193,7 +193,7 @@ public:
   ::UnityEngine::UIElements::Clickable* ___m_Clickable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5504 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__ForceFullStates_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4a77894, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8bfac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW contract);
 
-  /// @brief Method .ctor, addr 0x4a778c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8bfd8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW contract, bool forceFullStates);
 
-  /// @brief Method get_Contract, addr 0x4a778f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Contract, addr 0x4a8c00c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Contract();
 
-  /// @brief Method get_ForceFullStates, addr 0x4a77904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ForceFullStates, addr 0x4a8c01c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ForceFullStates();
 
-  /// @brief Method set_Contract, addr 0x4a778fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Contract, addr 0x4a8c014, size 0x8, virtual false, abstract: false, final false
   inline void set_Contract(::StringW value);
 
-  /// @brief Method set_ForceFullStates, addr 0x4a7790c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ForceFullStates, addr 0x4a8c024, size 0xc, virtual false, abstract: false, final false
   inline void set_ForceFullStates(bool value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   bool ____ForceFullStates_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

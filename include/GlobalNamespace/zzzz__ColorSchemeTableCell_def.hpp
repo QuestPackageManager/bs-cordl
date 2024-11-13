@@ -47,7 +47,7 @@ public:
 
   static inline ::GlobalNamespace::ColorSchemeTableCell* New_ctor();
 
-  /// @brief Method SetColors, addr 0x3b7e0a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x3b93c24, size 0x7c, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
 
@@ -69,16 +69,16 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b7e394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b93f18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x3b7e370, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3b93ef4, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_showEditIcon, addr 0x3b7e05c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showEditIcon, addr 0x3b93be0, size 0x20, virtual false, abstract: false, final false
   inline void set_showEditIcon(bool value);
 
-  /// @brief Method set_text, addr 0x3b7e07c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3b93c00, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -105,7 +105,7 @@ public:
   ::UnityW<::UnityEngine::UI::Image> ____editIcon;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4722 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

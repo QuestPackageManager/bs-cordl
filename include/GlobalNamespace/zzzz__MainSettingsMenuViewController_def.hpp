@@ -56,13 +56,13 @@ public:
 
   __declspec(property(get = get_selectedSubMenuInfo)) ::GlobalNamespace::SettingsSubMenuInfo* selectedSubMenuInfo;
 
-  /// @brief Method DidActivate, addr 0x3b9f490, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3bb5304, size 0x1ec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleSettingsMenuSegmentedControlDidSelectCell, addr 0x3b9f67c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleSettingsMenuSegmentedControlDidSelectCell, addr 0x3bb54f0, size 0x54, virtual false, abstract: false, final false
   inline void HandleSettingsMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
-  /// @brief Method Init, addr 0x3b9f458, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3bb52cc, size 0x38, virtual false, abstract: false, final false
   inline void Init(int32_t selectedSubMenuInfoIdx);
 
   static inline ::GlobalNamespace::MainSettingsMenuViewController* New_ctor();
@@ -97,19 +97,19 @@ public:
 
   constexpr void __cordl_internal_set_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b9f6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb5544, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectSettingsSubMenuEvent, addr 0x3b9f2d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectSettingsSubMenuEvent, addr 0x3bb5148, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
 
-  /// @brief Method get_numberOfSubMenus, addr 0x3b9f434, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfSubMenus, addr 0x3bb52a8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_numberOfSubMenus();
 
-  /// @brief Method get_selectedSubMenuInfo, addr 0x3b9f450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedSubMenuInfo, addr 0x3bb52c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
 
-  /// @brief Method remove_didSelectSettingsSubMenuEvent, addr 0x3b9f384, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectSettingsSubMenuEvent, addr 0x3bb51f8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
 
 protected:
@@ -142,7 +142,7 @@ public:
   int32_t ____selectedSubMenuInfoIdx;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4889 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -38,12 +38,12 @@ namespace System::Xml {
 class CORDL_TYPE __SecureStringHasher__HashCodeOfStringDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x429582c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x42a9f44, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::StringW s, int32_t sLen, int64_t additionalEntropy);
 
   static inline ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x429578c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42a9ea4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -61,7 +61,7 @@ public:
   __SecureStringHasher__HashCodeOfStringDelegate(__SecureStringHasher__HashCodeOfStringDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -88,16 +88,16 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>*() noexcept;
 
-  /// @brief Method Equals, addr 0x4295518, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x42a9c30, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x4295530, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x42a9c48, size 0x9c, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::StringW key);
 
-  /// @brief Method GetHashCodeDelegate, addr 0x42955cc, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeDelegate, addr 0x42a9ce4, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* GetHashCodeDelegate();
 
-  /// @brief Method GetHashCodeOfString, addr 0x4295720, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeOfString, addr 0x42a9e38, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeOfString(::StringW key, int32_t sLen, int64_t additionalEntropy);
 
   static inline ::System::Xml::SecureStringHasher* New_ctor();
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_hashCodeRandomizer(int32_t value);
 
-  /// @brief Method .ctor, addr 0x42954f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42a9c0c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* getStaticF_hashCodeDelegate();
@@ -136,7 +136,7 @@ public:
   int32_t ___hashCodeRandomizer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::*)(
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters*)>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2476e24;
+  constexpr static std::size_t addrs = 0x2481ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> (
     ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::DecomposeScalar)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2476ed8;
+  constexpr static std::size_t addrs = 0x2481f80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPointMap* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::get_PointMap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2476f54;
+  constexpr static std::size_t addrs = 0x2481ffc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::get_HasEfficientPointMap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2476f5c;
+  constexpr static std::size_t addrs = 0x2482004;
 
   inline static ::MethodInfo const* methodInfo() {
 

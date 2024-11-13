@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__BeatToTimeConverterProvider_def.hpp"
+#include "GlobalNamespace/zzzz__BeatToTimeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ColorBoostEventItemConverter)
 namespace BeatmapSaveDataVersion4 {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter);
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter*
-class CORDL_TYPE ColorBoostEventItemConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
+class CORDL_TYPE ColorBoostEventItemConverter : public ::GlobalNamespace::BeatToTimeConverter {
 public:
   // Declarations
   /// @brief Field _colorBoostEvents, offset 0x18, size 0x8
@@ -40,7 +40,7 @@ public:
                       put = __cordl_internal_set__colorBoostEvents)) ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*>
       _colorBoostEvents;
 
-  /// @brief Method Convert, addr 0x26cc7d4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x26d8364, size 0x130, virtual false, abstract: false, final false
   inline void Convert(::BeatmapSaveDataVersion4::BeatIndex* index, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
   static inline ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter*
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__colorBoostEvents(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> value);
 
-  /// @brief Method .ctor, addr 0x26cc65c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d81ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> colorBoostEvents, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
@@ -73,7 +73,7 @@ public:
   ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> ____colorBoostEvents;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

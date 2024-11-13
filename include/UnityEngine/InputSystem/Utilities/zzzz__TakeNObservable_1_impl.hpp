@@ -26,7 +26,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<TValue>*> co
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>::__cordl_internal_set_m_Observer(::System::IObserver_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Observer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Observer, value);
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>::__cordl_internal_get_m_Remaining() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -94,7 +94,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<TValue>*> 
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>::__cordl_internal_set_m_Source(::System::IObservable_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Source, value);
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>::__cordl_internal_get_m_Count() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -25,16 +25,16 @@ public:
 
   static inline ::UnityEngine::Behaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48311d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48458f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enabled, addr 0x483111c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x4845834, size 0x3c, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_isActiveAndEnabled, addr 0x483119c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isActiveAndEnabled, addr 0x48458b4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isActiveAndEnabled();
 
-  /// @brief Method set_enabled, addr 0x4831158, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x4845870, size 0x44, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
 protected:
@@ -52,7 +52,7 @@ public:
   Behaviour(Behaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10834 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

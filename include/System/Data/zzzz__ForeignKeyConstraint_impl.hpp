@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>)>(
     &::System::Data::ForeignKeyConstraint::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4107128;
+  constexpr static std::size_t addrs = 0x411b840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>)>(
     &::System::Data::ForeignKeyConstraint::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4107168;
+  constexpr static std::size_t addrs = 0x411b880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Data::AcceptRejectRule, ::System::Data::Rule, ::System::Data::Rule)>(
     &::System::Data::ForeignKeyConstraint::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x410731c;
+  constexpr static std::size_t addrs = 0x411ba34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataKey (::System::Data::ForeignKeyConstraint::*)()>(
     &::System::Data::ForeignKeyConstraint::get_ChildKey)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4107388;
+  constexpr static std::size_t addrs = 0x411baa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraint*>::get(), "get_ChildKey",
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> (::System::Data::ForeignKeyConstraint::*)()>(&::System::Data::ForeignKeyConstraint::get_Columns)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x41073a4;
+  constexpr static std::size_t addrs = 0x411babc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::ForeignKeyConstraint::*)()>(
     &::System::Data::ForeignKeyConstraint::get_Table)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x41073c4;
+  constexpr static std::size_t addrs = 0x411badc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Data::ForeignKeyConstraint::*)()>(
     &::System::Data::ForeignKeyConstraint::get_ParentColumnNames)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x41073e4;
+  constexpr static std::size_t addrs = 0x411bafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraint*>::get(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Data::ForeignKeyConstraint::*)()>(
     &::System::Data::ForeignKeyConstraint::get_ChildColumnNames)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x41073f0;
+  constexpr static std::size_t addrs = 0x411bb08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraint*>::get(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)(::System::Data::ConstraintCollection*)>(
     &::System::Data::ForeignKeyConstraint::CheckCanAddToCollection)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x41073fc;
+  constexpr static std::size_t addrs = 0x411bb14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ForeignKeyConstraint::*)(::System::Data::ConstraintCollection*, bool)>(
     &::System::Data::ForeignKeyConstraint::CanBeRemovedFromCollection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4107524;
+  constexpr static std::size_t addrs = 0x411bc3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ForeignKeyConstraint::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::Data::ForeignKeyConstraint::IsKeyNull)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x410752c;
+  constexpr static std::size_t addrs = 0x411bc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ForeignKeyConstraint::*)()>(&::System::Data::ForeignKeyConstraint::IsConstraintViolated)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x41075f0;
+  constexpr static std::size_t addrs = 0x411bd08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ForeignKeyConstraint::*)()>(&::System::Data::ForeignKeyConstraint::CanEnableConstraint)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4107aa8;
+  constexpr static std::size_t addrs = 0x411c1c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)(::System::Data::DataRow*)>(
     &::System::Data::ForeignKeyConstraint::CascadeCommit)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4107c14;
+  constexpr static std::size_t addrs = 0x411c32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)(::System::Data::DataRow*)>(
     &::System::Data::ForeignKeyConstraint::CascadeDelete)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x4107d74;
+  constexpr static std::size_t addrs = 0x411c48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)(::System::Data::DataRow*)>(
     &::System::Data::ForeignKeyConstraint::CascadeRollback)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x4108278;
+  constexpr static std::size_t addrs = 0x411c990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)(::System::Data::DataRow*)>(
     &::System::Data::ForeignKeyConstraint::CascadeUpdate)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x4108464;
+  constexpr static std::size_t addrs = 0x411cb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)(::System::Data::DataTable*)>(
     &::System::Data::ForeignKeyConstraint::CheckCanClearParentTable)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x41088c8;
+  constexpr static std::size_t addrs = 0x411cfe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)(::System::Data::DataRow*)>(
     &::System::Data::ForeignKeyConstraint::CheckCanRemoveParentRow)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x41089a4;
+  constexpr static std::size_t addrs = 0x411d0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)(::System::Data::DataRow*, ::System::Data::DataRowAction)>(
     &::System::Data::ForeignKeyConstraint::CheckCascade)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4108a6c;
+  constexpr static std::size_t addrs = 0x411d184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)(::System::Data::DataRow*, ::System::Data::DataRowAction)>(
     &::System::Data::ForeignKeyConstraint::CheckConstraint)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x4108b6c;
+  constexpr static std::size_t addrs = 0x411d284;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)()>(&::System::Data::ForeignKeyConstraint::NonVirtualCheckState)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x4108e40;
+  constexpr static std::size_t addrs = 0x411d558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraint*>::get(),
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)()>(&::System::Data::ForeignKeyConstraint::CheckState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x41090a0;
+  constexpr static std::size_t addrs = 0x411d7b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::AcceptRejectRule (::System::Data::ForeignKeyConstraint::*)()>(
     &::System::Data::ForeignKeyConstraint::get_AcceptRejectRule)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x41090a4;
+  constexpr static std::size_t addrs = 0x411d7bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)(::System::Data::AcceptRejectRule)>(
     &::System::Data::ForeignKeyConstraint::set_AcceptRejectRule)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x41090c0;
+  constexpr static std::size_t addrs = 0x411d7d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ForeignKeyConstraint::*)(::System::Data::DataColumn*)>(
     &::System::Data::ForeignKeyConstraint::ContainsColumn)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4109114;
+  constexpr static std::size_t addrs = 0x411d82c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (::System::Data::ForeignKeyConstraint::*)(::System::Data::DataSet*)>(
     &::System::Data::ForeignKeyConstraint::Clone)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x410915c;
+  constexpr static std::size_t addrs = 0x411d874;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -432,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (::System::Data::ForeignKeyConstraint::*)(::System::Data::DataSet*, bool)>(
     &::System::Data::ForeignKeyConstraint::Clone)> {
   constexpr static std::size_t size = 0x738;
-  constexpr static std::size_t addrs = 0x410916c;
+  constexpr static std::size_t addrs = 0x411d884;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ForeignKeyConstraint* (::System::Data::ForeignKeyConstraint::*)(::System::Data::DataTable*)>(
     &::System::Data::ForeignKeyConstraint::Clone)> {
   constexpr static std::size_t size = 0x604;
-  constexpr static std::size_t addrs = 0x41098c0;
+  constexpr static std::size_t addrs = 0x411dfd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -463,7 +463,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>)>(
     &::System::Data::ForeignKeyConstraint::Create)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x41071b4;
+  constexpr static std::size_t addrs = 0x411b8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -480,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Rule (::System::Data::ForeignKeyConstraint::*)()>(
     &::System::Data::ForeignKeyConstraint::get_DeleteRule)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4109ec4;
+  constexpr static std::size_t addrs = 0x411e5dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)(::System::Data::Rule)>(
     &::System::Data::ForeignKeyConstraint::set_DeleteRule)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4109ee0;
+  constexpr static std::size_t addrs = 0x411e5f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -509,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ForeignKeyConstraint::*)(::System::Object*)>(&::System::Data::ForeignKeyConstraint::Equals)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4109f34;
+  constexpr static std::size_t addrs = 0x411e64c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::ForeignKeyConstraint::*)()>(&::System::Data::ForeignKeyConstraint::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410a024;
+  constexpr static std::size_t addrs = 0x411e73c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -538,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> (::System::Data::ForeignKeyConstraint::*)()>(&::System::Data::ForeignKeyConstraint::get_RelatedColumns)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x410a02c;
+  constexpr static std::size_t addrs = 0x411e744;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -553,7 +553,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> (
     ::System::Data::ForeignKeyConstraint::*)()>(&::System::Data::ForeignKeyConstraint::get_RelatedColumnsReference)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x41098a4;
+  constexpr static std::size_t addrs = 0x411dfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraint*>::get(),
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataKey (::System::Data::ForeignKeyConstraint::*)()>(
     &::System::Data::ForeignKeyConstraint::get_ParentKey)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4108a50;
+  constexpr static std::size_t addrs = 0x411d168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraint*>::get(), "get_ParentKey",
@@ -581,7 +581,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRelation* (::System::Data::ForeignKeyConstraint::*)()>(
     &::System::Data::ForeignKeyConstraint::FindParentRelation)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x410a04c;
+  constexpr static std::size_t addrs = 0x411e764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ForeignKeyConstraint*>::get(),
@@ -595,7 +595,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::ForeignKeyConstraint::*)()>(
     &::System::Data::ForeignKeyConstraint::get_RelatedTable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x410a114;
+  constexpr static std::size_t addrs = 0x411e82c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -610,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Rule (::System::Data::ForeignKeyConstraint::*)()>(
     &::System::Data::ForeignKeyConstraint::get_UpdateRule)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x410a134;
+  constexpr static std::size_t addrs = 0x411e84c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -625,7 +625,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ForeignKeyConstraint::*)(::System::Data::Rule)>(
     &::System::Data::ForeignKeyConstraint::set_UpdateRule)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x410a150;
+  constexpr static std::size_t addrs = 0x411e868;
 
   inline static ::MethodInfo const* methodInfo() {
 

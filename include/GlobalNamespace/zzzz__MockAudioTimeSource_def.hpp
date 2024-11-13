@@ -47,7 +47,7 @@ public:
 
   static inline ::GlobalNamespace::MockAudioTimeSource* New_ctor();
 
-  /// @brief Method Update, addr 0x3a66900, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a7a2d8, size 0x38, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__lastFrameDeltaSongTime_k__BackingField() const;
@@ -62,34 +62,34 @@ public:
 
   constexpr void __cordl_internal_set__songTime_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a66938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7a310, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isReady, addr 0x3a668f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isReady, addr 0x3a7a2d0, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
-  /// @brief Method get_lastFrameDeltaSongTime, addr 0x3a668c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0x3a7a2a0, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method get_songEndTime, addr 0x3a668d8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_songEndTime, addr 0x3a7a2b0, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songEndTime();
 
-  /// @brief Method get_songLength, addr 0x3a668e4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_songLength, addr 0x3a7a2bc, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songLength();
 
-  /// @brief Method get_songTime, addr 0x3a668b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songTime, addr 0x3a7a290, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();
 
-  /// @brief Method get_timeScale, addr 0x3a668f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_timeScale, addr 0x3a7a2c8, size 0x8, virtual true, abstract: false, final true
   inline float_t get_timeScale();
 
   /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
   constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
-  /// @brief Method set_lastFrameDeltaSongTime, addr 0x3a668d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastFrameDeltaSongTime, addr 0x3a7a2a8, size 0x8, virtual false, abstract: false, final false
   inline void set_lastFrameDeltaSongTime(float_t value);
 
-  /// @brief Method set_songTime, addr 0x3a668c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songTime, addr 0x3a7a298, size 0x8, virtual false, abstract: false, final false
   inline void set_songTime(float_t value);
 
 protected:
@@ -113,7 +113,7 @@ public:
   float_t ____lastFrameDeltaSongTime_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4007 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

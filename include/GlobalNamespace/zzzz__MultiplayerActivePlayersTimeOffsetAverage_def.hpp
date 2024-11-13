@@ -63,13 +63,13 @@ public:
 
   constexpr void __cordl_internal_set__timeOfLastValidReturnedTime(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3b517c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b672b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isFailed, addr 0x3b5167c, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method get_isFailed, addr 0x3b67168, size 0x148, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
-  /// @brief Method get_offsetSyncTime, addr 0x3b51428, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x3b66f14, size 0x254, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"
@@ -99,7 +99,7 @@ public:
   int64_t ____timeOfLastValidReturnedTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4537 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -53,10 +53,10 @@ public:
   static inline ::System::Linq::Expressions::CatchBlock* New_ctor(::System::Type* test, ::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Expression* body,
                                                                   ::System::Linq::Expressions::Expression* filter);
 
-  /// @brief Method ToString, addr 0x4037794, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x404beac, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Update, addr 0x4037814, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x404bf2c, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::CatchBlock* Update(::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Expression* filter,
                                                          ::System::Linq::Expressions::Expression* body);
 
@@ -84,19 +84,19 @@ public:
 
   constexpr void __cordl_internal_set__Variable_k__BackingField(::System::Linq::Expressions::ParameterExpression* value);
 
-  /// @brief Method .ctor, addr 0x4037734, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404be4c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* test, ::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* filter);
 
-  /// @brief Method get_Body, addr 0x4037784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x404be9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
-  /// @brief Method get_Filter, addr 0x403778c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Filter, addr 0x404bea4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Filter();
 
-  /// @brief Method get_Test, addr 0x403777c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Test, addr 0x404be94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Test();
 
-  /// @brief Method get_Variable, addr 0x4037774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variable, addr 0x404be8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::ParameterExpression* get_Variable();
 
 protected:
@@ -126,7 +126,7 @@ public:
   ::System::Linq::Expressions::Expression* ____Filter_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13620 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IncDecSettingsController::*)(bool)>(
     &::GlobalNamespace::IncDecSettingsController::set_enableDec)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bb1ab8;
+  constexpr static std::size_t addrs = 0x3bc6148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IncDecSettingsController::*)(bool)>(
     &::GlobalNamespace::IncDecSettingsController::set_enableInc)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bb1b00;
+  constexpr static std::size_t addrs = 0x3bc6190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IncDecSettingsController::*)(::StringW)>(
     &::GlobalNamespace::IncDecSettingsController::set_text)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3bb1b48;
+  constexpr static std::size_t addrs = 0x3bc61d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IncDecSettingsController::*)()>(&::GlobalNamespace::IncDecSettingsController::Awake)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bb1b98;
+  constexpr static std::size_t addrs = 0x3bc6228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IncDecSettingsController::*)()>(&::GlobalNamespace::IncDecSettingsController::OnDestroy)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3bb1d80;
+  constexpr static std::size_t addrs = 0x3bc6410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IncDecSettingsController*>::get(), "OnDestroy",
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IncDecSettingsController::*)()>(&::GlobalNamespace::IncDecSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb1fb4;
+  constexpr static std::size_t addrs = 0x3bc6644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IncDecSettingsController*>::get(), ".ctor",

@@ -34,15 +34,15 @@ public:
   /// @brief Field callback_, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_callback_, put = __cordl_internal_set_callback_)) ::Oculus::Platform::__Message__Callback* callback_;
 
-  /// @brief Method HandleMessage, addr 0x3f17520, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method HandleMessage, addr 0x3f2bbb0, size 0x68, virtual true, abstract: false, final false
   inline void HandleMessage(::Oculus::Platform::Message* msg);
 
   static inline ::Oculus::Platform::Request* New_ctor(uint64_t requestID);
 
-  /// @brief Method OnComplete, addr 0x3ee1f88, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnComplete, addr 0x3ef6618, size 0x6c, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request* OnComplete(::Oculus::Platform::__Message__Callback* callback);
 
-  /// @brief Method RunCallbacks, addr 0x3ee7164, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RunCallbacks, addr 0x3efb7f4, size 0x68, virtual false, abstract: false, final false
   static inline void RunCallbacks(uint32_t limit);
 
   constexpr uint64_t const& __cordl_internal_get__RequestID_k__BackingField() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_callback_(::Oculus::Platform::__Message__Callback* value);
 
-  /// @brief Method .ctor, addr 0x3f0e2c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f22958, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(uint64_t requestID);
 
-  /// @brief Method get_RequestID, addr 0x3f17510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestID, addr 0x3f2bba0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_RequestID();
 
-  /// @brief Method set_RequestID, addr 0x3f17518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RequestID, addr 0x3f2bba8, size 0x8, virtual false, abstract: false, final false
   inline void set_RequestID(uint64_t value);
 
 protected:
@@ -87,7 +87,7 @@ public:
   uint64_t ____RequestID_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15428 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

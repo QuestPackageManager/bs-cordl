@@ -17,7 +17,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename A> constexpr void TMPro::FastAction_1<A>::__cordl_internal_set_delegates(::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___delegates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___delegates, value);
 }
 template <typename A>
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>*&
@@ -35,7 +35,7 @@ template <typename A>
 constexpr void TMPro::FastAction_1<A>::__cordl_internal_set_lookup(
     ::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___lookup, value);
 }
 template <typename A> inline void TMPro::FastAction_1<A>::Add(::System::Action_1<A>* rhs) {
   static auto* ___internal_method =

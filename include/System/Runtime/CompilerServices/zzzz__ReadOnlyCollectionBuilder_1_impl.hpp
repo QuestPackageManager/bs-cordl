@@ -56,7 +56,7 @@ template <typename T>
 constexpr void
 System::Runtime::CompilerServices::__ReadOnlyCollectionBuilder_1__Enumerator<T>::__cordl_internal_set__builder(::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____builder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____builder, value);
 }
 template <typename T> constexpr int32_t& System::Runtime::CompilerServices::__ReadOnlyCollectionBuilder_1__Enumerator<T>::__cordl_internal_get__version() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -92,7 +92,7 @@ template <typename T> constexpr T const& System::Runtime::CompilerServices::__Re
 }
 template <typename T> constexpr void System::Runtime::CompilerServices::__ReadOnlyCollectionBuilder_1__Enumerator<T>::__cordl_internal_set__current(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____current, value);
 }
 template <typename T>
 inline ::System::Runtime::CompilerServices::__ReadOnlyCollectionBuilder_1__Enumerator<T>*
@@ -198,7 +198,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& System::Runtime:
 }
 template <typename T> constexpr void System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>::__cordl_internal_set__items(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____items, value);
 }
 template <typename T> constexpr int32_t& System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>::__cordl_internal_get__size() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

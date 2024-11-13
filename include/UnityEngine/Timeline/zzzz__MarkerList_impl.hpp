@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* (::UnityEngine::Timeline::MarkerList::*)()>(&::UnityEngine::Timeline::MarkerList::get_markers)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47ae8fc;
+  constexpr static std::size_t addrs = 0x47c3014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::MarkerList>::get(), "get_markers",
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::MarkerList::*)(int32_t)>(&::UnityEngine::Timeline::MarkerList::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x47a73f8;
+  constexpr static std::size_t addrs = 0x47bbb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::MarkerList::*)(::UnityEngine::ScriptableObject*)>(
     &::UnityEngine::Timeline::MarkerList::Add)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x47a4050;
+  constexpr static std::size_t addrs = 0x47b8768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::MarkerList::*)(::UnityEngine::Timeline::IMarker*)>(
     &::UnityEngine::Timeline::MarkerList::Remove)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x47a3118;
+  constexpr static std::size_t addrs = 0x47b7830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::MarkerList::*)(
     ::UnityEngine::ScriptableObject*, ::UnityEngine::Timeline::TimelineAsset*, ::UnityEngine::Playables::PlayableAsset*)>(&::UnityEngine::Timeline::MarkerList::Remove)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x47a416c;
+  constexpr static std::size_t addrs = 0x47b8884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::MarkerList::*)()>(&::UnityEngine::Timeline::MarkerList::Clear)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47a3fd8;
+  constexpr static std::size_t addrs = 0x47b86f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::MarkerList>::get(), "Clear",
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::MarkerList::*)(::UnityEngine::ScriptableObject*)>(
     &::UnityEngine::Timeline::MarkerList::Contains)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47aebe4;
+  constexpr static std::size_t addrs = 0x47c32fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* (::UnityEngine::Timeline::MarkerList::*)()>(&::UnityEngine::Timeline::MarkerList::GetMarkers)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47a32f8;
+  constexpr static std::size_t addrs = 0x47b7a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::MarkerList>::get(), "GetMarkers",
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Timeline::MarkerList::*)()>(&::UnityEngine::Timeline::MarkerList::get_Count)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x47a3310;
+  constexpr static std::size_t addrs = 0x47b7a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::MarkerList>::get(), "get_Count",
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::IMarker* (::UnityEngine::Timeline::MarkerList::*)(int32_t)>(
     &::UnityEngine::Timeline::MarkerList::get_Item)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47a3368;
+  constexpr static std::size_t addrs = 0x47b7a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* (
     ::UnityEngine::Timeline::MarkerList::*)()>(&::UnityEngine::Timeline::MarkerList::GetRawMarkerList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47aec3c;
+  constexpr static std::size_t addrs = 0x47c3354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::MarkerList>::get(), "GetRawMarkerList",
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::IMarker* (
     ::UnityEngine::Timeline::MarkerList::*)(::System::Type*, double_t, ::UnityEngine::Timeline::TrackAsset*)>(&::UnityEngine::Timeline::MarkerList::CreateMarker)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x47a2e18;
+  constexpr static std::size_t addrs = 0x47b7530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::MarkerList::*)()>(&::UnityEngine::Timeline::MarkerList::HasNotifications)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47a73e0;
+  constexpr static std::size_t addrs = 0x47bbaf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::MarkerList>::get(), "HasNotifications",
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::MarkerList::*)()>(
     &::UnityEngine::Timeline::MarkerList::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47aec44;
+  constexpr static std::size_t addrs = 0x47c335c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::MarkerList::*)()>(
     &::UnityEngine::Timeline::MarkerList::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47aec48;
+  constexpr static std::size_t addrs = 0x47c3360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::MarkerList::*)()>(&::UnityEngine::Timeline::MarkerList::BuildCache)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x47ae914;
+  constexpr static std::size_t addrs = 0x47c302c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::MarkerList>::get(), "BuildCache",

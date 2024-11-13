@@ -118,7 +118,7 @@ public:
   __KeyedFactoryBase_2____c(__KeyedFactoryBase_2____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12298 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -261,7 +261,7 @@ public:
   ::System::Type* ____fallbackType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12299 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

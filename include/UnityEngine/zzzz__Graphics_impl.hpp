@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::Graphics::Internal_GetMaxDrawMeshInstanceCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47fc6b8;
+  constexpr static std::size_t addrs = 0x4810dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::GraphicsTier (*)()>(&::UnityEngine::Graphics::get_activeTier)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47fc6e0;
+  constexpr static std::size_t addrs = 0x4810df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Graphics*>::get(), "get_activeTier",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::GraphicsTier)>(&::UnityEngine::Graphics::set_activeTier)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47fc708;
+  constexpr static std::size_t addrs = 0x4810e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::Graphics::Internal_SetNullRT)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47fc744;
+  constexpr static std::size_t addrs = 0x4810e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Graphics*>::get(), "Internal_SetNullRT",
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RenderBuffer, ::UnityEngine::RenderBuffer, int32_t, ::UnityEngine::CubemapFace, int32_t)>(
     &::UnityEngine::Graphics::Internal_SetRTSimple)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47fc76c;
+  constexpr static std::size_t addrs = 0x4810e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::Texture*)>(&::UnityEngine::Graphics::CopyTexture_Full)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47fc880;
+  constexpr static std::size_t addrs = 0x4810f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, int32_t, int32_t, ::UnityEngine::Texture*, int32_t, int32_t)>(
     &::UnityEngine::Graphics::CopyTexture_Slice)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47fc8c4;
+  constexpr static std::size_t addrs = 0x4810fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, int32_t, ::UnityEngine::Matrix4x4)>(&::UnityEngine::Graphics::Internal_DrawMeshNow2)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x47fc938;
+  constexpr static std::size_t addrs = 0x4811050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::Rendering::ShadowCastingMode, bool, ::UnityEngine::Transform*, ::UnityEngine::Rendering::LightProbeUsage, ::UnityEngine::LightProbeProxyVolume*)>(
         &::UnityEngine::Graphics::Internal_DrawMesh)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x47fca18;
+  constexpr static std::size_t addrs = 0x4811130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,7 +173,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::ShadowCastingMode, bool, int32_t, ::UnityEngine::Camera*, ::UnityEngine::Rendering::LightProbeUsage, ::UnityEngine::LightProbeProxyVolume*)>(
     &::UnityEngine::Graphics::Internal_DrawMeshInstanced)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47fcbc8;
+  constexpr static std::size_t addrs = 0x48112e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*, int32_t, bool)>(
     &::UnityEngine::Graphics::Internal_BlitMaterial5)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x47fcc88;
+  constexpr static std::size_t addrs = 0x48113a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*)>(&::UnityEngine::Graphics::Blit2)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47fccf4;
+  constexpr static std::size_t addrs = 0x481140c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::UnityEngine::Graphics::Blit4)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x47fcd38;
+  constexpr static std::size_t addrs = 0x4811450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*)>(&::UnityEngine::Graphics::ExecuteCommandBuffer)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47fce34;
+  constexpr static std::size_t addrs = 0x481154c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RenderBuffer, ::UnityEngine::RenderBuffer, int32_t, ::UnityEngine::CubemapFace, int32_t)>(
     &::UnityEngine::Graphics::SetRenderTargetImpl)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x47fce70;
+  constexpr static std::size_t addrs = 0x4811588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RenderTexture*, int32_t, ::UnityEngine::CubemapFace, int32_t)>(
     &::UnityEngine::Graphics::SetRenderTargetImpl)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x47fcf0c;
+  constexpr static std::size_t addrs = 0x4811624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RenderTexture*, int32_t, ::UnityEngine::CubemapFace, int32_t)>(
     &::UnityEngine::Graphics::SetRenderTarget)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x47fd040;
+  constexpr static std::size_t addrs = 0x4811758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::Texture*)>(&::UnityEngine::Graphics::CopyTexture)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x47fd0bc;
+  constexpr static std::size_t addrs = 0x48117d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, int32_t, int32_t, ::UnityEngine::Texture*, int32_t, int32_t)>(
     &::UnityEngine::Graphics::CopyTexture)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x47fd140;
+  constexpr static std::size_t addrs = 0x4811858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4, int32_t)>(&::UnityEngine::Graphics::DrawMeshNow)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x47fd1f4;
+  constexpr static std::size_t addrs = 0x481190c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4, ::UnityEngine::Material*, int32_t, ::UnityEngine::Camera*,
                                                                                            int32_t, ::UnityEngine::MaterialPropertyBlock*, bool, bool, bool)>(&::UnityEngine::Graphics::DrawMesh)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x47fd30c;
+  constexpr static std::size_t addrs = 0x4811a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,7 +385,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::Rendering::ShadowCastingMode, bool, ::UnityEngine::Transform*, ::UnityEngine::Rendering::LightProbeUsage, ::UnityEngine::LightProbeProxyVolume*)>(
         &::UnityEngine::Graphics::DrawMesh)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x47fd44c;
+  constexpr static std::size_t addrs = 0x4811b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -410,7 +410,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Rendering::ShadowCastingMode, bool, int32_t, ::UnityEngine::Camera*, ::UnityEngine::Rendering::LightProbeUsage, ::UnityEngine::LightProbeProxyVolume*)>(
     &::UnityEngine::Graphics::DrawMeshInstanced)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x47fd5e4;
+  constexpr static std::size_t addrs = 0x4811cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*)>(&::UnityEngine::Graphics::Blit)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x47fdaa0;
+  constexpr static std::size_t addrs = 0x48121b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::UnityEngine::Graphics::Blit)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x47fdb24;
+  constexpr static std::size_t addrs = 0x481223c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*, int32_t)>(
     &::UnityEngine::Graphics::Blit)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x47fdbb8;
+  constexpr static std::size_t addrs = 0x48122d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -484,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*)>(
     &::UnityEngine::Graphics::Blit)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47fdc58;
+  constexpr static std::size_t addrs = 0x4812370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Mesh*, int32_t, ::UnityEngine::Material*, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>, int32_t,
                          ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Rendering::ShadowCastingMode, bool, int32_t)>(&::UnityEngine::Graphics::DrawMeshInstanced)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x47fdcc8;
+  constexpr static std::size_t addrs = 0x48123e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -522,7 +522,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RenderTexture*)>(&::UnityEngine::Graphics::SetRenderTarget)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47fdd98;
+  constexpr static std::size_t addrs = 0x48124b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RenderTexture*, int32_t, ::UnityEngine::CubemapFace)>(
     &::UnityEngine::Graphics::SetRenderTarget)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47fddf8;
+  constexpr static std::size_t addrs = 0x4812510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::RenderBuffer>, ByRef<::UnityEngine::RenderBuffer>, int32_t, ::UnityEngine::CubemapFace,
                                                                                            int32_t)>(&::UnityEngine::Graphics::Internal_SetRTSimple_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x47fc814;
+  constexpr static std::size_t addrs = 0x4810f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -572,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Mesh*, int32_t, ByRef<::UnityEngine::Matrix4x4>)>(
     &::UnityEngine::Graphics::Internal_DrawMeshNow2_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47fc9c4;
+  constexpr static std::size_t addrs = 0x48110dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -590,7 +590,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::UnityEngine::Rendering::ShadowCastingMode, bool, ::UnityEngine::Transform*, ::UnityEngine::Rendering::LightProbeUsage, ::UnityEngine::LightProbeProxyVolume*)>(
         &::UnityEngine::Graphics::Internal_DrawMesh_Injected)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47fcb08;
+  constexpr static std::size_t addrs = 0x4811220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -613,7 +613,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ByRef<::UnityEngine::Vector2>, ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::Graphics::Blit4_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47fcdd8;
+  constexpr static std::size_t addrs = 0x48114f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

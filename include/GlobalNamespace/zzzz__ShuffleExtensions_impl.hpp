@@ -79,7 +79,7 @@ template <typename T> constexpr T const& GlobalNamespace::__ShuffleExtensions___
 }
 template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_set___2__current(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -106,7 +106,7 @@ GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>
 template <typename T>
 constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___source, value);
 }
 template <typename T>
 constexpr ::System::Collections::Generic::IEnumerable_1<T>*& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_get___3__source() {
@@ -122,7 +122,7 @@ GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>
 template <typename T>
 constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_set___3__source(::System::Collections::Generic::IEnumerable_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____3__source, value);
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_get_count() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -159,7 +159,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& GlobalNa
 }
 template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_set_random(::System::Random* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___random, value);
 }
 template <typename T> constexpr ::System::Random*& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_get___3__random() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -172,7 +172,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& GlobalNa
 }
 template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_set___3__random(::System::Random* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____3__random, value);
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_get_limit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -208,7 +208,7 @@ template <typename T> constexpr T const& GlobalNamespace::__ShuffleExtensions___
 }
 template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_set_tombstone(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tombstone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___tombstone, value);
 }
 template <typename T> constexpr T& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_get___3__tombstone() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -220,7 +220,7 @@ template <typename T> constexpr T const& GlobalNamespace::__ShuffleExtensions___
 }
 template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_set___3__tombstone(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__tombstone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____3__tombstone, value);
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_get__index_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -259,7 +259,7 @@ GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>
 template <typename T>
 constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__cordl_internal_set___7__wrap3(::System::Collections::Generic::IEnumerator_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____7__wrap3, value);
 }
 template <typename T>
 inline ::GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>*
@@ -387,7 +387,7 @@ template <typename T> constexpr T const& GlobalNamespace::__ShuffleExtensions___
 }
 template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_internal_set___2__current(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -413,7 +413,7 @@ GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_inte
 }
 template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___source, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>*& GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_internal_get___3__source() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -427,7 +427,7 @@ GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_inte
 }
 template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_internal_set___3__source(::System::Collections::Generic::IEnumerable_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____3__source, value);
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_internal_get_limit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -463,7 +463,7 @@ template <typename T> constexpr T const& GlobalNamespace::__ShuffleExtensions___
 }
 template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_internal_set_tombstone(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tombstone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___tombstone, value);
 }
 template <typename T> constexpr T& GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_internal_get___3__tombstone() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -475,7 +475,7 @@ template <typename T> constexpr T const& GlobalNamespace::__ShuffleExtensions___
 }
 template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_internal_set___3__tombstone(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__tombstone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____3__tombstone, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::IEnumerator_1<T>*& GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_internal_get__enumerator_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -490,7 +490,7 @@ GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_inte
 template <typename T>
 constexpr void GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_internal_set__enumerator_5__2(::System::Collections::Generic::IEnumerator_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____enumerator_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____enumerator_5__2, value);
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1<T>::__cordl_internal_get__index_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -570,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)(int32_t)>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x225fa34;
+  constexpr static std::size_t addrs = 0x226a9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -585,7 +585,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x225fa68;
+  constexpr static std::size_t addrs = 0x226aa1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x225fb18;
+  constexpr static std::size_t addrs = 0x226aacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__m__Finally1)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2260108;
+  constexpr static std::size_t addrs = 0x226b0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__m__Finally2)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2260058;
+  constexpr static std::size_t addrs = 0x226b00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -645,7 +645,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<int32_t, int32_t> (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22601b8;
+  constexpr static std::size_t addrs = 0x226b16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -660,7 +660,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x22601c0;
+  constexpr static std::size_t addrs = 0x226b174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -675,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x22601f8;
+  constexpr static std::size_t addrs = 0x226b1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -691,7 +691,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
         &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_Generic_IEnumerable__System_Int32_System_Int32___GetEnumerator)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2260254;
+  constexpr static std::size_t addrs = 0x226b208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -706,7 +706,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2260300;
+  constexpr static std::size_t addrs = 0x226b2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -968,7 +968,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ValueTuple_2<int32_t, int32_t>>* (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, int32_t)>(
     &::GlobalNamespace::ShuffleExtensions::ZipSkipTombstone)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x225f9ac;
+  constexpr static std::size_t addrs = 0x226a960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

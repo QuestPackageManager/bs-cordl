@@ -53,34 +53,34 @@ public:
   /// @brief Field start, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) int32_t start;
 
-  /// @brief Method AllowUnsafe, addr 0x22d6148, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AllowUnsafe, addr 0x22e11f0, size 0xb0, virtual false, abstract: false, final false
   static inline bool AllowUnsafe();
 
-  /// @brief Method Asn1Equals, addr 0x22d6998, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x22e1a40, size 0xbc, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x22d693c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x22e19e4, size 0x5c, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Encode, addr 0x22d6914, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x22e19bc, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method GetInstance, addr 0x22d2918, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22dd9c0, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerInteger* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x22cfd84, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22dae2c, size 0xe8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerInteger* GetInstance(::System::Object* obj);
 
-  /// @brief Method HasValue, addr 0x22d65c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HasValue, addr 0x22e1668, size 0x74, virtual false, abstract: false, final false
   inline bool HasValue(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method IntValue, addr 0x22d6634, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method IntValue, addr 0x22e16dc, size 0xe4, virtual false, abstract: false, final false
   static inline int32_t IntValue(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t signExt);
 
-  /// @brief Method IsMalformed, addr 0x22d6410, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsMalformed, addr 0x22e14b8, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsMalformed(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method LongValue, addr 0x22d682c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method LongValue, addr 0x22e18d4, size 0xe8, virtual false, abstract: false, final false
   static inline int64_t LongValue(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t signExt);
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
@@ -93,10 +93,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* New_ctor(int64_t value);
 
-  /// @brief Method SignBytesToSkip, addr 0x22d648c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SignBytesToSkip, addr 0x22e1534, size 0x70, virtual false, abstract: false, final false
   static inline int32_t SignBytesToSkip(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method ToString, addr 0x22d6a54, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x22e1afc, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_bytes() const;
@@ -111,34 +111,34 @@ public:
 
   constexpr void __cordl_internal_set_start(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22d61f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e12a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0x22d6310, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e13b8, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, bool clone);
 
-  /// @brief Method .ctor, addr 0x22d628c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e1334, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x22ced30, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d9dd8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22d6200, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e12a8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
-  /// @brief Method get_IntPositiveValueExact, addr 0x22d6718, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_IntPositiveValueExact, addr 0x22e17c0, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_IntPositiveValueExact();
 
-  /// @brief Method get_IntValueExact, addr 0x22d2af0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IntValueExact, addr 0x22ddb98, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_IntValueExact();
 
-  /// @brief Method get_LongValueExact, addr 0x22d67b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_LongValueExact, addr 0x22e1858, size 0x7c, virtual false, abstract: false, final false
   inline int64_t get_LongValueExact();
 
-  /// @brief Method get_PositiveValue, addr 0x22d64fc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveValue, addr 0x22e15a4, size 0x64, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PositiveValue();
 
-  /// @brief Method get_Value, addr 0x22d6560, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x22e1608, size 0x60, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
 
 protected:

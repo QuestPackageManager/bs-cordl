@@ -68,49 +68,49 @@ public:
 
   constexpr void __cordl_internal_set__Options_k__BackingField(::System::Net::Security::SslClientAuthenticationOptions* value);
 
-  /// @brief Method .ctor, addr 0x409c8bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b0fd4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ClientCertificateRequired, addr 0x409f7d0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_ClientCertificateRequired, addr 0x40b3ee8, size 0x38, virtual true, abstract: false, final false
   inline bool get_ClientCertificateRequired();
 
-  /// @brief Method get_ClientCertificates, addr 0x409f840, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x40b3f58, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method get_EnabledSslProtocols, addr 0x409f760, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_EnabledSslProtocols, addr 0x40b3e78, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
-  /// @brief Method get_Options, addr 0x409f718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Options, addr 0x40b3e30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::SslClientAuthenticationOptions* get_Options();
 
-  /// @brief Method get_ServerCertificate, addr 0x409f878, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_ServerCertificate, addr 0x40b3f90, size 0x38, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_ServerCertificate();
 
-  /// @brief Method get_ServerMode, addr 0x409f720, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ServerMode, addr 0x40b3e38, size 0x8, virtual true, abstract: false, final false
   inline bool get_ServerMode();
 
-  /// @brief Method get_TargetHost, addr 0x409f798, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetHost, addr 0x40b3eb0, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_TargetHost();
 
-  /// @brief Method set_CertificateRevocationCheckMode, addr 0x409f728, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method set_CertificateRevocationCheckMode, addr 0x40b3e40, size 0x1c, virtual true, abstract: false, final false
   inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method set_ClientCertificateRequired, addr 0x409f808, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_ClientCertificateRequired, addr 0x40b3f20, size 0x38, virtual true, abstract: false, final false
   inline void set_ClientCertificateRequired(bool value);
 
-  /// @brief Method set_ClientCertificates, addr 0x409f85c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method set_ClientCertificates, addr 0x40b3f74, size 0x1c, virtual true, abstract: false, final false
   inline void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method set_EnabledSslProtocols, addr 0x409f77c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method set_EnabledSslProtocols, addr 0x40b3e94, size 0x1c, virtual true, abstract: false, final false
   inline void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value);
 
-  /// @brief Method set_EncryptionPolicy, addr 0x409f744, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method set_EncryptionPolicy, addr 0x40b3e5c, size 0x1c, virtual true, abstract: false, final false
   inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
-  /// @brief Method set_ServerCertificate, addr 0x409f8b0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_ServerCertificate, addr 0x40b3fc8, size 0x38, virtual true, abstract: false, final false
   inline void set_ServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
-  /// @brief Method set_TargetHost, addr 0x409f7b4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method set_TargetHost, addr 0x40b3ecc, size 0x1c, virtual true, abstract: false, final false
   inline void set_TargetHost(::StringW value);
 
 protected:
@@ -131,7 +131,7 @@ public:
   ::System::Net::Security::SslClientAuthenticationOptions* ____Options_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9130 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

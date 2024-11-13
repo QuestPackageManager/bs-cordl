@@ -12,7 +12,7 @@ template <typename T> constexpr T const& BGLib::UnityExtension::BezierCurves::Ba
 }
 template <typename T> constexpr void BGLib::UnityExtension::BezierCurves::BaseBezierCurve_1<T>::__cordl_internal_set__bezierCurveData(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bezierCurveData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____bezierCurveData, value);
 }
 template <typename T> inline ::BGLib::UnityExtension::BezierCurves::BaseBezierCurve_1<T>* BGLib::UnityExtension::BezierCurves::BaseBezierCurve_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::BezierCurves::BaseBezierCurve_1<T>*>());

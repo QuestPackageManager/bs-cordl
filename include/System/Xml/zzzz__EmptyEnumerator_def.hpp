@@ -32,16 +32,16 @@ public:
 
   static inline ::System::Xml::EmptyEnumerator* New_ctor();
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x42d341c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x42e7b34, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x42d3424, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x42e7b3c, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x42d3428, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x42e7b40, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x42d3480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42e7b98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -62,7 +62,7 @@ public:
   EmptyEnumerator(EmptyEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7288 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7293 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

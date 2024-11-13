@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set__match(bool value);
 
-  /// @brief Method .ctor, addr 0x4083f9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40986b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::CallSiteBinder* binder);
 
-  /// @brief Method get_Binder, addr 0x4083fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Binder, addr 0x40986dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::CallSiteBinder* get_Binder();
 
 protected:
@@ -71,7 +71,7 @@ public:
   bool ____match;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14093 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

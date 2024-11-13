@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SipHash::*)()>(&::Org::BouncyCastle::Crypto::Macs::SipHash::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x235a488;
+  constexpr static std::size_t addrs = 0x2365530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SipHash::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Macs::SipHash::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x235a4b0;
+  constexpr static std::size_t addrs = 0x2365558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Macs::SipHash::*)()>(
     &::Org::BouncyCastle::Crypto::Macs::SipHash::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x235a4e0;
+  constexpr static std::size_t addrs = 0x2365588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Macs::SipHash::*)()>(&::Org::BouncyCastle::Crypto::Macs::SipHash::GetMacSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x235a674;
+  constexpr static std::size_t addrs = 0x236571c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SipHash::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Macs::SipHash::Init)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x235a67c;
+  constexpr static std::size_t addrs = 0x2365724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SipHash::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Macs::SipHash::Update)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x235a7c8;
+  constexpr static std::size_t addrs = 0x2365870;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SipHash::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Macs::SipHash::BlockUpdate)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x235a80c;
+  constexpr static std::size_t addrs = 0x23658b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::Macs::SipHash::*)()>(&::Org::BouncyCastle::Crypto::Macs::SipHash::DoFinal)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x235a9b8;
+  constexpr static std::size_t addrs = 0x2365a60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Macs::SipHash::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Macs::SipHash::DoFinal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x235aa54;
+  constexpr static std::size_t addrs = 0x2365afc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SipHash::*)()>(&::Org::BouncyCastle::Crypto::Macs::SipHash::Reset)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x235aa98;
+  constexpr static std::size_t addrs = 0x2365b40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SipHash::*)()>(
     &::Org::BouncyCastle::Crypto::Macs::SipHash::ProcessMessageWord)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x235aafc;
+  constexpr static std::size_t addrs = 0x2365ba4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SipHash::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Macs::SipHash::ApplySipRounds)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x235ab48;
+  constexpr static std::size_t addrs = 0x2365bf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t, int32_t)>(&::Org::BouncyCastle::Crypto::Macs::SipHash::RotateLeft)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x235ab94;
+  constexpr static std::size_t addrs = 0x2365c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -62,7 +62,7 @@ public:
 
   static inline ::GlobalNamespace::LightGroup* New_ctor();
 
-  /// @brief Method SetColor, addr 0x3976cec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x398a570, size 0x8c, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   constexpr ::UnityW<::GlobalNamespace::LightGroupSO> const& __cordl_internal_get__lightGroupSO() const;
@@ -89,37 +89,37 @@ public:
 
   constexpr void __cordl_internal_set_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method .ctor, addr 0x3976fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398a838, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didRefreshContentEvent, addr 0x3976b8c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didRefreshContentEvent, addr 0x398a410, size 0xb0, virtual false, abstract: false, final false
   inline void add_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method add_respawnEvent, addr 0x3976a2c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_respawnEvent, addr 0x398a2b0, size 0xb0, virtual false, abstract: false, final false
   inline void add_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method get_groupId, addr 0x39768b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x398a134, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x39769a8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x398a22c, size 0x84, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method get_lightGroupSO, addr 0x39767b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroupSO, addr 0x398a034, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroupSO();
 
-  /// @brief Method get_numberOfElements, addr 0x39767b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfElements, addr 0x398a03c, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x397692c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_sameIdElements, addr 0x398a1b0, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_startLightId, addr 0x3976834, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_startLightId, addr 0x398a0b8, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
-  /// @brief Method remove_didRefreshContentEvent, addr 0x3976c3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didRefreshContentEvent, addr 0x398a4c0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method remove_respawnEvent, addr 0x3976adc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_respawnEvent, addr 0x398a360, size 0xb0, virtual false, abstract: false, final false
   inline void remove_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
 protected:
@@ -149,7 +149,7 @@ public:
   ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___didRefreshContentEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16253 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -34,18 +34,18 @@ public:
   /// @brief Field _toggle, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle)) ::UnityW<::UnityEngine::UI::Toggle> _toggle;
 
-  /// @brief Method HandleToggleValueChanged, addr 0x397e4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleValueChanged, addr 0x3991d5c, size 0x8, virtual false, abstract: false, final false
   inline void HandleToggleValueChanged(bool isOn);
 
   static inline ::GlobalNamespace::ToggleableCanvasGroup* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x397e434, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3991cb8, size 0xa4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x397e34c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3991bd0, size 0xb8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetCanvasGroupData, addr 0x397e404, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetCanvasGroupData, addr 0x3991c88, size 0x30, virtual false, abstract: false, final false
   inline void SetCanvasGroupData(bool isOn);
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x397e4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3991d64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,7 +93,7 @@ public:
   bool ____invertToggle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15970 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

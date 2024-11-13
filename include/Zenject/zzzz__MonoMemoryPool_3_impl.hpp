@@ -18,7 +18,7 @@ constexpr ::UnityW<::UnityEngine::Transform> const& Zenject::MonoMemoryPool_3<TP
 template <typename TParam1, typename TParam2, typename TValue>
 constexpr void Zenject::MonoMemoryPool_3<TParam1, TParam2, TValue>::__cordl_internal_set__originalParent(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____originalParent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____originalParent, value);
 }
 template <typename TParam1, typename TParam2, typename TValue> inline ::Zenject::MonoMemoryPool_3<TParam1, TParam2, TValue>* Zenject::MonoMemoryPool_3<TParam1, TParam2, TValue>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MonoMemoryPool_3<TParam1, TParam2, TValue>*>());

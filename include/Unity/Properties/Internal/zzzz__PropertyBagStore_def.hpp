@@ -63,7 +63,7 @@ public:
   constexpr __PropertyBagStore__TypedStore_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17487 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -99,7 +99,7 @@ public:
   /// @brief Method AddPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer> static inline void AddPropertyBag(::Unity::Properties::IPropertyBag_1<TContainer>* propertyBag);
 
-  /// @brief Method GetPropertyBag, addr 0x4899540, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyBag, addr 0x48adc58, size 0x284, virtual false, abstract: false, final false
   static inline ::Unity::Properties::IPropertyBag* GetPropertyBag(::System::Type* type);
 
   /// @brief Method GetPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -136,7 +136,7 @@ public:
   PropertyBagStore(PropertyBagStore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

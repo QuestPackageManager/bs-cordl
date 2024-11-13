@@ -54,13 +54,13 @@ public:
 
   static inline ::GlobalNamespace::ObstacleMaterialSetter* New_ctor();
 
-  /// @brief Method SetCoreMaterial, addr 0x3a834ec, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetCoreMaterial, addr 0x3a96e74, size 0xfc, virtual false, abstract: false, final false
   inline void SetCoreMaterial(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method SetFakeGlowMaterial, addr 0x3a835e8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetFakeGlowMaterial, addr 0x3a96f70, size 0x4c, virtual false, abstract: false, final false
   inline void SetFakeGlowMaterial(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method Start, addr 0x3a834cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a96e54, size 0x20, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__fakeGlowLWMaterial() const;
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set__texturedCoreMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x3a83634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a96fbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -153,7 +153,7 @@ public:
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4135 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

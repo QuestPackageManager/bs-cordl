@@ -53,21 +53,21 @@ public:
   /// @brief Field _settingsManager, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method DidActivate, addr 0x3a88140, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3a9bc1c, size 0x1ec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3a88378, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3a9be54, size 0x13c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleHideExplicitChanged, addr 0x3a884d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleHideExplicitChanged, addr 0x3a9bfac, size 0x30, virtual false, abstract: false, final false
   inline void HandleHideExplicitChanged(bool newValue);
 
-  /// @brief Method HandlePausePressDurationChanged, addr 0x3a884b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandlePausePressDurationChanged, addr 0x3a9bf90, size 0x1c, virtual false, abstract: false, final false
   inline void HandlePausePressDurationChanged(int32_t newValue);
 
   static inline ::GlobalNamespace::OtherSettingsViewController* New_ctor();
 
-  /// @brief Method UpdateExplicitContentHiddenWarningVisibility, addr 0x3a8832c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UpdateExplicitContentHiddenWarningVisibility, addr 0x3a9be08, size 0x4c, virtual false, abstract: false, final false
   inline void UpdateExplicitContentHiddenWarningVisibility();
 
   constexpr bool const& __cordl_internal_get__explicitToggleAvailable() const;
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3a88500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9bfdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,7 +142,7 @@ public:
   bool ____explicitToggleAvailable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4930 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

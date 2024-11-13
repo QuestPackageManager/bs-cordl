@@ -38,31 +38,31 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method GetPoint, addr 0x47f9804, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x480df1c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(float_t distance);
 
-  /// @brief Method ToString, addr 0x47f982c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x480df44, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x47f983c, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x480df54, size 0x188, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x47f9610, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x480dd28, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 origin, ::UnityEngine::Vector3 direction);
 
-  /// @brief Method get_direction, addr 0x47f9714, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x480de2c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_direction();
 
-  /// @brief Method get_origin, addr 0x47f96fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_origin, addr 0x480de14, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_origin();
 
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method set_direction, addr 0x47f9720, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x480de38, size 0xe4, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_origin, addr 0x47f9708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_origin, addr 0x480de20, size 0xc, virtual false, abstract: false, final false
   inline void set_origin(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
@@ -80,7 +80,7 @@ public:
   ::UnityEngine::Vector3 m_Direction;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10667 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

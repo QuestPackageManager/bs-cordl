@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair::*)()>(
     &::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair::get_levelId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a19f4;
+  constexpr static std::size_t addrs = 0x26ad614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair::*)()>(
     &::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair::get_perceivedLoudness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a19fc;
+  constexpr static std::size_t addrs = 0x26ad61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair::*)()>(
     &::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair::get_checksum)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a1a04;
+  constexpr static std::size_t addrs = 0x26ad624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair::*)(::StringW)>(
     &::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26a1a0c;
+  constexpr static std::size_t addrs = 0x26ad62c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair::*)(float_t, ::StringW)>(
     &::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair::SetLoudness)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26a1a80;
+  constexpr static std::size_t addrs = 0x26ad6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PerceivedLoudnessSO____c__DisplayClass6_0::*)()>(
     &::GlobalNamespace::__PerceivedLoudnessSO____c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a1950;
+  constexpr static std::size_t addrs = 0x26ad570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__PerceivedLoudnessSO____c__DisplayClass6_0::*)(
     ::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*)>(&::GlobalNamespace::__PerceivedLoudnessSO____c__DisplayClass6_0::_GetLoudnessData_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26a1a8c;
+  constexpr static std::size_t addrs = 0x26ad6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -220,7 +220,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>* (::GlobalNamespace::PerceivedLoudnessSO::*)()>(
         &::GlobalNamespace::PerceivedLoudnessSO::get_perceivedLoudnessPairs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a16fc;
+  constexpr static std::size_t addrs = 0x26ad31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerceivedLoudnessSO*>::get(),
@@ -235,7 +235,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>* (::GlobalNamespace::PerceivedLoudnessSO::*)()>(
         &::GlobalNamespace::PerceivedLoudnessSO::ToDictionary)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x26a1704;
+  constexpr static std::size_t addrs = 0x26ad324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerceivedLoudnessSO*>::get(), "ToDictionary",
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerceivedLoudnessSO::*)(
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>*)>(&::GlobalNamespace::PerceivedLoudnessSO::SetLoudnessData)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26a17e4;
+  constexpr static std::size_t addrs = 0x26ad404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<float_t> (::GlobalNamespace::PerceivedLoudnessSO::*)(::StringW)>(
     &::GlobalNamespace::PerceivedLoudnessSO::GetLoudnessData)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x26a1840;
+  constexpr static std::size_t addrs = 0x26ad460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerceivedLoudnessSO::*)()>(&::GlobalNamespace::PerceivedLoudnessSO::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26a1958;
+  constexpr static std::size_t addrs = 0x26ad578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerceivedLoudnessSO*>::get(), ".ctor",

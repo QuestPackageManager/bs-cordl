@@ -102,42 +102,42 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x3b7ece4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x3b94894, size 0x190, virtual false, abstract: false, final false
   inline void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int32_t idx);
 
-  /// @brief Method HandleEditColorSchemeButtonWasPressed, addr 0x3b7f0d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleEditColorSchemeButtonWasPressed, addr 0x3b94c80, size 0x80, virtual false, abstract: false, final false
   inline void HandleEditColorSchemeButtonWasPressed();
 
-  /// @brief Method HandleEditColorSchemeControllerDidChangeColorScheme, addr 0x3b7f1bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleEditColorSchemeControllerDidChangeColorScheme, addr 0x3b94d6c, size 0x2c, virtual false, abstract: false, final false
   inline void HandleEditColorSchemeControllerDidChangeColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method HandleEditColorSchemeControllerDidFinish, addr 0x3b7f168, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleEditColorSchemeControllerDidFinish, addr 0x3b94d18, size 0x54, virtual false, abstract: false, final false
   inline void HandleEditColorSchemeControllerDidFinish();
 
-  /// @brief Method HandleOverrideColorsToggleValueChanged, addr 0x3b7ee74, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method HandleOverrideColorsToggleValueChanged, addr 0x3b94a24, size 0x25c, virtual false, abstract: false, final false
   inline void HandleOverrideColorsToggleValueChanged(bool isOn);
 
-  /// @brief Method HideDropdown, addr 0x3b7ecc4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HideDropdown, addr 0x3b94848, size 0x4c, virtual false, abstract: false, final false
   inline void HideDropdown(bool animated);
 
   static inline ::GlobalNamespace::ColorsOverrideSettingsPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b7e73c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b942c0, size 0x22c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b7eab4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b94638, size 0x28, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b7eadc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b94660, size 0x10, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x3b7eaec, size 0x1d8, virtual true, abstract: false, final true
+  /// @brief Method Refresh, addr 0x3b94670, size 0x1d8, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method SetData, addr 0x3b7e39c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b93f20, size 0x254, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
 
-  /// @brief Method <HandleOverrideColorsToggleValueChanged>b__20_0, addr 0x3b7f1f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <HandleOverrideColorsToggleValueChanged>b__20_0, addr 0x3b94da0, size 0x20, virtual false, abstract: false, final false
   inline void _HandleOverrideColorsToggleValueChanged_b__20_0();
 
   constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
@@ -218,7 +218,7 @@ public:
 
   constexpr void __cordl_internal_set__presentPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  /// @brief Method .ctor, addr 0x3b7f1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b94d98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
@@ -278,7 +278,7 @@ public:
   bool ____isDirty;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4723 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

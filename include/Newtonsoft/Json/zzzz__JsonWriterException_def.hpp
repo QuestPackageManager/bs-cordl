@@ -37,10 +37,10 @@ public:
   /// @brief Field <Path>k__BackingField, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField)) ::StringW _Path_k__BackingField;
 
-  /// @brief Method Create, addr 0x3e47b2c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3e5c1bc, size 0xb4, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonWriterException* Create(::StringW path, ::StringW message, ::System::Exception* ex);
 
-  /// @brief Method Create, addr 0x3e46e24, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3e5b4b4, size 0x34, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonWriterException* Create(::Newtonsoft::Json::JsonWriter* writer, ::StringW message, ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::JsonWriterException* New_ctor();
@@ -59,22 +59,22 @@ public:
 
   constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3e47ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5c170, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e47af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5c188, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e47ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5c178, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3e47af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5c180, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3e47b00, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5c190, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW path, ::System::Exception* innerException);
 
-  /// @brief Method get_Path, addr 0x3e47ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3e5c168, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:
@@ -95,7 +95,7 @@ public:
   ::StringW ____Path_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10132 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10137 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

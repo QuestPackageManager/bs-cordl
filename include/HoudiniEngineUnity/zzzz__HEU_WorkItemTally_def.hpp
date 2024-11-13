@@ -39,21 +39,21 @@ public:
   /// @brief Field _waitingWorkItems, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__waitingWorkItems, put = __cordl_internal_set__waitingWorkItems)) int32_t _waitingWorkItems;
 
-  /// @brief Method AnyWorkItemsFailed, addr 0x39e93d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsFailed, addr 0x39fcd30, size 0x10, virtual false, abstract: false, final false
   inline bool AnyWorkItemsFailed();
 
-  /// @brief Method AnyWorkItemsPending, addr 0x39e9440, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsPending, addr 0x39fcd98, size 0x44, virtual false, abstract: false, final false
   inline bool AnyWorkItemsPending();
 
-  /// @brief Method AreAllWorkItemsComplete, addr 0x39e93a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method AreAllWorkItemsComplete, addr 0x39fccf8, size 0x38, virtual false, abstract: false, final false
   inline bool AreAllWorkItemsComplete();
 
   static inline ::HoudiniEngineUnity::HEU_WorkItemTally* New_ctor();
 
-  /// @brief Method ProgressRatio, addr 0x39e9484, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ProgressRatio, addr 0x39fcddc, size 0xac, virtual false, abstract: false, final false
   inline ::StringW ProgressRatio();
 
-  /// @brief Method ZeroAll, addr 0x39e8344, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ZeroAll, addr 0x39fbc9c, size 0xc, virtual false, abstract: false, final false
   inline void ZeroAll();
 
   constexpr int32_t const& __cordl_internal_get__cookedWorkItems() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__waitingWorkItems(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39e9260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fcbb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -128,7 +128,7 @@ public:
   int32_t ____erroredWorkItems;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11723 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

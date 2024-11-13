@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::Start)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3b32e18;
+  constexpr static std::size_t addrs = 0x3b488d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3b33050;
+  constexpr static std::size_t addrs = 0x3b48b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)(
     ::GlobalNamespace::IMultiplayerSpectatingSpot*)>(&::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::HandleSpectatingSpotDidChangeEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b331f8;
+  constexpr static std::size_t addrs = 0x3b48cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::RefreshSpectatingSpotName)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3b32f54;
+  constexpr static std::size_t addrs = 0x3b48a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::HandleIncButtonWasPressed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b331fc;
+  constexpr static std::size_t addrs = 0x3b48cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::HandleDecButtonWasPressed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b33218;
+  constexpr static std::size_t addrs = 0x3b48cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b33234;
+  constexpr static std::size_t addrs = 0x3b48cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

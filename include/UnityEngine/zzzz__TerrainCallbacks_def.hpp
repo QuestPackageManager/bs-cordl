@@ -51,12 +51,12 @@ namespace UnityEngine {
 class CORDL_TYPE __TerrainCallbacks__HeightmapChangedCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x48a108c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x48b57a4, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Terrain* terrain, ::UnityEngine::RectInt heightRegion, bool synched);
 
   static inline ::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x48a0fec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b5704, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -74,7 +74,7 @@ public:
   __TerrainCallbacks__HeightmapChangedCallback(__TerrainCallbacks__HeightmapChangedCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18038 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,12 +90,12 @@ namespace UnityEngine {
 class CORDL_TYPE __TerrainCallbacks__TextureChangedCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x48a1144, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x48b585c, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Terrain* terrain, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
 
   static inline ::UnityEngine::__TerrainCallbacks__TextureChangedCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x48a10a4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b57bc, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -113,7 +113,7 @@ public:
   __TerrainCallbacks__TextureChangedCallback(__TerrainCallbacks__TextureChangedCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18039 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -139,10 +139,10 @@ public:
   /// @brief Field textureChanged, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_textureChanged, put = setStaticF_textureChanged)) ::UnityEngine::__TerrainCallbacks__TextureChangedCallback* textureChanged;
 
-  /// @brief Method InvokeHeightmapChangedCallback, addr 0x48a0d88, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method InvokeHeightmapChangedCallback, addr 0x48b54a0, size 0x10c, virtual false, abstract: false, final false
   static inline void InvokeHeightmapChangedCallback(::UnityEngine::TerrainData* terrainData, ::UnityEngine::RectInt heightRegion, bool synched);
 
-  /// @brief Method InvokeTextureChangedCallback, addr 0x48a0ed0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method InvokeTextureChangedCallback, addr 0x48b55e8, size 0x11c, virtual false, abstract: false, final false
   static inline void InvokeTextureChangedCallback(::UnityEngine::TerrainData* terrainData, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
 
   static inline ::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback* getStaticF_heightmapChanged();
@@ -168,7 +168,7 @@ public:
   TerrainCallbacks(TerrainCallbacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18040 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

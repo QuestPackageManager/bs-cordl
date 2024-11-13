@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::MethodCallExpressionN::*)(
     ::System::Reflection::MethodInfo*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*)>(&::System::Linq::Expressions::MethodCallExpressionN::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4043704;
+  constexpr static std::size_t addrs = 0x4057e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::MethodCallExpressionN::*)(int32_t)>(
     &::System::Linq::Expressions::MethodCallExpressionN::GetArgument)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4043728;
+  constexpr static std::size_t addrs = 0x4057e40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::MethodCallExpressionN::*)()>(
     &::System::Linq::Expressions::MethodCallExpressionN::get_ArgumentCount)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40437d0;
+  constexpr static std::size_t addrs = 0x4057ee8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::MethodCallExpressionN::*)(::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*)>(
     &::System::Linq::Expressions::MethodCallExpressionN::Rewrite)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4043870;
+  constexpr static std::size_t addrs = 0x4057f88;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -154,8 +154,7 @@ template <typename T>
 constexpr void
 UnityEngine::UIElements::MouseEventBase_1<T>::__cordl_internal_set__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField(::UnityEngine::UIElements::IPointerEvent* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField, value);
 }
 template <typename T> inline ::UnityEngine::EventModifiers UnityEngine::UIElements::MouseEventBase_1<T>::get_modifiers() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEventBase_1<T>*>::get(),

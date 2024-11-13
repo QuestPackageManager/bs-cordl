@@ -62,21 +62,21 @@ public:
   /// @brief Field gridSizeZ, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_gridSizeZ, put = __cordl_internal_set_gridSizeZ)) int32_t gridSizeZ;
 
-  /// @brief Method CreateCubeGrid, addr 0x3fbf1bc, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method CreateCubeGrid, addr 0x3fd384c, size 0x3b8, virtual false, abstract: false, final false
   inline void CreateCubeGrid();
 
-  /// @brief Method CubeGridSwitchColor, addr 0x3fbf574, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CubeGridSwitchColor, addr 0x3fd3c04, size 0x17c, virtual false, abstract: false, final false
   inline void CubeGridSwitchColor(bool CubeSwitchColor);
 
   static inline ::GlobalNamespace::OVRGridCube* New_ctor();
 
-  /// @brief Method SetOVRCameraController, addr 0x3fbf1b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetOVRCameraController, addr 0x3fd3840, size 0xc, virtual false, abstract: false, final false
   inline void SetOVRCameraController(ByRef<::GlobalNamespace::OVRCameraRig*> cameraController);
 
-  /// @brief Method Update, addr 0x3fbef8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fd361c, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCubeGrid, addr 0x3fbef90, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method UpdateCubeGrid, addr 0x3fd3620, size 0x220, virtual false, abstract: false, final false
   inline void UpdateCubeGrid();
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_CameraController() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_gridSizeZ(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3fbf6f0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd3d80, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -196,7 +196,7 @@ public:
   ::UnityW<::GlobalNamespace::OVRCameraRig> ___CameraController;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8398 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

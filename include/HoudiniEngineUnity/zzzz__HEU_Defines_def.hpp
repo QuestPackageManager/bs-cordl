@@ -42,7 +42,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_Defines* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39d224c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e5ba4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_DEFAULT_MATERIAL_KEY();
@@ -771,7 +771,7 @@ public:
   static constexpr ::ConstString UNITY_USE_INSTANCE_FLAGS_ATTR{ u"unity_use_instance_flags" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11620 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

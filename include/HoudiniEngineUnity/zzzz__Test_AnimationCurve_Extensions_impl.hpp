@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__Test_AnimationCurve_Extensions____c::*)()>(
     &::HoudiniEngineUnity::__Test_AnimationCurve_Extensions____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a310bc;
+  constexpr static std::size_t addrs = 0x3a44a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_AnimationCurve* (
     ::HoudiniEngineUnity::__Test_AnimationCurve_Extensions____c::*)(::UnityEngine::AnimationCurve*)>(&::HoudiniEngineUnity::__Test_AnimationCurve_Extensions____c::_ToTestObject_b__1_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a310c4;
+  constexpr static std::size_t addrs = 0x3a44a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_AnimationCurve* (
     ::HoudiniEngineUnity::__Test_AnimationCurve_Extensions____c::*)(::UnityEngine::AnimationCurve*)>(&::HoudiniEngineUnity::__Test_AnimationCurve_Extensions____c::_ToTestObject_b__2_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a31120;
+  constexpr static std::size_t addrs = 0x3a44a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_AnimationCurve* (*)(::UnityEngine::AnimationCurve*)>(
     &::HoudiniEngineUnity::Test_AnimationCurve_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a30e1c;
+  constexpr static std::size_t addrs = 0x3a44774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::HoudiniEngineUnity::Test_AnimationCurve*, ::Array<::HoudiniEngineUnity::Test_AnimationCurve*>*> (*)(
     ::ArrayW<::UnityEngine::AnimationCurve*, ::Array<::UnityEngine::AnimationCurve*>*>)>(&::HoudiniEngineUnity::Test_AnimationCurve_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3a30e78;
+  constexpr static std::size_t addrs = 0x3a447d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +139,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_AnimationCurve*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::AnimationCurve*>*)>(
         &::HoudiniEngineUnity::Test_AnimationCurve_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3a30f68;
+  constexpr static std::size_t addrs = 0x3a448c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

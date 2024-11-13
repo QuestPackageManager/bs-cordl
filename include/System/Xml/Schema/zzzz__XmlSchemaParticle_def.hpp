@@ -79,7 +79,7 @@ public:
   static ::System::Xml::Schema::__XmlSchemaParticle__Occurs const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7685 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -128,7 +128,7 @@ public:
   /// @brief Field minOccurs, offset 0x50, size 0x10
   __declspec(property(get = __cordl_internal_get_minOccurs, put = __cordl_internal_set_minOccurs)) ::System::Decimal minOccurs;
 
-  /// @brief Method GetQualifiedName, addr 0x424a608, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetQualifiedName, addr 0x425ed20, size 0x180, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* GetQualifiedName();
 
   static inline ::System::Xml::Schema::XmlSchemaParticle* New_ctor();
@@ -151,41 +151,41 @@ public:
 
   constexpr void __cordl_internal_set_minOccurs(::System::Decimal value);
 
-  /// @brief Method .ctor, addr 0x424a788, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x425eea0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaParticle* getStaticF_Empty();
 
-  /// @brief Method get_IsEmpty, addr 0x424a554, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x425ec6c, size 0x6c, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_MaxOccurs, addr 0x424a3e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MaxOccurs, addr 0x425eafc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_MaxOccurs();
 
-  /// @brief Method get_MaxOccursString, addr 0x4249f6c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_MaxOccursString, addr 0x425e684, size 0x124, virtual false, abstract: false, final false
   inline ::StringW get_MaxOccursString();
 
-  /// @brief Method get_MinOccurs, addr 0x424a2ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MinOccurs, addr 0x425e9c4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_MinOccurs();
 
-  /// @brief Method get_MinOccursString, addr 0x4249da0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_MinOccursString, addr 0x425e4b8, size 0x78, virtual false, abstract: false, final false
   inline ::StringW get_MinOccursString();
 
-  /// @brief Method get_NameString, addr 0x424a5c0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_NameString, addr 0x425ecd8, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_NameString();
 
   static inline void setStaticF_Empty(::System::Xml::Schema::XmlSchemaParticle* value);
 
-  /// @brief Method set_MaxOccurs, addr 0x424a3f0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method set_MaxOccurs, addr 0x425eb08, size 0x164, virtual false, abstract: false, final false
   inline void set_MaxOccurs(::System::Decimal value);
 
-  /// @brief Method set_MaxOccursString, addr 0x424a090, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method set_MaxOccursString, addr 0x425e7a8, size 0x21c, virtual false, abstract: false, final false
   inline void set_MaxOccursString(::StringW value);
 
-  /// @brief Method set_MinOccurs, addr 0x424a2b8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method set_MinOccurs, addr 0x425e9d0, size 0x12c, virtual false, abstract: false, final false
   inline void set_MinOccurs(::System::Decimal value);
 
-  /// @brief Method set_MinOccursString, addr 0x4249e18, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method set_MinOccursString, addr 0x425e530, size 0x154, virtual false, abstract: false, final false
   inline void set_MinOccursString(::StringW value);
 
 protected:
@@ -212,7 +212,7 @@ public:
   ::System::Xml::Schema::__XmlSchemaParticle__Occurs ___flags;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7687 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -71,7 +71,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <Create>b__0, addr 0x3e5cfe4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__0, addr 0x3e71674, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _Create_b__0(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   constexpr ::System::Func_1<::System::Object*>*& __cordl_internal_get_ctor();
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_ctor(::System::Func_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3e5cac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e71154, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   ::System::Func_1<::System::Object*>* ___ctor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10234 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -124,7 +124,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass11_1* New_ctor();
 
-  /// @brief Method <Create>b__1, addr 0x3e5d008, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__1, addr 0x3e71698, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Object* _Create_b__1(::System::Object* target);
 
   constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& __cordl_internal_get_call();
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set_call(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3e5cda8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e71438, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,7 +154,7 @@ public:
   ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* ___call;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10235 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -177,7 +177,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass11_2* New_ctor();
 
-  /// @brief Method <Create>b__2, addr 0x3e5d0c0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__2, addr 0x3e71750, size 0xb8, virtual false, abstract: false, final false
   inline void _Create_b__2(::System::Object* target, ::System::Object* arg);
 
   constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& __cordl_internal_get_call();
@@ -186,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set_call(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3e5cdb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e71440, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -207,7 +207,7 @@ public:
   ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* ___call;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10236 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -244,21 +244,21 @@ public:
       get = __cordl_internal_get__Members_k__BackingField,
       put = __cordl_internal_set__Members_k__BackingField)) ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* _Members_k__BackingField;
 
-  /// @brief Method Create, addr 0x3e5c1b4, size 0x828, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3e70844, size 0x828, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* Create(::System::Type* t, ::System::Reflection::MethodBase* creator, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames);
 
-  /// @brief Method Create, addr 0x3e5c1a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3e70838, size 0xc, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* Create(::System::Type* t, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames);
 
-  /// @brief Method GetType, addr 0x3e5c0f4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetType, addr 0x3e70784, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Type* GetType(::StringW member);
 
-  /// @brief Method GetValue, addr 0x3e5bf44, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3e705d4, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* target, ::StringW member);
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* New_ctor(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator);
 
-  /// @brief Method SetValue, addr 0x3e5c018, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3e706a8, size 0xdc, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* target, ::StringW member, ::System::Object* value);
 
   constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__Creator_k__BackingField();
@@ -274,13 +274,13 @@ public:
 
   constexpr void __cordl_internal_set__Members_k__BackingField(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* value);
 
-  /// @brief Method .ctor, addr 0x3e5bec0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e70550, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* creator);
 
-  /// @brief Method get_Creator, addr 0x3e5beb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Creator, addr 0x3e70540, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_Creator();
 
-  /// @brief Method get_Members, addr 0x3e5beb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x3e70548, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* get_Members();
 
 protected:
@@ -304,7 +304,7 @@ public:
   ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* ____Members_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10237 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

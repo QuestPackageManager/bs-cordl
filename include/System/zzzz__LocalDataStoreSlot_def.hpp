@@ -38,7 +38,7 @@ public:
   /// @brief Field m_slot, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_slot, put = __cordl_internal_set_m_slot)) int32_t m_slot;
 
-  /// @brief Method Finalize, addr 0x3d9ebec, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3db327c, size 0xac, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::LocalDataStoreSlot* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_m_slot(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d9eb94, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db3224, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
 
-  /// @brief Method get_Cookie, addr 0x3d9ebe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x3db3274, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
-  /// @brief Method get_Manager, addr 0x3d9ebd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Manager, addr 0x3db3264, size 0x8, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreMgr* get_Manager();
 
-  /// @brief Method get_Slot, addr 0x3d9ebdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Slot, addr 0x3db326c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Slot();
 
 protected:

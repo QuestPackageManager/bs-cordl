@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SceneTransitionFadingExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShouldFadeOnSceneTransition, addr 0x400ec28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ShouldFadeOnSceneTransition, addr 0x4023340, size 0x10, virtual false, abstract: false, final false
   static inline bool ShouldFadeOnSceneTransition(::GlobalNamespace::__GameScenesManager__SceneTransitionType sceneTransitionType);
 
 protected:
@@ -40,7 +40,7 @@ public:
   SceneTransitionFadingExtensions(SceneTransitionFadingExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17826 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

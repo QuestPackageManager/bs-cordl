@@ -21,25 +21,25 @@ namespace UnityEngine {
 class CORDL_TYPE PlayerPrefs : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetInt, addr 0x482ef10, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetInt, addr 0x4843628, size 0x40, virtual false, abstract: false, final false
   static inline int32_t GetInt(::StringW key);
 
-  /// @brief Method GetInt, addr 0x482eecc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetInt, addr 0x48435e4, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetInt(::StringW key, int32_t defaultValue);
 
-  /// @brief Method GetString, addr 0x482ef94, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x48436ac, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW key);
 
-  /// @brief Method GetString, addr 0x482ef50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x4843668, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW key, ::StringW defaultValue);
 
-  /// @brief Method HasKey, addr 0x482f000, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HasKey, addr 0x4843718, size 0x3c, virtual false, abstract: false, final false
   static inline bool HasKey(::StringW key);
 
-  /// @brief Method SetInt, addr 0x482ee3c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetInt, addr 0x4843554, size 0x90, virtual false, abstract: false, final false
   static inline void SetInt(::StringW key, int32_t value);
 
-  /// @brief Method TrySetInt, addr 0x482edf8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TrySetInt, addr 0x4843510, size 0x44, virtual false, abstract: false, final false
   static inline bool TrySetInt(::StringW key, int32_t value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   PlayerPrefs(PlayerPrefs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10799 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

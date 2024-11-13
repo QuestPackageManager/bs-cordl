@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::ComboMissionObjectiveChecker::Init)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3b37b08;
+  constexpr static std::size_t addrs = 0x3b4d5c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::ComboMissionObjectiveChecker::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b37c4c;
+  constexpr static std::size_t addrs = 0x3b4d704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComboMissionObjectiveChecker*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboMissionObjectiveChecker::*)(int32_t)>(
     &::GlobalNamespace::ComboMissionObjectiveChecker::HandleComboDidChange)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b37d1c;
+  constexpr static std::size_t addrs = 0x3b4d7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::ComboMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b37d6c;
+  constexpr static std::size_t addrs = 0x3b4d824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComboMissionObjectiveChecker*>::get(), ".ctor",

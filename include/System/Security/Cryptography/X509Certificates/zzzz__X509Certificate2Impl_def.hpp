@@ -68,7 +68,7 @@ public:
   /// @brief Method AppendPrivateKeyInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AppendPrivateKeyInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method CopyWithPrivateKey, addr 0x43c4c84, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method CopyWithPrivateKey, addr 0x43d939c, size 0xac, virtual true, abstract: false, final true
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
 
   /// @brief Method GetNameInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -79,7 +79,7 @@ public:
   /// @brief Method Verify, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Verify(::System::Security::Cryptography::X509Certificates::X509Certificate2* thisCertificate);
 
-  /// @brief Method .ctor, addr 0x43c4d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d9448, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Extensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -121,7 +121,7 @@ public:
   X509Certificate2Impl(X509Certificate2Impl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9282 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9287 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

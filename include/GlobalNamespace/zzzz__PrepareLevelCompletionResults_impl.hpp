@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::PrepareLevelCompletionResults::*)(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType, ::GlobalNamespace::__LevelCompletionResults__LevelEndAction)>(
     &::GlobalNamespace::PrepareLevelCompletionResults::FillLevelCompletionResults)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3b6c690;
+  constexpr static std::size_t addrs = 0x3b82184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PrepareLevelCompletionResults::*)()>(
     &::GlobalNamespace::PrepareLevelCompletionResults::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6c954;
+  constexpr static std::size_t addrs = 0x3b82448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrepareLevelCompletionResults*>::get(),

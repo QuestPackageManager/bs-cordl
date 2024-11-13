@@ -67,16 +67,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x43cdd58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x43e2470, size 0x1c, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x43cdd74, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x43e248c, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Store* New_ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName,
                                                                                         ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation);
 
-  /// @brief Method Open, addr 0x43cdd90, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x43e24a8, size 0x3ec, virtual false, abstract: false, final false
   inline void Open(::System::Security::Cryptography::X509Certificates::OpenFlags flags);
 
   constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags const& __cordl_internal_get__flags() const;
@@ -109,16 +109,16 @@ public:
 
   constexpr void __cordl_internal_set_store(::Mono::Security::X509::X509Store* value);
 
-  /// @brief Method .ctor, addr 0x43cdb88, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e22a0, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName, ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation);
 
-  /// @brief Method get_Certificates, addr 0x43cdcb4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x43e23cc, size 0x80, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Certificates();
 
-  /// @brief Method get_Factory, addr 0x43cdd34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Factory, addr 0x43e244c, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Stores* get_Factory();
 
-  /// @brief Method get_Store, addr 0x43cdd50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Store, addr 0x43e2468, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* get_Store();
 
   /// @brief Convert to "::System::IDisposable"
@@ -154,7 +154,7 @@ public:
   ::Mono::Security::X509::X509Store* ___store;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9307 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

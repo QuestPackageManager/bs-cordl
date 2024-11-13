@@ -4,8 +4,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NoPlatformInit)
-namespace GlobalNamespace {
+namespace BeatSaber::Init {
 class IPlatformInit;
 }
 namespace System::Threading::Tasks {
@@ -30,28 +31,31 @@ public:
   // Declarations
   __declspec(property(get = get_IsInitialized)) bool IsInitialized;
 
-  /// @brief Convert operator to "::GlobalNamespace::IPlatformInit"
-  constexpr operator ::GlobalNamespace::IPlatformInit*() noexcept;
+  /// @brief Convert operator to "::BeatSaber::Init::IPlatformInit"
+  constexpr operator ::BeatSaber::Init::IPlatformInit*() noexcept;
 
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Initialize, addr 0x4007fd8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetAppVersionAsync, addr 0x401cc28, size 0x88, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::StringW>* GetAppVersionAsync();
+
+  /// @brief Method Initialize, addr 0x401cbb4, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeAsync, addr 0x4007fe4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x401cbc0, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeAsync();
 
   static inline ::GlobalNamespace::NoPlatformInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x400804c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401ccb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInitialized, addr 0x4007fdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsInitialized, addr 0x401cbb8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsInitialized();
 
-  /// @brief Convert to "::GlobalNamespace::IPlatformInit"
-  constexpr ::GlobalNamespace::IPlatformInit* i___GlobalNamespace__IPlatformInit() noexcept;
+  /// @brief Convert to "::BeatSaber::Init::IPlatformInit"
+  constexpr ::BeatSaber::Init::IPlatformInit* i___BeatSaber__Init__IPlatformInit() noexcept;
 
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
@@ -71,7 +75,7 @@ public:
   NoPlatformInit(NoPlatformInit const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18662 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

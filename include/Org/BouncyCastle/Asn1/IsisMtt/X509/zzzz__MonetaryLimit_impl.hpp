@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::GetInstance)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x23bdd2c;
+  constexpr static std::size_t addrs = 0x23c8dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x23bde90;
+  constexpr static std::size_t addrs = 0x23c8f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::*)(::StringW, int32_t, int32_t)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x23bdfb8;
+  constexpr static std::size_t addrs = 0x23c9060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::get_Currency)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23be08c;
+  constexpr static std::size_t addrs = 0x23c9134;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::get_Amount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x23be0ac;
+  constexpr static std::size_t addrs = 0x23c9154;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::get_Exponent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x23be0c8;
+  constexpr static std::size_t addrs = 0x23c9170;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit::ToAsn1Object)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x23be0e4;
+  constexpr static std::size_t addrs = 0x23c918c;
 
   inline static ::MethodInfo const* methodInfo() {
 

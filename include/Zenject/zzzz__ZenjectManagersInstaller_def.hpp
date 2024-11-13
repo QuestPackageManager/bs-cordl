@@ -26,18 +26,18 @@ namespace Zenject {
 class CORDL_TYPE ZenjectManagersInstaller : public ::Zenject::Installer_1<::Zenject::ZenjectManagersInstaller*> {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x4ab1a34, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x4ac614c, size 0x1bc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ZenjectManagersInstaller* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x4ab1c38, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ac6350, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ab1c88, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ac63a0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4ab1bf0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac6308, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   ZenjectManagersInstaller(ZenjectManagersInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

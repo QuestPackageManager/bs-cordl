@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::*)()>(
     &::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3adf494;
+  constexpr static std::size_t addrs = 0x3af31a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::*)()>(
     &::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0::_HandleResultsViewControllerRestartButtonPressed_b__0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3adf49c;
+  constexpr static std::size_t addrs = 0x3af31a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::get_gameMode)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3adedd0;
+  constexpr static std::size_t addrs = 0x3af2adc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LeaderboardViewController> (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::get_leaderboardViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3adee10;
+  constexpr static std::size_t addrs = 0x3af2b1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::get_showBackButtonForMainViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3adee18;
+  constexpr static std::size_t addrs = 0x3af2b24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::get_mainTitle)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3adee20;
+  constexpr static std::size_t addrs = 0x3af2b2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3adee64;
+  constexpr static std::size_t addrs = 0x3af2b70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3adefec;
+  constexpr static std::size_t addrs = 0x3af2cf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -191,7 +191,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*,
     bool)>(&::GlobalNamespace::SoloFreePlayFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3adf118;
+  constexpr static std::size_t addrs = 0x3af2e24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(
     ::GlobalNamespace::PlayerLevelStatsData*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::SoloFreePlayFlowCoordinator::IsNewHighScore)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3adf318;
+  constexpr static std::size_t addrs = 0x3af3024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::Refresh)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3adf340;
+  constexpr static std::size_t addrs = 0x3af304c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(::GlobalNamespace::ResultsViewController*)>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::HandleResultsViewControllerContinueButtonPressed)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3adf388;
+  constexpr static std::size_t addrs = 0x3af3094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(::GlobalNamespace::ResultsViewController*)>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::HandleResultsViewControllerRestartButtonPressed)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3adf3c8;
+  constexpr static std::size_t addrs = 0x3af30d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(::GlobalNamespace::RunLevelMenuDestination*)>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::__SetupFromDestination)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3ad0dd0;
+  constexpr static std::size_t addrs = 0x3ae49c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(&::GlobalNamespace::SoloFreePlayFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3adf48c;
+  constexpr static std::size_t addrs = 0x3af3198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloFreePlayFlowCoordinator*>::get(), ".ctor",

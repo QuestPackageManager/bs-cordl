@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_particle2(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x4323234, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x433794c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* particle1, ::System::Object* particle2);
 
-  /// @brief Method get_Particle1, addr 0x43232a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle1, addr 0x43379bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Particle1();
 
-  /// @brief Method get_Particle2, addr 0x43232ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle2, addr 0x43379c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Particle2();
 
 protected:
@@ -76,7 +76,7 @@ public:
   ::System::Object* ___particle2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7465 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set_m_callingConvention(::System::Runtime::InteropServices::CallingConvention value);
 
-  /// @brief Method .ctor, addr 0x3c9ebf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb3288, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::CallingConvention callingConvention);
 
-  /// @brief Method get_CallingConvention, addr 0x3c9ec20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CallingConvention, addr 0x3cb32b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::CallingConvention get_CallingConvention();
 
 protected:

@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_m_splitParams(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* value);
 
-  /// @brief Method .ctor, addr 0x2476f64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248200c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
-  /// @brief Method get_I, addr 0x2476fa0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_I, addr 0x2482048, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_I();
 
-  /// @brief Method get_Lambda, addr 0x2476fa8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Lambda, addr 0x2482050, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Lambda();
 
-  /// @brief Method get_SplitParams, addr 0x2476fb0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SplitParams, addr 0x2482058, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
 
 protected:

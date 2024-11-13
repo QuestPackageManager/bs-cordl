@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>*();
 
-  /// @brief Method Compare, addr 0x44f09f8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x4505110, size 0x40, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::Vector3 x, ::UnityEngine::Vector3 y);
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"
@@ -44,7 +44,7 @@ public:
   uint8_t _cordl_size_padding[0x1];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7042 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

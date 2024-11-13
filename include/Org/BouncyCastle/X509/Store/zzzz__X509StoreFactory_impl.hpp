@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509StoreFactory::*)()>(
     &::Org::BouncyCastle::X509::Store::X509StoreFactory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ac16c;
+  constexpr static std::size_t addrs = 0x25b7214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509StoreFactory*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (*)(::StringW, ::Org::BouncyCastle::X509::Store::IX509StoreParameters*)>(&::Org::BouncyCastle::X509::Store::X509StoreFactory::Create)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x25ac174;
+  constexpr static std::size_t addrs = 0x25b721c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::ICollection*, ::System::Type*)>(
     &::Org::BouncyCastle::X509::Store::X509StoreFactory::checkCorrectType)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x25ac528;
+  constexpr static std::size_t addrs = 0x25b75d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

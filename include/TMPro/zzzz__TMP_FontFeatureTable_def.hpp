@@ -50,13 +50,13 @@ public:
 
   static inline ::TMPro::__TMP_FontFeatureTable____c* New_ctor();
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_0, addr 0x475f388, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_0, addr 0x4773aa0, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__6_0(::TMPro::TMP_GlyphPairAdjustmentRecord* s);
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_1, addr 0x475f3a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_1, addr 0x4773ab8, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__6_1(::TMPro::TMP_GlyphPairAdjustmentRecord* s);
 
-  /// @brief Method .ctor, addr 0x475f380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4773a98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::__TMP_FontFeatureTable____c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   __TMP_FontFeatureTable____c(__TMP_FontFeatureTable____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14459 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -118,7 +118,7 @@ public:
 
   static inline ::TMPro::TMP_FontFeatureTable* New_ctor();
 
-  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x47574fc, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x476bc14, size 0x1ec, virtual false, abstract: false, final false
   inline void SortGlyphPairAdjustmentRecords();
 
   constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>*& __cordl_internal_get_m_GlyphPairAdjustmentRecordLookupDictionary();
@@ -134,13 +134,13 @@ public:
 
   constexpr void __cordl_internal_set_m_GlyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
 
-  /// @brief Method .ctor, addr 0x475c028, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4770740, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x475f314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x4773a2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* get_glyphPairAdjustmentRecords();
 
-  /// @brief Method set_glyphPairAdjustmentRecords, addr 0x475f31c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphPairAdjustmentRecords, addr 0x4773a34, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
 
 protected:
@@ -164,7 +164,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>* ___m_GlyphPairAdjustmentRecordLookupDictionary;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14460 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

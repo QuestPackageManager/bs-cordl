@@ -30,7 +30,7 @@ public:
 
   static inline ::Zenject::IdBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithId, addr 0x4a971e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithId, addr 0x4aab8f8, size 0x1c, virtual false, abstract: false, final false
   inline void WithId(::System::Object* identifier);
 
   constexpr ::Zenject::BindInfo*& __cordl_internal_get__bindInfo();
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__bindInfo(::Zenject::BindInfo* value);
 
-  /// @brief Method .ctor, addr 0x4a971b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aab8d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -60,7 +60,7 @@ public:
   ::Zenject::BindInfo* ____bindInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12224 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

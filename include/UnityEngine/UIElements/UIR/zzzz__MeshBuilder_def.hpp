@@ -77,12 +77,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __MeshBuilder__AllocMeshData__Allocator : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x492ebd8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x49432f0, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshWriteData* Invoke(uint32_t vertexCount, uint32_t indexCount, ByRef<::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData> allocatorData);
 
   static inline ::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x492eb4c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4943264, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -100,7 +100,7 @@ public:
   __MeshBuilder__AllocMeshData__Allocator(__MeshBuilder__AllocMeshData__Allocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6343 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -118,7 +118,7 @@ public:
   // Declarations
   using Allocator = ::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator;
 
-  /// @brief Method Allocate, addr 0x492e9f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x4943108, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshWriteData* Allocate(uint32_t vertexCount, uint32_t indexCount);
 
   // Ctor Parameters []
@@ -152,7 +152,7 @@ public:
   ::UnityEngine::UIElements::UIR::BMPAlloc colorAlloc;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6344 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -200,14 +200,14 @@ public:
   /// @brief Field s_VectorGraphicsStretch, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_VectorGraphicsStretch, put = setStaticF_s_VectorGraphicsStretch)) ::Unity::Profiling::ProfilerMarker s_VectorGraphicsStretch;
 
-  /// @brief Method ConvertTextVertexToUIRVertex, addr 0x492e2f0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ConvertTextVertexToUIRVertex, addr 0x4942a08, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Vertex ConvertTextVertexToUIRVertex(::UnityEngine::TextCore::Text::MeshInfo info, int32_t index, ::UnityEngine::Vector2 offset,
                                                                                ::UnityEngine::UIElements::UIR::VertexFlags flags, bool isDynamicColor);
 
-  /// @brief Method LimitTextVertices, addr 0x492e3f0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LimitTextVertices, addr 0x4942b08, size 0x130, virtual false, abstract: false, final false
   static inline int32_t LimitTextVertices(int32_t vertexCount, bool logTruncation);
 
-  /// @brief Method MakeText, addr 0x492e520, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method MakeText, addr 0x4942c38, size 0x4d0, virtual false, abstract: false, final false
   static inline void MakeText(::UnityEngine::TextCore::Text::MeshInfo meshInfo, ::UnityEngine::Vector2 offset, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc,
                               ::UnityEngine::UIElements::UIR::VertexFlags flags, bool isDynamicColor);
 
@@ -246,7 +246,7 @@ public:
   MeshBuilder(MeshBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6345 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,7 +23,7 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE NetworkInterfaceFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x4377154, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x438b86c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
 
   /// @brief Method GetAllNetworkInterfaces, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43771a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438b8b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   NetworkInterfaceFactory(NetworkInterfaceFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9774 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

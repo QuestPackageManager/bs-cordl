@@ -60,11 +60,11 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ac201c, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ad6734, size 0x104, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x4ac1fb0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x4ad66c8, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::EmptyGameObjectProvider* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
@@ -81,13 +81,13 @@ public:
 
   constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
 
-  /// @brief Method .ctor, addr 0x4ac1f74, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad668c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method get_IsCached, addr 0x4ac1fa0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x4ad66b8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ac1fa8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ad66c0, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -114,7 +114,7 @@ public:
   ::Zenject::GameObjectCreationParameters* ____gameObjectBindInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12495 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

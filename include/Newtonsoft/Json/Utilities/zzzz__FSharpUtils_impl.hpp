@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::*)()>(
     &::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55fd0;
+  constexpr static std::size_t addrs = 0x3e6a660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::*)(::System::Object*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
         &::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass52_0::_CreateFSharpFuncCall_b__0)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3e562ec;
+  constexpr static std::size_t addrs = 0x3e6a97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <typename TKey, typename TValue>
 constexpr void
 Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>::__cordl_internal_set_ctorDelegate(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ctorDelegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___ctorDelegate, value);
 }
 template <typename TKey, typename TValue>
 inline ::Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>* Newtonsoft::Json::Utilities::__FSharpUtils____c__DisplayClass55_0_2<TKey, TValue>::New_ctor() {
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Reflection::Assembly*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::_ctor)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x3e55648;
+  constexpr static std::size_t addrs = 0x3e69cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::FSharpUtils* (*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_Instance)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e55d70;
+  constexpr static std::size_t addrs = 0x3e6a400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_FSharpCoreAssembly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55dc8;
+  constexpr static std::size_t addrs = 0x3e6a458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Reflection::Assembly*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_FSharpCoreAssembly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55dd0;
+  constexpr static std::size_t addrs = 0x3e6a460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_IsUnion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55dd8;
+  constexpr static std::size_t addrs = 0x3e6a468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::set_IsUnion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55de0;
+  constexpr static std::size_t addrs = 0x3e6a470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCases)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55de8;
+  constexpr static std::size_t addrs = 0x3e6a478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCases)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55df0;
+  constexpr static std::size_t addrs = 0x3e6a480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_PreComputeUnionTagReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55df8;
+  constexpr static std::size_t addrs = 0x3e6a488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionTagReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e00;
+  constexpr static std::size_t addrs = 0x3e6a490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_PreComputeUnionReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e08;
+  constexpr static std::size_t addrs = 0x3e6a498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e10;
+  constexpr static std::size_t addrs = 0x3e6a4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_PreComputeUnionConstructor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e18;
+  constexpr static std::size_t addrs = 0x3e6a4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::set_PreComputeUnionConstructor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e20;
+  constexpr static std::size_t addrs = 0x3e6a4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCaseInfoDeclaringType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e28;
+  constexpr static std::size_t addrs = 0x3e6a4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Func_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoDeclaringType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e30;
+  constexpr static std::size_t addrs = 0x3e6a4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCaseInfoName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e38;
+  constexpr static std::size_t addrs = 0x3e6a4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Func_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e40;
+  constexpr static std::size_t addrs = 0x3e6a4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -442,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::System::Object*, ::System::Object*>* (::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCaseInfoTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e48;
+  constexpr static std::size_t addrs = 0x3e6a4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -456,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Func_2<::System::Object*, ::System::Object*>*)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e50;
+  constexpr static std::size_t addrs = 0x3e6a4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -471,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)()>(&::Newtonsoft::Json::Utilities::FSharpUtils::get_GetUnionCaseInfoFields)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e58;
+  constexpr static std::size_t addrs = 0x3e6a4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::FSharpUtils*>::get(),
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::FSharpUtils::*)(
     ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::set_GetUnionCaseInfoFields)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e55e60;
+  constexpr static std::size_t addrs = 0x3e6a4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -499,7 +499,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::Assembly*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::EnsureInitialized)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3e55e68;
+  constexpr static std::size_t addrs = 0x3e6a4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW, ::System::Reflection::BindingFlags)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::GetMethodWithNonPublicFallback)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3e55b18;
+  constexpr static std::size_t addrs = 0x3e6a1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* (*)(::System::Type*, ::StringW)>(
     &::Newtonsoft::Json::Utilities::FSharpUtils::CreateFSharpFuncCall)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3e55b8c;
+  constexpr static std::size_t addrs = 0x3e6a21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::CreateSeq)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3e55fd8;
+  constexpr static std::size_t addrs = 0x3e6a668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -560,7 +560,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* (
     ::Newtonsoft::Json::Utilities::FSharpUtils::*)(::System::Type*, ::System::Type*)>(&::Newtonsoft::Json::Utilities::FSharpUtils::CreateMap)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3e560d4;
+  constexpr static std::size_t addrs = 0x3e6a764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

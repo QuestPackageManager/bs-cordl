@@ -111,7 +111,7 @@ constexpr ::cordl_internals::to_const_pointer<::Unity::Properties::IMemberInfo*>
 }
 template <typename TContainer, typename TValue> constexpr void Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::__cordl_internal_set_m_Info(::Unity::Properties::IMemberInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Info)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Info, value);
 }
 template <typename TContainer, typename TValue> constexpr bool& Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::__cordl_internal_get_m_IsStructContainerType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -141,7 +141,7 @@ template <typename TContainer, typename TValue>
 constexpr void Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::__cordl_internal_set_m_GetStructValueAction(
     ::Unity::Properties::__ReflectedMemberProperty_2__GetStructValueAction<TContainer, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GetStructValueAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_GetStructValueAction, value);
 }
 template <typename TContainer, typename TValue>
 constexpr ::Unity::Properties::__ReflectedMemberProperty_2__SetStructValueAction<TContainer, TValue>*&
@@ -159,7 +159,7 @@ template <typename TContainer, typename TValue>
 constexpr void Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::__cordl_internal_set_m_SetStructValueAction(
     ::Unity::Properties::__ReflectedMemberProperty_2__SetStructValueAction<TContainer, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SetStructValueAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_SetStructValueAction, value);
 }
 template <typename TContainer, typename TValue>
 constexpr ::Unity::Properties::__ReflectedMemberProperty_2__GetClassValueAction<TContainer, TValue>*&
@@ -177,7 +177,7 @@ template <typename TContainer, typename TValue>
 constexpr void Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::__cordl_internal_set_m_GetClassValueAction(
     ::Unity::Properties::__ReflectedMemberProperty_2__GetClassValueAction<TContainer, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GetClassValueAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_GetClassValueAction, value);
 }
 template <typename TContainer, typename TValue>
 constexpr ::Unity::Properties::__ReflectedMemberProperty_2__SetClassValueAction<TContainer, TValue>*&
@@ -195,7 +195,7 @@ template <typename TContainer, typename TValue>
 constexpr void Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::__cordl_internal_set_m_SetClassValueAction(
     ::Unity::Properties::__ReflectedMemberProperty_2__SetClassValueAction<TContainer, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SetClassValueAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_SetClassValueAction, value);
 }
 template <typename TContainer, typename TValue> constexpr ::StringW& Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::__cordl_internal_get__Name_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -207,7 +207,7 @@ template <typename TContainer, typename TValue> constexpr ::StringW const& Unity
 }
 template <typename TContainer, typename TValue> constexpr void Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::__cordl_internal_set__Name_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____Name_k__BackingField, value);
 }
 template <typename TContainer, typename TValue> constexpr bool& Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::__cordl_internal_get__IsReadOnly_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

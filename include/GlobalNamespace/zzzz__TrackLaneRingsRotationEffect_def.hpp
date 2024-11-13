@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_rotationStep(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b25ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3aef8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +115,7 @@ public:
   int32_t ___progressPos;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4367 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -173,30 +173,30 @@ public:
   __declspec(property(get = __cordl_internal_get_ringRotationEffectsToDelete,
                       put = __cordl_internal_set_ringRotationEffectsToDelete)) ::System::Collections::Generic::List_1<int32_t>* ringRotationEffectsToDelete;
 
-  /// @brief Method AddRingRotationEffect, addr 0x3b25aec, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AddRingRotationEffect, addr 0x3b3af10, size 0xe0, virtual false, abstract: false, final false
   inline void AddRingRotationEffect(float_t angle, float_t step, int32_t propagationSpeed, float_t flexySpeed);
 
-  /// @brief Method Awake, addr 0x3b25960, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b3ad84, size 0x174, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FixedUpdate, addr 0x3b25bcc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3b3aff0, size 0x160, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method GetFirstRingDestinationRotationAngle, addr 0x3b25ee0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRingDestinationRotationAngle, addr 0x3b3b2fc, size 0x38, virtual false, abstract: false, final false
   inline float_t GetFirstRingDestinationRotationAngle();
 
-  /// @brief Method GetFirstRingRotationAngle, addr 0x3b25ea8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRingRotationAngle, addr 0x3b3b2c4, size 0x38, virtual false, abstract: false, final false
   inline float_t GetFirstRingRotationAngle();
 
   static inline ::GlobalNamespace::TrackLaneRingsRotationEffect* New_ctor();
 
-  /// @brief Method RecycleRingRotationEffect, addr 0x3b25d34, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RecycleRingRotationEffect, addr 0x3b3b150, size 0xa4, virtual false, abstract: false, final false
   inline void RecycleRingRotationEffect(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* ringRotationEffect);
 
-  /// @brief Method SpawnRingRotationEffect, addr 0x3b25dd8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SpawnRingRotationEffect, addr 0x3b3b1f4, size 0xd0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* SpawnRingRotationEffect();
 
-  /// @brief Method Start, addr 0x3b25adc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b3af00, size 0x10, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>*& __cordl_internal_get__activeRingRotationEffects();
@@ -249,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set_ringRotationEffectsToDelete(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b25f18, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3b334, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -291,7 +291,7 @@ public:
   ::System::Collections::Generic::List_1<int32_t>* ___ringRotationEffectsToDelete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

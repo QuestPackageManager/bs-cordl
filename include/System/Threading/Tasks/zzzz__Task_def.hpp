@@ -198,10 +198,10 @@ public:
 
   static inline ::System::Threading::Tasks::__Task__ContingentProperties* New_ctor();
 
-  /// @brief Method SetCompleted, addr 0x3dedb68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetCompleted, addr 0x3e021f8, size 0x28, virtual false, abstract: false, final false
   inline void SetCompleted();
 
-  /// @brief Method UnregisterCancellationCallback, addr 0x3dedb90, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCancellationCallback, addr 0x3e02220, size 0x108, virtual false, abstract: false, final false
   inline void UnregisterCancellationCallback();
 
   constexpr ::System::Object*& __cordl_internal_get_m_cancellationRegistration();
@@ -252,7 +252,7 @@ public:
 
   constexpr void __cordl_internal_set_m_internalCancellationRequested(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3deac08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dff298, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -331,15 +331,15 @@ public:
   /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
 
-  /// @brief Method Invoke, addr 0x3df30d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x3e07760, size 0x8, virtual true, abstract: false, final true
   inline void Invoke(::System::Threading::Tasks::Task* completingTask);
 
   static inline ::System::Threading::Tasks::__Task__SetOnInvokeMres* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3defc38, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e042c8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x3df30d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x3e07768, size 0x8, virtual true, abstract: false, final true
   inline bool get_InvokeMayRunArbitraryCode();
 
   /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
@@ -387,22 +387,22 @@ public:
 
   static inline ::System::Threading::Tasks::__Task____c* New_ctor();
 
-  /// @brief Method <Delay>b__247_0, addr 0x3df35f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <Delay>b__247_0, addr 0x3e07c80, size 0x60, virtual false, abstract: false, final false
   inline void _Delay_b__247_0(::System::Object* state);
 
-  /// @brief Method <Delay>b__247_1, addr 0x3df3650, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <Delay>b__247_1, addr 0x3e07ce0, size 0x60, virtual false, abstract: false, final false
   inline void _Delay_b__247_1(::System::Object* state);
 
-  /// @brief Method <.cctor>b__271_0, addr 0x3df36b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__271_0, addr 0x3e07d40, size 0x64, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::__Task__ContingentProperties* __cctor_b__271_0();
 
-  /// @brief Method <.cctor>b__271_1, addr 0x3df3714, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__271_1, addr 0x3e07da4, size 0x20, virtual false, abstract: false, final false
   inline bool __cctor_b__271_1(::System::Threading::Tasks::Task* t);
 
-  /// @brief Method <.cctor>b__271_2, addr 0x3df3734, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__271_2, addr 0x3e07dc4, size 0xc, virtual false, abstract: false, final false
   inline bool __cctor_b__271_2(::System::Object* tc);
 
-  /// @brief Method .ctor, addr 0x3df35e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e07c78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::__Task____c* getStaticF___9();
@@ -588,136 +588,136 @@ public:
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
 
-  /// @brief Method AddCompletionAction, addr 0x3df0848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddCompletionAction, addr 0x3e04ed8, size 0x8, virtual false, abstract: false, final false
   inline void AddCompletionAction(::System::Threading::Tasks::ITaskCompletionAction* action);
 
-  /// @brief Method AddCompletionAction, addr 0x3defc98, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddCompletionAction, addr 0x3e04328, size 0xd4, virtual false, abstract: false, final false
   inline void AddCompletionAction(::System::Threading::Tasks::ITaskCompletionAction* action, bool addBeforeOthers);
 
-  /// @brief Method AddException, addr 0x3debbd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddException, addr 0x3e00260, size 0x8, virtual false, abstract: false, final false
   inline void AddException(::System::Object* exceptionObject);
 
-  /// @brief Method AddException, addr 0x3dece0c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method AddException, addr 0x3e0149c, size 0x194, virtual false, abstract: false, final false
   inline void AddException(::System::Object* exceptionObject, bool representsCancellation);
 
-  /// @brief Method AddExceptionsFromChildren, addr 0x3ded728, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method AddExceptionsFromChildren, addr 0x3e01db8, size 0x440, virtual false, abstract: false, final false
   inline void AddExceptionsFromChildren();
 
-  /// @brief Method AddNewChild, addr 0x3deaff4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AddNewChild, addr 0x3dff684, size 0x74, virtual false, abstract: false, final false
   inline void AddNewChild();
 
-  /// @brief Method AddTaskContinuation, addr 0x3deee3c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddTaskContinuation, addr 0x3e034cc, size 0x94, virtual false, abstract: false, final false
   inline bool AddTaskContinuation(::System::Object* tc, bool addBeforeOthers);
 
-  /// @brief Method AddTaskContinuationComplex, addr 0x3df0850, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method AddTaskContinuationComplex, addr 0x3e04ee0, size 0x308, virtual false, abstract: false, final false
   inline bool AddTaskContinuationComplex(::System::Object* tc, bool addBeforeOthers);
 
-  /// @brief Method AddToActiveTasks, addr 0x3df2b1c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method AddToActiveTasks, addr 0x3e071ac, size 0x160, virtual false, abstract: false, final false
   static inline bool AddToActiveTasks(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method AnyTaskRequiresNotifyDebuggerOfWaitCompletion, addr 0x3debfa4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AnyTaskRequiresNotifyDebuggerOfWaitCompletion, addr 0x3e00634, size 0x9c, virtual false, abstract: false, final false
   static inline bool AnyTaskRequiresNotifyDebuggerOfWaitCompletion(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
 
-  /// @brief Method AssignCancellationToken, addr 0x3deb068, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method AssignCancellationToken, addr 0x3dff6f8, size 0x2c8, virtual false, abstract: false, final false
   inline void AssignCancellationToken(::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::Task* antecedent,
                                       ::System::Threading::Tasks::TaskContinuation* continuation);
 
-  /// @brief Method AtomicStateUpdate, addr 0x3deb9b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AtomicStateUpdate, addr 0x3e00044, size 0xc0, virtual false, abstract: false, final false
   inline bool AtomicStateUpdate(int32_t newBits, int32_t illegalBits);
 
-  /// @brief Method AtomicStateUpdate, addr 0x3debd68, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AtomicStateUpdate, addr 0x3e003f8, size 0xd8, virtual false, abstract: false, final false
   inline bool AtomicStateUpdate(int32_t newBits, int32_t illegalBits, ByRef<int32_t> oldFlags);
 
-  /// @brief Method CancellationCleanupLogic, addr 0x3debab0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CancellationCleanupLogic, addr 0x3e00140, size 0x120, virtual false, abstract: false, final false
   inline void CancellationCleanupLogic();
 
-  /// @brief Method ConfigureAwait, addr 0x3de9518, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ConfigureAwait, addr 0x3dfdba8, size 0x34, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable ConfigureAwait(bool continueOnCapturedContext);
 
-  /// @brief Method ContinueWith, addr 0x3df001c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ContinueWith, addr 0x3e046ac, size 0x74, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ContinueWith(::System::Action_1<::System::Threading::Tasks::Task*>* continuationAction);
 
-  /// @brief Method ContinueWith, addr 0x3df0130, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ContinueWith, addr 0x3e047c0, size 0x154, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ContinueWith(::System::Action_1<::System::Threading::Tasks::Task*>* continuationAction, ::System::Threading::Tasks::TaskScheduler* scheduler,
                                                         ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskContinuationOptions continuationOptions);
 
-  /// @brief Method ContinueWith, addr 0x3df05b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ContinueWith, addr 0x3e04c44, size 0x14, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ContinueWith(::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>* continuationAction, ::System::Object* state,
                                                         ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskContinuationOptions continuationOptions,
                                                         ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method ContinueWith, addr 0x3df05c8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ContinueWith, addr 0x3e04c58, size 0x160, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ContinueWith(::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>* continuationAction, ::System::Object* state,
                                                         ::System::Threading::Tasks::TaskScheduler* scheduler, ::System::Threading::CancellationToken cancellationToken,
                                                         ::System::Threading::Tasks::TaskContinuationOptions continuationOptions);
 
-  /// @brief Method ContinueWithCore, addr 0x3df0458, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ContinueWithCore, addr 0x3e04ae8, size 0x15c, virtual false, abstract: false, final false
   inline void ContinueWithCore(::System::Threading::Tasks::Task* continuationTask, ::System::Threading::Tasks::TaskScheduler* scheduler, ::System::Threading::CancellationToken cancellationToken,
                                ::System::Threading::Tasks::TaskContinuationOptions options);
 
   /// @brief Method CreateUnwrapPromise, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::System::Threading::Tasks::Task_1<TResult>* CreateUnwrapPromise(::System::Threading::Tasks::Task* outerTask, bool lookForOce);
 
-  /// @brief Method CreationOptionsFromContinuationOptions, addr 0x3df0284, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CreationOptionsFromContinuationOptions, addr 0x3e04914, size 0x120, virtual false, abstract: false, final false
   static inline void CreationOptionsFromContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions continuationOptions,
                                                             ByRef<::System::Threading::Tasks::TaskCreationOptions> creationOptions,
                                                             ByRef<::System::Threading::Tasks::InternalTaskOptions> internalOptions);
 
-  /// @brief Method Delay, addr 0x3df1070, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Delay, addr 0x3e05700, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* Delay(::System::TimeSpan delay, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Delay, addr 0x3df1514, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Delay, addr 0x3e05ba4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* Delay(int32_t millisecondsDelay);
 
-  /// @brief Method Delay, addr 0x3df118c, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method Delay, addr 0x3e0581c, size 0x388, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* Delay(int32_t millisecondsDelay, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x3decc48, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3e012d8, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3deccb4, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3e01344, size 0xdc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DisregardChild, addr 0x3deb634, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method DisregardChild, addr 0x3dffcc4, size 0x48, virtual false, abstract: false, final false
   inline void DisregardChild();
 
-  /// @brief Method EnsureContingentPropertiesInitialized, addr 0x3deb3c8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EnsureContingentPropertiesInitialized, addr 0x3dffa58, size 0x40, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::__Task__ContingentProperties* EnsureContingentPropertiesInitialized(bool needsProtection);
 
-  /// @brief Method EnsureContingentPropertiesInitializedCore, addr 0x3dec7f8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method EnsureContingentPropertiesInitializedCore, addr 0x3e00e88, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::__Task__ContingentProperties* EnsureContingentPropertiesInitializedCore(bool needsProtection);
 
-  /// @brief Method Execute, addr 0x3dee578, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x3e02c08, size 0xac, virtual false, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method ExecuteEntry, addr 0x3dee734, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ExecuteEntry, addr 0x3e02dc4, size 0x118, virtual false, abstract: false, final false
   inline bool ExecuteEntry(bool bPreventDoubleExecution);
 
-  /// @brief Method ExecuteWithThreadLocal, addr 0x3dee84c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ExecuteWithThreadLocal, addr 0x3e02edc, size 0x198, virtual false, abstract: false, final false
   inline void ExecuteWithThreadLocal(ByRef<::System::Threading::Tasks::Task*> currentTaskSlot);
 
-  /// @brief Method ExecutionContextCallback, addr 0x3dee9e4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ExecutionContextCallback, addr 0x3e03074, size 0x78, virtual false, abstract: false, final false
   static inline void ExecutionContextCallback(::System::Object* obj);
 
-  /// @brief Method Finish, addr 0x3debbd8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x3e00268, size 0x188, virtual false, abstract: false, final false
   inline void Finish(bool bUserDelegateExecuted);
 
-  /// @brief Method FinishContinuations, addr 0x3dede9c, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method FinishContinuations, addr 0x3e0252c, size 0x6dc, virtual false, abstract: false, final false
   inline void FinishContinuations();
 
-  /// @brief Method FinishStageThree, addr 0x3dedc98, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FinishStageThree, addr 0x3e02328, size 0x50, virtual false, abstract: false, final false
   inline void FinishStageThree();
 
-  /// @brief Method FinishStageTwo, addr 0x3ded4a0, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method FinishStageTwo, addr 0x3e01b30, size 0x288, virtual false, abstract: false, final false
   inline void FinishStageTwo();
 
-  /// @brief Method FromCanceled, addr 0x3dea084, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromCanceled, addr 0x3dfe714, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* FromCanceled(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method FromCanceled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::System::Threading::Tasks::Task_1<TResult>* FromCanceled(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FromCancellation, addr 0x3df0b58, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method FromCancellation, addr 0x3e051e8, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* FromCancellation(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method FromCancellation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -726,7 +726,7 @@ public:
   /// @brief Method FromCancellation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::System::Threading::Tasks::Task_1<TResult>* FromCancellation(::System::OperationCanceledException* exception);
 
-  /// @brief Method FromException, addr 0x3de9c3c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FromException, addr 0x3dfe2cc, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* FromException(::System::Exception* exception);
 
   /// @brief Method FromException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -735,39 +735,39 @@ public:
   /// @brief Method FromResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::System::Threading::Tasks::Task_1<TResult>* FromResult(TResult result);
 
-  /// @brief Method GetAwaiter, addr 0x3de950c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x3dfdb9c, size 0x4, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::TaskAwaiter GetAwaiter();
 
-  /// @brief Method GetCancellationExceptionDispatchInfo, addr 0x3ded324, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetCancellationExceptionDispatchInfo, addr 0x3e019b4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* GetCancellationExceptionDispatchInfo();
 
-  /// @brief Method GetExceptionDispatchInfos, addr 0x3ded180, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetExceptionDispatchInfos, addr 0x3e01810, size 0x118, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* GetExceptionDispatchInfos();
 
-  /// @brief Method GetExceptions, addr 0x3dec59c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetExceptions, addr 0x3e00c2c, size 0x14c, virtual false, abstract: false, final false
   inline ::System::AggregateException* GetExceptions(bool includeTaskCanceledExceptions);
 
-  /// @brief Method HandleException, addr 0x3dee624, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method HandleException, addr 0x3e02cb4, size 0x108, virtual false, abstract: false, final false
   inline void HandleException(::System::Exception* unhandledException);
 
-  /// @brief Method InnerInvoke, addr 0x3deea5c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method InnerInvoke, addr 0x3e030ec, size 0xb4, virtual true, abstract: false, final false
   inline void InnerInvoke();
 
-  /// @brief Method InternalCancel, addr 0x3deb464, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method InternalCancel, addr 0x3dffaf4, size 0x1d0, virtual false, abstract: false, final false
   inline bool InternalCancel(bool bCancelNonExecutingOnly);
 
-  /// @brief Method InternalCurrentIfAttached, addr 0x3dec3f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method InternalCurrentIfAttached, addr 0x3e00a88, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* InternalCurrentIfAttached(::System::Threading::Tasks::TaskCreationOptions creationOptions);
 
-  /// @brief Method InternalStartNew, addr 0x3dec08c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method InternalStartNew, addr 0x3e0071c, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* InternalStartNew(::System::Threading::Tasks::Task* creatingTask, ::System::Delegate* action, ::System::Object* state,
                                                                    ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskScheduler* scheduler,
                                                                    ::System::Threading::Tasks::TaskCreationOptions options, ::System::Threading::Tasks::InternalTaskOptions internalOptions);
 
-  /// @brief Method InternalWait, addr 0x3def0b0, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method InternalWait, addr 0x3e03740, size 0x5a8, virtual false, abstract: false, final false
   inline bool InternalWait(int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method InternalWhenAll, addr 0x3df20a4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method InternalWhenAll, addr 0x3e06734, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* InternalWhenAll(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
 
   /// @brief Method InternalWhenAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -775,16 +775,16 @@ public:
   static inline ::System::Threading::Tasks::Task_1<::ArrayW<TResult, ::Array<TResult>*>>*
   InternalWhenAll(::ArrayW<::System::Threading::Tasks::Task_1<TResult>*, ::Array<::System::Threading::Tasks::Task_1<TResult>*>*> tasks);
 
-  /// @brief Method IsCompletedMethod, addr 0x3dec8ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsCompletedMethod, addr 0x3e00f7c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsCompletedMethod(int32_t flags);
 
-  /// @brief Method LogFinishCompletionNotification, addr 0x3deffc8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LogFinishCompletionNotification, addr 0x3e04658, size 0x54, virtual false, abstract: false, final false
   inline void LogFinishCompletionNotification();
 
-  /// @brief Method MarkAborted, addr 0x3df2dbc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method MarkAborted, addr 0x3e0744c, size 0x4, virtual true, abstract: false, final true
   inline void MarkAborted(::System::Threading::ThreadAbortException* e);
 
-  /// @brief Method MarkStarted, addr 0x3dec080, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkStarted, addr 0x3e00710, size 0xc, virtual false, abstract: false, final false
   inline bool MarkStarted();
 
   static inline ::System::Threading::Tasks::Task* New_ctor();
@@ -799,43 +799,43 @@ public:
 
   static inline ::System::Threading::Tasks::Task* New_ctor(::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions, bool promiseStyle);
 
-  /// @brief Method NotifyDebuggerOfWaitCompletion, addr 0x3debf7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method NotifyDebuggerOfWaitCompletion, addr 0x3e0060c, size 0x28, virtual false, abstract: false, final false
   inline void NotifyDebuggerOfWaitCompletion();
 
-  /// @brief Method NotifyDebuggerOfWaitCompletionIfNecessary, addr 0x3debf14, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method NotifyDebuggerOfWaitCompletionIfNecessary, addr 0x3e005a4, size 0x50, virtual false, abstract: false, final false
   inline bool NotifyDebuggerOfWaitCompletionIfNecessary();
 
-  /// @brief Method OptionsMethod, addr 0x3debd60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OptionsMethod, addr 0x3e003f0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::TaskCreationOptions OptionsMethod(int32_t flags);
 
-  /// @brief Method ProcessChildCompletion, addr 0x3dedce8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ProcessChildCompletion, addr 0x3e02378, size 0x1b4, virtual false, abstract: false, final false
   inline void ProcessChildCompletion(::System::Threading::Tasks::Task* childTask);
 
-  /// @brief Method RecordInternalCancellationRequest, addr 0x3defd6c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method RecordInternalCancellationRequest, addr 0x3e043fc, size 0x48, virtual false, abstract: false, final false
   inline void RecordInternalCancellationRequest();
 
-  /// @brief Method RecordInternalCancellationRequest, addr 0x3defdb4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RecordInternalCancellationRequest, addr 0x3e04444, size 0x8c, virtual false, abstract: false, final false
   inline void RecordInternalCancellationRequest(::System::Threading::CancellationToken tokenToRecord);
 
-  /// @brief Method RecordInternalCancellationRequest, addr 0x3deba74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RecordInternalCancellationRequest, addr 0x3e00104, size 0x3c, virtual false, abstract: false, final false
   inline void RecordInternalCancellationRequest(::System::Threading::CancellationToken tokenToRecord, ::System::Object* cancellationException);
 
-  /// @brief Method RemoveContinuation, addr 0x3deb76c, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method RemoveContinuation, addr 0x3dffdfc, size 0x248, virtual false, abstract: false, final false
   inline void RemoveContinuation(::System::Object* continuationObject);
 
-  /// @brief Method RemoveFromActiveTasks, addr 0x3df2c7c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromActiveTasks, addr 0x3e0730c, size 0x140, virtual false, abstract: false, final false
   static inline void RemoveFromActiveTasks(int32_t taskId);
 
-  /// @brief Method Run, addr 0x3df0c38, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3e052c8, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* Run(::System::Action* action);
 
-  /// @brief Method Run, addr 0x3df0d08, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3e05398, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* Run(::System::Action* action, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Run, addr 0x3df0de4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3e05474, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* Run(::System::Func_1<::System::Threading::Tasks::Task*>* function);
 
-  /// @brief Method Run, addr 0x3df0e3c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3e054cc, size 0x234, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* Run(::System::Func_1<::System::Threading::Tasks::Task*>* function, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -851,66 +851,66 @@ public:
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::System::Threading::Tasks::Task_1<TResult>* Run(::System::Func_1<TResult>* function, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ScheduleAndStart, addr 0x3dec194, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleAndStart, addr 0x3e00824, size 0x20c, virtual false, abstract: false, final false
   inline void ScheduleAndStart(bool needsProtection);
 
-  /// @brief Method SetCancellationAcknowledged, addr 0x3deeb10, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetCancellationAcknowledged, addr 0x3e031a0, size 0x2c, virtual false, abstract: false, final false
   inline void SetCancellationAcknowledged();
 
-  /// @brief Method SetContinuationForAwait, addr 0x3deeb3c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method SetContinuationForAwait, addr 0x3e031cc, size 0x1fc, virtual false, abstract: false, final false
   inline void SetContinuationForAwait(::System::Action* continuationAction, bool continueOnCapturedContext, bool flowExecutionContext);
 
-  /// @brief Method SetNotificationForWaitCompletion, addr 0x3debe40, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetNotificationForWaitCompletion, addr 0x3e004d0, size 0xd4, virtual false, abstract: false, final false
   inline void SetNotificationForWaitCompletion(bool enabled);
 
-  /// @brief Method SpinThenBlockingWait, addr 0x3def9b0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method SpinThenBlockingWait, addr 0x3e04040, size 0x1ac, virtual false, abstract: false, final false
   inline bool SpinThenBlockingWait(int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SpinWait, addr 0x3defb5c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SpinWait, addr 0x3e041ec, size 0xdc, virtual false, abstract: false, final false
   inline bool SpinWait(int32_t millisecondsTimeout);
 
-  /// @brief Method System.IAsyncResult.get_AsyncWaitHandle, addr 0x3dec924, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_AsyncWaitHandle, addr 0x3e00fb4, size 0x84, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
 
-  /// @brief Method System.IAsyncResult.get_CompletedSynchronously, addr 0x3decaa8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_CompletedSynchronously, addr 0x3e01138, size 0x8, virtual true, abstract: false, final true
   inline bool System_IAsyncResult_get_CompletedSynchronously();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x3dee72c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x3e02dbc, size 0x8, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method TaskCancelCallback, addr 0x3deb67c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method TaskCancelCallback, addr 0x3dffd0c, size 0xf0, virtual false, abstract: false, final false
   static inline void TaskCancelCallback(::System::Object* o);
 
-  /// @brief Method TaskConstructorCore, addr 0x3dead74, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TaskConstructorCore, addr 0x3dff404, size 0x178, virtual false, abstract: false, final false
   inline void TaskConstructorCore(::System::Delegate* action, ::System::Object* state, ::System::Threading::CancellationToken cancellationToken,
                                   ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::InternalTaskOptions internalOptions,
                                   ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method ThrowIfExceptional, addr 0x3ded354, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfExceptional, addr 0x3e019e4, size 0x48, virtual false, abstract: false, final false
   inline void ThrowIfExceptional(bool includeTaskCanceledExceptions);
 
-  /// @brief Method TrySetCanceled, addr 0x3dea4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TrySetCanceled, addr 0x3dfeb34, size 0x8, virtual false, abstract: false, final false
   inline bool TrySetCanceled(::System::Threading::CancellationToken tokenToRecord);
 
-  /// @brief Method TrySetCanceled, addr 0x3de9be4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method TrySetCanceled, addr 0x3dfe274, size 0x58, virtual false, abstract: false, final false
   inline bool TrySetCanceled(::System::Threading::CancellationToken tokenToRecord, ::System::Object* cancellationException);
 
-  /// @brief Method TrySetException, addr 0x3dea4ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TrySetException, addr 0x3dfeb3c, size 0x6c, virtual false, abstract: false, final false
   inline bool TrySetException(::System::Object* exceptionObject);
 
-  /// @brief Method UpdateExceptionObservedStatus, addr 0x3ded39c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateExceptionObservedStatus, addr 0x3e01a2c, size 0xd4, virtual false, abstract: false, final false
   inline void UpdateExceptionObservedStatus();
 
-  /// @brief Method Wait, addr 0x3deef60, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x3e035f0, size 0x150, virtual false, abstract: false, final false
   inline bool Wait(int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Wait, addr 0x3deef54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x3e035e4, size 0xc, virtual false, abstract: false, final false
   inline void Wait();
 
-  /// @brief Method WhenAll, addr 0x3df1ef4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method WhenAll, addr 0x3e06584, size 0x1b0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WhenAll(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
 
-  /// @brief Method WhenAll, addr 0x3df1680, size 0x874, virtual false, abstract: false, final false
+  /// @brief Method WhenAll, addr 0x3e05d10, size 0x874, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WhenAll(::System::Collections::Generic::IEnumerable_1<::System::Threading::Tasks::Task*>* tasks);
 
   /// @brief Method WhenAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -922,10 +922,10 @@ public:
   template <typename TResult>
   static inline ::System::Threading::Tasks::Task_1<::ArrayW<TResult, ::Array<TResult>*>>* WhenAll(::System::Collections::Generic::IEnumerable_1<::System::Threading::Tasks::Task_1<TResult>*>* tasks);
 
-  /// @brief Method WhenAny, addr 0x3df22e4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method WhenAny, addr 0x3e06974, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* WhenAny(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
 
-  /// @brief Method WhenAny, addr 0x3df26a8, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method WhenAny, addr 0x3e06d38, size 0x474, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* WhenAny(::System::Collections::Generic::IEnumerable_1<::System::Threading::Tasks::Task*>* tasks);
 
   /// @brief Method WhenAny, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -938,7 +938,7 @@ public:
   static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task_1<TResult>*>*
   WhenAny(::System::Collections::Generic::IEnumerable_1<::System::Threading::Tasks::Task_1<TResult>*>* tasks);
 
-  /// @brief Method WrappedTryRunInline, addr 0x3def658, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method WrappedTryRunInline, addr 0x3e03ce8, size 0xd0, virtual false, abstract: false, final false
   inline bool WrappedTryRunInline();
 
   constexpr ::System::Delegate*& __cordl_internal_get_m_action();
@@ -989,21 +989,21 @@ public:
 
   constexpr void __cordl_internal_set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler* value);
 
-  /// @brief Method .ctor, addr 0x3deac2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dff2bc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3deaeec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dff57c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* action, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method .ctor, addr 0x3deaf1c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dff5ac, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* action, ::System::Object* state, ::System::Threading::Tasks::Task* parent, ::System::Threading::CancellationToken cancellationToken,
                     ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::InternalTaskOptions internalOptions,
                     ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method .ctor, addr 0x3deab50, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dff1e0, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(bool canceled, ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::CancellationToken ct);
 
-  /// @brief Method .ctor, addr 0x3deac54, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dff2e4, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions, bool promiseStyle);
 
   static inline ::System::Threading::Tasks::Task* getStaticF__CompletedTask_k__BackingField();
@@ -1034,82 +1034,82 @@ public:
 
   static inline ::System::Threading::Tasks::StackGuard* getStaticF_t_stackGuard();
 
-  /// @brief Method get_AsyncState, addr 0x3decaa0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x3e01130, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_CancellationToken, addr 0x3de9004, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_CancellationToken, addr 0x3dfd694, size 0x24, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationToken get_CancellationToken();
 
-  /// @brief Method get_CapturedContext, addr 0x3decbd8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_CapturedContext, addr 0x3e01268, size 0x70, virtual false, abstract: false, final false
   inline ::System::Threading::ExecutionContext* get_CapturedContext();
 
-  /// @brief Method get_CompletedEvent, addr 0x3dec9a8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_CompletedEvent, addr 0x3e01038, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::ManualResetEventSlim* get_CompletedEvent();
 
-  /// @brief Method get_CompletedTask, addr 0x3decb10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_CompletedTask, addr 0x3e011a0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* get_CompletedTask();
 
-  /// @brief Method get_CreationOptions, addr 0x3deafe0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_CreationOptions, addr 0x3dff670, size 0x14, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::TaskCreationOptions get_CreationOptions();
 
-  /// @brief Method get_CurrentStackGuard, addr 0x3dec494, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentStackGuard, addr 0x3e00b24, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::StackGuard* get_CurrentStackGuard();
 
-  /// @brief Method get_Exception, addr 0x3dec548, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x3e00bd8, size 0x3c, virtual false, abstract: false, final false
   inline ::System::AggregateException* get_Exception();
 
-  /// @brief Method get_ExceptionRecorded, addr 0x3decb68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionRecorded, addr 0x3e011f8, size 0x54, virtual false, abstract: false, final false
   inline bool get_ExceptionRecorded();
 
-  /// @brief Method get_ExecutingTaskScheduler, addr 0x3decab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExecutingTaskScheduler, addr 0x3e01140, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::TaskScheduler* get_ExecutingTaskScheduler();
 
-  /// @brief Method get_Factory, addr 0x3decab8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Factory, addr 0x3e01148, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::TaskFactory* get_Factory();
 
-  /// @brief Method get_Id, addr 0x3dea814, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x3dfeea4, size 0x90, virtual false, abstract: false, final false
   inline int32_t get_Id();
 
-  /// @brief Method get_InternalCurrent, addr 0x3dec3a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_InternalCurrent, addr 0x3e00a30, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* get_InternalCurrent();
 
-  /// @brief Method get_IsCanceled, addr 0x3dec748, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsCanceled, addr 0x3e00dd8, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsCanceled();
 
-  /// @brief Method get_IsCancellationAcknowledged, addr 0x3dec8d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsCancellationAcknowledged, addr 0x3e00f64, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsCancellationAcknowledged();
 
-  /// @brief Method get_IsCancellationRequested, addr 0x3dec768, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_IsCancellationRequested, addr 0x3e00df8, size 0x90, virtual false, abstract: false, final false
   inline bool get_IsCancellationRequested();
 
-  /// @brief Method get_IsCompleted, addr 0x3de9294, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x3dfd924, size 0x64, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
-  /// @brief Method get_IsCompletedSuccessfully, addr 0x3dec8fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompletedSuccessfully, addr 0x3e00f8c, size 0x28, virtual false, abstract: false, final false
   inline bool get_IsCompletedSuccessfully();
 
-  /// @brief Method get_IsDelegateInvoked, addr 0x3ded488, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsDelegateInvoked, addr 0x3e01b18, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsDelegateInvoked();
 
-  /// @brief Method get_IsExceptionObservedByParent, addr 0x3ded470, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsExceptionObservedByParent, addr 0x3e01b00, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsExceptionObservedByParent();
 
-  /// @brief Method get_IsFaulted, addr 0x3dec584, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsFaulted, addr 0x3e00c14, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsFaulted();
 
-  /// @brief Method get_IsWaitNotificationEnabled, addr 0x3debf64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsWaitNotificationEnabled, addr 0x3e005f4, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsWaitNotificationEnabled();
 
-  /// @brief Method get_IsWaitNotificationEnabledOrNotRanToCompletion, addr 0x3dec040, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_IsWaitNotificationEnabledOrNotRanToCompletion, addr 0x3e006d0, size 0x28, virtual false, abstract: false, final false
   inline bool get_IsWaitNotificationEnabledOrNotRanToCompletion();
 
-  /// @brief Method get_Options, addr 0x3deb408, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Options, addr 0x3dffa98, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::TaskCreationOptions get_Options();
 
-  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x3dec068, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x3e006f8, size 0x18, virtual true, abstract: false, final false
   inline bool get_ShouldNotifyDebuggerOfWaitCompletion();
 
-  /// @brief Method get_Status, addr 0x3dec6e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x3e00d78, size 0x60, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::TaskStatus get_Status();
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -1149,7 +1149,7 @@ public:
 
   static inline void setStaticF_t_stackGuard(::System::Threading::Tasks::StackGuard* value);
 
-  /// @brief Method set_CapturedContext, addr 0x3deb330, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_CapturedContext, addr 0x3dff9c0, size 0x98, virtual false, abstract: false, final false
   inline void set_CapturedContext(::System::Threading::ExecutionContext* value);
 
 protected:

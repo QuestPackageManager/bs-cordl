@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__TypeName_k__BackingField(::StringW value);
 
-  /// @brief Method get_PropertyName, addr 0x43d2494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyName, addr 0x43e6bac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
-  /// @brief Method get_TypeName, addr 0x43d248c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x43e6ba4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:
@@ -69,7 +69,7 @@ public:
   ::StringW ____PropertyName_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9334 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

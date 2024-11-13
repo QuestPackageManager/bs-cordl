@@ -33,7 +33,7 @@ template <typename P1, typename T> constexpr ::cordl_internals::to_const_pointer
 }
 template <typename P1, typename T> constexpr void Zenject::PrefabResourceFactory_2<P1, T>::__cordl_internal_set__container(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____container, value);
 }
 template <typename P1, typename T> inline ::Zenject::DiContainer* Zenject::PrefabResourceFactory_2<P1, T>::get_Container() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabResourceFactory_2<P1, T>*>::get(), "get_Container",

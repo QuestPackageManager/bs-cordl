@@ -39,13 +39,13 @@ public:
 
   static inline ::LiteNetLib::NetPacketReader* New_ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt);
 
-  /// @brief Method Recycle, addr 0x3a45f9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Recycle, addr 0x3a598f4, size 0x68, virtual false, abstract: false, final false
   inline void Recycle();
 
-  /// @brief Method RecycleInternal, addr 0x3a45d24, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RecycleInternal, addr 0x3a5967c, size 0x44, virtual false, abstract: false, final false
   inline void RecycleInternal();
 
-  /// @brief Method SetSource, addr 0x3a45c5c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetSource, addr 0x3a595b4, size 0x40, virtual false, abstract: false, final false
   inline void SetSource(::LiteNetLib::NetPacket* packet);
 
   constexpr ::LiteNetLib::NetEvent*& __cordl_internal_get__evt();
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__packet(::LiteNetLib::NetPacket* value);
 
-  /// @brief Method .ctor, addr 0x3a45c30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a59588, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt);
 
 protected:
@@ -93,7 +93,7 @@ public:
   ::LiteNetLib::NetEvent* ____evt;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16501 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

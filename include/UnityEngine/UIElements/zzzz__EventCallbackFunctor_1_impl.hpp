@@ -21,7 +21,7 @@ UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__cordl_internal_ge
 template <typename TEventType>
 constexpr void UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__cordl_internal_set_m_Callback(::UnityEngine::UIElements::EventCallback_1<TEventType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Callback, value);
 }
 template <typename TEventType> constexpr int64_t& UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__cordl_internal_get_m_EventTypeId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -27,15 +27,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithDataStoreUnderPublicUserDataStore : public ::Oculus::Platform::Message_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f0899c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f1d02c, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetDataStore, addr 0x3f08960, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetDataStore, addr 0x3f1cff0, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetDataStore();
 
   static inline ::Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f061a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1a838, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -53,7 +53,7 @@ public:
   MessageWithDataStoreUnderPublicUserDataStore(MessageWithDataStoreUnderPublicUserDataStore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15334 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

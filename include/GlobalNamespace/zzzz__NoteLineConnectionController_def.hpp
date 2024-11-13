@@ -49,7 +49,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__NoteLineConnectionController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a8024c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a93bc8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   __NoteLineConnectionController__Pool(__NoteLineConnectionController__Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4118 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4120 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -128,13 +128,13 @@ public:
 
   static inline ::GlobalNamespace::NoteLineConnectionController* New_ctor();
 
-  /// @brief Method Setup, addr 0x3a7ff80, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3a938fc, size 0xa4, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::NoteController* noteController0, ::GlobalNamespace::NoteController* noteController1, float_t fadeOutStartDistance, float_t fadeOutEndDistance, float_t noteTime);
 
-  /// @brief Method Update, addr 0x3a801e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a93b5c, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePositionsAndColors, addr 0x3a80024, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method UpdatePositionsAndColors, addr 0x3a939a0, size 0x1bc, virtual false, abstract: false, final false
   inline void UpdatePositionsAndColors();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -215,13 +215,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteLineConnectionController>>* value);
 
-  /// @brief Method .ctor, addr 0x3a80244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a93bc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3a7fe20, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3a9379c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteLineConnectionController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3a7fed0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3a9384c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteLineConnectionController>>* value);
 
 protected:
@@ -278,7 +278,7 @@ public:
   bool ____didFinish;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4121 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

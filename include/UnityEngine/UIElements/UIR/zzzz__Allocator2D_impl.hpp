@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__Allocator2D__Area::*)(::UnityEngine::RectInt)>(
     &::UnityEngine::UIElements::UIR::__Allocator2D__Area::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x492c89c;
+  constexpr static std::size_t addrs = 0x4940fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::__Allocator2D__Row* (*)()>(
     &::UnityEngine::UIElements::UIR::__Allocator2D__Row::Create)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x492c91c;
+  constexpr static std::size_t addrs = 0x4941034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::UIR::__Allocator2D__Row*)>(
     &::UnityEngine::UIElements::UIR::__Allocator2D__Row::Reset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x492c9b4;
+  constexpr static std::size_t addrs = 0x49410cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__Allocator2D__Row::*)()>(
     &::UnityEngine::UIElements::UIR::__Allocator2D__Row::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x492c96c;
+  constexpr static std::size_t addrs = 0x4941084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>::get(),
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D::*)(
     ::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::UnityEngine::UIElements::UIR::Alloc, int32_t, int32_t)>(&::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x492c598;
+  constexpr static std::size_t addrs = 0x4940cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D::*)(::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int, int32_t)>(
     &::UnityEngine::UIElements::UIR::Allocator2D::_ctor)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x492bb14;
+  constexpr static std::size_t addrs = 0x494022c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::Allocator2D::*)(
     int32_t, int32_t, ByRef<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D>)>(&::UnityEngine::UIElements::UIR::Allocator2D::TryAllocate)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x492c0e4;
+  constexpr static std::size_t addrs = 0x49407fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D::*)(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D)>(
     &::UnityEngine::UIElements::UIR::Allocator2D::Free)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x492c6a0;
+  constexpr static std::size_t addrs = 0x4940db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,7 +287,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*, ::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int)>(
         &::UnityEngine::UIElements::UIR::Allocator2D::BuildAreas)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x492bd2c;
+  constexpr static std::size_t addrs = 0x4940444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2Int (*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*, int32_t)>(&::UnityEngine::UIElements::UIR::Allocator2D::ComputeMaxAllocSize)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x492bf58;
+  constexpr static std::size_t addrs = 0x4940670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -321,7 +321,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*> (*)(int32_t, int32_t)>(
         &::UnityEngine::UIElements::UIR::Allocator2D::BuildRowArray)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x492c05c;
+  constexpr static std::size_t addrs = 0x4940774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

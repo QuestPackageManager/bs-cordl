@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44671fc;
+  constexpr static std::size_t addrs = 0x447b914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Object*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::set_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4467204;
+  constexpr static std::size_t addrs = 0x447b91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446720c;
+  constexpr static std::size_t addrs = 0x447b924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Type*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::set_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4467214;
+  constexpr static std::size_t addrs = 0x447b92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> (
     ::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(&::UnityEngine::AddressableAssets::InvalidKeyException::get_MergeMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446721c;
+  constexpr static std::size_t addrs = 0x447b934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Object*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4467224;
+  constexpr static std::size_t addrs = 0x447b93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::System::Object*, ::System::Type*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x44672b0;
+  constexpr static std::size_t addrs = 0x447b9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::System::Object*, ::System::Type*, ::UnityEngine::AddressableAssets::AddressablesImpl*)>(&::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4467320;
+  constexpr static std::size_t addrs = 0x447ba38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::System::Object*, ::System::Type*, ::UnityEngine::AddressableAssets::__Addressables__MergeMode)>(&::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x44673a0;
+  constexpr static std::size_t addrs = 0x447bab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Type*, ::UnityEngine::AddressableAssets::__Addressables__MergeMode, ::UnityEngine::AddressableAssets::AddressablesImpl*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x446744c;
+  constexpr static std::size_t addrs = 0x447bb64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4467504;
+  constexpr static std::size_t addrs = 0x447bc1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::InvalidKeyException*>::get(),
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x446755c;
+  constexpr static std::size_t addrs = 0x447bc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW, ::System::Exception*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x44675c4;
+  constexpr static std::size_t addrs = 0x447bcdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::UnityEngine::AddressableAssets::InvalidKeyException::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4467634;
+  constexpr static std::size_t addrs = 0x447bd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)()>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::get_Message)> {
   constexpr static std::size_t size = 0x708;
-  constexpr static std::size_t addrs = 0x44676b4;
+  constexpr static std::size_t addrs = 0x447bdcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::GetMessageForSingleKey)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4467dbc;
+  constexpr static std::size_t addrs = 0x447c4d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::GetNotFoundMessage)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x44698f0;
+  constexpr static std::size_t addrs = 0x447e008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::StringW, ::System::Collections::Generic::HashSet_1<::System::Type*>*)>(&::UnityEngine::AddressableAssets::InvalidKeyException::GetTypeNotAssignableMessage)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x4469954;
+  constexpr static std::size_t addrs = 0x447e06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::StringW, ::System::Collections::Generic::HashSet_1<::System::Type*>*)>(&::UnityEngine::AddressableAssets::InvalidKeyException::GetMultipleAssignableTypesMessage)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x4469c38;
+  constexpr static std::size_t addrs = 0x447e350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::System::Collections::Generic::List_1<::StringW>*)>(&::UnityEngine::AddressableAssets::InvalidKeyException::GetMessageforMergeKeys)> {
   constexpr static std::size_t size = 0xfbc;
-  constexpr static std::size_t addrs = 0x446821c;
+  constexpr static std::size_t addrs = 0x447c934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::HashSet_1<::System::Type*>* (
     ::UnityEngine::AddressableAssets::InvalidKeyException::*)(::StringW)>(&::UnityEngine::AddressableAssets::InvalidKeyException::GetTypesForKey)> {
   constexpr static std::size_t size = 0x718;
-  constexpr static std::size_t addrs = 0x44691d8;
+  constexpr static std::size_t addrs = 0x447d8f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,7 +349,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::StringW>*>*)>(
     &::UnityEngine::AddressableAssets::InvalidKeyException::GetTypeToKeys)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x4469f40;
+  constexpr static std::size_t addrs = 0x447e658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::InvalidKeyException::*)(
     ::System::Collections::Generic::IEnumerable_1<::StringW>*, ::StringW, ::StringW)>(&::UnityEngine::AddressableAssets::InvalidKeyException::GetCSVString)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x4467e40;
+  constexpr static std::size_t addrs = 0x447c558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

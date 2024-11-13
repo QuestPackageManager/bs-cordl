@@ -23,13 +23,13 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x48d4d50, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x48e9468, size 0xfc, virtual false, abstract: false, final false
   inline uint8_t Add(::UnityEngine::TextCore::Text::FontStyles style);
 
-  /// @brief Method Clear, addr 0x48d4d44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x48e945c, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Remove, addr 0x48d4e4c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x48e9564, size 0x144, virtual false, abstract: false, final false
   inline uint8_t Remove(::UnityEngine::TextCore::Text::FontStyles style);
 
   // Ctor Parameters []
@@ -75,7 +75,7 @@ public:
   uint8_t smallcaps;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15251 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa };

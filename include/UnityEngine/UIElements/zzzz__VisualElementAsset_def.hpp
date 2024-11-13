@@ -74,10 +74,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method OnAfterDeserialize, addr 0x4a29878, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x4a3df90, size 0x188, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x4a29874, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x4a3df8c, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_Classes() const;
@@ -128,25 +128,25 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::StringW value);
 
-  /// @brief Method get_classes, addr 0x4a29754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_classes, addr 0x4a3de6c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_classes();
 
-  /// @brief Method get_hasStylesheetPaths, addr 0x4a297d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheetPaths, addr 0x4a3deec, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheetPaths();
 
-  /// @brief Method get_hasStylesheets, addr 0x4a2985c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheets, addr 0x4a3df74, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheets();
 
-  /// @brief Method get_ruleIndex, addr 0x4a2974c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ruleIndex, addr 0x4a3de64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ruleIndex();
 
-  /// @brief Method get_skipClone, addr 0x4a2986c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skipClone, addr 0x4a3df84, size 0x8, virtual false, abstract: false, final false
   inline bool get_skipClone();
 
-  /// @brief Method get_stylesheetPaths, addr 0x4a2975c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheetPaths, addr 0x4a3de74, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_stylesheetPaths();
 
-  /// @brief Method get_stylesheets, addr 0x4a297e4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheets, addr 0x4a3defc, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_stylesheets();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -191,7 +191,7 @@ public:
   bool ___m_SkipClone;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6251 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6256 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

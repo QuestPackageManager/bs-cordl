@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters*)>(&::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x23f6d8c;
+  constexpr static std::size_t addrs = 0x2401e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl::get_IsServer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f6dfc;
+  constexpr static std::size_t addrs = 0x2401ea4;
 
   inline static ::MethodInfo const* methodInfo() {
 

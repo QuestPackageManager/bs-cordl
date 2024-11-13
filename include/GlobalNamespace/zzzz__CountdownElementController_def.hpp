@@ -34,10 +34,10 @@ public:
 
   static inline ::GlobalNamespace::CountdownElementController* New_ctor();
 
-  /// @brief Method SetTextAndRunAnimation, addr 0x3b9090c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetTextAndRunAnimation, addr 0x3ba64d4, size 0x64, virtual false, abstract: false, final false
   inline void SetTextAndRunAnimation(::StringW text);
 
-  /// @brief Method StopAndHide, addr 0x3b90a64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method StopAndHide, addr 0x3ba662c, size 0x24, virtual false, abstract: false, final false
   inline void StopAndHide();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b90bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba67b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   ::UnityW<::UnityEngine::Animation> ____animation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

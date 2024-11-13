@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::AbstractFpCurve::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::EC::AbstractFpCurve::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x240fcd0;
+  constexpr static std::size_t addrs = 0x241ad78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::AbstractFpCurve::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::EC::AbstractFpCurve::IsValidFieldElement)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x240fd54;
+  constexpr static std::size_t addrs = 0x241adfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::AbstractFpCurve::*)(::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Math::EC::AbstractFpCurve::RandomFieldElement)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x240fe38;
+  constexpr static std::size_t addrs = 0x241aee0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::AbstractFpCurve::*)(::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Math::EC::AbstractFpCurve::RandomFieldElementMult)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x240ffb0;
+  constexpr static std::size_t addrs = 0x241b058;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Math::EC::AbstractFpCurve::*)(int32_t, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::AbstractFpCurve::DecompressPoint)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2410158;
+  constexpr static std::size_t addrs = 0x241b200;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::Org::BouncyCastle::Security::SecureRandom*, ::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Math::EC::AbstractFpCurve::ImplRandomFieldElement)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x240ff58;
+  constexpr static std::size_t addrs = 0x241b000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::Org::BouncyCastle::Security::SecureRandom*, ::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Math::EC::AbstractFpCurve::ImplRandomFieldElementMult)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x24100d0;
+  constexpr static std::size_t addrs = 0x241b178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

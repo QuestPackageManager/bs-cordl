@@ -49,22 +49,22 @@ public:
 
   constexpr void __cordl_internal_set__Parent_k__BackingField(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  /// @brief Method .ctor, addr 0x3edcf30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ef15c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CalculatedSize, addr 0x3edcf20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CalculatedSize, addr 0x3ef15b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CalculatedSize();
 
-  /// @brief Method get_Parent, addr 0x3edcf10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x3ef15a0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonToken* get_Parent();
 
   /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method set_CalculatedSize, addr 0x3edcf28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CalculatedSize, addr 0x3ef15b8, size 0x8, virtual false, abstract: false, final false
   inline void set_CalculatedSize(int32_t value);
 
-  /// @brief Method set_Parent, addr 0x3edcf18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Parent, addr 0x3ef15a8, size 0x8, virtual false, abstract: false, final false
   inline void set_Parent(::Newtonsoft::Json::Bson::BsonToken* value);
 
 protected:
@@ -88,7 +88,7 @@ public:
   int32_t ____CalculatedSize_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

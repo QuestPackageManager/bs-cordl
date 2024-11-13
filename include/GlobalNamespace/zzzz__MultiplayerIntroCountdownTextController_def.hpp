@@ -36,10 +36,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerIntroCountdownTextController* New_ctor();
 
-  /// @brief Method SetDistances, addr 0x3b5a480, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetDistances, addr 0x3b70b78, size 0x88, virtual false, abstract: false, final false
   inline void SetDistances(float_t distance);
 
-  /// @brief Method SetText, addr 0x3b5ae14, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x3b7150c, size 0x70, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
   constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> const& __cordl_internal_get__texts() const;
@@ -48,22 +48,22 @@ public:
 
   constexpr void __cordl_internal_set__texts(::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b5afd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b716d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alpha, addr 0x3b59f30, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_alpha, addr 0x3b70628, size 0x40, virtual false, abstract: false, final false
   inline float_t get_alpha();
 
-  /// @brief Method get_fontSize, addr 0x3b59ef8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_fontSize, addr 0x3b705f0, size 0x38, virtual false, abstract: false, final false
   inline float_t get_fontSize();
 
-  /// @brief Method set_alpha, addr 0x3b5a388, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x3b70a80, size 0x80, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method set_fontSize, addr 0x3b5a300, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_fontSize, addr 0x3b709f8, size 0x70, virtual false, abstract: false, final false
   inline void set_fontSize(float_t value);
 
-  /// @brief Method set_hide, addr 0x3b59ecc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x3b705c4, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -84,7 +84,7 @@ public:
   ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> ____texts;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

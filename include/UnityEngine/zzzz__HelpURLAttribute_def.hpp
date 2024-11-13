@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Url(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4831084, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484579c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW url);
 
 protected:
@@ -76,7 +76,7 @@ public:
   ::StringW ___m_DispatchingFieldName;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10830 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

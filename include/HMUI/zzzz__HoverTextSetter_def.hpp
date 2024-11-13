@@ -54,13 +54,13 @@ public:
 
   static inline ::HMUI::HoverTextSetter* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3985734, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x399908c, size 0x18, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPointerEnter, addr 0x39856fc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x3999054, size 0x20, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x398571c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x3999074, size 0x18, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::UnityW<::HMUI::HoverTextController> const& __cordl_internal_get__hoverTextController() const;
@@ -75,10 +75,10 @@ public:
 
   constexpr void __cordl_internal_set__text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x398574c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39990a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x39856ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3999044, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -90,7 +90,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  /// @brief Method set_text, addr 0x39856f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x399904c, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -114,7 +114,7 @@ public:
   ::StringW ____text;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16009 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

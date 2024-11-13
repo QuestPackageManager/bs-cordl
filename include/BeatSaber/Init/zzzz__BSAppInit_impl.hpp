@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::DotnetExtension::CommandLine::CommandLineParserResult (::BeatSaber::Init::BSAppInit::*)()>(
     &::BeatSaber::Init::BSAppInit::get_commandLineArguments)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2236144;
+  constexpr static std::size_t addrs = 0x223ebfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get(), "get_commandLineArguments",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::BSAppInit::*)(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult)>(
     &::BeatSaber::Init::BSAppInit::set_commandLineArguments)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2236158;
+  constexpr static std::size_t addrs = 0x223ec10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::Init::BSAppInit::*)()>(&::BeatSaber::Init::BSAppInit::PreloadAsync)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x223616c;
+  constexpr static std::size_t addrs = 0x223ec24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::BSAppInit::*)()>(&::BeatSaber::Init::BSAppInit::InstallBindings)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2236214;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x223eccc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Init::BSAppInit::*)()>(&::BeatSaber::Init::BSAppInit::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22362c0;
+  constexpr static std::size_t addrs = 0x223edc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSAppInit*>::get(), ".ctor",

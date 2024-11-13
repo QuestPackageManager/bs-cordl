@@ -47,12 +47,12 @@ public:
   /// @brief Field serialNumber, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber)) ::StringW serialNumber;
 
-  /// @brief Method FromJson, addr 0x456d7b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x4581ecc, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRDeviceDescriptor* FromJson(::StringW json);
 
   static inline ::UnityEngine::InputSystem::XR::XRDeviceDescriptor* New_ctor();
 
-  /// @brief Method ToJson, addr 0x4570604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x4584d1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
   constexpr ::UnityEngine::XR::InputDeviceCharacteristics const& __cordl_internal_get_characteristics() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set_serialNumber(::StringW value);
 
-  /// @brief Method .ctor, addr 0x457060c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4584d24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* ___inputFeatures;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6715 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

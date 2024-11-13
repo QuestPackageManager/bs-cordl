@@ -76,7 +76,7 @@ public:
   static ::UnityEngine::UIElements::__MouseCaptureDispatchingStrategy__EventBehavior const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5822 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -102,15 +102,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Method CanDispatchEvent, addr 0x49b007c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x49c4794, size 0x7c, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x49b00f8, size 0x670, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x49c4810, size 0x670, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::MouseCaptureDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49a85fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bcd14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
@@ -131,7 +131,7 @@ public:
   MouseCaptureDispatchingStrategy(MouseCaptureDispatchingStrategy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5823 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

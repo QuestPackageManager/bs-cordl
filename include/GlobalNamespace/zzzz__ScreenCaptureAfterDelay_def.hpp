@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set_screenshotType(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType value);
 
-  /// @brief Method .ctor, addr 0x400f048, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4023760, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight);
 
 protected:
@@ -133,7 +133,7 @@ public:
   int32_t ___pixelsHeight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -179,21 +179,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x400f0ac, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x40237c4, size 0x1d0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__ScreenCaptureAfterDelay___Start_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x400f27c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4023994, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x400f284, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x402399c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x400f2bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40239d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x400f0a8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x40237c0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -214,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> value);
 
-  /// @brief Method .ctor, addr 0x400ec98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40233b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -250,7 +250,7 @@ public:
   ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17828 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -291,15 +291,15 @@ public:
   /// @brief Field _screenCaptureCache, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__screenCaptureCache, put = __cordl_internal_set__screenCaptureCache)) ::GlobalNamespace::ScreenCaptureCache* _screenCaptureCache;
 
-  /// @brief Method HandleMainEffectControllerAfterImageEffectEvent, addr 0x400ed9c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method HandleMainEffectControllerAfterImageEffectEvent, addr 0x40234b4, size 0x1f8, virtual false, abstract: false, final false
   inline void HandleMainEffectControllerAfterImageEffectEvent(::UnityEngine::RenderTexture* renderTexture);
 
   static inline ::GlobalNamespace::ScreenCaptureAfterDelay* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x400ecc0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x40233d8, size 0xdc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x400ec38, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4023350, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__captureRenderTexture() const;
@@ -332,7 +332,7 @@ public:
 
   constexpr void __cordl_internal_set__screenCaptureCache(::GlobalNamespace::ScreenCaptureCache* value);
 
-  /// @brief Method .ctor, addr 0x400f040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4023758, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -365,7 +365,7 @@ public:
   ::UnityW<::UnityEngine::RenderTexture> ____captureRenderTexture;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

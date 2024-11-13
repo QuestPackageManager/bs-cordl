@@ -31,19 +31,19 @@ public:
   /// @brief Field allTimeFormats, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_allTimeFormats, put = setStaticF_allTimeFormats)) ::ArrayW<::StringW, ::Array<::StringW>*> allTimeFormats;
 
-  /// @brief Method FromEnum, addr 0x42fa3f0, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method FromEnum, addr 0x430eb08, size 0x284, virtual false, abstract: false, final false
   static inline ::StringW FromEnum(int64_t value, ::ArrayW<::StringW, ::Array<::StringW>*> values, ::ArrayW<int64_t, ::Array<int64_t>*> ids, ::StringW typeName);
 
-  /// @brief Method FromXmlNCName, addr 0x42fa6cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FromXmlNCName, addr 0x430ede4, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW FromXmlNCName(::StringW ncName);
 
-  /// @brief Method FromXmlName, addr 0x42fa674, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FromXmlName, addr 0x430ed8c, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW FromXmlName(::StringW name);
 
-  /// @brief Method FromXmlString, addr 0x42fa724, size 0xb1c, virtual false, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x430ee3c, size 0xb1c, virtual false, abstract: false, final false
   static inline ::System::Object* FromXmlString(::System::Xml::Serialization::TypeData* type, ::StringW value);
 
-  /// @brief Method ToXmlString, addr 0x42f9034, size 0xdb4, virtual false, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x430d74c, size 0xdb4, virtual false, abstract: false, final false
   static inline ::StringW ToXmlString(::System::Xml::Serialization::TypeData* type, ::System::Object* value);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_allTimeFormats();
@@ -65,7 +65,7 @@ public:
   XmlCustomFormatter(XmlCustomFormatter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7386 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set__NewExpression_k__BackingField(::System::Linq::Expressions::NewExpression* value);
 
-  /// @brief Method get_Initializers, addr 0x40431b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Initializers, addr 0x40578d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* get_Initializers();
 
-  /// @brief Method get_NewExpression, addr 0x40431b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewExpression, addr 0x40578c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::NewExpression* get_NewExpression();
 
 protected:
@@ -81,7 +81,7 @@ public:
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* ____Initializers_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13653 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13660 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

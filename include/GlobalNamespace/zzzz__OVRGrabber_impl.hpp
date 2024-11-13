@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRGrabbable> (::GlobalNamespace::OVRGrabber::*)()>(
     &::GlobalNamespace::OVRGrabber::get_grabbedObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fbd898;
+  constexpr static std::size_t addrs = 0x3fd1f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGrabber*>::get(), "get_grabbedObject",
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::GlobalNamespace::OVRGrabbable*)>(
     &::GlobalNamespace::OVRGrabber::ForceRelease)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3fbd7d8;
+  constexpr static std::size_t addrs = 0x3fd1e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::Awake)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3fbdb08;
+  constexpr static std::size_t addrs = 0x3fd2198;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::Start)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3fbdc48;
+  constexpr static std::size_t addrs = 0x3fd22d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::Update)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3fbdecc;
+  constexpr static std::size_t addrs = 0x3fd255c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::OnUpdatedAnchors)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x3fbdedc;
+  constexpr static std::size_t addrs = 0x3fd256c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGrabber*>::get(), "OnUpdatedAnchors",
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::OnDestroy)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3fbe140;
+  constexpr static std::size_t addrs = 0x3fd27d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGrabber*>::get(), "OnDestroy",
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::UnityEngine::Collider*)>(&::GlobalNamespace::OVRGrabber::OnTriggerEnter)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3fbe1b8;
+  constexpr static std::size_t addrs = 0x3fd2848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::UnityEngine::Collider*)>(&::GlobalNamespace::OVRGrabber::OnTriggerExit)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3fbe2dc;
+  constexpr static std::size_t addrs = 0x3fd296c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(float_t)>(&::GlobalNamespace::OVRGrabber::CheckForGrabOrRelease)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3fbe100;
+  constexpr static std::size_t addrs = 0x3fd2790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::GrabBegin)> {
   constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0x3fbe434;
+  constexpr static std::size_t addrs = 0x3fd2ac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, bool)>(
     &::GlobalNamespace::OVRGrabber::MoveGrabbedObject)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3fbeae4;
+  constexpr static std::size_t addrs = 0x3fd3174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::GrabEnd)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x3fbd8a0;
+  constexpr static std::size_t addrs = 0x3fd1f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGrabber*>::get(), "GrabEnd",
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRGrabber::GrabbableRelease)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3fbed14;
+  constexpr static std::size_t addrs = 0x3fd33a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(bool)>(&::GlobalNamespace::OVRGrabber::GrabVolumeEnable)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3fbed68;
+  constexpr static std::size_t addrs = 0x3fd33f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::GlobalNamespace::OVRGrabbable*)>(
     &::GlobalNamespace::OVRGrabber::OffhandGrabbed)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3fbee28;
+  constexpr static std::size_t addrs = 0x3fd34b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::UnityEngine::GameObject*, bool)>(
     &::GlobalNamespace::OVRGrabber::SetPlayerIgnoreCollision)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3fbdd28;
+  constexpr static std::size_t addrs = 0x3fd23b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)()>(&::GlobalNamespace::OVRGrabber::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3fbeef4;
+  constexpr static std::size_t addrs = 0x3fd3584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGrabber*>::get(), ".ctor",
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGrabber::*)(::GlobalNamespace::OVRCameraRig*)>(
     &::GlobalNamespace::OVRGrabber::_Awake_b__23_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fbef88;
+  constexpr static std::size_t addrs = 0x3fd3618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_dateTimeTimeZone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x432e128, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4342840, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +39,7 @@ public:
   Datatype_dateTimeTimeZone(Datatype_dateTimeTimeZone const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7509 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

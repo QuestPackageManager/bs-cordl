@@ -41,22 +41,22 @@ public:
   /// @brief Field _enabled, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__enabled, put = __cordl_internal_set__enabled)) bool _enabled;
 
-  /// @brief Method AddBinding, addr 0x398070c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x3993f90, size 0xdc, virtual false, abstract: false, final false
   inline void AddBinding(::HMUI::InputFieldView* inputField, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>* action);
 
-  /// @brief Method AddBindings, addr 0x39805a8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x3993e2c, size 0x164, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>* bindings);
 
-  /// @brief Method ClearBindings, addr 0x39807e8, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x399406c, size 0x234, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Disable, addr 0x3980a1c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x39942a0, size 0x1fc, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x3980c18, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x399449c, size 0x200, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Init, addr 0x3980534, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3993db8, size 0x74, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::InputFieldViewChangeBinder* New_ctor();
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x3980510, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3993d94, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   bool ____enabled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15982 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

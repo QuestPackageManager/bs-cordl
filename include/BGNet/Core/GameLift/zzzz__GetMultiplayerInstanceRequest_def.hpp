@@ -40,7 +40,7 @@ namespace BGNet::Core::GameLift {
 struct CORDL_TYPE GetMultiplayerInstanceRequest {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x22af5bc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ba664, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                     ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::GlobalNamespace::__AuthenticationToken__Platform platform, ::StringW authUserId,
                     ::StringW singleUseAuthToken, ::StringW privateGameSecret, ::StringW privateGameCode, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies,
@@ -103,7 +103,7 @@ public:
   ::StringW placementId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14982 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };

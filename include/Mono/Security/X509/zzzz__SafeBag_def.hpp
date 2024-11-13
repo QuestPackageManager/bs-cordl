@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__bagOID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3bbdf08, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd2598, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_ASN1, addr 0x3bbdf3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ASN1, addr 0x3bd25cc, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_ASN1();
 
-  /// @brief Method get_BagOID, addr 0x3bbdf34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BagOID, addr 0x3bd25c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BagOID();
 
 protected:
@@ -77,7 +77,7 @@ public:
   ::Mono::Security::ASN1* ____asn1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15881 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

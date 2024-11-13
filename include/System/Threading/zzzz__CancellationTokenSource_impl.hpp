@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CancellationTokenSource__LinkedNCancellationTokenSource____c::*)()>(
     &::GlobalNamespace::__CancellationTokenSource__LinkedNCancellationTokenSource____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ddb948;
+  constexpr static std::size_t addrs = 0x3deffd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CancellationTokenSource__LinkedNCancellationTokenSource____c::*)(::System::Object*)>(
     &::GlobalNamespace::__CancellationTokenSource__LinkedNCancellationTokenSource____c::__cctor_b__4_0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3ddb950;
+  constexpr static std::size_t addrs = 0x3deffe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::CancellationTokenSource::*)()>(
     &::System::Threading::CancellationTokenSource::get_IsCancellationRequested)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3dd7a7c;
+  constexpr static std::size_t addrs = 0x3dec10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenSource*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::CancellationTokenSource::*)()>(
     &::System::Threading::CancellationTokenSource::get_IsCancellationCompleted)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3dd9f2c;
+  constexpr static std::size_t addrs = 0x3dee5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenSource*>::get(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::CancellationTokenSource::*)()>(
     &::System::Threading::CancellationTokenSource::get_IsDisposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dda218;
+  constexpr static std::size_t addrs = 0x3dee8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenSource*>::get(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::CancellationTokenSource::*)()>(
     &::System::Threading::CancellationTokenSource::get_ThreadIDExecutingCallbacks)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3dd9f48;
+  constexpr static std::size_t addrs = 0x3dee5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenSource*>::get(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)(int32_t)>(
     &::System::Threading::CancellationTokenSource::set_ThreadIDExecutingCallbacks)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dda220;
+  constexpr static std::size_t addrs = 0x3dee8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::CancellationToken (::System::Threading::CancellationTokenSource::*)()>(
     &::System::Threading::CancellationTokenSource::get_Token)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3dda244;
+  constexpr static std::size_t addrs = 0x3dee8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenSource*>::get(),
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::CancellationCallbackInfo* (::System::Threading::CancellationTokenSource::*)()>(
     &::System::Threading::CancellationTokenSource::get_ExecutingCallback)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3dda2b0;
+  constexpr static std::size_t addrs = 0x3dee940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenSource*>::get(),
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)()>(&::System::Threading::CancellationTokenSource::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3dda2c8;
+  constexpr static std::size_t addrs = 0x3dee958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenSource*>::get(), ".ctor",
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)(::System::TimeSpan)>(
     &::System::Threading::CancellationTokenSource::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3dda2fc;
+  constexpr static std::size_t addrs = 0x3dee98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)(int32_t)>(
     &::System::Threading::CancellationTokenSource::InitializeWithTimer)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3dda3f4;
+  constexpr static std::size_t addrs = 0x3deea84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)()>(&::System::Threading::CancellationTokenSource::Cancel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3dda4a8;
+  constexpr static std::size_t addrs = 0x3deeb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenSource*>::get(), "Cancel",
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)(bool)>(
     &::System::Threading::CancellationTokenSource::Cancel)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3dda4c4;
+  constexpr static std::size_t addrs = 0x3deeb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)(::System::TimeSpan)>(
     &::System::Threading::CancellationTokenSource::CancelAfter)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3dda59c;
+  constexpr static std::size_t addrs = 0x3deec2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)(int32_t)>(
     &::System::Threading::CancellationTokenSource::CancelAfter)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x3dda67c;
+  constexpr static std::size_t addrs = 0x3deed0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Threading::CancellationTokenSource::TimerCallbackLogic)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3dda864;
+  constexpr static std::size_t addrs = 0x3deeef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)()>(&::System::Threading::CancellationTokenSource::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3dda97c;
+  constexpr static std::size_t addrs = 0x3def00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenSource*>::get(), "Dispose",
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)(bool)>(
     &::System::Threading::CancellationTokenSource::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3dda9e8;
+  constexpr static std::size_t addrs = 0x3def078;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)()>(
     &::System::Threading::CancellationTokenSource::ThrowIfDisposed)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3dda25c;
+  constexpr static std::size_t addrs = 0x3dee8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenSource*>::get(),
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Threading::CancellationTokenSource::ThrowObjectDisposedException)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3ddaa78;
+  constexpr static std::size_t addrs = 0x3def108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenSource*>::get(),
@@ -351,7 +351,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::SynchronizationContext*, ::System::Threading::ExecutionContext*)>(
     &::System::Threading::CancellationTokenSource::InternalRegister)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3dd7f20;
+  constexpr static std::size_t addrs = 0x3dec5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)(bool)>(
     &::System::Threading::CancellationTokenSource::NotifyCancellation)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3dda4ec;
+  constexpr static std::size_t addrs = 0x3deeb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -384,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)(bool)>(
     &::System::Threading::CancellationTokenSource::ExecuteCallbackHandlers)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x3ddab58;
+  constexpr static std::size_t addrs = 0x3def1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)(::System::Object*)>(
     &::System::Threading::CancellationTokenSource::CancellationCallbackCoreWork_OnSyncContext)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3ddb0dc;
+  constexpr static std::size_t addrs = 0x3def76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)(::System::Threading::CancellationCallbackCoreWorkArguments)>(
     &::System::Threading::CancellationTokenSource::CancellationCallbackCoreWork)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3ddb020;
+  constexpr static std::size_t addrs = 0x3def6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -430,7 +430,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::CancellationTokenSource* (*)(::System::Threading::CancellationToken, ::System::Threading::CancellationToken)>(
         &::System::Threading::CancellationTokenSource::CreateLinkedTokenSource)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3ddb248;
+  constexpr static std::size_t addrs = 0x3def8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::CancellationTokenSource* (*)(::System::Threading::CancellationToken)>(
     &::System::Threading::CancellationTokenSource::CreateLinkedTokenSource)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ddb57c;
+  constexpr static std::size_t addrs = 0x3defc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenSource::*)(::System::Threading::CancellationCallbackInfo*)>(
     &::System::Threading::CancellationTokenSource::WaitForCallbackToComplete)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3dd9f60;
+  constexpr static std::size_t addrs = 0x3dee5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

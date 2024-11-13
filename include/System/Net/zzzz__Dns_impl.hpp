@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__Dns__GetHostAddressesCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Net::__Dns__GetHostAddressesCallback::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x44487d0;
+  constexpr static std::size_t addrs = 0x445cee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> (
     ::System::Net::__Dns__GetHostAddressesCallback::*)(::StringW)>(&::System::Net::__Dns__GetHostAddressesCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4449438;
+  constexpr static std::size_t addrs = 0x445db50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::System::Net::__Dns__GetHostAddressesCallback::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(&::System::Net::__Dns__GetHostAddressesCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x444886c;
+  constexpr static std::size_t addrs = 0x445cf84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> (
     ::System::Net::__Dns__GetHostAddressesCallback::*)(::System::IAsyncResult*)>(&::System::Net::__Dns__GetHostAddressesCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4448994;
+  constexpr static std::size_t addrs = 0x445d0ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::Dns::BeginGetHostAddresses)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x4448648;
+  constexpr static std::size_t addrs = 0x445cd60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> (*)(::System::IAsyncResult*)>(
     &::System::Net::Dns::EndGetHostAddresses)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x444888c;
+  constexpr static std::size_t addrs = 0x445cfa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::StringW>, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>>,
                                                                                            ByRef<::ArrayW<::StringW, ::Array<::StringW>*>>, int32_t)>(&::System::Net::Dns::GetHostByName_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44489a0;
+  constexpr static std::size_t addrs = 0x445d0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::StringW>, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>>,
                                                                                            ByRef<::ArrayW<::StringW, ::Array<::StringW>*>>, int32_t)>(&::System::Net::Dns::GetHostByAddr_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44489a4;
+  constexpr static std::size_t addrs = 0x445d0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::StringW>)>(&::System::Net::Dns::GetHostName_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44489a8;
+  constexpr static std::size_t addrs = 0x445d0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Net::Dns::Error_11001)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x44489ac;
+  constexpr static std::size_t addrs = 0x445d0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Net::IPHostEntry* (*)(::StringW, ::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::System::Net::Dns::hostent_to_IPHostEntry)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x4448a10;
+  constexpr static std::size_t addrs = 0x445d128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPHostEntry* (*)(::StringW, bool)>(&::System::Net::Dns::GetHostByAddressFromString)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4448d34;
+  constexpr static std::size_t addrs = 0x445d44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPHostEntry* (*)(::StringW)>(&::System::Net::Dns::GetHostEntry)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4448e60;
+  constexpr static std::size_t addrs = 0x445d578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPHostEntry* (*)(::System::Net::IPAddress*)>(&::System::Net::Dns::GetHostEntry)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4448fcc;
+  constexpr static std::size_t addrs = 0x445d6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> (*)(::StringW)>(
     &::System::Net::Dns::GetHostAddresses)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x444911c;
+  constexpr static std::size_t addrs = 0x445d834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPHostEntry* (*)(::StringW)>(&::System::Net::Dns::GetHostByName)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4449034;
+  constexpr static std::size_t addrs = 0x445d74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Net::Dns::GetHostName)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44492f0;
+  constexpr static std::size_t addrs = 0x445da08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Dns*>::get(), "GetHostName",
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*>>* (*)(::StringW)>(&::System::Net::Dns::GetHostAddressesAsync)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x444931c;
+  constexpr static std::size_t addrs = 0x445da34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

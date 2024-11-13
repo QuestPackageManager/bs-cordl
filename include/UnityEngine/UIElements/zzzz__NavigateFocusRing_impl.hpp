@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__NavigateFocusRing__ChangeDirection::*)(int32_t)>(
     &::UnityEngine::UIElements::__NavigateFocusRing__ChangeDirection::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x49bd4b8;
+  constexpr static std::size_t addrs = 0x49d1bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::*)(
     ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::ValidateHierarchyTraversal)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x49bd524;
+  constexpr static std::size_t addrs = 0x49d1c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::*)(
     ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::ValidateElement)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x49bd5ec;
+  constexpr static std::size_t addrs = 0x49d1d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::Order)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x49bd6b4;
+  constexpr static std::size_t addrs = 0x49d1dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::StrictOrder)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x49bda3c;
+  constexpr static std::size_t addrs = 0x49d2154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::*)(
     ::UnityEngine::Rect, ::UnityEngine::Rect)>(&::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::StrictOrder)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x49bd7a0;
+  constexpr static std::size_t addrs = 0x49d1eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::*)(
     ::UnityEngine::Rect, ::UnityEngine::Rect)>(&::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::TieBreaker)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x49bd95c;
+  constexpr static std::size_t addrs = 0x49d2074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTraversal::GetBestOverall)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x49bd12c;
+  constexpr static std::size_t addrs = 0x49d1844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::FocusController* (::UnityEngine::UIElements::NavigateFocusRing::*)()>(
     &::UnityEngine::UIElements::NavigateFocusRing::get_focusController)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x49bc7c4;
+  constexpr static std::size_t addrs = 0x49d0edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigateFocusRing*>::get(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigateFocusRing::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::NavigateFocusRing::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49bc7e8;
+  constexpr static std::size_t addrs = 0x49d0f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::FocusChangeDirection* (::UnityEngine::UIElements::NavigateFocusRing::*)(::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::EventBase*)>(
         &::UnityEngine::UIElements::NavigateFocusRing::GetFocusChangeDirection)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x49bc864;
+  constexpr static std::size_t addrs = 0x49d0f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +272,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::Focusable* (::UnityEngine::UIElements::NavigateFocusRing::*)(::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*)>(
         &::UnityEngine::UIElements::NavigateFocusRing::GetNextFocusable)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x49bcbc8;
+  constexpr static std::size_t addrs = 0x49d12e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -288,7 +288,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::NavigateFocusRing::*)(::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::__NavigateFocusRing__ChangeDirection*)>(
     &::UnityEngine::UIElements::NavigateFocusRing::GetNextFocusable2D)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x49bcd1c;
+  constexpr static std::size_t addrs = 0x49d1434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::NavigateFocusRing::IsActive)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x49bd208;
+  constexpr static std::size_t addrs = 0x49d1920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::Focusable*)>(&::UnityEngine::UIElements::NavigateFocusRing::IsNavigable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49bd2e0;
+  constexpr static std::size_t addrs = 0x49d19f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

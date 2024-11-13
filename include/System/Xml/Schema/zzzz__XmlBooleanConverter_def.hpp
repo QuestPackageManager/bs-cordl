@@ -35,33 +35,33 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlBooleanConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
-  /// @brief Method ChangeType, addr 0x426c384, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x4280a9c, size 0x334, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x426c6b8, size 0x58c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x4280dd0, size 0x58c, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x426c064, size 0x320, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x428077c, size 0x320, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(bool value, ::System::Type* destinationType);
 
-  /// @brief Method Create, addr 0x426b978, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4280090, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlBooleanConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToBoolean, addr 0x426b9d0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x42800e8, size 0xa4, virtual true, abstract: false, final false
   inline bool ToBoolean(::StringW value);
 
-  /// @brief Method ToBoolean, addr 0x426ba74, size 0x2e0, virtual true, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x428018c, size 0x2e0, virtual true, abstract: false, final false
   inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToString, addr 0x426bdac, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42804c4, size 0x2b8, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ToString, addr 0x426bd54, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x428046c, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString(bool value);
 
-  /// @brief Method .ctor, addr 0x426b910, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4280028, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:
@@ -79,7 +79,7 @@ public:
   XmlBooleanConverter(XmlBooleanConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7717 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -49,18 +49,18 @@ public:
   /// @brief Field _step, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__step, put = __cordl_internal_set__step)) int64_t _step;
 
-  /// @brief Method BoundaryCheck, addr 0x40c6394, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method BoundaryCheck, addr 0x40daaac, size 0xd0, virtual false, abstract: false, final false
   inline bool BoundaryCheck(::System::Numerics::BigInteger value);
 
-  /// @brief Method MoveAfter, addr 0x40c652c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method MoveAfter, addr 0x40dac44, size 0x14, virtual true, abstract: false, final false
   inline void MoveAfter();
 
   static inline ::System::Data::AutoIncrementInt64* New_ctor();
 
-  /// @brief Method SetCurrent, addr 0x40c6540, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method SetCurrent, addr 0x40dac58, size 0x74, virtual true, abstract: false, final false
   inline void SetCurrent(::System::Object* value, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method SetCurrentAndIncrement, addr 0x40c65b4, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method SetCurrentAndIncrement, addr 0x40daccc, size 0x168, virtual true, abstract: false, final false
   inline void SetCurrentAndIncrement(::System::Object* value);
 
   constexpr int64_t const& __cordl_internal_get__current() const;
@@ -81,28 +81,28 @@ public:
 
   constexpr void __cordl_internal_set__step(int64_t value);
 
-  /// @brief Method .ctor, addr 0x40c1438, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d5b50, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Current, addr 0x40c61bc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x40da8d4, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_DataType, addr 0x40c6290, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x40da9a8, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_DataType();
 
-  /// @brief Method get_Seed, addr 0x40c62fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Seed, addr 0x40daa14, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_Seed();
 
-  /// @brief Method get_Step, addr 0x40c6464, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Step, addr 0x40dab7c, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_Step();
 
-  /// @brief Method set_Current, addr 0x40c6218, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method set_Current, addr 0x40da930, size 0x78, virtual true, abstract: false, final false
   inline void set_Current(::System::Object* value);
 
-  /// @brief Method set_Seed, addr 0x40c6304, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method set_Seed, addr 0x40daa1c, size 0x90, virtual true, abstract: false, final false
   inline void set_Seed(int64_t value);
 
-  /// @brief Method set_Step, addr 0x40c646c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method set_Step, addr 0x40dab84, size 0x80, virtual true, abstract: false, final false
   inline void set_Step(int64_t value);
 
 protected:
@@ -129,7 +129,7 @@ public:
   int64_t ____step;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11302 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

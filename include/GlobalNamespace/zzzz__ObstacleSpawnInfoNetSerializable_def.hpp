@@ -83,10 +83,10 @@ public:
   /// @brief Field width, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) int32_t width;
 
-  /// @brief Method Deserialize, addr 0x26e12fc, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x26ecf00, size 0x118, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x26e1044, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26ecc48, size 0x11c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Init(float_t time, float_t startBeat, float_t endBeat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration,
                                                                    int32_t width, int32_t height, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos,
                                                                    ::UnityEngine::Vector3 jumpEndPos, float_t obstacleHeight, float_t moveDuration, float_t jumpDuration, float_t noteLinesDistance,
@@ -94,10 +94,10 @@ public:
 
   static inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x26e0fe0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x26ecbe4, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x26e11b8, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x26ecdbc, size 0x144, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr float_t const& __cordl_internal_get_duration() const;
@@ -196,7 +196,7 @@ public:
 
   constexpr void __cordl_internal_set_width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26e1160, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ecd64, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -262,7 +262,7 @@ public:
   float_t ___rotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16964 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

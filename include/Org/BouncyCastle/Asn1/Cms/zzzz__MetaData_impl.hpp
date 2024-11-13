@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::DerBoolean*, ::Org::BouncyCastle::Asn1::DerUtf8String*, ::Org::BouncyCastle::Asn1::DerIA5String*, ::Org::BouncyCastle::Asn1::Cms::Attributes*)>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22c8f5c;
+  constexpr static std::size_t addrs = 0x22d4004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::MetaData::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::_ctor)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x22c8f9c;
+  constexpr static std::size_t addrs = 0x22d4044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::MetaData* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22c91b0;
+  constexpr static std::size_t addrs = 0x22d4258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::MetaData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::ToAsn1Object)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x22c9254;
+  constexpr static std::size_t addrs = 0x22d42fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::Cms::MetaData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::get_IsHashProtected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22c93f0;
+  constexpr static std::size_t addrs = 0x22d4498;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerUtf8String* (::Org::BouncyCastle::Asn1::Cms::MetaData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::get_FileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c940c;
+  constexpr static std::size_t addrs = 0x22d44b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerIA5String* (::Org::BouncyCastle::Asn1::Cms::MetaData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::get_MediaType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c9414;
+  constexpr static std::size_t addrs = 0x22d44bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::Attributes* (::Org::BouncyCastle::Asn1::Cms::MetaData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::get_OtherMetaData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c941c;
+  constexpr static std::size_t addrs = 0x22d44c4;
 
   inline static ::MethodInfo const* methodInfo() {
 

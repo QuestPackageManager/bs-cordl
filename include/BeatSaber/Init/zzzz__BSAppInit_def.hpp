@@ -60,12 +60,12 @@ public:
   /// @brief Field kRunCommandOption, offset 0xffffffff, size 0x20
   static __declspec(property(get = getStaticF_kRunCommandOption, put = setStaticF_kRunCommandOption)) ::BGLib::DotnetExtension::CommandLine::ArgumentOption kRunCommandOption;
 
-  /// @brief Method InstallBindings, addr 0x2236214, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x223eccc, size 0xf4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::BeatSaber::Init::BSAppInit* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x223616c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x223ec24, size 0xa8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
   constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult const& __cordl_internal_get__commandLineArguments_k__BackingField() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__commandLineArguments_k__BackingField(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult value);
 
-  /// @brief Method .ctor, addr 0x22362c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x223edc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kAutoPlayOption();
@@ -91,7 +91,7 @@ public:
 
   static inline ::BGLib::DotnetExtension::CommandLine::ArgumentOption getStaticF_kRunCommandOption();
 
-  /// @brief Method get_commandLineArguments, addr 0x2236144, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_commandLineArguments, addr 0x223ebfc, size 0x14, virtual false, abstract: false, final false
   inline ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult get_commandLineArguments();
 
   static inline void setStaticF_kAutoPlayOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
@@ -108,7 +108,7 @@ public:
 
   static inline void setStaticF_kRunCommandOption(::BGLib::DotnetExtension::CommandLine::ArgumentOption value);
 
-  /// @brief Method set_commandLineArguments, addr 0x2236158, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_commandLineArguments, addr 0x223ec10, size 0x14, virtual false, abstract: false, final false
   inline void set_commandLineArguments(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult value);
 
 protected:
@@ -129,7 +129,7 @@ public:
   ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult ____commandLineArguments_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18291 };
 
   /// @brief Field kAutoPlayOptionIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kAutoPlayOptionIdentifier{ u"--auto_play" };

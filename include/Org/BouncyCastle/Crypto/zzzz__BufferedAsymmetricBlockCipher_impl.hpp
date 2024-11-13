@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)(
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*)>(&::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2408604;
+  constexpr static std::size_t addrs = 0x24136ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::GetBufferPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2408670;
+  constexpr static std::size_t addrs = 0x2413718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2408678;
+  constexpr static std::size_t addrs = 0x2413720;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::GetBlockSize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2408718;
+  constexpr static std::size_t addrs = 0x24137c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::GetOutputSize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24087bc;
+  constexpr static std::size_t addrs = 0x2413864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::GetUpdateOutputSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2408860;
+  constexpr static std::size_t addrs = 0x2413908;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)(
     bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::Init)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x2408868;
+  constexpr static std::size_t addrs = 0x2413910;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::ProcessByte)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x24089d4;
+  constexpr static std::size_t addrs = 0x2413a7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::ProcessBytes)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2408a64;
+  constexpr static std::size_t addrs = 0x2413b0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::DoFinal)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2408b4c;
+  constexpr static std::size_t addrs = 0x2413bf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::DoFinal)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2408c68;
+  constexpr static std::size_t addrs = 0x2413d10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::Reset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2408c98;
+  constexpr static std::size_t addrs = 0x2413d40;
 
   inline static ::MethodInfo const* methodInfo() {
 

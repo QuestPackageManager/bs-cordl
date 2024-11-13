@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_Setter(::Zenject::ZenMemberSetterMethod* value);
 
-  /// @brief Method .ctor, addr 0x4a77728, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8be40, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenMemberSetterMethod* setter, ::Zenject::InjectableInfo* info);
 
 protected:
@@ -107,7 +107,7 @@ public:
   ::Zenject::InjectableInfo* ___Info;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18340 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -148,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set_Parameters(::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x4a77754, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8be6c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenFactoryMethod* factory, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters);
 
 protected:
@@ -172,7 +172,7 @@ public:
   ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> ___Parameters;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -222,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set_Parameters(::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x4a77780, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8be98, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenInjectMethod* action, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters, ::StringW name);
 
 protected:
@@ -249,7 +249,7 @@ public:
   ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> ___Parameters;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18342 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -343,15 +343,15 @@ public:
 
   constexpr void __cordl_internal_set__BaseTypeInfo_k__BackingField(::Zenject::InjectTypeInfo* value);
 
-  /// @brief Method .ctor, addr 0x4a774fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8bc14, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::Zenject::__InjectTypeInfo__InjectConstructorInfo* injectConstructor,
                     ::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> injectMethods,
                     ::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*> injectMembers);
 
-  /// @brief Method <get_AllInjectables>b__0, addr 0x4a776f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <get_AllInjectables>b__0, addr 0x4a8be10, size 0x18, virtual false, abstract: false, final false
   static inline ::Zenject::InjectableInfo* _get_AllInjectables_b__0(::Zenject::__InjectTypeInfo__InjectMemberInfo* x);
 
-  /// @brief Method <get_AllInjectables>b__1, addr 0x4a77710, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <get_AllInjectables>b__1, addr 0x4a8be28, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* _get_AllInjectables_b__1(::Zenject::__InjectTypeInfo__InjectMethodInfo* x);
 
   static inline ::System::Func_2<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Zenject::InjectableInfo*>* getStaticF_CS$__9__CachedAnonymousMethodDelegate2();
@@ -359,10 +359,10 @@ public:
   static inline ::System::Func_2<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>*>*
   getStaticF_CS$__9__CachedAnonymousMethodDelegate3();
 
-  /// @brief Method get_AllInjectables, addr 0x4a7754c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method get_AllInjectables, addr 0x4a8bc64, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* get_AllInjectables();
 
-  /// @brief Method get_BaseTypeInfo, addr 0x4a7753c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseTypeInfo, addr 0x4a8bc54, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* get_BaseTypeInfo();
 
   static inline void setStaticF_CS$__9__CachedAnonymousMethodDelegate2(::System::Func_2<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Zenject::InjectableInfo*>* value);
@@ -370,7 +370,7 @@ public:
   static inline void setStaticF_CS$__9__CachedAnonymousMethodDelegate3(
       ::System::Func_2<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>*>* value);
 
-  /// @brief Method set_BaseTypeInfo, addr 0x4a77544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseTypeInfo, addr 0x4a8bc5c, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseTypeInfo(::Zenject::InjectTypeInfo* value);
 
 protected:
@@ -403,7 +403,7 @@ public:
   ::Zenject::InjectTypeInfo* ____BaseTypeInfo_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18343 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

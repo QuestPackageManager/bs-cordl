@@ -107,7 +107,7 @@ UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>::__cord
 template <typename T>
 constexpr void UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>::__cordl_internal_set_rootIds(::System::Collections::Generic::IEnumerable_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___rootIds, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<int32_t>*& UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>::__cordl_internal_get___3__rootIds() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -122,7 +122,7 @@ UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>::__cord
 template <typename T>
 constexpr void UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>::__cordl_internal_set___3__rootIds(::System::Collections::Generic::IEnumerable_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__rootIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____3__rootIds, value);
 }
 template <typename T> constexpr ::UnityEngine::UIElements::TreeDataController_1<T>*& UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -137,7 +137,7 @@ UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>::__cord
 template <typename T>
 constexpr void UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>::__cordl_internal_set___4__this(::UnityEngine::UIElements::TreeDataController_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 constexpr ::System::Collections::Generic::IEnumerator_1<int32_t>*& UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>::__cordl_internal_get__currentIterator_5__1() {
@@ -153,7 +153,7 @@ UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>::__cord
 template <typename T>
 constexpr void UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>::__cordl_internal_set__currentIterator_5__1(::System::Collections::Generic::IEnumerator_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentIterator_5__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____currentIterator_5__1, value);
 }
 template <typename T> constexpr bool& UnityEngine::UIElements::__TreeDataController_1___GetAllItemIds_d__13<T>::__cordl_internal_get__hasNext_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -331,7 +331,7 @@ template <typename T>
 constexpr void UnityEngine::UIElements::__TreeDataController_1___GetItemIds_d__9<T>::__cordl_internal_set_items(
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___items, value);
 }
 template <typename T>
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*&
@@ -349,7 +349,7 @@ template <typename T>
 constexpr void UnityEngine::UIElements::__TreeDataController_1___GetItemIds_d__9<T>::__cordl_internal_set___3__items(
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____3__items, value);
 }
 template <typename T>
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*&
@@ -367,7 +367,7 @@ template <typename T>
 constexpr void UnityEngine::UIElements::__TreeDataController_1___GetItemIds_d__9<T>::__cordl_internal_set___s__1(
     ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____s__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____s__1, value);
 }
 template <typename T> constexpr ::UnityEngine::UIElements::TreeViewItemData_1<T>& UnityEngine::UIElements::__TreeDataController_1___GetItemIds_d__9<T>::__cordl_internal_get__item_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -470,7 +470,7 @@ template <typename T>
 constexpr void
 UnityEngine::UIElements::TreeDataController_1<T>::__cordl_internal_set_m_IteratorStack(::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<int32_t>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_IteratorStack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_IteratorStack, value);
 }
 template <typename T> inline void UnityEngine::UIElements::TreeDataController_1<T>::SetRootItems(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>* rootItems) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

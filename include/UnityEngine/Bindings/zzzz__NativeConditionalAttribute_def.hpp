@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__Enabled_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x489d5b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b1ccc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition);
 
-  /// @brief Method set_Condition, addr 0x489d5a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Condition, addr 0x48b1cb8, size 0x8, virtual false, abstract: false, final false
   inline void set_Condition(::StringW value);
 
-  /// @brief Method set_Enabled, addr 0x489d5a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x48b1cc0, size 0xc, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
 
 protected:
@@ -74,7 +74,7 @@ public:
   bool ____Enabled_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18614 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

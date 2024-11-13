@@ -34,7 +34,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Co
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_set_m_List(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_List)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_List, value);
 }
 template <typename T> constexpr ::System::Func_1<T>*& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_CreateFunc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -46,7 +46,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Fu
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_set_m_CreateFunc(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CreateFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_CreateFunc, value);
 }
 template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_ActionOnGet() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -58,7 +58,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ac
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_set_m_ActionOnGet(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionOnGet)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ActionOnGet, value);
 }
 template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_ActionOnRelease() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -70,7 +70,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ac
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_set_m_ActionOnRelease(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionOnRelease)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ActionOnRelease, value);
 }
 template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_ActionOnDestroy() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -82,7 +82,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ac
 }
 template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_set_m_ActionOnDestroy(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActionOnDestroy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ActionOnDestroy, value);
 }
 template <typename T> constexpr int32_t& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_MaxSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

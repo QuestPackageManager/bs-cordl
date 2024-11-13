@@ -323,7 +323,7 @@ public:
   static ::System::Xml::__DtdParser__Token const Star;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7303 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -510,7 +510,7 @@ public:
   static ::System::Xml::__DtdParser__ScanningFunction const SystemId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7304 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -570,7 +570,7 @@ public:
   static ::System::Xml::__DtdParser__LiteralType const SystemOrPublicID;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7300 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7305 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -629,7 +629,7 @@ public:
 
   constexpr void __cordl_internal_set_next(::System::Xml::__DtdParser__UndeclaredNotation* value);
 
-  /// @brief Method .ctor, addr 0x42de220, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42f2938, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, int32_t lineNo, int32_t linePos);
 
 protected:
@@ -659,7 +659,7 @@ public:
   ::System::Xml::__DtdParser__UndeclaredNotation* ___next;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7301 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7306 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -703,7 +703,7 @@ public:
 
   constexpr void __cordl_internal_set_startParenEntityId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x42de260, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42f2978, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t startParentEntityIdParam);
 
 protected:
@@ -727,7 +727,7 @@ public:
   ::System::Xml::__DtdParser__Token ___parsingSchema;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7307 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -879,289 +879,289 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdParser"
   constexpr operator ::System::Xml::IDtdParser*() noexcept;
 
-  /// @brief Method AddUndeclaredNotation, addr 0x42d8c8c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method AddUndeclaredNotation, addr 0x42ed3a4, size 0x15c, virtual false, abstract: false, final false
   inline void AddUndeclaredNotation(::StringW notationName);
 
-  /// @brief Method Create, addr 0x42d44e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x42e8bfc, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Xml::IDtdParser* Create();
 
-  /// @brief Method EatPublicKeyword, addr 0x42dcac8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method EatPublicKeyword, addr 0x42f11e0, size 0xe4, virtual false, abstract: false, final false
   inline bool EatPublicKeyword();
 
-  /// @brief Method EatSystemKeyword, addr 0x42dcbac, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method EatSystemKeyword, addr 0x42f12c4, size 0xe4, virtual false, abstract: false, final false
   inline bool EatSystemKeyword();
 
-  /// @brief Method GetNameQualified, addr 0x42d5efc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetNameQualified, addr 0x42ea614, size 0x174, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* GetNameQualified(bool canHavePrefix);
 
-  /// @brief Method GetNameString, addr 0x42d8c70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetNameString, addr 0x42ed388, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW GetNameString();
 
-  /// @brief Method GetNmtokenString, addr 0x42d8de8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetNmtokenString, addr 0x42ed500, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW GetNmtokenString();
 
-  /// @brief Method GetToken, addr 0x42d5678, size 0x838, virtual false, abstract: false, final false
+  /// @brief Method GetToken, addr 0x42e9d90, size 0x838, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token GetToken(bool needWhiteSpace);
 
-  /// @brief Method GetValue, addr 0x42d8e64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x42ed57c, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW GetValue();
 
-  /// @brief Method GetValueWithStrippedSpaces, addr 0x42d8e04, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetValueWithStrippedSpaces, addr 0x42ed51c, size 0x60, virtual false, abstract: false, final false
   inline ::StringW GetValueWithStrippedSpaces();
 
-  /// @brief Method HandleEntityEnd, addr 0x42dc7b0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method HandleEntityEnd, addr 0x42f0ec8, size 0x1a8, virtual false, abstract: false, final false
   inline bool HandleEntityEnd(bool inLiteral);
 
-  /// @brief Method HandleEntityReference, addr 0x42ddf80, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method HandleEntityReference, addr 0x42f2698, size 0x2a0, virtual false, abstract: false, final false
   inline bool HandleEntityReference(::System::Xml::XmlQualifiedName* entityName, bool paramEntity, bool inLiteral, bool inAttribute);
 
-  /// @brief Method HandleEntityReference, addr 0x42d9a70, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleEntityReference, addr 0x42ee188, size 0x50, virtual false, abstract: false, final false
   inline bool HandleEntityReference(bool paramEntity, bool inLiteral, bool inAttribute);
 
-  /// @brief Method Initialize, addr 0x42d4534, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x42e8c4c, size 0x3cc, virtual false, abstract: false, final false
   inline void Initialize(::System::Xml::IDtdParserAdapter* readerAdapter);
 
-  /// @brief Method InitializeFreeFloatingDtd, addr 0x42d4900, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method InitializeFreeFloatingDtd, addr 0x42e9018, size 0x3c8, virtual false, abstract: false, final false
   inline void InitializeFreeFloatingDtd(::StringW baseUri, ::StringW docTypeName, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::IDtdParserAdapter* adapter);
 
-  /// @brief Method IsAttributeValueType, addr 0x42d8ba4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsAttributeValueType, addr 0x42ed2bc, size 0xc, virtual false, abstract: false, final false
   inline bool IsAttributeValueType(::System::Xml::__DtdParser__Token token);
 
-  /// @brief Method LoadParsingBuffer, addr 0x42d54fc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method LoadParsingBuffer, addr 0x42e9c14, size 0x17c, virtual false, abstract: false, final false
   inline void LoadParsingBuffer();
 
   static inline ::System::Xml::DtdParser* New_ctor();
 
-  /// @brief Method OnUnexpectedError, addr 0x42d5eb0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OnUnexpectedError, addr 0x42ea5c8, size 0x4c, virtual false, abstract: false, final false
   inline void OnUnexpectedError();
 
-  /// @brief Method Parse, addr 0x42d4d74, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x42e948c, size 0x23c, virtual false, abstract: false, final false
   inline void Parse(bool saveInternalSubset);
 
-  /// @brief Method ParseAttlistDecl, addr 0x42d6a44, size 0x5bc, virtual false, abstract: false, final false
+  /// @brief Method ParseAttlistDecl, addr 0x42eb15c, size 0x5bc, virtual false, abstract: false, final false
   inline void ParseAttlistDecl();
 
-  /// @brief Method ParseAttlistDefault, addr 0x42d89f0, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ParseAttlistDefault, addr 0x42ed108, size 0x1b4, virtual false, abstract: false, final false
   inline void ParseAttlistDefault(::System::Xml::Schema::SchemaAttDef* attrDef, bool ignoreErrors);
 
-  /// @brief Method ParseAttlistType, addr 0x42d8484, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method ParseAttlistType, addr 0x42ecb9c, size 0x56c, virtual false, abstract: false, final false
   inline void ParseAttlistType(::System::Xml::Schema::SchemaAttDef* attrDef, ::System::Xml::Schema::SchemaElementDecl* elementDecl, bool ignoreErrors);
 
-  /// @brief Method ParseComment, addr 0x42d78e8, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method ParseComment, addr 0x42ec000, size 0x24c, virtual false, abstract: false, final false
   inline void ParseComment();
 
-  /// @brief Method ParseCondSection, addr 0x42d7d00, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ParseCondSection, addr 0x42ec418, size 0x23c, virtual false, abstract: false, final false
   inline void ParseCondSection();
 
-  /// @brief Method ParseElementDecl, addr 0x42d7000, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method ParseElementDecl, addr 0x42eb718, size 0x39c, virtual false, abstract: false, final false
   inline void ParseElementDecl();
 
-  /// @brief Method ParseElementMixedContent, addr 0x42d8ec0, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method ParseElementMixedContent, addr 0x42ed5d8, size 0x294, virtual false, abstract: false, final false
   inline void ParseElementMixedContent(::System::Xml::Schema::ParticleContentValidator* pcv, int32_t startParenEntityId);
 
-  /// @brief Method ParseElementOnlyContent, addr 0x42d9154, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method ParseElementOnlyContent, addr 0x42ed86c, size 0x348, virtual false, abstract: false, final false
   inline void ParseElementOnlyContent(::System::Xml::Schema::ParticleContentValidator* pcv, int32_t startParenEntityId);
 
-  /// @brief Method ParseEntityDecl, addr 0x42d739c, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method ParseEntityDecl, addr 0x42ebab4, size 0x35c, virtual false, abstract: false, final false
   inline void ParseEntityDecl();
 
-  /// @brief Method ParseExternalId, addr 0x42d6070, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method ParseExternalId, addr 0x42ea788, size 0x4e4, virtual false, abstract: false, final false
   inline void ParseExternalId(::System::Xml::__DtdParser__Token idTokenType, ::System::Xml::__DtdParser__Token declType, ByRef<::StringW> publicId, ByRef<::StringW> systemId);
 
-  /// @brief Method ParseExternalSubset, addr 0x42d6560, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ParseExternalSubset, addr 0x42eac78, size 0x1a4, virtual false, abstract: false, final false
   inline void ParseExternalSubset();
 
-  /// @brief Method ParseFreeFloatingDtd, addr 0x42d50f4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ParseFreeFloatingDtd, addr 0x42e980c, size 0x54, virtual false, abstract: false, final false
   inline void ParseFreeFloatingDtd();
 
-  /// @brief Method ParseHowMany, addr 0x42d949c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ParseHowMany, addr 0x42edbb4, size 0x70, virtual false, abstract: false, final false
   inline void ParseHowMany(::System::Xml::Schema::ParticleContentValidator* pcv);
 
-  /// @brief Method ParseInDocumentDtd, addr 0x42d5148, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ParseInDocumentDtd, addr 0x42e9860, size 0x14c, virtual false, abstract: false, final false
   inline void ParseInDocumentDtd(bool saveInternalSubset);
 
-  /// @brief Method ParseInternalSubset, addr 0x42d655c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ParseInternalSubset, addr 0x42eac74, size 0x4, virtual false, abstract: false, final false
   inline void ParseInternalSubset();
 
-  /// @brief Method ParseNotationDecl, addr 0x42d76f8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ParseNotationDecl, addr 0x42ebe10, size 0x1f0, virtual false, abstract: false, final false
   inline void ParseNotationDecl();
 
-  /// @brief Method ParsePI, addr 0x42d7b34, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ParsePI, addr 0x42ec24c, size 0x164, virtual false, abstract: false, final false
   inline void ParsePI();
 
-  /// @brief Method ParseSubset, addr 0x42d6704, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method ParseSubset, addr 0x42eae1c, size 0x340, virtual false, abstract: false, final false
   inline void ParseSubset();
 
-  /// @brief Method ParseUnexpectedToken, addr 0x42d9ac0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ParseUnexpectedToken, addr 0x42ee1d8, size 0xbc, virtual false, abstract: false, final false
   inline ::StringW ParseUnexpectedToken(int32_t startPos);
 
-  /// @brief Method ReadData, addr 0x42dc6ec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ReadData, addr 0x42f0e04, size 0xc4, virtual false, abstract: false, final false
   inline int32_t ReadData();
 
-  /// @brief Method ReadDataInName, addr 0x42ddd18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReadDataInName, addr 0x42f2430, size 0x44, virtual false, abstract: false, final false
   inline bool ReadDataInName();
 
-  /// @brief Method SaveParsingBuffer, addr 0x42d6554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SaveParsingBuffer, addr 0x42eac6c, size 0x8, virtual false, abstract: false, final false
   inline void SaveParsingBuffer();
 
-  /// @brief Method SaveParsingBuffer, addr 0x42d8010, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SaveParsingBuffer, addr 0x42ec728, size 0x14c, virtual false, abstract: false, final false
   inline void SaveParsingBuffer(int32_t internalSubsetValueEndPos);
 
-  /// @brief Method ScanAttlist1, addr 0x42dab98, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ScanAttlist1, addr 0x42ef2b0, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanAttlist1();
 
-  /// @brief Method ScanAttlist2, addr 0x42dac5c, size 0x680, virtual false, abstract: false, final false
+  /// @brief Method ScanAttlist2, addr 0x42ef374, size 0x680, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanAttlist2();
 
-  /// @brief Method ScanAttlist3, addr 0x42db2dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ScanAttlist3, addr 0x42ef9f4, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanAttlist3();
 
-  /// @brief Method ScanAttlist4, addr 0x42db37c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ScanAttlist4, addr 0x42efa94, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanAttlist4();
 
-  /// @brief Method ScanAttlist5, addr 0x42db44c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ScanAttlist5, addr 0x42efb64, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanAttlist5();
 
-  /// @brief Method ScanAttlist6, addr 0x42db51c, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method ScanAttlist6, addr 0x42efc34, size 0x374, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanAttlist6();
 
-  /// @brief Method ScanAttlist7, addr 0x42db890, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ScanAttlist7, addr 0x42effa8, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanAttlist7();
 
-  /// @brief Method ScanClosingTag, addr 0x42dc658, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ScanClosingTag, addr 0x42f0d70, size 0x94, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanClosingTag();
 
-  /// @brief Method ScanCondSection1, addr 0x42dbed8, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method ScanCondSection1, addr 0x42f05f0, size 0x29c, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanCondSection1();
 
-  /// @brief Method ScanCondSection2, addr 0x42dc174, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ScanCondSection2, addr 0x42f088c, size 0x98, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanCondSection2();
 
-  /// @brief Method ScanCondSection3, addr 0x42dc20c, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method ScanCondSection3, addr 0x42f0924, size 0x44c, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanCondSection3();
 
-  /// @brief Method ScanDoctype1, addr 0x42da2e8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ScanDoctype1, addr 0x42eea00, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanDoctype1();
 
-  /// @brief Method ScanDoctype2, addr 0x42da414, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ScanDoctype2, addr 0x42eeb2c, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanDoctype2();
 
-  /// @brief Method ScanElement1, addr 0x42da4bc, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method ScanElement1, addr 0x42eebd4, size 0x1d0, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanElement1();
 
-  /// @brief Method ScanElement2, addr 0x42da68c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ScanElement2, addr 0x42eeda4, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanElement2();
 
-  /// @brief Method ScanElement3, addr 0x42da830, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ScanElement3, addr 0x42eef48, size 0x80, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanElement3();
 
-  /// @brief Method ScanElement4, addr 0x42da8b0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ScanElement4, addr 0x42eefc8, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanElement4();
 
-  /// @brief Method ScanElement5, addr 0x42da97c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ScanElement5, addr 0x42ef094, size 0xec, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanElement5();
 
-  /// @brief Method ScanElement6, addr 0x42daa68, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ScanElement6, addr 0x42ef180, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanElement6();
 
-  /// @brief Method ScanElement7, addr 0x42dab38, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ScanElement7, addr 0x42ef250, size 0x60, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanElement7();
 
-  /// @brief Method ScanEntity1, addr 0x42dbc1c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ScanEntity1, addr 0x42f0334, size 0x74, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanEntity1();
 
-  /// @brief Method ScanEntity2, addr 0x42dbc90, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ScanEntity2, addr 0x42f03a8, size 0x134, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanEntity2();
 
-  /// @brief Method ScanEntity3, addr 0x42dbdc4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ScanEntity3, addr 0x42f04dc, size 0x114, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanEntity3();
 
-  /// @brief Method ScanEntityName, addr 0x42dd710, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ScanEntityName, addr 0x42f1e28, size 0x160, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* ScanEntityName();
 
-  /// @brief Method ScanLiteral, addr 0x42dcc90, size 0xa80, virtual false, abstract: false, final false
+  /// @brief Method ScanLiteral, addr 0x42f13a8, size 0xa80, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanLiteral(::System::Xml::__DtdParser__LiteralType literalType);
 
-  /// @brief Method ScanName, addr 0x42dc958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ScanName, addr 0x42f1070, size 0x8, virtual false, abstract: false, final false
   inline void ScanName();
 
-  /// @brief Method ScanNameExpected, addr 0x42d9b7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ScanNameExpected, addr 0x42ee294, size 0x24, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanNameExpected();
 
-  /// @brief Method ScanNmtoken, addr 0x42dc968, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ScanNmtoken, addr 0x42f1080, size 0x160, virtual false, abstract: false, final false
   inline void ScanNmtoken();
 
-  /// @brief Method ScanNmtokenExpected, addr 0x42d9bc4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ScanNmtokenExpected, addr 0x42ee2dc, size 0x20, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanNmtokenExpected();
 
-  /// @brief Method ScanNotation1, addr 0x42db94c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ScanNotation1, addr 0x42f0064, size 0x100, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanNotation1();
 
-  /// @brief Method ScanPublicId1, addr 0x42dbb00, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ScanPublicId1, addr 0x42f0218, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanPublicId1();
 
-  /// @brief Method ScanPublicId2, addr 0x42dbbb4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ScanPublicId2, addr 0x42f02cc, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanPublicId2();
 
-  /// @brief Method ScanQName, addr 0x42dc960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ScanQName, addr 0x42f1078, size 0x8, virtual false, abstract: false, final false
   inline void ScanQName();
 
-  /// @brief Method ScanQName, addr 0x42dda98, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method ScanQName, addr 0x42f21b0, size 0x280, virtual false, abstract: false, final false
   inline void ScanQName(bool isQName);
 
-  /// @brief Method ScanQNameExpected, addr 0x42d9ba0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ScanQNameExpected, addr 0x42ee2b8, size 0x24, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanQNameExpected();
 
-  /// @brief Method ScanSubsetContent, addr 0x42d9be4, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method ScanSubsetContent, addr 0x42ee2fc, size 0x704, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanSubsetContent();
 
-  /// @brief Method ScanSystemId, addr 0x42dba4c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ScanSystemId, addr 0x42f0164, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Xml::__DtdParser__Token ScanSystemId();
 
-  /// @brief Method SendValidationEvent, addr 0x42d7f3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x42ec654, size 0xd4, virtual false, abstract: false, final false
   inline void SendValidationEvent(int32_t pos, ::System::Xml::Schema::XmlSeverityType severity, ::StringW code, ::StringW arg);
 
-  /// @brief Method SendValidationEvent, addr 0x42d8bb0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x42ed2c8, size 0xc0, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSeverityType severity, ::StringW code, ::StringW arg);
 
-  /// @brief Method SendValidationEvent, addr 0x42d53b8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x42e9ad0, size 0x144, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSeverityType severity, ::System::Xml::Schema::XmlSchemaException* e);
 
-  /// @brief Method StripSpaces, addr 0x42ddd5c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method StripSpaces, addr 0x42f2474, size 0x224, virtual false, abstract: false, final false
   static inline ::StringW StripSpaces(::StringW value);
 
-  /// @brief Method System.Xml.IDtdParser.ParseFreeFloatingDtd, addr 0x42d4fb0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdParser.ParseFreeFloatingDtd, addr 0x42e96c8, size 0x24, virtual true, abstract: false, final true
   inline ::System::Xml::IDtdInfo* System_Xml_IDtdParser_ParseFreeFloatingDtd(::StringW baseUri, ::StringW docTypeName, ::StringW publicId, ::StringW systemId, ::StringW internalSubset,
                                                                              ::System::Xml::IDtdParserAdapter* adapter);
 
-  /// @brief Method System.Xml.IDtdParser.ParseInternalDtd, addr 0x42d4d44, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdParser.ParseInternalDtd, addr 0x42e945c, size 0x30, virtual true, abstract: false, final true
   inline ::System::Xml::IDtdInfo* System_Xml_IDtdParser_ParseInternalDtd(::System::Xml::IDtdParserAdapter* adapter, bool saveInternalSubset);
 
-  /// @brief Method Throw, addr 0x42d7c98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x42ec3b0, size 0x68, virtual false, abstract: false, final false
   inline void Throw(int32_t curPos, ::StringW res);
 
-  /// @brief Method Throw, addr 0x42d950c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x42edc24, size 0x1e4, virtual false, abstract: false, final false
   inline void Throw(int32_t curPos, ::StringW res, ::StringW arg);
 
-  /// @brief Method Throw, addr 0x42d980c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x42edf24, size 0x1e4, virtual false, abstract: false, final false
   inline void Throw(int32_t curPos, ::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args);
 
-  /// @brief Method Throw, addr 0x42d82b8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x42ec9d0, size 0x1cc, virtual false, abstract: false, final false
   inline void Throw(::StringW res, ::StringW arg, int32_t lineNo, int32_t linePos);
 
-  /// @brief Method ThrowInvalidChar, addr 0x42d99f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidChar, addr 0x42ee108, size 0x80, virtual false, abstract: false, final false
   inline void ThrowInvalidChar(::ArrayW<char16_t, ::Array<char16_t>*> data, int32_t length, int32_t invCharPos);
 
-  /// @brief Method ThrowInvalidChar, addr 0x42d4cc8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ThrowInvalidChar, addr 0x42e93e0, size 0x7c, virtual false, abstract: false, final false
   inline void ThrowInvalidChar(int32_t pos, ::StringW data, int32_t invCharPos);
 
-  /// @brief Method ThrowUnexpectedToken, addr 0x42d815c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ThrowUnexpectedToken, addr 0x42ec874, size 0x8, virtual false, abstract: false, final false
   inline void ThrowUnexpectedToken(int32_t pos, ::StringW expectedToken);
 
-  /// @brief Method ThrowUnexpectedToken, addr 0x42d96f0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ThrowUnexpectedToken, addr 0x42ede08, size 0x11c, virtual false, abstract: false, final false
   inline void ThrowUnexpectedToken(int32_t pos, ::StringW expectedToken1, ::StringW expectedToken2);
 
-  /// @brief Method VerifyEntityReference, addr 0x42dd870, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method VerifyEntityReference, addr 0x42f1f88, size 0x228, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaEntity* VerifyEntityReference(::System::Xml::XmlQualifiedName* entityName, bool paramEntity, bool mustBeDeclared, bool inAttribute);
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_chars() const;
@@ -1363,34 +1363,34 @@ public:
 
   constexpr void __cordl_internal_set_xmlCharType(::System::Xml::XmlCharType value);
 
-  /// @brief Method .ctor, addr 0x42d445c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42e8b74, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseUriStr, addr 0x42d5294, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_BaseUriStr, addr 0x42e99ac, size 0x124, virtual false, abstract: false, final false
   inline ::StringW get_BaseUriStr();
 
-  /// @brief Method get_IgnoreEntityReferences, addr 0x42d4fe4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreEntityReferences, addr 0x42e96fc, size 0x10, virtual false, abstract: false, final false
   inline bool get_IgnoreEntityReferences();
 
-  /// @brief Method get_LineNo, addr 0x42d8164, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_LineNo, addr 0x42ec87c, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_LineNo();
 
-  /// @brief Method get_LinePos, addr 0x42d8208, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_LinePos, addr 0x42ec920, size 0xb0, virtual false, abstract: false, final false
   inline int32_t get_LinePos();
 
-  /// @brief Method get_Normalize, addr 0x42d50ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Normalize, addr 0x42e9804, size 0x8, virtual false, abstract: false, final false
   inline bool get_Normalize();
 
-  /// @brief Method get_ParsingInternalSubset, addr 0x42d4fd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_ParsingInternalSubset, addr 0x42e96ec, size 0x10, virtual false, abstract: false, final false
   inline bool get_ParsingInternalSubset();
 
-  /// @brief Method get_ParsingTopLevelMarkup, addr 0x42d50b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_ParsingTopLevelMarkup, addr 0x42e97cc, size 0x30, virtual false, abstract: false, final false
   inline bool get_ParsingTopLevelMarkup();
 
-  /// @brief Method get_SaveInternalSubsetValue, addr 0x42d4ff4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_SaveInternalSubsetValue, addr 0x42e970c, size 0xc0, virtual false, abstract: false, final false
   inline bool get_SaveInternalSubsetValue();
 
-  /// @brief Method get_SupportNamespaces, addr 0x42d50e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportNamespaces, addr 0x42e97fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_SupportNamespaces();
 
   /// @brief Convert to "::System::Xml::IDtdParser"
@@ -1510,7 +1510,7 @@ public:
   ::ArrayW<int32_t, ::Array<int32_t>*> ___condSectionEntityIds;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7308 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

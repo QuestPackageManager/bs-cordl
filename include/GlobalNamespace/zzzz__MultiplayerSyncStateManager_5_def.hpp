@@ -96,7 +96,7 @@ public:
   __MultiplayerSyncStateManager_5____c(__MultiplayerSyncStateManager_5____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17305 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -296,7 +296,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* ____disconnectedPlayerStates;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17306 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

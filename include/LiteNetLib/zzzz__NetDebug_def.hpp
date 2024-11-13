@@ -36,22 +36,22 @@ public:
   /// @brief Field Logger, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Logger, put = setStaticF_Logger)) ::LiteNetLib::INetLogger* Logger;
 
-  /// @brief Method Write, addr 0x3a45a44, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x3a5939c, size 0x6c, virtual false, abstract: false, final false
   static inline void Write(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Write, addr 0x3a459dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x3a59334, size 0x68, virtual false, abstract: false, final false
   static inline void Write(::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WriteError, addr 0x3a41f94, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method WriteError, addr 0x3a558ec, size 0x68, virtual false, abstract: false, final false
   static inline void WriteError(::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WriteForce, addr 0x3a45b18, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteForce, addr 0x3a59470, size 0x6c, virtual false, abstract: false, final false
   static inline void WriteForce(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WriteForce, addr 0x3a45ab0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method WriteForce, addr 0x3a59408, size 0x68, virtual false, abstract: false, final false
   static inline void WriteForce(::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WriteLogic, addr 0x3a457c0, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method WriteLogic, addr 0x3a59118, size 0x21c, virtual false, abstract: false, final false
   static inline void WriteLogic(::LiteNetLib::NetLogLevel logLevel, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::System::Object* getStaticF_DebugLogLock();
@@ -77,7 +77,7 @@ public:
   NetDebug(NetDebug const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16498 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

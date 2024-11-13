@@ -249,7 +249,7 @@ public:
   int32_t ____currentItemId_5__3;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -428,7 +428,7 @@ public:
   ::UnityEngine::UIElements::TreeViewItemData_1<T> ____item_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -520,7 +520,7 @@ public:
   ::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<int32_t>*>* ___m_IteratorStack;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

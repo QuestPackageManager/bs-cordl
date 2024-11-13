@@ -36,40 +36,40 @@ public:
   /// @brief Method ConvertObjects, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> ConvertObjects(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> rawObjects);
 
-  /// @brief Method FindObjectsOfTypeAll, addr 0x482fe10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x4844528, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* type);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> FindObjectsOfTypeAll();
 
-  /// @brief Method GetBuiltinResource, addr 0x4830070, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltinResource, addr 0x4844788, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> GetBuiltinResource(::System::Type* type, ::StringW path);
 
   /// @brief Method GetBuiltinResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetBuiltinResource(::StringW path);
 
-  /// @brief Method Load, addr 0x482fe78, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x4844590, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
-  /// @brief Method Load, addr 0x482f908, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x4844020, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Load(::StringW path);
 
-  /// @brief Method LoadAll, addr 0x482ffec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x4844704, size 0x84, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path);
 
-  /// @brief Method LoadAll, addr 0x482ff74, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x484468c, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAsync, addr 0x482fefc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x4844614, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceRequest* LoadAsync(::StringW path, ::System::Type* type);
 
-  /// @brief Method UnloadAsset, addr 0x48300b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UnloadAsset, addr 0x48447cc, size 0x68, virtual false, abstract: false, final false
   static inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
 
-  /// @brief Method UnloadUnusedAssets, addr 0x483011c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnloadUnusedAssets, addr 0x4844834, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* UnloadUnusedAssets();
 
 protected:
@@ -87,7 +87,7 @@ public:
   Resources(Resources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

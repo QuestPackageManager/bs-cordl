@@ -55,25 +55,25 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x4014374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4028a8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fontSize, addr 0x4014358, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fontSize, addr 0x4028a70, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_fontSize();
 
-  /// @brief Method get_preferredWidth, addr 0x4014300, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x4028a18, size 0x24, virtual false, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_text, addr 0x4014334, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x4028a4c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_fontSize, addr 0x401429c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_fontSize, addr 0x40289b4, size 0x1c, virtual false, abstract: false, final false
   inline void set_fontSize(float_t value);
 
-  /// @brief Method set_hideBackgroundImage, addr 0x40142dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_hideBackgroundImage, addr 0x40289f4, size 0x24, virtual false, abstract: false, final false
   inline void set_hideBackgroundImage(bool value);
 
-  /// @brief Method set_text, addr 0x40142b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x40289d0, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -97,7 +97,7 @@ public:
   ::UnityW<::UnityEngine::GameObject> ____backgroundGameObject;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18714 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

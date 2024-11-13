@@ -50,15 +50,15 @@ public:
   /// @brief Field StrafeSpeed, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_StrafeSpeed, put = __cordl_internal_set_StrafeSpeed)) float_t StrafeSpeed;
 
-  /// @brief Method Awake, addr 0x3f31d3c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3f463cc, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRDebugHeadController* New_ctor();
 
-  /// @brief Method Start, addr 0x3f31e38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3f464c8, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3f31e3c, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f464cc, size 0x534, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_AllowMovement() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_StrafeSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x3f32370, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f46a00, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -160,7 +160,7 @@ public:
   ::UnityW<::GlobalNamespace::OVRCameraRig> ___CameraRig;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7824 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__TypeIdentifiers__Display::*)(::StringW)>(&::System::__TypeIdentifiers__Display::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dcd02c;
+  constexpr static std::size_t addrs = 0x3de16bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::__TypeIdentifiers__Display::*)()>(&::System::__TypeIdentifiers__Display::get_DisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dcd034;
+  constexpr static std::size_t addrs = 0x3de16c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::__TypeIdentifiers__Display::*)()>(&::System::__TypeIdentifiers__Display::get_InternalName)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3dcd03c;
+  constexpr static std::size_t addrs = 0x3de16cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__TypeIdentifiers__Display*>::get(), "get_InternalName",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::__TypeIdentifiers__Display::*)()>(&::System::__TypeIdentifiers__Display::GetInternalName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3dcd064;
+  constexpr static std::size_t addrs = 0x3de16f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__TypeIdentifiers__Display*>::get(), "GetInternalName",
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypeIdentifier* (*)(::StringW)>(&::System::TypeIdentifiers::FromDisplay)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dccfe0;
+  constexpr static std::size_t addrs = 0x3de1670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

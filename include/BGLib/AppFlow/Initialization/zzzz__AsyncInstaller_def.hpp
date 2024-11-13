@@ -53,7 +53,7 @@ public:
   __AsyncInstaller__IInstallerRegistry(__AsyncInstaller__IInstallerRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17593 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -77,7 +77,7 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::AsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x225ca58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2267998, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   AsyncInstaller(AsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

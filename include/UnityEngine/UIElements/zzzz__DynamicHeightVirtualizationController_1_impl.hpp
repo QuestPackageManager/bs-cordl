@@ -94,7 +94,7 @@ UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_int
 template <typename T>
 constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_ItemHeightCache(::System::Collections::Generic::Dictionary_2<int32_t, float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ItemHeightCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ItemHeightCache, value);
 }
 template <typename T>
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::UIElements::__DynamicHeightVirtualizationController_1__ContentHeightCacheInfo<T>>*&
@@ -113,7 +113,7 @@ template <typename T>
 constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_ContentHeightCache(
     ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::UIElements::__DynamicHeightVirtualizationController_1__ContentHeightCacheInfo<T>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ContentHeightCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ContentHeightCache, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_WaitingCache() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -128,7 +128,7 @@ UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_int
 template <typename T>
 constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_WaitingCache(::System::Collections::Generic::HashSet_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_WaitingCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_WaitingCache, value);
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_ForcedFirstVisibleItem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -249,7 +249,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEng
 }
 template <typename T> constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_FillCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FillCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_FillCallback, value);
 }
 template <typename T> constexpr ::System::Action*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScrollCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -262,7 +262,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEng
 }
 template <typename T> constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_ScrollCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ScrollCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ScrollCallback, value);
 }
 template <typename T> constexpr ::System::Action*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScrollResetCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -275,7 +275,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEng
 }
 template <typename T> constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_ScrollResetCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ScrollResetCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ScrollResetCallback, value);
 }
 template <typename T>
 constexpr ::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*&
@@ -293,7 +293,7 @@ template <typename T>
 constexpr void
 UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_GeometryChangedCallback(::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GeometryChangedCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_GeometryChangedCallback, value);
 }
 template <typename T> constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScheduledItem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -308,7 +308,7 @@ UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_int
 template <typename T>
 constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_ScheduledItem(::UnityEngine::UIElements::IVisualElementScheduledItem* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ScheduledItem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ScheduledItem, value);
 }
 template <typename T>
 constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScrollScheduledItem() {
@@ -324,7 +324,7 @@ UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_int
 template <typename T>
 constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_ScrollScheduledItem(::UnityEngine::UIElements::IVisualElementScheduledItem* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ScrollScheduledItem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ScrollScheduledItem, value);
 }
 template <typename T>
 constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScrollResetScheduledItem() {
@@ -340,7 +340,7 @@ UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_int
 template <typename T>
 constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_ScrollResetScheduledItem(::UnityEngine::UIElements::IVisualElementScheduledItem* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ScrollResetScheduledItem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_ScrollResetScheduledItem, value);
 }
 template <typename T> constexpr ::System::Predicate_1<int32_t>*& UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_get_m_IndexOutOfBoundsPredicate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -354,7 +354,7 @@ UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_int
 }
 template <typename T> constexpr void UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::__cordl_internal_set_m_IndexOutOfBoundsPredicate(::System::Predicate_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_IndexOutOfBoundsPredicate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_IndexOutOfBoundsPredicate, value);
 }
 template <typename T> inline float_t UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>::get_defaultExpectedHeight() {
   static auto* ___internal_method =

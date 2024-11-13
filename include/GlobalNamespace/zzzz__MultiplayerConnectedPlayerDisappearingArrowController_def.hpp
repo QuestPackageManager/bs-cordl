@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__gameNoteController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> value);
 
-  /// @brief Method .ctor, addr 0x3b3fe74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b55acc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameNoteController, addr 0x3b3fe6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_gameNoteController, addr 0x3b55ac4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> get_gameNoteController();
 
 protected:
@@ -61,7 +61,7 @@ public:
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> ____gameNoteController;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

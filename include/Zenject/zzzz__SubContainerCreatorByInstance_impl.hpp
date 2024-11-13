@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorByInstance::*)(::Zenject::DiContainer*)>(
     &::Zenject::SubContainerCreatorByInstance::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4ac5f3c;
+  constexpr static std::size_t addrs = 0x4ada654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::DiContainer* (::Zenject::SubContainerCreatorByInstance::*)(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::Zenject::InjectContext*)>(
         &::Zenject::SubContainerCreatorByInstance::CreateSubContainer)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4ac5f64;
+  constexpr static std::size_t addrs = 0x4ada67c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

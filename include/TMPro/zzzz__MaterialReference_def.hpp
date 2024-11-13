@@ -35,20 +35,20 @@ namespace TMPro {
 struct CORDL_TYPE MaterialReference {
 public:
   // Declarations
-  /// @brief Method AddMaterialReference, addr 0x473e8d0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method AddMaterialReference, addr 0x4752fe8, size 0x20c, virtual false, abstract: false, final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::TMPro::TMP_FontAsset* fontAsset,
                                              ByRef<::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
 
-  /// @brief Method AddMaterialReference, addr 0x473eadc, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AddMaterialReference, addr 0x47531f4, size 0x1d8, virtual false, abstract: false, final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::TMPro::TMP_SpriteAsset* spriteAsset,
                                              ByRef<::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
 
-  /// @brief Method Contains, addr 0x473e7d4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x4752eec, size 0xfc, virtual false, abstract: false, final false
   static inline bool Contains(::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*> materialReferences, ::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method .ctor, addr 0x473e758, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4752e70, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::TMPro::TMP_FontAsset* fontAsset, ::TMPro::TMP_SpriteAsset* spriteAsset, ::UnityEngine::Material* material, float_t padding);
 
   // Ctor Parameters []
@@ -91,7 +91,7 @@ public:
   int32_t referenceCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

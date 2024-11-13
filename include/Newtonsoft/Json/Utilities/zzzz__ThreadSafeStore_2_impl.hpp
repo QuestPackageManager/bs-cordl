@@ -18,7 +18,7 @@ Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_g
 template <typename TKey, typename TValue>
 constexpr void Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_set__concurrentStore(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____concurrentStore)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____concurrentStore, value);
 }
 template <typename TKey, typename TValue> constexpr ::System::Func_2<TKey, TValue>*& Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_get__creator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -31,7 +31,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TKey, TValue>*> c
 }
 template <typename TKey, typename TValue> constexpr void Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_set__creator(::System::Func_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____creator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____creator, value);
 }
 template <typename TKey, typename TValue>
 inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>* Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::New_ctor(::System::Func_2<TKey, TValue>* creator) {

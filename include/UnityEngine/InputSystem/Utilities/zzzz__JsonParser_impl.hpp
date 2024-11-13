@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString::*)()>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString::ToString)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x44f2c88;
+  constexpr static std::size_t addrs = 0x45073a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString::*)(
     ::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString)>(&::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString::Equals)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x44f2d84;
+  constexpr static std::size_t addrs = 0x450749c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44f2f2c;
+  constexpr static std::size_t addrs = 0x4507644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString::*)()>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x44f2fbc;
+  constexpr static std::size_t addrs = 0x45076d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString, ::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString)>(
         &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44f3038;
+  constexpr static std::size_t addrs = 0x4507750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString, ::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString)>(
         &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString::op_Inequality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44f3068;
+  constexpr static std::size_t addrs = 0x4507780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString (*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString::op_Implicit___UnityEngine__InputSystem__Utilities____JsonParser__JsonString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x44f309c;
+  constexpr static std::size_t addrs = 0x45077b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__JsonParser__JsonValue____c::*)()>(
     &::GlobalNamespace::__JsonParser__JsonValue____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f4584;
+  constexpr static std::size_t addrs = 0x4508c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JsonParser__JsonValue____c*>::get(), ".ctor",
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__JsonParser__JsonValue____c::*)(
     ::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue)>(&::GlobalNamespace::__JsonParser__JsonValue____c::_ToString_b__11_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f458c;
+  constexpr static std::size_t addrs = 0x4508ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__JsonParser__JsonValue____c::*)(
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>)>(&::GlobalNamespace::__JsonParser__JsonValue____c::_ToString_b__11_1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x44f4594;
+  constexpr static std::size_t addrs = 0x4508cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::ToBoolean)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x44f30bc;
+  constexpr static std::size_t addrs = 0x45077d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::ToInteger)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x44f366c;
+  constexpr static std::size_t addrs = 0x4507d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::ToDouble)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x44f373c;
+  constexpr static std::size_t addrs = 0x4507e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::ToString)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x44f31fc;
+  constexpr static std::size_t addrs = 0x4507914;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue (*)(bool)>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities____JsonParser__JsonValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44f2c4c;
+  constexpr static std::size_t addrs = 0x4507364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue (*)(int64_t)>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities____JsonParser__JsonValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44f2b5c;
+  constexpr static std::size_t addrs = 0x4507274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue (*)(double_t)>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities____JsonParser__JsonValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x44f2b84;
+  constexpr static std::size_t addrs = 0x450729c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue (*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities____JsonParser__JsonValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x44f3808;
+  constexpr static std::size_t addrs = 0x4507f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -428,7 +428,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue (*)(::UnityEngine::InputSystem::Utilities::__JsonParser__JsonString)>(
         &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities____JsonParser__JsonValue)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x44f2ac4;
+  constexpr static std::size_t addrs = 0x45071dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -444,7 +444,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue (*)(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>*)>(
         &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities____JsonParser__JsonValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44f2b38;
+  constexpr static std::size_t addrs = 0x4507250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -461,7 +461,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>*)>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities____JsonParser__JsonValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44f3844;
+  constexpr static std::size_t addrs = 0x4507f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue (*)(::bs_hook::EnumPtr)>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::op_Implicit___UnityEngine__InputSystem__Utilities____JsonParser__JsonValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44f3868;
+  constexpr static std::size_t addrs = 0x4507f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::*)(
     ::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue)>(&::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::Equals)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x44f388c;
+  constexpr static std::size_t addrs = 0x4507fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*, ::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue)>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::Equals)> {
   constexpr static std::size_t size = 0x88c;
-  constexpr static std::size_t addrs = 0x44f3a88;
+  constexpr static std::size_t addrs = 0x45081a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44f4314;
+  constexpr static std::size_t addrs = 0x4508a2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::GetHashCode)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x44f43a4;
+  constexpr static std::size_t addrs = 0x4508abc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -556,7 +556,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue, ::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue)>(
         &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::op_Equality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44f1f10;
+  constexpr static std::size_t addrs = 0x4506628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -573,7 +573,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue, ::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue)>(
         &::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue::op_Inequality)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44f44f0;
+  constexpr static std::size_t addrs = 0x4508c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -745,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x44e8544;
+  constexpr static std::size_t addrs = 0x44fcc5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -760,7 +760,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::JsonParser::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44f1b68;
+  constexpr static std::size_t addrs = 0x4506280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::JsonParser>::get(),
@@ -774,7 +774,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::JsonParser::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::ToString)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x44f1b74;
+  constexpr static std::size_t addrs = 0x450628c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -790,7 +790,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::NavigateToProperty)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x44e8604;
+  constexpr static std::size_t addrs = 0x44fcd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -805,7 +805,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(
     ::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue)>(&::UnityEngine::InputSystem::Utilities::JsonParser::CurrentPropertyHasValueEqualTo)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x44e8a84;
+  constexpr static std::size_t addrs = 0x44fd19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -820,7 +820,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(char16_t)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::ParseToken)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x44f1c60;
+  constexpr static std::size_t addrs = 0x4506378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -835,7 +835,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::ParseValue)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44f1dd0;
+  constexpr static std::size_t addrs = 0x45064e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::JsonParser>::get(),
@@ -849,7 +849,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(
     ByRef<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>)>(&::UnityEngine::InputSystem::Utilities::JsonParser::ParseValue)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x44f1e00;
+  constexpr static std::size_t addrs = 0x4506518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -864,7 +864,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(
     ByRef<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>)>(&::UnityEngine::InputSystem::Utilities::JsonParser::ParseStringValue)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x44f1f44;
+  constexpr static std::size_t addrs = 0x450665c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -879,7 +879,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(
     ByRef<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>)>(&::UnityEngine::InputSystem::Utilities::JsonParser::ParseArrayValue)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x44f20d4;
+  constexpr static std::size_t addrs = 0x45067ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -894,7 +894,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(
     ByRef<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>)>(&::UnityEngine::InputSystem::Utilities::JsonParser::ParseObjectValue)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x44f238c;
+  constexpr static std::size_t addrs = 0x4506aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -909,7 +909,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(
     ByRef<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>)>(&::UnityEngine::InputSystem::Utilities::JsonParser::ParseNumber)> {
   constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x44f2630;
+  constexpr static std::size_t addrs = 0x4506d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -924,7 +924,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(
     ByRef<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>)>(&::UnityEngine::InputSystem::Utilities::JsonParser::ParseBooleanValue)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x44f24f4;
+  constexpr static std::size_t addrs = 0x4506c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -939,7 +939,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(
     ByRef<::UnityEngine::InputSystem::Utilities::__JsonParser__JsonValue>)>(&::UnityEngine::InputSystem::Utilities::JsonParser::ParseNullValue)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x44f25cc;
+  constexpr static std::size_t addrs = 0x4506ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -954,7 +954,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::SkipToValue)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x44f1d70;
+  constexpr static std::size_t addrs = 0x4506488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::JsonParser>::get(),
@@ -968,7 +968,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::SkipString)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x44f2ba4;
+  constexpr static std::size_t addrs = 0x45072bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -983,7 +983,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::JsonParser::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::SkipWhitespace)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x44f1cd4;
+  constexpr static std::size_t addrs = 0x45063ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::JsonParser>::get(),
@@ -997,7 +997,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::JsonParser::*)()>(
     &::UnityEngine::InputSystem::Utilities::JsonParser::get_isAtEnd)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44f2c78;
+  constexpr static std::size_t addrs = 0x4507390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::JsonParser>::get(),

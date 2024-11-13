@@ -23,10 +23,10 @@ namespace UnityEngine {
 class CORDL_TYPE GUILayout : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Height, addr 0x4861054, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Height, addr 0x487576c, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Height(float_t height);
 
-  /// @brief Method Width, addr 0x4860fc0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Width, addr 0x48756d8, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Width(float_t width);
 
 protected:
@@ -44,7 +44,7 @@ public:
   GUILayout(GUILayout const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16600 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

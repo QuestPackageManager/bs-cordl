@@ -45,31 +45,31 @@ public:
   /// @brief Field _allKeys, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__allKeys, put = __cordl_internal_set__allKeys)) ::ArrayW<::StringW, ::Array<::StringW>*> _allKeys;
 
-  /// @brief Method Add, addr 0x440a4a8, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x441ebc0, size 0x168, virtual true, abstract: false, final false
   inline void Add(::StringW name, ::StringW value);
 
-  /// @brief Method Get, addr 0x440ac54, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x441f36c, size 0x84, virtual true, abstract: false, final false
   inline ::StringW Get(int32_t index);
 
-  /// @brief Method Get, addr 0x440a780, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x441ee98, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW Get(::StringW name);
 
-  /// @brief Method GetAsOneString, addr 0x440a258, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetAsOneString, addr 0x441e970, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW GetAsOneString(::System::Collections::ArrayList* list);
 
-  /// @brief Method GetAsStringArray, addr 0x440a408, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetAsStringArray, addr 0x441eb20, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAsStringArray(::System::Collections::ArrayList* list);
 
-  /// @brief Method GetKey, addr 0x440adf8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetKey, addr 0x441f510, size 0x4, virtual true, abstract: false, final false
   inline ::StringW GetKey(int32_t index);
 
-  /// @brief Method GetValues, addr 0x440ad74, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetValues, addr 0x441f48c, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetValues(int32_t index);
 
-  /// @brief Method GetValues, addr 0x440a80c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetValues, addr 0x441ef24, size 0x8c, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetValues(::StringW name);
 
-  /// @brief Method InvalidateCachedArrays, addr 0x440a250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InvalidateCachedArrays, addr 0x441e968, size 0x8, virtual false, abstract: false, final false
   inline void InvalidateCachedArrays();
 
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor();
@@ -83,10 +83,10 @@ public:
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                   ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Remove, addr 0x440aa28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x441f140, size 0x8, virtual true, abstract: false, final false
   inline void Remove(::StringW name);
 
-  /// @brief Method Set, addr 0x440a898, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x441efb0, size 0xe8, virtual true, abstract: false, final false
   inline void Set(::StringW name, ::StringW value);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__all() const;
@@ -101,25 +101,25 @@ public:
 
   constexpr void __cordl_internal_set__allKeys(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x4409f54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441e66c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x440a008, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441e720, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x440a11c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441e834, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
 
-  /// @brief Method .ctor, addr 0x440ae98, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441f5b0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::DBNull* dummy);
 
-  /// @brief Method .ctor, addr 0x440a1bc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441e8d4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Item, addr 0x440ac34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x441f34c, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_Item(::StringW name);
 
-  /// @brief Method set_Item, addr 0x440ac44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x441f35c, size 0x10, virtual false, abstract: false, final false
   inline void set_Item(::StringW name, ::StringW value);
 
 protected:
@@ -143,7 +143,7 @@ public:
   ::ArrayW<::StringW, ::Array<::StringW>*> ____allKeys;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

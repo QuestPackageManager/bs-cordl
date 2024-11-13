@@ -35,7 +35,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b5d1c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b738b8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +53,7 @@ public:
   __MultiplayerLobbyAvatarPlace__Pool(__MultiplayerLobbyAvatarPlace__Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4571 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -73,10 +73,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarPlace* New_ctor();
 
-  /// @brief Method SetPositionAndRotation, addr 0x3b5d140, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x3b73838, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 worldPos, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x3b5d1b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b738b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   MultiplayerLobbyAvatarPlace(MultiplayerLobbyAvatarPlace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4572 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

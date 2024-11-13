@@ -91,7 +91,7 @@ public:
   int32_t count;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5453 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -153,7 +153,7 @@ public:
   static ::UnityEngine::UIElements::__DynamicHeightVirtualizationController_1__VirtualizationChange<T> const Scroll;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5454 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -211,7 +211,7 @@ public:
   static ::UnityEngine::UIElements::__DynamicHeightVirtualizationController_1__ScrollDirection<T> const Up;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5450 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5455 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -653,7 +653,7 @@ public:
   ::System::Predicate_1<int32_t>* ___m_IndexOutOfBoundsPredicate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5456 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

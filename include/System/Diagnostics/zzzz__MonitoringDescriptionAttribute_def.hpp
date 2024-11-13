@@ -24,10 +24,10 @@ public:
 
   static inline ::System::Diagnostics::MonitoringDescriptionAttribute* New_ctor(::StringW description);
 
-  /// @brief Method .ctor, addr 0x43bb9b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d00cc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW description);
 
-  /// @brief Method get_Description, addr 0x43bba1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Description, addr 0x43d0134, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Description();
 
 protected:
@@ -45,7 +45,7 @@ public:
   MonitoringDescriptionAttribute(MonitoringDescriptionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9250 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

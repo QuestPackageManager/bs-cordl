@@ -91,10 +91,10 @@ public:
 
   static inline ::GlobalNamespace::StretchableObstacle* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x3a84768, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x3a980f0, size 0x68, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetSizeAndColor, addr 0x3a81be0, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method SetSizeAndColor, addr 0x3a9555c, size 0x3d4, virtual false, abstract: false, final false
   inline void SetSizeAndColor(float_t width, float_t height, float_t length, ::UnityEngine::Color color);
 
   constexpr float_t const& __cordl_internal_get__addColorMultiplier() const;
@@ -160,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set__obstacleFrame(::UnityW<::GlobalNamespace::ParametricBoxFrameController> value);
 
-  /// @brief Method .ctor, addr 0x3a847d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a98158, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__addColorID();
@@ -171,7 +171,7 @@ public:
 
   static inline int32_t getStaticF__uvScaleID();
 
-  /// @brief Method get_bounds, addr 0x3a84754, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x3a980dc, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
   static inline void setStaticF__addColorID(int32_t value);
@@ -227,7 +227,7 @@ public:
   ::UnityEngine::Bounds ____bounds;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

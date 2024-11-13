@@ -25,7 +25,7 @@ public:
   /// @brief Field _connectedPlayer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
-  /// @brief Method InstallBindings, addr 0x2219b78, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x222262c, size 0x25c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::BeatSaber::AvatarCore::LobbyAvatarInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x2219dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2222888, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

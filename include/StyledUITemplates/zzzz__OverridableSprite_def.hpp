@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::StyledUITemplates::OverridableSprite* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4007740, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401bdd0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   OverridableSprite(OverridableSprite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19097 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

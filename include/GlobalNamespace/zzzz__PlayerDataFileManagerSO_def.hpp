@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set__defaultLastSelectedBeatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  /// @brief Method .ctor, addr 0x26af6dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bb4d8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allSongPackSerializedName, addr 0x26af6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allSongPackSerializedName, addr 0x26bb4d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_allSongPackSerializedName();
 
-  /// @brief Method get_buildInSongPackSerializedName, addr 0x26af6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildInSongPackSerializedName, addr 0x26bb4c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildInSongPackSerializedName();
 
-  /// @brief Method get_defaultLastSelectedBeatmapCharacteristic, addr 0x26af6c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultLastSelectedBeatmapCharacteristic, addr 0x26bb4c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_defaultLastSelectedBeatmapCharacteristic();
 
 protected:
@@ -96,7 +96,7 @@ public:
   ::StringW ____allSongPackSerializedName;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13179 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13188 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

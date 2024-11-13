@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(
     ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x24fe068;
+  constexpr static std::size_t addrs = 0x2509110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(
     int32_t, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::InitSign)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24fe174;
+  constexpr static std::size_t addrs = 0x250921c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(
     int32_t, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::InitSign)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x25089ac;
+  constexpr static std::size_t addrs = 0x2513a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(uint8_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::Update)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2508c04;
+  constexpr static std::size_t addrs = 0x2513cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(uint8_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::doCanonicalUpdateByte)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2508c18;
+  constexpr static std::size_t addrs = 0x2513cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::doUpdateCRLF)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2508da4;
+  constexpr static std::size_t addrs = 0x2513e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(uint8_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::doUpdateByte)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x2508c7c;
+  constexpr static std::size_t addrs = 0x2513d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::Update)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2508dc4;
+  constexpr static std::size_t addrs = 0x2513e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::Update)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x2508de0;
+  constexpr static std::size_t addrs = 0x2513e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::SetHashedSubpackets)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x24fe17c;
+  constexpr static std::size_t addrs = 0x2509224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::SetUnhashedSubpackets)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x24fe1f4;
+  constexpr static std::size_t addrs = 0x250929c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* (
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(bool)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::GenerateOnePassVersion)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2508f78;
+  constexpr static std::size_t addrs = 0x2514020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::Generate)> {
   constexpr static std::size_t size = 0x800;
-  constexpr static std::size_t addrs = 0x250903c;
+  constexpr static std::size_t addrs = 0x25140e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(::StringW, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*)>(
         &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::GenerateCertification)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x24fe26c;
+  constexpr static std::size_t addrs = 0x2509314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,7 +241,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::GenerateCertification)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x2509e38;
+  constexpr static std::size_t addrs = 0x2514ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -258,7 +258,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::GenerateCertification)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x250a010;
+  constexpr static std::size_t addrs = 0x25150b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -275,7 +275,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*)>(
         &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::GenerateCertification)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x250a040;
+  constexpr static std::size_t addrs = 0x25150e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::GetEncodedPublicKey)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x250a058;
+  constexpr static std::size_t addrs = 0x2515100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -306,7 +306,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>, ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::packetPresent)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x250983c;
+  constexpr static std::size_t addrs = 0x25148e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -324,7 +324,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>,
                                                                   ::Org::BouncyCastle::Bcpg::SignatureSubpacket*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::insertSubpacket)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2509894;
+  constexpr static std::size_t addrs = 0x251493c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::UpdateWithIdData)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2509d5c;
+  constexpr static std::size_t addrs = 0x2514e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::*)(
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureGenerator::UpdateWithPublicKey)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2509c98;
+  constexpr static std::size_t addrs = 0x2514d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

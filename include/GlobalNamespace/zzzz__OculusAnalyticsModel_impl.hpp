@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusAnalyticsModel::*)()>(
     &::GlobalNamespace::OculusAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22382ec;
+  constexpr static std::size_t addrs = 0x2242cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)()>(&::GlobalNamespace::OculusAnalyticsModel::OpenDataPrivacyPage)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22382f4;
+  constexpr static std::size_t addrs = 0x2242cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAnalyticsModel*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(
     ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::OculusAnalyticsModel::LogEvent)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x22382f8;
+  constexpr static std::size_t addrs = 0x2242cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(::GlobalNamespace::BeatSaberSessionEventType, int32_t)>(
     &::GlobalNamespace::OculusAnalyticsModel::LogSessionEvent)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x2238414;
+  constexpr static std::size_t addrs = 0x2242de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(
     ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::OculusAnalyticsModel::LogEditAvatarEvent)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x22385f4;
+  constexpr static std::size_t addrs = 0x2242fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(
     ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::OculusAnalyticsModel::LogClick)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2238710;
+  constexpr static std::size_t addrs = 0x22430dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(
     ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::OculusAnalyticsModel::LogImpression)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22387a0;
+  constexpr static std::size_t addrs = 0x224316c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(
     ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::OculusAnalyticsModel::LogExposure)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2238830;
+  constexpr static std::size_t addrs = 0x22431fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)()>(&::GlobalNamespace::OculusAnalyticsModel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22388c0;
+  constexpr static std::size_t addrs = 0x224328c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAnalyticsModel*>::get(), ".ctor",

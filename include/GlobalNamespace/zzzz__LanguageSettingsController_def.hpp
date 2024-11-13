@@ -28,15 +28,15 @@ public:
   /// @brief Field _settingsManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method ApplyValue, addr 0x3b96cb4, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3bacb18, size 0xd4, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x3b96b90, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x3bac9f4, size 0x124, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::LanguageSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x3b96d88, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x3bacbec, size 0x64, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3b96dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bacc50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4844 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

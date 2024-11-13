@@ -64,28 +64,28 @@ public:
 
   constexpr void __cordl_internal_set__Transform_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3fcf094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe3724, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3fcfe08, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe4498, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__OVRSkeleton__BoneId id, int16_t parentBoneIndex, ::UnityEngine::Transform* trans);
 
-  /// @brief Method get_Id, addr 0x3fcfdd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x3fe4468, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRSkeleton__BoneId get_Id();
 
-  /// @brief Method get_ParentBoneIndex, addr 0x3fcfde8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentBoneIndex, addr 0x3fe4478, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_ParentBoneIndex();
 
-  /// @brief Method get_Transform, addr 0x3fcfdf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Transform, addr 0x3fe4488, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Transform();
 
-  /// @brief Method set_Id, addr 0x3fcfde0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x3fe4470, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::GlobalNamespace::__OVRSkeleton__BoneId value);
 
-  /// @brief Method set_ParentBoneIndex, addr 0x3fcfdf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParentBoneIndex, addr 0x3fe4480, size 0x8, virtual false, abstract: false, final false
   inline void set_ParentBoneIndex(int16_t value);
 
-  /// @brief Method set_Transform, addr 0x3fcfe00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Transform, addr 0x3fe4490, size 0x8, virtual false, abstract: false, final false
   inline void set_Transform(::UnityEngine::Transform* value);
 
 protected:
@@ -112,7 +112,7 @@ public:
   ::UnityW<::UnityEngine::Transform> ____Transform_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8457 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

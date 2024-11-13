@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x2599574, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a461c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25995cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a4674, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2599634, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a46dc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

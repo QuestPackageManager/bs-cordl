@@ -70,7 +70,7 @@ public:
 
   __declspec(property(get = get_rightEyeVelocity, put = set_rightEyeVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* rightEyeVelocity;
 
-  /// @brief Method FinishSetup, addr 0x44c4760, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x44d8e78, size 0x1ac, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::OpenVR::OpenVRHMD* New_ctor();
@@ -123,55 +123,55 @@ public:
 
   constexpr void __cordl_internal_set__rightEyeVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method .ctor, addr 0x44c490c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_centerEyeAngularVelocity, addr 0x44c4750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeAngularVelocity, addr 0x44d8e68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyeAngularVelocity();
 
-  /// @brief Method get_centerEyeVelocity, addr 0x44c4740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeVelocity, addr 0x44d8e58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyeVelocity();
 
-  /// @brief Method get_deviceAngularVelocity, addr 0x44c46f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAngularVelocity, addr 0x44d8e08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
-  /// @brief Method get_deviceVelocity, addr 0x44c46e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceVelocity, addr 0x44d8df8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
-  /// @brief Method get_leftEyeAngularVelocity, addr 0x44c4710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeAngularVelocity, addr 0x44d8e28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyeAngularVelocity();
 
-  /// @brief Method get_leftEyeVelocity, addr 0x44c4700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeVelocity, addr 0x44d8e18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyeVelocity();
 
-  /// @brief Method get_rightEyeAngularVelocity, addr 0x44c4730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeAngularVelocity, addr 0x44d8e48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyeAngularVelocity();
 
-  /// @brief Method get_rightEyeVelocity, addr 0x44c4720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeVelocity, addr 0x44d8e38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyeVelocity();
 
-  /// @brief Method set_centerEyeAngularVelocity, addr 0x44c4758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeAngularVelocity, addr 0x44d8e70, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_centerEyeVelocity, addr 0x44c4748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeVelocity, addr 0x44d8e60, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_deviceAngularVelocity, addr 0x44c46f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAngularVelocity, addr 0x44d8e10, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_deviceVelocity, addr 0x44c46e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceVelocity, addr 0x44d8e00, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_leftEyeAngularVelocity, addr 0x44c4718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeAngularVelocity, addr 0x44d8e30, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_leftEyeVelocity, addr 0x44c4708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeVelocity, addr 0x44d8e20, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rightEyeAngularVelocity, addr 0x44c4738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeAngularVelocity, addr 0x44d8e50, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rightEyeVelocity, addr 0x44c4728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeVelocity, addr 0x44d8e40, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
 protected:
@@ -213,7 +213,7 @@ public:
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____centerEyeAngularVelocity_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6491 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

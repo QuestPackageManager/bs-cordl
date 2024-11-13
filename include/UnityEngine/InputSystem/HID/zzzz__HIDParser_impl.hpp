@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                               ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData>*)>(
     &::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData::FindOrAddReport)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x4588050;
+  constexpr static std::size_t addrs = 0x459c768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal>)>(
     &::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal::Reset)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x45881d8;
+  constexpr static std::size_t addrs = 0x459c8f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal::*)(int32_t)>(
     &::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal::SetUsage)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4588238;
+  constexpr static std::size_t addrs = 0x459c950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal::*)(int32_t)>(
     &::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal::GetUsage)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x45883a4;
+  constexpr static std::size_t addrs = 0x459cabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal::*)(int32_t, ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal>)>(
     &::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal::GetUsagePage)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x45884b4;
+  constexpr static std::size_t addrs = 0x459cbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal::*)()>(
     &::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal::GetPhysicalMin)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4588540;
+  constexpr static std::size_t addrs = 0x459cc58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal::*)()>(
     &::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal::GetPhysicalMax)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4588604;
+  constexpr static std::size_t addrs = 0x459cd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ByRef<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor>)>(
     &::UnityEngine::InputSystem::HID::HIDParser::ParseReportDescriptor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4587f7c;
+  constexpr static std::size_t addrs = 0x459c694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::cordl_internals::Ptr<uint8_t>, int32_t, ByRef<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor>)>(&::UnityEngine::InputSystem::HID::HIDParser::ParseReportDescriptor)> {
   constexpr static std::size_t size = 0xba8;
-  constexpr static std::size_t addrs = 0x4584aac;
+  constexpr static std::size_t addrs = 0x45991c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, ::cordl_internals::Ptr<uint8_t>, ::cordl_internals::Ptr<uint8_t>)>(
     &::UnityEngine::InputSystem::HID::HIDParser::ReadData)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4587fe8;
+  constexpr static std::size_t addrs = 0x459c700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

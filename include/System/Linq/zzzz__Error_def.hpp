@@ -23,25 +23,25 @@ namespace System::Linq {
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ArgumentNull, addr 0x4019c28, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ArgumentNull, addr 0x402e340, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Exception* ArgumentNull(::StringW s);
 
-  /// @brief Method ArgumentOutOfRange, addr 0x4019c84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ArgumentOutOfRange, addr 0x402e39c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Exception* ArgumentOutOfRange(::StringW s);
 
-  /// @brief Method MoreThanOneElement, addr 0x4019ce0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method MoreThanOneElement, addr 0x402e3f8, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* MoreThanOneElement();
 
-  /// @brief Method MoreThanOneMatch, addr 0x4019d4c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method MoreThanOneMatch, addr 0x402e464, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* MoreThanOneMatch();
 
-  /// @brief Method NoElements, addr 0x4019db8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method NoElements, addr 0x402e4d0, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* NoElements();
 
-  /// @brief Method NoMatch, addr 0x4019e24, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method NoMatch, addr 0x402e53c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* NoMatch();
 
-  /// @brief Method NotSupported, addr 0x4019e90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method NotSupported, addr 0x402e5a8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Exception* NotSupported();
 
 protected:
@@ -59,7 +59,7 @@ public:
   Error(Error const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13528 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

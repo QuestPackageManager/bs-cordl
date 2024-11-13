@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithLaunchBlockFlowResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithLaunchBlockFlowResult::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f06360;
+  constexpr static std::size_t addrs = 0x3f1a9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchBlockFlowResult* (::Oculus::Platform::MessageWithLaunchBlockFlowResult::*)()>(
     &::Oculus::Platform::MessageWithLaunchBlockFlowResult::GetLaunchBlockFlowResult)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f08e60;
+  constexpr static std::size_t addrs = 0x3f1d4f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchBlockFlowResult* (
     ::Oculus::Platform::MessageWithLaunchBlockFlowResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithLaunchBlockFlowResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f08e9c;
+  constexpr static std::size_t addrs = 0x3f1d52c;
 
   inline static ::MethodInfo const* methodInfo() {
 

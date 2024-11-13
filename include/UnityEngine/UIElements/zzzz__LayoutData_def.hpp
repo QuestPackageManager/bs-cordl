@@ -65,19 +65,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*();
 
-  /// @brief Method Copy, addr 0x4a06a60, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x4a1b178, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::LayoutData Copy();
 
-  /// @brief Method CopyFrom, addr 0x4a06a7c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x4a1b194, size 0x14, virtual true, abstract: false, final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::LayoutData> other);
 
-  /// @brief Method Equals, addr 0x4a06e78, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a1b590, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a06e2c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a1b544, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::LayoutData other);
 
-  /// @brief Method GetHashCode, addr 0x4a06f20, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a1b638, size 0x338, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>"
@@ -86,7 +86,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__LayoutData_();
 
-  /// @brief Method op_Equality, addr 0x4a06a90, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a1b1a8, size 0x39c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::LayoutData lhs, ::UnityEngine::UIElements::LayoutData rhs);
 
   // Ctor Parameters []
@@ -222,7 +222,7 @@ public:
   ::UnityEngine::UIElements::Length width;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6054 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };

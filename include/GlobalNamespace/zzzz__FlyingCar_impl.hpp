@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingCar::*)()>(&::GlobalNamespace::FlyingCar::Start)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3b21a0c;
+  constexpr static std::size_t addrs = 0x3b36ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingCar*>::get(), "Start",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingCar::*)()>(&::GlobalNamespace::FlyingCar::Update)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b21a94;
+  constexpr static std::size_t addrs = 0x3b36f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingCar*>::get(), "Update",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingCar::*)()>(&::GlobalNamespace::FlyingCar::UpdatePos)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3b21a50;
+  constexpr static std::size_t addrs = 0x3b36f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingCar*>::get(), "UpdatePos",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingCar::*)()>(&::GlobalNamespace::FlyingCar::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b21af4;
+  constexpr static std::size_t addrs = 0x3b36fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingCar*>::get(), ".ctor",

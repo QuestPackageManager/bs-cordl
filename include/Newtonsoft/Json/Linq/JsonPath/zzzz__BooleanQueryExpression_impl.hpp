@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::*)(
     ::Newtonsoft::Json::Linq::JsonPath::QueryOperator, ::System::Object*, ::System::Object*)>(&::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3ec08dc;
+  constexpr static std::size_t addrs = 0x3ed4f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::*)(::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JToken*, ::System::Object*)>(
     &::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::GetResult)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3ec14f4;
+  constexpr static std::size_t addrs = 0x3ed5b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::*)(
     ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::IsMatch)> {
   constexpr static std::size_t size = 0x6f4;
-  constexpr static std::size_t addrs = 0x3ec16b8;
+  constexpr static std::size_t addrs = 0x3ed5d48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::*)(
     ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::MatchTokens)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3ec1dac;
+  constexpr static std::size_t addrs = 0x3ed643c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::RegexEquals)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3ec1f58;
+  constexpr static std::size_t addrs = 0x3ed65e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::Linq::JValue*)>(
     &::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::EqualsWithStringCoercion)> {
   constexpr static std::size_t size = 0x574;
-  constexpr static std::size_t addrs = 0x3ec2134;
+  constexpr static std::size_t addrs = 0x3ed67c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::Linq::JValue*)>(
     &::Newtonsoft::Json::Linq::JsonPath::BooleanQueryExpression::EqualsWithStrictMatch)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3ec26a8;
+  constexpr static std::size_t addrs = 0x3ed6d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

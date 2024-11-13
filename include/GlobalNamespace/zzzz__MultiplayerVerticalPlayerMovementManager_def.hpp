@@ -90,18 +90,18 @@ public:
   /// @brief Field _scoreProvider, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider)) ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
 
-  /// @brief Method HandleStateChanged, addr 0x3b683fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3b7def0, size 0x10, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerVerticalPlayerMovementManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b6840c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b7df00, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b6834c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b7de40, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b684dc, size 0x7e0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b7dfd0, size 0x7e0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__accelerationMetersPerSecondSquared() const;
@@ -184,7 +184,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  /// @brief Method .ctor, addr 0x3b68cbc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7e7b0, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -241,7 +241,7 @@ public:
   float_t ____lastFrameBaseScore;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4604 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

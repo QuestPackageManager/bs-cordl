@@ -46,13 +46,13 @@ public:
 
   static inline ::System::Net::HeaderInfoTable* New_ctor();
 
-  /// @brief Method ParseMultiValue, addr 0x44319c4, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiValue, addr 0x44460dc, size 0x204, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> ParseMultiValue(::StringW value);
 
-  /// @brief Method ParseSingleValue, addr 0x4431960, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ParseSingleValue, addr 0x4446078, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> ParseSingleValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x442e214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444292c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Hashtable* getStaticF_HeaderHashTable();
@@ -63,7 +63,7 @@ public:
 
   static inline ::System::Net::HeaderInfo* getStaticF_UnknownHeaderInfo();
 
-  /// @brief Method get_Item, addr 0x442bd68, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4440480, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Net::HeaderInfo* get_Item(::StringW name);
 
   static inline void setStaticF_HeaderHashTable(::System::Collections::Hashtable* value);
@@ -89,7 +89,7 @@ public:
   HeaderInfoTable(HeaderInfoTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

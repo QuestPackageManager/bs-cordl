@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::LoadResourceFunction::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::LoadResourceFunction::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x49c83f4;
+  constexpr static std::size_t addrs = 0x49dcb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::UIElements::LoadResourceFunction::*)(::StringW, ::System::Type*, float_t)>(&::UnityEngine::UIElements::LoadResourceFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x49c8494;
+  constexpr static std::size_t addrs = 0x49dcbac;
 
   inline static ::MethodInfo const* methodInfo() {
 

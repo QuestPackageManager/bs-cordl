@@ -15,7 +15,7 @@ template <typename T> constexpr T const& UnityEngine::Events::CachedInvokableCal
 }
 template <typename T> constexpr void UnityEngine::Events::CachedInvokableCall_1<T>::__cordl_internal_set_m_Arg1(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Arg1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Arg1, value);
 }
 template <typename T>
 inline ::UnityEngine::Events::CachedInvokableCall_1<T>* UnityEngine::Events::CachedInvokableCall_1<T>::New_ctor(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* theFunction,

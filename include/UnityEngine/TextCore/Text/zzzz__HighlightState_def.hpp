@@ -31,19 +31,19 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE HighlightState {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x48cf070, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48e3788, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x48cf004, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48e371c, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x48ceeb8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48e35d0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color32 color, ::UnityEngine::TextCore::Text::Offset padding);
 
-  /// @brief Method op_Equality, addr 0x48ceec8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x48e35e0, size 0xf4, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::TextCore::Text::HighlightState lhs, ::UnityEngine::TextCore::Text::HighlightState rhs);
 
-  /// @brief Method op_Inequality, addr 0x48cefbc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x48e36d4, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::TextCore::Text::HighlightState lhs, ::UnityEngine::TextCore::Text::HighlightState rhs);
 
   // Ctor Parameters []
@@ -61,7 +61,7 @@ public:
   ::UnityEngine::TextCore::Text::Offset padding;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15240 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

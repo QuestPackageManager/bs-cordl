@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "BeatmapDataLoaderVersion4/ChainItemConverter.hpp"
-#include "GlobalNamespace/zzzz__BeatToTimeConverterProvider_impl.hpp"
+#include "GlobalNamespace/zzzz__BeatToTimeConverter_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__ChainItemConverter_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ChainBeatIndex_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Chain_def.hpp"
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>, ::ArrayW<::BeatmapSaveDataVersion4::Chain, ::Array<::BeatmapSaveDataVersion4::Chain>*>,
     ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion4::ChainItemConverter::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x26cbacc;
+  constexpr static std::size_t addrs = 0x26d7718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectData* (
     ::BeatmapDataLoaderVersion4::ChainItemConverter::*)(::BeatmapSaveDataVersion4::ChainBeatIndex*)>(&::BeatmapDataLoaderVersion4::ChainItemConverter::Convert)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x26cbe08;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x26d7a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

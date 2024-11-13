@@ -21,7 +21,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(
         &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBackgroundPosition)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4953188;
+  constexpr static std::size_t addrs = 0x49678a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderColor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x49538fc;
+  constexpr static std::size_t addrs = 0x4968014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderRadius)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4953b58;
+  constexpr static std::size_t addrs = 0x4968270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyBorderWidth)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4953d90;
+  constexpr static std::size_t addrs = 0x49684a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyFlex)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4953f34;
+  constexpr static std::size_t addrs = 0x496864c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyMargin)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x49541ec;
+  constexpr static std::size_t addrs = 0x4968904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyPadding)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4954438;
+  constexpr static std::size_t addrs = 0x4968b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyTransition)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4954528;
+  constexpr static std::size_t addrs = 0x4968c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(
         &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnityBackgroundScaleMode)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4954cf4;
+  constexpr static std::size_t addrs = 0x496940c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(
         &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::ApplyUnityTextOutline)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4954eb4;
+  constexpr static std::size_t addrs = 0x49695cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<float_t>, ByRef<float_t>, ByRef<::UnityEngine::UIElements::Length>)>(
         &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileFlexShorthand)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x4954004;
+  constexpr static std::size_t addrs = 0x496871c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,7 +204,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::Length>, ByRef<::UnityEngine::UIElements::Length>,
                          ByRef<::UnityEngine::UIElements::Length>, ByRef<::UnityEngine::UIElements::Length>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBorderRadius)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4953c48;
+  constexpr static std::size_t addrs = 0x4968360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -224,7 +224,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::BackgroundPosition>, ByRef<::UnityEngine::UIElements::BackgroundPosition>)>(
         &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBackgroundPosition)> {
   constexpr static std::size_t size = 0x6a0;
-  constexpr static std::size_t addrs = 0x495325c;
+  constexpr static std::size_t addrs = 0x4967974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -244,7 +244,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ByRef<::UnityEngine::UIElements::BackgroundRepeat>, ByRef<::UnityEngine::UIElements::BackgroundSize>)>(
         &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileUnityBackgroundScaleMode)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4954e0c;
+  constexpr static std::size_t addrs = 0x4969524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +265,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::UIElements::Length>, ByRef<::UnityEngine::UIElements::Length>,
                          ByRef<::UnityEngine::UIElements::Length>, ByRef<::UnityEngine::UIElements::Length>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x49542dc;
+  constexpr static std::size_t addrs = 0x49689f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>,
                                                                                            ByRef<float_t>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4953e7c;
+  constexpr static std::size_t addrs = 0x4968594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,7 +303,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ByRef<::UnityEngine::Color>, ByRef<::UnityEngine::Color>, ByRef<::UnityEngine::Color>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileBoxArea)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x49539f0;
+  constexpr static std::size_t addrs = 0x4968108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyReader*, ByRef<::UnityEngine::Color>, ByRef<float_t>)>(
     &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileTextOutline)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4954f6c;
+  constexpr static std::size_t addrs = 0x4969684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -340,7 +340,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*>, ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*>,
     ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*>)>(&::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::CompileTransition)> {
   constexpr static std::size_t size = 0x67c;
-  constexpr static std::size_t addrs = 0x4954678;
+  constexpr static std::size_t addrs = 0x4968d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -361,7 +361,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(ByRef<::UnityEngine::UIElements::BackgroundPositionKeyword>, ByRef<::UnityEngine::UIElements::BackgroundPositionKeyword>)>(
         &::UnityEngine::UIElements::StyleSheets::ShorthandApplicator::_CompileBackgroundPosition_g__SwapKeyword_16_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x49554a0;
+  constexpr static std::size_t addrs = 0x4969bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_volumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* value);
 
-  /// @brief Method .ctor, addr 0x399c404, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39afd5c, size 0x154, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -148,7 +148,7 @@ public:
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* ___volumeCachePresets;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11556 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

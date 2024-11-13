@@ -39,19 +39,19 @@ public:
   /// @brief Field <Table>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__Table_k__BackingField, put = __cordl_internal_set__Table_k__BackingField)) ::System::Data::DataTable* _Table_k__BackingField;
 
-  /// @brief Method CanResetValue, addr 0x40f2f74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x410768c, size 0x8, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method GetValue, addr 0x40f2f7c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x4107694, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
-  /// @brief Method ResetValue, addr 0x40f3060, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x4107778, size 0x4, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x40f3064, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x410777c, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x40f3068, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x4107780, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   constexpr ::System::Data::DataTable*& __cordl_internal_get__Table_k__BackingField();
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set__Table_k__BackingField(::System::Data::DataTable* value);
 
-  /// @brief Method get_ComponentType, addr 0x40f2e94, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x41075ac, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x40f2f00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x4107618, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x40f2f08, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x4107620, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method get_Table, addr 0x40f2e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Table, addr 0x41075a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
 protected:
@@ -90,7 +90,7 @@ public:
   ::System::Data::DataTable* ____Table_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11369 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

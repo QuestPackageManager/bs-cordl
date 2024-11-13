@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableBehaviour::*)()>(&::UnityEngine::Playables::PlayableBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4853edc;
+  constexpr static std::size_t addrs = 0x48685f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableBehaviour*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Playables::PlayableBehaviour::OnGraphStart)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4853ee4;
+  constexpr static std::size_t addrs = 0x48685fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Playables::PlayableBehaviour::OnGraphStop)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4853ee8;
+  constexpr static std::size_t addrs = 0x4868600;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Playables::PlayableBehaviour::OnPlayableCreate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4853eec;
+  constexpr static std::size_t addrs = 0x4868604;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Playables::PlayableBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4853ef0;
+  constexpr static std::size_t addrs = 0x4868608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Playables::PlayableBehaviour::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4853ef4;
+  constexpr static std::size_t addrs = 0x486860c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Playables::PlayableBehaviour::OnBehaviourPause)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4853ef8;
+  constexpr static std::size_t addrs = 0x4868610;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Playables::PlayableBehaviour::PrepareFrame)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4853efc;
+  constexpr static std::size_t addrs = 0x4868614;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::UnityEngine::Playables::PlayableBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4853f00;
+  constexpr static std::size_t addrs = 0x4868618;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Playables::PlayableBehaviour::*)()>(
     &::UnityEngine::Playables::PlayableBehaviour::Clone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4853f04;
+  constexpr static std::size_t addrs = 0x486861c;
 
   inline static ::MethodInfo const* methodInfo() {
 

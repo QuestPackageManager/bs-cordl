@@ -53,7 +53,7 @@ public:
   uint8_t _cordl_size_padding[0xd];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6882 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe };
@@ -82,22 +82,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method Press, addr 0x4591954, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Press, addr 0x45a606c, size 0xc, virtual false, abstract: false, final false
   inline void Press(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method Release, addr 0x4591960, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x45a6078, size 0xc, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method Set, addr 0x4591948, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x45a6060, size 0xc, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::InputSystem::Key key, bool state);
 
-  /// @brief Method .ctor, addr 0x4591884, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45a5f9c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::InputSystem::Key, ::Array<::UnityEngine::InputSystem::Key>*> pressedKeys);
 
-  /// @brief Method get_Format, addr 0x4591854, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x45a5f6c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x459196c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x45a6084, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -114,7 +114,7 @@ public:
   ::UnityEngine::InputSystem::LowLevel::__KeyboardState___keys_e__FixedBuffer keys;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6883 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe };

@@ -34,13 +34,13 @@ public:
   /// @brief Field <DescriptionValue>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__DescriptionValue_k__BackingField, put = __cordl_internal_set__DescriptionValue_k__BackingField)) ::StringW _DescriptionValue_k__BackingField;
 
-  /// @brief Method Equals, addr 0x43cfdcc, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x43e44e4, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x43cfe98, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x43e45b0, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x43cfec0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x43e45d8, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::DescriptionAttribute* New_ctor();
@@ -53,23 +53,23 @@ public:
 
   constexpr void __cordl_internal_set__DescriptionValue_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43cfd30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e4448, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43cfd8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e44a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW description);
 
   static inline ::System::ComponentModel::DescriptionAttribute* getStaticF_Default();
 
-  /// @brief Method get_Description, addr 0x43cfdb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Description, addr 0x43e44cc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Description();
 
-  /// @brief Method get_DescriptionValue, addr 0x43cfdbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DescriptionValue, addr 0x43e44d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DescriptionValue();
 
   static inline void setStaticF_Default(::System::ComponentModel::DescriptionAttribute* value);
 
-  /// @brief Method set_DescriptionValue, addr 0x43cfdc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DescriptionValue, addr 0x43e44dc, size 0x8, virtual false, abstract: false, final false
   inline void set_DescriptionValue(::StringW value);
 
 protected:
@@ -90,7 +90,7 @@ public:
   ::StringW ____DescriptionValue_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9314 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

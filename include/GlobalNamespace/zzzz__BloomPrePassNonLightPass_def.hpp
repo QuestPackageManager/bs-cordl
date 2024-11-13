@@ -77,7 +77,7 @@ public:
   static ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16220 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -120,22 +120,22 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassNonLightPass* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x396fb5c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39833e0, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x396e3f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3981c78, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x396ef50, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39827d4, size 0x2c, virtual true, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Register, addr 0x396d2e8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x3980b6c, size 0x128, virtual false, abstract: false, final false
   inline void Register();
 
   /// @brief Method Render, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
-  /// @brief Method Unregister, addr 0x396d49c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x3980d20, size 0xc4, virtual false, abstract: false, final false
   inline void Unregister();
 
   constexpr ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType const& __cordl_internal_get__executionTimeType() const;
@@ -150,20 +150,20 @@ public:
 
   constexpr void __cordl_internal_set__registeredExecutionTimeType(::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType value);
 
-  /// @brief Method .ctor, addr 0x396cf30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39807b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* getStaticF__bloomPrePassAfterBlurList();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* getStaticF__bloomPrePassBeforeBlurList();
 
-  /// @brief Method get_bloomPrePassAfterBlurList, addr 0x396faac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_bloomPrePassAfterBlurList, addr 0x3983330, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* get_bloomPrePassAfterBlurList();
 
-  /// @brief Method get_bloomPrePassBeforeBlurList, addr 0x396fb04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_bloomPrePassBeforeBlurList, addr 0x3983388, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* get_bloomPrePassBeforeBlurList();
 
-  /// @brief Method get_executionTimeType, addr 0x396faa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionTimeType, addr 0x3983328, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType get_executionTimeType();
 
   static inline void setStaticF__bloomPrePassAfterBlurList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* value);
@@ -191,7 +191,7 @@ public:
   ::GlobalNamespace::__BloomPrePassNonLightPass__ExecutionTimeType ____registeredExecutionTimeType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16213 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16221 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

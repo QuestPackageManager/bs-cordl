@@ -77,13 +77,13 @@ public:
 
   constexpr void __cordl_internal_set_Value(double_t value);
 
-  /// @brief Method .ctor, addr 0x46829a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46970bc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method get_HasNext, addr 0x46829dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasNext, addr 0x46970f4, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasNext();
 
-  /// @brief Method get_HasPrev, addr 0x46829ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasPrev, addr 0x4697104, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasPrev();
 
 protected:
@@ -116,7 +116,7 @@ public:
   ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* ___Triangle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

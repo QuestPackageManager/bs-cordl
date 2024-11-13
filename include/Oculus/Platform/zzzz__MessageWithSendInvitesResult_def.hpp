@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithSendInvitesResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SendInvitesResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f0a99c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f1f02c, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SendInvitesResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetSendInvitesResult, addr 0x3f0a960, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetSendInvitesResult, addr 0x3f1eff0, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SendInvitesResult* GetSendInvitesResult();
 
   static inline ::Oculus::Platform::MessageWithSendInvitesResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f06a40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1b0d0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -52,7 +52,7 @@ public:
   MessageWithSendInvitesResult(MessageWithSendInvitesResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15369 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

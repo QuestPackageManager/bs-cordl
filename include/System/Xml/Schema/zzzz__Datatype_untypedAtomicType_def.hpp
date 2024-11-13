@@ -35,18 +35,18 @@ public:
 
   __declspec(property(get = get_TypeCode)) ::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  /// @brief Method CreateValueConverter, addr 0x4332f84, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x434769c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_untypedAtomicType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x432eddc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43434f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x4332fdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x43476f4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_TypeCode, addr 0x4332fe4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43476fc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -64,7 +64,7 @@ public:
   Datatype_untypedAtomicType(Datatype_untypedAtomicType const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7498 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

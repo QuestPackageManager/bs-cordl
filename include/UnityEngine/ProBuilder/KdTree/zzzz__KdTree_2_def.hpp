@@ -139,7 +139,7 @@ public:
   ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* ___right;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18460 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -289,7 +289,7 @@ public:
   ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* ____addRight_5__3;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -505,7 +505,7 @@ public:
   int32_t ____Count_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18462 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -30,7 +30,7 @@ public:
 
   static inline ::GlobalNamespace::ReflectionProbeBakingEffect* New_ctor();
 
-  /// @brief Method OnRenderImage, addr 0x3974d24, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnRenderImage, addr 0x39885a8, size 0x74, virtual false, abstract: false, final false
   inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x3974d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398861c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +60,7 @@ public:
   ::UnityW<::UnityEngine::Material> ____material;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16246 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncState::*)(::GlobalNamespace::__StandardScoreSyncState__Score, int32_t)>(
     &::GlobalNamespace::StandardScoreSyncState::SetState)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22aa23c;
+  constexpr static std::size_t addrs = 0x22b52e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(
     ByRef<::GlobalNamespace::StandardScoreSyncState>)>(&::GlobalNamespace::StandardScoreSyncState::GetDelta)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22aa284;
+  constexpr static std::size_t addrs = 0x22b532c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(
     ByRef<::GlobalNamespace::StandardScoreSyncState>)>(&::GlobalNamespace::StandardScoreSyncState::ApplyDelta)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22aa2a8;
+  constexpr static std::size_t addrs = 0x22b5350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::StandardScoreSyncState::*)(::GlobalNamespace::__StandardScoreSyncState__Score)>(
     &::GlobalNamespace::StandardScoreSyncState::GetState)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22aa2cc;
+  constexpr static std::size_t addrs = 0x22b5374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncState::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::StandardScoreSyncState::Serialize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22aa31c;
+  constexpr static std::size_t addrs = 0x22b53c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncState::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::StandardScoreSyncState::Deserialize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22aa388;
+  constexpr static std::size_t addrs = 0x22b5430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::StandardScoreSyncState::*)(ByRef<::GlobalNamespace::StandardScoreSyncState>)>(
     &::GlobalNamespace::StandardScoreSyncState::Equals)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x22aa3f4;
+  constexpr static std::size_t addrs = 0x22b549c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::StandardScoreSyncState::*)()>(&::GlobalNamespace::StandardScoreSyncState::GetSize)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22aa450;
+  constexpr static std::size_t addrs = 0x22b54f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardScoreSyncState>::get(), "GetSize",
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(
     ByRef<::GlobalNamespace::StandardScoreSyncState>)>(&::GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22aa4dc;
+  constexpr static std::size_t addrs = 0x22b5584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncState::*)(
     ByRef<::GlobalNamespace::StandardScoreSyncState>)>(&::GlobalNamespace::StandardScoreSyncState::IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22aa500;
+  constexpr static std::size_t addrs = 0x22b55a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::StandardScoreSyncState::*)(ByRef<::GlobalNamespace::StandardScoreSyncState>)>(
     &::GlobalNamespace::StandardScoreSyncState::IEquatableByReference_StandardScoreSyncState__Equals)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22aa524;
+  constexpr static std::size_t addrs = 0x22b55cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

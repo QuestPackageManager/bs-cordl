@@ -345,7 +345,7 @@ public:
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17301 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17308 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -411,7 +411,7 @@ public:
   ::StringW ___code;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17309 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -453,7 +453,7 @@ public:
   __NetworkPlayerModel_1__StartClientPartyConfig(__NetworkPlayerModel_1__StartClientPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17310 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -700,7 +700,7 @@ public:
   float_t ____lastUpdateTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17311 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -753,7 +753,7 @@ public:
   __NetworkPlayerModel_1____c(__NetworkPlayerModel_1____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17312 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -843,7 +843,7 @@ public:
   ::GlobalNamespace::GameplayServerConfiguration ___localConfiguration;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17313 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -999,7 +999,7 @@ public:
   ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> _____7__wrap1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17314 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1150,7 +1150,7 @@ public:
   int32_t ____i_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17315 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1203,7 +1203,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17316 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -1618,7 +1618,7 @@ public:
   bool ____filterChanged;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17317 };
 
   /// @brief Field kServerRefreshFrequency offset 0xffffffff size 0x4
   static constexpr float_t kServerRefreshFrequency{ 10.0 };

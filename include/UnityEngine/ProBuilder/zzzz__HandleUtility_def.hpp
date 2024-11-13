@@ -71,72 +71,72 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE HandleUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FaceRaycast, addr 0x4694e88, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method FaceRaycast, addr 0x46a95a0, size 0x584, virtual false, abstract: false, final false
   static inline bool FaceRaycast(::UnityEngine::Ray InWorldRay, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                  ByRef<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::RaycastHit*>*> hits, ::UnityEngine::ProBuilder::CullingMode cullingMode,
                                  ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ignore);
 
-  /// @brief Method FaceRaycast, addr 0x46941c0, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method FaceRaycast, addr 0x46a88d8, size 0x530, virtual false, abstract: false, final false
   static inline bool FaceRaycast(::UnityEngine::Ray worldRay, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ByRef<::UnityEngine::ProBuilder::RaycastHit*> hit, float_t distance,
                                  ::UnityEngine::ProBuilder::CullingMode cullingMode, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ignore);
 
-  /// @brief Method FaceRaycast, addr 0x4694180, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method FaceRaycast, addr 0x46a8898, size 0x40, virtual false, abstract: false, final false
   static inline bool FaceRaycast(::UnityEngine::Ray worldRay, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ByRef<::UnityEngine::ProBuilder::RaycastHit*> hit,
                                  ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ignore);
 
-  /// @brief Method FaceRaycastBothCullModes, addr 0x4694990, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method FaceRaycastBothCullModes, addr 0x46a90a8, size 0x4f8, virtual false, abstract: false, final false
   static inline bool FaceRaycastBothCullModes(::UnityEngine::Ray worldRay, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                               ByRef<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3>> back,
                                               ByRef<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::Vector3>> front);
 
-  /// @brief Method GetActiveElementPosition, addr 0x4697788, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetActiveElementPosition, addr 0x46abea0, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetActiveElementPosition(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method GetActiveElementPosition, addr 0x4697108, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetActiveElementPosition, addr 0x46ab820, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetActiveElementPosition(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                 ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method GetActiveElementPosition, addr 0x4697874, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetActiveElementPosition, addr 0x46abf8c, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetActiveElementPosition(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
 
-  /// @brief Method GetEdgeRotation, addr 0x4696e00, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeRotation, addr 0x46ab518, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetEdgeRotation(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
 
-  /// @brief Method GetEdgeRotation, addr 0x4696ce0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetEdgeRotation, addr 0x46ab3f8, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetEdgeRotation(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::HandleOrientation orientation,
                                                           ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method GetFaceRotation, addr 0x469668c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method GetFaceRotation, addr 0x46aada4, size 0x268, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetFaceRotation(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method GetFaceRotation, addr 0x469656c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetFaceRotation, addr 0x46aac84, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetFaceRotation(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::HandleOrientation orientation,
                                                           ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method GetRotation, addr 0x4695eb4, size 0x6b8, virtual false, abstract: false, final false
+  /// @brief Method GetRotation, addr 0x46aa5cc, size 0x6b8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetRotation(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method GetVertexRotation, addr 0x4696ecc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetVertexRotation, addr 0x46ab5e4, size 0x118, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetVertexRotation(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::HandleOrientation orientation,
                                                             ::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
 
-  /// @brief Method GetVertexRotation, addr 0x4696fe4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetVertexRotation, addr 0x46ab6fc, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetVertexRotation(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t vertex);
 
-  /// @brief Method InverseTransformRay, addr 0x469540c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformRay, addr 0x46a9b24, size 0x1c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Ray InverseTransformRay(::UnityEngine::Transform* transform, ::UnityEngine::Ray InWorldRay);
 
-  /// @brief Method MeshRaycast, addr 0x4695744, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method MeshRaycast, addr 0x46a9e5c, size 0x280, virtual false, abstract: false, final false
   static inline bool MeshRaycast(::UnityEngine::Ray InRay, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> mesh, ::ArrayW<int32_t, ::Array<int32_t>*> triangles,
                                  ByRef<::UnityEngine::ProBuilder::RaycastHit*> hit, float_t distance);
 
-  /// @brief Method MeshRaycast, addr 0x46955cc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method MeshRaycast, addr 0x46a9ce4, size 0x178, virtual false, abstract: false, final false
   static inline bool MeshRaycast(::UnityEngine::Ray InWorldRay, ::UnityEngine::GameObject* gameObject, ByRef<::UnityEngine::ProBuilder::RaycastHit*> hit, float_t distance);
 
-  /// @brief Method PointIsOccluded, addr 0x4695bfc, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method PointIsOccluded, addr 0x46aa314, size 0x2b8, virtual false, abstract: false, final false
   static inline bool PointIsOccluded(::UnityEngine::Camera* cam, ::UnityEngine::ProBuilder::ProBuilderMesh* pb, ::UnityEngine::Vector3 worldPoint);
 
-  /// @brief Method ScreenToGuiPoint, addr 0x4694130, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ScreenToGuiPoint, addr 0x46a8848, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ScreenToGuiPoint(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 point, float_t pixelsPerPoint);
 
 protected:
@@ -154,7 +154,7 @@ public:
   HandleUtility(HandleUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14200 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14207 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

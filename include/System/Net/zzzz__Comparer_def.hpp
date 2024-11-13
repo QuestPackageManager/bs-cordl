@@ -31,10 +31,10 @@ public:
 
   static inline ::System::Net::Comparer* New_ctor();
 
-  /// @brief Method System.Collections.IComparer.Compare, addr 0x44387b8, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IComparer.Compare, addr 0x444ced0, size 0xe4, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or);
 
-  /// @brief Method .ctor, addr 0x443889c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444cfb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -55,7 +55,7 @@ public:
   Comparer(Comparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9611 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9616 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

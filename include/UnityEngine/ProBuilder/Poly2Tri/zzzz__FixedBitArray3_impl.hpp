@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)(int32_t)>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::get_Item)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4681df4;
+  constexpr static std::size_t addrs = 0x469650c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)(int32_t, bool)>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::set_Item)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x46821a4;
+  constexpr static std::size_t addrs = 0x46968bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)(bool)>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::Contains)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4687e88;
+  constexpr static std::size_t addrs = 0x469c5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)(bool)>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::IndexOf)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4687efc;
+  constexpr static std::size_t addrs = 0x469c614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::Clear)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4685a28;
+  constexpr static std::size_t addrs = 0x469a140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)(bool)>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::Clear)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4687f48;
+  constexpr static std::size_t addrs = 0x469c660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<bool>* (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::Enumerate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4687f98;
+  constexpr static std::size_t addrs = 0x469c6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3>::get(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<bool>* (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::GetEnumerator)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4688048;
+  constexpr static std::size_t addrs = 0x469c760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3>::get(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46880f0;
+  constexpr static std::size_t addrs = 0x469c808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::*)(int32_t)>(
     &::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4688014;
+  constexpr static std::size_t addrs = 0x469c72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46880f4;
+  constexpr static std::size_t addrs = 0x469c80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x46880f8;
+  constexpr static std::size_t addrs = 0x469c810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::System_Collections_Generic_IEnumerator_System_Boolean__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4688168;
+  constexpr static std::size_t addrs = 0x469c880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4688170;
+  constexpr static std::size_t addrs = 0x469c888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x46881a8;
+  constexpr static std::size_t addrs = 0x469c8c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<bool>* (::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::*)()>(
         &::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::System_Collections_Generic_IEnumerable_System_Boolean__GetEnumerator)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4688204;
+  constexpr static std::size_t addrs = 0x469c91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46882b0;
+  constexpr static std::size_t addrs = 0x469c9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

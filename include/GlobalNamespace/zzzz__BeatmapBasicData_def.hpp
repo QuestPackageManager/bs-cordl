@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_obstaclesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2681abc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268d6c0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, ::GlobalNamespace::EnvironmentName environmentName, ::GlobalNamespace::ColorScheme* beatmapColorScheme,
                     int32_t notesCount, int32_t cuttableObjectsCount, int32_t obstaclesCount, int32_t bombsCount, ::ArrayW<::StringW, ::Array<::StringW>*> mappers,
                     ::ArrayW<::StringW, ::Array<::StringW>*> lighters);
@@ -174,7 +174,7 @@ public:
   ::ArrayW<::StringW, ::Array<::StringW>*> ___lighters;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Net::Configuration::WebRequestModulesSection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4390698, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a4db0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x43906d0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x43a4de8, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -47,7 +47,7 @@ public:
   WebRequestModulesSection(WebRequestModulesSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9900 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

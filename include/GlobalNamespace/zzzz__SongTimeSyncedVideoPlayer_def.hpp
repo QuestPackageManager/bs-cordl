@@ -88,21 +88,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3abe878, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ad2418, size 0x20c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3abea84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3ad2624, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3abea8c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3ad262c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3abeac4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3ad2664, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3abe874, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3ad2414, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> value);
 
-  /// @brief Method .ctor, addr 0x3abe65c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad21fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -159,7 +159,7 @@ public:
   ::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> _____4__this;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5161 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -216,42 +216,42 @@ public:
   __declspec(property(get = __cordl_internal_get__waitForDependenciesAndPlayCoroutine,
                       put = __cordl_internal_set__waitForDependenciesAndPlayCoroutine)) ::UnityEngine::Coroutine* _waitForDependenciesAndPlayCoroutine;
 
-  /// @brief Method ColorWasSet, addr 0x3abe2f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x3ad1e94, size 0x8, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method HandleGamePauseDidPause, addr 0x3abe624, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidPause, addr 0x3ad21c4, size 0x1c, virtual false, abstract: false, final false
   inline void HandleGamePauseDidPause();
 
-  /// @brief Method HandleGamePauseDidResume, addr 0x3abe640, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidResume, addr 0x3ad21e0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleGamePauseDidResume();
 
-  /// @brief Method LateUpdate, addr 0x3abe258, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3ad1df8, size 0x9c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SongTimeSyncedVideoPlayer* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3abddec, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ad198c, size 0x19c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetSpriteAndStopVideo, addr 0x3abe424, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method SetSpriteAndStopVideo, addr 0x3ad1fc4, size 0x200, virtual false, abstract: false, final false
   inline void SetSpriteAndStopVideo(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method SetVideoClip, addr 0x3abe2fc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SetVideoClip, addr 0x3ad1e9c, size 0x128, virtual false, abstract: false, final false
   inline void SetVideoClip(::UnityEngine::Video::VideoClip* videoClip);
 
-  /// @brief Method Start, addr 0x3abdbbc, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad175c, size 0x1d0, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopVideoPlayer, addr 0x3abdf88, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method StopVideoPlayer, addr 0x3ad1b28, size 0xd0, virtual false, abstract: false, final false
   inline void StopVideoPlayer();
 
-  /// @brief Method Update, addr 0x3abe058, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ad1bf8, size 0x200, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method WaitForDependenciesAndPlay, addr 0x3abdd8c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WaitForDependenciesAndPlay, addr 0x3ad192c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitForDependenciesAndPlay();
 
-  /// @brief Method <WaitForDependenciesAndPlay>b__20_0, addr 0x3abe75c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method <WaitForDependenciesAndPlay>b__20_0, addr 0x3ad22fc, size 0x118, virtual false, abstract: false, final false
   inline bool _WaitForDependenciesAndPlay_b__20_0();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -296,7 +296,7 @@ public:
 
   constexpr void __cordl_internal_set__waitForDependenciesAndPlayCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method .ctor, addr 0x3abe684, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad2224, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorId();
@@ -347,7 +347,7 @@ public:
   ::UnityEngine::Coroutine* ____waitForDependenciesAndPlayCoroutine;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5162 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

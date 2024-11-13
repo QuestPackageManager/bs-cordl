@@ -25,16 +25,16 @@ public:
   // Declarations
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructPos, addr 0x4325b9c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x433a2b4, size 0x9c, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
   static inline ::System::Xml::Schema::StarNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4325c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x433a358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x4325c38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x433a350, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:
@@ -52,7 +52,7 @@ public:
   StarNode(StarNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7478 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

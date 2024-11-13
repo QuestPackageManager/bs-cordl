@@ -30,25 +30,25 @@ public:
 
   static inline ::UnityEngine::SphereCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x488f7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a3ec8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x488f5f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x48a3d08, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x488f64c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_center_Injected, addr 0x48a3d64, size 0x44, virtual false, abstract: false, final false
   inline void get_center_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_radius, addr 0x488f728, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x48a3e40, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_center, addr 0x488f690, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x48a3da8, size 0x54, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x488f6e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_center_Injected, addr 0x48a3dfc, size 0x44, virtual false, abstract: false, final false
   inline void set_center_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_radius, addr 0x488f764, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x48a3e7c, size 0x4c, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
 protected:
@@ -66,7 +66,7 @@ public:
   SphereCollider(SphereCollider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15716 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

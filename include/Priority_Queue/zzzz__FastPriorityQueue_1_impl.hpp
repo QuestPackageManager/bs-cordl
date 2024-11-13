@@ -58,7 +58,7 @@ template <typename T> constexpr T const& Priority_Queue::__FastPriorityQueue_1__
 }
 template <typename T> constexpr void Priority_Queue::__FastPriorityQueue_1___GetEnumerator_d__22<T>::__cordl_internal_set___2__current(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename T> constexpr ::Priority_Queue::FastPriorityQueue_1<T>*& Priority_Queue::__FastPriorityQueue_1___GetEnumerator_d__22<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -71,7 +71,7 @@ constexpr ::cordl_internals::to_const_pointer<::Priority_Queue::FastPriorityQueu
 }
 template <typename T> constexpr void Priority_Queue::__FastPriorityQueue_1___GetEnumerator_d__22<T>::__cordl_internal_set___4__this(::Priority_Queue::FastPriorityQueue_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T> constexpr int32_t& Priority_Queue::__FastPriorityQueue_1___GetEnumerator_d__22<T>::__cordl_internal_get__i_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -180,7 +180,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& Priority_Queue::
 }
 template <typename T> constexpr void Priority_Queue::FastPriorityQueue_1<T>::__cordl_internal_set__nodes(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____nodes, value);
 }
 template <typename T> inline ::Priority_Queue::FastPriorityQueue_1<T>* Priority_Queue::FastPriorityQueue_1<T>::New_ctor(int32_t maxNodes) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::FastPriorityQueue_1<T>*>(maxNodes));

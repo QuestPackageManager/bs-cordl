@@ -13,7 +13,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::UnityEngin
 }
 template <typename T> constexpr void UnityEngine::AsyncInstantiateOperation_1<T>::__cordl_internal_set_m_op(::UnityEngine::AsyncInstantiateOperation* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_op)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_op, value);
 }
 template <typename T> inline ::UnityEngine::AsyncInstantiateOperation_1<T>* UnityEngine::AsyncInstantiateOperation_1<T>::New_ctor(::UnityEngine::AsyncInstantiateOperation* op) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AsyncInstantiateOperation_1<T>*>(op));

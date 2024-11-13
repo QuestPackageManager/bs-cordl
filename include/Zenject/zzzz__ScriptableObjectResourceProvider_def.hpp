@@ -76,7 +76,7 @@ public:
 
   static inline ::Zenject::__ScriptableObjectResourceProvider____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <GetAllInstancesWithInjectSplit>b__0, addr 0x4ac5558, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method <GetAllInstancesWithInjectSplit>b__0, addr 0x4ad9c70, size 0x190, virtual false, abstract: false, final false
   inline void _GetAllInstancesWithInjectSplit_b__0();
 
   constexpr ::Zenject::ScriptableObjectResourceProvider*& __cordl_internal_get___4__this();
@@ -103,13 +103,13 @@ public:
 
   constexpr void __cordl_internal_set_context(::Zenject::InjectContext* value);
 
-  /// @brief Method __zenCreate, addr 0x4ac56e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ad9e00, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ac573c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ad9e54, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4ac5550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad9c68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -139,7 +139,7 @@ public:
   ::Zenject::InjectContext* ___context;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12543 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -194,11 +194,11 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ac52f8, size 0x258, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ad9a10, size 0x258, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x4ac52f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x4ad9a08, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::ScriptableObjectResourceProvider* New_ctor(::StringW resourcePath, ::System::Type* resourceType, ::Zenject::DiContainer* container,
@@ -247,14 +247,14 @@ public:
 
   constexpr void __cordl_internal_set__resourceType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4ac5214, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad992c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW resourcePath, ::System::Type* resourceType, ::Zenject::DiContainer* container, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
                     bool createNew, ::System::Object* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_IsCached, addr 0x4ac52e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x4ad99f8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ac52e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ad9a00, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -296,7 +296,7 @@ public:
   ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* ____instantiateCallback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12544 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

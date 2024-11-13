@@ -69,63 +69,63 @@ public:
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
-  /// @brief Method Add, addr 0x440cb34, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x442124c, size 0x24, virtual false, abstract: false, final false
   inline int32_t Add(::StringW value);
 
-  /// @brief Method Clear, addr 0x440cb58, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x4421270, size 0x24, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x440cb7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x4421294, size 0x24, virtual false, abstract: false, final false
   inline bool Contains(::StringW value);
 
-  /// @brief Method CopyTo, addr 0x440cba0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x44212b8, size 0x24, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<::StringW, ::Array<::StringW>*> array, int32_t index);
 
-  /// @brief Method IndexOf, addr 0x440cbc4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x44212dc, size 0x24, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW value);
 
-  /// @brief Method Insert, addr 0x440cbe8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x4421300, size 0x24, virtual false, abstract: false, final false
   inline void Insert(int32_t index, ::StringW value);
 
   static inline ::System::Collections::Specialized::StringCollection* New_ctor();
 
-  /// @brief Method Remove, addr 0x440cc14, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x442132c, size 0x24, virtual false, abstract: false, final false
   inline void Remove(::StringW value);
 
-  /// @brief Method RemoveAt, addr 0x440cc38, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method RemoveAt, addr 0x4421350, size 0x24, virtual true, abstract: false, final true
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x440cf8c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x44216a4, size 0x24, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x440cfb0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x44216c8, size 0x24, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IList.Add, addr 0x440cd10, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Add, addr 0x4421428, size 0x7c, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_Add(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Contains, addr 0x440cd8c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Contains, addr 0x44214a4, size 0x7c, virtual true, abstract: false, final true
   inline bool System_Collections_IList_Contains(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.IndexOf, addr 0x440ce08, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.IndexOf, addr 0x4421520, size 0x7c, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_IndexOf(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Insert, addr 0x440ce84, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Insert, addr 0x442159c, size 0x8c, virtual true, abstract: false, final true
   inline void System_Collections_IList_Insert(int32_t index, ::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Remove, addr 0x440cf10, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.Remove, addr 0x4421628, size 0x7c, virtual true, abstract: false, final true
   inline void System_Collections_IList_Remove(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x440cb2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x4421244, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IList_get_IsFixedSize();
 
-  /// @brief Method System.Collections.IList.get_IsReadOnly, addr 0x440cb24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_IsReadOnly, addr 0x442123c, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IList_get_IsReadOnly();
 
-  /// @brief Method System.Collections.IList.get_Item, addr 0x440cc80, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.get_Item, addr 0x4421398, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IList_get_Item(int32_t index);
 
-  /// @brief Method System.Collections.IList.set_Item, addr 0x440cc84, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IList.set_Item, addr 0x442139c, size 0x8c, virtual true, abstract: false, final true
   inline void System_Collections_IList_set_Item(int32_t index, ::System::Object* value);
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_data();
@@ -134,19 +134,19 @@ public:
 
   constexpr void __cordl_internal_set_data(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x440cfd4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44216ec, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x440cb00, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x4421218, size 0x24, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x440cc0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x4421324, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x440ca60, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4421178, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW get_Item(int32_t index);
 
-  /// @brief Method get_SyncRoot, addr 0x440cc5c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x4421374, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -158,7 +158,7 @@ public:
   /// @brief Convert to "::System::Collections::IList"
   constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
-  /// @brief Method set_Item, addr 0x440cadc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x44211f4, size 0x24, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, ::StringW value);
 
 protected:
@@ -179,7 +179,7 @@ public:
   ::System::Collections::ArrayList* ___data;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9465 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

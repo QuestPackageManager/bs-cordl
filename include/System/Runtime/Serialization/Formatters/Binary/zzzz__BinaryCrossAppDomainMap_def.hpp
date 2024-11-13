@@ -26,12 +26,12 @@ public:
   /// @brief Field crossAppDomainArrayIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_crossAppDomainArrayIndex, put = __cordl_internal_set_crossAppDomainArrayIndex)) int32_t crossAppDomainArrayIndex;
 
-  /// @brief Method Dump, addr 0x3c8b430, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3c9fac0, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap* New_ctor();
 
-  /// @brief Method Read, addr 0x3c8b408, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3c9fa98, size 0x28, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
   constexpr int32_t const& __cordl_internal_get_crossAppDomainArrayIndex() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_crossAppDomainArrayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c8b400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9fa90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -34,10 +34,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKPose {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3a5ed68, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3a726c0, size 0x278, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3a58b6c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3a6c4c4, size 0x70, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPose get_empty();
 
   // Ctor Parameters []
@@ -77,7 +77,7 @@ public:
   int32_t unused1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17286 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };

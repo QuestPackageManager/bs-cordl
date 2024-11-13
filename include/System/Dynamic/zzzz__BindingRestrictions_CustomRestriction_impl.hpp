@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__BindingRestrictions__CustomRestriction::*)(::System::Linq::Expressions::Expression*)>(
     &::System::Dynamic::__BindingRestrictions__CustomRestriction::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x40847c8;
+  constexpr static std::size_t addrs = 0x4098ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::__BindingRestrictions__CustomRestriction::*)(::System::Object*)>(
     &::System::Dynamic::__BindingRestrictions__CustomRestriction::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4084cd8;
+  constexpr static std::size_t addrs = 0x40993f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::__BindingRestrictions__CustomRestriction::*)()>(
     &::System::Dynamic::__BindingRestrictions__CustomRestriction::GetHashCode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4084d48;
+  constexpr static std::size_t addrs = 0x4099460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::__BindingRestrictions__CustomRestriction::*)()>(
     &::System::Dynamic::__BindingRestrictions__CustomRestriction::GetExpression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4084d78;
+  constexpr static std::size_t addrs = 0x4099490;
 
   inline static ::MethodInfo const* methodInfo() {
 

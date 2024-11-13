@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::IMECompositionString::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592df0;
+  constexpr static std::size_t addrs = 0x45a7508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::UnityEngine::InputSystem::LowLevel::IMECompositionString::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString::get_Item)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4592df8;
+  constexpr static std::size_t addrs = 0x45a7510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::IMECompositionString::*)(::StringW)>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4592d70;
+  constexpr static std::size_t addrs = 0x45a7488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::IMECompositionString::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString::ToString)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4592e64;
+  constexpr static std::size_t addrs = 0x45a757c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<char16_t>* (
     ::UnityEngine::InputSystem::LowLevel::IMECompositionString::*)()>(&::UnityEngine::InputSystem::LowLevel::IMECompositionString::GetEnumerator)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4592e7c;
+  constexpr static std::size_t addrs = 0x45a7594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::LowLevel::IMECompositionString::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionString::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4592f34;
+  constexpr static std::size_t addrs = 0x45a764c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::*)(
     ::UnityEngine::InputSystem::LowLevel::IMECompositionString)>(&::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4592f10;
+  constexpr static std::size_t addrs = 0x45a7628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4592f38;
+  constexpr static std::size_t addrs = 0x45a7650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4592f68;
+  constexpr static std::size_t addrs = 0x45a7680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4592f74;
+  constexpr static std::size_t addrs = 0x45a768c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592f78;
+  constexpr static std::size_t addrs = 0x45a7690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4592f80;
+  constexpr static std::size_t addrs = 0x45a7698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

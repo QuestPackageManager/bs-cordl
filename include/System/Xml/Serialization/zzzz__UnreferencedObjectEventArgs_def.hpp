@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_o(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x42f0b80, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4305298, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* o, ::StringW id);
 
 protected:
@@ -67,7 +67,7 @@ public:
   ::StringW ___id;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7364 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

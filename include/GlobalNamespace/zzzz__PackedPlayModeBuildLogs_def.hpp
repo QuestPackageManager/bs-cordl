@@ -35,7 +35,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __PackedPlayModeBuildLogs__RuntimeBuildLog {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x44656f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4479e0c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LogType type, ::StringW message);
 
   // Ctor Parameters []
@@ -52,7 +52,7 @@ public:
   ::StringW Message;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16092 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -92,13 +92,13 @@ public:
 
   constexpr void __cordl_internal_set_m_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* value);
 
-  /// @brief Method .ctor, addr 0x4465678, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4479d90, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RuntimeBuildLogs, addr 0x4465668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RuntimeBuildLogs, addr 0x4479d80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* get_RuntimeBuildLogs();
 
-  /// @brief Method set_RuntimeBuildLogs, addr 0x4465670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RuntimeBuildLogs, addr 0x4479d88, size 0x8, virtual false, abstract: false, final false
   inline void set_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* value);
 
 protected:
@@ -119,7 +119,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* ___m_RuntimeBuildLogs;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16093 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

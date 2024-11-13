@@ -25,7 +25,7 @@ UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>::__cordl_inte
 template <typename T>
 constexpr void UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>::__cordl_internal_set_m_TreeDataController(::UnityEngine::UIElements::TreeDataController_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TreeDataController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_TreeDataController, value);
 }
 template <typename T> inline ::UnityEngine::UIElements::TreeDataController_1<T>* UnityEngine::UIElements::DefaultMultiColumnTreeViewController_1<T>::get_treeDataController() {
   static auto* ___internal_method =

@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__preferredExtension_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x489d418, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b1b30, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW preferredExtension, ::ArrayW<::StringW, ::Array<::StringW>*> otherExtensions);
 
 protected:
@@ -69,7 +69,7 @@ public:
   ::System::Collections::Generic::IEnumerable_1<::StringW>* ____otherExtensions_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18607 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

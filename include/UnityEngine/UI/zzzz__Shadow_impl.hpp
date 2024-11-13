@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Shadow::*)()>(&::UnityEngine::UI::Shadow::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a578e0;
+  constexpr static std::size_t addrs = 0x4a6bff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Shadow*>::get(), ".ctor",
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::UI::Shadow::*)()>(&::UnityEngine::UI::Shadow::get_effectColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a57908;
+  constexpr static std::size_t addrs = 0x4a6c020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Shadow*>::get(), "get_effectColor",
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Shadow::*)(::UnityEngine::Color)>(&::UnityEngine::UI::Shadow::set_effectColor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4a57914;
+  constexpr static std::size_t addrs = 0x4a6c02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UI::Shadow::*)()>(&::UnityEngine::UI::Shadow::get_effectDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a579e8;
+  constexpr static std::size_t addrs = 0x4a6c100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Shadow*>::get(), "get_effectDistance",
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Shadow::*)(::UnityEngine::Vector2)>(&::UnityEngine::UI::Shadow::set_effectDistance)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4a579f0;
+  constexpr static std::size_t addrs = 0x4a6c108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Shadow::*)()>(&::UnityEngine::UI::Shadow::get_useGraphicAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a57af4;
+  constexpr static std::size_t addrs = 0x4a6c20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Shadow*>::get(), "get_useGraphicAlpha",
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Shadow::*)(bool)>(&::UnityEngine::UI::Shadow::set_useGraphicAlpha)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4a57afc;
+  constexpr static std::size_t addrs = 0x4a6c214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Shadow::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*, ::UnityEngine::Color32, int32_t, int32_t, float_t, float_t)>(&::UnityEngine::UI::Shadow::ApplyShadowZeroAlloc)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x4a57bb4;
+  constexpr static std::size_t addrs = 0x4a6c2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Shadow::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*, ::UnityEngine::Color32, int32_t, int32_t, float_t, float_t)>(&::UnityEngine::UI::Shadow::ApplyShadow)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a57eac;
+  constexpr static std::size_t addrs = 0x4a6c5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Shadow::*)(::UnityEngine::UI::VertexHelper*)>(&::UnityEngine::UI::Shadow::ModifyMesh)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4a57eb4;
+  constexpr static std::size_t addrs = 0x4a6c5cc;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -35,13 +35,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IPolynomial"
   constexpr operator ::Org::BouncyCastle::Math::Field::IPolynomial*() noexcept;
 
-  /// @brief Method Equals, addr 0x249cef0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x24a7f98, size 0xd8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetExponentsPresent, addr 0x249ce94, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetExponentsPresent, addr 0x24a7f3c, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetExponentsPresent();
 
-  /// @brief Method GetHashCode, addr 0x249cfc8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x24a8070, size 0x5c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Math::Field::GF2Polynomial* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> exponents);
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_exponents(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x249c788, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a7830, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> exponents);
 
-  /// @brief Method get_Degree, addr 0x249ce60, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_Degree, addr 0x24a7f08, size 0x34, virtual true, abstract: false, final false
   inline int32_t get_Degree();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::Field::IPolynomial"

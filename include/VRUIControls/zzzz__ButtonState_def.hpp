@@ -62,25 +62,25 @@ public:
 
   constexpr void __cordl_internal_set__pressedValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x4a71580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a85c98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x4a71560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x4a85c78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::__PointerEventData__InputButton get_button();
 
-  /// @brief Method get_eventData, addr 0x4a71550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventData, addr 0x4a85c68, size 0x8, virtual false, abstract: false, final false
   inline ::VRUIControls::MouseButtonEventData* get_eventData();
 
-  /// @brief Method get_pressedValue, addr 0x4a71570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedValue, addr 0x4a85c88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedValue();
 
-  /// @brief Method set_button, addr 0x4a71568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_button, addr 0x4a85c80, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::EventSystems::__PointerEventData__InputButton value);
 
-  /// @brief Method set_eventData, addr 0x4a71558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventData, addr 0x4a85c70, size 0x8, virtual false, abstract: false, final false
   inline void set_eventData(::VRUIControls::MouseButtonEventData* value);
 
-  /// @brief Method set_pressedValue, addr 0x4a71578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressedValue, addr 0x4a85c90, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedValue(float_t value);
 
 protected:
@@ -107,7 +107,7 @@ public:
   float_t ____pressedValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18163 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

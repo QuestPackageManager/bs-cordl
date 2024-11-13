@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3edd314, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ef19a4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type);
 
-  /// @brief Method get_Type, addr 0x3edd34c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3ef19dc, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method get_Value, addr 0x3edd344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3ef19d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -80,7 +80,7 @@ public:
   ::Newtonsoft::Json::Bson::BsonType ____type;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10485 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

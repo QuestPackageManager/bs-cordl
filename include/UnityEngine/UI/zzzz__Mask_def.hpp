@@ -67,24 +67,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::IMaterialModifier"
   constexpr operator ::UnityEngine::UI::IMaterialModifier*() noexcept;
 
-  /// @brief Method GetModifiedMaterial, addr 0x4a43838, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method GetModifiedMaterial, addr 0x4a57f50, size 0x294, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetModifiedMaterial(::UnityEngine::Material* baseMaterial);
 
-  /// @brief Method IsRaycastLocationValid, addr 0x4a4378c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method IsRaycastLocationValid, addr 0x4a57ea4, size 0xac, virtual true, abstract: false, final false
   inline bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
-  /// @brief Method MaskEnabled, addr 0x4a43164, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method MaskEnabled, addr 0x4a5787c, size 0x90, virtual true, abstract: false, final false
   inline bool MaskEnabled();
 
   static inline ::UnityEngine::UI::Mask* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x4a435c8, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4a57ce0, size 0x1c4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4a431f8, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4a57910, size 0x160, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnSiblingGraphicEnabledDisabled, addr 0x4a431f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSiblingGraphicEnabledDisabled, addr 0x4a5790c, size 0x4, virtual true, abstract: false, final false
   inline void OnSiblingGraphicEnabledDisabled();
 
   constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_m_Graphic() const;
@@ -117,16 +117,16 @@ public:
 
   constexpr void __cordl_internal_set_m_UnmaskMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x4a43154, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a5786c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_graphic, addr 0x4a430fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_graphic, addr 0x4a57814, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
-  /// @brief Method get_rectTransform, addr 0x4a42fec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x4a57704, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_showMaskGraphic, addr 0x4a43044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showMaskGraphic, addr 0x4a5775c, size 0x8, virtual false, abstract: false, final false
   inline bool get_showMaskGraphic();
 
   /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
@@ -135,7 +135,7 @@ public:
   /// @brief Convert to "::UnityEngine::UI::IMaterialModifier"
   constexpr ::UnityEngine::UI::IMaterialModifier* i___UnityEngine__UI__IMaterialModifier() noexcept;
 
-  /// @brief Method set_showMaskGraphic, addr 0x4a4304c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_showMaskGraphic, addr 0x4a57764, size 0xb0, virtual false, abstract: false, final false
   inline void set_showMaskGraphic(bool value);
 
 protected:
@@ -168,7 +168,7 @@ public:
   ::UnityW<::UnityEngine::Material> ___m_UnmaskMaterial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

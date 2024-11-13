@@ -28,15 +28,15 @@ public:
   // Declarations
   __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
-  /// @brief Method Convert, addr 0x407cf20, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x4091638, size 0x25c, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Object* obj);
 
   static inline ::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__ToUnderlying* New_ctor(::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method .ctor, addr 0x407cef0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4091608, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method get_InstructionName, addr 0x407ceb0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40915c8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -54,7 +54,7 @@ public:
   __NumericConvertInstruction__ToUnderlying(__NumericConvertInstruction__ToUnderlying const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14023 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,7 +29,7 @@ template <typename T>
 constexpr void System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::__cordl_internal_set_Parameters(
     ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Parameters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___Parameters, value);
 }
 template <typename T> constexpr ::System::Linq::Expressions::LabelTarget*& System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::__cordl_internal_get_ReturnLabel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -43,7 +43,7 @@ System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::__cor
 }
 template <typename T> constexpr void System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::__cordl_internal_set_ReturnLabel(::System::Linq::Expressions::LabelTarget* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ReturnLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___ReturnLabel, value);
 }
 template <typename T>
 inline void System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>::setStaticF_s_instance(::System::Runtime::CompilerServices::__CallSiteBinder__LambdaSignature_1<T>* value) {
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::CallSiteBinder::*)()>(
     &::System::Runtime::CompilerServices::CallSiteBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4083fcc;
+  constexpr static std::size_t addrs = 0x40986e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelTarget* (*)()>(
     &::System::Runtime::CompilerServices::CallSiteBinder::get_UpdateLabel)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4083fd4;
+  constexpr static std::size_t addrs = 0x40986ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(),

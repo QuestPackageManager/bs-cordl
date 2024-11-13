@@ -16,7 +16,7 @@ constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet
 }
 template <typename T> constexpr void GlobalNamespace::SimpleMemoryPool_1<T>::__cordl_internal_set__activeElements(::GlobalNamespace::LazyCopyHashSet_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activeElements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____activeElements, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& GlobalNamespace::SimpleMemoryPool_1<T>::__cordl_internal_get__inactiveElements() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -29,7 +29,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Li
 }
 template <typename T> constexpr void GlobalNamespace::SimpleMemoryPool_1<T>::__cordl_internal_set__inactiveElements(::System::Collections::Generic::List_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inactiveElements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____inactiveElements, value);
 }
 template <typename T> constexpr ::System::Func_1<T>*& GlobalNamespace::SimpleMemoryPool_1<T>::__cordl_internal_get__createNewItemFunc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -41,7 +41,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Fu
 }
 template <typename T> constexpr void GlobalNamespace::SimpleMemoryPool_1<T>::__cordl_internal_set__createNewItemFunc(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____createNewItemFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____createNewItemFunc, value);
 }
 template <typename T> inline ::System::Collections::Generic::List_1<T>* GlobalNamespace::SimpleMemoryPool_1<T>::get_items() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleMemoryPool_1<T>*>::get(), "get_items",

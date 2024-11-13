@@ -70,7 +70,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Co
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__cordl_internal_set__list(::System::Collections::IList* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____list, value);
 }
 template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>*& Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__cordl_internal_get__genericCollection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -84,7 +84,7 @@ Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__cordl_internal_get__gener
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__cordl_internal_set__genericCollection(::System::Collections::Generic::ICollection_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____genericCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____genericCollection, value);
 }
 template <typename T> constexpr ::System::Object*& Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__cordl_internal_get__syncRoot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -96,7 +96,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ob
 }
 template <typename T> constexpr void Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::__cordl_internal_set__syncRoot(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____syncRoot, value);
 }
 template <typename T> inline ::Newtonsoft::Json::Utilities::CollectionWrapper_1<T>* Newtonsoft::Json::Utilities::CollectionWrapper_1<T>::New_ctor(::System::Collections::IList* list) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::CollectionWrapper_1<T>*>(list));

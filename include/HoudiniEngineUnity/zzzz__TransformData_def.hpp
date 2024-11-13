@@ -30,13 +30,13 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE TransformData {
 public:
   // Declarations
-  /// @brief Method CopyTo, addr 0x39ffc40, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3a13598, size 0x80, virtual false, abstract: false, final false
   inline void CopyTo(::UnityEngine::Transform* other, bool copyParent);
 
-  /// @brief Method CopyToLocal, addr 0x39ffcc0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CopyToLocal, addr 0x3a13618, size 0x80, virtual false, abstract: false, final false
   inline void CopyToLocal(::UnityEngine::Transform* other, bool copyParent);
 
-  /// @brief Method .ctor, addr 0x39ffba8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a13500, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* other);
 
   // Ctor Parameters []
@@ -69,7 +69,7 @@ public:
   ::UnityW<::UnityEngine::Transform> parent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11772 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

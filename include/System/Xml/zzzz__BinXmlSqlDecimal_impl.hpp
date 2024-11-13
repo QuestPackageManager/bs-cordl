@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::BinXmlSqlDecimal::*)()>(&::System::Xml::BinXmlSqlDecimal::get_IsPositive)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x41bf6bc;
+  constexpr static std::size_t addrs = 0x41d3dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinXmlSqlDecimal>::get(), "get_IsPositive",
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::BinXmlSqlDecimal::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, bool)>(
     &::System::Xml::BinXmlSqlDecimal::_ctor)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x41bf6cc;
+  constexpr static std::size_t addrs = 0x41d3de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::System::Xml::BinXmlSqlDecimal::UIntFromByteArray)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x41bf968;
+  constexpr static std::size_t addrs = 0x41d4080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ByRef<int32_t>, uint32_t, ByRef<uint32_t>)>(
     &::System::Xml::BinXmlSqlDecimal::MpDiv1)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x41bfba4;
+  constexpr static std::size_t addrs = 0x41d42bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ByRef<int32_t>)>(&::System::Xml::BinXmlSqlDecimal::MpNormalize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x41bfc7c;
+  constexpr static std::size_t addrs = 0x41d4394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(uint32_t)>(&::System::Xml::BinXmlSqlDecimal::ChFromDigit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41bfcd4;
+  constexpr static std::size_t addrs = 0x41d43ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::BinXmlSqlDecimal::*)()>(&::System::Xml::BinXmlSqlDecimal::ToDecimal)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x41bfcdc;
+  constexpr static std::size_t addrs = 0x41d43f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinXmlSqlDecimal>::get(), "ToDecimal",
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::BinXmlSqlDecimal::*)()>(&::System::Xml::BinXmlSqlDecimal::TrimTrailingZeros)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x41bf9dc;
+  constexpr static std::size_t addrs = 0x41d40f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinXmlSqlDecimal>::get(), "TrimTrailingZeros",
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::BinXmlSqlDecimal::*)()>(&::System::Xml::BinXmlSqlDecimal::ToString)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x41bfdf4;
+  constexpr static std::size_t addrs = 0x41d450c;
 
   inline static ::MethodInfo const* methodInfo() {
 

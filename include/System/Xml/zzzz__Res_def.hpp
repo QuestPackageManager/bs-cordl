@@ -24,10 +24,10 @@ namespace System::Xml {
 class CORDL_TYPE Res : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetString, addr 0x42e163c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x42f5d54, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name);
 
-  /// @brief Method GetString, addr 0x42df280, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x42f3998, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:
@@ -45,7 +45,7 @@ public:
   Res(Res const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

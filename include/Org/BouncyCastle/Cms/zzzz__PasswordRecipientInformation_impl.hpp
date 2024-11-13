@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::PasswordRecipientInformation::*)(
     ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo*, ::Org::BouncyCastle::Cms::CmsSecureReadable*)>(&::Org::BouncyCastle::Cms::PasswordRecipientInformation::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x26192f0;
+  constexpr static std::size_t addrs = 0x2624398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Cms::PasswordRecipientInformation::*)()>(
     &::Org::BouncyCastle::Cms::PasswordRecipientInformation::get_KeyDerivationAlgorithm)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x263c9d0;
+  constexpr static std::size_t addrs = 0x2647a78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsTypedStream* (
     ::Org::BouncyCastle::Cms::PasswordRecipientInformation::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Cms::PasswordRecipientInformation::GetContentStream)> {
   constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x263c9ec;
+  constexpr static std::size_t addrs = 0x2647a94;
 
   inline static ::MethodInfo const* methodInfo() {
 

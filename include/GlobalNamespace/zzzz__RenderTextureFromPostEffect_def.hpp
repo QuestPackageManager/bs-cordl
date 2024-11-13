@@ -33,12 +33,12 @@ public:
 
   __declspec(property(get = get_targetTexture)) ::UnityW<::UnityEngine::RenderTexture> targetTexture;
 
-  /// @brief Method Awake, addr 0x400e4b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4022bc8, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::RenderTextureFromPostEffect* New_ctor();
 
-  /// @brief Method OnRenderImage, addr 0x400e500, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method OnRenderImage, addr 0x4022c18, size 0x1f8, virtual false, abstract: false, final false
   inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dst);
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__targetTexture(::UnityW<::UnityEngine::RenderTexture> value);
 
-  /// @brief Method .ctor, addr 0x400e6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4022e10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_targetTexture, addr 0x400e4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetTexture, addr 0x4022bc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_targetTexture();
 
 protected:
@@ -80,7 +80,7 @@ public:
   ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17822 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

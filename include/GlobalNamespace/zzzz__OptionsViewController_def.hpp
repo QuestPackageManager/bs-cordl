@@ -73,7 +73,7 @@ public:
   static ::GlobalNamespace::__OptionsViewController__OptionsButton const Settings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4928 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -109,18 +109,18 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3bab96c, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3a9ba64, size 0x150, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::OptionsViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__7_0, addr 0x3babac4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_0, addr 0x3a9bbbc, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_0();
 
-  /// @brief Method <DidActivate>b__7_1, addr 0x3babae4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_1, addr 0x3a9bbdc, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_1();
 
-  /// @brief Method <DidActivate>b__7_2, addr 0x3babb04, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_2, addr 0x3a9bbfc, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_2();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__editAvatarButton() const;
@@ -147,13 +147,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
-  /// @brief Method .ctor, addr 0x3bababc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9bbb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3bab80c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3a9b904, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3bab8bc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3a9b9b4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
 protected:
@@ -183,7 +183,7 @@ public:
   ::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* ___didFinishEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4929 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

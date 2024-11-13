@@ -24,7 +24,7 @@ namespace TMPro {
 struct CORDL_TYPE TMP_WordInfo {
 public:
   // Declarations
-  /// @brief Method GetWord, addr 0x474e680, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetWord, addr 0x4762d98, size 0x108, virtual false, abstract: false, final false
   inline ::StringW GetWord();
 
   // Ctor Parameters []
@@ -48,7 +48,7 @@ public:
   int32_t characterCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14403 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

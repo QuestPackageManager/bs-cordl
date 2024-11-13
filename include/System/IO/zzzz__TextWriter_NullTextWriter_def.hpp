@@ -29,25 +29,25 @@ public:
 
   static inline ::System::IO::__TextWriter__NullTextWriter* New_ctor();
 
-  /// @brief Method Write, addr 0x3ccf5e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ce3c70, size 0x4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x3ccf5e4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ce3c74, size 0x4, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
-  /// @brief Method Write, addr 0x3ccf5f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ce3c80, size 0x4, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method WriteLine, addr 0x3ccf5e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3ce3c78, size 0x4, virtual true, abstract: false, final false
   inline void WriteLine();
 
-  /// @brief Method WriteLine, addr 0x3ccf5ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3ce3c7c, size 0x4, virtual true, abstract: false, final false
   inline void WriteLine(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3ccf54c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce3bdc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Encoding, addr 0x3ccf5d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x3ce3c68, size 0x8, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
 protected:

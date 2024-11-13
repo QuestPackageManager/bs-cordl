@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext::*)(
     ::System::Xml::Schema::SequenceNode*, ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*)>(&::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4325684;
+  constexpr static std::size_t addrs = 0x4339d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>)>(
     &::System::Xml::Schema::SequenceNode::ConstructPos)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x4325338;
+  constexpr static std::size_t addrs = 0x4339a50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::SequenceNode::*)()>(&::System::Xml::Schema::SequenceNode::get_IsNullable)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4325694;
+  constexpr static std::size_t addrs = 0x4339dac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SequenceNode::*)(
     ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::SequenceNode::ExpandTree)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4325800;
+  constexpr static std::size_t addrs = 0x4339f18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SequenceNode::*)()>(&::System::Xml::Schema::SequenceNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4325804;
+  constexpr static std::size_t addrs = 0x4339f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SequenceNode*>::get(), ".ctor",

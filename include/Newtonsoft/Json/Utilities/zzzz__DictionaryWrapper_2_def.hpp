@@ -140,7 +140,7 @@ public:
   ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* _e;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10175 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -197,7 +197,7 @@ public:
   __DictionaryWrapper_2____c(__DictionaryWrapper_2____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -460,7 +460,7 @@ public:
   ::System::Object* ____syncRoot;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

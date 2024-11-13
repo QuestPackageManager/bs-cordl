@@ -53,21 +53,21 @@ public:
   /// @brief Field playerDidFailEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_playerDidFailEvent, put = __cordl_internal_set_playerDidFailEvent)) ::System::Action* playerDidFailEvent;
 
-  /// @brief Method CheckIfPlayerFailed, addr 0x3b3ee84, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method CheckIfPlayerFailed, addr 0x3b54b34, size 0x1ec, virtual false, abstract: false, final false
   inline void CheckIfPlayerFailed(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerDisconnected, addr 0x3b3f070, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDisconnected, addr 0x3b54d20, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerStateChanged, addr 0x3b3f074, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerStateChanged, addr 0x3b54d24, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b3ecdc, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b5498c, size 0x1a8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b3eb34, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b547e4, size 0x1a8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -106,13 +106,13 @@ public:
 
   constexpr void __cordl_internal_set_playerDidFailEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b3f078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b54d28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerDidFailEvent, addr 0x3b3df74, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_playerDidFailEvent, addr 0x3b53c24, size 0x9c, virtual false, abstract: false, final false
   inline void add_playerDidFailEvent(::System::Action* value);
 
-  /// @brief Method remove_playerDidFailEvent, addr 0x3b3da88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_playerDidFailEvent, addr 0x3b53738, size 0x9c, virtual false, abstract: false, final false
   inline void remove_playerDidFailEvent(::System::Action* value);
 
 protected:
@@ -148,7 +148,7 @@ public:
   bool ____wasActive;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4469 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

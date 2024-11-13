@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_UdpFile(::StringW value);
 
-  /// @brief Method .ctor, addr 0x437750c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438bc24, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::StringW procDir);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_wsChars();
@@ -120,7 +120,7 @@ public:
   ::StringW ___Udp6File;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9779 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

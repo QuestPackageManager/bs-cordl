@@ -26,7 +26,7 @@ public:
   __declspec(property(get = __cordl_internal_get__standardSceneSetupData,
                       put = __cordl_internal_set__standardSceneSetupData)) ::GlobalNamespace::StandardGameplaySceneSetupData* _standardSceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x3b7b7cc, size 0x34c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b91344, size 0x34c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::StandardGameplayInstaller* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__standardSceneSetupData(::GlobalNamespace::StandardGameplaySceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x3b7bb18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b91690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   ::GlobalNamespace::StandardGameplaySceneSetupData* ____standardSceneSetupData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4714 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

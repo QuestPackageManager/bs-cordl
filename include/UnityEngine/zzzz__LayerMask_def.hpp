@@ -24,22 +24,22 @@ public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) int32_t value;
 
-  /// @brief Method GetMask, addr 0x4835ca8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetMask, addr 0x484a3c0, size 0x104, virtual false, abstract: false, final false
   static inline int32_t GetMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
 
-  /// @brief Method NameToLayer, addr 0x4835c6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NameToLayer, addr 0x484a384, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t NameToLayer(::StringW layerName);
 
-  /// @brief Method get_value, addr 0x4835c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x484a374, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method op_Implicit, addr 0x4835c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x484a36c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask op_Implicit___UnityEngine__LayerMask(int32_t intVal);
 
-  /// @brief Method op_Implicit, addr 0x4835c50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x484a368, size 0x4, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::LayerMask mask);
 
-  /// @brief Method set_value, addr 0x4835c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x484a37c, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
   int32_t m_Mask;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10857 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -50,13 +50,13 @@ public:
 
   static inline ::GlobalNamespace::DroppedFramesLabel* New_ctor();
 
-  /// @brief Method RefreshText, addr 0x3957f24, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method RefreshText, addr 0x396b784, size 0x168, virtual false, abstract: false, final false
   inline void RefreshText();
 
-  /// @brief Method Start, addr 0x3957e20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x396b680, size 0x74, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3957e94, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x396b6f4, size 0x90, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__expectedFrameRate() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set__totalNumberOfDroppedFrames(int32_t value);
 
-  /// @brief Method .ctor, addr 0x395808c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396b8ec, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -149,7 +149,7 @@ public:
   int32_t ____frameCountInInterval;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16359 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

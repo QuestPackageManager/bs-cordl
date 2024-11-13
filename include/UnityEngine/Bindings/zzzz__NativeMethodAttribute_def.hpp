@@ -83,31 +83,31 @@ public:
 
   constexpr void __cordl_internal_set__ThrowsException_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x489d850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b1f68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x489d858, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b1f70, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x489d954, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b206c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction);
 
-  /// @brief Method .ctor, addr 0x489d97c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b2094, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction, bool isThreadSafe);
 
-  /// @brief Method set_HasExplicitThis, addr 0x489d844, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_HasExplicitThis, addr 0x48b1f5c, size 0xc, virtual true, abstract: false, final true
   inline void set_HasExplicitThis(bool value);
 
-  /// @brief Method set_IsFreeFunction, addr 0x489d82c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_IsFreeFunction, addr 0x48b1f44, size 0xc, virtual true, abstract: false, final true
   inline void set_IsFreeFunction(bool value);
 
-  /// @brief Method set_IsThreadSafe, addr 0x489d820, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_IsThreadSafe, addr 0x48b1f38, size 0xc, virtual true, abstract: false, final true
   inline void set_IsThreadSafe(bool value);
 
-  /// @brief Method set_Name, addr 0x489d818, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Name, addr 0x48b1f30, size 0x8, virtual true, abstract: false, final true
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_ThrowsException, addr 0x489d838, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_ThrowsException, addr 0x48b1f50, size 0xc, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
 protected:
@@ -140,7 +140,7 @@ public:
   bool ____HasExplicitThis_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18618 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

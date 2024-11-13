@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_hideNoteSpawnEffect(bool value);
 
-  /// @brief Method .ctor, addr 0x3b0e754, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b23ba4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool hideNoteSpawnEffect);
 
 protected:
@@ -91,7 +91,7 @@ public:
   bool ___hideNoteSpawnEffect;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4227 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -143,24 +143,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IBeatEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleBeatEffectDidFinish, addr 0x3b0e660, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method HandleBeatEffectDidFinish, addr 0x3b23ab0, size 0xd8, virtual true, abstract: false, final true
   inline void HandleBeatEffectDidFinish(::GlobalNamespace::BeatEffect* beatEffect);
 
-  /// @brief Method HandleNoteDidStartJump, addr 0x3b0e3a4, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidStartJump, addr 0x3b237f4, size 0x2bc, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method Init, addr 0x3b0e088, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b234d8, size 0x7c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::__BeatEffect__Pool* beatEffectPool);
 
   static inline ::GlobalNamespace::BeatEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b0e194, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b235e4, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b0e104, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b23554, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b0e224, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b23674, size 0x180, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -217,7 +217,7 @@ public:
 
   constexpr void __cordl_internal_set__songController(::UnityW<::GlobalNamespace::SongController> value);
 
-  /// @brief Method .ctor, addr 0x3b0e738, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b23b88, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IBeatEffectDidFinishEvent"
@@ -265,7 +265,7 @@ public:
   ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BeatEffect>>* ____beatEffectPoolContainer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4228 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

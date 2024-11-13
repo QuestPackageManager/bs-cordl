@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IOAsyncResult::*)()>(&::System::IOAsyncResult::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4398950;
+  constexpr static std::size_t addrs = 0x43ad068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IOAsyncResult*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IOAsyncResult::*)(::System::AsyncCallback*, ::System::Object*)>(&::System::IOAsyncResult::Init)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4398958;
+  constexpr static std::size_t addrs = 0x43ad070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IOAsyncResult::*)(::System::AsyncCallback*, ::System::Object*)>(&::System::IOAsyncResult::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4398978;
+  constexpr static std::size_t addrs = 0x43ad090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::AsyncCallback* (::System::IOAsyncResult::*)()>(&::System::IOAsyncResult::get_AsyncCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43989a4;
+  constexpr static std::size_t addrs = 0x43ad0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IOAsyncResult*>::get(), "get_AsyncCallback",
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::IOAsyncResult::*)()>(&::System::IOAsyncResult::get_AsyncState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43989ac;
+  constexpr static std::size_t addrs = 0x43ad0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IOAsyncResult*>::get(), "get_AsyncState",
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::WaitHandle* (::System::IOAsyncResult::*)()>(&::System::IOAsyncResult::get_AsyncWaitHandle)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x43989b4;
+  constexpr static std::size_t addrs = 0x43ad0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IOAsyncResult*>::get(), "get_AsyncWaitHandle",
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IOAsyncResult::*)()>(&::System::IOAsyncResult::get_CompletedSynchronously)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4398acc;
+  constexpr static std::size_t addrs = 0x43ad1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IOAsyncResult*>::get(), "get_CompletedSynchronously",
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IOAsyncResult::*)(bool)>(&::System::IOAsyncResult::set_CompletedSynchronously)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4398ad4;
+  constexpr static std::size_t addrs = 0x43ad1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IOAsyncResult::*)()>(&::System::IOAsyncResult::get_IsCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4398ae0;
+  constexpr static std::size_t addrs = 0x43ad1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IOAsyncResult*>::get(), "get_IsCompleted",
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IOAsyncResult::*)(bool)>(&::System::IOAsyncResult::set_IsCompleted)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4398ae8;
+  constexpr static std::size_t addrs = 0x43ad200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

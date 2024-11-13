@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Xml::Linq::LineInfoEndElementAnnotation* New_ctor(int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x41ce484, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41e2b9c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, int32_t linePosition);
 
 protected:
@@ -40,7 +40,7 @@ public:
   LineInfoEndElementAnnotation(LineInfoEndElementAnnotation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17896 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

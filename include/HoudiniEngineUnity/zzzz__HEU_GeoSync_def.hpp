@@ -28,7 +28,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_GeoSync* New_ctor();
 
-  /// @brief Method SetupLoadTask, addr 0x39f683c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetupLoadTask, addr 0x3a0a194, size 0x98, virtual true, abstract: false, final false
   inline void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   constexpr ::StringW const& __cordl_internal_get__filePath() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__filePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39f68e8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0a240, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   ::StringW ____filePath;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11744 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

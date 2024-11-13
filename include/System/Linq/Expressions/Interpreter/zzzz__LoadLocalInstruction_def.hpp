@@ -37,21 +37,21 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
   constexpr operator ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
 
-  /// @brief Method BoxIfIndexMatches, addr 0x407221c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method BoxIfIndexMatches, addr 0x4086934, size 0x78, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
 
   static inline ::System::Linq::Expressions::Interpreter::LoadLocalInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x4072194, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40868ac, size 0x88, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4072124, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408683c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x4072154, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x408686c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x407214c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x4086864, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   /// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
@@ -72,7 +72,7 @@ public:
   LoadLocalInstruction(LoadLocalInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13924 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

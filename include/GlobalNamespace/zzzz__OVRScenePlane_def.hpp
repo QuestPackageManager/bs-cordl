@@ -68,7 +68,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x3f99674, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3fadd04, size 0x84, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -89,7 +89,7 @@ public:
   ::Unity::Collections::NativeArray_1<int32_t> Length;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8260 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -115,13 +115,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x3f997b0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3fade40, size 0xa8, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method HasBoundaryChanged, addr 0x3f996f8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HasBoundaryChanged, addr 0x3fadd88, size 0xa4, virtual false, abstract: false, final false
   inline bool HasBoundaryChanged();
 
-  /// @brief Method SetNaN, addr 0x3f9979c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetNaN, addr 0x3fade2c, size 0x14, virtual false, abstract: false, final false
   static inline void SetNaN(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> array);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -147,7 +147,7 @@ public:
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> PreviousBoundary;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8261 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -229,36 +229,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
-  /// @brief Method Awake, addr 0x3f98c48, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fad2d8, size 0xd4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IOVRSceneComponent.Initialize, addr 0x3f98d20, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IOVRSceneComponent.Initialize, addr 0x3fad3b0, size 0x4, virtual true, abstract: false, final true
   inline void IOVRSceneComponent_Initialize();
 
   static inline ::GlobalNamespace::OVRScenePlane* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3f99518, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3fadba8, size 0xd8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RequestBoundary, addr 0x3f95fe4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RequestBoundary, addr 0x3faa674, size 0x30, virtual false, abstract: false, final false
   inline void RequestBoundary();
 
-  /// @brief Method ScheduleGetLengthJob, addr 0x3f98d24, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ScheduleGetLengthJob, addr 0x3fad3b4, size 0x184, virtual false, abstract: false, final false
   inline void ScheduleGetLengthJob();
 
-  /// @brief Method SetChildOffset, addr 0x3f98b1c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetChildOffset, addr 0x3fad1ac, size 0x12c, virtual false, abstract: false, final false
   inline void SetChildOffset();
 
-  /// @brief Method SetChildScale, addr 0x3f9899c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetChildScale, addr 0x3fad02c, size 0x144, virtual false, abstract: false, final false
   inline void SetChildScale();
 
-  /// @brief Method Start, addr 0x3f98d1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fad3ac, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3f98ea8, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fad538, size 0x640, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateTransform, addr 0x3f95e68, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x3faa4f8, size 0x17c, virtual false, abstract: false, final false
   inline void UpdateTransform();
 
   constexpr float_t const& __cordl_internal_get__Height_k__BackingField() const;
@@ -333,46 +333,46 @@ public:
 
   constexpr void __cordl_internal_set__sceneAnchor(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
 
-  /// @brief Method .ctor, addr 0x3f995f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fadc80, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Boundary, addr 0x3f98958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Boundary, addr 0x3facfe8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>* get_Boundary();
 
-  /// @brief Method get_Dimensions, addr 0x3f98950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dimensions, addr 0x3facfe0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_Dimensions();
 
-  /// @brief Method get_Height, addr 0x3f98930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Height, addr 0x3facfc0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Height();
 
-  /// @brief Method get_Offset, addr 0x3f98940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x3facfd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_Offset();
 
-  /// @brief Method get_OffsetChildren, addr 0x3f98ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OffsetChildren, addr 0x3fad170, size 0x8, virtual false, abstract: false, final false
   inline bool get_OffsetChildren();
 
-  /// @brief Method get_ScaleChildren, addr 0x3f98960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScaleChildren, addr 0x3facff0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ScaleChildren();
 
-  /// @brief Method get_Width, addr 0x3f98920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Width, addr 0x3facfb0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Width();
 
   /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
   constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
 
-  /// @brief Method set_Height, addr 0x3f98938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Height, addr 0x3facfc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Height(float_t value);
 
-  /// @brief Method set_Offset, addr 0x3f98948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Offset, addr 0x3facfd8, size 0x8, virtual false, abstract: false, final false
   inline void set_Offset(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_OffsetChildren, addr 0x3f98ae8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_OffsetChildren, addr 0x3fad178, size 0x34, virtual false, abstract: false, final false
   inline void set_OffsetChildren(bool value);
 
-  /// @brief Method set_ScaleChildren, addr 0x3f98968, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_ScaleChildren, addr 0x3facff8, size 0x34, virtual false, abstract: false, final false
   inline void set_ScaleChildren(bool value);
 
-  /// @brief Method set_Width, addr 0x3f98928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Width, addr 0x3facfb8, size 0x8, virtual false, abstract: false, final false
   inline void set_Width(float_t value);
 
 protected:
@@ -426,7 +426,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* ____boundary;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8262 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

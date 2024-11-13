@@ -97,7 +97,7 @@ public:
   static ::HoudiniEngineUnity::__HEU_MaterialData__Source const UNITY;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11726 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -132,32 +132,32 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*() noexcept;
 
-  /// @brief Method GetMaterialAlpha, addr 0x39ebbb8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialAlpha, addr 0x39ff510, size 0x1d8, virtual false, abstract: false, final false
   static inline bool GetMaterialAlpha(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID,
                                       ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*> parameters, float_t defaultValue, ByRef<float_t> alpha);
 
-  /// @brief Method GetSupportedFileFormat, addr 0x39ebd90, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetSupportedFileFormat, addr 0x39ff6e8, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW GetSupportedFileFormat(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo> imageInfo);
 
-  /// @brief Method GetTextureFileNameFromMaterialParam, addr 0x39eb4f0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method GetTextureFileNameFromMaterialParam, addr 0x39fee48, size 0x24c, virtual false, abstract: false, final false
   static inline ::StringW GetTextureFileNameFromMaterialParam(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ::HoudiniEngineUnity::HAPI_ParmInfo parmInfo);
 
-  /// @brief Method IsEquivalentTo, addr 0x39ebeb4, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x39ff80c, size 0x1b8, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_MaterialData* other);
 
-  /// @brief Method IsExistingMaterial, addr 0x39e9f64, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsExistingMaterial, addr 0x39fd8bc, size 0x14, virtual false, abstract: false, final false
   inline bool IsExistingMaterial();
 
-  /// @brief Method IsTransparentMaterial, addr 0x39eae98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsTransparentMaterial, addr 0x39fe7f0, size 0x30, virtual false, abstract: false, final false
   static inline bool IsTransparentMaterial(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID,
                                            ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*> parameters);
 
   static inline ::HoudiniEngineUnity::HEU_MaterialData* New_ctor();
 
-  /// @brief Method UpdateMaterialFromHoudini, addr 0x39e9f78, size 0xf20, virtual false, abstract: false, final false
+  /// @brief Method UpdateMaterialFromHoudini, addr 0x39fd8d0, size 0xf20, virtual false, abstract: false, final false
   inline void UpdateMaterialFromHoudini(::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW assetCacheFolderPath);
 
-  /// @brief Method UseLegacyShaders, addr 0x39eaf14, size 0x5dc, virtual false, abstract: false, final false
+  /// @brief Method UseLegacyShaders, addr 0x39fe86c, size 0x5dc, virtual false, abstract: false, final false
   inline void UseLegacyShaders(::HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::StringW assetCacheFolderPath, ::HoudiniEngineUnity::HEU_SessionBase* session,
                                ::HoudiniEngineUnity::HAPI_NodeInfo nodeInfo, ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*> parmInfos);
 
@@ -179,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set__materialSource(::HoudiniEngineUnity::__HEU_MaterialData__Source value);
 
-  /// @brief Method .ctor, addr 0x39ec06c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ff9c4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>"
@@ -209,7 +209,7 @@ public:
   int32_t ____materialKey;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11722 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11727 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

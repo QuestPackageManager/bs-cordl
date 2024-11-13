@@ -206,45 +206,45 @@ public:
   /// @brief Field usePerEyeCameras, offset 0xa8, size 0x1
   __declspec(property(get = __cordl_internal_get_usePerEyeCameras, put = __cordl_internal_set_usePerEyeCameras)) bool usePerEyeCameras;
 
-  /// @brief Method Awake, addr 0x3f2d460, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x3f41af0, size 0x18, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CheckForAnchorsInParent, addr 0x3f2fd80, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CheckForAnchorsInParent, addr 0x3f44410, size 0xe0, virtual false, abstract: false, final false
   inline void CheckForAnchorsInParent();
 
-  /// @brief Method CheckForTrackingSpaceChangesAndRaiseEvent, addr 0x3f2ed5c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method CheckForTrackingSpaceChangesAndRaiseEvent, addr 0x3f433ec, size 0x108, virtual true, abstract: false, final false
   inline void CheckForTrackingSpaceChangesAndRaiseEvent();
 
-  /// @brief Method ComputeTrackReferenceMatrix, addr 0x3f2fac0, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method ComputeTrackReferenceMatrix, addr 0x3f44150, size 0x2c0, virtual true, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 ComputeTrackReferenceMatrix();
 
-  /// @brief Method ConfigureAnchor, addr 0x3f2f864, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method ConfigureAnchor, addr 0x3f43ef4, size 0x25c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> ConfigureAnchor(::UnityEngine::Transform* root, ::StringW name);
 
-  /// @brief Method EnsureGameObjectIntegrity, addr 0x3f2ee84, size 0x9e0, virtual true, abstract: false, final false
+  /// @brief Method EnsureGameObjectIntegrity, addr 0x3f43514, size 0x9e0, virtual true, abstract: false, final false
   inline void EnsureGameObjectIntegrity();
 
-  /// @brief Method FixedUpdate, addr 0x3f2d524, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3f41bb4, size 0x20, virtual true, abstract: false, final false
   inline void FixedUpdate();
 
   static inline ::GlobalNamespace::OVRCameraRig* New_ctor();
 
-  /// @brief Method OnBeforeRenderCallback, addr 0x3f2ec88, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method OnBeforeRenderCallback, addr 0x3f43318, size 0xd4, virtual true, abstract: false, final false
   inline void OnBeforeRenderCallback();
 
-  /// @brief Method OnDestroy, addr 0x3f2d568, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3f41bf8, size 0x94, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RaiseUpdatedAnchorsEvent, addr 0x3f2ee64, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method RaiseUpdatedAnchorsEvent, addr 0x3f434f4, size 0x20, virtual true, abstract: false, final false
   inline void RaiseUpdatedAnchorsEvent();
 
-  /// @brief Method Start, addr 0x3f2d478, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3f41b08, size 0xac, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3f2d544, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3f41bd4, size 0x24, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateAnchors, addr 0x3f2d5fc, size 0x15b4, virtual true, abstract: false, final false
+  /// @brief Method UpdateAnchors, addr 0x3f41c8c, size 0x15b4, virtual true, abstract: false, final false
   inline void UpdateAnchors(bool updateEyeAnchors, bool updateHandAnchors);
 
   /// @brief Method <CheckForAnchorsInParent>g__Check|105_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -490,115 +490,115 @@ public:
 
   constexpr void __cordl_internal_set_usePerEyeCameras(bool value);
 
-  /// @brief Method .ctor, addr 0x3f2fe60, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f444f0, size 0x20c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_TrackingSpaceChanged, addr 0x3f2d300, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_TrackingSpaceChanged, addr 0x3f41990, size 0xb0, virtual false, abstract: false, final false
   inline void add_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method add_UpdatedAnchors, addr 0x3f2d1a0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_UpdatedAnchors, addr 0x3f41830, size 0xb0, virtual false, abstract: false, final false
   inline void add_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* value);
 
-  /// @brief Method get_centerEyeAnchor, addr 0x3f2d0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeAnchor, addr 0x3f41760, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_centerEyeAnchor();
 
-  /// @brief Method get_leftControllerAnchor, addr 0x3f2d170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftControllerAnchor, addr 0x3f41800, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_leftControllerAnchor();
 
-  /// @brief Method get_leftControllerInHandAnchor, addr 0x3f2d130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftControllerInHandAnchor, addr 0x3f417c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_leftControllerInHandAnchor();
 
-  /// @brief Method get_leftEyeAnchor, addr 0x3f2d0c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeAnchor, addr 0x3f41750, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_leftEyeAnchor();
 
-  /// @brief Method get_leftEyeCamera, addr 0x3f2d078, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeCamera, addr 0x3f41708, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_leftEyeCamera();
 
-  /// @brief Method get_leftHandAnchor, addr 0x3f2d0f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandAnchor, addr 0x3f41780, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_leftHandAnchor();
 
-  /// @brief Method get_leftHandAnchorDetached, addr 0x3f2d110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandAnchorDetached, addr 0x3f417a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_leftHandAnchorDetached();
 
-  /// @brief Method get_leftHandOnControllerAnchor, addr 0x3f2d140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandOnControllerAnchor, addr 0x3f417d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_leftHandOnControllerAnchor();
 
-  /// @brief Method get_rightControllerAnchor, addr 0x3f2d180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightControllerAnchor, addr 0x3f41810, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_rightControllerAnchor();
 
-  /// @brief Method get_rightControllerInHandAnchor, addr 0x3f2d150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightControllerInHandAnchor, addr 0x3f417e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_rightControllerInHandAnchor();
 
-  /// @brief Method get_rightEyeAnchor, addr 0x3f2d0e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeAnchor, addr 0x3f41770, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_rightEyeAnchor();
 
-  /// @brief Method get_rightEyeCamera, addr 0x3f2d094, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeCamera, addr 0x3f41724, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_rightEyeCamera();
 
-  /// @brief Method get_rightHandAnchor, addr 0x3f2d100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightHandAnchor, addr 0x3f41790, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_rightHandAnchor();
 
-  /// @brief Method get_rightHandAnchorDetached, addr 0x3f2d120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightHandAnchorDetached, addr 0x3f417b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_rightHandAnchorDetached();
 
-  /// @brief Method get_rightHandOnControllerAnchor, addr 0x3f2d160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightHandOnControllerAnchor, addr 0x3f417f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_rightHandOnControllerAnchor();
 
-  /// @brief Method get_trackerAnchor, addr 0x3f2d190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackerAnchor, addr 0x3f41820, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_trackerAnchor();
 
-  /// @brief Method get_trackingSpace, addr 0x3f2d0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingSpace, addr 0x3f41740, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_trackingSpace();
 
-  /// @brief Method remove_TrackingSpaceChanged, addr 0x3f2d3b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_TrackingSpaceChanged, addr 0x3f41a40, size 0xb0, virtual false, abstract: false, final false
   inline void remove_TrackingSpaceChanged(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method remove_UpdatedAnchors, addr 0x3f2d250, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_UpdatedAnchors, addr 0x3f418e0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_UpdatedAnchors(::System::Action_1<::UnityW<::GlobalNamespace::OVRCameraRig>>* value);
 
-  /// @brief Method set_centerEyeAnchor, addr 0x3f2d0d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeAnchor, addr 0x3f41768, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeAnchor(::UnityEngine::Transform* value);
 
-  /// @brief Method set_leftControllerAnchor, addr 0x3f2d178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftControllerAnchor, addr 0x3f41808, size 0x8, virtual false, abstract: false, final false
   inline void set_leftControllerAnchor(::UnityEngine::Transform* value);
 
-  /// @brief Method set_leftControllerInHandAnchor, addr 0x3f2d138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftControllerInHandAnchor, addr 0x3f417c8, size 0x8, virtual false, abstract: false, final false
   inline void set_leftControllerInHandAnchor(::UnityEngine::Transform* value);
 
-  /// @brief Method set_leftEyeAnchor, addr 0x3f2d0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeAnchor, addr 0x3f41758, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeAnchor(::UnityEngine::Transform* value);
 
-  /// @brief Method set_leftHandAnchor, addr 0x3f2d0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftHandAnchor, addr 0x3f41788, size 0x8, virtual false, abstract: false, final false
   inline void set_leftHandAnchor(::UnityEngine::Transform* value);
 
-  /// @brief Method set_leftHandAnchorDetached, addr 0x3f2d118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftHandAnchorDetached, addr 0x3f417a8, size 0x8, virtual false, abstract: false, final false
   inline void set_leftHandAnchorDetached(::UnityEngine::Transform* value);
 
-  /// @brief Method set_leftHandOnControllerAnchor, addr 0x3f2d148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftHandOnControllerAnchor, addr 0x3f417d8, size 0x8, virtual false, abstract: false, final false
   inline void set_leftHandOnControllerAnchor(::UnityEngine::Transform* value);
 
-  /// @brief Method set_rightControllerAnchor, addr 0x3f2d188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightControllerAnchor, addr 0x3f41818, size 0x8, virtual false, abstract: false, final false
   inline void set_rightControllerAnchor(::UnityEngine::Transform* value);
 
-  /// @brief Method set_rightControllerInHandAnchor, addr 0x3f2d158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightControllerInHandAnchor, addr 0x3f417e8, size 0x8, virtual false, abstract: false, final false
   inline void set_rightControllerInHandAnchor(::UnityEngine::Transform* value);
 
-  /// @brief Method set_rightEyeAnchor, addr 0x3f2d0e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeAnchor, addr 0x3f41778, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeAnchor(::UnityEngine::Transform* value);
 
-  /// @brief Method set_rightHandAnchor, addr 0x3f2d108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightHandAnchor, addr 0x3f41798, size 0x8, virtual false, abstract: false, final false
   inline void set_rightHandAnchor(::UnityEngine::Transform* value);
 
-  /// @brief Method set_rightHandAnchorDetached, addr 0x3f2d128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightHandAnchorDetached, addr 0x3f417b8, size 0x8, virtual false, abstract: false, final false
   inline void set_rightHandAnchorDetached(::UnityEngine::Transform* value);
 
-  /// @brief Method set_rightHandOnControllerAnchor, addr 0x3f2d168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightHandOnControllerAnchor, addr 0x3f417f8, size 0x8, virtual false, abstract: false, final false
   inline void set_rightHandOnControllerAnchor(::UnityEngine::Transform* value);
 
-  /// @brief Method set_trackerAnchor, addr 0x3f2d198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackerAnchor, addr 0x3f41828, size 0x8, virtual false, abstract: false, final false
   inline void set_trackerAnchor(::UnityEngine::Transform* value);
 
-  /// @brief Method set_trackingSpace, addr 0x3f2d0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingSpace, addr 0x3f41748, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingSpace(::UnityEngine::Transform* value);
 
 protected:
@@ -736,7 +736,7 @@ public:
   ::UnityEngine::Matrix4x4 ____previousTrackingSpaceTransform;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7817 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

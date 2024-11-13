@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey::*)(
     ::UnityEngine::UIElements::StyleSheet*, int32_t)>(&::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x495f0cc;
+  constexpr static std::size_t addrs = 0x49737e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey, ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey)>(
     &::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer::Equals)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x495f3a8;
+  constexpr static std::size_t addrs = 0x4973ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer::*)(
     ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey)>(&::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x495f3c8;
+  constexpr static std::size_t addrs = 0x4973ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer::*)()>(
     &::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x495f3a0;
+  constexpr static std::size_t addrs = 0x4973ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> (*)(::UnityEngine::UIElements::StyleSheet*, int32_t)>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetCache::GetPropertyIds)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x495a814;
+  constexpr static std::size_t addrs = 0x496ef2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> (*)(::UnityEngine::UIElements::StyleRule*)>(
         &::UnityEngine::UIElements::StyleSheets::StyleSheetCache::GetPropertyIds)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x495f1f0;
+  constexpr static std::size_t addrs = 0x4973908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleSheets::StylePropertyId (*)(::UnityEngine::UIElements::StyleRule*, int32_t)>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetCache::GetPropertyId)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x495f100;
+  constexpr static std::size_t addrs = 0x4973818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

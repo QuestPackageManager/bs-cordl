@@ -78,22 +78,22 @@ public:
       get = __cordl_internal_get__lateScriptableObjectInstallers,
       put = __cordl_internal_set__lateScriptableObjectInstallers)) ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* _lateScriptableObjectInstallers;
 
-  /// @brief Method GetInjectableMonoBehaviours, addr 0x4ab02a4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehaviours, addr 0x4ac49bc, size 0x4c, virtual true, abstract: false, final false
   inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
-  /// @brief Method GetRootGameObjects, addr 0x4ab027c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x4ac4994, size 0x28, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
 
-  /// @brief Method Initialize, addr 0x4aae994, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4ac30ac, size 0x1b4, virtual false, abstract: false, final false
   inline void Initialize(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallDecoratorInstallers, addr 0x4aaf2cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InstallDecoratorInstallers, addr 0x4ac39e4, size 0xc, virtual false, abstract: false, final false
   inline void InstallDecoratorInstallers();
 
-  /// @brief Method InstallDecoratorSceneBindings, addr 0x4aaf24c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstallDecoratorSceneBindings, addr 0x4ac3964, size 0x80, virtual false, abstract: false, final false
   inline void InstallDecoratorSceneBindings();
 
-  /// @brief Method InstallLateDecoratorInstallers, addr 0x4aaf2d8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method InstallLateDecoratorInstallers, addr 0x4ac39f0, size 0xc8, virtual false, abstract: false, final false
   inline void InstallLateDecoratorInstallers();
 
   static inline ::Zenject::SceneDecoratorContext* New_ctor();
@@ -135,34 +135,34 @@ public:
 
   constexpr void __cordl_internal_set__lateScriptableObjectInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ab0410, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ac4b28, size 0x16c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4ab02f0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac4a08, size 0x120, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Container, addr 0x4ab025c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Container, addr 0x4ac4974, size 0x20, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_DecoratedContractName, addr 0x4ab0254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DecoratedContractName, addr 0x4ac496c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DecoratedContractName();
 
-  /// @brief Method get_LateInstallerPrefabs, addr 0x4ab0124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LateInstallerPrefabs, addr 0x4ac483c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* get_LateInstallerPrefabs();
 
-  /// @brief Method get_LateInstallers, addr 0x4ab008c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LateInstallers, addr 0x4ac47a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* get_LateInstallers();
 
-  /// @brief Method get_LateScriptableObjectInstallers, addr 0x4ab01bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LateScriptableObjectInstallers, addr 0x4ac48d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* get_LateScriptableObjectInstallers();
 
-  /// @brief Method set_LateInstallerPrefabs, addr 0x4ab012c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_LateInstallerPrefabs, addr 0x4ac4844, size 0x90, virtual false, abstract: false, final false
   inline void set_LateInstallerPrefabs(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value);
 
-  /// @brief Method set_LateInstallers, addr 0x4ab0094, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_LateInstallers, addr 0x4ac47ac, size 0x90, virtual false, abstract: false, final false
   inline void set_LateInstallers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value);
 
-  /// @brief Method set_LateScriptableObjectInstallers, addr 0x4ab01c4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_LateScriptableObjectInstallers, addr 0x4ac48dc, size 0x90, virtual false, abstract: false, final false
   inline void set_LateScriptableObjectInstallers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
 protected:
@@ -198,7 +198,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* ____injectableMonoBehaviours;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

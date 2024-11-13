@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__Location_k__BackingField(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method .ctor, addr 0x471b648, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x472fd60, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Exception* innerException);
 
-  /// @brief Method get_Location, addr 0x471b670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x472fd88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
 protected:
@@ -65,7 +65,7 @@ public:
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ____Location_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15567 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -50,7 +50,7 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Initialize, addr 0x4a8389c, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x4a97fb4, size 0x104, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::Zenject::SignalDeclarationAsyncInitializer* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
@@ -68,13 +68,13 @@ public:
 
   constexpr void __cordl_internal_set__tickManager(::Zenject::LazyInject_1<::Zenject::TickableManager*>* value);
 
-  /// @brief Method __zenCreate, addr 0x4a839a0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4a980b8, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a83ab8, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4a981d0, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4a83870, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a97f88, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations, ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager);
 
   /// @brief Convert to "::Zenject::IInitializable"
@@ -101,7 +101,7 @@ public:
   ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* ____declarations;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11972 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

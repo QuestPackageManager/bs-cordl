@@ -23,7 +23,7 @@ namespace UnityEngine::Yoga {
 class CORDL_TYPE MeasureOutput : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Make, addr 0x48f09f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x4905108, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaSize Make(float_t width, float_t height);
 
 protected:
@@ -41,7 +41,7 @@ public:
   MeasureOutput(MeasureOutput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5400 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

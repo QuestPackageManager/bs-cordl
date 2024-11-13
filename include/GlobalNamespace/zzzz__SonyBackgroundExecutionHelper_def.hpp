@@ -41,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::SonyBackgroundExecutionHelper* New_ctor();
 
-  /// @brief Method Tick, addr 0x26a7758, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x26b351c, size 0x28, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr bool const& __cordl_internal_get__isInBackgroundExecution() const;
@@ -62,25 +62,25 @@ public:
 
   constexpr void __cordl_internal_set_didGoToForegroundExecutionEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x26a7780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b3544, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didGoToBackgroundExecutionEvent, addr 0x26a74e0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didGoToBackgroundExecutionEvent, addr 0x26b32a4, size 0x9c, virtual false, abstract: false, final false
   inline void add_didGoToBackgroundExecutionEvent(::System::Action* value);
 
-  /// @brief Method add_didGoToForegroundExecutionEvent, addr 0x26a7618, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didGoToForegroundExecutionEvent, addr 0x26b33dc, size 0x9c, virtual false, abstract: false, final false
   inline void add_didGoToForegroundExecutionEvent(::System::Action* value);
 
-  /// @brief Method get_isInBackgroundExecution, addr 0x26a7750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInBackgroundExecution, addr 0x26b3514, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInBackgroundExecution();
 
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_didGoToBackgroundExecutionEvent, addr 0x26a757c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didGoToBackgroundExecutionEvent, addr 0x26b3340, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didGoToBackgroundExecutionEvent(::System::Action* value);
 
-  /// @brief Method remove_didGoToForegroundExecutionEvent, addr 0x26a76b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didGoToForegroundExecutionEvent, addr 0x26b3478, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didGoToForegroundExecutionEvent(::System::Action* value);
 
 protected:
@@ -107,7 +107,7 @@ public:
   bool ____isInBackgroundExecution;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13145 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

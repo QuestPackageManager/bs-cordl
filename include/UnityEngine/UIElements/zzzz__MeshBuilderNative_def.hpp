@@ -90,7 +90,7 @@ public:
   ::UnityEngine::Color32 pageAndID;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5966 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -187,7 +187,7 @@ public:
   ::UnityEngine::UIElements::__MeshBuilderNative__NativeColorPage bottomColorPage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5967 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
@@ -321,7 +321,7 @@ public:
   ::UnityEngine::UIElements::__MeshBuilderNative__NativeColorPage colorPage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5968 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb4 };
@@ -386,48 +386,48 @@ public:
 
   using NativeRectParams = ::UnityEngine::UIElements::__MeshBuilderNative__NativeRectParams;
 
-  /// @brief Method MakeBorder, addr 0x49c6b50, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method MakeBorder, addr 0x49db268, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface MakeBorder(::UnityEngine::UIElements::__MeshBuilderNative__NativeBorderParams borderParams, float_t posZ);
 
-  /// @brief Method MakeBorder_Injected, addr 0x49c6bc8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MakeBorder_Injected, addr 0x49db2e0, size 0x54, virtual false, abstract: false, final false
   static inline void MakeBorder_Injected(ByRef<::UnityEngine::UIElements::__MeshBuilderNative__NativeBorderParams> borderParams, float_t posZ,
                                          ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
-  /// @brief Method MakeSolidRect, addr 0x49c6c1c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method MakeSolidRect, addr 0x49db334, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface MakeSolidRect(::UnityEngine::UIElements::__MeshBuilderNative__NativeRectParams rectParams, float_t posZ);
 
-  /// @brief Method MakeSolidRect_Injected, addr 0x49c6c94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MakeSolidRect_Injected, addr 0x49db3ac, size 0x54, virtual false, abstract: false, final false
   static inline void MakeSolidRect_Injected(ByRef<::UnityEngine::UIElements::__MeshBuilderNative__NativeRectParams> rectParams, float_t posZ,
                                             ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
-  /// @brief Method MakeTexturedRect, addr 0x49c6ce8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method MakeTexturedRect, addr 0x49db400, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface MakeTexturedRect(::UnityEngine::UIElements::__MeshBuilderNative__NativeRectParams rectParams, float_t posZ);
 
-  /// @brief Method MakeTexturedRect_Injected, addr 0x49c6d60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MakeTexturedRect_Injected, addr 0x49db478, size 0x54, virtual false, abstract: false, final false
   static inline void MakeTexturedRect_Injected(ByRef<::UnityEngine::UIElements::__MeshBuilderNative__NativeRectParams> rectParams, float_t posZ,
                                                ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
-  /// @brief Method MakeVectorGraphics9SliceBackground, addr 0x49c6f58, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method MakeVectorGraphics9SliceBackground, addr 0x49db670, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface
   MakeVectorGraphics9SliceBackground(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices,
                                      float_t svgWidth, float_t svgHeight, ::UnityEngine::Rect targetRect, ::UnityEngine::Vector4 sliceLTRB, ::UnityEngine::Color tint,
                                      ::UnityEngine::UIElements::__MeshBuilderNative__NativeColorPage colorPage, int32_t settingIndexOffset);
 
-  /// @brief Method MakeVectorGraphics9SliceBackground_Injected, addr 0x49c7010, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method MakeVectorGraphics9SliceBackground_Injected, addr 0x49db728, size 0xa4, virtual false, abstract: false, final false
   static inline void MakeVectorGraphics9SliceBackground_Injected(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices,
                                                                  ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices, float_t svgWidth, float_t svgHeight, ByRef<::UnityEngine::Rect> targetRect,
                                                                  ByRef<::UnityEngine::Vector4> sliceLTRB, ByRef<::UnityEngine::Color> tint,
                                                                  ByRef<::UnityEngine::UIElements::__MeshBuilderNative__NativeColorPage> colorPage, int32_t settingIndexOffset,
                                                                  ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret);
 
-  /// @brief Method MakeVectorGraphicsStretchBackground, addr 0x49c6db4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method MakeVectorGraphicsStretchBackground, addr 0x49db4cc, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MeshWriteDataInterface
   MakeVectorGraphicsStretchBackground(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices,
                                       float_t svgWidth, float_t svgHeight, ::UnityEngine::Rect targetRect, ::UnityEngine::Rect sourceUV, ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color tint,
                                       ::UnityEngine::UIElements::__MeshBuilderNative__NativeColorPage colorPage, int32_t settingIndexOffset, ByRef<int32_t> finalVertexCount,
                                       ByRef<int32_t> finalIndexCount);
 
-  /// @brief Method MakeVectorGraphicsStretchBackground_Injected, addr 0x49c6e94, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method MakeVectorGraphicsStretchBackground_Injected, addr 0x49db5ac, size 0xc4, virtual false, abstract: false, final false
   static inline void MakeVectorGraphicsStretchBackground_Injected(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices,
                                                                   ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices, float_t svgWidth, float_t svgHeight, ByRef<::UnityEngine::Rect> targetRect,
                                                                   ByRef<::UnityEngine::Rect> sourceUV, ::UnityEngine::ScaleMode scaleMode, ByRef<::UnityEngine::Color> tint,
@@ -449,7 +449,7 @@ public:
   MeshBuilderNative(MeshBuilderNative const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5969 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

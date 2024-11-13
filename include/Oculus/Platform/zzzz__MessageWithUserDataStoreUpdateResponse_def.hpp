@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithUserDataStoreUpdateResponse : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f0afdc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f1f66c, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserDataStoreUpdateResponse* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetUserDataStoreUpdateResponse, addr 0x3f0afa0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetUserDataStoreUpdateResponse, addr 0x3f1f630, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserDataStoreUpdateResponse* GetUserDataStoreUpdateResponse();
 
   static inline ::Oculus::Platform::MessageWithUserDataStoreUpdateResponse* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f06d00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1b390, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -52,7 +52,7 @@ public:
   MessageWithUserDataStoreUpdateResponse(MessageWithUserDataStoreUpdateResponse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

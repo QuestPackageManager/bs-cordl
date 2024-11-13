@@ -178,7 +178,7 @@ public:
   int32_t _____l__initialThreadId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12323 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -242,7 +242,7 @@ public:
   PlaceholderFactory_7(PlaceholderFactory_7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12324 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -34,25 +34,25 @@ public:
   // Declarations
   __declspec(property(get = get_Value)) ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> Value;
 
-  /// @brief Method Equals, addr 0x3bdf8c0, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3bf3f50, size 0x104, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3bdf9c4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3bf4054, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTypeFromClass, addr 0x3bdf9ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromClass, addr 0x3bf407c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetTypeFromClass(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> klass);
 
-  /// @brief Method GetTypeHandle, addr 0x3bdf9f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeHandle, addr 0x3bf4080, size 0x8, virtual false, abstract: false, final false
   inline ::System::RuntimeTypeHandle GetTypeHandle();
 
-  /// @brief Method .ctor, addr 0x3bdf898, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf3f28, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method .ctor, addr 0x3bdf890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf3f20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> value);
 
-  /// @brief Method get_Value, addr 0x3bdf8b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3bf3f48, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> get_Value();
 
   // Ctor Parameters []

@@ -92,7 +92,7 @@ public:
   static ::System::Xml::Schema::__SchemaDeclBase__Use const RequiredFixed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7588 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -170,13 +170,13 @@ public:
   /// @brief Field values, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::System::Collections::Generic::List_1<::StringW>* values;
 
-  /// @brief Method AddValue, addr 0x421ac3c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x422f354, size 0xec, virtual false, abstract: false, final false
   inline void AddValue(::StringW value);
 
-  /// @brief Method CheckEnumeration, addr 0x421ada4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CheckEnumeration, addr 0x422f4bc, size 0xb8, virtual false, abstract: false, final false
   inline bool CheckEnumeration(::System::Object* pVal);
 
-  /// @brief Method CheckValue, addr 0x421ae5c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CheckValue, addr 0x422f574, size 0x50, virtual false, abstract: false, final false
   inline bool CheckValue(::System::Object* pVal);
 
   static inline ::System::Xml::Schema::SchemaDeclBase* New_ctor();
@@ -249,76 +249,76 @@ public:
 
   constexpr void __cordl_internal_set_values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x421ab04, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x422f21c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x421aa7c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x422f194, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 
-  /// @brief Method get_Datatype, addr 0x421ac2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Datatype, addr 0x422f344, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* get_Datatype();
 
-  /// @brief Method get_DefaultValueRaw, addr 0x421ad38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueRaw, addr 0x422f450, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DefaultValueRaw();
 
-  /// @brief Method get_DefaultValueTyped, addr 0x421ad94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueTyped, addr 0x422f4ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_DefaultValueTyped();
 
-  /// @brief Method get_IsDeclaredInExternal, addr 0x421abd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDeclaredInExternal, addr 0x422f2f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDeclaredInExternal();
 
-  /// @brief Method get_MaxLength, addr 0x421abfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxLength, addr 0x422f314, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaxLength();
 
-  /// @brief Method get_MinLength, addr 0x421ac0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinLength, addr 0x422f324, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MinLength();
 
-  /// @brief Method get_Name, addr 0x421ab6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x422f284, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Name();
 
-  /// @brief Method get_Prefix, addr 0x421ab7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x422f294, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_Presence, addr 0x421abec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Presence, addr 0x422f304, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::__SchemaDeclBase__Use get_Presence();
 
-  /// @brief Method get_SchemaType, addr 0x421ac1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaType, addr 0x422f334, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
 
-  /// @brief Method get_Values, addr 0x421ad28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x422f440, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_Values();
 
-  /// @brief Method set_Datatype, addr 0x421ac34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Datatype, addr 0x422f34c, size 0x8, virtual false, abstract: false, final false
   inline void set_Datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
 
-  /// @brief Method set_DefaultValueRaw, addr 0x421ad8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValueRaw, addr 0x422f4a4, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValueRaw(::StringW value);
 
-  /// @brief Method set_DefaultValueTyped, addr 0x421ad9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValueTyped, addr 0x422f4b4, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValueTyped(::System::Object* value);
 
-  /// @brief Method set_IsDeclaredInExternal, addr 0x421abe0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDeclaredInExternal, addr 0x422f2f8, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDeclaredInExternal(bool value);
 
-  /// @brief Method set_MaxLength, addr 0x421ac04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxLength, addr 0x422f31c, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxLength(int64_t value);
 
-  /// @brief Method set_MinLength, addr 0x421ac14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MinLength, addr 0x422f32c, size 0x8, virtual false, abstract: false, final false
   inline void set_MinLength(int64_t value);
 
-  /// @brief Method set_Name, addr 0x421ab74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x422f28c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_Prefix, addr 0x421abd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Prefix, addr 0x422f2e8, size 0x8, virtual false, abstract: false, final false
   inline void set_Prefix(::StringW value);
 
-  /// @brief Method set_Presence, addr 0x421abf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Presence, addr 0x422f30c, size 0x8, virtual false, abstract: false, final false
   inline void set_Presence(::System::Xml::Schema::__SchemaDeclBase__Use value);
 
-  /// @brief Method set_SchemaType, addr 0x421ac24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaType, addr 0x422f33c, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaType(::System::Xml::Schema::XmlSchemaType* value);
 
-  /// @brief Method set_Values, addr 0x421ad30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Values, addr 0x422f448, size 0x8, virtual false, abstract: false, final false
   inline void set_Values(::System::Collections::Generic::List_1<::StringW>* value);
 
 protected:
@@ -369,7 +369,7 @@ public:
   ::System::Collections::Generic::List_1<::StringW>* ___values;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7589 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -41,18 +41,18 @@ public:
   /// @brief Field _isActive, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get__isActive, put = __cordl_internal_set__isActive)) bool _isActive;
 
-  /// @brief Method EndElement, addr 0x431d7cc, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method EndElement, addr 0x4331ee4, size 0x110, virtual true, abstract: false, final false
   inline bool EndElement(::StringW localname, ::StringW URN);
 
-  /// @brief Method MoveToAttribute, addr 0x431d8dc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MoveToAttribute, addr 0x4331ff4, size 0x10c, virtual false, abstract: false, final false
   inline bool MoveToAttribute(::StringW localname, ::StringW URN);
 
-  /// @brief Method MoveToStartElement, addr 0x431d68c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method MoveToStartElement, addr 0x4331da4, size 0x140, virtual false, abstract: false, final false
   inline bool MoveToStartElement(::StringW localname, ::StringW URN);
 
   static inline ::System::Xml::Schema::ActiveAxis* New_ctor(::System::Xml::Schema::Asttree* axisTree);
 
-  /// @brief Method Reactivate, addr 0x431d4d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reactivate, addr 0x4331bec, size 0x14, virtual false, abstract: false, final false
   inline void Reactivate();
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__axisStack();
@@ -79,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set__isActive(bool value);
 
-  /// @brief Method .ctor, addr 0x431d4e8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4331c00, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::Asttree* axisTree);
 
-  /// @brief Method get_CurrentDepth, addr 0x431d4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentDepth, addr 0x4331be4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CurrentDepth();
 
 protected:
@@ -112,7 +112,7 @@ public:
   ::System::Collections::ArrayList* ____axisStack;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

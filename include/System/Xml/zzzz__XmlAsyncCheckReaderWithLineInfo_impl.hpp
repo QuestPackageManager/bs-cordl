@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfo::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4296448;
+  constexpr static std::size_t addrs = 0x42aab60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfo::HasLineInfo)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x42972f8;
+  constexpr static std::size_t addrs = 0x42aba10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LineNumber)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4297398;
+  constexpr static std::size_t addrs = 0x42abab0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LinePosition)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x429743c;
+  constexpr static std::size_t addrs = 0x42abb54;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -218,7 +218,7 @@ public:
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_AutoCorrection;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -538,7 +538,7 @@ public:
   ::UnityEngine::UIElements::ScrollerVisibility ___m_VerticalScrollerVisibility;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5586 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -779,7 +779,7 @@ public:
   ::System::Action_1<bool>* ___onIsReadOnlyChanged;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5587 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

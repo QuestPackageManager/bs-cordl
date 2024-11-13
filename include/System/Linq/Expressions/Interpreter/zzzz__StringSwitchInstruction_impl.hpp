@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*, ::System::Runtime::CompilerServices::StrongBox_1<int32_t>*)>(
     &::System::Linq::Expressions::Interpreter::StringSwitchInstruction::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x404e984;
+  constexpr static std::size_t addrs = 0x406309c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::StringSwitchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::StringSwitchInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x404e9b0;
+  constexpr static std::size_t addrs = 0x40630c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::StringSwitchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::StringSwitchInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x404e9f0;
+  constexpr static std::size_t addrs = 0x4063108;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::StringSwitchInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::StringSwitchInstruction::Run)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x404e9f8;
+  constexpr static std::size_t addrs = 0x4063110;
 
   inline static ::MethodInfo const* methodInfo() {
 

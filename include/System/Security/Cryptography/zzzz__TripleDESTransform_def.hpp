@@ -45,10 +45,10 @@ public:
   /// @brief Field E3, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_E3, put = __cordl_internal_set_E3)) ::System::Security::Cryptography::DESTransform* E3;
 
-  /// @brief Method ECB, addr 0x3c4110c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ECB, addr 0x3c5579c, size 0x13c, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method GetStrongKey, addr 0x3c41064, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetStrongKey, addr 0x3c556f4, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStrongKey();
 
   static inline ::System::Security::Cryptography::TripleDESTransform* New_ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_E3(::System::Security::Cryptography::DESTransform* value);
 
-  /// @brief Method .ctor, addr 0x3c40d48, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c553d8, size 0x31c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
 protected:

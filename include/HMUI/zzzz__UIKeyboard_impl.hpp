@@ -13,77 +13,77 @@
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
-//  Writing Method size for method: ::HMUI::__UIKeyboard____c__DisplayClass13_0._ctor
+//  Writing Method size for method: ::HMUI::__UIKeyboard____c__DisplayClass14_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__UIKeyboard____c__DisplayClass13_0::*)()>(&::HMUI::__UIKeyboard____c__DisplayClass13_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__UIKeyboard____c__DisplayClass14_0::*)()>(&::HMUI::__UIKeyboard____c__DisplayClass14_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3984d2c;
+  constexpr static std::size_t addrs = 0x3998654;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__UIKeyboard____c__DisplayClass13_0*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__UIKeyboard____c__DisplayClass14_0*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__UIKeyboard____c__DisplayClass13_0._Awake_b__2
+//  Writing Method size for method: ::HMUI::__UIKeyboard____c__DisplayClass14_0._Awake_b__3
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__UIKeyboard____c__DisplayClass13_0::*)()>(&::HMUI::__UIKeyboard____c__DisplayClass13_0::_Awake_b__2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__UIKeyboard____c__DisplayClass14_0::*)()>(&::HMUI::__UIKeyboard____c__DisplayClass14_0::_Awake_b__3)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3984fec;
+  constexpr static std::size_t addrs = 0x3998934;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__UIKeyboard____c__DisplayClass13_0*>::get(),
-                                                                               "<Awake>b__2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__UIKeyboard____c__DisplayClass14_0*>::get(),
+                                                                               "<Awake>b__3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::HMUI::UIKeyboardKey>& HMUI::__UIKeyboard____c__DisplayClass13_0::__cordl_internal_get_key() {
+constexpr ::UnityW<::HMUI::UIKeyboardKey>& HMUI::__UIKeyboard____c__DisplayClass14_0::__cordl_internal_get_key() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
-constexpr ::UnityW<::HMUI::UIKeyboardKey> const& HMUI::__UIKeyboard____c__DisplayClass13_0::__cordl_internal_get_key() const {
+constexpr ::UnityW<::HMUI::UIKeyboardKey> const& HMUI::__UIKeyboard____c__DisplayClass14_0::__cordl_internal_get_key() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
-constexpr void HMUI::__UIKeyboard____c__DisplayClass13_0::__cordl_internal_set_key(::UnityW<::HMUI::UIKeyboardKey> value) {
+constexpr void HMUI::__UIKeyboard____c__DisplayClass14_0::__cordl_internal_set_key(::UnityW<::HMUI::UIKeyboardKey> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::HMUI::UIKeyboard>& HMUI::__UIKeyboard____c__DisplayClass13_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::HMUI::UIKeyboard>& HMUI::__UIKeyboard____c__DisplayClass14_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::HMUI::UIKeyboard> const& HMUI::__UIKeyboard____c__DisplayClass13_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::HMUI::UIKeyboard> const& HMUI::__UIKeyboard____c__DisplayClass14_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void HMUI::__UIKeyboard____c__DisplayClass13_0::__cordl_internal_set___4__this(::UnityW<::HMUI::UIKeyboard> value) {
+constexpr void HMUI::__UIKeyboard____c__DisplayClass14_0::__cordl_internal_set___4__this(::UnityW<::HMUI::UIKeyboard> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HMUI::__UIKeyboard____c__DisplayClass13_0* HMUI::__UIKeyboard____c__DisplayClass13_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__UIKeyboard____c__DisplayClass13_0*>());
+inline ::HMUI::__UIKeyboard____c__DisplayClass14_0* HMUI::__UIKeyboard____c__DisplayClass14_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__UIKeyboard____c__DisplayClass14_0*>());
 }
-inline void HMUI::__UIKeyboard____c__DisplayClass13_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__UIKeyboard____c__DisplayClass13_0*>::get(), ".ctor",
+inline void HMUI::__UIKeyboard____c__DisplayClass14_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__UIKeyboard____c__DisplayClass14_0*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HMUI::__UIKeyboard____c__DisplayClass13_0::_Awake_b__2() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__UIKeyboard____c__DisplayClass13_0*>::get(), "<Awake>b__2",
+inline void HMUI::__UIKeyboard____c__DisplayClass14_0::_Awake_b__3() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__UIKeyboard____c__DisplayClass14_0*>::get(), "<Awake>b__3",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::HMUI::__UIKeyboard____c__DisplayClass13_0::__UIKeyboard____c__DisplayClass13_0() {}
+constexpr ::HMUI::__UIKeyboard____c__DisplayClass14_0::__UIKeyboard____c__DisplayClass14_0() {}
 //  Writing Method size for method: ::HMUI::UIKeyboard.add_okButtonWasPressedEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action*)>(&::HMUI::UIKeyboard::add_okButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3984640;
+  constexpr static std::size_t addrs = 0x3997ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action*)>(&::HMUI::UIKeyboard::remove_okButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39846dc;
+  constexpr static std::size_t addrs = 0x3997f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action_1<char16_t>*)>(&::HMUI::UIKeyboard::add_keyWasPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3984778;
+  constexpr static std::size_t addrs = 0x3997ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action_1<char16_t>*)>(&::HMUI::UIKeyboard::remove_keyWasPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3984828;
+  constexpr static std::size_t addrs = 0x39980ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action*)>(&::HMUI::UIKeyboard::add_deleteButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39848d8;
+  constexpr static std::size_t addrs = 0x399815c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)(::System::Action*)>(&::HMUI::UIKeyboard::remove_deleteButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3984974;
+  constexpr static std::size_t addrs = 0x39981f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,8 +166,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::Awake)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x3984a10;
+  constexpr static std::size_t size = 0x3c0;
+  constexpr static std::size_t addrs = 0x3998294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "Awake",
@@ -179,8 +179,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)(::UnityEngine::KeyCode)>(&::HMUI::UIKeyboard::HandleKeyPress)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3984d34;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x399865c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::HandleCapsLockPressed)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3984e1c;
+  constexpr static std::size_t addrs = 0x3998748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "HandleCapsLockPressed",
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)(bool)>(&::HMUI::UIKeyboard::SetKeyboardCapitalization)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3984e34;
+  constexpr static std::size_t addrs = 0x3998760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::UIKeyboard::*)(::TMPro::TextMeshProUGUI*, ::TMPro::FontStyles)>(&::HMUI::UIKeyboard::HasFontStyle)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3984f20;
+  constexpr static std::size_t addrs = 0x399884c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::OnEnable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3984f40;
+  constexpr static std::size_t addrs = 0x399886c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "OnEnable",
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3984f4c;
+  constexpr static std::size_t addrs = 0x3998878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), ".ctor",
@@ -257,28 +257,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::UIKeyboard._Awake_b__13_0
+//  Writing Method size for method: ::HMUI::UIKeyboard._Awake_b__14_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::_Awake_b__13_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::_Awake_b__14_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3984fb4;
+  constexpr static std::size_t addrs = 0x39988e0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "<Awake>b__13_0",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "<Awake>b__14_0",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::UIKeyboard._Awake_b__13_1
+//  Writing Method size for method: ::HMUI::UIKeyboard._Awake_b__14_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::_Awake_b__13_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::_Awake_b__14_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3984fd0;
+  constexpr static std::size_t addrs = 0x39988fc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "<Awake>b__13_1",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "<Awake>b__14_1",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::UIKeyboard._Awake_b__14_2
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::UIKeyboard::*)()>(&::HMUI::UIKeyboard::_Awake_b__14_2)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x3998918;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "<Awake>b__14_2",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -294,6 +307,18 @@ constexpr ::UnityW<::UnityEngine::UI::Button> const& HMUI::UIKeyboard::__cordl_i
 constexpr void HMUI::UIKeyboard::__cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____okButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& HMUI::UIKeyboard::__cordl_internal_get__startsUpperCase() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____startsUpperCase;
+}
+constexpr bool const& HMUI::UIKeyboard::__cordl_internal_get__startsUpperCase() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____startsUpperCase;
+}
+constexpr void HMUI::UIKeyboard::__cordl_internal_set__startsUpperCase(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____startsUpperCase = value;
 }
 constexpr ::System::Action*& HMUI::UIKeyboard::__cordl_internal_get_okButtonWasPressedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -445,13 +470,18 @@ inline void HMUI::UIKeyboard::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HMUI::UIKeyboard::_Awake_b__13_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "<Awake>b__13_0",
+inline void HMUI::UIKeyboard::_Awake_b__14_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "<Awake>b__14_0",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HMUI::UIKeyboard::_Awake_b__13_1() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "<Awake>b__13_1",
+inline void HMUI::UIKeyboard::_Awake_b__14_1() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "<Awake>b__14_1",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void HMUI::UIKeyboard::_Awake_b__14_2() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::UIKeyboard*>::get(), "<Awake>b__14_2",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }

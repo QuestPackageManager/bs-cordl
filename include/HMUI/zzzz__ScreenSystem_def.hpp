@@ -76,18 +76,18 @@ public:
 
   __declspec(property(get = get_topScreen)) ::UnityW<::HMUI::Screen> topScreen;
 
-  /// @brief Method Awake, addr 0x224bf74, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2256eb4, size 0xc0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::HMUI::ScreenSystem* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x224c034, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2256f74, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetBackButton, addr 0x2247d50, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetBackButton, addr 0x2252c90, size 0x30, virtual false, abstract: false, final false
   inline void SetBackButton(bool visible, bool animated);
 
-  /// @brief Method <Awake>b__24_0, addr 0x224c058, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__24_0, addr 0x2256f98, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__backButton() const;
@@ -150,31 +150,31 @@ public:
 
   constexpr void __cordl_internal_set_backButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x224c050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2256f90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_backButtonWasPressedEvent, addr 0x224930c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_backButtonWasPressedEvent, addr 0x225424c, size 0x9c, virtual false, abstract: false, final false
   inline void add_backButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method get_bottomScreen, addr 0x224bf64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bottomScreen, addr 0x2256ea4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_bottomScreen();
 
-  /// @brief Method get_leftScreen, addr 0x224bf54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftScreen, addr 0x2256e94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_leftScreen();
 
-  /// @brief Method get_mainScreen, addr 0x224bf4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainScreen, addr 0x2256e8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_mainScreen();
 
-  /// @brief Method get_rightScreen, addr 0x224bf5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightScreen, addr 0x2256e9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_rightScreen();
 
-  /// @brief Method get_titleViewController, addr 0x224bf44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleViewController, addr 0x2256e84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::TitleViewController> get_titleViewController();
 
-  /// @brief Method get_topScreen, addr 0x224bf6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_topScreen, addr 0x2256eac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_topScreen();
 
-  /// @brief Method remove_backButtonWasPressedEvent, addr 0x22493a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_backButtonWasPressedEvent, addr 0x22542e8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_backButtonWasPressedEvent(::System::Action* value);
 
 protected:
@@ -222,7 +222,7 @@ public:
   ::HMUI::ButtonBinder* ____buttonBinder;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16770 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

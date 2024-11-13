@@ -65,28 +65,28 @@ public:
 
   constexpr void __cordl_internal_set__CapsuleRigidbody_k__BackingField(::UnityW<::UnityEngine::Rigidbody> value);
 
-  /// @brief Method .ctor, addr 0x3fcf5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe3c54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3fcfe78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fe4508, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int16_t boneIndex, ::UnityEngine::Rigidbody* capsuleRigidBody, ::UnityEngine::CapsuleCollider* capsuleCollider);
 
-  /// @brief Method get_BoneIndex, addr 0x3fcfe48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BoneIndex, addr 0x3fe44d8, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_BoneIndex();
 
-  /// @brief Method get_CapsuleCollider, addr 0x3fcfe68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CapsuleCollider, addr 0x3fe44f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::CapsuleCollider> get_CapsuleCollider();
 
-  /// @brief Method get_CapsuleRigidbody, addr 0x3fcfe58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CapsuleRigidbody, addr 0x3fe44e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_CapsuleRigidbody();
 
-  /// @brief Method set_BoneIndex, addr 0x3fcfe50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BoneIndex, addr 0x3fe44e0, size 0x8, virtual false, abstract: false, final false
   inline void set_BoneIndex(int16_t value);
 
-  /// @brief Method set_CapsuleCollider, addr 0x3fcfe70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CapsuleCollider, addr 0x3fe4500, size 0x8, virtual false, abstract: false, final false
   inline void set_CapsuleCollider(::UnityEngine::CapsuleCollider* value);
 
-  /// @brief Method set_CapsuleRigidbody, addr 0x3fcfe60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CapsuleRigidbody, addr 0x3fe44f0, size 0x8, virtual false, abstract: false, final false
   inline void set_CapsuleRigidbody(::UnityEngine::Rigidbody* value);
 
 protected:
@@ -113,7 +113,7 @@ public:
   ::UnityW<::UnityEngine::CapsuleCollider> ____CapsuleCollider_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8458 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -49,30 +49,30 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method InitLabel, addr 0x4905474, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x4919b8c, size 0x90, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::BaseBoolField* New_ctor(::StringW label);
 
-  /// @brief Method OnClickEvent, addr 0x49055e4, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method OnClickEvent, addr 0x4919cfc, size 0x288, virtual false, abstract: false, final false
   inline void OnClickEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method OnNavigationSubmit, addr 0x4905424, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x4919b3c, size 0x34, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method RegisterEditingCallbacks, addr 0x4905a28, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method RegisterEditingCallbacks, addr 0x491a140, size 0x118, virtual true, abstract: false, final false
   inline void RegisterEditingCallbacks();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x4905504, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x4919c1c, size 0xe0, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(bool newValue);
 
-  /// @brief Method ToggleValue, addr 0x490586c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ToggleValue, addr 0x4919f84, size 0x38, virtual true, abstract: false, final false
   inline void ToggleValue();
 
-  /// @brief Method UnregisterEditingCallbacks, addr 0x4905b40, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method UnregisterEditingCallbacks, addr 0x491a258, size 0x118, virtual true, abstract: false, final false
   inline void UnregisterEditingCallbacks();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x49058a4, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x4919fbc, size 0x184, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CheckMark();
@@ -99,13 +99,13 @@ public:
 
   constexpr void __cordl_internal_set_m_OriginalText(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4905168, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4919880, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method get_text, addr 0x4905458, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x4919b70, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x490539c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x4919ab4, size 0x88, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -135,7 +135,7 @@ public:
   ::StringW ___m_OriginalText;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5467 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

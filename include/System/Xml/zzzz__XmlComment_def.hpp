@@ -38,27 +38,27 @@ public:
 
   __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
 
-  /// @brief Method CloneNode, addr 0x42be9d8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x42d30f0, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlComment* New_ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x42bea74, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x42d318c, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x42bea34, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x42d314c, size 0x40, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method .ctor, addr 0x42be954, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42d306c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_LocalName, addr 0x42be9a8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x42d30c0, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x42be980, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42d3098, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x42be9d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x42d30e8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
 protected:
@@ -76,7 +76,7 @@ public:
   XmlComment(XmlComment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7263 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

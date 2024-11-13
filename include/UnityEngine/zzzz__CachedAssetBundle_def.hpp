@@ -28,13 +28,13 @@ public:
 
   __declspec(property(get = get_name)) ::StringW name;
 
-  /// @brief Method .ctor, addr 0x47ec2f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4800a10, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Hash128 hash);
 
-  /// @brief Method get_hash, addr 0x47ec30c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hash, addr 0x4800a24, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Hash128 get_hash();
 
-  /// @brief Method get_name, addr 0x47ec304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4800a1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   // Ctor Parameters []
@@ -51,7 +51,7 @@ public:
   ::UnityEngine::Hash128 m_Hash;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10630 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

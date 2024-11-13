@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidAmbientTemperature::*)()>(
     &::UnityEngine::InputSystem::Android::AndroidAmbientTemperature::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458e9fc;
+  constexpr static std::size_t addrs = 0x45a3114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

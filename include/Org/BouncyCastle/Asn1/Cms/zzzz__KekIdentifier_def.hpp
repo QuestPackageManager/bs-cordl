@@ -57,10 +57,10 @@ public:
   /// @brief Field other, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_other, put = __cordl_internal_set_other)) ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other;
 
-  /// @brief Method GetInstance, addr 0x22c7608, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22d26b0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x22c7620, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22d26c8, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date,
@@ -68,7 +68,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22c77a0, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22d2848, size 0x170, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_date();
@@ -89,19 +89,19 @@ public:
 
   constexpr void __cordl_internal_set_other(::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* value);
 
-  /// @brief Method .ctor, addr 0x22c7168, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d2210, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date, ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other);
 
-  /// @brief Method .ctor, addr 0x22c71f0, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d2298, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Date, addr 0x22c7790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0x22d2838, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_Date();
 
-  /// @brief Method get_KeyIdentifier, addr 0x22c7788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyIdentifier, addr 0x22d2830, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_KeyIdentifier();
 
-  /// @brief Method get_Other, addr 0x22c7798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Other, addr 0x22d2840, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* get_Other();
 
 protected:

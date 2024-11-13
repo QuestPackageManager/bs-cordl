@@ -50,13 +50,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Mesh_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x3a2fc50, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3a435a8, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Mesh* _ToTestObject_b__1_0(::UnityEngine::Mesh* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x3a2fcac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3a43604, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Mesh* _ToTestObject_b__2_0(::UnityEngine::Mesh* lod);
 
-  /// @brief Method .ctor, addr 0x3a2fc48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a435a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_Mesh_Extensions____c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   __Test_Mesh_Extensions____c(__Test_Mesh_Extensions____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11866 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -104,13 +104,13 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Mesh_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x3a2fa04, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a4335c, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Mesh*, ::Array<::HoudiniEngineUnity::Test_Mesh*>*> ToTestObject(::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x3a2f9a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a43300, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Mesh* ToTestObject(::UnityEngine::Mesh* self);
 
-  /// @brief Method ToTestObject, addr 0x3a2faf4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a4344c, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Mesh*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* self);
 
 protected:
@@ -128,7 +128,7 @@ public:
   Test_Mesh_Extensions(Test_Mesh_Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11867 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

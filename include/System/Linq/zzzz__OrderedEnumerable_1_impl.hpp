@@ -62,7 +62,7 @@ template <typename TElement> constexpr TElement const& System::Linq::__OrderedEn
 }
 template <typename TElement> constexpr void System::Linq::__OrderedEnumerable_1___GetEnumerator_d__1<TElement>::__cordl_internal_set___2__current(TElement value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename TElement> constexpr ::System::Linq::OrderedEnumerable_1<TElement>*& System::Linq::__OrderedEnumerable_1___GetEnumerator_d__1<TElement>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -76,7 +76,7 @@ System::Linq::__OrderedEnumerable_1___GetEnumerator_d__1<TElement>::__cordl_inte
 }
 template <typename TElement> constexpr void System::Linq::__OrderedEnumerable_1___GetEnumerator_d__1<TElement>::__cordl_internal_set___4__this(::System::Linq::OrderedEnumerable_1<TElement>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TElement> constexpr ::System::Linq::Buffer_1<TElement>& System::Linq::__OrderedEnumerable_1___GetEnumerator_d__1<TElement>::__cordl_internal_get__buffer_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -100,7 +100,7 @@ template <typename TElement> constexpr ::ArrayW<int32_t, ::Array<int32_t>*> cons
 }
 template <typename TElement> constexpr void System::Linq::__OrderedEnumerable_1___GetEnumerator_d__1<TElement>::__cordl_internal_set__map_5__3(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____map_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____map_5__3, value);
 }
 template <typename TElement> constexpr int32_t& System::Linq::__OrderedEnumerable_1___GetEnumerator_d__1<TElement>::__cordl_internal_get__i_5__4() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -192,7 +192,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IE
 }
 template <typename TElement> constexpr void System::Linq::OrderedEnumerable_1<TElement>::__cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<TElement>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___source, value);
 }
 template <typename TElement> inline ::System::Collections::Generic::IEnumerator_1<TElement>* System::Linq::OrderedEnumerable_1<TElement>::GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::OrderedEnumerable_1<TElement>*>::get(),

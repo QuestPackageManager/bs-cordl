@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__WheelEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49b2300, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49c6a18, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::WheelEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49b22f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c6a10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__WheelEvent____c* getStaticF___9();
@@ -70,7 +70,7 @@ public:
   __WheelEvent____c(__WheelEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -93,19 +93,19 @@ public:
 
   __declspec(property(get = get_delta, put = set_delta)) ::UnityEngine::Vector3 delta;
 
-  /// @brief Method GetPooled, addr 0x49b205c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x49c6774, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Vector3 delta, ::UnityEngine::Vector3 mousePosition, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method GetPooled, addr 0x49b2124, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x49c683c, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::IPointerEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x49b1fe0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x49c66f8, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x49b219c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49c68b4, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49b21ec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x49c6904, size 0x60, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::WheelEvent* New_ctor();
@@ -116,13 +116,13 @@ public:
 
   constexpr void __cordl_internal_set__delta_k__BackingField(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x49b224c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c6964, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_delta, addr 0x49b1fc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_delta, addr 0x49c66e0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_delta();
 
-  /// @brief Method set_delta, addr 0x49b1fd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_delta, addr 0x49c66ec, size 0xc, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::Vector3 value);
 
 protected:
@@ -143,7 +143,7 @@ public:
   ::UnityEngine::Vector3 ____delta_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

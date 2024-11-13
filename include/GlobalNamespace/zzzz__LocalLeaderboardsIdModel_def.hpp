@@ -24,12 +24,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE LocalLeaderboardsIdModel : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLocalLeaderboardID, addr 0x26bf770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLocalLeaderboardID, addr 0x26cb530, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetLocalLeaderboardID(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   static inline ::GlobalNamespace::LocalLeaderboardsIdModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26bf778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cb538, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   LocalLeaderboardsIdModel(LocalLeaderboardsIdModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13286 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

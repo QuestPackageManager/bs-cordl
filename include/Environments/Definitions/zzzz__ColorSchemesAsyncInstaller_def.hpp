@@ -52,10 +52,10 @@ public:
 
   static inline ::Environments::Definitions::__ColorSchemesAsyncInstaller____c* New_ctor();
 
-  /// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x26d5a6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x26e15e8, size 0x18, virtual false, abstract: false, final false
   inline int32_t _LoadResourcesBeforeInstall_b__3_0(::GlobalNamespace::ColorSchemeSO* colorScheme);
 
-  /// @brief Method .ctor, addr 0x26d5a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e15e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Environments::Definitions::__ColorSchemesAsyncInstaller____c* getStaticF___9();
@@ -81,7 +81,7 @@ public:
   __ColorSchemesAsyncInstaller____c(__ColorSchemesAsyncInstaller____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13496 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,10 +105,10 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x26d58c8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26e1444, size 0xb0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x26d57a4, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x26e1320, size 0x124, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemes,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
@@ -120,10 +120,10 @@ public:
 
   constexpr void __cordl_internal_set__colorSchemes(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* value);
 
-  /// @brief Method .ctor, addr 0x26d5978, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e14f4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x26d5764, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x26e12e0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -144,7 +144,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* ____colorSchemes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

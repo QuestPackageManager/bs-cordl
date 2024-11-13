@@ -36,27 +36,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRCompositionUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BuildBoundaryMesh, addr 0x3f22684, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method BuildBoundaryMesh, addr 0x3f36d14, size 0x484, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> BuildBoundaryMesh(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType, float_t topY, float_t bottomY);
 
-  /// @brief Method GetMaximumBoundaryDistance, addr 0x3f22068, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetMaximumBoundaryDistance, addr 0x3f366f8, size 0x1c0, virtual false, abstract: false, final false
   static inline float_t GetMaximumBoundaryDistance(::UnityEngine::Camera* camera, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method GetWorldPosition, addr 0x3f21fd4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetWorldPosition, addr 0x3f36664, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 trackingSpacePosition);
 
-  /// @brief Method GetWorldPosition, addr 0x3f21f98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetWorldPosition, addr 0x3f36628, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetWorldPosition(::UnityEngine::Vector3 trackingSpacePosition);
 
   static inline ::GlobalNamespace::OVRCompositionUtil* New_ctor();
 
-  /// @brief Method SafeDestroy, addr 0x3f21e88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0x3f36518, size 0x9c, virtual false, abstract: false, final false
   static inline void SafeDestroy(::UnityEngine::GameObject* obj);
 
-  /// @brief Method SafeDestroy, addr 0x3f21f24, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0x3f365b4, size 0x74, virtual false, abstract: false, final false
   static inline void SafeDestroy(ByRef<::UnityEngine::GameObject*> obj);
 
-  /// @brief Method .ctor, addr 0x3f22b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f37198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   OVRCompositionUtil(OVRCompositionUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7791 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

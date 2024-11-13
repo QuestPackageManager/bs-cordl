@@ -87,7 +87,7 @@ public:
   static ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5434 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -238,7 +238,7 @@ public:
   ::UnityEngine::Vector2 ____startMousePosition_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5435 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

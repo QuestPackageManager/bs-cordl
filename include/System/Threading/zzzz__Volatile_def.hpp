@@ -151,19 +151,19 @@ public:
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Read(ByRef<T> location);
 
-  /// @brief Method Read, addr 0x3de8eb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x3dfd548, size 0x18, virtual false, abstract: false, final false
   static inline bool Read(ByRef<bool> location);
 
-  /// @brief Method Read, addr 0x3de8ef4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x3dfd584, size 0x18, virtual false, abstract: false, final false
   static inline int32_t Read(ByRef<int32_t> location);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Write(ByRef<T> location, T value);
 
-  /// @brief Method Write, addr 0x3de8ed0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x3dfd560, size 0x24, virtual false, abstract: false, final false
   static inline void Write(ByRef<bool> location, bool value);
 
-  /// @brief Method Write, addr 0x3de8f0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x3dfd59c, size 0x24, virtual false, abstract: false, final false
   static inline void Write(ByRef<int32_t> location, int32_t value);
 
 protected:

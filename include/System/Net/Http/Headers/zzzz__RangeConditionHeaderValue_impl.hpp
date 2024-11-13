@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RangeConditionHeaderValue::*)(::System::DateTimeOffset)>(
     &::System::Net::Http::Headers::RangeConditionHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x41aef94;
+  constexpr static std::size_t addrs = 0x41c36ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RangeConditionHeaderValue::*)(
     ::System::Net::Http::Headers::EntityTagHeaderValue*)>(&::System::Net::Http::Headers::RangeConditionHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x41af024;
+  constexpr static std::size_t addrs = 0x41c373c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::DateTimeOffset> (::System::Net::Http::Headers::RangeConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RangeConditionHeaderValue::get_Date)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41af098;
+  constexpr static std::size_t addrs = 0x41c37b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RangeConditionHeaderValue*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RangeConditionHeaderValue::*)(::System::Nullable_1<::System::DateTimeOffset>)>(
     &::System::Net::Http::Headers::RangeConditionHeaderValue::set_Date)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41af0ac;
+  constexpr static std::size_t addrs = 0x41c37c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::Headers::EntityTagHeaderValue* (::System::Net::Http::Headers::RangeConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RangeConditionHeaderValue::get_EntityTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41af0c0;
+  constexpr static std::size_t addrs = 0x41c37d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RangeConditionHeaderValue*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RangeConditionHeaderValue::*)(
     ::System::Net::Http::Headers::EntityTagHeaderValue*)>(&::System::Net::Http::Headers::RangeConditionHeaderValue::set_EntityTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41af0c8;
+  constexpr static std::size_t addrs = 0x41c37e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::Http::Headers::RangeConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RangeConditionHeaderValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41af0d0;
+  constexpr static std::size_t addrs = 0x41c37e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RangeConditionHeaderValue*>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::RangeConditionHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::RangeConditionHeaderValue::Equals)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x41af0d8;
+  constexpr static std::size_t addrs = 0x41c37f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::RangeConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RangeConditionHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x41af21c;
+  constexpr static std::size_t addrs = 0x41c3934;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::Net::Http::Headers::RangeConditionHeaderValue*>)>(
     &::System::Net::Http::Headers::RangeConditionHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x41af2a0;
+  constexpr static std::size_t addrs = 0x41c39b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::RangeConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RangeConditionHeaderValue::ToString)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x41af4e4;
+  constexpr static std::size_t addrs = 0x41c3bfc;
 
   inline static ::MethodInfo const* methodInfo() {
 

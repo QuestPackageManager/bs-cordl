@@ -15,7 +15,6 @@
 #include "GlobalNamespace/zzzz__NoteLineLayer_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 #include "GlobalNamespace/zzzz__SliderData_def.hpp"
-#include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapObjectSpawnController__InitData._ctor
@@ -24,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapObjectSpawnController__InitData::*)(
     float_t, int32_t, float_t, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType, float_t)>(&::GlobalNamespace::__BeatmapObjectSpawnController__InitData::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3a74bac;
+  constexpr static std::size_t addrs = 0x3a8859c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::get_noteLinesCount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a73ad4;
+  constexpr static std::size_t addrs = 0x3a875ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),
@@ -134,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::get_jumpOffsetY)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3a73af0;
+  constexpr static std::size_t addrs = 0x3a875c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),
@@ -148,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::get_moveDuration)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a73ba8;
+  constexpr static std::size_t addrs = 0x3a87680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),
@@ -162,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::get_jumpDuration)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a73bc4;
+  constexpr static std::size_t addrs = 0x3a8769c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),
@@ -176,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::get_jumpDistance)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a73be0;
+  constexpr static std::size_t addrs = 0x3a876b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),
@@ -190,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::get_verticalLayerDistance)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3a73bfc;
+  constexpr static std::size_t addrs = 0x3a876d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),
@@ -204,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::get_noteJumpMovementSpeed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a73c28;
+  constexpr static std::size_t addrs = 0x3a87700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),
@@ -218,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::get_noteLinesDistance)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3a73c44;
+  constexpr static std::size_t addrs = 0x3a8771c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),
@@ -232,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectSpawnMovementData* (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::get_beatmapObjectSpawnMovementData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a73c70;
+  constexpr static std::size_t addrs = 0x3a87748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -247,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::get_isInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a73c78;
+  constexpr static std::size_t addrs = 0x3a87750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),
@@ -261,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnController::*)(::System::Action*)>(
     &::GlobalNamespace::BeatmapObjectSpawnController::add_didInitEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3a73c80;
+  constexpr static std::size_t addrs = 0x3a87758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -276,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnController::*)(::System::Action*)>(
     &::GlobalNamespace::BeatmapObjectSpawnController::remove_didInitEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3a73d1c;
+  constexpr static std::size_t addrs = 0x3a877f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,8 +289,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::Start)> {
-  constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x3a73db8;
+  constexpr static std::size_t size = 0x2ec;
+  constexpr static std::size_t addrs = 0x3a87890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(), "Start",
@@ -304,8 +303,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::OnDestroy)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3a7427c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x3a87ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),
@@ -318,8 +317,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnController::*)(::GlobalNamespace::ObstacleData*)>(
     &::GlobalNamespace::BeatmapObjectSpawnController::HandleObstacleDataCallback)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3a742e4;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x3a87d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -333,8 +332,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnController::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::BeatmapObjectSpawnController::HandleNoteDataCallback)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3a74568;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x3a87f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,28 +347,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnController::*)(::GlobalNamespace::SliderData*)>(
     &::GlobalNamespace::BeatmapObjectSpawnController::HandleSliderDataCallback)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3a74770;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x3a8818c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(), "HandleSliderDataCallback", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderData*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::BeatmapObjectSpawnController.HandleSpawnRotationCallback
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnController::*)(::GlobalNamespace::SpawnRotationBeatmapEventData*)>(
-    &::GlobalNamespace::BeatmapObjectSpawnController::HandleSpawnRotationCallback)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a74a08;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(), "HandleSpawnRotationCallback", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SpawnRotationBeatmapEventData*>::get() })));
     return ___internal_method;
   }
 };
@@ -379,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::StopSpawning)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a74a24;
+  constexpr static std::size_t addrs = 0x3a88414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),
@@ -393,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::BeatmapObjectSpawnController::*)(
     int32_t, ::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::BeatmapObjectSpawnController::Get2DNoteOffset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a74a30;
+  constexpr static std::size_t addrs = 0x3a88420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -409,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnController::*)(::GlobalNamespace::NoteLineLayer, float_t)>(
     &::GlobalNamespace::BeatmapObjectSpawnController::JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3a74a6c;
+  constexpr static std::size_t addrs = 0x3a8845c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -426,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnController::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnController::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3a74af4;
+  constexpr static std::size_t addrs = 0x3a884e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(), ".ctor",
@@ -580,31 +564,6 @@ constexpr void GlobalNamespace::BeatmapObjectSpawnController::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sliderDataCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::BeatmapObjectSpawnController::__cordl_internal_get__spawnRotationCallbackWrapper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____spawnRotationCallbackWrapper;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const&
-GlobalNamespace::BeatmapObjectSpawnController::__cordl_internal_get__spawnRotationCallbackWrapper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____spawnRotationCallbackWrapper;
-}
-constexpr void GlobalNamespace::BeatmapObjectSpawnController::__cordl_internal_set__spawnRotationCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spawnRotationCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr float_t& GlobalNamespace::BeatmapObjectSpawnController::__cordl_internal_get__spawnRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____spawnRotation;
-}
-constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnController::__cordl_internal_get__spawnRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____spawnRotation;
-}
-constexpr void GlobalNamespace::BeatmapObjectSpawnController::__cordl_internal_set__spawnRotation(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____spawnRotation = value;
-}
 inline int32_t GlobalNamespace::BeatmapObjectSpawnController::get_noteLinesCount() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),
                                                                              "get_noteLinesCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -695,12 +654,6 @@ inline void GlobalNamespace::BeatmapObjectSpawnController::HandleSliderDataCallb
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(), "HandleSliderDataCallback", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sliderNoteData);
-}
-inline void GlobalNamespace::BeatmapObjectSpawnController::HandleSpawnRotationCallback(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(), "HandleSpawnRotationCallback", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SpawnRotationBeatmapEventData*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapEventData);
 }
 inline void GlobalNamespace::BeatmapObjectSpawnController::StopSpawning() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnController*>::get(),

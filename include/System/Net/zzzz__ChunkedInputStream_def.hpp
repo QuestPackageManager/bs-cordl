@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_Offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44458c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4459fdc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Net::HttpStreamAsyncResult* ares);
 
 protected:
@@ -131,7 +131,7 @@ public:
   ::System::Net::HttpStreamAsyncResult* ___Ares;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9644 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -171,22 +171,22 @@ public:
   /// @brief Field no_more_data, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_no_more_data, put = __cordl_internal_set_no_more_data)) bool no_more_data;
 
-  /// @brief Method BeginRead, addr 0x44455d8, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x4459cf0, size 0x2ec, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
 
-  /// @brief Method Close, addr 0x4446114, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x445a82c, size 0x1c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method EndRead, addr 0x4445e88, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x445a5a0, size 0x28c, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* ares);
 
   static inline ::System::Net::ChunkedInputStream* New_ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
                                                             int32_t length);
 
-  /// @brief Method OnRead, addr 0x444590c, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method OnRead, addr 0x445a024, size 0x3a0, virtual false, abstract: false, final false
   inline void OnRead(::System::IAsyncResult* base_ares);
 
-  /// @brief Method Read, addr 0x444559c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x4459cb4, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Read(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer, int32_t offset, int32_t count);
 
   constexpr ::System::Net::HttpListenerContext*& __cordl_internal_get_context();
@@ -213,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set_no_more_data(bool value);
 
-  /// @brief Method .ctor, addr 0x444549c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4459bb4, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
 protected:
@@ -243,7 +243,7 @@ public:
   bool ___no_more_data;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

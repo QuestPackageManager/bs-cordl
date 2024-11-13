@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextAsset> (::BGLib::Polyglot::LocalizationDocument::*)()>(
     &::BGLib::Polyglot::LocalizationDocument::get_TextAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226f59c;
+  constexpr static std::size_t addrs = 0x227a550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationDocument*>::get(), "get_TextAsset",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::Polyglot::LocalizationDocument::*)()>(&::BGLib::Polyglot::LocalizationDocument::get_DocsId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226f5a4;
+  constexpr static std::size_t addrs = 0x227a558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationDocument*>::get(), "get_DocsId",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::Polyglot::LocalizationDocument::*)()>(&::BGLib::Polyglot::LocalizationDocument::get_SheetId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226f5ac;
+  constexpr static std::size_t addrs = 0x227a560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationDocument*>::get(), "get_SheetId",
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::GoogleDriveDownloadFormat (::BGLib::Polyglot::LocalizationDocument::*)()>(
     &::BGLib::Polyglot::LocalizationDocument::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226f5b4;
+  constexpr static std::size_t addrs = 0x227a568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationDocument*>::get(), "get_Format",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationDocument::*)()>(&::BGLib::Polyglot::LocalizationDocument::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x226f5bc;
+  constexpr static std::size_t addrs = 0x227a570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationDocument*>::get(), ".ctor",

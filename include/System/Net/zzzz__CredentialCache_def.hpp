@@ -25,10 +25,10 @@ namespace System::Net {
 class CORDL_TYPE CredentialCache : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_DefaultCredentials, addr 0x44278fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultCredentials, addr 0x443c014, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::ICredentials* get_DefaultCredentials();
 
-  /// @brief Method get_DefaultNetworkCredentials, addr 0x4427954, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultNetworkCredentials, addr 0x443c06c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkCredential* get_DefaultNetworkCredentials();
 
 protected:
@@ -46,7 +46,7 @@ public:
   CredentialCache(CredentialCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9550 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -71,7 +71,7 @@ public:
   static ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition const ShowIf;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4542 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -103,12 +103,12 @@ public:
   /// @brief Field _layoutProvider, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider)) ::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
 
-  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x3b52b20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x3b6860c, size 0x58, virtual false, abstract: false, final false
   inline void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t playersCount);
 
   static inline ::GlobalNamespace::MultiplayerConditionalActiveByLayout* New_ctor();
 
-  /// @brief Method Start, addr 0x3b52a80, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b6856c, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition const& __cordl_internal_get__condition() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
 
-  /// @brief Method .ctor, addr 0x3b52b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b68664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,7 +156,7 @@ public:
   ::GlobalNamespace::MultiplayerLayoutProvider* ____layoutProvider;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4543 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

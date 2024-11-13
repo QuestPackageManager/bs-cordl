@@ -124,7 +124,7 @@ public:
   static ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const WaitingForCountdown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4821 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -148,10 +148,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b92700, size 0x4d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ba82c8, size 0x4d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b92bd0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ba8798, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -191,7 +191,7 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4822 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -271,21 +271,21 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method ClearLoading, addr 0x3b924c8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ClearLoading, addr 0x3ba8090, size 0x34, virtual false, abstract: false, final false
   inline void ClearLoading();
 
-  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x3b923c8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x3ba7f90, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* LoadBeatmapLevelDataAsync(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData);
 
-  /// @brief Method LoadLevel, addr 0x3b92338, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LoadLevel, addr 0x3ba7f00, size 0x90, virtual false, abstract: false, final false
   inline void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, int64_t initialStartTime);
 
   static inline ::GlobalNamespace::MultiplayerLevelLoader* New_ctor();
 
-  /// @brief Method SetNewStartTime, addr 0x3b924c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNewStartTime, addr 0x3ba8088, size 0x8, virtual false, abstract: false, final false
   inline void SetNewStartTime(int64_t newStartTime);
 
-  /// @brief Method Tick, addr 0x3b924fc, size 0x1fc, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x3ba80c4, size 0x1fc, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::GlobalNamespace::IBeatmapLevelData*& __cordl_internal_get__beatmapLevelData();
@@ -361,22 +361,22 @@ public:
 
   constexpr void __cordl_internal_set_stillDownloadingSongEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b926f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba82c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_countdownFinishedEvent, addr 0x3b921d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_countdownFinishedEvent, addr 0x3ba7da0, size 0xb0, virtual false, abstract: false, final false
   inline void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
-  /// @brief Method add_stillDownloadingSongEvent, addr 0x3b920a0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_stillDownloadingSongEvent, addr 0x3ba7c68, size 0x9c, virtual false, abstract: false, final false
   inline void add_stillDownloadingSongEvent(::System::Action* value);
 
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_countdownFinishedEvent, addr 0x3b92288, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_countdownFinishedEvent, addr 0x3ba7e50, size 0xb0, virtual false, abstract: false, final false
   inline void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
-  /// @brief Method remove_stillDownloadingSongEvent, addr 0x3b9213c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_stillDownloadingSongEvent, addr 0x3ba7d04, size 0x9c, virtual false, abstract: false, final false
   inline void remove_stillDownloadingSongEvent(::System::Action* value);
 
 protected:
@@ -430,7 +430,7 @@ public:
   bool ____stillDownloadingCalled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4823 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

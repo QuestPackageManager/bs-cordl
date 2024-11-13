@@ -53,22 +53,22 @@ public:
   /// @brief Method DebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T>* styleValue);
 
-  /// @brief Method ToLength, addr 0x4a0b9f0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x4a20108, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToLength, addr 0x4a0be8c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x4a205a4, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength styleLength);
 
-  /// @brief Method ToRotate, addr 0x4a0baf0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ToRotate, addr 0x4a20208, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToScale, addr 0x4a0bc48, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToScale, addr 0x4a20360, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToTranslate, addr 0x4a0bd4c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ToTranslate, addr 0x4a20464, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToYogaValue, addr 0x4a0b8a4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ToYogaValue, addr 0x4a1ffbc, size 0x14c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaValue ToYogaValue(::UnityEngine::UIElements::Length length);
 
 protected:
@@ -86,7 +86,7 @@ public:
   StyleValueExtensions(StyleValueExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6083 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

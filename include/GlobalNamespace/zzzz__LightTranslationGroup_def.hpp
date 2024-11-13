@@ -72,7 +72,7 @@ public:
 
   static inline ::GlobalNamespace::LightTranslationGroup* New_ctor();
 
-  /// @brief Method __Validate, addr 0x3b179b0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method __Validate, addr 0x3b2ce00, size 0x214, virtual false, abstract: false, final false
   inline bool __Validate();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__xDistributionLimits() const;
@@ -111,25 +111,25 @@ public:
 
   constexpr void __cordl_internal_set__zTranslationLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3b17bc4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2d014, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_xDistributionLimits, addr 0x3b17998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xDistributionLimits, addr 0x3b2cde8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_xDistributionLimits();
 
-  /// @brief Method get_xTranslationLimits, addr 0x3b17980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xTranslationLimits, addr 0x3b2cdd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_xTranslationLimits();
 
-  /// @brief Method get_yDistributionLimits, addr 0x3b179a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yDistributionLimits, addr 0x3b2cdf0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_yDistributionLimits();
 
-  /// @brief Method get_yTranslationLimits, addr 0x3b17988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yTranslationLimits, addr 0x3b2cdd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_yTranslationLimits();
 
-  /// @brief Method get_zDistributionLimits, addr 0x3b179a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zDistributionLimits, addr 0x3b2cdf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_zDistributionLimits();
 
-  /// @brief Method get_zTranslationLimits, addr 0x3b17990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zTranslationLimits, addr 0x3b2cde0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_zTranslationLimits();
 
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
@@ -168,7 +168,7 @@ public:
   ::UnityEngine::Vector2 ____zDistributionLimits;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

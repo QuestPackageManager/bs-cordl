@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set__colorStyle(::GlobalNamespace::ColorStyle* value);
 
-  /// @brief Method .ctor, addr 0x2661258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266c300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorStyle, addr 0x2661250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorStyle, addr 0x266c2f8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadOnlyColorStyle* get_colorStyle();
 
 protected:
@@ -62,7 +62,7 @@ public:
   ::GlobalNamespace::ColorStyle* ____colorStyle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18901 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

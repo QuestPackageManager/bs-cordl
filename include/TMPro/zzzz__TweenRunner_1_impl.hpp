@@ -55,7 +55,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ob
 }
 template <typename T> constexpr void TMPro::__TweenRunner_1___Start_d__2<T>::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename T> constexpr T& TMPro::__TweenRunner_1___Start_d__2<T>::__cordl_internal_get_tweenInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -67,7 +67,7 @@ template <typename T> constexpr T const& TMPro::__TweenRunner_1___Start_d__2<T>:
 }
 template <typename T> constexpr void TMPro::__TweenRunner_1___Start_d__2<T>::__cordl_internal_set_tweenInfo(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tweenInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___tweenInfo, value);
 }
 template <typename T> constexpr float_t& TMPro::__TweenRunner_1___Start_d__2<T>::__cordl_internal_get__elapsedTime_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -130,7 +130,7 @@ template <typename T> constexpr ::UnityW<::UnityEngine::MonoBehaviour> const& TM
 }
 template <typename T> constexpr void TMPro::TweenRunner_1<T>::__cordl_internal_set_m_CoroutineContainer(::UnityW<::UnityEngine::MonoBehaviour> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CoroutineContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_CoroutineContainer, value);
 }
 template <typename T> constexpr ::System::Collections::IEnumerator*& TMPro::TweenRunner_1<T>::__cordl_internal_get_m_Tween() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -142,7 +142,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Co
 }
 template <typename T> constexpr void TMPro::TweenRunner_1<T>::__cordl_internal_set_m_Tween(::System::Collections::IEnumerator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Tween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Tween, value);
 }
 template <typename T> inline ::System::Collections::IEnumerator* TMPro::TweenRunner_1<T>::Start(T tweenInfo) {
   static auto* ___internal_method =

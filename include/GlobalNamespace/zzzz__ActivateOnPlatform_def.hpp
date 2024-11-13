@@ -29,7 +29,7 @@ public:
   /// @brief Field _vrPlatformSdk, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__vrPlatformSdk, put = __cordl_internal_set__vrPlatformSdk)) ::GlobalNamespace::VRPlatformSDK _vrPlatformSdk;
 
-  /// @brief Method Awake, addr 0x3956034, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3969dfc, size 0xd0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ActivateOnPlatform* New_ctor();
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformSdk(::GlobalNamespace::VRPlatformSDK value);
 
-  /// @brief Method .ctor, addr 0x3956104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3969ecc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -43,10 +43,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x4933918, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x4948030, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Color32 __cctor_b__2_0(::UnityEngine::Color c);
 
-  /// @brief Method .ctor, addr 0x4933910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4948028, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c* getStaticF___9();
@@ -68,7 +68,7 @@ public:
   __ShaderInfoStorageRGBA32____c(__ShaderInfoStorageRGBA32____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6362 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -91,7 +91,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32* New_ctor(int32_t initialSize, int32_t maxSize);
 
-  /// @brief Method .ctor, addr 0x493375c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4947e74, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialSize, int32_t maxSize);
 
   static inline ::System::Func_2<::UnityEngine::Color, ::UnityEngine::Color32>* getStaticF_s_Convert();
@@ -113,7 +113,7 @@ public:
   ShaderInfoStorageRGBA32(ShaderInfoStorageRGBA32 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6363 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

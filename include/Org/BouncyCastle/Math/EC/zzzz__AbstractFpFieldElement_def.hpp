@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Math::EC::AbstractFpFieldElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x241284c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241d8f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

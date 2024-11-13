@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)(::StringW)>(&::HoudiniEngineUnity::HEU_MaterialFactory::FindShader)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x39ec07c;
+  constexpr static std::size_t addrs = 0x39ff9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)(::StringW)>(&::HoudiniEngineUnity::HEU_MaterialFactory::FindPluginShader)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x39eaec8;
+  constexpr static std::size_t addrs = 0x39fe820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::StringW, ::StringW, ::StringW, bool)>(
     &::HoudiniEngineUnity::HEU_MaterialFactory::GetNewMaterialWithShader)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x39ec0c8;
+  constexpr static std::size_t addrs = 0x39ffa20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::StringW, ::StringW, bool)>(
     &::HoudiniEngineUnity::HEU_MaterialFactory::CreateNewHoudiniStandardMaterial)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39ec2f4;
+  constexpr static std::size_t addrs = 0x39ffc4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*, ::StringW, ::StringW, bool)>(
     &::HoudiniEngineUnity::HEU_MaterialFactory::WriteMaterialToAssetCache)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x39ec32c;
+  constexpr static std::size_t addrs = 0x39ffc84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Material*)>(&::HoudiniEngineUnity::HEU_MaterialFactory::DoesMaterialExistInAssetCache)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39ec420;
+  constexpr static std::size_t addrs = 0x39ffd78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*, bool)>(&::HoudiniEngineUnity::HEU_MaterialFactory::DestroyNonAssetMaterial)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x39ec444;
+  constexpr static std::size_t addrs = 0x39ffd9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::HoudiniEngineUnity::HEU_MaterialFactory::DeleteAssetMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ec4e4;
+  constexpr static std::size_t addrs = 0x39ffe3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::Texture2D> (*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HAPI_MaterialInfo, int32_t, ::StringW, ::StringW, bool, bool)>(
         &::HoudiniEngineUnity::HEU_MaterialFactory::RenderAndExtractImageToTexture)> {
   constexpr static std::size_t size = 0x47c;
-  constexpr static std::size_t addrs = 0x39eb73c;
+  constexpr static std::size_t addrs = 0x39ff094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HAPI_MaterialInfo, ::StringW)>(&::HoudiniEngineUnity::HEU_MaterialFactory::ExtractHoudiniImageToTexturePNGJPEG)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x39ec7e8;
+  constexpr static std::size_t addrs = 0x3a00140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HAPI_MaterialInfo, ::StringW)>(&::HoudiniEngineUnity::HEU_MaterialFactory::ExtractHoudiniImageToTextureRaw)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x39ec4ec;
+  constexpr static std::size_t addrs = 0x39ffe44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HAPI_MaterialInfo, ::StringW, ::StringW)>(&::HoudiniEngineUnity::HEU_MaterialFactory::ExtractHoudiniImageToTextureFile)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x39ec918;
+  constexpr static std::size_t addrs = 0x3a00270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::StringW)>(&::HoudiniEngineUnity::HEU_MaterialFactory::LoadUnityMaterial)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x39ecab0;
+  constexpr static std::size_t addrs = 0x3a00408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::StringW, ::StringW)>(
     &::HoudiniEngineUnity::HEU_MaterialFactory::LoadSubstanceMaterialWithName)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x39ecd7c;
+  constexpr static std::size_t addrs = 0x3a006d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::StringW, int32_t)>(
     &::HoudiniEngineUnity::HEU_MaterialFactory::LoadSubstanceMaterialWithIndex)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x39ecf5c;
+  constexpr static std::size_t addrs = 0x3a008b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::StringW, int32_t)>(
     &::HoudiniEngineUnity::HEU_MaterialFactory::GetUnitySubstanceMaterialKey)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x39ed1d0;
+  constexpr static std::size_t addrs = 0x3a00b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::HoudiniEngineUnity::HEU_MaterialFactory::MaterialNameToKey)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39ed2e8;
+  constexpr static std::size_t addrs = 0x3a00c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::HoudiniEngineUnity::HEU_MaterialFactory::EnableGPUInstancing)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39ed304;
+  constexpr static std::size_t addrs = 0x3a00c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Material*)>(&::HoudiniEngineUnity::HEU_MaterialFactory::MaterialHasGPUInstancingEnabled)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39ed31c;
+  constexpr static std::size_t addrs = 0x3a00c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*)>(
     &::HoudiniEngineUnity::HEU_MaterialFactory::CopyMaterial)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x39ed330;
+  constexpr static std::size_t addrs = 0x3a00c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::HoudiniEngineUnity::HEU_MaterialFactory::GetDefaultStandardMaterial)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x39ed38c;
+  constexpr static std::size_t addrs = 0x3a00ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MaterialFactory*>::get(),
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)(::StringW)>(&::HoudiniEngineUnity::HEU_MaterialFactory::LoadTexture)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x39ed458;
+  constexpr static std::size_t addrs = 0x3a00db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)()>(&::HoudiniEngineUnity::HEU_MaterialFactory::WhiteTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ed590;
+  constexpr static std::size_t addrs = 0x3a00ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MaterialFactory*>::get(),
@@ -365,7 +365,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::StringW, ::StringW, int32_t, ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*, ::StringW)>(
     &::HoudiniEngineUnity::HEU_MaterialFactory::CreateUnitySubstanceMaterialData)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x39ed598;
+  constexpr static std::size_t addrs = 0x3a00ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -384,7 +384,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::StringW, ::HoudiniEngineUnity::__HEU_MaterialData__Source, bool, ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*, ::StringW)>(
     &::HoudiniEngineUnity::HEU_MaterialFactory::CreateMaterialInCache)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x39ed90c;
+  constexpr static std::size_t addrs = 0x3a01264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -404,7 +404,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, bool, ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*, ::StringW)>(
     &::HoudiniEngineUnity::HEU_MaterialFactory::GetOrCreateDefaultMaterialInCache)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x39eda70;
+  constexpr static std::size_t addrs = 0x3a013c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -423,7 +423,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HoudiniEngineUnity::HEU_MaterialData> (*)(
     int32_t, ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*)>(&::HoudiniEngineUnity::HEU_MaterialFactory::GetMaterialDataFromCache)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x39edc18;
+  constexpr static std::size_t addrs = 0x3a01570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_MaterialFactory::GenerateDefaultMaterialName)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x39edb5c;
+  constexpr static std::size_t addrs = 0x3a014b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -455,7 +455,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, int32_t, int32_t, ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*, ::StringW)>(
     &::HoudiniEngineUnity::HEU_MaterialFactory::CreateHoudiniMaterialData)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x39edd70;
+  constexpr static std::size_t addrs = 0x3a016c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -475,7 +475,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* (*)(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*)>(
     &::HoudiniEngineUnity::HEU_MaterialFactory::GetMaterialDataMapFromCache)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x39ee154;
+  constexpr static std::size_t addrs = 0x3a01aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

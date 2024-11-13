@@ -89,7 +89,7 @@ public:
   ::System::Object* Object;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12653 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -127,30 +127,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x4ad8144, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4aec85c, size 0xe4, virtual false, abstract: false, final false
   inline void Add(::System::IDisposable* disposable);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddRange(::System::Collections::Generic::IList_1<T>* disposables);
 
-  /// @brief Method Dispose, addr 0x4ad8304, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4aeca1c, size 0x80, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LazyInitializeDisposableList, addr 0x4ad8050, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeDisposableList, addr 0x4aec768, size 0xf4, virtual false, abstract: false, final false
   inline void LazyInitializeDisposableList();
 
   static inline ::Zenject::DisposeBlock* New_ctor();
 
-  /// @brief Method OnDespawned, addr 0x4ad7cf0, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method OnDespawned, addr 0x4aec408, size 0x360, virtual false, abstract: false, final false
   static inline void OnDespawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method OnSpawned, addr 0x4ad7cc4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnSpawned, addr 0x4aec3dc, size 0x2c, virtual false, abstract: false, final false
   static inline void OnSpawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method Remove, addr 0x4ad8228, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4aec940, size 0x64, virtual false, abstract: false, final false
   inline void Remove(::System::IDisposable* disposable);
 
-  /// @brief Method Spawn, addr 0x4ad828c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Spawn, addr 0x4aec9a4, size 0x78, virtual false, abstract: false, final false
   static inline ::Zenject::DisposeBlock* Spawn();
 
   /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -204,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set__objectPoolPairs(::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* value);
 
-  /// @brief Method .ctor, addr 0x4ad8384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aeca9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* getStaticF__pool();
@@ -235,7 +235,7 @@ public:
   ::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* ____objectPoolPairs;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12654 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,15 +31,15 @@ namespace System::ComponentModel {
 class CORDL_TYPE StringConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x43e3fdc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x43f86f4, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x43e40a4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x43f87bc, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
   static inline ::System::ComponentModel::StringConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43e4148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43f8860, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   StringConverter(StringConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9391 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

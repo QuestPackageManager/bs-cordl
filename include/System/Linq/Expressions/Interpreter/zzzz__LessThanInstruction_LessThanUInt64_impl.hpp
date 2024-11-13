@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanUInt64::*)(::System::Object*)>(
     &::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanUInt64::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x405f238;
+  constexpr static std::size_t addrs = 0x4073950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanUInt64::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanUInt64::Run)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x405f990;
+  constexpr static std::size_t addrs = 0x40740a8;
 
   inline static ::MethodInfo const* methodInfo() {
 

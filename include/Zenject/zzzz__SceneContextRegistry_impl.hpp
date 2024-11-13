@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* (::Zenject::SceneContextRegistry::*)()>(&::Zenject::SceneContextRegistry::get_SceneContexts)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4ad09d8;
+  constexpr static std::size_t addrs = 0x4ae50f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistry*>::get(), "get_SceneContexts",
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContextRegistry::*)(::Zenject::SceneContext*)>(&::Zenject::SceneContextRegistry::Add)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4ad26bc;
+  constexpr static std::size_t addrs = 0x4ae6dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Zenject::SceneContext> (::Zenject::SceneContextRegistry::*)(::StringW)>(
     &::Zenject::SceneContextRegistry::GetSceneContextForScene)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4ad278c;
+  constexpr static std::size_t addrs = 0x4ae6ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Zenject::SceneContext> (::Zenject::SceneContextRegistry::*)(::UnityEngine::SceneManagement::Scene)>(
     &::Zenject::SceneContextRegistry::GetSceneContextForScene)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4ad2838;
+  constexpr static std::size_t addrs = 0x4ae6f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Zenject::SceneContext> (::Zenject::SceneContextRegistry::*)(::StringW)>(
     &::Zenject::SceneContextRegistry::TryGetSceneContextForScene)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4ad2890;
+  constexpr static std::size_t addrs = 0x4ae6fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Zenject::SceneContext> (::Zenject::SceneContextRegistry::*)(::UnityEngine::SceneManagement::Scene)>(
     &::Zenject::SceneContextRegistry::TryGetSceneContextForScene)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4ad293c;
+  constexpr static std::size_t addrs = 0x4ae7054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (::Zenject::SceneContextRegistry::*)(::UnityEngine::SceneManagement::Scene)>(
     &::Zenject::SceneContextRegistry::GetContainerForScene)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4ad29b4;
+  constexpr static std::size_t addrs = 0x4ae70cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (::Zenject::SceneContextRegistry::*)(::UnityEngine::SceneManagement::Scene)>(
     &::Zenject::SceneContextRegistry::TryGetContainerForScene)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4ad2a58;
+  constexpr static std::size_t addrs = 0x4ae7170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContextRegistry::*)(::Zenject::SceneContext*)>(&::Zenject::SceneContextRegistry::Remove)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4ad2b44;
+  constexpr static std::size_t addrs = 0x4ae725c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContextRegistry::*)()>(&::Zenject::SceneContextRegistry::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4ad2c50;
+  constexpr static std::size_t addrs = 0x4ae7368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistry*>::get(), ".ctor",
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SceneContextRegistry::__zenCreate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4ad2ccc;
+  constexpr static std::size_t addrs = 0x4ae73e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SceneContextRegistry::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4ad2d1c;
+  constexpr static std::size_t addrs = 0x4ae7434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistry*>::get(),

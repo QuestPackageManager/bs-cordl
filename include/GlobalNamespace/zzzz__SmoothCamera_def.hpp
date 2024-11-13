@@ -51,19 +51,19 @@ public:
   /// @brief Field _thirdPersonPosition, offset 0x30, size 0xc
   __declspec(property(get = __cordl_internal_get__thirdPersonPosition, put = __cordl_internal_set__thirdPersonPosition)) ::UnityEngine::Vector3 _thirdPersonPosition;
 
-  /// @brief Method Init, addr 0x3b7429c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b89d90, size 0x1a8, virtual false, abstract: false, final false
   inline void Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition,
                    ::UnityEngine::Vector3 thirdPersonEulerAngles);
 
-  /// @brief Method LateUpdate, addr 0x3b74484, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b89f78, size 0x1f4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SmoothCamera* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b74464, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b89f58, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b74444, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b89f38, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__thirdPersonPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3b74678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8a16c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,7 +147,7 @@ public:
   float_t ____positionSmooth;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4673 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4676 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

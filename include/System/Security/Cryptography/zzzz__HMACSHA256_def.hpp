@@ -25,10 +25,10 @@ public:
 
   static inline ::System::Security::Cryptography::HMACSHA256* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x3c2ba78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c40108, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c2ba9c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4012c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
 protected:

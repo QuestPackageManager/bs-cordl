@@ -61,10 +61,10 @@ public:
 
   static inline ::UnityEngine::Timeline::SignalEmitter* New_ctor();
 
-  /// @brief Method UnityEngine.Playables.INotification.get_id, addr 0x47af0d8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Playables.INotification.get_id, addr 0x47c37f0, size 0xc0, virtual true, abstract: false, final true
   inline ::UnityEngine::PropertyName UnityEngine_Playables_INotification_get_id();
 
-  /// @brief Method UnityEngine.Timeline.INotificationOptionProvider.get_flags, addr 0x47af198, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.INotificationOptionProvider.get_flags, addr 0x47c38b0, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::NotificationFlags UnityEngine_Timeline_INotificationOptionProvider_get_flags();
 
   constexpr ::UnityW<::UnityEngine::Timeline::SignalAsset> const& __cordl_internal_get_m_Asset() const;
@@ -85,16 +85,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Retroactive(bool value);
 
-  /// @brief Method .ctor, addr 0x47af1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c38cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_asset, addr 0x47af0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x47c37e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Timeline::SignalAsset> get_asset();
 
-  /// @brief Method get_emitOnce, addr 0x47af0b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_emitOnce, addr 0x47c37cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_emitOnce();
 
-  /// @brief Method get_retroactive, addr 0x47af0a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_retroactive, addr 0x47c37b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_retroactive();
 
   /// @brief Convert to "::UnityEngine::Playables::INotification"
@@ -103,13 +103,13 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::INotificationOptionProvider"
   constexpr ::UnityEngine::Timeline::INotificationOptionProvider* i___UnityEngine__Timeline__INotificationOptionProvider() noexcept;
 
-  /// @brief Method set_asset, addr 0x47af0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_asset, addr 0x47c37e8, size 0x8, virtual false, abstract: false, final false
   inline void set_asset(::UnityEngine::Timeline::SignalAsset* value);
 
-  /// @brief Method set_emitOnce, addr 0x47af0bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_emitOnce, addr 0x47c37d4, size 0xc, virtual false, abstract: false, final false
   inline void set_emitOnce(bool value);
 
-  /// @brief Method set_retroactive, addr 0x47af0a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_retroactive, addr 0x47c37c0, size 0xc, virtual false, abstract: false, final false
   inline void set_retroactive(bool value);
 
 protected:
@@ -136,7 +136,7 @@ public:
   ::UnityW<::UnityEngine::Timeline::SignalAsset> ___m_Asset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

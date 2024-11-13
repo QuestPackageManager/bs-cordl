@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SignalOnToggleChange::*)()>(&::GlobalNamespace::SignalOnToggleChange::Start)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x395c8fc;
+  constexpr static std::size_t addrs = 0x3970180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SignalOnToggleChange*>::get(), "Start",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SignalOnToggleChange::*)()>(&::GlobalNamespace::SignalOnToggleChange::OnDestroy)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x395c9a0;
+  constexpr static std::size_t addrs = 0x3970224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SignalOnToggleChange*>::get(), "OnDestroy",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SignalOnToggleChange::*)(bool)>(&::GlobalNamespace::SignalOnToggleChange::RaiseSignal)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x395ca88;
+  constexpr static std::size_t addrs = 0x397030c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SignalOnToggleChange::*)()>(&::GlobalNamespace::SignalOnToggleChange::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x395caa8;
+  constexpr static std::size_t addrs = 0x397032c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SignalOnToggleChange*>::get(), ".ctor",

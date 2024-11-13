@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)(::System::Action*)>(
     &::GlobalNamespace::PauseAnimationController::add_resumeFromPauseAnimationDidFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b33654;
+  constexpr static std::size_t addrs = 0x3b4910c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)(::System::Action*)>(
     &::GlobalNamespace::PauseAnimationController::remove_resumeFromPauseAnimationDidFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b336f0;
+  constexpr static std::size_t addrs = 0x3b491a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)()>(&::GlobalNamespace::PauseAnimationController::Awake)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b3378c;
+  constexpr static std::size_t addrs = 0x3b49244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseAnimationController*>::get(), "Awake",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)()>(
     &::GlobalNamespace::PauseAnimationController::StartEnterPauseAnimation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b337bc;
+  constexpr static std::size_t addrs = 0x3b49274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseAnimationController*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)()>(
     &::GlobalNamespace::PauseAnimationController::StartResumeFromPauseAnimation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b33834;
+  constexpr static std::size_t addrs = 0x3b492ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseAnimationController*>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)()>(
     &::GlobalNamespace::PauseAnimationController::EnterPauseAnimationDidFinish)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b338ac;
+  constexpr static std::size_t addrs = 0x3b49364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseAnimationController*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)()>(
     &::GlobalNamespace::PauseAnimationController::ResumeFromPauseAnimationDidFinish)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b338dc;
+  constexpr static std::size_t addrs = 0x3b49394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseAnimationController::*)()>(&::GlobalNamespace::PauseAnimationController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3392c;
+  constexpr static std::size_t addrs = 0x3b493e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseAnimationController*>::get(), ".ctor",

@@ -60,7 +60,7 @@ public:
   DictionaryPool_2(DictionaryPool_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12399 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

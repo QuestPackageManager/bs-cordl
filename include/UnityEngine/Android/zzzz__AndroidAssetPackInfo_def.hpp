@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__transferProgress_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x47d3d7c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e8494, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress,
                     ::UnityEngine::Android::AndroidAssetPackError error);
 
@@ -124,7 +124,7 @@ public:
   ::UnityEngine::Android::AndroidAssetPackError ____error_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -69,7 +69,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __SongRunningHelper__QueuedSongParams {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3a6b588, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7efe0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, bool advancedHud,
                     ::GlobalNamespace::__GameplayModifiers__SongSpeed songSpeed, ::GlobalNamespace::__RecordingToolManager__SetupData recordingToolData, bool zenMode,
                     ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback);
@@ -114,7 +114,7 @@ public:
   bool zenMode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4029 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -171,24 +171,24 @@ public:
   __declspec(property(get = __cordl_internal_get__playQueue,
                       put = __cordl_internal_set__playQueue)) ::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>* _playQueue;
 
-  /// @brief Method EnqueueLevel, addr 0x3a6ae34, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method EnqueueLevel, addr 0x3a7e88c, size 0xd8, virtual false, abstract: false, final false
   inline bool EnqueueLevel(::GlobalNamespace::__SongRunningHelper__QueuedSongParams queuedSongParams);
 
-  /// @brief Method FindBeatmapLevelPackBeatmaps, addr 0x3a6ac00, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method FindBeatmapLevelPackBeatmaps, addr 0x3a7e658, size 0x234, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> FindBeatmapLevelPackBeatmaps(::StringW packId);
 
   static inline ::GlobalNamespace::SongRunningHelper* New_ctor();
 
-  /// @brief Method StartLevel, addr 0x3a6af0c, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method StartLevel, addr 0x3a7e964, size 0x3e8, virtual false, abstract: false, final false
   inline void StartLevel(::GlobalNamespace::__SongRunningHelper__QueuedSongParams queuedSongParams);
 
-  /// @brief Method StopAllLevels, addr 0x3a6b2f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method StopAllLevels, addr 0x3a7ed4c, size 0x60, virtual false, abstract: false, final false
   inline void StopAllLevels();
 
-  /// @brief Method StopCurrentLevel, addr 0x3a6b354, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method StopCurrentLevel, addr 0x3a7edac, size 0x1c, virtual false, abstract: false, final false
   inline void StopCurrentLevel();
 
-  /// @brief Method <StartLevel>g__HandleLevelDidFinishCallback|9_0, addr 0x3a6b3ec, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__HandleLevelDidFinishCallback|9_0, addr 0x3a7ee44, size 0x19c, virtual false, abstract: false, final false
   inline void _StartLevel_g__HandleLevelDidFinishCallback_9_0(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransition,
                                                               ::GlobalNamespace::LevelCompletionResults* results);
 
@@ -228,7 +228,7 @@ public:
 
   constexpr void __cordl_internal_set__playQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>* value);
 
-  /// @brief Method .ctor, addr 0x3a6b370, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7edc8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -264,7 +264,7 @@ public:
   ::System::Nullable_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams> ____current;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4030 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Ba
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::BasicNode_1<T>::__cordl_internal_set_next(::UnityEngine::UIElements::UIR::BasicNode_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___next, value);
 }
 template <typename T> constexpr T& UnityEngine::UIElements::UIR::BasicNode_1<T>::__cordl_internal_get_data() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -25,7 +25,7 @@ template <typename T> constexpr T const& UnityEngine::UIElements::UIR::BasicNode
 }
 template <typename T> constexpr void UnityEngine::UIElements::UIR::BasicNode_1<T>::__cordl_internal_set_data(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___data, value);
 }
 template <typename T> inline void UnityEngine::UIElements::UIR::BasicNode_1<T>::AppendTo(ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> first) {
   static auto* ___internal_method = THROW_UNLESS(

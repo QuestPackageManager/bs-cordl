@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)(
     ::Org::BouncyCastle::Math::Field::IFiniteField*, ::Org::BouncyCastle::Math::Field::IPolynomial*)>(&::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x249c800;
+  constexpr static std::size_t addrs = 0x24a78a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Characteristic)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x249cac8;
+  constexpr static std::size_t addrs = 0x24a7b70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Dimension)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x249cb68;
+  constexpr static std::size_t addrs = 0x24a7c10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::Field::IFiniteField* (
     ::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(&::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Subfield)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x249cc8c;
+  constexpr static std::size_t addrs = 0x24a7d34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Degree)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x249cc94;
+  constexpr static std::size_t addrs = 0x24a7d3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::Field::IPolynomial* (
     ::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(&::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_MinimalPolynomial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x249cd34;
+  constexpr static std::size_t addrs = 0x24a7ddc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)(::System::Object*)>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::Equals)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x249cd3c;
+  constexpr static std::size_t addrs = 0x24a7de4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x249ce0c;
+  constexpr static std::size_t addrs = 0x24a7eb4;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -50,12 +50,12 @@ public:
   __declspec(property(get = __cordl_internal_get_memberTypes, put = __cordl_internal_set_memberTypes)) ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*>
       memberTypes;
 
-  /// @brief Method Clone, addr 0x4252bdc, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x42672f4, size 0x168, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleTypeUnion* New_ctor();
 
-  /// @brief Method SetBaseMemberTypes, addr 0x4252bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBaseMemberTypes, addr 0x42672ec, size 0x8, virtual false, abstract: false, final false
   inline void SetBaseMemberTypes(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> baseMemberTypes);
 
   constexpr ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> const& __cordl_internal_get_baseMemberTypes() const;
@@ -76,19 +76,19 @@ public:
 
   constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> value);
 
-  /// @brief Method .ctor, addr 0x4252d44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x426745c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseMemberTypes, addr 0x4252bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseMemberTypes, addr 0x42672e4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> get_BaseMemberTypes();
 
-  /// @brief Method get_BaseTypes, addr 0x4252bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseTypes, addr 0x42672cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_BaseTypes();
 
-  /// @brief Method get_MemberTypes, addr 0x4252bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberTypes, addr 0x42672d4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> get_MemberTypes();
 
-  /// @brief Method set_MemberTypes, addr 0x4252bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberTypes, addr 0x42672dc, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberTypes(::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> value);
 
 protected:
@@ -115,7 +115,7 @@ public:
   ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> ___baseMemberTypes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7698 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

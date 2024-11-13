@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_minIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x3977528, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398adac, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   float_t ___minIntensity;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16258 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -127,7 +127,7 @@ public:
                                                                       ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*>*>
       _elements;
 
-  /// @brief Method ColorWasSet, addr 0x397745c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x398ace0, size 0xac, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId* New_ctor();
@@ -150,7 +150,7 @@ public:
       ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*>*>
           value);
 
-  /// @brief Method .ctor, addr 0x3977508, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398ad8c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -175,7 +175,7 @@ public:
       ____elements;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16251 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

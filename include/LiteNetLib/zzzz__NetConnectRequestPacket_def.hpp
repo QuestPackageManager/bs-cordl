@@ -45,13 +45,13 @@ public:
   /// @brief Field TargetAddress, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_TargetAddress, put = __cordl_internal_set_TargetAddress)) ::ArrayW<uint8_t, ::Array<uint8_t>*> TargetAddress;
 
-  /// @brief Method FromData, addr 0x3a49500, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method FromData, addr 0x3a5ce58, size 0x170, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetConnectRequestPacket* FromData(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method GetProtocolId, addr 0x3a4943c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetProtocolId, addr 0x3a5cd94, size 0x20, virtual false, abstract: false, final false
   static inline int32_t GetProtocolId(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method Make, addr 0x3a4c630, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x3a5ff88, size 0x144, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetPacket* Make(::LiteNetLib::Utils::NetDataWriter* connectData, ::System::Net::SocketAddress* addressBytes, int64_t connectId);
 
   static inline ::LiteNetLib::NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress,
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetAddress(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3a4c5ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5ff04, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress, ::LiteNetLib::Utils::NetDataReader* data);
 
 protected:
@@ -114,7 +114,7 @@ public:
   static constexpr int32_t HeaderSize{ static_cast<int32_t>(0xe) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16509 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

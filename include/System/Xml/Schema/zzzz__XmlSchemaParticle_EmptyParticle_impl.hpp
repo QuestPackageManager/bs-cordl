@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle::*)()>(
     &::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle::get_IsEmpty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x424a8bc;
+  constexpr static std::size_t addrs = 0x425efd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle::*)()>(
     &::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x424a868;
+  constexpr static std::size_t addrs = 0x425ef80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

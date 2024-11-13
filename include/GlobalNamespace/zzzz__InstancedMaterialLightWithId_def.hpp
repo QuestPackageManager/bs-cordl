@@ -58,10 +58,10 @@ public:
 
   __declspec(property(get = get_intensity, put = set_intensity)) float_t intensity;
 
-  /// @brief Method AddNecessaryComponents, addr 0x3978190, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddNecessaryComponents, addr 0x398ba14, size 0x104, virtual false, abstract: false, final false
   inline void AddNecessaryComponents();
 
-  /// @brief Method ColorWasSet, addr 0x39780e8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x398b96c, size 0xa8, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   static inline ::GlobalNamespace::InstancedMaterialLightWithId* New_ctor();
@@ -120,13 +120,13 @@ public:
 
   constexpr void __cordl_internal_set__startColorWasSet(bool value);
 
-  /// @brief Method .ctor, addr 0x3978294, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398bb18, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_intensity, addr 0x39780c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x398b94c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x39780d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x398b954, size 0x18, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -171,7 +171,7 @@ public:
   bool ____startColorWasSet;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16277 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

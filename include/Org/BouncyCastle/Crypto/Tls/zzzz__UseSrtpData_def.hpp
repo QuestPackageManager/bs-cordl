@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_mProtectionProfiles(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23fd6fc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24087a4, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> protectionProfiles, ::ArrayW<uint8_t, ::Array<uint8_t>*> mki);
 
-  /// @brief Method get_Mki, addr 0x24043cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mki, addr 0x240f474, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Mki();
 
-  /// @brief Method get_ProtectionProfiles, addr 0x24043c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProtectionProfiles, addr 0x240f46c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_ProtectionProfiles();
 
 protected:

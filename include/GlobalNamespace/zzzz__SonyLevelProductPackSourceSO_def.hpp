@@ -73,10 +73,10 @@ public:
 
   static inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c* New_ctor();
 
-  /// @brief Method <.ctor>b__10_0, addr 0x26a88b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__10_0, addr 0x26b4678, size 0x70, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource* __ctor_b__10_0(::GlobalNamespace::BeatmapLevelSO* level, int32_t index);
 
-  /// @brief Method .ctor, addr 0x26a88ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b4670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource____c* getStaticF___9();
@@ -102,7 +102,7 @@ public:
   __SonyLevelProductPackSourceSO__LevelProductPackSource____c(__SonyLevelProductPackSourceSO__LevelProductPackSource____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13156 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -164,19 +164,19 @@ public:
 
   constexpr void __cordl_internal_set__packIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26a8704, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b44c8, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelPackSO* levelPack, int32_t packIndex);
 
-  /// @brief Method get_levelPack, addr 0x26a86ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPack, addr 0x26b44b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> get_levelPack();
 
-  /// @brief Method get_levelProductsData, addr 0x26a86f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelProductsData, addr 0x26b44b8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*> get_levelProductsData();
 
-  /// @brief Method get_packIndex, addr 0x26a86e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packIndex, addr 0x26b44a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_packIndex();
 
-  /// @brief Method set_levelProductsData, addr 0x26a86fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelProductsData, addr 0x26b44c0, size 0x8, virtual false, abstract: false, final false
   inline void
   set_levelProductsData(::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*> value);
 
@@ -204,7 +204,7 @@ public:
   ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductSource*>*> ____levelProductsData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13157 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -294,37 +294,37 @@ public:
 
   constexpr void __cordl_internal_set__ps5SieeDcCode(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26a8924, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b46e8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelSO* level, int32_t levelIndex);
 
-  /// @brief Method get_level, addr 0x26a899c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_level, addr 0x26b4760, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> get_level();
 
-  /// @brief Method get_levelIndex, addr 0x26a8954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelIndex, addr 0x26b4718, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_levelIndex();
 
-  /// @brief Method get_ps4SieaAcCode, addr 0x26a898c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps4SieaAcCode, addr 0x26b4750, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps4SieaAcCode();
 
-  /// @brief Method get_ps4SieeDcCode, addr 0x26a897c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps4SieeDcCode, addr 0x26b4740, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps4SieeDcCode();
 
-  /// @brief Method get_ps5SieaAcCode, addr 0x26a896c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps5SieaAcCode, addr 0x26b4730, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps5SieaAcCode();
 
-  /// @brief Method get_ps5SieeDcCode, addr 0x26a895c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps5SieeDcCode, addr 0x26b4720, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps5SieeDcCode();
 
-  /// @brief Method set_ps4SieaAcCode, addr 0x26a8994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps4SieaAcCode, addr 0x26b4758, size 0x8, virtual false, abstract: false, final false
   inline void set_ps4SieaAcCode(::StringW value);
 
-  /// @brief Method set_ps4SieeDcCode, addr 0x26a8984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps4SieeDcCode, addr 0x26b4748, size 0x8, virtual false, abstract: false, final false
   inline void set_ps4SieeDcCode(::StringW value);
 
-  /// @brief Method set_ps5SieaAcCode, addr 0x26a8974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps5SieaAcCode, addr 0x26b4738, size 0x8, virtual false, abstract: false, final false
   inline void set_ps5SieaAcCode(::StringW value);
 
-  /// @brief Method set_ps5SieeDcCode, addr 0x26a8964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps5SieeDcCode, addr 0x26b4728, size 0x8, virtual false, abstract: false, final false
   inline void set_ps5SieeDcCode(::StringW value);
 
 protected:
@@ -360,7 +360,7 @@ public:
   ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____level;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13158 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -423,16 +423,16 @@ public:
 
   constexpr void __cordl_internal_set__validUntilDate(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26a89bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b4780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_redirectedProductLabel, addr 0x26a89ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_redirectedProductLabel, addr 0x26b4770, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_redirectedProductLabel();
 
-  /// @brief Method get_sourceLevelPackId, addr 0x26a89a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceLevelPackId, addr 0x26b4768, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sourceLevelPackId();
 
-  /// @brief Method get_validUntilDate, addr 0x26a89b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validUntilDate, addr 0x26b4778, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_validUntilDate();
 
 protected:
@@ -459,7 +459,7 @@ public:
   ::StringW ____validUntilDate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13159 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -520,16 +520,16 @@ public:
   constexpr void __cordl_internal_set__levelProductRedirectionSources(
       ::ArrayW<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*, ::Array<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*>*> value);
 
-  /// @brief Method .ctor, addr 0x26a8648, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b440c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelProductPackSource, addr 0x26a8630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelProductPackSource, addr 0x26b43f4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource* get_levelProductPackSource();
 
-  /// @brief Method get_redirectionSources, addr 0x26a8640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_redirectionSources, addr 0x26b4404, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductRedirectionSource*>* get_redirectionSources();
 
-  /// @brief Method set_levelProductPackSource, addr 0x26a8638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelProductPackSource, addr 0x26b43fc, size 0x8, virtual false, abstract: false, final false
   inline void set_levelProductPackSource(::GlobalNamespace::__SonyLevelProductPackSourceSO__LevelProductPackSource* value);
 
 protected:
@@ -554,7 +554,7 @@ public:
       ____levelProductRedirectionSources;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13151 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13160 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

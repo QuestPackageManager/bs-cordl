@@ -40,11 +40,11 @@ public:
   /// @brief Field pos, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
 
-  /// @brief Method ConstructPos, addr 0x4324b44, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x433925c, size 0x40, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x4324b40, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x4339258, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::LeafNode* New_ctor(int32_t pos);
@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_pos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4324b08, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4339220, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t pos);
 
-  /// @brief Method get_IsNullable, addr 0x4324b84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x433929c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_Pos, addr 0x4324b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pos, addr 0x4339248, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Pos();
 
-  /// @brief Method set_Pos, addr 0x4324b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pos, addr 0x4339250, size 0x8, virtual false, abstract: false, final false
   inline void set_Pos(int32_t value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   int32_t ___pos;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

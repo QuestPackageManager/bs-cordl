@@ -44,14 +44,14 @@ public:
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::Org::BouncyCastle::Asn1::Asn1Encodable* value;
 
-  /// @brief Method GetInstance, addr 0x24c0758, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24cb800, size 0xec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method ToAsn1Object, addr 0x24c0880, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24cb928, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_type();
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_value(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x24c0678, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cb720, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x24c0844, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cb8ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method get_Type, addr 0x24c0870, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x24cb918, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value, addr 0x24c0878, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x24cb920, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
 protected:

@@ -84,10 +84,10 @@ public:
 
   __declspec(property(get = get_missionId, put = set_missionId)) ::StringW missionId;
 
-  /// @brief Method Finish, addr 0x3ac9300, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x3adcef0, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::MissionCompletionResults* levelCompletionResults);
 
-  /// @brief Method Init, addr 0x3ac8f24, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3adcb14, size 0x3dc, virtual false, abstract: false, final false
   inline void Init(::StringW missionId, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
@@ -95,7 +95,7 @@ public:
                    ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
                    ::StringW backButtonText);
 
-  /// @brief Method Init, addr 0x3ac8b70, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3adc760, size 0x3b4, virtual false, abstract: false, final false
   inline void Init(::StringW missionId, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
@@ -129,19 +129,19 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x3ac9328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3adcf18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3ac8a00, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3adc5f0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method get_missionId, addr 0x3ac8b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x3adc750, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3ac8ab0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3adc6a0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method set_missionId, addr 0x3ac8b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missionId, addr 0x3adc758, size 0x8, virtual false, abstract: false, final false
   inline void set_missionId(::StringW value);
 
 protected:
@@ -171,7 +171,7 @@ public:
   ::StringW ____missionId_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5241 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

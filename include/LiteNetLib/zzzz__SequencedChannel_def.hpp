@@ -52,10 +52,10 @@ public:
 
   static inline ::LiteNetLib::SequencedChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
 
-  /// @brief Method ProcessPacket, addr 0x3a51404, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x3a64d5c, size 0x208, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets, addr 0x3a510f8, size 0x30c, virtual true, abstract: false, final false
+  /// @brief Method SendNextPackets, addr 0x3a64a50, size 0x30c, virtual true, abstract: false, final false
   inline void SendNextPackets();
 
   constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__ackPacket();
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set__remoteSequence(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x3a4cdfc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a60754, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
 
 protected:
@@ -148,7 +148,7 @@ public:
   int64_t ____lastPacketSendTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16525 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

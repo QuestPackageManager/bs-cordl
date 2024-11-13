@@ -46,22 +46,22 @@ public:
   /// @brief Field _subjectKeyIdentifier, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__subjectKeyIdentifier, put = __cordl_internal_set__subjectKeyIdentifier)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _subjectKeyIdentifier;
 
-  /// @brief Method CopyFrom, addr 0x43cecf4, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x43e340c, size 0x1cc, virtual true, abstract: false, final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method Decode, addr 0x43ce2e8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x43e2a00, size 0x164, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> extension);
 
-  /// @brief Method Encode, addr 0x43ce5f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x43e2d0c, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode();
 
-  /// @brief Method FromHex, addr 0x43ce7c0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x43e2ed8, size 0xf4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromHex(::StringW hex);
 
-  /// @brief Method FromHexChar, addr 0x43ceec0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FromHexChar, addr 0x43e35d8, size 0x44, virtual false, abstract: false, final false
   static inline uint8_t FromHexChar(char16_t c);
 
-  /// @brief Method FromHexChars, addr 0x43cef04, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FromHexChars, addr 0x43e361c, size 0x9c, virtual false, abstract: false, final false
   static inline uint8_t FromHexChars(char16_t c1, char16_t c2);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension* New_ctor();
@@ -78,7 +78,7 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension* New_ctor(::StringW subjectKeyIdentifier, bool critical);
 
-  /// @brief Method ToString, addr 0x43cefa0, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x43e36b8, size 0x238, virtual true, abstract: false, final false
   inline ::StringW ToString(bool multiLine);
 
   constexpr ::StringW const& __cordl_internal_get__ski() const;
@@ -99,26 +99,26 @@ public:
 
   constexpr void __cordl_internal_set__subjectKeyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x43ce17c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e2894, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43ce218, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e2930, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsnEncodedData* encodedSubjectKeyIdentifier, bool critical);
 
-  /// @brief Method .ctor, addr 0x43ce8c0, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e2fd8, size 0x3b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::PublicKey* key, ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm algorithm,
                     bool critical);
 
-  /// @brief Method .ctor, addr 0x43ce8b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e2fcc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::PublicKey* key, bool critical);
 
-  /// @brief Method .ctor, addr 0x43ce44c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e2b64, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier, bool critical);
 
-  /// @brief Method .ctor, addr 0x43ce668, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e2d80, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::StringW subjectKeyIdentifier, bool critical);
 
-  /// @brief Method get_SubjectKeyIdentifier, addr 0x43cec70, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectKeyIdentifier, addr 0x43e3388, size 0x84, virtual false, abstract: false, final false
   inline ::StringW get_SubjectKeyIdentifier();
 
 protected:
@@ -145,7 +145,7 @@ public:
   ::System::Security::Cryptography::AsnDecodeStatus ____status;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9308 };
 
   /// @brief Field friendlyName offset 0xffffffff size 0x8
   static constexpr ::ConstString friendlyName{ u"Subject Key Identifier" };

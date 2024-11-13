@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Threading::PlatformHelper::get_ProcessorCount)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3dd9cd0;
+  constexpr static std::size_t addrs = 0x3dee360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::PlatformHelper*>::get(),

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::__TypeTable____c::*)()>(
     &::UnityEngine::InputSystem::Utilities::__TypeTable____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fbdf8;
+  constexpr static std::size_t addrs = 0x4510510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__TypeTable____c*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::__TypeTable____c::*)(
     ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::Utilities::__TypeTable____c::_get_names_b__2_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44fbe00;
+  constexpr static std::size_t addrs = 0x4510518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::UnityEngine::InputSystem::Utilities::TypeTable::*)()>(
     &::UnityEngine::InputSystem::Utilities::TypeTable::get_names)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x44fb744;
+  constexpr static std::size_t addrs = 0x450fe5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::TypeTable>::get(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* (
     ::UnityEngine::InputSystem::Utilities::TypeTable::*)()>(&::UnityEngine::InputSystem::Utilities::TypeTable::get_internedNames)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x44fb868;
+  constexpr static std::size_t addrs = 0x450ff80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::TypeTable>::get(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::TypeTable::*)()>(
     &::UnityEngine::InputSystem::Utilities::TypeTable::Initialize)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x44fb8b8;
+  constexpr static std::size_t addrs = 0x450ffd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::TypeTable>::get(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::InternedString (::UnityEngine::InputSystem::Utilities::TypeTable::*)(
     ::System::Type*)>(&::UnityEngine::InputSystem::Utilities::TypeTable::FindNameForType)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x44fb92c;
+  constexpr static std::size_t addrs = 0x4510044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::TypeTable::*)(::StringW, ::System::Type*)>(
     &::UnityEngine::InputSystem::Utilities::TypeTable::AddTypeRegistration)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x44fbb48;
+  constexpr static std::size_t addrs = 0x4510260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::InputSystem::Utilities::TypeTable::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::TypeTable::LookupTypeRegistration)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x44fbca8;
+  constexpr static std::size_t addrs = 0x45103c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

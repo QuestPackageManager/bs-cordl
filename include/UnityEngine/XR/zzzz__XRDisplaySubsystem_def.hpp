@@ -94,7 +94,7 @@ public:
   static ::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode const RightHand;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18194 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -161,7 +161,7 @@ public:
   ::System::IntPtr foveatedRenderingInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18195 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe0 };
@@ -236,7 +236,7 @@ public:
   int32_t srcHdrMaxLuminance;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18196 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -292,7 +292,7 @@ public:
   int32_t blitParamsCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18197 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

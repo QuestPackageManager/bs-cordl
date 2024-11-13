@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x3955abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3969884, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_time, addr 0x3955a18, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0x39697e0, size 0xa4, virtual true, abstract: false, final true
   inline int64_t get_time();
 
   /// @brief Convert to "::GlobalNamespace::ITimeProvider"
@@ -70,7 +70,7 @@ public:
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18762 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -82,7 +82,7 @@ public:
   static ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType const ReturnToMenu;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5248 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -133,10 +133,10 @@ public:
 
   __declspec(property(get = get_playerSpecificSettings, put = set_playerSpecificSettings)) ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
-  /// @brief Method Finish, addr 0x3acad7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x3ade96c, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType endState);
 
-  /// @brief Method Init, addr 0x3aca998, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3ade588, size 0x3e4, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
   static inline ::GlobalNamespace::TutorialScenesTransitionSetupDataSO* New_ctor();
@@ -188,21 +188,21 @@ public:
   constexpr void __cordl_internal_set_didFinishEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>, ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType>* value);
 
-  /// @brief Method .ctor, addr 0x3acada4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ade994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3aca828, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3ade418, size 0xb0, virtual false, abstract: false, final false
   inline void
   add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>, ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType>* value);
 
-  /// @brief Method get_playerSpecificSettings, addr 0x3aca988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSpecificSettings, addr 0x3ade578, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3aca8d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3ade4c8, size 0xb0, virtual false, abstract: false, final false
   inline void
   remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>, ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType>* value);
 
-  /// @brief Method set_playerSpecificSettings, addr 0x3aca990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerSpecificSettings, addr 0x3ade580, size 0x8, virtual false, abstract: false, final false
   inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
 protected:
@@ -241,7 +241,7 @@ public:
   ::UnityW<::GlobalNamespace::SceneInfo> ____loadedTutorialSceneInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5249 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -160,7 +160,7 @@ public:
   int32_t ____i_5__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16891 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -309,7 +309,7 @@ public:
   ::ArrayW<T, ::Array<T>*> ____nodes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16892 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

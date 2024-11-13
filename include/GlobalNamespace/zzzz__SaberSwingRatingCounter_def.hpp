@@ -124,30 +124,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounter"
   constexpr operator ::GlobalNamespace::ISaberSwingRatingCounter*() noexcept;
 
-  /// @brief Method DrawGizmos, addr 0x2671384, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method DrawGizmos, addr 0x267c644, size 0x2b4, virtual false, abstract: false, final false
   inline void DrawGizmos();
 
-  /// @brief Method Finish, addr 0x26711d8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x267c498, size 0x1ac, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Init, addr 0x2670460, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x267b720, size 0x418, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
 
   static inline ::GlobalNamespace::SaberSwingRatingCounter* New_ctor();
 
-  /// @brief Method ProcessNewData, addr 0x2670878, size 0x960, virtual true, abstract: false, final true
+  /// @brief Method ProcessNewData, addr 0x267bb38, size 0x960, virtual true, abstract: false, final true
   inline void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
 
-  /// @brief Method RegisterDidChangeReceiver, addr 0x2670300, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidChangeReceiver, addr 0x267b5c0, size 0x58, virtual true, abstract: false, final true
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method RegisterDidFinishReceiver, addr 0x2670358, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidFinishReceiver, addr 0x267b618, size 0x58, virtual true, abstract: false, final true
   inline void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method UnregisterDidChangeReceiver, addr 0x26703b0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidChangeReceiver, addr 0x267b670, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method UnregisterDidFinishReceiver, addr 0x2670408, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidFinishReceiver, addr 0x267b6c8, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__afterCutBottomPos() const;
@@ -278,13 +278,13 @@ public:
 
   constexpr void __cordl_internal_set__saberMovementData(::GlobalNamespace::ISaberMovementData* value);
 
-  /// @brief Method .ctor, addr 0x2671638, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267c8f8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_afterCutRating, addr 0x26702f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_afterCutRating, addr 0x267b5b8, size 0x8, virtual true, abstract: false, final true
   inline float_t get_afterCutRating();
 
-  /// @brief Method get_beforeCutRating, addr 0x26702f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beforeCutRating, addr 0x267b5b0, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beforeCutRating();
 
   /// @brief Convert to "::GlobalNamespace::ISaberMovementDataProcessor"
@@ -371,7 +371,7 @@ public:
   bool ____finished;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

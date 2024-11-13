@@ -61,10 +61,10 @@ public:
 
   static inline ::GlobalNamespace::__GameplayModifiersDropdown____c* New_ctor();
 
-  /// @brief Method <Start>b__8_0, addr 0x3ae2a44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__8_0, addr 0x3af6750, size 0x44, virtual false, abstract: false, final false
   inline ::StringW _Start_b__8_0(::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>* x);
 
-  /// @brief Method .ctor, addr 0x3ae2a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af6748, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__GameplayModifiersDropdown____c* getStaticF___9();
@@ -90,7 +90,7 @@ public:
   __GameplayModifiersDropdown____c(__GameplayModifiersDropdown____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,24 +126,24 @@ public:
 
   __declspec(property(get = get_gameplayModifiersData)) ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* gameplayModifiersData;
 
-  /// @brief Method GetIdxForGameplayModifierMask, addr 0x3ae26d4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetIdxForGameplayModifierMask, addr 0x3af63e0, size 0x184, virtual false, abstract: false, final false
   inline int32_t GetIdxForGameplayModifierMask(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
 
-  /// @brief Method GetSelectedGameplayModifierMask, addr 0x3ae25d4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedGameplayModifierMask, addr 0x3af62e0, size 0xd0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifierMask GetSelectedGameplayModifierMask();
 
-  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x3ae2858, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x3af6564, size 0x24, virtual false, abstract: false, final false
   inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
   static inline ::GlobalNamespace::GameplayModifiersDropdown* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ae2504, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3af6210, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SelectCellWithGameplayModifierMask, addr 0x3ae26a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithGameplayModifierMask, addr 0x3af63b0, size 0x30, virtual false, abstract: false, final false
   inline void SelectCellWithGameplayModifierMask(::GlobalNamespace::GameplayModifierMask gameplayModifierMask);
 
-  /// @brief Method Start, addr 0x3ae2364, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3af6070, size 0x1a0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>*& __cordl_internal_get__gameplayModifiersData();
@@ -171,19 +171,19 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3ae287c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af6588, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_gameplayModifiersData>b__7_0, addr 0x3ae2884, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method <get_gameplayModifiersData>b__7_0, addr 0x3af6590, size 0x15c, virtual false, abstract: false, final false
   inline ::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>* _get_gameplayModifiersData_b__7_0(::GlobalNamespace::GameplayModifierMask value);
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x3ae2050, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x3af5d5c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method get_gameplayModifiersData, addr 0x3ae21b0, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiersData, addr 0x3af5ebc, size 0x1b4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* get_gameplayModifiersData();
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x3ae2100, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x3af5e0c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -213,7 +213,7 @@ public:
   ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* ____gameplayModifiersData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5296 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

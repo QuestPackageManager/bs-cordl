@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_appInitScenesTransitionSetupData(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3ac6534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ada124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> ___appInitScenesTransitionSetupData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5227 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

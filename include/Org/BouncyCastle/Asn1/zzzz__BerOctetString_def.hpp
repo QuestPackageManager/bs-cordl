@@ -67,12 +67,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x25f3b20, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x25febc8, size 0x12c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> octets, int32_t chunkSize);
 
-  /// @brief Method Reset, addr 0x25f3c4c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x25fecf4, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_chunkSize() const;
@@ -99,10 +99,10 @@ public:
 
   constexpr void __cordl_internal_set_octets(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x25f3664, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe70c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> octets, int32_t chunkSize);
 
-  /// @brief Method get_Current, addr 0x25f3ad8, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x25feb80, size 0x48, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -174,16 +174,16 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Encode, addr 0x25f36a0, size 0x3ec, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x25fe748, size 0x3ec, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method FromSequence, addr 0x25ee2bc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method FromSequence, addr 0x25f9364, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::BerOctetString* FromSequence(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetEnumerator, addr 0x25f35dc, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x25fe684, size 0x88, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetObjects, addr 0x25f369c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetObjects, addr 0x25fe744, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetObjects();
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetString* New_ctor(::System::Collections::IEnumerable* e);
@@ -200,10 +200,10 @@ public:
   static inline ::Org::BouncyCastle::Asn1::BerOctetString*
   New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize);
 
-  /// @brief Method ToBytes, addr 0x25f315c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ToBytes, addr 0x25fe204, size 0xdc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToBytes(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs);
 
-  /// @brief Method ToOctetStringArray, addr 0x25f3238, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ToOctetStringArray, addr 0x25fe2e0, size 0x1ec, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> ToOctetStringArray(::System::Collections::IEnumerable* e);
 
   constexpr int32_t const& __cordl_internal_get_chunkSize() const;
@@ -218,22 +218,22 @@ public:
 
   constexpr void __cordl_internal_set_octs(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> value);
 
-  /// @brief Method .ctor, addr 0x25f3424, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe4cc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* e);
 
-  /// @brief Method .ctor, addr 0x25ebb84, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f6c2c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs);
 
-  /// @brief Method .ctor, addr 0x25f3534, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe5dc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize);
 
-  /// @brief Method .ctor, addr 0x25f3490, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe538, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor, addr 0x25f350c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe5b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, int32_t chunkSize);
 
-  /// @brief Method .ctor, addr 0x25f35b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe658, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize);
 
   static inline int32_t getStaticF_DefaultChunkSize();

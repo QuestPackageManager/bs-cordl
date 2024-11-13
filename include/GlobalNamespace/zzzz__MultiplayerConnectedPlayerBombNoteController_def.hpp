@@ -36,7 +36,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b3fe24, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b55a7c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   __MultiplayerConnectedPlayerBombNoteController__Pool(__MultiplayerConnectedPlayerBombNoteController__Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4479 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -72,13 +72,13 @@ public:
   // Declarations
   using Pool = ::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Pool;
 
-  /// @brief Method Init, addr 0x3b3fdbc, size 0x58, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
-                   float_t moveDuration, float_t jumpDuration, float_t jumpGravity);
+  /// @brief Method Init, addr 0x3b51c18, size 0x58, virtual false, abstract: false, final false
+  inline void Init(::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float_t moveDuration,
+                   float_t jumpDuration, float_t jumpGravity);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b3fe14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b55a6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   MultiplayerConnectedPlayerBombNoteController(MultiplayerConnectedPlayerBombNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4480 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

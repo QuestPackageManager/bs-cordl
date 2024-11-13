@@ -35,10 +35,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x440d094, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x44217ac, size 0x94, virtual true, abstract: false, final false
   inline void Add(::StringW key, ::StringW value);
 
-  /// @brief Method GetEnumerator, addr 0x440d128, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x4421840, size 0x24, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::Specialized::StringDictionary* New_ctor();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_contents(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x440d034, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442174c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -73,7 +73,7 @@ public:
   ::System::Collections::Hashtable* ___contents;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9466 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

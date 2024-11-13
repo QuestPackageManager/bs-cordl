@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__mediator(::System::Resources::__ResourceManager__ResourceManagerMediator* value);
 
-  /// @brief Method .ctor, addr 0x3ca72fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cbb98c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
   /// @brief Convert to "::System::Resources::IResourceGroveler"

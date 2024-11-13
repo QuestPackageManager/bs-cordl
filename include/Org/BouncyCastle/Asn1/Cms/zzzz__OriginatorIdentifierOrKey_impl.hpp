@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::*)(
     ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*)>(&::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22c9424;
+  constexpr static std::size_t addrs = 0x22d44cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::*)(::Org::BouncyCastle::Asn1::Asn1OctetString*)>(
     &::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22c944c;
+  constexpr static std::size_t addrs = 0x22d44f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::*)(
     ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier*)>(&::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22c94b8;
+  constexpr static std::size_t addrs = 0x22d4560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::*)(
     ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey*)>(&::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22c9534;
+  constexpr static std::size_t addrs = 0x22d45dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22c95b0;
+  constexpr static std::size_t addrs = 0x22d4658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(
     &::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22c95d8;
+  constexpr static std::size_t addrs = 0x22d4680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::GetInstance)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22c8404;
+  constexpr static std::size_t addrs = 0x22d34ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::GetInstance)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x22c9600;
+  constexpr static std::size_t addrs = 0x22d46a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::get_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c9894;
+  constexpr static std::size_t addrs = 0x22d493c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* (
     ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::*)()>(&::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::get_IssuerAndSerialNumber)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22c989c;
+  constexpr static std::size_t addrs = 0x22d4944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* (
     ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::*)()>(&::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::get_SubjectKeyIdentifier)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x22c9918;
+  constexpr static std::size_t addrs = 0x22d49c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* (
     ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::*)()>(&::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::get_OriginatorKey)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22c99ac;
+  constexpr static std::size_t addrs = 0x22d4a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* (
     ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::*)()>(&::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::get_OriginatorPublicKey)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22c99b0;
+  constexpr static std::size_t addrs = 0x22d4a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey::ToAsn1Object)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22c9a64;
+  constexpr static std::size_t addrs = 0x22d4b0c;
 
   inline static ::MethodInfo const* methodInfo() {
 

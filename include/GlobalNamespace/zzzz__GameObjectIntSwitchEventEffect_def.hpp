@@ -59,7 +59,7 @@ public:
 
   static inline ::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList* New_ctor();
 
-  /// @brief Method SetActive, addr 0x3b11e40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x3b27290, size 0x7c, virtual false, abstract: false, final false
   inline void SetActive(bool active);
 
   constexpr bool const& __cordl_internal_get__isActive_k__BackingField() const;
@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b12044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b27494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isActive, addr 0x3b12030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x3b27480, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method set_isActive, addr 0x3b12038, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isActive, addr 0x3b27488, size 0xc, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
 protected:
@@ -113,7 +113,7 @@ public:
   bool ____isActive_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4242 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -165,15 +165,15 @@ public:
       get = __cordl_internal_get__valueToListMap,
       put = __cordl_internal_set__valueToListMap)) ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList*>* _valueToListMap;
 
-  /// @brief Method HandleBasicBeatmapEventData, addr 0x3b11ee8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method HandleBasicBeatmapEventData, addr 0x3b27338, size 0x140, virtual false, abstract: false, final false
   inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
 
-  /// @brief Method Initialize, addr 0x3b11c88, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b270d8, size 0x1b8, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
   static inline ::GlobalNamespace::GameObjectIntSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b11ebc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b2730c, size 0x2c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -222,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set__valueToListMap(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList*>* value);
 
-  /// @brief Method .ctor, addr 0x3b12028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b27478, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -261,7 +261,7 @@ public:
   int32_t ____previousActiveIdx;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4243 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

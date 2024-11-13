@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::*)()>(
     &::BeatSaber::AvatarCore::__LimitAvatarPoseRestriction__Parameters::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2219b38;
+  constexpr static std::size_t addrs = 0x22225ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>)>(
     &::BeatSaber::AvatarCore::LimitAvatarPoseRestriction::RestrictPose)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x22198a8;
+  constexpr static std::size_t addrs = 0x222235c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BeatSaber::AvatarCore::LimitAvatarPoseRestriction::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::BeatSaber::AvatarCore::LimitAvatarPoseRestriction::LimitHandPositionRelativeToHead)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2219a94;
+  constexpr static std::size_t addrs = 0x2222548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::LimitAvatarPoseRestriction::*)()>(
     &::BeatSaber::AvatarCore::LimitAvatarPoseRestriction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2219b30;
+  constexpr static std::size_t addrs = 0x22225e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::LimitAvatarPoseRestriction*>::get(),

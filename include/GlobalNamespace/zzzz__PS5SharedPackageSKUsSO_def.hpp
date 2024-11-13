@@ -15,6 +15,12 @@ namespace GlobalNamespace {
 class PS5PublisherSKUSettingsSO;
 }
 namespace GlobalNamespace {
+class SonyContentVersion;
+}
+namespace GlobalNamespace {
+class SonyVersion;
+}
+namespace GlobalNamespace {
 struct __PS5SharedPackageSKUsSO__BuildType;
 }
 namespace GlobalNamespace {
@@ -77,7 +83,7 @@ public:
   static ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType const RemasterPatch;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13132 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -99,37 +105,43 @@ class CORDL_TYPE __PS5SharedPackageSKUsSO__PS5BuildVersion : public ::System::Ob
 public:
   // Declarations
   /// @brief Field _contentVersion, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__contentVersion, put = __cordl_internal_set__contentVersion)) ::StringW _contentVersion;
+  __declspec(property(get = __cordl_internal_get__contentVersion, put = __cordl_internal_set__contentVersion)) ::GlobalNamespace::SonyContentVersion* _contentVersion;
 
   /// @brief Field _masterVersion, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__masterVersion, put = __cordl_internal_set__masterVersion)) ::StringW _masterVersion;
+  __declspec(property(get = __cordl_internal_get__masterVersion, put = __cordl_internal_set__masterVersion)) ::GlobalNamespace::SonyVersion* _masterVersion;
 
-  __declspec(property(get = get_contentVersion)) ::StringW contentVersion;
+  __declspec(property(get = get_contentVersion)) ::GlobalNamespace::SonyContentVersion* contentVersion;
 
-  __declspec(property(get = get_masterVersion)) ::StringW masterVersion;
+  __declspec(property(get = get_masterVersion)) ::GlobalNamespace::SonyVersion* masterVersion;
+
+  /// @brief Method CopyValueFrom, addr 0x26b2768, size 0x4c, virtual false, abstract: false, final false
+  inline void CopyValueFrom(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* newVersion);
+
+  /// @brief Method IncreaseContentVersion, addr 0x26b27d8, size 0x38, virtual false, abstract: false, final false
+  inline void IncreaseContentVersion();
 
   static inline ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* New_ctor();
 
-  constexpr ::StringW const& __cordl_internal_get__contentVersion() const;
+  constexpr ::GlobalNamespace::SonyContentVersion*& __cordl_internal_get__contentVersion();
 
-  constexpr ::StringW& __cordl_internal_get__contentVersion();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyContentVersion*> const& __cordl_internal_get__contentVersion() const;
 
-  constexpr ::StringW const& __cordl_internal_get__masterVersion() const;
+  constexpr ::GlobalNamespace::SonyVersion*& __cordl_internal_get__masterVersion();
 
-  constexpr ::StringW& __cordl_internal_get__masterVersion();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyVersion*> const& __cordl_internal_get__masterVersion() const;
 
-  constexpr void __cordl_internal_set__contentVersion(::StringW value);
+  constexpr void __cordl_internal_set__contentVersion(::GlobalNamespace::SonyContentVersion* value);
 
-  constexpr void __cordl_internal_set__masterVersion(::StringW value);
+  constexpr void __cordl_internal_set__masterVersion(::GlobalNamespace::SonyVersion* value);
 
-  /// @brief Method .ctor, addr 0x26a6a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b2834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_contentVersion, addr 0x26a6a84, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_contentVersion();
+  /// @brief Method get_contentVersion, addr 0x26b2760, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SonyContentVersion* get_contentVersion();
 
-  /// @brief Method get_masterVersion, addr 0x26a6a7c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_masterVersion();
+  /// @brief Method get_masterVersion, addr 0x26b2758, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SonyVersion* get_masterVersion();
 
 protected:
   // Ctor Parameters []
@@ -146,13 +158,13 @@ public:
   __PS5SharedPackageSKUsSO__PS5BuildVersion(__PS5SharedPackageSKUsSO__PS5BuildVersion const&) = delete;
 
   /// @brief Field _masterVersion, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____masterVersion;
+  ::GlobalNamespace::SonyVersion* ____masterVersion;
 
   /// @brief Field _contentVersion, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____contentVersion;
+  ::GlobalNamespace::SonyContentVersion* ____contentVersion;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -204,7 +216,7 @@ public:
 
   __declspec(property(get = get_latestBuildVersion)) ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* latestBuildVersion;
 
-  /// @brief Method GetPrimarySKU, addr 0x26a6a50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetPrimarySKU, addr 0x26b272c, size 0x24, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO> GetPrimarySKU();
 
   static inline ::GlobalNamespace::PS5SharedPackageSKUsSO* New_ctor();
@@ -239,22 +251,22 @@ public:
 
   constexpr void __cordl_internal_set__latestBuildVersion(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* value);
 
-  /// @brief Method .ctor, addr 0x26a6a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b2750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_availableSKUs, addr 0x26a6a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_availableSKUs, addr 0x26b2704, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>, ::Array<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>>*> get_availableSKUs();
 
-  /// @brief Method get_buildType, addr 0x26a6a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildType, addr 0x26b2714, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType get_buildType();
 
-  /// @brief Method get_buildVersion, addr 0x26a6a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildVersion, addr 0x26b271c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* get_buildVersion();
 
-  /// @brief Method get_conceptId, addr 0x26a6a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_conceptId, addr 0x26b270c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_conceptId();
 
-  /// @brief Method get_latestBuildVersion, addr 0x26a6a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_latestBuildVersion, addr 0x26b2724, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* get_latestBuildVersion();
 
 protected:
@@ -287,7 +299,7 @@ public:
   ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* ____latestBuildVersion;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13134 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

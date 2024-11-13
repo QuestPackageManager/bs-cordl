@@ -50,10 +50,10 @@ public:
   /// @brief Field parameters, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters;
 
-  /// @brief Method GetInstance, addr 0x23cd63c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23d86e4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x23bacf4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23c5d9c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm);
@@ -64,7 +64,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23cd8cc, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23d8974, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_algorithm();
@@ -79,25 +79,25 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x23cd7ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8894, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm);
 
-  /// @brief Method .ctor, addr 0x23cd888, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8930, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0x23cd814, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d88bc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm);
 
-  /// @brief Method .ctor, addr 0x23cd654, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d86fc, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Algorithm, addr 0x23cd8b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x23d895c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Algorithm();
 
-  /// @brief Method get_ObjectID, addr 0x23cd8bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ObjectID, addr 0x23d8964, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ObjectID();
 
-  /// @brief Method get_Parameters, addr 0x23cd8c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x23d896c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Parameters();
 
 protected:

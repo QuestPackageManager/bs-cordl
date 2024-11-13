@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::*)(int32_t)>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3ebbb7c;
+  constexpr static std::size_t addrs = 0x3ed020c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ebbbb0;
+  constexpr static std::size_t addrs = 0x3ed0240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::MoveNext)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x3ebbc60;
+  constexpr static std::size_t addrs = 0x3ed02f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::__m__Finally1)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ebc00c;
+  constexpr static std::size_t addrs = 0x3ed069c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::__m__Finally2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3ebbfbc;
+  constexpr static std::size_t addrs = 0x3ed064c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::*)()>(
         &::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ebc0bc;
+  constexpr static std::size_t addrs = 0x3ed074c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ebc0c4;
+  constexpr static std::size_t addrs = 0x3ed0754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ebc0fc;
+  constexpr static std::size_t addrs = 0x3ed078c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* (::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::*)()>(
         &::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3ebc104;
+  constexpr static std::size_t addrs = 0x3ed0794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::*)()>(
         &::Newtonsoft::Json::Linq::JsonPath::__ArrayMultipleIndexFilter___ExecuteFilter_d__2::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ebc1b0;
+  constexpr static std::size_t addrs = 0x3ed0840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter::*)(
     ::System::Collections::Generic::List_1<int32_t>*)>(&::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ebbad0;
+  constexpr static std::size_t addrs = 0x3ed0160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -447,7 +447,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter::*)(::Newtonsoft::Json::Linq::JToken*, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*,
                                                                      ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::ArrayMultipleIndexFilter::ExecuteFilter)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3ebbaf8;
+  constexpr static std::size_t addrs = 0x3ed0188;
 
   inline static ::MethodInfo const* methodInfo() {
 

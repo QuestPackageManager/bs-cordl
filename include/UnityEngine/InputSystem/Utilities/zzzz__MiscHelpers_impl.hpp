@@ -76,7 +76,7 @@ template <typename TValue> constexpr TValue const& UnityEngine::InputSystem::Uti
 }
 template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__cordl_internal_set___2__current(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -104,7 +104,7 @@ UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__
 template <typename TValue>
 constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__cordl_internal_set_enumerable(::System::Collections::Generic::IEnumerable_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enumerable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___enumerable, value);
 }
 template <typename TValue>
 constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__cordl_internal_get___3__enumerable() {
@@ -120,7 +120,7 @@ UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__
 template <typename TValue>
 constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__cordl_internal_set___3__enumerable(::System::Collections::Generic::IEnumerable_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__enumerable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____3__enumerable, value);
 }
 template <typename TValue> constexpr int32_t& UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__cordl_internal_get_start() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -196,7 +196,7 @@ UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__
 template <typename TValue>
 constexpr void UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::__cordl_internal_set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____7__wrap2, value);
 }
 template <typename TValue>
 inline ::UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>* UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>::New_ctor(int32_t __1__state) {

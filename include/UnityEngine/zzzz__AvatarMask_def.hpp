@@ -27,19 +27,19 @@ public:
   // Declarations
   __declspec(property(get = get_transformCount)) int32_t transformCount;
 
-  /// @brief Method GetHumanoidBodyPartActive, addr 0x47dd314, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetHumanoidBodyPartActive, addr 0x47f1a2c, size 0x44, virtual false, abstract: false, final false
   inline bool GetHumanoidBodyPartActive(::UnityEngine::AvatarMaskBodyPart index);
 
-  /// @brief Method GetTransformActive, addr 0x47dd41c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetTransformActive, addr 0x47f1b34, size 0x54, virtual false, abstract: false, final false
   inline bool GetTransformActive(int32_t index);
 
-  /// @brief Method GetTransformPath, addr 0x47dd394, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTransformPath, addr 0x47f1aac, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetTransformPath(int32_t index);
 
-  /// @brief Method GetTransformWeight, addr 0x47dd3d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTransformWeight, addr 0x47f1af0, size 0x44, virtual false, abstract: false, final false
   inline float_t GetTransformWeight(int32_t index);
 
-  /// @brief Method get_transformCount, addr 0x47dd358, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_transformCount, addr 0x47f1a70, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_transformCount();
 
 protected:
@@ -57,7 +57,7 @@ public:
   AvatarMask(AvatarMask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16839 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__useTransformOffset(bool value);
 
-  /// @brief Method .ctor, addr 0x399c61c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39aff74, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   ::UnityEngine::Vector3 ____scaleOffset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11553 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11558 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

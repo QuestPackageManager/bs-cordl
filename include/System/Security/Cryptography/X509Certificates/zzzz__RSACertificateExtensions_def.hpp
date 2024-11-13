@@ -25,7 +25,7 @@ namespace System::Security::Cryptography::X509Certificates {
 class CORDL_TYPE RSACertificateExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRSAPublicKey, addr 0x4019b48, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetRSAPublicKey, addr 0x402e260, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* GetRSAPublicKey(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
 protected:
@@ -43,7 +43,7 @@ public:
   RSACertificateExtensions(RSACertificateExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13527 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

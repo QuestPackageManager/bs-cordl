@@ -34,7 +34,7 @@ public:
   /// @brief Field textElement, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_textElement, put = __cordl_internal_set_textElement)) ::UnityEngine::UIElements::TextElement* textElement;
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x4972960, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x4987078, size 0x4, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::TextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_textElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x4972684, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4986d9c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
 protected:
@@ -75,7 +75,7 @@ public:
   ::UnityEngine::TextEditingUtilities* ___editingUtilities;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5580 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

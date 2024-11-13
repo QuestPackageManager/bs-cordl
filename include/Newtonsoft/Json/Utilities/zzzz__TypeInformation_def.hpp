@@ -51,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3e4aae4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5f174, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode typeCode);
 
-  /// @brief Method get_Type, addr 0x3e4aad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3e5f164, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_TypeCode, addr 0x3e4aadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x3e5f16c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
 
 protected:
@@ -81,7 +81,7 @@ public:
   ::Newtonsoft::Json::Utilities::PrimitiveTypeCode ____TypeCode_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10166 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

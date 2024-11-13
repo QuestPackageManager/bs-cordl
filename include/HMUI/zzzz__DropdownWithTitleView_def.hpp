@@ -33,7 +33,7 @@ public:
 
   static inline ::HMUI::DropdownWithTitleView* New_ctor();
 
-  /// @brief Method RefreshSize, addr 0x398b984, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method RefreshSize, addr 0x399f2dc, size 0x60, virtual true, abstract: false, final false
   inline void RefreshSize(::HMUI::__TableView__IDataSource* dataSource);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__titleRectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x398b9e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399f33c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,7 +72,7 @@ public:
   ::UnityW<::UnityEngine::RectTransform> ____titleRectTransform;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16036 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

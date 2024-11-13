@@ -43,13 +43,13 @@ public:
 
   static inline ::GlobalNamespace::ResizablePanel* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x397d79c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3991020, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Resize, addr 0x397d824, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x39910a8, size 0x1a0, virtual false, abstract: false, final false
   inline void Resize(::UnityEngine::Vector2 size, float_t duration);
 
-  /// @brief Method SetSize, addr 0x397d9c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetSize, addr 0x3991248, size 0x1c, virtual false, abstract: false, final false
   inline void SetSize(::UnityEngine::Vector2 size);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x397d9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3991264, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
   ::Tweening::Vector2Tween* ____resizeTween;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15964 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

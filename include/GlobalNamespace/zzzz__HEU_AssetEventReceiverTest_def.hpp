@@ -28,18 +28,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE HEU_AssetEventReceiverTest : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method BakedCallback, addr 0x399be34, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method BakedCallback, addr 0x39af78c, size 0x1ac, virtual false, abstract: false, final false
   inline void BakedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
 
-  /// @brief Method CookedCallback, addr 0x399bc88, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method CookedCallback, addr 0x39af5e0, size 0x1ac, virtual false, abstract: false, final false
   inline void CookedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
 
   static inline ::GlobalNamespace::HEU_AssetEventReceiverTest* New_ctor();
 
-  /// @brief Method ReloadCallback, addr 0x399badc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ReloadCallback, addr 0x39af434, size 0x1ac, virtual false, abstract: false, final false
   inline void ReloadCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
 
-  /// @brief Method .ctor, addr 0x399bfe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39af938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   HEU_AssetEventReceiverTest(HEU_AssetEventReceiverTest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11540 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

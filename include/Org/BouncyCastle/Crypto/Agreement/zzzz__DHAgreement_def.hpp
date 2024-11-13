@@ -49,13 +49,13 @@ public:
   /// @brief Field random, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
 
-  /// @brief Method CalculateAgreement, addr 0x264d198, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x2658240, size 0x284, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* pub, ::Org::BouncyCastle::Math::BigInteger* message);
 
-  /// @brief Method CalculateMessage, addr 0x264d030, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CalculateMessage, addr 0x26580d8, size 0x168, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateMessage();
 
-  /// @brief Method Init, addr 0x264ce84, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2657f2c, size 0x1ac, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::DHAgreement* New_ctor();
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x264d41c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26584c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

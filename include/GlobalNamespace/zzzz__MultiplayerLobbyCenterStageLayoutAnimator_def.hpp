@@ -45,18 +45,18 @@ public:
   /// @brief Field _tweeningManager, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Move, addr 0x3b90f00, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x3ba6ac8, size 0x138, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float_t duration);
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator* New_ctor();
 
-  /// @brief Method StartCountdown, addr 0x3b90e7c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x3ba6a44, size 0x84, virtual false, abstract: false, final false
   inline void StartCountdown();
 
-  /// @brief Method StopCountdown, addr 0x3b91038, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StopCountdown, addr 0x3ba6c00, size 0xa0, virtual false, abstract: false, final false
   inline void StopCountdown(bool instant);
 
-  /// @brief Method <Move>b__7_0, addr 0x3b910e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Move>b__7_0, addr 0x3ba6ca8, size 0x1c, virtual false, abstract: false, final false
   inline void _Move_b__7_0(::UnityEngine::Vector3 pos);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__nextLevelBasePosition() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b910d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba6ca0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,7 +122,7 @@ public:
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

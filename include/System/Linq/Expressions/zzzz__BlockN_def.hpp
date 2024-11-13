@@ -42,15 +42,15 @@ public:
   __declspec(property(get = __cordl_internal_get__expressions,
                       put = __cordl_internal_set__expressions)) ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _expressions;
 
-  /// @brief Method GetExpression, addr 0x403699c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x404b0b4, size 0xa8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression(int32_t index);
 
-  /// @brief Method GetOrMakeExpressions, addr 0x4036ae4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetOrMakeExpressions, addr 0x404b1fc, size 0x48, virtual true, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* GetOrMakeExpressions();
 
   static inline ::System::Linq::Expressions::BlockN* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method Rewrite, addr 0x4036b2c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x404b244, size 0x58, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> args);
 
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set__expressions(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method .ctor, addr 0x4036978, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404b090, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method get_ExpressionCount, addr 0x4036a44, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_ExpressionCount, addr 0x404b15c, size 0xa0, virtual true, abstract: false, final false
   inline int32_t get_ExpressionCount();
 
 protected:
@@ -84,7 +84,7 @@ public:
   ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* ____expressions;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13613 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -63,12 +63,12 @@ public:
   /// @brief Field _rightHandPoseTarget, offset 0x110, size 0x1c
   __declspec(property(get = __cordl_internal_get__rightHandPoseTarget, put = __cordl_internal_set__rightHandPoseTarget)) ::UnityEngine::Pose _rightHandPoseTarget;
 
-  /// @brief Method Init, addr 0x3bb9a64, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3bce0f4, size 0x2c4, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Tick, addr 0x3bb9d28, size 0xa04, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x3bce3b8, size 0xa04, virtual true, abstract: false, final false
   inline void Tick();
 
   constexpr ::UnityEngine::Pose const& __cordl_internal_get__headPose() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__rightHandPoseTarget(::UnityEngine::Pose value);
 
-  /// @brief Method .ctor, addr 0x3bb8eb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bcd548, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
 protected:
@@ -197,7 +197,7 @@ public:
   int64_t ____nextTargetTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18029 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

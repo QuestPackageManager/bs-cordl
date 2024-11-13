@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Mail::MailAddress* (*)(::StringW)>(&::System::Net::Mail::MailAddressParser::ParseAddress)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x438cedc;
+  constexpr static std::size_t addrs = 0x43a15f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Mail::MailAddress* (*)(::StringW, bool, ByRef<int32_t>)>(
     &::System::Net::Mail::MailAddressParser::ParseAddress)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x438cf08;
+  constexpr static std::size_t addrs = 0x43a1620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Net::Mail::MailAddressParser::ReadCfwsAndThrowIfIncomplete)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x438d264;
+  constexpr static std::size_t addrs = 0x43a197c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ByRef<int32_t>)>(&::System::Net::Mail::MailAddressParser::ParseDomain)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x438d2c0;
+  constexpr static std::size_t addrs = 0x43a19d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ByRef<int32_t>, bool, bool)>(&::System::Net::Mail::MailAddressParser::ParseLocalPart)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x438d3a8;
+  constexpr static std::size_t addrs = 0x43a1ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ByRef<int32_t>, bool)>(&::System::Net::Mail::MailAddressParser::ParseDisplayName)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x438d674;
+  constexpr static std::size_t addrs = 0x43a1d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::Mail::MailAddressParser::NormalizeOrThrow)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x438dbc8;
+  constexpr static std::size_t addrs = 0x43a22e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

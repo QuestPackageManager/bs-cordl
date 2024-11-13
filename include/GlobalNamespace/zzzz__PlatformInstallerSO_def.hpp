@@ -50,7 +50,7 @@ public:
   /// @brief Field _setupData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__setupData, put = __cordl_internal_set__setupData)) ::GlobalNamespace::AppInitSetupData* _setupData;
 
-  /// @brief Method InstallBindings, addr 0x26d9a18, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26e5594, size 0x90, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PlatformInstallerSO* New_ctor();
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value);
 
-  /// @brief Method .ctor, addr 0x26d9aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e5624, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,7 +118,7 @@ public:
   ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> ____mockPlatformAdditionalContentModelInitialData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17876 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

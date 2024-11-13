@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OffsetDirection (::GlobalNamespace::WaypointData::*)()>(
     &::GlobalNamespace::WaypointData::get_offsetDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2210a74;
+  constexpr static std::size_t addrs = 0x2219518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointData*>::get(), "get_offsetDirection",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointData::*)(::GlobalNamespace::OffsetDirection)>(
     &::GlobalNamespace::WaypointData::set_offsetDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2210a7c;
+  constexpr static std::size_t addrs = 0x2219520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::WaypointData::*)()>(&::GlobalNamespace::WaypointData::get_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2210a84;
+  constexpr static std::size_t addrs = 0x2219528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointData*>::get(), "get_lineIndex",
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointData::*)(int32_t)>(&::GlobalNamespace::WaypointData::set_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2210a8c;
+  constexpr static std::size_t addrs = 0x2219530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteLineLayer (::GlobalNamespace::WaypointData::*)()>(
     &::GlobalNamespace::WaypointData::get_lineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2210a94;
+  constexpr static std::size_t addrs = 0x2219538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointData*>::get(), "get_lineLayer",
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointData::*)(::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::WaypointData::set_lineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2210a9c;
+  constexpr static std::size_t addrs = 0x2219540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::WaypointData::*)()>(
     &::GlobalNamespace::WaypointData::GetCopy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2210aa4;
+  constexpr static std::size_t addrs = 0x2219548;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,16 +110,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::WaypointData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::WaypointData::*)(float_t, float_t, int32_t, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::OffsetDirection)>(&::GlobalNamespace::WaypointData::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2210b3c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointData::*)(
+    float_t, float_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::OffsetDirection)>(&::GlobalNamespace::WaypointData::_ctor)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x22195e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteLineLayer>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OffsetDirection>::get() })));
     return ___internal_method;
@@ -129,8 +129,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointData::*)(int32_t)>(&::GlobalNamespace::WaypointData::Mirror)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2210ba0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x2219648;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointData::*)()>(&::GlobalNamespace::WaypointData::MirrorTransformOffsetDirection)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2210bb4;
+  constexpr static std::size_t addrs = 0x2219668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointData*>::get(),
@@ -226,18 +226,19 @@ inline ::GlobalNamespace::BeatmapDataItem* GlobalNamespace::WaypointData::GetCop
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointData*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataItem*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::WaypointData* GlobalNamespace::WaypointData::New_ctor(float_t time, float_t beat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer,
+inline ::GlobalNamespace::WaypointData* GlobalNamespace::WaypointData::New_ctor(float_t time, float_t beat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer,
                                                                                 ::GlobalNamespace::OffsetDirection offsetDirection) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::WaypointData*>(time, beat, lineIndex, lineLayer, offsetDirection));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::WaypointData*>(time, beat, rotation, lineIndex, lineLayer, offsetDirection));
 }
-inline void GlobalNamespace::WaypointData::_ctor(float_t time, float_t beat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::OffsetDirection offsetDirection) {
+inline void GlobalNamespace::WaypointData::_ctor(float_t time, float_t beat, int32_t rotation, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer,
+                                                 ::GlobalNamespace::OffsetDirection offsetDirection) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteLineLayer>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OffsetDirection>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, time, beat, lineIndex, lineLayer, offsetDirection);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, time, beat, rotation, lineIndex, lineLayer, offsetDirection);
 }
 inline void GlobalNamespace::WaypointData::Mirror(int32_t lineCount) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

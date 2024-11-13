@@ -68,7 +68,7 @@ public:
   static ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode const RightEye;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18961 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -91,10 +91,10 @@ public:
   // Declarations
   using StereoScreenCaptureMode = ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode;
 
-  /// @brief Method CaptureScreenshot, addr 0x489d380, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x48b1a98, size 0x44, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename);
 
-  /// @brief Method CaptureScreenshot, addr 0x489d3c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x48b1adc, size 0x54, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename, int32_t superSize, ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode CaptureMode);
 
 protected:
@@ -112,7 +112,7 @@ public:
   ScreenCapture(ScreenCapture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18962 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

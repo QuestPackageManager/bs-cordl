@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*, ::System::Xml::Serialization::XmlAttributeOverrides*, ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
     &::System::Xml::Serialization::XmlTypeSerializationSource::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x42f18a4;
+  constexpr static std::size_t addrs = 0x4305fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Serialization::XmlTypeSerializationSource::*)(::System::Object*)>(
     &::System::Xml::Serialization::XmlTypeSerializationSource::Equals)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x42f19a8;
+  constexpr static std::size_t addrs = 0x43060c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Serialization::XmlTypeSerializationSource::*)()>(
     &::System::Xml::Serialization::XmlTypeSerializationSource::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42f1a88;
+  constexpr static std::size_t addrs = 0x43061a0;
 
   inline static ::MethodInfo const* methodInfo() {
 

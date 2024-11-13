@@ -41,12 +41,12 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr operator ::Newtonsoft::Json::Serialization::ITraceWriter*() noexcept;
 
-  /// @brief Method GetTraceEventType, addr 0x3e6ea5c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetTraceEventType, addr 0x3e830ec, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Diagnostics::TraceEventType GetTraceEventType(::System::Diagnostics::TraceLevel level);
 
   static inline ::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter* New_ctor();
 
-  /// @brief Method Trace, addr 0x3e6eac8, size 0x478, virtual true, abstract: false, final true
+  /// @brief Method Trace, addr 0x3e83158, size 0x478, virtual true, abstract: false, final true
   inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
 
   constexpr ::System::Diagnostics::TraceLevel const& __cordl_internal_get__LevelFilter_k__BackingField() const;
@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel value);
 
-  /// @brief Method .ctor, addr 0x3e6ef40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e835d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LevelFilter, addr 0x3e6ea4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LevelFilter, addr 0x3e830dc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept;
 
-  /// @brief Method set_LevelFilter, addr 0x3e6ea54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LevelFilter, addr 0x3e830e4, size 0x8, virtual false, abstract: false, final false
   inline void set_LevelFilter(::System::Diagnostics::TraceLevel value);
 
 protected:
@@ -85,7 +85,7 @@ public:
   ::System::Diagnostics::TraceLevel ____LevelFilter_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10267 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10272 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

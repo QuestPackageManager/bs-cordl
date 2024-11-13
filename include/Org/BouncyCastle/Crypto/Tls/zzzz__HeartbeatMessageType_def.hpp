@@ -20,12 +20,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE HeartbeatMessageType : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x23d6a80, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x23e1b28, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t heartbeatMessageType);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessageType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23d6ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e1f9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

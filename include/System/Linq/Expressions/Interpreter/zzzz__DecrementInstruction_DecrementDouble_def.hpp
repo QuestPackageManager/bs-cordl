@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementDouble* New_ctor();
 
-  /// @brief Method Run, addr 0x404f374, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4063a8c, size 0xb4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x404eebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40635d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,7 +46,7 @@ public:
   __DecrementInstruction__DecrementDouble(__DecrementInstruction__DecrementDouble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13769 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

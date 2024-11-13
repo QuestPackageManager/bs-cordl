@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::Unity::Mathematics::quaternion)>(
     &::Unity::Mathematics::quaternion::op_Implicit___UnityEngine__Quaternion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x464f064;
+  constexpr static std::size_t addrs = 0x466377c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(::UnityEngine::Quaternion)>(
     &::Unity::Mathematics::quaternion::op_Implicit___Unity__Mathematics__quaternion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x464f068;
+  constexpr static std::size_t addrs = 0x4663780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::quaternion::*)(float_t, float_t, float_t, float_t)>(
     &::Unity::Mathematics::quaternion::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x464f06c;
+  constexpr static std::size_t addrs = 0x4663784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::quaternion::*)(::Unity::Mathematics::float4)>(&::Unity::Mathematics::quaternion::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x464f078;
+  constexpr static std::size_t addrs = 0x4663790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float4)>(
     &::Unity::Mathematics::quaternion::op_Implicit___Unity__Mathematics__quaternion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x464f084;
+  constexpr static std::size_t addrs = 0x466379c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::quaternion::*)(::Unity::Mathematics::float3x3)>(
     &::Unity::Mathematics::quaternion::_ctor)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x464f088;
+  constexpr static std::size_t addrs = 0x46637a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::quaternion::*)(::Unity::Mathematics::float4x4)>(
     &::Unity::Mathematics::quaternion::_ctor)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x464f24c;
+  constexpr static std::size_t addrs = 0x4663964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3, float_t)>(
     &::Unity::Mathematics::quaternion::AxisAngle)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x464f414;
+  constexpr static std::size_t addrs = 0x4663b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3)>(&::Unity::Mathematics::quaternion::EulerXYZ)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x464f4ec;
+  constexpr static std::size_t addrs = 0x4663c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3)>(&::Unity::Mathematics::quaternion::EulerXZY)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x464f5a0;
+  constexpr static std::size_t addrs = 0x4663cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3)>(&::Unity::Mathematics::quaternion::EulerYXZ)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x464f654;
+  constexpr static std::size_t addrs = 0x4663d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3)>(&::Unity::Mathematics::quaternion::EulerYZX)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x464f708;
+  constexpr static std::size_t addrs = 0x4663e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3)>(&::Unity::Mathematics::quaternion::EulerZXY)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x464f7bc;
+  constexpr static std::size_t addrs = 0x4663ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3)>(&::Unity::Mathematics::quaternion::EulerZYX)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x464f870;
+  constexpr static std::size_t addrs = 0x4663f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(float_t, float_t, float_t)>(&::Unity::Mathematics::quaternion::EulerXYZ)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x464f924;
+  constexpr static std::size_t addrs = 0x466403c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(float_t, float_t, float_t)>(&::Unity::Mathematics::quaternion::EulerXZY)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x464f9d8;
+  constexpr static std::size_t addrs = 0x46640f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(float_t, float_t, float_t)>(&::Unity::Mathematics::quaternion::EulerYXZ)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x464fa8c;
+  constexpr static std::size_t addrs = 0x46641a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(float_t, float_t, float_t)>(&::Unity::Mathematics::quaternion::EulerYZX)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x464fb40;
+  constexpr static std::size_t addrs = 0x4664258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(float_t, float_t, float_t)>(&::Unity::Mathematics::quaternion::EulerZXY)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x464fbf4;
+  constexpr static std::size_t addrs = 0x466430c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(float_t, float_t, float_t)>(&::Unity::Mathematics::quaternion::EulerZYX)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x464fca8;
+  constexpr static std::size_t addrs = 0x46643c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::__math__RotationOrder)>(
     &::Unity::Mathematics::quaternion::Euler)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x464fd5c;
+  constexpr static std::size_t addrs = 0x4664474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(float_t, float_t, float_t, ::Unity::Mathematics::__math__RotationOrder)>(
     &::Unity::Mathematics::quaternion::Euler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4650160;
+  constexpr static std::size_t addrs = 0x4664878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(float_t)>(&::Unity::Mathematics::quaternion::RotateX)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4650168;
+  constexpr static std::size_t addrs = 0x4664880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(float_t)>(&::Unity::Mathematics::quaternion::RotateY)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x465022c;
+  constexpr static std::size_t addrs = 0x4664944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(float_t)>(&::Unity::Mathematics::quaternion::RotateZ)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x46502f0;
+  constexpr static std::size_t addrs = 0x4664a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::quaternion::LookRotation)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x46503b4;
+  constexpr static std::size_t addrs = 0x4664acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::quaternion::LookRotationSafe)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x46504d4;
+  constexpr static std::size_t addrs = 0x4664bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Mathematics::quaternion::*)(::Unity::Mathematics::quaternion)>(
     &::Unity::Mathematics::quaternion::Equals)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4650810;
+  constexpr static std::size_t addrs = 0x4664f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Mathematics::quaternion::*)(::System::Object*)>(&::Unity::Mathematics::quaternion::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x465084c;
+  constexpr static std::size_t addrs = 0x4664f64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -448,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Mathematics::quaternion::*)()>(&::Unity::Mathematics::quaternion::GetHashCode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x46508f4;
+  constexpr static std::size_t addrs = 0x466500c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Mathematics::quaternion::*)()>(&::Unity::Mathematics::quaternion::ToString)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x465094c;
+  constexpr static std::size_t addrs = 0x4665064;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Mathematics::quaternion::*)(::StringW, ::System::IFormatProvider*)>(
     &::Unity::Mathematics::quaternion::ToString)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x4650af8;
+  constexpr static std::size_t addrs = 0x4665210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

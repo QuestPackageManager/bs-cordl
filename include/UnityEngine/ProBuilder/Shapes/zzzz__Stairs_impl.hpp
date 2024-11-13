@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Shapes::Stairs::*)()>(&::UnityEngine::ProBuilder::Shapes::Stairs::get_sides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46dd618;
+  constexpr static std::size_t addrs = 0x46f1d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Stairs*>::get(), "get_sides",
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Stairs::*)(bool)>(&::UnityEngine::ProBuilder::Shapes::Stairs::set_sides)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46dd620;
+  constexpr static std::size_t addrs = 0x46f1d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Stairs::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::Shapes::Stairs::CopyShape)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x46dd62c;
+  constexpr static std::size_t addrs = 0x46f1d44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Stairs::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Stairs::RebuildMesh)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x46dd6d8;
+  constexpr static std::size_t addrs = 0x46f1df0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Stairs::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(&::UnityEngine::ProBuilder::Shapes::Stairs::UpdateBounds)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x46df668;
+  constexpr static std::size_t addrs = 0x46f3d80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Stairs::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Stairs::BuildStairs)> {
   constexpr static std::size_t size = 0xeb0;
-  constexpr static std::size_t addrs = 0x46de7b8;
+  constexpr static std::size_t addrs = 0x46f2ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Stairs::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Stairs::BuildCurvedStairs)> {
   constexpr static std::size_t size = 0x1094;
-  constexpr static std::size_t addrs = 0x46dd724;
+  constexpr static std::size_t addrs = 0x46f1e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Stairs::*)()>(&::UnityEngine::ProBuilder::Shapes::Stairs::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x46df7b8;
+  constexpr static std::size_t addrs = 0x46f3ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Stairs*>::get(), ".ctor",

@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)()>(
     &::HoudiniEngineUnity::HEU_SessionBase::get_UserNotifiedSessionInvalid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee3f0;
+  constexpr static std::size_t addrs = 0x3a01d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::set_UserNotifiedSessionInvalid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39ee3f8;
+  constexpr static std::size_t addrs = 0x3a01d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::SessionConnectionState (::HoudiniEngineUnity::HEU_SessionBase::*)()>(
     &::HoudiniEngineUnity::HEU_SessionBase::get_ConnectionState)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39ee404;
+  constexpr static std::size_t addrs = 0x3a01d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(::HoudiniEngineUnity::SessionConnectionState)>(
     &::HoudiniEngineUnity::HEU_SessionBase::set_ConnectionState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39ee41c;
+  constexpr static std::size_t addrs = 0x3a01d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::SessionMode (::HoudiniEngineUnity::HEU_SessionBase::*)()>(
     &::HoudiniEngineUnity::HEU_SessionBase::get_ThisSessionMode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39ee42c;
+  constexpr static std::size_t addrs = 0x3a01d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(::HoudiniEngineUnity::SessionMode)>(
     &::HoudiniEngineUnity::HEU_SessionBase::set_ThisSessionMode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39ee444;
+  constexpr static std::size_t addrs = 0x3a01d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::GetSessionErrorMsg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee454;
+  constexpr static std::size_t addrs = 0x3a01dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::get_LogErrorOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee45c;
+  constexpr static std::size_t addrs = 0x3a01db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::set_LogErrorOverride)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39ee464;
+  constexpr static std::size_t addrs = 0x3a01dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::get_ThrowErrorOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee470;
+  constexpr static std::size_t addrs = 0x3a01dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::set_ThrowErrorOverride)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39ee478;
+  constexpr static std::size_t addrs = 0x3a01dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::IsSessionSync)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39ee484;
+  constexpr static std::size_t addrs = 0x3a01ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionBase*>::get(), "IsSessionSync",
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HAPI_Result (::HoudiniEngineUnity::HEU_SessionBase::*)()>(
     &::HoudiniEngineUnity::HEU_SessionBase::get_LastCallResultCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee4b4;
+  constexpr static std::size_t addrs = 0x3a01e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(::HoudiniEngineUnity::HAPI_Result)>(
     &::HoudiniEngineUnity::HEU_SessionBase::set_LastCallResultCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee4bc;
+  constexpr static std::size_t addrs = 0x3a01e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetRegisteredAssetFromID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee4c4;
+  constexpr static std::size_t addrs = 0x3a01e1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(::HoudiniEngineUnity::HEU_HoudiniAsset*)>(
     &::HoudiniEngineUnity::HEU_SessionBase::IsAssetRegistered)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee4cc;
+  constexpr static std::size_t addrs = 0x3a01e24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(::HoudiniEngineUnity::HEU_HoudiniAsset*)>(
     &::HoudiniEngineUnity::HEU_SessionBase::RegisterAsset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39ee4d4;
+  constexpr static std::size_t addrs = 0x3a01e2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::UnregisterAsset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39ee4d8;
+  constexpr static std::size_t addrs = 0x3a01e30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(::HoudiniEngineUnity::HEU_HoudiniAsset*)>(
     &::HoudiniEngineUnity::HEU_SessionBase::ReregisterOnAwake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39ee4dc;
+  constexpr static std::size_t addrs = 0x3a01e34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39ee4e0;
+  constexpr static std::size_t addrs = 0x3a01e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionBase*>::get(), ".ctor",
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(::StringW, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetSessionErrorMsg)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39ee500;
+  constexpr static std::size_t addrs = 0x3a01e58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(::StringW, ::HoudiniEngineUnity::HAPI_Result, bool, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetSessionConnectionErrorMsg)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x39ee520;
+  constexpr static std::size_t addrs = 0x3a01e78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(bool)>(&::HoudiniEngineUnity::HEU_SessionBase::SetLibraryErrorMsg)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x39ee7c4;
+  constexpr static std::size_t addrs = 0x3a0211c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(bool, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::CreateSessionData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee87c;
+  constexpr static std::size_t addrs = 0x3a021d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::CreateInProcessSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee884;
+  constexpr static std::size_t addrs = 0x3a021dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(bool, ::StringW, int32_t, bool, float_t, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::CreateThriftSocketSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee88c;
+  constexpr static std::size_t addrs = 0x3a021e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(bool, ::StringW, bool, float_t, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::CreateThriftPipeSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee894;
+  constexpr static std::size_t addrs = 0x3a021ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(bool)>(&::HoudiniEngineUnity::HEU_SessionBase::CreateCustomSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee89c;
+  constexpr static std::size_t addrs = 0x3a021f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(bool, ::StringW, int32_t, bool, float_t, bool, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::ConnectThriftSocketSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee8a4;
+  constexpr static std::size_t addrs = 0x3a021fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(bool, ::StringW, bool, float_t, bool, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::ConnectThriftPipeSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee8ac;
+  constexpr static std::size_t addrs = 0x3a02204;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::CloseSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee8b4;
+  constexpr static std::size_t addrs = 0x3a0220c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)()>(
     &::HoudiniEngineUnity::HEU_SessionBase::CheckAndCloseExistingSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee8bc;
+  constexpr static std::size_t addrs = 0x3a02214;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -508,7 +508,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::ClearSessionInfo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39ee8c4;
+  constexpr static std::size_t addrs = 0x3a0221c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(::HoudiniEngineUnity::HEU_SessionData*)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetSessionData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee8ec;
+  constexpr static std::size_t addrs = 0x3a02244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -538,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionData* (::HoudiniEngineUnity::HEU_SessionBase::*)()>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetSessionData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee8f4;
+  constexpr static std::size_t addrs = 0x3a0224c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionBase*>::get(), "GetSessionData",
@@ -551,7 +551,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::GetSessionInfo)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39ee8fc;
+  constexpr static std::size_t addrs = 0x3a02254;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -565,7 +565,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::IsSessionValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee93c;
+  constexpr static std::size_t addrs = 0x3a02294;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -579,7 +579,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::RestartSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee944;
+  constexpr static std::size_t addrs = 0x3a0229c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_SessionBase::*)()>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetLastSessionError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee94c;
+  constexpr static std::size_t addrs = 0x3a022a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
@@ -607,7 +607,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::CheckVersionMatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee954;
+  constexpr static std::size_t addrs = 0x3a022ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(::HoudiniEngineUnity::HEU_SessionData*)>(
     &::HoudiniEngineUnity::HEU_SessionBase::InitializeSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee95c;
+  constexpr static std::size_t addrs = 0x3a022b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -637,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(::HoudiniEngineUnity::HAPI_Result, ::StringW, bool, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::HandleStatusResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ee964;
+  constexpr static std::size_t addrs = 0x3a022bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -652,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(::StringW, ::StringW)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetServerEnvString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39ee96c;
+  constexpr static std::size_t addrs = 0x3a022c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -667,7 +667,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(::StringW, ByRef<::StringW>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetServerEnvString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39ee970;
+  constexpr static std::size_t addrs = 0x3a022c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -682,7 +682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetServerEnvVarCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39ee97c;
+  constexpr static std::size_t addrs = 0x3a022d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -697,7 +697,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<::HoudiniEngineUnity::HAPI_Result>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetCallResult)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39ee988;
+  constexpr static std::size_t addrs = 0x3a022e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -712,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<::HoudiniEngineUnity::HAPI_Result>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetCookResult)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39ee994;
+  constexpr static std::size_t addrs = 0x3a022ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -727,7 +727,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<::HoudiniEngineUnity::HAPI_State>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetCookState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39ee9a0;
+  constexpr static std::size_t addrs = 0x3a022f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -742,7 +742,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_SessionBase::*)(
     ::HoudiniEngineUnity::HAPI_StatusType, ::HoudiniEngineUnity::HAPI_StatusVerbosity)>(&::HoudiniEngineUnity::HEU_SessionBase::GetStatusString)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39ee9ac;
+  constexpr static std::size_t addrs = 0x3a02304;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -757,7 +757,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::HoudiniEngineUnity::HAPI_StatusVerbosity)>(
     &::HoudiniEngineUnity::HEU_SessionBase::ComposeNodeCookResult)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39ee9ec;
+  constexpr static std::size_t addrs = 0x3a02344;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -772,7 +772,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HEU_SessionBase::*)(::HoudiniEngineUnity::HAPI_EnvIntType)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetEnvInt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eea2c;
+  constexpr static std::size_t addrs = 0x3a02384;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -787,7 +787,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HEU_SessionBase::*)(::HoudiniEngineUnity::HAPI_SessionEnvIntType, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetSessionEnvInt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eea34;
+  constexpr static std::size_t addrs = 0x3a0238c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -802,7 +802,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::StringW>, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eea3c;
+  constexpr static std::size_t addrs = 0x3a02394;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -817,7 +817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetStringBufferLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eea44;
+  constexpr static std::size_t addrs = 0x3a0239c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::CheckForSpecificErrors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eea4c;
+  constexpr static std::size_t addrs = 0x3a023a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -846,7 +846,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::GetTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eea54;
+  constexpr static std::size_t addrs = 0x3a023ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -860,7 +860,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(float_t)>(&::HoudiniEngineUnity::HEU_SessionBase::SetTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eea5c;
+  constexpr static std::size_t addrs = 0x3a023b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -874,7 +874,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)()>(&::HoudiniEngineUnity::HEU_SessionBase::GetUseHoudiniTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eea64;
+  constexpr static std::size_t addrs = 0x3a023bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -888,7 +888,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(bool)>(&::HoudiniEngineUnity::HEU_SessionBase::SetUseHoudiniTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eea6c;
+  constexpr static std::size_t addrs = 0x3a023c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -903,7 +903,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(::StringW, bool, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::LoadAssetLibraryFromFile)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eea74;
+  constexpr static std::size_t addrs = 0x3a023cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -918,7 +918,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, bool, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::LoadAssetLibraryFromMemory)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eea80;
+  constexpr static std::size_t addrs = 0x3a023d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -933,7 +933,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, ::StringW, bool, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::CreateNode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39eea8c;
+  constexpr static std::size_t addrs = 0x3a023e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -947,7 +947,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::DeleteNode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39eea9c;
+  constexpr static std::size_t addrs = 0x3a023f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -962,7 +962,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, bool, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::CookNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeaa0;
+  constexpr static std::size_t addrs = 0x3a023f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -977,7 +977,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::HoudiniEngineUnity::HAPI_CookOptions)>(
     &::HoudiniEngineUnity::HEU_SessionBase::CookNodeWithOptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeaa8;
+  constexpr static std::size_t addrs = 0x3a02400;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -992,7 +992,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW)>(
     &::HoudiniEngineUnity::HEU_SessionBase::RenameNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeab0;
+  constexpr static std::size_t addrs = 0x3a02408;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1007,7 +1007,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::ConnectNodeInput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeab8;
+  constexpr static std::size_t addrs = 0x3a02410;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1022,7 +1022,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::DisconnectNodeInput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeac0;
+  constexpr static std::size_t addrs = 0x3a02418;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1037,7 +1037,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<int32_t>, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::QueryNodeInput)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39eeac8;
+  constexpr static std::size_t addrs = 0x3a02420;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1052,7 +1052,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetNodeInputName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eead8;
+  constexpr static std::size_t addrs = 0x3a02430;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1067,7 +1067,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetAvailableAssetCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eeae4;
+  constexpr static std::size_t addrs = 0x3a0243c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1082,7 +1082,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetAvailableAssets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeaf0;
+  constexpr static std::size_t addrs = 0x3a02448;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1097,7 +1097,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::HoudiniEngineUnity::HAPI_AssetInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetAssetInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeaf8;
+  constexpr static std::size_t addrs = 0x3a02450;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1112,7 +1112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::HoudiniEngineUnity::HAPI_NodeInfo>, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetNodeInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb00;
+  constexpr static std::size_t addrs = 0x3a02458;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1127,7 +1127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<::StringW>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetNodePath)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eeb08;
+  constexpr static std::size_t addrs = 0x3a02460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1142,7 +1142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::IsNodeValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb14;
+  constexpr static std::size_t addrs = 0x3a0246c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1157,7 +1157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, int32_t, bool, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::ComposeChildNodeList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb1c;
+  constexpr static std::size_t addrs = 0x3a02474;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1172,7 +1172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetComposedChildNodeList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb24;
+  constexpr static std::size_t addrs = 0x3a0247c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1187,7 +1187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(::StringW, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::LoadHIPFile)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb2c;
+  constexpr static std::size_t addrs = 0x3a02484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1202,7 +1202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(::StringW, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SaveHIPFile)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb34;
+  constexpr static std::size_t addrs = 0x3a0248c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1217,7 +1217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::HoudiniEngineUnity::HAPI_ObjectInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetObjectInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb3c;
+  constexpr static std::size_t addrs = 0x3a02494;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1232,7 +1232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ::HoudiniEngineUnity::HAPI_RSTOrder, ByRef<::HoudiniEngineUnity::HAPI_Transform>)>(&::HoudiniEngineUnity::HEU_SessionBase::GetObjectTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb44;
+  constexpr static std::size_t addrs = 0x3a0249c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1247,7 +1247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::HoudiniEngineUnity::HAPI_TransformEuler>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetObjectTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb4c;
+  constexpr static std::size_t addrs = 0x3a024a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1262,7 +1262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::ComposeObjectList)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eeb54;
+  constexpr static std::size_t addrs = 0x3a024ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1278,7 +1278,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ObjectInfo, ::Array<::HoudiniEngineUnity::HAPI_ObjectInfo>*>>, int32_t, int32_t)>(
         &::HoudiniEngineUnity::HEU_SessionBase::GetComposedObjectList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb60;
+  constexpr static std::size_t addrs = 0x3a024b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1294,7 +1294,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::HoudiniEngineUnity::HAPI_RSTOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetComposedObjectTransforms)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb68;
+  constexpr static std::size_t addrs = 0x3a024c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1309,7 +1309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo>, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetDisplayGeoInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb70;
+  constexpr static std::size_t addrs = 0x3a024c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1324,7 +1324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo>, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetGeoInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb78;
+  constexpr static std::size_t addrs = 0x3a024d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1339,7 +1339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<::HoudiniEngineUnity::HAPI_PartInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetPartInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb80;
+  constexpr static std::size_t addrs = 0x3a024d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1354,7 +1354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ::StringW, ::HoudiniEngineUnity::HAPI_AttributeOwner, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>)>(&::HoudiniEngineUnity::HEU_SessionBase::GetAttributeInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb88;
+  constexpr static std::size_t addrs = 0x3a024e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1369,7 +1369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ::HoudiniEngineUnity::HAPI_AttributeOwner, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>>, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetAttributeNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb90;
+  constexpr static std::size_t addrs = 0x3a024e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1385,7 +1385,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetAttributeStringData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeb98;
+  constexpr static std::size_t addrs = 0x3a024f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1401,7 +1401,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<float_t, ::Array<float_t>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetAttributeFloatData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeba0;
+  constexpr static std::size_t addrs = 0x3a024f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1417,7 +1417,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<double_t, ::Array<double_t>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetAttributeFloat64Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeba8;
+  constexpr static std::size_t addrs = 0x3a02500;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1433,7 +1433,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetAttributeIntData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eebb0;
+  constexpr static std::size_t addrs = 0x3a02508;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1449,7 +1449,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetAttributeUInt8Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eebb8;
+  constexpr static std::size_t addrs = 0x3a02510;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1465,7 +1465,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int8_t, ::Array<int8_t>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetAttributeInt8Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eebc0;
+  constexpr static std::size_t addrs = 0x3a02518;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1481,7 +1481,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int16_t, ::Array<int16_t>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetAttributeInt16Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eebc8;
+  constexpr static std::size_t addrs = 0x3a02520;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1497,7 +1497,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int64_t, ::Array<int64_t>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetAttributeInt64Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eebd0;
+  constexpr static std::size_t addrs = 0x3a02528;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1512,7 +1512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, ::HoudiniEngineUnity::HAPI_GroupType, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetGroupNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eebd8;
+  constexpr static std::size_t addrs = 0x3a02530;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1528,7 +1528,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::HoudiniEngineUnity::HAPI_GroupType, ::StringW, ByRef<bool>, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetGroupMembership)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eebe0;
+  constexpr static std::size_t addrs = 0x3a02538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1543,7 +1543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<int32_t>, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetGroupCountOnPackedInstancePart)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39eebe8;
+  constexpr static std::size_t addrs = 0x3a02540;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1558,7 +1558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ::HoudiniEngineUnity::HAPI_GroupType, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetGroupNamesOnPackedInstancePart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eebf8;
+  constexpr static std::size_t addrs = 0x3a02550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1574,7 +1574,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::HoudiniEngineUnity::HAPI_GroupType, ::StringW, ByRef<bool>, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetGroupMembershipOnPackedInstancePart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec00;
+  constexpr static std::size_t addrs = 0x3a02558;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1589,7 +1589,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetInstancedPartIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec08;
+  constexpr static std::size_t addrs = 0x3a02560;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1605,7 +1605,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::HoudiniEngineUnity::HAPI_RSTOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetInstancerPartTransforms)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec10;
+  constexpr static std::size_t addrs = 0x3a02568;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1621,7 +1621,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::HoudiniEngineUnity::HAPI_RSTOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetInstanceTransformsOnPart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec18;
+  constexpr static std::size_t addrs = 0x3a02570;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1636,7 +1636,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetInstancedObjectIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec20;
+  constexpr static std::size_t addrs = 0x3a02578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1651,7 +1651,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetFaceCounts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec28;
+  constexpr static std::size_t addrs = 0x3a02580;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1666,7 +1666,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t, bool)>(&::HoudiniEngineUnity::HEU_SessionBase::GetFaceCounts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec30;
+  constexpr static std::size_t addrs = 0x3a02588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1681,7 +1681,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetVertexList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec38;
+  constexpr static std::size_t addrs = 0x3a02590;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1696,7 +1696,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<::HoudiniEngineUnity::HAPI_BoxInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetBoxInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec40;
+  constexpr static std::size_t addrs = 0x3a02598;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1711,7 +1711,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<::HoudiniEngineUnity::HAPI_SphereInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetSphereInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec48;
+  constexpr static std::size_t addrs = 0x3a025a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1726,7 +1726,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<::HoudiniEngineUnity::HAPI_CurveInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetCurveInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec50;
+  constexpr static std::size_t addrs = 0x3a025a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1741,7 +1741,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetCurveCounts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec58;
+  constexpr static std::size_t addrs = 0x3a025b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1756,7 +1756,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetCurveOrders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec60;
+  constexpr static std::size_t addrs = 0x3a025b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1771,7 +1771,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ByRef<::ArrayW<float_t, ::Array<float_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetCurveKnots)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec68;
+  constexpr static std::size_t addrs = 0x3a025c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1786,7 +1786,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<::HoudiniEngineUnity::HAPI_PartInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetPartInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec70;
+  constexpr static std::size_t addrs = 0x3a025c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1801,7 +1801,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::SetFaceCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec78;
+  constexpr static std::size_t addrs = 0x3a025d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1816,7 +1816,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::SetVertexList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec80;
+  constexpr static std::size_t addrs = 0x3a025d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1832,7 +1832,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t)>(
         &::HoudiniEngineUnity::HEU_SessionBase::SetAttributeIntData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec88;
+  constexpr static std::size_t addrs = 0x3a025e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1848,7 +1848,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<int8_t, ::Array<int8_t>*>, int32_t, int32_t)>(
         &::HoudiniEngineUnity::HEU_SessionBase::SetAttributeInt8Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec90;
+  constexpr static std::size_t addrs = 0x3a025e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1864,7 +1864,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<int16_t, ::Array<int16_t>*>, int32_t, int32_t)>(
         &::HoudiniEngineUnity::HEU_SessionBase::SetAttributeInt16Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eec98;
+  constexpr static std::size_t addrs = 0x3a025f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1880,7 +1880,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<int64_t, ::Array<int64_t>*>, int32_t, int32_t)>(
         &::HoudiniEngineUnity::HEU_SessionBase::SetAttributeInt64Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeca0;
+  constexpr static std::size_t addrs = 0x3a025f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1896,7 +1896,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<float_t, ::Array<float_t>*>, int32_t, int32_t)>(
         &::HoudiniEngineUnity::HEU_SessionBase::SetAttributeFloatData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeca8;
+  constexpr static std::size_t addrs = 0x3a02600;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1912,7 +1912,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<::StringW, ::Array<::StringW>*>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetAttributeStringData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eecb0;
+  constexpr static std::size_t addrs = 0x3a02608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1927,7 +1927,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::StringW, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>)>(&::HoudiniEngineUnity::HEU_SessionBase::AddAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eecb8;
+  constexpr static std::size_t addrs = 0x3a02610;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1942,7 +1942,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::HoudiniEngineUnity::HAPI_GroupType, ::StringW)>(
     &::HoudiniEngineUnity::HEU_SessionBase::AddGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eecc0;
+  constexpr static std::size_t addrs = 0x3a02618;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1957,7 +1957,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::HoudiniEngineUnity::HAPI_GroupType, ::StringW)>(
     &::HoudiniEngineUnity::HEU_SessionBase::DeleteGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eecc8;
+  constexpr static std::size_t addrs = 0x3a02620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1972,7 +1972,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ::HoudiniEngineUnity::HAPI_GroupType, ::StringW, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::SetGroupMembership)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eecd0;
+  constexpr static std::size_t addrs = 0x3a02628;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1986,7 +1986,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::CommitGeo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eecd8;
+  constexpr static std::size_t addrs = 0x3a02630;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2000,7 +2000,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::RevertGeo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eece0;
+  constexpr static std::size_t addrs = 0x3a02638;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2015,7 +2015,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<::HoudiniEngineUnity::HAPI_CurveInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetCurveInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eece8;
+  constexpr static std::size_t addrs = 0x3a02640;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2030,7 +2030,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::SetCurveCounts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eecf0;
+  constexpr static std::size_t addrs = 0x3a02648;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2045,7 +2045,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::SetCurveOrders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eecf8;
+  constexpr static std::size_t addrs = 0x3a02650;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2060,7 +2060,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::ArrayW<float_t, ::Array<float_t>*>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::SetCurveKnots)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eed00;
+  constexpr static std::size_t addrs = 0x3a02658;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2075,7 +2075,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<::HoudiniEngineUnity::HAPI_MaterialInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetMaterialOnPart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eed08;
+  constexpr static std::size_t addrs = 0x3a02660;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2090,7 +2090,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ByRef<bool>, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetMaterialNodeIDsOnFaces)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eed10;
+  constexpr static std::size_t addrs = 0x3a02668;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2105,7 +2105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::HoudiniEngineUnity::HAPI_MaterialInfo>, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetMaterialInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eed18;
+  constexpr static std::size_t addrs = 0x3a02670;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2120,7 +2120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetImageInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eed20;
+  constexpr static std::size_t addrs = 0x3a02678;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2135,7 +2135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetImageInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eed28;
+  constexpr static std::size_t addrs = 0x3a02680;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2150,7 +2150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, bool)>(
     &::HoudiniEngineUnity::HEU_SessionBase::RenderTextureToImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eed30;
+  constexpr static std::size_t addrs = 0x3a02688;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2164,7 +2164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::RenderCOPToImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eed38;
+  constexpr static std::size_t addrs = 0x3a02690;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2179,7 +2179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, ::StringW, ::StringW, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>)>(&::HoudiniEngineUnity::HEU_SessionBase::ExtractImageToMemory)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39eed40;
+  constexpr static std::size_t addrs = 0x3a02698;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2194,7 +2194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetImagePlanes)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x39eed94;
+  constexpr static std::size_t addrs = 0x3a026ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2209,7 +2209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, ::StringW, ::StringW, ByRef<::StringW>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::ExtractImageToFile)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eede0;
+  constexpr static std::size_t addrs = 0x3a02738;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2224,7 +2224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetParams)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eedec;
+  constexpr static std::size_t addrs = 0x3a02744;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2239,7 +2239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, int32_t, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetParmTagName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eedf4;
+  constexpr static std::size_t addrs = 0x3a0274c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2254,7 +2254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::StringW, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetParmTagValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eee00;
+  constexpr static std::size_t addrs = 0x3a02758;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2269,7 +2269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ::StringW, ByRef<bool>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::ParmHasTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eee0c;
+  constexpr static std::size_t addrs = 0x3a02764;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2284,7 +2284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetParamIntValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eee14;
+  constexpr static std::size_t addrs = 0x3a0276c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2299,7 +2299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, int32_t, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetParamIntValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eee1c;
+  constexpr static std::size_t addrs = 0x3a02774;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2314,7 +2314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::ArrayW<float_t, ::Array<float_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetParamFloatValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eee28;
+  constexpr static std::size_t addrs = 0x3a02780;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2329,7 +2329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, int32_t, ByRef<float_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetParamFloatValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eee30;
+  constexpr static std::size_t addrs = 0x3a02788;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2344,7 +2344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetParamStringValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eee3c;
+  constexpr static std::size_t addrs = 0x3a02794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2359,7 +2359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, int32_t, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetParamStringValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eee44;
+  constexpr static std::size_t addrs = 0x3a0279c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2374,7 +2374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetParamNodeValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39eee50;
+  constexpr static std::size_t addrs = 0x3a027a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2390,7 +2390,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetParamChoiceValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eee60;
+  constexpr static std::size_t addrs = 0x3a027b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2405,7 +2405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::SetParamIntValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eee68;
+  constexpr static std::size_t addrs = 0x3a027c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2420,7 +2420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetParamIntValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eee70;
+  constexpr static std::size_t addrs = 0x3a027c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2435,7 +2435,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::ArrayW<float_t, ::Array<float_t>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::SetParamFloatValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eee78;
+  constexpr static std::size_t addrs = 0x3a027d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2450,7 +2450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, int32_t, float_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetParamFloatValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eee80;
+  constexpr static std::size_t addrs = 0x3a027d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2465,7 +2465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetParamStringValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eee88;
+  constexpr static std::size_t addrs = 0x3a027e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2480,7 +2480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, ::StringW, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetParamStringValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eee90;
+  constexpr static std::size_t addrs = 0x3a027e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2495,7 +2495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetParamNodeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eee98;
+  constexpr static std::size_t addrs = 0x3a027f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2510,7 +2510,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::InsertMultiparmInstance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeea0;
+  constexpr static std::size_t addrs = 0x3a027f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2525,7 +2525,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::RemoveMultiParmInstance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeea8;
+  constexpr static std::size_t addrs = 0x3a02800;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2540,7 +2540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetParmWithTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeeb0;
+  constexpr static std::size_t addrs = 0x3a02808;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2555,7 +2555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::RevertParmToDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeeb8;
+  constexpr static std::size_t addrs = 0x3a02810;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2570,7 +2570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW)>(
     &::HoudiniEngineUnity::HEU_SessionBase::RevertParmToDefaults)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eeec0;
+  constexpr static std::size_t addrs = 0x3a02818;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2585,7 +2585,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetParmIDFromName)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39eeec8;
+  constexpr static std::size_t addrs = 0x3a02820;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2600,7 +2600,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, int32_t, bool, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetParmStringValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39eeed8;
+  constexpr static std::size_t addrs = 0x3a02830;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2615,7 +2615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<int32_t>, ::StringW)>(
     &::HoudiniEngineUnity::HEU_SessionBase::CreateInputNode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39eeee4;
+  constexpr static std::size_t addrs = 0x3a0283c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2631,7 +2631,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::StringW, int32_t, int32_t, float_t, ::HoudiniEngineUnity::HAPI_HeightFieldSampling, ByRef<int32_t>, ByRef<int32_t>, ByRef<int32_t>, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::CreateHeightFieldInput)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39eeef4;
+  constexpr static std::size_t addrs = 0x3a0284c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2646,7 +2646,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<int32_t>, ::StringW, int32_t, int32_t, float_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::CreateHeightfieldInputVolumeNode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39eef14;
+  constexpr static std::size_t addrs = 0x3a0286c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2661,7 +2661,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetPreset)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39eef24;
+  constexpr static std::size_t addrs = 0x3a0287c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2676,7 +2676,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetPreset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eef78;
+  constexpr static std::size_t addrs = 0x3a028d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2691,7 +2691,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetVolumeInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eef80;
+  constexpr static std::size_t addrs = 0x3a028d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2706,7 +2706,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ::ArrayW<float_t, ::Array<float_t>*>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetHeightFieldData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eef88;
+  constexpr static std::size_t addrs = 0x3a028e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2721,7 +2721,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetVolumeInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39eef90;
+  constexpr static std::size_t addrs = 0x3a028e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2736,7 +2736,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ByRef<::HoudiniEngineUnity::HAPI_VolumeTileInfo>, ::ArrayW<float_t, ::Array<float_t>*>, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::SetVolumeTileFloatData)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x39eef98;
+  constexpr static std::size_t addrs = 0x3a028f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2752,7 +2752,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetVolumeBounds)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39eefe4;
+  constexpr static std::size_t addrs = 0x3a0293c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2767,7 +2767,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, int32_t, ::StringW, ::ArrayW<float_t, ::Array<float_t>*>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::SetHeightFieldData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef018;
+  constexpr static std::size_t addrs = 0x3a02970;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2782,7 +2782,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetActiveCacheCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39ef020;
+  constexpr static std::size_t addrs = 0x3a02978;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2797,7 +2797,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetActiveCacheNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef02c;
+  constexpr static std::size_t addrs = 0x3a02984;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2812,7 +2812,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(::StringW, ::HoudiniEngineUnity::HAPI_CacheProperty, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetCacheProperty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39ef034;
+  constexpr static std::size_t addrs = 0x3a0298c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2827,7 +2827,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(::StringW, ::HoudiniEngineUnity::HAPI_CacheProperty, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetCacheProperty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef040;
+  constexpr static std::size_t addrs = 0x3a02998;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2842,7 +2842,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SaveGeoToFile)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef048;
+  constexpr static std::size_t addrs = 0x3a029a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2857,7 +2857,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW)>(
     &::HoudiniEngineUnity::HEU_SessionBase::LoadGeoFromFile)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef050;
+  constexpr static std::size_t addrs = 0x3a029a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2872,7 +2872,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SaveNodeToFile)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef058;
+  constexpr static std::size_t addrs = 0x3a029b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2887,7 +2887,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(::StringW, int32_t, ::StringW, bool, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::LoadNodeFromFile)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39ef060;
+  constexpr static std::size_t addrs = 0x3a029b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2902,7 +2902,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, ::StringW, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetGeoSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39ef070;
+  constexpr static std::size_t addrs = 0x3a029c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2917,7 +2917,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(
     int32_t, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_HandleInfo, ::Array<::HoudiniEngineUnity::HAPI_HandleInfo>*>>, int32_t, int32_t)>(&::HoudiniEngineUnity::HEU_SessionBase::GetHandleInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef07c;
+  constexpr static std::size_t addrs = 0x3a029d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2933,7 +2933,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_HandleBindingInfo, ::Array<::HoudiniEngineUnity::HAPI_HandleBindingInfo>*>>, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetHandleBindingInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef084;
+  constexpr static std::size_t addrs = 0x3a029dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2949,7 +2949,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::HoudiniEngineUnity::HAPI_TransformEuler>, ::HoudiniEngineUnity::HAPI_RSTOrder, ::HoudiniEngineUnity::HAPI_XYZOrder, ByRef<::HoudiniEngineUnity::HAPI_TransformEuler>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::ConvertTransform)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39ef08c;
+  constexpr static std::size_t addrs = 0x3a029e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2964,7 +2964,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t, int32_t, bool, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetTotalCookCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39ef0a0;
+  constexpr static std::size_t addrs = 0x3a029f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2978,7 +2978,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(bool)>(&::HoudiniEngineUnity::HEU_SessionBase::SetSessionSync)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef0ac;
+  constexpr static std::size_t addrs = 0x3a02a04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2993,7 +2993,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<::HoudiniEngineUnity::HAPI_Viewport>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetViewport)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef0b4;
+  constexpr static std::size_t addrs = 0x3a02a0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3008,7 +3008,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<::HoudiniEngineUnity::HAPI_Viewport>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetViewport)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef0bc;
+  constexpr static std::size_t addrs = 0x3a02a14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3023,7 +3023,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<::HoudiniEngineUnity::HAPI_SessionSyncInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::GetSessionSyncInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef0c4;
+  constexpr static std::size_t addrs = 0x3a02a1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3038,7 +3038,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<::HoudiniEngineUnity::HAPI_SessionSyncInfo>)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetSessionSyncInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef0cc;
+  constexpr static std::size_t addrs = 0x3a02a24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3053,7 +3053,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_SessionBase::*)(int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_SessionBase::SetNodeDisplay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef0d4;
+  constexpr static std::size_t addrs = 0x3a02a2c;
 
   inline static ::MethodInfo const* methodInfo() {
 

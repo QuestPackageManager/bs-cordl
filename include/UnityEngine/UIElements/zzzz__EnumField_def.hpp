@@ -102,7 +102,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__EnumField__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4919450, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492db68, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -120,7 +120,7 @@ public:
   __EnumField__UxmlFactory(__EnumField__UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5544 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -146,7 +146,7 @@ public:
   /// @brief Field m_Value, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Value;
 
-  /// @brief Method Init, addr 0x4919498, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x492dbb0, size 0x210, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__EnumField__UxmlTraits* New_ctor();
@@ -169,7 +169,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x49196a8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492ddc0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -196,7 +196,7 @@ public:
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_IncludeObsoleteValues;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5545 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -226,10 +226,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__EnumField____c* New_ctor();
 
-  /// @brief Method <.ctor>b__22_0, addr 0x4919798, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__22_0, addr 0x492deb0, size 0x5c, virtual false, abstract: false, final false
   inline void __ctor_b__22_0(::UnityEngine::UIElements::MouseDownEvent* e);
 
-  /// @brief Method .ctor, addr 0x4919790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492dea8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__EnumField____c* getStaticF___9();
@@ -255,7 +255,7 @@ public:
   __EnumField____c(__EnumField____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5546 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -312,53 +312,53 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ChangeValueFromMenu, addr 0x4919154, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ChangeValueFromMenu, addr 0x492d86c, size 0x8c, virtual false, abstract: false, final false
   inline void ChangeValueFromMenu(::System::Object* menuItem);
 
-  /// @brief Method ContainsPointer, addr 0x4918a78, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ContainsPointer, addr 0x492d190, size 0x84, virtual false, abstract: false, final false
   inline bool ContainsPointer(int32_t pointerId);
 
-  /// @brief Method Init, addr 0x49182c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x492c9dc, size 0x8, virtual false, abstract: false, final false
   inline void Init(::bs_hook::EnumPtr defaultValue);
 
-  /// @brief Method Init, addr 0x4918620, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x492cd38, size 0x104, virtual false, abstract: false, final false
   inline void Init(::bs_hook::EnumPtr defaultValue, bool includeObsoleteValues);
 
-  /// @brief Method Initialize, addr 0x4918140, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x492c858, size 0x184, virtual false, abstract: false, final false
   inline void Initialize(::bs_hook::EnumPtr defaultValue);
 
   static inline ::UnityEngine::UIElements::EnumField* New_ctor();
 
   static inline ::UnityEngine::UIElements::EnumField* New_ctor(::StringW label, ::bs_hook::EnumPtr defaultValue);
 
-  /// @brief Method OnNavigationSubmit, addr 0x4918afc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x492d214, size 0x24, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method OnPointerDownEvent, addr 0x4918994, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDownEvent, addr 0x492d0ac, size 0x58, virtual false, abstract: false, final false
   inline void OnPointerDownEvent(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerMoveEvent, addr 0x49189ec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMoveEvent, addr 0x492d104, size 0x8c, virtual false, abstract: false, final false
   inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method PopulateDataFromType, addr 0x4918724, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PopulateDataFromType, addr 0x492ce3c, size 0xa4, virtual false, abstract: false, final false
   inline void PopulateDataFromType(::System::Type* enumType);
 
   /// @brief Method ProcessPointerDown, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void ProcessPointerDown(::UnityEngine::UIElements::PointerEventBase_1<T>* evt);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x49188b4, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x492cfcc, size 0xe0, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::bs_hook::EnumPtr newValue);
 
-  /// @brief Method ShowMenu, addr 0x4918b20, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method ShowMenu, addr 0x492d238, size 0x34c, virtual false, abstract: false, final false
   inline void ShowMenu();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x49191e0, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x492d8f8, size 0x134, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
-  /// @brief Method UpdateValueLabel, addr 0x49187c8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x492cee0, size 0xec, virtual false, abstract: false, final false
   inline void UpdateValueLabel(::bs_hook::EnumPtr value);
 
-  /// @brief Method <ShowMenu>b__33_0, addr 0x491944c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <ShowMenu>b__33_0, addr 0x492db64, size 0x4, virtual false, abstract: false, final false
   inline void _ShowMenu_b__33_0(::System::Object* contentView);
 
   constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>*& __cordl_internal_get_createMenuCallback();
@@ -397,10 +397,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x49182cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492c9e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49182d8, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492c9f0, size 0x348, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, ::bs_hook::EnumPtr defaultValue);
 
   static inline ::StringW getStaticF_arrowUssClassName();
@@ -413,7 +413,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_includeObsoleteValues, addr 0x4918138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_includeObsoleteValues, addr 0x492c850, size 0x8, virtual false, abstract: false, final false
   inline bool get_includeObsoleteValues();
 
   static inline void setStaticF_arrowUssClassName(::StringW value);
@@ -459,7 +459,7 @@ public:
   ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* ___createMenuCallback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5547 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

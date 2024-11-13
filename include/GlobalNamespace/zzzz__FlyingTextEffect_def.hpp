@@ -47,7 +47,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__FlyingTextEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b08a88, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1de18, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   __FlyingTextEffect__Pool(__FlyingTextEffect__Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4204 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -92,10 +92,10 @@ public:
   /// @brief Field _text, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshPro> _text;
 
-  /// @brief Method InitAndPresent, addr 0x3b0897c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x3b1dd0c, size 0x78, virtual false, abstract: false, final false
   inline void InitAndPresent(::StringW text, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Color color, float_t fontSize, bool shake);
 
-  /// @brief Method ManualUpdate, addr 0x3b089f4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3b1dd84, size 0x64, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingTextEffect* New_ctor();
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x3b08a58, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1dde8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,7 +145,7 @@ public:
   ::UnityEngine::Color ____color;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4205 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

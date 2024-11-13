@@ -37,7 +37,7 @@ public:
   uint8_t _cordl_size_padding[0x8];
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19206 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,33 +35,33 @@ public:
   /// @brief Field nullEncMagic, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_nullEncMagic, put = setStaticF_nullEncMagic)) ::ArrayW<uint8_t, ::Array<uint8_t>*> nullEncMagic;
 
-  /// @brief Method Compute, addr 0x3bce180, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Compute, addr 0x3be2810, size 0x1f8, virtual false, abstract: false, final false
   static inline void Compute(::Mono::Security::Protocol::Ntlm::Type2Message* type2, ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel level, ::StringW username, ::StringW password, ::StringW domain,
                              ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> lm, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> ntlm);
 
-  /// @brief Method Compute_LM, addr 0x3bcd198, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method Compute_LM, addr 0x3be1828, size 0x32c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Compute_LM(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
-  /// @brief Method Compute_NTLM, addr 0x3bcda24, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Compute_NTLM, addr 0x3be20b4, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Compute_NTLM(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
-  /// @brief Method Compute_NTLM_Password, addr 0x3bcd920, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Compute_NTLM_Password, addr 0x3be1fb0, size 0x104, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Compute_NTLM_Password(::StringW password);
 
-  /// @brief Method Compute_NTLMv2, addr 0x3bcdc5c, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method Compute_NTLMv2, addr 0x3be22ec, size 0x434, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Compute_NTLMv2(::Mono::Security::Protocol::Ntlm::Type2Message* type2, ::StringW username, ::StringW password, ::StringW domain);
 
-  /// @brief Method Compute_NTLMv2_Session, addr 0x3bcda90, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Compute_NTLMv2_Session, addr 0x3be2120, size 0x1cc, virtual false, abstract: false, final false
   static inline void Compute_NTLMv2_Session(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> lm,
                                             ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> ntlm);
 
-  /// @brief Method GetResponse, addr 0x3bcd62c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method GetResponse, addr 0x3be1cbc, size 0x2f4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetResponse(::ArrayW<uint8_t, ::Array<uint8_t>*> challenge, ::ArrayW<uint8_t, ::Array<uint8_t>*> pwd);
 
-  /// @brief Method PasswordToKey, addr 0x3bcd4c4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method PasswordToKey, addr 0x3be1b54, size 0x168, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PasswordToKey(::StringW password, int32_t position);
 
-  /// @brief Method PrepareDESKey, addr 0x3bce378, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method PrepareDESKey, addr 0x3be2a08, size 0x1f8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareDESKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key56bits, int32_t position);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_magic();
@@ -87,7 +87,7 @@ public:
   ChallengeResponse2(ChallengeResponse2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15900 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

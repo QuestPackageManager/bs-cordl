@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE ArrayExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValidIndex, addr 0x225ee0c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsValidIndex, addr 0x2269d4c, size 0x34, virtual false, abstract: false, final false
   static inline bool IsValidIndex(::System::Array* array, int32_t index);
 
 protected:
@@ -41,7 +41,7 @@ public:
   ArrayExtension(ArrayExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

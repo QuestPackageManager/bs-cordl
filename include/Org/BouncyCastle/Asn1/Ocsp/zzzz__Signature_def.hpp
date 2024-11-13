@@ -54,13 +54,13 @@ public:
   /// @brief Field signatureValue, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_signatureValue, put = __cordl_internal_set_signatureValue)) ::Org::BouncyCastle::Asn1::DerBitString* signatureValue;
 
-  /// @brief Method GetInstance, addr 0x23c6538, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23d15e0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Signature* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x23c9380, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23d4428, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Signature* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetSignatureOctets, addr 0x23c972c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureOctets, addr 0x23d47d4, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureOctets();
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Signature* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -70,7 +70,7 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Signature* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm, ::Org::BouncyCastle::Asn1::DerBitString* signatureValue,
                                                                      ::Org::BouncyCastle::Asn1::Asn1Sequence* certs);
 
-  /// @brief Method ToAsn1Object, addr 0x23c9754, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23d47fc, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_certs();
@@ -91,22 +91,22 @@ public:
 
   constexpr void __cordl_internal_set_signatureValue(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method .ctor, addr 0x23c94fc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d45a4, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x23c9668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d4710, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm, ::Org::BouncyCastle::Asn1::DerBitString* signatureValue);
 
-  /// @brief Method .ctor, addr 0x23c9670, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d4718, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm, ::Org::BouncyCastle::Asn1::DerBitString* signatureValue, ::Org::BouncyCastle::Asn1::Asn1Sequence* certs);
 
-  /// @brief Method get_Certs, addr 0x23c974c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certs, addr 0x23d47f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_Certs();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x23c971c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgorithm, addr 0x23d47c4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
 
-  /// @brief Method get_SignatureValue, addr 0x23c9724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureValue, addr 0x23d47cc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_SignatureValue();
 
 protected:

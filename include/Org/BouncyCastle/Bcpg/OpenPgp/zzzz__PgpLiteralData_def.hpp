@@ -43,13 +43,13 @@ public:
   /// @brief Field data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::Org::BouncyCastle::Bcpg::LiteralDataPacket* data;
 
-  /// @brief Method GetDataStream, addr 0x24ef5a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetDataStream, addr 0x24fa64c, size 0x1c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetDataStream();
 
-  /// @brief Method GetInputStream, addr 0x24ef588, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x24fa630, size 0x1c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method GetRawFileName, addr 0x24ef504, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRawFileName, addr 0x24fa5ac, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawFileName();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralData* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Bcpg::LiteralDataPacket* value);
 
-  /// @brief Method .ctor, addr 0x24ef3b4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fa45c, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_FileName, addr 0x24ef4e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x24fa590, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method get_Format, addr 0x24ef4cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x24fa574, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Format();
 
-  /// @brief Method get_ModificationTime, addr 0x24ef520, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ModificationTime, addr 0x24fa5c8, size 0x68, virtual false, abstract: false, final false
   inline ::System::DateTime get_ModificationTime();
 
 protected:

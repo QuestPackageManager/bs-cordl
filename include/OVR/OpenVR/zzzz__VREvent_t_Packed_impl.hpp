@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::VREvent_t_Packed::*)(::OVR::OpenVR::VREvent_t)>(&::OVR::OpenVR::VREvent_t_Packed::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x40010cc;
+  constexpr static std::size_t addrs = 0x401575c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::VREvent_t_Packed::*)(ByRef<::OVR::OpenVR::VREvent_t>)>(
     &::OVR::OpenVR::VREvent_t_Packed::Unpack)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ffbb50;
+  constexpr static std::size_t addrs = 0x40101e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

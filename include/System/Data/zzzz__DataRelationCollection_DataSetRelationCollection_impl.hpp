@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)(::System::Data::DataSet*)>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x40eb7c8;
+  constexpr static std::size_t addrs = 0x40ffee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)()>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::get_List)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40eb858;
+  constexpr static std::size_t addrs = 0x40fff70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)()>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::Clear)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x40eb860;
+  constexpr static std::size_t addrs = 0x40fff78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataSet* (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)()>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::GetDataSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40eb894;
+  constexpr static std::size_t addrs = 0x40fffac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRelation* (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)(int32_t)>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::get_Item)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x40eb89c;
+  constexpr static std::size_t addrs = 0x40fffb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRelation* (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)(::StringW)>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::get_Item)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x40eb99c;
+  constexpr static std::size_t addrs = 0x41000b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)(::System::Data::DataRelation*)>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::AddCore)> {
   constexpr static std::size_t size = 0x534;
-  constexpr static std::size_t addrs = 0x40eba88;
+  constexpr static std::size_t addrs = 0x41001a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)(::System::Data::DataRelation*)>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::RemoveCore)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x40ebfbc;
+  constexpr static std::size_t addrs = 0x41006d4;
 
   inline static ::MethodInfo const* methodInfo() {
 

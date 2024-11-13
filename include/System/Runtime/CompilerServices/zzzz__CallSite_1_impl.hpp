@@ -99,7 +99,7 @@ template <typename T> constexpr T const& System::Runtime::CompilerServices::Call
 }
 template <typename T> constexpr void System::Runtime::CompilerServices::CallSite_1<T>::__cordl_internal_set_Target(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Target)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___Target, value);
 }
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& System::Runtime::CompilerServices::CallSite_1<T>::__cordl_internal_get_Rules() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -111,7 +111,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& System::Runtime:
 }
 template <typename T> constexpr void System::Runtime::CompilerServices::CallSite_1<T>::__cordl_internal_set_Rules(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Rules)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___Rules, value);
 }
 template <typename T> inline void System::Runtime::CompilerServices::CallSite_1<T>::setStaticF_s_cachedUpdate(T value) {
   ::cordl_internals::setStaticField<T, "s_cachedUpdate", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSite_1<T>*>::get>(std::forward<T>(value));

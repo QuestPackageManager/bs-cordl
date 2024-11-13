@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPlatformPersistentDataPath, addr 0x3a9b3f4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPersistentDataPath, addr 0x3aaeed0, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW GetPlatformPersistentDataPath();
 
 protected:
@@ -38,7 +38,7 @@ public:
   FileUtility(FileUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5010 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

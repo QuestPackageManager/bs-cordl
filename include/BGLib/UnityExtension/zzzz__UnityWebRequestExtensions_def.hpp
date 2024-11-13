@@ -88,7 +88,7 @@ public:
 
   static inline ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <GetAwaiter>g__SetResult|0, addr 0x2277100, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <GetAwaiter>g__SetResult|0, addr 0x2282150, size 0xd4, virtual false, abstract: false, final false
   inline void _GetAwaiter_g__SetResult_0(::UnityEngine::AsyncOperation* _);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>*& __cordl_internal_get_tcs();
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set_webRequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
 
-  /// @brief Method .ctor, addr 0x22770f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2282148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>* ___tcs;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17235 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -150,10 +150,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22771d4, size 0x83c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2282224, size 0x83c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2277a10, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2282a60, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -210,7 +210,7 @@ public:
   ::System::Runtime::CompilerServices::ValueTaskAwaiter __u__2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17236 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -253,11 +253,11 @@ public:
 
   using __c__DisplayClass1_0 = ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0;
 
-  /// @brief Method GetAwaiter, addr 0x2276b80, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x2281bf8, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::__UnityWebRequest__Result>
   GetAwaiter(::UnityEngine::Networking::UnityWebRequestAsyncOperation* webRequestOperation);
 
-  /// @brief Method SendWebRequestAsync, addr 0x2277008, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SendWebRequestAsync, addr 0x2282058, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityEngine::Networking::__UnityWebRequest__Result>* SendWebRequestAsync(::UnityEngine::Networking::UnityWebRequest* request,
                                                                                                                               ::System::Threading::CancellationToken cancellationToken);
 
@@ -276,7 +276,7 @@ public:
   UnityWebRequestExtensions(UnityWebRequestExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17237 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

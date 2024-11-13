@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UxmlStyleFactory::*)()>(
     &::UnityEngine::UIElements::UxmlStyleFactory::get_uxmlName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a261cc;
+  constexpr static std::size_t addrs = 0x4a3a8e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UxmlStyleFactory::*)()>(
     &::UnityEngine::UIElements::UxmlStyleFactory::get_uxmlQualifiedName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a2620c;
+  constexpr static std::size_t addrs = 0x4a3a924;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (
     ::UnityEngine::UIElements::UxmlStyleFactory::*)(::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::UxmlStyleFactory::Create)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a26280;
+  constexpr static std::size_t addrs = 0x4a3a998;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlStyleFactory::*)()>(&::UnityEngine::UIElements::UxmlStyleFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a26288;
+  constexpr static std::size_t addrs = 0x4a3a9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlStyleFactory*>::get(), ".ctor",

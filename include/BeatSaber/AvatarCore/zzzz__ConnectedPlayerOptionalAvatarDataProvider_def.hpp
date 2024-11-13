@@ -73,17 +73,17 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x221aba0, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2223654, size 0x8c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleOptionalAvatarDataSyncHandlerDidChangeOptionalAvatarDataSync, addr 0x221ace0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataSyncHandlerDidChangeOptionalAvatarDataSync, addr 0x2223794, size 0x16c, virtual false, abstract: false, final false
   inline void HandleOptionalAvatarDataSyncHandlerDidChangeOptionalAvatarDataSync(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::BeatSaber::AvatarCore::OptionalAvatarData optionalAvatarData);
 
   static inline ::BeatSaber::AvatarCore::ConnectedPlayerOptionalAvatarDataProvider* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
                                                                                              ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                                              ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* optionalAvatarDataSyncHandler);
 
-  /// @brief Method SetDisplayContext, addr 0x221acdc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SetDisplayContext, addr 0x2223790, size 0x4, virtual true, abstract: false, final true
   inline void SetDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext);
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
@@ -110,17 +110,17 @@ public:
 
   constexpr void __cordl_internal_set_dataDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
-  /// @brief Method .ctor, addr 0x221aa40, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22234f4, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                     ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* optionalAvatarDataSyncHandler);
 
-  /// @brief Method add_dataDidChangeEvent, addr 0x221a8e0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_dataDidChangeEvent, addr 0x2223394, size 0xb0, virtual true, abstract: false, final true
   inline void add_dataDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
-  /// @brief Method get_currentData, addr 0x221a714, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_currentData, addr 0x22231c8, size 0x38, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>* get_currentData();
 
-  /// @brief Method get_playbackDelaySeconds, addr 0x221a7b4, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method get_playbackDelaySeconds, addr 0x2223268, size 0x12c, virtual true, abstract: false, final true
   inline float_t get_playbackDelaySeconds();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IOptionalAvatarDataProvider"
@@ -129,7 +129,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_dataDidChangeEvent, addr 0x221a990, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_dataDidChangeEvent, addr 0x2223444, size 0xb0, virtual true, abstract: false, final true
   inline void remove_dataDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>* value);
 
 protected:
@@ -159,7 +159,7 @@ public:
   ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* ____optionalAvatarDataSyncHandler;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17540 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

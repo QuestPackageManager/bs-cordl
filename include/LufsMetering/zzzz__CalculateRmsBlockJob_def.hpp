@@ -30,10 +30,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Create, addr 0x3afdd70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3b12790, size 0xc, virtual false, abstract: false, final false
   static inline ::LufsMetering::CalculateRmsBlockJob Create(::Unity::Collections::NativeArray_1<float_t> inputData);
 
-  /// @brief Method Execute, addr 0x3afdd7c, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3b1279c, size 0xb4, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -54,7 +54,7 @@ public:
   float_t outputData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5379 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

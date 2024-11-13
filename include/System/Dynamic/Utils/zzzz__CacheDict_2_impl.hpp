@@ -25,7 +25,7 @@ template <typename TKey, typename TValue> constexpr TKey const& System::Dynamic:
 }
 template <typename TKey, typename TValue> constexpr void System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>::__cordl_internal_set__key(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____key, value);
 }
 template <typename TKey, typename TValue> constexpr TValue& System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>::__cordl_internal_get__value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -37,7 +37,7 @@ template <typename TKey, typename TValue> constexpr TValue const& System::Dynami
 }
 template <typename TKey, typename TValue> constexpr void System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>::__cordl_internal_set__value(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____value, value);
 }
 template <typename TKey, typename TValue>
 inline ::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>* System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>::New_ctor(int32_t hash, TKey key, TValue value) {
@@ -80,7 +80,7 @@ template <typename TKey, typename TValue>
 constexpr void System::Dynamic::Utils::CacheDict_2<TKey, TValue>::__cordl_internal_set__entries(
     ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____entries, value);
 }
 template <typename TKey, typename TValue> inline ::System::Dynamic::Utils::CacheDict_2<TKey, TValue>* System::Dynamic::Utils::CacheDict_2<TKey, TValue>::New_ctor(int32_t size) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::Utils::CacheDict_2<TKey, TValue>*>(size));

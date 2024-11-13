@@ -29,18 +29,18 @@ namespace System {
 class CORDL_TYPE AsyncCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ce0a9c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3cf512c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IAsyncResult* ar, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ce0abc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3cf514c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ce0a88, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3cf5118, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IAsyncResult* ar);
 
   static inline ::System::AsyncCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ce0988, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf5018, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

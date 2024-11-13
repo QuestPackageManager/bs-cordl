@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__durationText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3a8c6a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa0184, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_bpm, addr 0x3a8c660, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_bpm, addr 0x3aa013c, size 0x48, virtual false, abstract: false, final false
   inline void set_bpm(float_t value);
 
-  /// @brief Method set_duration, addr 0x3a8c62c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x3aa0108, size 0x34, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
 protected:
@@ -77,7 +77,7 @@ public:
   ::UnityW<::TMPro::TextMeshProUGUI> ____bpmText;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4944 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

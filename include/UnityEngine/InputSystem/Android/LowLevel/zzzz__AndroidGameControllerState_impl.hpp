@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::LowLevel::__AndroidGameControllerState__Variants::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::__AndroidGameControllerState__Variants::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458f750;
+  constexpr static std::size_t addrs = 0x45a3e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::*)()>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::get_format)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x458f62c;
+  constexpr static std::size_t addrs = 0x45a3d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::*)(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode, bool)>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::WithButton)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x458f684;
+  constexpr static std::size_t addrs = 0x45a3d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::*)(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, float_t)>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::WithAxis)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x458f6c8;
+  constexpr static std::size_t addrs = 0x45a3de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::_ctor)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x22d5a00;
+  constexpr static std::size_t addrs = 0x22e0aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22d55d8;
+  constexpr static std::size_t addrs = 0x22e0680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::*)(
     ::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*)>(&::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22d5b70;
+  constexpr static std::size_t addrs = 0x22e0c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::*)(
     ::Org::BouncyCastle::Asn1::Crmf::PKMacValue*, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*)>(&::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22d5ba0;
+  constexpr static std::size_t addrs = 0x22e0c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::get_Sender)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d5bcc;
+  constexpr static std::size_t addrs = 0x22e0c74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PKMacValue* (::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::get_PublicKeyMac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d5bd4;
+  constexpr static std::size_t addrs = 0x22e0c7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* (::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::get_PublicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d5bdc;
+  constexpr static std::size_t addrs = 0x22e0c84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput::ToAsn1Object)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x22d5be4;
+  constexpr static std::size_t addrs = 0x22e0c8c;
 
   inline static ::MethodInfo const* methodInfo() {
 

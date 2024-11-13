@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::AvatarColorBehaviour::OnGraphStart)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3abf53c;
+  constexpr static std::size_t addrs = 0x3ad30dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::AvatarColorBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x3abf5b0;
+  constexpr static std::size_t addrs = 0x3ad3150;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::AvatarColorBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3abf790;
+  constexpr static std::size_t addrs = 0x3ad3330;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)()>(&::GlobalNamespace::AvatarColorBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3abf81c;
+  constexpr static std::size_t addrs = 0x3ad33bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarColorBehaviour*>::get(), ".ctor",

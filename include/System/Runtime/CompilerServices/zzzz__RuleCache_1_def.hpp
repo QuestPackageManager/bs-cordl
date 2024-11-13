@@ -82,7 +82,7 @@ public:
   ::System::Object* ____cacheLock;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14102 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

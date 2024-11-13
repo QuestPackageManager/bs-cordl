@@ -28,7 +28,7 @@ public:
   static inline ::GlobalNamespace::PS5PlatformAdditionalContentModel* New_ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
                                                                                ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
 
-  /// @brief Method .ctor, addr 0x26a6a1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b26f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper, ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
 
 protected:
@@ -46,7 +46,7 @@ public:
   PS5PlatformAdditionalContentModel(PS5PlatformAdditionalContentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13130 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

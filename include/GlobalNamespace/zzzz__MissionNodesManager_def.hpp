@@ -100,61 +100,61 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMissionNodesManager"
   constexpr operator ::GlobalNamespace::IMissionNodesManager*() noexcept;
 
-  /// @brief Method Awake, addr 0x3adf904, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3af3610, size 0x2c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DidFirstLockedMissionStageChange, addr 0x3adfe30, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DidFirstLockedMissionStageChange, addr 0x3af3b3c, size 0xa0, virtual false, abstract: false, final false
   inline bool DidFirstLockedMissionStageChange();
 
-  /// @brief Method GetAllMissionNodes, addr 0x3ae0064, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetAllMissionNodes, addr 0x3af3d70, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>*
   GetAllMissionNodes(::GlobalNamespace::MissionNode* node, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* visited);
 
-  /// @brief Method GetAllMissionNodes, addr 0x3adf930, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetAllMissionNodes, addr 0x3af363c, size 0xa8, virtual false, abstract: false, final false
   inline void GetAllMissionNodes();
 
-  /// @brief Method GetMissionNodeWithModelClearedStateInconsistency, addr 0x3adfd8c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetMissionNodeWithModelClearedStateInconsistency, addr 0x3af3a98, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> GetMissionNodeWithModelClearedStateInconsistency();
 
-  /// @brief Method GetNewEnabledConnection, addr 0x3ae0148, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetNewEnabledConnection, addr 0x3af3e54, size 0x174, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::MissionNodeConnection>, ::Array<::UnityW<::GlobalNamespace::MissionNodeConnection>>*> GetNewEnabledConnection();
 
-  /// @brief Method GetTopMostNotClearedMissionNode, addr 0x3adff08, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetTopMostNotClearedMissionNode, addr 0x3af3c14, size 0x15c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> GetTopMostNotClearedMissionNode();
 
-  /// @brief Method IMissionNodesManager.get_allMissionNodes, addr 0x3adf8fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IMissionNodesManager.get_allMissionNodes, addr 0x3af3608, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::IMissionNode*>* IMissionNodesManager_get_allMissionNodes();
 
-  /// @brief Method IMissionNodesManager.get_finalMissionNode, addr 0x3adf8f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IMissionNodesManager.get_finalMissionNode, addr 0x3af3600, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IMissionNode* IMissionNodesManager_get_finalMissionNode();
 
-  /// @brief Method IsNodeInteractable, addr 0x3ae02bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsNodeInteractable, addr 0x3af3fc8, size 0x60, virtual false, abstract: false, final false
   inline bool IsNodeInteractable(::GlobalNamespace::MissionNodeVisualController* node, bool parentCleared);
 
-  /// @brief Method MissionWasCleared, addr 0x3adfd3c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method MissionWasCleared, addr 0x3af3a48, size 0x50, virtual false, abstract: false, final false
   inline bool MissionWasCleared(::GlobalNamespace::MissionNode* missionNode);
 
   static inline ::GlobalNamespace::MissionNodesManager* New_ctor();
 
-  /// @brief Method RegisterAllNodes, addr 0x3adf9d8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method RegisterAllNodes, addr 0x3af36e4, size 0xa0, virtual false, abstract: false, final false
   inline void RegisterAllNodes();
 
-  /// @brief Method ResetAllNodes, addr 0x3adfab4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ResetAllNodes, addr 0x3af37c0, size 0x68, virtual false, abstract: false, final false
   inline void ResetAllNodes();
 
-  /// @brief Method SetupNodeConnections, addr 0x3adfc7c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetupNodeConnections, addr 0x3af3988, size 0xc0, virtual false, abstract: false, final false
   inline void SetupNodeConnections();
 
-  /// @brief Method SetupNodeMap, addr 0x3adfa78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetupNodeMap, addr 0x3af3784, size 0x3c, virtual false, abstract: false, final false
   inline void SetupNodeMap();
 
-  /// @brief Method SetupNodeTree, addr 0x3adfb84, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetupNodeTree, addr 0x3af3890, size 0xf8, virtual false, abstract: false, final false
   inline void SetupNodeTree(::GlobalNamespace::MissionNodeVisualController* node, bool parentCleared);
 
-  /// @brief Method SetupStages, addr 0x3adfb1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetupStages, addr 0x3af3828, size 0x68, virtual false, abstract: false, final false
   inline void SetupStages();
 
-  /// @brief Method UpdateStageLockText, addr 0x3adfed0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockText, addr 0x3af3bdc, size 0x38, virtual false, abstract: false, final false
   inline void UpdateStageLockText();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNodeConnection>, ::Array<::UnityW<::GlobalNamespace::MissionNodeConnection>>*> const& __cordl_internal_get__allMissionNodeConnections() const;
@@ -211,25 +211,25 @@ public:
 
   constexpr void __cordl_internal_set__rootMissionNode(::UnityW<::GlobalNamespace::MissionNode> value);
 
-  /// @brief Method .ctor, addr 0x3ae031c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af4028, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInitialized, addr 0x3adf8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x3af35f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method get_allMissionNodes, addr 0x3adf8e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allMissionNodes, addr 0x3af35f0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> get_allMissionNodes();
 
-  /// @brief Method get_finalMissionNode, addr 0x3adf8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_finalMissionNode, addr 0x3af35d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_finalMissionNode();
 
-  /// @brief Method get_missionProgressModel, addr 0x3adf8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionProgressModel, addr 0x3af35e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::CampaignProgressModel> get_missionProgressModel();
 
-  /// @brief Method get_missionStagesManager, addr 0x3adf8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionStagesManager, addr 0x3af35e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionStagesManager> get_missionStagesManager();
 
-  /// @brief Method get_rootMissionNode, addr 0x3adf8c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rootMissionNode, addr 0x3af35d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_rootMissionNode();
 
   /// @brief Convert to "::GlobalNamespace::IMissionNodesManager"
@@ -277,7 +277,7 @@ public:
   bool ____isInitialized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5286 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

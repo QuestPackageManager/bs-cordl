@@ -20,7 +20,7 @@ UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeT
 template <typename TValueType, typename TValueUxmlAttributeType>
 constexpr void UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>::__cordl_internal_set_m_IsReadOnly(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_IsReadOnly)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_IsReadOnly, value);
 }
 template <typename TValueType, typename TValueUxmlAttributeType>
 constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>::__cordl_internal_get_m_IsDelayed() {
@@ -36,7 +36,7 @@ UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeT
 template <typename TValueType, typename TValueUxmlAttributeType>
 constexpr void UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>::__cordl_internal_set_m_IsDelayed(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_IsDelayed)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_IsDelayed, value);
 }
 template <typename TValueType, typename TValueUxmlAttributeType>
 inline void UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>::Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag,

@@ -47,13 +47,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__GradientRemapPool____c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x49391c8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x494d8e0, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::GradientRemap* __ctor_b__0_0();
 
-  /// @brief Method <.ctor>b__0_1, addr 0x4939260, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x494d978, size 0x14, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::GradientRemap* gradientRemap);
 
-  /// @brief Method .ctor, addr 0x49391c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494d8d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::__GradientRemapPool____c* getStaticF___9();
@@ -83,7 +83,7 @@ public:
   __GradientRemapPool____c(__GradientRemapPool____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -103,7 +103,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemapPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4938fe0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494d6f8, size 0x184, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,7 +121,7 @@ public:
   GradientRemapPool(GradientRemapPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

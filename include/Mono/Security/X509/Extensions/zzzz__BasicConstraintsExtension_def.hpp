@@ -32,15 +32,15 @@ public:
   /// @brief Field pathLenConstraint, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_pathLenConstraint, put = __cordl_internal_set_pathLenConstraint)) int32_t pathLenConstraint;
 
-  /// @brief Method Decode, addr 0x3bcbea0, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x3be0530, size 0x134, virtual true, abstract: false, final false
   inline void Decode();
 
-  /// @brief Method Encode, addr 0x3bcbfd4, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3be0664, size 0x128, virtual true, abstract: false, final false
   inline void Encode();
 
   static inline ::Mono::Security::X509::Extensions::BasicConstraintsExtension* New_ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method ToString, addr 0x3bcc104, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3be0794, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_cA() const;
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_pathLenConstraint(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3bca31c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bde9ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method get_CertificateAuthority, addr 0x3bcc0fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateAuthority, addr 0x3be078c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CertificateAuthority();
 
 protected:
@@ -82,7 +82,7 @@ public:
   int32_t ___pathLenConstraint;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15898 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

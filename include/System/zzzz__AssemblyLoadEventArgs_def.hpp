@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__LoadedAssembly_k__BackingField(::System::Reflection::Assembly* value);
 
-  /// @brief Method .ctor, addr 0x3ce0804, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf4e94, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::Assembly* loadedAssembly);
 
 protected:

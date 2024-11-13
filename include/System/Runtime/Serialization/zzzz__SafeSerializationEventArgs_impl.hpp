@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SafeSerializationEventArgs::*)(
     ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Serialization::SafeSerializationEventArgs::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3c85f04;
+  constexpr static std::size_t addrs = 0x3c9a594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::System::Object*>* (
     ::System::Runtime::Serialization::SafeSerializationEventArgs::*)()>(&::System::Runtime::Serialization::SafeSerializationEventArgs::get_SerializedStates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c85fbc;
+  constexpr static std::size_t addrs = 0x3c9a64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

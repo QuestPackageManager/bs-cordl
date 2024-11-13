@@ -31,7 +31,7 @@ constexpr TMemoryPool const& Zenject::PoolableMemoryPoolProvider_3<TParam1, TCon
 template <typename TParam1, typename TContract, typename TMemoryPool>
 constexpr void Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::__cordl_internal_set__pool(TMemoryPool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____pool, value);
 }
 template <typename TParam1, typename TContract, typename TMemoryPool>
 inline ::Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>* Zenject::PoolableMemoryPoolProvider_3<TParam1, TContract, TMemoryPool>::New_ctor(::Zenject::DiContainer* container,

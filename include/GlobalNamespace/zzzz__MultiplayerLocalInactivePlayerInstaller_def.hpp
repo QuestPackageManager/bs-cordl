@@ -44,7 +44,7 @@ public:
   /// @brief Field _sceneSetupData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x3b4a39c, size 0x424, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b5fe88, size 0x424, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller* New_ctor();
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x3b4a80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b602f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,7 +103,7 @@ public:
   ::BeatSaber::AvatarCore::OptionalAvatarDataSender* ____optionalAvatarDataSender;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4512 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

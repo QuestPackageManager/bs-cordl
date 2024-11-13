@@ -28,15 +28,15 @@ public:
   /// @brief Field originatorInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_originatorInfo, put = __cordl_internal_set_originatorInfo)) ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo;
 
-  /// @brief Method GetCertificates, addr 0x263bad0, size 0x4e0, virtual true, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0x2646b78, size 0x4e0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates();
 
-  /// @brief Method GetCrls, addr 0x263bfb0, size 0x4e0, virtual true, abstract: false, final false
+  /// @brief Method GetCrls, addr 0x2647058, size 0x4e0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls();
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
 
-  /// @brief Method ToAsn1Structure, addr 0x263c490, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Structure, addr 0x2647538, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* ToAsn1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __cordl_internal_get_originatorInfo();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_originatorInfo(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* value);
 
-  /// @brief Method .ctor, addr 0x263baa8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646b50, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
 
 protected:

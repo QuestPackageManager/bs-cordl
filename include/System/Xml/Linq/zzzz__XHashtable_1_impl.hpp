@@ -44,7 +44,7 @@ template <typename TValue> constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const&
 }
 template <typename TValue> constexpr void System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__cordl_internal_set__buckets(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buckets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____buckets, value);
 }
 template <typename TValue>
 constexpr ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*>&
@@ -62,7 +62,7 @@ template <typename TValue>
 constexpr void System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__cordl_internal_set__entries(
     ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____entries, value);
 }
 template <typename TValue> constexpr int32_t& System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__cordl_internal_get__numEntries() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -89,7 +89,7 @@ System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__cordl_internal_get
 template <typename TValue>
 constexpr void System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>::__cordl_internal_set__extractKey(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____extractKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____extractKey, value);
 }
 template <typename TValue>
 inline ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>*
@@ -151,7 +151,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::__XHashtable_
 }
 template <typename TValue> constexpr void System::Xml::Linq::XHashtable_1<TValue>::__cordl_internal_set__state(::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____state, value);
 }
 template <typename TValue>
 inline ::System::Xml::Linq::XHashtable_1<TValue>* System::Xml::Linq::XHashtable_1<TValue>::New_ctor(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* extractKey, int32_t capacity) {

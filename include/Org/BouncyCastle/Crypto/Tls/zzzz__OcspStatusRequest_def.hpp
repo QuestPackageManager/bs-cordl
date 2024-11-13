@@ -38,12 +38,12 @@ public:
   /// @brief Field mResponderIDList, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mResponderIDList, put = __cordl_internal_set_mResponderIDList)) ::System::Collections::IList* mResponderIDList;
 
-  /// @brief Method Encode, addr 0x23d7120, size 0x3c0, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x23e21c8, size 0x3c0, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* New_ctor(::System::Collections::IList* responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method Parse, addr 0x23d74e0, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x23e2588, size 0x2a8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* Parse(::System::IO::Stream* input);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_mRequestExtensions();
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_mResponderIDList(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x23d70e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e218c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method get_RequestExtensions, addr 0x23d7118, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequestExtensions, addr 0x23e21c0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_RequestExtensions();
 
-  /// @brief Method get_ResponderIDList, addr 0x23d7110, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResponderIDList, addr 0x23e21b8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_ResponderIDList();
 
 protected:

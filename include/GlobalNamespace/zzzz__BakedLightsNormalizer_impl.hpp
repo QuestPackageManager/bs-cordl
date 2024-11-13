@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LightConstants__BakeId, ::UnityW<::GlobalNamespace::LightmapLightWithIds>>* (::GlobalNamespace::BakedLightsNormalizer::*)()>(
     &::GlobalNamespace::BakedLightsNormalizer::get_lightmapLightDict)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397700c;
+  constexpr static std::size_t addrs = 0x398a890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightsNormalizer*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BakedLightsNormalizer::*)()>(
     &::GlobalNamespace::BakedLightsNormalizer::get_maxTotalIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3977014;
+  constexpr static std::size_t addrs = 0x398a898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightsNormalizer*>::get(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BakedLightsNormalizer::*)()>(&::GlobalNamespace::BakedLightsNormalizer::LateUpdate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x397701c;
+  constexpr static std::size_t addrs = 0x398a8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightsNormalizer*>::get(), "LateUpdate",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BakedLightsNormalizer::*)()>(&::GlobalNamespace::BakedLightsNormalizer::GetLightmapLights)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x397727c;
+  constexpr static std::size_t addrs = 0x398ab00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightsNormalizer*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BakedLightsNormalizer::*)()>(
     &::GlobalNamespace::BakedLightsNormalizer::UpdateGrayscaleTotal)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x3977058;
+  constexpr static std::size_t addrs = 0x398a8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightsNormalizer*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BakedLightsNormalizer::*)()>(
     &::GlobalNamespace::BakedLightsNormalizer::GetNormalizationMultiplier)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3977388;
+  constexpr static std::size_t addrs = 0x398ac0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightsNormalizer*>::get(),
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BakedLightsNormalizer::*)()>(&::GlobalNamespace::BakedLightsNormalizer::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39773d0;
+  constexpr static std::size_t addrs = 0x398ac54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightsNormalizer*>::get(), ".ctor",

@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE Pkcs5Scheme2Utf8PbeKey : public ::Org::BouncyCastle::Cms::CmsPbeKey {
 public:
   // Declarations
-  /// @brief Method GetEncoded, addr 0x263d158, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x2648200, size 0x12c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* GetEncoded(::StringW algorithmOid);
 
   static inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2Utf8PbeKey* New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password,
@@ -40,16 +40,16 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::Pkcs5Scheme2Utf8PbeKey* New_ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor, addr 0x263d154, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26481fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method .ctor, addr 0x263d114, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26481bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor, addr 0x263d118, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26481c0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method .ctor, addr 0x263d0d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2648178, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
 protected:

@@ -22,7 +22,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>, int32_t, int32_t, ::UnityEngine::GameObject*, ByRef<::UnityEngine::TerrainData*>,
                          ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Terrain*>, ::StringW)>(&::HoudiniEngineUnity::HEU_TerrainUtility::GenerateTerrainFromVolume)> {
   constexpr static std::size_t size = 0x990;
-  constexpr static std::size_t addrs = 0x3a26b20;
+  constexpr static std::size_t addrs = 0x3a3a478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Terrain*, ::StringW, ::StringW)>(
     &::HoudiniEngineUnity::HEU_TerrainUtility::SetTerrainMaterial)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3a274b0;
+  constexpr static std::size_t addrs = 0x3a3ae08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_TerrainUtility::GetDefaultTerrainShaderName)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3a27d6c;
+  constexpr static std::size_t addrs = 0x3a3b6c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TerrainUtility*>::get(),
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_TerrainUtility::GetDefaultTerrainMaterialPath)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3a27e0c;
+  constexpr static std::size_t addrs = 0x3a3b764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TerrainUtility*>::get(),
@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<float_t, ::Array<float_t>*> (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, int32_t, int32_t, ByRef<float_t>, ByRef<float_t>, ByRef<float_t>, bool)>(
         &::HoudiniEngineUnity::HEU_TerrainUtility::GetNormalizedHeightmapFromPartWithMinMax)> {
   constexpr static std::size_t size = 0x5f0;
-  constexpr static std::size_t addrs = 0x3a2767c;
+  constexpr static std::size_t addrs = 0x3a3afd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Il2CppObject* (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ByRef<int32_t>)>(
     &::HoudiniEngineUnity::HEU_TerrainUtility::GetDetailMapFromPart)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x3a280a0;
+  constexpr static std::size_t addrs = 0x3a3b9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, int32_t, int32_t, ByRef<::ArrayW<float_t, ::Array<float_t>*>>, ByRef<float_t>, ByRef<float_t>)>(
         &::HoudiniEngineUnity::HEU_TerrainUtility::GetHeightmapFromPart)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3a27eac;
+  constexpr static std::size_t addrs = 0x3a3b804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Il2CppObject* (*)(int32_t, int32_t, ::ArrayW<float_t, ::Array<float_t>*>)>(
     &::HoudiniEngineUnity::HEU_TerrainUtility::ConvertHeightMapHoudiniToUnity)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3a27c6c;
+  constexpr static std::size_t addrs = 0x3a3b5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Il2CppObject* (*)(int32_t, int32_t, ::System::Collections::Generic::List_1<::ArrayW<float_t, ::Array<float_t>*>>*)>(
     &::HoudiniEngineUnity::HEU_TerrainUtility::ConvertHeightFieldToAlphaMap)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x3a28394;
+  constexpr static std::size_t addrs = 0x3a3bcec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,7 +175,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<Il2CppObject* (*)(int32_t, int32_t, Il2CppObject*, ::System::Collections::Generic::List_1<::ArrayW<float_t, ::Array<float_t>*>>*, ::ArrayW<float_t, ::Array<float_t>*>,
                                   ::System::Collections::Generic::List_1<int32_t>*)>(&::HoudiniEngineUnity::HEU_TerrainUtility::AppendConvertedHeightFieldToAlphaMap)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x3a28530;
+  constexpr static std::size_t addrs = 0x3a3be88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,7 +195,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector3 (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::UnityEngine::Vector3, float_t, float_t, int32_t, int32_t, float_t)>(
         &::HoudiniEngineUnity::HEU_TerrainUtility::GetVolumePositionOffset)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3a287d8;
+  constexpr static std::size_t addrs = 0x3a3c130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t)>(
         &::HoudiniEngineUnity::HEU_TerrainUtility::GetTreePrototypeInfosFromPart)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3a28898;
+  constexpr static std::size_t addrs = 0x3a3c1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, int32_t, ByRef<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>, bool)>(&::HoudiniEngineUnity::HEU_TerrainUtility::PopulateScatterTrees)> {
   constexpr static std::size_t size = 0xc68;
-  constexpr static std::size_t addrs = 0x3a28b54;
+  constexpr static std::size_t addrs = 0x3a3c4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TerrainData*, ::HoudiniEngineUnity::HEU_VolumeScatterTrees*, int32_t)>(
     &::HoudiniEngineUnity::HEU_TerrainUtility::ApplyScatterTrees)> {
   constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x3a297bc;
+  constexpr static std::size_t addrs = 0x3a3d114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ByRef<::HoudiniEngineUnity::HEU_DetailPrototype*>)>(&::HoudiniEngineUnity::HEU_TerrainUtility::PopulateDetailPrototype)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x3a29cb0;
+  constexpr static std::size_t addrs = 0x3a3d608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ByRef<::HoudiniEngineUnity::HEU_DetailProperties*>)>(&::HoudiniEngineUnity::HEU_TerrainUtility::PopulateDetailProperties)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x3a2a098;
+  constexpr static std::size_t addrs = 0x3a3d9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -301,7 +301,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Terrain*, ::UnityEngine::TerrainData*, ::HoudiniEngineUnity::HEU_DetailProperties*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*,
     ::System::Collections::Generic::List_1<Il2CppObject*>*)>(&::HoudiniEngineUnity::HEU_TerrainUtility::ApplyDetailLayers)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x3a2a3b4;
+  constexpr static std::size_t addrs = 0x3a3dd0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::ArrayW<::UnityEngine::TerrainLayer*, ::Array<::UnityEngine::TerrainLayer*>*>)>(
     &::HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainLayerIndexByName)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3a2a8a0;
+  constexpr static std::size_t addrs = 0x3a3e1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(
     ::UnityEngine::TerrainLayer*, ::ArrayW<::UnityEngine::TerrainLayer*, ::Array<::UnityEngine::TerrainLayer*>*>)>(&::HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainLayerIndex)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3a2aa04;
+  constexpr static std::size_t addrs = 0x3a3e35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_TerrainUtility::VolumeLayerHasAttributes)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x3a2aac4;
+  constexpr static std::size_t addrs = 0x3a3e41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HFLayerType (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW)>(
     &::HoudiniEngineUnity::HEU_TerrainUtility::GetHeightfieldLayerType)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3a2ad10;
+  constexpr static std::size_t addrs = 0x3a3e668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_TerrainUtility::GetHeightRangeFromHeightfield)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3a28024;
+  constexpr static std::size_t addrs = 0x3a3b97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -401,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_TerrainUtility::GetTerrainDataExportPathFromHeightfieldAttribute)> {
   constexpr static std::size_t size = 0x528;
-  constexpr static std::size_t addrs = 0x3a2ae4c;
+  constexpr static std::size_t addrs = 0x3a3e7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t, int32_t, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_TerrainUtility::ResampleData)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x3a15b40;
+  constexpr static std::size_t addrs = 0x3a29498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

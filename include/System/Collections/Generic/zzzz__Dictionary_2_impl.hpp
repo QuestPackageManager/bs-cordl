@@ -289,7 +289,7 @@ System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>::__cor
 template <typename TKey, typename TValue>
 constexpr void System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>::__cordl_internal_set__dictionary(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____dictionary, value);
 }
 template <typename TKey, typename TValue>
 inline ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>*
@@ -532,7 +532,7 @@ System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>::__c
 template <typename TKey, typename TValue>
 constexpr void System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>::__cordl_internal_set__dictionary(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dictionary)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____dictionary, value);
 }
 template <typename TKey, typename TValue>
 inline ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>*
@@ -744,7 +744,7 @@ template <typename TKey, typename TValue> constexpr ::ArrayW<int32_t, ::Array<in
 }
 template <typename TKey, typename TValue> constexpr void System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_set__buckets(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buckets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____buckets, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*>&
@@ -762,7 +762,7 @@ template <typename TKey, typename TValue>
 constexpr void System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_set__entries(
     ::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____entries, value);
 }
 template <typename TKey, typename TValue> constexpr int32_t& System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_get__count() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -826,7 +826,7 @@ System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_get__
 template <typename TKey, typename TValue>
 constexpr void System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_set__comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____comparer, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>*& System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_get__keys() {
@@ -842,7 +842,7 @@ System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_get__
 template <typename TKey, typename TValue>
 constexpr void System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_set__keys(::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____keys, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>*& System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_get__values() {
@@ -858,7 +858,7 @@ System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_get__
 template <typename TKey, typename TValue>
 constexpr void System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_set__values(::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____values, value);
 }
 template <typename TKey, typename TValue> constexpr ::System::Object*& System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_get__syncRoot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -871,7 +871,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::
 }
 template <typename TKey, typename TValue> constexpr void System::Collections::Generic::Dictionary_2<TKey, TValue>::__cordl_internal_set__syncRoot(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____syncRoot, value);
 }
 template <typename TKey, typename TValue> inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>* System::Collections::Generic::Dictionary_2<TKey, TValue>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>());

@@ -45,12 +45,12 @@ public:
   __declspec(property(get = __cordl_internal_get_moreAttributes, put = __cordl_internal_set_moreAttributes)) ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*>
       moreAttributes;
 
-  /// @brief Method AddAnnotation, addr 0x424236c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x4256a84, size 0x8, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaAnnotated* New_ctor();
 
-  /// @brief Method SetUnhandledAttributes, addr 0x4242364, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetUnhandledAttributes, addr 0x4256a7c, size 0x8, virtual true, abstract: false, final false
   inline void SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> moreAttributes);
 
   constexpr ::System::Xml::Schema::XmlSchemaAnnotation*& __cordl_internal_get_annotation();
@@ -71,31 +71,31 @@ public:
 
   constexpr void __cordl_internal_set_moreAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> value);
 
-  /// @brief Method .ctor, addr 0x4242374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4256a8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Annotation, addr 0x4242334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Annotation, addr 0x4256a4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnnotation* get_Annotation();
 
-  /// @brief Method get_Id, addr 0x4242324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x4256a3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_IdAttribute, addr 0x4242354, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IdAttribute, addr 0x4256a6c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_IdAttribute();
 
-  /// @brief Method get_UnhandledAttributes, addr 0x4242344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnhandledAttributes, addr 0x4256a5c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> get_UnhandledAttributes();
 
-  /// @brief Method set_Annotation, addr 0x424233c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Annotation, addr 0x4256a54, size 0x8, virtual false, abstract: false, final false
   inline void set_Annotation(::System::Xml::Schema::XmlSchemaAnnotation* value);
 
-  /// @brief Method set_Id, addr 0x424232c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x4256a44, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_IdAttribute, addr 0x424235c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IdAttribute, addr 0x4256a74, size 0x8, virtual true, abstract: false, final false
   inline void set_IdAttribute(::StringW value);
 
-  /// @brief Method set_UnhandledAttributes, addr 0x424234c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UnhandledAttributes, addr 0x4256a64, size 0x8, virtual false, abstract: false, final false
   inline void set_UnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> value);
 
 protected:
@@ -122,7 +122,7 @@ public:
   ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> ___moreAttributes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7621 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

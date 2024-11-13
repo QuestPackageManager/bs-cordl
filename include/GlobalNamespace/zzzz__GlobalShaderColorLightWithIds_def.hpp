@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x3978090, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398b914, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method get_intensity, addr 0x3978080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x398b904, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x3978088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x398b90c, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -75,7 +75,7 @@ public:
   float_t ____intensity;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16274 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -110,12 +110,12 @@ public:
   /// @brief Field _saturation, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__saturation, put = __cordl_internal_set__saturation)) float_t _saturation;
 
-  /// @brief Method GetLightWithIds, addr 0x3978000, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x398b884, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::GlobalShaderColorLightWithIds* New_ctor();
 
-  /// @brief Method ProcessNewColorData, addr 0x3977eb4, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x398b738, size 0x14c, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
   constexpr ::ArrayW<::GlobalNamespace::__GlobalShaderColorLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__GlobalShaderColorLightWithIds__LightIntensitiesWithId*>*> const&
@@ -139,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set__saturation(float_t value);
 
-  /// @brief Method .ctor, addr 0x3978008, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398b88c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__globalLightTintColorPropertyId();
@@ -170,7 +170,7 @@ public:
   float_t ____saturation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16267 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16275 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

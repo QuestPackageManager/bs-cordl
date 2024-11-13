@@ -38,16 +38,16 @@ public:
 
   static inline ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData* New_ctor();
 
-  /// @brief Method RotatePointAroundPivot, addr 0x2278854, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RotatePointAroundPivot, addr 0x22838a4, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RotatePointAroundPivot(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 pivot, ::UnityEngine::Quaternion rot);
 
-  /// @brief Method RotatePointsAroundPivot, addr 0x2278690, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method RotatePointsAroundPivot, addr 0x22836e0, size 0x1c4, virtual false, abstract: false, final false
   inline ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData* RotatePointsAroundPivot(::UnityEngine::Vector3 pivot, ::UnityEngine::Quaternion rot);
 
-  /// @brief Method SetEndPoint, addr 0x2278684, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetEndPoint, addr 0x22836d4, size 0xc, virtual false, abstract: false, final false
   inline void SetEndPoint(::UnityEngine::Vector3 newValue);
 
-  /// @brief Method SetStartPoint, addr 0x2278678, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetStartPoint, addr 0x22836c8, size 0xc, virtual false, abstract: false, final false
   inline void SetStartPoint(::UnityEngine::Vector3 newValue);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__endPoint() const;
@@ -62,13 +62,13 @@ public:
 
   constexpr void __cordl_internal_set__startPoint(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x22788b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2283900, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_endPoint, addr 0x227866c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_endPoint, addr 0x22836bc, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPoint();
 
-  /// @brief Method get_startPoint, addr 0x2278660, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_startPoint, addr 0x22836b0, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startPoint();
 
 protected:
@@ -92,7 +92,7 @@ public:
   ::UnityEngine::Vector3 ____endPoint;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17247 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

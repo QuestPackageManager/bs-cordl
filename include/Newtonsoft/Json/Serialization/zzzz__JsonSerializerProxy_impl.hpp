@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(
     ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*)>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::add_Error)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e85f30;
+  constexpr static std::size_t addrs = 0x3e9a5c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(
     ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*)>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::remove_Error)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e85f50;
+  constexpr static std::size_t addrs = 0x3e9a5e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::IReferenceResolver* (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_ReferenceResolver)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e85f70;
+  constexpr static std::size_t addrs = 0x3e9a600;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(
     ::Newtonsoft::Json::Serialization::IReferenceResolver*)>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_ReferenceResolver)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e85f90;
+  constexpr static std::size_t addrs = 0x3e9a620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::ITraceWriter* (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_TraceWriter)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e85fb0;
+  constexpr static std::size_t addrs = 0x3e9a640;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::Serialization::ITraceWriter*)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_TraceWriter)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e85fd0;
+  constexpr static std::size_t addrs = 0x3e9a660;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEqualityComparer* (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_EqualityComparer)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e85ff4;
+  constexpr static std::size_t addrs = 0x3e9a684;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::System::Collections::IEqualityComparer*)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_EqualityComparer)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86018;
+  constexpr static std::size_t addrs = 0x3e9a6a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonConverterCollection* (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_Converters)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e8603c;
+  constexpr static std::size_t addrs = 0x3e9a6cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::DefaultValueHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_DefaultValueHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86060;
+  constexpr static std::size_t addrs = 0x3e9a6f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::DefaultValueHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_DefaultValueHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86084;
+  constexpr static std::size_t addrs = 0x3e9a714;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::IContractResolver* (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_ContractResolver)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e860a8;
+  constexpr static std::size_t addrs = 0x3e9a738;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(
     ::Newtonsoft::Json::Serialization::IContractResolver*)>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_ContractResolver)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e860cc;
+  constexpr static std::size_t addrs = 0x3e9a75c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::MissingMemberHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_MissingMemberHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e860f0;
+  constexpr static std::size_t addrs = 0x3e9a780;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::MissingMemberHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_MissingMemberHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86114;
+  constexpr static std::size_t addrs = 0x3e9a7a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::NullValueHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_NullValueHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86138;
+  constexpr static std::size_t addrs = 0x3e9a7c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::NullValueHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_NullValueHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e8615c;
+  constexpr static std::size_t addrs = 0x3e9a7ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::ObjectCreationHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_ObjectCreationHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86180;
+  constexpr static std::size_t addrs = 0x3e9a810;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::ObjectCreationHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_ObjectCreationHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e861a4;
+  constexpr static std::size_t addrs = 0x3e9a834;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::ReferenceLoopHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_ReferenceLoopHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e861c8;
+  constexpr static std::size_t addrs = 0x3e9a858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::ReferenceLoopHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_ReferenceLoopHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e861ec;
+  constexpr static std::size_t addrs = 0x3e9a87c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::PreserveReferencesHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_PreserveReferencesHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86210;
+  constexpr static std::size_t addrs = 0x3e9a8a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::PreserveReferencesHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_PreserveReferencesHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86234;
+  constexpr static std::size_t addrs = 0x3e9a8c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::TypeNameHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_TypeNameHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86258;
+  constexpr static std::size_t addrs = 0x3e9a8e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::TypeNameHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_TypeNameHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e8627c;
+  constexpr static std::size_t addrs = 0x3e9a90c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::MetadataPropertyHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_MetadataPropertyHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e862a0;
+  constexpr static std::size_t addrs = 0x3e9a930;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::MetadataPropertyHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_MetadataPropertyHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e862c4;
+  constexpr static std::size_t addrs = 0x3e9a954;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle (
     ::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_TypeNameAssemblyFormat)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e862e8;
+  constexpr static std::size_t addrs = 0x3e9a978;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(
     ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle)>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_TypeNameAssemblyFormat)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e8630c;
+  constexpr static std::size_t addrs = 0x3e9a99c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -510,7 +510,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::TypeNameAssemblyFormatHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_TypeNameAssemblyFormatHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86330;
+  constexpr static std::size_t addrs = 0x3e9a9c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::TypeNameAssemblyFormatHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_TypeNameAssemblyFormatHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86354;
+  constexpr static std::size_t addrs = 0x3e9a9e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -542,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::ConstructorHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_ConstructorHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86378;
+  constexpr static std::size_t addrs = 0x3e9aa08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -558,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::ConstructorHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_ConstructorHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e8639c;
+  constexpr static std::size_t addrs = 0x3e9aa2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -574,7 +574,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::SerializationBinder* (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_Binder)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e863c0;
+  constexpr static std::size_t addrs = 0x3e9aa50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -590,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(
     ::System::Runtime::Serialization::SerializationBinder*)>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_Binder)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e863e0;
+  constexpr static std::size_t addrs = 0x3e9aa70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -606,7 +606,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::ISerializationBinder* (
     ::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_SerializationBinder)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e86400;
+  constexpr static std::size_t addrs = 0x3e9aa90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(
     ::Newtonsoft::Json::Serialization::ISerializationBinder*)>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_SerializationBinder)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e86420;
+  constexpr static std::size_t addrs = 0x3e9aab0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -638,7 +638,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::StreamingContext (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_Context)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86440;
+  constexpr static std::size_t addrs = 0x3e9aad0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_Context)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86464;
+  constexpr static std::size_t addrs = 0x3e9aaf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -670,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Formatting (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_Formatting)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86488;
+  constexpr static std::size_t addrs = 0x3e9ab18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -686,7 +686,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::Formatting)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_Formatting)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e864ac;
+  constexpr static std::size_t addrs = 0x3e9ab3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -702,7 +702,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::DateFormatHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_DateFormatHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e864d0;
+  constexpr static std::size_t addrs = 0x3e9ab60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -718,7 +718,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::DateFormatHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_DateFormatHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e864f4;
+  constexpr static std::size_t addrs = 0x3e9ab84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -734,7 +734,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::DateTimeZoneHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_DateTimeZoneHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86518;
+  constexpr static std::size_t addrs = 0x3e9aba8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -750,7 +750,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::DateTimeZoneHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_DateTimeZoneHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e8653c;
+  constexpr static std::size_t addrs = 0x3e9abcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -766,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::DateParseHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_DateParseHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86560;
+  constexpr static std::size_t addrs = 0x3e9abf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -782,7 +782,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::DateParseHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_DateParseHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86584;
+  constexpr static std::size_t addrs = 0x3e9ac14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -798,7 +798,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::FloatFormatHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_FloatFormatHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e865a8;
+  constexpr static std::size_t addrs = 0x3e9ac38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -814,7 +814,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::FloatFormatHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_FloatFormatHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e865cc;
+  constexpr static std::size_t addrs = 0x3e9ac5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -830,7 +830,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::FloatParseHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_FloatParseHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e865f0;
+  constexpr static std::size_t addrs = 0x3e9ac80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -846,7 +846,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::FloatParseHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_FloatParseHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86614;
+  constexpr static std::size_t addrs = 0x3e9aca4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -862,7 +862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::StringEscapeHandling (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_StringEscapeHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86638;
+  constexpr static std::size_t addrs = 0x3e9acc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -878,7 +878,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::StringEscapeHandling)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_StringEscapeHandling)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e8665c;
+  constexpr static std::size_t addrs = 0x3e9acec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -894,7 +894,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_DateFormatString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86680;
+  constexpr static std::size_t addrs = 0x3e9ad10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -910,7 +910,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_DateFormatString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e866a4;
+  constexpr static std::size_t addrs = 0x3e9ad34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -926,7 +926,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_Culture)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e866c8;
+  constexpr static std::size_t addrs = 0x3e9ad58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -942,7 +942,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::System::Globalization::CultureInfo*)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_Culture)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e866ec;
+  constexpr static std::size_t addrs = 0x3e9ad7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -958,7 +958,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_MaxDepth)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86710;
+  constexpr static std::size_t addrs = 0x3e9ada0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -974,7 +974,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::System::Nullable_1<int32_t>)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_MaxDepth)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86734;
+  constexpr static std::size_t addrs = 0x3e9adc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -990,7 +990,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::get_CheckAdditionalContent)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e86758;
+  constexpr static std::size_t addrs = 0x3e9ade8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1006,7 +1006,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(bool)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::set_CheckAdditionalContent)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e8677c;
+  constexpr static std::size_t addrs = 0x3e9ae0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1022,7 +1022,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::JsonSerializerInternalBase* (
     ::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)()>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::GetInternalSerializer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3e867a4;
+  constexpr static std::size_t addrs = 0x3e9ae34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::JsonSerializerProxy*>::get(),
@@ -1036,7 +1036,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(
     ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*)>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e867c0;
+  constexpr static std::size_t addrs = 0x3e9ae50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1051,7 +1051,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(
     ::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter*)>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e80334;
+  constexpr static std::size_t addrs = 0x3e949c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1066,7 +1066,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*)>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::DeserializeInternal)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3e8683c;
+  constexpr static std::size_t addrs = 0x3e9aecc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1082,7 +1082,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(::Newtonsoft::Json::JsonReader*, ::System::Object*)>(
     &::Newtonsoft::Json::Serialization::JsonSerializerProxy::PopulateInternal)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e86874;
+  constexpr static std::size_t addrs = 0x3e9af04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1098,7 +1098,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonSerializerProxy::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::System::Type*)>(&::Newtonsoft::Json::Serialization::JsonSerializerProxy::SerializeInternal)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3e868a8;
+  constexpr static std::size_t addrs = 0x3e9af38;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -124,7 +124,7 @@ public:
   __IntervalTree_2____c(__IntervalTree_2____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18824 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -175,7 +175,7 @@ public:
   TValue ___value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18825 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -226,7 +226,7 @@ public:
   ::System::Collections::Generic::IEnumerable_1<TValue>* ___items;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18826 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -289,7 +289,7 @@ public:
   TKey ___key;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -352,7 +352,7 @@ public:
   TKey ___key;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18828 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -526,7 +526,7 @@ public:
   bool ___isInSync;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

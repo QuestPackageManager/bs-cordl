@@ -147,7 +147,7 @@ public:
   __FactoryFromBinder_1____c(__FactoryFromBinder_1____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12015 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -206,7 +206,7 @@ public:
   __FactoryFromBinder_1____c__5_1(__FactoryFromBinder_1____c__5_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12016 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -287,7 +287,7 @@ public:
   ::Zenject::InjectSources ___source;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12017 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -344,7 +344,7 @@ public:
   ::System::Func_2<::Zenject::DiContainer*, TContract>* ___method;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12018 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -428,7 +428,7 @@ public:
   ::System::Func_2<::UnityW<::UnityEngine::GameObject>, TContract>* _____9__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12019 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -498,7 +498,7 @@ public:
   FactoryFromBinder_1(FactoryFromBinder_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12020 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

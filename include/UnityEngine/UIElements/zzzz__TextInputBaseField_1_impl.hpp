@@ -41,7 +41,7 @@ UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_MaxLength(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MaxLength)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_MaxLength, value);
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_Password() {
@@ -57,7 +57,7 @@ UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_Password(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Password)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Password, value);
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_MaskCharacter() {
@@ -73,7 +73,7 @@ UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_MaskCharacter(::UnityEngine::UIElements::UxmlStringAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MaskCharacter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_MaskCharacter, value);
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_IsReadOnly() {
@@ -89,7 +89,7 @@ UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_IsReadOnly(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_IsReadOnly)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_IsReadOnly, value);
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_IsDelayed() {
@@ -105,7 +105,7 @@ UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_IsDelayed(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_IsDelayed)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_IsDelayed, value);
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_HideMobileInput() {
@@ -121,7 +121,7 @@ UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_HideMobileInput(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_HideMobileInput)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_HideMobileInput, value);
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::TouchScreenKeyboardType>*&
@@ -139,7 +139,7 @@ template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_KeyboardType(
     ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::TouchScreenKeyboardType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_KeyboardType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_KeyboardType, value);
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_AutoCorrection() {
@@ -155,7 +155,7 @@ UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_AutoCorrection(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AutoCorrection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_AutoCorrection, value);
 }
 template <typename TValueType>
 inline void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag,
@@ -190,7 +190,7 @@ UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__co
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_set__textElement_k__BackingField(::UnityEngine::UIElements::TextElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textElement_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____textElement_k__BackingField, value);
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::ScrollView*& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_scrollView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -205,7 +205,7 @@ UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__co
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_set_scrollView(::UnityEngine::UIElements::ScrollView* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___scrollView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___scrollView, value);
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_multilineContainer() {
@@ -221,7 +221,7 @@ UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__co
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_set_multilineContainer(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___multilineContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___multilineContainer, value);
 }
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get__isDragging_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -617,7 +617,7 @@ UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_get_
 template <typename TValueType>
 constexpr void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_set_m_TextInputBase(::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextInputBase)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_TextInputBase, value);
 }
 template <typename TValueType> constexpr ::System::Action_1<bool>*& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_get_onIsReadOnlyChanged() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -630,7 +630,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& 
 }
 template <typename TValueType> constexpr void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_set_onIsReadOnlyChanged(::System::Action_1<bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onIsReadOnlyChanged)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___onIsReadOnlyChanged, value);
 }
 template <typename TValueType>
 inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::setStaticF_s_SelectionColorProperty(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color> value) {

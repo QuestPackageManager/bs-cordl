@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE UnityScenesHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetActiveRootObjectsInScene, addr 0x2275c78, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method SetActiveRootObjectsInScene, addr 0x2280cbc, size 0x1c8, virtual false, abstract: false, final false
   static inline void SetActiveRootObjectsInScene(::UnityEngine::SceneManagement::Scene scene, bool active);
 
 protected:
@@ -40,7 +40,7 @@ public:
   UnityScenesHelper(UnityScenesHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17203 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

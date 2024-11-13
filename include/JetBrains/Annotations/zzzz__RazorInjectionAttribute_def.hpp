@@ -44,19 +44,19 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a7810c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c824, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::StringW fieldName);
 
-  /// @brief Method get_FieldName, addr 0x4a78148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FieldName, addr 0x4a8c860, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FieldName();
 
-  /// @brief Method get_Type, addr 0x4a78138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4a8c850, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
-  /// @brief Method set_FieldName, addr 0x4a78150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FieldName, addr 0x4a8c868, size 0x8, virtual false, abstract: false, final false
   inline void set_FieldName(::StringW value);
 
-  /// @brief Method set_Type, addr 0x4a78140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x4a8c858, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::StringW value);
 
 protected:
@@ -80,7 +80,7 @@ public:
   ::StringW ____FieldName_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18426 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

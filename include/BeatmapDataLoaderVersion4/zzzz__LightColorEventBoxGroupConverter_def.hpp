@@ -27,20 +27,20 @@ class LightColorEventBoxGroupConverter;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter);
 // Type: BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter*
 class CORDL_TYPE LightColorEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
   // Declarations
-  /// @brief Method ConvertEvents, addr 0x26cd18c, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method ConvertEvents, addr 0x26d8d08, size 0x24c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
 
   static inline ::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
                                                                                         ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
-  /// @brief Method .ctor, addr 0x26cc904, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d8494, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
 protected:
@@ -58,12 +58,12 @@ public:
   LightColorEventBoxGroupConverter(LightColorEventBoxGroupConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter, 0x20>, "Size mismatch!");
 
 } // namespace BeatmapDataLoaderVersion4
 NEED_NO_BOX(::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter);

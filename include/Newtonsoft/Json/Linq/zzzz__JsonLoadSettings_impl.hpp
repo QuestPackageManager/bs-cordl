@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(&::Newtonsoft::Json::Linq::JsonLoadSettings::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ea947c;
+  constexpr static std::size_t addrs = 0x3ebdb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(), ".ctor",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::CommentHandling (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonLoadSettings::get_CommentHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ea94a4;
+  constexpr static std::size_t addrs = 0x3ebdb34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)(::Newtonsoft::Json::Linq::CommentHandling)>(
     &::Newtonsoft::Json::Linq::JsonLoadSettings::set_CommentHandling)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3ea94ac;
+  constexpr static std::size_t addrs = 0x3ebdb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::LineInfoHandling (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonLoadSettings::get_LineInfoHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ea950c;
+  constexpr static std::size_t addrs = 0x3ebdb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)(::Newtonsoft::Json::Linq::LineInfoHandling)>(
     &::Newtonsoft::Json::Linq::JsonLoadSettings::set_LineInfoHandling)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3ea9514;
+  constexpr static std::size_t addrs = 0x3ebdba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling (::Newtonsoft::Json::Linq::JsonLoadSettings::*)()>(
     &::Newtonsoft::Json::Linq::JsonLoadSettings::get_DuplicatePropertyNameHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ea9574;
+  constexpr static std::size_t addrs = 0x3ebdc04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonLoadSettings::*)(::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling)>(
     &::Newtonsoft::Json::Linq::JsonLoadSettings::set_DuplicatePropertyNameHandling)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3ea957c;
+  constexpr static std::size_t addrs = 0x3ebdc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

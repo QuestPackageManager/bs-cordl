@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RijndaelManaged::*)()>(
     &::System::Security::Cryptography::RijndaelManaged::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3c2d314;
+  constexpr static std::size_t addrs = 0x3c419a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RijndaelManaged*>::get(),
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Cryptography::ICryptoTransform* (::System::Security::Cryptography::RijndaelManaged::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::System::Security::Cryptography::RijndaelManaged::CreateEncryptor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c2d3ec;
+  constexpr static std::size_t addrs = 0x3c41a7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Cryptography::ICryptoTransform* (::System::Security::Cryptography::RijndaelManaged::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::System::Security::Cryptography::RijndaelManaged::CreateDecryptor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c2d4f4;
+  constexpr static std::size_t addrs = 0x3c41b84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RijndaelManaged::*)()>(
     &::System::Security::Cryptography::RijndaelManaged::GenerateKey)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c2d508;
+  constexpr static std::size_t addrs = 0x3c41b98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RijndaelManaged::*)()>(
     &::System::Security::Cryptography::RijndaelManaged::GenerateIV)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c2d538;
+  constexpr static std::size_t addrs = 0x3c41bc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::RijndaelManaged::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Security::Cryptography::CipherMode, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t,
                                                           ::System::Security::Cryptography::RijndaelManagedTransformMode)>(&::System::Security::Cryptography::RijndaelManaged::NewEncryptor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3c2d400;
+  constexpr static std::size_t addrs = 0x3c41a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

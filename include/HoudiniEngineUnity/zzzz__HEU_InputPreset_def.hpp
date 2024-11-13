@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set__packGeometryBeforeMerging(bool value);
 
-  /// @brief Method .ctor, addr 0x399c558, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39afeb0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -149,7 +149,7 @@ public:
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputAssetPreset*>* ____inputAssetPresets;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11552 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11557 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

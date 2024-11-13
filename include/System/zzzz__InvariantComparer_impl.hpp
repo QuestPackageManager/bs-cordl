@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::InvariantComparer::*)()>(&::System::InvariantComparer::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43934b4;
+  constexpr static std::size_t addrs = 0x43a7bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::InvariantComparer*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::InvariantComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::InvariantComparer::Compare)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4393530;
+  constexpr static std::size_t addrs = 0x43a7c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

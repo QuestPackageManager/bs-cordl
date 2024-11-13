@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventRotationValue(bool value);
 
-  /// @brief Method .ctor, addr 0x267d3a4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2688fa8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount,
                     ::GlobalNamespace::LightRotationDirection rotationDirection);
 
@@ -123,7 +123,7 @@ public:
   ::GlobalNamespace::LightRotationDirection ___rotationDirection;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12880 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

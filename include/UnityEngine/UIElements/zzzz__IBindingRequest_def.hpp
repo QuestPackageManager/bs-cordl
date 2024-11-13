@@ -33,7 +33,7 @@ public:
   IBindingRequest(IBindingRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5432 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

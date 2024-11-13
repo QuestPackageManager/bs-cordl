@@ -76,7 +76,7 @@ public:
   static ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode const DigitalNormalized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7102 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -122,7 +122,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::Composites::Vector3Composite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x44fcf1c, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x4511634, size 0x254, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_backward() const;
@@ -167,7 +167,7 @@ public:
 
   constexpr void __cordl_internal_set_up(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44fd170, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4511888, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -206,7 +206,7 @@ public:
   ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode ___mode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7103 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                            ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler*)>(
     &::GlobalNamespace::TestPlatformLeaderboardsHandler::GetScores)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26c4e38;
+  constexpr static std::size_t addrs = 0x26d0bf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::TestPlatformLeaderboardsHandler::*)(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*, ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler*)>(
     &::GlobalNamespace::TestPlatformLeaderboardsHandler::UploadScore)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26c4e8c;
+  constexpr static std::size_t addrs = 0x26d0c4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TestPlatformLeaderboardsHandler::*)()>(
     &::GlobalNamespace::TestPlatformLeaderboardsHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c4ee0;
+  constexpr static std::size_t addrs = 0x26d0ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestPlatformLeaderboardsHandler*>::get(),

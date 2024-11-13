@@ -12,7 +12,7 @@ template <typename T> constexpr ::ArrayW<T, ::Array<T>*> const& GlobalNamespace:
 }
 template <typename T> constexpr void GlobalNamespace::RandomObjectPicker_1<T>::__cordl_internal_set__objects(::ArrayW<T, ::Array<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____objects, value);
 }
 template <typename T> constexpr float_t& GlobalNamespace::RandomObjectPicker_1<T>::__cordl_internal_get__lastPickTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

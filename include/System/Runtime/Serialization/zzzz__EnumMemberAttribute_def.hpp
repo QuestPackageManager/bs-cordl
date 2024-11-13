@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method get_Value, addr 0x41be76c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x41d2e84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:
@@ -52,7 +52,7 @@ public:
   ::StringW ___value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19149 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

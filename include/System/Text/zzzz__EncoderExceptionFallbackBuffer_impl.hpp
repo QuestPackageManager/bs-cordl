@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderExceptionFallbackBuffer::*)()>(&::System::Text::EncoderExceptionFallbackBuffer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c03290;
+  constexpr static std::size_t addrs = 0x3c17920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncoderExceptionFallbackBuffer*>::get(), ".ctor",
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::EncoderExceptionFallbackBuffer::*)(char16_t, int32_t)>(
     &::System::Text::EncoderExceptionFallbackBuffer::Fallback)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c03304;
+  constexpr static std::size_t addrs = 0x3c17994;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::EncoderExceptionFallbackBuffer::*)(char16_t, char16_t, int32_t)>(
     &::System::Text::EncoderExceptionFallbackBuffer::Fallback)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x3c033e0;
+  constexpr static std::size_t addrs = 0x3c17a70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Text::EncoderExceptionFallbackBuffer::*)()>(
     &::System::Text::EncoderExceptionFallbackBuffer::GetNextChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c03820;
+  constexpr static std::size_t addrs = 0x3c17eb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::EncoderExceptionFallbackBuffer::*)()>(
     &::System::Text::EncoderExceptionFallbackBuffer::MovePrevious)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c03828;
+  constexpr static std::size_t addrs = 0x3c17eb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::EncoderExceptionFallbackBuffer::*)()>(
     &::System::Text::EncoderExceptionFallbackBuffer::get_Remaining)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c03830;
+  constexpr static std::size_t addrs = 0x3c17ec0;
 
   inline static ::MethodInfo const* methodInfo() {
 

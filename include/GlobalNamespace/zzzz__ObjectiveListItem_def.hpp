@@ -49,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3afa9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0f3e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_conditionText, addr 0x3afa968, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_conditionText, addr 0x3b0f388, size 0x24, virtual false, abstract: false, final false
   inline void set_conditionText(::StringW value);
 
-  /// @brief Method set_hideCondition, addr 0x3afa98c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hideCondition, addr 0x3b0f3ac, size 0x34, virtual false, abstract: false, final false
   inline void set_hideCondition(bool value);
 
-  /// @brief Method set_title, addr 0x3afa944, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_title, addr 0x3b0f364, size 0x24, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
 
 protected:
@@ -82,7 +82,7 @@ public:
   ::UnityW<::TMPro::TextMeshProUGUI> ____conditionText;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5366 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

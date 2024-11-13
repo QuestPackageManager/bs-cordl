@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ThreadStart::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Threading::ThreadStart::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3dd782c;
+  constexpr static std::size_t addrs = 0x3debebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ThreadStart::*)()>(&::System::Threading::ThreadStart::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3dd78b4;
+  constexpr static std::size_t addrs = 0x3debf44;
 
   inline static ::MethodInfo const* methodInfo() {
 

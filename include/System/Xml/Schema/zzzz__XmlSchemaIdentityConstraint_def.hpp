@@ -61,7 +61,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaIdentityConstraint* New_ctor();
 
-  /// @brief Method SetQualifiedName, addr 0x4247e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetQualifiedName, addr 0x425c520, size 0x8, virtual false, abstract: false, final false
   inline void SetQualifiedName(::System::Xml::XmlQualifiedName* value);
 
   constexpr ::System::Xml::Schema::CompiledIdentityConstraint*& __cordl_internal_get_compiledConstraint();
@@ -94,37 +94,37 @@ public:
 
   constexpr void __cordl_internal_set_selector(::System::Xml::Schema::XmlSchemaXPath* value);
 
-  /// @brief Method .ctor, addr 0x4247e30, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x425c548, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CompiledConstraint, addr 0x4247e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompiledConstraint, addr 0x425c528, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::CompiledIdentityConstraint* get_CompiledConstraint();
 
-  /// @brief Method get_Fields, addr 0x4247df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Fields, addr 0x425c510, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Fields();
 
-  /// @brief Method get_Name, addr 0x4247dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x425c4f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameAttribute, addr 0x4247e20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameAttribute, addr 0x425c538, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameAttribute();
 
-  /// @brief Method get_QualifiedName, addr 0x4247e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QualifiedName, addr 0x425c518, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
 
-  /// @brief Method get_Selector, addr 0x4247de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Selector, addr 0x425c500, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaXPath* get_Selector();
 
-  /// @brief Method set_CompiledConstraint, addr 0x4247e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CompiledConstraint, addr 0x425c530, size 0x8, virtual false, abstract: false, final false
   inline void set_CompiledConstraint(::System::Xml::Schema::CompiledIdentityConstraint* value);
 
-  /// @brief Method set_Name, addr 0x4247de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x425c4f8, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_NameAttribute, addr 0x4247e28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_NameAttribute, addr 0x425c540, size 0x8, virtual true, abstract: false, final false
   inline void set_NameAttribute(::StringW value);
 
-  /// @brief Method set_Selector, addr 0x4247df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Selector, addr 0x425c508, size 0x8, virtual false, abstract: false, final false
   inline void set_Selector(::System::Xml::Schema::XmlSchemaXPath* value);
 
 protected:
@@ -157,7 +157,7 @@ public:
   ::System::Xml::Schema::CompiledIdentityConstraint* ___compiledConstraint;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7667 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,7 +20,7 @@ namespace UnityEngine::Yoga {
 class CORDL_TYPE YogaConstants : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsUndefined, addr 0x48f0e94, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsUndefined, addr 0x49055ac, size 0x18, virtual false, abstract: false, final false
   static inline bool IsUndefined(float_t value);
 
 protected:
@@ -38,7 +38,7 @@ public:
   YogaConstants(YogaConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5403 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

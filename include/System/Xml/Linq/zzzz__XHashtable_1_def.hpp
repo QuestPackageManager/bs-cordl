@@ -77,7 +77,7 @@ public:
   __XHashtable_1__ExtractKeyDelegate(__XHashtable_1__ExtractKeyDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17908 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -111,7 +111,7 @@ public:
   int32_t Next;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17909 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -220,7 +220,7 @@ public:
   ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* ____extractKey;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17910 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -278,7 +278,7 @@ public:
   ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* ____state;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17911 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

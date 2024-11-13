@@ -27,19 +27,19 @@ public:
   static __declspec(property(get = getStaticF_cachedDisplayAvailableFrequencies, put = setStaticF_cachedDisplayAvailableFrequencies)) ::ArrayW<float_t, ::Array<float_t>*>
       cachedDisplayAvailableFrequencies;
 
-  /// @brief Method TryGetAvailableDisplayRefreshRates, addr 0x47bd3e8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method TryGetAvailableDisplayRefreshRates, addr 0x47d1b00, size 0x19c, virtual false, abstract: false, final false
   static inline bool TryGetAvailableDisplayRefreshRates(ByRef<::ArrayW<float_t, ::Array<float_t>*>> refreshRates);
 
-  /// @brief Method TryGetDisplayRefreshRate, addr 0x47bd590, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TryGetDisplayRefreshRate, addr 0x47d1ca8, size 0x4, virtual false, abstract: false, final false
   static inline bool TryGetDisplayRefreshRate(ByRef<float_t> refreshRate);
 
-  /// @brief Method TrySetCPULevel, addr 0x47bd3b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TrySetCPULevel, addr 0x47d1ac8, size 0x18, virtual false, abstract: false, final false
   static inline bool TrySetCPULevel(int32_t level);
 
-  /// @brief Method TrySetDisplayRefreshRate, addr 0x47bd588, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TrySetDisplayRefreshRate, addr 0x47d1ca0, size 0x4, virtual false, abstract: false, final false
   static inline bool TrySetDisplayRefreshRate(float_t refreshRate);
 
-  /// @brief Method TrySetGPULevel, addr 0x47bd3cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TrySetGPULevel, addr 0x47d1ae4, size 0x18, virtual false, abstract: false, final false
   static inline bool TrySetGPULevel(int32_t level);
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF_cachedDisplayAvailableFrequencies();
@@ -61,7 +61,7 @@ public:
   Performance(Performance const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17350 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

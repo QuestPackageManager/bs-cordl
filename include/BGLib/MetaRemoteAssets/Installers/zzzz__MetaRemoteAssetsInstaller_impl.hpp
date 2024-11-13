@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
     &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x226bd24;
+  constexpr static std::size_t addrs = 0x2276cd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
     &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallRemoteCatalogLoader)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x226be8c;
+  constexpr static std::size_t addrs = 0x2276e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
     &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226bf14;
+  constexpr static std::size_t addrs = 0x2276ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

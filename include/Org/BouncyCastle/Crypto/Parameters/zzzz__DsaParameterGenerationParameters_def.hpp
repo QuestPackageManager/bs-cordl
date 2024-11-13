@@ -83,25 +83,25 @@ public:
 
   constexpr void __cordl_internal_set_usageIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x237a198, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2385240, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x237a1e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238528c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random, int32_t usageIndex);
 
-  /// @brief Method get_Certainty, addr 0x237a250, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certainty, addr 0x23852f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Certainty();
 
-  /// @brief Method get_L, addr 0x237a238, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_L, addr 0x23852e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_L();
 
-  /// @brief Method get_N, addr 0x237a240, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_N, addr 0x23852e8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_N();
 
-  /// @brief Method get_Random, addr 0x237a258, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Random, addr 0x2385300, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
-  /// @brief Method get_UsageIndex, addr 0x237a248, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UsageIndex, addr 0x23852f0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_UsageIndex();
 
 protected:

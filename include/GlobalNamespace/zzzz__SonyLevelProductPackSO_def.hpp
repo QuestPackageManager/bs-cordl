@@ -62,19 +62,19 @@ public:
   constexpr void __cordl_internal_set__levelPackRedirectionData(
       ::ArrayW<::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackRedirectionData*>*> value);
 
-  /// @brief Method .ctor, addr 0x26a6810, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b2430, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPackProductData, addr 0x26a85bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackProductData, addr 0x26b4380, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackProductData* get_levelPackProductData();
 
-  /// @brief Method get_levelPackRedirectionData, addr 0x26a85cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackRedirectionData, addr 0x26b4390, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackRedirectionData*>* get_levelPackRedirectionData();
 
-  /// @brief Method set_levelPackProductData, addr 0x26a85c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelPackProductData, addr 0x26b4388, size 0x8, virtual false, abstract: false, final false
   inline void set_levelPackProductData(::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackProductData* value);
 
-  /// @brief Method set_levelPackRedirectionData, addr 0x26a85d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_levelPackRedirectionData, addr 0x26b4398, size 0x5c, virtual false, abstract: false, final false
   inline void set_levelPackRedirectionData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackRedirectionData*>* value);
 
 protected:
@@ -99,7 +99,7 @@ public:
       ____levelPackRedirectionData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13155 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LightGroupSO> (::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData::*)()>(
     &::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData::get_lightGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978efc;
+  constexpr static std::size_t addrs = 0x398c780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData::*)()>(
     &::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData::get_groupIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978f04;
+  constexpr static std::size_t addrs = 0x398c788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData::*)()>(
     &::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData::get_groupProbeHighlightsIntensityMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978f0c;
+  constexpr static std::size_t addrs = 0x398c790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData::*)(
     ::GlobalNamespace::LightGroupSO*, float_t, float_t)>(&::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3978f14;
+  constexpr static std::size_t addrs = 0x398c798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId::get_lightId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978f50;
+  constexpr static std::size_t addrs = 0x398c7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId::get_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978f58;
+  constexpr static std::size_t addrs = 0x398c7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId::get_probeHighlightsIntensityMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978f60;
+  constexpr static std::size_t addrs = 0x398c7e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId::*)(int32_t, float_t, float_t)>(
     &::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3978f68;
+  constexpr static std::size_t addrs = 0x398c7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LightmapLightWithIds> (::GlobalNamespace::LightmapLightWithIdsGroupEntry::*)()>(
     &::GlobalNamespace::LightmapLightWithIdsGroupEntry::get_lightmapLightWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978ed4;
+  constexpr static std::size_t addrs = 0x398c758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIdsGroupEntry*>::get(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>* (
     ::GlobalNamespace::LightmapLightWithIdsGroupEntry::*)()>(&::GlobalNamespace::LightmapLightWithIdsGroupEntry::get_groupLightData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978edc;
+  constexpr static std::size_t addrs = 0x398c760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIdsGroupEntry*>::get(),
@@ -301,7 +301,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>* (::GlobalNamespace::LightmapLightWithIdsGroupEntry::*)()>(
         &::GlobalNamespace::LightmapLightWithIdsGroupEntry::get_individualLightData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978ee4;
+  constexpr static std::size_t addrs = 0x398c768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIdsGroupEntry*>::get(),
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorMixAndWeightingApproach (::GlobalNamespace::LightmapLightWithIdsGroupEntry::*)()>(
     &::GlobalNamespace::LightmapLightWithIdsGroupEntry::get_groupLightsWeighting)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978eec;
+  constexpr static std::size_t addrs = 0x398c770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIdsGroupEntry*>::get(),
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightmapLightWithIdsGroupEntry::*)()>(
     &::GlobalNamespace::LightmapLightWithIdsGroupEntry::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3978ef4;
+  constexpr static std::size_t addrs = 0x398c778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIdsGroupEntry*>::get(),

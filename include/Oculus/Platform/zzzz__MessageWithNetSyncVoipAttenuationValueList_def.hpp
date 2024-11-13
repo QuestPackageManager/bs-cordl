@@ -26,15 +26,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithNetSyncVoipAttenuationValueList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncVoipAttenuationValueList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f09f2c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f1e5bc, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetNetSyncVoipAttenuationValueList, addr 0x3f09ef0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncVoipAttenuationValueList, addr 0x3f1e580, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* GetNetSyncVoipAttenuationValueList();
 
   static inline ::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f09e98, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1e528, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -52,7 +52,7 @@ public:
   MessageWithNetSyncVoipAttenuationValueList(MessageWithNetSyncVoipAttenuationValueList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15357 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

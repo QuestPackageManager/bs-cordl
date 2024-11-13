@@ -44,7 +44,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::IRemotingTypeInfo"
   constexpr operator ::System::Runtime::Remoting::IRemotingTypeInfo*() noexcept;
 
-  /// @brief Method CanCastTo, addr 0x3c6188c, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method CanCastTo, addr 0x3c75f1c, size 0x274, virtual true, abstract: false, final true
   inline bool CanCastTo(::System::Type* fromType, ::System::Object* o);
 
   static inline ::System::Runtime::Remoting::TypeInfo* New_ctor(::System::Type* type);
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_serverType(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c5f18c, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7381c, size 0x3a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_TypeName, addr 0x3c61884, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeName, addr 0x3c75f14, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
   /// @brief Convert to "::System::Runtime::Remoting::IRemotingTypeInfo"

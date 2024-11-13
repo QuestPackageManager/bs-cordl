@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__PointerMoveEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49b7564, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49cbc7c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerMoveEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49b755c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49cbc74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__PointerMoveEvent____c* getStaticF___9();
@@ -60,7 +60,7 @@ public:
   __PointerMoveEvent____c(__PointerMoveEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5883 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -83,15 +83,15 @@ public:
 
   __declspec(property(get = get_isHandledByDraggable, put = set_isHandledByDraggable)) bool isHandledByDraggable;
 
-  /// @brief Method Init, addr 0x49b6cb4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49cb3cc, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49b6d04, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x49cb41c, size 0x10c, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x49b6e60, size 0x6a0, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x49cb578, size 0x6a0, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   constexpr bool const& __cordl_internal_get__isHandledByDraggable_k__BackingField() const;
@@ -100,13 +100,13 @@ public:
 
   constexpr void __cordl_internal_set__isHandledByDraggable_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x49b6e10, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49cb528, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isHandledByDraggable, addr 0x49b6ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isHandledByDraggable, addr 0x49cb3b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isHandledByDraggable();
 
-  /// @brief Method set_isHandledByDraggable, addr 0x49b6ca8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isHandledByDraggable, addr 0x49cb3c0, size 0xc, virtual false, abstract: false, final false
   inline void set_isHandledByDraggable(bool value);
 
 protected:
@@ -127,7 +127,7 @@ public:
   bool ____isHandledByDraggable_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5884 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

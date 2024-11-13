@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::UI::ExtendedAxisEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ToString, addr 0x4576a14, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x458b12c, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4576a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x458b124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
 protected:
@@ -46,7 +46,7 @@ public:
   ExtendedAxisEventData(ExtendedAxisEventData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -55,14 +55,14 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method GetArgument, addr 0x40442c4, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x40589dc, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::MethodCallExpression4* New_ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0,
                                                                              ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                                                                              ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method Rewrite, addr 0x40443a4, size 0x270, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x4058abc, size 0x270, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::MethodCallExpression* Rewrite(::System::Linq::Expressions::Expression* instance,
                                                                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args);
 
@@ -90,11 +90,11 @@ public:
 
   constexpr void __cordl_internal_set__arg3(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x4044288, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40589a0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                     ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method get_ArgumentCount, addr 0x404439c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x4058ab4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -127,7 +127,7 @@ public:
   ::System::Linq::Expressions::Expression* ____arg3;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13672 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13679 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

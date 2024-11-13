@@ -35,10 +35,10 @@ public:
   /// @brief Field MASK_1111111111111111, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_MASK_1111111111111111, put = setStaticF_MASK_1111111111111111)) uint32_t MASK_1111111111111111;
 
-  /// @brief Method Count, addr 0x41cac4c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Count, addr 0x41df364, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t Count(uint32_t num);
 
-  /// @brief Method LeastPosition, addr 0x41cace8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LeastPosition, addr 0x41df400, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t LeastPosition(uint32_t num);
 
   static inline uint32_t getStaticF_MASK_0000000011111111();
@@ -76,7 +76,7 @@ public:
   Bits(Bits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7142 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRSkeleton__BoneId (::GlobalNamespace::OVRBone::*)()>(&::GlobalNamespace::OVRBone::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fcfdd8;
+  constexpr static std::size_t addrs = 0x3fe4468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBone*>::get(), "get_Id",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBone::*)(::GlobalNamespace::__OVRSkeleton__BoneId)>(
     &::GlobalNamespace::OVRBone::set_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fcfde0;
+  constexpr static std::size_t addrs = 0x3fe4470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::GlobalNamespace::OVRBone::*)()>(&::GlobalNamespace::OVRBone::get_ParentBoneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fcfde8;
+  constexpr static std::size_t addrs = 0x3fe4478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBone*>::get(), "get_ParentBoneIndex",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBone::*)(int16_t)>(&::GlobalNamespace::OVRBone::set_ParentBoneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fcfdf0;
+  constexpr static std::size_t addrs = 0x3fe4480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRBone::*)()>(&::GlobalNamespace::OVRBone::get_Transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fcfdf8;
+  constexpr static std::size_t addrs = 0x3fe4488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBone*>::get(), "get_Transform",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBone::*)(::UnityEngine::Transform*)>(&::GlobalNamespace::OVRBone::set_Transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fcfe00;
+  constexpr static std::size_t addrs = 0x3fe4490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBone::*)()>(&::GlobalNamespace::OVRBone::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fcf094;
+  constexpr static std::size_t addrs = 0x3fe3724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBone*>::get(), ".ctor",
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBone::*)(::GlobalNamespace::__OVRSkeleton__BoneId, int16_t, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRBone::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3fcfe08;
+  constexpr static std::size_t addrs = 0x3fe4498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

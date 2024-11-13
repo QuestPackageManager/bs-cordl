@@ -52,22 +52,22 @@ public:
 
   constexpr void __cordl_internal_set__Pattern_k__BackingField(::Newtonsoft::Json::Bson::BsonString* value);
 
-  /// @brief Method .ctor, addr 0x3edd4cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ef1b5c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, ::StringW options);
 
-  /// @brief Method get_Options, addr 0x3edd4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Options, addr 0x3ef1b4c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Options();
 
-  /// @brief Method get_Pattern, addr 0x3edd4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pattern, addr 0x3ef1b3c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Pattern();
 
-  /// @brief Method get_Type, addr 0x3edd57c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3ef1c0c, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method set_Options, addr 0x3edd4c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Options, addr 0x3ef1b54, size 0x8, virtual false, abstract: false, final false
   inline void set_Options(::Newtonsoft::Json::Bson::BsonString* value);
 
-  /// @brief Method set_Pattern, addr 0x3edd4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pattern, addr 0x3ef1b44, size 0x8, virtual false, abstract: false, final false
   inline void set_Pattern(::Newtonsoft::Json::Bson::BsonString* value);
 
 protected:
@@ -91,7 +91,7 @@ public:
   ::Newtonsoft::Json::Bson::BsonString* ____Options_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10489 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

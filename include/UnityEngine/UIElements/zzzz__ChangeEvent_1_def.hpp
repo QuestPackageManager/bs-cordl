@@ -59,7 +59,7 @@ public:
   __ChangeEvent_1____c(__ChangeEvent_1____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5764 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -146,7 +146,7 @@ public:
   T ____newValue_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5765 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

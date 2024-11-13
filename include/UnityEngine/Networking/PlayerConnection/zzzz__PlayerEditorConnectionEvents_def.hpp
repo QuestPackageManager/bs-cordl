@@ -83,7 +83,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x484b824, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485ff3c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +101,7 @@ public:
   __PlayerEditorConnectionEvents__MessageEvent(__PlayerEditorConnectionEvents__MessageEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11130 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -119,7 +119,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x484b874, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485ff8c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -137,7 +137,7 @@ public:
   __PlayerEditorConnectionEvents__ConnectionChangeEvent(__PlayerEditorConnectionEvents__ConnectionChangeEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11131 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -185,13 +185,13 @@ public:
 
   constexpr void __cordl_internal_set_subscriberCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x484b798, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485feb0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MessageTypeId, addr 0x484b708, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MessageTypeId, addr 0x485fe20, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Guid get_MessageTypeId();
 
-  /// @brief Method set_MessageTypeId, addr 0x484b7f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_MessageTypeId, addr 0x485ff10, size 0x2c, virtual false, abstract: false, final false
   inline void set_MessageTypeId(::System::Guid value);
 
 protected:
@@ -218,7 +218,7 @@ public:
   ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* ___messageCallback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11132 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -245,7 +245,7 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <InvokeMessageIdSubscribers>b__0, addr 0x484b8bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <InvokeMessageIdSubscribers>b__0, addr 0x485ffd4, size 0x48, virtual false, abstract: false, final false
   inline bool _InvokeMessageIdSubscribers_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -254,7 +254,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x484b788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485fea0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -275,7 +275,7 @@ public:
   ::System::Guid ___messageId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -298,7 +298,7 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <AddAndCreate>b__0, addr 0x484b904, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <AddAndCreate>b__0, addr 0x486001c, size 0x48, virtual false, abstract: false, final false
   inline bool _AddAndCreate_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -307,7 +307,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x484b790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485fea8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -328,7 +328,7 @@ public:
   ::System::Guid ___messageId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11134 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -351,7 +351,7 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <UnregisterManagedCallback>b__0, addr 0x484b94c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <UnregisterManagedCallback>b__0, addr 0x4860064, size 0x48, virtual false, abstract: false, final false
   inline bool _UnregisterManagedCallback_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -360,7 +360,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x484b86c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485ff84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -381,7 +381,7 @@ public:
   ::System::Guid ___messageId;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11135 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -423,15 +423,15 @@ public:
   __declspec(property(get = __cordl_internal_get_messageTypeSubscribers, put = __cordl_internal_set_messageTypeSubscribers)) ::System::Collections::Generic::List_1<
       ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*>* messageTypeSubscribers;
 
-  /// @brief Method AddAndCreate, addr 0x484a10c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method AddAndCreate, addr 0x485e824, size 0x1d4, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(::System::Guid messageId);
 
-  /// @brief Method InvokeMessageIdSubscribers, addr 0x484af54, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method InvokeMessageIdSubscribers, addr 0x485f66c, size 0x4a4, virtual false, abstract: false, final false
   inline void InvokeMessageIdSubscribers(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* New_ctor();
 
-  /// @brief Method UnregisterManagedCallback, addr 0x484a48c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method UnregisterManagedCallback, addr 0x485eba4, size 0x168, virtual false, abstract: false, final false
   inline void UnregisterManagedCallback(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
   constexpr ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent*& __cordl_internal_get_connectionEvent();
@@ -457,7 +457,7 @@ public:
   constexpr void
   __cordl_internal_set_messageTypeSubscribers(::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*>* value);
 
-  /// @brief Method .ctor, addr 0x484b608, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485fd20, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -484,7 +484,7 @@ public:
   ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* ___disconnectionEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11136 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

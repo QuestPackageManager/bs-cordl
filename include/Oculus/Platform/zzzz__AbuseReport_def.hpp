@@ -29,10 +29,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE AbuseReport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReportRequestHandled, addr 0x3ee461c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReportRequestHandled, addr 0x3ef8cac, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* ReportRequestHandled(::Oculus::Platform::ReportRequestResponse response);
 
-  /// @brief Method SetReportButtonPressedNotificationCallback, addr 0x3ee484c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetReportButtonPressedNotificationCallback, addr 0x3ef8edc, size 0x74, virtual false, abstract: false, final false
   static inline void SetReportButtonPressedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
 
 protected:
@@ -50,7 +50,7 @@ public:
   AbuseReport(AbuseReport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15401 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

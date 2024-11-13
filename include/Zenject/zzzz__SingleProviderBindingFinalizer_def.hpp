@@ -40,7 +40,7 @@ public:
 
   static inline ::Zenject::SingleProviderBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding, addr 0x4aa24f8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method OnFinalizeBinding, addr 0x4ab6c10, size 0xc4, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   constexpr ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*& __cordl_internal_get__providerFactory();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__providerFactory(::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* value);
 
-  /// @brief Method .ctor, addr 0x4aa24cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ab6be4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
 protected:
@@ -70,7 +70,7 @@ public:
   ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* ____providerFactory;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12274 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

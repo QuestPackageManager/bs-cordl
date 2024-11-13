@@ -33,16 +33,16 @@ public:
   static __declspec(property(get = getStaticF_s_ChildStack, put = setStaticF_s_ChildStack)) ::System::Collections::Generic::Dictionary_2<
       ::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>>* s_ChildStack;
 
-  /// @brief Method InverseTransformVertex, addr 0x46cc028, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformVertex, addr 0x46e0740, size 0x1f8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* InverseTransformVertex(::UnityEngine::Transform* transform, ::UnityEngine::ProBuilder::Vertex* vertex);
 
-  /// @brief Method ReparentChildren, addr 0x46cbd00, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ReparentChildren, addr 0x46e0418, size 0x128, virtual false, abstract: false, final false
   static inline void ReparentChildren(::UnityEngine::Transform* t);
 
-  /// @brief Method TransformVertex, addr 0x46cbe28, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method TransformVertex, addr 0x46e0540, size 0x200, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* TransformVertex(::UnityEngine::Transform* transform, ::UnityEngine::ProBuilder::Vertex* vertex);
 
-  /// @brief Method UnparentChildren, addr 0x46cbba0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method UnparentChildren, addr 0x46e02b8, size 0x160, virtual false, abstract: false, final false
   static inline void UnparentChildren(::UnityEngine::Transform* t);
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>>*
@@ -66,7 +66,7 @@ public:
   TransformUtility(TransformUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14287 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

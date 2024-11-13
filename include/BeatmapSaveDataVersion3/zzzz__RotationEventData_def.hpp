@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x26c8dec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d4adc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::BeatmapSaveDataCommon::ExecutionTime executionTime, float_t rotation);
 
-  /// @brief Method get_executionTime, addr 0x26c8ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionTime, addr 0x26d4acc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::ExecutionTime get_executionTime();
 
-  /// @brief Method get_rotation, addr 0x26c8de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x26d4ad4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:
@@ -78,7 +78,7 @@ public:
   float_t ___r;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13384 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

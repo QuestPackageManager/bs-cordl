@@ -71,7 +71,7 @@ template <typename TType, typename TData>
 constexpr void
 GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::__cordl_internal_set_subSubSerializer(::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subSubSerializer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___subSubSerializer, value);
 }
 template <typename TType, typename TData>
 inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>* GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::New_ctor() {
@@ -108,7 +108,7 @@ GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass4_0_1<TType, TDat
 template <typename TType, typename TData, typename TPacket>
 constexpr void GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass4_0_1<TType, TData, TPacket>::__cordl_internal_set_callback(::System::Action_1<TPacket>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___callback, value);
 }
 template <typename TType, typename TData, typename TPacket>
 inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass4_0_1<TType, TData, TPacket>*
@@ -146,7 +146,7 @@ GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_0_1<TType, TDat
 template <typename TType, typename TData, typename TPacket>
 constexpr void GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_0_1<TType, TData, TPacket>::__cordl_internal_set_callback(::System::Action_1<TPacket>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___callback, value);
 }
 template <typename TType, typename TData, typename TPacket>
 constexpr ::System::Func_1<TPacket>*& GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_0_1<TType, TData, TPacket>::__cordl_internal_get_constructor() {
@@ -162,7 +162,7 @@ GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_0_1<TType, TDat
 template <typename TType, typename TData, typename TPacket>
 constexpr void GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_0_1<TType, TData, TPacket>::__cordl_internal_set_constructor(::System::Func_1<TPacket>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___constructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___constructor, value);
 }
 template <typename TType, typename TData, typename TPacket>
 inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_0_1<TType, TData, TPacket>*
@@ -207,7 +207,7 @@ GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass7_0_1<TType, TDat
 template <typename TType, typename TData, typename TPacket>
 constexpr void GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass7_0_1<TType, TData, TPacket>::__cordl_internal_set_constructor(::System::Func_1<TPacket>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___constructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___constructor, value);
 }
 template <typename TType, typename TData, typename TPacket>
 inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass7_0_1<TType, TData, TPacket>*
@@ -244,7 +244,7 @@ GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1<TType, TDat
 template <typename TType, typename TData, typename TPacket>
 constexpr void GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1<TType, TData, TPacket>::__cordl_internal_set_constructor(::System::Func_2<TData, TPacket>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___constructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___constructor, value);
 }
 template <typename TType, typename TData, typename TPacket>
 constexpr ::System::Action_2<TPacket, TData>*& GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1<TType, TData, TPacket>::__cordl_internal_get_callback() {
@@ -260,7 +260,7 @@ GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1<TType, TDat
 template <typename TType, typename TData, typename TPacket>
 constexpr void GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1<TType, TData, TPacket>::__cordl_internal_set_callback(::System::Action_2<TPacket, TData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___callback, value);
 }
 template <typename TType, typename TData, typename TPacket>
 constexpr ::System::Func_4<::LiteNetLib::Utils::NetDataReader*, int32_t, TData, TPacket>*&
@@ -278,7 +278,7 @@ template <typename TType, typename TData, typename TPacket>
 constexpr void GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1<TType, TData, TPacket>::__cordl_internal_set_deserialize(
     ::System::Func_4<::LiteNetLib::Utils::NetDataReader*, int32_t, TData, TPacket>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___deserialize)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___deserialize, value);
 }
 template <typename TType, typename TData, typename TPacket>
 inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1<TType, TData, TPacket>*
@@ -347,7 +347,7 @@ template <typename TType, typename TData>
 constexpr void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_set__messsageHandlers(
     ::System::Collections::Generic::Dictionary_2<uint8_t, ::System::Action_3<::LiteNetLib::Utils::NetDataReader*, int32_t, TData>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____messsageHandlers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____messsageHandlers, value);
 }
 template <typename TType, typename TData>
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, uint8_t>*& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__typeRegistry() {
@@ -363,7 +363,7 @@ GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__
 template <typename TType, typename TData>
 constexpr void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_set__typeRegistry(::System::Collections::Generic::Dictionary_2<::System::Type*, uint8_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____typeRegistry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____typeRegistry, value);
 }
 template <typename TType, typename TData>
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*, uint8_t>*&
@@ -381,7 +381,7 @@ template <typename TType, typename TData>
 constexpr void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_set__subSerializerRegistry(
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*, uint8_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____subSerializerRegistry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____subSerializerRegistry, value);
 }
 template <typename TType, typename TData> constexpr ::LiteNetLib::Utils::NetDataWriter*& GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_get__internalWriter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -394,7 +394,7 @@ constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter
 }
 template <typename TType, typename TData> constexpr void GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::__cordl_internal_set__internalWriter(::LiteNetLib::Utils::NetDataWriter* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____internalWriter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____internalWriter, value);
 }
 template <typename TType, typename TData>
 template <typename TPacket>

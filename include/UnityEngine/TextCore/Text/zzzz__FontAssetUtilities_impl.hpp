@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::TextCore::Text::Character* (*)(uint32_t, ::UnityEngine::TextCore::Text::FontAsset*, bool, ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight,
                                                   ByRef<bool>)>(&::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAsset)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x48b1750;
+  constexpr static std::size_t addrs = 0x48c5e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::TextCore::Text::Character* (*)(uint32_t, ::UnityEngine::TextCore::Text::FontAsset*, bool, ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight,
                                                   ByRef<bool>)>(&::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAsset_Internal)> {
   constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x48b1850;
+  constexpr static std::size_t addrs = 0x48c5f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                   bool, ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight, ByRef<bool>)>(
     &::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAssets)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x48b1ca0;
+  constexpr static std::size_t addrs = 0x48c63b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::SpriteCharacter* (*)(uint32_t, ::UnityEngine::TextCore::Text::SpriteAsset*, bool)>(
     &::UnityEngine::TextCore::Text::FontAssetUtilities::GetSpriteCharacterFromSpriteAsset)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x48b1e50;
+  constexpr static std::size_t addrs = 0x48c6568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::SpriteCharacter* (*)(uint32_t, ::UnityEngine::TextCore::Text::SpriteAsset*, bool)>(
     &::UnityEngine::TextCore::Text::FontAssetUtilities::GetSpriteCharacterFromSpriteAsset_Internal)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x48b2110;
+  constexpr static std::size_t addrs = 0x48c6828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

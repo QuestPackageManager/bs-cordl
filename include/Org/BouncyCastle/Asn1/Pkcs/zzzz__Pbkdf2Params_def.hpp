@@ -65,10 +65,10 @@ public:
   /// @brief Field prf, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_prf, put = __cordl_internal_set_prf)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf;
 
-  /// @brief Method GetInstance, addr 0x23cf040, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23da0e8, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetSalt, addr 0x23cf760, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSalt, addr 0x23da808, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSalt();
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
@@ -82,7 +82,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23cf890, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23da938, size 0x18c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_iterationCount();
@@ -109,33 +109,33 @@ public:
 
   constexpr void __cordl_internal_set_prf(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x23cf5e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23da688, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor, addr 0x23cf690, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23da738, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength);
 
-  /// @brief Method .ctor, addr 0x23cf718, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23da7c0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, int32_t keyLength, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf);
 
-  /// @brief Method .ctor, addr 0x23cf73c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23da7e4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf);
 
-  /// @brief Method .ctor, addr 0x23cf2b8, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23da360, size 0x328, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_algid_hmacWithSHA1();
 
-  /// @brief Method get_IsDefaultPrf, addr 0x23cf7b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsDefaultPrf, addr 0x23da858, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsDefaultPrf();
 
-  /// @brief Method get_IterationCount, addr 0x23cf780, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x23da828, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_IterationCount();
 
-  /// @brief Method get_KeyLength, addr 0x23cf79c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_KeyLength, addr 0x23da844, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_KeyLength();
 
-  /// @brief Method get_Prf, addr 0x23cf82c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Prf, addr 0x23da8d4, size 0x64, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Prf();
 
   static inline void setStaticF_algid_hmacWithSHA1(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);

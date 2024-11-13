@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__UnitySourceGeneratedAssemblyMonoScriptTypes_v1__MonoScriptData (*)()>(
     &::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1::Get)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22432c8;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x47a940c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1::*)()>(
     &::GlobalNamespace::UnitySourceGeneratedAssemblyMonoScriptTypes_v1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243388;
+  constexpr static std::size_t addrs = 0x47a94d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

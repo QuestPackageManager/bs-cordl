@@ -34,10 +34,10 @@ public:
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::PivotLocation pivotType);
 
-  /// @brief Method Instantiate, addr 0x46bd8e8, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x46d2000, size 0x250, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::Shapes::Shape* shape, ::UnityEngine::ProBuilder::PivotLocation pivotType);
 
-  /// @brief Method Instantiate, addr 0x46bd65c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x46d1d74, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::System::Type* shapeType, ::UnityEngine::ProBuilder::PivotLocation pivotType);
 
 protected:
@@ -55,7 +55,7 @@ public:
   ShapeFactory(ShapeFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14268 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14275 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

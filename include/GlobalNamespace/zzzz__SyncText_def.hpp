@@ -31,18 +31,18 @@ public:
   /// @brief Field _textComponent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__textComponent, put = __cordl_internal_set__textComponent)) ::UnityW<::TMPro::TMP_Text> _textComponent;
 
-  /// @brief Method HandleTextChanged, addr 0x3b2fe38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HandleTextChanged, addr 0x3b458f0, size 0x88, virtual false, abstract: false, final false
   inline void HandleTextChanged(::UnityEngine::Object* obj);
 
   static inline ::GlobalNamespace::SyncText* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b2fd68, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b45820, size 0xd0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b2faac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b45564, size 0xd8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method UpdateText, addr 0x3b2fb84, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method UpdateText, addr 0x3b4563c, size 0x1e4, virtual false, abstract: false, final false
   inline void UpdateText();
 
   constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get__otherTextComponent() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__textComponent(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x3b2fec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b45978, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   ::UnityW<::TMPro::TMP_Text> ____textComponent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4410 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -67,25 +67,25 @@ public:
 
   constexpr void __cordl_internal_set__IntermediateScriptingStructName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x489da58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b2170, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x489da74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b218c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions);
 
-  /// @brief Method .ctor, addr 0x489db9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b22b4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName);
 
-  /// @brief Method .ctor, addr 0x489da9c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b21b4, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
-  /// @brief Method set_CodegenOptions, addr 0x489da50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_CodegenOptions, addr 0x48b2168, size 0x8, virtual true, abstract: false, final true
   inline void set_CodegenOptions(::UnityEngine::Bindings::CodegenOptions value);
 
-  /// @brief Method set_Header, addr 0x489da40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Header, addr 0x48b2158, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
-  /// @brief Method set_IntermediateScriptingStructName, addr 0x489da48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IntermediateScriptingStructName, addr 0x48b2160, size 0x8, virtual false, abstract: false, final false
   inline void set_IntermediateScriptingStructName(::StringW value);
 
 protected:
@@ -112,7 +112,7 @@ public:
   ::UnityEngine::Bindings::CodegenOptions ____CodegenOptions_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18623 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

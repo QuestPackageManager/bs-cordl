@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_targetObject(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method .ctor, addr 0x4002f18, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40175a8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target, bool editRequired,
                     ::ArrayW<::StringW, ::Array<::StringW>*> buttons);
 
@@ -110,7 +110,7 @@ public:
   bool ___complete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9020 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9025 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

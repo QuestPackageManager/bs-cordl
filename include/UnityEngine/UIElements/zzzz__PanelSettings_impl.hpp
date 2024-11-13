@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::*)(::UnityEngine::UIElements::PanelSettings*)>(
     &::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x49bead4;
+  constexpr static std::size_t addrs = 0x49d31ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::get_isInitialized)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49beafc;
+  constexpr static std::size_t addrs = 0x49d3214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BaseRuntimePanel* (::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::get_panel)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x49beb0c;
+  constexpr static std::size_t addrs = 0x49d3224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::DisposePanel)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x49bee3c;
+  constexpr static std::size_t addrs = 0x49d3554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::SetTargetTexture)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x49beeb8;
+  constexpr static std::size_t addrs = 0x49d35d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::SetSortingPriority)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x49beee0;
+  constexpr static std::size_t addrs = 0x49d35f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::SetTargetDisplay)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x49bef10;
+  constexpr static std::size_t addrs = 0x49d3628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BaseRuntimePanel* (::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::CreateRelatedRuntimePanel)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x49bec48;
+  constexpr static std::size_t addrs = 0x49d3360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::DisposeRelatedPanel)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x49bee5c;
+  constexpr static std::size_t addrs = 0x49d3574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::*)()>(
     &::UnityEngine::UIElements::__PanelSettings__RuntimePanelAccess::MarkPotentiallyEmpty)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x49bef38;
+  constexpr static std::size_t addrs = 0x49d3650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::ThemeStyleSheet> (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_themeStyleSheet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdac0;
+  constexpr static std::size_t addrs = 0x49d21d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::ThemeStyleSheet*)>(
     &::UnityEngine::UIElements::PanelSettings::set_themeStyleSheet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49bdac8;
+  constexpr static std::size_t addrs = 0x49d21e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_targetTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdc34;
+  constexpr static std::size_t addrs = 0x49d234c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::RenderTexture*)>(
     &::UnityEngine::UIElements::PanelSettings::set_targetTexture)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x49bdc3c;
+  constexpr static std::size_t addrs = 0x49d2354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::PanelScaleMode (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_scaleMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdc60;
+  constexpr static std::size_t addrs = 0x49d2378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::PanelScaleMode)>(
     &::UnityEngine::UIElements::PanelSettings::set_scaleMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdc68;
+  constexpr static std::size_t addrs = 0x49d2380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_referenceSpritePixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdc70;
+  constexpr static std::size_t addrs = 0x49d2388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(
     &::UnityEngine::UIElements::PanelSettings::set_referenceSpritePixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdc78;
+  constexpr static std::size_t addrs = 0x49d2390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdc80;
+  constexpr static std::size_t addrs = 0x49d2398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(), "get_scale",
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(&::UnityEngine::UIElements::PanelSettings::set_scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdc88;
+  constexpr static std::size_t addrs = 0x49d23a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_referenceDpi)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdc90;
+  constexpr static std::size_t addrs = 0x49d23a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(
     &::UnityEngine::UIElements::PanelSettings::set_referenceDpi)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x49bdc98;
+  constexpr static std::size_t addrs = 0x49d23b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_fallbackDpi)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdcc4;
+  constexpr static std::size_t addrs = 0x49d23dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(
     &::UnityEngine::UIElements::PanelSettings::set_fallbackDpi)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x49bdccc;
+  constexpr static std::size_t addrs = 0x49d23e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2Int (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_referenceResolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdcf8;
+  constexpr static std::size_t addrs = 0x49d2410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -488,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::Vector2Int)>(
     &::UnityEngine::UIElements::PanelSettings::set_referenceResolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdd00;
+  constexpr static std::size_t addrs = 0x49d2418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::PanelScreenMatchMode (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_screenMatchMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdd08;
+  constexpr static std::size_t addrs = 0x49d2420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::PanelScreenMatchMode)>(
     &::UnityEngine::UIElements::PanelSettings::set_screenMatchMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdd10;
+  constexpr static std::size_t addrs = 0x49d2428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -531,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_match)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdd18;
+  constexpr static std::size_t addrs = 0x49d2430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(), "get_match",
@@ -544,7 +544,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(&::UnityEngine::UIElements::PanelSettings::set_match)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdd20;
+  constexpr static std::size_t addrs = 0x49d2438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_sortingOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdd28;
+  constexpr static std::size_t addrs = 0x49d2440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(
     &::UnityEngine::UIElements::PanelSettings::set_sortingOrder)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x49bdd30;
+  constexpr static std::size_t addrs = 0x49d2448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::ApplySortingOrder)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x49bdd54;
+  constexpr static std::size_t addrs = 0x49d246c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -601,7 +601,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_targetDisplay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdd70;
+  constexpr static std::size_t addrs = 0x49d2488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(int32_t)>(
     &::UnityEngine::UIElements::PanelSettings::set_targetDisplay)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x49bdd78;
+  constexpr static std::size_t addrs = 0x49d2490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -630,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_clearDepthStencil)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bdd9c;
+  constexpr static std::size_t addrs = 0x49d24b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -644,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(bool)>(
     &::UnityEngine::UIElements::PanelSettings::set_clearDepthStencil)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49bdda4;
+  constexpr static std::size_t addrs = 0x49d24bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -659,7 +659,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_depthClearValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49bddb0;
+  constexpr static std::size_t addrs = 0x49d24c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -672,7 +672,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_clearColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bddbc;
+  constexpr static std::size_t addrs = 0x49d24d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -686,7 +686,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(bool)>(
     &::UnityEngine::UIElements::PanelSettings::set_clearColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49bddc4;
+  constexpr static std::size_t addrs = 0x49d24dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -701,7 +701,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_colorClearValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49bddd0;
+  constexpr static std::size_t addrs = 0x49d24e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -715,7 +715,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::Color)>(
     &::UnityEngine::UIElements::PanelSettings::set_colorClearValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49bdddc;
+  constexpr static std::size_t addrs = 0x49d24f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -730,7 +730,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BaseRuntimePanel* (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_panel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x49bdde8;
+  constexpr static std::size_t addrs = 0x49d2500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(), "get_panel",
@@ -743,7 +743,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_isInitialized)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x49bde04;
+  constexpr static std::size_t addrs = 0x49d251c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -757,7 +757,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_visualTree)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x49bde18;
+  constexpr static std::size_t addrs = 0x49d2530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -771,7 +771,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DynamicAtlasSettings* (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::get_dynamicAtlasSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bde48;
+  constexpr static std::size_t addrs = 0x49d2560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::DynamicAtlasSettings*)>(
     &::UnityEngine::UIElements::PanelSettings::set_dynamicAtlasSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bde50;
+  constexpr static std::size_t addrs = 0x49d2568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -799,7 +799,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x49bde58;
+  constexpr static std::size_t addrs = 0x49d2570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(), ".ctor",
@@ -812,7 +812,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49bdef8;
+  constexpr static std::size_t addrs = 0x49d2610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(), "Reset",
@@ -825,7 +825,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::OnEnable)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x49bdefc;
+  constexpr static std::size_t addrs = 0x49d2614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(), "OnEnable",
@@ -838,7 +838,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::OnDisable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x49be184;
+  constexpr static std::size_t addrs = 0x49d289c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(), "OnDisable",
@@ -851,7 +851,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::DisposePanel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x49be1a0;
+  constexpr static std::size_t addrs = 0x49d28b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(), "DisposePanel",
@@ -864,7 +864,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::get_ScreenDPI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49be1bc;
+  constexpr static std::size_t addrs = 0x49d28d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -878,7 +878,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(float_t)>(
     &::UnityEngine::UIElements::PanelSettings::set_ScreenDPI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49be1c4;
+  constexpr static std::size_t addrs = 0x49d28dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -892,7 +892,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::UpdateScreenDPI)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x49be004;
+  constexpr static std::size_t addrs = 0x49d271c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -906,7 +906,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::PanelSettings::ApplyThemeStyleSheet)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x49bdad4;
+  constexpr static std::size_t addrs = 0x49d21ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -920,7 +920,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(&::UnityEngine::UIElements::PanelSettings::InitializeShaders)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x49be020;
+  constexpr static std::size_t addrs = 0x49d2738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -934,7 +934,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::ApplyPanelSettings)> {
   constexpr static std::size_t size = 0x5ec;
-  constexpr static std::size_t addrs = 0x49be1cc;
+  constexpr static std::size_t addrs = 0x49d28e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -948,7 +948,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(
     ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*)>(&::UnityEngine::UIElements::PanelSettings::SetScreenToPanelSpaceFunction)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x49be980;
+  constexpr static std::size_t addrs = 0x49d3098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -963,7 +963,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::Rect, float_t)>(
     &::UnityEngine::UIElements::PanelSettings::ResolveScale)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x49be8b0;
+  constexpr static std::size_t addrs = 0x49d2fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -979,7 +979,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::PanelSettings::*)()>(
     &::UnityEngine::UIElements::PanelSettings::GetDisplayRect)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x49be7b8;
+  constexpr static std::size_t addrs = 0x49d2ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelSettings*>::get(),
@@ -993,7 +993,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::UIDocument*)>(
     &::UnityEngine::UIElements::PanelSettings::AttachAndInsertUIDocumentToVisualTree)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x49be9b4;
+  constexpr static std::size_t addrs = 0x49d30cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1008,7 +1008,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelSettings::*)(::UnityEngine::UIElements::UIDocument*)>(
     &::UnityEngine::UIElements::PanelSettings::DetachUIDocument)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x49bea50;
+  constexpr static std::size_t addrs = 0x49d3168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

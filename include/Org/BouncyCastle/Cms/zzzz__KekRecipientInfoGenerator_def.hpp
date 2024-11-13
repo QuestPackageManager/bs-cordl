@@ -66,10 +66,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::RecipientInfoGenerator*() noexcept;
 
-  /// @brief Method DetermineKeyEncAlg, addr 0x2636934, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method DetermineKeyEncAlg, addr 0x26419dc, size 0x4ac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DetermineKeyEncAlg(::StringW algorithm, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
-  /// @brief Method Generate, addr 0x2636de8, size 0x278, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x2641e90, size 0x278, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Cms::KekRecipientInfoGenerator* New_ctor();
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_keyEncryptionKeyOID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26368b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2641958, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* getStaticF_Helper();
@@ -108,13 +108,13 @@ public:
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsEnvelopedHelper* value);
 
-  /// @brief Method set_KekIdentifier, addr 0x26368b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KekIdentifier, addr 0x2641960, size 0x8, virtual false, abstract: false, final false
   inline void set_KekIdentifier(::Org::BouncyCastle::Asn1::Cms::KekIdentifier* value);
 
-  /// @brief Method set_KeyEncryptionKey, addr 0x26368c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKey, addr 0x2641968, size 0x74, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method set_KeyEncryptionKeyOID, addr 0x2636de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKeyOID, addr 0x2641e88, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKeyOID(::StringW value);
 
 protected:

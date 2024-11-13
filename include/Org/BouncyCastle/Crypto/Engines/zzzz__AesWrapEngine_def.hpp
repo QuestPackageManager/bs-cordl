@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Engines::AesWrapEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2309110, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23141b8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

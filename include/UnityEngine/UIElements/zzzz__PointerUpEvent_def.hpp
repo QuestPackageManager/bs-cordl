@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__PointerUpEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49b7f24, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49cc63c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerUpEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49b7f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49cc634, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__PointerUpEvent____c* getStaticF___9();
@@ -60,7 +60,7 @@ public:
   __PointerUpEvent____c(__PointerUpEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -78,18 +78,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::__PointerUpEvent____c;
 
-  /// @brief Method Init, addr 0x49b79d4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x49cc0ec, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49b7a24, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x49cc13c, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerUpEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x49b7b78, size 0x348, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x49cc290, size 0x348, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x49b7b28, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49cc240, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   PointerUpEvent(PointerUpEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5888 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

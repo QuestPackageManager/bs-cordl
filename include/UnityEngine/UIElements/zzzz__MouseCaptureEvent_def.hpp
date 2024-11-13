@@ -32,10 +32,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__MouseCaptureEvent____c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49a8e38, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x49bd550, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseCaptureEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49a8e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bd548, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__MouseCaptureEvent____c* getStaticF___9();
@@ -57,7 +57,7 @@ public:
   __MouseCaptureEvent____c(__MouseCaptureEvent____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5762 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -77,7 +77,7 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseCaptureEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49a8d8c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bd4a4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   MouseCaptureEvent(MouseCaptureEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5763 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

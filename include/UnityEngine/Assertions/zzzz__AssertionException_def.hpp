@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_m_UserMessage(::StringW value);
 
-  /// @brief Method .ctor, addr 0x485985c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486df74, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW userMessage);
 
-  /// @brief Method get_Message, addr 0x485a164, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x486e87c, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::StringW ___m_UserMessage;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11282 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11287 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

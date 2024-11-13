@@ -71,18 +71,18 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE __HEU_SessionManager__CreateSessionFromTypeDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x39f1cec, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3a05644, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Type* type, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x39f1d0c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3a05664, size 0xc, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x39f1cd8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3a05630, size 0x14, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* Invoke(::System::Type* type);
 
   static inline ::HoudiniEngineUnity::__HEU_SessionManager__CreateSessionFromTypeDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x39f1bd8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a05530, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -100,7 +100,7 @@ public:
   __HEU_SessionManager__CreateSessionFromTypeDelegate(__HEU_SessionManager__CreateSessionFromTypeDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11735 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -128,158 +128,158 @@ public:
   /// @brief Field _sessionMap, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__sessionMap, put = setStaticF__sessionMap)) ::System::Collections::Generic::Dictionary_2<int64_t, ::HoudiniEngineUnity::HEU_SessionBase*>* _sessionMap;
 
-  /// @brief Method CheckAndCloseExistingSession, addr 0x39effb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckAndCloseExistingSession, addr 0x3a03908, size 0xb0, virtual false, abstract: false, final false
   static inline void CheckAndCloseExistingSession();
 
-  /// @brief Method CheckVersionMatch, addr 0x39f0bfc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CheckVersionMatch, addr 0x3a04554, size 0x70, virtual false, abstract: false, final false
   static inline bool CheckVersionMatch();
 
-  /// @brief Method ClearConnectionError, addr 0x39f0c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearConnectionError, addr 0x3a045c4, size 0x8, virtual false, abstract: false, final false
   static inline bool ClearConnectionError();
 
-  /// @brief Method CloseAllSessions, addr 0x39f068c, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method CloseAllSessions, addr 0x3a03fe4, size 0x2e0, virtual false, abstract: false, final false
   static inline void CloseAllSessions();
 
-  /// @brief Method CloseDefaultSession, addr 0x39f05d0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CloseDefaultSession, addr 0x3a03f28, size 0xbc, virtual false, abstract: false, final false
   static inline bool CloseDefaultSession();
 
-  /// @brief Method ConnectSessionSyncUsingThriftPipe, addr 0x39f045c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ConnectSessionSyncUsingThriftPipe, addr 0x3a03db4, size 0xd4, virtual false, abstract: false, final false
   static inline bool ConnectSessionSyncUsingThriftPipe(::StringW pipeName, bool autoClose, float_t timeout, bool logError);
 
-  /// @brief Method ConnectSessionSyncUsingThriftSocket, addr 0x39f0378, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ConnectSessionSyncUsingThriftSocket, addr 0x3a03cd0, size 0xe4, virtual false, abstract: false, final false
   static inline bool ConnectSessionSyncUsingThriftSocket(::StringW hostName, int32_t serverPort, bool autoClose, float_t timeout, bool logError);
 
-  /// @brief Method ConnectThriftPipeSession, addr 0x39f0264, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ConnectThriftPipeSession, addr 0x3a03bbc, size 0xb4, virtual false, abstract: false, final false
   static inline bool ConnectThriftPipeSession(::StringW pipeName, bool autoClose, float_t timeout);
 
-  /// @brief Method ConnectThriftSocketSession, addr 0x39f01a8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ConnectThriftSocketSession, addr 0x3a03b00, size 0xbc, virtual false, abstract: false, final false
   static inline bool ConnectThriftSocketSession(::StringW hostName, int32_t serverPort, bool autoClose, float_t timeout);
 
-  /// @brief Method CreateCustomSession, addr 0x39f0124, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CreateCustomSession, addr 0x3a03a7c, size 0x84, virtual false, abstract: false, final false
   static inline bool CreateCustomSession();
 
-  /// @brief Method CreateInProcessSession, addr 0x39eff2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CreateInProcessSession, addr 0x3a03884, size 0x84, virtual false, abstract: false, final false
   static inline bool CreateInProcessSession();
 
-  /// @brief Method CreateSessionFromType, addr 0x39ef4c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateSessionFromType, addr 0x3a02e20, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_SessionBase* CreateSessionFromType(::System::Type* type);
 
-  /// @brief Method CreateSessionObject, addr 0x39ef46c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateSessionObject, addr 0x3a02dc4, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_SessionBase* CreateSessionObject();
 
-  /// @brief Method CreateThriftPipeSession, addr 0x39efe04, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreateThriftPipeSession, addr 0x3a0375c, size 0xb4, virtual false, abstract: false, final false
   static inline bool CreateThriftPipeSession(::StringW pipeName, bool autoClose, float_t timeout, bool logError);
 
-  /// @brief Method CreateThriftSocketSession, addr 0x39f0060, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateThriftSocketSession, addr 0x3a039b8, size 0xc4, virtual false, abstract: false, final false
   static inline bool CreateThriftSocketSession(::StringW hostName, int32_t serverPort, bool autoClose, float_t timeout, bool logError);
 
-  /// @brief Method GetComposedChildNodeList, addr 0x39e704c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetComposedChildNodeList, addr 0x39fa9a4, size 0xf8, virtual false, abstract: false, final false
   static inline bool GetComposedChildNodeList(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t parentNodeID, int32_t nodeTypeFilter, int32_t nodeFlagFilter, bool bRecursive,
                                               ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> childNodeIDs);
 
-  /// @brief Method GetComposedObjectListMemorySafe, addr 0x39f19d4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetComposedObjectListMemorySafe, addr 0x3a0532c, size 0xb4, virtual false, abstract: false, final false
   static inline bool GetComposedObjectListMemorySafe(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID,
                                                      ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ObjectInfo, ::Array<::HoudiniEngineUnity::HAPI_ObjectInfo>*>> objectInfos, int32_t start,
                                                      int32_t length);
 
-  /// @brief Method GetComposedObjectTransformsMemorySafe, addr 0x39f1a88, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetComposedObjectTransformsMemorySafe, addr 0x3a053e0, size 0xc4, virtual false, abstract: false, final false
   static inline bool GetComposedObjectTransformsMemorySafe(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder,
                                                            ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*>> transforms, int32_t start,
                                                            int32_t length);
 
-  /// @brief Method GetConnectionError, addr 0x39ee784, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetConnectionError, addr 0x3a020dc, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW GetConnectionError(bool clear);
 
-  /// @brief Method GetCurrentLicense, addr 0x39f12a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentLicense, addr 0x3a04bfc, size 0x9c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HAPI_License GetCurrentLicense(bool bLogError);
 
-  /// @brief Method GetDefaultSession, addr 0x39e9e7c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultSession, addr 0x39fd7d4, size 0x88, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_SessionBase* GetDefaultSession();
 
-  /// @brief Method GetGroupMembership, addr 0x39f16cc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetGroupMembership, addr 0x3a05024, size 0x13c, virtual false, abstract: false, final false
   static inline bool GetGroupMembership(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName,
                                         ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> membership, bool isInstanced);
 
-  /// @brief Method GetGroupNames, addr 0x39f14b4, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method GetGroupNames, addr 0x3a04e0c, size 0x218, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetGroupNames(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType,
                                                                        bool isInstanced);
 
-  /// @brief Method GetHoudiniPathOnMacOS, addr 0x39f0ec8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetHoudiniPathOnMacOS, addr 0x3a04820, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetHoudiniPathOnMacOS(::StringW houdiniPath);
 
-  /// @brief Method GetLastSessionError, addr 0x39efeb8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetLastSessionError, addr 0x3a03810, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW GetLastSessionError();
 
-  /// @brief Method GetNodeInputName, addr 0x39f18f0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetNodeInputName, addr 0x3a05248, size 0xe4, virtual false, abstract: false, final false
   static inline bool GetNodeInputName(int32_t nodeID, int32_t inputIndex, ByRef<::StringW> inputName);
 
-  /// @brief Method GetNodeName, addr 0x39f1808, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetNodeName, addr 0x3a05160, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW GetNodeName(int32_t nodeID, ::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GetOrCreateDefaultSession, addr 0x39e9be4, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateDefaultSession, addr 0x39fd53c, size 0x298, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_SessionBase* GetOrCreateDefaultSession(bool bNotifyUserError);
 
-  /// @brief Method GetSessionData, addr 0x39f096c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetSessionData, addr 0x3a042c4, size 0x58, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_SessionData* GetSessionData();
 
-  /// @brief Method GetSessionInfo, addr 0x39f09c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetSessionInfo, addr 0x3a0431c, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW GetSessionInfo();
 
-  /// @brief Method GetSessionWithID, addr 0x39ef7ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetSessionWithID, addr 0x3a03104, size 0x98, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_SessionBase* GetSessionWithID(int64_t sessionID);
 
-  /// @brief Method GetString, addr 0x39e6f64, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x39fa8bc, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW GetString(int32_t stringHandle, ::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GetStringValuesFromStringIndices, addr 0x39f1340, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetStringValuesFromStringIndices, addr 0x3a04c98, size 0x174, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetStringValuesFromStringIndices(::ArrayW<int32_t, ::Array<int32_t>*> strIndices);
 
-  /// @brief Method GetUniqueMaterialShopName, addr 0x39edf4c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueMaterialShopName, addr 0x3a018a4, size 0x208, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueMaterialShopName(int32_t assetID, int32_t materialID);
 
-  /// @brief Method InitializeDefaultSession, addr 0x39f0530, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InitializeDefaultSession, addr 0x3a03e88, size 0xa0, virtual false, abstract: false, final false
   static inline bool InitializeDefaultSession();
 
-  /// @brief Method InternalValidateSceneAssets, addr 0x39efcb0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method InternalValidateSceneAssets, addr 0x3a03608, size 0x154, virtual false, abstract: false, final false
   static inline void InternalValidateSceneAssets();
 
-  /// @brief Method IsHARSProcessRunning, addr 0x39f0c74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsHARSProcessRunning, addr 0x3a045cc, size 0x94, virtual false, abstract: false, final false
   static inline bool IsHARSProcessRunning(int32_t processID);
 
-  /// @brief Method LoadAllSessionData, addr 0x39ef844, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method LoadAllSessionData, addr 0x3a0319c, size 0x46c, virtual false, abstract: false, final false
   static inline void LoadAllSessionData();
 
-  /// @brief Method LoadSessionFromHIP, addr 0x39f0d08, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method LoadSessionFromHIP, addr 0x3a04660, size 0xe0, virtual false, abstract: false, final false
   static inline bool LoadSessionFromHIP(bool bCookNodes, ::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method LoadStoredDefaultSession, addr 0x39ef524, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LoadStoredDefaultSession, addr 0x3a02e7c, size 0xa4, virtual false, abstract: false, final false
   static inline bool LoadStoredDefaultSession();
 
-  /// @brief Method OpenHoudini, addr 0x39f0ecc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OpenHoudini, addr 0x3a04824, size 0x9c, virtual false, abstract: false, final false
   static inline bool OpenHoudini(::StringW args);
 
-  /// @brief Method OpenSessionInHoudini, addr 0x39f0f68, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method OpenSessionInHoudini, addr 0x3a048c0, size 0x33c, virtual false, abstract: false, final false
   static inline bool OpenSessionInHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method RecreateDefaultSessionData, addr 0x39f0318, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RecreateDefaultSessionData, addr 0x3a03c70, size 0x60, virtual false, abstract: false, final false
   static inline void RecreateDefaultSessionData();
 
-  /// @brief Method RegisterSession, addr 0x39ef5c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RegisterSession, addr 0x3a02f20, size 0x94, virtual false, abstract: false, final false
   static inline void RegisterSession(int64_t sessionID, ::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method RestartSession, addr 0x39f0a48, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method RestartSession, addr 0x3a043a0, size 0x134, virtual false, abstract: false, final false
   static inline bool RestartSession();
 
-  /// @brief Method SaveAllSessionData, addr 0x39ef65c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SaveAllSessionData, addr 0x3a02fb4, size 0xcc, virtual false, abstract: false, final false
   static inline void SaveAllSessionData();
 
-  /// @brief Method SaveSessionToHIP, addr 0x39f0de8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SaveSessionToHIP, addr 0x3a04740, size 0xe0, virtual false, abstract: false, final false
   static inline bool SaveSessionToHIP(bool bLockNodes, ::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UnregisterSession, addr 0x39ef728, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UnregisterSession, addr 0x3a03080, size 0x84, virtual false, abstract: false, final false
   static inline void UnregisterSession(int64_t sessionID);
 
-  /// @brief Method ValidatePluginSession, addr 0x39f0b7c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ValidatePluginSession, addr 0x3a044d4, size 0x80, virtual false, abstract: false, final false
   static inline bool ValidatePluginSession(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   static inline ::HoudiniEngineUnity::__HEU_SessionManager__CreateSessionFromTypeDelegate* getStaticF__createSessionFromTypeDelegate();
@@ -309,7 +309,7 @@ public:
   HEU_SessionManager(HEU_SessionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11736 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

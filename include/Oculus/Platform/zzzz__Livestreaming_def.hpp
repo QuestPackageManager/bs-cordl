@@ -25,7 +25,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Livestreaming : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetStatusUpdateNotificationCallback, addr 0x3f154b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetStatusUpdateNotificationCallback, addr 0x3f29b44, size 0x74, virtual false, abstract: false, final false
   static inline void SetStatusUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::LivestreamingStatus*>* callback);
 
 protected:
@@ -43,7 +43,7 @@ public:
   Livestreaming(Livestreaming const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

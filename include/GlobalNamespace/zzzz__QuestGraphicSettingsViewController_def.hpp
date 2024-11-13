@@ -41,16 +41,16 @@ public:
                       put = __cordl_internal_set__stinsonOnlyEntries)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>
       _stinsonOnlyEntries;
 
-  /// @brief Method DidActivate, addr 0x3baac94, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3bbfe08, size 0x244, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3baaee0, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3bc004c, size 0x104, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Handle120HzToggleValueChanged, addr 0x3bab004, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Handle120HzToggleValueChanged, addr 0x3bc016c, size 0x40, virtual false, abstract: false, final false
   inline void Handle120HzToggleValueChanged(bool newState);
 
-  /// @brief Method HandleMirrorChanged, addr 0x3baafe8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorChanged, addr 0x3bc0150, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMirrorChanged(int32_t newValue);
 
   static inline ::GlobalNamespace::QuestGraphicSettingsViewController* New_ctor();
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__stinsonOnlyEntries(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x3bab044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc01ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,7 +100,7 @@ public:
   ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____stinsonOnlyEntries;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4925 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

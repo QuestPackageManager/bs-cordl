@@ -29,13 +29,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>*();
 
-  /// @brief Method Equals, addr 0x480e020, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4822738, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x480e098, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48227b0, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::GraphicsBufferHandle other);
 
-  /// @brief Method GetHashCode, addr 0x480e018, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4822730, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>"
@@ -52,7 +52,7 @@ public:
   uint32_t value;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10702 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

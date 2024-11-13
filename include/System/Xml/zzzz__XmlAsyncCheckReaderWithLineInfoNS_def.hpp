@@ -41,13 +41,13 @@ public:
 
   static inline ::System::Xml::XmlAsyncCheckReaderWithLineInfoNS* New_ctor(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x42974e0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x42abbf8, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* System_Xml_IXmlNamespaceResolver_GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x4297588, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x42abca0, size 0xac, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupNamespace(::StringW prefix);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x4297634, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x42abd4c, size 0xac, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW namespaceName);
 
   constexpr ::System::Xml::IXmlNamespaceResolver*& __cordl_internal_get_readerAsIXmlNamespaceResolver();
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_readerAsIXmlNamespaceResolver(::System::Xml::IXmlNamespaceResolver* value);
 
-  /// @brief Method .ctor, addr 0x42963a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42aaabc, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader);
 
   /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
@@ -80,7 +80,7 @@ public:
   ::System::Xml::IXmlNamespaceResolver* ___readerAsIXmlNamespaceResolver;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7186 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

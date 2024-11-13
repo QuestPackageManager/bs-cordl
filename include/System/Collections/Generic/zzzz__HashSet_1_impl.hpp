@@ -171,7 +171,7 @@ template <typename T> constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Syst
 }
 template <typename T> constexpr void System::Collections::Generic::HashSet_1<T>::__cordl_internal_set__buckets(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buckets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____buckets, value);
 }
 template <typename T>
 constexpr ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*>&
@@ -189,7 +189,7 @@ template <typename T>
 constexpr void System::Collections::Generic::HashSet_1<T>::__cordl_internal_set__slots(
     ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____slots)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____slots, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Generic::HashSet_1<T>::__cordl_internal_get__count() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -238,7 +238,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IE
 }
 template <typename T> constexpr void System::Collections::Generic::HashSet_1<T>::__cordl_internal_set__comparer(::System::Collections::Generic::IEqualityComparer_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____comparer, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Generic::HashSet_1<T>::__cordl_internal_get__version() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -263,7 +263,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::
 }
 template <typename T> constexpr void System::Collections::Generic::HashSet_1<T>::__cordl_internal_set__siInfo(::System::Runtime::Serialization::SerializationInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____siInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____siInfo, value);
 }
 template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::HashSet_1<T>*>());

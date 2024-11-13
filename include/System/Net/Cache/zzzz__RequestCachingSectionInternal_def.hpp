@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_DisableAllCaching(bool value);
 
-  /// @brief Method .ctor, addr 0x437813c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438c854, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +51,7 @@ public:
   bool ___DisableAllCaching;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

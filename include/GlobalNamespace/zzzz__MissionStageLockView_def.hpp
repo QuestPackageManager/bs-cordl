@@ -44,13 +44,13 @@ public:
 
   static inline ::GlobalNamespace::MissionStageLockView* New_ctor();
 
-  /// @brief Method Update, addr 0x3b902f8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ba5ec0, size 0xd0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateLocalPositionY, addr 0x3b90294, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalPositionY, addr 0x3ba5e5c, size 0x64, virtual false, abstract: false, final false
   inline void UpdateLocalPositionY(float_t dstPosY, bool animated, float_t animationDuration);
 
-  /// @brief Method UpdateStageLockText, addr 0x3b903c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockText, addr 0x3ba5f90, size 0x24, virtual false, abstract: false, final false
   inline void UpdateStageLockText(::StringW text);
 
   constexpr float_t const& __cordl_internal_get__animationDuration() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x3b903ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba5fb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   float_t ____startAnimationTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4803 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4806 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

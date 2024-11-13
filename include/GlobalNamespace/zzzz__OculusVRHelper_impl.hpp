@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::add_inputFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39604f0;
+  constexpr static std::size_t addrs = 0x3973d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::remove_inputFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x396058c;
+  constexpr static std::size_t addrs = 0x3973e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::add_inputFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3960628;
+  constexpr static std::size_t addrs = 0x3973eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::remove_inputFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39606c4;
+  constexpr static std::size_t addrs = 0x3973f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::add_vrFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3960760;
+  constexpr static std::size_t addrs = 0x3973fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::remove_vrFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39607fc;
+  constexpr static std::size_t addrs = 0x3974080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::add_vrFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3960898;
+  constexpr static std::size_t addrs = 0x397411c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::remove_vrFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3960934;
+  constexpr static std::size_t addrs = 0x39741b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::add_hmdUnmountedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39609d0;
+  constexpr static std::size_t addrs = 0x3974254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::remove_hmdUnmountedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3960a6c;
+  constexpr static std::size_t addrs = 0x39742f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::add_hmdMountedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3960b08;
+  constexpr static std::size_t addrs = 0x397438c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::remove_hmdMountedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3960ba4;
+  constexpr static std::size_t addrs = 0x3974428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::add_controllersDidChangeReferenceEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3960c40;
+  constexpr static std::size_t addrs = 0x39744c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::remove_controllersDidChangeReferenceEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3960cdc;
+  constexpr static std::size_t addrs = 0x3974560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::add_controllersDidDisconnectEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3960d78;
+  constexpr static std::size_t addrs = 0x39745fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::OculusVRHelper::remove_controllersDidDisconnectEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3960e14;
+  constexpr static std::size_t addrs = 0x3974698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::get_hasInputFocus)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3960eb0;
+  constexpr static std::size_t addrs = 0x3974734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(), "get_hasInputFocus",
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::get_hasVrFocus)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3960f00;
+  constexpr static std::size_t addrs = 0x3974784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(), "get_hasVrFocus",
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::get_isAlwaysWireless)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3960f50;
+  constexpr static std::size_t addrs = 0x39747d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(),
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VRPlatformSDK (::GlobalNamespace::OculusVRHelper::*)()>(
     &::GlobalNamespace::OculusVRHelper::get_vrPlatformSDK)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3960f58;
+  constexpr static std::size_t addrs = 0x39747dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(), "get_vrPlatformSDK",
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::get_loggerPrefix)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3960f60;
+  constexpr static std::size_t addrs = 0x39747e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(), "get_loggerPrefix",
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::get__isOVRManagerPresent)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3960fa0;
+  constexpr static std::size_t addrs = 0x3974824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(),
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::Update)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x396105c;
+  constexpr static std::size_t addrs = 0x39748e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(), "Update",
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::FixedUpdate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3961414;
+  constexpr static std::size_t addrs = 0x3974c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(), "FixedUpdate",
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::LateUpdate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x396146c;
+  constexpr static std::size_t addrs = 0x3974cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(), "LateUpdate",
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::UnityEngine::XR::XRNode, float_t, float_t, float_t)>(
     &::GlobalNamespace::OculusVRHelper::TriggerHapticPulse)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39614c4;
+  constexpr static std::size_t addrs = 0x3974d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -396,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::OculusVRHelper::StopHaptics)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x396153c;
+  constexpr static std::size_t addrs = 0x3974dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusVRHelper::*)(::UnityEngine::XR::XRNode, ByRef<::UnityEngine::Pose>)>(
     &::GlobalNamespace::OculusVRHelper::TryGetPoseOffsetForNode)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x39615a4;
+  constexpr static std::size_t addrs = 0x3974e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)(
     ::UnityEngine::XR::XRNode, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::OculusVRHelper::GetControllerTransformAdjustment)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3961668;
+  constexpr static std::size_t addrs = 0x3974eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusVRHelper::*)(
     ::UnityEngine::XR::XRNode, int32_t, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(&::GlobalNamespace::OculusVRHelper::GetNodePose)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x396170c;
+  constexpr static std::size_t addrs = 0x3974f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__Node (*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::OculusVRHelper::XRNodeToOVRNode)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3961864;
+  constexpr static std::size_t addrs = 0x39750e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::OculusVRHelper::*)()>(
     &::GlobalNamespace::OculusVRHelper::GetAnyJoystickMaxAxis)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x396193c;
+  constexpr static std::size_t addrs = 0x39751c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(),
@@ -491,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::OculusVRHelper::GetTriggerValue)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3961940;
+  constexpr static std::size_t addrs = 0x39751c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::OculusVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::OculusVRHelper::GetThumbstickValue)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x39619e0;
+  constexpr static std::size_t addrs = 0x3975264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -521,7 +521,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRInput__InteractionProfile (::GlobalNamespace::OculusVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::OculusVRHelper::GetInteractionProfile)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x395fe54;
+  constexpr static std::size_t addrs = 0x39736d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -536,7 +536,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::OculusVRHelper::IsAdvancedHapticsSupported)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3961ae0;
+  constexpr static std::size_t addrs = 0x3975364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -550,7 +550,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::GetMenuButton)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3961af0;
+  constexpr static std::size_t addrs = 0x3975374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(), "GetMenuButton",
@@ -563,7 +563,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::GetMenuButtonDown)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3961b48;
+  constexpr static std::size_t addrs = 0x39753cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(), "GetMenuButtonDown",
@@ -576,7 +576,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::RefreshControllersReference)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3961ba0;
+  constexpr static std::size_t addrs = 0x3975424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(),
@@ -589,7 +589,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::EnableEventSystem)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3961390;
+  constexpr static std::size_t addrs = 0x3974c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(), "EnableEventSystem",
@@ -602,7 +602,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::DisableEventSystem)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3961298;
+  constexpr static std::size_t addrs = 0x3974b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(), "DisableEventSystem",
@@ -615,7 +615,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusVRHelper::*)()>(&::GlobalNamespace::OculusVRHelper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3961bbc;
+  constexpr static std::size_t addrs = 0x3975440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusVRHelper*>::get(), ".ctor",

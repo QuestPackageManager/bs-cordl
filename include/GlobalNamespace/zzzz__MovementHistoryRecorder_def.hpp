@@ -37,10 +37,10 @@ public:
 
   __declspec(property(get = get_averagingValueRecorer)) ::GlobalNamespace::AveragingValueRecorder* averagingValueRecorer;
 
-  /// @brief Method AddMovement, addr 0x3b6ee5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddMovement, addr 0x3b84950, size 0x24, virtual false, abstract: false, final false
   inline void AddMovement(float_t distance);
 
-  /// @brief Method ManualUpdate, addr 0x3b6ee80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3b84974, size 0x3c, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::MovementHistoryRecorder* New_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__increaseSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b6edc8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b848bc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
 
-  /// @brief Method get_averagingValueRecorer, addr 0x3b6edc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_averagingValueRecorer, addr 0x3b848b4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
 
 protected:
@@ -102,7 +102,7 @@ public:
   float_t ____accum;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4636 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

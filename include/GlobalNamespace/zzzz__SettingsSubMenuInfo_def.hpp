@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x3b9f2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb5140, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedMenuName, addr 0x3b9f2c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localizedMenuName, addr 0x3bb5134, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_localizedMenuName();
 
-  /// @brief Method get_viewController, addr 0x3b9f2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x3bb512c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_viewController();
 
 protected:
@@ -77,7 +77,7 @@ public:
   ::StringW ____menuName;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4888 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

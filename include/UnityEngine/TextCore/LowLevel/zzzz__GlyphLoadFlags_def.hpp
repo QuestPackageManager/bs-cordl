@@ -91,7 +91,7 @@ public:
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_RENDER;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18093 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

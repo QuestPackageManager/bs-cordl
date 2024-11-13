@@ -17,7 +17,7 @@ template <typename TKey, typename TValue> constexpr TKey const& BGLib::DotnetExt
 }
 template <typename TKey, typename TValue> constexpr void BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::__cordl_internal_set__key(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____key, value);
 }
 template <typename TKey, typename TValue> constexpr TValue& BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -29,7 +29,7 @@ template <typename TKey, typename TValue> constexpr TValue const& BGLib::DotnetE
 }
 template <typename TKey, typename TValue> constexpr void BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::__cordl_internal_set_value(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___value, value);
 }
 template <typename TKey, typename TValue> inline TKey BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::get_key() {
   static auto* ___internal_method =
@@ -65,7 +65,7 @@ BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_
 template <typename TKey, typename TValue>
 constexpr void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_set_itemWillBeRemovedFromCacheEvent(::System::Action_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___itemWillBeRemovedFromCacheEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___itemWillBeRemovedFromCacheEvent, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*&
@@ -83,7 +83,7 @@ template <typename TKey, typename TValue>
 constexpr void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_set__cacheContent(
     ::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cacheContent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____cacheContent, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*>*&
@@ -102,7 +102,7 @@ template <typename TKey, typename TValue>
 constexpr void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_set__index(
     ::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____index)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____index, value);
 }
 template <typename TKey, typename TValue> constexpr int32_t& BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_get__maxNumberElements() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

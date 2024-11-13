@@ -10,11 +10,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameSessionAnalyticsManager)
-namespace GlobalNamespace {
-class IAnalyticsModel;
+namespace BeatSaber::Init {
+class IPlatformInit;
 }
 namespace GlobalNamespace {
-class IPlatformInit;
+class IAnalyticsModel;
 }
 namespace GlobalNamespace {
 struct __GameSessionAnalyticsManager___LogSessionEventAfterPlatformInit_d__6;
@@ -52,10 +52,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a61044, size 0x2bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a7499c, size 0x2bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3a61300, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a74c58, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -130,26 +130,26 @@ public:
   __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _platformInit, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__platformInit, put = __cordl_internal_set__platformInit)) ::GlobalNamespace::IPlatformInit* _platformInit;
+  __declspec(property(get = __cordl_internal_get__platformInit, put = __cordl_internal_set__platformInit)) ::BeatSaber::Init::IPlatformInit* _platformInit;
 
   /// @brief Field lastSessionStartTime, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_lastSessionStartTime, put = __cordl_internal_set_lastSessionStartTime)) float_t lastSessionStartTime;
 
-  /// @brief Method LogSessionEventAfterPlatformInit, addr 0x3a60dd4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LogSessionEventAfterPlatformInit, addr 0x3a7472c, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LogSessionEventAfterPlatformInit(bool hasFocus);
 
-  /// @brief Method LogSessionEventOnFocus, addr 0x3a60dc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LogSessionEventOnFocus, addr 0x3a74720, size 0xc, virtual false, abstract: false, final false
   inline void LogSessionEventOnFocus(bool hasFocus);
 
-  /// @brief Method LogSessionFinish, addr 0x3a60f64, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LogSessionFinish, addr 0x3a748bc, size 0xd8, virtual false, abstract: false, final false
   inline void LogSessionFinish();
 
-  /// @brief Method LogSessionStart, addr 0x3a60eac, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method LogSessionStart, addr 0x3a74804, size 0xb8, virtual false, abstract: false, final false
   inline void LogSessionStart();
 
   static inline ::GlobalNamespace::GameSessionAnalyticsManager* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x3a60d78, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x3a746d0, size 0x50, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
   constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
@@ -164,9 +164,9 @@ public:
 
   constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr ::GlobalNamespace::IPlatformInit*& __cordl_internal_get__platformInit();
+  constexpr ::BeatSaber::Init::IPlatformInit*& __cordl_internal_get__platformInit();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformInit*> const& __cordl_internal_get__platformInit() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Init::IPlatformInit*> const& __cordl_internal_get__platformInit() const;
 
   constexpr float_t const& __cordl_internal_get_lastSessionStartTime() const;
 
@@ -178,11 +178,11 @@ public:
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  constexpr void __cordl_internal_set__platformInit(::GlobalNamespace::IPlatformInit* value);
+  constexpr void __cordl_internal_set__platformInit(::BeatSaber::Init::IPlatformInit* value);
 
   constexpr void __cordl_internal_set_lastSessionStartTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a6103c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a74994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -203,7 +203,7 @@ public:
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
   /// @brief Field _platformInit, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::IPlatformInit* ____platformInit;
+  ::BeatSaber::Init::IPlatformInit* ____platformInit;
 
   /// @brief Field lastSessionStartTime, offset: 0x30, size: 0x4, def value: None
   float_t ___lastSessionStartTime;

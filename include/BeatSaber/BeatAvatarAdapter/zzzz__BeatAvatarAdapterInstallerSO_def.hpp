@@ -56,10 +56,10 @@ public:
   /// @brief Field _skinColorSet, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__skinColorSet, put = __cordl_internal_set__skinColorSet)) ::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSetSO> _skinColorSet;
 
-  /// @brief Method InstallBindings, addr 0x221e7f8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x22272ac, size 0x10, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallBindings, addr 0x221e808, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x22272bc, size 0x20c, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO* New_ctor();
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__skinColorSet(::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSetSO> value);
 
-  /// @brief Method .ctor, addr 0x221ea14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22274c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,7 +127,7 @@ public:
   ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> ____editAvatarColorView;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17656 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

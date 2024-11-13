@@ -39,18 +39,18 @@ public:
   /// @brief Field time, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
-  /// @brief Method CopyFrom, addr 0x4011ed0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x40265e8, size 0x40, virtual false, abstract: false, final false
   inline void CopyFrom(::GlobalNamespace::TrailElement* other);
 
   static inline ::GlobalNamespace::TrailElement* New_ctor();
 
-  /// @brief Method SetData, addr 0x4011e90, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x40265a8, size 0x40, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
 
-  /// @brief Method SetDistance, addr 0x4011f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDistance, addr 0x4026628, size 0x8, virtual false, abstract: false, final false
   inline void SetDistance(float_t value);
 
-  /// @brief Method UpdateLocalDistance, addr 0x4011f18, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalDistance, addr 0x4026630, size 0xa8, virtual false, abstract: false, final false
   inline void UpdateLocalDistance(::GlobalNamespace::TrailElement* prev);
 
   constexpr float_t const& __cordl_internal_get_distance() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x4011fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40266d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,7 +116,7 @@ public:
   float_t ___time;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18772 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

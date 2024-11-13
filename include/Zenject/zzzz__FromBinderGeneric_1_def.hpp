@@ -139,7 +139,7 @@ public:
   __FromBinderGeneric_1____c__1_1(__FromBinderGeneric_1____c__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -196,7 +196,7 @@ public:
   ::System::Func_2<TContract, bool>* ___predicate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12215 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -253,7 +253,7 @@ public:
   ::System::Func_2<TContract, bool>* ___predicate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12211 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12216 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -310,7 +310,7 @@ public:
   ::System::Func_1<TContract>* ___method;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12217 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -401,7 +401,7 @@ public:
   FromBinderGeneric_1(FromBinderGeneric_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12213 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12218 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

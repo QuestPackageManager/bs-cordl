@@ -32,13 +32,13 @@ public:
 
   static inline ::System::IO::EndOfStreamException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cc14a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cd5b38, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cc1528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cd5bb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cc1504, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cd5b94, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

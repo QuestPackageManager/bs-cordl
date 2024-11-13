@@ -35,15 +35,15 @@ public:
   /// @brief Field m_stackTrace, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_stackTrace, put = __cordl_internal_set_m_stackTrace)) ::System::Object* m_stackTrace;
 
-  /// @brief Method Capture, addr 0x3ca2024, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x3cb66b4, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(::System::Exception* source);
 
   static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* New_ctor(::System::Exception* exception);
 
-  /// @brief Method Throw, addr 0x3ca20ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x3cb677c, size 0x44, virtual false, abstract: false, final false
   inline void Throw();
 
-  /// @brief Method Throw, addr 0x3ca2130, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x3cb67c0, size 0x18, virtual false, abstract: false, final false
   static inline void Throw(::System::Exception* source);
 
   constexpr ::System::Exception*& __cordl_internal_get_m_Exception();
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_m_stackTrace(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3ca1ef4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb6584, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* exception);
 
-  /// @brief Method get_BinaryStackTraceArray, addr 0x3ca201c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BinaryStackTraceArray, addr 0x3cb66ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_BinaryStackTraceArray();
 
-  /// @brief Method get_SourceException, addr 0x3ca20e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceException, addr 0x3cb6774, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_SourceException();
 
 protected:

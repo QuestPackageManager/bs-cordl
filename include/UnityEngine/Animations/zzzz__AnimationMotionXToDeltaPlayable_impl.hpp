@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Animations::AnimationMotionXToDeltaPlayable (*)(::UnityEngine::Playables::PlayableGraph)>(
     &::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::Create)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x47de9b0;
+  constexpr static std::size_t addrs = 0x47f30c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (*)(::UnityEngine::Playables::PlayableGraph)>(
     &::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::CreateHandle)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x47dea40;
+  constexpr static std::size_t addrs = 0x47f3158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::*)(::UnityEngine::Playables::PlayableHandle)>(
     &::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x47deb28;
+  constexpr static std::size_t addrs = 0x47f3240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::*)()>(
     &::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47deca4;
+  constexpr static std::size_t addrs = 0x47f33bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (*)(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable)>(
     &::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::op_Implicit___UnityEngine__Playables__Playable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x47decb0;
+  constexpr static std::size_t addrs = 0x47f33c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::*)(
     ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable)>(&::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x47ded30;
+  constexpr static std::size_t addrs = 0x47f3448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::*)(bool)>(
     &::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::SetAbsoluteMotion)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x47dedcc;
+  constexpr static std::size_t addrs = 0x47f34e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Playables::PlayableGraph, ByRef<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::CreateHandleInternal)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x47dec18;
+  constexpr static std::size_t addrs = 0x47f3330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Playables::PlayableHandle>, bool)>(
     &::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::SetAbsoluteMotionInternal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47dee50;
+  constexpr static std::size_t addrs = 0x47f3568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Playables::PlayableGraph>, ByRef<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Animations::AnimationMotionXToDeltaPlayable::CreateHandleInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47dee94;
+  constexpr static std::size_t addrs = 0x47f35ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

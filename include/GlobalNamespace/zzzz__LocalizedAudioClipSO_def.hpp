@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_localizedAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  /// @brief Method .ctor, addr 0x3aa4674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab8210, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,7 +83,7 @@ public:
   ::UnityW<::UnityEngine::AudioClip> ___localizedAudioClip;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5042 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5044 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -114,10 +114,10 @@ public:
 
   constexpr void __cordl_internal_set_language(::BGLib::Polyglot::Language value);
 
-  /// @brief Method .ctor, addr 0x3aa4664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab8200, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedAudioClip>b__0, addr 0x3aa467c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedAudioClip>b__0, addr 0x3ab8218, size 0x24, virtual false, abstract: false, final false
   inline bool _get_localizedAudioClip_b__0(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* t);
 
 protected:
@@ -138,7 +138,7 @@ public:
   ::BGLib::Polyglot::Language ___language;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5045 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -189,10 +189,10 @@ public:
   constexpr void __cordl_internal_set__localizedAudioClipInfo(
       ::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x3aa466c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab8208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedAudioClip, addr 0x3aa4558, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_localizedAudioClip, addr 0x3ab80f4, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_localizedAudioClip();
 
 protected:
@@ -216,7 +216,7 @@ public:
   ::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* ____lastLocalizedAudioClipInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5046 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

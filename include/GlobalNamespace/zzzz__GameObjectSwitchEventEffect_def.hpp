@@ -50,18 +50,18 @@ public:
                       put = __cordl_internal_set__deactivateOnBoostObjects)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>
       _deactivateOnBoostObjects;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b12268, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b276b8, size 0x18, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::GameObjectSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b1224c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b2769c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b121a0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b275f0, size 0xac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleObjects, addr 0x3b12280, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ToggleObjects, addr 0x3b276d0, size 0xc4, virtual false, abstract: false, final false
   inline void ToggleObjects(bool isBoostOn);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__activateOnBoostObjects() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__deactivateOnBoostObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b12344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b27794, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,7 +118,7 @@ public:
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4246 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

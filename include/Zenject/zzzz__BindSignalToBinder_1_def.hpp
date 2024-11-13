@@ -138,7 +138,7 @@ public:
   ::System::Action_1<TSignal>* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -195,7 +195,7 @@ public:
   ::System::Action* ___callback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11946 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -252,7 +252,7 @@ public:
   ::System::Action_2<TObject, TSignal>* ___handler;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11947 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -322,7 +322,7 @@ public:
   ::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>* ___CS$__8__locals1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11948 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -379,7 +379,7 @@ public:
   ::System::Func_2<TObject, ::System::Action*>* ___handlerGetter;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11949 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -449,7 +449,7 @@ public:
   ::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>* ___CS$__8__locals1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11950 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -559,7 +559,7 @@ public:
   ::Zenject::SignalBindingBindInfo* ____signalBindInfo;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11951 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

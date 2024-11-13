@@ -113,7 +113,7 @@ public:
   __CallSite_1____c(__CallSite_1____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14094 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -229,7 +229,7 @@ public:
   ::ArrayW<T, ::Array<T>*> ___Rules;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14095 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

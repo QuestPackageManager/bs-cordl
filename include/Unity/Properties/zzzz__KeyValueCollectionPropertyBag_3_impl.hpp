@@ -20,7 +20,7 @@ constexpr TKey const& Unity::Properties::__KeyValueCollectionPropertyBag_3__KeyV
 template <typename TDictionary, typename TKey, typename TValue>
 constexpr void Unity::Properties::__KeyValueCollectionPropertyBag_3__KeyValuePairProperty<TDictionary, TKey, TValue>::__cordl_internal_set__Key_k__BackingField(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Key_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____Key_k__BackingField, value);
 }
 template <typename TDictionary, typename TKey, typename TValue> inline ::StringW Unity::Properties::__KeyValueCollectionPropertyBag_3__KeyValuePairProperty<TDictionary, TKey, TValue>::get_Name() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
@@ -85,7 +85,7 @@ template <typename TDictionary, typename TKey, typename TValue>
 constexpr void Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::__cordl_internal_set_m_KeyValuePairProperty(
     ::Unity::Properties::__KeyValueCollectionPropertyBag_3__KeyValuePairProperty<TDictionary, TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_KeyValuePairProperty)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_KeyValuePairProperty, value);
 }
 template <typename TDictionary, typename TKey, typename TValue>
 inline ::Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>* Unity::Properties::KeyValueCollectionPropertyBag_3<TDictionary, TKey, TValue>::New_ctor() {

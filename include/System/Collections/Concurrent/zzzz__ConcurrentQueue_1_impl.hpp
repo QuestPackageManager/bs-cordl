@@ -37,7 +37,7 @@ template <typename T>
 constexpr void System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>::__cordl_internal_set__slots(
     ::ArrayW<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>, ::Array<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____slots)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____slots, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>::__cordl_internal_get__slotsMask() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -102,7 +102,7 @@ System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>::__cordl_intern
 template <typename T>
 constexpr void System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>::__cordl_internal_set__nextSegment(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nextSegment)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____nextSegment, value);
 }
 template <typename T> inline ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>::New_ctor(int32_t boundedLength) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*>(boundedLength));
@@ -192,7 +192,7 @@ template <typename T> constexpr T const& System::Collections::Concurrent::__Conc
 }
 template <typename T> constexpr void System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cordl_internal_set___2__current(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename T>
 constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cordl_internal_get_head() {
@@ -208,7 +208,7 @@ System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cor
 template <typename T>
 constexpr void System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cordl_internal_set_head(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___head)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___head, value);
 }
 template <typename T>
 constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cordl_internal_get_tail() {
@@ -224,7 +224,7 @@ System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cor
 template <typename T>
 constexpr void System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cordl_internal_set_tail(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tail)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___tail, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cordl_internal_get_tailTail() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -263,7 +263,7 @@ System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cor
 template <typename T>
 constexpr void System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cordl_internal_set___4__this(::System::Collections::Concurrent::ConcurrentQueue_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cordl_internal_get__headTail_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -303,7 +303,7 @@ System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cor
 template <typename T>
 constexpr void System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cordl_internal_set__s_5__4(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____s_5__4)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____s_5__4, value);
 }
 template <typename T> constexpr int32_t& System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>::__cordl_internal_get__i_5__5() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -412,7 +412,7 @@ template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Ob
 }
 template <typename T> constexpr void System::Collections::Concurrent::ConcurrentQueue_1<T>::__cordl_internal_set__crossSegmentLock(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____crossSegmentLock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____crossSegmentLock, value);
 }
 template <typename T> constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& System::Collections::Concurrent::ConcurrentQueue_1<T>::__cordl_internal_get__tail() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -426,7 +426,7 @@ System::Collections::Concurrent::ConcurrentQueue_1<T>::__cordl_internal_get__tai
 }
 template <typename T> constexpr void System::Collections::Concurrent::ConcurrentQueue_1<T>::__cordl_internal_set__tail(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tail)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____tail, value);
 }
 template <typename T> constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& System::Collections::Concurrent::ConcurrentQueue_1<T>::__cordl_internal_get__head() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -440,7 +440,7 @@ System::Collections::Concurrent::ConcurrentQueue_1<T>::__cordl_internal_get__hea
 }
 template <typename T> constexpr void System::Collections::Concurrent::ConcurrentQueue_1<T>::__cordl_internal_set__head(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____head)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____head, value);
 }
 template <typename T> inline ::System::Collections::Concurrent::ConcurrentQueue_1<T>* System::Collections::Concurrent::ConcurrentQueue_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::ConcurrentQueue_1<T>*>());

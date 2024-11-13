@@ -116,7 +116,7 @@ public:
   ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* ___args;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12575 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -176,7 +176,7 @@ public:
   ::System::Action_11<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10>* ____installerMethod;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12576 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

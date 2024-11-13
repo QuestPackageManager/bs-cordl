@@ -33,7 +33,7 @@ template <typename TSource, typename TResult>
 constexpr void UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select<TSource, TResult>::__cordl_internal_set_m_Observable(
     ::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Observable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Observable, value);
 }
 template <typename TSource, typename TResult>
 constexpr ::System::IObserver_1<TResult>*& UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select<TSource, TResult>::__cordl_internal_get_m_Observer() {
@@ -49,7 +49,7 @@ UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select<TSource, TResul
 template <typename TSource, typename TResult>
 constexpr void UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select<TSource, TResult>::__cordl_internal_set_m_Observer(::System::IObserver_1<TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Observer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Observer, value);
 }
 template <typename TSource, typename TResult>
 inline ::UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select<TSource, TResult>*
@@ -109,7 +109,7 @@ UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>::__cord
 template <typename TSource, typename TResult>
 constexpr void UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>::__cordl_internal_set_m_Source(::System::IObservable_1<TSource>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Source, value);
 }
 template <typename TSource, typename TResult> constexpr ::System::Func_2<TSource, TResult>*& UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>::__cordl_internal_get_m_Filter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -124,7 +124,7 @@ UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>::__cord
 template <typename TSource, typename TResult>
 constexpr void UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>::__cordl_internal_set_m_Filter(::System::Func_2<TSource, TResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Filter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Filter, value);
 }
 template <typename TSource, typename TResult>
 inline ::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>*

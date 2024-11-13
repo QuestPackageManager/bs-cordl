@@ -41,12 +41,12 @@ public:
   /// @brief Field m_LegWidth, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LegWidth, put = __cordl_internal_set_m_LegWidth)) float_t m_LegWidth;
 
-  /// @brief Method CopyShape, addr 0x46d8280, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x46ec998, size 0xac, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Door* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x46d832c, size 0x1a04, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x46eca44, size 0x1a04, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   constexpr float_t const& __cordl_internal_get_m_DoorHeight() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_m_LegWidth(float_t value);
 
-  /// @brief Method .ctor, addr 0x46d9d30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ee448, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   float_t ___m_LegWidth;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14300 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14307 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

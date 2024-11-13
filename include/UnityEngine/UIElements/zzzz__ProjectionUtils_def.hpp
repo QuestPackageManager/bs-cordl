@@ -23,7 +23,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ProjectionUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Ortho, addr 0x49cc2e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Ortho, addr 0x49e09fc, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Ortho(float_t left, float_t right, float_t bottom, float_t top, float_t near, float_t far);
 
 protected:
@@ -41,7 +41,7 @@ public:
   ProjectionUtils(ProjectionUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

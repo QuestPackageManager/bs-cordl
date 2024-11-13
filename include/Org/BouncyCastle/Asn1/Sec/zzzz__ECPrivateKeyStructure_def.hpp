@@ -41,19 +41,19 @@ public:
   /// @brief Field seq, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq)) ::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
 
-  /// @brief Method GetInstance, addr 0x24ac19c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24b7244, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetKey, addr 0x24ac9f4, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetKey, addr 0x24b7a9c, size 0xd4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* GetKey();
 
-  /// @brief Method GetObjectInTag, addr 0x24acb48, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method GetObjectInTag, addr 0x24b7bf0, size 0x344, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetObjectInTag(int32_t tagNo);
 
-  /// @brief Method GetParameters, addr 0x24ace8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetParameters, addr 0x24b7f34, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetParameters();
 
-  /// @brief Method GetPublicKey, addr 0x24acac8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x24b7b70, size 0x80, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* GetPublicKey();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* New_ctor(::Org::BouncyCastle::Math::BigInteger* key);
@@ -73,7 +73,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x24ace94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24b7f3c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_seq();
@@ -82,25 +82,25 @@ public:
 
   constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x24ac2b4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b735c, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* key);
 
-  /// @brief Method .ctor, addr 0x24ac484, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b752c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0x24ac490, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b7538, size 0x278, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::DerBitString* publicKey, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0x24ac46c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b7514, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key);
 
-  /// @brief Method .ctor, addr 0x24ac478, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b7520, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0x24ac708, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b77b0, size 0x2ec, virtual false, abstract: false, final false
   inline void _ctor(int32_t orderBitLength, ::Org::BouncyCastle::Math::BigInteger* key, ::Org::BouncyCastle::Asn1::DerBitString* publicKey, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0x24ac240, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b72e8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

@@ -22,7 +22,7 @@ template <typename TAntecedentResult, typename TResult>
 constexpr void
 System::Threading::Tasks::ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>::__cordl_internal_set_m_antecedent(::System::Threading::Tasks::Task_1<TAntecedentResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_antecedent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_antecedent, value);
 }
 template <typename TAntecedentResult, typename TResult>
 inline ::System::Threading::Tasks::ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>*

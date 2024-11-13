@@ -60,10 +60,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x44450f8, size 0x328, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4459810, size 0x328, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4445420, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4459b38, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -108,7 +108,7 @@ public:
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9642 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -150,11 +150,11 @@ public:
 
   static inline ::System::Net::BufferedReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::BufferOffsetSize* readBuffer);
 
-  /// @brief Method ProcessReadAsync, addr 0x4444f48, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x4459660, size 0x120, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryReadFromBuffer, addr 0x4445068, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryReadFromBuffer, addr 0x4459780, size 0x90, virtual false, abstract: false, final false
   inline bool TryReadFromBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ByRef<int32_t> result);
 
   constexpr ::System::Net::BufferOffsetSize*& __cordl_internal_get_readBuffer();
@@ -163,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set_readBuffer(::System::Net::BufferOffsetSize* value);
 
-  /// @brief Method .ctor, addr 0x4444f20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4459638, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::BufferOffsetSize* readBuffer);
 
 protected:
@@ -184,7 +184,7 @@ public:
   ::System::Net::BufferOffsetSize* ___readBuffer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9643 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

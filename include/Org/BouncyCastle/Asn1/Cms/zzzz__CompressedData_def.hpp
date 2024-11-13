@@ -55,10 +55,10 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x22c433c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22cf3e4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* ato, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x22c4354, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22cf3fc, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* compressionAlgorithm,
@@ -66,7 +66,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22c44d4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22cf57c, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_compressionAlgorithm();
@@ -87,19 +87,19 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x22c41bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cf264, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* compressionAlgorithm, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* encapContentInfo);
 
-  /// @brief Method .ctor, addr 0x22c4238, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cf2e0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0x22c44c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0x22cf56c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_CompressionAlgorithmIdentifier();
 
-  /// @brief Method get_EncapContentInfo, addr 0x22c44cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncapContentInfo, addr 0x22cf574, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_EncapContentInfo();
 
-  /// @brief Method get_Version, addr 0x22c44bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x22cf564, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

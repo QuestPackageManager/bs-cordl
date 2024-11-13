@@ -72,24 +72,24 @@ public:
   /// @brief Field rightLinePointer, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_rightLinePointer, put = __cordl_internal_set_rightLinePointer)) ::UnityW<::UnityEngine::LineRenderer> rightLinePointer;
 
-  /// @brief Method ApplyDeadzone, addr 0x3fb1d38, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ApplyDeadzone, addr 0x3fc63c8, size 0x50, virtual false, abstract: false, final false
   static inline float_t ApplyDeadzone(float_t value);
 
   static inline ::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler* New_ctor();
 
-  /// @brief Method Start, addr 0x3fb1d88, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fc6418, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fb1e4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fc64dc, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateInteractionAnchor, addr 0x3fb1e64, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method UpdateInteractionAnchor, addr 0x3fc64f4, size 0x2b0, virtual false, abstract: false, final false
   inline void UpdateInteractionAnchor();
 
-  /// @brief Method UpdateLineRenderer, addr 0x3fb2114, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRenderer, addr 0x3fc67a4, size 0x68, virtual false, abstract: false, final false
   inline void UpdateLineRenderer();
 
-  /// @brief Method UpdateLineRendererFromSource, addr 0x3fb217c, size 0x760, virtual false, abstract: false, final false
+  /// @brief Method UpdateLineRendererFromSource, addr 0x3fc680c, size 0x760, virtual false, abstract: false, final false
   inline void UpdateLineRendererFromSource(::GlobalNamespace::__OVRVirtualKeyboard__InputSource source);
 
   constexpr ::UnityW<::GlobalNamespace::OVRVirtualKeyboard> const& __cordl_internal_get_OVRVirtualKeyboard() const;
@@ -134,19 +134,19 @@ public:
 
   constexpr void __cordl_internal_set_rightLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
 
-  /// @brief Method .ctor, addr 0x3fb28dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc6f6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AnalogStickX, addr 0x3fb1acc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_AnalogStickX, addr 0x3fc615c, size 0xc4, virtual false, abstract: false, final false
   inline float_t get_AnalogStickX();
 
-  /// @brief Method get_AnalogStickY, addr 0x3fb1a08, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_AnalogStickY, addr 0x3fc6098, size 0xc4, virtual false, abstract: false, final false
   inline float_t get_AnalogStickY();
 
-  /// @brief Method get_InputRayPosition, addr 0x3fb14e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_InputRayPosition, addr 0x3fc5b70, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_InputRayPosition();
 
-  /// @brief Method get_InputRayRotation, addr 0x3fb1b90, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method get_InputRayRotation, addr 0x3fc6220, size 0x198, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_InputRayRotation();
 
 protected:
@@ -197,7 +197,7 @@ public:
   static constexpr float_t THUMBSTICK_DEADZONE{ 0.2 };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

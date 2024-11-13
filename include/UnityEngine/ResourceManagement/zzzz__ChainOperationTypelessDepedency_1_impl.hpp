@@ -98,7 +98,7 @@ template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1<TObject>::__cordl_internal_set_m_Callback(
     ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_Callback, value);
 }
 template <typename TObject>
 constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*&
@@ -116,7 +116,7 @@ template <typename TObject>
 constexpr void UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1<TObject>::__cordl_internal_set_m_CachedOnWrappedCompleted(
     ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CachedOnWrappedCompleted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___m_CachedOnWrappedCompleted, value);
 }
 template <typename TObject> constexpr bool& UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1<TObject>::__cordl_internal_get_m_ReleaseDependenciesOnFailure() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -78,7 +78,7 @@ public:
   static ::UnityEngine::UI::__ContentSizeFitter__FitMode const Unconstrained;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15052 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -125,27 +125,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutSelfController"
   constexpr operator ::UnityEngine::UI::ILayoutSelfController*() noexcept;
 
-  /// @brief Method HandleSelfFittingAlongAxis, addr 0x4a3d35c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method HandleSelfFittingAlongAxis, addr 0x4a51a74, size 0xe4, virtual false, abstract: false, final false
   inline void HandleSelfFittingAlongAxis(int32_t axis);
 
   static inline ::UnityEngine::UI::ContentSizeFitter* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x4a3d2dc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4a519f4, size 0x7c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4a3d2c0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4a519d8, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x4a3d358, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x4a51a70, size 0x4, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method SetDirty, addr 0x4a3d124, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x4a5183c, size 0x84, virtual false, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x4a3d458, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x4a51b70, size 0x24, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x4a3d47c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x4a51b94, size 0x8, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
   constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode const& __cordl_internal_get_m_HorizontalFit() const;
@@ -172,16 +172,16 @@ public:
 
   constexpr void __cordl_internal_set_m_VerticalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
 
-  /// @brief Method .ctor, addr 0x4a3d2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a519d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_horizontalFit, addr 0x4a3d0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalFit, addr 0x4a517c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__ContentSizeFitter__FitMode get_horizontalFit();
 
-  /// @brief Method get_rectTransform, addr 0x4a3d224, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x4a5193c, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_verticalFit, addr 0x4a3d1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalFit, addr 0x4a518c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__ContentSizeFitter__FitMode get_verticalFit();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutController"
@@ -190,10 +190,10 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutSelfController"
   constexpr ::UnityEngine::UI::ILayoutSelfController* i___UnityEngine__UI__ILayoutSelfController() noexcept;
 
-  /// @brief Method set_horizontalFit, addr 0x4a3d0b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalFit, addr 0x4a517c8, size 0x74, virtual false, abstract: false, final false
   inline void set_horizontalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
 
-  /// @brief Method set_verticalFit, addr 0x4a3d1b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_verticalFit, addr 0x4a518c8, size 0x74, virtual false, abstract: false, final false
   inline void set_verticalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
 
 protected:
@@ -223,7 +223,7 @@ public:
   ::UnityEngine::DrivenRectTransformTracker ___m_Tracker;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15053 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,7 +27,7 @@ public:
 
   static inline ::Newtonsoft::Json::JsonNameTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e01678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e15d08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   JsonNameTable(JsonNameTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10042 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

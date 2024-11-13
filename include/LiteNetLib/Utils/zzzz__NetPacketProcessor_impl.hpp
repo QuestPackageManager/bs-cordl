@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3a54a24;
+  constexpr static std::size_t addrs = 0x3a6837c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate::*)(
     ::LiteNetLib::Utils::NetDataReader*, ::System::Object*)>(&::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a54b28;
+  constexpr static std::size_t addrs = 0x3a68480;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate::*)(::LiteNetLib::Utils::NetDataReader*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*)>(
     &::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a54b3c;
+  constexpr static std::size_t addrs = 0x3a68494;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate::*)(::System::IAsyncResult*)>(
     &::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a54b64;
+  constexpr static std::size_t addrs = 0x3a684bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& LiteN
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__cordl_internal_set_packetConstructor(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packetConstructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___packetConstructor, value);
 }
 template <typename T> constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -156,7 +156,7 @@ LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__cordl_int
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T> constexpr ::System::Action_1<T>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__cordl_internal_get_onReceive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -169,7 +169,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& Lit
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::__cordl_internal_set_onReceive(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___onReceive, value);
 }
 template <typename T> inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>* LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>*>());
@@ -203,7 +203,7 @@ LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::
 template <typename T, typename TUserData>
 constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_set_packetConstructor(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packetConstructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___packetConstructor, value);
 }
 template <typename T, typename TUserData>
 constexpr ::LiteNetLib::Utils::NetPacketProcessor*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_get___4__this() {
@@ -219,7 +219,7 @@ LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::
 template <typename T, typename TUserData>
 constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T, typename TUserData>
 constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_get_onReceive() {
@@ -235,7 +235,7 @@ LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::
 template <typename T, typename TUserData>
 constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::__cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___onReceive, value);
 }
 template <typename T, typename TUserData>
 inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>* LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>::New_ctor() {
@@ -270,7 +270,7 @@ LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__cordl_int
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T> constexpr T& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__cordl_internal_get_reference() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -282,7 +282,7 @@ template <typename T> constexpr T const& LiteNetLib::Utils::__NetPacketProcessor
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__cordl_internal_set_reference(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___reference, value);
 }
 template <typename T> constexpr ::System::Action_1<T>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__cordl_internal_get_onReceive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -295,7 +295,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& Lit
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::__cordl_internal_set_onReceive(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___onReceive, value);
 }
 template <typename T> inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>* LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>*>());
@@ -330,7 +330,7 @@ LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::
 template <typename T, typename TUserData>
 constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T, typename TUserData> constexpr T& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_get_reference() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -342,7 +342,7 @@ template <typename T, typename TUserData> constexpr T const& LiteNetLib::Utils::
 }
 template <typename T, typename TUserData> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_set_reference(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___reference, value);
 }
 template <typename T, typename TUserData>
 constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_get_onReceive() {
@@ -358,7 +358,7 @@ LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::
 template <typename T, typename TUserData>
 constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::__cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___onReceive, value);
 }
 template <typename T, typename TUserData>
 inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>* LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>::New_ctor() {
@@ -394,7 +394,7 @@ LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::
 template <typename T, typename TUserData>
 constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::__cordl_internal_set_packetConstructor(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packetConstructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___packetConstructor, value);
 }
 template <typename T, typename TUserData>
 constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::__cordl_internal_get_onReceive() {
@@ -410,7 +410,7 @@ LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::
 template <typename T, typename TUserData>
 constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::__cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___onReceive, value);
 }
 template <typename T, typename TUserData>
 inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>* LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>::New_ctor() {
@@ -444,7 +444,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& LiteN
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>::__cordl_internal_set_packetConstructor(::System::Func_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packetConstructor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___packetConstructor, value);
 }
 template <typename T> constexpr ::System::Action_1<T>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>::__cordl_internal_get_onReceive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -457,7 +457,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& Lit
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>::__cordl_internal_set_onReceive(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___onReceive, value);
 }
 template <typename T> inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>* LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>*>());
@@ -489,7 +489,7 @@ template <typename T, typename TUserData> constexpr T const& LiteNetLib::Utils::
 }
 template <typename T, typename TUserData> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_set_reference(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___reference, value);
 }
 template <typename T, typename TUserData>
 constexpr ::System::Action_2<T, TUserData>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_get_onReceive() {
@@ -505,7 +505,7 @@ LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>::
 template <typename T, typename TUserData>
 constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>::__cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___onReceive, value);
 }
 template <typename T, typename TUserData>
 inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>* LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>::New_ctor() {
@@ -538,7 +538,7 @@ template <typename T> constexpr T const& LiteNetLib::Utils::__NetPacketProcessor
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>::__cordl_internal_set_reference(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reference)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___reference, value);
 }
 template <typename T> constexpr ::System::Action_1<T>*& LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>::__cordl_internal_get_onReceive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -551,7 +551,7 @@ constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& Lit
 }
 template <typename T> constexpr void LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>::__cordl_internal_set_onReceive(::System::Action_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onReceive)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->___onReceive, value);
 }
 template <typename T> inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>* LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>*>());
@@ -578,7 +578,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)()>(&::LiteNetLib::Utils::NetPacketProcessor::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3a54590;
+  constexpr static std::size_t addrs = 0x3a67ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetPacketProcessor*>::get(), ".ctor",
@@ -591,7 +591,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(int32_t)>(&::LiteNetLib::Utils::NetPacketProcessor::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3a54678;
+  constexpr static std::size_t addrs = 0x3a67fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -606,7 +606,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate* (
     ::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*)>(&::LiteNetLib::Utils::NetPacketProcessor::GetCallbackFromData)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3a547e4;
+  constexpr static std::size_t addrs = 0x3a6813c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -621,7 +621,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a54918;
+  constexpr static std::size_t addrs = 0x3a68270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -636,7 +636,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*, ::System::Object*)>(
     &::LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a5497c;
+  constexpr static std::size_t addrs = 0x3a682d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -652,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::LiteNetLib::Utils::NetPacketProcessor::ReadPacket)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a54974;
+  constexpr static std::size_t addrs = 0x3a682cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -667,7 +667,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*, ::System::Object*)>(
     &::LiteNetLib::Utils::NetPacketProcessor::ReadPacket)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3a549dc;
+  constexpr static std::size_t addrs = 0x3a68334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

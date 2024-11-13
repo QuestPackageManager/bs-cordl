@@ -39,16 +39,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
 
-  /// @brief Method Equals, addr 0x471febc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x47345d4, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x471ff50, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4734668, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method Equals, addr 0x471fe6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x4734584, size 0x30, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IdCacheKey* other);
 
-  /// @brief Method GetHashCode, addr 0x471fe9c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x47345b4, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ResourceManagement::Util::IdCacheKey* New_ctor(::StringW id);
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x471fe44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x473455c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
@@ -86,7 +86,7 @@ public:
   ::StringW ____cordl_ID;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15589 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

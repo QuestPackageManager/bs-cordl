@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList::*)()>(
     &::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList::get_isActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b12030;
+  constexpr static std::size_t addrs = 0x3b27480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList::*)(bool)>(
     &::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList::set_isActive)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b12038;
+  constexpr static std::size_t addrs = 0x3b27488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList::*)(bool)>(
     &::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList::SetActive)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b11e40;
+  constexpr static std::size_t addrs = 0x3b27290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList::*)()>(
     &::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b12044;
+  constexpr static std::size_t addrs = 0x3b27494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameObjectIntSwitchEventEffect::*)(::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::GameObjectIntSwitchEventEffect::Initialize)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3b11c88;
+  constexpr static std::size_t addrs = 0x3b270d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameObjectIntSwitchEventEffect::*)()>(
     &::GlobalNamespace::GameObjectIntSwitchEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b11ebc;
+  constexpr static std::size_t addrs = 0x3b2730c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameObjectIntSwitchEventEffect*>::get(),
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameObjectIntSwitchEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::GameObjectIntSwitchEventEffect::HandleBasicBeatmapEventData)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3b11ee8;
+  constexpr static std::size_t addrs = 0x3b27338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameObjectIntSwitchEventEffect::*)()>(
     &::GlobalNamespace::GameObjectIntSwitchEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b12028;
+  constexpr static std::size_t addrs = 0x3b27478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameObjectIntSwitchEventEffect*>::get(),

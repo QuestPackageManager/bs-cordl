@@ -24,36 +24,36 @@ namespace Org::BouncyCastle::Math::Raw {
 class CORDL_TYPE Nat576 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Copy64, addr 0x24ceec4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Copy64, addr 0x24d9f6c, size 0x1c4, virtual false, abstract: false, final false
   static inline void Copy64(::ArrayW<uint64_t, ::Array<uint64_t>*> x, int32_t xOff, ::ArrayW<uint64_t, ::Array<uint64_t>*> z, int32_t zOff);
 
-  /// @brief Method Copy64, addr 0x24cedb0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Copy64, addr 0x24d9e58, size 0x114, virtual false, abstract: false, final false
   static inline void Copy64(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method Create64, addr 0x24cf088, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Create64, addr 0x24da130, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> Create64();
 
-  /// @brief Method CreateExt64, addr 0x24cf0cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateExt64, addr 0x24da174, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> CreateExt64();
 
-  /// @brief Method Eq64, addr 0x24cf110, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Eq64, addr 0x24da1b8, size 0x60, virtual false, abstract: false, final false
   static inline bool Eq64(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y);
 
-  /// @brief Method FromBigInteger64, addr 0x24cf170, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method FromBigInteger64, addr 0x24da218, size 0xcc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> FromBigInteger64(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method IsOne64, addr 0x24cf23c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsOne64, addr 0x24da2e4, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsOne64(::ArrayW<uint64_t, ::Array<uint64_t>*> x);
 
-  /// @brief Method IsZero64, addr 0x24cf2a8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsZero64, addr 0x24da350, size 0x54, virtual false, abstract: false, final false
   static inline bool IsZero64(::ArrayW<uint64_t, ::Array<uint64_t>*> x);
 
   static inline ::Org::BouncyCastle::Math::Raw::Nat576* New_ctor();
 
-  /// @brief Method ToBigInteger64, addr 0x24cf2fc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ToBigInteger64, addr 0x24da3a4, size 0xdc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ToBigInteger64(::ArrayW<uint64_t, ::Array<uint64_t>*> x);
 
-  /// @brief Method .ctor, addr 0x24cf3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24da480, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

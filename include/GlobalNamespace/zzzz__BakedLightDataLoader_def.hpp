@@ -42,10 +42,10 @@ public:
 
   static inline ::GlobalNamespace::BakedLightDataLoader* New_ctor();
 
-  /// @brief Method SetTextureDataToShaders, addr 0x3aa1ed8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetTextureDataToShaders, addr 0x3ab5a70, size 0x13c, virtual false, abstract: false, final false
   inline void SetTextureDataToShaders();
 
-  /// @brief Method Start, addr 0x3aa1e20, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ab59b8, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__blackTexture() const;
@@ -60,21 +60,21 @@ public:
 
   constexpr void __cordl_internal_set__lightmapData(::UnityW<::GlobalNamespace::LightmapDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3aa2014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab5bac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__lightMap1PropertyId();
 
   static inline int32_t getStaticF__lightMap2PropertyId();
 
-  /// @brief Method get_lightmapData, addr 0x3aa1e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapData, addr 0x3ab59a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightmapDataSO> get_lightmapData();
 
   static inline void setStaticF__lightMap1PropertyId(int32_t value);
 
   static inline void setStaticF__lightMap2PropertyId(int32_t value);
 
-  /// @brief Method set_lightmapData, addr 0x3aa1e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmapData, addr 0x3ab59b0, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmapData(::GlobalNamespace::LightmapDataSO* value);
 
 protected:
@@ -98,7 +98,7 @@ public:
   ::UnityW<::UnityEngine::Texture2D> ____blackTexture;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5026 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

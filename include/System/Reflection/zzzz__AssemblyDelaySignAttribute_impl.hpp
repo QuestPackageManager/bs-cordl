@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::AssemblyDelaySignAttribute::*)(bool)>(
     &::System::Reflection::AssemblyDelaySignAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3cac064;
+  constexpr static std::size_t addrs = 0x3cc06f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

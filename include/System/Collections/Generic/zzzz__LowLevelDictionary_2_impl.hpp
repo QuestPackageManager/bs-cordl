@@ -14,7 +14,7 @@ template <typename TKey, typename TValue> constexpr TKey const& System::Collecti
 }
 template <typename TKey, typename TValue> constexpr void System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>::__cordl_internal_set__key(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____key)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____key, value);
 }
 template <typename TKey, typename TValue> constexpr TValue& System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>::__cordl_internal_get__value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -26,7 +26,7 @@ template <typename TKey, typename TValue> constexpr TValue const& System::Collec
 }
 template <typename TKey, typename TValue> constexpr void System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>::__cordl_internal_set__value(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____value, value);
 }
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*& System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>::__cordl_internal_get__next() {
@@ -43,7 +43,7 @@ template <typename TKey, typename TValue>
 constexpr void
 System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>::__cordl_internal_set__next(::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____next, value);
 }
 template <typename TKey, typename TValue>
 inline ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>::New_ctor() {
@@ -111,7 +111,7 @@ template <typename TKey, typename TValue>
 constexpr void System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>::__cordl_internal_set__buckets(
     ::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*, ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buckets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____buckets, value);
 }
 template <typename TKey, typename TValue> constexpr int32_t& System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>::__cordl_internal_get__numEntries() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -151,7 +151,7 @@ System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>::__cordl_intern
 template <typename TKey, typename TValue>
 constexpr void System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>::__cordl_internal_set__comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  ::cordl_internals::setInstanceField(this, &this->____comparer, value);
 }
 template <typename TKey, typename TValue> inline ::System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>* System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>*>());

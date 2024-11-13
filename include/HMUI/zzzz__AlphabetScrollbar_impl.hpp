@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::*)(int32_t)>(
     &::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x397f400;
+  constexpr static std::size_t addrs = 0x3992c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::*)()>(
     &::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x397f44c;
+  constexpr static std::size_t addrs = 0x3992cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::*)()>(
     &::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x397f450;
+  constexpr static std::size_t addrs = 0x3992cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::*)()>(
     &::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397f58c;
+  constexpr static std::size_t addrs = 0x3992e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::*)()>(
     &::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x397f594;
+  constexpr static std::size_t addrs = 0x3992e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::*)()>(
     &::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397f5cc;
+  constexpr static std::size_t addrs = 0x3992e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AlphabetScrollbar::*)()>(&::HMUI::AlphabetScrollbar::Awake)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x397e5b4;
+  constexpr static std::size_t addrs = 0x3991e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AlphabetScrollbar*>::get(), "Awake",
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HMUI::AlphabetScrollbar::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>*)>(&::HMUI::AlphabetScrollbar::SetData)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x397e5d4;
+  constexpr static std::size_t addrs = 0x3991e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AlphabetScrollbar::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::AlphabetScrollbar::OnPointerDown)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x397ee3c;
+  constexpr static std::size_t addrs = 0x39926c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AlphabetScrollbar::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::AlphabetScrollbar::OnPointerUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397f1f4;
+  constexpr static std::size_t addrs = 0x3992a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AlphabetScrollbar::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::AlphabetScrollbar::OnPointerEnter)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x397f1fc;
+  constexpr static std::size_t addrs = 0x3992a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AlphabetScrollbar::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::AlphabetScrollbar::OnPointerExit)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x397f288;
+  constexpr static std::size_t addrs = 0x3992b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AlphabetScrollbar::*)()>(&::HMUI::AlphabetScrollbar::PrepareTransforms)> {
   constexpr static std::size_t size = 0x4fc;
-  constexpr static std::size_t addrs = 0x397e940;
+  constexpr static std::size_t addrs = 0x39921c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AlphabetScrollbar*>::get(), "PrepareTransforms",
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AlphabetScrollbar::*)()>(&::HMUI::AlphabetScrollbar::RefreshHighlight)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x397f2ac;
+  constexpr static std::size_t addrs = 0x3992b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AlphabetScrollbar*>::get(), "RefreshHighlight",
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::HMUI::AlphabetScrollbar::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::AlphabetScrollbar::PointerMoveInsideCoroutine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x397f21c;
+  constexpr static std::size_t addrs = 0x3992aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::AlphabetScrollbar::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::AlphabetScrollbar::GetPointerCharacterIndex)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x397ef20;
+  constexpr static std::size_t addrs = 0x39927a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -376,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AlphabetScrollbar::*)(::TMPro::TextMeshProUGUI*, char16_t)>(&::HMUI::AlphabetScrollbar::InitText)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x397e84c;
+  constexpr static std::size_t addrs = 0x39920d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::AlphabetScrollbar::*)()>(&::HMUI::AlphabetScrollbar::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x397f428;
+  constexpr static std::size_t addrs = 0x3992cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::AlphabetScrollbar*>::get(), ".ctor",

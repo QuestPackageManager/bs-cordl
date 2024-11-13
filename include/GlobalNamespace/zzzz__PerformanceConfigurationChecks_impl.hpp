@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::IsValid)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3aab5ec;
+  constexpr static std::size_t addrs = 0x3abf188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::CreateErrorLog)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x3aab648;
+  constexpr static std::size_t addrs = 0x3abf1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)(
     ByRef<::BeatSaber::Settings::Settings>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask)>(&::GlobalNamespace::PerformanceConfigurationChecks::SetExpected)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x3aab8d4;
+  constexpr static std::size_t addrs = 0x3abf470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)(
     ByRef<::BeatSaber::Settings::Settings>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask)>(&::GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected)> {
   constexpr static std::size_t size = 0x1bf8;
-  constexpr static std::size_t addrs = 0x3aabd78;
+  constexpr static std::size_t addrs = 0x3abf914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3aad970;
+  constexpr static std::size_t addrs = 0x3ac150c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),

@@ -169,7 +169,7 @@ public:
   ::ArrayW<TValue, ::Array<TValue>*> additionalValues;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7044 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7049 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -240,7 +240,7 @@ public:
   int32_t index;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7048 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

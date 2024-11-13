@@ -51,7 +51,7 @@ public:
   ::ArrayW<::StringW, ::Array<::StringW>*> assigned_loaders;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18599 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -80,7 +80,7 @@ public:
   // Declarations
   using BuildEvent = ::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent;
 
-  /// @brief Method Initialize, addr 0x47baaac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x47cf1c4, size 0x8, virtual false, abstract: false, final false
   static inline bool Initialize();
 
 protected:
@@ -98,7 +98,7 @@ public:
   XRManagementAnalytics(XRManagementAnalytics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18600 };
 
   /// @brief Field kEventBuild offset 0xffffffff size 0x8
   static constexpr ::ConstString kEventBuild{ u"xrmanagment_build" };

@@ -50,13 +50,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Collider_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x3a2f43c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3a42d94, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Collider* _ToTestObject_b__1_0(::UnityEngine::Collider* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x3a2f498, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3a42df0, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Collider* _ToTestObject_b__2_0(::UnityEngine::Collider* lod);
 
-  /// @brief Method .ctor, addr 0x3a2f434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a42d8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_Collider_Extensions____c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   __Test_Collider_Extensions____c(__Test_Collider_Extensions____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11863 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -104,14 +104,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Collider_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x3a2f1f0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a42b48, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Collider*, ::Array<::HoudiniEngineUnity::Test_Collider*>*>
   ToTestObject(::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x3a2c240, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a3fb98, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Collider* ToTestObject(::UnityEngine::Collider* self);
 
-  /// @brief Method ToTestObject, addr 0x3a2f2e0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a42c38, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Collider*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* self);
 
 protected:
@@ -129,7 +129,7 @@ public:
   Test_Collider_Extensions(Test_Collider_Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11864 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -6,13 +6,14 @@
 #include "GlobalNamespace/zzzz__PS4PublisherSKUSettingsSO_def.hpp"
 #include "GlobalNamespace/zzzz__PS4ApplicationCategory_def.hpp"
 #include "GlobalNamespace/zzzz__PS4PublisherSKUSettingsSO_def.hpp"
+#include "GlobalNamespace/zzzz__SonyVersion_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion.get_masterVersion
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SonyVersion* (::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::*)()>(
     &::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::get_masterVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a69b8;
+  constexpr static std::size_t addrs = 0x26b25d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,15 +25,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion.get_applicationVersion
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SonyVersion* (::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::*)()>(
     &::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::get_applicationVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a69c0;
+  constexpr static std::size_t addrs = 0x26b25e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*>::get(),
                                                  "get_applicationVersion", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion.CopyValueFrom
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::*)(
+    ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*)>(&::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::CopyValueFrom)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x26b25e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*>::get(), "CopyValueFrom", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion.IncreaseAppVersion
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::*)()>(
+    &::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::IncreaseAppVersion)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x26b2648;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*>::get(), "IncreaseAppVersion",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -42,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::*)()>(
     &::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a69c8;
+  constexpr static std::size_t addrs = 0x26b26a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,41 +82,53 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__cordl_internal_get__masterVersion() {
+constexpr ::GlobalNamespace::SonyVersion*& GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__cordl_internal_get__masterVersion() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterVersion;
 }
-constexpr ::StringW const& GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__cordl_internal_get__masterVersion() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyVersion*> const& GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__cordl_internal_get__masterVersion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____masterVersion;
 }
-constexpr void GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__cordl_internal_set__masterVersion(::StringW value) {
+constexpr void GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__cordl_internal_set__masterVersion(::GlobalNamespace::SonyVersion* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____masterVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__cordl_internal_get__applicationVersion() {
+constexpr ::GlobalNamespace::SonyVersion*& GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__cordl_internal_get__applicationVersion() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applicationVersion;
 }
-constexpr ::StringW const& GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__cordl_internal_get__applicationVersion() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyVersion*> const& GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__cordl_internal_get__applicationVersion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applicationVersion;
 }
-constexpr void GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__cordl_internal_set__applicationVersion(::StringW value) {
+constexpr void GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::__cordl_internal_set__applicationVersion(::GlobalNamespace::SonyVersion* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____applicationVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::StringW GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::get_masterVersion() {
+inline ::GlobalNamespace::SonyVersion* GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::get_masterVersion() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*>::get(), "get_masterVersion",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::SonyVersion*, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::get_applicationVersion() {
+inline ::GlobalNamespace::SonyVersion* GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::get_applicationVersion() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*>::get(),
                                                "get_applicationVersion", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::SonyVersion*, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::CopyValueFrom(::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* newVersion) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*>::get(), "CopyValueFrom", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newVersion);
+}
+inline void GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::IncreaseAppVersion() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*>::get(), "IncreaseAppVersion",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion*>());
@@ -104,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* (::GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(
     &::GlobalNamespace::PS4PublisherSKUSettingsSO::get_buildVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6978;
+  constexpr static std::size_t addrs = 0x26b2598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS4PublisherSKUSettingsSO*>::get(),
@@ -118,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* (::GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(
     &::GlobalNamespace::PS4PublisherSKUSettingsSO::get_latestBuildVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6980;
+  constexpr static std::size_t addrs = 0x26b25a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS4PublisherSKUSettingsSO*>::get(),
@@ -132,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(
     &::GlobalNamespace::PS4PublisherSKUSettingsSO::get_parentalLockLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6988;
+  constexpr static std::size_t addrs = 0x26b25a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS4PublisherSKUSettingsSO*>::get(),
@@ -146,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(
     &::GlobalNamespace::PS4PublisherSKUSettingsSO::get_npTitleFilenamePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6990;
+  constexpr static std::size_t addrs = 0x26b25b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS4PublisherSKUSettingsSO*>::get(),
@@ -160,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(
     &::GlobalNamespace::PS4PublisherSKUSettingsSO::get_defaultAgeRestriction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a6998;
+  constexpr static std::size_t addrs = 0x26b25b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS4PublisherSKUSettingsSO*>::get(),
@@ -174,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PS4ApplicationCategory (::GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(
     &::GlobalNamespace::PS4PublisherSKUSettingsSO::get_applicationCategory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a69a0;
+  constexpr static std::size_t addrs = 0x26b25c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS4PublisherSKUSettingsSO*>::get(),
@@ -187,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS4PublisherSKUSettingsSO::*)()>(&::GlobalNamespace::PS4PublisherSKUSettingsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a69a8;
+  constexpr static std::size_t addrs = 0x26b25c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS4PublisherSKUSettingsSO*>::get(), ".ctor",

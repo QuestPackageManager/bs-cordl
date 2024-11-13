@@ -14,7 +14,7 @@ namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class SpawnRotationBeatmapEventData;
+class BeatmapObjectData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,27 +62,27 @@ public:
 
   __declspec(property(get = get_targetRotation)) float_t targetRotation;
 
-  /// @brief Method FixedUpdate, addr 0x3b2141c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3b368e8, size 0x8c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x3b21320, size 0xfc, virtual false, abstract: false, final false
-  inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
+  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x3b367e8, size 0x100, virtual false, abstract: false, final false
+  inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::BeatmapObjectData* data);
 
-  /// @brief Method LateUpdate, addr 0x3b214a8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b36974, size 0x120, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::EnvironmentSpawnRotation* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b21304, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b367cc, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b21144, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b3660c, size 0x60, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b210e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b365ac, size 0x60, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x3b211a4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b3666c, size 0x160, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
@@ -127,14 +127,14 @@ public:
 
   constexpr void __cordl_internal_set__targetRotation(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b215c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b36a94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__numberOfActiveEnvironmentSpawnRotationObjects();
 
   static inline int32_t getStaticF__spawnRotationID();
 
-  /// @brief Method get_targetRotation, addr 0x3b210dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetRotation, addr 0x3b365a4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetRotation();
 
   static inline void setStaticF__numberOfActiveEnvironmentSpawnRotationObjects(int32_t value);
@@ -177,7 +177,7 @@ public:
   float_t ____targetRotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4343 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -66,19 +66,19 @@ public:
   /// @brief Field iT3, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_iT3, put = setStaticF_iT3)) ::ArrayW<uint32_t, ::Array<uint32_t>*> iT3;
 
-  /// @brief Method Decrypt128, addr 0x4017a3c, size 0x1df4, virtual false, abstract: false, final false
+  /// @brief Method Decrypt128, addr 0x402c154, size 0x1df4, virtual false, abstract: false, final false
   inline void Decrypt128(::ArrayW<uint8_t, ::Array<uint8_t>*> indata, ::ArrayW<uint8_t, ::Array<uint8_t>*> outdata, ::ArrayW<uint32_t, ::Array<uint32_t>*> ekey);
 
-  /// @brief Method ECB, addr 0x4015bfc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ECB, addr 0x402a314, size 0x14, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method Encrypt128, addr 0x4015c10, size 0x1e2c, virtual false, abstract: false, final false
+  /// @brief Method Encrypt128, addr 0x402a328, size 0x1e2c, virtual false, abstract: false, final false
   inline void Encrypt128(::ArrayW<uint8_t, ::Array<uint8_t>*> indata, ::ArrayW<uint8_t, ::Array<uint8_t>*> outdata, ::ArrayW<uint32_t, ::Array<uint32_t>*> ekey);
 
   static inline ::System::Security::Cryptography::AesTransform* New_ctor(::System::Security::Cryptography::Aes* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method SubByte, addr 0x4015b38, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SubByte, addr 0x402a250, size 0xc4, virtual false, abstract: false, final false
   inline uint32_t SubByte(uint32_t a);
 
   constexpr int32_t const& __cordl_internal_get_Nk() const;
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_expandedKey(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x40151fc, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4029914, size 0x6f4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::Aes* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_Rcon();
@@ -170,7 +170,7 @@ public:
   int32_t ___Nr;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13526 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

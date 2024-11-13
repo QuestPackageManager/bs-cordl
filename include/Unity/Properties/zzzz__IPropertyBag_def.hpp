@@ -33,7 +33,7 @@ public:
   IPropertyBag(IPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

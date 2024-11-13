@@ -39,16 +39,16 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_Vector3SerializationSurrogate* New_ctor();
 
-  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.GetObjectData, addr 0x399e1fc, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.GetObjectData, addr 0x39b1b54, size 0xf4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializationSurrogate_GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info,
                                                                                  ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.SetObjectData, addr 0x399e2f0, size 0x1fc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.SetObjectData, addr 0x39b1c48, size 0x1fc, virtual true, abstract: false, final true
   inline ::System::Object* System_Runtime_Serialization_ISerializationSurrogate_SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info,
                                                                                               ::System::Runtime::Serialization::StreamingContext context,
                                                                                               ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
-  /// @brief Method .ctor, addr 0x399d5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39b0f4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"
@@ -69,7 +69,7 @@ public:
   HEU_Vector3SerializationSurrogate(HEU_Vector3SerializationSurrogate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11564 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

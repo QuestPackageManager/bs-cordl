@@ -27,28 +27,28 @@ public:
   /// @brief Field s_UseYSign, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_s_UseYSign, put = setStaticF_s_UseYSign)) bool s_UseYSign;
 
-  /// @brief Method Acceleration, addr 0x482e3c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Acceleration, addr 0x4842adc, size 0x24, virtual false, abstract: false, final false
   static inline float_t Acceleration(bool shiftPressed, bool altPressed);
 
-  /// @brief Method CalculateFloatDragSensitivity, addr 0x482e540, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CalculateFloatDragSensitivity, addr 0x4842c58, size 0x90, virtual false, abstract: false, final false
   static inline double_t CalculateFloatDragSensitivity(double_t value);
 
-  /// @brief Method CalculateFloatDragSensitivity, addr 0x482e5d0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CalculateFloatDragSensitivity, addr 0x4842ce8, size 0x90, virtual false, abstract: false, final false
   static inline double_t CalculateFloatDragSensitivity(double_t value, double_t minValue, double_t maxValue);
 
-  /// @brief Method CalculateIntDragSensitivity, addr 0x482e68c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CalculateIntDragSensitivity, addr 0x4842da4, size 0x7c, virtual false, abstract: false, final false
   static inline double_t CalculateIntDragSensitivity(double_t value);
 
-  /// @brief Method CalculateIntDragSensitivity, addr 0x482e660, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CalculateIntDragSensitivity, addr 0x4842d78, size 0x2c, virtual false, abstract: false, final false
   static inline int64_t CalculateIntDragSensitivity(int64_t value);
 
-  /// @brief Method CalculateIntDragSensitivity, addr 0x482e72c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CalculateIntDragSensitivity, addr 0x4842e44, size 0xa0, virtual false, abstract: false, final false
   static inline int64_t CalculateIntDragSensitivity(int64_t value, int64_t minValue, int64_t maxValue);
 
-  /// @brief Method CalculateIntDragSensitivity, addr 0x482e708, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CalculateIntDragSensitivity, addr 0x4842e20, size 0x24, virtual false, abstract: false, final false
   static inline uint64_t CalculateIntDragSensitivity(uint64_t value);
 
-  /// @brief Method NiceDelta, addr 0x482e3e8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method NiceDelta, addr 0x4842b00, size 0x158, virtual false, abstract: false, final false
   static inline float_t NiceDelta(::UnityEngine::Vector2 deviceDelta, float_t acceleration);
 
   static inline bool getStaticF_s_UseYSign();
@@ -70,7 +70,7 @@ public:
   NumericFieldDraggerUtility(NumericFieldDraggerUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10795 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

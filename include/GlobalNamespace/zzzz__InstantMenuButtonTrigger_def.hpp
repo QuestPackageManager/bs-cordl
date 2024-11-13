@@ -45,7 +45,7 @@ public:
 
   static inline ::GlobalNamespace::InstantMenuButtonTrigger* New_ctor();
 
-  /// @brief Method Tick, addr 0x3b30910, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x3b463c8, size 0xcc, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b309dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b46494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x3b307d8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x3b46290, size 0x9c, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
@@ -72,7 +72,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x3b30874, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x3b4632c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
 protected:
@@ -96,7 +96,7 @@ public:
   ::System::Action* ___menuButtonTriggeredEvent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4416 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

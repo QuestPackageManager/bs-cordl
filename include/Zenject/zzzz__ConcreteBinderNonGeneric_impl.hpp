@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Zenject::ConcreteBinderNonGeneric::*)(::Zenject::DiContainer*, ::Zenject::BindInfo*, ::Zenject::BindStatement*)>(&::Zenject::ConcreteBinderNonGeneric::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4a842dc;
+  constexpr static std::size_t addrs = 0x4a989f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::FromBinderNonGeneric* (::Zenject::ConcreteBinderNonGeneric::*)()>(
     &::Zenject::ConcreteBinderNonGeneric::ToSelf)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4a84340;
+  constexpr static std::size_t addrs = 0x4a98a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ConcreteBinderNonGeneric*>::get(), "ToSelf",
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::FromBinderNonGeneric* (::Zenject::ConcreteBinderNonGeneric::*)(::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::Zenject::ConcreteBinderNonGeneric::To)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a84480;
+  constexpr static std::size_t addrs = 0x4a98b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::FromBinderNonGeneric* (::Zenject::ConcreteBinderNonGeneric::*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&::Zenject::ConcreteBinderNonGeneric::To)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4a84484;
+  constexpr static std::size_t addrs = 0x4a98b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::FromBinderNonGeneric* (::Zenject::ConcreteBinderNonGeneric::*)(::System::Action_1<::Zenject::ConventionSelectTypesBinder*>*)>(&::Zenject::ConcreteBinderNonGeneric::To)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x4a84594;
+  constexpr static std::size_t addrs = 0x4a98cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::IProvider* (::Zenject::ConcreteBinderNonGeneric::*)(::Zenject::DiContainer*, ::System::Type*)>(
     &::Zenject::ConcreteBinderNonGeneric::_ToSelf_b__1_0)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4a84978;
+  constexpr static std::size_t addrs = 0x4a99090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

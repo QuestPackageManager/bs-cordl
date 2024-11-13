@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewControllersInstaller::*)()>(
     &::GlobalNamespace::MainSettingsMenuViewControllersInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3b7a524;
+  constexpr static std::size_t addrs = 0x3b9009c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewControllersInstaller::*)()>(
     &::GlobalNamespace::MainSettingsMenuViewControllersInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7a5d8;
+  constexpr static std::size_t addrs = 0x3b90150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

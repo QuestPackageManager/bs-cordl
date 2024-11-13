@@ -86,7 +86,7 @@ public:
   ::StringW ___m_CommandName;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

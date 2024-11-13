@@ -65,20 +65,20 @@ public:
 
   constexpr void __cordl_internal_set_source(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4246a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x425b14c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* getStaticF_languageType();
 
   static inline void setStaticF_languageType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_Language, addr 0x424695c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method set_Language, addr 0x425b074, size 0xd0, virtual false, abstract: false, final false
   inline void set_Language(::StringW value);
 
-  /// @brief Method set_Markup, addr 0x4246a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Markup, addr 0x425b144, size 0x8, virtual false, abstract: false, final false
   inline void set_Markup(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> value);
 
-  /// @brief Method set_Source, addr 0x4246954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Source, addr 0x425b06c, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::StringW value);
 
 protected:
@@ -105,7 +105,7 @@ public:
   ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> ___markup;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7644 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

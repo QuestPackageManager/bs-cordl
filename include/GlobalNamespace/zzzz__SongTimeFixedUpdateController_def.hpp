@@ -51,7 +51,7 @@ public:
 
   static inline ::GlobalNamespace::SongTimeFixedUpdateController* New_ctor();
 
-  /// @brief Method Update, addr 0x3a6a314, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a7dd6c, size 0x140, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__accumulator() const;
@@ -84,25 +84,25 @@ public:
 
   constexpr void __cordl_internal_set_songControllerTimeDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3a6a454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7deac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_songControllerFixedTimeDidUpdateEvent, addr 0x3a6a068, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_songControllerFixedTimeDidUpdateEvent, addr 0x3a7dac0, size 0xb0, virtual false, abstract: false, final false
   inline void add_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method add_songControllerTimeDidUpdateEvent, addr 0x3a6a1c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_songControllerTimeDidUpdateEvent, addr 0x3a7dc20, size 0x9c, virtual false, abstract: false, final false
   inline void add_songControllerTimeDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method get_fixedDeltaTime, addr 0x3a6a300, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_fixedDeltaTime, addr 0x3a7dd58, size 0xc, virtual false, abstract: false, final false
   inline float_t get_fixedDeltaTime();
 
-  /// @brief Method get_interpolationFactor, addr 0x3a6a30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interpolationFactor, addr 0x3a7dd64, size 0x8, virtual false, abstract: false, final false
   inline float_t get_interpolationFactor();
 
-  /// @brief Method remove_songControllerFixedTimeDidUpdateEvent, addr 0x3a6a118, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_songControllerFixedTimeDidUpdateEvent, addr 0x3a7db70, size 0xb0, virtual false, abstract: false, final false
   inline void remove_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_songControllerTimeDidUpdateEvent, addr 0x3a6a264, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_songControllerTimeDidUpdateEvent, addr 0x3a7dcbc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_songControllerTimeDidUpdateEvent(::System::Action* value);
 
 protected:
@@ -135,7 +135,7 @@ public:
   float_t ____interpolationFactor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4026 };
 
   /// @brief Field kFixedDeltaTime offset 0xffffffff size 0x4
   static constexpr float_t kFixedDeltaTime{ 0.016666668 };

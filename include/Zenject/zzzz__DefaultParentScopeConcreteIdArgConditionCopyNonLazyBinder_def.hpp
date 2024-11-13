@@ -37,7 +37,7 @@ public:
 
   static inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithDefaultGameObjectParent, addr 0x4a88f84, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithDefaultGameObjectParent, addr 0x4a9d69c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::StringW defaultParentName);
 
   constexpr ::Zenject::SubContainerCreatorBindInfo*& __cordl_internal_get__SubContainerCreatorBindInfo_k__BackingField();
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__SubContainerCreatorBindInfo_k__BackingField(::Zenject::SubContainerCreatorBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x4a88f48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a9d660, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method get_SubContainerCreatorBindInfo, addr 0x4a88f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubContainerCreatorBindInfo, addr 0x4a9d68c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SubContainerCreatorBindInfo* get_SubContainerCreatorBindInfo();
 
-  /// @brief Method set_SubContainerCreatorBindInfo, addr 0x4a88f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SubContainerCreatorBindInfo, addr 0x4a9d694, size 0x8, virtual false, abstract: false, final false
   inline void set_SubContainerCreatorBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   ::Zenject::SubContainerCreatorBindInfo* ____SubContainerCreatorBindInfo_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12006 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

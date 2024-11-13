@@ -66,10 +66,10 @@ public:
 
   static inline ::GlobalNamespace::__UIRAtlasAllocator__Row____c* New_ctor();
 
-  /// @brief Method <.cctor>b__21_0, addr 0x49cd384, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__21_0, addr 0x49e1a9c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__UIRAtlasAllocator__Row* __cctor_b__21_0();
 
-  /// @brief Method .ctor, addr 0x49cd37c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e1a94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__UIRAtlasAllocator__Row____c* getStaticF___9();
@@ -91,7 +91,7 @@ public:
   __UIRAtlasAllocator__Row____c(__UIRAtlasAllocator__Row____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5990 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5995 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -135,12 +135,12 @@ public:
 
   __declspec(property(get = get_width, put = set_width)) int32_t width;
 
-  /// @brief Method Acquire, addr 0x49ccfdc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x49e16f4, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__Row* Acquire(int32_t offsetX, int32_t offsetY, int32_t width, int32_t height);
 
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__Row* New_ctor();
 
-  /// @brief Method Release, addr 0x49cc52c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x49e0c44, size 0x90, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr int32_t const& __cordl_internal_get_Cursor() const;
@@ -173,32 +173,32 @@ public:
 
   constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x49cd208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e1920, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>* getStaticF_s_Pool();
 
-  /// @brief Method get_offsetX, addr 0x49cd1d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetX, addr 0x49e18e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_offsetX();
 
-  /// @brief Method get_offsetY, addr 0x49cd1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetY, addr 0x49e18f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_offsetY();
 
-  /// @brief Method get_width, addr 0x49cd1f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x49e1908, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
   static inline void setStaticF_s_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>* value);
 
-  /// @brief Method set_height, addr 0x49cd200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x49e1918, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method set_offsetX, addr 0x49cd1d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offsetX, addr 0x49e18f0, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetX(int32_t value);
 
-  /// @brief Method set_offsetY, addr 0x49cd1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offsetY, addr 0x49e1900, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetY(int32_t value);
 
-  /// @brief Method set_width, addr 0x49cd1f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x49e1910, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
 protected:
@@ -231,7 +231,7 @@ public:
   int32_t ___Cursor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5991 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -262,10 +262,10 @@ public:
 
   static inline ::GlobalNamespace::__UIRAtlasAllocator__AreaNode____c* New_ctor();
 
-  /// @brief Method <.cctor>b__9_0, addr 0x49cd554, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_0, addr 0x49e1c6c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* __cctor_b__9_0();
 
-  /// @brief Method .ctor, addr 0x49cd54c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e1c64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__UIRAtlasAllocator__AreaNode____c* getStaticF___9();
@@ -287,7 +287,7 @@ public:
   __UIRAtlasAllocator__AreaNode____c(__UIRAtlasAllocator__AreaNode____c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5997 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -317,18 +317,18 @@ public:
   /// @brief Field s_Pool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Pool, put = setStaticF_s_Pool)) ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*>* s_Pool;
 
-  /// @brief Method Acquire, addr 0x49cc910, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x49e1028, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* Acquire(::UnityEngine::RectInt rect);
 
-  /// @brief Method AddAfter, addr 0x49cd0b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddAfter, addr 0x49e17c8, size 0xac, virtual false, abstract: false, final false
   inline void AddAfter(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* previous);
 
   static inline ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* New_ctor();
 
-  /// @brief Method Release, addr 0x49cc5bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x49e0cd4, size 0x80, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method RemoveFromChain, addr 0x49cd088, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromChain, addr 0x49e17a0, size 0x28, virtual false, abstract: false, final false
   inline void RemoveFromChain();
 
   constexpr ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*& __cordl_internal_get_next();
@@ -349,7 +349,7 @@ public:
 
   constexpr void __cordl_internal_set_rect(::UnityEngine::RectInt value);
 
-  /// @brief Method .ctor, addr 0x49cd3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e1af0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode*>* getStaticF_s_Pool();
@@ -380,7 +380,7 @@ public:
   ::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* ___next;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5998 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -467,24 +467,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BuildAreas, addr 0x49cc9a8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method BuildAreas, addr 0x49e10c0, size 0xf8, virtual false, abstract: false, final false
   inline void BuildAreas();
 
-  /// @brief Method Dispose, addr 0x49cc430, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49e0b48, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49cc49c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49e0bb4, size 0x90, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetLog2OfNextPower, addr 0x49cc63c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetLog2OfNextPower, addr 0x49e0d54, size 0x130, virtual false, abstract: false, final false
   static inline int32_t GetLog2OfNextPower(int32_t n);
 
   static inline ::UnityEngine::UIElements::UIRAtlasAllocator* New_ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
 
-  /// @brief Method TryAllocate, addr 0x49ccaa0, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method TryAllocate, addr 0x49e11b8, size 0x3b4, virtual false, abstract: false, final false
   inline bool TryAllocate(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> location);
 
-  /// @brief Method TryPartitionArea, addr 0x49cce54, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method TryPartitionArea, addr 0x49e156c, size 0x188, virtual false, abstract: false, final false
   inline bool TryPartitionArea(::UnityEngine::UIElements::__UIRAtlasAllocator__AreaNode* areaNode, int32_t rowIndex, int32_t rowHeight, int32_t minWidth);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -559,33 +559,33 @@ public:
 
   constexpr void __cordl_internal_set_m_OpenRows(::ArrayW<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*, ::Array<::UnityEngine::UIElements::__UIRAtlasAllocator__Row*>*> value);
 
-  /// @brief Method .ctor, addr 0x49cc76c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49e0e84, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerTryAllocate();
 
-  /// @brief Method get_disposed, addr 0x49cc41c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x49e0b34, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_maxAtlasSize, addr 0x49cc3c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxAtlasSize, addr 0x49e0adc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxAtlasSize();
 
-  /// @brief Method get_maxImageHeight, addr 0x49cc3d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxImageHeight, addr 0x49e0aec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxImageHeight();
 
-  /// @brief Method get_maxImageWidth, addr 0x49cc3cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxImageWidth, addr 0x49e0ae4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxImageWidth();
 
-  /// @brief Method get_physicalHeight, addr 0x49cc40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicalHeight, addr 0x49e0b24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_physicalHeight();
 
-  /// @brief Method get_physicalWidth, addr 0x49cc3fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicalWidth, addr 0x49e0b14, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_physicalWidth();
 
-  /// @brief Method get_virtualHeight, addr 0x49cc3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_virtualHeight, addr 0x49e0b04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_virtualHeight();
 
-  /// @brief Method get_virtualWidth, addr 0x49cc3dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_virtualWidth, addr 0x49e0af4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_virtualWidth();
 
   /// @brief Convert to "::System::IDisposable"
@@ -593,19 +593,19 @@ public:
 
   static inline void setStaticF_s_MarkerTryAllocate(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_disposed, addr 0x49cc424, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x49e0b3c, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method set_physicalHeight, addr 0x49cc414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_physicalHeight, addr 0x49e0b2c, size 0x8, virtual false, abstract: false, final false
   inline void set_physicalHeight(int32_t value);
 
-  /// @brief Method set_physicalWidth, addr 0x49cc404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_physicalWidth, addr 0x49e0b1c, size 0x8, virtual false, abstract: false, final false
   inline void set_physicalWidth(int32_t value);
 
-  /// @brief Method set_virtualHeight, addr 0x49cc3f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_virtualHeight, addr 0x49e0b0c, size 0x8, virtual false, abstract: false, final false
   inline void set_virtualHeight(int32_t value);
 
-  /// @brief Method set_virtualWidth, addr 0x49cc3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_virtualWidth, addr 0x49e0afc, size 0x8, virtual false, abstract: false, final false
   inline void set_virtualWidth(int32_t value);
 
 protected:
@@ -659,7 +659,7 @@ public:
   bool ____disposed_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5999 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

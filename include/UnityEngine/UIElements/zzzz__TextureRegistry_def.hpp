@@ -61,7 +61,7 @@ public:
   int32_t refCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6013 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -102,24 +102,24 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Textures,
                       put = __cordl_internal_set_m_Textures)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TextureRegistry__TextureInfo>* m_Textures;
 
-  /// @brief Method Acquire, addr 0x49ec068, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x4a00780, size 0x168, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId Acquire(::UnityEngine::Texture* tex);
 
-  /// @brief Method AllocAndAcquire, addr 0x49ebb88, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method AllocAndAcquire, addr 0x4a002a0, size 0x28c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId AllocAndAcquire(::UnityEngine::Texture* texture, bool dynamic);
 
-  /// @brief Method AllocAndAcquireDynamic, addr 0x49ebb6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AllocAndAcquireDynamic, addr 0x4a00284, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId AllocAndAcquireDynamic();
 
-  /// @brief Method GetTexture, addr 0x49eb9b8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x4a000d0, size 0x1b4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> GetTexture(::UnityEngine::UIElements::TextureId id);
 
   static inline ::UnityEngine::UIElements::TextureRegistry* New_ctor();
 
-  /// @brief Method Release, addr 0x49ec1d0, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x4a008e8, size 0x280, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::UIElements::TextureId id);
 
-  /// @brief Method UpdateDynamic, addr 0x49ebe14, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method UpdateDynamic, addr 0x4a0052c, size 0x254, virtual false, abstract: false, final false
   inline void UpdateDynamic(::UnityEngine::UIElements::TextureId id, ::UnityEngine::Texture* texture);
 
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::TextureId>*& __cordl_internal_get_m_FreeIds();
@@ -141,12 +141,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Textures(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TextureRegistry__TextureInfo>* value);
 
-  /// @brief Method .ctor, addr 0x49ec450, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a00b68, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::TextureRegistry* getStaticF__instance_k__BackingField();
 
-  /// @brief Method get_instance, addr 0x49eb960, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x4a00078, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextureRegistry* get_instance();
 
   static inline void setStaticF__instance_k__BackingField(::UnityEngine::UIElements::TextureRegistry* value);
@@ -175,7 +175,7 @@ public:
   ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::TextureId>* ___m_FreeIds;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6014 };
 
   /// @brief Field maxTextures offset 0xffffffff size 0x4
   static constexpr int32_t maxTextures{ static_cast<int32_t>(0x800) };

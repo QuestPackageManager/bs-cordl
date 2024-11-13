@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
   constexpr operator ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept;
 
-  /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x26c9a38, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x26d5728, size 0x114, virtual true, abstract: false, final true
   inline int32_t System_IComparable_BeatmapSaveDataCommon_IBeat__CompareTo(::BeatmapSaveDataCommon::IBeat* other);
 
   /// @brief Method get_beat, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -46,7 +46,7 @@ public:
   IBeat(IBeat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13416 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

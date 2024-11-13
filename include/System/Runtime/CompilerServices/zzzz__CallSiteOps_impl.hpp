@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::CompilerServices::CallSite*)>(
     &::System::Runtime::CompilerServices::CallSiteOps::SetNotMatched)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x40840b8;
+  constexpr static std::size_t addrs = 0x40987d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::CompilerServices::CallSite*)>(
     &::System::Runtime::CompilerServices::CallSiteOps::GetMatch)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x40840d8;
+  constexpr static std::size_t addrs = 0x40987f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::CompilerServices::CallSite*)>(
     &::System::Runtime::CompilerServices::CallSiteOps::ClearMatch)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x40840f0;
+  constexpr static std::size_t addrs = 0x4098808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

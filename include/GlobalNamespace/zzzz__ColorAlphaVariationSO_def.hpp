@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__baseColor(::UnityW<::GlobalNamespace::NoAlphaColorSO> value);
 
-  /// @brief Method .ctor, addr 0x26608f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266b9a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x26608c4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x266b96c, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -77,7 +77,7 @@ public:
   ::UnityW<::GlobalNamespace::AlphaSO> ____alpha;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18896 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__Exception_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x489dbd4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b22ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW exception);
 
-  /// @brief Method set_Exception, addr 0x489dbcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Exception, addr 0x48b22e4, size 0x8, virtual false, abstract: false, final false
   inline void set_Exception(::StringW value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   ::StringW ____Exception_k__BackingField;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18624 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
